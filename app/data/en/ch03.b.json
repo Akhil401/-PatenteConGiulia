@@ -1,0 +1,2369 @@
+{
+ "q19592": {
+  "en": "The sign shown is a prohibition sign.",
+  "explain": {
+   "short": "A red circle on white is the shape of prohibition signs: this one forbids going over 80 km/h.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'divieto' means prohibition: the red ring tells you something is forbidden.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red ring = prohibition: no faster than 80",
+    "it": "divieto",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di divieto",
+    "en": "prohibition sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19593": {
+  "en": "Where the sign shown is present, it is forbidden to exceed a speed of 80 km/h.",
+  "explain": {
+   "short": "The 80 inside the red ring is a maximum: driving faster than 80 km/h is forbidden.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'superare' here means going above a speed, not overtaking a car.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Max 80 km/h: going faster is forbidden",
+    "it": "vietato superare",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato superare",
+    "en": "forbidden to exceed"
+   },
+   {
+    "it": "velocità",
+    "en": "speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19594": {
+  "en": "The sign shown can also be found on motorways.",
+  "explain": {
+   "short": "Speed limit signs are used on every kind of road, motorways included, for example near roadworks or bends.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'anche' means 'also': the sign is not only for ordinary roads.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Speed limits appear on motorways too",
+    "it": "autostrade",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "può trovarsi",
+    "en": "can be found"
+   },
+   {
+    "it": "autostrade",
+    "en": "motorways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19595": {
+  "en": "The speed limit shown on the sign is valid immediately after the sign itself.",
+  "explain": {
+   "short": "Prohibition signs are placed where the rule starts: the limit applies right from the sign.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'immediatamente' means at once: no 150 m warning distance, unlike danger signs.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The limit starts right at the sign",
+    "it": "immediatamente",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "ha validità",
+    "en": "is valid"
+   },
+   {
+    "it": "immediatamente dopo",
+    "en": "immediately after"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19596": {
+  "en": "The sign shown requires you to drive at a speed lower than or equal to 80 km/h.",
+  "explain": {
+   "short": "A maximum of 80 means 80 km/h or less is fine; only more than 80 is forbidden.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'inferiore o uguale' means 'less than or equal': 80 itself is allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "80 km/h or less is OK",
+    "it": "inferiore o uguale",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "prescrive",
+    "en": "requires"
+   },
+   {
+    "it": "inferiore o uguale",
+    "en": "lower than or equal"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19597": {
+  "en": "The sign shown is a prescription sign.",
+  "explain": {
+   "short": "Prescription signs (segnali di prescrizione) are the signs that give orders; prohibition signs are one kind of them.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'prescrizione' covers prohibition, obligation and right-of-way signs, so it fits here too.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Prohibition signs are prescription signs",
+    "it": "prescrizione",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di prescrizione",
+    "en": "prescription sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19598": {
+  "en": "The sign shown requires you to keep a safety distance of at least 80 metres.",
+  "explain": {
+   "short": "The 80 is a speed in km/h, not a distance in metres: the sign sets a maximum speed.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'distanza di sicurezza' (safety distance) is a different topic: the number is km/h.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "80 is km/h, not a distance in metres",
+    "it": "limite di velocità",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza di sicurezza",
+    "en": "safety distance"
+   },
+   {
+    "it": "almeno 80 metri",
+    "en": "at least 80 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19599": {
+  "en": "The sign shown does not apply to motorcycles.",
+  "explain": {
+   "short": "A speed limit sign applies to all vehicles, motorcycles included, unless a panel below says otherwise.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'non si riferisce' (does not apply): the limit is for everyone.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorbikes must respect the limit too",
+    "it": "motocicli",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "non si riferisce",
+    "en": "does not apply"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19600": {
+  "en": "The sign shown indicates the recommended speed.",
+  "explain": {
+   "short": "This is a compulsory maximum, not advice. A recommended speed has a different, square blue sign.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'consigliata' means only advised; a red ring is an order, not a suggestion.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not advice: 80 is a compulsory maximum",
+    "it": "velocità massima",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "velocità consigliata",
+    "en": "recommended speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19601": {
+  "en": "The sign shown allows you to overtake at a speed above 80 km/h.",
+  "explain": {
+   "short": "The limit has no exception for overtaking: you may never go above 80 km/h, not even to pass someone.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'sorpasso' (overtaking) does not cancel the limit.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No exception for overtaking: max 80",
+    "it": "sorpasso",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "effettuare il sorpasso",
+    "en": "overtake"
+   },
+   {
+    "it": "superiore a 80 km/h",
+    "en": "above 80 km/h"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19602": {
+  "en": "The sign shown bans vehicles with a total mass over 80 quintals.",
+  "explain": {
+   "short": "A number alone in a red ring is a speed in km/h. A weight limit shows a 't' (tonnes) on a different sign.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'massa' (mass, weight) and 'quintali' are wrong: the number is a speed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "80 is a speed, not a weight",
+    "it": "limite di velocità",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "massa totale",
+    "en": "total mass"
+   },
+   {
+    "it": "quintali",
+    "en": "quintals (100 kg)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19603": {
+  "en": "The sign shown requires you to respect a minimum speed limit.",
+  "explain": {
+   "short": "A red ring sets a MAXIMUM speed. A minimum speed has a blue round sign with a white number.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'minimo' (minimum) is the trap: red ring = maximum.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red ring = maximum, not minimum",
+    "it": "limite massimo",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "limite minimo",
+    "en": "minimum limit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19604": {
+  "en": "The sign shown bans vehicles that, by design, cannot reach the speed shown.",
+  "explain": {
+   "short": "The sign only forbids going faster than 80 km/h. Slow vehicles may still use the road.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'vieta il transito' (bans transit): this sign bans speed above 80, not slow vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow vehicles may still pass: it is a maximum",
+    "it": "velocità massima",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans transit"
+   },
+   {
+    "it": "per costruzione",
+    "en": "by design"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19605": {
+  "en": "The sign shown forbids vehicles to exceed the speed shown.",
+  "explain": {
+   "short": "The number is the top speed: going above 80 km/h is forbidden for every vehicle.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'superare' here means going above the speed, not overtaking.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No vehicle may go above 80 km/h",
+    "it": "vietato superare",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "forbids"
+   },
+   {
+    "it": "superare la velocità",
+    "en": "exceed the speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19606": {
+  "en": "The sign shown requires you to respect a maximum speed limit.",
+  "explain": {
+   "short": "The red ring with a number is the maximum speed limit sign.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'massimo' (maximum) is right; the trap version says 'minimo'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red ring with a number = maximum speed",
+    "it": "limite massimo",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "limite massimo di velocità",
+    "en": "maximum speed limit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19607": {
+  "en": "The sign shown indicates the maximum speed at which vehicles may travel.",
+  "explain": {
+   "short": "The number 80 is the highest speed allowed on that stretch.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'massima' means highest: you may go slower, never faster.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "80 is the top speed allowed",
+    "it": "velocità massima",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "velocità massima",
+    "en": "maximum speed"
+   },
+   {
+    "it": "possono procedere",
+    "en": "may travel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19608": {
+  "en": "The sign shown requires you to travel at a speed not above 80 km/h.",
+  "explain": {
+   "short": "'Not above 80' is just another way to say a maximum of 80 km/h.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'non superiore' means 'not more than': 80 or less.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not more than 80 km/h",
+    "it": "non superiore",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "prescrive l'obbligo",
+    "en": "sets the obligation"
+   },
+   {
+    "it": "non superiore a 80 km/h",
+    "en": "not above 80 km/h"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19609": {
+  "en": "The number shown on the sign indicates the maximum speed allowed.",
+  "explain": {
+   "short": "The number is in km/h and is the highest speed allowed.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'consentita' means allowed: the number is the allowed maximum.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The number = maximum speed allowed",
+    "it": "velocità massima",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "numero",
+    "en": "number"
+   },
+   {
+    "it": "velocità massima consentita",
+    "en": "maximum speed allowed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19610": {
+  "en": "The sign shown allows you to drive at a speed lower than the one shown.",
+  "explain": {
+   "short": "A maximum limit only forbids going faster; driving slower than 80 km/h is allowed.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'inferiore' means lower: below the maximum is fine.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slower than 80 is allowed",
+    "it": "inferiore",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente di circolare",
+    "en": "allows driving"
+   },
+   {
+    "it": "velocità inferiore",
+    "en": "lower speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19611": {
+  "en": "The sign shown indicates a speed limit valid only for motor vehicles (cars, trucks).",
+  "explain": {
+   "short": "Without a panel below, the limit applies to every vehicle, motorbikes and mopeds too.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'solo' (only) is the trap: the limit is for all.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The limit applies to all vehicles",
+    "it": "tutti i veicoli",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "limite di velocità",
+    "en": "speed limit"
+   },
+   {
+    "it": "solo per autoveicoli",
+    "en": "only for motor cars"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19612": {
+  "en": "The sign shown requires you to respect the minimum speed limit shown.",
+  "explain": {
+   "short": "The red ring shows a maximum. A minimum speed has a blue round sign.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'minimo' (minimum) is the trap: red ring = maximum.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red ring = maximum, not minimum",
+    "it": "limite massimo",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "limite minimo",
+    "en": "minimum limit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19613": {
+  "en": "The sign shown requires vehicles that cannot exceed 80 km/h to drive in the right-hand lane.",
+  "explain": {
+   "short": "The sign only sets a maximum speed. It says nothing about lanes for slow vehicles.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'corsia di destra' (right lane): lanes are not part of this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It sets a top speed, not a lane",
+    "it": "limite massimo",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "non sono in grado",
+    "en": "are not able"
+   },
+   {
+    "it": "corsia di destra",
+    "en": "right-hand lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19614": {
+  "en": "The speed limit shown by the sign comes into force 150 metres after the sign itself.",
+  "explain": {
+   "short": "Prohibition signs apply right at the sign. The 150 m distance is for danger signs.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'150 metri dopo' is copied from danger signs; this limit starts at once.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The limit starts at the sign, not 150 m later",
+    "it": "subito",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "entra in vigore",
+    "en": "comes into force"
+   },
+   {
+    "it": "150 metri dopo",
+    "en": "150 metres after"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19615": {
+  "en": "The sign shown bans motor vehicles with a total mass over the value shown.",
+  "explain": {
+   "short": "A number alone in a red ring is a speed in km/h, not a weight. Weight limits show 't' (tonnes).",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'massa complessiva' (total mass) is wrong: the number is a speed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "80 is a speed, not a weight",
+    "it": "limite di velocità",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans transit"
+   },
+   {
+    "it": "massa complessiva",
+    "en": "total mass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19616": {
+  "en": "The sign shown indicates a speed limit valid from 8.00 to 20.00.",
+  "explain": {
+   "short": "Without a time panel below it, the limit is valid at all hours, day and night.",
+   "rule": "The red circle with '80' is the 'limite massimo di velocità' (maximum speed limit) sign: a prohibition sign. From the sign onwards, every vehicle must not go faster than 80 km/h.",
+   "trap": "'dalle ore 8.00 alle ore 20.00': no panel with hours, so no time limit.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Valid at all hours, day and night",
+    "it": "sempre",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "limite di velocità",
+    "en": "speed limit"
+   },
+   {
+    "it": "dalle ore 8.00 alle ore 20.00",
+    "en": "from 8.00 to 20.00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19617": {
+  "en": "The sign shown bans the use of the horn.",
+  "explain": {
+   "short": "The crossed-out horn in a red ring means: do not sound the horn (clacson).",
+   "rule": "The red circle with a crossed-out horn is 'divieto di segnalazioni acustiche' (no horn). From the sign you must not use the horn, except for immediate danger or real emergencies.",
+   "trap": "'clacson' is the horn; 'vieta' means forbids.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No horn from this sign",
+    "it": "clacson",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "bans"
+   },
+   {
+    "it": "clacson",
+    "en": "horn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19618": {
+  "en": "The sign shown bans sound signals.",
+  "explain": {
+   "short": "'Segnalazioni acustiche' (sound signals) means using the horn: this sign forbids them.",
+   "rule": "The red circle with a crossed-out horn is 'divieto di segnalazioni acustiche' (no horn). From the sign you must not use the horn, except for immediate danger or real emergencies.",
+   "trap": "'acustiche' means made with sound: the official name for horn signals.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No sound signals (horn)",
+    "it": "segnalazioni acustiche",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnalazioni acustiche",
+    "en": "sound signals (horn)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19620": {
+  "en": "The sign shown marks the start of a zone where sounding the horn is forbidden.",
+  "explain": {
+   "short": "The ban starts at the sign and lasts until the end-of-ban sign.",
+   "rule": "The red circle with a crossed-out horn is 'divieto di segnalazioni acustiche' (no horn). From the sign you must not use the horn, except for immediate danger or real emergencies.",
+   "trap": "'inizio' (start) is right; the end sign has a grey diagonal bar instead.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "From here: horn forbidden",
+    "it": "inizio",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "l'inizio di una zona",
+    "en": "the start of a zone"
+   },
+   {
+    "it": "suonare il clacson",
+    "en": "sound the horn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19621": {
+  "en": "Where the sign shown is present, you may use the horn if you are carrying injured or seriously ill people.",
+  "explain": {
+   "short": "The ban has exceptions for real emergencies, such as carrying badly injured or sick people, and for immediate danger.",
+   "rule": "The red circle with a crossed-out horn is 'divieto di segnalazioni acustiche' (no horn). From the sign you must not use the horn, except for immediate danger or real emergencies.",
+   "trap": "'se' (if) gives a real exception: a medical emergency.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Emergency with injured on board: horn allowed",
+    "it": "feriti",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si può utilizzare",
+    "en": "you may use"
+   },
+   {
+    "it": "feriti o ammalati gravi",
+    "en": "injured or seriously ill people"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19622": {
+  "en": "The sign shown allows using the horn to attract attention in any situation.",
+  "explain": {
+   "short": "The sign forbids the horn. It is allowed only for immediate danger or emergencies, not 'in any situation'.",
+   "rule": "The red circle with a crossed-out horn is 'divieto di segnalazioni acustiche' (no horn). From the sign you must not use the horn, except for immediate danger or real emergencies.",
+   "trap": "'qualsiasi circostanza' (any situation) is the trap: only emergencies.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Horn forbidden: only for real danger",
+    "it": "divieto",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente",
+    "en": "allows"
+   },
+   {
+    "it": "in qualsiasi circostanza",
+    "en": "in any situation"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19623": {
+  "en": "The sign shown must be respected only from 20.00 to 8.00.",
+  "explain": {
+   "short": "Without a time panel, the ban is valid at all hours, not only at night.",
+   "rule": "The red circle with a crossed-out horn is 'divieto di segnalazioni acustiche' (no horn). From the sign you must not use the horn, except for immediate danger or real emergencies.",
+   "trap": "'soltanto' (only) plus night hours: there is no time panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No-horn ban: valid day and night",
+    "it": "sempre",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve essere rispettato",
+    "en": "must be respected"
+   },
+   {
+    "it": "soltanto",
+    "en": "only"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19624": {
+  "en": "The sign shown warns that you may come across a fire station.",
+  "explain": {
+   "short": "A red ring is a prohibition, not a warning. The picture is a crossed-out horn: no horn.",
+   "rule": "The red circle with a crossed-out horn is 'divieto di segnalazioni acustiche' (no horn). From the sign you must not use the horn, except for immediate danger or real emergencies.",
+   "trap": "'preavvisa' (warns ahead) belongs to triangle danger signs, not to this one.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It bans the horn, it does not warn of firemen",
+    "it": "clacson",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "warns ahead"
+   },
+   {
+    "it": "vigili del fuoco",
+    "en": "fire brigade"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19625": {
+  "en": "The sign shown warns of a road narrowing on mountain roads.",
+  "explain": {
+   "short": "This is a no-horn sign, not a danger sign. A narrowing (strettoia) has a red triangle.",
+   "rule": "The red circle with a crossed-out horn is 'divieto di segnalazioni acustiche' (no horn). From the sign you must not use the horn, except for immediate danger or real emergencies.",
+   "trap": "'strettoia' (narrowing) is a different, triangular sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No horn: not a narrowing",
+    "it": "clacson",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "warns ahead"
+   },
+   {
+    "it": "strettoia",
+    "en": "road narrowing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19626": {
+  "en": "The sign shown allows using the horn in traffic jams.",
+  "explain": {
+   "short": "A traffic jam is not a danger or an emergency, so the horn stays forbidden.",
+   "rule": "The red circle with a crossed-out horn is 'divieto di segnalazioni acustiche' (no horn). From the sign you must not use the horn, except for immediate danger or real emergencies.",
+   "trap": "'ingorgo' (traffic jam) is not an allowed exception.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Traffic jam: still no horn",
+    "it": "ingorgo",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente l'uso del clacson",
+    "en": "allows using the horn"
+   },
+   {
+    "it": "ingorgo stradale",
+    "en": "traffic jam"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19627": {
+  "en": "The sign shown marks the end of the ban on sound signals.",
+  "explain": {
+   "short": "This red-ring sign is the START of the ban. The end sign is white-grey with a diagonal bar.",
+   "rule": "The red circle with a crossed-out horn is 'divieto di segnalazioni acustiche' (no horn). From the sign you must not use the horn, except for immediate danger or real emergencies.",
+   "trap": "'fine' (end) is the trap: red ring = the ban begins.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red ring = ban starts, not ends",
+    "it": "inizio",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "la fine del divieto",
+    "en": "the end of the ban"
+   },
+   {
+    "it": "segnalazioni acustiche",
+    "en": "sound signals"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19628": {
+  "en": "The sign shown forbids vehicles over 3.5 tonnes full-load mass, not used to carry people, to overtake motor vehicles.",
+  "explain": {
+   "short": "The red lorry stands for goods vehicles over 3.5 t: they must not overtake motor vehicles.",
+   "rule": "A red circle with a red lorry next to a black car is 'divieto di sorpasso per i veicoli di massa superiore a 3,5 t'. Goods vehicles over 3.5 t (full load) must not overtake motor vehicles; cars, buses and campers may.",
+   "trap": "'non destinati al trasporto di persone' (not for carrying people): buses are not included.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Goods vehicles over 3.5 t: no overtaking",
+    "it": "sorpasso",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "massa a pieno carico",
+    "en": "full-load mass"
+   },
+   {
+    "it": "non destinati al trasporto di persone",
+    "en": "not used to carry people"
+   },
+   {
+    "it": "sorpassare",
+    "en": "overtake"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19629": {
+  "en": "Where the sign shown is present, a lorry may not overtake motor vehicles if its registration document shows a full-load mass over 3.5 tonnes.",
+  "explain": {
+   "short": "The weight that counts is the full-load mass written on the registration document (carta di circolazione).",
+   "rule": "A red circle with a red lorry next to a black car is 'divieto di sorpasso per i veicoli di massa superiore a 3,5 t'. Goods vehicles over 3.5 t (full load) must not overtake motor vehicles; cars, buses and campers may.",
+   "trap": "'carta di circolazione' (registration document): the weight on paper counts, not the real load today.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Truck over 3.5 t on paper: no overtaking",
+    "it": "autocarro",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarro",
+    "en": "lorry, truck"
+   },
+   {
+    "it": "carta di circolazione",
+    "en": "registration document"
+   },
+   {
+    "it": "massa complessiva a pieno carico",
+    "en": "total full-load mass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19630": {
+  "en": "The sign shown allows a lorry with a full-load mass below 3.5 tonnes to overtake an articulated lorry.",
+  "explain": {
+   "short": "The ban is only for goods vehicles over 3.5 t. A lighter truck may overtake.",
+   "rule": "A red circle with a red lorry next to a black car is 'divieto di sorpasso per i veicoli di massa superiore a 3,5 t'. Goods vehicles over 3.5 t (full load) must not overtake motor vehicles; cars, buses and campers may.",
+   "trap": "'inferiore' (below) 3.5 t: under the limit, so the ban does not apply.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Truck under 3.5 t may overtake",
+    "it": "inferiore a 3,5 t",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarro",
+    "en": "lorry, truck"
+   },
+   {
+    "it": "inferiore a 3,5 tonnellate",
+    "en": "below 3.5 tonnes"
+   },
+   {
+    "it": "autoarticolato",
+    "en": "articulated lorry"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19631": {
+  "en": "The sign shown allows a bus with a full-load mass of 18 tonnes to overtake a lorry with trailer.",
+  "explain": {
+   "short": "Buses carry people, so the ban does not apply to them, whatever their weight.",
+   "rule": "A red circle with a red lorry next to a black car is 'divieto di sorpasso per i veicoli di massa superiore a 3,5 t'. Goods vehicles over 3.5 t (full load) must not overtake motor vehicles; cars, buses and campers may.",
+   "trap": "'18 tonnellate' looks heavy, but a bus (autobus) carries people: no ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Buses carry people: they may overtake",
+    "it": "autobus",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autobus",
+    "en": "bus"
+   },
+   {
+    "it": "18 tonnellate",
+    "en": "18 tonnes"
+   },
+   {
+    "it": "autotreno",
+    "en": "lorry with trailer"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19632": {
+  "en": "Where the sign shown is present, a car with a full-load mass of 3 tonnes towing a small trailer may overtake motor vehicles.",
+  "explain": {
+   "short": "A car carries people and weighs under 3.5 t: the ban does not apply, even with a small trailer.",
+   "rule": "A red circle with a red lorry next to a black car is 'divieto di sorpasso per i veicoli di massa superiore a 3,5 t'. Goods vehicles over 3.5 t (full load) must not overtake motor vehicles; cars, buses and campers may.",
+   "trap": "'carrello appendice' (small luggage trailer) does not turn a car into a goods vehicle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Car with small trailer: may overtake",
+    "it": "autovettura",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autovettura",
+    "en": "car"
+   },
+   {
+    "it": "carrello appendice",
+    "en": "small luggage trailer"
+   },
+   {
+    "it": "può sorpassare",
+    "en": "may overtake"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19633": {
+  "en": "Where the sign shown is present, a car may overtake a lorry with trailer.",
+  "explain": {
+   "short": "The ban is only for heavy goods vehicles. Cars may still overtake, trucks included.",
+   "rule": "A red circle with a red lorry next to a black car is 'divieto di sorpasso per i veicoli di massa superiore a 3,5 t'. Goods vehicles over 3.5 t (full load) must not overtake motor vehicles; cars, buses and campers may.",
+   "trap": "'autovettura' (car): the sign does not stop cars from overtaking.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cars may overtake trucks here",
+    "it": "autovettura",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autovettura",
+    "en": "car"
+   },
+   {
+    "it": "autotreno",
+    "en": "lorry with trailer"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19634": {
+  "en": "Where the sign shown is present, a camper van with a full-load mass of 4 tonnes may overtake.",
+  "explain": {
+   "short": "A camper van (autocaravan) is not a goods vehicle, so the ban does not apply even over 3.5 t.",
+   "rule": "A red circle with a red lorry next to a black car is 'divieto di sorpasso per i veicoli di massa superiore a 3,5 t'. Goods vehicles over 3.5 t (full load) must not overtake motor vehicles; cars, buses and campers may.",
+   "trap": "'4 tonnellate' is over 3.5 t, but the ban is only for goods vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Camper over 3.5 t: may still overtake",
+    "it": "autocaravan",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocaravan",
+    "en": "camper van"
+   },
+   {
+    "it": "4 tonnellate",
+    "en": "4 tonnes"
+   },
+   {
+    "it": "manovre di sorpasso",
+    "en": "overtaking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19635": {
+  "en": "Where the sign shown is present, lorries with a full-load mass over 3.5 t are forbidden to overtake a motorcycle.",
+  "explain": {
+   "short": "A motorcycle is a motor vehicle, and heavy trucks may not overtake any motor vehicle.",
+   "rule": "A red circle with a red lorry next to a black car is 'divieto di sorpasso per i veicoli di massa superiore a 3,5 t'. Goods vehicles over 3.5 t (full load) must not overtake motor vehicles; cars, buses and campers may.",
+   "trap": "'motociclo' (motorcycle) is small, but it is still a motor vehicle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Heavy truck may not pass a motorbike",
+    "it": "motociclo",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarri",
+    "en": "lorries"
+   },
+   {
+    "it": "superiore a 3,5 t",
+    "en": "over 3.5 t"
+   },
+   {
+    "it": "motociclo",
+    "en": "motorcycle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19636": {
+  "en": "Where the sign shown is present, a lorry over 3.5 tonnes full-load mass, towing a light trailer, may overtake a motorcycle.",
+  "explain": {
+   "short": "The truck is over 3.5 t, so it may not overtake any motor vehicle, motorbikes included. The trailer changes nothing.",
+   "rule": "A red circle with a red lorry next to a black car is 'divieto di sorpasso per i veicoli di massa superiore a 3,5 t'. Goods vehicles over 3.5 t (full load) must not overtake motor vehicles; cars, buses and campers may.",
+   "trap": "'rimorchio leggero' (light trailer) is a distraction: the truck is still over 3.5 t.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Truck over 3.5 t: no overtaking, even a motorbike",
+    "it": "motociclo",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarro",
+    "en": "lorry, truck"
+   },
+   {
+    "it": "rimorchio leggero",
+    "en": "light trailer"
+   },
+   {
+    "it": "motociclo",
+    "en": "motorcycle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19637": {
+  "en": "Where the sign shown is present, a camper van over 3.5 tonnes full-load mass may not overtake motor vehicles.",
+  "explain": {
+   "short": "A camper van is not a goods vehicle, so it may overtake even when it is over 3.5 t.",
+   "rule": "A red circle with a red lorry next to a black car is 'divieto di sorpasso per i veicoli di massa superiore a 3,5 t'. Goods vehicles over 3.5 t (full load) must not overtake motor vehicles; cars, buses and campers may.",
+   "trap": "'autocaravan' (camper van): the weight is a trap, the ban is only for goods vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Camper over 3.5 t: overtaking allowed",
+    "it": "autocaravan",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocaravan",
+    "en": "camper van"
+   },
+   {
+    "it": "non può sorpassare",
+    "en": "may not overtake"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19638": {
+  "en": "The sign shown allows a lorry with a total mass over 3.5 tonnes to overtake a motorcycle.",
+  "explain": {
+   "short": "Heavy trucks may not overtake any motor vehicle, and a motorcycle is one.",
+   "rule": "A red circle with a red lorry next to a black car is 'divieto di sorpasso per i veicoli di massa superiore a 3,5 t'. Goods vehicles over 3.5 t (full load) must not overtake motor vehicles; cars, buses and campers may.",
+   "trap": "'consente' (allows) is the trap: it is forbidden.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Heavy truck may not pass a motorbike",
+    "it": "motociclo",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente",
+    "en": "allows"
+   },
+   {
+    "it": "autocarro",
+    "en": "lorry, truck"
+   },
+   {
+    "it": "motociclo",
+    "en": "motorcycle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19639": {
+  "en": "The sign shown allows cars to overtake lorries in the right-hand lane.",
+  "explain": {
+   "short": "The sign is about heavy trucks not overtaking. It gives nobody permission to overtake on the right.",
+   "rule": "A red circle with a red lorry next to a black car is 'divieto di sorpasso per i veicoli di massa superiore a 3,5 t'. Goods vehicles over 3.5 t (full load) must not overtake motor vehicles; cars, buses and campers may.",
+   "trap": "'corsia di destra' (right lane): overtaking normally stays on the left.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No overtaking on the right: trucks' ban only",
+    "it": "sorpasso",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autovetture",
+    "en": "cars"
+   },
+   {
+    "it": "corsia di destra",
+    "en": "right-hand lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19640": {
+  "en": "The sign shown forbids articulated buses to overtake.",
+  "explain": {
+   "short": "An autosnodato is an articulated bus that carries people, so the ban does not apply to it.",
+   "rule": "A red circle with a red lorry next to a black car is 'divieto di sorpasso per i veicoli di massa superiore a 3,5 t'. Goods vehicles over 3.5 t (full load) must not overtake motor vehicles; cars, buses and campers may.",
+   "trap": "'autosnodati' are bendy buses, not goods trucks.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Articulated buses carry people: may overtake",
+    "it": "autosnodati",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il sorpasso",
+    "en": "forbids overtaking"
+   },
+   {
+    "it": "autosnodati",
+    "en": "articulated (bendy) buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19641": {
+  "en": "The sign shown forbids a camper van with a total mass of 6 tonnes to overtake.",
+  "explain": {
+   "short": "Camper vans are not goods vehicles, so they may overtake whatever their weight.",
+   "rule": "A red circle with a red lorry next to a black car is 'divieto di sorpasso per i veicoli di massa superiore a 3,5 t'. Goods vehicles over 3.5 t (full load) must not overtake motor vehicles; cars, buses and campers may.",
+   "trap": "'6 tonnellate' is a weight trap: the ban is only for goods vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Camper of any weight: may overtake",
+    "it": "autocaravan",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocaravan",
+    "en": "camper van"
+   },
+   {
+    "it": "6 tonnellate",
+    "en": "6 tonnes"
+   },
+   {
+    "it": "manovre di sorpasso",
+    "en": "overtaking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19642": {
+  "en": "Where the sign shown is present, a lorry with a full-load mass of 3 tonnes may not overtake.",
+  "explain": {
+   "short": "3 t is not over 3.5 t, so this light truck may overtake.",
+   "rule": "A red circle with a red lorry next to a black car is 'divieto di sorpasso per i veicoli di massa superiore a 3,5 t'. Goods vehicles over 3.5 t (full load) must not overtake motor vehicles; cars, buses and campers may.",
+   "trap": "'3 tonnellate' is under the 3.5 t threshold.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Truck of 3 t: below the limit, may overtake",
+    "it": "3,5 t",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarro",
+    "en": "lorry, truck"
+   },
+   {
+    "it": "3 tonnellate",
+    "en": "3 tonnes"
+   },
+   {
+    "it": "non può",
+    "en": "may not"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19643": {
+  "en": "Where the sign shown is present, vehicles over 3.5 tonnes full-load mass used to carry people may not overtake.",
+  "explain": {
+   "short": "The ban is for goods vehicles. Vehicles that carry people, like buses, may overtake.",
+   "rule": "A red circle with a red lorry next to a black car is 'divieto di sorpasso per i veicoli di massa superiore a 3,5 t'. Goods vehicles over 3.5 t (full load) must not overtake motor vehicles; cars, buses and campers may.",
+   "trap": "'trasporto di persone' (carrying people): exactly the vehicles NOT covered.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "People carriers over 3.5 t: may overtake",
+    "it": "trasporto di persone",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "destinati al trasporto di persone",
+    "en": "used to carry people"
+   },
+   {
+    "it": "non possono",
+    "en": "may not"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19644": {
+  "en": "The sign shown bans animal-drawn vehicles.",
+  "explain": {
+   "short": "The horse and cart in a red ring mean: no vehicles pulled by animals.",
+   "rule": "A red circle with a horse and cart is 'transito vietato ai veicoli a trazione animale' (no animal-drawn vehicles). Only carts pulled by animals are banned; motor vehicles may pass.",
+   "trap": "'trazione animale' means pulled by animals.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No animal-drawn vehicles",
+    "it": "trazione animale",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans transit"
+   },
+   {
+    "it": "trazione animale",
+    "en": "animal-drawn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19645": {
+  "en": "The sign shown bans vehicles pulled by horses.",
+  "explain": {
+   "short": "Horse-drawn vehicles are animal-drawn vehicles, so they are banned.",
+   "rule": "A red circle with a horse and cart is 'transito vietato ai veicoli a trazione animale' (no animal-drawn vehicles). Only carts pulled by animals are banned; motor vehicles may pass.",
+   "trap": "'trainati da cavalli' (pulled by horses) is one kind of 'trazione animale'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Horse-drawn vehicles: banned",
+    "it": "trainati da cavalli",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans transit"
+   },
+   {
+    "it": "trainati da cavalli",
+    "en": "pulled by horses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19646": {
+  "en": "The sign shown bans horse-drawn carriages.",
+  "explain": {
+   "short": "A horse-drawn carriage is pulled by an animal, so it may not use this road.",
+   "rule": "A red circle with a horse and cart is 'transito vietato ai veicoli a trazione animale' (no animal-drawn vehicles). Only carts pulled by animals are banned; motor vehicles may pass.",
+   "trap": "'carrozze a cavalli' (horse carriages) are animal-drawn vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Horse carriages: banned",
+    "it": "carrozze a cavalli",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la circolazione",
+    "en": "bans circulation"
+   },
+   {
+    "it": "carrozze a cavalli",
+    "en": "horse-drawn carriages"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19647": {
+  "en": "The sign shown bans vehicles pulled by donkeys.",
+  "explain": {
+   "short": "The horse in the picture stands for any animal: donkey carts are banned too.",
+   "rule": "A red circle with a horse and cart is 'transito vietato ai veicoli a trazione animale' (no animal-drawn vehicles). Only carts pulled by animals are banned; motor vehicles may pass.",
+   "trap": "'asini' (donkeys): not only horses, any pulling animal counts.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Donkey carts: banned too",
+    "it": "trainati da asini",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans transit"
+   },
+   {
+    "it": "trainati da asini",
+    "en": "pulled by donkeys"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19648": {
+  "en": "The sign shown allows motorcycles through.",
+  "explain": {
+   "short": "Only animal-drawn vehicles are banned; motorcycles may pass.",
+   "rule": "A red circle with a horse and cart is 'transito vietato ai veicoli a trazione animale' (no animal-drawn vehicles). Only carts pulled by animals are banned; motor vehicles may pass.",
+   "trap": "'consente' (allows): the ban is only for the vehicle in the picture.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorbikes may pass: only carts banned",
+    "it": "motocicli",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows transit"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19649": {
+  "en": "The sign shown allows motor vehicles (cars, trucks) through.",
+  "explain": {
+   "short": "Only animal-drawn vehicles are banned; cars and other motor vehicles may pass.",
+   "rule": "A red circle with a horse and cart is 'transito vietato ai veicoli a trazione animale' (no animal-drawn vehicles). Only carts pulled by animals are banned; motor vehicles may pass.",
+   "trap": "'autoveicoli' (motor vehicles like cars) are not in the picture.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cars may pass: only carts banned",
+    "it": "autoveicoli",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows transit"
+   },
+   {
+    "it": "autoveicoli",
+    "en": "motor vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19650": {
+  "en": "The sign shown bans motor vehicles.",
+  "explain": {
+   "short": "The sign bans only animal-drawn vehicles. Motor vehicles may pass.",
+   "rule": "A red circle with a horse and cart is 'transito vietato ai veicoli a trazione animale' (no animal-drawn vehicles). Only carts pulled by animals are banned; motor vehicles may pass.",
+   "trap": "'veicoli a motore' (motor vehicles) are not in the picture: only a horse and cart.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motor vehicles may pass: only carts banned",
+    "it": "trazione animale",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans transit"
+   },
+   {
+    "it": "veicoli a motore",
+    "en": "motor vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19651": {
+  "en": "In built-up areas, the sign shown applies from 8.00 to 20.00.",
+  "explain": {
+   "short": "Without a time panel below it, the ban is valid at all hours, in and out of towns.",
+   "rule": "A red circle with a horse and cart is 'transito vietato ai veicoli a trazione animale' (no animal-drawn vehicles). Only carts pulled by animals are banned; motor vehicles may pass.",
+   "trap": "'dalle ore 8.00 alle ore 20.00': no panel with hours, so always valid.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Valid at all hours",
+    "it": "sempre",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vige",
+    "en": "applies"
+   },
+   {
+    "it": "centri abitati",
+    "en": "built-up areas"
+   },
+   {
+    "it": "dalle ore 8.00 alle ore 20.00",
+    "en": "from 8.00 to 20.00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19652": {
+  "en": "The sign shown allows animal-drawn vehicles through if they have tyres.",
+  "explain": {
+   "short": "The ban covers all animal-drawn vehicles; tyres make no difference.",
+   "rule": "A red circle with a horse and cart is 'transito vietato ai veicoli a trazione animale' (no animal-drawn vehicles). Only carts pulled by animals are banned; motor vehicles may pass.",
+   "trap": "'se muniti di pneumatici' (if they have tyres) is an invented exception.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tyres or not: animal carts banned",
+    "it": "trazione animale",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows transit"
+   },
+   {
+    "it": "pneumatici",
+    "en": "tyres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19653": {
+  "en": "The sign shown marks a road reserved for farm carts.",
+  "explain": {
+   "short": "A red ring is a ban, not a reservation: animal-drawn vehicles may NOT enter.",
+   "rule": "A red circle with a horse and cart is 'transito vietato ai veicoli a trazione animale' (no animal-drawn vehicles). Only carts pulled by animals are banned; motor vehicles may pass.",
+   "trap": "'riservata' (reserved) is the opposite of the meaning: it is a ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A ban, not a road reserved for carts",
+    "it": "vieta",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada riservata",
+    "en": "reserved road"
+   },
+   {
+    "it": "carri agricoli",
+    "en": "farm carts"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19654": {
+  "en": "The sign shown bans hand carts.",
+  "explain": {
+   "short": "Only animal-drawn vehicles are banned. Hand carts (pushed by people) have a different sign.",
+   "rule": "A red circle with a horse and cart is 'transito vietato ai veicoli a trazione animale' (no animal-drawn vehicles). Only carts pulled by animals are banned; motor vehicles may pass.",
+   "trap": "'a braccia' (pushed by hand) is not 'trazione animale'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hand carts: not this sign",
+    "it": "trazione animale",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans transit"
+   },
+   {
+    "it": "veicoli a braccia",
+    "en": "hand carts"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19655": {
+  "en": "The sign shown bans all vehicles without an engine.",
+  "explain": {
+   "short": "Only animal-drawn vehicles are banned. Bicycles and hand carts are not covered.",
+   "rule": "A red circle with a horse and cart is 'transito vietato ai veicoli a trazione animale' (no animal-drawn vehicles). Only carts pulled by animals are banned; motor vehicles may pass.",
+   "trap": "'tutti' (all) is the trap: only animal-drawn ones.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only animal-drawn, not all non-motor vehicles",
+    "it": "trazione animale",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tutti i veicoli",
+    "en": "all vehicles"
+   },
+   {
+    "it": "sprovvisti di motore",
+    "en": "without an engine"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19656": {
+  "en": "The sign shown bans pedestrians.",
+  "explain": {
+   "short": "The walking person in a red ring means: people on foot may not go here.",
+   "rule": "A red circle with a walking person is 'transito vietato ai pedoni' (no pedestrians). Only people on foot are banned; all vehicles may pass.",
+   "trap": "'pedoni' means pedestrians, people on foot.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No pedestrians",
+    "it": "pedoni",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans transit"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19657": {
+  "en": "The sign shown allows motor vehicles (cars, trucks) through.",
+  "explain": {
+   "short": "Only pedestrians are banned; cars may pass.",
+   "rule": "A red circle with a walking person is 'transito vietato ai pedoni' (no pedestrians). Only people on foot are banned; all vehicles may pass.",
+   "trap": "'consente' (allows): the ban is only for people on foot.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cars may pass: only pedestrians banned",
+    "it": "autoveicoli",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows transit"
+   },
+   {
+    "it": "autoveicoli",
+    "en": "motor vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19658": {
+  "en": "The sign shown allows motorcycles through.",
+  "explain": {
+   "short": "Only pedestrians are banned; motorcycles may pass.",
+   "rule": "A red circle with a walking person is 'transito vietato ai pedoni' (no pedestrians). Only people on foot are banned; all vehicles may pass.",
+   "trap": "'motocicli' (motorcycles) are vehicles, not pedestrians.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorbikes may pass",
+    "it": "motocicli",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows transit"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19659": {
+  "en": "The sign shown allows motor quadricycles through.",
+  "explain": {
+   "short": "Only pedestrians are banned; motor quadricycles (small four-wheel vehicles) may pass.",
+   "rule": "A red circle with a walking person is 'transito vietato ai pedoni' (no pedestrians). Only people on foot are banned; all vehicles may pass.",
+   "trap": "'quadricicli a motore' (small motor quadricycles) are vehicles, so allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motor quadricycles may pass",
+    "it": "quadricicli",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows transit"
+   },
+   {
+    "it": "quadricicli a motore",
+    "en": "motor quadricycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19660": {
+  "en": "The sign shown allows bicycles through.",
+  "explain": {
+   "short": "Only pedestrians are banned; a cyclist riding is a vehicle driver and may pass.",
+   "rule": "A red circle with a walking person is 'transito vietato ai pedoni' (no pedestrians). Only people on foot are banned; all vehicles may pass.",
+   "trap": "'biciclette' (bicycles) are vehicles, not pedestrians.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bicycles may pass",
+    "it": "biciclette",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows transit"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19661": {
+  "en": "The sign shown bans mopeds.",
+  "explain": {
+   "short": "Only pedestrians are banned; mopeds (ciclomotori) may pass.",
+   "rule": "A red circle with a walking person is 'transito vietato ai pedoni' (no pedestrians). Only people on foot are banned; all vehicles may pass.",
+   "trap": "'ciclomotori' (mopeds) are vehicles, not in the picture.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mopeds may pass: only pedestrians banned",
+    "it": "pedoni",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans transit"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19662": {
+  "en": "The sign shown is valid from 8.00 to 20.00.",
+  "explain": {
+   "short": "Without a time panel below it, the ban is valid at all hours.",
+   "rule": "A red circle with a walking person is 'transito vietato ai pedoni' (no pedestrians). Only people on foot are banned; all vehicles may pass.",
+   "trap": "'dalle ore 8.00 alle ore 20.00': no panel with hours, so always valid.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Valid at all hours",
+    "it": "sempre",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vale",
+    "en": "is valid"
+   },
+   {
+    "it": "dalle ore 8.00 alle ore 20.00",
+    "en": "from 8.00 to 20.00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19663": {
+  "en": "The sign shown marks an urban area reserved for a playground and amusements.",
+  "explain": {
+   "short": "A red ring is a ban: here, people on foot may not go. It has nothing to do with playgrounds.",
+   "rule": "A red circle with a walking person is 'transito vietato ai pedoni' (no pedestrians). Only people on foot are banned; all vehicles may pass.",
+   "trap": "'parco giochi' (playground) is invented: red ring = prohibition.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A ban on pedestrians, not a playground",
+    "it": "pedoni",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area urbana riservata",
+    "en": "reserved urban area"
+   },
+   {
+    "it": "parco giochi",
+    "en": "playground"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19664": {
+  "en": "The sign shown requires pedestrians to walk on the left edge of the carriageway.",
+  "explain": {
+   "short": "The sign does not tell pedestrians where to walk: it forbids them to go there at all.",
+   "rule": "A red circle with a walking person is 'transito vietato ai pedoni' (no pedestrians). Only people on foot are banned; all vehicles may pass.",
+   "trap": "'obbliga' (requires) is wrong: it is a ban, not an obligation.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pedestrians banned, not sent to the left",
+    "it": "vietato",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga",
+    "en": "requires"
+   },
+   {
+    "it": "margine sinistro",
+    "en": "left edge"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19665": {
+  "en": "The sign shown marks the start of a pedestrian path.",
+  "explain": {
+   "short": "A pedestrian path has a BLUE round sign. The red ring means the opposite: no pedestrians.",
+   "rule": "A red circle with a walking person is 'transito vietato ai pedoni' (no pedestrians). Only people on foot are banned; all vehicles may pass.",
+   "trap": "'percorso pedonale' (pedestrian path) is the blue sign, not this red one.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red = no pedestrians; blue = path for them",
+    "it": "pedoni",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "l'inizio",
+    "en": "the start"
+   },
+   {
+    "it": "percorso pedonale",
+    "en": "pedestrian path"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19666": {
+  "en": "The sign shown bans bicycles.",
+  "explain": {
+   "short": "The bicycle in a red ring means: bicycles may not go here.",
+   "rule": "A red circle with a black bicycle is 'transito vietato alle biciclette' (no bicycles). It bans every pedal vehicle (velocipede: bicycles, tandems, pedal quadricycles); mopeds, motorbikes and pedestrians may pass.",
+   "trap": "'biciclette' means bicycles; 'vieta' means forbids.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No bicycles",
+    "it": "biciclette",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans transit"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19667": {
+  "en": "The sign shown is a prohibition sign.",
+  "explain": {
+   "short": "A red ring on white with a black symbol is a prohibition sign: here, no bicycles.",
+   "rule": "A red circle with a black bicycle is 'transito vietato alle biciclette' (no bicycles). It bans every pedal vehicle (velocipede: bicycles, tandems, pedal quadricycles); mopeds, motorbikes and pedestrians may pass.",
+   "trap": "'divieto' means prohibition: the red ring forbids.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red ring = prohibition: no bicycles",
+    "it": "divieto",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di divieto",
+    "en": "prohibition sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19668": {
+  "en": "The sign shown allows motor quadricycles through.",
+  "explain": {
+   "short": "Only pedal vehicles are banned; motor quadricycles have an engine and may pass.",
+   "rule": "A red circle with a black bicycle is 'transito vietato alle biciclette' (no bicycles). It bans every pedal vehicle (velocipede: bicycles, tandems, pedal quadricycles); mopeds, motorbikes and pedestrians may pass.",
+   "trap": "'a motore' (with engine) is the key: only pedal vehicles are banned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motor quadricycles may pass",
+    "it": "quadricicli a motore",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows transit"
+   },
+   {
+    "it": "quadricicli a motore",
+    "en": "motor quadricycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19669": {
+  "en": "The sign shown allows pedestrians through.",
+  "explain": {
+   "short": "Only bicycles are banned; people on foot may pass (they may even push a bike).",
+   "rule": "A red circle with a black bicycle is 'transito vietato alle biciclette' (no bicycles). It bans every pedal vehicle (velocipede: bicycles, tandems, pedal quadricycles); mopeds, motorbikes and pedestrians may pass.",
+   "trap": "'pedoni' (pedestrians) are not in the picture, so they may pass.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pedestrians may pass",
+    "it": "pedoni",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows transit"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19670": {
+  "en": "The sign shown allows two-wheeled mopeds through.",
+  "explain": {
+   "short": "A moped has an engine, so it is not a bicycle: it may pass.",
+   "rule": "A red circle with a black bicycle is 'transito vietato alle biciclette' (no bicycles). It bans every pedal vehicle (velocipede: bicycles, tandems, pedal quadricycles); mopeds, motorbikes and pedestrians may pass.",
+   "trap": "'ciclomotori' (mopeds) sound like bikes, but they have an engine.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mopeds may pass: only bicycles banned",
+    "it": "ciclomotori",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows transit"
+   },
+   {
+    "it": "ciclomotori a due ruote",
+    "en": "two-wheeled mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19671": {
+  "en": "The sign shown bans pedal quadricycles.",
+  "explain": {
+   "short": "The ban covers all pedal vehicles (velocipedi), and pedal quadricycles are one of them.",
+   "rule": "A red circle with a black bicycle is 'transito vietato alle biciclette' (no bicycles). It bans every pedal vehicle (velocipede: bicycles, tandems, pedal quadricycles); mopeds, motorbikes and pedestrians may pass.",
+   "trap": "'a pedale' (pedal-powered) puts it in the same family as bicycles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pedal quadricycles: banned too",
+    "it": "a pedale",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans transit"
+   },
+   {
+    "it": "quadricicli a pedale",
+    "en": "pedal quadricycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19672": {
+  "en": "The sign shown bans tandems.",
+  "explain": {
+   "short": "A tandem is a bicycle for two riders, so it is banned too.",
+   "rule": "A red circle with a black bicycle is 'transito vietato alle biciclette' (no bicycles). It bans every pedal vehicle (velocipede: bicycles, tandems, pedal quadricycles); mopeds, motorbikes and pedestrians may pass.",
+   "trap": "'tandem' is a two-seat bicycle: still a bicycle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tandems: banned too",
+    "it": "tandem",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans transit"
+   },
+   {
+    "it": "tandem",
+    "en": "tandem bicycle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19673": {
+  "en": "The sign shown is valid from 8.00 to 20.00.",
+  "explain": {
+   "short": "Without a time panel below it, the ban is valid at all hours.",
+   "rule": "A red circle with a black bicycle is 'transito vietato alle biciclette' (no bicycles). It bans every pedal vehicle (velocipede: bicycles, tandems, pedal quadricycles); mopeds, motorbikes and pedestrians may pass.",
+   "trap": "'dalle ore 8.00 alle ore 20.00': no panel with hours, so always valid.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Valid at all hours",
+    "it": "sempre",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vale",
+    "en": "is valid"
+   },
+   {
+    "it": "dalle ore 8.00 alle ore 20.00",
+    "en": "from 8.00 to 20.00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19674": {
+  "en": "The sign shown allows bicycles through at night.",
+  "explain": {
+   "short": "The ban is valid day and night; there is no night exception.",
+   "rule": "A red circle with a black bicycle is 'transito vietato alle biciclette' (no bicycles). It bans every pedal vehicle (velocipede: bicycles, tandems, pedal quadricycles); mopeds, motorbikes and pedestrians may pass.",
+   "trap": "'notturne' (at night) is an invented exception.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No bicycles, day or night",
+    "it": "biciclette",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows transit"
+   },
+   {
+    "it": "ore notturne",
+    "en": "night hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19675": {
+  "en": "The sign shown bans motorcycles.",
+  "explain": {
+   "short": "Only bicycles and other pedal vehicles are banned; motorcycles may pass.",
+   "rule": "A red circle with a black bicycle is 'transito vietato alle biciclette' (no bicycles). It bans every pedal vehicle (velocipede: bicycles, tandems, pedal quadricycles); mopeds, motorbikes and pedestrians may pass.",
+   "trap": "'motocicli' (motorcycles) have an engine: not bicycles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorbikes may pass: only bicycles banned",
+    "it": "biciclette",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans transit"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19676": {
+  "en": "The sign shown bans mopeds.",
+  "explain": {
+   "short": "A moped has an engine; this sign bans only bicycles and pedal vehicles.",
+   "rule": "A red circle with a black bicycle is 'transito vietato alle biciclette' (no bicycles). It bans every pedal vehicle (velocipede: bicycles, tandems, pedal quadricycles); mopeds, motorbikes and pedestrians may pass.",
+   "trap": "'ciclomotori' (mopeds) sounds like 'ciclo' (bike), but mopeds have an engine.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mopeds may pass: only bicycles banned",
+    "it": "biciclette",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans transit"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19677": {
+  "en": "The sign shown indicates a lane reserved for bicycles and mopeds.",
+  "explain": {
+   "short": "A red ring is a ban: bicycles may NOT go here. A cycle path has a blue round sign.",
+   "rule": "A red circle with a black bicycle is 'transito vietato alle biciclette' (no bicycles). It bans every pedal vehicle (velocipede: bicycles, tandems, pedal quadricycles); mopeds, motorbikes and pedestrians may pass.",
+   "trap": "'corsia riservata' (reserved lane) is the opposite of a ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A ban on bicycles, not a lane for them",
+    "it": "vieta",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia riservata",
+    "en": "reserved lane"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19678": {
+  "en": "The sign shown indicates a parking area for bicycles.",
+  "explain": {
+   "short": "A red ring is a ban: bicycles may not go here. Parking signs are blue squares with a 'P'.",
+   "rule": "A red circle with a black bicycle is 'transito vietato alle biciclette' (no bicycles). It bans every pedal vehicle (velocipede: bicycles, tandems, pedal quadricycles); mopeds, motorbikes and pedestrians may pass.",
+   "trap": "'parcheggio' (parking) is wrong: red ring = prohibition.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A ban on bicycles, not bike parking",
+    "it": "vieta",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "parcheggio",
+    "en": "parking"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

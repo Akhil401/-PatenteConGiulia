@@ -1,0 +1,785 @@
+{
+ "q19485": {
+  "en": "The sign shown warns of a stretch of road with a soft verge.",
+  "explain": {
+   "short": "The car's wheel sinks at the edge: the verge is soft and gives way.",
+   "rule": "'Banchina pericolosa' (dangerous verge) is a danger sign: the verge beside the road is soft or unusable. Keep away from the right edge.",
+   "trap": "'cedevole' means soft, it gives way under weight.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Soft verge ahead",
+    "it": "banchina cedevole",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "banchina",
+    "en": "verge"
+   },
+   {
+    "it": "cedevole",
+    "en": "soft (gives way)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19486": {
+  "en": "The sign shown warns of a stretch of road with an unusable verge.",
+  "explain": {
+   "short": "You cannot drive or stop safely on this verge.",
+   "rule": "'Banchina pericolosa' (dangerous verge) is a danger sign: the verge beside the road is soft or unusable. Keep away from the right edge.",
+   "trap": "'non praticabile' means you cannot use it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Verge you cannot use",
+    "it": "banchina non praticabile",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "banchina",
+    "en": "verge"
+   },
+   {
+    "it": "non praticabile",
+    "en": "not usable"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19487": {
+  "en": "The sign shown warns of a possible danger of falling into the ditch beside the road.",
+  "explain": {
+   "short": "If the wheels go onto the soft verge, the car can slide into the ditch.",
+   "rule": "'Banchina pericolosa' (dangerous verge) is a danger sign: the verge beside the road is soft or unusable. Keep away from the right edge.",
+   "trap": "'cunetta' here means the side ditch next to the road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Risk of sliding into the side ditch",
+    "it": "cunetta laterale",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "caduta",
+    "en": "falling"
+   },
+   {
+    "it": "cunetta laterale",
+    "en": "side ditch"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19488": {
+  "en": "The sign shown warns of a stretch of road with a dangerous verge.",
+  "explain": {
+   "short": "This is the name of the sign: 'banchina pericolosa'.",
+   "rule": "'Banchina pericolosa' (dangerous verge) is a danger sign: the verge beside the road is soft or unusable. Keep away from the right edge.",
+   "trap": "'banchina' (verge) is the strip beside the carriageway, not the road itself.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dangerous verge",
+    "it": "banchina pericolosa",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "banchina pericolosa",
+    "en": "dangerous verge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19489": {
+  "en": "The sign shown is a danger sign.",
+  "explain": {
+   "short": "It is a triangle with a red border: the shape of danger signs.",
+   "rule": "'Banchina pericolosa' (dangerous verge) is a danger sign: the verge beside the road is soft or unusable. Keep away from the right edge.",
+   "trap": "'segnale di pericolo' (danger sign) = red-edged triangle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red-edged triangle = danger sign",
+    "it": "segnale di pericolo",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19490": {
+  "en": "With the sign shown, it is advisable not to get too close to the right edge of the road.",
+  "explain": {
+   "short": "The right verge is soft: stay away from it so the wheels do not slip off.",
+   "rule": "'Banchina pericolosa' (dangerous verge) is a danger sign: the verge beside the road is soft or unusable. Keep away from the right edge.",
+   "trap": "'margine destro' means the right edge of the road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Keep away from the right edge",
+    "it": "margine destro",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consigliabile",
+    "en": "advisable"
+   },
+   {
+    "it": "avvicinarsi",
+    "en": "get close"
+   },
+   {
+    "it": "margine destro",
+    "en": "right edge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19491": {
+  "en": "The sign shown must be paired with a speed limit sign.",
+  "explain": {
+   "short": "The sign works alone: a speed limit is not required.",
+   "rule": "'Banchina pericolosa' (dangerous verge) is a danger sign: the verge beside the road is soft or unusable. Keep away from the right edge.",
+   "trap": "'deve' (must) is the trap: nothing must be added.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No speed limit required",
+    "it": "banchina pericolosa",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve",
+    "en": "must"
+   },
+   {
+    "it": "integrato",
+    "en": "completed"
+   },
+   {
+    "it": "limite di velocità",
+    "en": "speed limit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19492": {
+  "en": "The sign shown is an information sign.",
+  "explain": {
+   "short": "A red-edged triangle is a danger sign; information signs are rectangles.",
+   "rule": "'Banchina pericolosa' (dangerous verge) is a danger sign: the verge beside the road is soft or unusable. Keep away from the right edge.",
+   "trap": "'segnale di indicazione' (information sign) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Danger sign, not information sign",
+    "it": "banchina pericolosa",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di indicazione",
+    "en": "information sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19493": {
+  "en": "The sign shown warns that you may not continue along that road.",
+  "explain": {
+   "short": "It only warns of a dangerous verge: you can go on, carefully.",
+   "rule": "'Banchina pericolosa' (dangerous verge) is a danger sign: the verge beside the road is soft or unusable. Keep away from the right edge.",
+   "trap": "'divieto' (ban) is the trap: danger signs never forbid.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "You can go on: it only warns",
+    "it": "banchina pericolosa",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto",
+    "en": "ban"
+   },
+   {
+    "it": "continuare",
+    "en": "continue"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19494": {
+  "en": "The sign shown warns of a damaged road.",
+  "explain": {
+   "short": "The danger is the verge at the side, not the road surface.",
+   "rule": "'Banchina pericolosa' (dangerous verge) is a danger sign: the verge beside the road is soft or unusable. Keep away from the right edge.",
+   "trap": "'strada dissestata' (damaged road) is the trap: that is 'strada deformata'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Danger at the verge, not the road surface",
+    "it": "banchina pericolosa",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada dissestata",
+    "en": "damaged road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19495": {
+  "en": "The sign shown warns of loose gravel on the road surface.",
+  "explain": {
+   "short": "The small stones in the drawing are the verge crumbling; loose gravel has its own sign.",
+   "rule": "'Banchina pericolosa' (dangerous verge) is a danger sign: the verge beside the road is soft or unusable. Keep away from the right edge.",
+   "trap": "'pietrisco' (loose gravel) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dangerous verge, not loose gravel",
+    "it": "banchina pericolosa",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pietrisco",
+    "en": "loose gravel"
+   },
+   {
+    "it": "pavimentazione",
+    "en": "road surface"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19496": {
+  "en": "The sign shown warns of a risk of flooding of the carriageway.",
+  "explain": {
+   "short": "There is no water in the picture: it is a soft verge.",
+   "rule": "'Banchina pericolosa' (dangerous verge) is a danger sign: the verge beside the road is soft or unusable. Keep away from the right edge.",
+   "trap": "'allagamento' (flooding) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dangerous verge, not flooding",
+    "it": "banchina pericolosa",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "allagamento",
+    "en": "flooding"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19497": {
+  "en": "The sign shown warns that the road comes out onto a quay.",
+  "explain": {
+   "short": "A quay (road ending at water) has its own sign with a car falling into water.",
+   "rule": "'Banchina pericolosa' (dangerous verge) is a danger sign: the verge beside the road is soft or unusable. Keep away from the right edge.",
+   "trap": "'molo' (quay, pier) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dangerous verge, not a quay",
+    "it": "banchina pericolosa",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sbocco",
+    "en": "outlet (road ends)"
+   },
+   {
+    "it": "molo",
+    "en": "quay (pier)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19498": {
+  "en": "The sign shown warns of a traffic light installation with the lights arranged horizontally.",
+  "explain": {
+   "short": "Here the three discs are side by side: the lights ahead are horizontal.",
+   "rule": "'Semaforo orizzontale' is a danger sign: traffic lights ahead with the lights side by side, as a rule 150 m before them.",
+   "trap": "'in orizzontale' (horizontal) matches the row of discs.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Discs in a row: horizontal traffic lights",
+    "it": "luci in orizzontale",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "impianto semaforico",
+    "en": "traffic light installation"
+   },
+   {
+    "it": "disposizione delle luci",
+    "en": "arrangement of the lights"
+   },
+   {
+    "it": "in orizzontale",
+    "en": "horizontally"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19499": {
+  "en": "The sign shown is a danger sign.",
+  "explain": {
+   "short": "It is a red-edged triangle: the shape of danger signs.",
+   "rule": "'Semaforo orizzontale' is a danger sign: traffic lights ahead with the lights side by side, as a rule 150 m before them.",
+   "trap": "'segnale di pericolo' (danger sign) = red-edged triangle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red-edged triangle = danger sign",
+    "it": "segnale di pericolo",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19500": {
+  "en": "In the sign shown, the yellow disc can be replaced by a flashing yellow light.",
+  "explain": {
+   "short": "To be more visible, the yellow disc can be a real flashing yellow light.",
+   "rule": "'Semaforo orizzontale' is a danger sign: traffic lights ahead with the lights side by side, as a rule 150 m before them.",
+   "trap": "Only the YELLOW disc, and only 'lampeggiante' (flashing).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow disc can be a flashing light",
+    "it": "luce gialla lampeggiante",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "disco giallo",
+    "en": "yellow disc"
+   },
+   {
+    "it": "può essere sostituito",
+    "en": "can be replaced"
+   },
+   {
+    "it": "luce gialla lampeggiante",
+    "en": "flashing yellow light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19501": {
+  "en": "The sign shown indicates that you must moderate your speed so you can stop if necessary.",
+  "explain": {
+   "short": "The light ahead may be red: slow down so you can stop in time.",
+   "rule": "'Semaforo orizzontale' is a danger sign: traffic lights ahead with the lights side by side, as a rule 150 m before them.",
+   "trap": "'all'occorrenza' means 'if needed'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down: be ready to stop",
+    "it": "moderare la velocità",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "moderare la velocità",
+    "en": "reduce speed"
+   },
+   {
+    "it": "fermare",
+    "en": "stop"
+   },
+   {
+    "it": "all'occorrenza",
+    "en": "if necessary"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19502": {
+  "en": "As a rule, the sign shown is placed 150 metres before a traffic light.",
+  "explain": {
+   "short": "Danger signs outside towns stand about 150 m before the danger, this one too.",
+   "rule": "'Semaforo orizzontale' is a danger sign: traffic lights ahead with the lights side by side, as a rule 150 m before them.",
+   "trap": "'di norma' means 'as a rule': usually, not always exactly.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "As a rule 150 m before the lights",
+    "it": "150 metri",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "150 metri prima",
+    "en": "150 metres before"
+   },
+   {
+    "it": "semaforo",
+    "en": "traffic light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19503": {
+  "en": "The sign shown indicates the obligation to stop at a police roadblock.",
+  "explain": {
+   "short": "A police checkpoint has its own 'Alt' sign; this triangle warns of traffic lights.",
+   "rule": "'Semaforo orizzontale' is a danger sign: traffic lights ahead with the lights side by side, as a rule 150 m before them.",
+   "trap": "'posto di blocco' (roadblock) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Traffic lights, not a police roadblock",
+    "it": "semaforo",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo di arresto",
+    "en": "obligation to stop"
+   },
+   {
+    "it": "posto di blocco",
+    "en": "roadblock"
+   },
+   {
+    "it": "polizia",
+    "en": "police"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19504": {
+  "en": "The sign shown warns of a moving (lifting) bridge.",
+  "explain": {
+   "short": "A moving bridge has its own sign; the discs show traffic lights.",
+   "rule": "'Semaforo orizzontale' is a danger sign: traffic lights ahead with the lights side by side, as a rule 150 m before them.",
+   "trap": "'ponte mobile' (moving bridge) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Traffic lights, not a moving bridge",
+    "it": "semaforo",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ponte mobile",
+    "en": "moving bridge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19505": {
+  "en": "The sign shown warns of access to a ferry boarding pier.",
+  "explain": {
+   "short": "Ferries have their own information sign; this triangle warns of traffic lights.",
+   "rule": "'Semaforo orizzontale' is a danger sign: traffic lights ahead with the lights side by side, as a rule 150 m before them.",
+   "trap": "'pontile d'imbarco' (boarding pier) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Traffic lights, not a ferry pier",
+    "it": "semaforo",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "accesso",
+    "en": "access"
+   },
+   {
+    "it": "pontile d'imbarco",
+    "en": "boarding pier"
+   },
+   {
+    "it": "navi traghetto",
+    "en": "ferries"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19506": {
+  "en": "The sign shown can have the red disc replaced by a flashing red light.",
+  "explain": {
+   "short": "Only the yellow disc can become a flashing light, not the red.",
+   "rule": "'Semaforo orizzontale' is a danger sign: traffic lights ahead with the lights side by side, as a rule 150 m before them.",
+   "trap": "'disco rosso' (red disc) is the trap: the rule is about the YELLOW disc.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only the YELLOW disc can flash",
+    "it": "disco rosso",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "disco rosso",
+    "en": "red disc"
+   },
+   {
+    "it": "luce rossa lampeggiante",
+    "en": "flashing red light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19507": {
+  "en": "The sign shown warns of a railway crossing without barriers.",
+  "explain": {
+   "short": "The discs show traffic lights; an unbarriered crossing has a locomotive sign.",
+   "rule": "'Semaforo orizzontale' is a danger sign: traffic lights ahead with the lights side by side, as a rule 150 m before them.",
+   "trap": "'attraversamento ferroviario' (railway crossing) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Traffic lights, not a railway crossing",
+    "it": "semaforo",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "attraversamento ferroviario",
+    "en": "railway crossing"
+   },
+   {
+    "it": "senza barriere",
+    "en": "without barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19508": {
+  "en": "The sign shown warns of a level crossing with half barriers.",
+  "explain": {
+   "short": "A level crossing with barriers has a gate sign; this one shows traffic lights.",
+   "rule": "'Semaforo orizzontale' is a danger sign: traffic lights ahead with the lights side by side, as a rule 150 m before them.",
+   "trap": "'passaggio a livello' (level crossing) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Traffic lights, not a level crossing",
+    "it": "semaforo",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "passaggio a livello",
+    "en": "level crossing"
+   },
+   {
+    "it": "semibarriere",
+    "en": "half barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19509": {
+  "en": "The sign shown warns of reversible lanes.",
+  "explain": {
+   "short": "Reversible lanes are shown by lane lights and signs above the lanes, not by this triangle.",
+   "rule": "'Semaforo orizzontale' is a danger sign: traffic lights ahead with the lights side by side, as a rule 150 m before them.",
+   "trap": "'corsie reversibili' (reversible lanes) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Traffic lights, not reversible lanes",
+    "it": "semaforo",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsie reversibili",
+    "en": "reversible lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19510": {
+  "en": "The sign shown warns of snowploughs at work.",
+  "explain": {
+   "short": "Snowploughs are shown with a '!' sign and a snowplough panel; this one shows traffic lights.",
+   "rule": "'Semaforo orizzontale' is a danger sign: traffic lights ahead with the lights side by side, as a rule 150 m before them.",
+   "trap": "'sgombraneve' (snowploughs) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Traffic lights, not snowploughs",
+    "it": "semaforo",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "macchine sgombraneve",
+    "en": "snowploughs"
+   },
+   {
+    "it": "in azione",
+    "en": "at work"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19511": {
+  "en": "The sign shown warns of a cycle crossing.",
+  "explain": {
+   "short": "A cycle crossing has its own sign with a bicycle; this one shows traffic lights.",
+   "rule": "'Semaforo orizzontale' is a danger sign: traffic lights ahead with the lights side by side, as a rule 150 m before them.",
+   "trap": "'attraversamento ciclabile' (cycle crossing) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Traffic lights, not a cycle crossing",
+    "it": "semaforo",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "attraversamento ciclabile",
+    "en": "cycle crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

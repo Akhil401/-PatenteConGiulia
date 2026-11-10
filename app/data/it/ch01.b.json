@@ -1,0 +1,713 @@
+{
+ "q18395": {
+  "short": "«A raso» vuol dire allo stesso livello: le strade si incontrano senza ponti.",
+  "rule": "Nell'intersezione a raso le strade si incontrano allo stesso livello e i veicoli si incrociano.",
+  "trap": "«a raso» non vuol dire piccolo: vuol dire allo stesso livello.",
+  "caption": "Le strade si incontrano allo stesso livello"
+ },
+ "q18396": {
+  "short": "Molti incroci normali hanno il semaforo che decide chi passa.",
+  "rule": "Nell'intersezione a raso le strade si incontrano allo stesso livello e i veicoli si incrociano.",
+  "trap": "«può» vuol dire che è possibile, non obbligatorio.",
+  "caption": "Un incrocio può avere il semaforo"
+ },
+ "q18397": {
+  "short": "È la definizione: strade che si incrociano allo stesso livello.",
+  "rule": "Nell'intersezione a raso le strade si incontrano allo stesso livello e i veicoli si incrociano.",
+  "trap": "La chiave è «poste allo stesso livello»: niente ponti.",
+  "caption": "Due o più strade allo stesso livello"
+ },
+ "q18398": {
+  "short": "All'incrocio arrivano auto dalle altre strade: devi guardarle.",
+  "rule": "Nell'intersezione a raso le strade si incontrano allo stesso livello e i veicoli si incrociano.",
+  "trap": "«richiede» vuol dire che fare attenzione è un dovere.",
+  "caption": "Guarda i veicoli delle altre strade"
+ },
+ "q18399": {
+  "short": "L'intersezione a raso è fra STRADE. Strada e binari sono un'altra cosa.",
+  "rule": "Nell'intersezione a raso le strade si incontrano allo stesso livello e i veicoli si incrociano.",
+  "trap": "«binari del tram» è l'errore: l'incrocio unisce strade.",
+  "caption": "L'incrocio unisce strade, non binari"
+ },
+ "q18400": {
+  "short": "Il passo carrabile è l'accesso a una proprietà, non è una strada.",
+  "rule": "Nell'intersezione a raso le strade si incontrano allo stesso livello e i veicoli si incrociano.",
+  "trap": "«passo carrabile» è un accesso privato, non una strada.",
+  "caption": "Il passo carrabile non è una strada"
+ },
+ "q18401": {
+  "short": "Il passaggio a livello è strada e ferrovia. L'incrocio è strada e strada.",
+  "rule": "Nell'intersezione a raso le strade si incontrano allo stesso livello e i veicoli si incrociano.",
+  "trap": "Tutti e due hanno «livello», ma il «passaggio a livello» riguarda i treni.",
+  "caption": "Passaggio a livello = ferrovia, non incrocio"
+ },
+ "q18402": {
+  "short": "«A raso» è lo STESSO livello. «Livelli sfalsati» sono livelli diversi: il contrario.",
+  "rule": "Nell'intersezione a raso le strade si incontrano allo stesso livello e i veicoli si incrociano.",
+  "trap": "«livelli sfalsati» è il contrario di «a raso».",
+  "caption": "A raso = stesso livello, non livelli diversi"
+ },
+ "q18403": {
+  "short": "Sovrappassi, sottopassi e rampe sono di un incrocio a livelli diversi.",
+  "rule": "Nell'intersezione a raso le strade si incontrano allo stesso livello e i veicoli si incrociano.",
+  "trap": "«sovrappassi, sottopassi» sono ponti e tunnel: non «a raso».",
+  "caption": "Niente ponti o rampe: un solo livello"
+ },
+ "q18404": {
+  "short": "Molte ZTL sono chiuse solo in alcune ore, per esempio di giorno in centro.",
+  "rule": "Nella ZTL il traffico è limitato per orari, tipi di veicoli o utenti. Entrano solo i veicoli autorizzati.",
+  "trap": "Qui «solo» è giusto: il limite può valere solo in alcune ore.",
+  "caption": "La ZTL può valere solo in alcune ore",
+  "lines": [
+   "Traffico limitato in una zona",
+   "Solo alcune ore, veicoli o utenti",
+   "Segnali di inizio e di fine"
+  ]
+ },
+ "q18405": {
+  "short": "Il Comune può chiudere la ZTL solo ad alcuni veicoli, per esempio camion.",
+  "rule": "Nella ZTL il traffico è limitato per orari, tipi di veicoli o utenti. Entrano solo i veicoli autorizzati.",
+  "trap": "«solo di particolari categorie» è giusto: il limite vale per alcuni veicoli.",
+  "caption": "Il limite può valere per alcuni veicoli",
+  "lines": [
+   "Traffico limitato in una zona",
+   "Solo alcune ore, veicoli o utenti",
+   "Segnali di inizio e di fine"
+  ]
+ },
+ "q18406": {
+  "short": "Quando il limite è attivo, entrano solo i veicoli con permesso.",
+  "rule": "Nella ZTL il traffico è limitato per orari, tipi di veicoli o utenti. Entrano solo i veicoli autorizzati.",
+  "trap": "La parola chiave è «autorizzati»: serve un permesso.",
+  "caption": "Entrano solo i veicoli autorizzati",
+  "lines": [
+   "Traffico limitato in una zona",
+   "Solo alcune ore, veicoli o utenti",
+   "Segnali di inizio e di fine"
+  ]
+ },
+ "q18407": {
+  "short": "L'accesso può essere solo per alcuni utenti, per esempio residenti o fornitori.",
+  "rule": "Nella ZTL il traffico è limitato per orari, tipi di veicoli o utenti. Entrano solo i veicoli autorizzati.",
+  "trap": "«utenti» sono le persone che usano la strada: il limite può dipendere da loro.",
+  "caption": "Accesso solo per alcuni utenti",
+  "lines": [
+   "Traffico limitato in una zona",
+   "Solo alcune ore, veicoli o utenti",
+   "Segnali di inizio e di fine"
+  ]
+ },
+ "q18408": {
+  "short": "Segnali all'ingresso e all'uscita dicono dove inizia e finisce la ZTL.",
+  "rule": "Nella ZTL il traffico è limitato per orari, tipi di veicoli o utenti. Entrano solo i veicoli autorizzati.",
+  "trap": "«delimitata» vuol dire che ha dei confini segnati.",
+  "caption": "Segnali di inizio e fine della ZTL",
+  "lines": [
+   "Traffico limitato in una zona",
+   "Solo alcune ore, veicoli o utenti",
+   "Segnali di inizio e di fine"
+  ]
+ },
+ "q18409": {
+  "short": "La ZTL limita per orari, veicoli o utenti, non conta le auto.",
+  "rule": "Nella ZTL il traffico è limitato per orari, tipi di veicoli o utenti. Entrano solo i veicoli autorizzati.",
+  "trap": "«un certo numero» è inventato: non c'è un numero massimo.",
+  "caption": "Nessun numero massimo: orari, veicoli, utenti",
+  "lines": [
+   "Traffico limitato in una zona",
+   "Solo alcune ore, veicoli o utenti",
+   "Segnali di inizio e di fine"
+  ]
+ },
+ "q18410": {
+  "short": "Nella ZTL entrano veicoli autorizzati di molti tipi, non solo ciclomotori e bici.",
+  "rule": "Nella ZTL il traffico è limitato per orari, tipi di veicoli o utenti. Entrano solo i veicoli autorizzati.",
+  "trap": "«solo ciclomotori e biciclette» è sbagliato e troppo stretto.",
+  "caption": "Non solo ciclomotori e bici: veicoli autorizzati",
+  "lines": [
+   "Traffico limitato in una zona",
+   "Solo alcune ore, veicoli o utenti",
+   "Segnali di inizio e di fine"
+  ]
+ },
+ "q18411": {
+  "short": "Il traffico è LIMITATO, non vietato: i veicoli autorizzati entrano.",
+  "rule": "Nella ZTL il traffico è limitato per orari, tipi di veicoli o utenti. Entrano solo i veicoli autorizzati.",
+  "trap": "La trappola è «sempre»: la ZTL limita, non vieta sempre.",
+  "caption": "Limitata, non sempre vietata",
+  "lines": [
+   "Traffico limitato in una zona",
+   "Solo alcune ore, veicoli o utenti",
+   "Segnali di inizio e di fine"
+  ]
+ },
+ "q18412": {
+  "short": "La ZTL limita i veicoli. I pedoni possono sempre camminare lì.",
+  "rule": "Nella ZTL il traffico è limitato per orari, tipi di veicoli o utenti. Entrano solo i veicoli autorizzati.",
+  "trap": "La trappola è «pedoni»: la ZTL riguarda i veicoli.",
+  "caption": "La ZTL limita i veicoli, non i pedoni",
+  "lines": [
+   "Traffico limitato in una zona",
+   "Solo alcune ore, veicoli o utenti",
+   "Segnali di inizio e di fine"
+  ]
+ },
+ "q18413": {
+  "short": "Molti passaggi a livello hanno barriere che chiudono la strada quando arriva il treno.",
+  "rule": "Nel passaggio a livello strada e binari si incrociano allo stesso livello. Ci sono barriere, luci rosse o croce di S. Andrea.",
+  "trap": "«si possono trovare» vuol dire che possono esserci.",
+  "caption": "Le barriere chiudono la strada al treno",
+  "lines": [
+   "Strada e binari allo stesso livello",
+   "Barriere, semibarriere, luci rosse",
+   "Croce di S. Andrea, segnale acustico"
+  ]
+ },
+ "q18414": {
+  "short": "Alcuni passaggi a livello hanno semibarriere che chiudono metà strada.",
+  "rule": "Nel passaggio a livello strada e binari si incrociano allo stesso livello. Ci sono barriere, luci rosse o croce di S. Andrea.",
+  "trap": "Le «semibarriere» sono mezze barriere: esistono davvero.",
+  "caption": "Ci possono essere le semibarriere",
+  "lines": [
+   "Strada e binari allo stesso livello",
+   "Barriere, semibarriere, luci rosse",
+   "Croce di S. Andrea, segnale acustico"
+  ]
+ },
+ "q18415": {
+  "short": "Le luci rosse lampeggianti dicono che arriva il treno: devi fermarti.",
+  "rule": "Nel passaggio a livello strada e binari si incrociano allo stesso livello. Ci sono barriere, luci rosse o croce di S. Andrea.",
+  "trap": "«rosse» è giusto; le luci gialle sono sbagliate.",
+  "caption": "Luci rosse: arriva il treno, fermati",
+  "lines": [
+   "Strada e binari allo stesso livello",
+   "Barriere, semibarriere, luci rosse",
+   "Croce di S. Andrea, segnale acustico"
+  ]
+ },
+ "q18416": {
+  "short": "Prima del passaggio a livello, pannelli con strisce rosse indicano la distanza.",
+  "rule": "Nel passaggio a livello strada e binari si incrociano allo stesso livello. Ci sono barriere, luci rosse o croce di S. Andrea.",
+  "trap": "«distanziometrici» vuol dire che indicano la distanza.",
+  "caption": "Pannelli di distanza prima del passaggio",
+  "lines": [
+   "Strada e binari allo stesso livello",
+   "Barriere, semibarriere, luci rosse",
+   "Croce di S. Andrea, segnale acustico"
+  ]
+ },
+ "q18417": {
+  "short": "La croce di S. Andrea (un segnale a X) indica il passaggio a livello, spesso senza barriere.",
+  "rule": "Nel passaggio a livello strada e binari si incrociano allo stesso livello. Ci sono barriere, luci rosse o croce di S. Andrea.",
+  "trap": "La «croce di S. Andrea» è il segnale a X: è giusto.",
+  "caption": "Il segnale a X indica i binari",
+  "lines": [
+   "Strada e binari allo stesso livello",
+   "Barriere, semibarriere, luci rosse",
+   "Croce di S. Andrea, segnale acustico"
+  ]
+ },
+ "q18418": {
+  "short": "Molti passaggi a livello suonano quando arriva il treno.",
+  "rule": "Nel passaggio a livello strada e binari si incrociano allo stesso livello. Ci sono barriere, luci rosse o croce di S. Andrea.",
+  "trap": "«acustica» vuol dire con un suono.",
+  "caption": "Un suono avvisa che arriva il treno",
+  "lines": [
+   "Strada e binari allo stesso livello",
+   "Barriere, semibarriere, luci rosse",
+   "Croce di S. Andrea, segnale acustico"
+  ]
+ },
+ "q18419": {
+  "short": "Nel passaggio a livello strada e binari sono allo STESSO livello. Il cavalcavia è un ponte.",
+  "rule": "Nel passaggio a livello strada e binari si incrociano allo stesso livello. Ci sono barriere, luci rosse o croce di S. Andrea.",
+  "trap": "«cavalcavia» è un ponte: il contrario di «a livello».",
+  "caption": "Stesso livello, non un ponte",
+  "lines": [
+   "Strada e binari allo stesso livello",
+   "Barriere, semibarriere, luci rosse",
+   "Croce di S. Andrea, segnale acustico"
+  ]
+ },
+ "q18420": {
+  "short": "Le luci del passaggio a livello sono ROSSE, non gialle.",
+  "rule": "Nel passaggio a livello strada e binari si incrociano allo stesso livello. Ci sono barriere, luci rosse o croce di S. Andrea.",
+  "trap": "«gialle» è il colore sbagliato: sono rosse.",
+  "caption": "Le luci sono rosse, non gialle",
+  "lines": [
+   "Strada e binari allo stesso livello",
+   "Barriere, semibarriere, luci rosse",
+   "Croce di S. Andrea, segnale acustico"
+  ]
+ },
+ "q18421": {
+  "short": "Il passaggio a livello è fra strada e ferrovia. In autostrada non ci sono.",
+  "rule": "Nel passaggio a livello strada e binari si incrociano allo stesso livello. Ci sono barriere, luci rosse o croce di S. Andrea.",
+  "trap": "«autostradale» è sbagliato: si parla di binari.",
+  "caption": "Strada e ferrovia, non autostrada",
+  "lines": [
+   "Strada e binari allo stesso livello",
+   "Barriere, semibarriere, luci rosse",
+   "Croce di S. Andrea, segnale acustico"
+  ]
+ },
+ "q18422": {
+  "short": "Le corsie di accelerazione servono per entrare in autostrada.",
+  "rule": "Nel passaggio a livello strada e binari si incrociano allo stesso livello. Ci sono barriere, luci rosse o croce di S. Andrea.",
+  "trap": "Le «corsie di accelerazione» sono dell'autostrada.",
+  "caption": "Corsie di accelerazione: in autostrada",
+  "lines": [
+   "Strada e binari allo stesso livello",
+   "Barriere, semibarriere, luci rosse",
+   "Croce di S. Andrea, segnale acustico"
+  ]
+ },
+ "q18423": {
+  "short": "Il passo carrabile è un accesso privato. Il passaggio a livello è strada più binari.",
+  "rule": "Nel passaggio a livello strada e binari si incrociano allo stesso livello. Ci sono barriere, luci rosse o croce di S. Andrea.",
+  "trap": "«passo carrabile» sembra «passaggio», ma è un'altra cosa.",
+  "caption": "Passaggio a livello = binari, non passo carrabile",
+  "lines": [
+   "Strada e binari allo stesso livello",
+   "Barriere, semibarriere, luci rosse",
+   "Croce di S. Andrea, segnale acustico"
+  ]
+ },
+ "q18424": {
+  "short": "Il sottopassaggio passa SOTTO i binari. Il passaggio a livello è allo stesso livello.",
+  "rule": "Nel passaggio a livello strada e binari si incrociano allo stesso livello. Ci sono barriere, luci rosse o croce di S. Andrea.",
+  "trap": "«sottopassaggio» è il contrario di «a livello».",
+  "caption": "Stesso livello, niente sottopassaggio",
+  "lines": [
+   "Strada e binari allo stesso livello",
+   "Barriere, semibarriere, luci rosse",
+   "Croce di S. Andrea, segnale acustico"
+  ]
+ },
+ "q18425": {
+  "short": "Il Comune può permettere i veicoli elettrici, ma solo se lo dice un segnale.",
+  "rule": "L'area pedonale è per pedoni e biciclette. I veicoli entrano solo come eccezione: emergenza, disabili, elettrici permessi.",
+  "trap": "«se espressamente consentito» è la condizione che lo rende giusto.",
+  "caption": "Veicoli elettrici: solo se permesso",
+  "lines": [
+   "Pedoni e biciclette: sì",
+   "Emergenza con sirena e luce blu: sì",
+   "Altri veicoli a motore: no"
+  ]
+ },
+ "q18426": {
+  "short": "Le aree pedonali sono fatte per chi va a piedi.",
+  "rule": "L'area pedonale è per pedoni e biciclette. I veicoli entrano solo come eccezione: emergenza, disabili, elettrici permessi.",
+  "trap": "Nessuna trappola: l'area è proprio per i «pedoni».",
+  "caption": "L'area pedonale è per i pedoni",
+  "lines": [
+   "Pedoni e biciclette: sì",
+   "Emergenza con sirena e luce blu: sì",
+   "Altri veicoli a motore: no"
+  ]
+ },
+ "q18427": {
+  "short": "Le biciclette possono entrare nelle aree pedonali; vai piano fra le persone.",
+  "rule": "L'area pedonale è per pedoni e biciclette. I veicoli entrano solo come eccezione: emergenza, disabili, elettrici permessi.",
+  "trap": "Le «biciclette» possono, i «ciclomotori» no.",
+  "caption": "Le bici possono entrare, con prudenza",
+  "lines": [
+   "Pedoni e biciclette: sì",
+   "Emergenza con sirena e luce blu: sì",
+   "Altri veicoli a motore: no"
+  ]
+ },
+ "q18428": {
+  "short": "I veicoli per persone disabili possono entrare, con il contrassegno.",
+  "rule": "L'area pedonale è per pedoni e biciclette. I veicoli entrano solo come eccezione: emergenza, disabili, elettrici permessi.",
+  "trap": "«al servizio di» vuol dire che porta una persona disabile.",
+  "caption": "Veicoli per disabili: ammessi",
+  "lines": [
+   "Pedoni e biciclette: sì",
+   "Emergenza con sirena e luce blu: sì",
+   "Altri veicoli a motore: no"
+  ]
+ },
+ "q18429": {
+  "short": "La polizia in emergenza, con sirena e luce blu, può passare.",
+  "rule": "L'area pedonale è per pedoni e biciclette. I veicoli entrano solo come eccezione: emergenza, disabili, elettrici permessi.",
+  "trap": "«in funzione» è importante: è un'emergenza.",
+  "caption": "La polizia in emergenza può entrare",
+  "lines": [
+   "Pedoni e biciclette: sì",
+   "Emergenza con sirena e luce blu: sì",
+   "Altri veicoli a motore: no"
+  ]
+ },
+ "q18430": {
+  "short": "I vigili del fuoco in emergenza, con luce blu e sirena, possono entrare.",
+  "rule": "L'area pedonale è per pedoni e biciclette. I veicoli entrano solo come eccezione: emergenza, disabili, elettrici permessi.",
+  "trap": "«in funzione»: luce e sirena devono essere accese.",
+  "caption": "Vigili del fuoco in emergenza: sì",
+  "lines": [
+   "Pedoni e biciclette: sì",
+   "Emergenza con sirena e luce blu: sì",
+   "Altri veicoli a motore: no"
+  ]
+ },
+ "q18431": {
+  "short": "Le moto non possono entrare, anche se danno la precedenza.",
+  "rule": "L'area pedonale è per pedoni e biciclette. I veicoli entrano solo come eccezione: emergenza, disabili, elettrici permessi.",
+  "trap": "«tutti» e «purché» creano una condizione falsa.",
+  "caption": "Le moto non possono entrare",
+  "lines": [
+   "Pedoni e biciclette: sì",
+   "Emergenza con sirena e luce blu: sì",
+   "Altri veicoli a motore: no"
+  ]
+ },
+ "q18432": {
+  "short": "I trattori stradali non possono entrare, a nessuna velocità.",
+  "rule": "L'area pedonale è per pedoni e biciclette. I veicoli entrano solo come eccezione: emergenza, disabili, elettrici permessi.",
+  "trap": "«30 km/h» è una condizione inventata.",
+  "caption": "Trattori: no, a nessuna velocità",
+  "lines": [
+   "Pedoni e biciclette: sì",
+   "Emergenza con sirena e luce blu: sì",
+   "Altri veicoli a motore: no"
+  ]
+ },
+ "q18433": {
+  "short": "I ciclomotori non possono entrare, né di giorno né di notte.",
+  "rule": "L'area pedonale è per pedoni e biciclette. I veicoli entrano solo come eccezione: emergenza, disabili, elettrici permessi.",
+  "trap": "«solo di giorno» è inventato: non possono mai.",
+  "caption": "Ciclomotori: no, né di giorno né di notte",
+  "lines": [
+   "Pedoni e biciclette: sì",
+   "Emergenza con sirena e luce blu: sì",
+   "Altri veicoli a motore: no"
+  ]
+ },
+ "q18434": {
+  "short": "Le auto non possono entrare; solo le eccezioni previste.",
+  "rule": "L'area pedonale è per pedoni e biciclette. I veicoli entrano solo come eccezione: emergenza, disabili, elettrici permessi.",
+  "trap": "La trappola è «tutti»: entrano solo le eccezioni.",
+  "caption": "Non tutti: solo le eccezioni",
+  "lines": [
+   "Pedoni e biciclette: sì",
+   "Emergenza con sirena e luce blu: sì",
+   "Altri veicoli a motore: no"
+  ]
+ },
+ "q18435": {
+  "short": "I quadricicli (piccole auto) non possono entrare; la velocità non conta.",
+  "rule": "L'area pedonale è per pedoni e biciclette. I veicoli entrano solo come eccezione: emergenza, disabili, elettrici permessi.",
+  "trap": "«purché... 50 km/h» è una condizione falsa.",
+  "caption": "I quadricicli non possono entrare",
+  "lines": [
+   "Pedoni e biciclette: sì",
+   "Emergenza con sirena e luce blu: sì",
+   "Altri veicoli a motore: no"
+  ]
+ },
+ "q18436": {
+  "short": "Una strada grande può avere due o più carreggiate, per esempio una per senso.",
+  "rule": "La strada è aperta a pedoni, animali e veicoli. Comprende carreggiate, banchine, marciapiedi e piste ciclabili.",
+  "trap": "Le «carreggiate» sono parti per i veicoli: possono essere più di una.",
+  "caption": "Una strada può avere più carreggiate"
+ },
+ "q18437": {
+  "short": "Le piste ciclabili fanno parte della strada.",
+  "rule": "La strada è aperta a pedoni, animali e veicoli. Comprende carreggiate, banchine, marciapiedi e piste ciclabili.",
+  "trap": "«comprendere» vuol dire includere.",
+  "caption": "Le piste ciclabili sono parte della strada"
+ },
+ "q18438": {
+  "short": "Alcune strade hanno traffico in un solo senso.",
+  "rule": "La strada è aperta a pedoni, animali e veicoli. Comprende carreggiate, banchine, marciapiedi e piste ciclabili.",
+  "trap": "«senso unico» vuol dire una sola direzione.",
+  "caption": "Una strada può essere a senso unico",
+  "lines": [
+   "Aperta a pedoni, animali, veicoli",
+   "Carreggiate, banchine, marciapiedi",
+   "Senso unico o doppio senso"
+  ]
+ },
+ "q18439": {
+  "short": "Molte strade hanno traffico nei due sensi.",
+  "rule": "La strada è aperta a pedoni, animali e veicoli. Comprende carreggiate, banchine, marciapiedi e piste ciclabili.",
+  "trap": "«doppio senso» vuol dire due direzioni.",
+  "caption": "Una strada può essere a doppio senso",
+  "lines": [
+   "Aperta a pedoni, animali, veicoli",
+   "Carreggiate, banchine, marciapiedi",
+   "Senso unico o doppio senso"
+  ]
+ },
+ "q18440": {
+  "short": "È la definizione: la strada è per tutti, non solo per le auto.",
+  "rule": "La strada è aperta a pedoni, animali e veicoli. Comprende carreggiate, banchine, marciapiedi e piste ciclabili.",
+  "trap": "Ci sono tutti e tre: «pedoni», «animali» e «veicoli».",
+  "caption": "Strada: pedoni, animali e veicoli",
+  "lines": [
+   "Aperta a pedoni, animali, veicoli",
+   "Carreggiate, banchine, marciapiedi",
+   "Senso unico o doppio senso"
+  ]
+ },
+ "q18441": {
+  "short": "La banchina (striscia a lato della carreggiata) fa parte della strada.",
+  "rule": "La strada è aperta a pedoni, animali e veicoli. Comprende carreggiate, banchine, marciapiedi e piste ciclabili.",
+  "trap": "Il «non» lo rende falso: la strada comprende le banchine.",
+  "caption": "La banchina È parte della strada"
+ },
+ "q18442": {
+  "short": "La strada è aperta a pedoni, animali e tutti i veicoli.",
+  "rule": "La strada è aperta a pedoni, animali e veicoli. Comprende carreggiate, banchine, marciapiedi e piste ciclabili.",
+  "trap": "La trappola è «soli».",
+  "caption": "Non solo auto e moto",
+  "lines": [
+   "Aperta a pedoni, animali, veicoli",
+   "Carreggiate, banchine, marciapiedi",
+   "Senso unico o doppio senso"
+  ]
+ },
+ "q18443": {
+  "short": "Mancano i pedoni: la strada è anche per chi va a piedi.",
+  "rule": "La strada è aperta a pedoni, animali e veicoli. Comprende carreggiate, banchine, marciapiedi e piste ciclabili.",
+  "trap": "«soli» toglie i pedoni.",
+  "caption": "Anche i pedoni usano la strada",
+  "lines": [
+   "Aperta a pedoni, animali, veicoli",
+   "Carreggiate, banchine, marciapiedi",
+   "Senso unico o doppio senso"
+  ]
+ },
+ "q18444": {
+  "short": "Il marciapiede fa parte della strada ed è per i pedoni.",
+  "rule": "La strada è aperta a pedoni, animali e veicoli. Comprende carreggiate, banchine, marciapiedi e piste ciclabili.",
+  "trap": "Il «non» lo rende falso.",
+  "caption": "Il marciapiede È parte della strada"
+ },
+ "q18445": {
+  "short": "La strada è definita dall'uso, non dall'asfalto. Le strisce pedonali non sono i suoi lati.",
+  "rule": "La strada è aperta a pedoni, animali e veicoli. Comprende carreggiate, banchine, marciapiedi e piste ciclabili.",
+  "trap": "«qualsiasi area asfaltata» sembra giusto ma è inventato.",
+  "caption": "Strada = area aperta al traffico",
+  "lines": [
+   "Aperta a pedoni, animali, veicoli",
+   "Carreggiate, banchine, marciapiedi",
+   "Senso unico o doppio senso"
+  ]
+ },
+ "q18446": {
+  "short": "In autostrada niente incrocia allo stesso livello: le strade passano sopra o sotto.",
+  "rule": "L'autostrada ha carreggiate separate, niente incroci a raso, recinzione e corsie di entrata e uscita. Solo alcuni veicoli possono entrare.",
+  "trap": "«non ha» è giusto: nessun incrocio a raso.",
+  "caption": "Nessun incrocio a raso in autostrada",
+  "lines": [
+   "Carreggiate separate, recintata",
+   "Niente incroci a raso; corsie apposite",
+   "No ciclomotori; moto da 150 cm3"
+  ]
+ },
+ "q18447": {
+  "short": "Entri con la corsia di accelerazione ed esci con quella di decelerazione.",
+  "rule": "L'autostrada ha carreggiate separate, niente incroci a raso, recinzione e corsie di entrata e uscita. Solo alcuni veicoli possono entrare.",
+  "trap": "Le «speciali corsie» sono di accelerazione e decelerazione.",
+  "caption": "Corsie apposite per entrare e uscire",
+  "lines": [
+   "Carreggiate separate, recintata",
+   "Niente incroci a raso; corsie apposite",
+   "No ciclomotori; moto da 150 cm3"
+  ]
+ },
+ "q18448": {
+  "short": "I due sensi sono separati: niente traffico di fronte.",
+  "rule": "L'autostrada ha carreggiate separate, niente incroci a raso, recinzione e corsie di entrata e uscita. Solo alcuni veicoli possono entrare.",
+  "trap": "Lo «spartitraffico» divide i due sensi.",
+  "caption": "Sensi separati dallo spartitraffico"
+ },
+ "q18449": {
+  "short": "Le moto con motore da 150 cm3 in su possono andare in autostrada.",
+  "rule": "L'autostrada ha carreggiate separate, niente incroci a raso, recinzione e corsie di entrata e uscita. Solo alcuni veicoli possono entrare.",
+  "trap": "«almeno» vuol dire 150 cm3 o di più.",
+  "caption": "Moto da 150 cm3 in su: sì",
+  "lines": [
+   "Carreggiate separate, recintata",
+   "Niente incroci a raso; corsie apposite",
+   "No ciclomotori; moto da 150 cm3"
+  ]
+ },
+ "q18450": {
+  "short": "Le macchine agricole sono troppo lente: in autostrada no.",
+  "rule": "L'autostrada ha carreggiate separate, niente incroci a raso, recinzione e corsie di entrata e uscita. Solo alcuni veicoli possono entrare.",
+  "trap": "«non possono» è giusto: sono vietate.",
+  "caption": "Macchine agricole: vietate",
+  "lines": [
+   "Carreggiate separate, recintata",
+   "Niente incroci a raso; corsie apposite",
+   "No ciclomotori; moto da 150 cm3"
+  ]
+ },
+ "q18451": {
+  "short": "Alcuni veicoli sono vietati: ciclomotori, bici, macchine agricole.",
+  "rule": "L'autostrada ha carreggiate separate, niente incroci a raso, recinzione e corsie di entrata e uscita. Solo alcuni veicoli possono entrare.",
+  "trap": "«non tutti» è giusto: alcuni sono esclusi.",
+  "caption": "Alcuni veicoli sono vietati",
+  "lines": [
+   "Carreggiate separate, recintata",
+   "Niente incroci a raso; corsie apposite",
+   "No ciclomotori; moto da 150 cm3"
+  ]
+ },
+ "q18452": {
+  "short": "Per uscire entri nella corsia di decelerazione e rallenti lì.",
+  "rule": "L'autostrada ha carreggiate separate, niente incroci a raso, recinzione e corsie di entrata e uscita. Solo alcuni veicoli possono entrare.",
+  "trap": "«decelerazione» per uscire, «accelerazione» per entrare.",
+  "caption": "Esci con la corsia di decelerazione",
+  "lines": [
+   "Carreggiate separate, recintata",
+   "Niente incroci a raso; corsie apposite",
+   "No ciclomotori; moto da 150 cm3"
+  ]
+ },
+ "q18453": {
+  "short": "La recinzione tiene fuori persone e animali.",
+  "rule": "L'autostrada ha carreggiate separate, niente incroci a raso, recinzione e corsie di entrata e uscita. Solo alcuni veicoli possono entrare.",
+  "trap": "«deve»: la recinzione è obbligatoria.",
+  "caption": "L'autostrada è recintata",
+  "lines": [
+   "Carreggiate separate, recintata",
+   "Niente incroci a raso; corsie apposite",
+   "No ciclomotori; moto da 150 cm3"
+  ]
+ },
+ "q18454": {
+  "short": "Anche camion, autobus e moto grandi vanno in autostrada.",
+  "rule": "L'autostrada ha carreggiate separate, niente incroci a raso, recinzione e corsie di entrata e uscita. Solo alcuni veicoli possono entrare.",
+  "trap": "La trappola è «solo».",
+  "caption": "Non solo auto: camion, bus, moto",
+  "lines": [
+   "Carreggiate separate, recintata",
+   "Niente incroci a raso; corsie apposite",
+   "No ciclomotori; moto da 150 cm3"
+  ]
+ },
+ "q18455": {
+  "short": "Le moto piccole non possono: per il quiz serve almeno 150 cm3.",
+  "rule": "L'autostrada ha carreggiate separate, niente incroci a raso, recinzione e corsie di entrata e uscita. Solo alcuni veicoli possono entrare.",
+  "trap": "La trappola è «tutti».",
+  "caption": "Non tutte le moto: serve una cilindrata minima",
+  "lines": [
+   "Carreggiate separate, recintata",
+   "Niente incroci a raso; corsie apposite",
+   "No ciclomotori; moto da 150 cm3"
+  ]
+ },
+ "q18456": {
+  "short": "Le bici sono vietate in autostrada: niente piste ciclabili.",
+  "rule": "L'autostrada ha carreggiate separate, niente incroci a raso, recinzione e corsie di entrata e uscita. Solo alcuni veicoli possono entrare.",
+  "trap": "Le «piste ciclabili» non ci sono mai in autostrada.",
+  "caption": "Niente piste ciclabili in autostrada",
+  "lines": [
+   "Carreggiate separate, recintata",
+   "Niente incroci a raso; corsie apposite",
+   "No ciclomotori; moto da 150 cm3"
+  ]
+ },
+ "q18457": {
+  "short": "I ciclomotori sono sempre vietati; per il quiz le moto devono avere almeno 150 cm3.",
+  "rule": "L'autostrada ha carreggiate separate, niente incroci a raso, recinzione e corsie di entrata e uscita. Solo alcuni veicoli possono entrare.",
+  "trap": "Basta «ciclomotori» per renderlo falso.",
+  "caption": "Ciclomotori mai; moto piccole no",
+  "lines": [
+   "Carreggiate separate, recintata",
+   "Niente incroci a raso; corsie apposite",
+   "No ciclomotori; moto da 150 cm3"
+  ]
+ },
+ "q18458": {
+  "short": "Anche le moto grandi (motoveicoli) possono entrare: «solo autoveicoli» è sbagliato.",
+  "rule": "L'autostrada ha carreggiate separate, niente incroci a raso, recinzione e corsie di entrata e uscita. Solo alcuni veicoli possono entrare.",
+  "trap": "La trappola è «solo»: le moto non sono autoveicoli.",
+  "caption": "Anche le moto grandi possono",
+  "lines": [
+   "Carreggiate separate, recintata",
+   "Niente incroci a raso; corsie apposite",
+   "No ciclomotori; moto da 150 cm3"
+  ]
+ },
+ "q18459": {
+  "short": "I ciclomotori sono vietati, e anche le moto piccole.",
+  "rule": "L'autostrada ha carreggiate separate, niente incroci a raso, recinzione e corsie di entrata e uscita. Solo alcuni veicoli possono entrare.",
+  "trap": "«tutti» e «ciclomotori» lo rendono falso.",
+  "caption": "Niente ciclomotori, niente moto piccole",
+  "lines": [
+   "Carreggiate separate, recintata",
+   "Niente incroci a raso; corsie apposite",
+   "No ciclomotori; moto da 150 cm3"
+  ]
+ },
+ "q18460": {
+  "short": "Una carreggiata può avere traffico in un solo senso.",
+  "rule": "La carreggiata è la parte della strada per i veicoli in movimento. Può avere corsie e uno o due sensi.",
+  "trap": "«senso unico» vuol dire una direzione; «può» vuol dire possibile.",
+  "caption": "La carreggiata può essere a senso unico"
+ },
+ "q18461": {
+  "short": "Molte carreggiate hanno traffico nei due sensi.",
+  "rule": "La carreggiata è la parte della strada per i veicoli in movimento. Può avere corsie e uno o due sensi.",
+  "trap": "«doppio senso» vuol dire due direzioni.",
+  "caption": "La carreggiata può essere a doppio senso"
+ },
+ "q18462": {
+  "short": "Le strisce possono dividere la carreggiata in corsie.",
+  "rule": "La carreggiata è la parte della strada per i veicoli in movimento. Può avere corsie e uno o due sensi.",
+  "trap": "Le «corsie» sono parti della «carreggiata».",
+  "caption": "Carreggiata divisa in corsie"
+ },
+ "q18463": {
+  "short": "Le piste ciclabili sono parte della STRADA, ma fuori dalla carreggiata.",
+  "rule": "La carreggiata è la parte della strada per i veicoli in movimento. Può avere corsie e uno o due sensi.",
+  "trap": "Non confondere «strada» (le comprende) e «carreggiata» (no).",
+  "caption": "Piste ciclabili fuori dalla carreggiata"
+ },
+ "q18464": {
+  "short": "I marciapiedi sono per i pedoni, fuori dalla carreggiata.",
+  "rule": "La carreggiata è la parte della strada per i veicoli in movimento. Può avere corsie e uno o due sensi.",
+  "trap": "Qui «non comprende» è giusto.",
+  "caption": "Marciapiedi fuori dalla carreggiata"
+ },
+ "q18465": {
+  "short": "È la definizione: dove circolano normalmente i veicoli.",
+  "rule": "La carreggiata è la parte della strada per i veicoli in movimento. Può avere corsie e uno o due sensi.",
+  "trap": "«parte della strada»: la carreggiata è dentro la strada.",
+  "caption": "Carreggiata = dove vanno i veicoli"
+ },
+ "q18466": {
+  "short": "La carreggiata è per tutti i veicoli, non solo per i carri.",
+  "rule": "La carreggiata è la parte della strada per i veicoli in movimento. Può avere corsie e uno o due sensi.",
+  "trap": "«carreggiata» ricorda «carro», e «soltanto» è la trappola.",
+  "caption": "Per tutti i veicoli, non solo carri"
+ },
+ "q18467": {
+  "short": "La carreggiata è per i veicoli in marcia. Per l'emergenza c'è la corsia di emergenza.",
+  "rule": "La carreggiata è la parte della strada per i veicoli in movimento. Può avere corsie e uno o due sensi.",
+  "trap": "La «sosta di emergenza» si fa nella corsia di emergenza.",
+  "caption": "Sosta di emergenza: corsia di emergenza"
+ },
+ "q18468": {
+  "short": "La carreggiata è per i veicoli in marcia, non per la sosta dei camion.",
+  "rule": "La carreggiata è la parte della strada per i veicoli in movimento. Può avere corsie e uno o due sensi.",
+  "trap": "«sosta» è l'uso sbagliato.",
+  "caption": "Per circolare, non per la sosta"
+ },
+ "q18469": {
+  "short": "La carreggiata è una parte fissa della strada, non le tracce nella neve.",
+  "rule": "La carreggiata è la parte della strada per i veicoli in movimento. Può avere corsie e uno o due sensi.",
+  "trap": "«traccia» gioca sul doppio senso di «carreggiata».",
+  "caption": "Parte della strada, non tracce nella neve"
+ },
+ "q18470": {
+  "short": "Le piazzole di sosta sono fuori dalla carreggiata, per fermarsi senza disturbare.",
+  "rule": "La carreggiata è la parte della strada per i veicoli in movimento. Può avere corsie e uno o due sensi.",
+  "trap": "Le «piazzole di sosta» sono fuori dalla carreggiata.",
+  "caption": "Piazzole fuori dalla carreggiata"
+ }
+}

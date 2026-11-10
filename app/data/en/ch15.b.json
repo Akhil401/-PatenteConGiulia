@@ -1,0 +1,2915 @@
+{
+ "q23525": {
+  "en": "Overtaking is allowed in poor visibility, as long as you flash your lights during the manoeuvre.",
+  "explain": {
+   "short": "With poor visibility you cannot see oncoming traffic. Flashing your lights does not make overtaking safe or legal.",
+   "rule": "Overtaking is forbidden near bends, crests and whenever visibility is poor (fog, heavy rain).",
+   "trap": "'purché' (as long as) adds a condition that sounds safe but does not make the overtake legal.",
+   "scene": "overtake.blocked",
+   "sceneParams": {
+    "hazard": "fog",
+    "verdict": "no",
+    "caption": "Fog: no overtaking, flashing lights don't help",
+    "it": "scarsa visibilità"
+   }
+  },
+  "keywords": [
+   {
+    "it": "scarsa visibilità",
+    "en": "poor visibility"
+   },
+   {
+    "it": "purché",
+    "en": "as long as"
+   },
+   {
+    "it": "lampeggi",
+    "en": "you flash your lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23526": {
+  "en": "Overtaking on a bend is forbidden even if the road has two separate carriageways.",
+  "explain": {
+   "short": "On a road with two separate carriageways no traffic comes towards you, so overtaking on a bend is allowed.",
+   "rule": "On bends and crests you may overtake only if the road has separate carriageways or at least two marked lanes in your direction.",
+   "trap": "'anche se' (even if) makes the ban sound total, but separate carriageways are exactly the exception.",
+   "scene": "overtake.allowed",
+   "sceneParams": {
+    "road": "dual",
+    "feature": "curve",
+    "verdict": "ok",
+    "caption": "Separate carriageways: bend overtaking is allowed",
+    "it": "carreggiate separate"
+   }
+  },
+  "keywords": [
+   {
+    "it": "curva",
+    "en": "bend"
+   },
+   {
+    "it": "anche se",
+    "en": "even if"
+   },
+   {
+    "it": "due carreggiate separate",
+    "en": "two separate carriageways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23527": {
+  "en": "Overtaking on a bend is forbidden even if the road has at least two lanes in each direction.",
+  "explain": {
+   "short": "With two or more marked lanes in your direction, you stay in your own half of the road, so overtaking on a bend is allowed.",
+   "rule": "On bends and crests you may overtake if there are at least two marked lanes for your direction of travel.",
+   "trap": "'anche se' (even if) hides the exception: two lanes per direction make it allowed.",
+   "scene": "overtake.allowed",
+   "sceneParams": {
+    "road": "twoLanesEach",
+    "feature": "curve",
+    "verdict": "ok",
+    "caption": "Two lanes your way: bend overtaking is allowed",
+    "it": "due corsie"
+   }
+  },
+  "keywords": [
+   {
+    "it": "curva",
+    "en": "bend"
+   },
+   {
+    "it": "anche se",
+    "en": "even if"
+   },
+   {
+    "it": "due corsie per senso di marcia",
+    "en": "two lanes per direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23528": {
+  "en": "Overtaking vehicles that are stopped at a level crossing without barriers is allowed if the train is far away.",
+  "explain": {
+   "short": "Near a level crossing without barriers overtaking is forbidden. The distance of the train does not change this.",
+   "rule": "No overtaking at or near level crossings without barriers (unless traffic lights control the crossing).",
+   "trap": "'se il treno è distante' (if the train is far away) is a false excuse: the ban does not depend on the train.",
+   "scene": "overtake.blocked",
+   "sceneParams": {
+    "hazard": "levelCrossing",
+    "verdict": "no",
+    "caption": "Level crossing without barriers: no overtaking",
+    "it": "passaggio a livello"
+   }
+  },
+  "keywords": [
+   {
+    "it": "passaggi a livello",
+    "en": "level crossings"
+   },
+   {
+    "it": "senza barriere",
+    "en": "without barriers"
+   },
+   {
+    "it": "fermi",
+    "en": "stopped"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23529": {
+  "en": "Overtaking slow-moving vehicles at a level crossing without barriers is allowed if the train is far away.",
+  "explain": {
+   "short": "The ban on overtaking near level crossings without barriers applies always, also to slow vehicles.",
+   "rule": "No overtaking at or near level crossings without barriers (unless traffic lights control the crossing).",
+   "trap": "'in lento movimento' (moving slowly) and 'treno distante' (train far away) do not create an exception.",
+   "scene": "overtake.blocked",
+   "sceneParams": {
+    "hazard": "levelCrossing",
+    "verdict": "no",
+    "caption": "Slow cars at a level crossing: still no overtaking",
+    "it": "passaggio a livello"
+   }
+  },
+  "keywords": [
+   {
+    "it": "lento movimento",
+    "en": "moving slowly"
+   },
+   {
+    "it": "passaggi a livello",
+    "en": "level crossings"
+   },
+   {
+    "it": "senza barriere",
+    "en": "without barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23530": {
+  "en": "Overtaking at junctions is allowed as long as nobody is coming from the right.",
+  "explain": {
+   "short": "At a junction a car can appear or turn at any moment. Overtaking there is forbidden, except in specific cases (lights, a traffic officer, a priority road with lanes).",
+   "rule": "As a rule, no overtaking at or near intersections (incroci).",
+   "trap": "'purché' (as long as) offers a condition that is not one of the legal exceptions.",
+   "scene": "overtake.blocked",
+   "sceneParams": {
+    "hazard": "junction",
+    "verdict": "no",
+    "caption": "Junction without lights: no overtaking",
+    "it": "intersezioni"
+   }
+  },
+  "keywords": [
+   {
+    "it": "intersezioni",
+    "en": "junctions"
+   },
+   {
+    "it": "purché",
+    "en": "as long as"
+   },
+   {
+    "it": "destra",
+    "en": "right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23531": {
+  "en": "Overtaking in acceleration lanes is allowed as long as it is done carefully.",
+  "explain": {
+   "short": "The acceleration lane is only for speeding up to join the main road. You must not use it to overtake.",
+   "rule": "Acceleration and deceleration lanes are not for overtaking.",
+   "trap": "'con attenzione' (carefully) does not make a forbidden manoeuvre legal.",
+   "scene": "overtake.blocked",
+   "sceneParams": {
+    "hazard": "accelLane",
+    "verdict": "no",
+    "caption": "Acceleration lane: only to join, not to overtake",
+    "it": "corsia di accelerazione"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsie d'accelerazione",
+    "en": "acceleration lanes"
+   },
+   {
+    "it": "purché",
+    "en": "as long as"
+   },
+   {
+    "it": "con attenzione",
+    "en": "carefully"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23532": {
+  "en": "It is always allowed to pass a two-wheeled vehicle.",
+  "explain": {
+   "short": "Bicycles and motorbikes are vehicles too. All the normal overtaking bans (bends, crests, solid lines, poor visibility) still apply.",
+   "rule": "Pass a two-wheeled vehicle only where overtaking is allowed, with enough side distance.",
+   "trap": "'sempre' (always) is a trap word: almost nothing in the highway code is 'always' allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "lines": [
+     "Bikes and motorbikes are vehicles",
+     "Bends, crests, solid lines: no overtaking",
+     "Leave a wide side gap"
+    ],
+    "icons": [
+     "bike",
+     "cross",
+     "distance"
+    ],
+    "verdict": "no",
+    "caption": "Bikes too: normal overtaking bans apply",
+    "it": "sempre"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sempre",
+    "en": "always"
+   },
+   {
+    "it": "superare",
+    "en": "to pass"
+   },
+   {
+    "it": "veicolo a due ruote",
+    "en": "two-wheeled vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23533": {
+  "en": "Overtaking is forbidden on one-way roads.",
+  "explain": {
+   "short": "On a one-way road nobody comes towards you, so overtaking is allowed (on the left, when safe).",
+   "rule": "On one-way roads you may overtake, even near bends and crests, if the normal safety checks are OK.",
+   "trap": "The word 'vietato' (forbidden) is wrong here: one-way roads make overtaking easier, not forbidden.",
+   "scene": "overtake.allowed",
+   "sceneParams": {
+    "road": "oneWay",
+    "feature": "dashedLine",
+    "verdict": "ok",
+    "caption": "One-way road: overtaking is allowed",
+    "it": "senso unico"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato",
+    "en": "forbidden"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23534": {
+  "en": "Overtaking police vehicles is forbidden.",
+  "explain": {
+   "short": "A police car that is not on an emergency call is a normal vehicle for overtaking. You may pass it where overtaking is allowed.",
+   "rule": "You must not get in the way of police on an emergency call (blue lights and siren). Otherwise normal rules apply.",
+   "trap": "There is no general ban on passing 'veicoli della polizia' (police vehicles); only emergency service matters.",
+   "scene": "overtake.allowed",
+   "sceneParams": {
+    "feature": "police",
+    "verdict": "ok",
+    "caption": "Police not on emergency: you may overtake",
+    "it": "polizia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato",
+    "en": "forbidden"
+   },
+   {
+    "it": "veicoli della polizia",
+    "en": "police vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23535": {
+  "en": "On the motorway you can overtake on the right or on the left, as you like.",
+  "explain": {
+   "short": "Overtaking is done on the left, also on the motorway. Overtaking on the right is allowed only in a few special cases.",
+   "rule": "Always overtake on the left. On the motorway, overtaking on the right is normally forbidden.",
+   "trap": "'indifferentemente' (either way / as you like) is the trap: right and left are not the same.",
+   "scene": "overtake.right",
+   "sceneParams": {
+    "case": "motorway",
+    "verdict": "no",
+    "caption": "Motorway: no overtaking on the right",
+    "it": "a destra"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autostrada",
+    "en": "motorway"
+   },
+   {
+    "it": "indifferentemente",
+    "en": "either way"
+   },
+   {
+    "it": "destra",
+    "en": "right"
+   },
+   {
+    "it": "sinistra",
+    "en": "left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23536": {
+  "en": "Motorbikes can overtake each other on both the right and the left.",
+  "explain": {
+   "short": "Motorbikes follow the same rule as cars: overtake on the left. Passing on the right is not allowed just because there is room.",
+   "rule": "Overtaking is on the left. Right-side overtaking only in the special cases of the code (e.g. a car turning left).",
+   "trap": "'sia a destra che a sinistra' (both right and left) is false: motorbikes have no special right-side privilege.",
+   "scene": "overtake.right",
+   "sceneParams": {
+    "case": "motorbike",
+    "verdict": "no",
+    "caption": "Motorbikes: overtake on the left, not the right",
+    "it": "motocicli"
+   }
+  },
+  "keywords": [
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   },
+   {
+    "it": "sia a destra che a sinistra",
+    "en": "both on the right and the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23537": {
+  "en": "The space needed to overtake increases if the vehicle being overtaken slows down.",
+  "explain": {
+   "short": "If the other vehicle slows down, you pass it faster. So you need less space, not more.",
+   "rule": "The bigger the speed difference, the shorter the overtake. A vehicle that speeds up makes it longer.",
+   "trap": "'aumenta' (increases) is the trap: when the other car 'rallenta' (slows down), the space gets smaller.",
+   "scene": "overtake.space",
+   "sceneParams": {
+    "factor": "otherSlows",
+    "verdict": "ok",
+    "caption": "Other car slows: overtake needs LESS space",
+    "it": "rallenta"
+   }
+  },
+  "keywords": [
+   {
+    "it": "spazio necessario",
+    "en": "space needed"
+   },
+   {
+    "it": "aumenta",
+    "en": "increases"
+   },
+   {
+    "it": "rallenta",
+    "en": "slows down"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23538": {
+  "en": "The space needed to overtake does not depend on the length of the vehicles.",
+  "explain": {
+   "short": "A long truck, or your car with a caravan, takes longer to pass. So the space needed is bigger.",
+   "rule": "Overtaking space depends on speeds and on the length of both vehicles.",
+   "trap": "'indipendente' (independent / does not depend) is wrong: length matters a lot.",
+   "scene": "overtake.space",
+   "sceneParams": {
+    "factor": "lengthOther",
+    "verdict": "ok",
+    "caption": "Long truck: the overtake needs more space",
+    "it": "lunghezza"
+   }
+  },
+  "keywords": [
+   {
+    "it": "spazio necessario",
+    "en": "space needed"
+   },
+   {
+    "it": "indipendente",
+    "en": "does not depend"
+   },
+   {
+    "it": "lunghezza",
+    "en": "length"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23539": {
+  "en": "It is forbidden to overtake a bus that is stopped to let passengers get on and off.",
+  "explain": {
+   "short": "You may pass a stopped bus, if the road is clear. Go slowly and watch for people crossing in front of it.",
+   "rule": "Passing a bus stopped at a bus stop is allowed, with care for pedestrians.",
+   "trap": "'vietato' (forbidden) is wrong: the rule asks for care, not a ban.",
+   "scene": "overtake.allowed",
+   "sceneParams": {
+    "feature": "bus",
+    "verdict": "ok",
+    "caption": "Bus at a stop: pass slowly, watch for people",
+    "it": "autobus fermo"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato",
+    "en": "forbidden"
+   },
+   {
+    "it": "autobus fermo",
+    "en": "stopped bus"
+   },
+   {
+    "it": "salita e la discesa",
+    "en": "getting on and off"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23540": {
+  "en": "Overtaking is forbidden on bends and crests of one-way roads.",
+  "explain": {
+   "short": "On a one-way road there is no oncoming traffic, so overtaking on bends and crests is allowed.",
+   "rule": "The bend/crest ban protects you from oncoming cars. On one-way roads it does not apply.",
+   "trap": "Do not mix up 'curve e dossi' (bends and crests) with 'senso unico' (one-way): one-way is the exception.",
+   "scene": "overtake.allowed",
+   "sceneParams": {
+    "road": "oneWay",
+    "feature": "curve",
+    "verdict": "ok",
+    "caption": "One-way road: bend overtaking is allowed",
+    "it": "senso unico"
+   }
+  },
+  "keywords": [
+   {
+    "it": "curve",
+    "en": "bends"
+   },
+   {
+    "it": "dossi",
+    "en": "crests"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23541": {
+  "en": "Overtaking is forbidden if you have to cross the dashed longitudinal line.",
+  "explain": {
+   "short": "A dashed line can be crossed. That is exactly the line that lets you overtake.",
+   "rule": "Dashed line: you may cross it to overtake. Solid line: you must not cross it.",
+   "trap": "'tratteggiata' (dashed) is not 'continua' (solid). Only the solid line forbids crossing.",
+   "scene": "overtake.allowed",
+   "sceneParams": {
+    "feature": "dashedLine",
+    "verdict": "ok",
+    "caption": "Dashed line: you may cross it to overtake",
+    "it": "tratteggiata"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato",
+    "en": "forbidden"
+   },
+   {
+    "it": "linea longitudinale tratteggiata",
+    "en": "dashed lane line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23542": {
+  "en": "Overtaking motorcycles on the right is allowed if there is enough space.",
+  "explain": {
+   "short": "Enough space is not a reason to pass on the right. Motorcycles are overtaken on the left like other vehicles.",
+   "rule": "Overtake on the left. Right-side overtaking only in the special cases listed by the code.",
+   "trap": "'se vi è spazio sufficiente' (if there is enough space) sounds reasonable but is not a legal exception.",
+   "scene": "overtake.right",
+   "sceneParams": {
+    "case": "motorbike",
+    "verdict": "no",
+    "caption": "Motorbike ahead: never pass on the right",
+    "it": "a destra"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sorpasso a destra",
+    "en": "overtaking on the right"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   },
+   {
+    "it": "spazio sufficiente",
+    "en": "enough space"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23543": {
+  "en": "In heavy traffic, motorcyclists may use the reserved lanes to overtake.",
+  "explain": {
+   "short": "Reserved lanes are only for the vehicles shown on the signs (for example buses and taxis). Heavy traffic does not change this.",
+   "rule": "Do not drive or overtake in a reserved lane unless your vehicle is allowed in it.",
+   "trap": "'intenso traffico' (heavy traffic) is a false excuse; 'corsie riservate' means reserved lanes.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "lines": [
+     "Reserved lane: only buses/taxis shown",
+     "Heavy traffic is no excuse",
+     "Motorbikes stay in normal lanes"
+    ],
+    "icons": [
+     "bus",
+     "cross",
+     "moto"
+    ],
+    "verdict": "no",
+    "caption": "Reserved lanes: not for overtaking",
+    "it": "corsie riservate"
+   }
+  },
+  "keywords": [
+   {
+    "it": "intenso traffico",
+    "en": "heavy traffic"
+   },
+   {
+    "it": "motociclisti",
+    "en": "motorcyclists"
+   },
+   {
+    "it": "corsie riservate",
+    "en": "reserved lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23544": {
+  "en": "When you start overtaking, you are allowed to signal the manoeuvre to the vehicles ahead by flashing your high-beam headlights.",
+  "explain": {
+   "short": "A short flash of the headlights is a legal way to warn the driver ahead that you are about to pass. Do it briefly, so you do not dazzle anyone.",
+   "rule": "You may warn the vehicle ahead with a brief headlight flash (or the horn outside towns). The left indicator is always required.",
+   "trap": "'è consentito' (it is allowed) means you may do it, not that you must.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "lines": [
+     "Left indicator: always",
+     "Brief headlight flash: allowed",
+     "Don't dazzle other drivers"
+    ],
+    "icons": [
+     "indicator",
+     "highbeam",
+     "eye"
+    ],
+    "verdict": "ok",
+    "caption": "A brief headlight flash may warn the car ahead",
+    "it": "abbaglianti"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito",
+    "en": "it is allowed"
+   },
+   {
+    "it": "lampeggiando",
+    "en": "flashing"
+   },
+   {
+    "it": "proiettori abbaglianti",
+    "en": "high-beam headlights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23545": {
+  "en": "When overtaking, you must adjust your speed to the speed of the vehicle you are overtaking.",
+  "explain": {
+   "short": "You need enough extra speed to pass quickly, but not too much. Your speed depends on how fast the other vehicle goes.",
+   "rule": "Pass with a clear but safe speed difference, always within the speed limit.",
+   "trap": "'regolare la velocità' means adjust (adapt) your speed, not simply go as fast as possible.",
+   "scene": "overtake.basic",
+   "sceneParams": {
+    "focus": "speed",
+    "verdict": "ok",
+    "caption": "Adapt your speed to the car you pass",
+    "it": "velocità"
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust your speed"
+   },
+   {
+    "it": "veicolo da sorpassare",
+    "en": "vehicle to be overtaken"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23546": {
+  "en": "To overtake in towns, you may exceed the speed limit for a moment.",
+  "explain": {
+   "short": "Speed limits apply all the time, also during an overtake. If you cannot pass within the limit, do not overtake.",
+   "rule": "No exceeding the speed limit, not even briefly to overtake.",
+   "trap": "'momentaneamente' (for a moment) is a trap: a short time does not make speeding legal.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "lines": [
+     "Overtaking in town",
+     "Speed limit still applies",
+     "Can't pass within the limit? Don't"
+    ],
+    "icons": [
+     "car",
+     "speed",
+     "cross"
+    ],
+    "verdict": "no",
+    "caption": "Speed limits apply during overtaking too",
+    "it": "limiti di velocità"
+   }
+  },
+  "keywords": [
+   {
+    "it": "centri urbani",
+    "en": "towns"
+   },
+   {
+    "it": "momentaneamente",
+    "en": "for a moment"
+   },
+   {
+    "it": "limiti di velocità",
+    "en": "speed limits"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23547": {
+  "en": "When overtaking, you must keep strictly to the right.",
+  "explain": {
+   "short": "To overtake you move to the left, past the other vehicle. Keeping strictly right is what the overtaken driver does.",
+   "rule": "Overtake on the left, leaving enough side distance, then move back right.",
+   "trap": "The duty to 'mantenere strettamente la destra' (keep strictly right) belongs to the vehicle being overtaken.",
+   "scene": "overtake.basic",
+   "sceneParams": {
+    "focus": "gap",
+    "verdict": "ok",
+    "caption": "Move LEFT to overtake, with a side gap",
+    "it": "sorpasso"
+   }
+  },
+  "keywords": [
+   {
+    "it": "mantenere strettamente la destra",
+    "en": "keep strictly to the right"
+   },
+   {
+    "it": "manovra di sorpasso",
+    "en": "overtaking manoeuvre"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23548": {
+  "en": "When overtaking, you must not accelerate.",
+  "explain": {
+   "short": "The overtaking driver usually needs to speed up to pass quickly. Not accelerating is the duty of the driver being overtaken.",
+   "rule": "Overtaker: pass briskly, within the speed limit. Overtaken driver: do not speed up.",
+   "trap": "'non bisogna accelerare' (you must not accelerate) is the rule for the other driver, not for you.",
+   "scene": "overtake.basic",
+   "sceneParams": {
+    "focus": "speed",
+    "verdict": "ok",
+    "caption": "The overtaker may speed up, within the limit",
+    "it": "accelerare"
+   }
+  },
+  "keywords": [
+   {
+    "it": "manovra di sorpasso",
+    "en": "overtaking manoeuvre"
+   },
+   {
+    "it": "non bisogna accelerare",
+    "en": "you must not accelerate"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23549": {
+  "en": "After overtaking you must move back right immediately, while slowing down.",
+  "explain": {
+   "short": "You return to the right only when you can do it safely, without cutting in. Slowing down in front of the other car is dangerous.",
+   "rule": "Move back right as soon as you can do it safely, leaving room for the overtaken vehicle.",
+   "trap": "'immediatamente' (immediately) and 'rallentando' (slowing down) together describe a dangerous cut-in.",
+   "scene": "overtake.basic",
+   "sceneParams": {
+    "focus": "return",
+    "bad": "cutIn",
+    "verdict": "no",
+    "caption": "Don't cut in and brake: return when safe",
+    "it": "rientrare"
+   }
+  },
+  "keywords": [
+   {
+    "it": "rientrare",
+    "en": "move back in"
+   },
+   {
+    "it": "immediatamente",
+    "en": "immediately"
+   },
+   {
+    "it": "rallentando",
+    "en": "slowing down"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23550": {
+  "en": "Overtaking public scheduled buses is forbidden.",
+  "explain": {
+   "short": "A public bus is a normal vehicle for overtaking. You may pass it where overtaking is allowed.",
+   "rule": "No special ban on overtaking buses. If a bus is stopped, pass carefully and watch for pedestrians.",
+   "trap": "'autobus in servizio pubblico di linea' (public route bus) does not create a ban.",
+   "scene": "overtake.allowed",
+   "sceneParams": {
+    "feature": "bus",
+    "verdict": "ok",
+    "caption": "Public bus: you may overtake it",
+    "it": "autobus di linea"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato",
+    "en": "forbidden"
+   },
+   {
+    "it": "autobus",
+    "en": "buses"
+   },
+   {
+    "it": "servizio pubblico di linea",
+    "en": "public scheduled service"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23551": {
+  "en": "Overtaking is forbidden when the vehicle ahead has switched on its right indicator.",
+  "explain": {
+   "short": "A car signalling right is going to turn right or pull over, leaving the road free on the left. You may overtake it, carefully.",
+   "rule": "It is a LEFT indicator that matters: you must not overtake on the left a car that signals a left turn.",
+   "trap": "Do not mix up 'destro' (right) and 'sinistro' (left).",
+   "scene": "overtake.allowed",
+   "sceneParams": {
+    "feature": "rightIndicator",
+    "verdict": "ok",
+    "caption": "Car ahead signals right: you may pass left",
+    "it": "indicatore destro"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato",
+    "en": "forbidden"
+   },
+   {
+    "it": "indicatore di direzione destro",
+    "en": "right indicator"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23552": {
+  "en": "Overtaking is forbidden if it is snowing.",
+  "explain": {
+   "short": "There is no specific ban for snow. But snow reduces grip and visibility, so overtake only if it is really safe.",
+   "rule": "Overtaking is forbidden when visibility is poor; snow alone is not a ban, but needs extra care.",
+   "trap": "Do not invent bans: 'se nevica' (if it snows) is not in the list of forbidden places or cases.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "lines": [
+     "Snow alone: not a ban",
+     "Check grip and visibility",
+     "Poor visibility: no overtaking"
+    ],
+    "icons": [
+     "snow",
+     "eye",
+     "check"
+    ],
+    "verdict": "ok",
+    "caption": "Snow: no automatic ban, but extra care",
+    "it": "nevica"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato",
+    "en": "forbidden"
+   },
+   {
+    "it": "nevica",
+    "en": "it is snowing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23553": {
+  "en": "Overtaking is forbidden at driveways.",
+  "explain": {
+   "short": "A passo carrabile (a driveway entrance) is a place where you must not park. It does not ban overtaking.",
+   "rule": "Driveways forbid stopping and parking, not overtaking.",
+   "trap": "'passi carrabili' (driveways) are about parking, not overtaking: don't mix the two topics.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "lines": [
+     "Passo carrabile = driveway",
+     "No parking in front of it",
+     "Overtaking is not banned"
+    ],
+    "icons": [
+     "sign",
+     "cross",
+     "check"
+    ],
+    "verdict": "ok",
+    "caption": "Driveway: no parking, but overtaking is OK",
+    "it": "passi carrabili"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato",
+    "en": "forbidden"
+   },
+   {
+    "it": "passi carrabili",
+    "en": "driveways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23554": {
+  "en": "Overtaking is forbidden near hospitals.",
+  "explain": {
+   "short": "There is no rule that bans overtaking near hospitals. Near a hospital you should avoid noise, for example the horn.",
+   "rule": "Near hospitals: drive calmly and avoid using the horn. Overtaking follows the normal rules.",
+   "trap": "'in prossimità degli ospedali' (near hospitals) is not on the list of places where overtaking is banned.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "lines": [
+     "Hospital nearby",
+     "Avoid noise and the horn",
+     "Overtaking: normal rules"
+    ],
+    "icons": [
+     "ambulance",
+     "horn",
+     "check"
+    ],
+    "verdict": "ok",
+    "caption": "Near a hospital: no overtaking ban",
+    "it": "ospedali"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato",
+    "en": "forbidden"
+   },
+   {
+    "it": "in prossimità",
+    "en": "near"
+   },
+   {
+    "it": "ospedali",
+    "en": "hospitals"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23555": {
+  "en": "Overtaking is forbidden near service stations.",
+  "explain": {
+   "short": "Service (fuel) stations are not on the list of places where overtaking is banned. Just watch for cars entering and leaving.",
+   "rule": "Overtaking near a service station follows the normal rules.",
+   "trap": "'stazioni di servizio' (service stations) is a made-up ban.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "lines": [
+     "Fuel station nearby",
+     "Watch cars going in and out",
+     "Overtaking: normal rules"
+    ],
+    "icons": [
+     "fuel",
+     "eye",
+     "check"
+    ],
+    "verdict": "ok",
+    "caption": "Near a fuel station: no overtaking ban",
+    "it": "stazioni di servizio"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato",
+    "en": "forbidden"
+   },
+   {
+    "it": "in prossimità",
+    "en": "near"
+   },
+   {
+    "it": "stazioni di servizio",
+    "en": "service stations"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23556": {
+  "en": "Overtaking near a crest is allowed on one-way roads.",
+  "explain": {
+   "short": "On a one-way road nobody comes towards you from behind the crest, so overtaking is allowed there.",
+   "rule": "On crests and bends you may overtake on one-way roads, separate carriageways or roads with 2+ marked lanes your way.",
+   "trap": "'dosso' (the top of a rise in the road) is normally a ban, but 'senso unico' (one-way) is an exception.",
+   "scene": "overtake.allowed",
+   "sceneParams": {
+    "road": "oneWay",
+    "feature": "hill",
+    "verdict": "ok",
+    "caption": "One-way road: overtaking at a crest is allowed",
+    "it": "dosso"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in prossimità di un dosso",
+    "en": "near a crest"
+   },
+   {
+    "it": "consentito",
+    "en": "allowed"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23557": {
+  "en": "Overtaking near a crest is allowed on one-way carriageways.",
+  "explain": {
+   "short": "On a one-way carriageway all traffic goes your way, so there is no risk of a head-on crash behind the crest.",
+   "rule": "On crests and bends you may overtake on one-way carriageways.",
+   "trap": "'carreggiate a senso unico' (one-way carriageways) is the exception to the crest ban.",
+   "scene": "overtake.allowed",
+   "sceneParams": {
+    "road": "oneWay",
+    "feature": "hill",
+    "verdict": "ok",
+    "caption": "One-way carriageway: crest overtaking is allowed",
+    "it": "dosso"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in prossimità di un dosso",
+    "en": "near a crest"
+   },
+   {
+    "it": "consentito",
+    "en": "allowed"
+   },
+   {
+    "it": "carreggiate a senso unico",
+    "en": "one-way carriageways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23558": {
+  "en": "Overtaking near a crest is allowed on roads with two lanes in each direction.",
+  "explain": {
+   "short": "With two marked lanes for your direction, you overtake without entering the oncoming half of the road.",
+   "rule": "On crests and bends you may overtake if there are at least two marked lanes for your direction.",
+   "trap": "'due corsie per senso di marcia' (two lanes per direction) is not the same as a two-lane road with one lane each way.",
+   "scene": "overtake.allowed",
+   "sceneParams": {
+    "road": "twoLanesEach",
+    "feature": "hill",
+    "verdict": "ok",
+    "caption": "Two lanes your way: crest overtaking is allowed",
+    "it": "dosso"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in prossimità di un dosso",
+    "en": "near a crest"
+   },
+   {
+    "it": "consentito",
+    "en": "allowed"
+   },
+   {
+    "it": "due corsie per senso di marcia",
+    "en": "two lanes per direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23559": {
+  "en": "Overtaking near a crest is allowed on roads with two separate carriageways.",
+  "explain": {
+   "short": "Separate carriageways mean the oncoming traffic is on another road. Overtaking near a crest is allowed.",
+   "rule": "On crests and bends you may overtake on roads with separate carriageways.",
+   "trap": "'carreggiate separate' (separate carriageways) is one of the exceptions to the crest ban.",
+   "scene": "overtake.allowed",
+   "sceneParams": {
+    "road": "dual",
+    "feature": "hill",
+    "verdict": "ok",
+    "caption": "Separate carriageways: crest overtaking is allowed",
+    "it": "carreggiate separate"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in prossimità di un dosso",
+    "en": "near a crest"
+   },
+   {
+    "it": "consentito",
+    "en": "allowed"
+   },
+   {
+    "it": "due carreggiate separate",
+    "en": "two separate carriageways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23560": {
+  "en": "It is forbidden to overtake by following closely behind an ambulance on an emergency call.",
+  "explain": {
+   "short": "You must not follow an emergency vehicle closely to use the free road it opens. Overtaking that way is forbidden and dangerous.",
+   "rule": "Give way to emergency vehicles with blue lights and siren; never follow them closely to get through traffic.",
+   "trap": "'accodandosi' means getting right behind (queuing up behind) the ambulance.",
+   "scene": "overtake.blocked",
+   "sceneParams": {
+    "hazard": "ambulance",
+    "verdict": "no",
+    "caption": "Never follow an ambulance to overtake",
+    "it": "accodandosi"
+   }
+  },
+  "keywords": [
+   {
+    "it": "accodandosi",
+    "en": "following closely behind"
+   },
+   {
+    "it": "ambulanza",
+    "en": "ambulance"
+   },
+   {
+    "it": "servizio di emergenza",
+    "en": "emergency call"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23562": {
+  "en": "On two-lane two-way carriageways, near a crest, overtaking animal-drawn vehicles is allowed.",
+  "explain": {
+   "short": "On a road with one lane each way you cannot see oncoming traffic behind a crest. The ban applies to every vehicle, also slow carts.",
+   "rule": "Near crests on two-way roads with one lane each way: no overtaking.",
+   "trap": "'veicoli a trazione animale' (animal-drawn vehicles) are slow, but slowness is not an exception.",
+   "scene": "overtake.blocked",
+   "sceneParams": {
+    "hazard": "hill",
+    "verdict": "no",
+    "caption": "Crest on a two-way road: no overtaking",
+    "it": "dosso"
+   }
+  },
+  "keywords": [
+   {
+    "it": "doppio senso",
+    "en": "two-way"
+   },
+   {
+    "it": "in prossimità di un dosso",
+    "en": "near a crest"
+   },
+   {
+    "it": "veicoli a trazione animale",
+    "en": "animal-drawn vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23563": {
+  "en": "On two-lane two-way carriageways, near a crest, it is allowed to overtake by following in the slipstream of the vehicle ahead.",
+  "explain": {
+   "short": "Near a crest on a two-way road overtaking is forbidden. Following another overtaking car closely is even more dangerous, because you see nothing.",
+   "rule": "Near crests on two-way roads with one lane each way: no overtaking.",
+   "trap": "'nella scia' (in the slipstream, right behind) does not give you the other car's right to pass.",
+   "scene": "overtake.blocked",
+   "sceneParams": {
+    "hazard": "hill",
+    "verdict": "no",
+    "caption": "Crest: no overtaking, not even behind another car",
+    "it": "in scia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "doppio senso di marcia",
+    "en": "two-way traffic"
+   },
+   {
+    "it": "in prossimità di un dosso",
+    "en": "near a crest"
+   },
+   {
+    "it": "nella scia",
+    "en": "in the slipstream"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23564": {
+  "en": "Near a crest, you may drive into the opposite half of the road to overtake scheduled buses that are stopped for passengers.",
+  "explain": {
+   "short": "Behind a crest you cannot see oncoming cars. Moving into the opposite half there is forbidden, even to pass a stopped bus.",
+   "rule": "Near a crest on a two-way road, do not move into the opposite half of the road. Wait behind the bus.",
+   "trap": "'invadere l'opposta semicarreggiata' means going into the oncoming half of the road: the dangerous part.",
+   "scene": "overtake.blocked",
+   "sceneParams": {
+    "hazard": "hill",
+    "verdict": "no",
+    "caption": "Bus stopped near a crest: wait, don't pass",
+    "it": "dosso"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in prossimità di un dosso",
+    "en": "near a crest"
+   },
+   {
+    "it": "opposta semicarreggiata",
+    "en": "opposite half of the road"
+   },
+   {
+    "it": "autobus di linea",
+    "en": "public bus"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23565": {
+  "en": "You cannot overtake at crests on a one-way carriageway with two lanes.",
+  "explain": {
+   "short": "On a one-way carriageway there is no oncoming traffic, so overtaking at a crest is allowed.",
+   "rule": "On crests and bends you may overtake on one-way carriageways.",
+   "trap": "'non si può' (you cannot) is the trap: 'senso unico' (one-way) makes it allowed.",
+   "scene": "overtake.allowed",
+   "sceneParams": {
+    "road": "oneWay",
+    "feature": "hill",
+    "verdict": "ok",
+    "caption": "One-way, two lanes: crest overtaking is allowed",
+    "it": "senso unico"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non si può",
+    "en": "you cannot"
+   },
+   {
+    "it": "dossi",
+    "en": "crests"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23566": {
+  "en": "You cannot overtake a vehicle that has signalled it wants to pull over to the right edge of the road.",
+  "explain": {
+   "short": "A car that pulls over to the right leaves the road free. You may pass it on the left, carefully.",
+   "rule": "You may overtake a vehicle that signals right or is pulling over, if the overtake is otherwise allowed.",
+   "trap": "'accostarsi al margine destro' means pulling over to the right edge, which makes your overtake easier.",
+   "scene": "overtake.allowed",
+   "sceneParams": {
+    "feature": "rightIndicator",
+    "verdict": "ok",
+    "caption": "Car pulling over right: you may pass left",
+    "it": "accostarsi"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non si può",
+    "en": "you cannot"
+   },
+   {
+    "it": "accostarsi",
+    "en": "to pull over"
+   },
+   {
+    "it": "margine destro",
+    "en": "right edge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23567": {
+  "en": "You cannot overtake at the exit of a public car park.",
+  "explain": {
+   "short": "A car park exit is not a place where overtaking is banned. Just watch for cars coming out.",
+   "rule": "Overtaking near a car park exit follows the normal rules.",
+   "trap": "'uscita di un pubblico parcheggio' (exit of a public car park) is not a legal ban.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "lines": [
+     "Car park exit nearby",
+     "Watch for cars coming out",
+     "Overtaking: normal rules"
+    ],
+    "icons": [
+     "car",
+     "eye",
+     "check"
+    ],
+    "verdict": "ok",
+    "caption": "Car park exit: no overtaking ban",
+    "it": "parcheggio"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non si può",
+    "en": "you cannot"
+   },
+   {
+    "it": "uscita",
+    "en": "exit"
+   },
+   {
+    "it": "pubblico parcheggio",
+    "en": "public car park"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23568": {
+  "en": "Overtaking is forbidden if on the left of the vehicle there is a broken white line next to a solid one.",
+  "explain": {
+   "short": "When the dashed line is on your side, you may cross it to overtake. The solid line only stops traffic from the other side.",
+   "rule": "Mixed lines: you may cross if the dashed line is next to you, not if the solid line is next to you.",
+   "trap": "Look which line is 'alla sinistra del veicolo' (on your left): here it is the 'discontinua' (dashed) one.",
+   "scene": "overtake.allowed",
+   "sceneParams": {
+    "feature": "mixedLine",
+    "verdict": "ok",
+    "caption": "Dashed line on your side: you may overtake",
+    "it": "discontinua"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato",
+    "en": "forbidden"
+   },
+   {
+    "it": "linea bianca discontinua",
+    "en": "broken white line"
+   },
+   {
+    "it": "continua",
+    "en": "solid line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23569": {
+  "en": "You cannot overtake on the right a tram that is running in the middle of the road.",
+  "explain": {
+   "short": "A tram running in the centre of the road is passed on the right, if there is enough room. This is one of the legal cases of overtaking on the right.",
+   "rule": "Trams moving in the middle of the road are overtaken on the right.",
+   "trap": "'non si può' (you cannot) is wrong: trams in the centre are the classic exception.",
+   "scene": "overtake.right",
+   "sceneParams": {
+    "case": "tramMoving",
+    "verdict": "ok",
+    "caption": "Tram in the middle: pass it on the right",
+    "it": "tram"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non si può",
+    "en": "you cannot"
+   },
+   {
+    "it": "sulla destra",
+    "en": "on the right"
+   },
+   {
+    "it": "tram",
+    "en": "tram"
+   },
+   {
+    "it": "al centro della carreggiata",
+    "en": "in the middle of the road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23570": {
+  "en": "While overtaking, the driver must avoid squeezing or cutting in on the vehicle being overtaken.",
+  "explain": {
+   "short": "If you cut in, the overtaken car must brake or swerve. You must return right only with enough space.",
+   "rule": "Return to the right gradually and safely, without cutting in on the overtaken vehicle.",
+   "trap": "'tagliare la strada' means to cut in front of someone; 'stringere' means squeezing them.",
+   "scene": "overtake.basic",
+   "sceneParams": {
+    "focus": "return",
+    "bad": "cutIn",
+    "verdict": "no",
+    "caption": "Cutting in forces the other car to brake",
+    "it": "tagliare la strada"
+   }
+  },
+  "keywords": [
+   {
+    "it": "stringere",
+    "en": "to squeeze"
+   },
+   {
+    "it": "tagliare la strada",
+    "en": "to cut in"
+   },
+   {
+    "it": "veicolo sorpassato",
+    "en": "overtaken vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23571": {
+  "en": "The danger of overtaking comes from the risk of hitting other vehicles that show they want to do the same manoeuvre.",
+  "explain": {
+   "short": "A car behind you may already be overtaking, or a car ahead may move out to overtake. That is why you check mirrors first.",
+   "rule": "Before overtaking, make sure no one behind has started to overtake you and no one ahead is moving out.",
+   "trap": "'la stessa manovra' (the same manoeuvre) means other cars also overtaking.",
+   "scene": "overtake.basic",
+   "sceneParams": {
+    "focus": "checks",
+    "verdict": "ok",
+    "caption": "Check nobody else is overtaking first",
+    "it": "pericolosità"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pericolosità",
+    "en": "danger"
+   },
+   {
+    "it": "urtare",
+    "en": "to hit"
+   },
+   {
+    "it": "stessa manovra",
+    "en": "same manoeuvre"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23572": {
+  "en": "The danger of overtaking comes from the risk of colliding with the vehicle to be overtaken while you approach it.",
+  "explain": {
+   "short": "If you get too close before starting, you can hit the vehicle ahead if it brakes. Keep a safe distance.",
+   "rule": "Keep a safe distance behind until you start the overtake.",
+   "trap": "'in fase di avvicinamento' means while approaching (before passing).",
+   "scene": "overtake.basic",
+   "sceneParams": {
+    "focus": "distance",
+    "verdict": "ok",
+    "caption": "Keep your distance before you pull out",
+    "it": "avvicinamento"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pericolosità",
+    "en": "danger"
+   },
+   {
+    "it": "collisione",
+    "en": "collision"
+   },
+   {
+    "it": "fase di avvicinamento",
+    "en": "approach phase"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23573": {
+  "en": "The danger of overtaking comes from the risk of colliding with the overtaken vehicle when you move back into your lane.",
+  "explain": {
+   "short": "If you return right too early, you can hit the car you just passed. Check it in your mirror first.",
+   "rule": "Move back right only when you see the overtaken vehicle in your mirror at a safe distance.",
+   "trap": "'in fase di rientro' means while moving back into your lane.",
+   "scene": "overtake.basic",
+   "sceneParams": {
+    "focus": "return",
+    "bad": "cutIn",
+    "verdict": "no",
+    "caption": "Returning too early can hit the car you passed",
+    "it": "rientro"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pericolosità",
+    "en": "danger"
+   },
+   {
+    "it": "fase di rientro",
+    "en": "moving back in"
+   },
+   {
+    "it": "veicolo sorpassato",
+    "en": "overtaken vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23574": {
+  "en": "The danger of overtaking comes from the risk of a head-on crash with a vehicle coming from the opposite direction.",
+  "explain": {
+   "short": "On a two-way road you overtake in the half of the road used by oncoming traffic. A head-on crash is the worst risk.",
+   "rule": "Overtake only if the road ahead is clear for long enough.",
+   "trap": "'urto frontale' means head-on crash; 'senso contrario' means opposite direction.",
+   "scene": "overtake.blocked",
+   "sceneParams": {
+    "hazard": "oncoming",
+    "verdict": "no",
+    "caption": "Oncoming car: no overtaking",
+    "it": "urto frontale"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pericolosità",
+    "en": "danger"
+   },
+   {
+    "it": "urto frontale",
+    "en": "head-on crash"
+   },
+   {
+    "it": "senso contrario",
+    "en": "opposite direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23575": {
+  "en": "The danger of overtaking comes from the reduced width of the carriageway.",
+  "explain": {
+   "short": "On a narrow road there is little room beside the other vehicle and for oncoming traffic, so overtaking is more dangerous.",
+   "rule": "Overtake only where the road is wide enough to leave a safe side distance.",
+   "trap": "'ridotta larghezza' means narrow width.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "lines": [
+     "Narrow road",
+     "Little room at the side",
+     "Overtaking is more dangerous"
+    ],
+    "icons": [
+     "road",
+     "distance",
+     "warning"
+    ],
+    "verdict": "no",
+    "caption": "Narrow road: overtaking is risky",
+    "it": "ridotta larghezza"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pericolosità",
+    "en": "danger"
+   },
+   {
+    "it": "ridotta larghezza",
+    "en": "reduced width"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23576": {
+  "en": "While overtaking, the driver must stay in the overtaking lane for as long as possible.",
+  "explain": {
+   "short": "You should leave the overtaking lane as soon as you can do it safely. Staying there blocks faster traffic.",
+   "rule": "After passing, return right as soon as it is safe.",
+   "trap": "'il più a lungo possibile' (as long as possible) is the opposite of the rule.",
+   "scene": "overtake.basic",
+   "sceneParams": {
+    "bad": "stayLeft",
+    "verdict": "no",
+    "caption": "Don't stay in the left lane: return when safe",
+    "it": "corsia di sorpasso"
+   }
+  },
+  "keywords": [
+   {
+    "it": "il più a lungo possibile",
+    "en": "as long as possible"
+   },
+   {
+    "it": "corsia di sorpasso",
+    "en": "overtaking lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23577": {
+  "en": "While overtaking, the driver must keep signalling the manoeuvre with the horn the whole time.",
+  "explain": {
+   "short": "The horn is not required, and using it continuously is forbidden. You signal the overtake with the indicator.",
+   "rule": "Use the indicator. The horn only briefly, outside towns, and only if needed.",
+   "trap": "'continuamente' (continuously) and 'è tenuto' (must) make this doubly wrong.",
+   "scene": "overtake.basic",
+   "sceneParams": {
+    "bad": "horn",
+    "verdict": "no",
+    "caption": "No need to honk: use the indicator",
+    "it": "avvisatore acustico"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è tenuto",
+    "en": "must"
+   },
+   {
+    "it": "continuamente",
+    "en": "continuously"
+   },
+   {
+    "it": "avvisatore acustico",
+    "en": "horn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23578": {
+  "en": "While overtaking, the driver must keep a speed at least double that of the overtaken vehicle.",
+  "explain": {
+   "short": "There is no 'double speed' rule. You need a clear speed difference, but always within the speed limit.",
+   "rule": "Adapt your speed to the other vehicle and to the speed limit.",
+   "trap": "'almeno doppia' (at least double) is an invented number.",
+   "scene": "overtake.basic",
+   "sceneParams": {
+    "focus": "speed",
+    "verdict": "ok",
+    "caption": "No 'double speed' rule; stay within the limit",
+    "it": "velocità"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è tenuto",
+    "en": "must"
+   },
+   {
+    "it": "velocità almeno doppia",
+    "en": "at least double speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23579": {
+  "en": "The danger of overtaking comes from the presence of normal edge delineators on the road.",
+  "explain": {
+   "short": "Delineators (the posts at the road edge) help you see the road. They do not make overtaking dangerous.",
+   "rule": "Edge delineators are guides, especially at night; they are not a hazard.",
+   "trap": "'delineatori normali di margine' are the white edge posts with reflectors.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "lines": [
+     "Delineators = edge posts",
+     "They show where the road goes",
+     "Not a danger for overtaking"
+    ],
+    "icons": [
+     "road",
+     "night",
+     "check"
+    ],
+    "verdict": "ok",
+    "caption": "Edge posts guide you, they're not a danger",
+    "it": "delineatori"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pericolosità",
+    "en": "danger"
+   },
+   {
+    "it": "delineatori normali di margine",
+    "en": "edge delineators (posts)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23580": {
+  "en": "Overtaking is forbidden at night in towns with poor street lighting.",
+  "explain": {
+   "short": "There is no such ban. At night you must check visibility and use the right lights, but overtaking is not automatically forbidden.",
+   "rule": "Overtaking is forbidden when you cannot see well ahead, not simply because it is night.",
+   "trap": "'di notte' (at night) is not the same as 'scarsa visibilità' (poor visibility).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "lines": [
+     "Night in town",
+     "Use your lights, check visibility",
+     "Overtaking: normal rules"
+    ],
+    "icons": [
+     "night",
+     "light",
+     "check"
+    ],
+    "verdict": "ok",
+    "caption": "Night in town: no automatic overtaking ban",
+    "it": "di notte"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato",
+    "en": "forbidden"
+   },
+   {
+    "it": "di notte",
+    "en": "at night"
+   },
+   {
+    "it": "illuminazione insufficiente",
+    "en": "poor lighting"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23581": {
+  "en": "Overtaking is forbidden when a dashed centre line is painted on the carriageway.",
+  "explain": {
+   "short": "A dashed centre line can be crossed. It is the line that allows overtaking.",
+   "rule": "Dashed centre line: overtaking allowed if safe. Solid centre line: no crossing.",
+   "trap": "'tratteggiata' (dashed) is not 'continua' (solid).",
+   "scene": "overtake.allowed",
+   "sceneParams": {
+    "feature": "dashedLine",
+    "verdict": "ok",
+    "caption": "Dashed centre line: you may overtake",
+    "it": "tratteggiata"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato",
+    "en": "forbidden"
+   },
+   {
+    "it": "linea tratteggiata",
+    "en": "dashed line"
+   },
+   {
+    "it": "mezzeria",
+    "en": "centre line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23582": {
+  "en": "Overtaking is forbidden on mountain roads when you are behind a public bus.",
+  "explain": {
+   "short": "There is no rule like this. You may overtake a bus on a mountain road where overtaking is allowed and safe.",
+   "rule": "On mountain roads the normal bans apply (bends, crests, solid lines).",
+   "trap": "'strade di montagna' (mountain roads) and 'autobus di linea' (public bus) do not create a ban together.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "lines": [
+     "Mountain road, bus ahead",
+     "Bends and solid lines: no",
+     "Straight and clear: you may pass"
+    ],
+    "icons": [
+     "bus",
+     "curve",
+     "check"
+    ],
+    "verdict": "ok",
+    "caption": "Bus on a mountain road: normal rules",
+    "it": "strade di montagna"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato",
+    "en": "forbidden"
+   },
+   {
+    "it": "strade di montagna",
+    "en": "mountain roads"
+   },
+   {
+    "it": "autobus di linea",
+    "en": "public bus"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23583": {
+  "en": "When moving back in after overtaking on the motorway, the driver must keep at least 100 m from the overtaken vehicle.",
+  "explain": {
+   "short": "There is no fixed 100 m rule. You move back right when you can do it safely, without cutting in.",
+   "rule": "Return right when you see the overtaken vehicle in your mirror at a safe distance.",
+   "trap": "'almeno 100 m' (at least 100 m) is an invented number.",
+   "scene": "overtake.basic",
+   "sceneParams": {
+    "focus": "return",
+    "verdict": "ok",
+    "caption": "Return when safe: no fixed 100 m rule",
+    "it": "rientro"
+   }
+  },
+  "keywords": [
+   {
+    "it": "rientro",
+    "en": "moving back in"
+   },
+   {
+    "it": "autostrada",
+    "en": "motorway"
+   },
+   {
+    "it": "almeno 100 m",
+    "en": "at least 100 m"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23584": {
+  "en": "When moving back in after overtaking, the driver must signal the manoeuvre with the horn to the overtaken vehicle.",
+  "explain": {
+   "short": "You do not need the horn to move back in. You use the right indicator.",
+   "rule": "Signal the return with the right indicator; the horn is not needed.",
+   "trap": "'segnalare acusticamente' means to use the horn: not required.",
+   "scene": "overtake.basic",
+   "sceneParams": {
+    "bad": "horn",
+    "verdict": "no",
+    "caption": "Returning? Use the indicator, not the horn",
+    "it": "acusticamente"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fase di rientro",
+    "en": "moving back in"
+   },
+   {
+    "it": "segnalare acusticamente",
+    "en": "signal with the horn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23585": {
+  "en": "Overtaking on the right is allowed when the trolleybus is stopped for passengers, even if there is no passenger island.",
+  "explain": {
+   "short": "Without a passenger island, people walk across the road to get on and off. Passing on the right there is forbidden.",
+   "rule": "A stopped tram or trolleybus may be passed on the right only if there is a passenger island (salvagente).",
+   "trap": "'anche se non esiste salvagente' (even if there is no passenger island) is the trap.",
+   "scene": "overtake.right",
+   "sceneParams": {
+    "case": "tramNoIsland",
+    "verdict": "no",
+    "caption": "Stopped, no passenger island: don't pass right",
+    "it": "salvagente"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sorpasso a destra",
+    "en": "overtaking on the right"
+   },
+   {
+    "it": "filobus",
+    "en": "trolleybus"
+   },
+   {
+    "it": "anche se",
+    "en": "even if"
+   },
+   {
+    "it": "salvagente",
+    "en": "passenger island"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23586": {
+  "en": "Overtaking on the right is allowed when you drive on a one-way road outside towns.",
+  "explain": {
+   "short": "Overtaking is on the left. A one-way road outside towns does not change this; right overtaking is only for special cases.",
+   "rule": "On one-way roads you may pass on the right only if the vehicle ahead signals it will stop or turn left.",
+   "trap": "'strada extraurbana' (road outside towns) and 'senso unico' (one-way) are not by themselves a reason to pass right.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "lines": [
+     "One-way road outside towns",
+     "Overtake on the LEFT",
+     "Right only if car ahead stops/turns left"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "indicator"
+    ],
+    "verdict": "no",
+    "caption": "One-way road outside towns: overtake left",
+    "it": "a destra"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sorpasso a destra",
+    "en": "overtaking on the right"
+   },
+   {
+    "it": "strada extraurbana",
+    "en": "road outside towns"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23587": {
+  "en": "A driver who wants to overtake must make sure the engine of their vehicle is more powerful than that of the vehicle to be overtaken.",
+  "explain": {
+   "short": "You cannot know the other car's engine power, and the law does not ask it. You must check the road, the space and the speed difference.",
+   "rule": "Before overtaking, check visibility, free road, mirrors and enough space.",
+   "trap": "'potenza del motore' (engine power) is an invented check.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "lines": [
+     "Compare engine power? No",
+     "Check the road is clear",
+     "Check mirrors and space"
+    ],
+    "icons": [
+     "engine",
+     "eye",
+     "mirror"
+    ],
+    "verdict": "no",
+    "caption": "Engine power is not the check",
+    "it": "potenza del motore"
+   }
+  },
+  "keywords": [
+   {
+    "it": "assicurarsi",
+    "en": "make sure"
+   },
+   {
+    "it": "potenza del motore",
+    "en": "engine power"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23588": {
+  "en": "The driver of the vehicle being overtaken has the duty not to race against the overtaking vehicle.",
+  "explain": {
+   "short": "If you speed up while someone passes you, the overtake gets longer and more dangerous. You must not race.",
+   "rule": "When you are overtaken: keep right and do not speed up.",
+   "trap": "'gareggiare in velocità' means to race.",
+   "scene": "overtake.beingOvertaken",
+   "sceneParams": {
+    "bad": "race",
+    "verdict": "no",
+    "caption": "Being overtaken? Never race",
+    "it": "gareggiare"
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo da sorpassare",
+    "en": "vehicle being overtaken"
+   },
+   {
+    "it": "obbligo",
+    "en": "duty"
+   },
+   {
+    "it": "gareggiare in velocità",
+    "en": "to race"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23589": {
+  "en": "The driver of the vehicle being overtaken has the duty not to increase their speed.",
+  "explain": {
+   "short": "Speeding up makes the overtake longer and dangerous. The overtaken driver must not accelerate.",
+   "rule": "When you are overtaken: keep right and do not speed up.",
+   "trap": "'non accelerare' (not accelerate) is the duty of the overtaken driver, not the overtaker.",
+   "scene": "overtake.beingOvertaken",
+   "sceneParams": {
+    "do": "noAccelerate",
+    "verdict": "ok",
+    "caption": "Being overtaken: don't speed up",
+    "it": "non accelerare"
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo da sorpassare",
+    "en": "vehicle being overtaken"
+   },
+   {
+    "it": "obbligo",
+    "en": "duty"
+   },
+   {
+    "it": "accelerare",
+    "en": "to accelerate"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23590": {
+  "en": "The driver of the vehicle being overtaken must stop as soon as possible to let traffic flow, if driving a very slow vehicle.",
+  "explain": {
+   "short": "A very slow vehicle can create a long queue. When others cannot pass, it must stop where possible and let them go.",
+   "rule": "Very slow vehicles must make overtaking easier, and if needed stop in a safe place to let the queue pass.",
+   "trap": "'molto lento' (very slow) is the key condition; normal cars do not have to stop.",
+   "scene": "overtake.beingOvertaken",
+   "sceneParams": {
+    "do": "letPass",
+    "verdict": "ok",
+    "caption": "Very slow vehicle stops to let traffic pass",
+    "it": "molto lento"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo",
+    "en": "duty"
+   },
+   {
+    "it": "fermarsi",
+    "en": "to stop"
+   },
+   {
+    "it": "defluire",
+    "en": "to flow"
+   },
+   {
+    "it": "molto lento",
+    "en": "very slow"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23591": {
+  "en": "The driver of the vehicle being overtaken must keep as close as possible to the right edge on roads with only one lane per direction.",
+  "explain": {
+   "short": "Moving to the right gives the overtaking car more room and makes the pass safer.",
+   "rule": "When you are overtaken on a road with one lane each way: keep to the right and do not speed up.",
+   "trap": "'il più possibile vicino al margine destro' means as close as possible to the right edge.",
+   "scene": "overtake.beingOvertaken",
+   "sceneParams": {
+    "do": "keepRight",
+    "verdict": "ok",
+    "caption": "Being overtaken: keep well to the right",
+    "it": "margine destro"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo",
+    "en": "duty"
+   },
+   {
+    "it": "margine destro",
+    "en": "right edge"
+   },
+   {
+    "it": "unica corsia per senso di marcia",
+    "en": "one lane per direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23592": {
+  "en": "The driver of the vehicle being overtaken must move to the centre of the road to prevent overtaking in the slipstream.",
+  "explain": {
+   "short": "Moving to the centre blocks the overtaking car and can cause a crash. The overtaken driver must keep right.",
+   "rule": "When you are overtaken: keep right, do not block or speed up.",
+   "trap": "'portarsi al centro' (move to the centre) is dangerous; 'in scia' means right behind another car.",
+   "scene": "overtake.beingOvertaken",
+   "sceneParams": {
+    "bad": "centre",
+    "verdict": "no",
+    "caption": "Don't move to the centre: keep right",
+    "it": "al centro"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo",
+    "en": "duty"
+   },
+   {
+    "it": "centro della carreggiata",
+    "en": "centre of the road"
+   },
+   {
+    "it": "in scia",
+    "en": "in the slipstream"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23593": {
+  "en": "The driver of the vehicle being overtaken must switch on the hazard warning lights (all indicators flashing together) to signal that the road is clear.",
+  "explain": {
+   "short": "Hazard lights are for danger or a stopped vehicle, not to tell others the road is clear. Each driver checks the road himself.",
+   "rule": "When you are overtaken: keep right and do not speed up. No signals are required.",
+   "trap": "'segnalazione luminosa di pericolo' means hazard warning lights: never a 'road clear' signal.",
+   "scene": "overtake.beingOvertaken",
+   "sceneParams": {
+    "bad": "hazardLights",
+    "verdict": "no",
+    "caption": "Hazard lights don't mean 'road clear'",
+    "it": "segnalazione di pericolo"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo",
+    "en": "duty"
+   },
+   {
+    "it": "segnalazione luminosa di pericolo",
+    "en": "hazard warning lights"
+   },
+   {
+    "it": "sgombra",
+    "en": "clear"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23594": {
+  "en": "The driver of the vehicle being overtaken must always reduce their speed.",
+  "explain": {
+   "short": "The duty is to not speed up and to keep right. Slowing down is needed only in some cases, for example when an oncoming car appears.",
+   "rule": "When you are overtaken: keep right and do not accelerate; slow down if the situation needs it.",
+   "trap": "'sempre' (always) is the trap word.",
+   "scene": "overtake.beingOvertaken",
+   "sceneParams": {
+    "do": "noAccelerate",
+    "verdict": "ok",
+    "caption": "Don't speed up; slowing is not always needed",
+    "it": "sempre"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo",
+    "en": "duty"
+   },
+   {
+    "it": "sempre",
+    "en": "always"
+   },
+   {
+    "it": "ridurre",
+    "en": "to reduce"
+   },
+   {
+    "it": "velocità",
+    "en": "speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23595": {
+  "en": "The driver of the vehicle being overtaken must shift into the lowest gears to make the overtake easier.",
+  "explain": {
+   "short": "Which gear you use is your choice. The rule is only: keep right and do not speed up.",
+   "rule": "When you are overtaken: keep right and do not accelerate.",
+   "trap": "'marce più basse' (lowest gears) is an invented duty.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "lines": [
+     "Change to low gears? Not required",
+     "Keep to the right",
+     "Don't speed up"
+    ],
+    "icons": [
+     "cross",
+     "road",
+     "speed"
+    ],
+    "verdict": "no",
+    "caption": "No gear rule: keep right, don't speed up",
+    "it": "marce"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo",
+    "en": "duty"
+   },
+   {
+    "it": "marce più basse",
+    "en": "lowest gears"
+   },
+   {
+    "it": "facilitare",
+    "en": "to make easier"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23596": {
+  "en": "When overtaking, consider that a vehicle towing a caravan can never be passed on a steep downhill slope.",
+  "explain": {
+   "short": "No rule bans passing a car with a caravan on a descent. You may pass it if the normal overtaking rules allow it.",
+   "rule": "Overtaking a vehicle with a caravan follows the normal rules; it is long, so you need more space.",
+   "trap": "'mai' (never) is the trap word.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "lines": [
+     "Car with caravan, steep descent",
+     "No special ban",
+     "It's long: you need more space"
+    ],
+    "icons": [
+     "hill",
+     "check",
+     "distance"
+    ],
+    "verdict": "ok",
+    "caption": "Caravan downhill: no 'never' rule",
+    "it": "mai"
+   }
+  },
+  "keywords": [
+   {
+    "it": "caravan",
+    "en": "caravan"
+   },
+   {
+    "it": "mai",
+    "en": "never"
+   },
+   {
+    "it": "discesa a forte pendenza",
+    "en": "steep downhill slope"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23597": {
+  "en": "It is allowed to overtake a police car if it is not on an emergency call and there are no other obstacles.",
+  "explain": {
+   "short": "A police car without blue lights and siren is a normal vehicle for overtaking. You may pass it when the road allows.",
+   "rule": "You may overtake police vehicles that are not on emergency service, following the normal rules.",
+   "trap": "'se non è in servizio di emergenza' (if not on an emergency call) is the key condition that makes it true.",
+   "scene": "overtake.allowed",
+   "sceneParams": {
+    "feature": "police",
+    "verdict": "ok",
+    "caption": "Police not on emergency: you may overtake",
+    "it": "polizia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consentito",
+    "en": "allowed"
+   },
+   {
+    "it": "Polizia",
+    "en": "police"
+   },
+   {
+    "it": "servizio di emergenza",
+    "en": "emergency call"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23598": {
+  "en": "If you are being overtaken while a vehicle is coming from the opposite direction, it is advisable to slow down.",
+  "explain": {
+   "short": "If you slow down, the overtaking car can get back in front of you quickly, before the oncoming car arrives.",
+   "rule": "When being overtaken and danger appears, help the overtaker: keep right and slow down.",
+   "trap": "'consigliabile' (advisable) is softer than 'obbligo' (duty), and it is correct here.",
+   "scene": "overtake.beingOvertaken",
+   "sceneParams": {
+    "do": "slowDown",
+    "verdict": "ok",
+    "caption": "Oncoming car: slow down to help the overtaker",
+    "it": "ridurre la velocità"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sorpassati",
+    "en": "overtaken"
+   },
+   {
+    "it": "senso opposto",
+    "en": "opposite direction"
+   },
+   {
+    "it": "consigliabile",
+    "en": "advisable"
+   },
+   {
+    "it": "ridurre la velocità",
+    "en": "reduce speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23599": {
+  "en": "If you are being overtaken while a vehicle is coming from the opposite direction, you must move as close as possible to the right edge of the road.",
+  "explain": {
+   "short": "Moving right gives more space to the overtaking car and to the oncoming car, and helps avoid a crash.",
+   "rule": "When being overtaken: keep as far right as you can, especially if traffic is coming.",
+   "trap": "'il più vicino possibile al margine destro' means as close as possible to the right edge.",
+   "scene": "overtake.beingOvertaken",
+   "sceneParams": {
+    "do": "keepRight",
+    "verdict": "ok",
+    "caption": "Oncoming car: move well to the right",
+    "it": "margine destro"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sorpassati",
+    "en": "overtaken"
+   },
+   {
+    "it": "senso opposto",
+    "en": "opposite direction"
+   },
+   {
+    "it": "margine destro",
+    "en": "right edge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23600": {
+  "en": "If you are being overtaken and an accident happens, you can share part of the blame if you did not do everything you could to make the overtake easier.",
+  "explain": {
+   "short": "The overtaken driver has duties too: keep right and do not speed up. If you ignore them, you can be partly responsible.",
+   "rule": "Both drivers have duties during an overtake, so both can share responsibility for a crash.",
+   "trap": "'una parte di responsabilità' means a share of the blame, not all of it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "lines": [
+     "You are being overtaken",
+     "Keep right, don't speed up",
+     "If you don't help: shared blame"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "book"
+    ],
+    "verdict": "ok",
+    "caption": "Being overtaken? Help, or share the blame",
+    "it": "responsabilità"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sorpassati",
+    "en": "overtaken"
+   },
+   {
+    "it": "incidente",
+    "en": "accident"
+   },
+   {
+    "it": "responsabilità",
+    "en": "responsibility"
+   },
+   {
+    "it": "facilitare",
+    "en": "to make easier"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23601": {
+  "en": "It is forbidden to overtake a police car that is not on an emergency call, so as not to obstruct it.",
+  "explain": {
+   "short": "A police car that is not on an emergency call can be overtaken like any other vehicle.",
+   "rule": "You may overtake police vehicles that are not on emergency service, following the normal rules.",
+   "trap": "'non in servizio di emergenza' (not on an emergency call) makes the ban false.",
+   "scene": "overtake.allowed",
+   "sceneParams": {
+    "feature": "police",
+    "verdict": "ok",
+    "caption": "Police not on emergency: you may overtake",
+    "it": "polizia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato",
+    "en": "forbidden"
+   },
+   {
+    "it": "Polizia",
+    "en": "police"
+   },
+   {
+    "it": "non in servizio di emergenza",
+    "en": "not on an emergency call"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23602": {
+  "en": "On motorways with three lanes in each direction, you may overtake a police car even if it is on an emergency call.",
+  "explain": {
+   "short": "A police car on an emergency call (blue lights and siren) must get a free road. You give way and do not overtake it, even with three lanes.",
+   "rule": "Give way to emergency vehicles with blue lights and siren; do not overtake them or follow them closely.",
+   "trap": "'anche se' (even if) hides the problem: the number of lanes does not matter.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "lines": [
+     "Blue lights and siren on",
+     "Let it pass, give way",
+     "Don't overtake it, even with 3 lanes"
+    ],
+    "icons": [
+     "police",
+     "check",
+     "cross"
+    ],
+    "verdict": "no",
+    "caption": "Police on emergency: give way, don't overtake",
+    "it": "servizio di emergenza"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tre corsie",
+    "en": "three lanes"
+   },
+   {
+    "it": "polizia",
+    "en": "police"
+   },
+   {
+    "it": "anche se",
+    "en": "even if"
+   },
+   {
+    "it": "servizio di emergenza",
+    "en": "emergency call"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23603": {
+  "en": "If you are being overtaken while a vehicle is coming from the opposite direction, you must keep your high beams on as a danger signal.",
+  "explain": {
+   "short": "High beams dazzle the oncoming driver and make things worse. The right help is to keep right and slow down.",
+   "rule": "When being overtaken with oncoming traffic: keep right and slow down. Never dazzle others.",
+   "trap": "'proiettori abbaglianti' (high beams) dazzle; they are not a danger signal here.",
+   "scene": "overtake.beingOvertaken",
+   "sceneParams": {
+    "bad": "highBeam",
+    "verdict": "no",
+    "caption": "High beams dazzle: keep right, slow down",
+    "it": "abbaglianti"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sorpassati",
+    "en": "overtaken"
+   },
+   {
+    "it": "senso opposto",
+    "en": "opposite direction"
+   },
+   {
+    "it": "proiettori abbaglianti",
+    "en": "high beams"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23604": {
+  "en": "If you are being overtaken while a vehicle is coming from the opposite direction, you must keep the same speed.",
+  "explain": {
+   "short": "In this danger you should slow down, so the overtaking car can return quickly in front of you.",
+   "rule": "When being overtaken with oncoming traffic: keep right and slow down.",
+   "trap": "'mantenere la stessa velocità' (keep the same speed) sounds calm, but here you should slow down.",
+   "scene": "overtake.beingOvertaken",
+   "sceneParams": {
+    "do": "slowDown",
+    "verdict": "ok",
+    "caption": "Oncoming car: slow down to help the overtaker",
+    "it": "stessa velocità"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sorpassati",
+    "en": "overtaken"
+   },
+   {
+    "it": "senso opposto",
+    "en": "opposite direction"
+   },
+   {
+    "it": "stessa velocità",
+    "en": "same speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23605": {
+  "en": "If you are being overtaken while a vehicle is coming from the opposite direction, you must switch on the right indicator as a danger signal.",
+  "explain": {
+   "short": "The right indicator means you are turning or pulling over, not danger. It can confuse the other drivers.",
+   "rule": "When being overtaken with oncoming traffic: keep right and slow down. No indicator is needed.",
+   "trap": "'indicatore di direzione destro' (right indicator) is not a danger signal.",
+   "scene": "overtake.beingOvertaken",
+   "sceneParams": {
+    "bad": "indicator",
+    "verdict": "no",
+    "caption": "Right indicator is not a danger signal",
+    "it": "indicatore"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sorpassati",
+    "en": "overtaken"
+   },
+   {
+    "it": "senso opposto",
+    "en": "opposite direction"
+   },
+   {
+    "it": "indicatore di direzione destro",
+    "en": "right indicator"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23606": {
+  "en": "During an overtake on the motorway, paying too little attention to the vehicles behind can cause an accident.",
+  "explain": {
+   "short": "On the motorway cars come up behind you very fast. If you don't check the mirror before moving left, you can be hit.",
+   "rule": "Before moving to the left lane, check the mirrors and the blind spot.",
+   "trap": "'veicoli che seguono' means the vehicles behind you.",
+   "scene": "overtake.motorway",
+   "sceneParams": {
+    "risk": "mirror",
+    "verdict": "no",
+    "caption": "Fast car behind: check the mirror first",
+    "it": "veicoli che seguono"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autostrada",
+    "en": "motorway"
+   },
+   {
+    "it": "scarsa attenzione",
+    "en": "too little attention"
+   },
+   {
+    "it": "veicoli che seguono",
+    "en": "vehicles behind"
+   },
+   {
+    "it": "incidente",
+    "en": "accident"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23607": {
+  "en": "During an overtake on the motorway, not keeping a safe distance can cause an accident.",
+  "explain": {
+   "short": "At motorway speeds you need a lot of space to stop. Too little distance means you hit the car ahead if it brakes.",
+   "rule": "Keep a safe distance also while overtaking.",
+   "trap": "'insufficiente distanza di sicurezza' means not enough safe distance.",
+   "scene": "overtake.motorway",
+   "sceneParams": {
+    "risk": "distance",
+    "verdict": "no",
+    "caption": "Too close at high speed: crash risk",
+    "it": "distanza di sicurezza"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autostrada",
+    "en": "motorway"
+   },
+   {
+    "it": "distanza di sicurezza",
+    "en": "safe distance"
+   },
+   {
+    "it": "incidente",
+    "en": "accident"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23608": {
+  "en": "During an overtake on the motorway, a sudden move into the overtaking lane by one of the vehicles ahead can cause an accident.",
+  "explain": {
+   "short": "A car ahead can suddenly move into your lane to overtake. Watch its indicators and movements and be ready to brake.",
+   "rule": "On the motorway, watch the vehicles ahead and anticipate their lane changes.",
+   "trap": "'improvviso spostamento' means sudden move.",
+   "scene": "overtake.motorway",
+   "sceneParams": {
+    "risk": "cutIn",
+    "verdict": "no",
+    "caption": "Car ahead moves left suddenly: danger",
+    "it": "improvviso spostamento"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autostrada",
+    "en": "motorway"
+   },
+   {
+    "it": "improvviso spostamento",
+    "en": "sudden move"
+   },
+   {
+    "it": "corsia di sorpasso",
+    "en": "overtaking lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23609": {
+  "en": "During an overtake on the motorway, staying too long in the overtaking lane can obstruct traffic.",
+  "explain": {
+   "short": "Staying in the left lane blocks faster cars behind you. Go back right when you have passed.",
+   "rule": "On the motorway keep right; use the left lanes only to overtake.",
+   "trap": "'intralcio' means getting in the way of other traffic.",
+   "scene": "overtake.motorway",
+   "sceneParams": {
+    "risk": "stayLeft",
+    "verdict": "no",
+    "caption": "Don't block the left lane: go back right",
+    "it": "intralcio"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autostrada",
+    "en": "motorway"
+   },
+   {
+    "it": "troppo a lungo",
+    "en": "too long"
+   },
+   {
+    "it": "corsia di sorpasso",
+    "en": "overtaking lane"
+   },
+   {
+    "it": "intralcio",
+    "en": "obstruction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23610": {
+  "en": "Overtaking on the motorway can cause an accident if it is done by following closely behind a vehicle that is overtaking.",
+  "explain": {
+   "short": "Right behind another car you cannot see ahead, and if it brakes you have no space. Keep your own safe distance.",
+   "rule": "Do not overtake glued to another overtaking car; keep a safe distance.",
+   "trap": "'accodandosi' means getting right behind another car.",
+   "scene": "overtake.motorway",
+   "sceneParams": {
+    "risk": "follow",
+    "verdict": "no",
+    "caption": "Following an overtaking car closely is risky",
+    "it": "accodandosi"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autostrada",
+    "en": "motorway"
+   },
+   {
+    "it": "accodandosi",
+    "en": "following closely behind"
+   },
+   {
+    "it": "incidente",
+    "en": "accident"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23611": {
+  "en": "Overtaking on the motorway can cause an accident if strong side wind affects the stability of the vehicles.",
+  "explain": {
+   "short": "Strong side wind can push your car or a high truck sideways, especially when you pass it. Hold the wheel firmly and keep more side distance.",
+   "rule": "With strong side wind, overtake with more care and more side space.",
+   "trap": "'forte vento laterale' means strong side wind.",
+   "scene": "overtake.motorway",
+   "sceneParams": {
+    "risk": "wind",
+    "verdict": "no",
+    "caption": "Strong side wind: vehicles can move sideways",
+    "it": "vento laterale"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autostrada",
+    "en": "motorway"
+   },
+   {
+    "it": "forte vento laterale",
+    "en": "strong side wind"
+   },
+   {
+    "it": "stabilità",
+    "en": "stability"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23612": {
+  "en": "Overtaking on the motorway can cause an accident if it is done near a lay-by.",
+  "explain": {
+   "short": "A lay-by (piazzola di sosta) is outside the traffic lanes. Overtaking near it is not, in itself, a cause of accidents.",
+   "rule": "Overtaking near a motorway lay-by follows the normal rules.",
+   "trap": "'piazzola di sosta' means a small stopping area (lay-by) at the side of the road.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "lines": [
+     "Piazzola = lay-by at the side",
+     "It's outside the traffic lanes",
+     "Overtaking: normal rules"
+    ],
+    "icons": [
+     "road",
+     "check",
+     "car"
+    ],
+    "verdict": "ok",
+    "caption": "Lay-by nearby: not a special overtaking risk",
+    "it": "piazzola di sosta"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autostrada",
+    "en": "motorway"
+   },
+   {
+    "it": "incidente",
+    "en": "accident"
+   },
+   {
+    "it": "piazzola di sosta",
+    "en": "lay-by"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23613": {
+  "en": "Overtaking on the motorway can cause an accident if you drive with your dipped headlights always on.",
+  "explain": {
+   "short": "Dipped headlights help others see you; on motorways they are even required by day. They do not cause accidents.",
+   "rule": "Outside towns and on motorways, dipped headlights must be on also during the day.",
+   "trap": "'anabbaglianti' (dipped headlights) are safe; do not confuse them with 'abbaglianti' (high beams).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "lines": [
+     "Dipped lights on, day and night",
+     "Others see you better",
+     "Not a cause of accidents"
+    ],
+    "icons": [
+     "light",
+     "eye",
+     "check"
+    ],
+    "verdict": "ok",
+    "caption": "Dipped headlights on: safer, not a risk",
+    "it": "anabbaglianti"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autostrada",
+    "en": "motorway"
+   },
+   {
+    "it": "incidente",
+    "en": "accident"
+   },
+   {
+    "it": "luci anabbaglianti",
+    "en": "dipped headlights"
+   },
+   {
+    "it": "sempre",
+    "en": "always"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

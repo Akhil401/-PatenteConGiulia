@@ -1,0 +1,2497 @@
+{
+ "q18395": {
+  "en": "In an at-grade junction (crossroads), two or more roads cross at the same level.",
+  "explain": {
+   "short": "'A raso' means 'at ground level': the roads meet on the same level, with no bridge.",
+   "rule": "An at-grade junction (intersezione a raso) is a crossroads where roads meet on the same level, so their traffic flows cross.",
+   "trap": "'a raso' does not mean 'small': it means 'at the same level'.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Roads meet on the same level",
+    "it": "intersezione a raso",
+    "part": "intersezione"
+   }
+  },
+  "keywords": [
+   {
+    "it": "a raso",
+    "en": "at the same level"
+   },
+   {
+    "it": "si incrociano",
+    "en": "cross each other"
+   },
+   {
+    "it": "allo stesso livello",
+    "en": "at the same level"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18396": {
+  "en": "An at-grade junction (crossroads) can be controlled by traffic lights.",
+  "explain": {
+   "short": "Many ordinary crossroads have traffic lights to decide who goes first.",
+   "rule": "An at-grade junction (intersezione a raso) is a crossroads where roads meet on the same level, so their traffic flows cross.",
+   "trap": "'può' means 'can': lights are possible, not compulsory.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A crossroads can have traffic lights",
+    "it": "intersezione a raso",
+    "part": "intersezione"
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolata",
+    "en": "controlled"
+   },
+   {
+    "it": "semaforo",
+    "en": "traffic lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18397": {
+  "en": "An at-grade junction (crossroads) is an intersection of two or more roads placed at the same level.",
+  "explain": {
+   "short": "That is the definition: roads that cross each other on the same level.",
+   "rule": "An at-grade junction (intersezione a raso) is a crossroads where roads meet on the same level, so their traffic flows cross.",
+   "trap": "'poste allo stesso livello' is the key: same level, no bridges.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Two or more roads on the same level",
+    "it": "intersezione a raso",
+    "part": "intersezione"
+   }
+  },
+  "keywords": [
+   {
+    "it": "intersezione",
+    "en": "intersection"
+   },
+   {
+    "it": "allo stesso livello",
+    "en": "at the same level"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18398": {
+  "en": "An at-grade junction (crossroads) requires paying attention to vehicles coming from the crossing roads.",
+  "explain": {
+   "short": "At a crossroads other cars can come from the side roads, so you must watch them.",
+   "rule": "An at-grade junction (intersezione a raso) is a crossroads where roads meet on the same level, so their traffic flows cross.",
+   "trap": "'richiede' means 'requires': watching is a real duty here.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Watch cars from the other roads",
+    "it": "intersezione a raso",
+    "part": "intersezione"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fare attenzione",
+    "en": "pay attention"
+   },
+   {
+    "it": "provenienti",
+    "en": "coming from"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18399": {
+  "en": "An at-grade junction (crossroads) is a crossing between a state road and tram tracks.",
+  "explain": {
+   "short": "An at-grade junction is between ROADS. A road crossing rails is a different thing (a level crossing).",
+   "rule": "An at-grade junction (intersezione a raso) is a crossroads where roads meet on the same level, so their traffic flows cross.",
+   "trap": "'binari del tram' (tram tracks) is the wrong element: junctions join roads.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A junction joins roads, not tram tracks",
+    "it": "intersezione a raso",
+    "part": "intersezione"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada statale",
+    "en": "state road"
+   },
+   {
+    "it": "binari del tram",
+    "en": "tram tracks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18400": {
+  "en": "An at-grade junction (crossroads) is a crossing between a state road and a driveway.",
+  "explain": {
+   "short": "A driveway (passo carrabile) is an entrance to private property, not a road. A crossroads joins roads.",
+   "rule": "An at-grade junction (intersezione a raso) is a crossroads where roads meet on the same level, so their traffic flows cross.",
+   "trap": "'passo carrabile' means a driveway, not a road.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A driveway is not a road",
+    "it": "intersezione a raso",
+    "part": "intersezione"
+   }
+  },
+  "keywords": [
+   {
+    "it": "passo carrabile",
+    "en": "driveway"
+   },
+   {
+    "it": "strada statale",
+    "en": "state road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18401": {
+  "en": "An at-grade junction (crossroads) is a level crossing equipped with barriers or half-barriers.",
+  "explain": {
+   "short": "A level crossing (passaggio a livello) is road and railway. A crossroads is road and road.",
+   "rule": "An at-grade junction (intersezione a raso) is a crossroads where roads meet on the same level, so their traffic flows cross.",
+   "trap": "Both use the word 'livello', but 'passaggio a livello' is about trains.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Level crossing = railway, not a crossroads",
+    "it": "intersezione a raso",
+    "part": "intersezione"
+   }
+  },
+  "keywords": [
+   {
+    "it": "passaggio a livello",
+    "en": "level crossing"
+   },
+   {
+    "it": "barriere",
+    "en": "barriers"
+   },
+   {
+    "it": "semibarriere",
+    "en": "half-barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18402": {
+  "en": "An at-grade junction (crossroads) is an intersection on different levels.",
+  "explain": {
+   "short": "'A raso' means the SAME level. 'Livelli sfalsati' means different levels, with bridges: the opposite.",
+   "rule": "An at-grade junction (intersezione a raso) is a crossroads where roads meet on the same level, so their traffic flows cross.",
+   "trap": "'livelli sfalsati' (different levels) is the opposite of 'a raso'.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A raso = same level, not different levels",
+    "it": "intersezione a raso",
+    "part": "intersezione"
+   }
+  },
+  "keywords": [
+   {
+    "it": "livelli sfalsati",
+    "en": "different levels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18403": {
+  "en": "An at-grade junction (crossroads) is a set of overpasses, underpasses and ramps.",
+  "explain": {
+   "short": "Overpasses, underpasses and ramps belong to a junction on different levels, not to one at the same level.",
+   "rule": "An at-grade junction (intersezione a raso) is a crossroads where roads meet on the same level, so their traffic flows cross.",
+   "trap": "'sovrappassi, sottopassi' describe bridges and tunnels: not 'a raso'.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No bridges or ramps: roads meet on one level",
+    "it": "intersezione a raso",
+    "part": "intersezione"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sovrappassi",
+    "en": "overpasses"
+   },
+   {
+    "it": "sottopassi",
+    "en": "underpasses"
+   },
+   {
+    "it": "rampe",
+    "en": "ramps"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18404": {
+  "en": "A limited traffic zone is an area where vehicle traffic can be limited only at certain hours.",
+  "explain": {
+   "short": "Many ZTLs are closed only at some times of day, for example during the day in the town centre.",
+   "rule": "A ZTL (zona a traffico limitato) is a zone where traffic is limited by hours, vehicle type or user type; only authorised vehicles enter.",
+   "trap": "Here 'solo' (only) is correct: the limit can apply to some hours only.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A ZTL can be limited only at some hours",
+    "it": "zona a traffico limitato",
+    "lines": [
+     "Traffic limited in a marked zone",
+     "Only some hours / vehicles / users",
+     "Start and end signs mark it"
+    ],
+    "icons": [
+     "sign",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "zona a traffico limitato",
+    "en": "limited traffic zone"
+   },
+   {
+    "it": "solo in alcune ore",
+    "en": "only at certain hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18405": {
+  "en": "A limited traffic zone is an area in which traffic can be limited only for particular categories of vehicles.",
+  "explain": {
+   "short": "The town can close a ZTL only to some kinds of vehicles, for example trucks or polluting cars.",
+   "rule": "A ZTL (zona a traffico limitato) is a zone where traffic is limited by hours, vehicle type or user type; only authorised vehicles enter.",
+   "trap": "'solo di particolari categorie' is right: the limit can hit only some vehicles.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The limit can apply to some vehicle types",
+    "it": "zona a traffico limitato",
+    "lines": [
+     "Traffic limited in a marked zone",
+     "Only some hours / vehicles / users",
+     "Start and end signs mark it"
+    ],
+    "icons": [
+     "sign",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "categorie di veicoli",
+    "en": "categories of vehicles"
+   },
+   {
+    "it": "limitata",
+    "en": "limited"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18406": {
+  "en": "In a limited traffic zone only authorised vehicles may circulate.",
+  "explain": {
+   "short": "When the limit is on, only vehicles with permission (residents, taxis, services...) may enter.",
+   "rule": "A ZTL (zona a traffico limitato) is a zone where traffic is limited by hours, vehicle type or user type; only authorised vehicles enter.",
+   "trap": "'autorizzati' (authorised) is the key word: permission is needed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only authorised vehicles enter",
+    "it": "zona a traffico limitato",
+    "lines": [
+     "Traffic limited in a marked zone",
+     "Only some hours / vehicles / users",
+     "Start and end signs mark it"
+    ],
+    "icons": [
+     "sign",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicoli autorizzati",
+    "en": "authorised vehicles"
+   },
+   {
+    "it": "circolare",
+    "en": "to drive / circulate"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18407": {
+  "en": "A limited traffic zone is an area in which traffic can be limited only to particular categories of users.",
+  "explain": {
+   "short": "Access can be kept for some users only, for example residents or delivery drivers.",
+   "rule": "A ZTL (zona a traffico limitato) is a zone where traffic is limited by hours, vehicle type or user type; only authorised vehicles enter.",
+   "trap": "'utenti' means road users (people), and the limit can depend on them.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Access can be for some users only",
+    "it": "zona a traffico limitato",
+    "lines": [
+     "Traffic limited in a marked zone",
+     "Only some hours / vehicles / users",
+     "Start and end signs mark it"
+    ],
+    "icons": [
+     "sign",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "categorie di utenti",
+    "en": "categories of users"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18408": {
+  "en": "A limited traffic zone is marked by special start and end road signs.",
+  "explain": {
+   "short": "Signs at the entrance and the exit tell you where the ZTL starts and ends, and its hours.",
+   "rule": "A ZTL (zona a traffico limitato) is a zone where traffic is limited by hours, vehicle type or user type; only authorised vehicles enter.",
+   "trap": "'delimitata' means 'bounded / marked out'.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Signs mark the start and end of a ZTL",
+    "it": "zona a traffico limitato",
+    "lines": [
+     "Traffic limited in a marked zone",
+     "Only some hours / vehicles / users",
+     "Start and end signs mark it"
+    ],
+    "icons": [
+     "sign",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "delimitata",
+    "en": "marked out"
+   },
+   {
+    "it": "segnali stradali",
+    "en": "road signs"
+   },
+   {
+    "it": "di inizio e di fine",
+    "en": "of start and end"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18409": {
+  "en": "In a limited traffic zone no more than a certain number of vehicles may enter.",
+  "explain": {
+   "short": "A ZTL limits by hours, vehicle type or user type, not by counting cars.",
+   "rule": "A ZTL (zona a traffico limitato) is a zone where traffic is limited by hours, vehicle type or user type; only authorised vehicles enter.",
+   "trap": "'un certo numero' (a certain number) is invented: there is no quota.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No car quota: limits by hours, vehicle, user",
+    "it": "zona a traffico limitato",
+    "lines": [
+     "Traffic limited in a marked zone",
+     "Only some hours / vehicles / users",
+     "Start and end signs mark it"
+    ],
+    "icons": [
+     "sign",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "un certo numero",
+    "en": "a certain number"
+   },
+   {
+    "it": "entrare",
+    "en": "to enter"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18410": {
+  "en": "A limited traffic zone is an area where only mopeds and bicycles may pass.",
+  "explain": {
+   "short": "A ZTL lets in authorised vehicles of many kinds, not only mopeds and bicycles.",
+   "rule": "A ZTL (zona a traffico limitato) is a zone where traffic is limited by hours, vehicle type or user type; only authorised vehicles enter.",
+   "trap": "'solo... ciclomotori e biciclette' is too narrow and invented.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not only mopeds and bikes: authorised vehicles",
+    "it": "zona a traffico limitato",
+    "lines": [
+     "Traffic limited in a marked zone",
+     "Only some hours / vehicles / users",
+     "Start and end signs mark it"
+    ],
+    "icons": [
+     "sign",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   },
+   {
+    "it": "transito",
+    "en": "passage / transit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18411": {
+  "en": "A limited traffic zone is an area always closed to motor vehicles.",
+  "explain": {
+   "short": "Traffic is LIMITED, not banned: authorised motor vehicles may enter, and often only some hours are closed.",
+   "rule": "A ZTL (zona a traffico limitato) is a zone where traffic is limited by hours, vehicle type or user type; only authorised vehicles enter.",
+   "trap": "'sempre' (always) is the trap: a ZTL limits, it does not always ban.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Limited, not always banned",
+    "it": "zona a traffico limitato",
+    "lines": [
+     "Traffic limited in a marked zone",
+     "Only some hours / vehicles / users",
+     "Start and end signs mark it"
+    ],
+    "icons": [
+     "sign",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sempre vietata",
+    "en": "always forbidden"
+   },
+   {
+    "it": "veicoli a motore",
+    "en": "motor vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18412": {
+  "en": "A limited traffic zone is an area closed to pedestrians during the night.",
+  "explain": {
+   "short": "A ZTL limits vehicles. Pedestrians can always walk there, day and night.",
+   "rule": "A ZTL (zona a traffico limitato) is a zone where traffic is limited by hours, vehicle type or user type; only authorised vehicles enter.",
+   "trap": "'pedoni' is the trap: the ZTL is about vehicles, not people on foot.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "ZTL limits vehicles, not pedestrians",
+    "it": "zona a traffico limitato",
+    "lines": [
+     "Traffic limited in a marked zone",
+     "Only some hours / vehicles / users",
+     "Start and end signs mark it"
+    ],
+    "icons": [
+     "sign",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   },
+   {
+    "it": "ore notturne",
+    "en": "night hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18413": {
+  "en": "At a level crossing you can find barriers.",
+  "explain": {
+   "short": "Many level crossings have full barriers that close the road when a train comes.",
+   "rule": "A level crossing (passaggio a livello) is where road and railway cross on the same level, protected by barriers, red lights or the St Andrew's cross.",
+   "trap": "'si possono trovare' means 'may be there', not always.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Barriers close the road for trains",
+    "it": "passaggio a livello",
+    "lines": [
+     "Road and rails cross on one level",
+     "Barriers, half-barriers, red lights",
+     "St Andrew's cross, sound signal"
+    ],
+    "icons": [
+     "train",
+     "light",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passaggio a livello",
+    "en": "level crossing"
+   },
+   {
+    "it": "barriere",
+    "en": "barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18414": {
+  "en": "At a level crossing you can find half-barriers.",
+  "explain": {
+   "short": "Some level crossings have half-barriers, which close only half of the road on each side.",
+   "rule": "A level crossing (passaggio a livello) is where road and railway cross on the same level, protected by barriers, red lights or the St Andrew's cross.",
+   "trap": "'semibarriere' are half-barriers: still a real level crossing device.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Half-barriers are possible too",
+    "it": "passaggio a livello",
+    "lines": [
+     "Road and rails cross on one level",
+     "Barriers, half-barriers, red lights",
+     "St Andrew's cross, sound signal"
+    ],
+    "icons": [
+     "train",
+     "light",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "semibarriere",
+    "en": "half-barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18415": {
+  "en": "At a level crossing you can find red lights.",
+  "explain": {
+   "short": "Red flashing lights warn that a train is coming: you must stop.",
+   "rule": "A level crossing (passaggio a livello) is where road and railway cross on the same level, protected by barriers, red lights or the St Andrew's cross.",
+   "trap": "'rosse' (red) is right; quiz versions with yellow lights are false.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red lights: a train is coming, stop",
+    "it": "passaggio a livello",
+    "lines": [
+     "Road and rails cross on one level",
+     "Barriers, half-barriers, red lights",
+     "St Andrew's cross, sound signal"
+    ],
+    "icons": [
+     "train",
+     "light",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luci rosse",
+    "en": "red lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18416": {
+  "en": "Near a level crossing there are distance boards.",
+  "explain": {
+   "short": "Before a level crossing, boards with red stripes count down the distance to it.",
+   "rule": "A level crossing (passaggio a livello) is where road and railway cross on the same level, protected by barriers, red lights or the St Andrew's cross.",
+   "trap": "'distanziometrici' means 'showing the distance'.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Distance boards before the crossing",
+    "it": "passaggio a livello",
+    "lines": [
+     "Road and rails cross on one level",
+     "Barriers, half-barriers, red lights",
+     "St Andrew's cross, sound signal"
+    ],
+    "icons": [
+     "train",
+     "light",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in vicinanza",
+    "en": "near"
+   },
+   {
+    "it": "pannelli distanziometrici",
+    "en": "distance boards"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18417": {
+  "en": "At a level crossing you can find the St Andrew's cross.",
+  "explain": {
+   "short": "The St Andrew's cross (an X-shaped sign) marks a level crossing, often one without barriers.",
+   "rule": "A level crossing (passaggio a livello) is where road and railway cross on the same level, protected by barriers, red lights or the St Andrew's cross.",
+   "trap": "'croce di S. Andrea' is the X-shaped sign: it belongs here.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The X sign marks the railway crossing",
+    "it": "passaggio a livello",
+    "lines": [
+     "Road and rails cross on one level",
+     "Barriers, half-barriers, red lights",
+     "St Andrew's cross, sound signal"
+    ],
+    "icons": [
+     "train",
+     "light",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "croce di S. Andrea",
+    "en": "St Andrew's cross"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18418": {
+  "en": "At a level crossing you can find an acoustic warning device.",
+  "explain": {
+   "short": "Many level crossings ring a bell or sound when a train is coming.",
+   "rule": "A level crossing (passaggio a livello) is where road and railway cross on the same level, protected by barriers, red lights or the St Andrew's cross.",
+   "trap": "'acustica' means 'by sound': a bell or buzzer.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A bell can sound when a train comes",
+    "it": "passaggio a livello",
+    "lines": [
+     "Road and rails cross on one level",
+     "Barriers, half-barriers, red lights",
+     "St Andrew's cross, sound signal"
+    ],
+    "icons": [
+     "train",
+     "light",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnalazione acustica",
+    "en": "sound signal"
+   },
+   {
+    "it": "dispositivo",
+    "en": "device"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18419": {
+  "en": "A level crossing is a railway or tramway overpass.",
+  "explain": {
+   "short": "At a level crossing road and rails meet on the SAME level. An overpass is a bridge.",
+   "rule": "A level crossing (passaggio a livello) is where road and railway cross on the same level, protected by barriers, red lights or the St Andrew's cross.",
+   "trap": "'cavalcavia' (overpass, bridge) is the opposite of 'a livello'.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Same level, not a bridge",
+    "it": "passaggio a livello",
+    "lines": [
+     "Road and rails cross on one level",
+     "Barriers, half-barriers, red lights",
+     "St Andrew's cross, sound signal"
+    ],
+    "icons": [
+     "train",
+     "light",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cavalcavia",
+    "en": "overpass / bridge"
+   },
+   {
+    "it": "ferroviario",
+    "en": "railway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18420": {
+  "en": "At a level crossing you can find flashing yellow lights.",
+  "explain": {
+   "short": "The lights at a level crossing are RED, not yellow.",
+   "rule": "A level crossing (passaggio a livello) is where road and railway cross on the same level, protected by barriers, red lights or the St Andrew's cross.",
+   "trap": "'gialle' (yellow) is the wrong colour: they are red.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Level crossing lights are red, not yellow",
+    "it": "passaggio a livello",
+    "lines": [
+     "Road and rails cross on one level",
+     "Barriers, half-barriers, red lights",
+     "St Andrew's cross, sound signal"
+    ],
+    "icons": [
+     "train",
+     "light",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luci gialle",
+    "en": "yellow lights"
+   },
+   {
+    "it": "lampeggianti",
+    "en": "flashing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18421": {
+  "en": "A level crossing is characterised by a motorway crossing.",
+  "explain": {
+   "short": "A level crossing is about road and railway. Motorways never have level crossings.",
+   "rule": "A level crossing (passaggio a livello) is where road and railway cross on the same level, protected by barriers, red lights or the St Andrew's cross.",
+   "trap": "'autostradale' (motorway) is the wrong element: it is about rails.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road and railway, not a motorway",
+    "it": "passaggio a livello",
+    "lines": [
+     "Road and rails cross on one level",
+     "Barriers, half-barriers, red lights",
+     "St Andrew's cross, sound signal"
+    ],
+    "icons": [
+     "train",
+     "light",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "attraversamento autostradale",
+    "en": "motorway crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18422": {
+  "en": "At a level crossing you can find acceleration lanes.",
+  "explain": {
+   "short": "Acceleration lanes are for joining a motorway, not for level crossings.",
+   "rule": "A level crossing (passaggio a livello) is where road and railway cross on the same level, protected by barriers, red lights or the St Andrew's cross.",
+   "trap": "'corsie di accelerazione' belong to motorways.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Acceleration lanes are on motorways",
+    "it": "passaggio a livello",
+    "lines": [
+     "Road and rails cross on one level",
+     "Barriers, half-barriers, red lights",
+     "St Andrew's cross, sound signal"
+    ],
+    "icons": [
+     "train",
+     "light",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsie di accelerazione",
+    "en": "acceleration lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18423": {
+  "en": "A level crossing is a driveway.",
+  "explain": {
+   "short": "A driveway is an entrance to private property. A level crossing is where road meets railway.",
+   "rule": "A level crossing (passaggio a livello) is where road and railway cross on the same level, protected by barriers, red lights or the St Andrew's cross.",
+   "trap": "'passo carrabile' (driveway) sounds similar to 'passaggio' but is different.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Level crossing = rails, not a driveway",
+    "it": "passaggio a livello",
+    "lines": [
+     "Road and rails cross on one level",
+     "Barriers, half-barriers, red lights",
+     "St Andrew's cross, sound signal"
+    ],
+    "icons": [
+     "train",
+     "light",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passo carrabile",
+    "en": "driveway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18424": {
+  "en": "A level crossing is characterised by an underpass.",
+  "explain": {
+   "short": "An underpass goes UNDER the rails. A level crossing is on the same level.",
+   "rule": "A level crossing (passaggio a livello) is where road and railway cross on the same level, protected by barriers, red lights or the St Andrew's cross.",
+   "trap": "'sottopassaggio' (underpass) is the opposite of 'a livello'.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Same level, no underpass",
+    "it": "passaggio a livello",
+    "lines": [
+     "Road and rails cross on one level",
+     "Barriers, half-barriers, red lights",
+     "St Andrew's cross, sound signal"
+    ],
+    "icons": [
+     "train",
+     "light",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sottopassaggio",
+    "en": "underpass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18425": {
+  "en": "In pedestrian areas zero-emission (electric) vehicles may pass, if expressly allowed.",
+  "explain": {
+   "short": "The town may allow electric vehicles into a pedestrian area, but only if a sign says so.",
+   "rule": "A pedestrian area (area pedonale) is for pedestrians and bicycles; vehicles enter only as listed exceptions (emergency, disabled, allowed e-vehicles).",
+   "trap": "'se espressamente consentito' (if expressly allowed) is the condition that makes it right.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Electric vehicles: only if allowed",
+    "it": "area pedonale",
+    "lines": [
+     "Pedestrians and bicycles: yes",
+     "Emergency with siren + blue light: yes",
+     "Other motor vehicles: no"
+    ],
+    "icons": [
+     "pedestrian",
+     "ambulance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "emissione zero",
+    "en": "zero emission"
+   },
+   {
+    "it": "elettrici",
+    "en": "electric"
+   },
+   {
+    "it": "espressamente consentito",
+    "en": "expressly allowed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18426": {
+  "en": "In pedestrian areas pedestrians may pass.",
+  "explain": {
+   "short": "Pedestrian areas are made for people on foot.",
+   "rule": "A pedestrian area (area pedonale) is for pedestrians and bicycles; vehicles enter only as listed exceptions (emergency, disabled, allowed e-vehicles).",
+   "trap": "No trap: 'pedoni' are exactly who the area is for.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pedestrian areas are for pedestrians",
+    "it": "area pedonale",
+    "lines": [
+     "Pedestrians and bicycles: yes",
+     "Emergency with siren + blue light: yes",
+     "Other motor vehicles: no"
+    ],
+    "icons": [
+     "pedestrian",
+     "ambulance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aree pedonali",
+    "en": "pedestrian areas"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18427": {
+  "en": "In pedestrian areas bicycles may pass.",
+  "explain": {
+   "short": "Bicycles are allowed in pedestrian areas (unless a sign says otherwise); ride carefully among people.",
+   "rule": "A pedestrian area (area pedonale) is for pedestrians and bicycles; vehicles enter only as listed exceptions (emergency, disabled, allowed e-vehicles).",
+   "trap": "'biciclette' are allowed, unlike mopeds ('ciclomotori').",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bicycles may enter, carefully",
+    "it": "area pedonale",
+    "lines": [
+     "Pedestrians and bicycles: yes",
+     "Emergency with siren + blue light: yes",
+     "Other motor vehicles: no"
+    ],
+    "icons": [
+     "pedestrian",
+     "ambulance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   },
+   {
+    "it": "transitare",
+    "en": "to pass through"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18428": {
+  "en": "In pedestrian areas vehicles serving disabled people may pass.",
+  "explain": {
+   "short": "Vehicles with the disabled badge may enter, so disabled people can reach places.",
+   "rule": "A pedestrian area (area pedonale) is for pedestrians and bicycles; vehicles enter only as listed exceptions (emergency, disabled, allowed e-vehicles).",
+   "trap": "'al servizio di' means 'serving': the vehicle carries a disabled person.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Vehicles for disabled people: allowed",
+    "it": "area pedonale",
+    "lines": [
+     "Pedestrians and bicycles: yes",
+     "Emergency with siren + blue light: yes",
+     "Other motor vehicles: no"
+    ],
+    "icons": [
+     "pedestrian",
+     "ambulance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "diversamente abili",
+    "en": "disabled"
+   },
+   {
+    "it": "al servizio di",
+    "en": "serving"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18429": {
+  "en": "In pedestrian areas police vehicles may pass, with siren and blue flashing light on.",
+  "explain": {
+   "short": "Police on an emergency call (siren and blue light on) may go everywhere they need.",
+   "rule": "A pedestrian area (area pedonale) is for pedestrians and bicycles; vehicles enter only as listed exceptions (emergency, disabled, allowed e-vehicles).",
+   "trap": "'in funzione' (switched on) matters: it is an emergency.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Police on emergency may enter",
+    "it": "area pedonale",
+    "lines": [
+     "Pedestrians and bicycles: yes",
+     "Emergency with siren + blue light: yes",
+     "Other motor vehicles: no"
+    ],
+    "icons": [
+     "pedestrian",
+     "ambulance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "polizia",
+    "en": "police"
+   },
+   {
+    "it": "sirena",
+    "en": "siren"
+   },
+   {
+    "it": "luce lampeggiante blu",
+    "en": "blue flashing light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18430": {
+  "en": "In pedestrian areas fire brigade vehicles may pass, with blue flashing light and siren on.",
+  "explain": {
+   "short": "Fire engines on an emergency (blue light and siren on) may enter.",
+   "rule": "A pedestrian area (area pedonale) is for pedestrians and bicycles; vehicles enter only as listed exceptions (emergency, disabled, allowed e-vehicles).",
+   "trap": "'in funzione' (switched on): the emergency devices must be active.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fire brigade on emergency may enter",
+    "it": "area pedonale",
+    "lines": [
+     "Pedestrians and bicycles: yes",
+     "Emergency with siren + blue light: yes",
+     "Other motor vehicles: no"
+    ],
+    "icons": [
+     "pedestrian",
+     "ambulance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "vigili del fuoco",
+    "en": "fire brigade"
+   },
+   {
+    "it": "sirena",
+    "en": "siren"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18431": {
+  "en": "In pedestrian areas all motorcycles may pass, provided they give way to pedestrians.",
+  "explain": {
+   "short": "Motorcycles may not enter a pedestrian area, even if they give way to people.",
+   "rule": "A pedestrian area (area pedonale) is for pedestrians and bicycles; vehicles enter only as listed exceptions (emergency, disabled, allowed e-vehicles).",
+   "trap": "'tutti' (all) and 'purché' (provided) make a fake condition.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorcycles may not enter",
+    "it": "area pedonale",
+    "lines": [
+     "Pedestrians and bicycles: yes",
+     "Emergency with siren + blue light: yes",
+     "Other motor vehicles: no"
+    ],
+    "icons": [
+     "pedestrian",
+     "ambulance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   },
+   {
+    "it": "purché",
+    "en": "provided that"
+   },
+   {
+    "it": "precedenza",
+    "en": "right of way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18432": {
+  "en": "In pedestrian areas road tractors may pass, at a speed not over 30 km/h.",
+  "explain": {
+   "short": "Road tractors (heavy vehicles that pull trailers) may not enter, at any speed.",
+   "rule": "A pedestrian area (area pedonale) is for pedestrians and bicycles; vehicles enter only as listed exceptions (emergency, disabled, allowed e-vehicles).",
+   "trap": "'30 km/h' is an invented condition: speed is not the point.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tractors may not enter at any speed",
+    "it": "area pedonale",
+    "lines": [
+     "Pedestrians and bicycles: yes",
+     "Emergency with siren + blue light: yes",
+     "Other motor vehicles: no"
+    ],
+    "icons": [
+     "pedestrian",
+     "ambulance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "trattori stradali",
+    "en": "road tractors"
+   },
+   {
+    "it": "non superiore",
+    "en": "not over"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18433": {
+  "en": "In pedestrian areas mopeds may pass only in the daytime.",
+  "explain": {
+   "short": "Mopeds may not enter pedestrian areas, day or night.",
+   "rule": "A pedestrian area (area pedonale) is for pedestrians and bicycles; vehicles enter only as listed exceptions (emergency, disabled, allowed e-vehicles).",
+   "trap": "'solo di giorno' (only by day) is invented: they are never allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mopeds may not enter, day or night",
+    "it": "area pedonale",
+    "lines": [
+     "Pedestrians and bicycles: yes",
+     "Emergency with siren + blue light: yes",
+     "Other motor vehicles: no"
+    ],
+    "icons": [
+     "pedestrian",
+     "ambulance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   },
+   {
+    "it": "solo di giorno",
+    "en": "only in the daytime"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18434": {
+  "en": "In pedestrian areas all motor vehicles may pass, but with caution.",
+  "explain": {
+   "short": "Cars and other motor vehicles are not allowed in; only the listed exceptions are.",
+   "rule": "A pedestrian area (area pedonale) is for pedestrians and bicycles; vehicles enter only as listed exceptions (emergency, disabled, allowed e-vehicles).",
+   "trap": "'tutti' (all) is the trap: only exceptions may enter.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not all vehicles: only exceptions",
+    "it": "area pedonale",
+    "lines": [
+     "Pedestrians and bicycles: yes",
+     "Emergency with siren + blue light: yes",
+     "Other motor vehicles: no"
+    ],
+    "icons": [
+     "pedestrian",
+     "ambulance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tutti gli autoveicoli",
+    "en": "all motor vehicles"
+   },
+   {
+    "it": "prudenza",
+    "en": "caution"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18435": {
+  "en": "In pedestrian areas motor quadricycles may pass, provided they do not exceed 50 km/h.",
+  "explain": {
+   "short": "Quadricycles (small four-wheel 'microcars') may not enter; the speed limit is an invented condition.",
+   "rule": "A pedestrian area (area pedonale) is for pedestrians and bicycles; vehicles enter only as listed exceptions (emergency, disabled, allowed e-vehicles).",
+   "trap": "'purché... 50 km/h' is a fake condition.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Quadricycles may not enter",
+    "it": "area pedonale",
+    "lines": [
+     "Pedestrians and bicycles: yes",
+     "Emergency with siren + blue light: yes",
+     "Other motor vehicles: no"
+    ],
+    "icons": [
+     "pedestrian",
+     "ambulance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "quadricicli a motore",
+    "en": "motor quadricycles"
+   },
+   {
+    "it": "purché",
+    "en": "provided that"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18436": {
+  "en": "The road can be divided into carriageways.",
+  "explain": {
+   "short": "A big road can have two or more carriageways (carreggiate), for example one for each direction.",
+   "rule": "A road (strada) is the area open to pedestrians, animals and vehicles; it includes carriageways, verges, pavements and cycle lanes.",
+   "trap": "'carreggiate' are the parts for vehicles: a road can have several.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A road can have several carriageways",
+    "it": "strada",
+    "part": "carreggiata"
+   }
+  },
+  "keywords": [
+   {
+    "it": "suddivisa",
+    "en": "divided"
+   },
+   {
+    "it": "carreggiate",
+    "en": "carriageways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18437": {
+  "en": "The road can include cycle lanes.",
+  "explain": {
+   "short": "Cycle lanes (piste ciclabili) are part of the road, next to the carriageway.",
+   "rule": "A road (strada) is the area open to pedestrians, animals and vehicles; it includes carriageways, verges, pavements and cycle lanes.",
+   "trap": "'comprendere' means 'include'.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cycle lanes are part of the road",
+    "it": "strada",
+    "part": "pistaCiclabile"
+   }
+  },
+  "keywords": [
+   {
+    "it": "comprendere",
+    "en": "to include"
+   },
+   {
+    "it": "piste ciclabili",
+    "en": "cycle lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18438": {
+  "en": "The road can be one-way.",
+  "explain": {
+   "short": "Some roads let traffic go in one direction only.",
+   "rule": "A road (strada) is the area open to pedestrians, animals and vehicles; it includes carriageways, verges, pavements and cycle lanes.",
+   "trap": "'senso unico' means one-way.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A road can be one-way",
+    "it": "strada",
+    "lines": [
+     "Open to pedestrians, animals, vehicles",
+     "Carriageways, verges, pavements",
+     "One-way or two-way"
+    ],
+    "icons": [
+     "pedestrian",
+     "road",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18439": {
+  "en": "The road can be two-way.",
+  "explain": {
+   "short": "Most roads have traffic in both directions.",
+   "rule": "A road (strada) is the area open to pedestrians, animals and vehicles; it includes carriageways, verges, pavements and cycle lanes.",
+   "trap": "'doppio senso' means two-way.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A road can be two-way",
+    "it": "strada",
+    "lines": [
+     "Open to pedestrians, animals, vehicles",
+     "Carriageways, verges, pavements",
+     "One-way or two-way"
+    ],
+    "icons": [
+     "pedestrian",
+     "road",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "doppio senso",
+    "en": "two-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18440": {
+  "en": "The road is open to the traffic of pedestrians, animals and vehicles.",
+  "explain": {
+   "short": "This is the legal definition: a road is for everyone, not only cars.",
+   "rule": "A road (strada) is the area open to pedestrians, animals and vehicles; it includes carriageways, verges, pavements and cycle lanes.",
+   "trap": "All three users are listed: pedestrians, animals and vehicles.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road: pedestrians, animals and vehicles",
+    "it": "strada",
+    "lines": [
+     "Open to pedestrians, animals, vehicles",
+     "Carriageways, verges, pavements",
+     "One-way or two-way"
+    ],
+    "icons": [
+     "pedestrian",
+     "road",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   },
+   {
+    "it": "animali",
+    "en": "animals"
+   },
+   {
+    "it": "veicoli",
+    "en": "vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18441": {
+  "en": "The road does not include the verges.",
+  "explain": {
+   "short": "The verge (banchina, the strip at the side of the carriageway) is part of the road.",
+   "rule": "A road (strada) is the area open to pedestrians, animals and vehicles; it includes carriageways, verges, pavements and cycle lanes.",
+   "trap": "'non' makes it false: the road DOES include verges.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The verge IS part of the road",
+    "it": "strada",
+    "part": "banchina"
+   }
+  },
+  "keywords": [
+   {
+    "it": "banchine",
+    "en": "verges"
+   },
+   {
+    "it": "non comprende",
+    "en": "does not include"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18442": {
+  "en": "The road is reserved for the traffic of cars and motorcycles only.",
+  "explain": {
+   "short": "A road is open to pedestrians, animals and all vehicles, not only cars and motorcycles.",
+   "rule": "A road (strada) is the area open to pedestrians, animals and vehicles; it includes carriageways, verges, pavements and cycle lanes.",
+   "trap": "'soli' (only) is the trap.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not only cars and motorbikes",
+    "it": "strada",
+    "lines": [
+     "Open to pedestrians, animals, vehicles",
+     "Carriageways, verges, pavements",
+     "One-way or two-way"
+    ],
+    "icons": [
+     "pedestrian",
+     "road",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "riservata",
+    "en": "reserved"
+   },
+   {
+    "it": "soli",
+    "en": "only"
+   },
+   {
+    "it": "autoveicoli",
+    "en": "motor vehicles / cars"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18443": {
+  "en": "The road is normally reserved for the traffic of vehicles and animals only.",
+  "explain": {
+   "short": "Pedestrians are missing: a road is also for people on foot.",
+   "rule": "A road (strada) is the area open to pedestrians, animals and vehicles; it includes carriageways, verges, pavements and cycle lanes.",
+   "trap": "'soli' (only) leaves out pedestrians.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pedestrians use the road too",
+    "it": "strada",
+    "lines": [
+     "Open to pedestrians, animals, vehicles",
+     "Carriageways, verges, pavements",
+     "One-way or two-way"
+    ],
+    "icons": [
+     "pedestrian",
+     "road",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "normalmente",
+    "en": "normally"
+   },
+   {
+    "it": "soli",
+    "en": "only"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18444": {
+  "en": "The road does not include the pavements.",
+  "explain": {
+   "short": "The pavement (marciapiede) is part of the road, reserved for pedestrians.",
+   "rule": "A road (strada) is the area open to pedestrians, animals and vehicles; it includes carriageways, verges, pavements and cycle lanes.",
+   "trap": "'non' makes it false: the road DOES include pavements.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The pavement IS part of the road",
+    "it": "strada",
+    "part": "marciapiede"
+   }
+  },
+  "keywords": [
+   {
+    "it": "marciapiedi",
+    "en": "pavements"
+   },
+   {
+    "it": "non comprende",
+    "en": "does not include"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18445": {
+  "en": "The road is any asphalted area, bounded at the sides by pedestrian crossings.",
+  "explain": {
+   "short": "A road is defined by its use (open to traffic), not by asphalt; crossings do not mark its sides.",
+   "rule": "A road (strada) is the area open to pedestrians, animals and vehicles; it includes carriageways, verges, pavements and cycle lanes.",
+   "trap": "'qualsiasi area asfaltata' sounds plausible but is invented.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road = area open to traffic, not asphalt",
+    "it": "strada",
+    "lines": [
+     "Open to pedestrians, animals, vehicles",
+     "Carriageways, verges, pavements",
+     "One-way or two-way"
+    ],
+    "icons": [
+     "pedestrian",
+     "road",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "asfaltata",
+    "en": "asphalted"
+   },
+   {
+    "it": "attraversamenti pedonali",
+    "en": "pedestrian crossings"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18446": {
+  "en": "The motorway has no at-grade junctions crossing it.",
+  "explain": {
+   "short": "On a motorway nothing crosses at the same level: other roads pass over or under it.",
+   "rule": "A motorway (autostrada) has separate carriageways, no level junctions, fences and slip lanes; only some vehicles may use it.",
+   "trap": "'non ha' (has no) is correct: no level crossroads at all.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No crossroads on a motorway",
+    "it": "autostrada",
+    "lines": [
+     "Separate carriageways, fenced",
+     "No level junctions; slip lanes",
+     "No mopeds; motorbikes from 150 cc"
+    ],
+    "icons": [
+     "road",
+     "speed",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "incroci a raso",
+    "en": "at-grade junctions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18447": {
+  "en": "The motorway has special lanes for vehicles to enter and exit.",
+  "explain": {
+   "short": "You join on an acceleration lane and leave on a deceleration lane.",
+   "rule": "A motorway (autostrada) has separate carriageways, no level junctions, fences and slip lanes; only some vehicles may use it.",
+   "trap": "'speciali corsie' are the acceleration and deceleration lanes.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Special lanes to enter and exit",
+    "it": "autostrada",
+    "lines": [
+     "Separate carriageways, fenced",
+     "No level junctions; slip lanes",
+     "No mopeds; motorbikes from 150 cc"
+    ],
+    "icons": [
+     "road",
+     "speed",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsie",
+    "en": "lanes"
+   },
+   {
+    "it": "ingresso",
+    "en": "entry"
+   },
+   {
+    "it": "uscita",
+    "en": "exit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18448": {
+  "en": "The motorway has independent carriageways or carriageways separated by a central divider.",
+  "explain": {
+   "short": "The two directions are kept apart, so there is no head-on traffic.",
+   "rule": "A motorway (autostrada) has separate carriageways, no level junctions, fences and slip lanes; only some vehicles may use it.",
+   "trap": "'spartitraffico' is the central divider between directions.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Directions kept apart by a divider",
+    "it": "autostrada",
+    "part": "spartitraffico"
+   }
+  },
+  "keywords": [
+   {
+    "it": "carreggiate indipendenti",
+    "en": "independent carriageways"
+   },
+   {
+    "it": "spartitraffico",
+    "en": "central divider"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18449": {
+  "en": "Motorcycles of at least 150 cc may use the motorway.",
+  "explain": {
+   "short": "Motorcycles with an engine of 150 cc or more are allowed on the motorway.",
+   "rule": "A motorway (autostrada) has separate carriageways, no level junctions, fences and slip lanes; only some vehicles may use it.",
+   "trap": "'almeno' (at least) means 150 cc or more.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorbikes from 150 cc: allowed",
+    "it": "autostrada",
+    "lines": [
+     "Separate carriageways, fenced",
+     "No level junctions; slip lanes",
+     "No mopeds; motorbikes from 150 cc"
+    ],
+    "icons": [
+     "road",
+     "speed",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cilindrata",
+    "en": "engine size"
+   },
+   {
+    "it": "almeno",
+    "en": "at least"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18450": {
+  "en": "Agricultural machines may not use the motorway.",
+  "explain": {
+   "short": "Farm machines are too slow for the motorway, so they are banned.",
+   "rule": "A motorway (autostrada) has separate carriageways, no level junctions, fences and slip lanes; only some vehicles may use it.",
+   "trap": "'non possono' is right: they are banned.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Farm machines: not allowed",
+    "it": "autostrada",
+    "lines": [
+     "Separate carriageways, fenced",
+     "No level junctions; slip lanes",
+     "No mopeds; motorbikes from 150 cc"
+    ],
+    "icons": [
+     "road",
+     "speed",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "macchine agricole",
+    "en": "agricultural machines"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18451": {
+  "en": "Not all types of vehicles may use the motorway.",
+  "explain": {
+   "short": "Some vehicles are banned, for example mopeds, bicycles and farm machines.",
+   "rule": "A motorway (autostrada) has separate carriageways, no level junctions, fences and slip lanes; only some vehicles may use it.",
+   "trap": "'non tutti' (not all) is correct: some are excluded.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Some vehicles are banned",
+    "it": "autostrada",
+    "lines": [
+     "Separate carriageways, fenced",
+     "No level junctions; slip lanes",
+     "No mopeds; motorbikes from 150 cc"
+    ],
+    "icons": [
+     "road",
+     "speed",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non tutti",
+    "en": "not all"
+   },
+   {
+    "it": "tipi di veicoli",
+    "en": "types of vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18452": {
+  "en": "Vehicles leave the motorway using deceleration lanes.",
+  "explain": {
+   "short": "To exit, you move into the deceleration lane and slow down there, not on the main lanes.",
+   "rule": "A motorway (autostrada) has separate carriageways, no level junctions, fences and slip lanes; only some vehicles may use it.",
+   "trap": "'decelerazione' (slowing down) is for exiting; 'accelerazione' is for entering.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Exit via the deceleration lane",
+    "it": "autostrada",
+    "lines": [
+     "Separate carriageways, fenced",
+     "No level junctions; slip lanes",
+     "No mopeds; motorbikes from 150 cc"
+    ],
+    "icons": [
+     "road",
+     "speed",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "uscita",
+    "en": "exit"
+   },
+   {
+    "it": "corsie di decelerazione",
+    "en": "deceleration lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18453": {
+  "en": "The motorway must be fenced at the sides.",
+  "explain": {
+   "short": "A fence keeps people and animals off the motorway.",
+   "rule": "A motorway (autostrada) has separate carriageways, no level junctions, fences and slip lanes; only some vehicles may use it.",
+   "trap": "'deve' (must): the fence is required.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorways are fenced",
+    "it": "autostrada",
+    "lines": [
+     "Separate carriageways, fenced",
+     "No level junctions; slip lanes",
+     "No mopeds; motorbikes from 150 cc"
+    ],
+    "icons": [
+     "road",
+     "speed",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "recintata",
+    "en": "fenced"
+   },
+   {
+    "it": "lateralmente",
+    "en": "at the sides"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18454": {
+  "en": "Only cars may use motorways.",
+  "explain": {
+   "short": "Trucks, buses and big motorcycles also use the motorway.",
+   "rule": "A motorway (autostrada) has separate carriageways, no level junctions, fences and slip lanes; only some vehicles may use it.",
+   "trap": "'solo' (only) is the trap.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not only cars: trucks, buses, big bikes",
+    "it": "autostrada",
+    "lines": [
+     "Separate carriageways, fenced",
+     "No level junctions; slip lanes",
+     "No mopeds; motorbikes from 150 cc"
+    ],
+    "icons": [
+     "road",
+     "speed",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "autovetture",
+    "en": "cars"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18455": {
+  "en": "All types of motorcycles may use motorways.",
+  "explain": {
+   "short": "Small motorcycles are not allowed: in the quiz the minimum is 150 cc.",
+   "rule": "A motorway (autostrada) has separate carriageways, no level junctions, fences and slip lanes; only some vehicles may use it.",
+   "trap": "'tutti' (all) is the trap.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not all motorbikes: minimum engine size",
+    "it": "autostrada",
+    "lines": [
+     "Separate carriageways, fenced",
+     "No level junctions; slip lanes",
+     "No mopeds; motorbikes from 150 cc"
+    ],
+    "icons": [
+     "road",
+     "speed",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tutti i tipi",
+    "en": "all types"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18456": {
+  "en": "The motorway can include cycle lanes.",
+  "explain": {
+   "short": "Bicycles are banned from motorways, so there are no cycle lanes.",
+   "rule": "A motorway (autostrada) has separate carriageways, no level junctions, fences and slip lanes; only some vehicles may use it.",
+   "trap": "'piste ciclabili' never belong to a motorway.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No cycle lanes on motorways",
+    "it": "autostrada",
+    "lines": [
+     "Separate carriageways, fenced",
+     "No level junctions; slip lanes",
+     "No mopeds; motorbikes from 150 cc"
+    ],
+    "icons": [
+     "road",
+     "speed",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "piste ciclabili",
+    "en": "cycle lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18457": {
+  "en": "Mopeds and motorcycles up to 125 cc may use motorways.",
+  "explain": {
+   "short": "Mopeds are never allowed on motorways, and in the quiz motorcycles need at least 150 cc.",
+   "rule": "A motorway (autostrada) has separate carriageways, no level junctions, fences and slip lanes; only some vehicles may use it.",
+   "trap": "'ciclomotori' (mopeds) alone already makes it wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mopeds never; small motorbikes no",
+    "it": "autostrada",
+    "lines": [
+     "Separate carriageways, fenced",
+     "No level junctions; slip lanes",
+     "No mopeds; motorbikes from 150 cc"
+    ],
+    "icons": [
+     "road",
+     "speed",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   },
+   {
+    "it": "fino a 125 cm3",
+    "en": "up to 125 cc"
+   }
+  ],
+  "review": true,
+  "reviewNote": "Legge 177/2024 may allow motorcycles from 120 cc ridden by adults on motorways; check the 125 cc part."
+ },
+ "q18458": {
+  "en": "Only motor vehicles (autoveicoli) may use motorways.",
+  "explain": {
+   "short": "Big motorcycles (motoveicoli, not autoveicoli) are also allowed, so 'only autoveicoli' is wrong.",
+   "rule": "A motorway (autostrada) has separate carriageways, no level junctions, fences and slip lanes; only some vehicles may use it.",
+   "trap": "'solo' (only) is the trap: motorcycles are not autoveicoli.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Big motorbikes are allowed too",
+    "it": "autostrada",
+    "lines": [
+     "Separate carriageways, fenced",
+     "No level junctions; slip lanes",
+     "No mopeds; motorbikes from 150 cc"
+    ],
+    "icons": [
+     "road",
+     "speed",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "autoveicoli",
+    "en": "motor vehicles (4+ wheels)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18459": {
+  "en": "All motorcycles and mopeds may use motorways.",
+  "explain": {
+   "short": "Mopeds are banned and small motorcycles are banned too.",
+   "rule": "A motorway (autostrada) has separate carriageways, no level junctions, fences and slip lanes; only some vehicles may use it.",
+   "trap": "'tutti' (all) plus 'ciclomotori' make it wrong twice.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No mopeds, no small motorbikes",
+    "it": "autostrada",
+    "lines": [
+     "Separate carriageways, fenced",
+     "No level junctions; slip lanes",
+     "No mopeds; motorbikes from 150 cc"
+    ],
+    "icons": [
+     "road",
+     "speed",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tutti",
+    "en": "all"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18460": {
+  "en": "The carriageway can be one-way.",
+  "explain": {
+   "short": "A carriageway can carry traffic in one direction only, for example on a dual road.",
+   "rule": "The carriageway (carreggiata) is the part of the road for moving vehicles; it can have lanes and one or two directions.",
+   "trap": "'senso unico' means one-way; 'può' means it is possible.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A carriageway can be one-way",
+    "it": "carreggiata",
+    "part": "carreggiata"
+   }
+  },
+  "keywords": [
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18461": {
+  "en": "The carriageway can be two-way.",
+  "explain": {
+   "short": "Many carriageways carry traffic in both directions.",
+   "rule": "The carriageway (carreggiata) is the part of the road for moving vehicles; it can have lanes and one or two directions.",
+   "trap": "'doppio senso' means two-way.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A carriageway can be two-way",
+    "it": "carreggiata",
+    "part": "carreggiata"
+   }
+  },
+  "keywords": [
+   {
+    "it": "doppio senso",
+    "en": "two-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18462": {
+  "en": "The carriageway can be divided into lanes.",
+  "explain": {
+   "short": "Lines can split the carriageway into lanes (corsie), each wide enough for one line of vehicles.",
+   "rule": "The carriageway (carreggiata) is the part of the road for moving vehicles; it can have lanes and one or two directions.",
+   "trap": "'corsie' (lanes) are smaller parts of the 'carreggiata'.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Carriageway split into lanes",
+    "it": "carreggiata",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "suddivisa",
+    "en": "divided"
+   },
+   {
+    "it": "corsie",
+    "en": "lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18463": {
+  "en": "The carriageway does not include cycle lanes.",
+  "explain": {
+   "short": "Cycle lanes are part of the ROAD, but outside the carriageway.",
+   "rule": "The carriageway (carreggiata) is the part of the road for moving vehicles; it can have lanes and one or two directions.",
+   "trap": "Do not confuse 'strada' (includes cycle lanes) with 'carreggiata' (does not).",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cycle lanes are outside the carriageway",
+    "it": "carreggiata",
+    "part": "pistaCiclabile"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non comprende",
+    "en": "does not include"
+   },
+   {
+    "it": "piste ciclabili",
+    "en": "cycle lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18464": {
+  "en": "The carriageway does not include pavements.",
+  "explain": {
+   "short": "Pavements are for pedestrians, outside the carriageway.",
+   "rule": "The carriageway (carreggiata) is the part of the road for moving vehicles; it can have lanes and one or two directions.",
+   "trap": "Here 'non comprende' is right: pavements are separate.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pavements are outside the carriageway",
+    "it": "carreggiata",
+    "part": "marciapiede"
+   }
+  },
+  "keywords": [
+   {
+    "it": "marciapiedi",
+    "en": "pavements"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18465": {
+  "en": "The carriageway is the part of the road normally intended for vehicle traffic.",
+  "explain": {
+   "short": "This is the definition of carriageway: where vehicles normally drive.",
+   "rule": "The carriageway (carreggiata) is the part of the road for moving vehicles; it can have lanes and one or two directions.",
+   "trap": "'parte della strada' (part of the road): the carriageway is inside the road.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Carriageway = where vehicles drive",
+    "it": "carreggiata",
+    "part": "carreggiata"
+   }
+  },
+  "keywords": [
+   {
+    "it": "parte della strada",
+    "en": "part of the road"
+   },
+   {
+    "it": "normalmente",
+    "en": "normally"
+   },
+   {
+    "it": "veicoli",
+    "en": "vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18466": {
+  "en": "The carriageway is intended only for the traffic of animal-drawn carts.",
+  "explain": {
+   "short": "The carriageway is for all vehicles, not only for carts pulled by animals.",
+   "rule": "The carriageway (carreggiata) is the part of the road for moving vehicles; it can have lanes and one or two directions.",
+   "trap": "'carreggiata' sounds like 'carro' (cart), and 'soltanto' (only) is the trap.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "For all vehicles, not only carts",
+    "it": "carreggiata",
+    "part": "carreggiata"
+   }
+  },
+  "keywords": [
+   {
+    "it": "soltanto",
+    "en": "only"
+   },
+   {
+    "it": "carri a trazione animale",
+    "en": "animal-drawn carts"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18467": {
+  "en": "The carriageway is intended for emergency stops.",
+  "explain": {
+   "short": "The carriageway is for moving traffic. Emergency stops go on the emergency lane or verge.",
+   "rule": "The carriageway (carreggiata) is the part of the road for moving vehicles; it can have lanes and one or two directions.",
+   "trap": "'sosta di emergenza' belongs to the emergency lane, not the carriageway.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Emergency stops: emergency lane, not here",
+    "it": "carreggiata",
+    "part": "corsiaEmergenza"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta di emergenza",
+    "en": "emergency stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18468": {
+  "en": "The carriageway is intended for truck parking.",
+  "explain": {
+   "short": "The carriageway is for moving traffic, not for parking trucks.",
+   "rule": "The carriageway (carreggiata) is the part of the road for moving vehicles; it can have lanes and one or two directions.",
+   "trap": "'sosta' (parking) is the wrong use.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "For moving traffic, not truck parking",
+    "it": "carreggiata",
+    "part": "carreggiata"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta",
+    "en": "parking / stopping"
+   },
+   {
+    "it": "autocarri",
+    "en": "trucks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18469": {
+  "en": "The carriageway is the track left by vehicle wheels on snowy roads.",
+  "explain": {
+   "short": "The carriageway is a fixed part of the road, not wheel marks in the snow.",
+   "rule": "The carriageway (carreggiata) is the part of the road for moving vehicles; it can have lanes and one or two directions.",
+   "trap": "'traccia' (track) plays on 'carreggiata' (also 'wheel rut' in common speech).",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A road part, not wheel tracks in snow",
+    "it": "carreggiata",
+    "part": "carreggiata"
+   }
+  },
+  "keywords": [
+   {
+    "it": "traccia",
+    "en": "track / mark"
+   },
+   {
+    "it": "ruote",
+    "en": "wheels"
+   },
+   {
+    "it": "strade innevate",
+    "en": "snowy roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18470": {
+  "en": "The carriageway includes lay-bys.",
+  "explain": {
+   "short": "Lay-bys (piazzole di sosta) are outside the carriageway, so you can stop there without blocking traffic.",
+   "rule": "The carriageway (carreggiata) is the part of the road for moving vehicles; it can have lanes and one or two directions.",
+   "trap": "'piazzole di sosta' are for stopping, so they are outside the carriageway.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lay-bys are outside the carriageway",
+    "it": "carreggiata",
+    "part": "carreggiata"
+   }
+  },
+  "keywords": [
+   {
+    "it": "piazzole di sosta",
+    "en": "lay-bys"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

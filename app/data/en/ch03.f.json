@@ -1,0 +1,2293 @@
+{
+ "q19927": {
+  "en": "The sign shown is a regulatory sign.",
+  "explain": {
+   "short": "Round signs with a red border give orders or bans. 'No parking' is one of them, so it is a 'prescrizione' (regulatory) sign.",
+   "rule": "'Divieto di sosta' (no parking): one red bar on blue. You may stop briefly (fermata) but not park (sosta); in towns 8.00-20.00 as a rule, outside towns 24 hours, only on the sign's side.",
+   "trap": "'prescrizione' means a rule you must obey, not just information.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A regulatory sign: no parking",
+    "it": "prescrizione",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale",
+    "en": "sign"
+   },
+   {
+    "it": "segnale di prescrizione",
+    "en": "regulatory sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19928": {
+  "en": "The sign shown is not placed where parking is already banned by a general rule.",
+  "explain": {
+   "short": "Where the law already bans parking (for example on pedestrian crossings or at junctions), no sign is needed.",
+   "rule": "'Divieto di sosta' (no parking): one red bar on blue. You may stop briefly (fermata) but not park (sosta); in towns 8.00-20.00 as a rule, outside towns 24 hours, only on the sign's side.",
+   "trap": "'per regola generale' means by the general law: there the ban applies even without a sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not needed where the law already bans parking",
+    "it": "regola generale",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è posto",
+    "en": "is not placed"
+   },
+   {
+    "it": "per regola generale",
+    "en": "as a general rule (by law)"
+   },
+   {
+    "it": "vige",
+    "en": "applies"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19929": {
+  "en": "The sign shown forbids leaving the vehicle for a long time.",
+  "explain": {
+   "short": "'Sosta' (parking) means leaving the vehicle for a long time, often with the driver away. That is what this sign bans.",
+   "rule": "'Divieto di sosta' (no parking): one red bar on blue. You may stop briefly (fermata) but not park (sosta); in towns 8.00-20.00 as a rule, outside towns 24 hours, only on the sign's side.",
+   "trap": "'abbandono prolungato' (leaving for a long time) is the meaning of 'sosta', so it is banned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bans leaving the car parked for long",
+    "it": "sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "forbids"
+   },
+   {
+    "it": "abbandono prolungato",
+    "en": "leaving for a long time"
+   },
+   {
+    "it": "veicolo",
+    "en": "vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19930": {
+  "en": "The sign shown, placed in built-up areas, as a rule forbids parking from 8.00 to 20.00.",
+  "explain": {
+   "short": "In towns, if no panel gives other times, the no-parking ban applies from 8.00 to 20.00.",
+   "rule": "'Divieto di sosta' (no parking): one red bar on blue. You may stop briefly (fermata) but not park (sosta); in towns 8.00-20.00 as a rule, outside towns 24 hours, only on the sign's side.",
+   "trap": "'di norma' means as a rule: a panel can set different hours.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "In towns: no parking 8.00-20.00 as a rule",
+    "it": "centri abitati",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "centri abitati",
+    "en": "built-up areas (towns)"
+   },
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "dalle ore 8.00 alle 20.00",
+    "en": "from 8.00 to 20.00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19931": {
+  "en": "Sign (A), completed by panel (B), allows buses to park.",
+  "explain": {
+   "short": "Panel B says 'eccetto' (except) with a bus: the parking ban applies to everyone except buses.",
+   "rule": "'Divieto di sosta' (no parking): one red bar on blue. You may stop briefly (fermata) but not park (sosta); in towns 8.00-20.00 as a rule, outside towns 24 hours, only on the sign's side.",
+   "trap": "'eccetto' on the panel creates an exception: buses may park.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No parking, except buses",
+    "it": "eccetto",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "integrato con il pannello",
+    "en": "completed by the panel"
+   },
+   {
+    "it": "consente",
+    "en": "allows"
+   },
+   {
+    "it": "autobus",
+    "en": "buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19932": {
+  "en": "Sign (A), completed by panel (B), forbids parking only on public holidays.",
+  "explain": {
+   "short": "The cross on panel B stands for Sundays and public holidays: the ban applies only on those days, from 8.00 to 20.00.",
+   "rule": "'Divieto di sosta' (no parking): one red bar on blue. You may stop briefly (fermata) but not park (sosta); in towns 8.00-20.00 as a rule, outside towns 24 hours, only on the sign's side.",
+   "trap": "'soltanto' (only) is right here: the cross symbol limits the ban to holidays.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cross = only on holidays, 8.00-20.00",
+    "it": "giorni festivi",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "soltanto",
+    "en": "only"
+   },
+   {
+    "it": "giorni festivi",
+    "en": "public holidays (and Sundays)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19933": {
+  "en": "The sign shown forbids parking but not stopping.",
+  "explain": {
+   "short": "One red bar means no parking. A short stop (fermata), for example to let someone get out, is still allowed.",
+   "rule": "'Divieto di sosta' (no parking): one red bar on blue. You may stop briefly (fermata) but not park (sosta); in towns 8.00-20.00 as a rule, outside towns 24 hours, only on the sign's side.",
+   "trap": "'sosta' (parking) and 'fermata' (short stop) are different: only 'sosta' is banned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No parking, but a short stop is OK",
+    "it": "sosta / fermata",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "ma non la fermata",
+    "en": "but not stopping"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19934": {
+  "en": "The sign shown forbids a brief halt to let passengers get on and off.",
+  "explain": {
+   "short": "A brief halt for passengers is a 'fermata' (stop), and this sign does not ban it. It bans only parking.",
+   "rule": "'Divieto di sosta' (no parking): one red bar on blue. You may stop briefly (fermata) but not park (sosta); in towns 8.00-20.00 as a rule, outside towns 24 hours, only on the sign's side.",
+   "trap": "'sospensione temporanea della marcia' is the meaning of 'fermata', which is allowed here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: stopping for passengers is allowed",
+    "it": "fermata",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sospensione temporanea della marcia",
+    "en": "brief halt of the vehicle"
+   },
+   {
+    "it": "salita e discesa dei passeggeri",
+    "en": "passengers getting on and off"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19935": {
+  "en": "On roads outside built-up areas, the sign shown applies only in daytime hours.",
+  "explain": {
+   "short": "Outside towns the no-parking ban applies day and night. The 8.00-20.00 rule is only for towns.",
+   "rule": "'Divieto di sosta' (no parking): one red bar on blue. You may stop briefly (fermata) but not park (sosta); in towns 8.00-20.00 as a rule, outside towns 24 hours, only on the sign's side.",
+   "trap": "'soltanto nelle ore diurne' (only in daytime) is wrong: outside towns it is 24 hours.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: outside towns it applies 24 hours",
+    "it": "extraurbane",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane",
+    "en": "roads outside towns"
+   },
+   {
+    "it": "soltanto",
+    "en": "only"
+   },
+   {
+    "it": "ore diurne",
+    "en": "daytime hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19936": {
+  "en": "The sign shown forbids vehicles to park on both sides of the carriageway.",
+  "explain": {
+   "short": "The sign applies only on the side of the road where it stands. The other side needs its own sign.",
+   "rule": "'Divieto di sosta' (no parking): one red bar on blue. You may stop briefly (fermata) but not park (sosta); in towns 8.00-20.00 as a rule, outside towns 24 hours, only on the sign's side.",
+   "trap": "'su ambo i lati' (on both sides) is wrong: only the side of the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: only on the side where the sign stands",
+    "it": "ambo i lati",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "ambo i lati",
+    "en": "both sides"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway (roadway)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19937": {
+  "en": "The sign shown allows buses to park.",
+  "explain": {
+   "short": "Without an extra panel, the ban applies to every vehicle, buses too. Only an 'eccetto' (except) panel can free buses.",
+   "rule": "'Divieto di sosta' (no parking): one red bar on blue. You may stop briefly (fermata) but not park (sosta); in towns 8.00-20.00 as a rule, outside towns 24 hours, only on the sign's side.",
+   "trap": "'permette' (allows) is wrong: without a panel, buses cannot park either.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: without a panel, buses can't park either",
+    "it": "autobus",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "permette",
+    "en": "allows"
+   },
+   {
+    "it": "sosta",
+    "en": "parking"
+   },
+   {
+    "it": "autobus",
+    "en": "buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19938": {
+  "en": "The sign shown allows mopeds to park.",
+  "explain": {
+   "short": "The ban applies to all vehicles, mopeds included, unless a panel says otherwise.",
+   "rule": "'Divieto di sosta' (no parking): one red bar on blue. You may stop briefly (fermata) but not park (sosta); in towns 8.00-20.00 as a rule, outside towns 24 hours, only on the sign's side.",
+   "trap": "'ciclomotori' (mopeds) are vehicles too: there is no exception for them.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: mopeds can't park here either",
+    "it": "ciclomotori",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "permette",
+    "en": "allows"
+   },
+   {
+    "it": "sosta",
+    "en": "parking"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19939": {
+  "en": "The sign shown forbids a brief halt of the vehicle.",
+  "explain": {
+   "short": "A brief halt is a 'fermata' (stop), and the red X bans exactly that.",
+   "rule": "'Divieto di fermata' (no stopping): red X on blue. No vehicle may stop or park, not even briefly, 24 hours a day unless a panel says otherwise.",
+   "trap": "'temporanea sospensione della marcia' is the meaning of 'fermata': banned here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not even a brief stop is allowed",
+    "it": "fermata",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "forbids"
+   },
+   {
+    "it": "temporanea sospensione della marcia",
+    "en": "brief halt (a stop)"
+   },
+   {
+    "it": "veicolo",
+    "en": "vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19940": {
+  "en": "The sign shown forbids all vehicles from stopping voluntarily.",
+  "explain": {
+   "short": "No vehicle may choose to stop here. Stopping because of traffic, in a queue or at a red light, is not a 'fermata'.",
+   "rule": "'Divieto di fermata' (no stopping): red X on blue. No vehicle may stop or park, not even briefly, 24 hours a day unless a panel says otherwise.",
+   "trap": "'volontaria' (voluntary): stops you choose are banned, stops forced by traffic are not.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No vehicle may choose to stop here",
+    "it": "fermata volontaria",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata volontaria",
+    "en": "voluntary stop"
+   },
+   {
+    "it": "tutti i veicoli",
+    "en": "all vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19941": {
+  "en": "On the roads where it is placed, the sign shown applies 24 hours a day.",
+  "explain": {
+   "short": "Without a panel showing hours, the no-stopping ban applies day and night, in and out of towns.",
+   "rule": "'Divieto di fermata' (no stopping): red X on blue. No vehicle may stop or park, not even briefly, 24 hours a day unless a panel says otherwise.",
+   "trap": "'24 ore su 24' is right: unlike no parking, there is no 8.00-20.00 window.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No stopping, day and night",
+    "it": "24 ore su 24",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "dove è posto",
+    "en": "where it is placed"
+   },
+   {
+    "it": "vale",
+    "en": "applies"
+   },
+   {
+    "it": "24 ore su 24",
+    "en": "24 hours a day"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19942": {
+  "en": "The sign shown forbids parking but allows stopping.",
+  "explain": {
+   "short": "The red X bans both parking and stopping. Only the single-bar sign allows a short stop.",
+   "rule": "'Divieto di fermata' (no stopping): red X on blue. No vehicle may stop or park, not even briefly, 24 hours a day unless a panel says otherwise.",
+   "trap": "'consente la fermata' is wrong: with the X, even a short stop is banned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: the X bans stopping too",
+    "it": "fermata",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "consente la fermata",
+    "en": "allows stopping"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19943": {
+  "en": "On urban roads, the sign shown means the no-stopping ban applies from 8.00 to 20.00.",
+  "explain": {
+   "short": "The no-stopping ban applies 24 hours a day, in towns too. The 8.00-20.00 rule belongs to the no-parking sign.",
+   "rule": "'Divieto di fermata' (no stopping): red X on blue. No vehicle may stop or park, not even briefly, 24 hours a day unless a panel says otherwise.",
+   "trap": "'dalle ore 8.00 alle 20.00' is the trap: those hours belong to the no-parking sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it applies 24 hours, in towns too",
+    "it": "24 ore",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade urbane",
+    "en": "town roads"
+   },
+   {
+    "it": "divieto di fermata",
+    "en": "no stopping"
+   },
+   {
+    "it": "vige",
+    "en": "applies"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19944": {
+  "en": "The sign shown allows stopping to let passengers get on or off.",
+  "explain": {
+   "short": "Stopping to let people in or out is a 'fermata', and the red X bans every stop.",
+   "rule": "'Divieto di fermata' (no stopping): red X on blue. No vehicle may stop or park, not even briefly, 24 hours a day unless a panel says otherwise.",
+   "trap": "'per far salire o scendere passeggeri' does not make it allowed: it is still a stop.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no stop, not even for passengers",
+    "it": "fermata",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente la fermata",
+    "en": "allows stopping"
+   },
+   {
+    "it": "far salire o scendere",
+    "en": "to let get on or off"
+   },
+   {
+    "it": "passeggeri",
+    "en": "passengers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19945": {
+  "en": "The sign shown allows stopping if the vehicle does not obstruct traffic.",
+  "explain": {
+   "short": "The no-stopping ban has no exception for harmless stops. Even if you block nobody, you may not stop.",
+   "rule": "'Divieto di fermata' (no stopping): red X on blue. No vehicle may stop or park, not even briefly, 24 hours a day unless a panel says otherwise.",
+   "trap": "'se il veicolo non arreca intralcio' (if it does not obstruct) is a fake condition here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no stopping, even without blocking anyone",
+    "it": "intralcio",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente la fermata",
+    "en": "allows stopping"
+   },
+   {
+    "it": "non arreca intralcio",
+    "en": "does not obstruct"
+   },
+   {
+    "it": "circolazione",
+    "en": "traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19946": {
+  "en": "The sign shown forbids parking both by day and by night, even in built-up areas.",
+  "explain": {
+   "short": "If you may not stop, you may not park either. The no-stopping ban applies 24 hours, in towns too.",
+   "rule": "'Divieto di fermata' (no stopping): red X on blue. Every vehicle, every day, 24 hours: no stopping and so no parking, unless a panel says otherwise.",
+   "trap": "'anche nei centri abitati' (even in towns) is right: there is no 8.00-20.00 window here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No stopping or parking, day and night",
+    "it": "giorno e notte",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "sia di giorno che di notte",
+    "en": "both by day and by night"
+   },
+   {
+    "it": "anche nei centri abitati",
+    "en": "even in towns"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19947": {
+  "en": "The sign shown forbids all vehicles to stop.",
+  "explain": {
+   "short": "The red X applies to every vehicle: cars, buses, taxis, motorbikes.",
+   "rule": "'Divieto di fermata' (no stopping): red X on blue. Every vehicle, every day, 24 hours: no stopping and so no parking, unless a panel says otherwise.",
+   "trap": "'tutti i veicoli' is right: without a panel no category is exempt.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No vehicle may stop here",
+    "it": "tutti i veicoli",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la fermata",
+    "en": "forbids stopping"
+   },
+   {
+    "it": "tutti i veicoli",
+    "en": "all vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19948": {
+  "en": "The sign shown, when there are no extra inscriptions, applies for the whole 24 hours.",
+  "explain": {
+   "short": "With no panel giving hours, the no-stopping ban applies all day and all night.",
+   "rule": "'Divieto di fermata' (no stopping): red X on blue. Every vehicle, every day, 24 hours: no stopping and so no parking, unless a panel says otherwise.",
+   "trap": "'in assenza di iscrizioni integrative' means 'with no extra panel': then it is 24 hours.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No panel = valid 24 hours",
+    "it": "ventiquattro ore",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in assenza di",
+    "en": "without"
+   },
+   {
+    "it": "iscrizioni integrative",
+    "en": "extra inscriptions (panels)"
+   },
+   {
+    "it": "ventiquattro ore",
+    "en": "24 hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19949": {
+  "en": "The sign shown forbids any voluntary stop of the vehicle.",
+  "explain": {
+   "short": "Any stop you choose to make is banned here, even a very short one.",
+   "rule": "'Divieto di fermata' (no stopping): red X on blue. Every vehicle, every day, 24 hours: no stopping and so no parking, unless a panel says otherwise.",
+   "trap": "'qualsiasi' (any) is right: no chosen stop is allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Any chosen stop is banned",
+    "it": "qualsiasi fermata",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "forbids"
+   },
+   {
+    "it": "qualsiasi",
+    "en": "any"
+   },
+   {
+    "it": "volontaria fermata",
+    "en": "voluntary stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19950": {
+  "en": "Where the sign shown is present, tow-away of the vehicle is always ordered.",
+  "explain": {
+   "short": "Where stopping is banned, a stopped vehicle is a danger for traffic, so the law provides for towing it away, even without an extra panel.",
+   "rule": "'Divieto di fermata' (no stopping): red X on blue. Every vehicle, every day, 24 hours: no stopping and so no parking, unless a panel says otherwise.",
+   "trap": "'sempre' (always) is accepted here: under a no-stopping sign, tow-away is always foreseen.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No stopping: the car can be towed away",
+    "it": "rimozione forzata",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in presenza del segnale",
+    "en": "where the sign is"
+   },
+   {
+    "it": "sempre",
+    "en": "always"
+   },
+   {
+    "it": "rimozione forzata",
+    "en": "tow-away"
+   }
+  ],
+  "review": true,
+  "reviewNote": "Art. 159 CdS allows (not automatically orders) tow-away where stopping is banned; 'sempre disposta' kept as the official answer."
+ },
+ "q19951": {
+  "en": "Sign (A), if completed by panel (B), forbids stopping on the stretch before it.",
+  "explain": {
+   "short": "The downward arrow on panel B means the ban covered the stretch you just drove, and it ends here.",
+   "rule": "'Divieto di fermata' (no stopping): red X on blue. Every vehicle, every day, 24 hours: no stopping and so no parking, unless a panel says otherwise.",
+   "trap": "'nel tratto precedente' (on the stretch before) matches the arrow pointing down.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Down arrow: ban valid on the stretch before",
+    "it": "tratto precedente",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "integrato con il pannello",
+    "en": "completed by the panel"
+   },
+   {
+    "it": "vieta la fermata",
+    "en": "forbids stopping"
+   },
+   {
+    "it": "tratto precedente",
+    "en": "stretch before"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19952": {
+  "en": "Sign (A), if completed by panel (B), marks the end of the no-stopping and no-parking ban.",
+  "explain": {
+   "short": "The downward arrow means the ban stops at this sign: after it, this ban no longer applies.",
+   "rule": "'Divieto di fermata' (no stopping): red X on blue. Every vehicle, every day, 24 hours: no stopping and so no parking, unless a panel says otherwise.",
+   "trap": "'la fine' (the end) is right: the down arrow marks where the ban ends.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Down arrow: end of the no-stopping zone",
+    "it": "fine del divieto",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "indica la fine",
+    "en": "marks the end"
+   },
+   {
+    "it": "divieto di fermata e di sosta",
+    "en": "no-stopping and no-parking ban"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19953": {
+  "en": "The sign shown forbids stopping but allows parking.",
+  "explain": {
+   "short": "Parking lasts longer than stopping: if even a short stop is banned, parking is banned too.",
+   "rule": "'Divieto di fermata' (no stopping): red X on blue. Every vehicle, every day, 24 hours: no stopping and so no parking, unless a panel says otherwise.",
+   "trap": "'ma consente la sosta' is impossible: no stopping means no parking.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no stopping also means no parking",
+    "it": "sosta",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la fermata",
+    "en": "forbids stopping"
+   },
+   {
+    "it": "consente la sosta",
+    "en": "allows parking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19954": {
+  "en": "The sign shown does not apply to buses.",
+  "explain": {
+   "short": "The no-stopping ban applies to all vehicles, buses included, unless a panel says otherwise.",
+   "rule": "'Divieto di fermata' (no stopping): red X on blue. Every vehicle, every day, 24 hours: no stopping and so no parking, unless a panel says otherwise.",
+   "trap": "'non vale' (does not apply) is wrong: buses must obey it too.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: buses must obey it too",
+    "it": "autobus",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non vale",
+    "en": "does not apply"
+   },
+   {
+    "it": "autobus",
+    "en": "buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19955": {
+  "en": "The sign shown does not apply to taxis.",
+  "explain": {
+   "short": "The no-stopping ban applies to all vehicles, taxis included: a taxi may not stop here to pick up or drop off.",
+   "rule": "'Divieto di fermata' (no stopping): red X on blue. Every vehicle, every day, 24 hours: no stopping and so no parking, unless a panel says otherwise.",
+   "trap": "'non vale' (does not apply) is wrong: taxis must obey it too.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: taxis must obey it too",
+    "it": "taxi",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non vale",
+    "en": "does not apply"
+   },
+   {
+    "it": "taxi",
+    "en": "taxis"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19956": {
+  "en": "The sign shown is an advance warning of a no-parking ban.",
+  "explain": {
+   "short": "This sign does not warn about something ahead: it bans stopping and parking right where it stands.",
+   "rule": "'Divieto di fermata' (no stopping): red X on blue. Every vehicle, every day, 24 hours: no stopping and so no parking, unless a panel says otherwise.",
+   "trap": "'preavviso' (advance warning) is wrong: it is a ban in force from here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it bans stopping here, it doesn't warn",
+    "it": "preavviso",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavviso",
+    "en": "advance warning"
+   },
+   {
+    "it": "divieto di sosta",
+    "en": "no parking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19957": {
+  "en": "The sign shown applies only on working days, unless otherwise indicated.",
+  "explain": {
+   "short": "Without a panel, the no-stopping ban applies every day, holidays included, 24 hours a day.",
+   "rule": "'Divieto di fermata' (no stopping): red X on blue. Every vehicle, every day, 24 hours: no stopping and so no parking, unless a panel says otherwise.",
+   "trap": "'solo nei giorni feriali' (only on working days) is wrong: it applies every day.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it applies every day, holidays too",
+    "it": "giorni feriali",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "giorni feriali",
+    "en": "working days"
+   },
+   {
+    "it": "salvo diversa indicazione",
+    "en": "unless otherwise indicated"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19958": {
+  "en": "The sign shown allows the vehicle to stop to let passengers get on and off.",
+  "explain": {
+   "short": "Stopping for passengers is still a 'fermata', and the red X bans every stop.",
+   "rule": "'Divieto di fermata' (no stopping): red X on blue. Every vehicle, every day, 24 hours: no stopping and so no parking, unless a panel says otherwise.",
+   "trap": "'per la salita e la discesa dei passeggeri' does not make it allowed: it is still a stop.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no stop, not even for passengers",
+    "it": "fermata",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente la fermata",
+    "en": "allows stopping"
+   },
+   {
+    "it": "salita e la discesa",
+    "en": "getting on and off"
+   },
+   {
+    "it": "passeggeri",
+    "en": "passengers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19959": {
+  "en": "The sign shown announces the end of the no-parking ban.",
+  "explain": {
+   "short": "The plain red X bans stopping and parking from here on; it does not announce the end of anything.",
+   "rule": "'Divieto di fermata' (no stopping): red X on blue. Every vehicle, every day, 24 hours: no stopping and so no parking, unless a panel says otherwise.",
+   "trap": "'preannuncia la fine' (announces the end) is wrong: only a panel with a down arrow marks an end.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it starts a no-stopping ban",
+    "it": "fine",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "announces ahead"
+   },
+   {
+    "it": "fine del divieto di sosta",
+    "en": "end of the no-parking ban"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19960": {
+  "en": "The sign shown indicates an authorised car park.",
+  "explain": {
+   "short": "The white P on blue marks a place where parking is officially allowed.",
+   "rule": "The white P on blue marks an authorised parking area: you may park with no time limit, unless an extra panel adds limits.",
+   "trap": "'autorizzato' (authorised) is right: it is an official parking area.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "P = authorised parking area",
+    "it": "parcheggio",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "indica",
+    "en": "indicates"
+   },
+   {
+    "it": "parcheggio autorizzato",
+    "en": "authorised car park"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19961": {
+  "en": "The sign shown indicates an area equipped and organised for parking with no time limit, unless otherwise indicated.",
+  "explain": {
+   "short": "A car park is made for parking, and without an extra panel there is no time limit.",
+   "rule": "The white P on blue marks an authorised parking area: you may park with no time limit, unless an extra panel adds limits.",
+   "trap": "'salvo diversa indicazione' (unless otherwise indicated): a panel could add limits.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Park with no time limit, unless a panel says so",
+    "it": "tempo indeterminato",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area attrezzata",
+    "en": "equipped area"
+   },
+   {
+    "it": "sostare",
+    "en": "to park"
+   },
+   {
+    "it": "a tempo indeterminato",
+    "en": "with no time limit"
+   },
+   {
+    "it": "salvo diversa indicazione",
+    "en": "unless otherwise indicated"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19962": {
+  "en": "The sign shown indicates a parking area and can be completed by a panel showing its distance.",
+  "explain": {
+   "short": "When the car park is further on, a panel under the P can say how far away it is.",
+   "rule": "The white P on blue marks an authorised parking area: you may park with no time limit, unless an extra panel adds limits.",
+   "trap": "'la distanza' (the distance) is a normal panel for the P sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A panel can show how far the car park is",
+    "it": "distanza",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area di parcheggio",
+    "en": "parking area"
+   },
+   {
+    "it": "può essere integrato",
+    "en": "can be completed"
+   },
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "distanza",
+    "en": "distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19963": {
+  "en": "The sign shown indicates a parking area and can be completed by a panel showing the categories it is reserved for.",
+  "explain": {
+   "short": "A panel can reserve the car park for some vehicles, for example buses or motorbikes.",
+   "rule": "The white P on blue marks an authorised parking area: you may park with no time limit, unless an extra panel adds limits.",
+   "trap": "'riservata' (reserved): a panel can say who may use the car park.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A panel can reserve it for some vehicles",
+    "it": "riservata",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area di parcheggio",
+    "en": "parking area"
+   },
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "categorie",
+    "en": "categories (types of vehicle)"
+   },
+   {
+    "it": "riservata",
+    "en": "reserved"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19964": {
+  "en": "The sign shown indicates a parking area and can be completed by a panel showing the categories of vehicles excluded.",
+  "explain": {
+   "short": "A panel can also say which vehicles may NOT use the car park, for example lorries.",
+   "rule": "The white P on blue marks an authorised parking area: you may park with no time limit, unless an extra panel adds limits.",
+   "trap": "'esclusi' (excluded): a panel can keep some vehicles out.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A panel can exclude some vehicles",
+    "it": "veicoli esclusi",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area di parcheggio",
+    "en": "parking area"
+   },
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "categorie di veicoli",
+    "en": "types of vehicle"
+   },
+   {
+    "it": "esclusi",
+    "en": "excluded"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19965": {
+  "en": "The sign shown indicates a parking area and can be completed by a panel showing its time limit.",
+  "explain": {
+   "short": "A panel can limit how long you may park, for example a maximum time.",
+   "rule": "The white P on blue marks an authorised parking area: you may park with no time limit, unless an extra panel adds limits.",
+   "trap": "'limitazione nel tempo' (time limit) is possible only with a panel; the P alone has none.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A panel can set a time limit",
+    "it": "limitazione nel tempo",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area di parcheggio",
+    "en": "parking area"
+   },
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "limitazione nel tempo",
+    "en": "time limit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19966": {
+  "en": "The sign shown indicates a parking area and can be completed by a panel showing the hours and the fees.",
+  "explain": {
+   "short": "If the car park has opening hours or you must pay, a panel under the P shows the hours and fees.",
+   "rule": "The white P on blue marks an authorised parking area: you may park with no time limit, unless an extra panel adds limits.",
+   "trap": "'l'orario e le tariffe' (hours and fees) can be shown on a panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A panel can show hours and fees",
+    "it": "tariffe",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area di parcheggio",
+    "en": "parking area"
+   },
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "orario",
+    "en": "hours"
+   },
+   {
+    "it": "tariffe",
+    "en": "fees"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19967": {
+  "en": "The sign shown indicates a parking area and can be completed by a panel showing how vehicles are arranged.",
+  "explain": {
+   "short": "A panel can show how to park: in line, side by side or at an angle.",
+   "rule": "The white P on blue marks an authorised parking area: you may park with no time limit, unless an extra panel adds limits.",
+   "trap": "'disposizione dei veicoli' (how vehicles are arranged) can be shown on a panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A panel can show how to line up",
+    "it": "disposizione",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area di parcheggio",
+    "en": "parking area"
+   },
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "disposizione dei veicoli",
+    "en": "arrangement of the vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19968": {
+  "en": "The sign shown indicates a parking area with a parking meter.",
+  "explain": {
+   "short": "The plain P only says you may park. It says nothing about paying at a meter; that would need a panel.",
+   "rule": "The white P on blue marks an authorised parking area: you may park with no time limit, unless an extra panel adds limits.",
+   "trap": "'parchimetro' (parking meter) is not on the sign: nothing says you must pay.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: the plain P says nothing about a meter",
+    "it": "parchimetro",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area di sosta",
+    "en": "parking area"
+   },
+   {
+    "it": "parchimetro",
+    "en": "parking meter"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19969": {
+  "en": "The sign shown indicates that parking is allowed from 8.00 to 20.00.",
+  "explain": {
+   "short": "The plain P has no hours: you may park at any time, unless a panel says otherwise.",
+   "rule": "The white P on blue marks an authorised parking area: you may park with no time limit, unless an extra panel adds limits.",
+   "trap": "'dalle 8.00 alle 20.00' is invented: the sign shows no hours.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no hours shown, parking at any time",
+    "it": "parcheggio",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "parcheggio",
+    "en": "parking"
+   },
+   {
+    "it": "è ammesso",
+    "en": "is allowed"
+   },
+   {
+    "it": "dalle 8.00 alle 20.00",
+    "en": "from 8.00 to 20.00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19970": {
+  "en": "The sign shown indicates an area where you may park for one hour at most.",
+  "explain": {
+   "short": "The plain P has no time limit: you may park as long as you like, unless a panel says otherwise.",
+   "rule": "The white P on blue marks an authorised parking area: you may park with no time limit, unless an extra panel adds limits.",
+   "trap": "'al massimo per un'ora' (one hour at most) is invented: no limit is shown.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no time limit is shown",
+    "it": "al massimo",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è possibile la sosta",
+    "en": "parking is allowed"
+   },
+   {
+    "it": "al massimo",
+    "en": "at most"
+   },
+   {
+    "it": "un'ora",
+    "en": "one hour"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19971": {
+  "en": "The sign shown indicates free parking but no stopping.",
+  "explain": {
+   "short": "This makes no sense: if you may park, you may also stop. The P allows both.",
+   "rule": "The white P on blue marks an authorised parking area: you may park with no time limit, unless an extra panel adds limits.",
+   "trap": "'con divieto di fermata' (with no stopping) is the trap: the P bans nothing.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: the P allows parking and stopping",
+    "it": "divieto di fermata",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta libera",
+    "en": "free parking"
+   },
+   {
+    "it": "divieto di fermata",
+    "en": "no stopping"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19972": {
+  "en": "The sign shown indicates a parking area reserved for State Police vehicles.",
+  "explain": {
+   "short": "The plain P is for everyone. A reservation for some vehicles would need a panel.",
+   "rule": "The white P on blue marks an authorised parking area: you may park with no time limit, unless an extra panel adds limits.",
+   "trap": "'riservato' (reserved) is wrong: nothing on the sign reserves it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: the plain P is for everyone",
+    "it": "riservato",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area di parcheggio",
+    "en": "parking area"
+   },
+   {
+    "it": "riservato",
+    "en": "reserved"
+   },
+   {
+    "it": "Polizia di Stato",
+    "en": "State Police"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19973": {
+  "en": "The sign shown indicates a parking area and can be completed by a panel showing the available surface area.",
+  "explain": {
+   "short": "Panels for the P show distance, categories, time limits, hours and fees, or layout. The size of the area is not one of them.",
+   "rule": "The white P on blue marks an authorised parking area: you may park with no time limit, unless an extra panel adds limits.",
+   "trap": "'la superficie disponibile' (the available area) is not a panel used with the P.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no panel shows the size of the area",
+    "it": "superficie",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area di parcheggio",
+    "en": "parking area"
+   },
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "superficie disponibile",
+    "en": "available surface area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19974": {
+  "en": "The sign shown indicates a parking area and can be completed with an order to leave the key in the ignition.",
+  "explain": {
+   "short": "No panel tells you to leave your key in the car. In fact, when you park you should take the key with you.",
+   "rule": "The white P on blue marks an authorised parking area: you may park with no time limit, unless an extra panel adds limits.",
+   "trap": "'lasciare la chiave nel quadro' (leave the key in the ignition) is an invented panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no panel says to leave the key",
+    "it": "chiave",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area di parcheggio",
+    "en": "parking area"
+   },
+   {
+    "it": "prescrizione",
+    "en": "order"
+   },
+   {
+    "it": "chiave nel quadro",
+    "en": "key in the ignition"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19975": {
+  "en": "The sign shown announces that there is a car park in the direction of the arrow.",
+  "explain": {
+   "short": "The P with an arrow tells you which way to go to find the car park.",
+   "rule": "P with an arrow and a distance: a car park is ahead in the direction of the arrow, at the distance shown.",
+   "trap": "'nella direzione della freccia' (in the direction of the arrow) is right: follow the arrow.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Car park ahead: follow the arrow",
+    "it": "parcheggio",
+    "action": "park",
+    "distance": "300 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "announces ahead"
+   },
+   {
+    "it": "direzione della freccia",
+    "en": "direction of the arrow"
+   },
+   {
+    "it": "parcheggio",
+    "en": "car park"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19976": {
+  "en": "The sign shown announces a parking zone if you go in the direction of the arrow.",
+  "explain": {
+   "short": "Going the way the arrow points, you reach a parking zone.",
+   "rule": "P with an arrow and a distance: a car park is ahead in the direction of the arrow, at the distance shown.",
+   "trap": "'procedendo nel senso della freccia' (going the way of the arrow) is right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking zone the way the arrow points",
+    "it": "zona di parcheggio",
+    "action": "park",
+    "distance": "300 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "announces ahead"
+   },
+   {
+    "it": "zona di parcheggio",
+    "en": "parking zone"
+   },
+   {
+    "it": "senso della freccia",
+    "en": "way of the arrow"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19977": {
+  "en": "The sign shown announces a car park 300 metres away in the direction of the arrow.",
+  "explain": {
+   "short": "The panel under the sign says 300 m: the car park is 300 metres away, following the arrow.",
+   "rule": "P with an arrow and a distance: a car park is ahead in the direction of the arrow, at the distance shown.",
+   "trap": "'a 300 metri' is right: the distance is written on the panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Car park in 300 m, following the arrow",
+    "it": "300 metri",
+    "action": "park",
+    "distance": "300 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "announces ahead"
+   },
+   {
+    "it": "parcheggio",
+    "en": "car park"
+   },
+   {
+    "it": "a 300 metri",
+    "en": "300 metres away"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19978": {
+  "en": "The sign shown announces a first-aid post in the direction of the arrow.",
+  "explain": {
+   "short": "The white P means parking. First aid has a different sign (a red cross on white).",
+   "rule": "P with an arrow and a distance: a car park is ahead in the direction of the arrow, at the distance shown.",
+   "trap": "'pronto soccorso' (first aid) is wrong: P means parking.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: P means parking, not first aid",
+    "it": "pronto soccorso",
+    "action": "park",
+    "distance": "300 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "announces ahead"
+   },
+   {
+    "it": "posto di pronto soccorso",
+    "en": "first-aid post"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19979": {
+  "en": "The sign shown announces a no-parking area in the direction of the arrow.",
+  "explain": {
+   "short": "A blue sign with a white P invites you to park; it does not ban anything.",
+   "rule": "P with an arrow and a distance: a car park is ahead in the direction of the arrow, at the distance shown.",
+   "trap": "'vietato' (banned) is wrong: the P announces a place where you may park.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: you may park there",
+    "it": "vietato",
+    "action": "park",
+    "distance": "300 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "announces ahead"
+   },
+   {
+    "it": "parcheggio vietato",
+    "en": "parking banned"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19980": {
+  "en": "The sign shown announces that parking is banned in the direction of the arrow.",
+  "explain": {
+   "short": "The P with an arrow leads you to a car park: parking there is allowed, not banned.",
+   "rule": "P with an arrow and a distance: a car park is ahead in the direction of the arrow, at the distance shown.",
+   "trap": "'sono vietati' (are banned) is wrong: the P allows parking.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: parking is allowed there",
+    "it": "vietati",
+    "action": "park",
+    "distance": "300 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "announces ahead"
+   },
+   {
+    "it": "la sosta e il parcheggio",
+    "en": "parking"
+   },
+   {
+    "it": "sono vietati",
+    "en": "are banned"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19981": {
+  "en": "The sign shown tells you to drive on because the car park is reserved.",
+  "explain": {
+   "short": "Nothing on the sign says the car park is reserved: it simply shows where a car park is.",
+   "rule": "P with an arrow and a distance: a car park is ahead in the direction of the arrow, at the distance shown.",
+   "trap": "'perché il parcheggio è riservato' (because it is reserved) is invented.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: nothing says it is reserved",
+    "it": "riservato",
+    "action": "park",
+    "distance": "300 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "announces"
+   },
+   {
+    "it": "procedere oltre",
+    "en": "to drive on"
+   },
+   {
+    "it": "riservato",
+    "en": "reserved"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19982": {
+  "en": "The sign shown forbids parking at the place where it is placed.",
+  "explain": {
+   "short": "The 'passo carrabile' (driveway) sign keeps the entrance free: nobody may park in front of it.",
+   "rule": "'Passo carrabile' (driveway): no parking for anyone, at any time; a short stop is allowed if it blocks nobody.",
+   "trap": "'nel luogo dove è posto' (where it is placed) is right: the ban is right in front of the driveway.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No parking in front of the driveway",
+    "it": "passo carrabile",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "nel luogo dove è posto",
+    "en": "where it is placed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19983": {
+  "en": "The sign shown marks the area where vehicles enter side properties.",
+  "explain": {
+   "short": "A driveway is where cars enter and leave a property beside the road, for example a garage or a courtyard.",
+   "rule": "'Passo carrabile' (driveway): no parking for anyone, at any time; a short stop is allowed if it blocks nobody.",
+   "trap": "'proprietà laterali' (side properties) are the buildings and yards beside the road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Driveway: entrance to a side property",
+    "it": "proprietà laterali",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "zona per l'accesso",
+    "en": "entrance area"
+   },
+   {
+    "it": "proprietà laterali",
+    "en": "side properties"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19984": {
+  "en": "The sign shown marks the exit of a driveway.",
+  "explain": {
+   "short": "The sign says 'passo carrabile': vehicles come out of a property here.",
+   "rule": "'Passo carrabile' (driveway): no parking for anyone, at any time; a short stop is allowed if it blocks nobody.",
+   "trap": "'sbocco' (exit) is where vehicles come out onto the road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Vehicles come out of a driveway here",
+    "it": "sbocco",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sbocco",
+    "en": "exit (where it meets the road)"
+   },
+   {
+    "it": "passo carrabile",
+    "en": "driveway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19985": {
+  "en": "The sign shown allows stopping, as long as the vehicle does not obstruct.",
+  "explain": {
+   "short": "The sign bans parking, not stopping. A short stop is fine if you do not block the driveway or traffic.",
+   "rule": "'Passo carrabile' (driveway): no parking for anyone, at any time; a short stop is allowed if it blocks nobody.",
+   "trap": "'purché' (as long as) is the condition: stopping is OK only without obstructing.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Short stop OK, if you block nobody",
+    "it": "fermata",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente la fermata",
+    "en": "allows stopping"
+   },
+   {
+    "it": "purché",
+    "en": "as long as"
+   },
+   {
+    "it": "intralcio",
+    "en": "obstruction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19986": {
+  "en": "To be valid, the sign shown must show the authority that granted the permit, the number and the year it was issued.",
+  "explain": {
+   "short": "A driveway sign needs a permit from the local authority. The sign must show who granted it, the number and the year.",
+   "rule": "'Passo carrabile' (driveway): no parking for anyone, at any time; a short stop is allowed if it blocks nobody.",
+   "trap": "'per essere valido' (to be valid): without these details the sign has no value.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Valid only with authority, number and year",
+    "it": "autorizzazione",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "per essere valido",
+    "en": "to be valid"
+   },
+   {
+    "it": "ente",
+    "en": "authority"
+   },
+   {
+    "it": "autorizzazione",
+    "en": "permit"
+   },
+   {
+    "it": "numero e l'anno",
+    "en": "number and year"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19987": {
+  "en": "The sign shown is placed only on urban roads.",
+  "explain": {
+   "short": "Driveways exist in towns and in the countryside, so the sign is used on all roads.",
+   "rule": "'Passo carrabile' (driveway): no parking for anyone, at any time; a short stop is allowed if it blocks nobody.",
+   "trap": "'soltanto' (only) is wrong: it is also used outside towns.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it is used on all roads",
+    "it": "soltanto",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è posto",
+    "en": "is placed"
+   },
+   {
+    "it": "soltanto",
+    "en": "only"
+   },
+   {
+    "it": "strade urbane",
+    "en": "town roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19988": {
+  "en": "The sign shown applies only in daytime hours.",
+  "explain": {
+   "short": "Vehicles may need to come out at any time, so the driveway ban applies day and night.",
+   "rule": "'Passo carrabile' (driveway): no parking for anyone, at any time; a short stop is allowed if it blocks nobody.",
+   "trap": "'solo nelle ore diurne' (only by day) is wrong: it applies 24 hours.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it applies day and night",
+    "it": "ore diurne",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vale",
+    "en": "applies"
+   },
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "ore diurne",
+    "en": "daytime hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19989": {
+  "en": "The sign shown applies only at night.",
+  "explain": {
+   "short": "Vehicles may need to come out at any time, so the driveway ban applies day and night.",
+   "rule": "'Passo carrabile' (driveway): no parking for anyone, at any time; a short stop is allowed if it blocks nobody.",
+   "trap": "'solo nelle ore notturne' (only at night) is wrong: it applies 24 hours.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it applies day and night",
+    "it": "ore notturne",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vale",
+    "en": "applies"
+   },
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "ore notturne",
+    "en": "night hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19990": {
+  "en": "The sign shown allows certain categories of vehicles to park.",
+  "explain": {
+   "short": "The driveway must stay free for everyone: no type of vehicle may park in front of it.",
+   "rule": "'Passo carrabile' (driveway): no parking for anyone, at any time; a short stop is allowed if it blocks nobody.",
+   "trap": "'consente la sosta' (allows parking) is wrong: there are no exceptions.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: nobody may park there",
+    "it": "categorie",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente la sosta",
+    "en": "allows parking"
+   },
+   {
+    "it": "particolari categorie",
+    "en": "certain categories"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19991": {
+  "en": "The sign shown allows emergency vehicles that are not on duty to park.",
+  "explain": {
+   "short": "An ambulance that is not on an emergency is like any other vehicle: it may not park in front of a driveway.",
+   "rule": "'Passo carrabile' (driveway): no parking for anyone, at any time; a short stop is allowed if it blocks nobody.",
+   "trap": "'non in servizio' (not on duty): without an emergency there is no special right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: not even an off-duty ambulance",
+    "it": "non in servizio",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente la sosta",
+    "en": "allows parking"
+   },
+   {
+    "it": "pronto soccorso",
+    "en": "emergency (ambulance)"
+   },
+   {
+    "it": "non in servizio",
+    "en": "not on duty"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19992": {
+  "en": "The sign shown allows vehicles serving disabled people, with the proper badge, to park.",
+  "explain": {
+   "short": "The P and the wheelchair under the no-parking disc mean: parking only for vehicles serving disabled people with the badge.",
+   "rule": "No-parking sign with P and wheelchair: only vehicles serving disabled people with the badge may park; everyone else may not.",
+   "trap": "'munite dell'apposito contrassegno' (with the proper badge): the badge must be shown.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking only for disabled people's vehicles",
+    "it": "contrassegno",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente la sosta",
+    "en": "allows parking"
+   },
+   {
+    "it": "persone invalide",
+    "en": "disabled people"
+   },
+   {
+    "it": "apposito contrassegno",
+    "en": "proper badge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19993": {
+  "en": "The sign shown is a regulatory sign.",
+  "explain": {
+   "short": "It contains a red no-parking disc: it gives an order about who may park, so it is a 'prescrizione' (regulatory) sign.",
+   "rule": "No-parking sign with P and wheelchair: only vehicles serving disabled people with the badge may park; everyone else may not.",
+   "trap": "'prescrizione' means a rule you must obey, not just information.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A regulatory sign: parking rule",
+    "it": "prescrizione",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale",
+    "en": "sign"
+   },
+   {
+    "it": "segnale di prescrizione",
+    "en": "regulatory sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19994": {
+  "en": "The sign shown is a specific exception to the parking ban.",
+  "explain": {
+   "short": "The disc bans parking, and the panel below makes an exception for vehicles serving disabled people.",
+   "rule": "No-parking sign with P and wheelchair: only vehicles serving disabled people with the badge may park; everyone else may not.",
+   "trap": "'eccezione' (exception): the ban stays, but one group is allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No parking, except for disabled people",
+    "it": "eccezione",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "rappresenta",
+    "en": "represents"
+   },
+   {
+    "it": "specifica eccezione",
+    "en": "specific exception"
+   },
+   {
+    "it": "divieto di sosta",
+    "en": "no-parking ban"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19995": {
+  "en": "The sign shown does not allow parking to vehicles other than those serving disabled people.",
+  "explain": {
+   "short": "For everyone else the no-parking ban stays: only vehicles serving disabled people may park.",
+   "rule": "No-parking sign with P and wheelchair: only vehicles serving disabled people with the badge may park; everyone else may not.",
+   "trap": "'veicoli diversi' (other vehicles): for them the ban is still in force.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Other vehicles may not park here",
+    "it": "veicoli diversi",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non consente",
+    "en": "does not allow"
+   },
+   {
+    "it": "veicoli diversi",
+    "en": "other vehicles"
+   },
+   {
+    "it": "persone invalide",
+    "en": "disabled people"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19996": {
+  "en": "The sign shown allows school buses to park.",
+  "explain": {
+   "short": "The wheelchair symbol means disabled people only. School buses have no exception here.",
+   "rule": "No-parking sign with P and wheelchair: only vehicles serving disabled people with the badge may park; everyone else may not.",
+   "trap": "'scuolabus' (school buses) are not shown on the panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: only disabled people's vehicles",
+    "it": "scuolabus",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente la sosta",
+    "en": "allows parking"
+   },
+   {
+    "it": "scuolabus",
+    "en": "school buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19997": {
+  "en": "The sign shown indicates a lane reserved for vehicles serving disabled people.",
+  "explain": {
+   "short": "It is about parking, not driving: it does not mark a lane.",
+   "rule": "No-parking sign with P and wheelchair: only vehicles serving disabled people with the badge may park; everyone else may not.",
+   "trap": "'corsia' (lane) is wrong: the sign is about parking spaces.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it is about parking, not a lane",
+    "it": "corsia",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia riservata",
+    "en": "reserved lane"
+   },
+   {
+    "it": "persone invalide",
+    "en": "disabled people"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19998": {
+  "en": "The sign shown is a no-parking sign for vehicles serving disabled people, and shows the nearest car park.",
+  "explain": {
+   "short": "It is the opposite: disabled people's vehicles are the only ones that MAY park. It shows no other car park.",
+   "rule": "No-parking sign with P and wheelchair: only vehicles serving disabled people with the badge may park; everyone else may not.",
+   "trap": "'divieto di sosta per i veicoli al servizio di invalidi' turns the meaning upside down.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: disabled people's vehicles MAY park",
+    "it": "invalidi",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto di sosta",
+    "en": "no parking"
+   },
+   {
+    "it": "invalidi",
+    "en": "disabled people"
+   },
+   {
+    "it": "il più vicino parcheggio",
+    "en": "the nearest car park"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19999": {
+  "en": "The sign shown warns of a zone closed to normal traffic because it is equipped for disabled people.",
+  "explain": {
+   "short": "The sign is about parking where it stands, not a warning of a closed zone ahead.",
+   "rule": "No-parking sign with P and wheelchair: only vehicles serving disabled people with the badge may park; everyone else may not.",
+   "trap": "'preavvisa una zona vietata al traffico' is wrong: it does not close any road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it only rules parking here",
+    "it": "zona vietata",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "warns in advance"
+   },
+   {
+    "it": "zona vietata al traffico",
+    "en": "zone closed to traffic"
+   },
+   {
+    "it": "persone invalide",
+    "en": "disabled people"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20000": {
+  "en": "The sign shown, on the road where it is placed, allows only vehicles serving disabled people to drive through.",
+  "explain": {
+   "short": "The sign is about parking, not driving: every vehicle may still drive along the road.",
+   "rule": "No-parking sign with P and wheelchair: only vehicles serving disabled people with the badge may park; everyone else may not.",
+   "trap": "'transito' (driving through) is wrong: only parking is reserved.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it rules parking, not driving",
+    "it": "transito",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "nella strada ove è posto",
+    "en": "on the road where it is placed"
+   },
+   {
+    "it": "transito",
+    "en": "driving through"
+   },
+   {
+    "it": "soli veicoli",
+    "en": "only vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20001": {
+  "en": "The sign shown allows mopeds and motorcycles to park.",
+  "explain": {
+   "short": "Only vehicles serving disabled people may park. Mopeds and motorcycles have no exception.",
+   "rule": "No-parking sign with P and wheelchair: only vehicles serving disabled people with the badge may park; everyone else may not.",
+   "trap": "'ciclomotori e motocicli' (mopeds and motorbikes) are not shown on the panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: only disabled people's vehicles",
+    "it": "ciclomotori",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente la sosta",
+    "en": "allows parking"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20002": {
+  "en": "The sign shown allows parking if you display a ticket from a parking meter.",
+  "explain": {
+   "short": "Paying does not help: only vehicles serving disabled people with the badge may park here.",
+   "rule": "No-parking sign with P and wheelchair: only vehicles serving disabled people with the badge may park; everyone else may not.",
+   "trap": "'tagliando emesso da un parchimetro' (meter ticket) gives no right to park here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: a meter ticket doesn't help",
+    "it": "parchimetro",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente la sosta",
+    "en": "allows parking"
+   },
+   {
+    "it": "tagliando",
+    "en": "ticket"
+   },
+   {
+    "it": "parchimetro",
+    "en": "parking meter"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

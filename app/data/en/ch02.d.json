@@ -1,0 +1,2257 @@
+{
+ "q19091": {
+  "en": "The sign shown requires you to stop at the stop line if a train is coming.",
+  "explain": {
+   "short": "At an unbarriered level crossing nothing closes the road, so when a train is coming you must stop at the stop line.",
+   "rule": "The double St Andrew's cross (croce di Sant'Andrea doppia) stands right next to a level crossing (passaggio a livello) WITHOUT barriers and with two or more tracks. If a train is coming, you must stop at the stop line.",
+   "trap": "'se è in arrivo il treno' (if a train is coming): the stop is required only then.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Train coming: stop at the stop line",
+    "it": "striscia di arresto",
+    "action": "stop",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "striscia di arresto",
+    "en": "stop line"
+   },
+   {
+    "it": "in arrivo il treno",
+    "en": "a train is coming"
+   },
+   {
+    "it": "arrestarsi",
+    "en": "to stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19092": {
+  "en": "The sign shown is placed right next to a level crossing without barriers.",
+  "explain": {
+   "short": "The St Andrew's cross stands right at the tracks of a level crossing without barriers.",
+   "rule": "The double St Andrew's cross (croce di Sant'Andrea doppia) stands right next to a level crossing (passaggio a livello) WITHOUT barriers and with two or more tracks. If a train is coming, you must stop at the stop line.",
+   "trap": "'nelle immediate vicinanze' means right next to it, not 150 m before.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right at an unbarriered level crossing",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "immediate vicinanze",
+    "en": "right next to"
+   },
+   {
+    "it": "senza barriere",
+    "en": "without barriers"
+   },
+   {
+    "it": "attraversamento ferroviario a livello",
+    "en": "level crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19093": {
+  "en": "The sign shown indicates that the railway line has more than one track.",
+  "explain": {
+   "short": "The cross is DOUBLE: that shape means the railway has two or more tracks.",
+   "rule": "The double St Andrew's cross (croce di Sant'Andrea doppia) stands right next to a level crossing (passaggio a livello) WITHOUT barriers and with two or more tracks. If a train is coming, you must stop at the stop line.",
+   "trap": "'più di un binario' (more than one track): the double cross says exactly this.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Double cross = more than one track",
+    "it": "più di un binario",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "linea ferroviaria",
+    "en": "railway line"
+   },
+   {
+    "it": "più di un binario",
+    "en": "more than one track"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19094": {
+  "en": "The sign shown tells you to be careful before crossing, because more than one train could pass.",
+  "explain": {
+   "short": "With two or more tracks, after one train has passed another one may come: look carefully before crossing.",
+   "rule": "The double St Andrew's cross (croce di Sant'Andrea doppia) stands right next to a level crossing (passaggio a livello) WITHOUT barriers and with two or more tracks. If a train is coming, you must stop at the stop line.",
+   "trap": "'più di un treno' (more than one train): with several tracks, one train can hide another.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Careful: more than one train may pass",
+    "it": "più di un treno",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fare attenzione",
+    "en": "be careful"
+   },
+   {
+    "it": "prima di attraversare",
+    "en": "before crossing"
+   },
+   {
+    "it": "più di un treno",
+    "en": "more than one train"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19095": {
+  "en": "The sign shown is found after the distance panels with red bars.",
+  "explain": {
+   "short": "First you meet the red-bar panels (150, 100, 50 m); the cross comes last, right at the tracks.",
+   "rule": "The double St Andrew's cross (croce di Sant'Andrea doppia) stands right next to a level crossing (passaggio a livello) WITHOUT barriers and with two or more tracks. If a train is coming, you must stop at the stop line.",
+   "trap": "'dopo' (after): the panels come first, the cross is at the crossing itself.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Panels first, then the cross at the tracks",
+    "it": "pannelli distanziometrici",
+    "action": "slow",
+    "hazard": "🚂",
+    "distance": "50 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si trova dopo",
+    "en": "is found after"
+   },
+   {
+    "it": "pannelli distanziometrici",
+    "en": "distance panels"
+   },
+   {
+    "it": "barre rosse",
+    "en": "red bars"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19096": {
+  "en": "The sign shown is a danger sign.",
+  "explain": {
+   "short": "The St Andrew's cross belongs to the danger signs: it warns of a level crossing without barriers.",
+   "rule": "The double St Andrew's cross (croce di Sant'Andrea doppia) stands right next to a level crossing (passaggio a livello) WITHOUT barriers and with two or more tracks. If a train is coming, you must stop at the stop line.",
+   "trap": "'pericolo' (danger): even without the triangle shape, this is a danger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A danger sign: level crossing",
+    "it": "segnale di pericolo",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19097": {
+  "en": "Sign (A) can be paired with sign (B).",
+  "explain": {
+   "short": "The double cross (A) can be paired with a STOP sign (B): then you must always stop before crossing.",
+   "rule": "The double St Andrew's cross (croce di Sant'Andrea doppia) stands right next to a level crossing (passaggio a livello) WITHOUT barriers and with two or more tracks. If a train is coming, you must stop at the stop line.",
+   "trap": "'può essere abbinato' (can be paired): it is possible, not always there.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cross + STOP: always stop before crossing",
+    "it": "abbinato",
+    "action": "stop",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "può essere abbinato",
+    "en": "can be paired"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19098": {
+  "en": "The sign shown is, as a rule, placed 150 metres from the tracks.",
+  "explain": {
+   "short": "The cross stands right next to the tracks. The sign about 150 m before is the danger triangle with the 3-bar panel.",
+   "rule": "The double St Andrew's cross (croce di Sant'Andrea doppia) stands right next to a level crossing (passaggio a livello) WITHOUT barriers and with two or more tracks. If a train is coming, you must stop at the stop line.",
+   "trap": "'a 150 metri' is the distance of the triangle, not of the cross.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not 150 m: it is right at the tracks",
+    "it": "binari",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "150 metri",
+    "en": "150 metres"
+   },
+   {
+    "it": "binari",
+    "en": "tracks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19099": {
+  "en": "Sign (A) is found after sign (B).",
+  "explain": {
+   "short": "Sign B (a gate in a triangle) warns of a level crossing WITH barriers; the St Andrew's cross is used only where there are NO barriers.",
+   "rule": "The double St Andrew's cross (croce di Sant'Andrea doppia) stands right next to a level crossing (passaggio a livello) WITHOUT barriers and with two or more tracks. If a train is coming, you must stop at the stop line.",
+   "trap": "'dopo il segnale (B)': B is for barriers, the cross is for no barriers, so they do not go together.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The cross is only for crossings without barriers",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si trova dopo",
+    "en": "is found after"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19100": {
+  "en": "The sign shown warns of a dangerous double road junction.",
+  "explain": {
+   "short": "The double cross is about railway tracks, not road junctions: it marks a level crossing with several tracks.",
+   "rule": "The double St Andrew's cross (croce di Sant'Andrea doppia) stands right next to a level crossing (passaggio a livello) WITHOUT barriers and with two or more tracks. If a train is coming, you must stop at the stop line.",
+   "trap": "'incrocio stradale' (road junction): the cross shape tricks you, it is a railway sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a junction: railway with several tracks",
+    "it": "incrocio stradale",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "doppio incrocio",
+    "en": "double junction"
+   },
+   {
+    "it": "incrocio stradale",
+    "en": "road junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19101": {
+  "en": "The sign shown indicates that the railway line has only one track.",
+  "explain": {
+   "short": "The DOUBLE cross means two or more tracks. One track is shown by the single cross.",
+   "rule": "The double St Andrew's cross (croce di Sant'Andrea doppia) stands right next to a level crossing (passaggio a livello) WITHOUT barriers and with two or more tracks. If a train is coming, you must stop at the stop line.",
+   "trap": "'solo un binario' (only one track): that is the single cross, not the double one.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Double cross = more than one track",
+    "it": "solo un binario",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo un binario",
+    "en": "only one track"
+   },
+   {
+    "it": "linea ferroviaria",
+    "en": "railway line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19102": {
+  "en": "The sign shown can be placed before a level crossing with half-barriers.",
+  "explain": {
+   "short": "The St Andrew's cross is used only at level crossings WITHOUT barriers or half-barriers.",
+   "rule": "The double St Andrew's cross (croce di Sant'Andrea doppia) stands right next to a level crossing (passaggio a livello) WITHOUT barriers and with two or more tracks. If a train is coming, you must stop at the stop line.",
+   "trap": "'semibarriere' (half-barriers): any barrier means no St Andrew's cross.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only for crossings with NO barriers",
+    "it": "semibarriere",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "attraversamento ferroviario",
+    "en": "level crossing"
+   },
+   {
+    "it": "semibarriere",
+    "en": "half-barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19103": {
+  "en": "The sign shown indicates that you may meet two level crossings in a row, less than 150 metres apart.",
+  "explain": {
+   "short": "The double cross means one crossing with several tracks, not two crossings one after the other.",
+   "rule": "The double St Andrew's cross (croce di Sant'Andrea doppia) stands right next to a level crossing (passaggio a livello) WITHOUT barriers and with two or more tracks. If a train is coming, you must stop at the stop line.",
+   "trap": "'due passaggi a livello consecutivi' (two crossings in a row): it is two tracks, not two crossings.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One crossing with several tracks",
+    "it": "più binari",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "passaggi a livello",
+    "en": "level crossings"
+   },
+   {
+    "it": "consecutivi",
+    "en": "in a row"
+   },
+   {
+    "it": "150 metri",
+    "en": "150 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19104": {
+  "en": "The sign can have a yellow background when there is work on the tracks.",
+  "explain": {
+   "short": "The St Andrew's cross is always red and white. The yellow background is used for temporary roadwork signs, not for this one.",
+   "rule": "The double St Andrew's cross (croce di Sant'Andrea doppia) stands right next to a level crossing (passaggio a livello) WITHOUT barriers and with two or more tracks. If a train is coming, you must stop at the stop line.",
+   "trap": "'fondo giallo' (yellow background): it belongs to road works signs, not to the cross.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Always red and white, never yellow",
+    "it": "fondo giallo",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fondo giallo",
+    "en": "yellow background"
+   },
+   {
+    "it": "lavori ai binari",
+    "en": "work on the tracks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19105": {
+  "en": "The panels shown are placed before every type of level crossing.",
+  "explain": {
+   "short": "The red-bar panels announce every level crossing, with or without barriers.",
+   "rule": "The panels with red diagonal bars (pannelli distanziometrici, distance panels) stand at about 150, 100 and 50 m before EVERY level crossing, with or without barriers. Three bars come first; the bars count the distance, not the tracks.",
+   "trap": "'qualsiasi tipo' (any type): with or without barriers, the panels are there.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Before every level crossing",
+    "it": "passaggio a livello",
+    "action": "slow",
+    "hazard": "🚂",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "qualsiasi tipo",
+    "en": "any type"
+   },
+   {
+    "it": "passaggio a livello",
+    "en": "level crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19106": {
+  "en": "The panels shown are placed, as a rule, at about 150, 100 and 50 metres from the level crossing.",
+  "explain": {
+   "short": "Three bars at about 150 m, two at 100 m, one at 50 m: they count down the distance.",
+   "rule": "The panels with red diagonal bars (pannelli distanziometrici, distance panels) stand at about 150, 100 and 50 m before EVERY level crossing, with or without barriers. Three bars come first; the bars count the distance, not the tracks.",
+   "trap": "'di norma' (as a rule): these are the usual distances.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "3 bars 150 m, 2 bars 100 m, 1 bar 50 m",
+    "it": "pannelli",
+    "action": "slow",
+    "hazard": "🚂",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "150, 100 e 50 metri",
+    "en": "150, 100 and 50 metres"
+   },
+   {
+    "it": "attraversamento ferroviario",
+    "en": "level crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19107": {
+  "en": "The panels shown indicate that you are approaching the level crossing.",
+  "explain": {
+   "short": "Each panel has one bar fewer: the crossing is getting closer.",
+   "rule": "The panels with red diagonal bars (pannelli distanziometrici, distance panels) stand at about 150, 100 and 50 m before EVERY level crossing, with or without barriers. Three bars come first; the bars count the distance, not the tracks.",
+   "trap": "'ci si sta avvicinando' (you are getting closer): that is their only job.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The level crossing is getting closer",
+    "it": "passaggio a livello",
+    "action": "slow",
+    "hazard": "🚂",
+    "distance": "50 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "avvicinando",
+    "en": "approaching"
+   },
+   {
+    "it": "passaggio a livello",
+    "en": "level crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19108": {
+  "en": "The panel with three red bars (A) is placed under sign (B).",
+  "explain": {
+   "short": "The 3-bar panel stands under the level crossing danger triangle (B), about 150 m before the crossing.",
+   "rule": "The panels with red diagonal bars (pannelli distanziometrici, distance panels) stand at about 150, 100 and 50 m before EVERY level crossing, with or without barriers. Three bars come first; the bars count the distance, not the tracks.",
+   "trap": "'sotto' (under): the 3-bar panel is attached under the triangle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "3-bar panel under the triangle, at 150 m",
+    "it": "tre barre",
+    "action": "slow",
+    "hazard": "🚂",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tre barre rosse",
+    "en": "three red bars"
+   },
+   {
+    "it": "posto sotto",
+    "en": "placed under"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19109": {
+  "en": "At a level crossing without barriers, the panels (A) are placed before sign (B).",
+  "explain": {
+   "short": "You meet the red-bar panels first; the St Andrew's cross (B) stands last, right at the tracks.",
+   "rule": "The panels with red diagonal bars (pannelli distanziometrici, distance panels) stand at about 150, 100 and 50 m before EVERY level crossing, with or without barriers. Three bars come first; the bars count the distance, not the tracks.",
+   "trap": "'prima del segnale (B)' (before sign B): panels first, cross at the tracks.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Panels first, then the cross at the tracks",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂",
+    "distance": "50 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "senza barriere",
+    "en": "without barriers"
+   },
+   {
+    "it": "posti prima",
+    "en": "placed before"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19110": {
+  "en": "The panel with three red diagonal bars is the first panel you meet when approaching a level crossing.",
+  "explain": {
+   "short": "The 3-bar panel is the farthest one (about 150 m), so it is the first you see.",
+   "rule": "The panels with red diagonal bars (pannelli distanziometrici, distance panels) stand at about 150, 100 and 50 m before EVERY level crossing, with or without barriers. Three bars come first; the bars count the distance, not the tracks.",
+   "trap": "'il primo' (the first): 3 bars first, then 2, then 1.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "3 bars first, then 2, then 1",
+    "it": "tre barre",
+    "action": "slow",
+    "hazard": "🚂",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tre barre oblique rosse",
+    "en": "three red diagonal bars"
+   },
+   {
+    "it": "il primo",
+    "en": "the first"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19111": {
+  "en": "The panels shown can be found only if the level crossing has barriers.",
+  "explain": {
+   "short": "The panels are placed before every level crossing, with or without barriers.",
+   "rule": "The panels with red diagonal bars (pannelli distanziometrici, distance panels) stand at about 150, 100 and 50 m before EVERY level crossing, with or without barriers. Three bars come first; the bars count the distance, not the tracks.",
+   "trap": "'solo' (only): they are not only for crossings with barriers.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "With or without barriers: panels are there",
+    "it": "solo",
+    "action": "slow",
+    "hazard": "🚂",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "con barriere",
+    "en": "with barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19112": {
+  "en": "The panels shown are prescription signs.",
+  "explain": {
+   "short": "The panels give no order: they only warn that a level crossing is getting closer.",
+   "rule": "The panels with red diagonal bars (pannelli distanziometrici, distance panels) stand at about 150, 100 and 50 m before EVERY level crossing, with or without barriers. Three bars come first; the bars count the distance, not the tracks.",
+   "trap": "'prescrizione' (prescription = orders and bans): these panels only warn.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "They warn, they give no order",
+    "it": "prescrizione",
+    "action": "slow",
+    "hazard": "🚂",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnali di prescrizione",
+    "en": "prescription signs"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19113": {
+  "en": "The panels shown indicate road works in progress.",
+  "explain": {
+   "short": "Red-bar panels announce a level crossing, not road works.",
+   "rule": "The panels with red diagonal bars (pannelli distanziometrici, distance panels) stand at about 150, 100 and 50 m before EVERY level crossing, with or without barriers. Three bars come first; the bars count the distance, not the tracks.",
+   "trap": "'lavori in corso' (road works): the red and white stripes are about trains.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not works: a level crossing ahead",
+    "it": "lavori in corso",
+    "action": "slow",
+    "hazard": "🚂",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "lavori in corso",
+    "en": "road works in progress"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19114": {
+  "en": "The panels shown have as many diagonal bars as the level crossing has tracks.",
+  "explain": {
+   "short": "The number of bars shows the distance (3 = 150 m, 2 = 100 m, 1 = 50 m), not the tracks.",
+   "rule": "The panels with red diagonal bars (pannelli distanziometrici, distance panels) stand at about 150, 100 and 50 m before EVERY level crossing, with or without barriers. Three bars come first; the bars count the distance, not the tracks.",
+   "trap": "'quanti sono i binari' (as many as the tracks): bars count metres, not tracks.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bars = distance, not tracks",
+    "it": "barre",
+    "action": "slow",
+    "hazard": "🚂",
+    "distance": "100 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "barre diagonali",
+    "en": "diagonal bars"
+   },
+   {
+    "it": "binari",
+    "en": "tracks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19115": {
+  "en": "The panels shown, if they have two bars, indicate a level crossing with only two tracks.",
+  "explain": {
+   "short": "Two bars means about 100 m to the crossing, not two tracks.",
+   "rule": "The panels with red diagonal bars (pannelli distanziometrici, distance panels) stand at about 150, 100 and 50 m before EVERY level crossing, with or without barriers. Three bars come first; the bars count the distance, not the tracks.",
+   "trap": "'due soli binari' (only two tracks): two bars = 100 m.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Two bars = about 100 m to go",
+    "it": "due barre",
+    "action": "slow",
+    "hazard": "🚂",
+    "distance": "100 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "due barre",
+    "en": "two bars"
+   },
+   {
+    "it": "due soli binari",
+    "en": "only two tracks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19116": {
+  "en": "The panels shown are mounted on trestles that forbid crossing the railway.",
+  "explain": {
+   "short": "The panels stand on posts at the side of the road and only warn; they do not close the crossing.",
+   "rule": "The panels with red diagonal bars (pannelli distanziometrici, distance panels) stand at about 150, 100 and 50 m before EVERY level crossing, with or without barriers. Three bars come first; the bars count the distance, not the tracks.",
+   "trap": "'vietano il transito' (forbid passing): they forbid nothing.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "On posts, they only warn",
+    "it": "cavalletti",
+    "action": "slow",
+    "hazard": "🚂",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cavalletti",
+    "en": "trestles"
+   },
+   {
+    "it": "vietano il transito",
+    "en": "forbid passing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19117": {
+  "en": "The sign shown tells you in advance to reduce speed because a little further on you could meet a tram.",
+  "explain": {
+   "short": "This danger sign warns of a tram line ahead: slow down, because a tram may cross your path.",
+   "rule": "The 'attraversamento tranviario' (tram crossing) sign is a danger sign: it warns, inside and outside towns, of a tram line that crosses or runs on the road without traffic lights. Slow down and do not get in the tram's way.",
+   "trap": "'si potrebbe incrociare un tram' (you could meet a tram): that is the danger shown.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tram ahead: slow down",
+    "it": "tram",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "moderare la velocità",
+    "en": "reduce speed"
+   },
+   {
+    "it": "incrociare un tram",
+    "en": "meet a tram"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19118": {
+  "en": "The sign shown, placed outside built-up areas, warns of a tram line not controlled by traffic lights.",
+  "explain": {
+   "short": "Outside towns too, this sign warns of a tram line that has no traffic lights.",
+   "rule": "The 'attraversamento tranviario' (tram crossing) sign is a danger sign: it warns, inside and outside towns, of a tram line that crosses or runs on the road without traffic lights. Slow down and do not get in the tram's way.",
+   "trap": "'non regolata da semafori' (not controlled by traffic lights): that is why there is a danger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tram line without traffic lights",
+    "it": "linea tranviaria",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fuori dei centri abitati",
+    "en": "outside built-up areas"
+   },
+   {
+    "it": "linea tranviaria",
+    "en": "tram line"
+   },
+   {
+    "it": "semafori",
+    "en": "traffic lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19119": {
+  "en": "The sign shown, placed in built-up areas, warns of a crossing with a tram line not controlled by traffic lights.",
+  "explain": {
+   "short": "In towns the sign warns of a tram line that crosses the road with no traffic lights.",
+   "rule": "The 'attraversamento tranviario' (tram crossing) sign is a danger sign: it warns, inside and outside towns, of a tram line that crosses or runs on the road without traffic lights. Slow down and do not get in the tram's way.",
+   "trap": "'nei centri abitati' (in built-up areas): the sign is used in towns too.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "In town: tram line without lights",
+    "it": "linea tranviaria",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "centri abitati",
+    "en": "built-up areas"
+   },
+   {
+    "it": "linea tranviaria",
+    "en": "tram line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19120": {
+  "en": "The sign shown warns, both outside and inside built-up areas, of a tram line not controlled by traffic lights.",
+  "explain": {
+   "short": "The tram sign is used everywhere, in and out of towns, for a tram line with no traffic lights.",
+   "rule": "The 'attraversamento tranviario' (tram crossing) sign is a danger sign: it warns, inside and outside towns, of a tram line that crosses or runs on the road without traffic lights. Slow down and do not get in the tram's way.",
+   "trap": "'fuori e dentro' (outside and inside): both are correct.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "In and out of towns: tram line ahead",
+    "it": "linea tranviaria",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fuori e dentro i centri abitati",
+    "en": "outside and inside built-up areas"
+   },
+   {
+    "it": "linea tranviaria",
+    "en": "tram line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19121": {
+  "en": "The sign shown warns of a tram line crossing the carriageway.",
+  "explain": {
+   "short": "The tram sign warns that tram tracks cross the carriageway (the part of the road for vehicles) ahead.",
+   "rule": "The 'attraversamento tranviario' (tram crossing) sign is a danger sign: it warns, inside and outside towns, of a tram line that crosses or runs on the road without traffic lights. Slow down and do not get in the tram's way.",
+   "trap": "'incrocia la carreggiata' (crosses the carriageway): the tram cuts across your road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tram tracks cross the road ahead",
+    "it": "linea tranviaria",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "linea tranviaria",
+    "en": "tram line"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19122": {
+  "en": "The sign shown warns of a tram line that reduces the space available for vehicle traffic.",
+  "explain": {
+   "short": "The sign also warns of a tram line that runs on the road and leaves less room for cars.",
+   "rule": "The 'attraversamento tranviario' (tram crossing) sign is a danger sign: it warns, inside and outside towns, of a tram line that crosses or runs on the road without traffic lights. Slow down and do not get in the tram's way.",
+   "trap": "'riduce lo spazio utile' (reduces the usable space): the tram takes part of the road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tram line: less room for cars",
+    "it": "linea tranviaria",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "linea tranviaria",
+    "en": "tram line"
+   },
+   {
+    "it": "spazio utile",
+    "en": "usable space"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19123": {
+  "en": "When you see the sign shown, the driver must pay more attention so as not to hinder the tram.",
+  "explain": {
+   "short": "Near a tram line you must take extra care and never get in the tram's way.",
+   "rule": "The 'attraversamento tranviario' (tram crossing) sign is a danger sign: it warns, inside and outside towns, of a tram line that crosses or runs on the road without traffic lights. Slow down and do not get in the tram's way.",
+   "trap": "'intralciare' (to hinder, get in the way): you must not block the tram.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Take care: do not block the tram",
+    "it": "intralciare",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "maggiore attenzione",
+    "en": "more attention"
+   },
+   {
+    "it": "intralciare",
+    "en": "hinder"
+   },
+   {
+    "it": "tram",
+    "en": "tram"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19124": {
+  "en": "When you see the sign shown, the driver must pay more attention, because he could meet a tram.",
+  "explain": {
+   "short": "The sign warns that a tram may cross your path, so you must be more careful.",
+   "rule": "The 'attraversamento tranviario' (tram crossing) sign is a danger sign: it warns, inside and outside towns, of a tram line that crosses or runs on the road without traffic lights. Slow down and do not get in the tram's way.",
+   "trap": "'potrebbe incrociare un tram' (could meet a tram): that is the danger.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Extra care: a tram may cross",
+    "it": "tram",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "maggiore attenzione",
+    "en": "more attention"
+   },
+   {
+    "it": "incrociare un tram",
+    "en": "meet a tram"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19125": {
+  "en": "The sign shown warns of possible trolleybus traffic.",
+  "explain": {
+   "short": "The picture is a tram, which runs on rails. A trolleybus (filobus) has tyres and no rails; this sign is not about it.",
+   "rule": "The 'attraversamento tranviario' (tram crossing) sign is a danger sign: it warns, inside and outside towns, of a tram line that crosses or runs on the road without traffic lights. Slow down and do not get in the tram's way.",
+   "trap": "'filobus' (trolleybus) is not a tram: no rails.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A tram on rails, not a trolleybus",
+    "it": "tram",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "transito",
+    "en": "passing"
+   },
+   {
+    "it": "filobus",
+    "en": "trolleybus"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19126": {
+  "en": "The sign shown can be supplemented with a device of two red lights that flash alternately.",
+  "explain": {
+   "short": "Two alternating red lights go with the St Andrew's cross at level crossings, not with the tram sign.",
+   "rule": "The 'attraversamento tranviario' (tram crossing) sign is a danger sign: it warns, inside and outside towns, of a tram line that crosses or runs on the road without traffic lights. Slow down and do not get in the tram's way.",
+   "trap": "'due luci rosse' (two red lights): that is the railway level crossing device.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red lights are for level crossings",
+    "it": "luci rosse",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "due luci rosse",
+    "en": "two red lights"
+   },
+   {
+    "it": "alternativamente",
+    "en": "alternately"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19127": {
+  "en": "The sign shown requires you to give way to trolleybuses.",
+  "explain": {
+   "short": "It is a danger sign about trams: it gives no right of way order, and trolleybuses are not trams.",
+   "rule": "The 'attraversamento tranviario' (tram crossing) sign is a danger sign: it warns, inside and outside towns, of a tram line that crosses or runs on the road without traffic lights. Slow down and do not get in the tram's way.",
+   "trap": "'filobus' (trolleybus) and 'obbliga' (requires): both are wrong here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Danger sign about trams, no give-way order",
+    "it": "filobus",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "filobus",
+    "en": "trolleybuses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19128": {
+  "en": "The sign shown forbids overtaking trams.",
+  "explain": {
+   "short": "It is only a danger sign: it does not forbid overtaking. You may overtake a tram when the rules allow it.",
+   "rule": "The 'attraversamento tranviario' (tram crossing) sign is a danger sign: it warns, inside and outside towns, of a tram line that crosses or runs on the road without traffic lights. Slow down and do not get in the tram's way.",
+   "trap": "'vieta' (forbids): danger signs warn, they do not forbid.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Warns of trams; overtaking not banned",
+    "it": "sorpasso",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il sorpasso",
+    "en": "forbids overtaking"
+   },
+   {
+    "it": "tram",
+    "en": "trams"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19129": {
+  "en": "The sign shown warns of a railway level crossing without barriers.",
+  "explain": {
+   "short": "The picture is a tram, not a train. An unbarriered level crossing has a triangle with a steam locomotive.",
+   "rule": "The 'attraversamento tranviario' (tram crossing) sign is a danger sign: it warns, inside and outside towns, of a tram line that crosses or runs on the road without traffic lights. Slow down and do not get in the tram's way.",
+   "trap": "'passaggio a livello ferroviario' (railway level crossing): trams are not trains.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tram line, not a railway crossing",
+    "it": "tram",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "passaggio a livello",
+    "en": "level crossing"
+   },
+   {
+    "it": "senza barriere",
+    "en": "without barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19130": {
+  "en": "The sign shown warns of a zone where only public service vehicles may circulate.",
+  "explain": {
+   "short": "It warns of a tram line; it does not create a zone reserved for public transport.",
+   "rule": "The 'attraversamento tranviario' (tram crossing) sign is a danger sign: it warns, inside and outside towns, of a tram line that crosses or runs on the road without traffic lights. Slow down and do not get in the tram's way.",
+   "trap": "'solo i veicoli in servizio pubblico' (only public service vehicles): no such limit here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tram warning, not a reserved zone",
+    "it": "tram",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "servizio pubblico",
+    "en": "public service"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19131": {
+  "en": "When you see the sign shown, you may overtake a moving tram on the right if there is enough room.",
+  "explain": {
+   "short": "A moving tram may be overtaken on the right when there is enough space.",
+   "rule": "Near a tram line you may drive on the tracks if you do not hinder the tram. A moving tram may be overtaken on the right if there is room (not 'only' on one side); a tram stopped for passengers may be passed on the right only if there is a passenger island (salvagente).",
+   "trap": "'se vi è lo spazio necessario' (if there is enough room): space is the condition.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Moving tram: pass on the right if room",
+    "it": "sorpassare a destra",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sorpassare a destra",
+    "en": "overtake on the right"
+   },
+   {
+    "it": "tram in marcia",
+    "en": "moving tram"
+   },
+   {
+    "it": "spazio necessario",
+    "en": "enough room"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19132": {
+  "en": "When you see the sign shown, you may drive on the tracks without hindering the tram.",
+  "explain": {
+   "short": "Driving on tram tracks is allowed, as long as you do not get in the tram's way.",
+   "rule": "Near a tram line you may drive on the tracks if you do not hinder the tram. A moving tram may be overtaken on the right if there is room (not 'only' on one side); a tram stopped for passengers may be passed on the right only if there is a passenger island (salvagente).",
+   "trap": "'senza intralciare' (without hindering): that is the only condition.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "On the tracks: OK if you don't block the tram",
+    "it": "binari",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "circolare sui binari",
+    "en": "drive on the tracks"
+   },
+   {
+    "it": "intralciare",
+    "en": "hinder"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19133": {
+  "en": "When you see the sign shown, you may overtake on the right a tram stopped in the middle of the road for passengers getting on and off, only if there is a passenger island.",
+  "explain": {
+   "short": "Passengers walk across the road to a stopped tram; on the right you may pass only if a passenger island (salvagente) protects them.",
+   "rule": "Near a tram line you may drive on the tracks if you do not hinder the tram. A moving tram may be overtaken on the right if there is room (not 'only' on one side); a tram stopped for passengers may be passed on the right only if there is a passenger island (salvagente).",
+   "trap": "'solo se esiste l'apposito salvagente' (only if there is the island): without it, no.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stopped tram: right side only with an island",
+    "it": "salvagente",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tram fermo",
+    "en": "stopped tram"
+   },
+   {
+    "it": "salvagente",
+    "en": "passenger island"
+   },
+   {
+    "it": "solo se",
+    "en": "only if"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19134": {
+  "en": "When you see the sign shown, you must watch out for any pedestrians at the tram stop.",
+  "explain": {
+   "short": "People wait, get on and get off at tram stops, often in the road: watch out for them.",
+   "rule": "Near a tram line you may drive on the tracks if you do not hinder the tram. A moving tram may be overtaken on the right if there is room (not 'only' on one side); a tram stopped for passengers may be passed on the right only if there is a passenger island (salvagente).",
+   "trap": "'eventuali pedoni' (any pedestrians): there may be people at the stop.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Watch the people at the tram stop",
+    "it": "fermata del tram",
+    "action": "slow",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   },
+   {
+    "it": "fermata del tram",
+    "en": "tram stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19135": {
+  "en": "When you see the sign shown, you must watch out for possible loss of tyre grip if you brake on the tracks.",
+  "explain": {
+   "short": "Metal rails are smooth, especially when wet: braking on them, tyres can grip less and slip.",
+   "rule": "Near a tram line you may drive on the tracks if you do not hinder the tram. A moving tram may be overtaken on the right if there is room (not 'only' on one side); a tram stopped for passengers may be passed on the right only if there is a passenger island (salvagente).",
+   "trap": "'diminuzione di aderenza' (loss of grip): rails are slippery.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Rails are slippery: careful braking",
+    "it": "aderenza",
+    "action": "slow",
+    "hazard": "❄️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "aderenza",
+    "en": "grip"
+   },
+   {
+    "it": "se si frena",
+    "en": "if you brake"
+   },
+   {
+    "it": "binari",
+    "en": "tracks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19136": {
+  "en": "When you see the sign shown, keep in mind that a tram needs a longer stopping distance than motor vehicles.",
+  "explain": {
+   "short": "A tram is heavy and has steel wheels on rails, so it needs more space to stop than a car.",
+   "rule": "Near a tram line you may drive on the tracks if you do not hinder the tram. A moving tram may be overtaken on the right if there is room (not 'only' on one side); a tram stopped for passengers may be passed on the right only if there is a passenger island (salvagente).",
+   "trap": "'distanza di arresto maggiore' (longer stopping distance): the tram cannot stop quickly.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A tram needs more space to stop",
+    "it": "distanza di arresto",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza di arresto",
+    "en": "stopping distance"
+   },
+   {
+    "it": "maggiore",
+    "en": "longer"
+   },
+   {
+    "it": "autoveicoli",
+    "en": "motor vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19137": {
+  "en": "When you see the sign shown, you must give way to trolleybuses.",
+  "explain": {
+   "short": "The sign is about trams; it gives no give-way order to trolleybuses (filobus).",
+   "rule": "Near a tram line you may drive on the tracks if you do not hinder the tram. A moving tram may be overtaken on the right if there is room (not 'only' on one side); a tram stopped for passengers may be passed on the right only if there is a passenger island (salvagente).",
+   "trap": "'filobus' (trolleybus): the sign shows a tram, not a trolleybus.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "About trams, not trolleybuses",
+    "it": "filobus",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo",
+    "en": "obligation"
+   },
+   {
+    "it": "precedenza",
+    "en": "right of way"
+   },
+   {
+    "it": "filobus",
+    "en": "trolleybuses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19138": {
+  "en": "When you see the sign shown, overtaking trams is forbidden only for motorcycles.",
+  "explain": {
+   "short": "The sign forbids overtaking to nobody: it is just a tram warning, for every vehicle.",
+   "rule": "Near a tram line you may drive on the tracks if you do not hinder the tram. A moving tram may be overtaken on the right if there is room (not 'only' on one side); a tram stopped for passengers may be passed on the right only if there is a passenger island (salvagente).",
+   "trap": "'esclusivamente' (only): there is no ban at all, for anyone.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No overtaking ban, for anyone",
+    "it": "sorpasso",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato",
+    "en": "forbidden"
+   },
+   {
+    "it": "esclusivamente",
+    "en": "only"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19139": {
+  "en": "When you see the sign shown, driving on the tram tracks is forbidden.",
+  "explain": {
+   "short": "You may drive on tram tracks, as long as you do not hinder the tram.",
+   "rule": "Near a tram line you may drive on the tracks if you do not hinder the tram. A moving tram may be overtaken on the right if there is room (not 'only' on one side); a tram stopped for passengers may be passed on the right only if there is a passenger island (salvagente).",
+   "trap": "'vietata' (forbidden): it is allowed if you do not block the tram.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tracks allowed if you don't block the tram",
+    "it": "binari",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietata la marcia",
+    "en": "driving is forbidden"
+   },
+   {
+    "it": "binari del tram",
+    "en": "tram tracks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19140": {
+  "en": "When you see the sign shown, overtaking a tram is allowed only on the left.",
+  "explain": {
+   "short": "A moving tram may be overtaken on the right when there is room, so 'only on the left' is wrong.",
+   "rule": "Near a tram line you may drive on the tracks if you do not hinder the tram. A moving tram may be overtaken on the right if there is room (not 'only' on one side); a tram stopped for passengers may be passed on the right only if there is a passenger island (salvagente).",
+   "trap": "'solo a sinistra' (only on the left): the right is allowed too.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right side also possible, if there is room",
+    "it": "sorpasso del tram",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sorpasso del tram",
+    "en": "overtaking a tram"
+   },
+   {
+    "it": "solo a sinistra",
+    "en": "only on the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19141": {
+  "en": "When you see the sign shown, overtaking a tram is allowed only on the right.",
+  "explain": {
+   "short": "The right is the usual side when there is room, but it is not the only one: where the road allows, the left is possible too.",
+   "rule": "Near a tram line you may drive on the tracks if you do not hinder the tram. A moving tram may be overtaken on the right if there is room (not 'only' on one side); a tram stopped for passengers may be passed on the right only if there is a passenger island (salvagente).",
+   "trap": "'solo a destra' (only on the right): 'only' makes it wrong.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not 'only' one side",
+    "it": "sorpasso del tram",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sorpasso del tram",
+    "en": "overtaking a tram"
+   },
+   {
+    "it": "solo a destra",
+    "en": "only on the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19142": {
+  "en": "When you see the sign shown, a tram stopped for passengers getting on and off may be overtaken on the right when there is no passenger island.",
+  "explain": {
+   "short": "Without a passenger island (salvagente), people cross the road to the tram: passing on the right is forbidden.",
+   "rule": "Near a tram line you may drive on the tracks if you do not hinder the tram. A moving tram may be overtaken on the right if there is room (not 'only' on one side); a tram stopped for passengers may be passed on the right only if there is a passenger island (salvagente).",
+   "trap": "'quando non esiste il salvagente' (when there is no island): that is exactly when it is forbidden.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No island: do not pass on the right",
+    "it": "salvagente",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tram fermo",
+    "en": "stopped tram"
+   },
+   {
+    "it": "sorpassato a destra",
+    "en": "overtaken on the right"
+   },
+   {
+    "it": "salvagente",
+    "en": "passenger island"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19143": {
+  "en": "The sign shown warns of a parking area for buses.",
+  "explain": {
+   "short": "The sign shows a tram on rails and warns of a tram line, not a bus parking area.",
+   "rule": "Near a tram line you may drive on the tracks if you do not hinder the tram. A moving tram may be overtaken on the right if there is room (not 'only' on one side); a tram stopped for passengers may be passed on the right only if there is a passenger island (salvagente).",
+   "trap": "'autobus' (bus): the picture is a tram, not a bus.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A tram line, not bus parking",
+    "it": "tram",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area di sosta",
+    "en": "parking area"
+   },
+   {
+    "it": "autobus",
+    "en": "buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19144": {
+  "en": "The sign shown warns of a lane reserved for trolleybuses.",
+  "explain": {
+   "short": "The sign warns of a tram line, not a reserved lane; reserved lanes have other signs.",
+   "rule": "Near a tram line you may drive on the tracks if you do not hinder the tram. A moving tram may be overtaken on the right if there is room (not 'only' on one side); a tram stopped for passengers may be passed on the right only if there is a passenger island (salvagente).",
+   "trap": "'filobus' and 'corsia riservata' (reserved lane): neither is shown.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A tram line, not a trolleybus lane",
+    "it": "tram",
+    "action": "slow",
+    "hazard": "🚋"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia riservata",
+    "en": "reserved lane"
+   },
+   {
+    "it": "filobus",
+    "en": "trolleybuses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19145": {
+  "en": "The sign shown warns of a pedestrian crossing.",
+  "explain": {
+   "short": "A person walking on stripes in a red triangle: this warns of a pedestrian crossing (attraversamento pedonale) ahead.",
+   "rule": "The 'attraversamento pedonale' (pedestrian crossing) danger sign warns of zebra stripes ahead: outside towns about 150 m before, and it can also be used in towns. You must give way to pedestrians on the stripes and must not overtake a vehicle that stopped for them.",
+   "trap": "'preannuncia' (warns in advance): the crossing is further on.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pedestrian crossing ahead: slow down",
+    "it": "attraversamento pedonale",
+    "action": "slow",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "warns of"
+   },
+   {
+    "it": "attraversamento pedonale",
+    "en": "pedestrian crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19146": {
+  "en": "When you see the sign shown, the driver must give way to pedestrians crossing on the stripes.",
+  "explain": {
+   "short": "Pedestrians on the zebra stripes always have priority: you must let them cross.",
+   "rule": "The 'attraversamento pedonale' (pedestrian crossing) danger sign warns of zebra stripes ahead: outside towns about 150 m before, and it can also be used in towns. You must give way to pedestrians on the stripes and must not overtake a vehicle that stopped for them.",
+   "trap": "'deve dare la precedenza' (must give way): it is compulsory.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Give way to pedestrians on the stripes",
+    "it": "precedenza",
+    "action": "giveWay",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   },
+   {
+    "it": "strisce",
+    "en": "stripes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19147": {
+  "en": "On roads outside towns, the sign shown is, as a rule, placed 150 metres before the crossing.",
+  "explain": {
+   "short": "Like other danger signs, outside towns it stands about 150 m before the crossing.",
+   "rule": "The 'attraversamento pedonale' (pedestrian crossing) danger sign warns of zebra stripes ahead: outside towns about 150 m before, and it can also be used in towns. You must give way to pedestrians on the stripes and must not overtake a vehicle that stopped for them.",
+   "trap": "'di norma' (as a rule): 150 m is the normal distance.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Outside towns: about 150 m before",
+    "it": "150 metri",
+    "action": "slow",
+    "hazard": "🚶",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane",
+    "en": "roads outside towns"
+   },
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "150 metri",
+    "en": "150 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19148": {
+  "en": "The sign shown can also be placed in built-up areas.",
+  "explain": {
+   "short": "The sign is used both outside and inside towns.",
+   "rule": "The 'attraversamento pedonale' (pedestrian crossing) danger sign warns of zebra stripes ahead: outside towns about 150 m before, and it can also be used in towns. You must give way to pedestrians on the stripes and must not overtake a vehicle that stopped for them.",
+   "trap": "'anche' (also): in towns as well, not only outside.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Used in towns too",
+    "it": "centri abitati",
+    "action": "slow",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "anche",
+    "en": "also"
+   },
+   {
+    "it": "centri abitati",
+    "en": "built-up areas"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19149": {
+  "en": "The sign shown means you must not overtake a vehicle that has stopped to let pedestrians cross.",
+  "explain": {
+   "short": "A stopped car can hide a pedestrian on the stripes: overtaking it is forbidden.",
+   "rule": "The 'attraversamento pedonale' (pedestrian crossing) danger sign warns of zebra stripes ahead: outside towns about 150 m before, and it can also be used in towns. You must give way to pedestrians on the stripes and must not overtake a vehicle that stopped for them.",
+   "trap": "'divieto di sorpassare' (ban on overtaking): the car ahead hides the pedestrians.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Don't overtake a car stopped for pedestrians",
+    "it": "sorpassare",
+    "action": "noOvertake",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto di sorpassare",
+    "en": "ban on overtaking"
+   },
+   {
+    "it": "arrestato",
+    "en": "stopped"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19150": {
+  "en": "The sign shown warns of a place frequented by children.",
+  "explain": {
+   "short": "This sign shows a person on zebra stripes: a pedestrian crossing. The children sign shows two children running.",
+   "rule": "The 'attraversamento pedonale' (pedestrian crossing) danger sign warns of zebra stripes ahead: outside towns about 150 m before, and it can also be used in towns. You must give way to pedestrians on the stripes and must not overtake a vehicle that stopped for them.",
+   "trap": "'bambini' (children): that is another sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pedestrian crossing, not children",
+    "it": "attraversamento pedonale",
+    "action": "slow",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "frequentato",
+    "en": "frequented"
+   },
+   {
+    "it": "bambini",
+    "en": "children"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19151": {
+  "en": "The sign shown warns of a pedestrian avenue.",
+  "explain": {
+   "short": "It warns of a pedestrian crossing on the road, not of a street for pedestrians only.",
+   "rule": "The 'attraversamento pedonale' (pedestrian crossing) danger sign warns of zebra stripes ahead: outside towns about 150 m before, and it can also be used in towns. You must give way to pedestrians on the stripes and must not overtake a vehicle that stopped for them.",
+   "trap": "'viale pedonale' (pedestrian avenue): not what the stripes show.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A crossing, not a pedestrian street",
+    "it": "attraversamento pedonale",
+    "action": "slow",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "viale pedonale",
+    "en": "pedestrian avenue"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19152": {
+  "en": "The sign shown requires you to use the horn to make pedestrians move.",
+  "explain": {
+   "short": "You must give way to pedestrians and wait; the horn is not used to push them away.",
+   "rule": "The 'attraversamento pedonale' (pedestrian crossing) danger sign warns of zebra stripes ahead: outside towns about 150 m before, and it can also be used in towns. You must give way to pedestrians on the stripes and must not overtake a vehicle that stopped for them.",
+   "trap": "'segnalazione acustica' (horn): it is not required, and not for moving people.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No horn: wait for pedestrians",
+    "it": "segnalazione acustica",
+    "action": "giveWay",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnalazione acustica",
+    "en": "horn"
+   },
+   {
+    "it": "far spostare",
+    "en": "make move"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19153": {
+  "en": "The sign shown allows vehicles to stop on the pedestrian crossing, as long as enough space is left for pedestrians.",
+  "explain": {
+   "short": "Stopping or parking on a pedestrian crossing is always forbidden.",
+   "rule": "The 'attraversamento pedonale' (pedestrian crossing) danger sign warns of zebra stripes ahead: outside towns about 150 m before, and it can also be used in towns. You must give way to pedestrians on the stripes and must not overtake a vehicle that stopped for them.",
+   "trap": "'purché' (as long as): no condition makes it allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Never stop on the stripes",
+    "it": "fermata",
+    "action": "giveWay",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata dei veicoli",
+    "en": "stopping of vehicles"
+   },
+   {
+    "it": "purché",
+    "en": "as long as"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19154": {
+  "en": "The sign shown forbids pedestrians to pass.",
+  "explain": {
+   "short": "It is a danger sign for drivers: pedestrians may cross here, it does not ban them.",
+   "rule": "The 'attraversamento pedonale' (pedestrian crossing) danger sign warns of zebra stripes ahead: outside towns about 150 m before, and it can also be used in towns. You must give way to pedestrians on the stripes and must not overtake a vehicle that stopped for them.",
+   "trap": "'vieta' (forbids): the sign forbids nothing to pedestrians.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pedestrians cross here: not banned",
+    "it": "pedoni",
+    "action": "slow",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "forbids passing"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19155": {
+  "en": "The sign shown warns of a pedestrian zone (isola pedonale).",
+  "explain": {
+   "short": "It warns of zebra stripes on the road, not of an area closed to traffic.",
+   "rule": "The 'attraversamento pedonale' (pedestrian crossing) danger sign warns of zebra stripes ahead: outside towns about 150 m before, and it can also be used in towns. You must give way to pedestrians on the stripes and must not overtake a vehicle that stopped for them.",
+   "trap": "'isola pedonale' (pedestrian zone): that has a different, square sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Crossing, not a pedestrian zone",
+    "it": "attraversamento pedonale",
+    "action": "slow",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "isola pedonale",
+    "en": "pedestrian zone"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19156": {
+  "en": "When you see the sign shown, you may not overtake vehicles that slow down to let pedestrians cross.",
+  "explain": {
+   "short": "A car slowing for the crossing can hide a pedestrian: you must not overtake it.",
+   "rule": "At a pedestrian crossing (attraversamento pedonale) slow down, be ready to stop and give way to ALL pedestrians on the stripes. Do not overtake vehicles slowing for them, do not stop or park on the stripes; not giving way costs licence points.",
+   "trap": "'non è consentito' (is not allowed): overtaking here is forbidden.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Don't overtake cars slowing for pedestrians",
+    "it": "sorpassare",
+    "action": "noOvertake",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è consentito",
+    "en": "is not allowed"
+   },
+   {
+    "it": "sorpassare",
+    "en": "overtake"
+   },
+   {
+    "it": "rallentano",
+    "en": "slow down"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19157": {
+  "en": "When you see the sign shown, you must slow down so as to be ready to stop if pedestrians are crossing the road.",
+  "explain": {
+   "short": "Slow down near the crossing so you can stop in time for anyone on the stripes.",
+   "rule": "At a pedestrian crossing (attraversamento pedonale) slow down, be ready to stop and give way to ALL pedestrians on the stripes. Do not overtake vehicles slowing for them, do not stop or park on the stripes; not giving way costs licence points.",
+   "trap": "'pronti ad arrestarsi' (ready to stop): slow enough to stop in time.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down, ready to stop",
+    "it": "rallentare",
+    "action": "slow",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "rallentare",
+    "en": "slow down"
+   },
+   {
+    "it": "pronti ad arrestarsi",
+    "en": "ready to stop"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19158": {
+  "en": "When you see the sign shown, you must be careful not to run into the back of vehicles that stop to give way to pedestrians.",
+  "explain": {
+   "short": "The car in front may brake suddenly for pedestrians: keep your distance so you do not hit it.",
+   "rule": "At a pedestrian crossing (attraversamento pedonale) slow down, be ready to stop and give way to ALL pedestrians on the stripes. Do not overtake vehicles slowing for them, do not stop or park on the stripes; not giving way costs licence points.",
+   "trap": "'tamponare' (to hit from behind): keep a safe distance.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Keep distance: the car ahead may stop",
+    "it": "tamponare",
+    "action": "slow",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tamponare",
+    "en": "hit from behind"
+   },
+   {
+    "it": "precedenza",
+    "en": "right of way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19159": {
+  "en": "When you see the sign shown, you must not park or stop on the pedestrian stripes.",
+  "explain": {
+   "short": "Parking (sosta) and stopping (fermata) on the stripes are forbidden: they block and hide pedestrians.",
+   "rule": "At a pedestrian crossing (attraversamento pedonale) slow down, be ready to stop and give way to ALL pedestrians on the stripes. Do not overtake vehicles slowing for them, do not stop or park on the stripes; not giving way costs licence points.",
+   "trap": "'sosta o fermata' (parking or stopping): both are forbidden.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No stopping or parking on the stripes",
+    "it": "strisce pedonali",
+    "action": "noStopping",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta o fermata",
+    "en": "parking or stopping"
+   },
+   {
+    "it": "strisce pedonali",
+    "en": "pedestrian stripes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19160": {
+  "en": "When you see the sign shown, if you do not give way to pedestrians crossing on the stripes, you lose points from your licence.",
+  "explain": {
+   "short": "Not giving way to pedestrians on the stripes is a serious offence: besides the fine, points are taken off the licence (8 points).",
+   "rule": "At a pedestrian crossing (attraversamento pedonale) slow down, be ready to stop and give way to ALL pedestrians on the stripes. Do not overtake vehicles slowing for them, do not stop or park on the stripes; not giving way costs licence points.",
+   "trap": "'sottrazione di punti' (loss of points): yes, points are taken off.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No give way to pedestrians: lose points",
+    "it": "punti della patente",
+    "action": "giveWay",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "precedenza",
+    "en": "right of way"
+   },
+   {
+    "it": "sottrazione di punti",
+    "en": "loss of points"
+   },
+   {
+    "it": "patente",
+    "en": "driving licence"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19161": {
+  "en": "When you see the sign shown, you must sound the horn if pedestrians are crossing on the stripes.",
+  "explain": {
+   "short": "You must give way and wait; using the horn is not required and can frighten pedestrians.",
+   "rule": "At a pedestrian crossing (attraversamento pedonale) slow down, be ready to stop and give way to ALL pedestrians on the stripes. Do not overtake vehicles slowing for them, do not stop or park on the stripes; not giving way costs licence points.",
+   "trap": "'obbligatorio suonare il clacson' (horn compulsory): no, you just give way.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No horn: just give way",
+    "it": "clacson",
+    "action": "giveWay",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligatorio",
+    "en": "compulsory"
+   },
+   {
+    "it": "clacson",
+    "en": "horn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19162": {
+  "en": "When you see the sign shown, you must slow down only if there are children crossing on the stripes.",
+  "explain": {
+   "short": "You slow down for every pedestrian, of any age, not only for children.",
+   "rule": "At a pedestrian crossing (attraversamento pedonale) slow down, be ready to stop and give way to ALL pedestrians on the stripes. Do not overtake vehicles slowing for them, do not stop or park on the stripes; not giving way costs licence points.",
+   "trap": "'solo se vi sono bambini' (only if children): it applies to everyone.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down for every pedestrian",
+    "it": "rallentare",
+    "action": "slow",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "rallentare",
+    "en": "slow down"
+   },
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "bambini",
+    "en": "children"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19163": {
+  "en": "When you see the sign shown, pedestrians must give way to vehicles.",
+  "explain": {
+   "short": "It is the opposite: on the stripes, vehicles must give way to pedestrians.",
+   "rule": "At a pedestrian crossing (attraversamento pedonale) slow down, be ready to stop and give way to ALL pedestrians on the stripes. Do not overtake vehicles slowing for them, do not stop or park on the stripes; not giving way costs licence points.",
+   "trap": "The roles are swapped: 'i pedoni devono dare la precedenza' (pedestrians must give way) is backwards.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Vehicles give way to pedestrians",
+    "it": "precedenza",
+    "action": "giveWay",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   },
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "veicoli",
+    "en": "vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19164": {
+  "en": "When you see the sign shown, it is not compulsory to give way to pedestrians crossing on the stripes.",
+  "explain": {
+   "short": "Giving way to pedestrians on the stripes is compulsory.",
+   "rule": "At a pedestrian crossing (attraversamento pedonale) slow down, be ready to stop and give way to ALL pedestrians on the stripes. Do not overtake vehicles slowing for them, do not stop or park on the stripes; not giving way costs licence points.",
+   "trap": "'non è obbligatorio' (not compulsory): it is compulsory.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Giving way IS compulsory",
+    "it": "precedenza",
+    "action": "giveWay",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è obbligatorio",
+    "en": "is not compulsory"
+   },
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19165": {
+  "en": "When you see the sign shown, you must give way only to pedestrians crossing from the left.",
+  "explain": {
+   "short": "You give way to pedestrians on the stripes from both sides, left and right.",
+   "rule": "At a pedestrian crossing (attraversamento pedonale) slow down, be ready to stop and give way to ALL pedestrians on the stripes. Do not overtake vehicles slowing for them, do not stop or park on the stripes; not giving way costs licence points.",
+   "trap": "'solo ... da sinistra' (only from the left): every side counts.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Give way from both sides",
+    "it": "precedenza",
+    "action": "giveWay",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "da sinistra",
+    "en": "from the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19166": {
+  "en": "The sign in the figure warns of a pedestrian overpass.",
+  "explain": {
+   "short": "The stripes show a crossing at road level, not a bridge over the road.",
+   "rule": "At a pedestrian crossing (attraversamento pedonale) slow down, be ready to stop and give way to ALL pedestrians on the stripes. Do not overtake vehicles slowing for them, do not stop or park on the stripes; not giving way costs licence points.",
+   "trap": "'sovrappasso' (overpass, a bridge above): the sign shows stripes on the road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stripes on the road, not a bridge",
+    "it": "attraversamento pedonale",
+    "action": "slow",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sovrappasso pedonale",
+    "en": "pedestrian overpass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19167": {
+  "en": "The sign in the figure warns of a pedestrian underpass.",
+  "explain": {
+   "short": "The stripes show a crossing at road level, not a tunnel under the road.",
+   "rule": "At a pedestrian crossing (attraversamento pedonale) slow down, be ready to stop and give way to ALL pedestrians on the stripes. Do not overtake vehicles slowing for them, do not stop or park on the stripes; not giving way costs licence points.",
+   "trap": "'sottopasso' (underpass, a tunnel below): the sign shows stripes on the road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stripes on the road, not a tunnel",
+    "it": "attraversamento pedonale",
+    "action": "slow",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sottopasso pedonale",
+    "en": "pedestrian underpass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19168": {
+  "en": "The sign shown is placed right at a pedestrian crossing.",
+  "explain": {
+   "short": "The red triangle is a danger sign placed BEFORE the crossing (outside towns about 150 m). The sign right at the stripes is a blue square one.",
+   "rule": "At a pedestrian crossing (attraversamento pedonale) slow down, be ready to stop and give way to ALL pedestrians on the stripes. Do not overtake vehicles slowing for them, do not stop or park on the stripes; not giving way costs licence points.",
+   "trap": "'in corrispondenza' (right at): the triangle comes before.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Placed before the crossing, not at it",
+    "it": "in corrispondenza",
+    "action": "slow",
+    "hazard": "🚶",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in corrispondenza",
+    "en": "right at"
+   },
+   {
+    "it": "attraversamento pedonale",
+    "en": "pedestrian crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

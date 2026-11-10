@@ -1,0 +1,597 @@
+{
+ "q20003": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "rappresenta",
+    "en": "represents"
+   },
+   {
+    "it": "una regolazione della sosta",
+    "en": "a parking regulation",
+    "key": true
+   }
+  ],
+  "note": "It sets the hours of no parking and of parking. So it is TRUE.",
+  "noteIt": "Stabilisce gli orari di sosta vietata e permessa. Quindi è VERO."
+ },
+ "q20004": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "consente la sosta",
+    "en": "allows parking"
+   },
+   {
+    "it": "dalle ore 9.00 alle 17.00",
+    "en": "from 9.00 to 17.00",
+    "key": true
+   }
+  ],
+  "note": "9.00-17.00 is next to the P, so parking is allowed then. So it is TRUE.",
+  "noteIt": "9-17 è accanto alla P: la sosta è permessa. Quindi è VERO."
+ },
+ "q20005": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "dalle ore 17.00 alle 20.00",
+    "en": "from 17.00 to 20.00",
+    "key": true
+   }
+  ],
+  "note": "17.00-20.00 is next to the no-parking disc, so parking is banned then. So it is TRUE.",
+  "noteIt": "17-20 è accanto al divieto: la sosta è vietata. Quindi è VERO."
+ },
+ "q20006": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "consente la sosta",
+    "en": "allows parking"
+   },
+   {
+    "it": "in alcune ore",
+    "en": "at some hours",
+    "key": true
+   },
+   {
+    "it": "e la vieta in altre",
+    "en": "and forbids it at others",
+    "key": true
+   }
+  ],
+  "note": "Top part: no-parking hours; bottom part: parking hours. So it is TRUE.",
+  "noteIt": "In alto le ore di divieto, in basso quelle di sosta. Quindi è VERO."
+ },
+ "q20007": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "consente la sosta",
+    "en": "allows parking"
+   },
+   {
+    "it": "dalle ore 20.00 alle ore 7.00",
+    "en": "from 20.00 to 7.00",
+    "key": true
+   }
+  ],
+  "note": "20.00-7.00 is next to the P, so parking is allowed overnight. So it is TRUE.",
+  "noteIt": "20-7 è accanto alla P: la sosta è permessa. Quindi è VERO."
+ },
+ "q20008": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "dalle ore 7.00 alle ore 9.00",
+    "en": "from 7.00 to 9.00",
+    "key": true
+   }
+  ],
+  "note": "7.00-9.00 is next to the no-parking disc, so parking is banned then. So it is TRUE.",
+  "noteIt": "7-9 è accanto al divieto: la sosta è vietata. Quindi è VERO."
+ },
+ "q20009": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato,",
+    "en": "the sign shown,"
+   },
+   {
+    "it": "nei centri abitati,",
+    "en": "in built-up areas,"
+   },
+   {
+    "it": "consente la sosta",
+    "en": "allows parking"
+   },
+   {
+    "it": "dalle ore 20.00 alle 8.00",
+    "en": "from 20.00 to 8.00",
+    "key": true
+   }
+  ],
+  "note": "The sign allows parking 20.00-7.00; at 7.00 the ban starts. So it is FALSE.",
+  "noteIt": "Il segnale permette la sosta dalle 20 alle 7, non alle 8. Quindi è FALSO."
+ },
+ "q20010": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "indica una zona destinata al parcheggio",
+    "en": "indicates an area meant for parking"
+   },
+   {
+    "it": "con impiego del disco orario",
+    "en": "using the parking disc",
+    "key": true
+   }
+  ],
+  "note": "The sign shows hours only; it does not require a parking disc. So it is FALSE.",
+  "noteIt": "Il segnale dà solo orari, non chiede il disco orario. Quindi è FALSO."
+ },
+ "q20011": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "vieta la fermata del veicolo",
+    "en": "forbids the vehicle to stop",
+    "key": true
+   },
+   {
+    "it": "tra le ore 17.00 e le 20.00",
+    "en": "between 17.00 and 20.00"
+   }
+  ],
+  "note": "From 17.00 to 20.00 parking is banned, but stopping is still allowed. So it is FALSE.",
+  "noteIt": "Dalle 17 alle 20 è vietata la sosta, non la fermata. Quindi è FALSO."
+ },
+ "q20012": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "consente il parcheggio",
+    "en": "allows parking",
+    "key": true
+   },
+   {
+    "it": "dalle ore 7.00 alle 9.00",
+    "en": "from 7.00 to 9.00"
+   }
+  ],
+  "note": "7.00-9.00 belongs to the no-parking part of the sign. So it is FALSE.",
+  "noteIt": "7-9 fa parte del divieto di sosta. Quindi è FALSO."
+ },
+ "q20013": {
+  "chunks": [
+   {
+    "it": "Nelle ore in cui è vietata la sosta,",
+    "en": "in the hours when parking is banned,"
+   },
+   {
+    "it": "il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "comporta la rimozione del veicolo",
+    "en": "means the vehicle is towed away",
+    "key": true
+   }
+  ],
+  "note": "The sign shows no tow-truck, so it does not order tow-away. So it is FALSE.",
+  "noteIt": "Il segnale non mostra il carro attrezzi: niente rimozione. Quindi è FALSO."
+ },
+ "q20014": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "è un segnale di DIVIETO DI SOSTA TEMPORANEO",
+    "en": "is a TEMPORARY NO PARKING sign",
+    "key": true
+   }
+  ],
+  "note": "The ban applies only on the days and hours shown, so it is temporary. So it is TRUE.",
+  "noteIt": "Il divieto vale solo in alcuni giorni e ore: è temporaneo. Quindi è VERO."
+ },
+ "q20015": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "è posto nei tratti di strada",
+    "en": "is placed on stretches of road"
+   },
+   {
+    "it": "ove vengono effettuate operazioni di pulizia meccanica delle strade",
+    "en": "where machine street cleaning is carried out",
+    "key": true
+   }
+  ],
+  "note": "The sweeper drawing means street cleaning happens here. So it is TRUE.",
+  "noteIt": "La spazzatrice disegnata indica la pulizia della strada. Quindi è VERO."
+ },
+ "q20016": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "nei periodi in cui viene effettuata",
+    "en": "during the times when it is carried out",
+    "key": true
+   },
+   {
+    "it": "la pulizia meccanica della strada",
+    "en": "the machine cleaning of the street"
+   }
+  ],
+  "note": "Parking is banned during the cleaning times. So it is TRUE.",
+  "noteIt": "Durante la pulizia la sosta è vietata. Quindi è VERO."
+ },
+ "q20017": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato,",
+    "en": "the sign shown,"
+   },
+   {
+    "it": "nei centri urbani,",
+    "en": "in towns,"
+   },
+   {
+    "it": "segnala il divieto di sosta",
+    "en": "signals the no-parking ban"
+   },
+   {
+    "it": "limitato ai giorni e alle ore indicate",
+    "en": "limited to the days and hours shown",
+    "key": true
+   }
+  ],
+  "note": "The ban covers only the days and hours written on it. So it is TRUE.",
+  "noteIt": "Il divieto vale solo nei giorni e ore indicati. Quindi è VERO."
+ },
+ "q20018": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "indica la presenza di macchine sgombraneve",
+    "en": "indicates snowploughs",
+    "key": true
+   },
+   {
+    "it": "al lavoro sulla strada",
+    "en": "working on the road"
+   }
+  ],
+  "note": "The drawing shows a sweeper and the sign bans parking; no snowploughs. So it is FALSE.",
+  "noteIt": "Il disegno è una spazzatrice, non uno spazzaneve. Quindi è FALSO."
+ },
+ "q20019": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "segnala che nelle ore indicate",
+    "en": "signals that in the hours shown"
+   },
+   {
+    "it": "vige il DIVIETO DI SOSTA",
+    "en": "NO PARKING applies"
+   },
+   {
+    "it": "per i veicoli rappresentati in figura",
+    "en": "to the vehicles drawn",
+    "key": true
+   }
+  ],
+  "note": "Every vehicle must not park; the sweeper is only the reason. So it is FALSE.",
+  "noteIt": "Il divieto vale per tutti; la spazzatrice è solo il motivo. Quindi è FALSO."
+ },
+ "q20020": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "indica che nei giorni e nelle ore indicate",
+    "en": "means that on the days and hours shown"
+   },
+   {
+    "it": "è vietata la sosta",
+    "en": "parking is banned"
+   },
+   {
+    "it": "ai mezzi di pulizia",
+    "en": "to cleaning vehicles",
+    "key": true
+   }
+  ],
+  "note": "The ban is for parked cars, so the cleaning vehicles can pass. So it is FALSE.",
+  "noteIt": "Il divieto è per le auto, così la spazzatrice può pulire. Quindi è FALSO."
+ },
+ "q20021": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "indica presenza di un deposito",
+    "en": "indicates a depot",
+    "key": true
+   },
+   {
+    "it": "con probabile uscita di mezzi",
+    "en": "with vehicles likely coming out"
+   },
+   {
+    "it": "per pulizia meccanica delle strade",
+    "en": "for machine street cleaning"
+   }
+  ],
+  "note": "It is a temporary parking ban, not a depot warning. So it is FALSE.",
+  "noteIt": "È un divieto di sosta temporaneo, non un deposito. Quindi è FALSO."
+ },
+ "q20022": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "vieta il transito",
+    "en": "forbids passing"
+   },
+   {
+    "it": "ad autotreni ed autoarticolati",
+    "en": "to road trains and articulated lorries",
+    "key": true
+   }
+  ],
+  "note": "The drawings show exactly these two vehicles, and they may not pass. So it is TRUE.",
+  "noteIt": "I disegni mostrano proprio questi due veicoli: non possono passare. Quindi è VERO."
+ },
+ "q20023": {
+  "chunks": [
+   {
+    "it": "In presenza del segnale raffigurato",
+    "en": "where the sign shown is present"
+   },
+   {
+    "it": "è vietato il transito",
+    "en": "passing is forbidden"
+   },
+   {
+    "it": "alle categorie di veicoli rappresentati in figura",
+    "en": "to the categories of vehicles drawn",
+    "key": true
+   }
+  ],
+  "note": "The drawings show who is banned. So it is TRUE.",
+  "noteIt": "I disegni indicano chi non può passare. Quindi è VERO."
+ },
+ "q20024": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "è un divieto di transito",
+    "en": "is a no-entry"
+   },
+   {
+    "it": "per determinate categorie di veicoli",
+    "en": "for certain categories of vehicles",
+    "key": true
+   }
+  ],
+  "note": "The ban covers only the categories drawn. So it is TRUE.",
+  "noteIt": "Il divieto vale solo per le categorie disegnate. Quindi è VERO."
+ },
+ "q20025": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "indica che i veicoli delle categorie rappresentate in figura",
+    "en": "means that vehicles of the categories drawn"
+   },
+   {
+    "it": "non possono transitare",
+    "en": "may not pass",
+    "key": true
+   }
+  ],
+  "note": "The drawn vehicles are banned from this road. So it is TRUE.",
+  "noteIt": "I veicoli disegnati non possono passare. Quindi è VERO."
+ },
+ "q20026": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "indica che possono transitare tutti i veicoli",
+    "en": "means that all vehicles may pass"
+   },
+   {
+    "it": "esclusi quelli delle categorie rappresentate in figura",
+    "en": "except those of the categories drawn",
+    "key": true
+   }
+  ],
+  "note": "Only the drawn vehicles are banned; all others may pass. So it is TRUE.",
+  "noteIt": "Sono vietati solo i veicoli disegnati, gli altri passano. Quindi è VERO."
+ },
+ "q20027": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "indica un itinerario obbligatorio",
+    "en": "indicates a compulsory route",
+    "key": true
+   },
+   {
+    "it": "per gli autoveicoli delle categorie rappresentate in figura",
+    "en": "for motor vehicles of the categories drawn"
+   }
+  ],
+  "note": "The red border means a ban, not an obligation to go that way. So it is FALSE.",
+  "noteIt": "Il bordo rosso indica un divieto, non un obbligo. Quindi è FALSO."
+ },
+ "q20028": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "preannuncia un parcheggio",
+    "en": "announces a car park",
+    "key": true
+   },
+   {
+    "it": "per autocarri ed autotreni",
+    "en": "for lorries and road trains"
+   }
+  ],
+  "note": "It is a no-entry for those vehicles, not a car park. So it is FALSE.",
+  "noteIt": "È un divieto di transito, non un parcheggio. Quindi è FALSO."
+ },
+ "q20029": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "vieta il transito di tutti i veicoli",
+    "en": "forbids all vehicles to pass"
+   },
+   {
+    "it": "con esclusione di quelli rappresentati in figura",
+    "en": "except those drawn",
+    "key": true
+   }
+  ],
+  "note": "Only the drawn vehicles are banned, not all the others. So it is FALSE.",
+  "noteIt": "Sono vietati solo i veicoli disegnati, non gli altri. Quindi è FALSO."
+ },
+ "q20030": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking",
+    "key": true
+   },
+   {
+    "it": "ad autotreni ed autoarticolati",
+    "en": "to road trains and articulated lorries"
+   }
+  ],
+  "note": "The white disc bans passing; parking bans use a blue disc. So it is FALSE.",
+  "noteIt": "Il disco bianco vieta il transito, non la sosta. Quindi è FALSO."
+ },
+ "q20031": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "indica un divieto di sosta",
+    "en": "indicates a no-parking ban",
+    "key": true
+   },
+   {
+    "it": "per autotreni e autoarticolati",
+    "en": "for road trains and articulated lorries"
+   }
+  ],
+  "note": "The white disc bans passing; parking bans use a blue disc. So it is FALSE.",
+  "noteIt": "Il disco bianco vieta il transito, non la sosta. Quindi è FALSO."
+ },
+ "q20032": {
+  "chunks": [
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   },
+   {
+    "it": "presegnala una strada riservata",
+    "en": "warns of a reserved road",
+    "key": true
+   },
+   {
+    "it": "ai veicoli delle categorie rappresentate in figura",
+    "en": "for vehicles of the categories drawn"
+   }
+  ],
+  "note": "The road is closed to the drawn vehicles, not reserved for them. So it is FALSE.",
+  "noteIt": "La strada è vietata ai veicoli disegnati, non riservata. Quindi è FALSO."
+ }
+}

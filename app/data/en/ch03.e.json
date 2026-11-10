@@ -1,0 +1,2348 @@
+{
+ "q19840": {
+  "en": "The sign shown forbids transit to vehicles whose most loaded axle has an actual mass above the one shown.",
+  "explain": {
+   "short": "This is the axle-weight limit: what counts is the real weight on the heaviest axle.",
+   "rule": "The axle-weight sign (a red ring with '2,5 t' over an axle) bans every vehicle whose most loaded axle really weighs more than the number shown, at the moment it passes.",
+   "trap": "'asse più caricato' means the most loaded axle: only that axle is compared with the number.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Heaviest axle over 2.5 t: no entry",
+    "it": "massa per asse",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "forbids transit"
+   },
+   {
+    "it": "asse più caricato",
+    "en": "most loaded axle"
+   },
+   {
+    "it": "massa effettiva",
+    "en": "actual mass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19841": {
+  "en": "Where this sign is shown, lorries with an actual mass per axle of 2.5 tonnes are allowed to pass.",
+  "explain": {
+   "short": "The ban is only for MORE than 2.5 t per axle; exactly 2.5 t is within the limit.",
+   "rule": "The axle-weight sign (a red ring with '2,5 t' over an axle) bans every vehicle whose most loaded axle really weighs more than the number shown, at the moment it passes.",
+   "trap": "'di 2,5 tonnellate' means exactly 2.5 t: equal to the limit is not above it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Exactly 2.5 t per axle: you may pass",
+    "it": "massa per asse",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "transit is allowed"
+   },
+   {
+    "it": "autocarri",
+    "en": "lorries"
+   },
+   {
+    "it": "massa effettiva per asse",
+    "en": "actual mass per axle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19842": {
+  "en": "The sign shown forbids transit to vehicles with an actual mass per axle above 2.5 tonnes.",
+  "explain": {
+   "short": "The number 2,5 t over the axle drawing sets the maximum actual weight per axle.",
+   "rule": "The axle-weight sign (a red ring with '2,5 t' over an axle) bans every vehicle whose most loaded axle really weighs more than the number shown, at the moment it passes.",
+   "trap": "'superiore a' means above: only vehicles over 2.5 t per axle are banned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Over 2.5 t per axle: no entry",
+    "it": "massa per asse",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "forbids transit"
+   },
+   {
+    "it": "massa effettiva per asse",
+    "en": "actual mass per axle"
+   },
+   {
+    "it": "superiore a 2,5 tonnellate",
+    "en": "above 2.5 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19843": {
+  "en": "The sign shown refers to the actual mass on the axle at the moment of passing.",
+  "explain": {
+   "short": "'Effective' mass means the real weight the axle carries right now, with the load on board.",
+   "rule": "The axle-weight sign (a red ring with '2,5 t' over an axle) bans every vehicle whose most loaded axle really weighs more than the number shown, at the moment it passes.",
+   "trap": "'al momento del transito' means when passing: the real load counts, not the weight on paper.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Real weight on the axle as you pass",
+    "it": "massa per asse",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fa riferimento",
+    "en": "refers to"
+   },
+   {
+    "it": "massa effettiva",
+    "en": "actual mass"
+   },
+   {
+    "it": "al momento del transito",
+    "en": "at the moment of passing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19844": {
+  "en": "The sign shown may be placed before a bridge.",
+  "explain": {
+   "short": "Bridges and weak roads may not hold heavy axles, so this sign is often put before them.",
+   "rule": "The axle-weight sign (a red ring with '2,5 t' over an axle) bans every vehicle whose most loaded axle really weighs more than the number shown, at the moment it passes.",
+   "trap": "'può' means may: it is a possible place, not the only one.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Often before a bridge that can't take heavy axles",
+    "it": "massa per asse",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "può trovarsi",
+    "en": "may be placed"
+   },
+   {
+    "it": "prima di un ponte",
+    "en": "before a bridge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19845": {
+  "en": "The sign shown obliges vehicles with a mass per axle above 2.5 tonnes to proceed at walking pace.",
+  "explain": {
+   "short": "It is a ban, not a slow-down order: those vehicles may not pass at all.",
+   "rule": "The axle-weight sign (a red ring with '2,5 t' over an axle) bans every vehicle whose most loaded axle really weighs more than the number shown, at the moment it passes.",
+   "trap": "'a passo d'uomo' (walking pace) is invented: heavy-axle vehicles must not enter.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not walking pace: over 2.5 t may not pass at all",
+    "it": "massa per asse",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga",
+    "en": "obliges"
+   },
+   {
+    "it": "procedere a passo d'uomo",
+    "en": "proceed at walking pace"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19846": {
+  "en": "The sign shown forbids transit to lorries with a total mass above the one shown.",
+  "explain": {
+   "short": "The axle drawing means the limit is per AXLE, not the total weight of the vehicle.",
+   "rule": "The axle-weight sign (a red ring with '2,5 t' over an axle) bans every vehicle whose most loaded axle really weighs more than the number shown, at the moment it passes.",
+   "trap": "'massa complessiva' (total mass) is wrong: the sign is about mass per axle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Limit is per axle, not total mass",
+    "it": "massa per asse",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarri",
+    "en": "lorries"
+   },
+   {
+    "it": "massa complessiva",
+    "en": "total mass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19847": {
+  "en": "The sign shown applies only to motor vehicles with twin wheels.",
+  "explain": {
+   "short": "It applies to every vehicle whose axle is too heavy, whatever its wheels.",
+   "rule": "The axle-weight sign (a red ring with '2,5 t' over an axle) bans every vehicle whose most loaded axle really weighs more than the number shown, at the moment it passes.",
+   "trap": "'solo' (only) is the trap: twin wheels in the drawing are just a picture of an axle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Any vehicle over 2.5 t per axle, not only twin wheels",
+    "it": "massa per asse",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vale solo",
+    "en": "applies only"
+   },
+   {
+    "it": "ruote gemellate",
+    "en": "twin wheels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19848": {
+  "en": "In built-up areas the sign shown applies from 8:00 to 20:00.",
+  "explain": {
+   "short": "8:00-20:00 is the rule for the no-parking sign, not for a weight limit; this ban applies at all hours.",
+   "rule": "The axle-weight sign (a red ring with '2,5 t' over an axle) bans every vehicle whose most loaded axle really weighs more than the number shown, at the moment it passes.",
+   "trap": "'dalle ore 8.00 alle ore 20.00' is borrowed from no-parking: the weight limit has no time window.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Weight limit: valid all day, not 8-20",
+    "it": "massa per asse",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "nei centri abitati",
+    "en": "in built-up areas"
+   },
+   {
+    "it": "dalle ore 8.00 alle ore 20.00",
+    "en": "from 8:00 to 20:00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19849": {
+  "en": "The sign shown forbids transit to all vehicles with a fully loaded total mass above 2.5 tonnes.",
+  "explain": {
+   "short": "The 2.5 t is per axle and real weight, not the total maximum mass of the vehicle.",
+   "rule": "The axle-weight sign (a red ring with '2,5 t' over an axle) bans every vehicle whose most loaded axle really weighs more than the number shown, at the moment it passes.",
+   "trap": "'massa complessiva a pieno carico' (total laden mass) is wrong: the sign is about the axle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Per axle, real weight, not total laden mass",
+    "it": "massa per asse",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tutti i veicoli",
+    "en": "all vehicles"
+   },
+   {
+    "it": "massa complessiva a pieno carico",
+    "en": "total mass when fully loaded"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19850": {
+  "en": "The sign shown marks the end of the rules imposed earlier.",
+  "explain": {
+   "short": "The black diagonal band is 'via libera': all earlier bans and obligations end here.",
+   "rule": "'Via libera' (all clear) is a white disc with one black diagonal band: from here every ban and rule signed before ends.",
+   "trap": "'prescrizioni' means rules (bans and obligations): all of them end.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "All earlier rules end here",
+    "it": "via libera",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "indica la fine",
+    "en": "marks the end"
+   },
+   {
+    "it": "prescrizioni",
+    "en": "rules (bans and obligations)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19851": {
+  "en": "The sign shown marks the end of bans imposed earlier.",
+  "explain": {
+   "short": "'Via libera' cancels the bans signed before, such as speed limits or no overtaking.",
+   "rule": "'Via libera' (all clear) is a white disc with one black diagonal band: from here every ban and rule signed before ends.",
+   "trap": "'divieti' (bans) are a kind of rule, so they end too.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Earlier bans end here",
+    "it": "via libera",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "indica la fine",
+    "en": "marks the end"
+   },
+   {
+    "it": "divieti",
+    "en": "bans"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19852": {
+  "en": "The sign shown is an 'all clear' sign.",
+  "explain": {
+   "short": "The white disc with a black diagonal band is called 'via libera' (all clear).",
+   "rule": "'Via libera' (all clear) is a white disc with one black diagonal band: from here every ban and rule signed before ends.",
+   "trap": "'via libera' is the official name of this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "This is the 'via libera' sign",
+    "it": "via libera",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di via libera",
+    "en": "all clear sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19853": {
+  "en": "The sign shown is an end-of-rule sign.",
+  "explain": {
+   "short": "'Via libera' belongs to the end-of-rule signs: white disc, black diagonal band.",
+   "rule": "'Via libera' (all clear) is a white disc with one black diagonal band: from here every ban and rule signed before ends.",
+   "trap": "'fine prescrizione' (end of rule) is the right family for all black-band signs.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "An end-of-rule sign",
+    "it": "via libera",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di fine prescrizione",
+    "en": "end-of-rule sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19854": {
+  "en": "The sign shown marks the point from which the rules shown earlier are no longer valid.",
+  "explain": {
+   "short": "The rules end exactly where the 'via libera' sign stands.",
+   "rule": "'Via libera' (all clear) is a white disc with one black diagonal band: from here every ban and rule signed before ends.",
+   "trap": "'non sono più valide' means no longer valid: from this point they stop.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "From here the earlier rules stop",
+    "it": "via libera",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "indica il punto",
+    "en": "marks the point"
+   },
+   {
+    "it": "non sono più valide",
+    "en": "are no longer valid"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19855": {
+  "en": "The sign shown marks the end of a road works site.",
+  "explain": {
+   "short": "The end of works has its own sign; this black band only ends earlier rules.",
+   "rule": "'Via libera' (all clear) is a white disc with one black diagonal band: from here every ban and rule signed before ends.",
+   "trap": "'cantiere di lavoro' (road works) is wrong: this is 'via libera', not end of works.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not end of works: it ends earlier rules",
+    "it": "via libera",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine di un cantiere",
+    "en": "end of a works site"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19856": {
+  "en": "The sign shown concerns only vehicles in public service.",
+  "explain": {
+   "short": "'Via libera' applies to all road users, not to a special category.",
+   "rule": "'Via libera' (all clear) is a white disc with one black diagonal band: from here every ban and rule signed before ends.",
+   "trap": "'soltanto' (only) is the trap: there is no special category.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "For everyone, not only public service",
+    "it": "via libera",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "soltanto",
+    "en": "only"
+   },
+   {
+    "it": "servizio pubblico",
+    "en": "public service"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19857": {
+  "en": "The sign shown is an information sign.",
+  "explain": {
+   "short": "It is an end-of-rule sign (round, black diagonal band), not an information sign.",
+   "rule": "'Via libera' (all clear) is a white disc with one black diagonal band: from here every ban and rule signed before ends.",
+   "trap": "'segnale di indicazione' (information sign) is the wrong family.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End-of-rule sign, not information",
+    "it": "via libera",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di indicazione",
+    "en": "information sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19858": {
+  "en": "The sign shown marks the end of a built-up area.",
+  "explain": {
+   "short": "The end of a town is a rectangular sign with the town name crossed out, not this disc.",
+   "rule": "'Via libera' (all clear) is a white disc with one black diagonal band: from here every ban and rule signed before ends.",
+   "trap": "'centro abitato' (built-up area) is wrong: this disc ends earlier rules.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not end of town: it ends earlier rules",
+    "it": "via libera",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine di un centro abitato",
+    "en": "end of a built-up area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19859": {
+  "en": "The sign shown marks the end of the danger signalled earlier.",
+  "explain": {
+   "short": "Danger signs have no 'end' sign; 'via libera' ends bans and obligations only.",
+   "rule": "'Via libera' (all clear) is a white disc with one black diagonal band: from here every ban and rule signed before ends.",
+   "trap": "'pericolo' (danger) is the trap: this sign ends rules, not dangers.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It ends rules, not dangers",
+    "it": "via libera",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine del pericolo",
+    "en": "end of the danger"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19860": {
+  "en": "The sign shown marks the end of a rule.",
+  "explain": {
+   "short": "The black band across 50 means the 50 km/h limit ends: an end-of-rule sign.",
+   "rule": "'Fine limite di velocità' (end of speed limit): the 50 km/h limit ends here. The normal limits of that road apply again, and you may still drive slower.",
+   "trap": "'prescrizione' (rule) includes speed limits.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of the 50 km/h rule",
+    "it": "fine limite",
+    "action": "endLimit",
+    "value": 50
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine di una prescrizione",
+    "en": "end of a rule"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19861": {
+  "en": "The sign shown marks the end of the maximum speed limit.",
+  "explain": {
+   "short": "The crossed-out 50 ends the maximum speed limit of 50 km/h.",
+   "rule": "'Fine limite di velocità' (end of speed limit): the 50 km/h limit ends here. The normal limits of that road apply again, and you may still drive slower.",
+   "trap": "'limite massimo' means maximum: a red-ring limit was a maximum, now it ends.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of the 50 km/h maximum",
+    "it": "fine limite",
+    "action": "endLimit",
+    "value": 50
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine del limite massimo",
+    "en": "end of the maximum limit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19862": {
+  "en": "The sign shown allows you to drive faster than 50 km/h.",
+  "explain": {
+   "short": "Once the 50 limit ends, you may go faster, up to the normal limit of that road.",
+   "rule": "'Fine limite di velocità' (end of speed limit): the 50 km/h limit ends here. The normal limits of that road apply again, and you may still drive slower.",
+   "trap": "'consente' means allows: faster is allowed, within the road's general limit.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Faster than 50 allowed, within road limits",
+    "it": "fine limite",
+    "action": "endLimit",
+    "value": 50
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente di circolare",
+    "en": "allows you to drive"
+   },
+   {
+    "it": "superiore a 50 km/h",
+    "en": "above 50 km/h"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19863": {
+  "en": "The sign shown allows you to drive within the speed limits in force for that type of road.",
+  "explain": {
+   "short": "After the end of the 50 limit, the general limits of that road come back.",
+   "rule": "'Fine limite di velocità' (end of speed limit): the 50 km/h limit ends here. The normal limits of that road apply again, and you may still drive slower.",
+   "trap": "'limiti vigenti' means the limits in force: the normal ones for that road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Back to the normal limits of that road",
+    "it": "fine limite",
+    "action": "endLimit",
+    "value": 50
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente di circolare",
+    "en": "allows you to drive"
+   },
+   {
+    "it": "limiti di velocità vigenti",
+    "en": "speed limits in force"
+   },
+   {
+    "it": "quel tipo di strada",
+    "en": "that type of road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19864": {
+  "en": "The sign shown also allows you to drive at a speed below 50 km/h.",
+  "explain": {
+   "short": "A maximum limit ending does not force you to speed up; slower is always allowed if safe.",
+   "rule": "'Fine limite di velocità' (end of speed limit): the 50 km/h limit ends here. The normal limits of that road apply again, and you may still drive slower.",
+   "trap": "'anche' (also) is the key: going slower is still allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "You may still drive below 50",
+    "it": "fine limite",
+    "action": "endLimit",
+    "value": 50
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente di marciare",
+    "en": "allows you to drive"
+   },
+   {
+    "it": "inferiore a 50 km/h",
+    "en": "below 50 km/h"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19865": {
+  "en": "The sign shown marks the end of the related ban.",
+  "explain": {
+   "short": "The ban here was 'do not exceed 50 km/h'; this sign ends it.",
+   "rule": "'Fine limite di velocità' (end of speed limit): the 50 km/h limit ends here. The normal limits of that road apply again, and you may still drive slower.",
+   "trap": "'relativo divieto' means the matching ban: the 50 km/h limit.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of the matching 50 km/h ban",
+    "it": "fine limite",
+    "action": "endLimit",
+    "value": 50
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine del relativo divieto",
+    "en": "end of the related ban"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19866": {
+  "en": "The sign shown indicates the speed limit for all vehicles.",
+  "explain": {
+   "short": "It does not set a limit: the black band means the 50 km/h limit ends.",
+   "rule": "'Fine limite di velocità' (end of speed limit): the 50 km/h limit ends here. The normal limits of that road apply again, and you may still drive slower.",
+   "trap": "'indica il limite' is the trap: the band shows an END, not a limit.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a limit: the 50 km/h limit ends",
+    "it": "fine limite",
+    "action": "endLimit",
+    "value": 50
+   }
+  },
+  "keywords": [
+   {
+    "it": "indica il limite di velocità",
+    "en": "indicates the speed limit"
+   },
+   {
+    "it": "tutti i veicoli",
+    "en": "all vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19867": {
+  "en": "The sign shown forbids exceeding 50 km/h.",
+  "explain": {
+   "short": "That is the red-ring 50 sign; with the black band the 50 limit ends.",
+   "rule": "'Fine limite di velocità' (end of speed limit): the 50 km/h limit ends here. The normal limits of that road apply again, and you may still drive slower.",
+   "trap": "'vieta' (forbids) is wrong: this sign lifts the ban instead.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not 'max 50': the 50 limit ends here",
+    "it": "fine limite",
+    "action": "endLimit",
+    "value": 50
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta di superare",
+    "en": "forbids exceeding"
+   },
+   {
+    "it": "50 km/h",
+    "en": "50 km/h"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19868": {
+  "en": "The sign shown marks the end of the minimum speed limit.",
+  "explain": {
+   "short": "Minimum speed signs are blue; this white disc ends a MAXIMUM limit.",
+   "rule": "'Fine limite di velocità' (end of speed limit): the 50 km/h limit ends here. The normal limits of that road apply again, and you may still drive slower.",
+   "trap": "'limite minimo' (minimum limit) is wrong: the end of a minimum is a blue sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of a maximum, not a minimum",
+    "it": "fine limite",
+    "action": "endLimit",
+    "value": 50
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine del limite minimo",
+    "en": "end of the minimum limit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19869": {
+  "en": "The sign shown marks the end of the obligation to keep a safety distance of at least 50 metres.",
+  "explain": {
+   "short": "50 here is a speed (km/h), not a distance in metres.",
+   "rule": "'Fine limite di velocità' (end of speed limit): the 50 km/h limit ends here. The normal limits of that road apply again, and you may still drive slower.",
+   "trap": "'50 metri' is the trap: the number is km/h.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "50 is km/h, not 50 metres of distance",
+    "it": "fine limite",
+    "action": "endLimit",
+    "value": 50
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza di sicurezza",
+    "en": "safety distance"
+   },
+   {
+    "it": "50 metri",
+    "en": "50 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19870": {
+  "en": "The sign shown requires vehicles not exceeding 50 km/h to drive in the right-hand lane.",
+  "explain": {
+   "short": "It gives no lane rule; it just ends the 50 km/h limit.",
+   "rule": "'Fine limite di velocità' (end of speed limit): the 50 km/h limit ends here. The normal limits of that road apply again, and you may still drive slower.",
+   "trap": "'corsia di destra' (right lane) is invented: the sign says nothing about lanes.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No lane rule: only the 50 limit ends",
+    "it": "fine limite",
+    "action": "endLimit",
+    "value": 50
+   }
+  },
+  "keywords": [
+   {
+    "it": "prescrive",
+    "en": "requires"
+   },
+   {
+    "it": "corsia di destra",
+    "en": "right-hand lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19871": {
+  "en": "The sign shown indicates the recommended speed.",
+  "explain": {
+   "short": "Recommended speed is a square blue sign; this one ends a limit.",
+   "rule": "'Fine limite di velocità' (end of speed limit): the 50 km/h limit ends here. The normal limits of that road apply again, and you may still drive slower.",
+   "trap": "'consigliata' (recommended) is wrong: the black band means end of limit.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not recommended speed: end of limit",
+    "it": "fine limite",
+    "action": "endLimit",
+    "value": 50
+   }
+  },
+  "keywords": [
+   {
+    "it": "velocità consigliata",
+    "en": "recommended speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19872": {
+  "en": "The sign shown marks the end of the overtaking ban imposed earlier.",
+  "explain": {
+   "short": "Two cars with a black band across them: the 'no overtaking' ban ends here.",
+   "rule": "'Fine del divieto di sorpasso' (end of no overtaking): the overtaking ban ends here. All the other overtaking rules still apply, for example never cross a solid line.",
+   "trap": "'precedentemente imposto' means imposed earlier: this sign closes it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No-overtaking ban ends here",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine del divieto di sorpasso",
+    "en": "end of the overtaking ban"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19873": {
+  "en": "Where this sign is shown, overtaking is forbidden if you would have to cross the solid line.",
+  "explain": {
+   "short": "The sign ends only the overtaking ban; you may never cross a solid line anyway.",
+   "rule": "'Fine del divieto di sorpasso' (end of no overtaking): the overtaking ban ends here. All the other overtaking rules still apply, for example never cross a solid line.",
+   "trap": "'striscia continua' (solid line) still rules: the general rule stays.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Solid line: still no overtaking",
+    "it": "fine divieto di sorpasso",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è vietato il sorpasso",
+    "en": "overtaking is forbidden"
+   },
+   {
+    "it": "striscia continua",
+    "en": "solid line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19874": {
+  "en": "The sign shown marks the point where the overtaking ban ends.",
+  "explain": {
+   "short": "The ban ends exactly where this sign stands.",
+   "rule": "'Fine del divieto di sorpasso' (end of no overtaking): the overtaking ban ends here. All the other overtaking rules still apply, for example never cross a solid line.",
+   "trap": "'il punto in cui termina' means the point where it ends: here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Here the overtaking ban ends",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "il punto",
+    "en": "the point"
+   },
+   {
+    "it": "termina",
+    "en": "ends"
+   },
+   {
+    "it": "divieto di sorpasso",
+    "en": "overtaking ban"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19875": {
+  "en": "The sign shown does not impose any particular speed limit.",
+  "explain": {
+   "short": "It only ends the overtaking ban; it has no number and sets no speed.",
+   "rule": "'Fine del divieto di sorpasso' (end of no overtaking): the overtaking ban ends here. All the other overtaking rules still apply, for example never cross a solid line.",
+   "trap": "'non impone' means does not impose: no speed limit here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No speed limit on this sign",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non impone",
+    "en": "does not impose"
+   },
+   {
+    "it": "limite di velocità",
+    "en": "speed limit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19876": {
+  "en": "The sign shown can be placed both in towns and outside them.",
+  "explain": {
+   "short": "An overtaking ban can be set on any road, so its end can be anywhere too.",
+   "rule": "'Fine del divieto di sorpasso' (end of no overtaking): the overtaking ban ends here. All the other overtaking rules still apply, for example never cross a solid line.",
+   "trap": "'sia ... che' means both: inside and outside towns.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Used in towns and outside",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "può essere posto",
+    "en": "can be placed"
+   },
+   {
+    "it": "centri urbani",
+    "en": "towns"
+   },
+   {
+    "it": "fuori",
+    "en": "outside"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19877": {
+  "en": "The sign shown is an end-of-rule sign.",
+  "explain": {
+   "short": "A round sign with a black diagonal band is always an end-of-rule sign.",
+   "rule": "'Fine del divieto di sorpasso' (end of no overtaking): the overtaking ban ends here. All the other overtaking rules still apply, for example never cross a solid line.",
+   "trap": "'fine prescrizione' (end of rule) is the right family.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "An end-of-rule sign",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di fine prescrizione",
+    "en": "end-of-rule sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19878": {
+  "en": "The sign shown is valid for all 24 hours.",
+  "explain": {
+   "short": "It has no time panel, so it is valid day and night.",
+   "rule": "'Fine del divieto di sorpasso' (end of no overtaking): the overtaking ban ends here. All the other overtaking rules still apply, for example never cross a solid line.",
+   "trap": "'tutte le 24 ore' means all day: no time limits.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Valid all 24 hours",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ha validità",
+    "en": "is valid"
+   },
+   {
+    "it": "tutte le 24 ore",
+    "en": "all 24 hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19879": {
+  "en": "The sign shown marks the end of the overtaking ban between cars only.",
+  "explain": {
+   "short": "The overtaking ban it ends was for all motor vehicles, not only cars.",
+   "rule": "'Fine del divieto di sorpasso' (end of no overtaking): the overtaking ban ends here. All the other overtaking rules still apply, for example never cross a solid line.",
+   "trap": "'tra le sole autovetture' (between cars only) is wrong: it was for all motor vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Ends the ban for all vehicles, not only cars",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tra le sole autovetture",
+    "en": "between cars only"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19880": {
+  "en": "The sign shown marks the end of the ban on transit for all motor vehicles.",
+  "explain": {
+   "short": "The two cars side by side mean overtaking, not transit.",
+   "rule": "'Fine del divieto di sorpasso' (end of no overtaking): the overtaking ban ends here. All the other overtaking rules still apply, for example never cross a solid line.",
+   "trap": "'divieto di transito' (no vehicles) is wrong: the ban was on overtaking.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Overtaking ban ends, not a transit ban",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto di transito",
+    "en": "ban on transit"
+   },
+   {
+    "it": "tutti gli autoveicoli",
+    "en": "all motor vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19881": {
+  "en": "The sign shown forbids driving in parallel lines.",
+  "explain": {
+   "short": "It forbids nothing: the black band ends the overtaking ban.",
+   "rule": "'Fine del divieto di sorpasso' (end of no overtaking): the overtaking ban ends here. All the other overtaking rules still apply, for example never cross a solid line.",
+   "trap": "'prescrive il divieto' is the trap: an end sign never sets a ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Ends a ban; it bans nothing",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "prescrive il divieto",
+    "en": "imposes the ban"
+   },
+   {
+    "it": "file parallele",
+    "en": "parallel lines (of traffic)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19882": {
+  "en": "The sign shown marks the end of the maximum speed limit.",
+  "explain": {
+   "short": "The cars show it is about overtaking; the end of a speed limit has a number.",
+   "rule": "'Fine del divieto di sorpasso' (end of no overtaking): the overtaking ban ends here. All the other overtaking rules still apply, for example never cross a solid line.",
+   "trap": "'limite massimo di velocità' is wrong: there is no number on this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Overtaking ban ends, not speed limit",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine del limite massimo",
+    "en": "end of the maximum limit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19883": {
+  "en": "The sign shown marks the end of the no-parking rule on both sides of the road.",
+  "explain": {
+   "short": "Parking has blue-and-red signs; this one is about overtaking.",
+   "rule": "'Fine del divieto di sorpasso' (end of no overtaking): the overtaking ban ends here. All the other overtaking rules still apply, for example never cross a solid line.",
+   "trap": "'divieto di sosta' (no parking) is wrong: the cars mean overtaking.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "About overtaking, not parking",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto di sosta",
+    "en": "no parking"
+   },
+   {
+    "it": "entrambi i lati",
+    "en": "both sides"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19884": {
+  "en": "The sign shown means the obligation to keep a safety distance is over.",
+  "explain": {
+   "short": "You must ALWAYS keep a safety distance; this sign ends only the overtaking ban.",
+   "rule": "'Fine del divieto di sorpasso' (end of no overtaking): the overtaking ban ends here. All the other overtaking rules still apply, for example never cross a solid line.",
+   "trap": "'distanza di sicurezza' (safety distance) is the trap: it never ends.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Safety distance always applies",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è finito l'obbligo",
+    "en": "the obligation is over"
+   },
+   {
+    "it": "distanza di sicurezza",
+    "en": "safety distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19885": {
+  "en": "The sign shown marks the end of the ban on double parking.",
+  "explain": {
+   "short": "Double parking is always forbidden; this sign is about overtaking.",
+   "rule": "'Fine del divieto di sorpasso' (end of no overtaking): the overtaking ban ends here. All the other overtaking rules still apply, for example never cross a solid line.",
+   "trap": "'sosta in seconda fila' (double parking) is wrong: the cars mean overtaking.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "About overtaking, not double parking",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto di sosta",
+    "en": "parking ban"
+   },
+   {
+    "it": "seconda fila",
+    "en": "double (second row)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19886": {
+  "en": "Where this sign is shown, a 44-tonne road train may overtake a car.",
+  "explain": {
+   "short": "The truck ban on overtaking ends here, so heavy goods vehicles may overtake again.",
+   "rule": "This sign ends the overtaking ban for goods vehicles over 3.5 t (trucks): from here they may overtake again. Buses are not concerned.",
+   "trap": "'44 tonnellate' sounds huge, but the ban for goods vehicles over 3.5 t has ended.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Trucks may overtake again",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autotreno",
+    "en": "road train (truck with trailer)"
+   },
+   {
+    "it": "può sorpassare",
+    "en": "may overtake"
+   },
+   {
+    "it": "autovettura",
+    "en": "car"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19887": {
+  "en": "The sign shown marks the end of the overtaking ban imposed earlier.",
+  "explain": {
+   "short": "The truck, the car and the black band: the earlier truck overtaking ban ends.",
+   "rule": "This sign ends the overtaking ban for goods vehicles over 3.5 t (trucks): from here they may overtake again. Buses are not concerned.",
+   "trap": "'precedentemente imposto' means set earlier: this sign closes it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Earlier truck overtaking ban ends",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine del divieto di sorpasso",
+    "en": "end of the overtaking ban"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19888": {
+  "en": "Where this sign is shown, a lorry may overtake a bus.",
+  "explain": {
+   "short": "Lorries over 3.5 t may overtake any vehicle again, a bus included.",
+   "rule": "This sign ends the overtaking ban for goods vehicles over 3.5 t (trucks): from here they may overtake again. Buses are not concerned.",
+   "trap": "'autobus' is the vehicle being overtaken: allowed once the truck ban ends.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A lorry may overtake a bus",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarro",
+    "en": "lorry"
+   },
+   {
+    "it": "può sorpassare",
+    "en": "may overtake"
+   },
+   {
+    "it": "autobus",
+    "en": "bus"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19889": {
+  "en": "The sign shown marks the end of the overtaking ban for goods vehicles with a laden mass above 3.5 tonnes.",
+  "explain": {
+   "short": "The truck in the sign means goods vehicles over 3.5 t; their ban ends here.",
+   "rule": "This sign ends the overtaking ban for goods vehicles over 3.5 t (trucks): from here they may overtake again. Buses are not concerned.",
+   "trap": "'veicoli merci' (goods vehicles) over 3.5 t is exactly who the sign is for.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of no overtaking for trucks over 3.5 t",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicoli merci",
+    "en": "goods vehicles"
+   },
+   {
+    "it": "massa a pieno carico",
+    "en": "fully laden mass"
+   },
+   {
+    "it": "3,5 tonnellate",
+    "en": "3.5 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19890": {
+  "en": "The sign shown is an end-of-rule sign.",
+  "explain": {
+   "short": "Round with a black diagonal band: an end-of-rule sign.",
+   "rule": "This sign ends the overtaking ban for goods vehicles over 3.5 t (trucks): from here they may overtake again. Buses are not concerned.",
+   "trap": "'fine prescrizione' (end of rule) is the right family.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "An end-of-rule sign",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di fine prescrizione",
+    "en": "end-of-rule sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19891": {
+  "en": "Where this sign is shown, road trains and articulated vehicles are banned.",
+  "explain": {
+   "short": "It bans nothing: it ends the overtaking ban for trucks.",
+   "rule": "This sign ends the overtaking ban for goods vehicles over 3.5 t (trucks): from here they may overtake again. Buses are not concerned.",
+   "trap": "'vietato il transito' (no transit) is wrong: the sign is about overtaking.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No transit ban: trucks may overtake again",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato il transito",
+    "en": "transit is banned"
+   },
+   {
+    "it": "autotreni",
+    "en": "road trains"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19892": {
+  "en": "Where this sign is shown, cars must overtake lorries in the right-hand lane.",
+  "explain": {
+   "short": "Overtaking is done on the LEFT; this sign changes nothing for cars.",
+   "rule": "This sign ends the overtaking ban for goods vehicles over 3.5 t (trucks): from here they may overtake again. Buses are not concerned.",
+   "trap": "'corsia di destra' (right lane) is wrong: you overtake on the left.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Overtake on the left, as always",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "devono sorpassare",
+    "en": "must overtake"
+   },
+   {
+    "it": "corsia di destra",
+    "en": "right-hand lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19893": {
+  "en": "The sign shown marks the end of the overtaking ban for buses with a laden mass above 3.5 tonnes.",
+  "explain": {
+   "short": "The symbol is a truck: the sign is for goods vehicles, not buses.",
+   "rule": "This sign ends the overtaking ban for goods vehicles over 3.5 t (trucks): from here they may overtake again. Buses are not concerned.",
+   "trap": "'autobus' (buses) is the trap: the sign is for goods vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "For goods vehicles, not buses",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autobus",
+    "en": "buses"
+   },
+   {
+    "it": "3,5 tonnellate",
+    "en": "3.5 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19894": {
+  "en": "The sign shown is a danger sign.",
+  "explain": {
+   "short": "Danger signs are triangles; this round sign with a black band ends a rule.",
+   "rule": "This sign ends the overtaking ban for goods vehicles over 3.5 t (trucks): from here they may overtake again. Buses are not concerned.",
+   "trap": "'pericolo' (danger) is the wrong family.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End-of-rule sign, not danger",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19895": {
+  "en": "The sign shown does not apply to lorries with a total mass of 7 tonnes.",
+  "explain": {
+   "short": "7 t is above 3.5 t, so these lorries are exactly the ones concerned.",
+   "rule": "This sign ends the overtaking ban for goods vehicles over 3.5 t (trucks): from here they may overtake again. Buses are not concerned.",
+   "trap": "'non vale' (does not apply) is wrong: 7 t is over 3.5 t.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "7 t lorries are concerned: over 3.5 t",
+    "it": "fine divieto di sorpasso",
+    "action": "endLimit"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non vale",
+    "en": "does not apply"
+   },
+   {
+    "it": "7 tonnellate",
+    "en": "7 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19896": {
+  "en": "The sign shown is placed where parking is forbidden.",
+  "explain": {
+   "short": "Blue disc, red ring, one red bar: 'divieto di sosta' (no parking).",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'sosta' means parking (leaving the car), not a short stop.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No parking here",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è posto",
+    "en": "is placed"
+   },
+   {
+    "it": "la sosta è vietata",
+    "en": "parking is forbidden"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19897": {
+  "en": "The sign shown forbids parking on urban roads from 8:00 to 20:00, unless indicated otherwise.",
+  "explain": {
+   "short": "In towns, without a panel, the no-parking sign applies from 8:00 to 20:00.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'salvo diversa indicazione' means unless a panel says otherwise.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "In town: no parking 8:00-20:00",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade urbane",
+    "en": "urban roads"
+   },
+   {
+    "it": "dalle ore 8.00 alle ore 20.00",
+    "en": "from 8:00 to 20:00"
+   },
+   {
+    "it": "salvo diversa indicazione",
+    "en": "unless indicated otherwise"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19898": {
+  "en": "The sign shown can be supplemented by panels showing its start, continuation or end.",
+  "explain": {
+   "short": "Arrow panels under the sign show where the ban starts, continues or ends.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'pannelli' (extra panels) with arrows are allowed with this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrow panels: start, continuation, end",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "può essere integrato",
+    "en": "can be supplemented"
+   },
+   {
+    "it": "pannelli",
+    "en": "panels"
+   },
+   {
+    "it": "l'inizio, il proseguimento o la fine",
+    "en": "the start, continuation or end"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19899": {
+  "en": "The sign shown stops being valid after the first junction, if not repeated.",
+  "explain": {
+   "short": "A no-parking sign applies up to the next junction; after it, it must be repeated.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'se non ripetuto' means if not repeated: then it ends at the junction.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Ends at the next junction unless repeated",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cessa di validità",
+    "en": "stops being valid"
+   },
+   {
+    "it": "primo incrocio",
+    "en": "first junction"
+   },
+   {
+    "it": "se non ripetuto",
+    "en": "if not repeated"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19900": {
+  "en": "The sign shown allows stopping.",
+  "explain": {
+   "short": "No parking is not no stopping: a short stop to let people get in or out is allowed.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'fermata' (a short stop) is different from 'sosta' (parking).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Short stop OK, parking not",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente",
+    "en": "allows"
+   },
+   {
+    "it": "fermata",
+    "en": "stopping (short stop)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19901": {
+  "en": "The sign shown allows parking in the stretch before it.",
+  "explain": {
+   "short": "The ban starts at the sign; the road before it is not affected.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'tratto precedente' means the stretch before: the ban starts only at the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Before the sign: parking allowed",
+    "it": "divieto di sosta",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente la sosta",
+    "en": "allows parking"
+   },
+   {
+    "it": "tratto precedente",
+    "en": "stretch before"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19902": {
+  "en": "The sign shown, suitably supplemented, can forbid parking in built-up areas from 0:00 to 24:00.",
+  "explain": {
+   "short": "A panel with '0-24' makes the ban last all day in town.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'opportunamente integrato' means with the right extra panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "With a 0-24 panel: all day in town",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "opportunamente integrato",
+    "en": "suitably supplemented"
+   },
+   {
+    "it": "centri abitati",
+    "en": "built-up areas"
+   },
+   {
+    "it": "dalle ore 0,00 alle 24,00",
+    "en": "from 0:00 to 24:00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19903": {
+  "en": "The sign shown, if placed on the left side of a one-way road, also forbids parking on the right side.",
+  "explain": {
+   "short": "The sign applies only on the side where it stands; on the left, it bans parking on the left only.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'anche sul lato destro' (also on the right) is wrong: only its own side.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only the side where the sign stands",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "lato sinistro",
+    "en": "left side"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   },
+   {
+    "it": "anche sul lato destro",
+    "en": "also on the right side"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19904": {
+  "en": "The sign shown forbids parking on the stretch before it.",
+  "explain": {
+   "short": "The up arrow panel means the ban STARTS here and goes forward, not backwards.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'tratto precedente' (stretch before) is wrong: the arrow points ahead.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrow up: the ban starts here, ahead",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "tratto precedente",
+    "en": "stretch before"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19905": {
+  "en": "The sign shown warns of a no-stopping ban ahead.",
+  "explain": {
+   "short": "It is no parking, not a warning of no stopping; no stopping has two red bars (a cross).",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'divieto di fermata' (no stopping) is wrong, and 'preannuncia' is wrong too.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No parking, not no stopping",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "warns of (ahead)"
+   },
+   {
+    "it": "divieto di fermata",
+    "en": "no-stopping ban"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19906": {
+  "en": "The sign shown does not apply to motorcycles and mopeds.",
+  "explain": {
+   "short": "The no-parking sign applies to all vehicles, two-wheelers included.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'non vale' (does not apply) is wrong: no exception for motorbikes.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorbikes and mopeds too",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non vale",
+    "en": "does not apply"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19907": {
+  "en": "Where this sign is shown, forced towing of the vehicle is always provided for.",
+  "explain": {
+   "short": "Towing applies only if a tow-truck panel is added under the sign.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'sempre' (always) is the trap: towing needs the extra panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Towing only with the tow-truck panel",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sempre",
+    "en": "always"
+   },
+   {
+    "it": "rimozione forzata",
+    "en": "forced towing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19908": {
+  "en": "The sign shown means parking is regulated with paid parking meters.",
+  "explain": {
+   "short": "Paid parking is a blue 'P' sign with a panel; this sign bans parking.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'parchimetri a pagamento' (paid meters) is wrong: here parking is forbidden.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking banned, not paid",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolamentata",
+    "en": "regulated"
+   },
+   {
+    "it": "parchimetri a pagamento",
+    "en": "paid parking meters"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19909": {
+  "en": "The sign shown allows residents to park.",
+  "explain": {
+   "short": "Without a special panel there is no exception for residents.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'residenti' (residents) is an invented exception.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No exception for residents",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente la sosta",
+    "en": "allows parking"
+   },
+   {
+    "it": "residenti",
+    "en": "residents"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19910": {
+  "en": "The sign shown allows parking if you display the ticket from a parking meter.",
+  "explain": {
+   "short": "A ticket does not cancel a ban: here parking is forbidden.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'tagliando' (ticket) is the trap: no ticket makes parking legal here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No ticket helps: parking is banned",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente la sosta",
+    "en": "allows parking"
+   },
+   {
+    "it": "tagliando",
+    "en": "ticket"
+   },
+   {
+    "it": "parchimetro",
+    "en": "parking meter"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19911": {
+  "en": "The sign shown forbids parking, but not stopping.",
+  "explain": {
+   "short": "One red bar is no parking; a short stop is still allowed.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'ma non la fermata' means but not stopping: stopping briefly is fine.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking no, short stop yes",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "ma non la fermata",
+    "en": "but not stopping"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19912": {
+  "en": "The sign shown marks the areas where it is forbidden to leave a vehicle parked.",
+  "explain": {
+   "short": "This sign marks places where you may not leave the car parked.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'lasciare in sosta' means leave parked: that is exactly what is banned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Here you may not leave the car parked",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "contraddistingue",
+    "en": "marks"
+   },
+   {
+    "it": "è proibito",
+    "en": "it is forbidden"
+   },
+   {
+    "it": "lasciare in sosta",
+    "en": "leave parked"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19913": {
+  "en": "On roads outside built-up areas, the sign shown means a permanent parking ban when there are no extra indications.",
+  "explain": {
+   "short": "Outside towns the no-parking sign applies all day, unless a panel says otherwise.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'permanente' (permanent) is right for roads outside towns.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Outside towns: no parking all day",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane",
+    "en": "roads outside built-up areas"
+   },
+   {
+    "it": "divieto permanente",
+    "en": "permanent ban"
+   },
+   {
+    "it": "indicazioni integrative",
+    "en": "extra indications"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19914": {
+  "en": "Sign (A), if supplemented with panel (B), marks a zone where parking is banned.",
+  "explain": {
+   "short": "Sign A bans parking; panel B (tow truck) adds that cars will be towed away.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'se integrato con pannello (B)' means with the tow panel added: the parking ban stays.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking banned; with tow panel",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "integrato con pannello",
+    "en": "supplemented with a panel"
+   },
+   {
+    "it": "divieto di sosta",
+    "en": "parking ban"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19915": {
+  "en": "Sign (A), if supplemented with panel (B), marks a zone where parking is banned, with removal of the vehicle.",
+  "explain": {
+   "short": "The tow-truck panel B means a parked car will be towed away.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'rimozione' (towing) comes from panel B, not from sign A alone.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking banned and the car is towed",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "integrato con pannello",
+    "en": "supplemented with a panel"
+   },
+   {
+    "it": "divieto di sosta",
+    "en": "parking ban"
+   },
+   {
+    "it": "rimozione del veicolo",
+    "en": "removal (towing) of the vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19916": {
+  "en": "The sign shown forbids parking on the side of the road where it is placed.",
+  "explain": {
+   "short": "The no-parking sign applies only to its own side of the road.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'dove è posto' means where it is placed: only that side.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only on the sign's side",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "sul lato della strada",
+    "en": "on the side of the road"
+   },
+   {
+    "it": "dove è posto",
+    "en": "where it is placed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19917": {
+  "en": "Sign (A) with panel (B) forbids parking only on working days.",
+  "explain": {
+   "short": "The hammers on panel B mean working days (weekdays), 8:00-20:00.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'solo nei giorni lavorativi' (only on working days): the hammer symbol says so.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hammers = working days, 8-20",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "con il pannello",
+    "en": "with the panel"
+   },
+   {
+    "it": "solo nei giorni lavorativi",
+    "en": "only on working days"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19918": {
+  "en": "Sign (A), supplemented with panel (B), marks a FORCED TOWING ZONE.",
+  "explain": {
+   "short": "No parking plus the tow-truck panel means 'zona rimozione coatta' (forced towing zone).",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'RIMOZIONE COATTA' (forced towing) comes from the tow-truck panel B.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Forced towing zone",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "integrato con il pannello",
+    "en": "supplemented with the panel"
+   },
+   {
+    "it": "ZONA RIMOZIONE COATTA",
+    "en": "forced towing zone"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19920": {
+  "en": "On roads outside built-up areas, the sign shown allows parking after 20:00.",
+  "explain": {
+   "short": "Outside towns the ban is all day; 8-20 is only for towns.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'dopo le ore 20.00' (after 20:00) is wrong outside towns: the ban is permanent.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Outside towns: banned all day",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane",
+    "en": "roads outside built-up areas"
+   },
+   {
+    "it": "dopo le ore 20.00",
+    "en": "after 20:00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19921": {
+  "en": "The sign shown allows parking only for two-wheeled vehicles.",
+  "explain": {
+   "short": "There is no exception for two-wheelers; parking is banned for all.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'soltanto ai veicoli a due ruote' is an invented exception.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No exception for two-wheelers",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "soltanto",
+    "en": "only"
+   },
+   {
+    "it": "veicoli a due ruote",
+    "en": "two-wheeled vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19922": {
+  "en": "The sign shown allows motor quadricycles to park.",
+  "explain": {
+   "short": "Motor quadricycles (small four-wheel vehicles) are vehicles: they may not park either.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'quadricicli a motore' sound special, but no exception exists.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Quadricycles may not park either",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente la sosta",
+    "en": "allows parking"
+   },
+   {
+    "it": "quadricicli a motore",
+    "en": "motor quadricycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19923": {
+  "en": "In towns, the sign shown imposes a parking ban from 20:00 to 8:00, unless indicated otherwise.",
+  "explain": {
+   "short": "In towns the standard time is the opposite: 8:00 to 20:00.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'dalle ore 20.00 alle ore 8.00' swaps the hours: it is 8-20.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "In town it is 8:00-20:00, not 20-8",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "centri urbani",
+    "en": "towns"
+   },
+   {
+    "it": "dalle ore 20.00 alle ore 8.00",
+    "en": "from 20:00 to 8:00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19924": {
+  "en": "The sign shown means parking is regulated with a parking disc.",
+  "explain": {
+   "short": "A parking disc goes with a blue 'P' sign; this sign bans parking.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'disco orario' (parking disc) is wrong: here parking is forbidden.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Banned, not disc parking",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolamentata",
+    "en": "regulated"
+   },
+   {
+    "it": "disco orario",
+    "en": "parking disc"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19925": {
+  "en": "Sign (A), if supplemented with panel (B), is a permanent parking ban.",
+  "explain": {
+   "short": "Panel B with two arrows means the ban CONTINUES here; it says nothing about time.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'permanente' (permanent) is wrong: the arrows mean continuation, not all day.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrows = ban continues, not permanent",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "integrato con il pannello",
+    "en": "supplemented with the panel"
+   },
+   {
+    "it": "permanente",
+    "en": "permanent"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19926": {
+  "en": "The sign shown, suitably supplemented, can forbid double parking.",
+  "explain": {
+   "short": "Double parking is always forbidden by law; no sign or panel is needed for it.",
+   "rule": "'Divieto di sosta' (no parking): you may stop briefly but not park. In towns it applies 8:00-20:00, outside towns all day, unless a panel says otherwise. It applies on its own side of the road, up to the next junction.",
+   "trap": "'in doppia fila' (double parking) is the trap: it is already always banned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Double parking is always banned anyway",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "opportunamente integrato",
+    "en": "suitably supplemented"
+   },
+   {
+    "it": "in doppia fila",
+    "en": "double parking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

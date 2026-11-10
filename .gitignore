@@ -1,0 +1,24 @@
+# installed packages and build output (rebuilt by npm)
+node_modules/
+dist/
+dist-ssr/
+
+# data copied into web/public by web/scripts/sync-data.mjs (the source is app/)
+web/public/data/
+web/public/images/
+web/public/icons/
+
+# Python
+__pycache__/
+*.pyc
+
+# logs, editor and OS files
+*.log
+*.local
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,2823 @@
+{
+ "q18471": {
+  "en": "Driving lanes are part of the carriageway.",
+  "explain": {
+   "short": "Driving lanes are where vehicles move, so they are inside the carriageway (carreggiata).",
+   "rule": "The carreggiata (carriageway) is where vehicles move: lanes and crossings are inside it. Verges, sidewalks and emergency lanes are outside it.",
+   "trap": "'corsie di marcia' are the normal driving lanes, the heart of the carriageway.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Driving lanes are inside the carriageway",
+    "it": "carreggiata",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   },
+   {
+    "it": "corsie di marcia",
+    "en": "driving lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18472": {
+  "en": "Cycle crossings are part of the carriageway.",
+  "explain": {
+   "short": "A cycle crossing is painted across the road where vehicles drive, so it lies on the carriageway.",
+   "rule": "The carreggiata (carriageway) is where vehicles move: lanes and crossings are inside it. Verges, sidewalks and emergency lanes are outside it.",
+   "trap": "'attraversamenti' are crossings drawn ON the road surface, so they are inside the carriageway, even if bikes use them.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cycle crossings are painted on the carriageway",
+    "it": "carreggiata",
+    "part": "carreggiata"
+   }
+  },
+  "keywords": [
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   },
+   {
+    "it": "attraversamenti ciclabili",
+    "en": "cycle crossings"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18473": {
+  "en": "Pedestrian crossings are part of the carriageway.",
+  "explain": {
+   "short": "A pedestrian crossing (zebra crossing) is painted on the carriageway itself, where cars drive.",
+   "rule": "The carreggiata (carriageway) is where vehicles move: lanes and crossings are inside it. Verges, sidewalks and emergency lanes are outside it.",
+   "trap": "'attraversamenti pedonali' are for pedestrians, but they are drawn ON the carriageway.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Zebra crossings are painted on the carriageway",
+    "it": "carreggiata",
+    "part": "passaggioPedonale"
+   }
+  },
+  "keywords": [
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   },
+   {
+    "it": "attraversamenti pedonali",
+    "en": "pedestrian crossings"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18474": {
+  "en": "Overtaking lanes are part of the carriageway.",
+  "explain": {
+   "short": "An overtaking lane is a lane where vehicles move, so it is inside the carriageway.",
+   "rule": "The carreggiata (carriageway) is where vehicles move: lanes and crossings are inside it. Verges, sidewalks and emergency lanes are outside it.",
+   "trap": "'corsie di sorpasso' are still lanes, and every lane belongs to the carriageway.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Overtaking lanes are inside the carriageway",
+    "it": "carreggiata",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   },
+   {
+    "it": "corsie di sorpasso",
+    "en": "overtaking lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18475": {
+  "en": "Motorway emergency lanes are part of the carriageway.",
+  "explain": {
+   "short": "The motorway emergency lane runs next to the carriageway, outside it. It is only for stopping in an emergency.",
+   "rule": "The carreggiata (carriageway) is where vehicles move: lanes and crossings are inside it. Verges, sidewalks and emergency lanes are outside it.",
+   "trap": "'corsie' makes it sound like a driving lane, but the emergency lane is outside the carriageway.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The emergency lane is next to, not in, the carriageway",
+    "it": "carreggiata",
+    "part": "corsiaEmergenza"
+   }
+  },
+  "keywords": [
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   },
+   {
+    "it": "corsie di emergenza",
+    "en": "emergency lanes"
+   },
+   {
+    "it": "autostrade",
+    "en": "motorways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18476": {
+  "en": "Verges are part of the carriageway.",
+  "explain": {
+   "short": "The banchina (verge) is beside the carriageway, beyond the white edge line. It is part of the road, but not of the carriageway.",
+   "rule": "The carreggiata (carriageway) is where vehicles move: lanes and crossings are inside it. Verges, sidewalks and emergency lanes are outside it.",
+   "trap": "'banchine' belong to the road (strada), not to the carriageway (carreggiata).",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The verge is outside the carriageway",
+    "it": "carreggiata",
+    "part": "banchina"
+   }
+  },
+  "keywords": [
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   },
+   {
+    "it": "banchine",
+    "en": "verges"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18477": {
+  "en": "Sidewalks are part of the carriageway.",
+  "explain": {
+   "short": "The marciapiede (sidewalk) is for pedestrians and lies outside the carriageway, where vehicles do not drive.",
+   "rule": "The carreggiata (carriageway) is where vehicles move: lanes and crossings are inside it. Verges, sidewalks and emergency lanes are outside it.",
+   "trap": "'marciapiedi' are part of the road (strada), but not of the carriageway.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The sidewalk is outside the carriageway",
+    "it": "carreggiata",
+    "part": "marciapiede"
+   }
+  },
+  "keywords": [
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   },
+   {
+    "it": "marciapiedi",
+    "en": "sidewalks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18478": {
+  "en": "A lane can be intended for the normal movement of vehicles.",
+  "explain": {
+   "short": "Most lanes are just normal driving lanes, used by vehicles going along the road.",
+   "rule": "A corsia (lane) is a part of the carriageway for one single line of vehicles. It can be for normal driving, overtaking, accelerating, slowing down, turning, emergencies or reserved vehicles.",
+   "trap": "'può essere' (can be) is correct: normal driving is one of the possible uses of a lane.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Normal lanes carry ordinary traffic",
+    "it": "corsia",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia",
+    "en": "lane"
+   },
+   {
+    "it": "normale marcia",
+    "en": "normal driving"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18479": {
+  "en": "A lane is bounded by solid or dashed lines.",
+  "explain": {
+   "short": "Lanes are marked on the road surface with white lines, which can be solid or dashed.",
+   "rule": "A corsia (lane) is a part of the carriageway for one single line of vehicles. It can be for normal driving, overtaking, accelerating, slowing down, turning, emergencies or reserved vehicles.",
+   "trap": "'continue o discontinue': both kinds of line can mark a lane.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lanes are marked by solid or dashed lines",
+    "it": "corsia",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia",
+    "en": "lane"
+   },
+   {
+    "it": "strisce continue o discontinue",
+    "en": "solid or dashed lines"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18480": {
+  "en": "A lane can be an acceleration lane.",
+  "explain": {
+   "short": "An acceleration lane is a special lane to pick up speed before joining a fast road.",
+   "rule": "A corsia (lane) is a part of the carriageway for one single line of vehicles. It can be for normal driving, overtaking, accelerating, slowing down, turning, emergencies or reserved vehicles.",
+   "trap": "'può essere' (can be): acceleration is one of the special uses of a lane.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "An acceleration lane is a special lane",
+    "it": "corsia",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia",
+    "en": "lane"
+   },
+   {
+    "it": "accelerazione",
+    "en": "acceleration"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18481": {
+  "en": "A lane can be a deceleration lane.",
+  "explain": {
+   "short": "A deceleration lane is a special lane to slow down when you leave a fast road.",
+   "rule": "A corsia (lane) is a part of the carriageway for one single line of vehicles. It can be for normal driving, overtaking, accelerating, slowing down, turning, emergencies or reserved vehicles.",
+   "trap": "'può essere' (can be): slowing down is one of the special uses of a lane.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A deceleration lane is a special lane",
+    "it": "corsia",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia",
+    "en": "lane"
+   },
+   {
+    "it": "decelerazione",
+    "en": "deceleration"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18482": {
+  "en": "Lanes can be forbidden to certain types of vehicles.",
+  "explain": {
+   "short": "Signs can ban some vehicles from a lane, for example lorries from the left lane of a motorway.",
+   "rule": "A corsia (lane) is a part of the carriageway for one single line of vehicles. It can be for normal driving, overtaking, accelerating, slowing down, turning, emergencies or reserved vehicles.",
+   "trap": "'vietate' (forbidden): a lane can be closed to some vehicles, not to all.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Some lanes are closed to some vehicles",
+    "it": "corsie",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsie",
+    "en": "lanes"
+   },
+   {
+    "it": "vietate",
+    "en": "forbidden"
+   },
+   {
+    "it": "tipi di veicoli",
+    "en": "types of vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18483": {
+  "en": "A lane can be reserved for the traffic of some categories of vehicles (taxis, buses, etc.).",
+  "explain": {
+   "short": "Bus lanes and taxi lanes are lanes reserved for some categories of vehicles.",
+   "rule": "A corsia (lane) is a part of the carriageway for one single line of vehicles. It can be for normal driving, overtaking, accelerating, slowing down, turning, emergencies or reserved vehicles.",
+   "trap": "'riservata' (reserved): only the listed vehicles may use it.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bus and taxi lanes are reserved lanes",
+    "it": "corsia",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia",
+    "en": "lane"
+   },
+   {
+    "it": "riservata",
+    "en": "reserved"
+   },
+   {
+    "it": "taxi, autobus",
+    "en": "taxis, buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18484": {
+  "en": "A lane can be intended for overtaking.",
+  "explain": {
+   "short": "On roads with more lanes in the same direction, the left lane is used for overtaking.",
+   "rule": "A corsia (lane) is a part of the carriageway for one single line of vehicles. It can be for normal driving, overtaking, accelerating, slowing down, turning, emergencies or reserved vehicles.",
+   "trap": "'effettuare sorpassi' (to overtake): overtaking is one of the uses of a lane.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "An overtaking lane is a type of lane",
+    "it": "corsia",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia",
+    "en": "lane"
+   },
+   {
+    "it": "sorpassi",
+    "en": "overtaking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18485": {
+  "en": "The road owner can require that, on a lane, vehicles travel at a compulsory minimum speed.",
+  "explain": {
+   "short": "The road owner (ente proprietario) can set a minimum speed on a lane, shown by a round blue sign, so slow vehicles stay out of it.",
+   "rule": "A corsia (lane) is a part of the carriageway for one single line of vehicles. It can be for normal driving, overtaking, accelerating, slowing down, turning, emergencies or reserved vehicles.",
+   "trap": "'velocità minima obbligatoria' (compulsory minimum speed) really exists: there are minimum limits, not only maximum ones.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A lane can have a compulsory minimum speed",
+    "it": "ente proprietario",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ente proprietario",
+    "en": "road owner"
+   },
+   {
+    "it": "velocità minima obbligatoria",
+    "en": "compulsory minimum speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18486": {
+  "en": "A lane is a part of the carriageway that allows the traffic of a single line of vehicles.",
+  "explain": {
+   "short": "This is the definition of a lane: a strip of the carriageway wide enough for one line of vehicles.",
+   "rule": "A corsia (lane) is a part of the carriageway for one single line of vehicles. It can be for normal driving, overtaking, accelerating, slowing down, turning, emergencies or reserved vehicles.",
+   "trap": "'una sola fila' (one single line) is the key of the definition.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One lane = one single line of vehicles",
+    "it": "corsia",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia",
+    "en": "lane"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   },
+   {
+    "it": "una sola fila",
+    "en": "a single line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18487": {
+  "en": "A lane can be intended for emergency stops, in case of breakdown or illness.",
+  "explain": {
+   "short": "The emergency lane (corsia di emergenza) is a lane for stopping only when you have a breakdown or feel ill.",
+   "rule": "A corsia (lane) is a part of the carriageway for one single line of vehicles. It can be for normal driving, overtaking, accelerating, slowing down, turning, emergencies or reserved vehicles.",
+   "trap": "'soste di emergenza' (emergency stops): only real emergencies, not normal parking.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The emergency lane is for breakdowns and illness",
+    "it": "corsia",
+    "part": "corsiaEmergenza"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia",
+    "en": "lane"
+   },
+   {
+    "it": "soste di emergenza",
+    "en": "emergency stops"
+   },
+   {
+    "it": "guasto",
+    "en": "breakdown"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18488": {
+  "en": "A lane can be reserved for vehicles that intend to turn (specialised lane).",
+  "explain": {
+   "short": "Before junctions there are often lanes only for vehicles turning left or right: these are specialised lanes.",
+   "rule": "A corsia (lane) is a part of the carriageway for one single line of vehicles. It can be for normal driving, overtaking, accelerating, slowing down, turning, emergencies or reserved vehicles.",
+   "trap": "'corsia specializzata' (specialised lane) is a lane with a specific job, such as turning.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Turning lanes are specialised lanes",
+    "it": "corsia",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia",
+    "en": "lane"
+   },
+   {
+    "it": "svoltare",
+    "en": "to turn"
+   },
+   {
+    "it": "corsia specializzata",
+    "en": "specialised lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18489": {
+  "en": "A lane can be intended for slowing down vehicles leaving the motorway.",
+  "explain": {
+   "short": "This is the deceleration lane: you move into it and slow down when you leave the motorway.",
+   "rule": "A corsia (lane) is a part of the carriageway for one single line of vehicles. It can be for normal driving, overtaking, accelerating, slowing down, turning, emergencies or reserved vehicles.",
+   "trap": "'rallentamento' (slowing down) describes the deceleration lane.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The deceleration lane is for slowing down",
+    "it": "corsia",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia",
+    "en": "lane"
+   },
+   {
+    "it": "rallentamento",
+    "en": "slowing down"
+   },
+   {
+    "it": "in uscita",
+    "en": "leaving"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18490": {
+  "en": "A lane is intended only for pedestrians.",
+  "explain": {
+   "short": "A lane is part of the carriageway and is for vehicles. Pedestrians walk on sidewalks.",
+   "rule": "A corsia (lane) is a part of the carriageway for one single line of vehicles. It can be for normal driving, overtaking, accelerating, slowing down, turning, emergencies or reserved vehicles.",
+   "trap": "'solo' (only) and 'pedoni' (pedestrians) make it wrong: lanes are for vehicles.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Lanes are for vehicles, not only for pedestrians",
+    "it": "corsia",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia",
+    "en": "lane"
+   },
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18491": {
+  "en": "A lane can be two-way.",
+  "explain": {
+   "short": "A lane takes one line of vehicles going in one direction. A road or carriageway can be two-way, a single lane cannot.",
+   "rule": "A corsia (lane) is a part of the carriageway for one single line of vehicles. It can be for normal driving, overtaking, accelerating, slowing down, turning, emergencies or reserved vehicles.",
+   "trap": "'doppio senso' (two-way) belongs to a road or carriageway, never to one single lane.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "One lane = one direction only",
+    "it": "corsia",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia",
+    "en": "lane"
+   },
+   {
+    "it": "doppio senso di circolazione",
+    "en": "two-way traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18492": {
+  "en": "A lane is a track reserved for racing cars.",
+  "explain": {
+   "short": "A lane is a normal part of the carriageway for everyday traffic. It has nothing to do with racing.",
+   "rule": "A corsia (lane) is a part of the carriageway for one single line of vehicles. It can be for normal driving, overtaking, accelerating, slowing down, turning, emergencies or reserved vehicles.",
+   "trap": "'corsia' sounds like 'corsa' (race), but it means a traffic lane.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A lane is for normal traffic, not racing",
+    "it": "corsia",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia",
+    "en": "lane"
+   },
+   {
+    "it": "vetture da corsa",
+    "en": "racing cars"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18493": {
+  "en": "A lane can never be crossed by pedestrians.",
+  "explain": {
+   "short": "Pedestrians cross lanes all the time at pedestrian crossings, which are on the carriageway.",
+   "rule": "A corsia (lane) is a part of the carriageway for one single line of vehicles. It can be for normal driving, overtaking, accelerating, slowing down, turning, emergencies or reserved vehicles.",
+   "trap": "'mai' (never) is too strong: pedestrians may cross, especially at crossings.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Pedestrians do cross lanes at crossings",
+    "it": "corsia",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia",
+    "en": "lane"
+   },
+   {
+    "it": "mai",
+    "en": "never"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18494": {
+  "en": "A lane is made up of two carriageways.",
+  "explain": {
+   "short": "It is the other way round: a carriageway is made of one or more lanes.",
+   "rule": "A corsia (lane) is a part of the carriageway for one single line of vehicles. It can be for normal driving, overtaking, accelerating, slowing down, turning, emergencies or reserved vehicles.",
+   "trap": "'formata da due carreggiate' turns the order upside down.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The carriageway is made of lanes, not the opposite",
+    "it": "corsia",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia",
+    "en": "lane"
+   },
+   {
+    "it": "due carreggiate",
+    "en": "two carriageways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18495": {
+  "en": "A lane is a fast-flowing road.",
+  "explain": {
+   "short": "A lane is only a strip of the carriageway, not a whole road.",
+   "rule": "A corsia (lane) is a part of the carriageway for one single line of vehicles. It can be for normal driving, overtaking, accelerating, slowing down, turning, emergencies or reserved vehicles.",
+   "trap": "'strada a scorrimento veloce' is a type of road, not a lane.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A lane is a strip, not a whole road",
+    "it": "corsia",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia",
+    "en": "lane"
+   },
+   {
+    "it": "strada a scorrimento veloce",
+    "en": "fast-flowing road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18496": {
+  "en": "In built-up areas, two motorcycles can ride side by side in the same lane.",
+  "explain": {
+   "short": "A lane takes only one line of vehicles, so two motorcycles must ride one behind the other.",
+   "rule": "A corsia (lane) is a part of the carriageway for one single line of vehicles. It can be for normal driving, overtaking, accelerating, slowing down, turning, emergencies or reserved vehicles.",
+   "trap": "'Nei centri abitati' (in built-up areas) changes nothing: never two side by side in one lane.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "One lane: motorbikes go in single file",
+    "it": "stessa corsia",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "stessa corsia",
+    "en": "same lane"
+   },
+   {
+    "it": "affiancati",
+    "en": "side by side"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18497": {
+  "en": "Outside built-up areas, two mopeds can ride side by side in the same lane.",
+  "explain": {
+   "short": "A lane takes only one line of vehicles, and mopeds must always ride in single file.",
+   "rule": "A corsia (lane) is a part of the carriageway for one single line of vehicles. It can be for normal driving, overtaking, accelerating, slowing down, turning, emergencies or reserved vehicles.",
+   "trap": "'Fuori dai centri abitati' (outside built-up areas) changes nothing: mopeds never ride side by side.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Mopeds always ride in single file",
+    "it": "stessa corsia",
+    "part": "corsia"
+   }
+  },
+  "keywords": [
+   {
+    "it": "stessa corsia",
+    "en": "same lane"
+   },
+   {
+    "it": "affiancati",
+    "en": "side by side"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18498": {
+  "en": "The acceleration lane makes it easier for vehicles to enter the motorway or main extra-urban roads.",
+  "explain": {
+   "short": "In the acceleration lane you reach the speed of the traffic, so you can join the fast road safely.",
+   "rule": "The acceleration lane lets you pick up speed to join a motorway or main extra-urban road. It is not for overtaking.",
+   "trap": "'facilita l'ingresso' (makes entry easier): it is about ENTERING, not leaving.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Acceleration lane: entering fast roads",
+    "it": "corsia di accelerazione",
+    "lines": [
+     "Lane to pick up speed",
+     "Then join the motorway",
+     "No overtaking in it"
+    ],
+    "icons": [
+     "speed",
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di accelerazione",
+    "en": "acceleration lane"
+   },
+   {
+    "it": "ingresso",
+    "en": "entry"
+   },
+   {
+    "it": "strade extraurbane principali",
+    "en": "main extra-urban roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18499": {
+  "en": "The acceleration lane is for entering the motorway correctly.",
+  "explain": {
+   "short": "You use the acceleration lane to join the motorway at the right speed, without slowing the traffic.",
+   "rule": "The acceleration lane lets you pick up speed to join a motorway or main extra-urban road. It is not for overtaking.",
+   "trap": "'entrare' (to enter) is the right purpose of this lane.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Acceleration lane: join the motorway correctly",
+    "it": "corsia di accelerazione",
+    "lines": [
+     "Lane to pick up speed",
+     "Then join the motorway",
+     "No overtaking in it"
+    ],
+    "icons": [
+     "speed",
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di accelerazione",
+    "en": "acceleration lane"
+   },
+   {
+    "it": "entrare",
+    "en": "to enter"
+   },
+   {
+    "it": "autostrada",
+    "en": "motorway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18500": {
+  "en": "The acceleration lane is used to increase speed.",
+  "explain": {
+   "short": "That is what its name says: you accelerate in it to reach the speed of the traffic.",
+   "rule": "The acceleration lane lets you pick up speed to join a motorway or main extra-urban road. It is not for overtaking.",
+   "trap": "'aumentare la velocità' (increase speed) is exactly what 'accelerazione' means.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "You speed up in the acceleration lane",
+    "it": "corsia di accelerazione",
+    "lines": [
+     "Lane to pick up speed",
+     "Then join the motorway",
+     "No overtaking in it"
+    ],
+    "icons": [
+     "speed",
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di accelerazione",
+    "en": "acceleration lane"
+   },
+   {
+    "it": "aumentare la velocità",
+    "en": "to increase speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18501": {
+  "en": "The acceleration lane is for getting back onto the motorway carriageway after leaving a service area.",
+  "explain": {
+   "short": "When you leave a service area you use an acceleration lane to rejoin the motorway traffic.",
+   "rule": "The acceleration lane lets you pick up speed to join a motorway or main extra-urban road. It is not for overtaking.",
+   "trap": "'rientrare' (to get back in) means entering again, so the acceleration lane is right.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "From the service area back onto the motorway",
+    "it": "corsia di accelerazione",
+    "lines": [
+     "Lane to pick up speed",
+     "Then join the motorway",
+     "No overtaking in it"
+    ],
+    "icons": [
+     "speed",
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di accelerazione",
+    "en": "acceleration lane"
+   },
+   {
+    "it": "rientrare",
+    "en": "to get back in"
+   },
+   {
+    "it": "area di servizio",
+    "en": "service area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18502": {
+  "en": "The acceleration lane can be used for overtaking.",
+  "explain": {
+   "short": "The acceleration lane is only for picking up speed and joining the traffic. Overtaking in it is forbidden.",
+   "rule": "The acceleration lane lets you pick up speed to join a motorway or main extra-urban road. It is not for overtaking.",
+   "trap": "'sorpasso' (overtaking) is the wrong use: you only accelerate and merge.",
+   "scene": "overtake.blocked",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No overtaking in the acceleration lane",
+    "it": "corsia di accelerazione",
+    "hazard": "accelLane"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di accelerazione",
+    "en": "acceleration lane"
+   },
+   {
+    "it": "sorpasso",
+    "en": "overtaking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18503": {
+  "en": "The acceleration lane is for leaving a lay-by.",
+  "explain": {
+   "short": "A piazzola (small lay-by) is a short stopping place at the side of the road; acceleration lanes are for joining motorways and main roads.",
+   "rule": "The acceleration lane lets you pick up speed to join a motorway or main extra-urban road. It is not for overtaking.",
+   "trap": "'piazzola di sosta' (lay-by) is not where acceleration lanes are used.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Acceleration lanes join fast roads, not lay-bys",
+    "it": "corsia di accelerazione",
+    "lines": [
+     "Lane to pick up speed",
+     "Then join the motorway",
+     "No overtaking in it"
+    ],
+    "icons": [
+     "speed",
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di accelerazione",
+    "en": "acceleration lane"
+   },
+   {
+    "it": "piazzola di sosta",
+    "en": "lay-by"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18504": {
+  "en": "The acceleration lane is for leaving the motorway carriageway and entering a rest area.",
+  "explain": {
+   "short": "Leaving the motorway to enter a rest area uses the DEceleration lane. The acceleration lane is for joining the motorway.",
+   "rule": "The acceleration lane lets you pick up speed to join a motorway or main extra-urban road. It is not for overtaking.",
+   "trap": "'abbandonare' (to leave) describes the deceleration lane, not the acceleration lane.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "To leave the motorway you use the deceleration lane",
+    "it": "corsia di accelerazione",
+    "lines": [
+     "Lane to pick up speed",
+     "Then join the motorway",
+     "No overtaking in it"
+    ],
+    "icons": [
+     "speed",
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di accelerazione",
+    "en": "acceleration lane"
+   },
+   {
+    "it": "abbandonare",
+    "en": "to leave"
+   },
+   {
+    "it": "area di sosta",
+    "en": "rest area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18505": {
+  "en": "The deceleration lane makes it easier for vehicles to leave the motorway.",
+  "explain": {
+   "short": "You move into the deceleration lane and slow down there, without braking in the fast traffic.",
+   "rule": "The deceleration lane lets you leave a motorway or main extra-urban road and slow down outside the traffic. You must not stop on it.",
+   "trap": "'uscita' (exit, leaving): the deceleration lane is for going OUT.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Deceleration lane: leaving the motorway",
+    "it": "corsia di decelerazione",
+    "lines": [
+     "Leave the main carriageway",
+     "Slow down in this lane",
+     "No parking, no entering here"
+    ],
+    "icons": [
+     "road",
+     "brake",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di decelerazione",
+    "en": "deceleration lane"
+   },
+   {
+    "it": "uscita",
+    "en": "exit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18506": {
+  "en": "The deceleration lane is for leaving a main extra-urban road correctly.",
+  "explain": {
+   "short": "Main extra-urban roads also have deceleration lanes at their exits, so you can slow down safely.",
+   "rule": "The deceleration lane lets you leave a motorway or main extra-urban road and slow down outside the traffic. You must not stop on it.",
+   "trap": "'strada extraurbana principale' (main extra-urban road) has them too, not only motorways.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Main roads also have deceleration lanes",
+    "it": "corsia di decelerazione",
+    "lines": [
+     "Leave the main carriageway",
+     "Slow down in this lane",
+     "No parking, no entering here"
+    ],
+    "icons": [
+     "road",
+     "brake",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di decelerazione",
+    "en": "deceleration lane"
+   },
+   {
+    "it": "uscire",
+    "en": "to leave"
+   },
+   {
+    "it": "strada extraurbana principale",
+    "en": "main extra-urban road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18507": {
+  "en": "The deceleration lane is for leaving the motorway carriageway and entering the service area.",
+  "explain": {
+   "short": "To enter a service area you leave the motorway, so you use the deceleration lane and slow down there.",
+   "rule": "The deceleration lane lets you leave a motorway or main extra-urban road and slow down outside the traffic. You must not stop on it.",
+   "trap": "'uscire ... ed entrare nell'area di servizio': you exit the motorway first, so it is deceleration.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Into the service area via the deceleration lane",
+    "it": "corsia di decelerazione",
+    "lines": [
+     "Leave the main carriageway",
+     "Slow down in this lane",
+     "No parking, no entering here"
+    ],
+    "icons": [
+     "road",
+     "brake",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di decelerazione",
+    "en": "deceleration lane"
+   },
+   {
+    "it": "area di servizio",
+    "en": "service area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18508": {
+  "en": "The deceleration lane can be used for parking vehicles.",
+  "explain": {
+   "short": "The deceleration lane is only for slowing down and exiting. Stopping or parking on it is forbidden.",
+   "rule": "The deceleration lane lets you leave a motorway or main extra-urban road and slow down outside the traffic. You must not stop on it.",
+   "trap": "'sosta' (parking) is never allowed in this lane.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No parking in the deceleration lane",
+    "it": "corsia di decelerazione",
+    "lines": [
+     "Leave the main carriageway",
+     "Slow down in this lane",
+     "No parking, no entering here"
+    ],
+    "icons": [
+     "road",
+     "brake",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di decelerazione",
+    "en": "deceleration lane"
+   },
+   {
+    "it": "sosta",
+    "en": "parking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18509": {
+  "en": "The deceleration lane is for entering a lay-by.",
+  "explain": {
+   "short": "A piazzola (small lay-by) is reached directly from the road, without a deceleration lane. Deceleration lanes lead to exits and service areas.",
+   "rule": "The deceleration lane lets you leave a motorway or main extra-urban road and slow down outside the traffic. You must not stop on it.",
+   "trap": "'piazzola di sosta' (lay-by) is the wrong place: deceleration lanes lead to exits.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Deceleration lanes lead to exits, not lay-bys",
+    "it": "corsia di decelerazione",
+    "lines": [
+     "Leave the main carriageway",
+     "Slow down in this lane",
+     "No parking, no entering here"
+    ],
+    "icons": [
+     "road",
+     "brake",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di decelerazione",
+    "en": "deceleration lane"
+   },
+   {
+    "it": "piazzola di sosta",
+    "en": "lay-by"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18510": {
+  "en": "The deceleration lane is for entering the motorway.",
+  "explain": {
+   "short": "To enter a motorway you need to speed up, so you use the ACceleration lane, not the deceleration lane.",
+   "rule": "The deceleration lane lets you leave a motorway or main extra-urban road and slow down outside the traffic. You must not stop on it.",
+   "trap": "'entrare' (to enter) belongs to the acceleration lane.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "To enter you use the acceleration lane",
+    "it": "corsia di decelerazione",
+    "lines": [
+     "Leave the main carriageway",
+     "Slow down in this lane",
+     "No parking, no entering here"
+    ],
+    "icons": [
+     "road",
+     "brake",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di decelerazione",
+    "en": "deceleration lane"
+   },
+   {
+    "it": "entrare in autostrada",
+    "en": "to enter the motorway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18511": {
+  "en": "As a rule, the verge does not allow vehicles to drive on it.",
+  "explain": {
+   "short": "The banchina (verge) is outside the carriageway: normally vehicles do not drive there.",
+   "rule": "The banchina (verge) is part of the road outside the carriageway, beyond the solid white edge line. As a rule vehicles do not drive on it.",
+   "trap": "'di norma' (as a rule): you may use it only in special cases, like an emergency stop.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "As a rule, no driving on the verge",
+    "it": "banchina",
+    "part": "banchina"
+   }
+  },
+  "keywords": [
+   {
+    "it": "banchina",
+    "en": "verge"
+   },
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "transito",
+    "en": "passage"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18512": {
+  "en": "The verge is a part of the road located outside the carriageway.",
+  "explain": {
+   "short": "The verge belongs to the road (strada), but it lies outside the carriageway where vehicles move.",
+   "rule": "The banchina (verge) is part of the road outside the carriageway, beyond the solid white edge line. As a rule vehicles do not drive on it.",
+   "trap": "'strada' and 'carreggiata' are different: the verge is in the first, not in the second.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The verge is part of the road, outside the carriageway",
+    "it": "banchina",
+    "part": "banchina"
+   }
+  },
+  "keywords": [
+   {
+    "it": "banchina",
+    "en": "verge"
+   },
+   {
+    "it": "parte della strada",
+    "en": "part of the road"
+   },
+   {
+    "it": "al di fuori della carreggiata",
+    "en": "outside the carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18513": {
+  "en": "The verge is a part of the road located beyond the solid white edge line of the carriageway.",
+  "explain": {
+   "short": "The solid white edge line marks where the carriageway ends; the verge is on the other side of it.",
+   "rule": "The banchina (verge) is part of the road outside the carriageway, beyond the solid white edge line. As a rule vehicles do not drive on it.",
+   "trap": "'oltre' (beyond) is right: the verge starts after the edge line.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The verge is beyond the solid white edge line",
+    "it": "banchina",
+    "part": "banchina"
+   }
+  },
+  "keywords": [
+   {
+    "it": "banchina",
+    "en": "verge"
+   },
+   {
+    "it": "oltre",
+    "en": "beyond"
+   },
+   {
+    "it": "linea bianca continua di margine",
+    "en": "solid white edge line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18514": {
+  "en": "The verge is reserved for slow vehicles on uphill roads.",
+  "explain": {
+   "short": "Slow vehicles on climbs use a special lane on the carriageway. The verge is not for driving.",
+   "rule": "The banchina (verge) is part of the road outside the carriageway, beyond the solid white edge line. As a rule vehicles do not drive on it.",
+   "trap": "'riservata ai veicoli lenti' (reserved for slow vehicles) describes a lane, not the verge.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Slow vehicles don't drive on the verge",
+    "it": "banchina",
+    "part": "banchina"
+   }
+  },
+  "keywords": [
+   {
+    "it": "banchina",
+    "en": "verge"
+   },
+   {
+    "it": "veicoli lenti",
+    "en": "slow vehicles"
+   },
+   {
+    "it": "in salita",
+    "en": "uphill"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18515": {
+  "en": "On verges, parking of vehicles is allowed for up to 5 hours.",
+  "explain": {
+   "short": "There is no 5-hour parking rule for verges: this number is invented by the quiz.",
+   "rule": "The banchina (verge) is part of the road outside the carriageway, beyond the solid white edge line. As a rule vehicles do not drive on it.",
+   "trap": "'massimo di 5 ore' (up to 5 hours) is a made-up time limit.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No 5-hour parking rule on verges",
+    "it": "banchine",
+    "part": "banchina"
+   }
+  },
+  "keywords": [
+   {
+    "it": "banchine",
+    "en": "verges"
+   },
+   {
+    "it": "sosta",
+    "en": "parking"
+   },
+   {
+    "it": "5 ore",
+    "en": "5 hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18516": {
+  "en": "The verge divides the carriageway into two lanes.",
+  "explain": {
+   "short": "Lanes are divided by white lines on the carriageway. The verge is at the side, outside the carriageway.",
+   "rule": "The banchina (verge) is part of the road outside the carriageway, beyond the solid white edge line. As a rule vehicles do not drive on it.",
+   "trap": "'divide la carreggiata' is wrong: the verge is beside the carriageway, not in the middle.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The verge is at the side, not in the middle",
+    "it": "banchina",
+    "part": "banchina"
+   }
+  },
+  "keywords": [
+   {
+    "it": "banchina",
+    "en": "verge"
+   },
+   {
+    "it": "divide",
+    "en": "divides"
+   },
+   {
+    "it": "due corsie",
+    "en": "two lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18517": {
+  "en": "The verge is part of the carriageway, intended for parking vehicles.",
+  "explain": {
+   "short": "The verge is outside the carriageway, and it is not a parking area.",
+   "rule": "The banchina (verge) is part of the road outside the carriageway, beyond the solid white edge line. As a rule vehicles do not drive on it.",
+   "trap": "'parte della carreggiata' is wrong: the verge is part of the road, outside the carriageway.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The verge is not part of the carriageway",
+    "it": "banchina",
+    "part": "banchina"
+   }
+  },
+  "keywords": [
+   {
+    "it": "banchina",
+    "en": "verge"
+   },
+   {
+    "it": "parte della carreggiata",
+    "en": "part of the carriageway"
+   },
+   {
+    "it": "sosta",
+    "en": "parking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18518": {
+  "en": "The sidewalk is a part of the road, raised or marked off in another way, reserved for pedestrians.",
+  "explain": {
+   "short": "This is the definition of a sidewalk: a raised or separated strip of the road for people on foot.",
+   "rule": "The marciapiede (sidewalk) is outside the carriageway and reserved, as a rule, for pedestrians. Parking on it is allowed only with special parking lines.",
+   "trap": "'rialzata o delimitata in altro modo': a sidewalk does not have to be raised.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Sidewalk: raised or marked off, for pedestrians",
+    "it": "marciapiede",
+    "part": "marciapiede"
+   }
+  },
+  "keywords": [
+   {
+    "it": "marciapiede",
+    "en": "sidewalk"
+   },
+   {
+    "it": "rialzata",
+    "en": "raised"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18519": {
+  "en": "The sidewalk is a part of the road reserved, as a rule, for pedestrians.",
+  "explain": {
+   "short": "The sidewalk is for people on foot. Vehicles may use it only in special cases, like marked parking.",
+   "rule": "The marciapiede (sidewalk) is outside the carriageway and reserved, as a rule, for pedestrians. Parking on it is allowed only with special parking lines.",
+   "trap": "'di norma' (as a rule) leaves room for exceptions, such as parking lines.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Sidewalks are, as a rule, for pedestrians",
+    "it": "marciapiede",
+    "part": "marciapiede"
+   }
+  },
+  "keywords": [
+   {
+    "it": "marciapiede",
+    "en": "sidewalk"
+   },
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18520": {
+  "en": "The sidewalk allows vehicles to park only where there are special parking lines.",
+  "explain": {
+   "short": "Parking on a sidewalk is forbidden, unless parking spaces are painted there.",
+   "rule": "The marciapiede (sidewalk) is outside the carriageway and reserved, as a rule, for pedestrians. Parking on it is allowed only with special parking lines.",
+   "trap": "'solo' (only) is right here: without the lines you may not park on the sidewalk.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Park on a sidewalk only inside painted bays",
+    "it": "marciapiede",
+    "part": "marciapiede"
+   }
+  },
+  "keywords": [
+   {
+    "it": "marciapiede",
+    "en": "sidewalk"
+   },
+   {
+    "it": "sosta",
+    "en": "parking"
+   },
+   {
+    "it": "strisce di parcheggio",
+    "en": "parking lines"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18521": {
+  "en": "The sidewalk is a part of the road, outside the carriageway, intended for pedestrian traffic.",
+  "explain": {
+   "short": "The sidewalk is part of the road but outside the carriageway, and it is for people on foot.",
+   "rule": "The marciapiede (sidewalk) is outside the carriageway and reserved, as a rule, for pedestrians. Parking on it is allowed only with special parking lines.",
+   "trap": "'al di fuori della carreggiata' (outside the carriageway) is the key point.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Sidewalk: outside the carriageway, for walkers",
+    "it": "marciapiede",
+    "part": "marciapiede"
+   }
+  },
+  "keywords": [
+   {
+    "it": "marciapiede",
+    "en": "sidewalk"
+   },
+   {
+    "it": "al di fuori della carreggiata",
+    "en": "outside the carriageway"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18522": {
+  "en": "The sidewalk is a part of the carriageway.",
+  "explain": {
+   "short": "The sidewalk is part of the road (strada), but it is outside the carriageway.",
+   "rule": "The marciapiede (sidewalk) is outside the carriageway and reserved, as a rule, for pedestrians. Parking on it is allowed only with special parking lines.",
+   "trap": "'carreggiata' is the trap: the sidewalk belongs to the road, not to the carriageway.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The sidewalk is outside the carriageway",
+    "it": "marciapiede",
+    "part": "marciapiede"
+   }
+  },
+  "keywords": [
+   {
+    "it": "marciapiede",
+    "en": "sidewalk"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18523": {
+  "en": "The sidewalk is a part of the road reserved also for bicycles.",
+  "explain": {
+   "short": "The sidewalk is reserved for pedestrians. Bicycles use the carriageway or cycle paths.",
+   "rule": "The marciapiede (sidewalk) is outside the carriageway and reserved, as a rule, for pedestrians. Parking on it is allowed only with special parking lines.",
+   "trap": "'anche alle biciclette' (also for bicycles) is wrong: only pedestrians.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Bicycles don't ride on the sidewalk",
+    "it": "marciapiede",
+    "part": "marciapiede"
+   }
+  },
+  "keywords": [
+   {
+    "it": "marciapiede",
+    "en": "sidewalk"
+   },
+   {
+    "it": "anche",
+    "en": "also"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18524": {
+  "en": "The sidewalk is reserved for pedestrians and parked vehicles, if it is not raised.",
+  "explain": {
+   "short": "A sidewalk is for pedestrians whether it is raised or not. Parked vehicles are allowed only with special parking lines.",
+   "rule": "The marciapiede (sidewalk) is outside the carriageway and reserved, as a rule, for pedestrians. Parking on it is allowed only with special parking lines.",
+   "trap": "'qualora non sia rialzato' (if it is not raised) is an invented condition.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Raised or not, the sidewalk is for pedestrians",
+    "it": "marciapiede",
+    "part": "marciapiede"
+   }
+  },
+  "keywords": [
+   {
+    "it": "marciapiede",
+    "en": "sidewalk"
+   },
+   {
+    "it": "veicoli in sosta",
+    "en": "parked vehicles"
+   },
+   {
+    "it": "rialzato",
+    "en": "raised"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18525": {
+  "en": "The sidewalk is a part of the road where, as a rule, mopeds may park.",
+  "explain": {
+   "short": "As a rule only pedestrians use the sidewalk. Mopeds may not park there unless there are parking lines.",
+   "rule": "The marciapiede (sidewalk) is outside the carriageway and reserved, as a rule, for pedestrians. Parking on it is allowed only with special parking lines.",
+   "trap": "'ciclomotori' (mopeds) are vehicles: they follow the same parking ban on sidewalks.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No parking for mopeds on the sidewalk",
+    "it": "marciapiede",
+    "part": "marciapiede"
+   }
+  },
+  "keywords": [
+   {
+    "it": "marciapiede",
+    "en": "sidewalk"
+   },
+   {
+    "it": "sosta",
+    "en": "parking"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18526": {
+  "en": "The pedestrian island, placed at pedestrian crossings, also serves as shelter or a waiting place for pedestrians crossing the road.",
+  "explain": {
+   "short": "On a wide road, pedestrians can stop safely on the island halfway across.",
+   "rule": "The salvagente (pedestrian island) is a safe area for pedestrians at crossings and at tram or bus stops. It may have posts with fixed yellow lights.",
+   "trap": "'anche' (also): the island also helps at crossings, not only at tram and bus stops.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pedestrians wait safely halfway across",
+    "it": "salvagente",
+    "lines": [
+     "Safe island for pedestrians",
+     "At crossings and tram/bus stops",
+     "May have fixed yellow lights"
+    ],
+    "icons": [
+     "pedestrian",
+     "tram",
+     "light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "salvagente",
+    "en": "pedestrian island"
+   },
+   {
+    "it": "riparo",
+    "en": "shelter"
+   },
+   {
+    "it": "attraversamenti pedonali",
+    "en": "pedestrian crossings"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18527": {
+  "en": "The pedestrian island makes it easier for passengers to get on and off trams, trolleybuses or buses.",
+  "explain": {
+   "short": "At stops in the middle of the road, passengers wait and get on or off from the island, away from traffic.",
+   "rule": "The salvagente (pedestrian island) is a safe area for pedestrians at crossings and at tram or bus stops. It may have posts with fixed yellow lights.",
+   "trap": "'salita e discesa' (getting on and off): this is the main job of the island at stops.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Passengers board trams from the island",
+    "it": "salvagente",
+    "lines": [
+     "Safe island for pedestrians",
+     "At crossings and tram/bus stops",
+     "May have fixed yellow lights"
+    ],
+    "icons": [
+     "pedestrian",
+     "tram",
+     "light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "salvagente",
+    "en": "pedestrian island"
+   },
+   {
+    "it": "salita e la discesa",
+    "en": "getting on and off"
+   },
+   {
+    "it": "tram",
+    "en": "tram"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18528": {
+  "en": "The pedestrian island can be marked by lit posts with a fixed yellow light.",
+  "explain": {
+   "short": "To be seen well, especially at night, the island can have small posts with a steady yellow light.",
+   "rule": "The salvagente (pedestrian island) is a safe area for pedestrians at crossings and at tram or bus stops. It may have posts with fixed yellow lights.",
+   "trap": "'luce gialla fissa' (fixed yellow light): steady, not flashing.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Island posts can have a fixed yellow light",
+    "it": "salvagente",
+    "lines": [
+     "Safe island for pedestrians",
+     "At crossings and tram/bus stops",
+     "May have fixed yellow lights"
+    ],
+    "icons": [
+     "pedestrian",
+     "tram",
+     "light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "salvagente",
+    "en": "pedestrian island"
+   },
+   {
+    "it": "colonnine luminose",
+    "en": "lit posts"
+   },
+   {
+    "it": "luce gialla fissa",
+    "en": "fixed yellow light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18529": {
+  "en": "The pedestrian island serves to divide the directions of traffic on a two-way road.",
+  "explain": {
+   "short": "Separating the two directions is the job of a central divider (spartitraffico). The island is for pedestrians.",
+   "rule": "The salvagente (pedestrian island) is a safe area for pedestrians at crossings and at tram or bus stops. It may have posts with fixed yellow lights.",
+   "trap": "'dividere i sensi di marcia' describes the spartitraffico, not the salvagente.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The island is for pedestrians, not for splitting traffic",
+    "it": "salvagente",
+    "lines": [
+     "Safe island for pedestrians",
+     "At crossings and tram/bus stops",
+     "May have fixed yellow lights"
+    ],
+    "icons": [
+     "pedestrian",
+     "tram",
+     "light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "salvagente",
+    "en": "pedestrian island"
+   },
+   {
+    "it": "dividere i sensi di marcia",
+    "en": "to divide the directions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18530": {
+  "en": "The pedestrian island serves to channel vehicles in various directions.",
+  "explain": {
+   "short": "Channelling vehicles is the job of traffic islands for vehicles. The salvagente protects pedestrians.",
+   "rule": "The salvagente (pedestrian island) is a safe area for pedestrians at crossings and at tram or bus stops. It may have posts with fixed yellow lights.",
+   "trap": "'incanalare i veicoli' (channel vehicles) is about cars, while the salvagente is about pedestrians.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The island protects pedestrians, it doesn't steer cars",
+    "it": "salvagente",
+    "lines": [
+     "Safe island for pedestrians",
+     "At crossings and tram/bus stops",
+     "May have fixed yellow lights"
+    ],
+    "icons": [
+     "pedestrian",
+     "tram",
+     "light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "salvagente",
+    "en": "pedestrian island"
+   },
+   {
+    "it": "incanalare",
+    "en": "to channel"
+   },
+   {
+    "it": "veicoli",
+    "en": "vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18531": {
+  "en": "The pedestrian island is a person in charge of first aid.",
+  "explain": {
+   "short": "In traffic law the salvagente is a place in the road, not a person.",
+   "rule": "The salvagente (pedestrian island) is a safe area for pedestrians at crossings and at tram or bus stops. It may have posts with fixed yellow lights.",
+   "trap": "'salvagente' also means lifebuoy in everyday Italian, but here it is a pedestrian island.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Salvagente is a place, not a person",
+    "it": "salvagente",
+    "lines": [
+     "Safe island for pedestrians",
+     "At crossings and tram/bus stops",
+     "May have fixed yellow lights"
+    ],
+    "icons": [
+     "pedestrian",
+     "tram",
+     "light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "salvagente",
+    "en": "pedestrian island"
+   },
+   {
+    "it": "persona",
+    "en": "person"
+   },
+   {
+    "it": "primo soccorso",
+    "en": "first aid"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18532": {
+  "en": "The pedestrian island is a cycle and pedestrian route.",
+  "explain": {
+   "short": "The salvagente is a small safe area in the road, not a route for bikes and walkers.",
+   "rule": "The salvagente (pedestrian island) is a safe area for pedestrians at crossings and at tram or bus stops. It may have posts with fixed yellow lights.",
+   "trap": "'itinerario ciclopedonale' (cycle-pedestrian route) is a different road type.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Salvagente is a waiting spot, not a route",
+    "it": "salvagente",
+    "lines": [
+     "Safe island for pedestrians",
+     "At crossings and tram/bus stops",
+     "May have fixed yellow lights"
+    ],
+    "icons": [
+     "pedestrian",
+     "tram",
+     "light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "salvagente",
+    "en": "pedestrian island"
+   },
+   {
+    "it": "itinerario ciclopedonale",
+    "en": "cycle and pedestrian route"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18533": {
+  "en": "The driveway entrance lets vehicles reach private properties beside the road (garages, courtyards, etc.).",
+  "explain": {
+   "short": "A passo carrabile is the opening where cars go from the road into a garage or courtyard.",
+   "rule": "A passo carrabile (driveway entrance) is where vehicles enter private side areas. You may stop briefly (fermata) in front of it, but not park (sosta).",
+   "trap": "'proprietà private' (private properties): it is an access, not a road or a car park.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A driveway leads into garages and courtyards",
+    "it": "passo carrabile",
+    "lines": [
+     "Driveway into garages and yards",
+     "Short stop: allowed",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passo carrabile",
+    "en": "driveway entrance"
+   },
+   {
+    "it": "accedere",
+    "en": "to reach"
+   },
+   {
+    "it": "proprietà private",
+    "en": "private properties"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18534": {
+  "en": "The driveway entrance lets vehicles travelling on a public road reach a side area used for parking.",
+  "explain": {
+   "short": "A driveway can also lead from the road into a side area where vehicles park.",
+   "rule": "A passo carrabile (driveway entrance) is where vehicles enter private side areas. You may stop briefly (fermata) in front of it, but not park (sosta).",
+   "trap": "'area laterale adibita alla sosta' (side parking area): the parking is inside, not in front of the driveway.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A driveway can lead into a parking area",
+    "it": "passo carrabile",
+    "lines": [
+     "Driveway into garages and yards",
+     "Short stop: allowed",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passo carrabile",
+    "en": "driveway entrance"
+   },
+   {
+    "it": "strada pubblica",
+    "en": "public road"
+   },
+   {
+    "it": "area laterale",
+    "en": "side area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18535": {
+  "en": "The driveway entrance must have a special sign showing the authority and the authorisation number.",
+  "explain": {
+   "short": "A real passo carrabile has an official sign with the name of the authority (ente) and the permit number.",
+   "rule": "A passo carrabile (driveway entrance) is where vehicles enter private side areas. You may stop briefly (fermata) in front of it, but not park (sosta).",
+   "trap": "'deve' (must): without this sign it is not an official driveway.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Driveway sign: authority + permit number",
+    "it": "passo carrabile",
+    "lines": [
+     "Driveway into garages and yards",
+     "Short stop: allowed",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passo carrabile",
+    "en": "driveway entrance"
+   },
+   {
+    "it": "apposito segnale",
+    "en": "special sign"
+   },
+   {
+    "it": "numero di autorizzazione",
+    "en": "authorisation number"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18536": {
+  "en": "The driveway entrance is an area for vehicles to access properties beside the road.",
+  "explain": {
+   "short": "This is the definition: a place where vehicles go in and out of side properties.",
+   "rule": "A passo carrabile (driveway entrance) is where vehicles enter private side areas. You may stop briefly (fermata) in front of it, but not park (sosta).",
+   "trap": "'accesso' (access) is the key word of the definition.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Driveway = access to side properties",
+    "it": "passo carrabile",
+    "lines": [
+     "Driveway into garages and yards",
+     "Short stop: allowed",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passo carrabile",
+    "en": "driveway entrance"
+   },
+   {
+    "it": "accesso",
+    "en": "access"
+   },
+   {
+    "it": "proprietà laterali",
+    "en": "side properties"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18537": {
+  "en": "In front of the driveway entrance, stopping is allowed.",
+  "explain": {
+   "short": "A fermata (short stop, driver ready to leave) does not block the driveway for long, so it is allowed.",
+   "rule": "A passo carrabile (driveway entrance) is where vehicles enter private side areas. You may stop briefly (fermata) in front of it, but not park (sosta).",
+   "trap": "'fermata' (short stop) is allowed; 'sosta' (parking) is not.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Short stop in front of a driveway: allowed",
+    "it": "passo carrabile",
+    "lines": [
+     "Driveway into garages and yards",
+     "Short stop: allowed",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passo carrabile",
+    "en": "driveway entrance"
+   },
+   {
+    "it": "fermata",
+    "en": "short stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18538": {
+  "en": "The driveway entrance is a park-and-ride car park.",
+  "explain": {
+   "short": "A park-and-ride is a car park where you leave the car and take public transport. A driveway is only an access.",
+   "rule": "A passo carrabile (driveway entrance) is where vehicles enter private side areas. You may stop briefly (fermata) in front of it, but not park (sosta).",
+   "trap": "'parcheggio scambiatore' (park-and-ride) has nothing to do with a driveway.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A driveway is an access, not a car park",
+    "it": "passo carrabile",
+    "lines": [
+     "Driveway into garages and yards",
+     "Short stop: allowed",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passo carrabile",
+    "en": "driveway entrance"
+   },
+   {
+    "it": "parcheggio scambiatore",
+    "en": "park-and-ride car park"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18539": {
+  "en": "The driveway entrance is a road reserved for animal-drawn carts.",
+  "explain": {
+   "short": "'carrabile' comes from 'carro' (cart), but today it just means vehicles can pass. It is an access, not a road.",
+   "rule": "A passo carrabile (driveway entrance) is where vehicles enter private side areas. You may stop briefly (fermata) in front of it, but not park (sosta).",
+   "trap": "'carri trainati da animali' plays on the old word 'carro'.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A driveway is an access, not a road for carts",
+    "it": "passo carrabile",
+    "lines": [
+     "Driveway into garages and yards",
+     "Short stop: allowed",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passo carrabile",
+    "en": "driveway entrance"
+   },
+   {
+    "it": "carri trainati da animali",
+    "en": "animal-drawn carts"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18540": {
+  "en": "The driveway entrance is a road reserved for lorries.",
+  "explain": {
+   "short": "A driveway is an access to private properties for any vehicle, not a road for lorries.",
+   "rule": "A passo carrabile (driveway entrance) is where vehicles enter private side areas. You may stop briefly (fermata) in front of it, but not park (sosta).",
+   "trap": "'riservata agli autocarri' (reserved for lorries) is invented.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A driveway is an access for any vehicle",
+    "it": "passo carrabile",
+    "lines": [
+     "Driveway into garages and yards",
+     "Short stop: allowed",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passo carrabile",
+    "en": "driveway entrance"
+   },
+   {
+    "it": "autocarri",
+    "en": "lorries"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18541": {
+  "en": "The driveway entrance is a round pedestrian island.",
+  "explain": {
+   "short": "A pedestrian island is a salvagente. A driveway is a vehicle access to private properties.",
+   "rule": "A passo carrabile (driveway entrance) is where vehicles enter private side areas. You may stop briefly (fermata) in front of it, but not park (sosta).",
+   "trap": "'salvagente circolare' mixes up two different road parts.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A driveway is not a pedestrian island",
+    "it": "passo carrabile",
+    "lines": [
+     "Driveway into garages and yards",
+     "Short stop: allowed",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passo carrabile",
+    "en": "driveway entrance"
+   },
+   {
+    "it": "salvagente",
+    "en": "pedestrian island"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18542": {
+  "en": "The driveway entrance is a sign that requires roundabout traffic around a square.",
+  "explain": {
+   "short": "A driveway is a place (an access to properties), not a roundabout sign.",
+   "rule": "A passo carrabile (driveway entrance) is where vehicles enter private side areas. You may stop briefly (fermata) in front of it, but not park (sosta).",
+   "trap": "'segnale che impone la circolazione rotatoria' describes a roundabout sign.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A driveway is an access, not a roundabout sign",
+    "it": "passo carrabile",
+    "lines": [
+     "Driveway into garages and yards",
+     "Short stop: allowed",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passo carrabile",
+    "en": "driveway entrance"
+   },
+   {
+    "it": "circolazione rotatoria",
+    "en": "roundabout traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18543": {
+  "en": "In front of the driveway entrance, parking is allowed.",
+  "explain": {
+   "short": "Parking (sosta) in front of a driveway would block the way in and out, so it is forbidden.",
+   "rule": "A passo carrabile (driveway entrance) is where vehicles enter private side areas. You may stop briefly (fermata) in front of it, but not park (sosta).",
+   "trap": "'sosta' (parking) is forbidden; only a 'fermata' (short stop) is allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No parking in front of a driveway",
+    "it": "passo carrabile",
+    "lines": [
+     "Driveway into garages and yards",
+     "Short stop: allowed",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passo carrabile",
+    "en": "driveway entrance"
+   },
+   {
+    "it": "sosta",
+    "en": "parking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18544": {
+  "en": "Two-wheeled vehicles with a combustion engine up to 50 cm3 and a top speed of 45 km/h are mopeds.",
+  "explain": {
+   "short": "This matches the definition of a ciclomotore: two wheels, combustion engine up to 50 cm3, top speed 45 km/h.",
+   "rule": "A ciclomotore (moped) has 2 or 3 wheels, a top speed of 45 km/h and, with a combustion engine, at most 50 cm3. First test after 4 years, then every 2 years.",
+   "trap": "'fino a 50' and '45 km/h' are the exact limits: above them it is a motorcycle.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Up to 50 cm3 and 45 km/h = moped",
+    "it": "ciclomotori",
+    "lines": [
+     "2 or 3 wheels, max 45 km/h",
+     "Fuel engine: max 50 cm3",
+     "Test after 4 years, then every 2"
+    ],
+    "icons": [
+     "moto",
+     "engine",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   },
+   {
+    "it": "motore termico",
+    "en": "combustion engine"
+   },
+   {
+    "it": "velocità massima",
+    "en": "top speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18545": {
+  "en": "Mopeds can have two or three wheels.",
+  "explain": {
+   "short": "There are two-wheeled mopeds and three-wheeled mopeds: both are ciclomotori.",
+   "rule": "A ciclomotore (moped) has 2 or 3 wheels, a top speed of 45 km/h and, with a combustion engine, at most 50 cm3. First test after 4 years, then every 2 years.",
+   "trap": "'due o tre ruote' is correct: three-wheelers can be mopeds too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mopeds: two or three wheels",
+    "it": "ciclomotori",
+    "lines": [
+     "2 or 3 wheels, max 45 km/h",
+     "Fuel engine: max 50 cm3",
+     "Test after 4 years, then every 2"
+    ],
+    "icons": [
+     "moto",
+     "engine",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   },
+   {
+    "it": "due o tre ruote",
+    "en": "two or three wheels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18546": {
+  "en": "Not all two-wheeled motor vehicles are classed as mopeds.",
+  "explain": {
+   "short": "Bigger or faster two-wheelers (over 50 cm3 or over 45 km/h) are motorcycles (motocicli), not mopeds.",
+   "rule": "A ciclomotore (moped) has 2 or 3 wheels, a top speed of 45 km/h and, with a combustion engine, at most 50 cm3. First test after 4 years, then every 2 years.",
+   "trap": "'Non tutti' (not all) is right: some are mopeds, others are motorcycles.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bigger two-wheelers are motorcycles",
+    "it": "Non tutti",
+    "lines": [
+     "2 or 3 wheels, max 45 km/h",
+     "Fuel engine: max 50 cm3",
+     "Test after 4 years, then every 2"
+    ],
+    "icons": [
+     "moto",
+     "engine",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Non tutti",
+    "en": "not all"
+   },
+   {
+    "it": "veicoli a motore a due ruote",
+    "en": "two-wheeled motor vehicles"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18547": {
+  "en": "Two-wheeled mopeds cannot have a combustion engine of more than 50 cm3.",
+  "explain": {
+   "short": "50 cm3 is the maximum engine size of a two-wheeled moped with a combustion engine.",
+   "rule": "A ciclomotore (moped) has 2 or 3 wheels, a top speed of 45 km/h and, with a combustion engine, at most 50 cm3. First test after 4 years, then every 2 years.",
+   "trap": "'superiore a 50' (more than 50): above 50 cm3 it is no longer a moped.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Two-wheeled moped: max 50 cm3",
+    "it": "ciclomotori",
+    "lines": [
+     "2 or 3 wheels, max 45 km/h",
+     "Fuel engine: max 50 cm3",
+     "Test after 4 years, then every 2"
+    ],
+    "icons": [
+     "moto",
+     "engine",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   },
+   {
+    "it": "motore termico",
+    "en": "combustion engine"
+   },
+   {
+    "it": "superiore a 50",
+    "en": "more than 50"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18548": {
+  "en": "Mopeds must be tested four years after first registration, and then every two years.",
+  "explain": {
+   "short": "Like cars, mopeds need a roadworthiness test (revisione): the first after 4 years, then every 2 years.",
+   "rule": "A ciclomotore (moped) has 2 or 3 wheels, a top speed of 45 km/h and, with a combustion engine, at most 50 cm3. First test after 4 years, then every 2 years.",
+   "trap": "'quattro' then 'due': the same timing as cars.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Moped test: after 4 years, then every 2",
+    "it": "ciclomotori",
+    "lines": [
+     "2 or 3 wheels, max 45 km/h",
+     "Fuel engine: max 50 cm3",
+     "Test after 4 years, then every 2"
+    ],
+    "icons": [
+     "moto",
+     "engine",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   },
+   {
+    "it": "revisione",
+    "en": "roadworthiness test"
+   },
+   {
+    "it": "prima immatricolazione",
+    "en": "first registration"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18549": {
+  "en": "Mopeds do not have more than two wheels.",
+  "explain": {
+   "short": "Mopeds can also have three wheels, so 'not more than two' is wrong.",
+   "rule": "A ciclomotore (moped) has 2 or 3 wheels, a top speed of 45 km/h and, with a combustion engine, at most 50 cm3. First test after 4 years, then every 2 years.",
+   "trap": "'non hanno più di due ruote' forgets three-wheeled mopeds.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Mopeds can have 3 wheels too",
+    "it": "ciclomotori",
+    "lines": [
+     "2 or 3 wheels, max 45 km/h",
+     "Fuel engine: max 50 cm3",
+     "Test after 4 years, then every 2"
+    ],
+    "icons": [
+     "moto",
+     "engine",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   },
+   {
+    "it": "più di due ruote",
+    "en": "more than two wheels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18550": {
+  "en": "Pedal-assisted bicycles with an auxiliary electric motor of up to 0.25 kW are defined as mopeds.",
+  "explain": {
+   "short": "These e-bikes help only while you pedal, so the law treats them as bicycles, not mopeds.",
+   "rule": "A ciclomotore (moped) has 2 or 3 wheels, a top speed of 45 km/h and, with a combustion engine, at most 50 cm3. First test after 4 years, then every 2 years.",
+   "trap": "'pedalata assistita' (pedal assist) means a bicycle, even with a small motor.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Pedal-assist e-bikes are bicycles, not mopeds",
+    "it": "pedalata assistita",
+    "lines": [
+     "2 or 3 wheels, max 45 km/h",
+     "Fuel engine: max 50 cm3",
+     "Test after 4 years, then every 2"
+    ],
+    "icons": [
+     "moto",
+     "engine",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pedalata assistita",
+    "en": "pedal assist"
+   },
+   {
+    "it": "motore elettrico ausiliario",
+    "en": "auxiliary electric motor"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18551": {
+  "en": "All two-wheeled vehicles with an engine above 50 cm3 are defined as mopeds.",
+  "explain": {
+   "short": "It is the opposite: above 50 cm3 a two-wheeler is a motorcycle, not a moped.",
+   "rule": "A ciclomotore (moped) has 2 or 3 wheels, a top speed of 45 km/h and, with a combustion engine, at most 50 cm3. First test after 4 years, then every 2 years.",
+   "trap": "'superiore a 50' (above 50) flips the rule: mopeds are UP TO 50 cm3.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Above 50 cm3 it is a motorcycle",
+    "it": "ciclomotori",
+    "lines": [
+     "2 or 3 wheels, max 45 km/h",
+     "Fuel engine: max 50 cm3",
+     "Test after 4 years, then every 2"
+    ],
+    "icons": [
+     "moto",
+     "engine",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   },
+   {
+    "it": "tutti",
+    "en": "all"
+   },
+   {
+    "it": "superiore a 50",
+    "en": "above 50"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18552": {
+  "en": "Mopeds, to be defined as such, must have a manual gearbox.",
+  "explain": {
+   "short": "The gearbox does not matter: many mopeds are automatic (scooters). Only wheels, engine size and speed count.",
+   "rule": "A ciclomotore (moped) has 2 or 3 wheels, a top speed of 45 km/h and, with a combustion engine, at most 50 cm3. First test after 4 years, then every 2 years.",
+   "trap": "'devono' (must) invents a requirement: the gearbox type is not part of the definition.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Gearbox type doesn't define a moped",
+    "it": "ciclomotori",
+    "lines": [
+     "2 or 3 wheels, max 45 km/h",
+     "Fuel engine: max 50 cm3",
+     "Test after 4 years, then every 2"
+    ],
+    "icons": [
+     "moto",
+     "engine",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   },
+   {
+    "it": "cambio manuale",
+    "en": "manual gearbox"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18553": {
+  "en": "Mopeds can travel at 60 km/h outside urban areas.",
+  "explain": {
+   "short": "A moped's top speed is 45 km/h everywhere, so 60 km/h is too fast.",
+   "rule": "A ciclomotore (moped) has 2 or 3 wheels, a top speed of 45 km/h and, with a combustion engine, at most 50 cm3. First test after 4 years, then every 2 years.",
+   "trap": "'60 km/h' is above the moped limit of 45 km/h, even outside towns.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Mopeds: max 45 km/h, also outside towns",
+    "it": "ciclomotori",
+    "lines": [
+     "2 or 3 wheels, max 45 km/h",
+     "Fuel engine: max 50 cm3",
+     "Test after 4 years, then every 2"
+    ],
+    "icons": [
+     "moto",
+     "engine",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   },
+   {
+    "it": "60 km/h",
+    "en": "60 km/h"
+   },
+   {
+    "it": "fuori dai centri urbani",
+    "en": "outside urban areas"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18554": {
+  "en": "Mopeds are not subject to periodic roadworthiness testing.",
+  "explain": {
+   "short": "Mopeds do need the revisione: after 4 years, then every 2 years.",
+   "rule": "A ciclomotore (moped) has 2 or 3 wheels, a top speed of 45 km/h and, with a combustion engine, at most 50 cm3. First test after 4 years, then every 2 years.",
+   "trap": "'non sono soggetti' (are not subject) is wrong: the test is compulsory.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Mopeds DO need periodic tests",
+    "it": "ciclomotori",
+    "lines": [
+     "2 or 3 wheels, max 45 km/h",
+     "Fuel engine: max 50 cm3",
+     "Test after 4 years, then every 2"
+    ],
+    "icons": [
+     "moto",
+     "engine",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   },
+   {
+    "it": "revisione periodica",
+    "en": "periodic test"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

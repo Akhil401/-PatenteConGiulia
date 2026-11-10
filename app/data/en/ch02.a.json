@@ -1,0 +1,2423 @@
+{
+ "q18850": {
+  "en": "The sign shown warns of a stretch of uneven road ahead.",
+  "explain": {
+   "short": "The wavy line shows a damaged, bumpy road surface: this is the 'strada deformata' (uneven road) sign.",
+   "rule": "'Strada deformata' (uneven road) is a danger sign, about 150 m before a damaged or irregular road surface.",
+   "trap": "'deformata' means bent out of shape: here, an uneven road surface.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Uneven road ahead: slow down",
+    "it": "strada deformata",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "warns of (ahead)"
+   },
+   {
+    "it": "strada deformata",
+    "en": "uneven road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18851": {
+  "en": "The sign shown can be paired with a maximum speed limit sign.",
+  "explain": {
+   "short": "A speed limit is often added under this sign, so that drivers cross the bumpy stretch slowly.",
+   "rule": "'Strada deformata' (uneven road) is a danger sign, about 150 m before a damaged or irregular road surface.",
+   "trap": "'può essere' means 'can be': it is allowed, not compulsory.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It can come with a speed limit sign",
+    "it": "limite di velocità",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "può essere associato",
+    "en": "can be paired"
+   },
+   {
+    "it": "limite massimo di velocità",
+    "en": "maximum speed limit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18852": {
+  "en": "The sign shown indicates a stretch of uneven road 380 metres long.",
+  "explain": {
+   "short": "The panel with arrows pointing up gives the LENGTH of the danger: the uneven road lasts 380 m.",
+   "rule": "'Strada deformata' (uneven road) is a danger sign, about 150 m before a damaged or irregular road surface.",
+   "trap": "A panel with arrows ('↑380m↑') is a length; a panel without arrows is a distance.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrows on the panel = the stretch is 380 m long",
+    "it": "lungo 380 metri",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada deformata",
+    "en": "uneven road"
+   },
+   {
+    "it": "lungo 380 metri",
+    "en": "380 metres long"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18853": {
+  "en": "The sign shown warns of a stretch of road with an irregular surface.",
+  "explain": {
+   "short": "An uneven road has an irregular surface, with bumps and holes: this is what the sign warns of.",
+   "rule": "'Strada deformata' (uneven road) is a danger sign, about 150 m before a damaged or irregular road surface.",
+   "trap": "'pavimentazione irregolare' (irregular surface) is another way to say 'strada deformata'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Irregular road surface ahead",
+    "it": "pavimentazione irregolare",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "warns of (ahead)"
+   },
+   {
+    "it": "pavimentazione irregolare",
+    "en": "irregular road surface"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18854": {
+  "en": "The sign shown warns of a road in bad condition.",
+  "explain": {
+   "short": "A damaged, bumpy road is a road in bad condition: the sign warns of exactly this.",
+   "rule": "'Strada deformata' (uneven road) is a danger sign, about 150 m before a damaged or irregular road surface.",
+   "trap": "'cattivo stato' (bad condition) is a correct description of the uneven road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road in bad condition ahead",
+    "it": "cattivo stato",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "warns of (ahead)"
+   },
+   {
+    "it": "cattivo stato",
+    "en": "bad condition"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18855": {
+  "en": "The sign shown is a danger sign.",
+  "explain": {
+   "short": "Red-edged triangle with the point up: all signs with this shape are danger signs.",
+   "rule": "'Strada deformata' (uneven road) is a danger sign, about 150 m before a damaged or irregular road surface.",
+   "trap": "The triangle shape gives it away: 'pericolo' means danger.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red triangle = danger sign",
+    "it": "pericolo",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18856": {
+  "en": "The sign shown is, as a rule, placed 150 metres before a stretch of road with an irregular surface.",
+  "explain": {
+   "short": "Outside towns, danger signs are normally placed about 150 m before the danger, to give you time to slow down.",
+   "rule": "'Strada deformata' (uneven road) is a danger sign, about 150 m before a damaged or irregular road surface.",
+   "trap": "'in genere' (as a rule) allows exceptions, so the statement is correct.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "About 150 m before the bumpy stretch",
+    "it": "150 metri",
+    "action": "slow",
+    "hazard": "🚧",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in genere",
+    "en": "as a rule"
+   },
+   {
+    "it": "150 metri prima",
+    "en": "150 metres before"
+   },
+   {
+    "it": "fondo irregolare",
+    "en": "irregular surface"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18857": {
+  "en": "The sign shown warns of a stretch of damaged road.",
+  "explain": {
+   "short": "'Dissestata' means broken up, damaged: the same idea as an uneven road.",
+   "rule": "'Strada deformata' (uneven road) is a danger sign, about 150 m before a damaged or irregular road surface.",
+   "trap": "'dissestata' (damaged, broken up) is a synonym of 'deformata' here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Damaged road ahead",
+    "it": "dissestata",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "warns of (ahead)"
+   },
+   {
+    "it": "strada dissestata",
+    "en": "damaged road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18858": {
+  "en": "The sign shown, if on a yellow background, is used where there are roadworks.",
+  "explain": {
+   "short": "Danger signs with a yellow background are temporary signs used at roadworks (cantieri).",
+   "rule": "'Strada deformata' (uneven road) is a danger sign, about 150 m before a damaged or irregular road surface.",
+   "trap": "'se a fondo giallo' (if yellow background): yellow means temporary, for roadworks.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow background = temporary, for roadworks",
+    "it": "fondo giallo",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fondo giallo",
+    "en": "yellow background"
+   },
+   {
+    "it": "cantieri stradali",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18859": {
+  "en": "The sign shown is a prescription sign.",
+  "explain": {
+   "short": "It is a triangle, so it is a danger sign. Prescription signs (orders and bans) are mostly round.",
+   "rule": "'Strada deformata' (uneven road) is a danger sign, about 150 m before a damaged or irregular road surface.",
+   "trap": "'prescrizione' (prescription) means orders and bans: not this triangle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It is a DANGER sign, not a prescription sign",
+    "it": "prescrizione",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di prescrizione",
+    "en": "prescription sign (order/ban)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18860": {
+  "en": "The sign shown warns of a dangerous descent.",
+  "explain": {
+   "short": "A dangerous descent has its own sign with a sloping line and a percentage. This sign shows a wavy, bumpy surface.",
+   "rule": "'Strada deformata' (uneven road) is a danger sign, about 150 m before a damaged or irregular road surface.",
+   "trap": "'discesa pericolosa' (dangerous descent) is a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It warns of an uneven road, not a descent",
+    "it": "discesa",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "discesa pericolosa",
+    "en": "dangerous descent"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18861": {
+  "en": "The sign shown warns of several bends in a row.",
+  "explain": {
+   "short": "Several bends are shown with a zig-zag arrow. Here the line is horizontal and bumpy: an uneven road.",
+   "rule": "'Strada deformata' (uneven road) is a danger sign, about 150 m before a damaged or irregular road surface.",
+   "trap": "'più curve consecutive' (several bends in a row) is a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Uneven road, not a series of bends",
+    "it": "curve",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "più curve consecutive",
+    "en": "several bends in a row"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18862": {
+  "en": "The sign shown warns of a series of humps.",
+  "explain": {
+   "short": "A hump (dosso) sign shows ONE rounded bump. This sign shows an irregular, wavy surface: uneven road.",
+   "rule": "'Strada deformata' (uneven road) is a danger sign, about 150 m before a damaged or irregular road surface.",
+   "trap": "'serie di dossi' (series of humps) sounds close, but the sign is 'strada deformata'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Uneven road, not a series of humps",
+    "it": "dossi",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "serie di dossi",
+    "en": "series of humps"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18863": {
+  "en": "The sign shown warns of a sharp change in the slope of the road.",
+  "explain": {
+   "short": "A change of slope is a hump or a dip. This sign is about a bumpy surface, not a slope.",
+   "rule": "'Strada deformata' (uneven road) is a danger sign, about 150 m before a damaged or irregular road surface.",
+   "trap": "'variazione di pendenza' (change of slope) describes the hump, not this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bumpy surface, not a change of slope",
+    "it": "pendenza",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "variazione di pendenza",
+    "en": "change of slope"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18864": {
+  "en": "The sign shown warns of a double bend.",
+  "explain": {
+   "short": "A double bend is shown with an S-shaped arrow. Here there is no arrow, only a bumpy line.",
+   "rule": "'Strada deformata' (uneven road) is a danger sign, about 150 m before a damaged or irregular road surface.",
+   "trap": "'doppia curva' (double bend) is a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Uneven road, not a double bend",
+    "it": "doppia curva",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "doppia curva",
+    "en": "double bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18865": {
+  "en": "The sign shown warns of a hump.",
+  "explain": {
+   "short": "The hump (dosso) sign has one smooth bump. This one has a wavy, irregular line: uneven road.",
+   "rule": "'Strada deformata' (uneven road) is a danger sign, about 150 m before a damaged or irregular road surface.",
+   "trap": "'dosso' (hump) is the sign most often confused with this one.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Uneven road, not a hump",
+    "it": "dosso",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "dosso",
+    "en": "hump"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18866": {
+  "en": "The sign shown warns of a dip or a hump.",
+  "explain": {
+   "short": "Dip (cunetta) and hump (dosso) have their own signs. This one shows a bumpy surface: uneven road.",
+   "rule": "'Strada deformata' (uneven road) is a danger sign, about 150 m before a damaged or irregular road surface.",
+   "trap": "'cunetta o un dosso' (dip or hump): neither is right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Uneven road, not a dip or a hump",
+    "it": "cunetta",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cunetta",
+    "en": "dip"
+   },
+   {
+    "it": "dosso",
+    "en": "hump"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18867": {
+  "en": "The sign shown warns of a stretch of road with limited visibility.",
+  "explain": {
+   "short": "Limited visibility is typical of a hump or a bend. This sign warns of a bad surface, not of poor view.",
+   "rule": "'Strada deformata' (uneven road) is a danger sign, about 150 m before a damaged or irregular road surface.",
+   "trap": "'visibilità limitata' (limited visibility) belongs to the hump sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bad surface, not limited visibility",
+    "it": "visibilità limitata",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "visibilità limitata",
+    "en": "limited visibility"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18868": {
+  "en": "The sign shown indicates a stretch of uneven road 320 metres long.",
+  "explain": {
+   "short": "The panel has NO arrows, so 320 m is the DISTANCE to the uneven road, not its length.",
+   "rule": "'Strada deformata' (uneven road) is a danger sign, about 150 m before a damaged or irregular road surface.",
+   "trap": "Without arrows, '320 m' is a distance ('the danger starts in 320 m'), not a length.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No arrows: the danger starts in 320 m",
+    "it": "lungo 320 metri",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada deformata",
+    "en": "uneven road"
+   },
+   {
+    "it": "lungo 320 metri",
+    "en": "320 metres long"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18869": {
+  "en": "Where you see the sign shown, it is important to expect possible skidding of vehicles coming the other way.",
+  "explain": {
+   "short": "On a bumpy road any vehicle can lose grip or swerve, also those coming towards you. Be ready for it.",
+   "rule": "On an uneven road slow down, hold the wheel firmly and expect skids, also from oncoming cars.",
+   "trap": "'senso opposto' means the opposite direction: oncoming traffic.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Oncoming cars may skid on the bumps",
+    "it": "sbandamenti",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "prevedere",
+    "en": "to expect"
+   },
+   {
+    "it": "sbandamenti",
+    "en": "skids / swerves"
+   },
+   {
+    "it": "senso opposto",
+    "en": "opposite direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18870": {
+  "en": "Where you see the sign shown, you must adjust your speed to the particular condition of the road surface.",
+  "explain": {
+   "short": "The surface is damaged, so your speed must suit it: slower where it is worse.",
+   "rule": "On an uneven road slow down, hold the wheel firmly and expect skids, also from oncoming cars.",
+   "trap": "'adeguare' means adjust: speed must fit the surface.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Adjust speed to the bad surface",
+    "it": "adeguare la velocità",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "adeguare la velocità",
+    "en": "adjust your speed"
+   },
+   {
+    "it": "fondo stradale",
+    "en": "road surface"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18871": {
+  "en": "Where you see the sign shown, you must drive at a moderate speed if you are towing a trailer.",
+  "explain": {
+   "short": "A trailer bounces a lot on bumps and can sway: drive slowly.",
+   "rule": "On an uneven road slow down, hold the wheel firmly and expect skids, also from oncoming cars.",
+   "trap": "'se si traina un rimorchio' (if towing a trailer) adds a case where slowing is even more needed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "With a trailer: drive slowly on bumps",
+    "it": "rimorchio",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "velocità moderata",
+    "en": "moderate speed"
+   },
+   {
+    "it": "rimorchio",
+    "en": "trailer"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18872": {
+  "en": "Where you see the sign shown, you must slow down to avoid excessive stress and damage to the suspension.",
+  "explain": {
+   "short": "Driving fast over bumps hits the suspension hard and can damage it. Slowing down protects the car.",
+   "rule": "On an uneven road slow down, hold the wheel firmly and expect skids, also from oncoming cars.",
+   "trap": "'sospensioni' (suspension) is the part of the car that absorbs bumps.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down to save the suspension",
+    "it": "sospensioni",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "moderare la velocità",
+    "en": "slow down"
+   },
+   {
+    "it": "sollecitazioni",
+    "en": "stress / strain"
+   },
+   {
+    "it": "sospensioni",
+    "en": "suspension"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18873": {
+  "en": "Where you see the sign shown, you must hold the steering wheel firmly to control possible skids.",
+  "explain": {
+   "short": "Bumps can jerk the steering wheel. A firm grip keeps the car under control.",
+   "rule": "On an uneven road slow down, hold the wheel firmly and expect skids, also from oncoming cars.",
+   "trap": "'saldamente' means firmly.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hold the wheel firmly on bumps",
+    "it": "volante",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "saldamente",
+    "en": "firmly"
+   },
+   {
+    "it": "volante",
+    "en": "steering wheel"
+   },
+   {
+    "it": "sbandamenti",
+    "en": "skids"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18874": {
+  "en": "Where you see the sign shown, you must drive in the centre of the carriageway.",
+  "explain": {
+   "short": "A danger sign gives no order about your position. You keep to the right as always.",
+   "rule": "On an uneven road slow down, hold the wheel firmly and expect skids, also from oncoming cars.",
+   "trap": "'obbligatorio' (compulsory): a danger sign creates no such duty.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down, but keep to the right",
+    "it": "al centro",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligatorio",
+    "en": "compulsory"
+   },
+   {
+    "it": "al centro della carreggiata",
+    "en": "in the centre of the carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18875": {
+  "en": "Where you see the sign shown, you do not need to slow down in poor visibility.",
+  "explain": {
+   "short": "Poor visibility plus a bad surface is double danger: you must slow down even more.",
+   "rule": "On an uneven road slow down, hold the wheel firmly and expect skids, also from oncoming cars.",
+   "trap": "'non è necessario' (not necessary) is the trap: slowing down IS needed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Poor visibility + bumps: slow down even more",
+    "it": "rallentare",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è necessario",
+    "en": "it is not necessary"
+   },
+   {
+    "it": "rallentare",
+    "en": "to slow down"
+   },
+   {
+    "it": "scarsa visibilità",
+    "en": "poor visibility"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18876": {
+  "en": "Where you see the sign shown, you must watch out for the carriageway narrowing.",
+  "explain": {
+   "short": "A narrowing has its own sign (strettoia). This sign is about a bumpy surface.",
+   "rule": "On an uneven road slow down, hold the wheel firmly and expect skids, also from oncoming cars.",
+   "trap": "'restringimento' (narrowing) is a different danger.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bumpy surface, not a narrowing",
+    "it": "restringimento",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "restringimento",
+    "en": "narrowing"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18877": {
+  "en": "Where you see the sign shown, overtaking is forbidden.",
+  "explain": {
+   "short": "A danger sign does not ban overtaking. Only a no-overtaking sign or other rules (bends, humps...) do.",
+   "rule": "On an uneven road slow down, hold the wheel firmly and expect skids, also from oncoming cars.",
+   "trap": "'vietato' (forbidden): this sign forbids nothing.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No overtaking ban: just slow down",
+    "it": "sorpasso",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato",
+    "en": "forbidden"
+   },
+   {
+    "it": "sorpasso",
+    "en": "overtaking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18878": {
+  "en": "Where you see the sign shown, you must slow down only if vehicles are coming the other way.",
+  "explain": {
+   "short": "You slow down because of the bad surface, always, with or without oncoming traffic.",
+   "rule": "On an uneven road slow down, hold the wheel firmly and expect skids, also from oncoming cars.",
+   "trap": "'solo se' (only if) wrongly limits a duty that always applies.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down always, not only for oncoming cars",
+    "it": "solo se",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "rallentare",
+    "en": "to slow down"
+   },
+   {
+    "it": "solo se",
+    "en": "only if"
+   },
+   {
+    "it": "senso opposto",
+    "en": "opposite direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18879": {
+  "en": "The sign shown warns of a hump.",
+  "explain": {
+   "short": "One smooth black bump: this is the 'dosso' (hump) sign, a short rise and fall of the road.",
+   "rule": "'Dosso' (hump) is a danger sign: the road goes up and down and you cannot see beyond the top.",
+   "trap": "'dosso' means hump: a road that goes up and then down.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hump ahead: slow down",
+    "it": "dosso",
+    "action": "slow",
+    "hazard": "⛰️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "warns of (ahead)"
+   },
+   {
+    "it": "dosso",
+    "en": "hump"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18880": {
+  "en": "The sign shown warns of a stretch of road that is dangerous because of limited visibility.",
+  "explain": {
+   "short": "On a hump you cannot see past the top: what comes from the other side is hidden.",
+   "rule": "'Dosso' (hump) is a danger sign: the road goes up and down and you cannot see beyond the top.",
+   "trap": "'limitata visibilità' (limited visibility) is exactly the danger of a hump.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "You cannot see past the top of the hump",
+    "it": "limitata visibilità",
+    "action": "slow",
+    "hazard": "⛰️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pericoloso",
+    "en": "dangerous"
+   },
+   {
+    "it": "limitata visibilità",
+    "en": "limited visibility"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18881": {
+  "en": "The sign shown is, as a rule, placed 150 metres before a hump.",
+  "explain": {
+   "short": "Outside towns, danger signs normally stand 150 m before the danger.",
+   "rule": "'Dosso' (hump) is a danger sign: the road goes up and down and you cannot see beyond the top.",
+   "trap": "'di norma' (as a rule) allows exceptions: correct.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "As a rule, 150 m before the hump",
+    "it": "150 metri",
+    "action": "slow",
+    "hazard": "⛰️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "150 metri prima",
+    "en": "150 metres before"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18882": {
+  "en": "Where you see the sign shown, you must consider that visibility is limited.",
+  "explain": {
+   "short": "The top of the hump hides the road beyond it, so you see less than usual.",
+   "rule": "'Dosso' (hump) is a danger sign: the road goes up and down and you cannot see beyond the top.",
+   "trap": "'considerare' means keep in mind: plan for poor visibility.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Visibility is limited at the hump",
+    "it": "visibilità",
+    "action": "slow",
+    "hazard": "⛰️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "considerare",
+    "en": "to keep in mind"
+   },
+   {
+    "it": "visibilità è limitata",
+    "en": "visibility is limited"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18883": {
+  "en": "The sign shown warns of a climb followed by a descent.",
+  "explain": {
+   "short": "A hump is exactly this: the road goes up, then down.",
+   "rule": "'Dosso' (hump) is a danger sign: the road goes up and down and you cannot see beyond the top.",
+   "trap": "'salita, seguita da una discesa' (up, then down) is the hump; the dip is the opposite.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hump = up, then down",
+    "it": "salita",
+    "action": "slow",
+    "hazard": "⛰️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "salita",
+    "en": "climb / uphill"
+   },
+   {
+    "it": "discesa",
+    "en": "descent / downhill"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18884": {
+  "en": "The sign shown warns of a change in the slope of the road with limited visibility.",
+  "explain": {
+   "short": "A hump is a change of slope (up then down) where you cannot see past the top.",
+   "rule": "'Dosso' (hump) is a danger sign: the road goes up and down and you cannot see beyond the top.",
+   "trap": "'variazione di pendenza' (change of slope) plus limited visibility = hump.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Change of slope with poor view: the hump",
+    "it": "variazione di pendenza",
+    "action": "slow",
+    "hazard": "⛰️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "variazione di pendenza",
+    "en": "change of slope"
+   },
+   {
+    "it": "limitata visibilità",
+    "en": "limited visibility"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18885": {
+  "en": "The sign shown warns of a dip.",
+  "explain": {
+   "short": "A dip (cunetta) goes down then up, and its sign has a line that sinks. This bump goes UP: it is a hump.",
+   "rule": "'Dosso' (hump) is a danger sign: the road goes up and down and you cannot see beyond the top.",
+   "trap": "'cunetta' (dip) is the opposite of 'dosso' (hump).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hump (up), not a dip (down)",
+    "it": "cunetta",
+    "action": "slow",
+    "hazard": "⛰️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cunetta",
+    "en": "dip"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18886": {
+  "en": "The sign shown warns of a stretch of uneven road.",
+  "explain": {
+   "short": "Uneven road has a wavy line. This sign has one smooth bump: a hump.",
+   "rule": "'Dosso' (hump) is a danger sign: the road goes up and down and you cannot see beyond the top.",
+   "trap": "'strada deformata' (uneven road) is a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hump, not uneven road",
+    "it": "strada deformata",
+    "action": "slow",
+    "hazard": "⛰️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada deformata",
+    "en": "uneven road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18887": {
+  "en": "The sign shown warns of a stretch of road in bad condition.",
+  "explain": {
+   "short": "A road in bad condition is shown by the uneven-road sign. This is the hump sign.",
+   "rule": "'Dosso' (hump) is a danger sign: the road goes up and down and you cannot see beyond the top.",
+   "trap": "'cattivo stato' (bad condition) belongs to the uneven-road sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hump, not a road in bad condition",
+    "it": "cattivo stato",
+    "action": "slow",
+    "hazard": "⛰️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cattivo stato",
+    "en": "bad condition"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18888": {
+  "en": "The sign shown warns of a stretch of road with an irregular surface.",
+  "explain": {
+   "short": "An irregular surface is the uneven-road sign. The hump is about slope and visibility.",
+   "rule": "'Dosso' (hump) is a danger sign: the road goes up and down and you cannot see beyond the top.",
+   "trap": "'pavimentazione irregolare' (irregular surface) is the uneven-road sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hump, not an irregular surface",
+    "it": "pavimentazione irregolare",
+    "action": "slow",
+    "hazard": "⛰️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pavimentazione irregolare",
+    "en": "irregular surface"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18889": {
+  "en": "The sign shown warns of a bridge.",
+  "explain": {
+   "short": "No sign in this family means 'bridge'. The bump shows a hump in the road.",
+   "rule": "'Dosso' (hump) is a danger sign: the road goes up and down and you cannot see beyond the top.",
+   "trap": "'ponte' (bridge): the rounded shape may look like one, but it is a hump.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hump, not a bridge",
+    "it": "ponte",
+    "action": "slow",
+    "hazard": "⛰️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ponte",
+    "en": "bridge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18890": {
+  "en": "The sign shown warns of roadworks.",
+  "explain": {
+   "short": "Roadworks have their own sign, with a person digging. This is the hump sign.",
+   "rule": "'Dosso' (hump) is a danger sign: the road goes up and down and you cannot see beyond the top.",
+   "trap": "'lavori in corso' (roadworks) is a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hump, not roadworks",
+    "it": "lavori in corso",
+    "action": "slow",
+    "hazard": "⛰️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "lavori in corso",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18891": {
+  "en": "The sign shown warns of the entrance to a tunnel.",
+  "explain": {
+   "short": "A tunnel has a different sign. The black shape here is a hump on the road.",
+   "rule": "'Dosso' (hump) is a danger sign: the road goes up and down and you cannot see beyond the top.",
+   "trap": "'galleria' (tunnel): the shape is not a tunnel opening.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hump, not a tunnel",
+    "it": "galleria",
+    "action": "slow",
+    "hazard": "⛰️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ingresso",
+    "en": "entrance"
+   },
+   {
+    "it": "galleria",
+    "en": "tunnel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18892": {
+  "en": "Where you see the sign shown, you must reduce your speed according to the visibility.",
+  "explain": {
+   "short": "You cannot see beyond the top, so drive at a speed that lets you stop within what you see.",
+   "rule": "At a hump: no U-turn, no stopping or parking, no overtaking uphill on a two-lane two-way road.",
+   "trap": "'in relazione alla visibilità' means speed must match how far you can see.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down: you can't see over the top",
+    "it": "visibilità",
+    "action": "slow",
+    "hazard": "⛰️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "moderare la velocità",
+    "en": "reduce your speed"
+   },
+   {
+    "it": "visibilità",
+    "en": "visibility"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18893": {
+  "en": "Where you see the sign shown, U-turns are forbidden.",
+  "explain": {
+   "short": "Turning round on a hump is very dangerous: drivers coming over the top cannot see you. The law forbids it.",
+   "rule": "At a hump: no U-turn, no stopping or parking, no overtaking uphill on a two-lane two-way road.",
+   "trap": "'inversione di marcia' means a U-turn.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No U-turns on a hump",
+    "it": "inversione di marcia",
+    "action": "noUTurn"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietata",
+    "en": "forbidden"
+   },
+   {
+    "it": "inversione di marcia",
+    "en": "U-turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18894": {
+  "en": "Where you see the sign shown, stopping and parking are forbidden on both the uphill and the downhill stretch.",
+  "explain": {
+   "short": "A car standing on a hump is hidden from those coming over the top, on either side. Stopping and parking are both forbidden.",
+   "rule": "At a hump: no U-turn, no stopping or parking, no overtaking uphill on a two-lane two-way road.",
+   "trap": "'sia ... che' (both ... and): the ban covers both sides of the hump.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No stopping or parking on either side",
+    "it": "sosta e la fermata",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta",
+    "en": "parking"
+   },
+   {
+    "it": "fermata",
+    "en": "stopping"
+   },
+   {
+    "it": "salita",
+    "en": "uphill"
+   },
+   {
+    "it": "discesa",
+    "en": "downhill"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18895": {
+  "en": "Where you see the sign shown, overtaking is forbidden on the uphill stretch, if the road is two-way with only two lanes.",
+  "explain": {
+   "short": "Going up, you cannot see oncoming traffic beyond the top. On a two-lane two-way road you would end up on their side.",
+   "rule": "At a hump: no U-turn, no stopping or parking, no overtaking uphill on a two-lane two-way road.",
+   "trap": "Both conditions matter: 'in salita' (uphill) and 'due sole corsie' (only two lanes).",
+   "scene": "overtake.blocked",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No overtaking uphill on a two-lane road",
+    "it": "sorpasso",
+    "hazard": "hill",
+    "road": "twoWay"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato il sorpasso",
+    "en": "overtaking is forbidden"
+   },
+   {
+    "it": "in salita",
+    "en": "uphill"
+   },
+   {
+    "it": "due sole corsie",
+    "en": "only two lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18896": {
+  "en": "The sign shown is a danger sign.",
+  "explain": {
+   "short": "It is a red-edged triangle pointing up: a danger sign.",
+   "rule": "At a hump: no U-turn, no stopping or parking, no overtaking uphill on a two-lane two-way road.",
+   "trap": "'pericolo' (danger): the triangle shape tells you.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red triangle = danger sign",
+    "it": "pericolo",
+    "action": "slow",
+    "hazard": "⛰️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18897": {
+  "en": "The sign shown can warn of artificial humps.",
+  "explain": {
+   "short": "The same sign is used before speed humps built on purpose to slow traffic.",
+   "rule": "At a hump: no U-turn, no stopping or parking, no overtaking uphill on a two-lane two-way road.",
+   "trap": "'dossi artificiali' (artificial humps) = speed bumps; 'può' means can.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Also used before speed bumps",
+    "it": "dossi artificiali",
+    "action": "slow",
+    "hazard": "⛰️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "presegnalare",
+    "en": "to give advance warning of"
+   },
+   {
+    "it": "dossi artificiali",
+    "en": "artificial humps / speed bumps"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18898": {
+  "en": "The sign shown bans buses.",
+  "explain": {
+   "short": "It is a danger sign: it bans nobody. A ban on buses is a round sign with a bus.",
+   "rule": "At a hump: no U-turn, no stopping or parking, no overtaking uphill on a two-lane two-way road.",
+   "trap": "'vieta il transito' (bans): danger signs do not ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A danger sign: it bans nobody",
+    "it": "autobus",
+    "action": "slow",
+    "hazard": "⛰️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans the passage"
+   },
+   {
+    "it": "autobus",
+    "en": "buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18899": {
+  "en": "Where you see the sign shown, overtaking is forbidden on the downhill stretch.",
+  "explain": {
+   "short": "After the top you can see the road ahead again, so this sign does not forbid overtaking on the way down.",
+   "rule": "At a hump: no U-turn, no stopping or parking, no overtaking uphill on a two-lane two-way road.",
+   "trap": "'in discesa' (downhill): the ban is only for the uphill side.",
+   "scene": "overtake.allowed",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Downhill you can see again: no ban here",
+    "it": "discesa",
+    "road": "twoLanesEach",
+    "feature": "hillDownSlope"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato il sorpasso",
+    "en": "overtaking is forbidden"
+   },
+   {
+    "it": "in discesa",
+    "en": "downhill"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18900": {
+  "en": "The sign shown is a mandatory sign.",
+  "explain": {
+   "short": "Mandatory signs are blue circles. This red triangle is a danger sign.",
+   "rule": "At a hump: no U-turn, no stopping or parking, no overtaking uphill on a two-lane two-way road.",
+   "trap": "'obbligo' (mandatory): blue circle, not a triangle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Danger sign, not mandatory",
+    "it": "obbligo",
+    "action": "slow",
+    "hazard": "⛰️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di obbligo",
+    "en": "mandatory sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18901": {
+  "en": "Where you see the sign shown, you may make a U-turn on the downhill stretch.",
+  "explain": {
+   "short": "U-turns are forbidden on the whole hump, downhill too: a car turning there is a danger.",
+   "rule": "At a hump: no U-turn, no stopping or parking, no overtaking uphill on a two-lane two-way road.",
+   "trap": "'è possibile' (it is allowed) is wrong: no U-turns anywhere on a hump.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No U-turn on the hump, downhill too",
+    "it": "inversione di marcia",
+    "action": "noUTurn"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è possibile",
+    "en": "it is allowed"
+   },
+   {
+    "it": "inversione di marcia",
+    "en": "U-turn"
+   },
+   {
+    "it": "in discesa",
+    "en": "downhill"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18902": {
+  "en": "The sign shown is a priority sign.",
+  "explain": {
+   "short": "Priority signs (give way, STOP, priority road) look different. This triangle is a danger sign.",
+   "rule": "At a hump: no U-turn, no stopping or parking, no overtaking uphill on a two-lane two-way road.",
+   "trap": "'precedenza' (priority / right of way): not this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Danger sign, not a priority sign",
+    "it": "precedenza",
+    "action": "slow",
+    "hazard": "⛰️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di precedenza",
+    "en": "priority sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18903": {
+  "en": "The sign shown warns of a dip.",
+  "explain": {
+   "short": "The black line sinks in the middle: this is the 'cunetta' (dip) sign, where the road goes down and up.",
+   "rule": "'Cunetta' (dip) is a danger sign: the road goes down and then up, and water can collect there.",
+   "trap": "'cunetta' means dip: the opposite of a hump.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dip ahead: slow down",
+    "it": "cunetta",
+    "action": "slow",
+    "hazard": "🌊"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "warns of (ahead)"
+   },
+   {
+    "it": "cunetta",
+    "en": "dip"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18904": {
+  "en": "The sign shown warns of a stretch of road that is dangerous because of a dip.",
+  "explain": {
+   "short": "The sign shows a dip, and it warns that this stretch is dangerous.",
+   "rule": "'Cunetta' (dip) is a danger sign: the road goes down and then up, and water can collect there.",
+   "trap": "'a causa di una cunetta' (because of a dip) names the right danger.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Danger: a dip in the road",
+    "it": "cunetta",
+    "action": "slow",
+    "hazard": "🌊"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pericoloso",
+    "en": "dangerous"
+   },
+   {
+    "it": "a causa di",
+    "en": "because of"
+   },
+   {
+    "it": "cunetta",
+    "en": "dip"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18905": {
+  "en": "The sign shown is a danger sign.",
+  "explain": {
+   "short": "Red-edged triangle pointing up: a danger sign.",
+   "rule": "'Cunetta' (dip) is a danger sign: the road goes down and then up, and water can collect there.",
+   "trap": "'pericolo' (danger): the triangle shape tells you.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red triangle = danger sign",
+    "it": "pericolo",
+    "action": "slow",
+    "hazard": "🌊"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18906": {
+  "en": "The sign shown is placed before a downhill stretch followed by an uphill one.",
+  "explain": {
+   "short": "A dip is exactly this: the road goes down, then up again.",
+   "rule": "'Cunetta' (dip) is a danger sign: the road goes down and then up, and water can collect there.",
+   "trap": "'discesa seguito da uno in salita' (down, then up) = dip; the hump is the opposite.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dip = down, then up",
+    "it": "discesa",
+    "action": "slow",
+    "hazard": "🌊"
+   }
+  },
+  "keywords": [
+   {
+    "it": "discesa",
+    "en": "downhill"
+   },
+   {
+    "it": "salita",
+    "en": "uphill"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18907": {
+  "en": "The sign shown warns of a stretch of road that could flood in heavy rain.",
+  "explain": {
+   "short": "Water runs to the lowest point, so the bottom of a dip can fill with water when it rains hard.",
+   "rule": "'Cunetta' (dip) is a danger sign: the road goes down and then up, and water can collect there.",
+   "trap": "'allagarsi' means to flood.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The bottom of a dip can flood",
+    "it": "allagarsi",
+    "action": "slow",
+    "hazard": "🌊"
+   }
+  },
+  "keywords": [
+   {
+    "it": "allagarsi",
+    "en": "to flood"
+   },
+   {
+    "it": "forti piogge",
+    "en": "heavy rain"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18908": {
+  "en": "The sign shown indicates a soft verge.",
+  "explain": {
+   "short": "A soft verge (banchina cedevole) has its own sign with a car tilting at the edge. This is a dip.",
+   "rule": "'Cunetta' (dip) is a danger sign: the road goes down and then up, and water can collect there.",
+   "trap": "'banchina cedevole' (soft verge) is a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dip, not a soft verge",
+    "it": "banchina cedevole",
+    "action": "slow",
+    "hazard": "🌊"
+   }
+  },
+  "keywords": [
+   {
+    "it": "banchina cedevole",
+    "en": "soft verge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18909": {
+  "en": "The sign shown warns of an uneven road.",
+  "explain": {
+   "short": "Uneven road has a wavy line. Here the line sinks once: a dip.",
+   "rule": "'Cunetta' (dip) is a danger sign: the road goes down and then up, and water can collect there.",
+   "trap": "'strada deformata' (uneven road) is a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dip, not uneven road",
+    "it": "strada deformata",
+    "action": "slow",
+    "hazard": "🌊"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada deformata",
+    "en": "uneven road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18910": {
+  "en": "The sign shown warns of a stretch of road in bad condition.",
+  "explain": {
+   "short": "A road in bad condition is the uneven-road sign. This one is a dip.",
+   "rule": "'Cunetta' (dip) is a danger sign: the road goes down and then up, and water can collect there.",
+   "trap": "'cattivo stato' (bad condition) belongs to the uneven-road sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dip, not a road in bad condition",
+    "it": "cattivo stato",
+    "action": "slow",
+    "hazard": "🌊"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cattivo stato",
+    "en": "bad condition"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18911": {
+  "en": "The sign shown warns of a stretch of road with an irregular surface.",
+  "explain": {
+   "short": "An irregular surface is the uneven-road sign. The dip is about the shape of the road.",
+   "rule": "'Cunetta' (dip) is a danger sign: the road goes down and then up, and water can collect there.",
+   "trap": "'pavimentazione irregolare' (irregular surface) is the uneven-road sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dip, not an irregular surface",
+    "it": "pavimentazione irregolare",
+    "action": "slow",
+    "hazard": "🌊"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pavimentazione irregolare",
+    "en": "irregular surface"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18912": {
+  "en": "The sign shown can be placed before an uphill stretch followed by a descent.",
+  "explain": {
+   "short": "Up then down is a hump (dosso). A dip is the opposite: down, then up.",
+   "rule": "'Cunetta' (dip) is a danger sign: the road goes down and then up, and water can collect there.",
+   "trap": "'salita seguito da una discesa' (up, then down) describes the hump, not the dip.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dip = down then up (not up then down)",
+    "it": "salita",
+    "action": "slow",
+    "hazard": "🌊"
+   }
+  },
+  "keywords": [
+   {
+    "it": "salita",
+    "en": "uphill"
+   },
+   {
+    "it": "discesa",
+    "en": "descent"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18913": {
+  "en": "The sign shown warns of a narrowing of the carriageway.",
+  "explain": {
+   "short": "A narrowing (strettoia) has its own sign with two lines getting closer. This is a dip.",
+   "rule": "'Cunetta' (dip) is a danger sign: the road goes down and then up, and water can collect there.",
+   "trap": "'restringimento' (narrowing) is a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dip, not a narrowing",
+    "it": "restringimento",
+    "action": "slow",
+    "hazard": "🌊"
+   }
+  },
+  "keywords": [
+   {
+    "it": "restringimento",
+    "en": "narrowing"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18914": {
+  "en": "The sign shown warns of a hump.",
+  "explain": {
+   "short": "The hump's line goes UP. Here the line goes DOWN: it is a dip.",
+   "rule": "'Cunetta' (dip) is a danger sign: the road goes down and then up, and water can collect there.",
+   "trap": "'dosso' (hump) is the opposite of 'cunetta' (dip).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dip (down), not a hump (up)",
+    "it": "dosso",
+    "action": "slow",
+    "hazard": "🌊"
+   }
+  },
+  "keywords": [
+   {
+    "it": "dosso",
+    "en": "hump"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18915": {
+  "en": "Where you see the sign shown, you must slow down to avoid damage to the suspension.",
+  "explain": {
+   "short": "Hitting the bottom of a dip fast gives the suspension a hard knock. Slowing down protects it.",
+   "rule": "At a dip slow down, hold the wheel firmly and expect water, mud or debris at the bottom.",
+   "trap": "'sospensioni' (suspension) is the part that absorbs bumps.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down to save the suspension",
+    "it": "sospensioni",
+    "action": "slow",
+    "hazard": "🌊"
+   }
+  },
+  "keywords": [
+   {
+    "it": "moderare la velocità",
+    "en": "slow down"
+   },
+   {
+    "it": "sospensioni",
+    "en": "suspension"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18916": {
+  "en": "Where you see the sign shown, you must slow down to keep control of the vehicle.",
+  "explain": {
+   "short": "A fast dip can make the car bounce and lose grip. At low speed you stay in control.",
+   "rule": "At a dip slow down, hold the wheel firmly and expect water, mud or debris at the bottom.",
+   "trap": "'controllo del veicolo' (control of the vehicle) is the reason to slow down.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down to keep control",
+    "it": "controllo",
+    "action": "slow",
+    "hazard": "🌊"
+   }
+  },
+  "keywords": [
+   {
+    "it": "moderare la velocità",
+    "en": "slow down"
+   },
+   {
+    "it": "controllo del veicolo",
+    "en": "control of the vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18917": {
+  "en": "Where you see the sign shown, you must hold the steering wheel with a firmer grip.",
+  "explain": {
+   "short": "The dip can jolt the car and the steering. A firm grip keeps you in control.",
+   "rule": "At a dip slow down, hold the wheel firmly and expect water, mud or debris at the bottom.",
+   "trap": "'presa più sicura' means a firmer grip.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hold the wheel firmly in the dip",
+    "it": "volante",
+    "action": "slow",
+    "hazard": "🌊"
+   }
+  },
+  "keywords": [
+   {
+    "it": "volante",
+    "en": "steering wheel"
+   },
+   {
+    "it": "presa più sicura",
+    "en": "firmer grip"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18918": {
+  "en": "Where you see the sign shown, in rain you must expect water to collect in the dip.",
+  "explain": {
+   "short": "Rain water runs to the lowest point: the bottom of the dip. Expect puddles or flooding.",
+   "rule": "At a dip slow down, hold the wheel firmly and expect water, mud or debris at the bottom.",
+   "trap": "'accumulo di acqua' means water collecting.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Rain: water collects in the dip",
+    "it": "acqua",
+    "action": "slow",
+    "hazard": "🌊"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pioggia",
+    "en": "rain"
+   },
+   {
+    "it": "accumulo di acqua",
+    "en": "water collecting"
+   },
+   {
+    "it": "cunetta",
+    "en": "dip"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18919": {
+  "en": "Where you see the sign shown, you must expect mud and debris to collect in the dip.",
+  "explain": {
+   "short": "Rain carries mud, stones and debris down to the lowest point of the dip.",
+   "rule": "At a dip slow down, hold the wheel firmly and expect water, mud or debris at the bottom.",
+   "trap": "'fango e detriti' means mud and debris.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mud and debris can collect in the dip",
+    "it": "fango",
+    "action": "slow",
+    "hazard": "🌊"
+   }
+  },
+  "keywords": [
+   {
+    "it": "prevedere",
+    "en": "to expect"
+   },
+   {
+    "it": "fango e detriti",
+    "en": "mud and debris"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18920": {
+  "en": "Where you see the sign shown, you must slow down only if vehicles are coming the other way.",
+  "explain": {
+   "short": "You slow down because of the dip itself, always, even with no oncoming traffic.",
+   "rule": "At a dip slow down, hold the wheel firmly and expect water, mud or debris at the bottom.",
+   "trap": "'solo se' (only if) wrongly limits a duty that always applies.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down always, not only for oncoming cars",
+    "it": "solo se",
+    "action": "slow",
+    "hazard": "🌊"
+   }
+  },
+  "keywords": [
+   {
+    "it": "rallentare",
+    "en": "to slow down"
+   },
+   {
+    "it": "solo se",
+    "en": "only if"
+   },
+   {
+    "it": "senso opposto",
+    "en": "opposite direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18921": {
+  "en": "Where you see the sign shown, you do not need to slow down if the dip is visible.",
+  "explain": {
+   "short": "Even if you can see the dip, it still shakes the car: you must slow down anyway.",
+   "rule": "At a dip slow down, hold the wheel firmly and expect water, mud or debris at the bottom.",
+   "trap": "'non è necessario' (not necessary) is the trap: slowing down is always needed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Visible or not, slow down for the dip",
+    "it": "non è necessario",
+    "action": "slow",
+    "hazard": "🌊"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è necessario",
+    "en": "it is not necessary"
+   },
+   {
+    "it": "rallentare",
+    "en": "to slow down"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18922": {
+  "en": "Where you see the sign shown, overtaking is forbidden if you are on a one-way road.",
+  "explain": {
+   "short": "This danger sign forbids nothing, and on a one-way road nobody comes towards you.",
+   "rule": "At a dip slow down, hold the wheel firmly and expect water, mud or debris at the bottom.",
+   "trap": "'vietato' (forbidden): this sign creates no ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No overtaking ban: just slow down",
+    "it": "sorpasso",
+    "action": "slow",
+    "hazard": "🌊"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato il sorpasso",
+    "en": "overtaking is forbidden"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18923": {
+  "en": "The sign shown warns of a soft verge.",
+  "explain": {
+   "short": "A soft verge has its own sign. This one shows a dip in the road.",
+   "rule": "At a dip slow down, hold the wheel firmly and expect water, mud or debris at the bottom.",
+   "trap": "'banchina cedevole' (soft verge) is a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dip, not a soft verge",
+    "it": "banchina cedevole",
+    "action": "slow",
+    "hazard": "🌊"
+   }
+  },
+  "keywords": [
+   {
+    "it": "banchina cedevole",
+    "en": "soft verge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18924": {
+  "en": "The sign shown warns of a dangerous bend to the right.",
+  "explain": {
+   "short": "The black arrow bends to the right: one dangerous bend to the right.",
+   "rule": "'Curva pericolosa a destra' warns of one dangerous right bend, as a rule 150 m before it: slow down.",
+   "trap": "'a destra' (to the right): check the direction of the arrow.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dangerous right bend: slow down",
+    "it": "curva pericolosa",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "curva pericolosa",
+    "en": "dangerous bend"
+   },
+   {
+    "it": "a destra",
+    "en": "to the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18925": {
+  "en": "The sign shown is, as a rule, placed 150 metres from the start of the bend.",
+  "explain": {
+   "short": "Outside towns, danger signs normally stand 150 m before the danger.",
+   "rule": "'Curva pericolosa a destra' warns of one dangerous right bend, as a rule 150 m before it: slow down.",
+   "trap": "'di norma' (as a rule) allows exceptions: correct.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "As a rule, 150 m before the bend",
+    "it": "150 metri",
+    "action": "slow",
+    "hazard": "↪️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "150 metri",
+    "en": "150 metres"
+   },
+   {
+    "it": "inizio della curva",
+    "en": "start of the bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18926": {
+  "en": "The sign shown can be completed with a panel saying TORNANTE.",
+  "explain": {
+   "short": "When the bend is a hairpin, a panel with the word TORNANTE (hairpin bend) is added under the sign.",
+   "rule": "'Curva pericolosa a destra' warns of one dangerous right bend, as a rule 150 m before it: slow down.",
+   "trap": "'tornante' means hairpin bend; 'può' means it can, not that it must.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A TORNANTE panel can be added",
+    "it": "TORNANTE",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "integrato",
+    "en": "completed / added to"
+   },
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "TORNANTE",
+    "en": "hairpin bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18927": {
+  "en": "The sign shown warns of a stretch of road that is dangerous because of reduced visibility.",
+  "explain": {
+   "short": "In a bend you cannot see far ahead: what is after the bend is hidden.",
+   "rule": "'Curva pericolosa a destra' warns of one dangerous right bend, as a rule 150 m before it: slow down.",
+   "trap": "'ridotta visibilità' (reduced visibility) is a real danger of bends.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "In a bend you can't see far",
+    "it": "ridotta visibilità",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pericoloso",
+    "en": "dangerous"
+   },
+   {
+    "it": "ridotta visibilità",
+    "en": "reduced visibility"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18928": {
+  "en": "The sign shown requires you to reduce your speed.",
+  "explain": {
+   "short": "Every danger sign asks you to be careful and slow down so you can take the bend safely.",
+   "rule": "'Curva pericolosa a destra' warns of one dangerous right bend, as a rule 150 m before it: slow down.",
+   "trap": "'richiede' (requires): slowing down is expected at every danger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down before the bend",
+    "it": "moderare la velocità",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "richiede",
+    "en": "requires"
+   },
+   {
+    "it": "moderare la velocità",
+    "en": "reduce your speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18929": {
+  "en": "The sign shown warns of a dangerous stretch of road.",
+  "explain": {
+   "short": "It is a danger sign: it warns of a dangerous stretch, here a bend.",
+   "rule": "'Curva pericolosa a destra' warns of one dangerous right bend, as a rule 150 m before it: slow down.",
+   "trap": "'pericoloso' (dangerous) is true for every danger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Danger ahead: a bend",
+    "it": "pericoloso",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "warns of (ahead)"
+   },
+   {
+    "it": "pericoloso",
+    "en": "dangerous"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18930": {
+  "en": "The sign shown warns of a series of dangerous bends, the first one to the right.",
+  "explain": {
+   "short": "A series of bends is shown with a double, S-shaped arrow. This arrow bends only once.",
+   "rule": "'Curva pericolosa a destra' warns of one dangerous right bend, as a rule 150 m before it: slow down.",
+   "trap": "'serie di curve' (series of bends) is a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One bend only, not a series",
+    "it": "serie di curve",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "serie di curve",
+    "en": "series of bends"
+   },
+   {
+    "it": "la prima a destra",
+    "en": "the first one to the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18931": {
+  "en": "The sign shown announces that you must turn right.",
+  "explain": {
+   "short": "A compulsory turn is a blue round sign. This triangle only warns that the road bends.",
+   "rule": "'Curva pericolosa a destra' warns of one dangerous right bend, as a rule 150 m before it: slow down.",
+   "trap": "'obbligo di svolta' (compulsory turn) is a mandatory sign, not a danger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The road bends: no order to turn",
+    "it": "obbligo di svolta",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo di svolta",
+    "en": "compulsory turn"
+   },
+   {
+    "it": "a destra",
+    "en": "to the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18932": {
+  "en": "The sign shown is a prescription sign.",
+  "explain": {
+   "short": "It is a triangle, so it is a danger sign. Prescription signs give orders and bans.",
+   "rule": "'Curva pericolosa a destra' warns of one dangerous right bend, as a rule 150 m before it: slow down.",
+   "trap": "'prescrizione' (prescription) means orders and bans: not this triangle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Danger sign, not prescription",
+    "it": "prescrizione",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di prescrizione",
+    "en": "prescription sign (order/ban)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18933": {
+  "en": "The sign shown warns of an uphill stretch of road.",
+  "explain": {
+   "short": "A steep climb has its own sign with a slope and a percentage. This arrow shows a bend.",
+   "rule": "'Curva pericolosa a destra' warns of one dangerous right bend, as a rule 150 m before it: slow down.",
+   "trap": "'in salita' (uphill): the arrow shows a bend, not a slope.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A bend, not a climb",
+    "it": "salita",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in salita",
+    "en": "uphill"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18934": {
+  "en": "The sign shown warns of a lane change.",
+  "explain": {
+   "short": "A lane change has a different sign. This arrow is a bend in the road.",
+   "rule": "'Curva pericolosa a destra' warns of one dangerous right bend, as a rule 150 m before it: slow down.",
+   "trap": "'cambio di corsia' (lane change) is a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A bend, not a lane change",
+    "it": "cambio di corsia",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cambio di corsia",
+    "en": "lane change"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18935": {
+  "en": "The sign shown warns of a bend to the left.",
+  "explain": {
+   "short": "The arrow bends to the RIGHT. A left bend sign has the arrow bending left.",
+   "rule": "'Curva pericolosa a destra' warns of one dangerous right bend, as a rule 150 m before it: slow down.",
+   "trap": "'a sinistra' (to the left): look at the arrow, it goes right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bend to the RIGHT, not left",
+    "it": "sinistra",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "curva",
+    "en": "bend"
+   },
+   {
+    "it": "a sinistra",
+    "en": "to the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18936": {
+  "en": "The sign shown, placed on a two-way road, requires you to move to the left side of the carriageway to take the bend better.",
+  "explain": {
+   "short": "You must always keep to the right, especially in a bend with poor visibility. Moving left means meeting oncoming cars.",
+   "rule": "'Curva pericolosa a destra' warns of one dangerous right bend, as a rule 150 m before it: slow down.",
+   "trap": "'impone' (requires): the sign never orders you to go left.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Keep right in the bend, never cut left",
+    "it": "sinistra",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "doppio senso di circolazione",
+    "en": "two-way traffic"
+   },
+   {
+    "it": "impone",
+    "en": "requires"
+   },
+   {
+    "it": "parte sinistra",
+    "en": "left side"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18937": {
+  "en": "The sign shown is, as a rule, placed 5 metres from the start of the bend.",
+  "explain": {
+   "short": "5 m is far too short to slow down. Outside towns danger signs stand about 150 m before the danger.",
+   "rule": "'Curva pericolosa a destra' warns of one dangerous right bend, as a rule 150 m before it: slow down.",
+   "trap": "'5 metri' is the wrong number: the rule is 150 m.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "150 m before the bend, not 5 m",
+    "it": "5 metri",
+    "action": "slow",
+    "hazard": "↪️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "5 metri",
+    "en": "5 metres"
+   },
+   {
+    "it": "inizio della curva",
+    "en": "start of the bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

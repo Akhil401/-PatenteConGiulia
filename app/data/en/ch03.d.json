@@ -1,0 +1,2374 @@
+{
+ "q19756": {
+  "en": "The sign shown bans agricultural tractors.",
+  "explain": {
+   "short": "The tractor in the red ring means no agricultural machines, and a farm tractor is one of them.",
+   "rule": "'Macchine agricole' (agricultural machines) like tractors may not pass, day and night. Every other vehicle may pass.",
+   "trap": "'trattrici agricole' are farm tractors: exactly the vehicles the sign bans.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Farm tractors may not pass",
+    "it": "macchine agricole",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans the passage"
+   },
+   {
+    "it": "trattrici agricole",
+    "en": "agricultural tractors"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19757": {
+  "en": "Where the sign shown is, snowploughs may pass.",
+  "explain": {
+   "short": "The sign bans only agricultural machines. A snowplough is not a farm machine, so it may pass.",
+   "rule": "'Macchine agricole' (agricultural machines) like tractors may not pass, day and night. Every other vehicle may pass.",
+   "trap": "'sgombraneve' (snowplough) works on roads, it is not an agricultural machine.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Snowploughs are not farm machines: they pass",
+    "it": "sgombraneve",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passage is allowed"
+   },
+   {
+    "it": "sgombraneve",
+    "en": "snowploughs"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19758": {
+  "en": "The sign shown is valid both by day and by night.",
+  "explain": {
+   "short": "A prohibition sign has no time limit unless a panel says so: it is valid all day and all night.",
+   "rule": "'Macchine agricole' (agricultural machines) like tractors may not pass, day and night. Every other vehicle may pass.",
+   "trap": "'sia di giorno che di notte' means 'both day and night': no hours are shown, so it always applies.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Valid day and night",
+    "it": "di giorno e di notte",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vale",
+    "en": "is valid"
+   },
+   {
+    "it": "sia di giorno che di notte",
+    "en": "both by day and by night"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19759": {
+  "en": "Where the sign shown is, operating machines used for road maintenance work may pass.",
+  "explain": {
+   "short": "Road-maintenance machines ('macchine operatrici') are not agricultural machines, so the sign does not ban them.",
+   "rule": "'Macchine agricole' (agricultural machines) like tractors may not pass, day and night. Every other vehicle may pass.",
+   "trap": "'macchine operatrici' (work machines for roads) are a different class from 'macchine agricole'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road-work machines are not farm machines",
+    "it": "macchine operatrici",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passage is allowed"
+   },
+   {
+    "it": "macchine operatrici",
+    "en": "operating (work) machines"
+   },
+   {
+    "it": "manutenzione stradale",
+    "en": "road maintenance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19760": {
+  "en": "The sign shown applies both to agricultural machines on tyres and to tracked ones.",
+  "explain": {
+   "short": "The ban covers every agricultural machine, whatever it moves on: tyres or tracks.",
+   "rule": "'Macchine agricole' (agricultural machines) like tractors may not pass, day and night. Every other vehicle may pass.",
+   "trap": "'gommate' (on rubber tyres) and 'cingolate' (on tracks): the sign makes no difference.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tyres or tracks: all farm machines banned",
+    "it": "gommate, cingolate",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "macchine agricole",
+    "en": "agricultural machines"
+   },
+   {
+    "it": "gommate",
+    "en": "on rubber tyres"
+   },
+   {
+    "it": "cingolate",
+    "en": "on tracks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19761": {
+  "en": "Where the sign shown is, motorcycles may pass.",
+  "explain": {
+   "short": "Only agricultural machines are banned. A motorcycle is not one, so it may pass.",
+   "rule": "'Macchine agricole' (agricultural machines) like tractors may not pass, day and night. Every other vehicle may pass.",
+   "trap": "'motocicli' (motorcycles) are not agricultural machines.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorcycles may pass",
+    "it": "motocicli",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passage is allowed"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19762": {
+  "en": "Where the sign shown is, motor quadricycles may pass.",
+  "explain": {
+   "short": "Only agricultural machines are banned. A motor quadricycle is not one, so it may pass.",
+   "rule": "'Macchine agricole' (agricultural machines) like tractors may not pass, day and night. Every other vehicle may pass.",
+   "trap": "'quadricicli a motore' (small four-wheel motor vehicles) are not farm machines.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Quadricycles may pass",
+    "it": "quadricicli",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passage is allowed"
+   },
+   {
+    "it": "quadricicli a motore",
+    "en": "motor quadricycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19763": {
+  "en": "Where the sign shown is, agricultural machines may pass.",
+  "explain": {
+   "short": "It is the opposite: the tractor in the red ring means agricultural machines may NOT pass.",
+   "rule": "'Macchine agricole' (agricultural machines) like tractors may not pass, day and night. Every other vehicle may pass.",
+   "trap": "'è consentito' (is allowed) is the trap: for farm machines it is forbidden.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: farm machines are banned here",
+    "it": "macchine agricole",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passage is allowed"
+   },
+   {
+    "it": "macchine agricole",
+    "en": "agricultural machines"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19764": {
+  "en": "Where the sign shown is, towing agricultural trailers with a total mass up to 1.5 tonnes is allowed.",
+  "explain": {
+   "short": "An agricultural trailer is pulled by a farm machine, and farm machines are banned. The sign has no weight exception.",
+   "rule": "'Macchine agricole' (agricultural machines) like tractors may not pass, day and night. Every other vehicle may pass.",
+   "trap": "'fino a 1,5 tonnellate' (up to 1.5 tonnes) is an invented exception: the sign gives no weights.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no exception for light farm trailers",
+    "it": "rimorchi agricoli",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "traino",
+    "en": "towing"
+   },
+   {
+    "it": "rimorchi agricoli",
+    "en": "agricultural trailers"
+   },
+   {
+    "it": "massa complessiva",
+    "en": "total mass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19765": {
+  "en": "The sign shown bans road tractors for semi-trailers.",
+  "explain": {
+   "short": "A road tractor for semi-trailers is the front part of an articulated lorry, not a farm machine, so it may pass.",
+   "rule": "'Macchine agricole' (agricultural machines) like tractors may not pass, day and night. Every other vehicle may pass.",
+   "trap": "'trattori stradali' (road tractor units of lorries) sound like farm tractors, but they are not.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: lorry tractor units are not banned",
+    "it": "trattori stradali",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans the passage"
+   },
+   {
+    "it": "trattori stradali",
+    "en": "road tractors (lorry units)"
+   },
+   {
+    "it": "semirimorchi",
+    "en": "semi-trailers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19766": {
+  "en": "The sign shown bans motor quadricycles.",
+  "explain": {
+   "short": "Only agricultural machines are banned. Motor quadricycles may pass.",
+   "rule": "'Macchine agricole' (agricultural machines) like tractors may not pass, day and night. Every other vehicle may pass.",
+   "trap": "'quadricicli a motore' are not farm machines, so 'vieta' (bans) is wrong for them.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: quadricycles may pass",
+    "it": "quadricicli",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans the passage"
+   },
+   {
+    "it": "quadricicli a motore",
+    "en": "motor quadricycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19767": {
+  "en": "The sign shown is compulsory at private entrances.",
+  "explain": {
+   "short": "No rule asks for this sign at private entrances. It is placed where a road is closed to farm machines.",
+   "rule": "'Macchine agricole' (agricultural machines) like tractors may not pass, day and night. Every other vehicle may pass.",
+   "trap": "'obbligatorio' (compulsory) is invented: nothing requires it at 'accessi privati' (private entrances).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: not required at private entrances",
+    "it": "accessi privati",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligatorio",
+    "en": "compulsory"
+   },
+   {
+    "it": "accessi privati",
+    "en": "private entrances"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19768": {
+  "en": "The sign shown is found only on the road network of farms.",
+  "explain": {
+   "short": "The sign is used on public roads, where farm machines are not allowed. It is not limited to farm roads.",
+   "rule": "'Macchine agricole' (agricultural machines) like tractors may not pass, day and night. Every other vehicle may pass.",
+   "trap": "'soltanto' (only) is the trap: the sign is on normal public roads.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it is on public roads",
+    "it": "soltanto",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si trova soltanto",
+    "en": "is found only"
+   },
+   {
+    "it": "aziende agricole",
+    "en": "farms"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19769": {
+  "en": "Where the sign shown is, agricultural machines may pass during fairs.",
+  "explain": {
+   "short": "The sign has no exception for fairs. Farm machines may never pass, unless a panel says otherwise.",
+   "rule": "'Macchine agricole' (agricultural machines) like tractors may not pass, day and night. Every other vehicle may pass.",
+   "trap": "'durante le fiere' (during fairs) is an invented exception.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no exception for fairs",
+    "it": "fiere",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passage is allowed"
+   },
+   {
+    "it": "macchine agricole",
+    "en": "agricultural machines"
+   },
+   {
+    "it": "durante le fiere",
+    "en": "during fairs"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19770": {
+  "en": "The sign shown bans vehicles carrying dangerous goods.",
+  "explain": {
+   "short": "The orange plate is the mark of dangerous-goods vehicles: the red ring bans them.",
+   "rule": "Vehicles carrying 'merci pericolose' (dangerous goods), the ones with the orange plate, may not pass.",
+   "trap": "'merci pericolose' (dangerous goods) is exactly what the orange plate stands for.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No vehicles with dangerous goods",
+    "it": "merci pericolose",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans the passage"
+   },
+   {
+    "it": "trasportano",
+    "en": "carry"
+   },
+   {
+    "it": "merci pericolose",
+    "en": "dangerous goods"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19771": {
+  "en": "The sign shown bans tankers carrying petrol.",
+  "explain": {
+   "short": "Petrol is a dangerous good, so a petrol tanker is banned by this sign.",
+   "rule": "Vehicles carrying 'merci pericolose' (dangerous goods), the ones with the orange plate, may not pass.",
+   "trap": "'autocisterne che trasportano benzina' (petrol tankers) carry dangerous goods.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Petrol tankers are banned",
+    "it": "benzina",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocisterne",
+    "en": "tankers"
+   },
+   {
+    "it": "benzina",
+    "en": "petrol"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19772": {
+  "en": "The sign shown bans vehicles carrying slaughtered meat.",
+  "explain": {
+   "short": "Meat is not a dangerous good. The sign bans only vehicles with dangerous goods.",
+   "rule": "Vehicles carrying 'merci pericolose' (dangerous goods), the ones with the orange plate, may not pass.",
+   "trap": "'carni macellate' (slaughtered meat) is food, not dangerous goods.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: only dangerous goods are banned",
+    "it": "merci pericolose",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans the passage"
+   },
+   {
+    "it": "carni macellate",
+    "en": "slaughtered meat"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19773": {
+  "en": "The sign shown bans motor vehicles with an engine running on liquid gas (LPG).",
+  "explain": {
+   "short": "The sign is about the LOAD, not the fuel. A car running on LPG carries no dangerous goods, so it may pass.",
+   "rule": "Vehicles carrying 'merci pericolose' (dangerous goods), the ones with the orange plate, may not pass.",
+   "trap": "'motore alimentato a gas liquido' (engine running on LPG) is about fuel, not about the goods carried.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: LPG cars may pass; only the load counts",
+    "it": "merci pericolose",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans the passage"
+   },
+   {
+    "it": "alimentato a gas liquido",
+    "en": "running on liquid gas"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19774": {
+  "en": "The sign shown bans canvas-covered lorries.",
+  "explain": {
+   "short": "A canvas cover says nothing about the load. Only vehicles with dangerous goods are banned.",
+   "rule": "Vehicles carrying 'merci pericolose' (dangerous goods), the ones with the orange plate, may not pass.",
+   "trap": "'telonati' (with a canvas cover) describes the lorry, not dangerous goods.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: only dangerous goods are banned",
+    "it": "merci pericolose",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans the passage"
+   },
+   {
+    "it": "autocarri telonati",
+    "en": "canvas-covered lorries"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19775": {
+  "en": "The sign shown bans vehicles carrying perishable goods.",
+  "explain": {
+   "short": "Perishable goods (that go bad quickly) are not dangerous goods, so they are not banned.",
+   "rule": "Vehicles carrying 'merci pericolose' (dangerous goods), the ones with the orange plate, may not pass.",
+   "trap": "'merci deperibili' (perishable goods) is not the same as 'merci pericolose' (dangerous goods).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: perishable is not dangerous",
+    "it": "merci pericolose",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans the passage"
+   },
+   {
+    "it": "merci deperibili",
+    "en": "perishable goods"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19776": {
+  "en": "The sign shown bans vehicles with a refrigerated van body.",
+  "explain": {
+   "short": "A refrigerated van carries cold food, not dangerous goods. The orange plate is not a fridge.",
+   "rule": "Vehicles carrying 'merci pericolose' (dangerous goods), the ones with the orange plate, may not pass.",
+   "trap": "'furgone frigorifero' (refrigerated van) is about the vehicle, not dangerous goods.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: refrigerated vans may pass",
+    "it": "merci pericolose",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans the passage"
+   },
+   {
+    "it": "furgone frigorifero",
+    "en": "refrigerated van"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19777": {
+  "en": "The sign shown bans vehicles carrying explosives.",
+  "explain": {
+   "short": "The flame above the car means explosive or easily flammable loads: those vehicles may not pass.",
+   "rule": "Vehicles carrying explosives or 'prodotti facilmente infiammabili' (easily flammable products) may not pass. Fuel in the vehicle's own tank does not count.",
+   "trap": "'esplosivi' (explosives) are exactly what the flame on the sign shows.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No vehicles carrying explosives",
+    "it": "esplosivi",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans the passage"
+   },
+   {
+    "it": "esplosivi",
+    "en": "explosives"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19778": {
+  "en": "The fuel in the vehicle's tank is not considered transport of flammable material banned by the sign in the figure.",
+  "explain": {
+   "short": "The sign is about the load. The fuel the vehicle needs to run is in its own tank and does not count.",
+   "rule": "Vehicles carrying explosives or 'prodotti facilmente infiammabili' (easily flammable products) may not pass. Fuel in the vehicle's own tank does not count.",
+   "trap": "'non si considera' (is not considered): the fuel in the tank is not a load.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fuel in your own tank does not count",
+    "it": "serbatoio",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "carburante",
+    "en": "fuel"
+   },
+   {
+    "it": "serbatoio",
+    "en": "tank"
+   },
+   {
+    "it": "non si considera",
+    "en": "is not considered"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19779": {
+  "en": "Where the sign shown is, cars running on methane may pass.",
+  "explain": {
+   "short": "Methane in the car's own tank is fuel, not a load, so the car may pass.",
+   "rule": "Vehicles carrying explosives or 'prodotti facilmente infiammabili' (easily flammable products) may not pass. Fuel in the vehicle's own tank does not count.",
+   "trap": "'alimentate a metano' (running on methane) is about fuel, not about the load.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Methane cars may pass",
+    "it": "metano",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passage is allowed"
+   },
+   {
+    "it": "autovetture",
+    "en": "cars"
+   },
+   {
+    "it": "alimentate a metano",
+    "en": "running on methane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19780": {
+  "en": "The sign shown bans vehicles carrying easily flammable products.",
+  "explain": {
+   "short": "The flame means explosive or easily flammable loads: those vehicles may not pass.",
+   "rule": "Vehicles carrying explosives or 'prodotti facilmente infiammabili' (easily flammable products) may not pass. Fuel in the vehicle's own tank does not count.",
+   "trap": "'facilmente infiammabili' (easily flammable) is what the flame on the sign means.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No vehicles with flammable loads",
+    "it": "infiammabili",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans the passage"
+   },
+   {
+    "it": "facilmente infiammabili",
+    "en": "easily flammable"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19781": {
+  "en": "Where the sign shown is, motor vehicles carrying explosives may overtake.",
+  "explain": {
+   "short": "Vehicles carrying explosives may not even pass on this road, so they certainly cannot overtake there.",
+   "rule": "Vehicles carrying explosives or 'prodotti facilmente infiammabili' (easily flammable products) may not pass. Fuel in the vehicle's own tank does not count.",
+   "trap": "'possono effettuare manovre di sorpasso' (may overtake): they may not even drive there.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: they may not even drive here",
+    "it": "esplosivi",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "trasportano esplosivi",
+    "en": "carry explosives"
+   },
+   {
+    "it": "manovre di sorpasso",
+    "en": "overtaking manoeuvres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19782": {
+  "en": "The sign shown tells you to pay attention to vehicles carrying explosives.",
+  "explain": {
+   "short": "It is a ban, not a warning: vehicles carrying explosives may not pass at all.",
+   "rule": "Vehicles carrying explosives or 'prodotti facilmente infiammabili' (easily flammable products) may not pass. Fuel in the vehicle's own tank does not count.",
+   "trap": "'fare attenzione' (pay attention) is the wording of danger signs; this red ring is a prohibition.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it is a ban, not a warning",
+    "it": "divieto",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "prescrive",
+    "en": "requires"
+   },
+   {
+    "it": "fare attenzione",
+    "en": "pay attention"
+   },
+   {
+    "it": "esplosivo",
+    "en": "explosive"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19783": {
+  "en": "Where the sign shown is, vehicles carrying easily flammable products may pass, as long as they are not explosive.",
+  "explain": {
+   "short": "The sign bans BOTH explosives and easily flammable products. Being 'not explosive' does not help.",
+   "rule": "Vehicles carrying explosives or 'prodotti facilmente infiammabili' (easily flammable products) may not pass. Fuel in the vehicle's own tank does not count.",
+   "trap": "'purché non esplosivi' (as long as not explosive) is an invented condition.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: flammable loads are banned too",
+    "it": "infiammabili",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passage is allowed"
+   },
+   {
+    "it": "facilmente infiammabili",
+    "en": "easily flammable"
+   },
+   {
+    "it": "purché non esplosivi",
+    "en": "as long as not explosive"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19784": {
+  "en": "Where the sign shown is, towing vehicles that carry easily flammable products is allowed.",
+  "explain": {
+   "short": "A towed vehicle with a flammable load is still on the road with that load, so it is banned too.",
+   "rule": "Vehicles carrying explosives or 'prodotti facilmente infiammabili' (easily flammable products) may not pass. Fuel in the vehicle's own tank does not count.",
+   "trap": "'traino' (towing) does not change anything: the flammable load is still there.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: towed or not, the load is banned",
+    "it": "infiammabili",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "traino",
+    "en": "towing"
+   },
+   {
+    "it": "facilmente infiammabili",
+    "en": "easily flammable"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19785": {
+  "en": "The sign shown bans vehicles carrying substances that can pollute water.",
+  "explain": {
+   "short": "The tanker over blue waves means loads that can pollute water: those vehicles may not pass.",
+   "rule": "Vehicles carrying substances that can 'contaminare l'acqua' (pollute water) may not pass. Other vehicles may.",
+   "trap": "'suscettibili di contaminare l'acqua' means 'able to pollute water'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No loads that can pollute water",
+    "it": "contaminare l'acqua",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans the passage"
+   },
+   {
+    "it": "suscettibili di",
+    "en": "able to"
+   },
+   {
+    "it": "contaminare l'acqua",
+    "en": "pollute water"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19786": {
+  "en": "Where the sign shown is, motor vehicles carrying products that do not pollute water may pass.",
+  "explain": {
+   "short": "Only loads that can pollute water are banned. Other loads may pass.",
+   "rule": "Vehicles carrying substances that can 'contaminare l'acqua' (pollute water) may not pass. Other vehicles may.",
+   "trap": "'che non contaminano' (that do NOT pollute): the 'non' makes them allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Non-polluting loads may pass",
+    "it": "contaminare l'acqua",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passage is allowed"
+   },
+   {
+    "it": "non contaminano l'acqua",
+    "en": "do not pollute water"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19787": {
+  "en": "Where the sign shown is, tankers carrying water may pass.",
+  "explain": {
+   "short": "Water does not pollute water, so a water tanker may pass.",
+   "rule": "Vehicles carrying substances that can 'contaminare l'acqua' (pollute water) may not pass. Other vehicles may.",
+   "trap": "'autocisterne' (tankers) is the trap: the tanker is fine if it carries water.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Water tankers may pass",
+    "it": "autocisterne",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passage is allowed"
+   },
+   {
+    "it": "autocisterne",
+    "en": "tankers"
+   },
+   {
+    "it": "trasportano acqua",
+    "en": "carry water"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19788": {
+  "en": "Where the sign shown is, road sprinkler vehicles may pass.",
+  "explain": {
+   "short": "A road sprinkler carries only water to wash the road, so it may pass.",
+   "rule": "Vehicles carrying substances that can 'contaminare l'acqua' (pollute water) may not pass. Other vehicles may.",
+   "trap": "'innaffiatrici stradali' (road sprinklers) carry water, which does not pollute.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road sprinklers may pass",
+    "it": "innaffiatrici",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passage is allowed"
+   },
+   {
+    "it": "innaffiatrici stradali",
+    "en": "road sprinklers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19789": {
+  "en": "Where the sign shown is, trailers carrying substances that can pollute water may pass.",
+  "explain": {
+   "short": "A trailer with a water-polluting load is banned like any other vehicle with that load.",
+   "rule": "Vehicles carrying substances that can 'contaminare l'acqua' (pollute water) may not pass. Other vehicles may.",
+   "trap": "'rimorchi' (trailers) are vehicles too: no exception for them.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: trailers with such loads are banned",
+    "it": "rimorchi",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passage is allowed"
+   },
+   {
+    "it": "rimorchi",
+    "en": "trailers"
+   },
+   {
+    "it": "contaminare l'acqua",
+    "en": "pollute water"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19790": {
+  "en": "The sign shown warns of an area that can flood.",
+  "explain": {
+   "short": "The waves are not a warning about floods: this red ring is a ban on loads that can pollute water.",
+   "rule": "Vehicles carrying substances that can 'contaminare l'acqua' (pollute water) may not pass. Other vehicles may.",
+   "trap": "'preannuncia' (warns of ahead) is for danger signs; this is a prohibition.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: a ban on polluting loads, not floods",
+    "it": "contaminare l'acqua",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "warns of (ahead)"
+   },
+   {
+    "it": "allagamento",
+    "en": "flooding"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19791": {
+  "en": "The sign shown warns of probable water on the carriageway.",
+  "explain": {
+   "short": "It does not warn about water on the road: it bans vehicles with loads that can pollute water.",
+   "rule": "Vehicles carrying substances that can 'contaminare l'acqua' (pollute water) may not pass. Other vehicles may.",
+   "trap": "'acqua sulla carreggiata' (water on the road): the waves stand for water to protect, not for a wet road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: not water on the road",
+    "it": "contaminare l'acqua",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "warns of (ahead)"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19792": {
+  "en": "The sign shown bans parking for tankers.",
+  "explain": {
+   "short": "It bans the PASSAGE of vehicles with water-polluting loads, not the parking of tankers.",
+   "rule": "Vehicles carrying substances that can 'contaminare l'acqua' (pollute water) may not pass. Other vehicles may.",
+   "trap": "'sosta' (parking) is wrong: the sign is about 'transito' (passing).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: a passage ban, not a parking ban",
+    "it": "transito",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la sosta",
+    "en": "bans parking"
+   },
+   {
+    "it": "autocisterne",
+    "en": "tankers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19793": {
+  "en": "The sign shown bans empty tankers.",
+  "explain": {
+   "short": "An empty tank carries no polluting substance, so it is not banned.",
+   "rule": "Vehicles carrying substances that can 'contaminare l'acqua' (pollute water) may not pass. Other vehicles may.",
+   "trap": "'vuote' (empty) is the trap: no load, nothing that can pollute water.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: empty tanks may pass",
+    "it": "cisterne vuote",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans the passage"
+   },
+   {
+    "it": "cisterne vuote",
+    "en": "empty tanks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19794": {
+  "en": "The sign shown applies to vehicles even if they have no engine.",
+  "explain": {
+   "short": "The width limit is for every vehicle: also carts, trailers and other vehicles without an engine.",
+   "rule": "'Larghezza massima' (maximum width): every vehicle wider than the number shown may not pass.",
+   "trap": "'anche se sprovvisti di motore' (even without an engine): the width counts, not the engine.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Width limit for all vehicles, engine or not",
+    "it": "larghezza",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si riferisce ai veicoli",
+    "en": "applies to vehicles"
+   },
+   {
+    "it": "sprovvisti di motore",
+    "en": "without an engine"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19795": {
+  "en": "The sign shown may be placed before a narrowing.",
+  "explain": {
+   "short": "Where the road gets narrow, wide vehicles cannot pass, so this sign can stand before a narrowing.",
+   "rule": "'Larghezza massima' (maximum width): every vehicle wider than the number shown may not pass.",
+   "trap": "'può trovarsi' (may be found): it is one possible place, not the only one.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It can stand before a narrowing",
+    "it": "strettoia",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "può trovarsi",
+    "en": "may be found"
+   },
+   {
+    "it": "strettoia",
+    "en": "narrowing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19796": {
+  "en": "The sign shown is placed on both urban and non-urban roads.",
+  "explain": {
+   "short": "A width limit may be needed anywhere, so the sign is used in towns and outside towns.",
+   "rule": "'Larghezza massima' (maximum width): every vehicle wider than the number shown may not pass.",
+   "trap": "'sia urbane che extraurbane' (both urban and non-urban): it is not limited to one type.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "In towns and outside towns",
+    "it": "urbane, extraurbane",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è posto",
+    "en": "is placed"
+   },
+   {
+    "it": "urbane",
+    "en": "urban"
+   },
+   {
+    "it": "extraurbane",
+    "en": "non-urban"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19797": {
+  "en": "The sign shown indicates the maximum width of the vehicles allowed through.",
+  "explain": {
+   "short": "The two side arrows around '2,30 m' show a WIDTH: wider vehicles may not pass.",
+   "rule": "'Larghezza massima' (maximum width): every vehicle wider than the number shown may not pass.",
+   "trap": "'larghezza massima dei veicoli' (maximum width of vehicles): of the vehicles, not of the road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Max vehicle width 2.30 m",
+    "it": "larghezza massima",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "larghezza massima",
+    "en": "maximum width"
+   },
+   {
+    "it": "veicoli ammessi",
+    "en": "vehicles allowed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19798": {
+  "en": "Where the sign shown is, road trains 2.30 metres wide may pass.",
+  "explain": {
+   "short": "The ban is only for vehicles WIDER than 2.30 m. Exactly 2.30 m is allowed.",
+   "rule": "'Larghezza massima' (maximum width): every vehicle wider than the number shown may not pass.",
+   "trap": "'larghi 2,30 metri' (2.30 m wide): equal to the limit, not above it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Exactly 2.30 m wide: allowed",
+    "it": "2,30 m",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passage is allowed"
+   },
+   {
+    "it": "autotreni",
+    "en": "road trains (lorry + trailer)"
+   },
+   {
+    "it": "larghi 2,30 metri",
+    "en": "2.30 metres wide"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19799": {
+  "en": "The sign shown applies to all vehicles wider than 2.30 metres.",
+  "explain": {
+   "short": "Every vehicle wider than 2.30 m is banned, whatever its type.",
+   "rule": "'Larghezza massima' (maximum width): every vehicle wider than the number shown may not pass.",
+   "trap": "'tutti' (all) is correct here: the width limit has no exceptions.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "All vehicles over 2.30 m wide banned",
+    "it": "larghezza",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si riferisce a tutti i veicoli",
+    "en": "applies to all vehicles"
+   },
+   {
+    "it": "larghezza superiore",
+    "en": "width above"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19800": {
+  "en": "The sign shown indicates the minimum safety distance between two motor vehicles on that road.",
+  "explain": {
+   "short": "The arrows point to the sides of '2,30 m': it is a vehicle width, not a distance between vehicles.",
+   "rule": "'Larghezza massima' (maximum width): every vehicle wider than the number shown may not pass.",
+   "trap": "'distanza minima di sicurezza' (minimum safety distance) has nothing to do with this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it is a width, not a distance",
+    "it": "larghezza",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza minima di sicurezza",
+    "en": "minimum safety distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19801": {
+  "en": "Where the sign shown is, animal-drawn vehicles wider than 2.30 m may pass.",
+  "explain": {
+   "short": "The limit is for every vehicle, also those pulled by animals. Wider than 2.30 m means banned.",
+   "rule": "'Larghezza massima' (maximum width): every vehicle wider than the number shown may not pass.",
+   "trap": "'a trazione animale' (pulled by animals): no engine, but still a vehicle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: animal carts over 2.30 m banned too",
+    "it": "larghezza",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "trazione animale",
+    "en": "pulled by animals"
+   },
+   {
+    "it": "possono transitare",
+    "en": "may pass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19802": {
+  "en": "The sign shown is a ban that does not concern buses.",
+  "explain": {
+   "short": "The width limit concerns every vehicle, buses included.",
+   "rule": "'Larghezza massima' (maximum width): every vehicle wider than the number shown may not pass.",
+   "trap": "'non riguarda gli autobus' (does not concern buses): there is no exception for buses.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: buses must respect it too",
+    "it": "autobus",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto",
+    "en": "ban"
+   },
+   {
+    "it": "non riguarda",
+    "en": "does not concern"
+   },
+   {
+    "it": "autobus",
+    "en": "buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19803": {
+  "en": "The sign shown indicates the width of a narrowing.",
+  "explain": {
+   "short": "The sign gives the maximum width of the VEHICLES that may pass, not how wide the narrowing is.",
+   "rule": "'Larghezza massima' (maximum width): every vehicle wider than the number shown may not pass.",
+   "trap": "'larghezza di una strettoia' (width of a narrowing): the number is about vehicles, not the road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: vehicle width, not road width",
+    "it": "larghezza",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "indica la larghezza",
+    "en": "shows the width"
+   },
+   {
+    "it": "strettoia",
+    "en": "narrowing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19804": {
+  "en": "The sign shown concerns the trailer but not the tractor unit.",
+  "explain": {
+   "short": "The limit counts for every part: the towing vehicle and the trailer must both be no wider than 2.30 m.",
+   "rule": "'Larghezza massima' (maximum width): every vehicle wider than the number shown may not pass.",
+   "trap": "'ma non alla motrice' (but not the tractor unit) is an invented exception.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: tractor unit and trailer both count",
+    "it": "motrice",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "rimorchio",
+    "en": "trailer"
+   },
+   {
+    "it": "motrice",
+    "en": "tractor unit (towing vehicle)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19805": {
+  "en": "The sign shown indicates a road 2.30 metres wide.",
+  "explain": {
+   "short": "2.30 m is the maximum width of the VEHICLES allowed, not the width of the road.",
+   "rule": "'Larghezza massima' (maximum width): every vehicle wider than the number shown may not pass.",
+   "trap": "'una strada larga 2,30 metri' (a road 2.30 m wide): the number is about vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: vehicle width, not road width",
+    "it": "larghezza",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "indica una strada",
+    "en": "shows a road"
+   },
+   {
+    "it": "larga 2,30 metri",
+    "en": "2.30 metres wide"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19806": {
+  "en": "The sign shown indicates the maximum height, measured from the road surface, of the vehicles that may pass.",
+  "explain": {
+   "short": "The arrows at the top and bottom of '3,50 m' show a HEIGHT, measured from the road up.",
+   "rule": "'Altezza massima' (maximum height): vehicles taller than the number, measured from the road and with the load, may not pass.",
+   "trap": "'misurata dal piano stradale' (measured from the road surface) is correct: you measure from the ground.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Max height 3.50 m from the road",
+    "it": "altezza massima",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "altezza massima",
+    "en": "maximum height"
+   },
+   {
+    "it": "piano stradale",
+    "en": "road surface"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19807": {
+  "en": "The sign shown bans motor vehicles whose height, including the load, is over 3.50 metres.",
+  "explain": {
+   "short": "The height counts with the load on board: if the total is over 3.50 m, the vehicle may not pass.",
+   "rule": "'Altezza massima' (maximum height): vehicles taller than the number, measured from the road and with the load, may not pass.",
+   "trap": "'comprensiva del carico' (including the load): the load counts.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Over 3.50 m with load: banned",
+    "it": "altezza",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans the passage"
+   },
+   {
+    "it": "comprensiva del carico",
+    "en": "including the load"
+   },
+   {
+    "it": "superiore a 3,50 metri",
+    "en": "over 3.50 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19808": {
+  "en": "The sign shown indicates the maximum height of the vehicles allowed through.",
+  "explain": {
+   "short": "The arrows above and below the number show a height limit for vehicles.",
+   "rule": "'Altezza massima' (maximum height): vehicles taller than the number, measured from the road and with the load, may not pass.",
+   "trap": "'altezza massima' (maximum height): of the vehicles, not of the passage.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Max vehicle height 3.50 m",
+    "it": "altezza massima",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "altezza massima",
+    "en": "maximum height"
+   },
+   {
+    "it": "veicoli ammessi",
+    "en": "vehicles allowed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19809": {
+  "en": "Where the sign shown is, an agricultural machine 3.50 metres tall may pass.",
+  "explain": {
+   "short": "Only vehicles TALLER than 3.50 m are banned. Exactly 3.50 m is allowed, for any vehicle.",
+   "rule": "'Altezza massima' (maximum height): vehicles taller than the number, measured from the road and with the load, may not pass.",
+   "trap": "'alta 3,50 metri' (3.50 m tall): equal to the limit, not above it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Exactly 3.50 m tall: allowed",
+    "it": "3,50 m",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passage is allowed"
+   },
+   {
+    "it": "macchina agricola",
+    "en": "agricultural machine"
+   },
+   {
+    "it": "alta 3,50 metri",
+    "en": "3.50 metres tall"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19810": {
+  "en": "The sign shown can be found both in built-up areas and outside them.",
+  "explain": {
+   "short": "Low passages exist everywhere, so the height limit is used in towns and outside towns.",
+   "rule": "'Altezza massima' (maximum height): vehicles taller than the number, measured from the road and with the load, may not pass.",
+   "trap": "'sia nei centri abitati che fuori' (both in towns and outside): no limit to one place.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "In towns and outside towns",
+    "it": "centri abitati",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "può trovarsi",
+    "en": "can be found"
+   },
+   {
+    "it": "centri abitati",
+    "en": "built-up areas (towns)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19811": {
+  "en": "The sign shown can be found where the road passes under a bridge.",
+  "explain": {
+   "short": "Under a bridge the space is limited in height, so this sign is often placed there.",
+   "rule": "'Altezza massima' (maximum height): vehicles taller than the number, measured from the road and with the load, may not pass.",
+   "trap": "'può trovarsi' (can be found): a bridge is a typical place.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Typical before a bridge over the road",
+    "it": "ponte",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "può trovarsi",
+    "en": "can be found"
+   },
+   {
+    "it": "passa sotto un ponte",
+    "en": "passes under a bridge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19812": {
+  "en": "The sign shown bans motor vehicles longer than 3.50 metres.",
+  "explain": {
+   "short": "The arrows are above and below the number: it is a HEIGHT limit, not a length limit.",
+   "rule": "'Altezza massima' (maximum height): vehicles taller than the number, measured from the road and with the load, may not pass.",
+   "trap": "'lunghezza' (length) is the trap: the sign is about 'altezza' (height).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: height, not length",
+    "it": "altezza",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans the passage"
+   },
+   {
+    "it": "lunghezza superiore",
+    "en": "length over"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19813": {
+  "en": "The sign shown indicates a passage 3.50 metres high.",
+  "explain": {
+   "short": "3.50 m is the maximum height of the VEHICLES allowed, not the exact height of the passage.",
+   "rule": "'Altezza massima' (maximum height): vehicles taller than the number, measured from the road and with the load, may not pass.",
+   "trap": "'un passaggio alto' (a passage high): the number is about vehicles, not the passage.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: vehicle height, not passage height",
+    "it": "altezza",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "indica un passaggio",
+    "en": "shows a passage"
+   },
+   {
+    "it": "alto 3,50 metri",
+    "en": "3.50 metres high"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19814": {
+  "en": "In built-up areas the sign shown is valid only from 8:00 to 20:00.",
+  "explain": {
+   "short": "A height limit is valid at every hour: a tall vehicle is too tall by day and by night.",
+   "rule": "'Altezza massima' (maximum height): vehicles taller than the number, measured from the road and with the load, may not pass.",
+   "trap": "'soltanto dalle ore 8.00 alle ore 20.00' (only from 8 to 20) is invented: no hours apply.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: valid at every hour",
+    "it": "orari",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "centri abitati",
+    "en": "built-up areas"
+   },
+   {
+    "it": "vale soltanto",
+    "en": "is valid only"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19815": {
+  "en": "The sign shown means that lorries whose load is 3.50 metres high from the truck bed may pass.",
+  "explain": {
+   "short": "The height is measured from the ROAD, not from the truck bed. A load 3.50 m above the bed makes the lorry much taller.",
+   "rule": "'Altezza massima' (maximum height): vehicles taller than the number, measured from the road and with the load, may not pass.",
+   "trap": "'dal piano del cassone' (from the truck bed) is wrong: you measure from the road surface.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: measured from the road, not the bed",
+    "it": "piano stradale",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarri",
+    "en": "lorries"
+   },
+   {
+    "it": "carico alto",
+    "en": "load high"
+   },
+   {
+    "it": "piano del cassone",
+    "en": "truck bed (loading floor)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19816": {
+  "en": "The sign shown indicates the safety distance to keep from the vehicle in front.",
+  "explain": {
+   "short": "The arrows above and below the number show a vehicle height, not a distance between vehicles.",
+   "rule": "'Altezza massima' (maximum height): vehicles taller than the number, measured from the road and with the load, may not pass.",
+   "trap": "'distanza di sicurezza' (safety distance) has nothing to do with this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it is a height, not a distance",
+    "it": "altezza",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza di sicurezza",
+    "en": "safety distance"
+   },
+   {
+    "it": "veicolo che precede",
+    "en": "vehicle in front"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19817": {
+  "en": "The sign shown bans all vehicles with a total length over 10 metres.",
+  "explain": {
+   "short": "The arrows under the lorry show a LENGTH: every vehicle longer than 10 m in total may not pass.",
+   "rule": "'Lunghezza massima' (maximum length): every vehicle or combination longer than the number shown may not pass.",
+   "trap": "'tutti' (all) is correct: the length limit has no exceptions.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "All vehicles over 10 m banned",
+    "it": "lunghezza",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans the passage"
+   },
+   {
+    "it": "lunghezza complessiva",
+    "en": "total length"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19818": {
+  "en": "Where the sign shown is, a road train 10 metres long may pass.",
+  "explain": {
+   "short": "Only vehicles LONGER than 10 m are banned. Exactly 10 m is allowed.",
+   "rule": "'Lunghezza massima' (maximum length): every vehicle or combination longer than the number shown may not pass.",
+   "trap": "'lungo 10 metri' (10 m long): equal to the limit, not above it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Exactly 10 m long: allowed",
+    "it": "10 m",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passage is allowed"
+   },
+   {
+    "it": "autotreno",
+    "en": "road train (lorry + trailer)"
+   },
+   {
+    "it": "lungo 10 metri",
+    "en": "10 metres long"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19819": {
+  "en": "The sign shown bans vehicles longer than the length shown.",
+  "explain": {
+   "short": "This is the exact meaning: vehicles longer than the number on the sign may not pass.",
+   "rule": "'Lunghezza massima' (maximum length): every vehicle or combination longer than the number shown may not pass.",
+   "trap": "'superiore a quella indicata' (more than the one shown): over the limit is banned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Longer than shown: banned",
+    "it": "lunghezza",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans the passage"
+   },
+   {
+    "it": "lunghezza superiore",
+    "en": "length over"
+   },
+   {
+    "it": "indicata",
+    "en": "shown"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19820": {
+  "en": "The sign shown must also be respected by bus drivers.",
+  "explain": {
+   "short": "The length limit is for every vehicle, so a bus longer than 10 m may not pass.",
+   "rule": "'Lunghezza massima' (maximum length): every vehicle or combination longer than the number shown may not pass.",
+   "trap": "'anche' (also) is right: buses have no exception.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Buses must respect it too",
+    "it": "autobus",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve essere rispettato",
+    "en": "must be respected"
+   },
+   {
+    "it": "conducenti di autobus",
+    "en": "bus drivers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19821": {
+  "en": "The sign shown is also in force at night.",
+  "explain": {
+   "short": "Without a panel with hours, the ban is valid at every hour, at night too.",
+   "rule": "'Lunghezza massima' (maximum length): every vehicle or combination longer than the number shown may not pass.",
+   "trap": "'anche di notte' (also at night): no hours are shown, so it always applies.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Valid day and night",
+    "it": "di notte",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vige",
+    "en": "is in force"
+   },
+   {
+    "it": "anche di notte",
+    "en": "also at night"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19822": {
+  "en": "The sign shown must also be respected by drivers of vehicle combinations.",
+  "explain": {
+   "short": "A combination (a vehicle towing a trailer or caravan) counts with its total length.",
+   "rule": "'Lunghezza massima' (maximum length): every vehicle or combination longer than the number shown may not pass.",
+   "trap": "'complessi di veicoli' (vehicle combinations) are measured from front to back, all together.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Combinations count their total length",
+    "it": "complessi di veicoli",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve essere rispettato",
+    "en": "must be respected"
+   },
+   {
+    "it": "complessi di veicoli",
+    "en": "vehicle combinations"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19823": {
+  "en": "The sign shown must be respected only by drivers of vehicles used to carry goods.",
+  "explain": {
+   "short": "The lorry is just a picture: the limit is for every vehicle longer than 10 m, buses too.",
+   "rule": "'Lunghezza massima' (maximum length): every vehicle or combination longer than the number shown may not pass.",
+   "trap": "'solo' (only) is the trap: the sign is not limited to goods vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: for all vehicles, not only goods",
+    "it": "lunghezza",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "trasporto di cose",
+    "en": "carrying goods"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19824": {
+  "en": "The sign shown requires a vehicle to keep at least 10 metres from the one behind it.",
+  "explain": {
+   "short": "10 m is a vehicle length, not a distance between vehicles.",
+   "rule": "'Lunghezza massima' (maximum length): every vehicle or combination longer than the number shown may not pass.",
+   "trap": "'distanziare' (keep a distance) is wrong: the arrows measure the vehicle itself.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it is a length, not a distance",
+    "it": "lunghezza",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga",
+    "en": "requires"
+   },
+   {
+    "it": "distanziare",
+    "en": "keep a distance from"
+   },
+   {
+    "it": "almeno 10 metri",
+    "en": "at least 10 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19825": {
+  "en": "The sign shown indicates a parking area for lorries no longer than 10 metres.",
+  "explain": {
+   "short": "A red ring is a ban, not a parking sign: vehicles longer than 10 m may not pass.",
+   "rule": "'Lunghezza massima' (maximum length): every vehicle or combination longer than the number shown may not pass.",
+   "trap": "'area di parcheggio' (parking area) is wrong: parking signs are blue with a P.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: a ban, not a parking area",
+    "it": "lunghezza",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area di parcheggio",
+    "en": "parking area"
+   },
+   {
+    "it": "al massimo",
+    "en": "at most"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19826": {
+  "en": "The sign shown requires a minimum distance between lorries so that cars can overtake them.",
+  "explain": {
+   "short": "The sign is a length limit for vehicles. It says nothing about distances or overtaking.",
+   "rule": "'Lunghezza massima' (maximum length): every vehicle or combination longer than the number shown may not pass.",
+   "trap": "'distanziamento minimo' (minimum spacing) confuses a length with a distance.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: a length limit, not a distance",
+    "it": "lunghezza",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "impone",
+    "en": "requires"
+   },
+   {
+    "it": "distanziamento minimo",
+    "en": "minimum spacing"
+   },
+   {
+    "it": "sorpassarli",
+    "en": "overtake them"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19827": {
+  "en": "Where the sign shown is, a car towing a caravan may pass even if together they are over 10 metres.",
+  "explain": {
+   "short": "A car with a caravan is a combination: the total length counts. Over 10 m means banned.",
+   "rule": "'Lunghezza massima' (maximum length): every vehicle or combination longer than the number shown may not pass.",
+   "trap": "'anche se insieme superano' (even if together they exceed) is the trap: together is what counts.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: car + caravan over 10 m is banned",
+    "it": "complessi di veicoli",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "traina un caravan",
+    "en": "tows a caravan"
+   },
+   {
+    "it": "insieme superano",
+    "en": "together exceed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19828": {
+  "en": "Where the sign shown is, all articulated buses for carrying people may pass.",
+  "explain": {
+   "short": "Buses are not exempt. Articulated buses are long (usually much more than 10 m), so they cannot all pass.",
+   "rule": "'Lunghezza massima' (maximum length): every vehicle or combination longer than the number shown may not pass.",
+   "trap": "'tutti' (all) is the trap: articulated buses longer than 10 m are banned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: buses over 10 m are banned",
+    "it": "autosnodati",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passage is allowed"
+   },
+   {
+    "it": "autosnodati",
+    "en": "articulated buses"
+   },
+   {
+    "it": "trasporto di persone",
+    "en": "carrying people"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19829": {
+  "en": "The sign shown warns that lorries must keep a safety distance of at least 10 metres.",
+  "explain": {
+   "short": "It is not a warning and not a distance: it is a ban on vehicles longer than 10 m.",
+   "rule": "'Lunghezza massima' (maximum length): every vehicle or combination longer than the number shown may not pass.",
+   "trap": "'distanza di sicurezza' (safety distance) is wrong: the arrows measure the vehicle's length.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: a length ban, not a distance",
+    "it": "lunghezza",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "warns of (ahead)"
+   },
+   {
+    "it": "distanza di sicurezza",
+    "en": "safety distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19830": {
+  "en": "The sign shown bans vehicles with an actual mass above the one shown.",
+  "explain": {
+   "short": "'7,00 t' is a weight limit: vehicles whose real weight at that moment is over 7 t may not pass.",
+   "rule": "Vehicles whose actual 'massa' (weight, vehicle plus load) is above the number shown may not pass.",
+   "trap": "'massa effettiva' (actual mass) means the real weight now: vehicle plus load.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Actual mass over 7 t: banned",
+    "it": "massa effettiva",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans the passage"
+   },
+   {
+    "it": "massa effettiva",
+    "en": "actual mass (real weight)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19831": {
+  "en": "The sign shown, with an extra panel, can ban several vehicles from passing at the same time.",
+  "explain": {
+   "short": "On a weak bridge, a panel can add that vehicles must not be on it together, so the weight is not added up.",
+   "rule": "Vehicles whose actual 'massa' (weight, vehicle plus load) is above the number shown may not pass.",
+   "trap": "'integrato con pannello' (with a panel added): the panel adds this extra rule.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "With a panel: one vehicle at a time",
+    "it": "pannello",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "integrato con pannello",
+    "en": "with an extra panel"
+   },
+   {
+    "it": "transito contemporaneo",
+    "en": "passing at the same time"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19832": {
+  "en": "The sign shown bans lorries with a tare weight over 7 tonnes.",
+  "explain": {
+   "short": "Tare is the weight of the empty lorry. If even the empty lorry is over 7 t, its actual mass is over 7 t, so it is banned.",
+   "rule": "Vehicles whose actual 'massa' (weight, vehicle plus load) is above the number shown may not pass.",
+   "trap": "'tara' (tare, empty weight): if the empty vehicle is already over 7 t, it is too heavy.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Empty weight over 7 t: banned",
+    "it": "tara",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarri",
+    "en": "lorries"
+   },
+   {
+    "it": "tara",
+    "en": "tare (empty weight)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19833": {
+  "en": "Where the sign shown is, an agricultural machine with a fully loaded mass of 7 tonnes may pass.",
+  "explain": {
+   "short": "Only vehicles HEAVIER than 7 t are banned. Exactly 7 t, even fully loaded, is allowed.",
+   "rule": "Vehicles whose actual 'massa' (weight, vehicle plus load) is above the number shown may not pass.",
+   "trap": "'pari a 7 tonnellate' (equal to 7 t): equal to the limit, not above it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Exactly 7 t: allowed",
+    "it": "7 t",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passage is allowed"
+   },
+   {
+    "it": "massa a pieno carico",
+    "en": "fully loaded mass"
+   },
+   {
+    "it": "pari a 7 tonnellate",
+    "en": "equal to 7 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19834": {
+  "en": "The sign shown can be found before a bridge.",
+  "explain": {
+   "short": "A bridge can hold only a certain weight, so a mass limit is often placed before it.",
+   "rule": "Vehicles whose actual 'massa' (weight, vehicle plus load) is above the number shown may not pass.",
+   "trap": "'si può trovare' (can be found): a bridge is a typical place.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Typical before a bridge",
+    "it": "ponte",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si può trovare",
+    "en": "can be found"
+   },
+   {
+    "it": "ponte",
+    "en": "bridge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19835": {
+  "en": "Where the sign shown is, vehicles whose most loaded axle has a mass above the one shown may pass.",
+  "explain": {
+   "short": "If one axle alone weighs more than 7 t, the whole vehicle weighs more than 7 t, so it is banned.",
+   "rule": "Vehicles whose actual 'massa' (weight, vehicle plus load) is above the number shown may not pass.",
+   "trap": "'asse più caricato' (most loaded axle): one axle over 7 t means the vehicle is over 7 t too.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: one axle over 7 t means too heavy",
+    "it": "massa",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passage is allowed"
+   },
+   {
+    "it": "asse più caricato",
+    "en": "most loaded axle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19836": {
+  "en": "In built-up areas the sign shown is in force from 8:00 to 20:00.",
+  "explain": {
+   "short": "The weight limit is valid at every hour, in towns too. Only a panel could set hours.",
+   "rule": "Vehicles whose actual 'massa' (weight, vehicle plus load) is above the number shown may not pass.",
+   "trap": "'dalle ore 8.00 alle ore 20.00' (from 8 to 20) is invented: no hours on the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: valid at every hour",
+    "it": "orari",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "centri abitati",
+    "en": "built-up areas"
+   },
+   {
+    "it": "vige",
+    "en": "is in force"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19837": {
+  "en": "Where the sign shown is, buses with a mass over 7 tonnes may pass.",
+  "explain": {
+   "short": "The weight limit is for every vehicle, buses included. Over 7 t means banned.",
+   "rule": "Vehicles whose actual 'massa' (weight, vehicle plus load) is above the number shown may not pass.",
+   "trap": "'autobus' is the trap: buses have no exception.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: buses over 7 t are banned",
+    "it": "autobus",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passage is allowed"
+   },
+   {
+    "it": "autobus",
+    "en": "buses"
+   },
+   {
+    "it": "massa superiore",
+    "en": "mass above"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19838": {
+  "en": "The sign shown bans only goods vehicles with a mass over 7 tonnes.",
+  "explain": {
+   "short": "The limit is for ALL vehicles over 7 t, not only goods vehicles.",
+   "rule": "Vehicles whose actual 'massa' (weight, vehicle plus load) is above the number shown may not pass.",
+   "trap": "'soli' (only) is the trap: buses and other vehicles count too.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: for all vehicles over 7 t",
+    "it": "massa",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ai soli veicoli",
+    "en": "only to vehicles"
+   },
+   {
+    "it": "trasporto merci",
+    "en": "goods transport"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19839": {
+  "en": "The sign shown bans vehicles longer than 7 metres.",
+  "explain": {
+   "short": "The 't' means tonnes: it is a weight limit, not a length in metres.",
+   "rule": "Vehicles whose actual 'massa' (weight, vehicle plus load) is above the number shown may not pass.",
+   "trap": "'lunghezza' (length) is the trap: 't' is for tonnes, not metres.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: 7 tonnes, not 7 metres",
+    "it": "massa",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans the passage"
+   },
+   {
+    "it": "lunghezza superiore",
+    "en": "length over"
+   },
+   {
+    "it": "7 metri",
+    "en": "7 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

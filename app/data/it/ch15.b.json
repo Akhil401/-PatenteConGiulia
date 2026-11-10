@@ -1,0 +1,635 @@
+{
+  "q23525": {
+    "short": "Con scarsa visibilità non vedi chi arriva di fronte. Lampeggiare non rende il sorpasso sicuro o legale.",
+    "rule": "Il sorpasso è vietato vicino a curve e dossi e quando la visibilità è scarsa (nebbia, pioggia forte).",
+    "trap": "«purché» aggiunge una condizione che sembra sicura, ma non rende legale il sorpasso.",
+    "caption": "Nebbia: niente sorpasso, lampeggiare non aiuta"
+  },
+  "q23526": {
+    "short": "Su una strada a due carreggiate separate nessuno arriva di fronte. Quindi in curva puoi sorpassare.",
+    "rule": "In curva e sui dossi puoi sorpassare solo con carreggiate separate o almeno due corsie per il tuo senso.",
+    "trap": "«anche se» fa sembrare il divieto totale, ma le carreggiate separate sono proprio l'eccezione.",
+    "caption": "Carreggiate separate: in curva puoi sorpassare"
+  },
+  "q23527": {
+    "short": "Con due o più corsie segnate nel tuo senso, resti nella tua metà della strada. Quindi in curva puoi sorpassare.",
+    "rule": "In curva e sui dossi puoi sorpassare se ci sono almeno due corsie segnate per il tuo senso di marcia.",
+    "trap": "«anche se» nasconde l'eccezione: con due corsie per senso il sorpasso è consentito.",
+    "caption": "Due corsie nel tuo senso: in curva puoi sorpassare"
+  },
+  "q23528": {
+    "short": "Vicino a un passaggio a livello senza barriere il sorpasso è vietato. La distanza del treno non cambia nulla.",
+    "rule": "Niente sorpasso ai passaggi a livello senza barriere o vicino a essi (salvo se c'è un semaforo).",
+    "trap": "«se il treno è distante» è una falsa scusa: il divieto non dipende dal treno.",
+    "caption": "Passaggio a livello senza barriere: niente sorpasso"
+  },
+  "q23529": {
+    "short": "Il divieto vicino ai passaggi a livello senza barriere vale sempre. Vale anche per i veicoli lenti.",
+    "rule": "Niente sorpasso ai passaggi a livello senza barriere o vicino a essi (salvo se c'è un semaforo).",
+    "trap": "«in lento movimento» e «il treno è distante» non creano un'eccezione.",
+    "caption": "Auto lente al passaggio a livello: niente sorpasso"
+  },
+  "q23530": {
+    "short": "In un incrocio un'auto può arrivare o girare in ogni momento. Lì il sorpasso è vietato, salvo casi precisi (semaforo, vigile, strada con diritto di precedenza a più corsie).",
+    "rule": "Di regola, niente sorpasso negli incroci o vicino agli incroci.",
+    "trap": "«purché» offre una condizione che non è una delle eccezioni previste dalla legge.",
+    "caption": "Incrocio senza semaforo: niente sorpasso"
+  },
+  "q23531": {
+    "short": "La corsia di accelerazione serve solo per prendere velocità ed entrare nella strada. Non puoi usarla per sorpassare.",
+    "rule": "Le corsie di accelerazione e di decelerazione non servono per sorpassare.",
+    "trap": "«con attenzione» non rende legale una manovra vietata.",
+    "caption": "Corsia di accelerazione: per entrare, non per sorpassare"
+  },
+  "q23532": {
+    "short": "Anche biciclette e moto sono veicoli. Valgono tutti i normali divieti di sorpasso (curve, dossi, linee continue, scarsa visibilità).",
+    "rule": "Supera un veicolo a due ruote solo dove il sorpasso è consentito, con una buona distanza laterale.",
+    "trap": "«sempre» è una parola trappola: nel codice quasi niente è consentito «sempre».",
+    "caption": "Anche per le bici valgono i normali divieti",
+    "lines": [
+      "Bici e moto sono veicoli",
+      "Curve, dossi, linea continua: niente sorpasso",
+      "Lascia molto spazio di lato"
+    ]
+  },
+  "q23533": {
+    "short": "Su una strada a senso unico nessuno arriva di fronte. Quindi il sorpasso è consentito (a sinistra, se è sicuro).",
+    "rule": "Sulle strade a senso unico puoi sorpassare, anche vicino a curve e dossi, se i normali controlli sono a posto.",
+    "trap": "«vietato» qui è sbagliato: il senso unico rende il sorpasso più facile, non vietato.",
+    "caption": "Strada a senso unico: puoi sorpassare"
+  },
+  "q23534": {
+    "short": "Un'auto della polizia non in emergenza è un veicolo normale. Puoi sorpassarla dove il sorpasso è consentito.",
+    "rule": "Non devi ostacolare la polizia in emergenza (lampeggianti blu e sirena). Negli altri casi valgono le regole normali.",
+    "trap": "Non c'è un divieto generale per i «veicoli della polizia»: conta solo il servizio di emergenza.",
+    "caption": "Polizia non in emergenza: puoi sorpassare"
+  },
+  "q23535": {
+    "short": "Si sorpassa a sinistra, anche in autostrada. Il sorpasso a destra è consentito solo in pochi casi speciali.",
+    "rule": "Sorpassa sempre a sinistra. In autostrada il sorpasso a destra di norma è vietato.",
+    "trap": "«indifferentemente» è la trappola: destra e sinistra non sono la stessa cosa.",
+    "caption": "Autostrada: niente sorpasso a destra"
+  },
+  "q23536": {
+    "short": "Le moto seguono la stessa regola delle auto: si sorpassa a sinistra. Lo spazio libero a destra non basta.",
+    "rule": "Il sorpasso si fa a sinistra. A destra solo nei casi speciali del codice (es. auto che gira a sinistra).",
+    "trap": "«sia a destra che a sinistra» è falso: le moto non hanno un permesso speciale per la destra.",
+    "caption": "Moto: sorpasso a sinistra, non a destra"
+  },
+  "q23537": {
+    "short": "Se l'altro veicolo rallenta, lo superi più in fretta. Quindi serve meno spazio, non di più.",
+    "rule": "Più è grande la differenza di velocità, più il sorpasso è corto. Se l'altro accelera, il sorpasso è più lungo.",
+    "trap": "«aumenta» è la trappola: se l'altro «rallenta», lo spazio diventa più piccolo.",
+    "caption": "L'altro rallenta: serve MENO spazio"
+  },
+  "q23538": {
+    "short": "Un camion lungo, o la tua auto con roulotte, si supera in più tempo. Quindi serve più spazio.",
+    "rule": "Lo spazio per il sorpasso dipende dalle velocità e dalla lunghezza dei due veicoli.",
+    "trap": "«indipendente» è sbagliato: la lunghezza conta molto.",
+    "caption": "Camion lungo: serve più spazio per sorpassare"
+  },
+  "q23539": {
+    "short": "Puoi superare un autobus fermo, se la strada è libera. Vai piano e fai attenzione ai pedoni davanti all'autobus.",
+    "rule": "Superare un autobus fermo alla fermata è consentito, con attenzione ai pedoni.",
+    "trap": "«vietato» è sbagliato: la regola chiede prudenza, non un divieto.",
+    "caption": "Autobus alla fermata: passa piano, attento ai pedoni"
+  },
+  "q23540": {
+    "short": "Su una strada a senso unico non arriva nessuno di fronte. Quindi puoi sorpassare su curve e dossi.",
+    "rule": "Il divieto su curve e dossi ti protegge da chi arriva di fronte. Sulle strade a senso unico non vale.",
+    "trap": "Non confondere «curve e dossi» con «senso unico»: il senso unico è l'eccezione.",
+    "caption": "Senso unico: in curva puoi sorpassare"
+  },
+  "q23541": {
+    "short": "La linea tratteggiata si può superare. È proprio la linea che permette il sorpasso.",
+    "rule": "Linea tratteggiata: puoi superarla per sorpassare. Linea continua: non puoi superarla.",
+    "trap": "«tratteggiata» non è «continua»: solo la linea continua vieta di passare.",
+    "caption": "Linea tratteggiata: puoi superarla per sorpassare"
+  },
+  "q23542": {
+    "short": "Avere spazio non è un motivo per sorpassare a destra. Anche le moto si sorpassano a sinistra.",
+    "rule": "Sorpassa a sinistra. A destra solo nei casi speciali previsti dal codice.",
+    "trap": "«se vi è spazio sufficiente» sembra ragionevole, ma non è un'eccezione di legge.",
+    "caption": "Moto davanti: mai sorpassare a destra"
+  },
+  "q23543": {
+    "short": "Le corsie riservate sono solo per i veicoli indicati dai cartelli (per esempio autobus e taxi). Il traffico intenso non cambia nulla.",
+    "rule": "Non circolare e non sorpassare in una corsia riservata, se il tuo veicolo non è ammesso.",
+    "trap": "«intenso traffico» è una falsa scusa; «corsie riservate» sono corsie solo per alcuni veicoli.",
+    "caption": "Corsie riservate: non per sorpassare",
+    "lines": [
+      "Corsia riservata: solo bus/taxi indicati",
+      "Il traffico intenso non è una scusa",
+      "Le moto restano nelle corsie normali"
+    ]
+  },
+  "q23544": {
+    "short": "Un breve lampeggio con i fari è un modo legale per avvisare chi sta davanti che stai per sorpassare. Fallo breve, per non abbagliare nessuno.",
+    "rule": "Puoi avvisare il veicolo davanti con un breve lampeggio (o il clacson fuori città). La freccia sinistra serve sempre.",
+    "trap": "«è consentito» vuol dire che puoi farlo, non che devi farlo.",
+    "caption": "Un breve lampeggio può avvisare l'auto davanti",
+    "lines": [
+      "Freccia sinistra: sempre",
+      "Breve lampeggio dei fari: consentito",
+      "Non abbagliare gli altri"
+    ]
+  },
+  "q23545": {
+    "short": "Ti serve un po' di velocità in più per superare in fretta, ma non troppa. La tua velocità dipende da quella dell'altro veicolo.",
+    "rule": "Sorpassa con una differenza di velocità chiara ma sicura, sempre entro il limite.",
+    "trap": "«regolare la velocità» vuol dire adattarla, non andare più veloce possibile.",
+    "caption": "Adatta la velocità all'auto che sorpassi"
+  },
+  "q23546": {
+    "short": "I limiti di velocità valgono sempre, anche durante il sorpasso. Se non puoi sorpassare entro il limite, non sorpassare.",
+    "rule": "Non superare mai il limite di velocità, neanche per poco per sorpassare.",
+    "trap": "«momentaneamente» è una trappola: per poco tempo non rende legale l'eccesso di velocità.",
+    "caption": "Anche nel sorpasso valgono i limiti di velocità",
+    "lines": [
+      "Sorpasso in città",
+      "Il limite di velocità vale sempre",
+      "Non riesci entro il limite? Non sorpassare"
+    ]
+  },
+  "q23547": {
+    "short": "Per sorpassare ti sposti a sinistra, accanto all'altro veicolo. Tenere strettamente la destra è il compito di chi viene sorpassato.",
+    "rule": "Sorpassa a sinistra, con una buona distanza laterale, poi torna a destra.",
+    "trap": "L'obbligo di «mantenere strettamente la destra» è di chi viene sorpassato.",
+    "caption": "Spostati a SINISTRA per sorpassare, con spazio laterale"
+  },
+  "q23548": {
+    "short": "Chi sorpassa di solito deve accelerare per superare in fretta. Non accelerare è il compito di chi viene sorpassato.",
+    "rule": "Chi sorpassa: supera in fretta, entro il limite. Chi è sorpassato: non accelera.",
+    "trap": "«non bisogna accelerare» è la regola per l'altro conducente, non per te.",
+    "caption": "Chi sorpassa può accelerare, entro il limite"
+  },
+  "q23549": {
+    "short": "Torni a destra solo quando è sicuro, senza tagliare la strada. Rallentare davanti all'altra auto è pericoloso.",
+    "rule": "Torna a destra appena puoi farlo in sicurezza, lasciando spazio al veicolo sorpassato.",
+    "trap": "«immediatamente» e «rallentando» insieme descrivono un rientro pericoloso.",
+    "caption": "Non tagliare e frenare: rientra quando è sicuro"
+  },
+  "q23550": {
+    "short": "Un autobus di linea è un veicolo normale per il sorpasso. Puoi sorpassarlo dove il sorpasso è consentito.",
+    "rule": "Non c'è un divieto speciale per gli autobus. Se l'autobus è fermo, passa con prudenza e guarda i pedoni.",
+    "trap": "«autobus in servizio pubblico di linea» non crea un divieto.",
+    "caption": "Autobus di linea: puoi sorpassarlo"
+  },
+  "q23551": {
+    "short": "Un'auto con la freccia destra sta per girare a destra o accostare. La sinistra resta libera: puoi sorpassarla, con prudenza.",
+    "rule": "Conta la freccia SINISTRA: non puoi sorpassare a sinistra chi segnala di girare a sinistra.",
+    "trap": "Non confondere «destro» con «sinistro».",
+    "caption": "Auto davanti con freccia destra: puoi passare a sinistra"
+  },
+  "q23552": {
+    "short": "Non c'è un divieto specifico per la neve. Ma la neve riduce aderenza e visibilità: sorpassa solo se è davvero sicuro.",
+    "rule": "Il sorpasso è vietato con scarsa visibilità; la neve da sola non è un divieto, ma serve più prudenza.",
+    "trap": "Non inventare divieti: «se nevica» non è nella lista dei casi vietati.",
+    "caption": "Neve: nessun divieto automatico, ma più prudenza",
+    "lines": [
+      "Neve da sola: non è un divieto",
+      "Controlla aderenza e visibilità",
+      "Scarsa visibilità: niente sorpasso"
+    ]
+  },
+  "q23553": {
+    "short": "Davanti a un passo carrabile non puoi parcheggiare. Ma il sorpasso non è vietato.",
+    "rule": "I passi carrabili vietano la sosta e la fermata, non il sorpasso.",
+    "trap": "I «passi carrabili» riguardano la sosta, non il sorpasso: non mescolare i due argomenti.",
+    "caption": "Passo carrabile: niente sosta, ma sorpasso sì",
+    "lines": [
+      "Passo carrabile = ingresso di un cortile",
+      "Davanti non puoi parcheggiare",
+      "Il sorpasso non è vietato"
+    ]
+  },
+  "q23554": {
+    "short": "Nessuna regola vieta il sorpasso vicino agli ospedali. Vicino a un ospedale devi evitare i rumori, per esempio il clacson.",
+    "rule": "Vicino agli ospedali: guida con calma e non usare il clacson. Per il sorpasso valgono le regole normali.",
+    "trap": "«in prossimità degli ospedali» non è nella lista dei luoghi dove il sorpasso è vietato.",
+    "caption": "Vicino all'ospedale: nessun divieto di sorpasso",
+    "lines": [
+      "Ospedale vicino",
+      "Evita rumori e clacson",
+      "Sorpasso: regole normali"
+    ]
+  },
+  "q23555": {
+    "short": "I distributori di benzina non sono nella lista dei luoghi dove il sorpasso è vietato. Fai solo attenzione alle auto che entrano ed escono.",
+    "rule": "Vicino a una stazione di servizio il sorpasso segue le regole normali.",
+    "trap": "Il divieto per le «stazioni di servizio» è inventato.",
+    "caption": "Vicino al distributore: nessun divieto di sorpasso",
+    "lines": [
+      "Distributore vicino",
+      "Attento alle auto che entrano ed escono",
+      "Sorpasso: regole normali"
+    ]
+  },
+  "q23556": {
+    "short": "Su una strada a senso unico nessuno arriva di fronte dietro il dosso. Quindi lì puoi sorpassare.",
+    "rule": "Su dossi e curve puoi sorpassare su strade a senso unico, con carreggiate separate o con 2+ corsie nel tuo senso.",
+    "trap": "Il «dosso» di solito è un divieto, ma il «senso unico» è un'eccezione.",
+    "caption": "Senso unico: puoi sorpassare sul dosso"
+  },
+  "q23557": {
+    "short": "Su una carreggiata a senso unico tutti vanno nella tua direzione. Dietro il dosso non c'è rischio di scontro frontale.",
+    "rule": "Su dossi e curve puoi sorpassare sulle carreggiate a senso unico.",
+    "trap": "Le «carreggiate a senso unico» sono l'eccezione al divieto sul dosso.",
+    "caption": "Carreggiata a senso unico: puoi sorpassare sul dosso"
+  },
+  "q23558": {
+    "short": "Con due corsie segnate nel tuo senso, sorpassi senza entrare nella metà della strada di chi arriva.",
+    "rule": "Su dossi e curve puoi sorpassare se ci sono almeno due corsie segnate nel tuo senso.",
+    "trap": "«due corsie per senso di marcia» non è una strada a due corsie con una corsia per senso.",
+    "caption": "Due corsie nel tuo senso: puoi sorpassare sul dosso"
+  },
+  "q23559": {
+    "short": "Con carreggiate separate, chi arriva di fronte è su un'altra carreggiata. Vicino al dosso puoi sorpassare.",
+    "rule": "Su dossi e curve puoi sorpassare sulle strade a carreggiate separate.",
+    "trap": "Le «carreggiate separate» sono una delle eccezioni al divieto sul dosso.",
+    "caption": "Carreggiate separate: puoi sorpassare sul dosso"
+  },
+  "q23560": {
+    "short": "Non devi stare attaccato a un veicolo di emergenza per usare la strada che apre. Sorpassare così è vietato e pericoloso.",
+    "rule": "Dai strada ai veicoli con lampeggianti blu e sirena; non seguirli mai da vicino nel traffico.",
+    "trap": "«accodandosi» vuol dire mettersi subito dietro l'ambulanza.",
+    "caption": "Mai seguire un'ambulanza per sorpassare"
+  },
+  "q23562": {
+    "short": "Su una strada con una corsia per senso non vedi chi arriva dietro il dosso. Il divieto vale per tutti i veicoli, anche i carri lenti.",
+    "rule": "Vicino ai dossi, su strade a doppio senso con una corsia per senso: niente sorpasso.",
+    "trap": "I «veicoli a trazione animale» sono lenti, ma la lentezza non è un'eccezione.",
+    "caption": "Dosso su strada a doppio senso: niente sorpasso"
+  },
+  "q23563": {
+    "short": "Vicino a un dosso su strada a doppio senso il sorpasso è vietato. Seguire da vicino un'auto che sorpassa è ancora più pericoloso: non vedi niente.",
+    "rule": "Vicino ai dossi, su strade a doppio senso con una corsia per senso: niente sorpasso.",
+    "trap": "«nella scia» (subito dietro) non ti dà lo stesso diritto dell'altra auto.",
+    "caption": "Dosso: niente sorpasso, neanche dietro un'altra auto"
+  },
+  "q23564": {
+    "short": "Dietro un dosso non vedi le auto che arrivano. Lì è vietato entrare nella metà opposta, anche per superare un autobus fermo.",
+    "rule": "Vicino a un dosso su strada a doppio senso non entrare nella metà opposta. Aspetta dietro l'autobus.",
+    "trap": "«invadere l'opposta semicarreggiata» vuol dire entrare nella metà di chi arriva: la parte pericolosa.",
+    "caption": "Autobus fermo vicino al dosso: aspetta, non passare"
+  },
+  "q23565": {
+    "short": "Su una carreggiata a senso unico non arriva nessuno di fronte. Quindi sul dosso puoi sorpassare.",
+    "rule": "Su dossi e curve puoi sorpassare sulle carreggiate a senso unico.",
+    "trap": "«non si può» è la trappola: il «senso unico» rende il sorpasso consentito.",
+    "caption": "Senso unico, due corsie: puoi sorpassare sul dosso"
+  },
+  "q23566": {
+    "short": "Un'auto che accosta a destra lascia la strada libera. Puoi superarla a sinistra, con prudenza.",
+    "rule": "Puoi sorpassare un veicolo che segnala a destra o accosta, se il sorpasso è consentito per il resto.",
+    "trap": "«accostarsi al margine destro» vuol dire avvicinarsi al bordo destro: questo rende il tuo sorpasso più facile.",
+    "caption": "Auto che accosta a destra: puoi passare a sinistra"
+  },
+  "q23567": {
+    "short": "L'uscita di un parcheggio non è un luogo dove il sorpasso è vietato. Fai solo attenzione alle auto che escono.",
+    "rule": "Vicino all'uscita di un parcheggio il sorpasso segue le regole normali.",
+    "trap": "L'«uscita di un pubblico parcheggio» non è un divieto di legge.",
+    "caption": "Uscita del parcheggio: nessun divieto di sorpasso",
+    "lines": [
+      "Uscita di un parcheggio vicina",
+      "Attento alle auto che escono",
+      "Sorpasso: regole normali"
+    ]
+  },
+  "q23568": {
+    "short": "Se la linea tratteggiata è dalla tua parte, puoi superarla per sorpassare. La linea continua ferma solo chi viene dall'altra parte.",
+    "rule": "Linee affiancate: puoi passare se vicino a te c'è la tratteggiata, non se c'è la continua.",
+    "trap": "Guarda quale linea è «alla sinistra del veicolo»: qui è quella «discontinua».",
+    "caption": "Tratteggiata dalla tua parte: puoi sorpassare"
+  },
+  "q23569": {
+    "short": "Un tram che va al centro della strada si sorpassa a destra, se c'è spazio. È uno dei casi legali di sorpasso a destra.",
+    "rule": "I tram che marciano al centro della carreggiata si sorpassano a destra.",
+    "trap": "«non si può» è sbagliato: il tram al centro è l'eccezione classica.",
+    "caption": "Tram al centro: sorpassalo a destra"
+  },
+  "q23570": {
+    "short": "Se tagli la strada, l'auto sorpassata deve frenare o sterzare. Devi rientrare a destra solo con abbastanza spazio.",
+    "rule": "Rientra a destra piano e in sicurezza, senza tagliare la strada al veicolo sorpassato.",
+    "trap": "«tagliare la strada» vuol dire mettersi davanti di colpo; «stringere» vuol dire chiudere l'altro di lato.",
+    "caption": "Se tagli la strada, l'altra auto deve frenare"
+  },
+  "q23571": {
+    "short": "Un'auto dietro può già sorpassare, o un'auto davanti può spostarsi per sorpassare. Per questo prima guardi negli specchietti.",
+    "rule": "Prima di sorpassare, controlla che nessuno dietro ti stia già sorpassando e che nessuno davanti si stia spostando.",
+    "trap": "«la stessa manovra» vuol dire che anche altre auto stanno sorpassando.",
+    "caption": "Prima controlla che nessun altro sorpassi"
+  },
+  "q23572": {
+    "short": "Se ti avvicini troppo prima di partire, puoi urtare il veicolo davanti se frena. Tieni la distanza di sicurezza.",
+    "rule": "Tieni la distanza di sicurezza finché non inizi il sorpasso.",
+    "trap": "«in fase di avvicinamento» vuol dire mentre ti avvicini, prima di superare.",
+    "caption": "Tieni la distanza prima di spostarti"
+  },
+  "q23573": {
+    "short": "Se torni a destra troppo presto, puoi urtare l'auto appena superata. Prima guardala nello specchietto.",
+    "rule": "Torna a destra solo quando vedi nello specchietto il veicolo sorpassato a distanza sicura.",
+    "trap": "«in fase di rientro» vuol dire mentre torni nella tua corsia.",
+    "caption": "Rientrare troppo presto: puoi urtare l'auto superata"
+  },
+  "q23574": {
+    "short": "Su una strada a doppio senso sorpassi nella metà usata da chi arriva. Lo scontro frontale è il rischio più grave.",
+    "rule": "Sorpassa solo se la strada davanti è libera per un tratto abbastanza lungo.",
+    "trap": "«urto frontale» vuol dire scontro di fronte; «senso contrario» vuol dire direzione opposta.",
+    "caption": "Auto che arriva di fronte: niente sorpasso"
+  },
+  "q23575": {
+    "short": "Su una strada stretta c'è poco spazio accanto all'altro veicolo e per chi arriva. Quindi il sorpasso è più pericoloso.",
+    "rule": "Sorpassa solo dove la strada è larga abbastanza per una distanza laterale sicura.",
+    "trap": "«ridotta larghezza» vuol dire che la strada è stretta.",
+    "caption": "Strada stretta: sorpasso rischioso",
+    "lines": [
+      "Strada stretta",
+      "Poco spazio di lato",
+      "Il sorpasso è più pericoloso"
+    ]
+  },
+  "q23576": {
+    "short": "Devi lasciare la corsia di sorpasso appena puoi farlo in sicurezza. Se resti lì, blocchi il traffico più veloce.",
+    "rule": "Dopo il sorpasso, torna a destra appena è sicuro.",
+    "trap": "«il più a lungo possibile» è il contrario della regola.",
+    "caption": "Non restare a sinistra: rientra quando è sicuro"
+  },
+  "q23577": {
+    "short": "Il clacson non è obbligatorio, e usarlo di continuo è vietato. Il sorpasso si segnala con la freccia.",
+    "rule": "Usa la freccia. Il clacson solo per poco, fuori città, e solo se serve.",
+    "trap": "«continuamente» e «è tenuto» rendono la frase sbagliata due volte.",
+    "caption": "Niente clacson: usa la freccia"
+  },
+  "q23578": {
+    "short": "Non esiste una regola della «velocità doppia». Serve una chiara differenza di velocità, ma sempre entro il limite.",
+    "rule": "Adatta la velocità all'altro veicolo e al limite di velocità.",
+    "trap": "«almeno doppia» è un numero inventato.",
+    "caption": "Nessuna regola della velocità doppia; resta nel limite"
+  },
+  "q23579": {
+    "short": "I delineatori (i paletti al bordo della strada) ti aiutano a vedere la strada. Non rendono pericoloso il sorpasso.",
+    "rule": "I delineatori di margine sono una guida, soprattutto di notte; non sono un pericolo.",
+    "trap": "I «delineatori normali di margine» sono i paletti bianchi con catarifrangenti al bordo.",
+    "caption": "I paletti al bordo ti guidano, non sono un pericolo",
+    "lines": [
+      "Delineatori = paletti al bordo",
+      "Mostrano dove va la strada",
+      "Non sono un pericolo nel sorpasso"
+    ]
+  },
+  "q23580": {
+    "short": "Questo divieto non esiste. Di notte controlli la visibilità e usi le luci giuste, ma il sorpasso non è vietato in automatico.",
+    "rule": "Il sorpasso è vietato quando non vedi bene davanti, non solo perché è notte.",
+    "trap": "«di notte» non è la stessa cosa di «scarsa visibilità».",
+    "caption": "Notte in città: nessun divieto automatico",
+    "lines": [
+      "Notte in città",
+      "Usa le luci, controlla la visibilità",
+      "Sorpasso: regole normali"
+    ]
+  },
+  "q23581": {
+    "short": "La linea di mezzeria tratteggiata si può superare. È la linea che permette il sorpasso.",
+    "rule": "Mezzeria tratteggiata: sorpasso consentito se è sicuro. Mezzeria continua: non puoi superarla.",
+    "trap": "«tratteggiata» non è «continua».",
+    "caption": "Mezzeria tratteggiata: puoi sorpassare"
+  },
+  "q23582": {
+    "short": "Questa regola non esiste. Puoi sorpassare un autobus in montagna dove il sorpasso è consentito e sicuro.",
+    "rule": "Sulle strade di montagna valgono i normali divieti (curve, dossi, linee continue).",
+    "trap": "«strade di montagna» e «autobus di linea» insieme non creano un divieto.",
+    "caption": "Autobus su strada di montagna: regole normali",
+    "lines": [
+      "Strada di montagna, autobus davanti",
+      "Curve e linee continue: no",
+      "Rettilineo libero: puoi sorpassare"
+    ]
+  },
+  "q23583": {
+    "short": "Non c'è una regola fissa dei 100 m. Torni a destra quando puoi farlo in sicurezza, senza tagliare la strada.",
+    "rule": "Torna a destra quando vedi nello specchietto il veicolo sorpassato a distanza sicura.",
+    "trap": "«almeno 100 m» è un numero inventato.",
+    "caption": "Rientra quando è sicuro: nessuna regola dei 100 m"
+  },
+  "q23584": {
+    "short": "Per rientrare non serve il clacson. Usi la freccia destra.",
+    "rule": "Segnala il rientro con la freccia destra; il clacson non serve.",
+    "trap": "«segnalare acusticamente» vuol dire usare il clacson: non è obbligatorio.",
+    "caption": "Rientri? Usa la freccia, non il clacson"
+  },
+  "q23585": {
+    "short": "Senza salvagente, i passeggeri attraversano la strada per salire e scendere. Lì il sorpasso a destra è vietato.",
+    "rule": "Un tram o filobus fermo si può superare a destra solo se c'è il salvagente.",
+    "trap": "«anche se non esiste salvagente» è la trappola.",
+    "caption": "Fermo senza salvagente: non passare a destra"
+  },
+  "q23586": {
+    "short": "Si sorpassa a sinistra. Una strada extraurbana a senso unico non cambia la regola; a destra solo nei casi speciali.",
+    "rule": "Sui sensi unici puoi passare a destra solo se il veicolo davanti segnala che si ferma o gira a sinistra.",
+    "trap": "«strada extraurbana» e «senso unico» da soli non permettono di sorpassare a destra.",
+    "caption": "Senso unico fuori città: sorpassa a sinistra",
+    "lines": [
+      "Senso unico fuori città",
+      "Sorpassa a SINISTRA",
+      "A destra solo se chi è davanti gira a sinistra"
+    ]
+  },
+  "q23587": {
+    "short": "Non puoi sapere la potenza dell'altra auto, e la legge non la chiede. Devi controllare la strada, lo spazio e la differenza di velocità.",
+    "rule": "Prima di sorpassare controlla visibilità, strada libera, specchietti e spazio sufficiente.",
+    "trap": "La «potenza del motore» è un controllo inventato.",
+    "caption": "La potenza del motore non è il controllo giusto",
+    "lines": [
+      "Confrontare la potenza? No",
+      "Controlla che la strada sia libera",
+      "Controlla specchietti e spazio"
+    ]
+  },
+  "q23588": {
+    "short": "Se acceleri mentre qualcuno ti sorpassa, il sorpasso è più lungo e più pericoloso. Non devi fare a gara.",
+    "rule": "Quando ti sorpassano: tieni la destra e non accelerare.",
+    "trap": "«gareggiare in velocità» vuol dire fare a gara.",
+    "caption": "Ti sorpassano? Mai fare a gara"
+  },
+  "q23589": {
+    "short": "Accelerare rende il sorpasso più lungo e pericoloso. Chi viene sorpassato non deve accelerare.",
+    "rule": "Quando ti sorpassano: tieni la destra e non accelerare.",
+    "trap": "«non accelerare» è l'obbligo di chi viene sorpassato, non di chi sorpassa.",
+    "caption": "Ti sorpassano: non accelerare"
+  },
+  "q23590": {
+    "short": "Un veicolo molto lento può creare una lunga coda. Se gli altri non possono sorpassare, deve fermarsi dove possibile e lasciarli passare.",
+    "rule": "I veicoli molto lenti devono facilitare il sorpasso e, se serve, fermarsi in un posto sicuro per far passare la coda.",
+    "trap": "«molto lento» è la condizione chiave; le auto normali non devono fermarsi.",
+    "caption": "Veicolo molto lento si ferma e fa passare il traffico"
+  },
+  "q23591": {
+    "short": "Spostarsi a destra dà più spazio all'auto che sorpassa e rende il sorpasso più sicuro.",
+    "rule": "Quando ti sorpassano su una strada con una corsia per senso: tieni la destra e non accelerare.",
+    "trap": "«il più possibile vicino al margine destro» vuol dire molto vicino al bordo destro.",
+    "caption": "Ti sorpassano: stai bene a destra"
+  },
+  "q23592": {
+    "short": "Spostarsi al centro blocca l'auto che sorpassa e può causare un incidente. Chi viene sorpassato deve tenere la destra.",
+    "rule": "Quando ti sorpassano: tieni la destra, non bloccare e non accelerare.",
+    "trap": "«portarsi al centro» è pericoloso; «in scia» vuol dire subito dietro un'altra auto.",
+    "caption": "Non andare al centro: tieni la destra"
+  },
+  "q23593": {
+    "short": "Le luci di emergenza servono per un pericolo o un veicolo fermo, non per dire che la strada è libera. Ogni conducente controlla la strada da solo.",
+    "rule": "Quando ti sorpassano: tieni la destra e non accelerare. Non servono segnali.",
+    "trap": "La «segnalazione luminosa di pericolo» sono le quattro frecce: mai un segnale di «strada libera».",
+    "caption": "Le quattro frecce non vogliono dire «strada libera»"
+  },
+  "q23594": {
+    "short": "L'obbligo è non accelerare e tenere la destra. Rallentare serve solo in alcuni casi, per esempio se arriva un'auto di fronte.",
+    "rule": "Quando ti sorpassano: tieni la destra e non accelerare; rallenta se la situazione lo chiede.",
+    "trap": "«sempre» è la parola trappola.",
+    "caption": "Non accelerare; rallentare non serve sempre"
+  },
+  "q23595": {
+    "short": "La marcia da usare la scegli tu. La regola è solo: tieni la destra e non accelerare.",
+    "rule": "Quando ti sorpassano: tieni la destra e non accelerare.",
+    "trap": "Le «marce più basse» sono un obbligo inventato.",
+    "caption": "Nessuna regola sulle marce: destra, non accelerare",
+    "lines": [
+      "Marce basse? Non è obbligatorio",
+      "Tieni la destra",
+      "Non accelerare"
+    ]
+  },
+  "q23596": {
+    "short": "Nessuna regola vieta di superare un'auto con roulotte in discesa. Puoi superarla se le normali regole lo permettono.",
+    "rule": "Il sorpasso di un veicolo con roulotte segue le regole normali; è lungo, quindi serve più spazio.",
+    "trap": "«mai» è la parola trappola.",
+    "caption": "Roulotte in discesa: nessuna regola del «mai»",
+    "lines": [
+      "Auto con roulotte, discesa ripida",
+      "Nessun divieto speciale",
+      "È lunga: serve più spazio"
+    ]
+  },
+  "q23597": {
+    "short": "Un'auto della polizia senza lampeggianti blu e sirena è un veicolo normale. Puoi sorpassarla se la strada lo permette.",
+    "rule": "Puoi sorpassare i veicoli della polizia non in emergenza, con le regole normali.",
+    "trap": "«se non è in servizio di emergenza» è la condizione chiave che rende la frase vera.",
+    "caption": "Polizia non in emergenza: puoi sorpassare"
+  },
+  "q23598": {
+    "short": "Se rallenti, l'auto che sorpassa può rientrare davanti a te in fretta, prima che arrivi l'auto di fronte.",
+    "rule": "Se ti sorpassano e c'è un pericolo, aiuta chi sorpassa: tieni la destra e rallenta.",
+    "trap": "«consigliabile» è più debole di «obbligo», e qui è corretto.",
+    "caption": "Auto di fronte: rallenta per aiutare chi sorpassa"
+  },
+  "q23599": {
+    "short": "Spostarti a destra dà più spazio all'auto che sorpassa e a quella che arriva. Così aiuti a evitare un incidente.",
+    "rule": "Quando ti sorpassano: stai il più a destra possibile, soprattutto se arriva traffico.",
+    "trap": "«il più vicino possibile al margine destro» vuol dire molto vicino al bordo destro.",
+    "caption": "Auto di fronte: spostati bene a destra"
+  },
+  "q23600": {
+    "short": "Anche chi viene sorpassato ha degli obblighi: tenere la destra e non accelerare. Se non li rispetti, puoi avere parte della colpa.",
+    "rule": "Durante un sorpasso tutti e due i conducenti hanno obblighi, quindi possono dividere la colpa di un incidente.",
+    "trap": "«una parte di responsabilità» vuol dire una parte della colpa, non tutta.",
+    "caption": "Ti sorpassano? Aiuta, o dividi la colpa",
+    "lines": [
+      "Qualcuno ti sta sorpassando",
+      "Tieni la destra, non accelerare",
+      "Se non aiuti: colpa divisa"
+    ]
+  },
+  "q23601": {
+    "short": "Un'auto della polizia non in emergenza si può sorpassare come ogni altro veicolo.",
+    "rule": "Puoi sorpassare i veicoli della polizia non in emergenza, con le regole normali.",
+    "trap": "«non in servizio di emergenza» rende falso il divieto.",
+    "caption": "Polizia non in emergenza: puoi sorpassare"
+  },
+  "q23602": {
+    "short": "Un'auto della polizia in emergenza (lampeggianti blu e sirena) deve avere la strada libera. Dai strada e non la sorpassi, anche con tre corsie.",
+    "rule": "Dai strada ai veicoli con lampeggianti blu e sirena; non sorpassarli e non seguirli da vicino.",
+    "trap": "«anche se» nasconde il problema: il numero di corsie non conta.",
+    "caption": "Polizia in emergenza: dai strada, non sorpassare",
+    "lines": [
+      "Lampeggianti blu e sirena accesi",
+      "Lasciala passare, dai strada",
+      "Non sorpassarla, anche con 3 corsie"
+    ]
+  },
+  "q23603": {
+    "short": "Gli abbaglianti abbagliano chi arriva di fronte e peggiorano la situazione. L'aiuto giusto è tenere la destra e rallentare.",
+    "rule": "Se ti sorpassano e arriva traffico di fronte: tieni la destra e rallenta. Non abbagliare mai gli altri.",
+    "trap": "I «proiettori abbaglianti» abbagliano; qui non sono un segnale di pericolo.",
+    "caption": "Gli abbaglianti abbagliano: destra e rallenta"
+  },
+  "q23604": {
+    "short": "In questo pericolo devi rallentare, così l'auto che sorpassa può rientrare in fretta davanti a te.",
+    "rule": "Se ti sorpassano e arriva traffico di fronte: tieni la destra e rallenta.",
+    "trap": "«mantenere la stessa velocità» sembra calmo, ma qui devi rallentare.",
+    "caption": "Auto di fronte: rallenta per aiutare chi sorpassa"
+  },
+  "q23605": {
+    "short": "La freccia destra vuol dire che giri o accosti, non che c'è un pericolo. Può confondere gli altri conducenti.",
+    "rule": "Se ti sorpassano e arriva traffico di fronte: tieni la destra e rallenta. Non serve la freccia.",
+    "trap": "L'«indicatore di direzione destro» non è un segnale di pericolo.",
+    "caption": "La freccia destra non è un segnale di pericolo"
+  },
+  "q23606": {
+    "short": "In autostrada le auto dietro arrivano molto veloci. Se non guardi nello specchietto prima di spostarti a sinistra, possono urtarti.",
+    "rule": "Prima di spostarti nella corsia di sinistra, controlla specchietti e angolo cieco.",
+    "trap": "«veicoli che seguono» vuol dire i veicoli dietro di te.",
+    "caption": "Auto veloce dietro: prima guarda lo specchietto"
+  },
+  "q23607": {
+    "short": "Alle velocità dell'autostrada serve molto spazio per fermarsi. Con poca distanza urti l'auto davanti se frena.",
+    "rule": "Tieni la distanza di sicurezza anche durante il sorpasso.",
+    "trap": "«insufficiente distanza di sicurezza» vuol dire distanza di sicurezza troppo corta.",
+    "caption": "Troppo vicino ad alta velocità: rischio di urto"
+  },
+  "q23608": {
+    "short": "Un'auto davanti può spostarsi di colpo nella tua corsia per sorpassare. Guarda le sue frecce e i suoi movimenti e sii pronto a frenare.",
+    "rule": "In autostrada guarda i veicoli davanti e prevedi i loro cambi di corsia.",
+    "trap": "«improvviso spostamento» vuol dire spostamento di colpo.",
+    "caption": "Auto davanti va a sinistra di colpo: pericolo"
+  },
+  "q23609": {
+    "short": "Se resti nella corsia di sinistra, blocchi le auto più veloci dietro di te. Torna a destra dopo il sorpasso.",
+    "rule": "In autostrada tieni la destra; usa le corsie di sinistra solo per sorpassare.",
+    "trap": "«intralcio» vuol dire dare fastidio al traffico, ostacolarlo.",
+    "caption": "Non bloccare la corsia di sinistra: torna a destra"
+  },
+  "q23610": {
+    "short": "Subito dietro un'altra auto non vedi davanti, e se frena non hai spazio. Tieni la tua distanza di sicurezza.",
+    "rule": "Non sorpassare attaccato a un'altra auto che sorpassa; tieni la distanza di sicurezza.",
+    "trap": "«accodandosi» vuol dire mettersi subito dietro un'altra auto.",
+    "caption": "Seguire da vicino chi sorpassa è rischioso"
+  },
+  "q23611": {
+    "short": "Il forte vento laterale può spingere di lato la tua auto o un camion alto, soprattutto mentre lo superi. Tieni bene il volante e lascia più spazio laterale.",
+    "rule": "Con forte vento laterale, sorpassa con più prudenza e più spazio di lato.",
+    "trap": "«forte vento laterale» vuol dire vento forte che arriva di lato.",
+    "caption": "Forte vento laterale: i veicoli si spostano di lato"
+  },
+  "q23612": {
+    "short": "La piazzola di sosta è fuori dalle corsie di marcia. Sorpassare vicino a una piazzola non è, da solo, causa di incidenti.",
+    "rule": "Vicino a una piazzola di sosta in autostrada il sorpasso segue le regole normali.",
+    "trap": "La «piazzola di sosta» è una piccola area al lato della strada per fermarsi.",
+    "caption": "Piazzola vicina: nessun rischio speciale",
+    "lines": [
+      "Piazzola = area di sosta al lato",
+      "È fuori dalle corsie di marcia",
+      "Sorpasso: regole normali"
+    ]
+  },
+  "q23613": {
+    "short": "Gli anabbaglianti aiutano gli altri a vederti; in autostrada sono obbligatori anche di giorno. Non causano incidenti.",
+    "rule": "Fuori dai centri abitati e in autostrada gli anabbaglianti devono essere accesi anche di giorno.",
+    "trap": "Gli «anabbaglianti» sono sicuri; non confonderli con gli «abbaglianti».",
+    "caption": "Anabbaglianti accesi: più sicurezza, non un rischio",
+    "lines": [
+      "Anabbaglianti accesi, giorno e notte",
+      "Gli altri ti vedono meglio",
+      "Non causano incidenti"
+    ]
+  }
+}

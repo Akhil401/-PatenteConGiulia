@@ -1,0 +1,888 @@
+{
+ "q20003": {
+  "en": "The sign shown is a parking regulation.",
+  "explain": {
+   "short": "The sign says when you may park and when you may not: it regulates parking.",
+   "rule": "No parking 7.00-9.00 and 17.00-20.00; parking allowed 9.00-17.00 and 20.00-7.00. Stopping is always allowed.",
+   "trap": "'regolazione della sosta' (parking regulation) is right: it sets parking hours.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A sign that regulates parking by hours",
+    "it": "regolazione",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "rappresenta",
+    "en": "represents"
+   },
+   {
+    "it": "regolazione della sosta",
+    "en": "parking regulation"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20004": {
+  "en": "The sign shown allows parking from 9.00 to 17.00.",
+  "explain": {
+   "short": "Next to the P you read 9.00-17.00: in those hours parking is allowed.",
+   "rule": "No parking 7.00-9.00 and 17.00-20.00; parking allowed 9.00-17.00 and 20.00-7.00. Stopping is always allowed.",
+   "trap": "'dalle ore 9.00 alle 17.00' is right: it is written next to the P.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking allowed 9.00-17.00",
+    "it": "sosta consentita",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente la sosta",
+    "en": "allows parking"
+   },
+   {
+    "it": "dalle ore 9.00 alle 17.00",
+    "en": "from 9.00 to 17.00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20005": {
+  "en": "The sign shown forbids parking from 17.00 to 20.00.",
+  "explain": {
+   "short": "Next to the no-parking disc you read 17.00-20.00: in those hours parking is banned.",
+   "rule": "No parking 7.00-9.00 and 17.00-20.00; parking allowed 9.00-17.00 and 20.00-7.00. Stopping is always allowed.",
+   "trap": "'dalle ore 17.00 alle 20.00' is right: it is next to the no-parking disc.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No parking 17.00-20.00",
+    "it": "vieta la sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "dalle ore 17.00 alle 20.00",
+    "en": "from 17.00 to 20.00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20006": {
+  "en": "The sign shown allows parking at some hours and forbids it at others.",
+  "explain": {
+   "short": "The sign has two parts: hours with no parking (top) and hours with parking allowed (bottom).",
+   "rule": "No parking 7.00-9.00 and 17.00-20.00; parking allowed 9.00-17.00 and 20.00-7.00. Stopping is always allowed.",
+   "trap": "'in alcune ore... in altre' (at some hours... at others) describes the two parts.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Some hours yes, others no",
+    "it": "alcune ore",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente la sosta",
+    "en": "allows parking"
+   },
+   {
+    "it": "in alcune ore",
+    "en": "at some hours"
+   },
+   {
+    "it": "la vieta in altre",
+    "en": "forbids it at others"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20007": {
+  "en": "The sign shown allows parking from 20.00 to 7.00.",
+  "explain": {
+   "short": "Next to the P you read 20.00-7.00: parking is allowed overnight.",
+   "rule": "No parking 7.00-9.00 and 17.00-20.00; parking allowed 9.00-17.00 and 20.00-7.00. Stopping is always allowed.",
+   "trap": "'dalle ore 20.00 alle ore 7.00' is right: it is next to the P.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking allowed 20.00-7.00",
+    "it": "sosta consentita",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente la sosta",
+    "en": "allows parking"
+   },
+   {
+    "it": "dalle ore 20.00 alle ore 7.00",
+    "en": "from 20.00 to 7.00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20008": {
+  "en": "The sign shown forbids parking from 7.00 to 9.00.",
+  "explain": {
+   "short": "Next to the no-parking disc you read 7.00-9.00: in those hours parking is banned.",
+   "rule": "No parking 7.00-9.00 and 17.00-20.00; parking allowed 9.00-17.00 and 20.00-7.00. Stopping is always allowed.",
+   "trap": "'dalle ore 7.00 alle ore 9.00' is right: it is next to the no-parking disc.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No parking 7.00-9.00",
+    "it": "vieta la sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "dalle ore 7.00 alle ore 9.00",
+    "en": "from 7.00 to 9.00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20009": {
+  "en": "The sign shown, in built-up areas, allows parking from 20.00 to 8.00.",
+  "explain": {
+   "short": "Parking is allowed only until 7.00: from 7.00 to 9.00 it is banned. The 8.00 is invented.",
+   "rule": "No parking 7.00-9.00 and 17.00-20.00; parking allowed 9.00-17.00 and 20.00-7.00. Stopping is always allowed.",
+   "trap": "'alle 8.00' is the trap: the sign says 20.00-7.00, not until 8.00.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: parking ends at 7.00, not 8.00",
+    "it": "20.00-7.00",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "nei centri abitati",
+    "en": "in built-up areas"
+   },
+   {
+    "it": "consente la sosta",
+    "en": "allows parking"
+   },
+   {
+    "it": "dalle ore 20.00 alle 8.00",
+    "en": "from 20.00 to 8.00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20010": {
+  "en": "The sign shown indicates an area meant for parking using the parking disc.",
+  "explain": {
+   "short": "There is no clock symbol: nothing asks you to show a parking disc (disco orario). It only gives hours.",
+   "rule": "No parking 7.00-9.00 and 17.00-20.00; parking allowed 9.00-17.00 and 20.00-7.00. Stopping is always allowed.",
+   "trap": "'disco orario' (parking disc) is not on the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no parking disc is required",
+    "it": "disco orario",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "zona destinata al parcheggio",
+    "en": "parking area"
+   },
+   {
+    "it": "impiego",
+    "en": "use"
+   },
+   {
+    "it": "disco orario",
+    "en": "parking disc"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20011": {
+  "en": "The sign shown forbids the vehicle to stop between 17.00 and 20.00.",
+  "explain": {
+   "short": "The disc with one bar bans parking, not stopping. A short stop is allowed at any hour.",
+   "rule": "No parking 7.00-9.00 and 17.00-20.00; parking allowed 9.00-17.00 and 20.00-7.00. Stopping is always allowed.",
+   "trap": "'fermata' (stop) is the trap: the sign bans 'sosta' (parking).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it bans parking, not stopping",
+    "it": "fermata",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la fermata",
+    "en": "forbids stopping"
+   },
+   {
+    "it": "tra le ore 17.00 e le 20.00",
+    "en": "between 17.00 and 20.00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20012": {
+  "en": "The sign shown allows parking from 7.00 to 9.00.",
+  "explain": {
+   "short": "7.00-9.00 is next to the no-parking disc: in those hours parking is banned, not allowed.",
+   "rule": "No parking 7.00-9.00 and 17.00-20.00; parking allowed 9.00-17.00 and 20.00-7.00. Stopping is always allowed.",
+   "trap": "'consente' (allows) is wrong: 7.00-9.00 is a no-parking time.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: 7.00-9.00 is no parking",
+    "it": "7.00-9.00",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il parcheggio",
+    "en": "allows parking"
+   },
+   {
+    "it": "dalle ore 7.00 alle 9.00",
+    "en": "from 7.00 to 9.00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20013": {
+  "en": "In the hours when parking is banned, the sign shown means the vehicle will be towed away.",
+  "explain": {
+   "short": "Tow-away is shown with an extra tow-truck symbol. This sign has none, so it does not announce tow-away.",
+   "rule": "No parking 7.00-9.00 and 17.00-20.00; parking allowed 9.00-17.00 and 20.00-7.00. Stopping is always allowed.",
+   "trap": "'rimozione' (tow-away) is not on the sign: there is no tow-truck symbol.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no tow-truck symbol, no tow-away",
+    "it": "rimozione",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ore in cui è vietata la sosta",
+    "en": "hours when parking is banned"
+   },
+   {
+    "it": "comporta",
+    "en": "means"
+   },
+   {
+    "it": "rimozione",
+    "en": "tow-away"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20014": {
+  "en": "The sign shown is a TEMPORARY NO PARKING sign.",
+  "explain": {
+   "short": "The no-parking disc applies only on the days and hours written below it, so the ban is temporary.",
+   "rule": "Temporary no parking for street cleaning: on the days and hours shown, no vehicle may park, so the sweeper can clean.",
+   "trap": "'TEMPORANEO' (temporary): the ban applies only at the times shown.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No parking only on the days and hours shown",
+    "it": "temporaneo",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale",
+    "en": "sign"
+   },
+   {
+    "it": "DIVIETO DI SOSTA TEMPORANEO",
+    "en": "temporary no parking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20015": {
+  "en": "The sign shown is placed on stretches of road where machine street cleaning is carried out.",
+  "explain": {
+   "short": "The drawing of a street sweeper shows why the ban exists: the road is cleaned by machine.",
+   "rule": "Temporary no parking for street cleaning: on the days and hours shown, no vehicle may park, so the sweeper can clean.",
+   "trap": "'pulizia meccanica' (machine cleaning) is what the sweeper drawing means.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Placed where the street sweeper cleans",
+    "it": "pulizia meccanica",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tratti di strada",
+    "en": "stretches of road"
+   },
+   {
+    "it": "operazioni di pulizia meccanica",
+    "en": "machine cleaning work"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20016": {
+  "en": "The sign shown forbids parking during the times when the street is cleaned by machine.",
+  "explain": {
+   "short": "Parked cars would block the sweeper, so parking is banned while cleaning takes place.",
+   "rule": "Temporary no parking for street cleaning: on the days and hours shown, no vehicle may park, so the sweeper can clean.",
+   "trap": "'nei periodi' (during the times): the ban is only for the cleaning times.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No parking while the sweeper works",
+    "it": "pulizia meccanica",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "nei periodi",
+    "en": "during the times"
+   },
+   {
+    "it": "pulizia meccanica",
+    "en": "machine cleaning"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20017": {
+  "en": "The sign shown, in urban centres, signals a no-parking ban limited to the days and hours shown.",
+  "explain": {
+   "short": "The ban applies only on the days (Mon-Fri) and hours (21.00-4.00) written on the sign.",
+   "rule": "Temporary no parking for street cleaning: on the days and hours shown, no vehicle may park, so the sweeper can clean.",
+   "trap": "'limitato' (limited) is right: outside those times you may park.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Ban only Mon-Fri, 21.00-4.00",
+    "it": "giorni e ore",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "centri urbani",
+    "en": "towns"
+   },
+   {
+    "it": "divieto di sosta",
+    "en": "no parking"
+   },
+   {
+    "it": "limitato",
+    "en": "limited"
+   },
+   {
+    "it": "giorni e alle ore indicate",
+    "en": "days and hours shown"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20018": {
+  "en": "The sign shown indicates snowploughs working on the road.",
+  "explain": {
+   "short": "The vehicle drawn is a street sweeper for cleaning, not a snowplough.",
+   "rule": "Temporary no parking for street cleaning: on the days and hours shown, no vehicle may park, so the sweeper can clean.",
+   "trap": "'sgombraneve' (snowplough) is wrong: it is a cleaning machine.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it is a street sweeper",
+    "it": "sgombraneve",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "indica la presenza",
+    "en": "indicates the presence"
+   },
+   {
+    "it": "macchine sgombraneve",
+    "en": "snowploughs"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20019": {
+  "en": "The sign shown says that, in the hours shown, NO PARKING applies to the vehicles drawn.",
+  "explain": {
+   "short": "The ban is for ALL vehicles. The drawing shows the sweeper only to explain why.",
+   "rule": "Temporary no parking for street cleaning: on the days and hours shown, no vehicle may park, so the sweeper can clean.",
+   "trap": "'per i veicoli rappresentati' (for the vehicles drawn) is wrong: the sweeper is the reason, not the target.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: the ban is for all vehicles",
+    "it": "veicoli rappresentati",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "nelle ore indicate",
+    "en": "in the hours shown"
+   },
+   {
+    "it": "DIVIETO DI SOSTA",
+    "en": "no parking"
+   },
+   {
+    "it": "veicoli rappresentati",
+    "en": "vehicles drawn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20020": {
+  "en": "The sign shown means that on the days and hours shown, cleaning vehicles may not park.",
+  "explain": {
+   "short": "It is the other way round: the other vehicles may not park, so the cleaning vehicles can work.",
+   "rule": "Temporary no parking for street cleaning: on the days and hours shown, no vehicle may park, so the sweeper can clean.",
+   "trap": "'ai mezzi di pulizia' (to cleaning vehicles) turns the meaning upside down.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: others may not park, the sweeper works",
+    "it": "mezzi di pulizia",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "nei giorni e nelle ore indicate",
+    "en": "on the days and hours shown"
+   },
+   {
+    "it": "vietata la sosta",
+    "en": "parking banned"
+   },
+   {
+    "it": "mezzi di pulizia",
+    "en": "cleaning vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20021": {
+  "en": "The sign shown indicates a depot from which street-cleaning vehicles may come out.",
+  "explain": {
+   "short": "The sign bans parking during cleaning; it does not warn about a depot.",
+   "rule": "Temporary no parking for street cleaning: on the days and hours shown, no vehicle may park, so the sweeper can clean.",
+   "trap": "'deposito' (depot) is invented: the sign is a parking ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it is a parking ban, not a depot",
+    "it": "deposito",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "presenza di un deposito",
+    "en": "a depot"
+   },
+   {
+    "it": "uscita",
+    "en": "exit"
+   },
+   {
+    "it": "mezzi per pulizia",
+    "en": "cleaning vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20022": {
+  "en": "The sign shown forbids road trains and articulated lorries to pass.",
+  "explain": {
+   "short": "The red-bordered disc means no entry, and the drawings below say for whom: lorries with trailers and articulated lorries.",
+   "rule": "'Divieto di transito' for the vehicles drawn: road trains and articulated lorries may not pass; all other vehicles may.",
+   "trap": "'autotreni' (lorry + trailer) and 'autoarticolati' (tractor + semi-trailer) are the two drawings.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No entry for road trains and articulated lorries",
+    "it": "autotreni",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "forbids passing"
+   },
+   {
+    "it": "autotreni",
+    "en": "road trains (lorry + trailer)"
+   },
+   {
+    "it": "autoarticolati",
+    "en": "articulated lorries"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20023": {
+  "en": "Where the sign shown is present, the categories of vehicles drawn may not pass.",
+  "explain": {
+   "short": "The ban applies to the vehicles drawn under the disc.",
+   "rule": "'Divieto di transito' for the vehicles drawn: road trains and articulated lorries may not pass; all other vehicles may.",
+   "trap": "'rappresentati in figura' (drawn in the picture): the drawings name who is banned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The vehicles drawn may not pass",
+    "it": "categorie",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato il transito",
+    "en": "no passing"
+   },
+   {
+    "it": "categorie di veicoli",
+    "en": "categories of vehicles"
+   },
+   {
+    "it": "rappresentati in figura",
+    "en": "drawn in the picture"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20024": {
+  "en": "The sign shown is a no-entry for certain categories of vehicles.",
+  "explain": {
+   "short": "It does not close the road to everyone: only to the vehicles drawn.",
+   "rule": "'Divieto di transito' for the vehicles drawn: road trains and articulated lorries may not pass; all other vehicles may.",
+   "trap": "'determinate categorie' (certain categories) is right: only some vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No entry only for some vehicles",
+    "it": "determinate categorie",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto di transito",
+    "en": "no entry"
+   },
+   {
+    "it": "determinate categorie",
+    "en": "certain categories"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20025": {
+  "en": "The sign shown means that vehicles of the categories drawn may not pass.",
+  "explain": {
+   "short": "The vehicles drawn under the disc are the ones that may not go on.",
+   "rule": "'Divieto di transito' for the vehicles drawn: road trains and articulated lorries may not pass; all other vehicles may.",
+   "trap": "'non possono transitare' (may not pass) is right for the vehicles drawn.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The vehicles drawn may not pass",
+    "it": "non possono transitare",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "categorie rappresentate",
+    "en": "categories drawn"
+   },
+   {
+    "it": "non possono transitare",
+    "en": "may not pass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20026": {
+  "en": "The sign shown means that all vehicles may pass except those of the categories drawn.",
+  "explain": {
+   "short": "Only the drawn vehicles are banned; cars, vans, motorbikes and all others may pass.",
+   "rule": "'Divieto di transito' for the vehicles drawn: road trains and articulated lorries may not pass; all other vehicles may.",
+   "trap": "'esclusi' (except) is right: everyone may pass except the vehicles drawn.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "All may pass, except the vehicles drawn",
+    "it": "esclusi",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "possono transitare",
+    "en": "may pass"
+   },
+   {
+    "it": "tutti i veicoli",
+    "en": "all vehicles"
+   },
+   {
+    "it": "esclusi",
+    "en": "except"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20027": {
+  "en": "The sign shown indicates a compulsory route for motor vehicles of the categories drawn.",
+  "explain": {
+   "short": "A red-bordered disc is a ban, not an order to go a certain way. Compulsory routes use blue signs.",
+   "rule": "'Divieto di transito' for the vehicles drawn: road trains and articulated lorries may not pass; all other vehicles may.",
+   "trap": "'itinerario obbligatorio' (compulsory route) is wrong: it is a ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it is a ban, not a compulsory route",
+    "it": "itinerario obbligatorio",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "itinerario obbligatorio",
+    "en": "compulsory route"
+   },
+   {
+    "it": "autoveicoli",
+    "en": "motor vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20028": {
+  "en": "The sign shown announces a car park for lorries and road trains.",
+  "explain": {
+   "short": "There is no P on the sign: the red-bordered disc bans these vehicles from passing.",
+   "rule": "'Divieto di transito' for the vehicles drawn: road trains and articulated lorries may not pass; all other vehicles may.",
+   "trap": "'parcheggio' (car park) is wrong: it is a no-entry sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it bans them, no car park",
+    "it": "parcheggio",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "announces ahead"
+   },
+   {
+    "it": "parcheggio",
+    "en": "car park"
+   },
+   {
+    "it": "autocarri",
+    "en": "lorries"
+   },
+   {
+    "it": "autotreni",
+    "en": "road trains"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20029": {
+  "en": "The sign shown forbids all vehicles to pass, except those drawn.",
+  "explain": {
+   "short": "It is the opposite: the drawn vehicles are the banned ones; all others may pass.",
+   "rule": "'Divieto di transito' for the vehicles drawn: road trains and articulated lorries may not pass; all other vehicles may.",
+   "trap": "'con esclusione di quelli rappresentati' turns the meaning upside down.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: the drawn vehicles are the banned ones",
+    "it": "esclusione",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "forbids passing"
+   },
+   {
+    "it": "tutti i veicoli",
+    "en": "all vehicles"
+   },
+   {
+    "it": "con esclusione di",
+    "en": "except"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20030": {
+  "en": "The sign shown forbids road trains and articulated lorries to park.",
+  "explain": {
+   "short": "A white disc with a red border bans passing (transito), not parking. No parking has a blue disc with a red bar.",
+   "rule": "'Divieto di transito' for the vehicles drawn: road trains and articulated lorries may not pass; all other vehicles may.",
+   "trap": "'sosta' (parking) is wrong: the sign bans 'transito' (passing).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it bans passing, not parking",
+    "it": "sosta",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "autotreni",
+    "en": "road trains"
+   },
+   {
+    "it": "autoarticolati",
+    "en": "articulated lorries"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20031": {
+  "en": "The sign shown indicates a no-parking ban for road trains and articulated lorries.",
+  "explain": {
+   "short": "A white disc with a red border bans passing, not parking. No parking has a blue disc with a red bar.",
+   "rule": "'Divieto di transito' for the vehicles drawn: road trains and articulated lorries may not pass; all other vehicles may.",
+   "trap": "'divieto di sosta' (no parking) is wrong: this is 'divieto di transito' (no entry).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it bans passing, not parking",
+    "it": "divieto di sosta",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto di sosta",
+    "en": "no parking"
+   },
+   {
+    "it": "autotreni",
+    "en": "road trains"
+   },
+   {
+    "it": "autoarticolati",
+    "en": "articulated lorries"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20032": {
+  "en": "The sign shown warns of a road reserved for the vehicles of the categories drawn.",
+  "explain": {
+   "short": "It is the opposite: the vehicles drawn may NOT use this road. It is a ban, not a reservation.",
+   "rule": "'Divieto di transito' for the vehicles drawn: road trains and articulated lorries may not pass; all other vehicles may.",
+   "trap": "'riservata' (reserved) is wrong: the drawn vehicles are banned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: the drawn vehicles are banned",
+    "it": "riservata",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "presegnala",
+    "en": "warns in advance"
+   },
+   {
+    "it": "strada riservata",
+    "en": "reserved road"
+   },
+   {
+    "it": "categorie rappresentate",
+    "en": "categories drawn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

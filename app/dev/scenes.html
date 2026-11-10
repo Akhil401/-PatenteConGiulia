@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scene check</title>
+<style>
+  body { margin: 0; font: 12px system-ui, sans-serif; background: #f3eadb; color: #2a211b; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; padding: 8px; }
+  .cell { background: #234238; border-radius: 6px; overflow: hidden; }
+  .cell svg { width: 100%; display: block; }
+  .cell p { margin: 0; padding: 4px 6px; background: #fff; min-height: 3.2em; }
+  .bad { outline: 3px solid red; }
+</style>
+</head>
+<body>
+<p style="padding:8px">Developer page: every scene of a chapter, frozen at 55% and at the end. <code>?ch=ch15&amp;at=0.55</code></p>
+<div class="grid" id="grid"></div>
+<script type="module">
+  import { createBoard } from "../js/scenes/engine.js";
+  import { buildScene } from "../js/scenes/index.js";
+  const p = new URLSearchParams(location.search);
+  const ch = p.get("ch") || "ch15", at = +(p.get("at") || .55);
+  const data = await (await fetch(`../data/chapters/${ch}.json`)).json();
+  const grid = document.getElementById("grid");
+  if (p.get("w")) grid.style.gridTemplateColumns = `repeat(auto-fill, minmax(${p.get("w")}px, 1fr))`;
+  const only = p.get("only") ? p.get("only").split(",") : null;
+  if (only) data.questions = data.questions.filter(q => only.includes(q.id) || only.includes(q.explain.scene));
+  let errors = 0;
+  for (const q of data.questions) {
+    if (q.image && !q.image.startsWith("../")) q.image = "../" + q.image;
+    const cell = document.createElement("div"); cell.className = "cell";
+    const host = document.createElement("div"); cell.appendChild(host);
+    const cap = document.createElement("p");
+    cell.appendChild(cap); grid.appendChild(cell);
+    try {
+      const b = createBoard(host, {});
+      const s = buildScene(q);
+      b.load(s); b.seek(s.duration * at);
+      const step = [...s.steps].reverse().find(x => x.t <= s.duration * at);
+      cap.textContent = `${q.id} ${q.answer ? "V" : "F"} · ${q.explain.scene} · ${step ? step.text : ""}`;
+    } catch (e) { errors++; cell.classList.add("bad"); cap.textContent = q.id + " ERROR " + e.message; }
+  }
+  document.title = `Scene check: ${data.questions.length} scenes, ${errors} errors`;
+</script>
+</body>
+</html>

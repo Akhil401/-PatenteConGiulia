@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Giulia states</title>
+<style>body{margin:0;font:13px system-ui;background:#eef0f8}.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:8px;padding:8px}.c{background:linear-gradient(160deg,#e0e7ff,#fae8ff);border-radius:16px;padding:6px;text-align:center}</style></head>
+<body><div class="g" id="g"></div>
+<script type="module">
+import { createGiulia } from "../js/giulia.js";
+for (const s of ["idle", "asking", "thinking", "happy", "sad", "explain", "celebrate"]) {
+  const c = document.createElement("div"); c.className = "c"; document.getElementById("g").appendChild(c);
+  const g = createGiulia(c); g.set(s); if (s === "asking") { g.talkStart(); setInterval(() => g.talkWord("parola"), 700); }
+  c.insertAdjacentHTML("beforeend", `<b>${s}</b>`);
+}
+</script></body></html>

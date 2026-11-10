@@ -1,0 +1,2199 @@
+{
+ "q18938": {
+  "en": "With the sign shown, placed on a two-way road with only two lanes, you must drive as close as possible to the right edge.",
+  "explain": {
+   "short": "A bend to the right hides the oncoming cars. Staying close to the right edge keeps you away from them.",
+   "rule": "On a two-way road with only two lanes, in bends you must drive as close as possible to the right edge (margine destro), so you do not meet oncoming cars in the middle.",
+   "trap": "'margine destro' means 'right edge' of the road, not the centre line.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bend ahead: keep close to the right edge",
+    "it": "margine destro",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "margine destro",
+    "en": "right edge"
+   },
+   {
+    "it": "doppio senso di circolazione",
+    "en": "two-way traffic"
+   },
+   {
+    "it": "due sole corsie",
+    "en": "only two lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18939": {
+  "en": "The sign shown warns of a stretch of road where you must adjust your speed to the visibility and to the radius of the bend.",
+  "explain": {
+   "short": "A bend limits how far you can see. You choose a speed that lets you stop within what you see and stay on the road in the curve.",
+   "rule": "Before and in bends, slow down: fit your speed to what you can see, how tight the bend is, a wet road and your load, so you can always stop in time.",
+   "trap": "'raggio della curva' means 'radius of the bend': a tight bend needs a lower speed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down to fit visibility and bend",
+    "it": "curva pericolosa",
+    "action": "slow",
+    "hazard": "↪️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust your speed"
+   },
+   {
+    "it": "visibilità",
+    "en": "visibility"
+   },
+   {
+    "it": "raggio della curva",
+    "en": "radius of the bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18940": {
+  "en": "The sign shown warns of a stretch of road where you must take the bend with more care if the road is wet.",
+  "explain": {
+   "short": "On a wet road tyres grip less. In a bend the car can slide out, so you need extra care and lower speed.",
+   "rule": "Before and in bends, slow down: fit your speed to what you can see, how tight the bend is, a wet road and your load, so you can always stop in time.",
+   "trap": "'bagnata' means 'wet': less grip, so more care, not less.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wet road in a bend: extra care",
+    "it": "strada bagnata",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "percorrere la curva",
+    "en": "take the bend"
+   },
+   {
+    "it": "più attenzione",
+    "en": "more care"
+   },
+   {
+    "it": "bagnata",
+    "en": "wet"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18941": {
+  "en": "The sign shown warns of a stretch of road where overtaking is not allowed if the carriageway is two-way with only two lanes.",
+  "explain": {
+   "short": "In a bend you cannot see oncoming cars. On a two-way road with two lanes, overtaking would put you in their lane.",
+   "rule": "In bends with poor visibility, on a two-way road with two lanes, overtaking is forbidden: for every vehicle, motorbikes and mopeds too, day and night.",
+   "trap": "'non è consentito' means 'is not allowed': here that is correct.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No overtaking in this bend",
+    "it": "sorpasso",
+    "action": "noOvertake",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è consentito il sorpasso",
+    "en": "overtaking is not allowed"
+   },
+   {
+    "it": "doppio senso di circolazione",
+    "en": "two-way traffic"
+   },
+   {
+    "it": "due sole corsie",
+    "en": "only two lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18942": {
+  "en": "With the sign shown you must travel at a particularly moderate speed if you are driving on a space-saver spare wheel (ruotino).",
+  "explain": {
+   "short": "A space-saver wheel is thin and grips less. In a bend it needs a very gentle speed.",
+   "rule": "A space-saver spare wheel (ruotino) is allowed, but you must drive slowly and carefully with it, especially in bends.",
+   "trap": "'ruotino' is the small temporary spare wheel: it is allowed, but only slowly.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Small spare wheel: go extra slowly",
+    "it": "ruotino",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "andatura particolarmente moderata",
+    "en": "particularly moderate speed"
+   },
+   {
+    "it": "ruotino",
+    "en": "space-saver spare wheel"
+   },
+   {
+    "it": "ruota di soccorso",
+    "en": "spare wheel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18943": {
+  "en": "The sign shown warns of a stretch of two-lane, two-way road where you may overtake motorcycles, without crossing the solid white line.",
+  "explain": {
+   "short": "In a blind bend on a two-lane, two-way road no overtaking is allowed. Motorcycles are vehicles too, so the ban covers them.",
+   "rule": "In bends with poor visibility, on a two-way road with two lanes, overtaking is forbidden: for every vehicle, motorbikes and mopeds too, day and night.",
+   "trap": "'consentito sorpassare i motocicli' sounds harmless, but there is no motorcycle exception in a bend.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No overtaking in the bend, motorbikes too",
+    "it": "sorpasso",
+    "action": "noOvertake",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consentito sorpassare",
+    "en": "allowed to overtake"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   },
+   {
+    "it": "striscia bianca continua",
+    "en": "solid white line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18944": {
+  "en": "With the sign shown you must drive as close as possible to the white line that separates the directions of travel.",
+  "explain": {
+   "short": "The centre line is where you would meet oncoming cars. In a bend you keep to the right edge instead.",
+   "rule": "On a two-way road with only two lanes, in bends you must drive as close as possible to the right edge (margine destro), so you do not meet oncoming cars in the middle.",
+   "trap": "'striscia bianca che separa i sensi di marcia' is the centre line: the opposite of the right edge.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Keep right, not near the centre line",
+    "it": "margine destro",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vicino alla striscia bianca",
+    "en": "close to the white line"
+   },
+   {
+    "it": "separa i sensi di marcia",
+    "en": "separates the directions of travel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18945": {
+  "en": "The sign shown warns of a stretch of road where stopping is allowed but parking is not.",
+  "explain": {
+   "short": "In a bend both stopping and parking are forbidden. A stopped car there cannot be seen in time.",
+   "rule": "In and near a bend you must not stop, park, make a U-turn or reverse: drivers coming round the bend cannot see you in time.",
+   "trap": "'fermata' (a short stop) is also forbidden in a bend, not only 'sosta' (parking).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No stopping and no parking in the bend",
+    "it": "fermata",
+    "action": "noStopping",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "stopping (short stop)"
+   },
+   {
+    "it": "sosta",
+    "en": "parking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18946": {
+  "en": "The sign shown warns of a stretch of road where you may overtake motorcycles, even by going into the opposite lane.",
+  "explain": {
+   "short": "Going into the opposite lane in a blind bend is very dangerous. Overtaking is banned there, motorcycles included.",
+   "rule": "In bends with poor visibility, on a two-way road with two lanes, overtaking is forbidden: for every vehicle, motorbikes and mopeds too, day and night.",
+   "trap": "'anche invadendo la corsia opposta' means 'even entering the opposite lane': the worst thing to do in a bend.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Never into the opposite lane in a bend",
+    "it": "sorpasso",
+    "action": "noOvertake",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sorpassare i motocicli",
+    "en": "overtake motorcycles"
+   },
+   {
+    "it": "invadendo la corsia opposta",
+    "en": "entering the opposite lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18947": {
+  "en": "The sign shown warns of a stretch of road where you may make a U-turn.",
+  "explain": {
+   "short": "A U-turn in a bend blocks the road where others cannot see you. It is forbidden near and in bends.",
+   "rule": "In and near a bend you must not stop, park, make a U-turn or reverse: drivers coming round the bend cannot see you in time.",
+   "trap": "'inversione di marcia' means 'U-turn': forbidden in bends.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No U-turn in or near a bend",
+    "it": "inversione",
+    "action": "noUTurn",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consentito",
+    "en": "allowed"
+   },
+   {
+    "it": "inversione di marcia",
+    "en": "U-turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18948": {
+  "en": "The sign shown warns of a stretch of road where you may reverse.",
+  "explain": {
+   "short": "Reversing in a bend is dangerous: cars coming round it cannot see you. It is forbidden.",
+   "rule": "In and near a bend you must not stop, park, make a U-turn or reverse: drivers coming round the bend cannot see you in time.",
+   "trap": "'retromarcia' means 'reversing': forbidden in bends.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No reversing in a bend",
+    "it": "retromarcia",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consentito",
+    "en": "allowed"
+   },
+   {
+    "it": "manovre di retromarcia",
+    "en": "reversing manoeuvres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18949": {
+  "en": "The sign shown warns of a stretch of road where you may overtake motorcycles, even by crossing the solid white line a little.",
+  "explain": {
+   "short": "A solid white line must never be crossed, not even a little. And in a blind bend overtaking is banned anyway.",
+   "rule": "In bends with poor visibility, on a two-way road with two lanes, overtaking is forbidden: for every vehicle, motorbikes and mopeds too, day and night.",
+   "trap": "'di poco' means 'a little': a solid line cannot be crossed at all.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Solid line: never cross it, not even a bit",
+    "it": "striscia continua",
+    "action": "noOvertake",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sorpassare i motocicli",
+    "en": "overtake motorcycles"
+   },
+   {
+    "it": "superando di poco",
+    "en": "crossing a little"
+   },
+   {
+    "it": "striscia bianca continua",
+    "en": "solid white line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18950": {
+  "en": "The picture shows a danger sign.",
+  "explain": {
+   "short": "A white triangle with a red border, point up, is the shape of every danger sign.",
+   "rule": "Danger signs are triangles with a red border and the point up. Obligation (blue circle) and prohibition (red circle) signs are 'prescription' signs, a different family.",
+   "trap": "'pericolo' means 'danger': the triangle shape tells you this.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red triangle = danger sign",
+    "it": "pericolo",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18951": {
+  "en": "The sign shown warns of a dangerous bend to the left.",
+  "explain": {
+   "short": "The black line in the triangle bends to the left: a dangerous left-hand bend is coming.",
+   "rule": "This red-edged triangle warns of a dangerous bend to the LEFT. Outside towns it stands, as a rule, 150 m before the bend.",
+   "trap": "Look at the drawing: it bends to the left ('sinistra'), not to the right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dangerous bend to the left ahead",
+    "it": "curva a sinistra",
+    "action": "slow",
+    "hazard": "↪️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "curva pericolosa",
+    "en": "dangerous bend"
+   },
+   {
+    "it": "a sinistra",
+    "en": "to the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18952": {
+  "en": "The sign shown warns of a stretch of road that is not straight, which limits visibility.",
+  "explain": {
+   "short": "A bend is a non-straight stretch, and in a bend you cannot see far ahead.",
+   "rule": "This red-edged triangle warns of a dangerous bend to the LEFT. Outside towns it stands, as a rule, 150 m before the bend.",
+   "trap": "'non rettilineo' means 'not straight': that is exactly a bend.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A bend: not straight, you see less",
+    "it": "non rettilineo",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non rettilineo",
+    "en": "not straight"
+   },
+   {
+    "it": "limita la visibilità",
+    "en": "limits visibility"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18953": {
+  "en": "The sign shown warns of a stretch of road that bends to the left with limited visibility.",
+  "explain": {
+   "short": "The sign shows a left-hand bend, and a dangerous bend hides what comes next.",
+   "rule": "This red-edged triangle warns of a dangerous bend to the LEFT. Outside towns it stands, as a rule, 150 m before the bend.",
+   "trap": "'curva a sinistra' matches the picture: the line bends to the left.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left bend with limited visibility",
+    "it": "curva a sinistra",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "curva a sinistra",
+    "en": "bends to the left"
+   },
+   {
+    "it": "limitata visibilità",
+    "en": "limited visibility"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18954": {
+  "en": "The sign shown warns, as a rule 150 metres ahead, of a dangerous bend.",
+  "explain": {
+   "short": "Outside towns danger signs are normally placed about 150 m before the danger. Here the danger is a bend.",
+   "rule": "This red-edged triangle warns of a dangerous bend to the LEFT. Outside towns it stands, as a rule, 150 m before the bend.",
+   "trap": "'di norma' means 'as a rule': 150 m is the normal distance, not always exact.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Usually 150 m before the bend",
+    "it": "150 metri",
+    "action": "slow",
+    "hazard": "↪️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "150 metri",
+    "en": "150 metres"
+   },
+   {
+    "it": "curva pericolosa",
+    "en": "dangerous bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18955": {
+  "en": "The sign shown warns of a stretch of road that is dangerous because of reduced visibility.",
+  "explain": {
+   "short": "A bend hides the road beyond it. That reduced visibility is what makes it dangerous.",
+   "rule": "This red-edged triangle warns of a dangerous bend to the LEFT. Outside towns it stands, as a rule, 150 m before the bend.",
+   "trap": "'ridotta visibilità' means 'reduced visibility': true for a dangerous bend.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bend = reduced visibility",
+    "it": "visibilità",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pericoloso",
+    "en": "dangerous"
+   },
+   {
+    "it": "ridotta visibilità",
+    "en": "reduced visibility"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18956": {
+  "en": "The sign shown requires you to moderate your speed so you can stop if there is a sudden obstacle.",
+  "explain": {
+   "short": "You cannot see what is round the bend. Your speed must let you stop if something is there.",
+   "rule": "Before and in bends, slow down: fit your speed to what you can see, how tight the bend is, a wet road and your load, so you can always stop in time.",
+   "trap": "'moderare' means 'reduce, keep moderate': every danger sign asks this.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow enough to stop for a hidden obstacle",
+    "it": "moderare la velocità",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "moderare la velocità",
+    "en": "moderate your speed"
+   },
+   {
+    "it": "potersi arrestare",
+    "en": "be able to stop"
+   },
+   {
+    "it": "ostacolo improvviso",
+    "en": "sudden obstacle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18957": {
+  "en": "The picture shows an obligation sign.",
+  "explain": {
+   "short": "Obligation signs are blue circles. This is a red-bordered triangle, so it is a danger sign.",
+   "rule": "Danger signs are triangles with a red border and the point up. Obligation (blue circle) and prohibition (red circle) signs are 'prescription' signs, a different family.",
+   "trap": "'obbligo' means 'obligation': wrong shape and colour for this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A danger sign, not an obligation sign",
+    "it": "pericolo",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di obbligo",
+    "en": "obligation sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18958": {
+  "en": "The sign shown warns of an obstacle to pass on the left.",
+  "explain": {
+   "short": "The sign shows a bend in the road, not an obstacle. 'Pass on the left' is a blue round obligation sign.",
+   "rule": "This red-edged triangle warns of a dangerous bend to the LEFT. Outside towns it stands, as a rule, 150 m before the bend.",
+   "trap": "'ostacolo da aggirare' means 'obstacle to go around': not what this triangle shows.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It is a bend, not an obstacle",
+    "it": "curva",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ostacolo",
+    "en": "obstacle"
+   },
+   {
+    "it": "aggirare a sinistra",
+    "en": "pass on the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18959": {
+  "en": "The picture shows a no-left-turn sign.",
+  "explain": {
+   "short": "A no-left-turn sign is a red circle with a crossed arrow. This triangle only warns of a bend.",
+   "rule": "Danger signs are triangles with a red border and the point up. Obligation (blue circle) and prohibition (red circle) signs are 'prescription' signs, a different family.",
+   "trap": "'divieto di svolta' means 'turn ban': a prohibition, not a danger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Warning of a bend, not a turn ban",
+    "it": "curva",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto di svolta a sinistra",
+    "en": "no left turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18960": {
+  "en": "The sign shown imposes the obligation to keep left.",
+  "explain": {
+   "short": "A danger sign gives no order about which side to use. Keep-left is a blue round sign; here you keep right.",
+   "rule": "Danger signs are triangles with a red border and the point up. Obligation (blue circle) and prohibition (red circle) signs are 'prescription' signs, a different family.",
+   "trap": "'impone l'obbligo' means 'imposes an obligation': danger signs only warn.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It warns of a bend; you still keep right",
+    "it": "pericolo",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "impone l'obbligo",
+    "en": "imposes the obligation"
+   },
+   {
+    "it": "mantenere la sinistra",
+    "en": "keep left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18961": {
+  "en": "The sign shown requires you to drive as close as possible to the centre of the road.",
+  "explain": {
+   "short": "In a bend the centre is where you meet oncoming cars. You must keep close to the right edge.",
+   "rule": "On a two-way road with only two lanes, in bends you must drive as close as possible to the right edge (margine destro), so you do not meet oncoming cars in the middle.",
+   "trap": "'centro della strada' means 'middle of the road': the opposite of the rule.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Keep right in the bend, not in the centre",
+    "it": "margine destro",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "impone",
+    "en": "requires"
+   },
+   {
+    "it": "centro della strada",
+    "en": "centre of the road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18962": {
+  "en": "The sign shown indicates a roundabout.",
+  "explain": {
+   "short": "A roundabout sign shows arrows going round in a circle. This sign shows a single bend.",
+   "rule": "This red-edged triangle warns of a dangerous bend to the LEFT. Outside towns it stands, as a rule, 150 m before the bend.",
+   "trap": "'circolazione rotatoria' means 'roundabout': a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One bend, not a roundabout",
+    "it": "curva",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "circolazione rotatoria",
+    "en": "roundabout"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18963": {
+  "en": "The picture shows a prescription (regulatory) sign.",
+  "explain": {
+   "short": "Prescription signs are the round ones that order or forbid. This triangle is a danger sign.",
+   "rule": "Danger signs are triangles with a red border and the point up. Obligation (blue circle) and prohibition (red circle) signs are 'prescription' signs, a different family.",
+   "trap": "'prescrizione' means 'regulatory' (orders and bans): not a warning triangle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A danger sign, not a regulatory one",
+    "it": "pericolo",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di prescrizione",
+    "en": "regulatory sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18964": {
+  "en": "The sign shown indicates a diversion for roadworks.",
+  "explain": {
+   "short": "Roadwork signs have a yellow background. This white triangle simply warns of a bend.",
+   "rule": "This red-edged triangle warns of a dangerous bend to the LEFT. Outside towns it stands, as a rule, 150 m before the bend.",
+   "trap": "'deviazione per cantiere' means 'roadworks diversion': a temporary yellow sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A permanent bend, not a roadworks diversion",
+    "it": "curva",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "deviazione",
+    "en": "diversion"
+   },
+   {
+    "it": "cantiere di lavoro",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18965": {
+  "en": "With the sign shown, on a two-way road with only two lanes, you must drive as close as possible to the right edge.",
+  "explain": {
+   "short": "In a left bend cars cut towards the middle. Keeping close to the right edge keeps you away from oncoming traffic.",
+   "rule": "On a two-way road with only two lanes, in bends you must drive as close as possible to the right edge (margine destro), so you do not meet oncoming cars in the middle.",
+   "trap": "'margine destro' means 'right edge': stay right even in a left bend.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left bend: still keep close to the right",
+    "it": "margine destro",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "doppio senso di circolazione",
+    "en": "two-way traffic"
+   },
+   {
+    "it": "due sole corsie",
+    "en": "only two lanes"
+   },
+   {
+    "it": "margine destro",
+    "en": "right edge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18966": {
+  "en": "With the sign shown you must adjust your speed to the visibility and to the radius of the bend.",
+  "explain": {
+   "short": "You can see only part of the bend. Your speed must fit what you see and how tight the curve is.",
+   "rule": "Before and in bends, slow down: fit your speed to what you can see, how tight the bend is, a wet road and your load, so you can always stop in time.",
+   "trap": "'raggio della curva' means 'bend radius': tighter bend, lower speed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Speed fits visibility and bend",
+    "it": "velocità",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust your speed"
+   },
+   {
+    "it": "visibilità",
+    "en": "visibility"
+   },
+   {
+    "it": "raggio della curva",
+    "en": "radius of the bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18967": {
+  "en": "With the sign shown you must take the bend with more care if the road is wet.",
+  "explain": {
+   "short": "Water reduces tyre grip, and in a bend the car can skid. So you need more care.",
+   "rule": "Before and in bends, slow down: fit your speed to what you can see, how tight the bend is, a wet road and your load, so you can always stop in time.",
+   "trap": "'bagnata' means 'wet': more care is needed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wet bend: more care",
+    "it": "bagnata",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "percorrere la curva",
+    "en": "take the bend"
+   },
+   {
+    "it": "più attenzione",
+    "en": "more care"
+   },
+   {
+    "it": "bagnata",
+    "en": "wet"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18968": {
+  "en": "With the sign shown, overtaking other vehicles is not allowed on a two-way carriageway with only two lanes.",
+  "explain": {
+   "short": "In a blind bend you cannot see oncoming cars. Overtaking would take you into their lane.",
+   "rule": "In bends with poor visibility, on a two-way road with two lanes, overtaking is forbidden: for every vehicle, motorbikes and mopeds too, day and night.",
+   "trap": "'non è consentito' means 'is not allowed': correct here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No overtaking in the bend",
+    "it": "sorpasso",
+    "action": "noOvertake",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è consentito sorpassare",
+    "en": "overtaking is not allowed"
+   },
+   {
+    "it": "doppio senso di circolazione",
+    "en": "two-way traffic"
+   },
+   {
+    "it": "due sole corsie",
+    "en": "only two lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18969": {
+  "en": "With the sign shown you must travel at a particularly moderate speed if you are driving on the \"ruotino\" (space-saver spare wheel).",
+  "explain": {
+   "short": "The space-saver wheel is narrow and grips less. In a bend you must go very gently.",
+   "rule": "A space-saver spare wheel (ruotino) is allowed, but you must drive slowly and carefully with it, especially in bends.",
+   "trap": "'ruotino' is the small temporary spare: allowed, but slowly.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Small spare wheel: go extra slowly",
+    "it": "ruotino",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "andatura particolarmente moderata",
+    "en": "particularly moderate speed"
+   },
+   {
+    "it": "ruotino",
+    "en": "space-saver spare wheel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18970": {
+  "en": "With the sign shown, on a one-way road you must drive as close as possible to the right edge of the carriageway.",
+  "explain": {
+   "short": "The keep-right duty in bends exists to avoid oncoming traffic. On a one-way road nobody comes towards you, so it does not apply.",
+   "rule": "The duty to keep close to the right edge in bends protects you from oncoming traffic on two-way roads. On a one-way road there is no oncoming traffic, so this duty does not apply.",
+   "trap": "'senso unico' means 'one-way': the keep-right rule in bends is for two-way roads.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Keep-right in bends is for two-way roads",
+    "it": "senso unico",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   },
+   {
+    "it": "margine destro",
+    "en": "right edge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18971": {
+  "en": "With the sign shown stopping is allowed but parking is not.",
+  "explain": {
+   "short": "In a bend both stopping and parking are forbidden. A stopped car there is a hidden obstacle.",
+   "rule": "In and near a bend you must not stop, park, make a U-turn or reverse: drivers coming round the bend cannot see you in time.",
+   "trap": "'fermata' (short stop) is forbidden in a bend too, not only 'sosta'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No stopping and no parking in the bend",
+    "it": "fermata",
+    "action": "noStopping",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "stopping (short stop)"
+   },
+   {
+    "it": "sosta",
+    "en": "parking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18972": {
+  "en": "With the sign shown, on a two-way road with two lanes, you may overtake motorcycles without going into the opposite lane.",
+  "explain": {
+   "short": "In a blind bend on a two-lane, two-way road overtaking is forbidden. There is no exception for motorcycles.",
+   "rule": "In bends with poor visibility, on a two-way road with two lanes, overtaking is forbidden: for every vehicle, motorbikes and mopeds too, day and night.",
+   "trap": "'sorpassare i motocicli' sounds small and safe, but it is still overtaking.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No overtaking in the bend, motorbikes too",
+    "it": "sorpasso",
+    "action": "noOvertake",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consentito",
+    "en": "allowed"
+   },
+   {
+    "it": "sorpassare i motocicli",
+    "en": "overtake motorcycles"
+   },
+   {
+    "it": "corsia opposta",
+    "en": "opposite lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18973": {
+  "en": "With the sign shown you may make a U-turn.",
+  "explain": {
+   "short": "A U-turn in a bend blocks the road where others cannot see you. It is forbidden.",
+   "rule": "In and near a bend you must not stop, park, make a U-turn or reverse: drivers coming round the bend cannot see you in time.",
+   "trap": "'inversione di marcia' means 'U-turn': forbidden in bends.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No U-turn in or near a bend",
+    "it": "inversione",
+    "action": "noUTurn",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consentito",
+    "en": "allowed"
+   },
+   {
+    "it": "inversione di marcia",
+    "en": "U-turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18974": {
+  "en": "With the sign shown you may reverse.",
+  "explain": {
+   "short": "Reversing in a bend is dangerous: drivers coming round cannot see you. It is forbidden.",
+   "rule": "In and near a bend you must not stop, park, make a U-turn or reverse: drivers coming round the bend cannot see you in time.",
+   "trap": "'retromarcia' means 'reversing': forbidden in bends.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No reversing in a bend",
+    "it": "retromarcia",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consentito",
+    "en": "allowed"
+   },
+   {
+    "it": "manovre di retromarcia",
+    "en": "reversing manoeuvres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18975": {
+  "en": "With the sign shown, vehicles on the \"ruotino\" (space-saver spare wheel) are not allowed through.",
+  "explain": {
+   "short": "A danger sign bans nobody. With a space-saver wheel you may pass, but slowly.",
+   "rule": "A space-saver spare wheel (ruotino) is allowed, but you must drive slowly and carefully with it, especially in bends.",
+   "trap": "'non è consentito il transito' means 'no passing through': danger signs never forbid passing.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Space-saver wheel: you may pass, slowly",
+    "it": "ruotino",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è consentito il transito",
+    "en": "passing is not allowed"
+   },
+   {
+    "it": "ruotino",
+    "en": "space-saver spare wheel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18976": {
+  "en": "The sign shown warns of a dangerous double bend, the first one to the right.",
+  "explain": {
+   "short": "The line in the triangle goes right first, then left: a double bend starting to the right.",
+   "rule": "This triangle warns of a dangerous double bend, the first one to the RIGHT. Outside towns it stands, as a rule, 150 m before it.",
+   "trap": "'la prima a destra' means 'the first to the right': read the drawing from the bottom.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Double bend, first to the right",
+    "it": "doppia curva",
+    "action": "slow",
+    "hazard": "↪️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "doppia curva pericolosa",
+    "en": "dangerous double bend"
+   },
+   {
+    "it": "la prima a destra",
+    "en": "the first to the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18977": {
+  "en": "The sign shown warns of a stretch of road that is not straight, which limits visibility.",
+  "explain": {
+   "short": "A double bend is a non-straight stretch, and the bends hide the road ahead.",
+   "rule": "This triangle warns of a dangerous double bend, the first one to the RIGHT. Outside towns it stands, as a rule, 150 m before it.",
+   "trap": "'non rettilineo' means 'not straight': true for bends.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bends: not straight, you see less",
+    "it": "non rettilineo",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non rettilineo",
+    "en": "not straight"
+   },
+   {
+    "it": "limita la visibilità",
+    "en": "limits visibility"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18978": {
+  "en": "The sign shown can be completed with a panel saying TORNANTI (hairpin bends).",
+  "explain": {
+   "short": "Under the double-bend sign a panel with 'TORNANTI' can warn of a series of hairpin bends.",
+   "rule": "Under a curve sign a panel can add information: TORNANTI (hairpin bends), or a distance. A distance between two arrows = how LONG the bendy stretch is; a distance without arrows = how FAR away the danger starts.",
+   "trap": "'può essere integrato' means 'can be completed': a panel may be added.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Can carry a TORNANTI (hairpins) panel",
+    "it": "tornanti",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "può essere integrato",
+    "en": "can be completed"
+   },
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "TORNANTI",
+    "en": "hairpin bends"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18979": {
+  "en": "The sign shown requires you to moderate your speed so you can stop if there is a sudden obstacle.",
+  "explain": {
+   "short": "You cannot see beyond the bends. Your speed must let you stop for anything hidden there.",
+   "rule": "Before and in bends, slow down: fit your speed to what you can see, how tight the bend is, a wet road and your load, so you can always stop in time.",
+   "trap": "'moderare' means 'reduce': every danger sign asks this.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow enough to stop in time",
+    "it": "moderare la velocità",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "moderare la velocità",
+    "en": "moderate your speed"
+   },
+   {
+    "it": "potersi arrestare",
+    "en": "be able to stop"
+   },
+   {
+    "it": "ostacolo improvviso",
+    "en": "sudden obstacle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18980": {
+  "en": "The sign shown can be completed with the panel in the picture.",
+  "explain": {
+   "short": "The panel shows 2.8 km between two arrows: the series of bends is 2.8 km long. This panel can go under the sign.",
+   "rule": "Under a curve sign a panel can add information: TORNANTI (hairpin bends), or a distance. A distance between two arrows = how LONG the bendy stretch is; a distance without arrows = how FAR away the danger starts.",
+   "trap": "'pannello in figura' is the panel shown: arrows on both sides mean 'length of the stretch'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrows + 2.8 km = bends go on for 2.8 km",
+    "it": "pannello",
+    "action": "slow",
+    "hazard": "↪️",
+    "distance": "2.8 km"
+   }
+  },
+  "keywords": [
+   {
+    "it": "può essere integrato",
+    "en": "can be completed"
+   },
+   {
+    "it": "pannello",
+    "en": "panel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18981": {
+  "en": "The picture shows a danger sign.",
+  "explain": {
+   "short": "A white triangle with a red border, point up, is a danger sign.",
+   "rule": "Danger signs are triangles with a red border and the point up. Obligation (blue circle) and prohibition (red circle) signs are 'prescription' signs, a different family.",
+   "trap": "'pericolo' means 'danger': the triangle shape tells you.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red triangle = danger sign",
+    "it": "pericolo",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18982": {
+  "en": "The sign shown warns, as a rule 150 metres ahead, of a dangerous double bend.",
+  "explain": {
+   "short": "Outside towns danger signs normally stand about 150 m before the danger, here a double bend.",
+   "rule": "This triangle warns of a dangerous double bend, the first one to the RIGHT. Outside towns it stands, as a rule, 150 m before it.",
+   "trap": "'di norma' means 'as a rule': 150 m is the usual distance.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Usually 150 m before the double bend",
+    "it": "150 metri",
+    "action": "slow",
+    "hazard": "↪️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "150 metri",
+    "en": "150 metres"
+   },
+   {
+    "it": "doppia curva pericolosa",
+    "en": "dangerous double bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18983": {
+  "en": "With the sign shown you must moderate your speed.",
+  "explain": {
+   "short": "Bends ahead hide the road. Every danger sign asks you to slow down.",
+   "rule": "Before and in bends, slow down: fit your speed to what you can see, how tight the bend is, a wet road and your load, so you can always stop in time.",
+   "trap": "'bisogna' means 'you must': yes, slowing down is required.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bends ahead: slow down",
+    "it": "moderare la velocità",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "bisogna",
+    "en": "you must"
+   },
+   {
+    "it": "moderare la velocità",
+    "en": "moderate your speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18984": {
+  "en": "The sign shown warns of a diversion for roadworks in progress.",
+  "explain": {
+   "short": "Roadwork signs have a yellow background. This white triangle warns of a permanent double bend.",
+   "rule": "This triangle warns of a dangerous double bend, the first one to the RIGHT. Outside towns it stands, as a rule, 150 m before it.",
+   "trap": "'lavori in corso' means 'roadworks': a temporary yellow sign, not this one.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A double bend, not a roadworks diversion",
+    "it": "doppia curva",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "deviazione",
+    "en": "diversion"
+   },
+   {
+    "it": "lavori in corso",
+    "en": "roadworks in progress"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18985": {
+  "en": "The sign shown warns of a motorway exit slip road.",
+  "explain": {
+   "short": "Motorway exits use green direction signs. This triangle warns of a double bend.",
+   "rule": "This triangle warns of a dangerous double bend, the first one to the RIGHT. Outside towns it stands, as a rule, 150 m before it.",
+   "trap": "'raccordo di uscita autostradale' means 'motorway exit': nothing to do with this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A double bend, not a motorway exit",
+    "it": "doppia curva",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "raccordo di uscita",
+    "en": "exit slip road"
+   },
+   {
+    "it": "autostradale",
+    "en": "motorway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18986": {
+  "en": "The sign shown warns of a dangerous downhill slope.",
+  "explain": {
+   "short": "A dangerous descent has its own triangle with a slope and a percentage. This one shows a double bend.",
+   "rule": "This triangle warns of a dangerous double bend, the first one to the RIGHT. Outside towns it stands, as a rule, 150 m before it.",
+   "trap": "'discesa' means 'downhill slope': a different danger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A double bend, not a steep descent",
+    "it": "doppia curva",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "discesa pericolosa",
+    "en": "dangerous downhill slope"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18987": {
+  "en": "The sign shown warns of a stretch of road with a slippery surface.",
+  "explain": {
+   "short": "A slippery road has its own triangle with a skidding car. This one shows a double bend.",
+   "rule": "This triangle warns of a dangerous double bend, the first one to the RIGHT. Outside towns it stands, as a rule, 150 m before it.",
+   "trap": "'sdrucciolevole' means 'slippery': a different danger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A double bend, not a slippery road",
+    "it": "doppia curva",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "superficie sdrucciolevole",
+    "en": "slippery surface"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18988": {
+  "en": "The sign shown warns of a crossroads.",
+  "explain": {
+   "short": "A crossroads sign shows a cross. This line has no side roads: it is a double bend.",
+   "rule": "This triangle warns of a dangerous double bend, the first one to the RIGHT. Outside towns it stands, as a rule, 150 m before it.",
+   "trap": "'incrocio' means 'crossroads': a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A double bend, not a crossroads",
+    "it": "doppia curva",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "incrocio",
+    "en": "crossroads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18989": {
+  "en": "The sign shown warns of a stretch of road with an uneven surface.",
+  "explain": {
+   "short": "An uneven road has its own triangle with bumps. This one shows a double bend.",
+   "rule": "This triangle warns of a dangerous double bend, the first one to the RIGHT. Outside towns it stands, as a rule, 150 m before it.",
+   "trap": "'pavimentazione irregolare' means 'uneven surface': a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A double bend, not an uneven road",
+    "it": "doppia curva",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pavimentazione irregolare",
+    "en": "uneven road surface"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18990": {
+  "en": "The sign with the panel shown warns of a 3.8 km long stretch of road with a series of dangerous bends.",
+  "explain": {
+   "short": "The panel shows 3.8 km with no arrows: that is the DISTANCE to where the bends start, not the length of the stretch.",
+   "rule": "Under a curve sign a panel can add information: TORNANTI (hairpin bends), or a distance. A distance between two arrows = how LONG the bendy stretch is; a distance without arrows = how FAR away the danger starts.",
+   "trap": "'lungo 3,8 km' means '3.8 km long': a length needs arrows on the panel; this one has none.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No arrows: the bends start in 3.8 km",
+    "it": "distanza",
+    "action": "slow",
+    "hazard": "↪️",
+    "distance": "3.8 km"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "lungo 3,8 km",
+    "en": "3.8 km long"
+   },
+   {
+    "it": "serie di curve",
+    "en": "series of bends"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18991": {
+  "en": "On a road with only two lanes and two-way traffic, with the sign shown you must drive as close as possible to the right edge.",
+  "explain": {
+   "short": "In bends you cannot see oncoming cars. Keeping close to the right edge leaves them room.",
+   "rule": "On a two-way road with only two lanes, in bends you must drive as close as possible to the right edge (margine destro), so you do not meet oncoming cars in the middle.",
+   "trap": "'margine destro' means 'right edge': that is where you stay.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bends: keep close to the right edge",
+    "it": "margine destro",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "due sole corsie",
+    "en": "only two lanes"
+   },
+   {
+    "it": "doppio senso di circolazione",
+    "en": "two-way traffic"
+   },
+   {
+    "it": "margine destro",
+    "en": "right edge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18992": {
+  "en": "With the sign shown you must adjust your speed to the visibility and to the radius of the bends.",
+  "explain": {
+   "short": "Your speed must fit how far you can see and how tight each bend is.",
+   "rule": "Before and in bends, slow down: fit your speed to what you can see, how tight the bend is, a wet road and your load, so you can always stop in time.",
+   "trap": "'raggio delle curve' means 'radius of the bends': tighter bends, lower speed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Speed fits visibility and bends",
+    "it": "velocità",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust your speed"
+   },
+   {
+    "it": "visibilità",
+    "en": "visibility"
+   },
+   {
+    "it": "raggio delle curve",
+    "en": "radius of the bends"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18993": {
+  "en": "With the sign shown you must take the bends with more care when it rains.",
+  "explain": {
+   "short": "Rain makes the road slippery, and in bends the car can skid. So more care is needed.",
+   "rule": "Before and in bends, slow down: fit your speed to what you can see, how tight the bend is, a wet road and your load, so you can always stop in time.",
+   "trap": "'pioggia' means 'rain': less grip, more care.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Rain in bends: more care",
+    "it": "pioggia",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "percorrere le curve",
+    "en": "take the bends"
+   },
+   {
+    "it": "più attenzione",
+    "en": "more care"
+   },
+   {
+    "it": "pioggia",
+    "en": "rain"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18994": {
+  "en": "With the sign shown you must adjust your speed to how your vehicle is loaded.",
+  "explain": {
+   "short": "A heavily loaded car leans more and needs more space to brake. In bends you must slow down more.",
+   "rule": "Before and in bends, slow down: fit your speed to what you can see, how tight the bend is, a wet road and your load, so you can always stop in time.",
+   "trap": "'condizioni di carico' means 'load': more weight, lower speed in bends.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Heavy load: slower in the bends",
+    "it": "carico",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust your speed"
+   },
+   {
+    "it": "condizioni di carico",
+    "en": "load conditions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18995": {
+  "en": "In the dangerous bends announced by the sign shown, overtaking is forbidden if the carriageway has two lanes and two-way traffic.",
+  "explain": {
+   "short": "In bends you cannot see oncoming cars. Overtaking would put you in their lane.",
+   "rule": "In bends with poor visibility, on a two-way road with two lanes, overtaking is forbidden: for every vehicle, motorbikes and mopeds too, day and night.",
+   "trap": "'vietato' means 'forbidden': correct here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No overtaking in the bends",
+    "it": "sorpasso",
+    "action": "noOvertake",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "curve pericolose",
+    "en": "dangerous bends"
+   },
+   {
+    "it": "vietato il sorpasso",
+    "en": "overtaking is forbidden"
+   },
+   {
+    "it": "due corsie",
+    "en": "two lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18996": {
+  "en": "On a road with two lanes and two-way traffic, with the sign shown you should pay special attention to vehicles coming the other way.",
+  "explain": {
+   "short": "In bends oncoming cars appear suddenly and may cut the corner. Watch out for them.",
+   "rule": "On a two-way road with only two lanes, in bends you must drive as close as possible to the right edge (margine destro), so you do not meet oncoming cars in the middle.",
+   "trap": "'senso opposto' means 'opposite direction': the cars coming towards you.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Watch for oncoming cars in the bends",
+    "it": "senso opposto",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "particolare attenzione",
+    "en": "special attention"
+   },
+   {
+    "it": "provenienti dal senso opposto",
+    "en": "coming the other way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18997": {
+  "en": "The sign shown warns of a stretch of road where a U-turn is allowed.",
+  "explain": {
+   "short": "A U-turn in bends blocks the road where others cannot see you. It is forbidden.",
+   "rule": "In and near a bend you must not stop, park, make a U-turn or reverse: drivers coming round the bend cannot see you in time.",
+   "trap": "'inversione di marcia' means 'U-turn': forbidden in bends.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No U-turn in the bends",
+    "it": "inversione",
+    "action": "noUTurn",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consentita",
+    "en": "allowed"
+   },
+   {
+    "it": "inversione di marcia",
+    "en": "U-turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18998": {
+  "en": "With the sign shown, placed on a road with two lanes and two-way traffic, overtaking is allowed in daylight hours.",
+  "explain": {
+   "short": "Daylight does not let you see round a bend. Overtaking there is forbidden day and night.",
+   "rule": "In bends with poor visibility, on a two-way road with two lanes, overtaking is forbidden: for every vehicle, motorbikes and mopeds too, day and night.",
+   "trap": "'nelle ore diurne' means 'in daytime': the ban has no time limit.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No overtaking in bends, day or night",
+    "it": "sorpasso",
+    "action": "noOvertake",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consentito sorpassare",
+    "en": "overtaking is allowed"
+   },
+   {
+    "it": "nelle ore diurne",
+    "en": "in daylight hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18999": {
+  "en": "The sign shown warns of a stretch of road where reversing is allowed.",
+  "explain": {
+   "short": "Reversing in bends is dangerous: drivers coming round cannot see you. It is forbidden.",
+   "rule": "In and near a bend you must not stop, park, make a U-turn or reverse: drivers coming round the bend cannot see you in time.",
+   "trap": "'retromarcia' means 'reversing': forbidden in bends.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No reversing in the bends",
+    "it": "retromarcia",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consentita",
+    "en": "allowed"
+   },
+   {
+    "it": "manovra di retromarcia",
+    "en": "reversing manoeuvre"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19000": {
+  "en": "With the sign shown you must keep a moderate speed only in the first bend.",
+  "explain": {
+   "short": "The sign warns of TWO bends. You must keep a moderate speed through the whole stretch, not only the first.",
+   "rule": "Before and in bends, slow down: fit your speed to what you can see, how tight the bend is, a wet road and your load, so you can always stop in time.",
+   "trap": "'esclusivamente' means 'only': a trap word, the care lasts for all the bends.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow through ALL the bends",
+    "it": "esclusivamente",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "velocità moderata",
+    "en": "moderate speed"
+   },
+   {
+    "it": "esclusivamente",
+    "en": "only"
+   },
+   {
+    "it": "prima curva",
+    "en": "first bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19001": {
+  "en": "With the sign shown you may stop in the bend.",
+  "explain": {
+   "short": "Stopping in a bend is forbidden: a car stopped there is a hidden obstacle for others.",
+   "rule": "In and near a bend you must not stop, park, make a U-turn or reverse: drivers coming round the bend cannot see you in time.",
+   "trap": "'fermata' means 'a short stop': forbidden in bends.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No stopping in a bend",
+    "it": "fermata",
+    "action": "noStopping",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consentito",
+    "en": "allowed"
+   },
+   {
+    "it": "fermata in curva",
+    "en": "stopping in the bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19002": {
+  "en": "With the sign shown you may overtake motorcycles and mopeds on a road with two lanes and two-way traffic.",
+  "explain": {
+   "short": "In blind bends on a two-lane two-way road overtaking is forbidden. Motorcycles and mopeds are not an exception.",
+   "rule": "In bends with poor visibility, on a two-way road with two lanes, overtaking is forbidden: for every vehicle, motorbikes and mopeds too, day and night.",
+   "trap": "'motocicli e ciclomotori' sounds like an exception, but there is none.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No overtaking in bends, motorbikes too",
+    "it": "sorpasso",
+    "action": "noOvertake",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consentito sorpassare",
+    "en": "overtaking is allowed"
+   },
+   {
+    "it": "motocicli e ciclomotori",
+    "en": "motorcycles and mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19003": {
+  "en": "The sign shown warns of a dangerous double bend, the first one to the left.",
+  "explain": {
+   "short": "The line goes left first, then right: a double bend starting to the left.",
+   "rule": "This triangle warns of a dangerous double bend, the first one to the LEFT. Outside towns it stands, as a rule, 150 m before it.",
+   "trap": "'la prima a sinistra' means 'the first to the left': read the drawing from the bottom.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Double bend, first to the left",
+    "it": "doppia curva",
+    "action": "slow",
+    "hazard": "↪️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "doppia curva pericolosa",
+    "en": "dangerous double bend"
+   },
+   {
+    "it": "la prima a sinistra",
+    "en": "the first to the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19004": {
+  "en": "The sign shown warns of a stretch of road that is not straight, which limits visibility.",
+  "explain": {
+   "short": "A double bend is a non-straight stretch, and the bends hide the road ahead.",
+   "rule": "This triangle warns of a dangerous double bend, the first one to the LEFT. Outside towns it stands, as a rule, 150 m before it.",
+   "trap": "'non rettilineo' means 'not straight': true for bends.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bends: not straight, you see less",
+    "it": "non rettilineo",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non rettilineo",
+    "en": "not straight"
+   },
+   {
+    "it": "limita la visibilità",
+    "en": "limits visibility"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19005": {
+  "en": "The sign shown warns of hairpin bends if completed with the proper panel.",
+  "explain": {
+   "short": "With a 'TORNANTI' panel underneath, the double-bend sign announces a series of hairpin bends.",
+   "rule": "Under a curve sign a panel can add information: TORNANTI (hairpin bends), or a distance. A distance between two arrows = how LONG the bendy stretch is; a distance without arrows = how FAR away the danger starts.",
+   "trap": "'se integrato con apposito pannello' means 'if a panel is added': the panel gives the hairpin meaning.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "With TORNANTI panel = hairpin bends",
+    "it": "tornanti",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tornanti",
+    "en": "hairpin bends"
+   },
+   {
+    "it": "apposito pannello",
+    "en": "proper panel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19006": {
+  "en": "The picture shows a danger sign.",
+  "explain": {
+   "short": "A white triangle with a red border, point up, is a danger sign.",
+   "rule": "Danger signs are triangles with a red border and the point up. Obligation (blue circle) and prohibition (red circle) signs are 'prescription' signs, a different family.",
+   "trap": "'pericolo' means 'danger': the triangle shape tells you.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red triangle = danger sign",
+    "it": "pericolo",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19007": {
+  "en": "The sign shown warns, generally 150 m ahead, of a dangerous double bend.",
+  "explain": {
+   "short": "Outside towns danger signs normally stand about 150 m before the danger, here a double bend.",
+   "rule": "This triangle warns of a dangerous double bend, the first one to the LEFT. Outside towns it stands, as a rule, 150 m before it.",
+   "trap": "'in genere' means 'generally': 150 m is the usual distance.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Usually 150 m before the double bend",
+    "it": "150 m",
+    "action": "slow",
+    "hazard": "↪️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in genere",
+    "en": "generally"
+   },
+   {
+    "it": "150 m",
+    "en": "150 metres"
+   },
+   {
+    "it": "doppia curva pericolosa",
+    "en": "dangerous double bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19008": {
+  "en": "The sign shown requires you to moderate your speed.",
+  "explain": {
+   "short": "Bends ahead hide the road. Every danger sign asks you to slow down.",
+   "rule": "Before and in bends, slow down: fit your speed to what you can see, how tight the bend is, a wet road and your load, so you can always stop in time.",
+   "trap": "'moderare' means 'reduce': required before bends.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bends ahead: slow down",
+    "it": "moderare la velocità",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "richiede",
+    "en": "requires"
+   },
+   {
+    "it": "moderare la velocità",
+    "en": "moderate your speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19009": {
+  "en": "The sign shown warns of a road joining from the left.",
+  "explain": {
+   "short": "A merging road sign shows a side road joining the main line. Here the line simply bends twice.",
+   "rule": "This triangle warns of a dangerous double bend, the first one to the LEFT. Outside towns it stands, as a rule, 150 m before it.",
+   "trap": "'confluenza' means 'merging road': a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A double bend, not a merging road",
+    "it": "doppia curva",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "confluenza a sinistra",
+    "en": "road joining from the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19010": {
+  "en": "The sign shown warns of a road narrowing.",
+  "explain": {
+   "short": "A narrowing sign shows the road edges coming closer. This one shows a double bend.",
+   "rule": "This triangle warns of a dangerous double bend, the first one to the LEFT. Outside towns it stands, as a rule, 150 m before it.",
+   "trap": "'strettoia' means 'narrowing': a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A double bend, not a narrowing",
+    "it": "doppia curva",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strettoia",
+    "en": "road narrowing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19011": {
+  "en": "The sign shown warns of a slippery stretch of carriageway.",
+  "explain": {
+   "short": "A slippery road has its own triangle with a skidding car. This one shows a double bend.",
+   "rule": "This triangle warns of a dangerous double bend, the first one to the LEFT. Outside towns it stands, as a rule, 150 m before it.",
+   "trap": "'sdrucciolevole' means 'slippery': a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A double bend, not a slippery road",
+    "it": "doppia curva",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "carreggiata sdrucciolevole",
+    "en": "slippery carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19012": {
+  "en": "The sign shown warns of a stretch of road with a series of humps.",
+  "explain": {
+   "short": "Humps have their own triangle with bumps. This one shows a double bend.",
+   "rule": "This triangle warns of a dangerous double bend, the first one to the LEFT. Outside towns it stands, as a rule, 150 m before it.",
+   "trap": "'dossi' means 'humps': a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A double bend, not humps",
+    "it": "doppia curva",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "serie di dossi",
+    "en": "series of humps"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19013": {
+  "en": "The sign shown warns of a diversion for roadworks in progress.",
+  "explain": {
+   "short": "Roadwork signs have a yellow background. This white triangle warns of a permanent double bend.",
+   "rule": "This triangle warns of a dangerous double bend, the first one to the LEFT. Outside towns it stands, as a rule, 150 m before it.",
+   "trap": "'lavori in corso' means 'roadworks': a temporary yellow sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A double bend, not a roadworks diversion",
+    "it": "doppia curva",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "deviazione",
+    "en": "diversion"
+   },
+   {
+    "it": "lavori in corso",
+    "en": "roadworks in progress"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19014": {
+  "en": "The sign shown warns of a stretch of damaged road.",
+  "explain": {
+   "short": "A damaged, uneven road has its own triangle with bumps. This one shows a double bend.",
+   "rule": "This triangle warns of a dangerous double bend, the first one to the LEFT. Outside towns it stands, as a rule, 150 m before it.",
+   "trap": "'strada deformata' means 'deformed road': a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A double bend, not a damaged road",
+    "it": "doppia curva",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada deformata",
+    "en": "damaged road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

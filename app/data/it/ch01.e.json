@@ -1,0 +1,885 @@
+{
+ "q18637": {
+  "short": "È la definizione esatta: motore, almeno quattro ruote, quadricicli esclusi.",
+  "rule": "L'autoveicolo ha un motore e almeno quattro ruote. I quadricicli sono esclusi.",
+  "trap": "«esclusi» vuol dire che i quadricicli non sono autoveicoli.",
+  "caption": "Motore + almeno 4 ruote, ma non i quadricicli",
+  "lines": [
+   "Ha un motore",
+   "Almeno 4 ruote",
+   "Quadricicli esclusi"
+  ]
+ },
+ "q18638": {
+  "short": "«Non meno di quattro» vuol dire almeno quattro. Con il motore e senza quadricicli è la definizione giusta.",
+  "rule": "L'autoveicolo ha un motore e almeno quattro ruote. I quadricicli sono esclusi.",
+  "trap": "«non meno di quattro» = almeno quattro; «eccetto» = tranne.",
+  "caption": "Almeno 4 ruote, motore, quadricicli esclusi",
+  "lines": [
+   "Ha un motore",
+   "4 o più ruote",
+   "Non i quadricicli"
+  ]
+ },
+ "q18639": {
+  "short": "L'autobus ha motore e almeno quattro ruote: è un autoveicolo.",
+  "rule": "L'autoveicolo ha un motore e almeno quattro ruote. I quadricicli sono esclusi.",
+  "trap": "«autoveicolo» è la famiglia grande; l'«autobus» ne fa parte.",
+  "caption": "Autobus: motore + 4 ruote = autoveicolo",
+  "lines": [
+   "L'autobus ha il motore",
+   "Ha 4 o più ruote",
+   "Quindi: autoveicolo"
+  ]
+ },
+ "q18640": {
+  "short": "L'autocarro ha motore e almeno quattro ruote: è un autoveicolo.",
+  "rule": "L'autoveicolo ha un motore e almeno quattro ruote. I quadricicli sono esclusi.",
+  "trap": "L'«autocarro» non è un'autovettura, ma è un «autoveicolo».",
+  "caption": "Autocarro: motore + 4 ruote = autoveicolo",
+  "lines": [
+   "L'autocarro ha il motore",
+   "Ha 4 o più ruote",
+   "Quindi: autoveicolo"
+  ]
+ },
+ "q18641": {
+  "short": "La legge esclude i quadricicli dagli autoveicoli, anche se hanno quattro ruote e motore.",
+  "rule": "L'autoveicolo ha un motore e almeno quattro ruote. I quadricicli sono esclusi.",
+  "trap": "I «quadricicli» hanno quattro ruote, ma sono esclusi.",
+  "caption": "Quadricicli: 4 ruote, ma non autoveicoli",
+  "lines": [
+   "Quadriciclo: 4 ruote",
+   "Ma escluso dalla legge",
+   "Non è un autoveicolo"
+  ]
+ },
+ "q18642": {
+  "short": "I quadricicli sono esclusi dagli autoveicoli, non compresi.",
+  "rule": "L'autoveicolo ha un motore e almeno quattro ruote. I quadricicli sono esclusi.",
+  "trap": "La trappola è «compresi»: la parola giusta è «esclusi».",
+  "caption": "I quadricicli sono ESCLUSI, non compresi",
+  "lines": [
+   "Motore + 4 o più ruote",
+   "Quadricicli esclusi"
+  ]
+ },
+ "q18643": {
+  "short": "Gli autoveicoli hanno almeno quattro ruote e un motore. I veicoli a due ruote sono moto o ciclomotori.",
+  "rule": "L'autoveicolo ha un motore e almeno quattro ruote. I quadricicli sono esclusi.",
+  "trap": "«almeno due ruote» è sbagliato: servono almeno QUATTRO ruote.",
+  "caption": "Servono almeno 4 ruote, non 2",
+  "lines": [
+   "2 ruote: moto, non autoveicolo",
+   "Autoveicolo: 4+ ruote e motore"
+  ]
+ },
+ "q18644": {
+  "short": "L'autoveicolo deve avere un motore. Un veicolo senza motore, come un rimorchio, non lo è.",
+  "rule": "L'autoveicolo ha un motore e almeno quattro ruote. I quadricicli sono esclusi.",
+  "trap": "La trappola è «compresi quelli senza motore»: senza motore non è un autoveicolo.",
+  "caption": "Senza motore = non è un autoveicolo",
+  "lines": [
+   "L'autoveicolo ha il motore",
+   "Senza motore: non autoveicolo"
+  ]
+ },
+ "q18645": {
+  "short": "Il triciclo ha solo tre ruote. Gli autoveicoli ne hanno almeno quattro.",
+  "rule": "L'autoveicolo ha un motore e almeno quattro ruote. I quadricicli sono esclusi.",
+  "trap": "«triciclo» vuol dire tre ruote: una in meno del necessario.",
+  "caption": "Triciclo: 3 ruote, non è un autoveicolo",
+  "lines": [
+   "Triciclo: solo 3 ruote",
+   "Autoveicolo: almeno 4"
+  ]
+ },
+ "q18646": {
+  "short": "Non tutti i veicoli a motore sono autoveicoli: moto, ciclomotori, tricicli e quadricicli no.",
+  "rule": "L'autoveicolo ha un motore e almeno quattro ruote. I quadricicli sono esclusi.",
+  "trap": "«qualunque» è troppo: servono anche almeno quattro ruote.",
+  "caption": "Non QUALUNQUE veicolo: servono 4 ruote",
+  "lines": [
+   "Moto, ciclomotore: no",
+   "Servono motore e 4 o più ruote"
+  ]
+ },
+ "q18647": {
+  "short": "L'autoveicolo si definisce per motore e ruote, non per il carico. Può portare persone o merci.",
+  "rule": "L'autoveicolo ha un motore e almeno quattro ruote. I quadricicli sono esclusi.",
+  "trap": "«qualunque veicolo adibito al trasporto di merce» è sbagliato: conta il motore.",
+  "caption": "Conta motore + ruote, non la merce",
+  "lines": [
+   "Motore + 4 o più ruote",
+   "Persone o merci: va bene"
+  ]
+ },
+ "q18648": {
+  "short": "È la definizione dell'autovettura: quattro ruote, motore, al massimo nove persone con il conducente.",
+  "rule": "L'autovettura trasporta persone: massimo 9 posti, conducente compreso. È un autoveicolo.",
+  "trap": "«compreso il conducente»: anche chi guida conta nei nove.",
+  "caption": "Autovettura: massimo 9 persone, conducente compreso",
+  "lines": [
+   "Trasporta persone",
+   "Massimo 9 posti con conducente"
+  ]
+ },
+ "q18649": {
+  "short": "L'autovettura ha motore e quattro ruote: è un tipo di autoveicolo.",
+  "rule": "L'autovettura trasporta persone: massimo 9 posti, conducente compreso. È un autoveicolo.",
+  "trap": "«fa parte» vuol dire che l'autovettura è nella famiglia degli autoveicoli.",
+  "caption": "L'autovettura è un tipo di autoveicolo",
+  "lines": [
+   "Autoveicoli: auto, bus, camion",
+   "Autovettura = autoveicolo"
+  ]
+ },
+ "q18650": {
+  "short": "Nove posti con il conducente è il massimo per l'autovettura. Con più posti è un autobus.",
+  "rule": "L'autovettura trasporta persone: massimo 9 posti, conducente compreso. È un autoveicolo.",
+  "trap": "«non può avere più di nove» = al massimo nove: giusto.",
+  "caption": "Massimo 9 posti, conducente compreso",
+  "lines": [
+   "Autovettura: fino a 9 posti",
+   "Più di 9: autobus"
+  ]
+ },
+ "q18651": {
+  "short": "L'autobus porta più di nove persone, quindi non è un'autovettura. È comunque un autoveicolo.",
+  "rule": "L'autovettura trasporta persone: massimo 9 posti, conducente compreso. È un autoveicolo.",
+  "trap": "«autobus» e «autovettura» sono autoveicoli, ma di tipo diverso.",
+  "caption": "Autobus: più di 9 posti, non è un'autovettura",
+  "lines": [
+   "Autovettura: fino a 9 posti",
+   "Autobus: più di 9 posti"
+  ]
+ },
+ "q18652": {
+  "short": "La definizione di autovettura non dipende dal tipo di motore. Le auto elettriche sono autovetture.",
+  "rule": "L'autovettura trasporta persone: massimo 9 posti, conducente compreso. È un autoveicolo.",
+  "trap": "«possono» è giusto: il tipo di motore non conta.",
+  "caption": "Benzina, diesel o elettrica: è un'autovettura",
+  "lines": [
+   "Ogni tipo di motore va bene",
+   "Auto elettrica = autovettura"
+  ]
+ },
+ "q18653": {
+  "short": "Le autovetture devono fare un controllo periodico: la prima volta dopo 4 anni, poi ogni 2 anni.",
+  "rule": "L'autovettura trasporta persone: massimo 9 posti, conducente compreso. È un autoveicolo.",
+  "trap": "La «revisione periodica» è il controllo ufficiale regolare: è obbligatoria.",
+  "caption": "Revisione: dopo 4 anni, poi ogni 2",
+  "lines": [
+   "Prima revisione dopo 4 anni",
+   "Poi ogni 2 anni"
+  ]
+ },
+ "q18654": {
+  "short": "L'autovettura si definisce per l'uso (persone, massimo 9 posti), non per le ruote motrici.",
+  "rule": "L'autovettura trasporta persone: massimo 9 posti, conducente compreso. È un autoveicolo.",
+  "trap": "La «trazione posteriore» non c'entra con la definizione.",
+  "caption": "La trazione non definisce l'autovettura",
+  "lines": [
+   "Autovettura: persone, max 9",
+   "Trazione: non conta"
+  ]
+ },
+ "q18655": {
+  "short": "Le autovetture possono trainare un rimorchio o un carrello-appendice, con il gancio e nei limiti di peso.",
+  "rule": "L'autovettura trasporta persone: massimo 9 posti, conducente compreso. È un autoveicolo.",
+  "trap": "La trappola è «non possono trainare»: le autovetture possono trainare.",
+  "caption": "Le autovetture possono trainare rimorchi",
+  "lines": [
+   "Auto con gancio",
+   "Può trainare un rimorchio"
+  ]
+ },
+ "q18656": {
+  "short": "La posizione del motore non definisce l'autovettura. Anche camion e autobus hanno il motore davanti.",
+  "rule": "L'autovettura trasporta persone: massimo 9 posti, conducente compreso. È un autoveicolo.",
+  "trap": "Il «motore anteriore» non fa parte della definizione.",
+  "caption": "La posizione del motore non conta",
+  "lines": [
+   "Autovettura: persone, max 9",
+   "Motore davanti o dietro: non conta"
+  ]
+ },
+ "q18657": {
+  "short": "L'autovettura ha al massimo nove posti, conducente compreso. Dieci sono troppi.",
+  "rule": "L'autovettura trasporta persone: massimo 9 posti, conducente compreso. È un autoveicolo.",
+  "trap": "«dieci posti» è uno in più del limite di nove.",
+  "caption": "Massimo 9 posti, non 10",
+  "lines": [
+   "Autovettura: max 9 posti",
+   "10 posti: non è un'autovettura"
+  ]
+ },
+ "q18658": {
+  "short": "Il furgone blindato per i valori è un veicolo speciale, non un'autovettura. L'autovettura porta persone.",
+  "rule": "L'autovettura trasporta persone: massimo 9 posti, conducente compreso. È un autoveicolo.",
+  "trap": "«blindato» e «trasporto di valori» indicano un veicolo speciale.",
+  "caption": "Furgone blindato: non è un'autovettura",
+  "lines": [
+   "Autovettura: porta persone",
+   "Blindato: veicolo speciale"
+  ]
+ },
+ "q18659": {
+  "short": "L'autocarro porta merci; l'autovettura porta persone. Sono autoveicoli diversi.",
+  "rule": "L'autovettura trasporta persone: massimo 9 posti, conducente compreso. È un autoveicolo.",
+  "trap": "«autocarro» e «autovettura» sembrano simili, ma sono diversi.",
+  "caption": "Autocarro = merci, autovettura = persone",
+  "lines": [
+   "Autocarro: porta merci",
+   "Autovettura: porta persone"
+  ]
+ },
+ "q18660": {
+  "short": "Il limite dell'autovettura è nove posti con il conducente, non cinque.",
+  "rule": "L'autovettura trasporta persone: massimo 9 posti, conducente compreso. È un autoveicolo.",
+  "trap": "La trappola è «al massimo, cinque»: il massimo vero è nove.",
+  "caption": "Massimo 9 posti, non 5",
+  "lines": [
+   "Autovettura: fino a 9 posti",
+   "Conducente compreso"
+  ]
+ },
+ "q18661": {
+  "short": "La prima revisione è dopo 4 anni, poi ogni 2 anni. Mai ogni 5 anni.",
+  "rule": "L'autovettura trasporta persone: massimo 9 posti, conducente compreso. È un autoveicolo.",
+  "trap": "«ogni cinque anni» è il numero sbagliato.",
+  "caption": "Revisione: dopo 4 anni, poi ogni 2",
+  "lines": [
+   "Prima revisione dopo 4 anni",
+   "Poi ogni 2 anni"
+  ]
+ },
+ "q18662": {
+  "short": "Rimorchi e semirimorchi non hanno motore. Un veicolo a motore li tira.",
+  "rule": "Rimorchi e semirimorchi non hanno motore e sono trainati. Rimorchio leggero: massimo 750 kg.",
+  "trap": "«privi di motore» vuol dire senza motore: per questo sono rimorchi.",
+  "caption": "Senza motore: sono trainati",
+  "lines": [
+   "Senza motore",
+   "Tirati da un veicolo a motore"
+  ]
+ },
+ "q18663": {
+  "short": "Il limite del rimorchio leggero è 750 kg a pieno carico.",
+  "rule": "Rimorchi e semirimorchi non hanno motore e sono trainati. Rimorchio leggero: massimo 750 kg.",
+  "trap": "«a pieno carico» vuol dire con il carico: i 750 kg lo comprendono.",
+  "caption": "Rimorchio leggero: max 750 kg a pieno carico",
+  "lines": [
+   "Rimorchio leggero",
+   "Massimo 750 kg con il carico"
+  ]
+ },
+ "q18664": {
+  "short": "L'autosnodato è un autobus in due parti unite, con il suo motore. Non è un rimorchio.",
+  "rule": "Rimorchi e semirimorchi non hanno motore e sono trainati. Rimorchio leggero: massimo 750 kg.",
+  "trap": "L'«autosnodato» è un autobus snodato, non un veicolo trainato.",
+  "caption": "Autosnodato ha il motore: non è un rimorchio",
+  "lines": [
+   "Autosnodato: autobus snodato",
+   "Ha il motore: non è rimorchio"
+  ]
+ },
+ "q18665": {
+  "short": "L'autocaravan (camper) ha il suo motore e si guida da solo. Non è un rimorchio.",
+  "rule": "Rimorchi e semirimorchi non hanno motore e sono trainati. Rimorchio leggero: massimo 750 kg.",
+  "trap": "Non confondere «autocaravan» (con motore) e «caravan» (trainato).",
+  "caption": "Il camper ha il motore: non è un rimorchio",
+  "lines": [
+   "Autocaravan: ha il motore",
+   "Caravan: rimorchio trainato"
+  ]
+ },
+ "q18666": {
+  "short": "Il caravan non ha motore ed è trainato da un'auto: è un rimorchio.",
+  "rule": "Rimorchi e semirimorchi non hanno motore e sono trainati. Rimorchio leggero: massimo 750 kg.",
+  "trap": "Il «caravan» è un rimorchio; l'«autocaravan» no.",
+  "caption": "Il caravan è trainato: È un rimorchio",
+  "lines": [
+   "Caravan: senza motore",
+   "Trainato da un'auto: rimorchio"
+  ]
+ },
+ "q18667": {
+  "short": "Il limite del rimorchio leggero è 750 kg a pieno carico, non 500 kg.",
+  "rule": "Rimorchi e semirimorchi non hanno motore e sono trainati. Rimorchio leggero: massimo 750 kg.",
+  "trap": "«500 kg» è il numero sbagliato: quello giusto è 750 kg.",
+  "caption": "Il limite è 750 kg, non 500",
+  "lines": [
+   "Rimorchio leggero",
+   "Massimo 750 kg con il carico"
+  ]
+ },
+ "q18668": {
+  "short": "I semirimorchi sono pesanti e hanno i freni. Senza freni sarebbero molto pericolosi.",
+  "rule": "Rimorchi e semirimorchi non hanno motore e sono trainati. Rimorchio leggero: massimo 750 kg.",
+  "trap": "La trappola è «privi di impianto frenante».",
+  "caption": "I semirimorchi HANNO i freni",
+  "lines": [
+   "Semirimorchio: senza motore",
+   "Ma ha i freni"
+  ]
+ },
+ "q18669": {
+  "short": "Il silenziatore riduce il rumore del motore. Il rimorchio non ha motore, quindi non lo ha.",
+  "rule": "Rimorchi e semirimorchi non hanno motore e sono trainati. Rimorchio leggero: massimo 750 kg.",
+  "trap": "Il «silenziatore» è del motore; il rimorchio non ha motore.",
+  "caption": "Niente motore, niente silenziatore",
+  "lines": [
+   "Rimorchio: senza motore",
+   "Quindi niente silenziatore"
+  ]
+ },
+ "q18670": {
+  "short": "Se ti fermi nell'incrocio, blocchi chi arriva di lato. Entra solo se puoi uscire.",
+  "rule": "In coda lascia liberi: incroci, passaggi a livello, binari del tram, attraversamenti, immissioni.",
+  "trap": "«incroci»: tutti gli incroci devono restare liberi.",
+  "caption": "Non entrare nell'incrocio se non puoi uscire"
+ },
+ "q18671": {
+  "short": "Non fermarti mai sui binari: treno e tram non possono evitarti.",
+  "rule": "In coda lascia liberi: incroci, passaggi a livello, binari del tram, attraversamenti, immissioni.",
+  "trap": "«anche» vuol dire che il traffico intenso non è una scusa.",
+  "caption": "Mai fermarsi su binari o passaggi a livello",
+  "lines": [
+   "Mai fermarsi sui binari",
+   "Treno e tram non deviano"
+  ]
+ },
+ "q18672": {
+  "short": "Pedoni e ciclisti devono poter passare. Se ti fermi sulle strisce, devono girarti intorno.",
+  "rule": "In coda lascia liberi: incroci, passaggi a livello, binari del tram, attraversamenti, immissioni.",
+  "trap": "«formazione di code»: c'è la coda, quindi fermati prima delle strisce.",
+  "caption": "Fermati prima delle strisce, non sopra"
+ },
+ "q18673": {
+  "short": "Gli altri veicoli devono entrare e uscire. Se blocchi l'immissione, si ferma tutto.",
+  "rule": "In coda lascia liberi: incroci, passaggi a livello, binari del tram, attraversamenti, immissioni.",
+  "trap": "«immissioni» sono i punti dove i veicoli entrano in strada.",
+  "caption": "Lascia libere le immissioni",
+  "lines": [
+   "Lascia spazio alle immissioni",
+   "Gli altri possono entrare e uscire"
+  ]
+ },
+ "q18674": {
+  "short": "Tutti gli incroci devono restare liberi, con o senza semaforo.",
+  "rule": "In coda lascia liberi: incroci, passaggi a livello, binari del tram, attraversamenti, immissioni.",
+  "trap": "La trappola è «solo»: la regola vale per ogni incrocio.",
+  "caption": "TUTTI gli incroci, non solo con semaforo",
+  "lines": [
+   "Incrocio con semaforo: libero",
+   "Incrocio senza semaforo: libero"
+  ]
+ },
+ "q18675": {
+  "short": "Il cavalcavia è solo una strada su un ponte; nessuno deve attraversarlo. Puoi stare in coda.",
+  "rule": "In coda lascia liberi: incroci, passaggi a livello, binari del tram, attraversamenti, immissioni.",
+  "trap": "Il «cavalcavia» non è tra i posti da lasciare liberi.",
+  "caption": "In coda sul cavalcavia si può stare",
+  "lines": [
+   "Liberi: incroci, attraversamenti",
+   "Cavalcavia: puoi stare in coda"
+  ]
+ },
+ "q18676": {
+  "short": "In galleria puoi stare in coda: non è un punto di attraversamento.",
+  "rule": "In coda lascia liberi: incroci, passaggi a livello, binari del tram, attraversamenti, immissioni.",
+  "trap": "Le «gallerie» non sono tra i posti da lasciare liberi.",
+  "caption": "In coda in galleria si può stare",
+  "lines": [
+   "Liberi: incroci, attraversamenti",
+   "Galleria: puoi stare in coda"
+  ]
+ },
+ "q18677": {
+  "short": "La regola parla di incroci, attraversamenti, binari e immissioni. Gli ingressi delle case private non ci sono.",
+  "rule": "In coda lascia liberi: incroci, passaggi a livello, binari del tram, attraversamenti, immissioni.",
+  "trap": "Le «abitazioni private» non sono nella lista ufficiale.",
+  "caption": "Ingressi di case private: non in questa regola",
+  "lines": [
+   "Liberi: incroci, attraversamenti",
+   "Ingressi di case: non in lista"
+  ]
+ },
+ "q18678": {
+  "short": "Il sottovia è solo una strada sotto un ponte. Puoi stare in coda.",
+  "rule": "In coda lascia liberi: incroci, passaggi a livello, binari del tram, attraversamenti, immissioni.",
+  "trap": "Il «sottovia» non è tra i posti da lasciare liberi.",
+  "caption": "In coda nel sottovia si può stare",
+  "lines": [
+   "Liberi: incroci, attraversamenti",
+   "Sottovia: puoi stare in coda"
+  ]
+ },
+ "q18679": {
+  "short": "Guardare lontano ti fa vedere frenate e problemi prima, prima ancora dell'auto davanti.",
+  "rule": "In fila: mantieni la distanza, guarda lontano, resta nella tua corsia e stai attento.",
+  "trap": "«anche in lontananza» vuol dire guardare oltre l'auto davanti.",
+  "caption": "Guarda lontano, non solo l'auto davanti",
+  "lines": [
+   "Guarda oltre l'auto davanti",
+   "Vedi i problemi prima"
+  ]
+ },
+ "q18680": {
+  "short": "Le auto delle strade laterali devono poter uscire. Fermati prima, non davanti alla strada.",
+  "rule": "In fila: mantieni la distanza, guarda lontano, resta nella tua corsia e stai attento.",
+  "trap": "«sbocchi» sono i punti dove escono le strade laterali.",
+  "caption": "Lascia spazio alle strade laterali",
+  "lines": [
+   "In coda: lascia spazio",
+   "Chi esce dalla laterale passa"
+  ]
+ },
+ "q18681": {
+  "short": "In coda le auto frenano all'improvviso. Con la distanza di sicurezza ti fermi in tempo.",
+  "rule": "In fila: mantieni la distanza, guarda lontano, resta nella tua corsia e stai attento.",
+  "trap": "«ugualmente» vuol dire che la distanza serve anche in coda.",
+  "caption": "Distanza di sicurezza anche in coda",
+  "lines": [
+   "In coda si frena di colpo",
+   "Mantieni la distanza"
+  ]
+ },
+ "q18682": {
+  "short": "Se sei troppo vicino, non ti fermi in tempo quando l'auto davanti frena.",
+  "rule": "In fila: mantieni la distanza, guarda lontano, resta nella tua corsia e stai attento.",
+  "trap": "«non avvicinarsi troppo»: tieni spazio.",
+  "caption": "Non stare troppo vicino all'auto davanti",
+  "lines": [
+   "Troppo vicino: non freni in tempo",
+   "Tieni spazio"
+  ]
+ },
+ "q18683": {
+  "short": "Le luci di emergenza servono per vere emergenze, non per le code normali in città.",
+  "rule": "In fila: mantieni la distanza, guarda lontano, resta nella tua corsia e stai attento.",
+  "trap": "La trappola è «sempre» con «luci di emergenza».",
+  "caption": "In coda in città niente luci di emergenza",
+  "lines": [
+   "Coda in città: luci normali",
+   "Emergenza: solo se serve"
+  ]
+ },
+ "q18684": {
+  "short": "Anche piano, l'auto davanti può fermarsi di colpo. Devi sempre stare attento.",
+  "rule": "In fila: mantieni la distanza, guarda lontano, resta nella tua corsia e stai attento.",
+  "trap": "«consentito distrarsi» non è mai vero alla guida.",
+  "caption": "Mai distrarsi, anche piano",
+  "lines": [
+   "Coda lenta: stai attento",
+   "L'auto davanti frena di colpo"
+  ]
+ },
+ "q18685": {
+  "short": "Andare a sinistra toglie spazio a chi arriva di fronte. Resta nella tua corsia.",
+  "rule": "In fila: mantieni la distanza, guarda lontano, resta nella tua corsia e stai attento.",
+  "trap": "«spostarsi il più possibile a sinistra» è pericoloso.",
+  "caption": "Resta nella tua corsia, non a sinistra",
+  "lines": [
+   "In coda: resta nella corsia",
+   "A sinistra: auto di fronte"
+  ]
+ },
+ "q18686": {
+  "short": "Al centro sei vicino a chi arriva di fronte. Guarda lontano dalla tua corsia.",
+  "rule": "In fila: mantieni la distanza, guarda lontano, resta nella tua corsia e stai attento.",
+  "trap": "La trappola è «al centro della carreggiata».",
+  "caption": "Non spostarti al centro della strada",
+  "lines": [
+   "Resta nella tua corsia",
+   "Guarda avanti da lì"
+  ]
+ },
+ "q18687": {
+  "short": "Se non vedi, non sorpassare. Rallenta e aumenta la distanza finché la polvere passa.",
+  "rule": "In fila: mantieni la distanza, guarda lontano, resta nella tua corsia e stai attento.",
+  "trap": "«conviene sorpassarlo subito» è sbagliato se non vedi bene.",
+  "caption": "Non vedi? Non sorpassare, resta indietro",
+  "lines": [
+   "Polvere: non vedi",
+   "Rallenta, tieni distanza"
+  ]
+ },
+ "q18688": {
+  "short": "In città ci sono tanti incroci con segnali diversi. Controlla la precedenza a ogni incrocio.",
+  "rule": "Nel centro abitato il traffico è misto e cambia spesso: più attenzione, prudenza e pazienza.",
+  "trap": "«può cambiare spesso»: non pensare che la precedenza sia sempre uguale.",
+  "caption": "Controlla la precedenza a ogni incrocio",
+  "lines": [
+   "Tanti incroci in città",
+   "Controlla sempre la precedenza"
+  ]
+ },
+ "q18689": {
+  "short": "In città le auto parcheggiano, partono e girano di continuo. Il traffico si ferma spesso.",
+  "rule": "Nel centro abitato il traffico è misto e cambia spesso: più attenzione, prudenza e pazienza.",
+  "trap": "«intralciato o interrotto» vuol dire rallentato o fermato.",
+  "caption": "In città il traffico si ferma e riparte",
+  "lines": [
+   "Auto parcheggiano e girano",
+   "Sii pronto a frenare"
+  ]
+ },
+ "q18690": {
+  "short": "In città pedoni e ciclisti sono vicini alle auto. Fai sempre attenzione a loro.",
+  "rule": "Nel centro abitato il traffico è misto e cambia spesso: più attenzione, prudenza e pazienza.",
+  "trap": "«si mescolano maggiormente» vuol dire che sono ovunque.",
+  "caption": "Pedoni e ciclisti si mescolano alle auto",
+  "lines": [
+   "Pedoni vicino alle auto",
+   "Ciclisti vicino alle auto"
+  ]
+ },
+ "q18691": {
+  "short": "In città ci sono più utenti della strada, quindi servono più attenzione e pazienza.",
+  "rule": "Nel centro abitato il traffico è misto e cambia spesso: più attenzione, prudenza e pazienza.",
+  "trap": "«tolleranti» vuol dire pazienti con gli altri.",
+  "caption": "In città: più attenzione e pazienza",
+  "lines": [
+   "Tanti utenti della strada",
+   "Attenzione e pazienza"
+  ]
+ },
+ "q18692": {
+  "short": "Negozi, cartelli e persone possono distrarti in città. Tieni l'attenzione sulla strada.",
+  "rule": "Nel centro abitato il traffico è misto e cambia spesso: più attenzione, prudenza e pazienza.",
+  "trap": "«anche se»: le distrazioni non sono una scusa.",
+  "caption": "Concentrato anche con tante distrazioni",
+  "lines": [
+   "Negozi, cartelli, persone",
+   "Occhi sulla strada"
+  ]
+ },
+ "q18693": {
+  "short": "La sosta agli incroci è vietata: copre la vista e blocca gli altri.",
+  "rule": "Nel centro abitato il traffico è misto e cambia spesso: più attenzione, prudenza e pazienza.",
+  "trap": "La trappola è «è possibile sostare»: agli incroci no.",
+  "caption": "Vietato sostare agli incroci",
+  "lines": [
+   "Incrocio: vietato sostare",
+   "Le auto ferme coprono la vista"
+  ]
+ },
+ "q18694": {
+  "short": "In città la marcia affiancata si può fare solo con almeno due corsie segnate nel tuo senso.",
+  "rule": "Nel centro abitato il traffico è misto e cambia spesso: più attenzione, prudenza e pazienza.",
+  "trap": "La trappola è «sempre»: dipende dalla strada.",
+  "caption": "File parallele: solo con 2+ corsie nel tuo senso",
+  "lines": [
+   "Almeno 2 corsie nel tuo senso",
+   "Solo allora file parallele"
+  ]
+ },
+ "q18695": {
+  "short": "È il contrario: sulle strisce chi guida dà la precedenza ai pedoni e fa più attenzione ai disabili.",
+  "rule": "Nel centro abitato il traffico è misto e cambia spesso: più attenzione, prudenza e pazienza.",
+  "trap": "La trappola è «devono sempre dare la precedenza ai veicoli».",
+  "caption": "Chi guida dà la precedenza ai pedoni",
+  "lines": [
+   "Pedone sulle strisce",
+   "L'auto si ferma e aspetta"
+  ]
+ },
+ "q18696": {
+  "short": "Segnali spostati o sporchi danno informazioni sbagliate o illeggibili: causano incidenti.",
+  "rule": "Spostare, togliere o sporcare i segnali è sempre vietato: è un grave pericolo.",
+  "trap": "«imbrattare» vuol dire sporcare, per esempio con vernice o adesivi.",
+  "caption": "Non spostare né sporcare i segnali",
+  "lines": [
+   "Spostare segnali: vietato",
+   "Sporcare segnali: vietato"
+  ]
+ },
+ "q18697": {
+  "short": "Senza il segnale, chi guida perde informazioni importanti. Toglierlo è vietato.",
+  "rule": "Spostare, togliere o sporcare i segnali è sempre vietato: è un grave pericolo.",
+  "trap": "«rimuovere» vuol dire togliere.",
+  "caption": "Non togliere i segnali",
+  "lines": [
+   "Togliere segnali: vietato",
+   "Gli altri ne hanno bisogno"
+  ]
+ },
+ "q18698": {
+  "short": "Un segnale nel posto sbagliato può confondere chi guida o nascondere un pericolo.",
+  "rule": "Spostare, togliere o sporcare i segnali è sempre vietato: è un grave pericolo.",
+  "trap": "«pericolo grave»: non è una cosa piccola.",
+  "caption": "Segnali spostati: grave pericolo",
+  "lines": [
+   "Segnale nel posto sbagliato",
+   "Informazioni sbagliate"
+  ]
+ },
+ "q18699": {
+  "short": "Nessun segnale si può spostare, di nessun tipo.",
+  "rule": "Spostare, togliere o sporcare i segnali è sempre vietato: è un grave pericolo.",
+  "trap": "La trappola è «consentito»: nessuna eccezione.",
+  "caption": "Nessun segnale si può spostare",
+  "lines": [
+   "Segnale di pericolo: no",
+   "Ogni altro segnale: no"
+  ]
+ },
+ "q18700": {
+  "short": "Avvisare la polizia non ti dà il permesso. Chi guida non può mai spostare i segnali.",
+  "rule": "Spostare, togliere o sporcare i segnali è sempre vietato: è un grave pericolo.",
+  "trap": "«dopo aver avvisato» non rende la cosa permessa.",
+  "caption": "Avvisare la polizia non basta",
+  "lines": [
+   "Spostare segnali: vietato",
+   "Anche avvisando la polizia"
+  ]
+ },
+ "q18701": {
+  "short": "Coni e barriere sono segnali: indicano lavori o pericoli. Non spostarli.",
+  "rule": "Spostare, togliere o sporcare i segnali è sempre vietato: è un grave pericolo.",
+  "trap": "Anche i «coni stradali» sono segnaletica.",
+  "caption": "Coni e barriere sono segnali",
+  "lines": [
+   "I coni segnano lavori o pericoli",
+   "Non spostarli"
+  ]
+ },
+ "q18702": {
+  "short": "Le gare sulle strade pubbliche mettono tutti in pericolo: sono vietate.",
+  "rule": "Le gare di velocità non autorizzate sono vietate e punite con la reclusione, anche per chi scommette.",
+  "trap": "«gareggiare in velocità» vuol dire fare una gara.",
+  "caption": "Vietato fare gare sulle strade",
+  "lines": [
+   "Gare su strada: vietate",
+   "Pericolo per tutti"
+  ]
+ },
+ "q18703": {
+  "short": "Partecipare a una gara illegale è un reato punito con la reclusione (carcere).",
+  "rule": "Le gare di velocità non autorizzate sono vietate e punite con la reclusione, anche per chi scommette.",
+  "trap": "«reclusione» vuol dire carcere: è un reato, non solo una multa.",
+  "caption": "Gara illegale = reato, reclusione",
+  "lines": [
+   "Gara illegale",
+   "Reato: reclusione"
+  ]
+ },
+ "q18704": {
+  "short": "Gareggiare sulle strade pubbliche è un reato punito con la reclusione.",
+  "rule": "Le gare di velocità non autorizzate sono vietate e punite con la reclusione, anche per chi scommette.",
+  "trap": "«reclusione» vuol dire carcere.",
+  "caption": "Gara su strada pubblica = reclusione",
+  "lines": [
+   "Gara su strada pubblica",
+   "Reato: reclusione"
+  ]
+ },
+ "q18705": {
+  "short": "Non solo chi guida: anche chi scommette sulle gare illegali commette un reato.",
+  "rule": "Le gare di velocità non autorizzate sono vietate e punite con la reclusione, anche per chi scommette.",
+  "trap": "Anche «chi scommette» è punito, non solo chi guida.",
+  "caption": "Scommettere su gare illegali: reclusione",
+  "lines": [
+   "Scommettere su gare illegali",
+   "Reato: reclusione"
+  ]
+ },
+ "q18706": {
+  "short": "Ogni gara sportiva su strade pubbliche ha bisogno di un'autorizzazione.",
+  "rule": "Le gare di velocità non autorizzate sono vietate e punite con la reclusione, anche per chi scommette.",
+  "trap": "La trappola è «senza autorizzazione».",
+  "caption": "Le gare sportive richiedono un permesso",
+  "lines": [
+   "Gara sportiva su strada",
+   "Solo con autorizzazione"
+  ]
+ },
+ "q18707": {
+  "short": "Le gare non autorizzate sono vietate a ogni ora. La notte non è un'eccezione.",
+  "rule": "Le gare di velocità non autorizzate sono vietate e punite con la reclusione, anche per chi scommette.",
+  "trap": "«dalle ore 23.00 alle ore 6.00» è un'eccezione inventata.",
+  "caption": "Niente gare illegali, giorno o notte",
+  "lines": [
+   "Gara illegale di notte",
+   "Sempre vietata"
+  ]
+ },
+ "q18708": {
+  "short": "Il numero di auto non conta. Ogni gara non autorizzata è vietata.",
+  "rule": "Le gare di velocità non autorizzate sono vietate e punite con la reclusione, anche per chi scommette.",
+  "trap": "«purché partecipino solo due autovetture» è un'eccezione inventata.",
+  "caption": "Anche con due auto è vietato",
+  "lines": [
+   "Due auto in gara",
+   "Sempre vietato"
+  ]
+ },
+ "q18709": {
+  "short": "Il tipo di veicolo non conta. Le gare non autorizzate sono vietate anche per le moto.",
+  "rule": "Le gare di velocità non autorizzate sono vietate e punite con la reclusione, anche per chi scommette.",
+  "trap": "«tra motocicli» è un'eccezione inventata.",
+  "caption": "Anche le gare tra moto sono vietate",
+  "lines": [
+   "Gara tra moto",
+   "Sempre vietata"
+  ]
+ },
+ "q18710": {
+  "short": "Un mozzicone acceso può colpire un motociclista o causare un incendio. È vietato lanciarlo.",
+  "rule": "Non lanciare oggetti, non sporcare la strada, non spostare segnali; guida piano su pozzanghere e ghiaia.",
+  "trap": "«mozziconi accesi» vuol dire sigarette ancora accese: doppio pericolo.",
+  "caption": "Mai lanciare mozziconi dal finestrino",
+  "lines": [
+   "Mozzicone dal finestrino",
+   "Vietato: incendio, pericolo"
+  ]
+ },
+ "q18711": {
+  "short": "Un mozzicone acceso può colpire in faccia un motociclista o un ciclista e farlo cadere.",
+  "rule": "Non lanciare oggetti, non sporcare la strada, non spostare segnali; guida piano su pozzanghere e ghiaia.",
+  "trap": "«sopraggiungono» vuol dire che arrivano da dietro.",
+  "caption": "I mozziconi possono colpire chi va in moto",
+  "lines": [
+   "Mozzicone dal finestrino",
+   "Può colpire chi arriva"
+  ]
+ },
+ "q18712": {
+  "short": "Erba secca e alberi bruciano facilmente. Un mozzicone può causare un incendio.",
+  "rule": "Non lanciare oggetti, non sporcare la strada, non spostare segnali; guida piano su pozzanghere e ghiaia.",
+  "trap": "«potrebbe causare incendi»: è un rischio vero.",
+  "caption": "I mozziconi possono causare incendi",
+  "lines": [
+   "Mozzicone vicino ai boschi",
+   "Rischio di incendio"
+  ]
+ },
+ "q18713": {
+  "short": "Fango e detriti rendono la strada scivolosa e pericolosa. Non sporcare la strada.",
+  "rule": "Non lanciare oggetti, non sporcare la strada, non spostare segnali; guida piano su pozzanghere e ghiaia.",
+  "trap": "«spargere» vuol dire spargere, lasciare in giro.",
+  "caption": "Non lasciare fango sulla strada",
+  "lines": [
+   "Fango sulla strada",
+   "Scivoloso: vietato"
+  ]
+ },
+ "q18714": {
+  "short": "L'olio sulla strada è molto scivoloso. Chi guida deve agire per evitare il pericolo.",
+  "rule": "Non lanciare oggetti, non sporcare la strada, non spostare segnali; guida piano su pozzanghere e ghiaia.",
+  "trap": "«tutte le azioni necessarie»: è un obbligo vero.",
+  "caption": "Perdi olio? Agisci per evitare pericoli",
+  "lines": [
+   "Olio sulla strada: scivola",
+   "Fermati e agisci"
+  ]
+ },
+ "q18715": {
+  "short": "Una forte perdita di olio o carburante è un grave pericolo. Avvisa subito l'ente della strada o la polizia.",
+  "rule": "Non lanciare oggetti, non sporcare la strada, non spostare segnali; guida piano su pozzanghere e ghiaia.",
+  "trap": "«immediatamente» vuol dire subito.",
+  "caption": "Forte perdita: avvisa ente della strada o polizia",
+  "lines": [
+   "Forte perdita di olio",
+   "Avvisa ente o polizia"
+  ]
+ },
+ "q18716": {
+  "short": "Su due ruote l'animale deve stare in una gabbia adatta, e non deve sporgere più di 50 cm.",
+  "rule": "Non lanciare oggetti, non sporcare la strada, non spostare segnali; guida piano su pozzanghere e ghiaia.",
+  "trap": "«apposita gabbia» e «50 centimetri» sono due condizioni.",
+  "caption": "Animale in moto: in gabbia, max 50 cm fuori",
+  "lines": [
+   "Animale in gabbia adatta",
+   "Sporge al massimo 50 cm"
+  ]
+ },
+ "q18717": {
+  "short": "Andare veloce sulle pozzanghere bagna i pedoni e può farti perdere aderenza.",
+  "rule": "Non lanciare oggetti, non sporcare la strada, non spostare segnali; guida piano su pozzanghere e ghiaia.",
+  "trap": "«pozzanghere» sono le pozze d'acqua sulla strada.",
+  "caption": "Piano sulle pozzanghere",
+  "lines": [
+   "Pozzanghera davanti",
+   "Piano: niente schizzi"
+  ]
+ },
+ "q18718": {
+  "short": "Sporcare la strada è vietato e si paga una sanzione amministrativa (multa).",
+  "rule": "Non lanciare oggetti, non sporcare la strada, non spostare segnali; guida piano su pozzanghere e ghiaia.",
+  "trap": "«sanzione amministrativa» vuol dire multa.",
+  "caption": "Strada sporca: multa",
+  "lines": [
+   "Fango sulla strada",
+   "Puoi prendere una multa"
+  ]
+ },
+ "q18719": {
+  "short": "Con le ruote pulite non lasci fango e la strada resta sicura.",
+  "rule": "Non lanciare oggetti, non sporcare la strada, non spostare segnali; guida piano su pozzanghere e ghiaia.",
+  "trap": "«pulire le ruote» vuol dire togliere il fango dalle ruote.",
+  "caption": "Pulisci le ruote prima della strada",
+  "lines": [
+   "Sentiero fangoso",
+   "Pulisci le ruote, poi strada"
+  ]
+ },
+ "q18720": {
+  "short": "La terra che cade dal veicolo rende la strada scivolosa. Controlla prima di partire.",
+  "rule": "Non lanciare oggetti, non sporcare la strada, non spostare segnali; guida piano su pozzanghere e ghiaia.",
+  "trap": "«terriccio» vuol dire terra.",
+  "caption": "Niente terra che cade sulla strada",
+  "lines": [
+   "Uscita dal cantiere",
+   "Niente terra sulla strada"
+  ]
+ },
+ "q18721": {
+  "short": "I segnali temporanei (per lavori o eventi) non si spostano, neanche per parcheggiare.",
+  "rule": "Non lanciare oggetti, non sporcare la strada, non spostare segnali; guida piano su pozzanghere e ghiaia.",
+  "trap": "Anche i segnali «temporanei» sono segnali: nessuna eccezione.",
+  "caption": "Mai spostare segnali per parcheggiare",
+  "lines": [
+   "Segnale temporaneo",
+   "Non spostarlo per parcheggiare"
+  ]
+ },
+ "q18722": {
+  "short": "Dal veicolo non si lancia niente: sporca la strada e può colpire altri.",
+  "rule": "Non lanciare oggetti, non sporcare la strada, non spostare segnali; guida piano su pozzanghere e ghiaia.",
+  "trap": "La trappola è «consentito»: lanciare è vietato.",
+  "caption": "Non lanciare carta dal finestrino",
+  "lines": [
+   "Carta dal finestrino",
+   "Vietato"
+  ]
+ },
+ "q18723": {
+  "short": "Lanciare oggetti è vietato ovunque, anche sulla banchina.",
+  "rule": "Non lanciare oggetti, non sporcare la strada, non spostare segnali; guida piano su pozzanghere e ghiaia.",
+  "trap": "«sulla banchina» non lo rende permesso.",
+  "caption": "Niente lanci, neanche sulla banchina"
+ },
+ "q18724": {
+  "short": "Il brecciolino riduce l'aderenza e i sassi possono colpire altri veicoli. Vai piano.",
+  "rule": "Non lanciare oggetti, non sporcare la strada, non spostare segnali; guida piano su pozzanghere e ghiaia.",
+  "trap": "La trappola è «velocità sostenuta» sul «brecciolino».",
+  "caption": "Brecciolino: vai piano",
+  "lines": [
+   "Brecciolino: poca aderenza",
+   "Sassi volano: piano"
+  ]
+ },
+ "q18725": {
+  "short": "Zigzagare tra le auto in coda accelerando di colpo è pericoloso e vietato.",
+  "rule": "Non lanciare oggetti, non sporcare la strada, non spostare segnali; guida piano su pozzanghere e ghiaia.",
+  "trap": "«bruscamente» e «ripetutamente» descrivono una guida pericolosa.",
+  "caption": "Niente zigzag tra le auto in coda",
+  "lines": [
+   "In coda: resta in fila",
+   "No zigzag, no scatti"
+  ]
+ }
+}

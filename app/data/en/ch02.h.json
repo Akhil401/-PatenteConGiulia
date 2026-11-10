@@ -1,0 +1,2385 @@
+{
+ "q19406": {
+  "en": "The sign shown warns of traffic lights ahead.",
+  "explain": {
+   "short": "The red, yellow and green discs show a traffic light: the sign warns that traffic lights are coming.",
+   "rule": "'Semaforo' (traffic lights) is a danger sign: traffic lights ahead. Outside towns it is compulsory, about 150 m before them.",
+   "trap": "'preannuncia' means it warns in advance: the lights are further ahead.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Traffic lights ahead: slow down",
+    "it": "semaforo",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "warns of (ahead)"
+   },
+   {
+    "it": "semaforo",
+    "en": "traffic lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19407": {
+  "en": "The sign shown is a danger sign.",
+  "explain": {
+   "short": "It is a triangle with a red border: that shape is used for danger signs.",
+   "rule": "'Semaforo' (traffic lights) is a danger sign: traffic lights ahead. Outside towns it is compulsory, about 150 m before them.",
+   "trap": "'segnale di pericolo' (danger sign) = triangle with red edge, point up.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red-edged triangle = danger sign",
+    "it": "segnale di pericolo",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19408": {
+  "en": "In the sign shown, the yellow disc can be replaced by a flashing yellow light.",
+  "explain": {
+   "short": "To make the sign easier to see, the yellow disc can be a real yellow light that flashes.",
+   "rule": "'Semaforo' (traffic lights) is a danger sign: traffic lights ahead. Outside towns it is compulsory, about 150 m before them.",
+   "trap": "Only the YELLOW disc can become a light, and it must be 'lampeggiante' (flashing).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow disc can be a flashing yellow light",
+    "it": "luce gialla lampeggiante",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "disco giallo",
+    "en": "yellow disc"
+   },
+   {
+    "it": "può essere sostituito",
+    "en": "can be replaced"
+   },
+   {
+    "it": "luce gialla lampeggiante",
+    "en": "flashing yellow light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19409": {
+  "en": "When you see the sign shown, you must moderate your speed so you can stop if necessary.",
+  "explain": {
+   "short": "The light ahead may be red: slow down so you can stop in time.",
+   "rule": "'Semaforo' (traffic lights) is a danger sign: traffic lights ahead. Outside towns it is compulsory, about 150 m before them.",
+   "trap": "'all'occorrenza' means 'if needed': you slow down to be ready, not to stop always.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down: be ready to stop at the lights",
+    "it": "moderare la velocità",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "moderare la velocità",
+    "en": "moderate (reduce) speed"
+   },
+   {
+    "it": "fermare",
+    "en": "stop"
+   },
+   {
+    "it": "all'occorrenza",
+    "en": "if necessary"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19410": {
+  "en": "The sign shown has a yellow background if placed before roadworks.",
+  "explain": {
+   "short": "Temporary signs at roadworks have a yellow background, this one too.",
+   "rule": "'Semaforo' (traffic lights) is a danger sign: traffic lights ahead. Outside towns it is compulsory, about 150 m before them.",
+   "trap": "'a fondo giallo' (yellow background) = sign used for roadworks ('cantiere').",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At roadworks the background is yellow",
+    "it": "fondo giallo",
+    "action": "slow",
+    "hazard": "🚧",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fondo giallo",
+    "en": "yellow background"
+   },
+   {
+    "it": "cantiere stradale",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19411": {
+  "en": "The sign shown warns of traffic lights with the lights arranged vertically.",
+  "explain": {
+   "short": "In this sign the three discs are one above the other: the lights ahead are vertical.",
+   "rule": "'Semaforo' (traffic lights) is a danger sign: traffic lights ahead. Outside towns it is compulsory, about 150 m before them.",
+   "trap": "'in verticale' (vertical) matches the column of discs; the horizontal row is a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Discs in a column: vertical traffic lights",
+    "it": "luci in verticale",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "semaforo",
+    "en": "traffic lights"
+   },
+   {
+    "it": "disposizione delle luci",
+    "en": "arrangement of the lights"
+   },
+   {
+    "it": "in verticale",
+    "en": "vertical"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19412": {
+  "en": "The sign shown is compulsory on roads outside built-up areas.",
+  "explain": {
+   "short": "Outside towns drivers go fast, so this warning must be placed before every traffic light.",
+   "rule": "'Semaforo' (traffic lights) is a danger sign: traffic lights ahead. Outside towns it is compulsory, about 150 m before them.",
+   "trap": "'strade extraurbane' means roads outside towns: there the sign is required.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Outside towns this sign is compulsory",
+    "it": "obbligatorio",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligatorio",
+    "en": "compulsory"
+   },
+   {
+    "it": "strade extraurbane",
+    "en": "roads outside towns"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19413": {
+  "en": "On roads outside built-up areas the sign is always compulsory.",
+  "explain": {
+   "short": "Outside towns every traffic light must be announced by this sign.",
+   "rule": "'Semaforo' (traffic lights) is a danger sign: traffic lights ahead. Outside towns it is compulsory, about 150 m before them.",
+   "trap": "'sempre' (always) is usually a trap word, but here it is correct.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Outside towns: always compulsory",
+    "it": "sempre obbligatorio",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane",
+    "en": "roads outside towns"
+   },
+   {
+    "it": "sempre obbligatorio",
+    "en": "always compulsory"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19414": {
+  "en": "The sign shown can have the red disc replaced by a flashing red light.",
+  "explain": {
+   "short": "Only the yellow disc can become a flashing light; the red disc cannot.",
+   "rule": "'Semaforo' (traffic lights) is a danger sign: traffic lights ahead. Outside towns it is compulsory, about 150 m before them.",
+   "trap": "'disco rosso' (red disc) is the trap: the rule is about the YELLOW disc.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only the YELLOW disc can flash, not the red",
+    "it": "disco rosso",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "disco rosso",
+    "en": "red disc"
+   },
+   {
+    "it": "luce rossa lampeggiante",
+    "en": "flashing red light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19415": {
+  "en": "The sign shown warns of a railway crossing without barriers.",
+  "explain": {
+   "short": "The discs show traffic lights, not a train: an unbarriered crossing has a locomotive sign.",
+   "rule": "'Semaforo' (traffic lights) is a danger sign: traffic lights ahead. Outside towns it is compulsory, about 150 m before them.",
+   "trap": "'attraversamento ferroviario' (railway crossing) is a different sign, with a train.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Traffic lights, not a railway crossing",
+    "it": "semaforo",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "attraversamento ferroviario",
+    "en": "railway crossing"
+   },
+   {
+    "it": "senza barriere",
+    "en": "without barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19416": {
+  "en": "The sign shown can warn of a level crossing with half barriers.",
+  "explain": {
+   "short": "A level crossing with barriers has a fence (gate) sign; this one shows traffic lights.",
+   "rule": "'Semaforo' (traffic lights) is a danger sign: traffic lights ahead. Outside towns it is compulsory, about 150 m before them.",
+   "trap": "'passaggio a livello' (level crossing) is not shown by coloured discs.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Traffic lights, not a level crossing",
+    "it": "semaforo",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "passaggio a livello",
+    "en": "level crossing"
+   },
+   {
+    "it": "semibarriere",
+    "en": "half barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19417": {
+  "en": "The sign shown warns of an alternating one-way road.",
+  "explain": {
+   "short": "An alternating one-way stretch has its own sign with two arrows; this one is traffic lights.",
+   "rule": "'Semaforo' (traffic lights) is a danger sign: traffic lights ahead. Outside towns it is compulsory, about 150 m before them.",
+   "trap": "'senso unico alternato' (alternating one-way) is a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Traffic lights, not alternating one-way",
+    "it": "semaforo",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "senso unico alternato",
+    "en": "alternating one-way traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19418": {
+  "en": "The sign shown warns of a moving (lifting) bridge.",
+  "explain": {
+   "short": "A moving bridge has its own sign showing the bridge; this one shows traffic lights.",
+   "rule": "'Semaforo' (traffic lights) is a danger sign: traffic lights ahead. Outside towns it is compulsory, about 150 m before them.",
+   "trap": "'ponte mobile' (moving bridge) is a different danger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Traffic lights, not a moving bridge",
+    "it": "semaforo",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ponte mobile",
+    "en": "moving (lifting) bridge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19419": {
+  "en": "The sign shown can have a steady yellow light in the centre.",
+  "explain": {
+   "short": "The yellow disc can only become a FLASHING yellow light, never a steady one.",
+   "rule": "'Semaforo' (traffic lights) is a danger sign: traffic lights ahead. Outside towns it is compulsory, about 150 m before them.",
+   "trap": "'fissa' (steady) is the trap: the light must be 'lampeggiante' (flashing).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow light must flash, not stay steady",
+    "it": "luce gialla",
+    "action": "slow",
+    "hazard": "🚦",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "al centro",
+    "en": "in the centre"
+   },
+   {
+    "it": "luce gialla fissa",
+    "en": "steady yellow light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19420": {
+  "en": "The sign shown warns of possible sudden dazzle caused by low-flying aeroplanes.",
+  "explain": {
+   "short": "A low plane can reflect the sun or use bright lights and suddenly dazzle you.",
+   "rule": "'Aeromobili' (low-flying aircraft) is a danger sign near airports: planes may pass low, with sudden noise or dazzle.",
+   "trap": "'abbagliamento' means dazzle (being blinded by light) - a real risk under low planes.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Low planes: possible sudden dazzle",
+    "it": "aeromobili",
+    "action": "slow",
+    "hazard": "✈️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "improvviso abbagliamento",
+    "en": "sudden dazzle"
+   },
+   {
+    "it": "aeroplani a bassa quota",
+    "en": "low-flying aeroplanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19421": {
+  "en": "The sign shown warns of possible sudden loud noise caused by low-flying aeroplanes.",
+  "explain": {
+   "short": "A plane passing low is very loud and can surprise the driver.",
+   "rule": "'Aeromobili' (low-flying aircraft) is a danger sign near airports: planes may pass low, with sudden noise or dazzle.",
+   "trap": "'rumore' means noise: sudden noise is one of the dangers of this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Low planes: sudden loud noise",
+    "it": "aeromobili",
+    "action": "slow",
+    "hazard": "✈️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "improvviso e forte rumore",
+    "en": "sudden loud noise"
+   },
+   {
+    "it": "aeroplani a bassa quota",
+    "en": "low-flying aeroplanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19422": {
+  "en": "The sign shown is placed near airports.",
+  "explain": {
+   "short": "Planes fly low only near airports, so the sign is placed there.",
+   "rule": "'Aeromobili' (low-flying aircraft) is a danger sign near airports: planes may pass low, with sudden noise or dazzle.",
+   "trap": "'nelle vicinanze' means nearby: close to the airport.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Placed near airports",
+    "it": "aeroporti",
+    "action": "slow",
+    "hazard": "✈️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "nelle vicinanze",
+    "en": "nearby"
+   },
+   {
+    "it": "aeroporti",
+    "en": "airports"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19423": {
+  "en": "The sign shown is placed near runways for the landing and take-off of aeroplanes.",
+  "explain": {
+   "short": "Near runways planes are low, just before landing or just after take-off.",
+   "rule": "'Aeromobili' (low-flying aircraft) is a danger sign near airports: planes may pass low, with sudden noise or dazzle.",
+   "trap": "'piste' here means runways, not ski slopes or race tracks.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Near runways: planes land and take off",
+    "it": "piste",
+    "action": "slow",
+    "hazard": "✈️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "piste",
+    "en": "runways"
+   },
+   {
+    "it": "atterraggio",
+    "en": "landing"
+   },
+   {
+    "it": "decollo",
+    "en": "take-off"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19424": {
+  "en": "The sign shown is placed in areas where low-altitude flight of aeroplanes may happen.",
+  "explain": {
+   "short": "This is exactly the danger of the sign: planes flying low over the road.",
+   "rule": "'Aeromobili' (low-flying aircraft) is a danger sign near airports: planes may pass low, with sudden noise or dazzle.",
+   "trap": "'bassa quota' means low height (altitude).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Where planes may fly low",
+    "it": "bassa quota",
+    "action": "slow",
+    "hazard": "✈️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "zone",
+    "en": "areas"
+   },
+   {
+    "it": "volo a bassa quota",
+    "en": "low-altitude flight"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19425": {
+  "en": "The sign shown warns of a gliding site.",
+  "explain": {
+   "short": "The sign shows a powered plane, a noise and dazzle risk near airports, not gliders.",
+   "rule": "'Aeromobili' (low-flying aircraft) is a danger sign near airports: planes may pass low, with sudden noise or dazzle.",
+   "trap": "'volo a vela' (gliding) is a sport, not the danger of this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Low planes, not a gliding site",
+    "it": "aeromobili",
+    "action": "slow",
+    "hazard": "✈️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "località",
+    "en": "place"
+   },
+   {
+    "it": "volo a vela",
+    "en": "gliding"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19426": {
+  "en": "The sign shown warns of an area reserved for air force vehicles.",
+  "explain": {
+   "short": "It is a danger sign about planes flying low, not a reserved military area.",
+   "rule": "'Aeromobili' (low-flying aircraft) is a danger sign near airports: planes may pass low, with sudden noise or dazzle.",
+   "trap": "'riservata' (reserved) is the trap: danger signs do not reserve anything.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Danger from low planes, no reserved zone",
+    "it": "aeromobili",
+    "action": "slow",
+    "hazard": "✈️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "zona riservata",
+    "en": "reserved area"
+   },
+   {
+    "it": "aeronautica militare",
+    "en": "air force"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19427": {
+  "en": "The sign shown warns of a fork in the road for the airport.",
+  "explain": {
+   "short": "Directions to the airport are given by blue or green direction signs, not by this triangle.",
+   "rule": "'Aeromobili' (low-flying aircraft) is a danger sign near airports: planes may pass low, with sudden noise or dazzle.",
+   "trap": "'bivio' (fork, junction) is the trap: this sign shows no road layout.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Low planes, not a junction for the airport",
+    "it": "aeromobili",
+    "action": "slow",
+    "hazard": "✈️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "bivio",
+    "en": "fork (junction)"
+   },
+   {
+    "it": "aeroporto",
+    "en": "airport"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19428": {
+  "en": "The sign shown forbids access to airports.",
+  "explain": {
+   "short": "A triangle only warns of danger; prohibitions are round signs.",
+   "rule": "'Aeromobili' (low-flying aircraft) is a danger sign near airports: planes may pass low, with sudden noise or dazzle.",
+   "trap": "'vieta' (forbids) is the trap: a danger sign never forbids.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It warns, it does not forbid",
+    "it": "aeromobili",
+    "action": "slow",
+    "hazard": "✈️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "forbids"
+   },
+   {
+    "it": "accesso",
+    "en": "access"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19429": {
+  "en": "The sign shown warns of a reserved lane for entering the airport.",
+  "explain": {
+   "short": "It warns of low-flying planes; it says nothing about lanes.",
+   "rule": "'Aeromobili' (low-flying aircraft) is a danger sign near airports: planes may pass low, with sudden noise or dazzle.",
+   "trap": "'corsia riservata' (reserved lane) is the trap: no lane is shown.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Low planes, not a reserved lane",
+    "it": "aeromobili",
+    "action": "slow",
+    "hazard": "✈️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia riservata",
+    "en": "reserved lane"
+   },
+   {
+    "it": "ingresso",
+    "en": "entrance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19430": {
+  "en": "The sign shown warns of a stretch of road exposed to strong side gusts of wind.",
+  "explain": {
+   "short": "The windsock blown sideways shows strong wind from the side on this stretch.",
+   "rule": "'Forte vento laterale' (strong side wind) is a danger sign: sudden gusts from the side. Hold the wheel firmly and slow down.",
+   "trap": "'raffiche' means gusts: sudden strong blows of wind.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Strong side gusts ahead",
+    "it": "vento laterale",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "presegnala",
+    "en": "warns in advance"
+   },
+   {
+    "it": "raffiche",
+    "en": "gusts"
+   },
+   {
+    "it": "vento laterale",
+    "en": "side wind"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19431": {
+  "en": "The sign shown warns of possible strong side gusts when leaving a tunnel.",
+  "explain": {
+   "short": "Inside a tunnel there is no wind; at the exit a gust can hit you suddenly.",
+   "rule": "'Forte vento laterale' (strong side wind) is a danger sign: sudden gusts from the side. Hold the wheel firmly and slow down.",
+   "trap": "'all'uscita' (at the exit) is correct: the danger is leaving the tunnel, not entering it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tunnel exit: sudden side gust",
+    "it": "uscita da una galleria",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "raffiche di vento laterale",
+    "en": "side gusts"
+   },
+   {
+    "it": "all'uscita",
+    "en": "at the exit"
+   },
+   {
+    "it": "galleria",
+    "en": "tunnel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19432": {
+  "en": "The sign shown warns of a viaduct exposed to sudden side gusts of wind.",
+  "explain": {
+   "short": "A viaduct is high and open, so wind hits it hard: a typical place for this sign.",
+   "rule": "'Forte vento laterale' (strong side wind) is a danger sign: sudden gusts from the side. Hold the wheel firmly and slow down.",
+   "trap": "'viadotto' means viaduct (a long high bridge).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Viaduct exposed to side wind",
+    "it": "viadotto",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "viadotto",
+    "en": "viaduct"
+   },
+   {
+    "it": "raffiche di vento laterale",
+    "en": "side gusts"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19433": {
+  "en": "The sign shown warns of areas subject to strong and sudden side gusts of wind.",
+  "explain": {
+   "short": "This is the exact meaning of the windsock sign.",
+   "rule": "'Forte vento laterale' (strong side wind) is a danger sign: sudden gusts from the side. Hold the wheel firmly and slow down.",
+   "trap": "'improvvise' means sudden: the gusts come without warning.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Areas with sudden side gusts",
+    "it": "vento laterale",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "zone",
+    "en": "areas"
+   },
+   {
+    "it": "raffiche",
+    "en": "gusts"
+   },
+   {
+    "it": "vento laterale",
+    "en": "side wind"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19434": {
+  "en": "The sign shown warns of a danger that is greater for vehicles with tarpaulins or box bodies.",
+  "explain": {
+   "short": "Vans and trucks with high flat sides catch the wind like a sail.",
+   "rule": "'Forte vento laterale' (strong side wind) is a danger sign: sudden gusts from the side. Hold the wheel firmly and slow down.",
+   "trap": "'telonati o furgonati' = with a tarpaulin cover or a closed box: big side surface.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Box vans and tarpaulin trucks: more danger",
+    "it": "telonati",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pericolo",
+    "en": "danger"
+   },
+   {
+    "it": "maggiore",
+    "en": "greater"
+   },
+   {
+    "it": "telonati o furgonati",
+    "en": "with tarpaulins or box bodies"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19435": {
+  "en": "The sign shown warns you to proceed with care, holding the steering wheel firmly.",
+  "explain": {
+   "short": "A gust can push the car sideways: hold the wheel firmly and drive carefully.",
+   "rule": "'Forte vento laterale' (strong side wind) is a danger sign: sudden gusts from the side. Hold the wheel firmly and slow down.",
+   "trap": "'saldamente' means firmly, with a strong grip.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hold the wheel firmly",
+    "it": "volante",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "prudenza",
+    "en": "care"
+   },
+   {
+    "it": "saldamente",
+    "en": "firmly"
+   },
+   {
+    "it": "volante",
+    "en": "steering wheel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19436": {
+  "en": "The sign shown warns of low-flying aeroplanes.",
+  "explain": {
+   "short": "The picture is a windsock, not a plane: the low-flying aircraft sign shows an aeroplane.",
+   "rule": "'Forte vento laterale' (strong side wind) is a danger sign: sudden gusts from the side. Hold the wheel firmly and slow down.",
+   "trap": "'aeroplani' is the trap: a windsock is seen at airfields, but here it means wind.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Windsock = side wind, not planes",
+    "it": "vento laterale",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "aeroplani",
+    "en": "aeroplanes"
+   },
+   {
+    "it": "bassa quota",
+    "en": "low altitude"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19437": {
+  "en": "The sign shown warns of a stretch of road near an airport.",
+  "explain": {
+   "short": "The sign warns of side wind, wherever it is; it is not linked to airports.",
+   "rule": "'Forte vento laterale' (strong side wind) is a danger sign: sudden gusts from the side. Hold the wheel firmly and slow down.",
+   "trap": "'aeroporto' is the trap: windsocks are at airports, but this sign means wind.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Side wind, not an airport",
+    "it": "vento laterale",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tratto di strada",
+    "en": "stretch of road"
+   },
+   {
+    "it": "aeroporto",
+    "en": "airport"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19438": {
+  "en": "The sign shown warns of an airfield.",
+  "explain": {
+   "short": "The windsock here means strong side wind, not an airfield.",
+   "rule": "'Forte vento laterale' (strong side wind) is a danger sign: sudden gusts from the side. Hold the wheel firmly and slow down.",
+   "trap": "'campo d'aviazione' (airfield) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Side wind, not an airfield",
+    "it": "vento laterale",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "campo d'aviazione",
+    "en": "airfield"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19439": {
+  "en": "The sign shown indicates which direction the wind comes from.",
+  "explain": {
+   "short": "The drawing is always the same: it does not show the real wind direction.",
+   "rule": "'Forte vento laterale' (strong side wind) is a danger sign: sudden gusts from the side. Hold the wheel firmly and slow down.",
+   "trap": "'da quale direzione' is the trap: the sign warns of wind, not its direction.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It does not show the wind direction",
+    "it": "vento laterale",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "indica",
+    "en": "shows"
+   },
+   {
+    "it": "direzione",
+    "en": "direction"
+   },
+   {
+    "it": "vento",
+    "en": "wind"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19440": {
+  "en": "The sign shown warns of a playground nearby.",
+  "explain": {
+   "short": "The striped tube is a windsock, not a toy: it warns of side wind.",
+   "rule": "'Forte vento laterale' (strong side wind) is a danger sign: sudden gusts from the side. Hold the wheel firmly and slow down.",
+   "trap": "'parco giochi' (playground) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Side wind, not a playground",
+    "it": "vento laterale",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "nelle vicinanze",
+    "en": "nearby"
+   },
+   {
+    "it": "parco giochi",
+    "en": "playground"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19441": {
+  "en": "The sign shown warns of industrial buildings nearby.",
+  "explain": {
+   "short": "The pole with a striped tube is a windsock, not a factory: it warns of side wind.",
+   "rule": "'Forte vento laterale' (strong side wind) is a danger sign: sudden gusts from the side. Hold the wheel firmly and slow down.",
+   "trap": "'capannoni industriali' (industrial sheds) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Side wind, not industrial buildings",
+    "it": "vento laterale",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "capannoni industriali",
+    "en": "industrial sheds"
+   },
+   {
+    "it": "nelle vicinanze",
+    "en": "nearby"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19442": {
+  "en": "In strong side wind, the sign shown warns of a danger that is greater for vehicles towing trailers.",
+  "explain": {
+   "short": "A trailer is pushed by the wind and can swing, so the danger is greater.",
+   "rule": "Strong side wind pushes vehicles sideways; the larger the side surface, the bigger the danger. Hold the wheel firmly and slow down.",
+   "trap": "'rimorchi' means trailers: more side surface, more danger.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Trailers: greater danger in side wind",
+    "it": "rimorchi",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "forte vento laterale",
+    "en": "strong side wind"
+   },
+   {
+    "it": "maggiore",
+    "en": "greater"
+   },
+   {
+    "it": "trainano rimorchi",
+    "en": "tow trailers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19443": {
+  "en": "In strong side wind, the sign shown warns of a danger that is greater for two-wheeled vehicles.",
+  "explain": {
+   "short": "Motorbikes and bicycles are light and narrow: a gust can easily push them over.",
+   "rule": "Strong side wind pushes vehicles sideways; the larger the side surface, the bigger the danger. Hold the wheel firmly and slow down.",
+   "trap": "'veicoli a due ruote' = motorbikes, mopeds, bicycles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Two-wheelers: greater danger",
+    "it": "due ruote",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "forte vento laterale",
+    "en": "strong side wind"
+   },
+   {
+    "it": "maggiore",
+    "en": "greater"
+   },
+   {
+    "it": "veicoli a due ruote",
+    "en": "two-wheeled vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19444": {
+  "en": "In strong side wind, the sign shown warns of a danger that is greater for vehicles towing caravans.",
+  "explain": {
+   "short": "A caravan has big flat sides that catch the wind like a sail.",
+   "rule": "Strong side wind pushes vehicles sideways; the larger the side surface, the bigger the danger. Hold the wheel firmly and slow down.",
+   "trap": "'caravan' = tall towed trailer: large side surface.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Caravans: greater danger",
+    "it": "caravan",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "forte vento laterale",
+    "en": "strong side wind"
+   },
+   {
+    "it": "maggiore",
+    "en": "greater"
+   },
+   {
+    "it": "trainano caravan",
+    "en": "tow caravans"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19445": {
+  "en": "In strong side wind, the sign shown requires you to proceed with care, holding the wheel with a firmer grip.",
+  "explain": {
+   "short": "Gusts push the car sideways, so you hold the wheel more firmly.",
+   "rule": "Strong side wind pushes vehicles sideways; the larger the side surface, the bigger the danger. Hold the wheel firmly and slow down.",
+   "trap": "'presa più sicura' means a firmer grip on the wheel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Firmer grip on the wheel",
+    "it": "volante",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "prudenza",
+    "en": "care"
+   },
+   {
+    "it": "volante",
+    "en": "steering wheel"
+   },
+   {
+    "it": "presa più sicura",
+    "en": "firmer grip"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19446": {
+  "en": "In strong side wind, the sign shown warns that tarpaulin vehicles need to slow down and, if necessary, stop.",
+  "explain": {
+   "short": "Tarpaulin trucks are very exposed to wind: they slow down and, if it is too strong, stop.",
+   "rule": "Strong side wind pushes vehicles sideways; the larger the side surface, the bigger the danger. Hold the wheel firmly and slow down.",
+   "trap": "'all'occorrenza' means if needed: stopping only when necessary.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tarpaulin trucks: slow down, stop if needed",
+    "it": "rallentare",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicoli telonati",
+    "en": "tarpaulin vehicles"
+   },
+   {
+    "it": "rallentare",
+    "en": "slow down"
+   },
+   {
+    "it": "fermarsi",
+    "en": "stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19447": {
+  "en": "In strong side wind, the sign shown warns that vehicles coming the other way may swerve.",
+  "explain": {
+   "short": "The wind also pushes oncoming vehicles, which can suddenly drift into your lane.",
+   "rule": "Strong side wind pushes vehicles sideways; the larger the side surface, the bigger the danger. Hold the wheel firmly and slow down.",
+   "trap": "'senso opposto' means the opposite direction: oncoming traffic.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Oncoming vehicles may swerve",
+    "it": "sbandamenti",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sbandamenti",
+    "en": "swerving (skids)"
+   },
+   {
+    "it": "senso opposto",
+    "en": "opposite direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19448": {
+  "en": "In strong side wind, the sign shown warns of a danger that grows as the vehicle's side surface grows.",
+  "explain": {
+   "short": "A bigger side means more wind pushing on it, so more danger.",
+   "rule": "Strong side wind pushes vehicles sideways; the larger the side surface, the bigger the danger. Hold the wheel firmly and slow down.",
+   "trap": "'all'aumentare' means 'as it grows': bigger side, bigger danger.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bigger side surface = bigger danger",
+    "it": "superficie laterale",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pericolo",
+    "en": "danger"
+   },
+   {
+    "it": "aumenta",
+    "en": "grows"
+   },
+   {
+    "it": "superficie laterale",
+    "en": "side surface"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19449": {
+  "en": "In strong side wind, the sign shown warns of a greater danger at tunnel entrances for narrow, tall vehicles.",
+  "explain": {
+   "short": "The sudden gust comes at the EXIT of a tunnel, not at the entrance.",
+   "rule": "Strong side wind pushes vehicles sideways; the larger the side surface, the bigger the danger. Hold the wheel firmly and slow down.",
+   "trap": "'all'entrata' (at the entrance) is the trap: the danger is 'all'uscita' (at the exit).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Danger is at the tunnel EXIT",
+    "it": "uscita",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "entrata",
+    "en": "entrance"
+   },
+   {
+    "it": "gallerie",
+    "en": "tunnels"
+   },
+   {
+    "it": "stretti e alti",
+    "en": "narrow and tall"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19450": {
+  "en": "The sign shown warns of an area where, in strong side wind, vehicles with a trailer hold the road better.",
+  "explain": {
+   "short": "A trailer catches wind and can swing: it holds the road WORSE.",
+   "rule": "Strong side wind pushes vehicles sideways; the larger the side surface, the bigger the danger. Hold the wheel firmly and slow down.",
+   "trap": "'maggiore tenuta di strada' (better grip on the road) is the opposite of the truth.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Trailers hold the road WORSE in wind",
+    "it": "rimorchio",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicoli con rimorchio",
+    "en": "vehicles with a trailer"
+   },
+   {
+    "it": "maggiore tenuta di strada",
+    "en": "better road holding"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19451": {
+  "en": "The sign shown warns of an area where, in strong side wind, empty or light vehicles hold the road better.",
+  "explain": {
+   "short": "Light or empty vehicles are pushed more easily by the wind: they hold the road worse.",
+   "rule": "Strong side wind pushes vehicles sideways; the larger the side surface, the bigger the danger. Hold the wheel firmly and slow down.",
+   "trap": "'scarichi o leggeri' (empty or light) is the trap: light means less grip, not more.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Light vehicles hold the road WORSE",
+    "it": "leggeri",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "scarichi o leggeri",
+    "en": "empty or light"
+   },
+   {
+    "it": "maggiore tenuta di strada",
+    "en": "better road holding"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19452": {
+  "en": "In strong side wind, the sign shown warns of a danger that is smaller for vehicles with bulky loads on the roof.",
+  "explain": {
+   "short": "A roof load makes the side surface bigger and higher: the danger is GREATER.",
+   "rule": "Strong side wind pushes vehicles sideways; the larger the side surface, the bigger the danger. Hold the wheel firmly and slow down.",
+   "trap": "'minore' (smaller) is the trap: it should be 'maggiore' (greater).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Roof load: GREATER danger, not smaller",
+    "it": "carichi voluminosi",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "minore",
+    "en": "smaller"
+   },
+   {
+    "it": "carichi voluminosi",
+    "en": "bulky loads"
+   },
+   {
+    "it": "tetto",
+    "en": "roof"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19453": {
+  "en": "In strong side wind, the sign shown lets you overtake with a smaller side distance from the vehicle you are passing.",
+  "explain": {
+   "short": "In wind vehicles may swerve, so you need MORE side distance, never less.",
+   "rule": "Strong side wind pushes vehicles sideways; the larger the side surface, the bigger the danger. Hold the wheel firmly and slow down.",
+   "trap": "'riducendo la distanza laterale' (reducing side distance) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "In wind keep MORE side distance",
+    "it": "distanza laterale",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sorpassare",
+    "en": "overtake"
+   },
+   {
+    "it": "riducendo",
+    "en": "reducing"
+   },
+   {
+    "it": "distanza laterale",
+    "en": "side distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19454": {
+  "en": "The sign shown warns of the entrance to a tunnel.",
+  "explain": {
+   "short": "The windsock warns of side wind; a tunnel has its own sign.",
+   "rule": "Strong side wind pushes vehicles sideways; the larger the side surface, the bigger the danger. Hold the wheel firmly and slow down.",
+   "trap": "'ingresso in galleria' (tunnel entrance) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Side wind, not a tunnel",
+    "it": "vento laterale",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ingresso",
+    "en": "entrance"
+   },
+   {
+    "it": "galleria",
+    "en": "tunnel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19455": {
+  "en": "The sign shown warns of possible ice on the road.",
+  "explain": {
+   "short": "Ice has its own sign (a snowflake); the windsock means side wind.",
+   "rule": "Strong side wind pushes vehicles sideways; the larger the side surface, the bigger the danger. Hold the wheel firmly and slow down.",
+   "trap": "'ghiaccio' (ice) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Side wind, not ice",
+    "it": "vento laterale",
+    "action": "slow",
+    "hazard": "💨",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ghiaccio",
+    "en": "ice"
+   },
+   {
+    "it": "strada",
+    "en": "road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19456": {
+  "en": "The sign shown warns that you are crossing an area at risk of fire.",
+  "explain": {
+   "short": "The tree with flames below means a zone where fires start easily.",
+   "rule": "'Pericolo d'incendio' (fire risk) is a danger sign: areas beside the road can easily catch fire. Never throw lit cigarettes.",
+   "trap": "'incendio' means fire (a large fire, like a forest fire).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fire-risk area ahead",
+    "it": "incendio",
+    "action": "slow",
+    "hazard": "🔥",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "attraversamento",
+    "en": "crossing"
+   },
+   {
+    "it": "zona",
+    "en": "area"
+   },
+   {
+    "it": "pericolo d'incendio",
+    "en": "fire risk"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19457": {
+  "en": "The sign shown warns that areas at high risk of fire are near.",
+  "explain": {
+   "short": "This is the meaning of the sign: high fire risk close to the road.",
+   "rule": "'Pericolo d'incendio' (fire risk) is a danger sign: areas beside the road can easily catch fire. Never throw lit cigarettes.",
+   "trap": "'alto rischio' means high risk.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "High fire risk nearby",
+    "it": "rischio d'incendio",
+    "action": "slow",
+    "hazard": "🔥",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vicinanza",
+    "en": "closeness"
+   },
+   {
+    "it": "alto rischio d'incendio",
+    "en": "high fire risk"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19458": {
+  "en": "The sign shown indicates that you are approaching an easily flammable wood.",
+  "explain": {
+   "short": "Dry woods burn easily; the tree in the picture shows this.",
+   "rule": "'Pericolo d'incendio' (fire risk) is a danger sign: areas beside the road can easily catch fire. Never throw lit cigarettes.",
+   "trap": "'infiammabile' means it can catch fire easily.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Flammable wood ahead",
+    "it": "bosco",
+    "action": "slow",
+    "hazard": "🔥",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "bosco",
+    "en": "wood (forest)"
+   },
+   {
+    "it": "facilmente infiammabile",
+    "en": "easily flammable"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19459": {
+  "en": "The sign shown warns of areas beside the road at high risk of fire.",
+  "explain": {
+   "short": "The danger is next to the road: woods or dry grass that can burn.",
+   "rule": "'Pericolo d'incendio' (fire risk) is a danger sign: areas beside the road can easily catch fire. Never throw lit cigarettes.",
+   "trap": "'laterali' means at the sides of the road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fire risk at the sides of the road",
+    "it": "rischio d'incendio",
+    "action": "slow",
+    "hazard": "🔥",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "zone laterali",
+    "en": "areas at the sides"
+   },
+   {
+    "it": "alto rischio d'incendio",
+    "en": "high fire risk"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19460": {
+  "en": "The sign shown is completed by a panel showing the length of the stretch of road concerned.",
+  "explain": {
+   "short": "Fire-risk areas can be long, so a panel tells you for how many metres or km.",
+   "rule": "'Pericolo d'incendio' (fire risk) is a danger sign: areas beside the road can easily catch fire. Never throw lit cigarettes.",
+   "trap": "'pannello' means an extra small plate under the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Panel gives length of the stretch",
+    "it": "pannello",
+    "action": "slow",
+    "hazard": "🔥",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "integrato",
+    "en": "completed"
+   },
+   {
+    "it": "pannello",
+    "en": "extra panel"
+   },
+   {
+    "it": "lunghezza",
+    "en": "length"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19461": {
+  "en": "With this sign, if the driver or passengers break the ban on throwing lit cigarettes out of the window, a fire may start.",
+  "explain": {
+   "short": "A lit cigarette in dry grass can easily start a fire; throwing it out is forbidden.",
+   "rule": "'Pericolo d'incendio' (fire risk) is a danger sign: areas beside the road can easily catch fire. Never throw lit cigarettes.",
+   "trap": "'gettare sigarette accese' means throwing lit cigarettes.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Never throw lit cigarettes",
+    "it": "sigarette accese",
+    "action": "slow",
+    "hazard": "🔥",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto",
+    "en": "ban"
+   },
+   {
+    "it": "gettare sigarette accese",
+    "en": "throwing lit cigarettes"
+   },
+   {
+    "it": "incendio",
+    "en": "fire"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19462": {
+  "en": "The sign shown warns of crossing an area at risk of explosions.",
+  "explain": {
+   "short": "The picture shows a burning tree: the risk is fire, not explosions.",
+   "rule": "'Pericolo d'incendio' (fire risk) is a danger sign: areas beside the road can easily catch fire. Never throw lit cigarettes.",
+   "trap": "'esplosioni' (explosions) is the trap; the word is 'incendio' (fire).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fire, not explosions",
+    "it": "incendio",
+    "action": "slow",
+    "hazard": "🔥",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "zona",
+    "en": "area"
+   },
+   {
+    "it": "pericolo di esplosioni",
+    "en": "risk of explosions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19463": {
+  "en": "The sign shown warns of a stretch of road lined with stone quarries, with risk of explosions.",
+  "explain": {
+   "short": "There are no quarries in the picture: it is a tree with flames, a fire risk.",
+   "rule": "'Pericolo d'incendio' (fire risk) is a danger sign: areas beside the road can easily catch fire. Never throw lit cigarettes.",
+   "trap": "'cave di pietra' (stone quarries) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fire risk, not quarries",
+    "it": "incendio",
+    "action": "slow",
+    "hazard": "🔥",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cave di pietra",
+    "en": "stone quarries"
+   },
+   {
+    "it": "esplosioni",
+    "en": "explosions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19464": {
+  "en": "The sign shown forbids transit to vehicles carrying explosives.",
+  "explain": {
+   "short": "A triangle only warns; a ban is a round sign.",
+   "rule": "'Pericolo d'incendio' (fire risk) is a danger sign: areas beside the road can easily catch fire. Never throw lit cigarettes.",
+   "trap": "'vieta' (forbids) is the trap: danger signs never forbid.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It warns, it does not forbid",
+    "it": "incendio",
+    "action": "slow",
+    "hazard": "🔥",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "forbids"
+   },
+   {
+    "it": "transito",
+    "en": "transit"
+   },
+   {
+    "it": "esplosivi",
+    "en": "explosives"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19465": {
+  "en": "The sign shown forbids transit to vehicles carrying easily flammable products.",
+  "explain": {
+   "short": "It warns of fire risk in the area; it bans nobody. Bans are round signs.",
+   "rule": "'Pericolo d'incendio' (fire risk) is a danger sign: areas beside the road can easily catch fire. Never throw lit cigarettes.",
+   "trap": "'vieta' (forbids) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It warns, it does not forbid",
+    "it": "incendio",
+    "action": "slow",
+    "hazard": "🔥",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "forbids"
+   },
+   {
+    "it": "prodotti facilmente infiammabili",
+    "en": "easily flammable products"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19466": {
+  "en": "The sign shown forbids transit to vehicles carrying flammable liquids.",
+  "explain": {
+   "short": "A triangle never forbids: it only warns of fire risk.",
+   "rule": "'Pericolo d'incendio' (fire risk) is a danger sign: areas beside the road can easily catch fire. Never throw lit cigarettes.",
+   "trap": "'vieta' (forbids) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It warns, it does not forbid",
+    "it": "incendio",
+    "action": "slow",
+    "hazard": "🔥",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "forbids"
+   },
+   {
+    "it": "liquidi infiammabili",
+    "en": "flammable liquids"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19467": {
+  "en": "The sign shown warns of possible strong side wind.",
+  "explain": {
+   "short": "Side wind has a windsock sign; this one shows a tree on fire.",
+   "rule": "'Pericolo d'incendio' (fire risk) is a danger sign: areas beside the road can easily catch fire. Never throw lit cigarettes.",
+   "trap": "'vento laterale' (side wind) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fire risk, not side wind",
+    "it": "incendio",
+    "action": "slow",
+    "hazard": "🔥",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "possibilità",
+    "en": "possibility"
+   },
+   {
+    "it": "forte vento laterale",
+    "en": "strong side wind"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19468": {
+  "en": "The sign shown warns of a junction of two or more roads outside towns, regulated as a roundabout.",
+  "explain": {
+   "short": "The circle of arrows means a roundabout: roads meet and traffic goes round.",
+   "rule": "'Circolazione rotatoria' (roundabout) is a danger sign: a junction ahead where traffic goes round in the direction of the arrows.",
+   "trap": "'circolazione rotatoria' means roundabout traffic.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Roundabout ahead",
+    "it": "rotatoria",
+    "action": "slow",
+    "hazard": "🔄",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "incrocio",
+    "en": "junction"
+   },
+   {
+    "it": "strade extraurbane",
+    "en": "roads outside towns"
+   },
+   {
+    "it": "circolazione rotatoria",
+    "en": "roundabout"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19469": {
+  "en": "The sign shown warns of a junction of several roads where traffic flows in the direction shown by the arrows.",
+  "explain": {
+   "short": "At a roundabout you must go round in the direction of the arrows.",
+   "rule": "'Circolazione rotatoria' (roundabout) is a danger sign: a junction ahead where traffic goes round in the direction of the arrows.",
+   "trap": "'nel senso indicato dalle frecce' means following the arrows' direction.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Go round as the arrows show",
+    "it": "frecce",
+    "action": "slow",
+    "hazard": "🔄",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "incrocio",
+    "en": "junction"
+   },
+   {
+    "it": "circolazione",
+    "en": "traffic flow"
+   },
+   {
+    "it": "senso indicato dalle frecce",
+    "en": "direction shown by the arrows"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19470": {
+  "en": "The sign shown can also be used in built-up areas.",
+  "explain": {
+   "short": "Roundabouts exist in towns too, so the sign can be used there as well.",
+   "rule": "'Circolazione rotatoria' (roundabout) is a danger sign: a junction ahead where traffic goes round in the direction of the arrows.",
+   "trap": "'anche' (also) is correct: in towns and outside towns.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Also used in towns",
+    "it": "centri abitati",
+    "action": "slow",
+    "hazard": "🔄",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "anche",
+    "en": "also"
+   },
+   {
+    "it": "centri abitati",
+    "en": "built-up areas (towns)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19471": {
+  "en": "The sign shown forbids turning right at the first junction.",
+  "explain": {
+   "short": "A triangle only warns of a roundabout; it does not forbid any turn.",
+   "rule": "'Circolazione rotatoria' (roundabout) is a danger sign: a junction ahead where traffic goes round in the direction of the arrows.",
+   "trap": "'vieta' (forbids) is the trap: danger signs never forbid.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Warns of roundabout, no turn ban",
+    "it": "rotatoria",
+    "action": "slow",
+    "hazard": "🔄",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "forbids"
+   },
+   {
+    "it": "svolta a destra",
+    "en": "right turn"
+   },
+   {
+    "it": "primo incrocio",
+    "en": "first junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19472": {
+  "en": "The sign shown warns of a dead-end road, so you must turn back.",
+  "explain": {
+   "short": "Round arrows mean going round a roundabout, not turning back.",
+   "rule": "'Circolazione rotatoria' (roundabout) is a danger sign: a junction ahead where traffic goes round in the direction of the arrows.",
+   "trap": "'senza uscita' (dead end) is the trap: it is a different, square sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Roundabout, not a dead end",
+    "it": "rotatoria",
+    "action": "slow",
+    "hazard": "🔄",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada senza uscita",
+    "en": "dead-end road"
+   },
+   {
+    "it": "tornare indietro",
+    "en": "turn back"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19473": {
+  "en": "The sign shown warns of a compulsory left turn.",
+  "explain": {
+   "short": "It is a danger triangle for a roundabout; compulsory directions are round blue signs.",
+   "rule": "'Circolazione rotatoria' (roundabout) is a danger sign: a junction ahead where traffic goes round in the direction of the arrows.",
+   "trap": "'obbligatoria' (compulsory) is the trap: a triangle never gives orders.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Roundabout, not a compulsory turn",
+    "it": "rotatoria",
+    "action": "slow",
+    "hazard": "🔄",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "svolta a sinistra",
+    "en": "left turn"
+   },
+   {
+    "it": "obbligatoria",
+    "en": "compulsory"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19474": {
+  "en": "The sign shown warns of a danger different from those that have their own specific sign.",
+  "explain": {
+   "short": "The exclamation mark is used for dangers that have no sign of their own.",
+   "rule": "'Altri pericoli' (other danger) is the exclamation mark danger sign: a danger with no specific sign of its own. A panel under it can say which danger.",
+   "trap": "'diverso' (different) is correct: it covers all the 'other' dangers.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A danger with no specific sign",
+    "it": "altri pericoli",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pericolo diverso",
+    "en": "different danger"
+   },
+   {
+    "it": "specifici segnali",
+    "en": "specific signs"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19475": {
+  "en": "The sign shown warns that you must use caution because a danger is near.",
+  "explain": {
+   "short": "Every danger sign asks for caution; the '!' says a danger is close.",
+   "rule": "'Altri pericoli' (other danger) is the exclamation mark danger sign: a danger with no specific sign of its own. A panel under it can say which danger.",
+   "trap": "'prudenza' means caution, careful driving.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Danger near: drive with caution",
+    "it": "prudenza",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "prudenza",
+    "en": "caution"
+   },
+   {
+    "it": "pericolo",
+    "en": "danger"
+   },
+   {
+    "it": "vicino",
+    "en": "near"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19476": {
+  "en": "Sign (A), completed with panel (B), warns of possible ice forming.",
+  "explain": {
+   "short": "The panel with snowflakes tells you which danger: ice on the road.",
+   "rule": "'Altri pericoli' (other danger) is the exclamation mark danger sign: a danger with no specific sign of its own. A panel under it can say which danger.",
+   "trap": "'ghiaccio' means ice; the snowflakes on the panel show it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Panel with snowflakes: ice",
+    "it": "ghiaccio",
+    "action": "slow",
+    "hazard": "❄️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "integrato",
+    "en": "completed"
+   },
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "formazione del ghiaccio",
+    "en": "ice forming"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19477": {
+  "en": "The sign shown can be used without extra panels to show a general danger in an emergency.",
+  "explain": {
+   "short": "In an emergency there may be no time for a panel: the '!' alone warns of a general danger.",
+   "rule": "'Altri pericoli' (other danger) is the exclamation mark danger sign: a danger with no specific sign of its own. A panel under it can say which danger.",
+   "trap": "'senza pannelli' (without panels) is correct only 'in caso di emergenza'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Alone, in an emergency: general danger",
+    "it": "emergenza",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "senza pannelli integrativi",
+    "en": "without extra panels"
+   },
+   {
+    "it": "pericolo generico",
+    "en": "general danger"
+   },
+   {
+    "it": "emergenza",
+    "en": "emergency"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19478": {
+  "en": "Sign (A), completed with panel (B), warns of shunting railway tracks at industrial plants.",
+  "explain": {
+   "short": "The panel with locomotives shows trains moving near factories (shunting tracks).",
+   "rule": "'Altri pericoli' (other danger) is the exclamation mark danger sign: a danger with no specific sign of its own. A panel under it can say which danger.",
+   "trap": "'binari di manovra' means tracks where trains move slowly to be arranged.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Locomotives panel: factory shunting tracks",
+    "it": "binari di manovra",
+    "action": "slow",
+    "hazard": "🚂",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "binari di manovra",
+    "en": "shunting tracks"
+   },
+   {
+    "it": "stabilimenti industriali",
+    "en": "industrial plants"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19479": {
+  "en": "Sign (A), completed with panel (B), warns of snow ploughs possibly working on the road.",
+  "explain": {
+   "short": "The panel shows a snowflake and a snowplough: snow-clearing vehicles at work.",
+   "rule": "'Altri pericoli' (other danger) is the exclamation mark danger sign: a danger with no specific sign of its own. A panel under it can say which danger.",
+   "trap": "'sgombraneve' means snowplough (a vehicle that clears snow).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Snowplough panel: snow ploughs at work",
+    "it": "sgombraneve",
+    "action": "slow",
+    "hazard": "❄️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "macchine sgombraneve",
+    "en": "snowploughs"
+   },
+   {
+    "it": "al lavoro",
+    "en": "at work"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19480": {
+  "en": "The sign shown warns of a stretch of road in bad condition or with an uneven surface.",
+  "explain": {
+   "short": "Uneven road has its own sign (a wavy line); the '!' is for other dangers.",
+   "rule": "'Altri pericoli' (other danger) is the exclamation mark danger sign: a danger with no specific sign of its own. A panel under it can say which danger.",
+   "trap": "'cattivo stato' (bad condition) is the trap: that is 'strada deformata'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "'!' is not uneven road",
+    "it": "altri pericoli",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cattivo stato",
+    "en": "bad condition"
+   },
+   {
+    "it": "pavimentazione irregolare",
+    "en": "uneven surface"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19481": {
+  "en": "The sign shown warns that you must go straight on.",
+  "explain": {
+   "short": "'Go straight' is a round blue sign with an arrow; the '!' only warns of danger.",
+   "rule": "'Altri pericoli' (other danger) is the exclamation mark danger sign: a danger with no specific sign of its own. A panel under it can say which danger.",
+   "trap": "'proseguire diritto' (go straight on) is the trap: an exclamation mark is not an arrow.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "'!' is a danger, not 'go straight'",
+    "it": "altri pericoli",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "proseguire diritto",
+    "en": "go straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19482": {
+  "en": "The sign shown warns of a steep uphill slope.",
+  "explain": {
+   "short": "A steep hill has its own sign with a slope and a percentage.",
+   "rule": "'Altri pericoli' (other danger) is the exclamation mark danger sign: a danger with no specific sign of its own. A panel under it can say which danger.",
+   "trap": "'salita ripida' (steep climb) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "'!' is not a steep hill",
+    "it": "altri pericoli",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "salita ripida",
+    "en": "steep uphill slope"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19483": {
+  "en": "Sign (A), completed with panel (B), warns of a level crossing without barriers.",
+  "explain": {
+   "short": "The panel shows shunting tracks at factories; an unbarriered level crossing has its own locomotive triangle.",
+   "rule": "'Altri pericoli' (other danger) is the exclamation mark danger sign: a danger with no specific sign of its own. A panel under it can say which danger.",
+   "trap": "'passaggio a livello senza barriere' is the trap: it has its own specific sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Shunting tracks, not a level crossing",
+    "it": "binari di manovra",
+    "action": "slow",
+    "hazard": "🚂",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "passaggio a livello",
+    "en": "level crossing"
+   },
+   {
+    "it": "senza barriere",
+    "en": "without barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19484": {
+  "en": "Sign (A), completed with panel (B), warns of military vehicles manoeuvring.",
+  "explain": {
+   "short": "The panel shows a digger-type work machine: work machines on the road, not military vehicles.",
+   "rule": "'Altri pericoli' (other danger) is the exclamation mark danger sign: a danger with no specific sign of its own. A panel under it can say which danger.",
+   "trap": "'veicoli militari' (military vehicles) is the trap: the drawing is a work machine.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Work machines, not military vehicles",
+    "it": "altri pericoli",
+    "action": "slow",
+    "hazard": "🚜",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicoli militari",
+    "en": "military vehicles"
+   },
+   {
+    "it": "in manovra",
+    "en": "manoeuvring"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

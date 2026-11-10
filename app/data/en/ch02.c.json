@@ -1,0 +1,2061 @@
+{
+ "q19015": {
+  "en": "With the sign shown, you must drive as close as possible to the right edge of the carriageway, on a road with only two lanes and two-way traffic.",
+  "explain": {
+   "short": "In bends you cannot see far ahead, so you keep well to the right to leave room for oncoming cars.",
+   "rule": "Two bends ahead, the first to the left: slow down, keep right, and do not overtake, turn round, reverse or stop in the bends.",
+   "trap": "'il più vicino possibile' (as close as possible) is correct here: in bends you hug the right edge.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Two bends: keep close to the right edge",
+    "it": "doppia curva",
+    "action": "keepRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "margine destro",
+    "en": "right edge"
+   },
+   {
+    "it": "doppio senso di circolazione",
+    "en": "two-way traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19016": {
+  "en": "With the sign shown, you must adjust your speed to the visibility and to the radius of the bends.",
+  "explain": {
+   "short": "Tight bends and short visibility need a lower speed, so you can stop in time.",
+   "rule": "Two bends ahead, the first to the left: slow down, keep right, and do not overtake, turn round, reverse or stop in the bends.",
+   "trap": "'raggio delle curve' (radius of the bends): a tighter bend means a slower speed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down for visibility and tight bends",
+    "it": "doppia curva",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust your speed"
+   },
+   {
+    "it": "raggio delle curve",
+    "en": "radius of the bends"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19017": {
+  "en": "With the sign shown, you must take the bends with more care when it rains.",
+  "explain": {
+   "short": "Rain makes the road slippery, and in a bend the tyres can lose grip more easily.",
+   "rule": "Two bends ahead, the first to the left: slow down, keep right, and do not overtake, turn round, reverse or stop in the bends.",
+   "trap": "'in caso di pioggia' (when it rains): rain is a reason for extra care, so this is right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Rain + bends: extra care",
+    "it": "doppia curva",
+    "action": "slow",
+    "hazard": "🌧️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "percorrere le curve",
+    "en": "to take the bends"
+   },
+   {
+    "it": "in caso di pioggia",
+    "en": "when it rains"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19018": {
+  "en": "With the sign shown, you must adjust your speed to how loaded the vehicle is.",
+  "explain": {
+   "short": "A heavy load makes the vehicle less stable and slower to brake in the bends.",
+   "rule": "Two bends ahead, the first to the left: slow down, keep right, and do not overtake, turn round, reverse or stop in the bends.",
+   "trap": "'condizioni di carico' (load): the load changes how the vehicle behaves in a bend.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Heavy load: take the bends slower",
+    "it": "doppia curva",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "condizioni di carico",
+    "en": "load conditions"
+   },
+   {
+    "it": "regolare la velocità",
+    "en": "adjust your speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19019": {
+  "en": "With the sign shown, you may not overtake on roads with only two lanes and two-way traffic.",
+  "explain": {
+   "short": "In bends you cannot see oncoming traffic, so overtaking on a two-lane two-way road is forbidden.",
+   "rule": "Two bends ahead, the first to the left: slow down, keep right, and do not overtake, turn round, reverse or stop in the bends.",
+   "trap": "'non è consentito' (is not allowed): here the ban is correct.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No overtaking in the bends",
+    "it": "doppia curva",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è consentito",
+    "en": "it is not allowed"
+   },
+   {
+    "it": "manovre di sorpasso",
+    "en": "overtaking manoeuvres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19020": {
+  "en": "With the sign shown, it is advisable to pay special attention to vehicles coming from the opposite direction.",
+  "explain": {
+   "short": "An oncoming car may appear suddenly in a bend, or even cut the bend.",
+   "rule": "Two bends ahead, the first to the left: slow down, keep right, and do not overtake, turn round, reverse or stop in the bends.",
+   "trap": "'senso opposto' (opposite direction): the danger also comes from the front.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Watch for cars coming the other way",
+    "it": "doppia curva",
+    "action": "slow",
+    "hazard": "↔️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "particolare attenzione",
+    "en": "special attention"
+   },
+   {
+    "it": "senso opposto",
+    "en": "opposite direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19021": {
+  "en": "With the sign shown, a U-turn is allowed.",
+  "explain": {
+   "short": "Turning round in a bend is forbidden: other drivers cannot see you in time.",
+   "rule": "Two bends ahead, the first to the left: slow down, keep right, and do not overtake, turn round, reverse or stop in the bends.",
+   "trap": "'consentita' (allowed) is the trap: a U-turn near bends is forbidden.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no U-turn in bends",
+    "it": "doppia curva",
+    "action": "noUTurn"
+   }
+  },
+  "keywords": [
+   {
+    "it": "inversione di marcia",
+    "en": "U-turn"
+   },
+   {
+    "it": "consentita",
+    "en": "allowed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19022": {
+  "en": "With the sign shown, placed on two-lane two-way roads, you may overtake a very slow vehicle.",
+  "explain": {
+   "short": "The ban on overtaking in bends applies to every vehicle, even a very slow one.",
+   "rule": "Two bends ahead, the first to the left: slow down, keep right, and do not overtake, turn round, reverse or stop in the bends.",
+   "trap": "'molto lento' (very slow): the speed of the other vehicle does not change the ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no overtaking, even slow vehicles",
+    "it": "doppia curva",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "molto lento",
+    "en": "very slow"
+   },
+   {
+    "it": "sorpassare",
+    "en": "to overtake"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19023": {
+  "en": "With the sign shown, reversing is allowed.",
+  "explain": {
+   "short": "Reversing in a bend is forbidden: drivers behind cannot see you.",
+   "rule": "Two bends ahead, the first to the left: slow down, keep right, and do not overtake, turn round, reverse or stop in the bends.",
+   "trap": "'consentita' (allowed) is the trap: reversing in bends is forbidden.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no reversing in bends",
+    "it": "doppia curva",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "retromarcia",
+    "en": "reversing"
+   },
+   {
+    "it": "consentita",
+    "en": "allowed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19024": {
+  "en": "With the sign shown, you need to keep a moderate speed only in the first bend.",
+  "explain": {
+   "short": "There are two bends, so you keep a moderate speed in both of them.",
+   "rule": "Two bends ahead, the first to the left: slow down, keep right, and do not overtake, turn round, reverse or stop in the bends.",
+   "trap": "'esclusivamente' (only) is the trap: the second bend is dangerous too.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: slow down in BOTH bends",
+    "it": "doppia curva",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "esclusivamente",
+    "en": "only"
+   },
+   {
+    "it": "prima curva",
+    "en": "first bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19025": {
+  "en": "With the sign shown, stopping briefly in the bends is allowed.",
+  "explain": {
+   "short": "Stopping in a bend is forbidden: a car stopped there is a hidden obstacle.",
+   "rule": "Two bends ahead, the first to the left: slow down, keep right, and do not overtake, turn round, reverse or stop in the bends.",
+   "trap": "'fermata' (a brief stop) is forbidden in bends too, not only parking.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no stopping in bends",
+    "it": "doppia curva",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "brief stop"
+   },
+   {
+    "it": "in corrispondenza delle curve",
+    "en": "in the bends"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19026": {
+  "en": "With the sign shown, you may overtake motorcycles and mopeds on two-lane two-way roads.",
+  "explain": {
+   "short": "The ban on overtaking in bends applies to all vehicles, motorbikes and mopeds included.",
+   "rule": "Two bends ahead, the first to the left: slow down, keep right, and do not overtake, turn round, reverse or stop in the bends.",
+   "trap": "'motocicli e ciclomotori' (motorcycles and mopeds): small vehicles are not an exception.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no overtaking motorbikes either",
+    "it": "doppia curva",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19027": {
+  "en": "The sign shown warns of a level crossing with barriers or half-barriers.",
+  "explain": {
+   "short": "The fence symbol means a railway crossing closed by barriers or half-barriers.",
+   "rule": "The fence sign warns of a level crossing (passaggio a livello) with barriers or half-barriers, as a rule 150 m before it.",
+   "trap": "'barriere o semibarriere' (barriers or half-barriers): this sign covers both.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fence = level crossing with barriers",
+    "it": "passaggio a livello",
+    "action": "slow",
+    "hazard": "🚂",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "passaggio a livello",
+    "en": "level crossing"
+   },
+   {
+    "it": "semibarriere",
+    "en": "half-barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19028": {
+  "en": "After the sign shown, if there are half-barriers, a device with flashing red lights is installed.",
+  "explain": {
+   "short": "Half-barriers always come with flashing red lights that warn when a train is coming.",
+   "rule": "The fence sign warns of a level crossing (passaggio a livello) with barriers or half-barriers, as a rule 150 m before it.",
+   "trap": "'semibarriere' goes with 'luci rosse lampeggianti' (flashing red lights).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Half-barriers: flashing red lights",
+    "it": "semibarriere",
+    "action": "stop"
+   }
+  },
+  "keywords": [
+   {
+    "it": "semibarriere",
+    "en": "half-barriers"
+   },
+   {
+    "it": "luci rosse lampeggianti",
+    "en": "flashing red lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19029": {
+  "en": "The sign shown warns of a railway crossing protected by barriers or half-barriers, whatever the number of tracks.",
+  "explain": {
+   "short": "The same sign is used whether there is one track or many.",
+   "rule": "The fence sign warns of a level crossing (passaggio a livello) with barriers or half-barriers, as a rule 150 m before it.",
+   "trap": "'qualunque sia il numero dei binari' (whatever the number of tracks): the number of tracks does not matter.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Barriers sign: any number of tracks",
+    "it": "passaggio a livello",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "attraversamento ferroviario",
+    "en": "railway crossing"
+   },
+   {
+    "it": "qualunque sia il numero dei binari",
+    "en": "whatever the number of tracks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19030": {
+  "en": "The sign shown warns of a railway crossing fitted with barriers or half-barriers.",
+  "explain": {
+   "short": "The fence symbol stands for a railway crossing that can be closed by barriers.",
+   "rule": "The fence sign warns of a level crossing (passaggio a livello) with barriers or half-barriers, as a rule 150 m before it.",
+   "trap": "'munito di' (fitted with) means it has barriers: correct for this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fence = railway crossing with barriers",
+    "it": "passaggio a livello",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "attraversamento ferroviario",
+    "en": "railway crossing"
+   },
+   {
+    "it": "munito di barriere",
+    "en": "fitted with barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19031": {
+  "en": "After the sign shown, there may be a sound device that warns that the barriers or half-barriers are closing.",
+  "explain": {
+   "short": "Many level crossings have a bell or buzzer that sounds while the barriers come down.",
+   "rule": "The fence sign warns of a level crossing (passaggio a livello) with barriers or half-barriers, as a rule 150 m before it.",
+   "trap": "'si può trovare' (there may be): it is possible, not always there.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A sound signal may warn of closing",
+    "it": "passaggio a livello",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "dispositivo acustico",
+    "en": "sound device"
+   },
+   {
+    "it": "chiusura delle barriere",
+    "en": "closing of the barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19032": {
+  "en": "The sign shown is, as a rule, placed 150 metres before the level crossing.",
+  "explain": {
+   "short": "Like most danger signs outside towns, it stands about 150 m before the crossing.",
+   "rule": "The fence sign warns of a level crossing (passaggio a livello) with barriers or half-barriers, as a rule 150 m before it.",
+   "trap": "'di norma' (as a rule) and '150 metri': this is the normal distance.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "As a rule 150 m before the crossing",
+    "it": "passaggio a livello",
+    "action": "slow",
+    "hazard": "🚂",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "150 metri prima",
+    "en": "150 metres before"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19033": {
+  "en": "With the sign shown, you must reduce your speed.",
+  "explain": {
+   "short": "A level crossing is a danger: you slow down so you can stop if it is closing.",
+   "rule": "The fence sign warns of a level crossing (passaggio a livello) with barriers or half-barriers, as a rule 150 m before it.",
+   "trap": "'moderare' (reduce): every danger sign asks you to slow down.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down before the crossing",
+    "it": "passaggio a livello",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "moderare la velocità",
+    "en": "reduce your speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19034": {
+  "en": "After the sign shown, if there are barriers, a device with a steady red light is installed.",
+  "explain": {
+   "short": "Full barriers come with a steady red light that tells you to stop.",
+   "rule": "The fence sign warns of a level crossing (passaggio a livello) with barriers or half-barriers, as a rule 150 m before it.",
+   "trap": "'luce rossa fissa' (steady red light) goes with full barriers; flashing lights go with half-barriers.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Full barriers: steady red light",
+    "it": "passaggio a livello",
+    "action": "stop"
+   }
+  },
+  "keywords": [
+   {
+    "it": "barriere",
+    "en": "barriers"
+   },
+   {
+    "it": "luce rossa fissa",
+    "en": "steady red light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19035": {
+  "en": "The picture shows a danger sign.",
+  "explain": {
+   "short": "It is a red-edged triangle with the point up: that shape always means danger.",
+   "rule": "The fence sign warns of a level crossing (passaggio a livello) with barriers or half-barriers, as a rule 150 m before it.",
+   "trap": "'pericolo' (danger): the triangle shape tells you the type of sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Triangle = danger sign",
+    "it": "segnale di pericolo",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19036": {
+  "en": "The sign shown warns of a crossing with a tram line.",
+  "explain": {
+   "short": "The fence means a railway crossing with barriers; trams have a different sign.",
+   "rule": "The fence sign warns of a level crossing (passaggio a livello) with barriers or half-barriers, as a rule 150 m before it.",
+   "trap": "'tranviaria' (tram) is the trap: the fence is for trains, not trams.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: barriers for trains, not trams",
+    "it": "passaggio a livello",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "linea tranviaria",
+    "en": "tram line"
+   },
+   {
+    "it": "incrocio",
+    "en": "crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19037": {
+  "en": "The sign shown warns of a dead-end road.",
+  "explain": {
+   "short": "The fence means a level crossing with barriers, not a road with no way out.",
+   "rule": "The fence sign warns of a level crossing (passaggio a livello) with barriers or half-barriers, as a rule 150 m before it.",
+   "trap": "'senza uscita' (dead end) is the trap: a dead end has a square blue sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: level crossing, not a dead end",
+    "it": "passaggio a livello",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada senza uscita",
+    "en": "dead-end road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19038": {
+  "en": "The sign shown makes you stop if the red lights near the barriers or half-barriers are off.",
+  "explain": {
+   "short": "You must stop when the red lights are ON (flashing); when they are off you may pass with care.",
+   "rule": "The fence sign warns of a level crossing (passaggio a livello) with barriers or half-barriers, as a rule 150 m before it.",
+   "trap": "'spente' (off) is the trap: the stop order is for lights that are switched on.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: stop when the red lights are ON",
+    "it": "passaggio a livello",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "arrestarsi",
+    "en": "to stop"
+   },
+   {
+    "it": "spente",
+    "en": "switched off"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19039": {
+  "en": "The sign shown shows a compulsory detour.",
+  "explain": {
+   "short": "The fence means a level crossing ahead; it gives no order to change direction.",
+   "rule": "The fence sign warns of a level crossing (passaggio a livello) with barriers or half-barriers, as a rule 150 m before it.",
+   "trap": "'deviazione obbligatoria' (compulsory detour) is the trap: this is a danger sign, not an order.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: a warning, not a detour",
+    "it": "passaggio a livello",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "deviazione obbligatoria",
+    "en": "compulsory detour"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19040": {
+  "en": "The sign shown lets you drive between one bar and the other when the half-barriers are closed, after checking that no trains are coming.",
+  "explain": {
+   "short": "Closed half-barriers mean stop: zigzagging between them is never allowed.",
+   "rule": "The fence sign warns of a level crossing (passaggio a livello) with barriers or half-barriers, as a rule 150 m before it.",
+   "trap": "'dopo aver verificato' (after checking) is the trap: checking does not make it legal.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: never pass closed half-barriers",
+    "it": "passaggio a livello",
+    "action": "stop"
+   }
+  },
+  "keywords": [
+   {
+    "it": "transitare tra una barra e l'altra",
+    "en": "drive between one bar and the other"
+   },
+   {
+    "it": "semibarriere sono chiuse",
+    "en": "the half-barriers are closed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19041": {
+  "en": "The sign shown shows a guarded parking area.",
+  "explain": {
+   "short": "The fence means a level crossing with barriers, not a car park.",
+   "rule": "The fence sign warns of a level crossing (passaggio a livello) with barriers or half-barriers, as a rule 150 m before it.",
+   "trap": "'area di sosta custodita' (guarded parking) is the trap: parking signs are blue squares.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: level crossing, not a car park",
+    "it": "passaggio a livello",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area di sosta custodita",
+    "en": "guarded parking area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19042": {
+  "en": "The sign shown comes before the vertical sign DOUBLE ST ANDREW'S CROSS.",
+  "explain": {
+   "short": "St Andrew's crosses are used at crossings WITHOUT barriers; here there are barriers.",
+   "rule": "The fence sign warns of a level crossing (passaggio a livello) with barriers or half-barriers, as a rule 150 m before it.",
+   "trap": "'DOPPIA CROCE DI S. ANDREA' is the trap: it belongs to crossings without barriers.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no St Andrew's cross with barriers",
+    "it": "passaggio a livello",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "DOPPIA CROCE DI S. ANDREA",
+    "en": "double St Andrew's cross"
+   },
+   {
+    "it": "segnale verticale",
+    "en": "upright sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19043": {
+  "en": "The sign shown warns of fence barriers around roadworks.",
+  "explain": {
+   "short": "The fence picture means a railway crossing with barriers, not a building site.",
+   "rule": "The fence sign warns of a level crossing (passaggio a livello) with barriers or half-barriers, as a rule 150 m before it.",
+   "trap": "'cantiere stradale' (roadworks) is the trap: roadworks have their own sign with a worker.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: railway barriers, not roadworks",
+    "it": "passaggio a livello",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cantiere stradale",
+    "en": "roadworks"
+   },
+   {
+    "it": "barriere di recinzione",
+    "en": "fence barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19044": {
+  "en": "The sign shown requires you to give way to prison police vehicles coming out of prisons.",
+  "explain": {
+   "short": "The fence has nothing to do with prisons: it warns of a level crossing with barriers.",
+   "rule": "The fence sign warns of a level crossing (passaggio a livello) with barriers or half-barriers, as a rule 150 m before it.",
+   "trap": "'carceri' (prisons) is a silly trap: the bars are a railway gate, not prison bars.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: railway gate, not prison bars",
+    "it": "passaggio a livello",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "polizia penitenziaria",
+    "en": "prison police"
+   },
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19045": {
+  "en": "With the sign shown, you must reduce your speed so that you are ready to stop if the barriers are closed.",
+  "explain": {
+   "short": "You slow down early so you can stop safely if the barriers are down.",
+   "rule": "At a crossing with barriers, slow down, stop when lights flash or the sound works, and never stop or park near the tracks.",
+   "trap": "'pronti ad arrestarsi' (ready to stop): this is exactly why you slow down.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down, ready to stop",
+    "it": "passaggio a livello",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "moderare la velocità",
+    "en": "reduce your speed"
+   },
+   {
+    "it": "pronti ad arrestarsi",
+    "en": "ready to stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19046": {
+  "en": "With the sign shown, you may not go onto the level crossing if heavy traffic stops you from clearing it.",
+  "explain": {
+   "short": "If traffic ahead is stuck, you could be trapped on the tracks: wait before the crossing.",
+   "rule": "At a crossing with barriers, slow down, stop when lights flash or the sound works, and never stop or park near the tracks.",
+   "trap": "'sgomberarlo' (to clear it): you enter only if you can get off the other side.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Don't enter if you can't get across",
+    "it": "passaggio a livello",
+    "action": "stop"
+   }
+  },
+  "keywords": [
+   {
+    "it": "impegnare",
+    "en": "to enter"
+   },
+   {
+    "it": "sgomberarlo",
+    "en": "to clear it"
+   },
+   {
+    "it": "traffico intenso",
+    "en": "heavy traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19047": {
+  "en": "With the sign shown, you must stop if the two flashing red lights are working.",
+  "explain": {
+   "short": "Flashing red lights mean a train is coming and the barriers are closing: stop.",
+   "rule": "At a crossing with barriers, slow down, stop when lights flash or the sound works, and never stop or park near the tracks.",
+   "trap": "'in funzione' (working): lights ON means stop.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Flashing red lights: stop",
+    "it": "passaggio a livello",
+    "action": "stop"
+   }
+  },
+  "keywords": [
+   {
+    "it": "arrestarsi",
+    "en": "to stop"
+   },
+   {
+    "it": "luci rosse lampeggianti",
+    "en": "flashing red lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19048": {
+  "en": "With the sign shown, you must stop if the sound device warning that the barriers are closing is working.",
+  "explain": {
+   "short": "The sound means the barriers are coming down: stop and wait.",
+   "rule": "At a crossing with barriers, slow down, stop when lights flash or the sound works, and never stop or park near the tracks.",
+   "trap": "'in funzione' (working): the sound signal ON means stop.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Sound signal on: stop",
+    "it": "passaggio a livello",
+    "action": "stop"
+   }
+  },
+  "keywords": [
+   {
+    "it": "dispositivo acustico",
+    "en": "sound device"
+   },
+   {
+    "it": "arrestarsi",
+    "en": "to stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19049": {
+  "en": "With the sign shown, if the vehicle breaks down on the tracks, the driver must take every useful step to avoid accidents.",
+  "explain": {
+   "short": "A car stuck on the tracks is very dangerous: get people out, warn others and try to stop the train.",
+   "rule": "At a crossing with barriers, slow down, stop when lights flash or the sound works, and never stop or park near the tracks.",
+   "trap": "'ogni iniziativa utile' (every useful step): the driver must act, not just wait.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stuck on the tracks: act to avoid a crash",
+    "it": "passaggio a livello",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "avaria",
+    "en": "breakdown"
+   },
+   {
+    "it": "ogni iniziativa utile",
+    "en": "every useful step"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19050": {
+  "en": "With the sign shown, parking is allowed on or near level crossings.",
+  "explain": {
+   "short": "Parking on or near a level crossing is always forbidden.",
+   "rule": "At a crossing with barriers, slow down, stop when lights flash or the sound works, and never stop or park near the tracks.",
+   "trap": "'consentito' (allowed) is the trap: parking there is forbidden.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no parking near level crossings",
+    "it": "passaggio a livello",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sostare",
+    "en": "to park"
+   },
+   {
+    "it": "in prossimità",
+    "en": "near"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19051": {
+  "en": "With the sign shown, you need to slow down only when visibility is poor.",
+  "explain": {
+   "short": "You always slow down at a level crossing, whatever the visibility.",
+   "rule": "At a crossing with barriers, slow down, stop when lights flash or the sound works, and never stop or park near the tracks.",
+   "trap": "'solo' (only) is the trap: slowing down is always required.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: slow down ALWAYS",
+    "it": "passaggio a livello",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "scarsa visibilità",
+    "en": "poor visibility"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19052": {
+  "en": "With the sign shown, you may cross the tracks if they are blocked by red-and-white striped trestles.",
+  "explain": {
+   "short": "Red-and-white trestles close the crossing: you must not go over the tracks.",
+   "rule": "At a crossing with barriers, slow down, stop when lights flash or the sound works, and never stop or park near the tracks.",
+   "trap": "'possibile' (possible) is the trap: trestles mean the way is closed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: trestles mean closed",
+    "it": "passaggio a livello",
+    "action": "stop"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cavalletti",
+    "en": "trestles"
+   },
+   {
+    "it": "sbarrati",
+    "en": "blocked"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19053": {
+  "en": "With the sign shown, a brief stop is allowed but not parking, on or near the tracks.",
+  "explain": {
+   "short": "Near the tracks both a brief stop and parking are forbidden.",
+   "rule": "At a crossing with barriers, slow down, stop when lights flash or the sound works, and never stop or park near the tracks.",
+   "trap": "'la fermata ma non la sosta' is the trap: the brief stop is forbidden too.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no stopping AND no parking",
+    "it": "passaggio a livello",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "brief stop"
+   },
+   {
+    "it": "sosta",
+    "en": "parking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19054": {
+  "en": "The sign shown warns of a railway crossing at road level without barriers.",
+  "explain": {
+   "short": "The steam train means a level crossing with no barriers: nothing will close the road.",
+   "rule": "The steam train warns of a level crossing without barriers, as a rule 150 m before, on the three-bar panel.",
+   "trap": "'senza barriere' (without barriers): train picture = no barriers; fence picture = barriers.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Train = crossing WITHOUT barriers",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "senza barriere",
+    "en": "without barriers"
+   },
+   {
+    "it": "attraversamento ferroviario",
+    "en": "railway crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19055": {
+  "en": "The sign shown is, as a rule, placed 150 metres from the tracks, together with its distance panel.",
+  "explain": {
+   "short": "It stands about 150 m before the tracks, above the panel with the red bars.",
+   "rule": "The steam train warns of a level crossing without barriers, as a rule 150 m before, on the three-bar panel.",
+   "trap": "'pannello distanziometrico' (distance panel): the panel shows how far the tracks are.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "150 m before, with the distance panel",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello distanziometrico",
+    "en": "distance panel"
+   },
+   {
+    "it": "150 metri",
+    "en": "150 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19056": {
+  "en": "The sign shown requires you to use the greatest care.",
+  "explain": {
+   "short": "With no barriers, only your own care protects you from a train.",
+   "rule": "The steam train warns of a level crossing without barriers, as a rule 150 m before, on the three-bar panel.",
+   "trap": "'massima prudenza' (greatest care): right, there is no barrier to stop you.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No barriers: greatest care",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "massima prudenza",
+    "en": "greatest care"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19057": {
+  "en": "The picture shows a danger sign.",
+  "explain": {
+   "short": "It is a red-edged triangle with the point up: a danger sign.",
+   "rule": "The steam train warns of a level crossing without barriers, as a rule 150 m before, on the three-bar panel.",
+   "trap": "'pericolo' (danger): the triangle shape tells you the type of sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Triangle = danger sign",
+    "it": "segnale di pericolo",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19058": {
+  "en": "After the sign shown, there is the ST ANDREW'S CROSS sign, placed before the tracks.",
+  "explain": {
+   "short": "At a crossing without barriers, a St Andrew's cross stands right before the tracks.",
+   "rule": "The steam train warns of a level crossing without barriers, as a rule 150 m before, on the three-bar panel.",
+   "trap": "'CROCE DI S. ANDREA' belongs to crossings WITHOUT barriers: correct here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Then a St Andrew's cross at the tracks",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "CROCE DI S. ANDREA",
+    "en": "St Andrew's cross"
+   },
+   {
+    "it": "prima dei binari",
+    "en": "before the tracks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19059": {
+  "en": "The sign shown is completed by the distance panel with three red bars.",
+  "explain": {
+   "short": "The three-bar panel means about 150 m to the tracks, and this sign stands on it.",
+   "rule": "The steam train warns of a level crossing without barriers, as a rule 150 m before, on the three-bar panel.",
+   "trap": "'tre barre rosse' (three red bars): the first panel, the farthest from the tracks.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "On the panel with three red bars",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello distanziometrico",
+    "en": "distance panel"
+   },
+   {
+    "it": "tre barre rosse",
+    "en": "three red bars"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19060": {
+  "en": "After the sign shown, the DOUBLE ST ANDREW'S CROSS sign is installed if the railway line has more than one track.",
+  "explain": {
+   "short": "The double cross tells you there are two or more tracks to cross.",
+   "rule": "The steam train warns of a level crossing without barriers, as a rule 150 m before, on the three-bar panel.",
+   "trap": "'più di un binario' (more than one track): double cross = more tracks.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "More tracks: double St Andrew's cross",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "DOPPIA CROCE DI S. ANDREA",
+    "en": "double St Andrew's cross"
+   },
+   {
+    "it": "più di un binario",
+    "en": "more than one track"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19061": {
+  "en": "The sign shown shows a crossing with a tram line.",
+  "explain": {
+   "short": "The steam train means a railway crossing without barriers; trams have their own sign.",
+   "rule": "The steam train warns of a level crossing without barriers, as a rule 150 m before, on the three-bar panel.",
+   "trap": "'tranviaria' (tram) is the trap: the train picture is for railways.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: a train, not a tram",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "linea tranviaria",
+    "en": "tram line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19062": {
+  "en": "The sign shown warns of a railway crossing at road level fitted with half-barriers.",
+  "explain": {
+   "short": "The steam train means NO barriers at all; half-barriers use the fence sign.",
+   "rule": "The steam train warns of a level crossing without barriers, as a rule 150 m before, on the three-bar panel.",
+   "trap": "'semibarriere' (half-barriers) is the trap: this crossing has none.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no barriers, not half-barriers",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "semibarriere",
+    "en": "half-barriers"
+   },
+   {
+    "it": "munito di",
+    "en": "fitted with"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19063": {
+  "en": "The sign shown is placed on the second distance panel with red bars.",
+  "explain": {
+   "short": "This sign stands on the FIRST panel, the one with three bars at about 150 m.",
+   "rule": "The steam train warns of a level crossing without barriers, as a rule 150 m before, on the three-bar panel.",
+   "trap": "'secondo' (second) is the trap: the second panel (two bars) has no triangle on top.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it is on the 3-bar panel",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "secondo pannello",
+    "en": "second panel"
+   },
+   {
+    "it": "barre rosse",
+    "en": "red bars"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19064": {
+  "en": "The sign shown warns of a level crossing with barriers.",
+  "explain": {
+   "short": "The steam train means a crossing WITHOUT barriers; with barriers you see a fence.",
+   "rule": "The steam train warns of a level crossing without barriers, as a rule 150 m before, on the three-bar panel.",
+   "trap": "'con barriere' (with barriers) is the trap: train = no barriers.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: WITHOUT barriers",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "con barriere",
+    "en": "with barriers"
+   },
+   {
+    "it": "passaggio a livello",
+    "en": "level crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19065": {
+  "en": "The sign shown shows a railway station 150 metres ahead.",
+  "explain": {
+   "short": "It warns of tracks to cross, not of a station.",
+   "rule": "The steam train warns of a level crossing without barriers, as a rule 150 m before, on the three-bar panel.",
+   "trap": "'stazione ferroviaria' (station) is the trap: the train means a crossing.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: a crossing, not a station",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "stazione ferroviaria",
+    "en": "railway station"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19066": {
+  "en": "The sign shown can be completed by a panel with the word TRAM.",
+  "explain": {
+   "short": "This sign is for railway crossings only; trams have a different danger sign.",
+   "rule": "The steam train warns of a level crossing without barriers, as a rule 150 m before, on the three-bar panel.",
+   "trap": "'TRAM' is the trap: no tram panel goes with the steam train.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no TRAM panel",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "TRAM",
+    "en": "tram"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19067": {
+  "en": "The picture shows a priority sign.",
+  "explain": {
+   "short": "It is a danger sign (red triangle, point up), not a priority sign.",
+   "rule": "The steam train warns of a level crossing without barriers, as a rule 150 m before, on the three-bar panel.",
+   "trap": "'precedenza' (priority) is the trap: the triangle with a picture inside means danger.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it is a danger sign",
+    "it": "segnale di pericolo",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di precedenza",
+    "en": "priority sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19068": {
+  "en": "With the sign shown, you must slow down according to how well you can see the railway line.",
+  "explain": {
+   "short": "If you cannot see far along the tracks, you must go slower to spot a train in time.",
+   "rule": "At a crossing without barriers, use the greatest care: slow down, be ready to stop and look both ways for trains.",
+   "trap": "'visibilità della linea ferroviaria' (visibility of the railway): less view, less speed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down to see along the railway",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "rallentare",
+    "en": "to slow down"
+   },
+   {
+    "it": "visibilità della linea ferroviaria",
+    "en": "visibility of the railway line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19069": {
+  "en": "With the sign shown, you must use the greatest care.",
+  "explain": {
+   "short": "No barrier will stop you, so you must be very careful yourself.",
+   "rule": "At a crossing without barriers, use the greatest care: slow down, be ready to stop and look both ways for trains.",
+   "trap": "'massima prudenza' (greatest care): right at a crossing without barriers.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No barriers: greatest care",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "massima prudenza",
+    "en": "greatest care"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19070": {
+  "en": "With the sign shown, you must slow down so that you can, if needed, stop the vehicle before the railway crossing.",
+  "explain": {
+   "short": "You slow down so you can stop before the tracks if a train is coming.",
+   "rule": "At a crossing without barriers, use the greatest care: slow down, be ready to stop and look both ways for trains.",
+   "trap": "'eventualmente' (if needed): be ready to stop, not always stop.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down, ready to stop",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "eventualmente",
+    "en": "if needed"
+   },
+   {
+    "it": "arrestare il veicolo",
+    "en": "to stop the vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19071": {
+  "en": "With the sign shown, before crossing you must make sure no trains are coming from either the right or the left.",
+  "explain": {
+   "short": "Without barriers you check both ways yourself before going over the tracks.",
+   "rule": "At a crossing without barriers, use the greatest care: slow down, be ready to stop and look both ways for trains.",
+   "trap": "'sia da destra che da sinistra' (from both right and left): check both sides.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Look left AND right for trains",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "treni in arrivo",
+    "en": "trains coming"
+   },
+   {
+    "it": "sia da destra che da sinistra",
+    "en": "from both right and left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19072": {
+  "en": "With the sign shown, you may not park or stop near or on the tracks.",
+  "explain": {
+   "short": "A stopped car near the tracks blocks the way and can be hit by a train.",
+   "rule": "At a crossing without barriers, use the greatest care: slow down, be ready to stop and look both ways for trains.",
+   "trap": "'non è consentito' (not allowed): both stopping and parking are banned, correct.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No stopping or parking near tracks",
+    "it": "senza barriere",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sostare o fermarsi",
+    "en": "to park or stop"
+   },
+   {
+    "it": "in prossimità",
+    "en": "near"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19073": {
+  "en": "With the sign shown, you need to slow down only in fog.",
+  "explain": {
+   "short": "You always slow down at a crossing without barriers, not only in fog.",
+   "rule": "At a crossing without barriers, use the greatest care: slow down, be ready to stop and look both ways for trains.",
+   "trap": "'esclusivamente' (only) is the trap: slowing down is always needed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: slow down ALWAYS",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "esclusivamente",
+    "en": "only"
+   },
+   {
+    "it": "nebbia",
+    "en": "fog"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19074": {
+  "en": "With the sign shown, you must stop before the tracks if the light or sound signals are not working.",
+  "explain": {
+   "short": "You must stop when the lights or sound ARE working, because a train is coming; when they are off, you pass carefully.",
+   "rule": "At a crossing without barriers, use the greatest care: slow down, be ready to stop and look both ways for trains.",
+   "trap": "'non sono in funzione' (not working) is the trap: the stop is for signals that are on.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: stop when signals ARE on",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non sono in funzione",
+    "en": "are not working"
+   },
+   {
+    "it": "segnalazioni luminose o acustiche",
+    "en": "light or sound signals"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19075": {
+  "en": "With the sign shown, you may cross the tracks if they are blocked by red-and-white striped trestles.",
+  "explain": {
+   "short": "Red-and-white trestles close the crossing: you must not go over the tracks.",
+   "rule": "At a crossing without barriers, use the greatest care: slow down, be ready to stop and look both ways for trains.",
+   "trap": "'possibile' (possible) is the trap: trestles mean the way is closed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: trestles mean closed",
+    "it": "senza barriere",
+    "action": "stop"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cavalletti",
+    "en": "trestles"
+   },
+   {
+    "it": "sbarrati",
+    "en": "blocked"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19076": {
+  "en": "With the sign shown, you must use the horn before crossing the tracks.",
+  "explain": {
+   "short": "The horn is not required here: the train cannot stop for you anyway. You look and listen.",
+   "rule": "At a crossing without barriers, use the greatest care: slow down, be ready to stop and look both ways for trains.",
+   "trap": "'obbligatorio' (compulsory) is the trap: no rule makes you honk here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: the horn is not compulsory",
+    "it": "senza barriere",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnalatore acustico",
+    "en": "horn"
+   },
+   {
+    "it": "obbligatorio",
+    "en": "compulsory"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19077": {
+  "en": "With the sign shown, overtaking by going into the opposite lane is allowed.",
+  "explain": {
+   "short": "Near a level crossing without barriers, overtaking is forbidden.",
+   "rule": "At a crossing without barriers, use the greatest care: slow down, be ready to stop and look both ways for trains.",
+   "trap": "'consentito' (allowed) is the trap: you may not move into the other lane to overtake here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no overtaking here",
+    "it": "senza barriere",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sorpasso",
+    "en": "overtaking"
+   },
+   {
+    "it": "corsia opposta",
+    "en": "opposite lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19078": {
+  "en": "The sign shown says that the railway has only one track.",
+  "explain": {
+   "short": "A single St Andrew's cross means one track; the double cross means more tracks.",
+   "rule": "The single St Andrew's cross stands right next to a one-track crossing without barriers.",
+   "trap": "'un solo binario' (only one track): single cross = one track.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Single cross = one track",
+    "it": "croce di S. Andrea",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "un solo binario",
+    "en": "only one track"
+   },
+   {
+    "it": "sede ferroviaria",
+    "en": "railway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19079": {
+  "en": "The sign shown is placed right next to a railway crossing without barriers.",
+  "explain": {
+   "short": "St Andrew's crosses stand right at crossings that have no barriers.",
+   "rule": "The single St Andrew's cross stands right next to a one-track crossing without barriers.",
+   "trap": "'senza barriere' (without barriers): this cross is used only where there are none.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At the tracks, no barriers",
+    "it": "croce di S. Andrea",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "immediate vicinanze",
+    "en": "right next to"
+   },
+   {
+    "it": "senza barriere",
+    "en": "without barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19080": {
+  "en": "The sign shown is placed right next to the track.",
+  "explain": {
+   "short": "The cross is the last sign before the train track, very close to it.",
+   "rule": "The single St Andrew's cross stands right next to a one-track crossing without barriers.",
+   "trap": "'immediate vicinanze' (right next to): it is at the tracks, not 150 m away.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right next to the track",
+    "it": "croce di S. Andrea",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "immediate vicinanze",
+    "en": "right next to"
+   },
+   {
+    "it": "binario",
+    "en": "track"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19081": {
+  "en": "The sign shown is placed on the road after the LEVEL CROSSING WITHOUT BARRIERS sign.",
+  "explain": {
+   "short": "First you meet the train sign 150 m before, then the cross at the tracks.",
+   "rule": "The single St Andrew's cross stands right next to a one-track crossing without barriers.",
+   "trap": "'dopo' (after): the cross comes after the triangle with the train.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cross comes AFTER the train sign",
+    "it": "croce di S. Andrea",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "dopo il segnale",
+    "en": "after the sign"
+   },
+   {
+    "it": "PASSAGGIO A LIVELLO SENZA BARRIERE",
+    "en": "level crossing without barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19082": {
+  "en": "The picture shows a danger sign.",
+  "explain": {
+   "short": "Even though it is not a triangle, the St Andrew's cross is a danger sign.",
+   "rule": "The single St Andrew's cross stands right next to a one-track crossing without barriers.",
+   "trap": "'pericolo' (danger): the cross is a danger sign despite its unusual shape.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "St Andrew's cross = danger sign",
+    "it": "segnale di pericolo",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19083": {
+  "en": "The sign shown can be placed either horizontally or vertically.",
+  "explain": {
+   "short": "The cross can be fixed in either position, so you must know it both ways.",
+   "rule": "The single St Andrew's cross stands right next to a one-track crossing without barriers.",
+   "trap": "'sia ... che' (both ... and): both positions are allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Horizontal or vertical: both OK",
+    "it": "croce di S. Andrea",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "senso orizzontale",
+    "en": "horizontally"
+   },
+   {
+    "it": "senso verticale",
+    "en": "vertically"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19084": {
+  "en": "The sign shown warns of a railway with more than one track.",
+  "explain": {
+   "short": "The single cross means ONE track; more tracks need the double cross.",
+   "rule": "The single St Andrew's cross stands right next to a one-track crossing without barriers.",
+   "trap": "'più binari' (more tracks) is the trap: that is the double cross.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: single cross = one track",
+    "it": "croce di S. Andrea",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "più binari",
+    "en": "more tracks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19085": {
+  "en": "The sign shown warns of a junction of four roads.",
+  "explain": {
+   "short": "The X shape is a railway cross, not a crossroads sign.",
+   "rule": "The single St Andrew's cross stands right next to a one-track crossing without barriers.",
+   "trap": "'incrocio di quattro strade' (four-way junction) is the trap: the X means a railway.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: railway, not crossroads",
+    "it": "croce di S. Andrea",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "incrocio di quattro strade",
+    "en": "junction of four roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19086": {
+  "en": "The sign shown warns of a tram line with only one track.",
+  "explain": {
+   "short": "The St Andrew's cross is for railways, not for trams.",
+   "rule": "The single St Andrew's cross stands right next to a one-track crossing without barriers.",
+   "trap": "'tranviaria' (tram) is the trap: one track yes, but for trains.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: trains, not trams",
+    "it": "croce di S. Andrea",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sede tranviaria",
+    "en": "tram line"
+   },
+   {
+    "it": "un solo binario",
+    "en": "only one track"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19087": {
+  "en": "The sign shown is installed near a level crossing with half-barriers.",
+  "explain": {
+   "short": "The cross is used at crossings WITHOUT barriers or half-barriers.",
+   "rule": "The single St Andrew's cross stands right next to a one-track crossing without barriers.",
+   "trap": "'semibarriere' (half-barriers) is the trap: the cross means no barriers.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: only without barriers",
+    "it": "croce di S. Andrea",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "semibarriere",
+    "en": "half-barriers"
+   },
+   {
+    "it": "in prossimità",
+    "en": "near"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19088": {
+  "en": "The sign shown is placed before the LEVEL CROSSING WITHOUT BARRIERS sign.",
+  "explain": {
+   "short": "The order is the opposite: first the train sign, then the cross at the tracks.",
+   "rule": "The single St Andrew's cross stands right next to a one-track crossing without barriers.",
+   "trap": "'prima' (before) is the trap: the cross comes AFTER.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: the cross comes AFTER",
+    "it": "croce di S. Andrea",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "prima del segnale",
+    "en": "before the sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19089": {
+  "en": "The sign shown is completed by a green light and a steady red light.",
+  "explain": {
+   "short": "The cross can have flashing red lights, never a green light.",
+   "rule": "The single St Andrew's cross stands right next to a one-track crossing without barriers.",
+   "trap": "'luce verde' (green light) is the trap: no green light goes with this cross.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no green light",
+    "it": "croce di S. Andrea",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce verde",
+    "en": "green light"
+   },
+   {
+    "it": "rossa fissa",
+    "en": "steady red"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19090": {
+  "en": "The sign shown is, as a rule, located 150 metres from the tracks.",
+  "explain": {
+   "short": "The cross stands right next to the tracks; the 150 m sign is the triangle with the train.",
+   "rule": "The single St Andrew's cross stands right next to a one-track crossing without barriers.",
+   "trap": "'150 metri' is the trap: that distance belongs to the triangle, not to the cross.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it is at the tracks, not 150 m",
+    "it": "croce di S. Andrea",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "150 metri",
+    "en": "150 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

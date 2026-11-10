@@ -1,0 +1,2234 @@
+{
+ "q19512": {
+  "en": "The sign shown forbids traffic in both directions.",
+  "explain": {
+   "short": "The plain red ring closes the road to all vehicles, whichever way they come from.",
+   "rule": "'Divieto di transito' (no vehicles) is a white disc with a red ring. No vehicle of any kind may go in, in either direction; pedestrians may.",
+   "trap": "'nei due sensi' means in both directions: the ban works both ways.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No vehicles, in both directions",
+    "it": "divieto di transito",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la circolazione",
+    "en": "forbids traffic"
+   },
+   {
+    "it": "nei due sensi",
+    "en": "in both directions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19513": {
+  "en": "The sign shown forbids transit to all vehicles.",
+  "explain": {
+   "short": "This is the 'no vehicles' sign: every vehicle is banned, with or without a motor.",
+   "rule": "'Divieto di transito' (no vehicles) is a white disc with a red ring. No vehicle of any kind may go in, in either direction; pedestrians may.",
+   "trap": "'tutti i veicoli' means all vehicles: no exceptions without an extra panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "All vehicles banned",
+    "it": "divieto di transito",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "forbids transit"
+   },
+   {
+    "it": "tutti i veicoli",
+    "en": "all vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19514": {
+  "en": "The sign shown forbids traffic to motor quadricycles.",
+  "explain": {
+   "short": "Motor quadricycles (small four-wheel vehicles) are vehicles, so they are banned too.",
+   "rule": "'Divieto di transito' (no vehicles) is a white disc with a red ring. No vehicle of any kind may go in, in either direction; pedestrians may.",
+   "trap": "'quadricicli a motore' sounds special, but they are vehicles like any other.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Quadricycles are vehicles: banned too",
+    "it": "quadricicli",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la circolazione",
+    "en": "forbids traffic"
+   },
+   {
+    "it": "quadricicli a motore",
+    "en": "motor quadricycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19515": {
+  "en": "The sign shown is placed at both entrances of the road.",
+  "explain": {
+   "short": "The road is closed from both sides, so the sign stands at each way in.",
+   "rule": "'Divieto di transito' (no vehicles) is a white disc with a red ring. No vehicle of any kind may go in, in either direction; pedestrians may.",
+   "trap": "'entrambi gli accessi' means both entrances: one sign at each end.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One sign at each entrance of the road",
+    "it": "entrambi gli accessi",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è posto",
+    "en": "is placed"
+   },
+   {
+    "it": "entrambi gli accessi",
+    "en": "both entrances"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19516": {
+  "en": "The sign shown forbids transit to lorries.",
+  "explain": {
+   "short": "Lorries are vehicles, and this sign bans all vehicles.",
+   "rule": "'Divieto di transito' (no vehicles) is a white disc with a red ring. No vehicle of any kind may go in, in either direction; pedestrians may.",
+   "trap": "'autocarri' means lorries: they are not a special case, they are banned like all vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lorries banned too",
+    "it": "autocarri",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "forbids transit"
+   },
+   {
+    "it": "autocarri",
+    "en": "lorries"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19517": {
+  "en": "The sign shown can be valid only for a limited time, shown on an additional panel.",
+  "explain": {
+   "short": "A panel under the sign can give hours or days: the ban then applies only at those times.",
+   "rule": "'Divieto di transito' (no vehicles) is a white disc with a red ring. No vehicle of any kind may go in, in either direction; pedestrians may.",
+   "trap": "'può avere' means 'can have': the time limit is possible, not always there.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A panel can limit it to certain hours",
+    "it": "pannello integrativo",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "validità limitata nel tempo",
+    "en": "time-limited validity"
+   },
+   {
+    "it": "pannello integrativo",
+    "en": "additional panel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19518": {
+  "en": "The sign shown allows pedestrians through.",
+  "explain": {
+   "short": "The sign bans vehicles only; people on foot are not vehicles, so they may pass.",
+   "rule": "'Divieto di transito' (no vehicles) is a white disc with a red ring. No vehicle of any kind may go in, in either direction; pedestrians may.",
+   "trap": "'pedoni' means pedestrians: the ban is for vehicles, not for people walking.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Vehicles banned, pedestrians may pass",
+    "it": "pedoni",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows transit"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19519": {
+  "en": "The sign shown forbids traffic to mopeds.",
+  "explain": {
+   "short": "Mopeds are vehicles, so the 'no vehicles' sign bans them too.",
+   "rule": "'Divieto di transito' (no vehicles) is a white disc with a red ring. No vehicle of any kind may go in, in either direction; pedestrians may.",
+   "trap": "'ciclomotori' means mopeds: small, but still vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mopeds banned too",
+    "it": "ciclomotori",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la circolazione",
+    "en": "forbids traffic"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19520": {
+  "en": "The sign shown is a NO VEHICLES sign.",
+  "explain": {
+   "short": "A white disc with a plain red ring is exactly the 'divieto di transito' sign.",
+   "rule": "'Divieto di transito' (no vehicles) is a white disc with a red ring. No vehicle of any kind may go in, in either direction; pedestrians may.",
+   "trap": "'DIVIETO DI TRANSITO' is the official name: do not confuse it with 'senso vietato' (red disc, white bar).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "This is the no-vehicles sign",
+    "it": "divieto di transito",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "DIVIETO DI TRANSITO",
+    "en": "no vehicles (no transit)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19521": {
+  "en": "The sign shown allows bicycles through.",
+  "explain": {
+   "short": "Bicycles are vehicles, so they are banned too; only pedestrians may pass.",
+   "rule": "'Divieto di transito' (no vehicles) is a white disc with a red ring. No vehicle of any kind may go in, in either direction; pedestrians may.",
+   "trap": "'biciclette' are vehicles: they do not escape this ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: bicycles are banned too",
+    "it": "biciclette",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows transit"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19522": {
+  "en": "The sign shown forbids transit only to motor vehicles.",
+  "explain": {
+   "short": "The ban is for ALL vehicles, also those without a motor, like bicycles and carts.",
+   "rule": "'Divieto di transito' (no vehicles) is a white disc with a red ring. No vehicle of any kind may go in, in either direction; pedestrians may.",
+   "trap": "'unicamente' means only: the ban is wider, it covers every vehicle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: all vehicles, not only motor ones",
+    "it": "unicamente",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "unicamente",
+    "en": "only"
+   },
+   {
+    "it": "veicoli a motore",
+    "en": "motor vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19523": {
+  "en": "The sign shown, as a rule, allows you to drive into the road to park and to load and unload.",
+  "explain": {
+   "short": "No vehicle may go in, not even to park or to load goods, unless a panel says so.",
+   "rule": "'Divieto di transito' (no vehicles) is a white disc with a red ring. No vehicle of any kind may go in, in either direction; pedestrians may.",
+   "trap": "'di norma' means as a rule: as a rule you may NOT enter at all.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no entry, not even to park or load",
+    "it": "carico e scarico",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "sosta",
+    "en": "parking"
+   },
+   {
+    "it": "carico e scarico",
+    "en": "loading and unloading"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19524": {
+  "en": "The sign shown does not allow you to enter, but only to leave the road.",
+  "explain": {
+   "short": "The ban works in both directions; 'enter only from the other side' is the 'senso vietato' sign.",
+   "rule": "'Divieto di transito' (no vehicles) is a white disc with a red ring. No vehicle of any kind may go in, in either direction; pedestrians may.",
+   "trap": "'ma solo l'uscita' (but only the exit) describes a one-way street, not this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: banned both ways, this is not one-way",
+    "it": "solo l'uscita",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non consente l'ingresso",
+    "en": "does not allow entry"
+   },
+   {
+    "it": "solo l'uscita",
+    "en": "only the exit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19525": {
+  "en": "The sign shown means that traffic is one-way.",
+  "explain": {
+   "short": "It does not show a one-way road: it closes the road to vehicles in both directions.",
+   "rule": "'Divieto di transito' (no vehicles) is a white disc with a red ring. No vehicle of any kind may go in, in either direction; pedestrians may.",
+   "trap": "'senso unico' (one-way) is a different sign; this one is 'divieto di transito'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it closes the road, it is not one-way",
+    "it": "senso unico",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "la circolazione",
+    "en": "traffic"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19526": {
+  "en": "The sign shown allows cars with an electric motor through.",
+  "explain": {
+   "short": "Electric cars are vehicles like the others, so they are banned too.",
+   "rule": "'Divieto di transito' (no vehicles) is a white disc with a red ring. No vehicle of any kind may go in, in either direction; pedestrians may.",
+   "trap": "'motore elettrico' (electric motor) gives no exception.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: electric cars are banned too",
+    "it": "motore elettrico",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows transit"
+   },
+   {
+    "it": "autovetture",
+    "en": "cars"
+   },
+   {
+    "it": "motore elettrico",
+    "en": "electric motor"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19527": {
+  "en": "The sign shown is a danger sign.",
+  "explain": {
+   "short": "A round sign with a red ring is a prohibition sign; danger signs are triangles.",
+   "rule": "'Divieto di transito' (no vehicles) is a white disc with a red ring. No vehicle of any kind may go in, in either direction; pedestrians may.",
+   "trap": "'pericolo' (danger) signs are red-edged triangles, not circles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: round red ring = prohibition",
+    "it": "segnale di pericolo",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19528": {
+  "en": "The sign shown, if crossed out in red, marks the end of the ban.",
+  "explain": {
+   "short": "End-of-ban signs are crossed by black or grey diagonal stripes, not by a red bar.",
+   "rule": "'Divieto di transito' (no vehicles) is a white disc with a red ring. No vehicle of any kind may go in, in either direction; pedestrians may.",
+   "trap": "'barrato in rosso' (crossed in red) is wrong: the end bar is not red.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: end of ban is not shown in red",
+    "it": "fine del divieto",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "barrato in rosso",
+    "en": "crossed out in red"
+   },
+   {
+    "it": "fine del divieto",
+    "en": "end of the ban"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19529": {
+  "en": "The sign shown forbids you to enter a road that can instead be entered from the other end.",
+  "explain": {
+   "short": "It closes a one-way street from this side only; vehicles enter from the opposite end.",
+   "rule": "'Senso vietato' (no entry) is a red disc with a white bar. It stands at the exit end of a one-way street: no vehicle may enter from this side.",
+   "trap": "'accessibile invece dall'altra parte' is the key: the road is open from the other end.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No entry here; enter from the other end",
+    "it": "senso vietato",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta di entrare",
+    "en": "forbids entering"
+   },
+   {
+    "it": "dall'altra parte",
+    "en": "from the other end"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19530": {
+  "en": "Vehicles without a motor must obey the ban given by the sign shown.",
+  "explain": {
+   "short": "The ban is for all vehicles: bicycles and carts must also not enter.",
+   "rule": "'Senso vietato' (no entry) is a red disc with a white bar. It stands at the exit end of a one-way street: no vehicle may enter from this side.",
+   "trap": "'senza motore' (without a motor) gives no exception.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bicycles and carts must obey too",
+    "it": "veicoli senza motore",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicoli senza motore",
+    "en": "vehicles without a motor"
+   },
+   {
+    "it": "devono rispettare",
+    "en": "must obey"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19531": {
+  "en": "Taxis must obey the ban given by the sign shown.",
+  "explain": {
+   "short": "Taxis are vehicles like the others: they may not enter the wrong way.",
+   "rule": "'Senso vietato' (no entry) is a red disc with a white bar. It stands at the exit end of a one-way street: no vehicle may enter from this side.",
+   "trap": "'taxi' do not have a special exception here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Taxis must obey too",
+    "it": "taxi",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "taxi",
+    "en": "taxis"
+   },
+   {
+    "it": "devono rispettare",
+    "en": "must obey"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19532": {
+  "en": "Motor quadricycles must obey the ban given by the sign shown.",
+  "explain": {
+   "short": "Quadricycles are vehicles, so they must obey the no-entry ban.",
+   "rule": "'Senso vietato' (no entry) is a red disc with a white bar. It stands at the exit end of a one-way street: no vehicle may enter from this side.",
+   "trap": "'quadricicli a motore' sounds special, but they are vehicles like any other.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Quadricycles must obey too",
+    "it": "quadricicli",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "quadricicli a motore",
+    "en": "motor quadricycles"
+   },
+   {
+    "it": "devono rispettare",
+    "en": "must obey"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19533": {
+  "en": "The ban given by the sign shown must be obeyed at night too.",
+  "explain": {
+   "short": "With no time panel, the ban is valid all day and all night.",
+   "rule": "'Senso vietato' (no entry) is a red disc with a white bar. It stands at the exit end of a one-way street: no vehicle may enter from this side.",
+   "trap": "'anche nelle ore notturne' (at night too): the ban never switches off.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Valid day and night",
+    "it": "ore notturne",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve essere rispettato",
+    "en": "must be obeyed"
+   },
+   {
+    "it": "ore notturne",
+    "en": "night hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19534": {
+  "en": "The sign shown is placed on a one-way road.",
+  "explain": {
+   "short": "It stands at the exit end of a one-way street, to stop vehicles entering the wrong way.",
+   "rule": "'Senso vietato' (no entry) is a red disc with a white bar. It stands at the exit end of a one-way street: no vehicle may enter from this side.",
+   "trap": "'senso unico' (one-way): this sign always goes with a one-way road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Placed at the exit of a one-way road",
+    "it": "senso unico",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è posto",
+    "en": "is placed"
+   },
+   {
+    "it": "strada a senso unico",
+    "en": "one-way road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19535": {
+  "en": "The sign shown is a NO ENTRY sign.",
+  "explain": {
+   "short": "A red disc with a white horizontal bar is exactly the 'senso vietato' sign.",
+   "rule": "'Senso vietato' (no entry) is a red disc with a white bar. It stands at the exit end of a one-way street: no vehicle may enter from this side.",
+   "trap": "'SENSO VIETATO' (no entry) is not 'divieto di transito' (white disc, red ring).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "This is the no-entry sign",
+    "it": "senso vietato",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "SENSO VIETATO",
+    "en": "no entry (wrong way)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19536": {
+  "en": "The sign shown allows motorcycles to enter.",
+  "explain": {
+   "short": "Motorcycles are vehicles: they may not enter the wrong way either.",
+   "rule": "'Senso vietato' (no entry) is a red disc with a white bar. It stands at the exit end of a one-way street: no vehicle may enter from this side.",
+   "trap": "'consente' (allows) is wrong: there is no exception for 'motocicli'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: motorcycles may not enter",
+    "it": "motocicli",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente l'accesso",
+    "en": "allows entry"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19537": {
+  "en": "The sign shown allows mopeds to enter.",
+  "explain": {
+   "short": "Mopeds are vehicles: they may not enter the wrong way either.",
+   "rule": "'Senso vietato' (no entry) is a red disc with a white bar. It stands at the exit end of a one-way street: no vehicle may enter from this side.",
+   "trap": "'consente' (allows) is wrong: there is no exception for 'ciclomotori'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: mopeds may not enter",
+    "it": "ciclomotori",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente l'accesso",
+    "en": "allows entry"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19538": {
+  "en": "The sign shown does not allow vehicles to drive on that road.",
+  "explain": {
+   "short": "Vehicles do drive on that road, but only in the other direction; you just may not enter from here.",
+   "rule": "'Senso vietato' (no entry) is a red disc with a white bar. It stands at the exit end of a one-way street: no vehicle may enter from this side.",
+   "trap": "'non consente la circolazione' is too strong: traffic flows, but one-way.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: traffic flows, only the other way",
+    "it": "circolazione",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non consente",
+    "en": "does not allow"
+   },
+   {
+    "it": "circolazione dei veicoli",
+    "en": "vehicle traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19539": {
+  "en": "The sign shown is placed on a two-way carriageway.",
+  "explain": {
+   "short": "It is used on one-way roads, at the end where you may not enter.",
+   "rule": "'Senso vietato' (no entry) is a red disc with a white bar. It stands at the exit end of a one-way street: no vehicle may enter from this side.",
+   "trap": "'doppio senso' (two-way) is wrong: this sign means one-way.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it is used on one-way roads",
+    "it": "doppio senso",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   },
+   {
+    "it": "doppio senso di circolazione",
+    "en": "two-way traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19540": {
+  "en": "The sign shown forbids parking, but not stopping.",
+  "explain": {
+   "short": "It forbids driving in, not parking: 'no parking' is a blue disc with a red ring and one red bar.",
+   "rule": "'Senso vietato' (no entry) is a red disc with a white bar. It stands at the exit end of a one-way street: no vehicle may enter from this side.",
+   "trap": "'vieta la sosta' (forbids parking) belongs to a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it forbids entering, not parking",
+    "it": "sosta",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta",
+    "en": "parking"
+   },
+   {
+    "it": "fermata",
+    "en": "stopping"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19541": {
+  "en": "The sign shown forbids overtaking.",
+  "explain": {
+   "short": "It forbids entering the road; 'no overtaking' shows two cars in a red ring.",
+   "rule": "'Senso vietato' (no entry) is a red disc with a white bar. It stands at the exit end of a one-way street: no vehicle may enter from this side.",
+   "trap": "'sorpasso' (overtaking) is a different sign, with two cars.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it forbids entering, not overtaking",
+    "it": "sorpasso",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il sorpasso",
+    "en": "forbids overtaking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19542": {
+  "en": "The sign shown allows local traffic in both directions.",
+  "explain": {
+   "short": "No one may enter the wrong way, local residents included, unless a panel says so.",
+   "rule": "'Senso vietato' (no entry) is a red disc with a white bar. It stands at the exit end of a one-way street: no vehicle may enter from this side.",
+   "trap": "'traffico locale' (local traffic) gets no exception in 'entrambi i sensi' (both directions).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no one enters, not even locals",
+    "it": "traffico locale",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "traffico locale",
+    "en": "local traffic"
+   },
+   {
+    "it": "entrambi i sensi",
+    "en": "both directions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19543": {
+  "en": "In towns, the ban given by the sign shown must be obeyed from 8:00 to 20:00.",
+  "explain": {
+   "short": "The ban is valid all day and night; there is no fixed time window in towns.",
+   "rule": "'Senso vietato' (no entry) is a red disc with a white bar. It stands at the exit end of a one-way street: no vehicle may enter from this side.",
+   "trap": "'dalle ore 8.00 alle ore 20.00' invents a time limit that does not exist.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: valid 24 hours, not 8 to 20",
+    "it": "dalle ore 8.00",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "centri abitati",
+    "en": "towns (built-up areas)"
+   },
+   {
+    "it": "dalle ore 8.00 alle ore 20.00",
+    "en": "from 8:00 to 20:00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19544": {
+  "en": "The sign shown is a NO VEHICLES sign.",
+  "explain": {
+   "short": "This red disc with a white bar is 'senso vietato'; 'divieto di transito' is a white disc with a red ring.",
+   "rule": "'Senso vietato' (no entry) is a red disc with a white bar. It stands at the exit end of a one-way street: no vehicle may enter from this side.",
+   "trap": "'DIVIETO DI TRANSITO' is the wrong name for this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: this is no entry, not no vehicles",
+    "it": "senso vietato",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "DIVIETO DI TRANSITO",
+    "en": "no vehicles (no transit)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19545": {
+  "en": "The sign shown allows a car to overtake a motorcycle.",
+  "explain": {
+   "short": "The ban is about overtaking motor vehicles other than motorcycles and mopeds, so passing a motorcycle is allowed.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'motociclo' (motorcycle) is one of the exceptions you may still overtake.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A car may overtake a motorcycle",
+    "it": "divieto di sorpasso",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sorpassare",
+    "en": "overtake"
+   },
+   {
+    "it": "motociclo",
+    "en": "motorcycle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19546": {
+  "en": "The sign shown can be found both on urban and on extra-urban roads.",
+  "explain": {
+   "short": "No overtaking can be needed on any kind of road, in towns or outside.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'sia ... che' means both: the sign is not limited to one type of road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Used in towns and outside",
+    "it": "strade urbane",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade urbane",
+    "en": "urban roads"
+   },
+   {
+    "it": "extraurbane",
+    "en": "extra-urban (outside towns)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19547": {
+  "en": "Sign (A) can be repeated after each junction with additional panel (B).",
+  "explain": {
+   "short": "After a junction the ban is reminded with the same sign and a panel with arrows up and down, meaning it continues.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'può essere ripetuto' (can be repeated): repeating is allowed, with panel B.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Repeated after junctions with panel B",
+    "it": "pannello integrativo",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "può essere ripetuto",
+    "en": "can be repeated"
+   },
+   {
+    "it": "incrocio",
+    "en": "junction"
+   },
+   {
+    "it": "pannello integrativo",
+    "en": "additional panel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19548": {
+  "en": "The sign shown forbids overtaking lorries.",
+  "explain": {
+   "short": "Lorries are motor vehicles (not motorcycles or mopeds), so you may not overtake them.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'autocarri' (lorries) are motor vehicles: overtaking them is banned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No overtaking lorries",
+    "it": "autocarri",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta di sorpassare",
+    "en": "forbids overtaking"
+   },
+   {
+    "it": "autocarri",
+    "en": "lorries"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19549": {
+  "en": "The sign shown allows you to overtake mopeds.",
+  "explain": {
+   "short": "Mopeds are one of the exceptions: you may still overtake them.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'ciclomotori' (mopeds) may be overtaken even with this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mopeds may be overtaken",
+    "it": "ciclomotori",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente di sorpassare",
+    "en": "allows overtaking"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19550": {
+  "en": "The sign shown forbids overtaking between motor vehicles, even if the manoeuvre can be done within your half of the road.",
+  "explain": {
+   "short": "The ban holds even when there is room on your own side: you may not overtake motor vehicles at all.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'anche se' (even if) is the key: having space is no excuse.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Banned even if there is room",
+    "it": "semicarreggiata",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "anche se",
+    "en": "even if"
+   },
+   {
+    "it": "semicarreggiata",
+    "en": "half of the carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19551": {
+  "en": "The sign shown allows a motorcycle to overtake a car.",
+  "explain": {
+   "short": "The ban applies to every driver, motorcyclists too: no one may overtake a car here.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'motociclo' may BE overtaken, but it may not overtake a car.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: a motorcycle may not pass a car",
+    "it": "motociclo",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "motociclo",
+    "en": "motorcycle"
+   },
+   {
+    "it": "autovettura",
+    "en": "car"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19552": {
+  "en": "The sign shown means the right lane is reserved for slow vehicles.",
+  "explain": {
+   "short": "It forbids overtaking; a lane for slow vehicles has a different sign.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'veicoli lenti' (slow vehicles) belong to a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it forbids overtaking",
+    "it": "veicoli lenti",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di destra",
+    "en": "right lane"
+   },
+   {
+    "it": "riservata",
+    "en": "reserved"
+   },
+   {
+    "it": "veicoli lenti",
+    "en": "slow vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19553": {
+  "en": "The sign shown allows you to overtake a car as long as you do not cross the solid line.",
+  "explain": {
+   "short": "The sign forbids overtaking a car anyway, with or without a line.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'purché' (as long as) adds a condition that does not exist.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no overtaking cars at all",
+    "it": "purché",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sorpassare un'autovettura",
+    "en": "overtake a car"
+   },
+   {
+    "it": "purché",
+    "en": "as long as"
+   },
+   {
+    "it": "striscia continua",
+    "en": "solid line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19554": {
+  "en": "The sign shown forbids a motorcycle to overtake a bicycle.",
+  "explain": {
+   "short": "Bicycles have no motor, so anyone may still overtake them.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'bicicletta' is not a motor vehicle: overtaking it stays allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: bicycles may be overtaken",
+    "it": "bicicletta",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "forbids"
+   },
+   {
+    "it": "bicicletta",
+    "en": "bicycle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19555": {
+  "en": "The sign shown allows overtaking between cars if there is no solid white line.",
+  "explain": {
+   "short": "The sign itself forbids it: no line is needed for the ban to apply.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'se non vi è' (if there is not) adds a condition that does not exist.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: banned with or without a line",
+    "it": "striscia bianca continua",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tra autovetture",
+    "en": "between cars"
+   },
+   {
+    "it": "striscia bianca continua",
+    "en": "solid white line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19556": {
+  "en": "Where the sign shown is present, a lorry may overtake a motorcycle.",
+  "explain": {
+   "short": "Motorcycles are an exception: any vehicle may still overtake them.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'motociclo' (motorcycle) may be overtaken, even by a lorry.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A lorry may overtake a motorcycle",
+    "it": "motociclo",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarro",
+    "en": "lorry"
+   },
+   {
+    "it": "può sorpassare",
+    "en": "may overtake"
+   },
+   {
+    "it": "motociclo",
+    "en": "motorcycle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19557": {
+  "en": "Where the sign shown is present, a car may overtake a moped.",
+  "explain": {
+   "short": "Mopeds are an exception: you may still overtake them.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'ciclomotore' (moped) may be overtaken even with this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A car may overtake a moped",
+    "it": "ciclomotore",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autovettura",
+    "en": "car"
+   },
+   {
+    "it": "può sorpassare",
+    "en": "may overtake"
+   },
+   {
+    "it": "ciclomotore",
+    "en": "moped"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19558": {
+  "en": "The sign shown allows road trains, articulated lorries and articulated buses through.",
+  "explain": {
+   "short": "It only forbids overtaking; it does not close the road to any vehicle.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'consente il transito' (allows transit) is right: overtaking is banned, driving is not.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Driving is allowed; only overtaking is banned",
+    "it": "transito",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows transit"
+   },
+   {
+    "it": "autotreni",
+    "en": "road trains"
+   },
+   {
+    "it": "autoarticolati",
+    "en": "articulated lorries"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19559": {
+  "en": "Where the sign shown is present, it is forbidden to overtake even motor vehicles with a total mass under 3.5 tonnes.",
+  "explain": {
+   "short": "The ban covers all motor vehicles (except motorcycles and mopeds), light or heavy.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'anche' (even) is right: weight makes no difference here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Light vehicles too: no overtaking",
+    "it": "3,5 tonnellate",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è vietato sorpassare",
+    "en": "it is forbidden to overtake"
+   },
+   {
+    "it": "massa complessiva",
+    "en": "total mass"
+   },
+   {
+    "it": "3,5 tonnellate",
+    "en": "3.5 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19560": {
+  "en": "Where the sign shown is present, it is forbidden to overtake motor vehicles other than motorcycles and mopeds.",
+  "explain": {
+   "short": "This is exactly the official meaning of the sign.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'diversi dai' means other than: motorcycles and mopeds are the exceptions.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No overtaking motor vehicles, except two-wheelers",
+    "it": "diversi dai",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicoli a motore",
+    "en": "motor vehicles"
+   },
+   {
+    "it": "diversi dai",
+    "en": "other than"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19561": {
+  "en": "Where the sign shown is present, overtaking animal-drawn vehicles is allowed.",
+  "explain": {
+   "short": "Animal-drawn vehicles have no motor, so you may overtake them.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'trazione animale' (animal-drawn) means no motor: overtaking is allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Horse carts may be overtaken",
+    "it": "trazione animale",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito",
+    "en": "is allowed"
+   },
+   {
+    "it": "veicoli a trazione animale",
+    "en": "animal-drawn vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19562": {
+  "en": "The sign shown allows a car to overtake a lorry.",
+  "explain": {
+   "short": "A lorry is a motor vehicle, so overtaking it is banned.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'consente' (allows) is wrong: 'autocarro' (lorry) may not be overtaken.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no overtaking lorries",
+    "it": "autocarro",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autovettura",
+    "en": "car"
+   },
+   {
+    "it": "autocarro",
+    "en": "lorry"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19563": {
+  "en": "The sign shown is found only on main extra-urban roads.",
+  "explain": {
+   "short": "It can be used on any road, in towns and outside.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'solo' (only) is the trap: there is no such limit.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it is used on every kind of road",
+    "it": "solo",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "strade extraurbane principali",
+    "en": "main extra-urban roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19564": {
+  "en": "Where the sign shown is present, it is forbidden to overtake any vehicle.",
+  "explain": {
+   "short": "You may still overtake motorcycles, mopeds, bicycles and vehicles without a motor.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'qualsiasi veicolo' (any vehicle) is too wide: there are exceptions.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: two-wheelers and non-motor vehicles OK",
+    "it": "qualsiasi veicolo",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è vietato sorpassare",
+    "en": "it is forbidden to overtake"
+   },
+   {
+    "it": "qualsiasi veicolo",
+    "en": "any vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19565": {
+  "en": "Where the sign shown is present, transit is forbidden to cars.",
+  "explain": {
+   "short": "Cars may drive there; they just may not overtake motor vehicles.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'vietato il transito' (no transit) is a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: cars may drive, not overtake",
+    "it": "transito",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato il transito",
+    "en": "transit forbidden"
+   },
+   {
+    "it": "autovetture",
+    "en": "cars"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19566": {
+  "en": "The sign shown requires you to give way on alternating one-way stretches.",
+  "explain": {
+   "short": "It forbids overtaking; give-way in a narrow one-lane stretch has its own signs.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'dare la precedenza' (give way) is not what this sign means.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it forbids overtaking",
+    "it": "dare la precedenza",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "sensi unici alternati",
+    "en": "alternating one-way stretches"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19567": {
+  "en": "The sign shown allows a motorcycle to pass a bus.",
+  "explain": {
+   "short": "A bus is a motor vehicle: nobody may overtake it here, motorcyclists included.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'superare' (pass) here means overtake, and 'autobus' may not be overtaken.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: nobody may overtake a bus",
+    "it": "autobus",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "motociclo",
+    "en": "motorcycle"
+   },
+   {
+    "it": "superare",
+    "en": "pass"
+   },
+   {
+    "it": "autobus",
+    "en": "bus"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19568": {
+  "en": "Where the sign shown is present, overtaking two-wheeled mopeds is allowed.",
+  "explain": {
+   "short": "Two-wheeled mopeds are an exception: you may still overtake them.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'a due ruote' (two-wheeled) matters: the exception is for two-wheelers.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Two-wheeled mopeds may be overtaken",
+    "it": "ciclomotori",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito",
+    "en": "is allowed"
+   },
+   {
+    "it": "ciclomotori a due ruote",
+    "en": "two-wheeled mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19569": {
+  "en": "Where the sign shown is present, overtaking motorcycles is allowed.",
+  "explain": {
+   "short": "Motorcycles are an exception: you may still overtake them.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'motocicli' (motorcycles) are one of the exceptions.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorcycles may be overtaken",
+    "it": "motocicli",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito",
+    "en": "is allowed"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19570": {
+  "en": "The sign shown allows overtaking bicycles.",
+  "explain": {
+   "short": "Bicycles have no motor, so you may overtake them.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'biciclette' (bicycles) are not motor vehicles: overtaking is allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bicycles may be overtaken",
+    "it": "biciclette",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il sorpasso",
+    "en": "allows overtaking"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19571": {
+  "en": "Where the sign shown is present, overtaking vehicles without a motor is allowed.",
+  "explain": {
+   "short": "The ban is only about motor vehicles; vehicles without a motor may be overtaken.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'sprovvisti di motore' (without a motor) is the key: they are outside the ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Non-motor vehicles may be overtaken",
+    "it": "sprovvisti di motore",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito",
+    "en": "is allowed"
+   },
+   {
+    "it": "sprovvisti di motore",
+    "en": "without a motor"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19572": {
+  "en": "Where the sign shown is present, overtaking hand-pushed vehicles is allowed.",
+  "explain": {
+   "short": "Hand carts have no motor, so you may overtake them.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'veicoli a braccia' (hand-pushed vehicles) have no motor.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hand carts may be overtaken",
+    "it": "veicoli a braccia",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito",
+    "en": "is allowed"
+   },
+   {
+    "it": "veicoli a braccia",
+    "en": "hand-pushed vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19573": {
+  "en": "Where the sign shown is present, overtaking horse-drawn carriages is allowed.",
+  "explain": {
+   "short": "Horse carriages have no motor, so you may overtake them.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'carrozze a cavalli' (horse carriages) have no motor.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Horse carriages may be overtaken",
+    "it": "carrozze a cavalli",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito",
+    "en": "is allowed"
+   },
+   {
+    "it": "carrozze a cavalli",
+    "en": "horse-drawn carriages"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19574": {
+  "en": "Where the sign shown is present, overtaking motor vehicles with an electric motor is allowed.",
+  "explain": {
+   "short": "An electric motor is still a motor: these vehicles may not be overtaken.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'motore elettrico' (electric motor) gives no exception.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: electric vehicles may not be overtaken",
+    "it": "motore elettrico",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito",
+    "en": "is allowed"
+   },
+   {
+    "it": "autoveicoli",
+    "en": "motor vehicles"
+   },
+   {
+    "it": "motore elettrico",
+    "en": "electric motor"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19575": {
+  "en": "The sign shown warns of a narrowing ahead.",
+  "explain": {
+   "short": "It is a prohibition (no overtaking); a narrowing is a danger sign, a triangle.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'preannuncia una strettoia' (warns of a narrowing) describes a danger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it forbids overtaking",
+    "it": "strettoia",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "warns of"
+   },
+   {
+    "it": "strettoia",
+    "en": "narrowing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19576": {
+  "en": "Where the sign shown is present, overtaking agricultural machines is allowed.",
+  "explain": {
+   "short": "Agricultural machines (tractors) have a motor and are not motorcycles, so they may not be overtaken.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'macchine agricole' have a motor: no exception for them.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: tractors may not be overtaken",
+    "it": "macchine agricole",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito",
+    "en": "is allowed"
+   },
+   {
+    "it": "macchine agricole",
+    "en": "agricultural machines"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19577": {
+  "en": "Where the sign shown is present, overtaking operating machines is allowed.",
+  "explain": {
+   "short": "Operating machines (works vehicles) have a motor, so they may not be overtaken.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'macchine operatrici' (operating machines) have a motor: no exception.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: works machines may not be overtaken",
+    "it": "macchine operatrici",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito",
+    "en": "is allowed"
+   },
+   {
+    "it": "macchine operatrici",
+    "en": "operating machines"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19578": {
+  "en": "Where the sign shown is present, overtaking motor vehicles that are going very slowly is allowed.",
+  "explain": {
+   "short": "Speed does not matter: a slow motor vehicle may not be overtaken either.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'molto lentamente' (very slowly) gives no exception.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: slow motor vehicles too",
+    "it": "molto lentamente",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicoli a motore",
+    "en": "motor vehicles"
+   },
+   {
+    "it": "molto lentamente",
+    "en": "very slowly"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19579": {
+  "en": "Where the sign shown is present, overtaking vehicles that have signalled they will turn right is allowed.",
+  "explain": {
+   "short": "A right indicator gives no exception: if it is a motor vehicle, you may not overtake it.",
+   "rule": "'Divieto di sorpasso' (no overtaking): you may not overtake motor vehicles, except two-wheeled motorcycles and mopeds. Bicycles and vehicles without a motor may be overtaken.",
+   "trap": "'svoltare a destra' (turn right) does not lift the ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: the ban still applies",
+    "it": "svoltare a destra",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnalato",
+    "en": "signalled"
+   },
+   {
+    "it": "svoltare a destra",
+    "en": "turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19580": {
+  "en": "Where the sign shown is present, you must keep a distance of at least 70 metres from the vehicle in front.",
+  "explain": {
+   "short": "The sign sets a minimum gap of 70 m from the vehicle ahead.",
+   "rule": "'Distanziamento minimo obbligatorio' (compulsory minimum distance): every vehicle must stay at least the distance shown, here 70 m, behind the vehicle in front.",
+   "trap": "'almeno' (at least) is right: 70 m or more.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At least 70 m from the vehicle ahead",
+    "it": "distanza",
+    "lines": [
+     "Stay at least 70 m behind the vehicle ahead",
+     "Applies to every vehicle, at any speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligatorio",
+    "en": "compulsory"
+   },
+   {
+    "it": "almeno 70 metri",
+    "en": "at least 70 metres"
+   },
+   {
+    "it": "veicolo che precede",
+    "en": "vehicle in front"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19581": {
+  "en": "Where the sign shown is present, a vehicle may drive 80 metres behind the one in front.",
+  "explain": {
+   "short": "80 m is more than the minimum of 70 m, so it is allowed.",
+   "rule": "'Distanziamento minimo obbligatorio' (compulsory minimum distance): every vehicle must stay at least the distance shown, here 70 m, behind the vehicle in front.",
+   "trap": "'80 metri' is more than 70: the sign sets a minimum, not a maximum.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "80 m is fine: more than 70 m",
+    "it": "80 metri",
+    "lines": [
+     "Stay at least 70 m behind the vehicle ahead",
+     "Applies to every vehicle, at any speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito",
+    "en": "is allowed"
+   },
+   {
+    "it": "80 metri",
+    "en": "80 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19582": {
+  "en": "The sign shown forbids a vehicle to drive less than 70 metres behind the one in front.",
+  "explain": {
+   "short": "Closer than 70 m is not allowed: that is the minimum distance.",
+   "rule": "'Distanziamento minimo obbligatorio' (compulsory minimum distance): every vehicle must stay at least the distance shown, here 70 m, behind the vehicle in front.",
+   "trap": "'a meno di 70 metri' (less than 70 m) is exactly what is forbidden.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Closer than 70 m is forbidden",
+    "it": "a meno di 70 metri",
+    "lines": [
+     "Stay at least 70 m behind the vehicle ahead",
+     "Applies to every vehicle, at any speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "forbids"
+   },
+   {
+    "it": "a meno di 70 metri",
+    "en": "less than 70 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19583": {
+  "en": "The sign shown also applies to motorcycles.",
+  "explain": {
+   "short": "The minimum distance applies to every vehicle, motorcycles included.",
+   "rule": "'Distanziamento minimo obbligatorio' (compulsory minimum distance): every vehicle must stay at least the distance shown, here 70 m, behind the vehicle in front.",
+   "trap": "'anche' (also): motorcycles have no exception.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorcycles too",
+    "it": "motocicli",
+    "lines": [
+     "Stay at least 70 m behind the vehicle ahead",
+     "Applies to every vehicle, at any speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "vale anche",
+    "en": "also applies"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19584": {
+  "en": "The sign shown must be obeyed even when driving at low speed.",
+  "explain": {
+   "short": "The 70 m minimum holds at any speed, slow or fast.",
+   "rule": "'Distanziamento minimo obbligatorio' (compulsory minimum distance): every vehicle must stay at least the distance shown, here 70 m, behind the vehicle in front.",
+   "trap": "'anche quando' (even when): low speed gives no exception.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Valid at any speed",
+    "it": "bassa velocità",
+    "lines": [
+     "Stay at least 70 m behind the vehicle ahead",
+     "Applies to every vehicle, at any speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve essere rispettato",
+    "en": "must be obeyed"
+   },
+   {
+    "it": "bassa velocità",
+    "en": "low speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19585": {
+  "en": "The sign shown requires you to keep the minimum distance shown.",
+  "explain": {
+   "short": "That is the meaning of the sign: keep at least the distance written on it.",
+   "rule": "'Distanziamento minimo obbligatorio' (compulsory minimum distance): every vehicle must stay at least the distance shown, here 70 m, behind the vehicle in front.",
+   "trap": "'distanza minima' (minimum distance) is right: at least, not at most.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Keep at least the distance shown",
+    "it": "distanza minima",
+    "lines": [
+     "Stay at least 70 m behind the vehicle ahead",
+     "Applies to every vehicle, at any speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga",
+    "en": "requires"
+   },
+   {
+    "it": "distanza minima",
+    "en": "minimum distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19586": {
+  "en": "The sign shown requires vehicles to drive less than 70 metres apart.",
+  "explain": {
+   "short": "It is the opposite: vehicles must stay MORE than 70 m apart.",
+   "rule": "'Distanziamento minimo obbligatorio' (compulsory minimum distance): every vehicle must stay at least the distance shown, here 70 m, behind the vehicle in front.",
+   "trap": "'a meno di' (less than) turns the rule upside down.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: at least 70 m, not less",
+    "it": "a meno di 70 metri",
+    "lines": [
+     "Stay at least 70 m behind the vehicle ahead",
+     "Applies to every vehicle, at any speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga",
+    "en": "requires"
+   },
+   {
+    "it": "a meno di 70 metri",
+    "en": "less than 70 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19587": {
+  "en": "The sign shown requires the vehicle in front to keep the one behind at least 70 metres away.",
+  "explain": {
+   "short": "The duty is on the vehicle BEHIND: it must keep 70 m from the one in front.",
+   "rule": "'Distanziamento minimo obbligatorio' (compulsory minimum distance): every vehicle must stay at least the distance shown, here 70 m, behind the vehicle in front.",
+   "trap": "'il veicolo che precede' (the vehicle in front) is the wrong one: it is the follower's job.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: the follower keeps the distance",
+    "it": "veicolo che precede",
+    "lines": [
+     "Stay at least 70 m behind the vehicle ahead",
+     "Applies to every vehicle, at any speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo che precede",
+    "en": "vehicle in front"
+   },
+   {
+    "it": "quello che lo segue",
+    "en": "the one behind"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19588": {
+  "en": "The sign shown gives the maximum distance to keep, only on stretches where overtaking is forbidden.",
+  "explain": {
+   "short": "It is a MINIMUM distance, valid wherever the sign is, not only where overtaking is banned.",
+   "rule": "'Distanziamento minimo obbligatorio' (compulsory minimum distance): every vehicle must stay at least the distance shown, here 70 m, behind the vehicle in front.",
+   "trap": "'massima' (maximum) and 'esclusivamente' (only) are both wrong.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: a minimum, valid wherever posted",
+    "it": "distanza massima",
+    "lines": [
+     "Stay at least 70 m behind the vehicle ahead",
+     "Applies to every vehicle, at any speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza massima",
+    "en": "maximum distance"
+   },
+   {
+    "it": "esclusivamente",
+    "en": "only"
+   },
+   {
+    "it": "sorpasso è vietato",
+    "en": "overtaking is forbidden"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19589": {
+  "en": "The sign shown warns that a ban on cars begins in 70 metres.",
+  "explain": {
+   "short": "The 70 m is the gap between vehicles, not the distance to a ban.",
+   "rule": "'Distanziamento minimo obbligatorio' (compulsory minimum distance): every vehicle must stay at least the distance shown, here 70 m, behind the vehicle in front.",
+   "trap": "'preavvisa' (warns in advance) is wrong: it is a prescription about following distance.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: 70 m is the gap between vehicles",
+    "it": "preavvisa",
+    "lines": [
+     "Stay at least 70 m behind the vehicle ahead",
+     "Applies to every vehicle, at any speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "warns in advance"
+   },
+   {
+    "it": "divieto di transito",
+    "en": "no-vehicles ban"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19590": {
+  "en": "Where the sign shown is present, cars may not go faster than 70 km/h.",
+  "explain": {
+   "short": "The number is a distance in metres, not a speed limit.",
+   "rule": "'Distanziamento minimo obbligatorio' (compulsory minimum distance): every vehicle must stay at least the distance shown, here 70 m, behind the vehicle in front.",
+   "trap": "'70 km/h' is wrong: the sign shows '70 m' (metres).",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: 70 m distance, not 70 km/h",
+    "it": "velocità",
+    "lines": [
+     "Stay at least 70 m behind the vehicle ahead",
+     "Applies to every vehicle, at any speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non possono superare",
+    "en": "may not exceed"
+   },
+   {
+    "it": "velocità",
+    "en": "speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19591": {
+  "en": "The sign shown gives the maximum length of the tow rope.",
+  "explain": {
+   "short": "It shows the minimum distance between moving vehicles, not a tow rope.",
+   "rule": "'Distanziamento minimo obbligatorio' (compulsory minimum distance): every vehicle must stay at least the distance shown, here 70 m, behind the vehicle in front.",
+   "trap": "'cavo di traino' (tow rope) has nothing to do with this sign.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: gap between vehicles, not tow rope",
+    "it": "cavo di traino",
+    "lines": [
+     "Stay at least 70 m behind the vehicle ahead",
+     "Applies to every vehicle, at any speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "lunghezza massima",
+    "en": "maximum length"
+   },
+   {
+    "it": "cavo di traino",
+    "en": "tow rope"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

@@ -1,0 +1,3225 @@
+{
+ "q18637": {
+  "en": "Motor vehicles (autoveicoli) are motor vehicles with at least four wheels, excluding quadricycles.",
+  "explain": {
+   "short": "This is the exact definition: an engine, four or more wheels, and quadricycles are left out.",
+   "rule": "An autoveicolo (motor vehicle) has an engine and at least four wheels. Quadricycles are excluded.",
+   "trap": "'esclusi' means 'excluded': quadricycles are NOT autoveicoli.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Engine + 4 or more wheels, but no quadricycles",
+    "it": "autoveicoli",
+    "lines": [
+     "Has an engine",
+     "At least 4 wheels",
+     "Quadricycles excluded"
+    ],
+    "icons": [
+     "engine",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autoveicoli",
+    "en": "motor vehicles (4+ wheels)"
+   },
+   {
+    "it": "almeno quattro ruote",
+    "en": "at least four wheels"
+   },
+   {
+    "it": "esclusi i quadricicli",
+    "en": "excluding quadricycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18638": {
+  "en": "A motor vehicle (autoveicolo) is a motor vehicle with no fewer than four wheels, except quadricycles.",
+  "explain": {
+   "short": "'No fewer than four' is the same as 'at least four'. With the engine and without quadricycles, this is the correct definition.",
+   "rule": "An autoveicolo (motor vehicle) has an engine and at least four wheels. Quadricycles are excluded.",
+   "trap": "'non meno di quattro' = 'at least four'; 'eccetto' = 'except'.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At least 4 wheels, engine, quadricycles excluded",
+    "it": "eccetto",
+    "lines": [
+     "Has an engine",
+     "4 or more wheels",
+     "Not quadricycles"
+    ],
+    "icons": [
+     "engine",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non meno di quattro ruote",
+    "en": "no fewer than four wheels"
+   },
+   {
+    "it": "eccetto i quadricicli",
+    "en": "except quadricycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18639": {
+  "en": "The bus is classified as a motor vehicle (autoveicolo).",
+  "explain": {
+   "short": "A bus has an engine and at least four wheels, so it is an autoveicolo.",
+   "rule": "An autoveicolo (motor vehicle) has an engine and at least four wheels. Quadricycles are excluded.",
+   "trap": "'autoveicolo' is the big family; 'autobus' is one member of it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bus: engine + 4 or more wheels = autoveicolo",
+    "it": "autobus",
+    "lines": [
+     "Bus has an engine",
+     "Bus has 4+ wheels",
+     "So: autoveicolo"
+    ],
+    "icons": [
+     "engine",
+     "bus",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autobus",
+    "en": "bus"
+   },
+   {
+    "it": "classificato autoveicolo",
+    "en": "classified as a motor vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18640": {
+  "en": "The lorry (autocarro) is a motor vehicle (autoveicolo).",
+  "explain": {
+   "short": "A lorry has an engine and at least four wheels, so it belongs to the autoveicoli.",
+   "rule": "An autoveicolo (motor vehicle) has an engine and at least four wheels. Quadricycles are excluded.",
+   "trap": "'autocarro' (lorry, for goods) is not 'autovettura' (car), but both are 'autoveicoli'.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lorry: engine + 4 or more wheels = autoveicolo",
+    "it": "autocarro",
+    "lines": [
+     "Lorry has an engine",
+     "Lorry has 4+ wheels",
+     "So: autoveicolo"
+    ],
+    "icons": [
+     "engine",
+     "truck",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarro",
+    "en": "lorry / truck"
+   },
+   {
+    "it": "autoveicolo",
+    "en": "motor vehicle (4+ wheels)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18641": {
+  "en": "Quadricycles are not motor vehicles (autoveicoli).",
+  "explain": {
+   "short": "The law excludes quadricycles from the autoveicoli, even though they have four wheels and an engine.",
+   "rule": "An autoveicolo (motor vehicle) has an engine and at least four wheels. Quadricycles are excluded.",
+   "trap": "'quadricicli' have four wheels, but the definition says 'esclusi': they are not autoveicoli.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Quadricycles: 4 wheels, but not autoveicoli",
+    "it": "quadricicli",
+    "lines": [
+     "Quadricycle: 4 wheels",
+     "But excluded by law",
+     "Not an autoveicolo"
+    ],
+    "icons": [
+     "car",
+     "book",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "quadricicli",
+    "en": "quadricycles"
+   },
+   {
+    "it": "non sono autoveicoli",
+    "en": "are not motor vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18642": {
+  "en": "Motor vehicles (autoveicoli) are all motor vehicles with four or more wheels, including quadricycles.",
+  "explain": {
+   "short": "Quadricycles are excluded from the autoveicoli, not included.",
+   "rule": "An autoveicolo (motor vehicle) has an engine and at least four wheels. Quadricycles are excluded.",
+   "trap": "'compresi' (including) is the trap: the correct word is 'esclusi' (excluded).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Quadricycles are EXCLUDED, not included",
+    "it": "compresi",
+    "lines": [
+     "Engine + 4 or more wheels",
+     "Quadricycles excluded"
+    ],
+    "icons": [
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "quattro o più ruote",
+    "en": "four or more wheels"
+   },
+   {
+    "it": "compresi i quadricicli",
+    "en": "including quadricycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18643": {
+  "en": "Motor vehicles (autoveicoli) are all vehicles with at least two wheels.",
+  "explain": {
+   "short": "Autoveicoli need at least four wheels and an engine. Two-wheelers are motorcycles or mopeds, not autoveicoli.",
+   "rule": "An autoveicolo (motor vehicle) has an engine and at least four wheels. Quadricycles are excluded.",
+   "trap": "'almeno due ruote' is wrong: the definition says at least FOUR wheels.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Autoveicoli need at least 4 wheels, not 2",
+    "it": "due ruote",
+    "lines": [
+     "2 wheels: moto, not autoveicolo",
+     "Autoveicolo: 4+ wheels + engine"
+    ],
+    "icons": [
+     "moto",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autoveicoli",
+    "en": "motor vehicles (4+ wheels)"
+   },
+   {
+    "it": "almeno due ruote",
+    "en": "at least two wheels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18644": {
+  "en": "Motor vehicles (autoveicoli) are all vehicles with at least four wheels, including those without an engine.",
+  "explain": {
+   "short": "An autoveicolo must have an engine. A vehicle without an engine, like a trailer, is not an autoveicolo.",
+   "rule": "An autoveicolo (motor vehicle) has an engine and at least four wheels. Quadricycles are excluded.",
+   "trap": "'compresi quelli senza motore' is the trap: no engine means no autoveicolo.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No engine = not an autoveicolo",
+    "it": "senza motore",
+    "lines": [
+     "Autoveicolo needs an engine",
+     "No engine: not autoveicolo"
+    ],
+    "icons": [
+     "engine",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "almeno quattro ruote",
+    "en": "at least four wheels"
+   },
+   {
+    "it": "senza motore",
+    "en": "without an engine"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18645": {
+  "en": "The motor tricycle is a motor vehicle (autoveicolo).",
+  "explain": {
+   "short": "A tricycle has only three wheels. Autoveicoli need at least four.",
+   "rule": "An autoveicolo (motor vehicle) has an engine and at least four wheels. Quadricycles are excluded.",
+   "trap": "'triciclo' means three wheels: one too few for an 'autoveicolo'.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tricycle: 3 wheels, so not an autoveicolo",
+    "it": "triciclo",
+    "lines": [
+     "Tricycle: only 3 wheels",
+     "Autoveicolo: at least 4"
+    ],
+    "icons": [
+     "moto",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "triciclo a motore",
+    "en": "motor tricycle"
+   },
+   {
+    "it": "autoveicolo",
+    "en": "motor vehicle (4+ wheels)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18646": {
+  "en": "A motor vehicle (autoveicolo) is any motor vehicle.",
+  "explain": {
+   "short": "Not every motor vehicle is an autoveicolo: motorcycles, mopeds, tricycles and quadricycles are not.",
+   "rule": "An autoveicolo (motor vehicle) has an engine and at least four wheels. Quadricycles are excluded.",
+   "trap": "'qualunque' (any) is too wide: you also need at least four wheels.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not ANY motor vehicle: 4+ wheels needed",
+    "it": "qualunque",
+    "lines": [
+     "Moto, moped: not autoveicoli",
+     "Need engine + 4 or more wheels"
+    ],
+    "icons": [
+     "moto",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autoveicolo",
+    "en": "motor vehicle (4+ wheels)"
+   },
+   {
+    "it": "qualunque veicolo a motore",
+    "en": "any motor vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18647": {
+  "en": "A motor vehicle (autoveicolo) is any vehicle used to carry goods.",
+  "explain": {
+   "short": "An autoveicolo is defined by engine and wheels, not by what it carries. It can carry people or goods.",
+   "rule": "An autoveicolo (motor vehicle) has an engine and at least four wheels. Quadricycles are excluded.",
+   "trap": "'qualunque veicolo adibito al trasporto di merce' is wrong: a cart for goods is not an autoveicolo.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Defined by engine + wheels, not by goods",
+    "it": "merce",
+    "lines": [
+     "Engine + 4 or more wheels",
+     "People or goods: both OK"
+    ],
+    "icons": [
+     "engine",
+     "truck"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "qualunque veicolo",
+    "en": "any vehicle"
+   },
+   {
+    "it": "trasporto di merce",
+    "en": "carrying goods"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18648": {
+  "en": "The car (autovettura) is a motor vehicle with four wheels, made to carry at most nine people, including the driver.",
+  "explain": {
+   "short": "This is the definition of a car: four wheels, an engine, maximum nine people with the driver.",
+   "rule": "An autovettura (car) carries people: max 9 seats including the driver. It is a type of autoveicolo.",
+   "trap": "'compreso il conducente' means the driver counts in the nine.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Car: max 9 people, driver included",
+    "it": "autovettura",
+    "lines": [
+     "Carries people",
+     "Max 9 seats with driver"
+    ],
+    "icons": [
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autovettura",
+    "en": "car"
+   },
+   {
+    "it": "massimo nove persone",
+    "en": "at most nine people"
+   },
+   {
+    "it": "compreso il conducente",
+    "en": "including the driver"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18649": {
+  "en": "The car (autovettura) is one of the motor vehicles (autoveicoli).",
+  "explain": {
+   "short": "A car has an engine and four wheels, so it is a type of autoveicolo.",
+   "rule": "An autovettura (car) carries people: max 9 seats including the driver. It is a type of autoveicolo.",
+   "trap": "'fa parte' means 'belongs to': autovettura is inside the autoveicolo family.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Car is a kind of autoveicolo",
+    "it": "fa parte",
+    "lines": [
+     "Autoveicoli: cars, buses, lorries",
+     "Car = autoveicolo"
+    ],
+    "icons": [
+     "truck",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autovettura",
+    "en": "car"
+   },
+   {
+    "it": "fa parte degli autoveicoli",
+    "en": "belongs to the motor vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18650": {
+  "en": "The car (autovettura) cannot have more than nine seats, including the driver.",
+  "explain": {
+   "short": "Nine seats with the driver is the maximum for a car. With more seats it is a bus.",
+   "rule": "An autovettura (car) carries people: max 9 seats including the driver. It is a type of autoveicolo.",
+   "trap": "'non può avere più di nove' = 'nine at most': correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Max 9 seats, driver included",
+    "it": "nove posti",
+    "lines": [
+     "Car: up to 9 seats",
+     "More than 9: bus"
+    ],
+    "icons": [
+     "car",
+     "bus"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non può avere più di nove posti",
+    "en": "cannot have more than nine seats"
+   },
+   {
+    "it": "compreso il conducente",
+    "en": "including the driver"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18651": {
+  "en": "The bus is not a car (autovettura).",
+  "explain": {
+   "short": "A bus carries more than nine people, so it is not a car. It is still an autoveicolo.",
+   "rule": "An autovettura (car) carries people: max 9 seats including the driver. It is a type of autoveicolo.",
+   "trap": "'autobus' and 'autovettura' are both autoveicoli, but different types.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bus: more than 9 seats, not a car",
+    "it": "autobus",
+    "lines": [
+     "Car: up to 9 seats",
+     "Bus: more than 9 seats"
+    ],
+    "icons": [
+     "car",
+     "bus"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autobus",
+    "en": "bus"
+   },
+   {
+    "it": "non è un'autovettura",
+    "en": "is not a car"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18652": {
+  "en": "Cars (autovetture) can have an electric engine.",
+  "explain": {
+   "short": "The definition of a car does not depend on the engine type. Electric cars are cars.",
+   "rule": "An autovettura (car) carries people: max 9 seats including the driver. It is a type of autoveicolo.",
+   "trap": "'possono' (can) is right: the type of engine does not matter.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Petrol, diesel or electric: still a car",
+    "it": "motore elettrico",
+    "lines": [
+     "Any engine type is OK",
+     "Electric car = autovettura"
+    ],
+    "icons": [
+     "engine",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autovetture",
+    "en": "cars"
+   },
+   {
+    "it": "motore elettrico",
+    "en": "electric engine"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18653": {
+  "en": "Cars (autovetture) must undergo a periodic roadworthiness test (revisione).",
+  "explain": {
+   "short": "Cars must pass a periodic check of safety and emissions: first after 4 years, then every 2 years.",
+   "rule": "An autovettura (car) carries people: max 9 seats including the driver. It is a type of autoveicolo.",
+   "trap": "'revisione periodica' is the regular official check: it is compulsory.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Revisione: after 4 years, then every 2",
+    "it": "revisione",
+    "lines": [
+     "First check after 4 years",
+     "Then every 2 years"
+    ],
+    "icons": [
+     "check",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autovetture",
+    "en": "cars"
+   },
+   {
+    "it": "revisione periodica",
+    "en": "periodic roadworthiness test"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18654": {
+  "en": "All motor vehicles with rear-wheel drive are defined as cars (autovetture).",
+  "explain": {
+   "short": "A car is defined by its use (carrying people, max 9 seats), not by which wheels are driven.",
+   "rule": "An autovettura (car) carries people: max 9 seats including the driver. It is a type of autoveicolo.",
+   "trap": "'trazione posteriore' (rear-wheel drive) has nothing to do with the definition.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Drive wheels don't define a car",
+    "it": "trazione",
+    "lines": [
+     "Car: carries people, max 9",
+     "Front or rear drive: no matter"
+    ],
+    "icons": [
+     "car",
+     "tyre"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tutti i veicoli a motore",
+    "en": "all motor vehicles"
+   },
+   {
+    "it": "trazione posteriore",
+    "en": "rear-wheel drive"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18655": {
+  "en": "Cars (autovetture) cannot tow small trailers (carrelli-appendice) or trailers.",
+  "explain": {
+   "short": "Cars can tow a trailer or a small luggage trailer, if they have a tow hitch and respect the weight limits.",
+   "rule": "An autovettura (car) carries people: max 9 seats including the driver. It is a type of autoveicolo.",
+   "trap": "'non possono trainare' is the trap: cars CAN tow.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cars can tow trailers",
+    "it": "trainare",
+    "lines": [
+     "Car + tow hitch",
+     "Can tow a trailer"
+    ],
+    "icons": [
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non possono trainare",
+    "en": "cannot tow"
+   },
+   {
+    "it": "carrelli-appendice",
+    "en": "small luggage trailers"
+   },
+   {
+    "it": "rimorchi",
+    "en": "trailers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18656": {
+  "en": "All vehicles with a front engine are defined as cars (autovetture).",
+  "explain": {
+   "short": "The position of the engine does not define a car. Many lorries and buses also have a front engine.",
+   "rule": "An autovettura (car) carries people: max 9 seats including the driver. It is a type of autoveicolo.",
+   "trap": "'motore anteriore' (front engine) is not part of the definition.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Engine position doesn't define a car",
+    "it": "motore anteriore",
+    "lines": [
+     "Car: carries people, max 9",
+     "Engine front or back: no matter"
+    ],
+    "icons": [
+     "car",
+     "engine"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autovetture",
+    "en": "cars"
+   },
+   {
+    "it": "motore anteriore",
+    "en": "front engine"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18657": {
+  "en": "The car (autovettura) is a vehicle with ten seats in total, including the driver.",
+  "explain": {
+   "short": "A car has at most nine seats, driver included. Ten seats is too many.",
+   "rule": "An autovettura (car) carries people: max 9 seats including the driver. It is a type of autoveicolo.",
+   "trap": "'dieci posti' (ten seats) is one more than the limit of nine.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Max 9 seats, not 10",
+    "it": "dieci posti",
+    "lines": [
+     "Car: max 9 seats",
+     "10 seats: not a car"
+    ],
+    "icons": [
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dieci posti in totale",
+    "en": "ten seats in total"
+   },
+   {
+    "it": "compreso il conducente",
+    "en": "including the driver"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18658": {
+  "en": "A car (autovettura) is defined as an armoured vehicle specially equipped to carry valuables.",
+  "explain": {
+   "short": "An armoured van for money and valuables is a special-use vehicle, not a car. A car is simply for people.",
+   "rule": "An autovettura (car) carries people: max 9 seats including the driver. It is a type of autoveicolo.",
+   "trap": "'blindato' (armoured) and 'trasporto di valori' describe a special vehicle, not a car.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Armoured van for valuables: not a car",
+    "it": "blindato",
+    "lines": [
+     "Car: carries people",
+     "Armoured van: special vehicle"
+    ],
+    "icons": [
+     "car",
+     "truck"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo blindato",
+    "en": "armoured vehicle"
+   },
+   {
+    "it": "trasporto di valori",
+    "en": "carrying valuables"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18659": {
+  "en": "The lorry (autocarro) is a car (autovettura).",
+  "explain": {
+   "short": "A lorry carries goods; a car carries people. Both are autoveicoli, but a lorry is not a car.",
+   "rule": "An autovettura (car) carries people: max 9 seats including the driver. It is a type of autoveicolo.",
+   "trap": "'autocarro' (lorry) and 'autovettura' (car) sound similar but are different.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lorry carries goods, car carries people",
+    "it": "autocarro",
+    "lines": [
+     "Autocarro: carries goods",
+     "Autovettura: carries people"
+    ],
+    "icons": [
+     "truck",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarro",
+    "en": "lorry / truck"
+   },
+   {
+    "it": "un'autovettura",
+    "en": "a car"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18660": {
+  "en": "The car (autovettura) can have at most five seats.",
+  "explain": {
+   "short": "The limit for a car is nine seats with the driver, not five. Many cars have seven seats.",
+   "rule": "An autovettura (car) carries people: max 9 seats including the driver. It is a type of autoveicolo.",
+   "trap": "'al massimo, cinque' is the trap: the real maximum is nine.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Max 9 seats, not 5",
+    "it": "cinque posti",
+    "lines": [
+     "Car: up to 9 seats",
+     "Driver included"
+    ],
+    "icons": [
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "al massimo",
+    "en": "at most"
+   },
+   {
+    "it": "cinque posti",
+    "en": "five seats"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18661": {
+  "en": "Cars (autovetture) must undergo the roadworthiness test (revisione) every five years.",
+  "explain": {
+   "short": "The first revisione is after 4 years, then every 2 years. Never every 5 years.",
+   "rule": "An autovettura (car) carries people: max 9 seats including the driver. It is a type of autoveicolo.",
+   "trap": "'ogni cinque anni' (every five years) is the wrong number.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Revisione: after 4 years, then every 2",
+    "it": "ogni cinque anni",
+    "lines": [
+     "First check after 4 years",
+     "Then every 2 years"
+    ],
+    "icons": [
+     "check",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "revisione",
+    "en": "roadworthiness test"
+   },
+   {
+    "it": "ogni cinque anni",
+    "en": "every five years"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18662": {
+  "en": "Trailers (rimorchi) or semi-trailers (semirimorchi) are vehicles without an engine, made to be towed.",
+  "explain": {
+   "short": "Trailers and semi-trailers have no engine. A motor vehicle pulls them.",
+   "rule": "Trailers and semi-trailers have no engine and are towed. Light trailers: max 750 kg fully loaded.",
+   "trap": "'privi di motore' means 'without an engine': that is what makes them trailers.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No engine: made to be towed",
+    "it": "privi di motore",
+    "lines": [
+     "No engine",
+     "Pulled by a motor vehicle"
+    ],
+    "icons": [
+     "cross",
+     "truck"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rimorchi",
+    "en": "trailers"
+   },
+   {
+    "it": "semirimorchi",
+    "en": "semi-trailers"
+   },
+   {
+    "it": "privi di motore",
+    "en": "without an engine"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18663": {
+  "en": "Light trailers are those with a maximum fully-loaded mass of up to 750 kg.",
+  "explain": {
+   "short": "The limit for a light trailer is 750 kg fully loaded.",
+   "rule": "Trailers and semi-trailers have no engine and are towed. Light trailers: max 750 kg fully loaded.",
+   "trap": "'a pieno carico' means fully loaded: the 750 kg includes the load.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Light trailer: max 750 kg fully loaded",
+    "it": "750 kg",
+    "lines": [
+     "Light trailer",
+     "Max 750 kg with the load"
+    ],
+    "icons": [
+     "truck",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rimorchi leggeri",
+    "en": "light trailers"
+   },
+   {
+    "it": "a pieno carico",
+    "en": "fully loaded"
+   },
+   {
+    "it": "750 kg",
+    "en": "750 kg"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18664": {
+  "en": "The articulated bus (autosnodato) is not classified as a trailer.",
+  "explain": {
+   "short": "An autosnodato is a bus made of two parts joined together, with its own engine. So it is not a trailer.",
+   "rule": "Trailers and semi-trailers have no engine and are towed. Light trailers: max 750 kg fully loaded.",
+   "trap": "'autosnodato' is a bendy bus, not a towed vehicle.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bendy bus has an engine: not a trailer",
+    "it": "autosnodato",
+    "lines": [
+     "Autosnodato: bendy bus",
+     "Has an engine: not a trailer"
+    ],
+    "icons": [
+     "bus",
+     "engine"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autosnodato",
+    "en": "articulated (bendy) bus"
+   },
+   {
+    "it": "non è classificato rimorchio",
+    "en": "is not classified as a trailer"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18665": {
+  "en": "The motorhome (autocaravan) is not a trailer.",
+  "explain": {
+   "short": "An autocaravan (camper van) has its own engine and drives by itself. So it is not a trailer.",
+   "rule": "Trailers and semi-trailers have no engine and are towed. Light trailers: max 750 kg fully loaded.",
+   "trap": "Do not mix 'autocaravan' (has an engine) with 'caravan' (towed).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorhome drives itself: not a trailer",
+    "it": "autocaravan",
+    "lines": [
+     "Autocaravan: own engine",
+     "Caravan: towed trailer"
+    ],
+    "icons": [
+     "engine",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocaravan",
+    "en": "motorhome / camper van"
+   },
+   {
+    "it": "non è un rimorchio",
+    "en": "is not a trailer"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18666": {
+  "en": "The caravan is not a trailer.",
+  "explain": {
+   "short": "A caravan has no engine and is towed by a car, so it IS a trailer.",
+   "rule": "Trailers and semi-trailers have no engine and are towed. Light trailers: max 750 kg fully loaded.",
+   "trap": "'caravan' (towed) is a trailer; 'autocaravan' (motorhome) is not.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Caravan is towed: it IS a trailer",
+    "it": "caravan",
+    "lines": [
+     "Caravan: no engine",
+     "Towed by a car: trailer"
+    ],
+    "icons": [
+     "cross",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "caravan",
+    "en": "caravan (towed)"
+   },
+   {
+    "it": "non è un rimorchio",
+    "en": "is not a trailer"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18667": {
+  "en": "Light trailers are those with a maximum fully-loaded mass of up to 500 kg.",
+  "explain": {
+   "short": "The limit for a light trailer is 750 kg fully loaded, not 500 kg.",
+   "rule": "Trailers and semi-trailers have no engine and are towed. Light trailers: max 750 kg fully loaded.",
+   "trap": "'500 kg' is the wrong number: the right one is 750 kg.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Light trailer limit is 750 kg, not 500",
+    "it": "500 kg",
+    "lines": [
+     "Light trailer",
+     "Max 750 kg with the load"
+    ],
+    "icons": [
+     "truck",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rimorchi leggeri",
+    "en": "light trailers"
+   },
+   {
+    "it": "500 kg",
+    "en": "500 kg"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18668": {
+  "en": "Semi-trailers (semirimorchi) are trailers without a braking system.",
+  "explain": {
+   "short": "Semi-trailers are heavy and they do have brakes. Without brakes they would be very dangerous.",
+   "rule": "Trailers and semi-trailers have no engine and are towed. Light trailers: max 750 kg fully loaded.",
+   "trap": "'privi di impianto frenante' (without brakes) is the trap.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Semi-trailers DO have brakes",
+    "it": "impianto frenante",
+    "lines": [
+     "Semi-trailer: no engine",
+     "But it has brakes"
+    ],
+    "icons": [
+     "truck",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "semirimorchi",
+    "en": "semi-trailers"
+   },
+   {
+    "it": "privi di impianto frenante",
+    "en": "without a braking system"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18669": {
+  "en": "Trailers are fitted with a silencer.",
+  "explain": {
+   "short": "A silencer reduces engine noise. Trailers have no engine, so they have no silencer.",
+   "rule": "Trailers and semi-trailers have no engine and are towed. Light trailers: max 750 kg fully loaded.",
+   "trap": "'silenziatore' (silencer) belongs to an engine; trailers have none.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No engine, so no silencer",
+    "it": "silenziatore",
+    "lines": [
+     "Trailer: no engine",
+     "So no silencer"
+    ],
+    "icons": [
+     "cross",
+     "engine"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rimorchi",
+    "en": "trailers"
+   },
+   {
+    "it": "silenziatore",
+    "en": "silencer / muffler"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18670": {
+  "en": "Junctions must be kept clear in heavy traffic.",
+  "explain": {
+   "short": "If you stop in a junction, cross traffic is blocked. Enter only if you can get out the other side.",
+   "rule": "In queues keep free: all junctions, level crossings, tram tracks, pedestrian/cycle crossings and road entries.",
+   "trap": "'incroci' means junctions: all of them must stay free.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Don't enter the junction if you can't exit",
+    "it": "incroci",
+    "part": "intersezione"
+   }
+  },
+  "keywords": [
+   {
+    "it": "lasciare liberi",
+    "en": "keep clear"
+   },
+   {
+    "it": "incroci",
+    "en": "junctions"
+   },
+   {
+    "it": "traffico intenso",
+    "en": "heavy traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18671": {
+  "en": "Level crossings and tram tracks must be kept clear even in heavy traffic.",
+  "explain": {
+   "short": "Never stop on rails: a train or tram cannot stop or swerve to avoid you.",
+   "rule": "In queues keep free: all junctions, level crossings, tram tracks, pedestrian/cycle crossings and road entries.",
+   "trap": "'anche' (even) shows there is no exception for heavy traffic.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Never wait on rails or level crossings",
+    "it": "binari",
+    "lines": [
+     "Never stop on rails",
+     "Train and tram can't swerve"
+    ],
+    "icons": [
+     "train",
+     "tram"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passaggi a livello",
+    "en": "level crossings"
+   },
+   {
+    "it": "binari del tram",
+    "en": "tram tracks"
+   },
+   {
+    "it": "traffico intenso",
+    "en": "heavy traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18672": {
+  "en": "Pedestrian crossings and cycle crossings must be kept clear when queues of vehicles form.",
+  "explain": {
+   "short": "Pedestrians and cyclists must be able to cross. If your car stops on the crossing, they have to go around it.",
+   "rule": "In queues keep free: all junctions, level crossings, tram tracks, pedestrian/cycle crossings and road entries.",
+   "trap": "'formazione di code' means a queue is forming: stop before the crossing.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stop before the crossing, not on it",
+    "it": "attraversamenti",
+    "part": "passaggioPedonale"
+   }
+  },
+  "keywords": [
+   {
+    "it": "attraversamenti pedonali",
+    "en": "pedestrian crossings"
+   },
+   {
+    "it": "ciclabili",
+    "en": "cycle (crossings)"
+   },
+   {
+    "it": "code di veicoli",
+    "en": "queues of vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18673": {
+  "en": "Road entries (junctions, merges, car park entrances, etc.) must be kept clear even in heavy traffic.",
+  "explain": {
+   "short": "Other vehicles need to get in and out. If you block the entry, everything gets stuck.",
+   "rule": "In queues keep free: all junctions, level crossings, tram tracks, pedestrian/cycle crossings and road entries.",
+   "trap": "'immissioni' means places where vehicles enter the road: keep them free.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Leave road entries free for others",
+    "it": "immissioni",
+    "lines": [
+     "Leave a gap at entries",
+     "Others can get in and out"
+    ],
+    "icons": [
+     "road",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "immissioni stradali",
+    "en": "road entries"
+   },
+   {
+    "it": "ingressi dei parcheggi",
+    "en": "car park entrances"
+   },
+   {
+    "it": "traffico intenso",
+    "en": "heavy traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18674": {
+  "en": "Only junctions controlled by traffic lights must be kept clear when queues form.",
+  "explain": {
+   "short": "ALL junctions must be kept clear, with or without traffic lights.",
+   "rule": "In queues keep free: all junctions, level crossings, tram tracks, pedestrian/cycle crossings and road entries.",
+   "trap": "'solo' (only) is the trap: the rule covers every junction.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "ALL junctions, not only those with lights",
+    "it": "solo",
+    "lines": [
+     "Junction with lights: free",
+     "Junction without lights: free"
+    ],
+    "icons": [
+     "light",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "regolati da semaforo",
+    "en": "controlled by traffic lights"
+   },
+   {
+    "it": "code di veicoli",
+    "en": "queues of vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18675": {
+  "en": "Overpasses must be kept clear in heavy traffic.",
+  "explain": {
+   "short": "An overpass is just a road on a bridge; nobody needs to cross there. You may queue on it.",
+   "rule": "In queues keep free: all junctions, level crossings, tram tracks, pedestrian/cycle crossings and road entries.",
+   "trap": "'cavalcavia' (overpass) is not one of the places to keep free.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Queuing on an overpass is allowed",
+    "it": "cavalcavia",
+    "lines": [
+     "Keep free: crossings, junctions",
+     "Overpass: you may queue"
+    ],
+    "icons": [
+     "road",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cavalcavia",
+    "en": "overpass"
+   },
+   {
+    "it": "traffico intenso",
+    "en": "heavy traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18676": {
+  "en": "Tunnels must be kept clear when queues of vehicles form.",
+  "explain": {
+   "short": "You may queue in a tunnel; it is not a crossing point. The rule is about places where others must pass across.",
+   "rule": "In queues keep free: all junctions, level crossings, tram tracks, pedestrian/cycle crossings and road entries.",
+   "trap": "'gallerie' (tunnels) are not in the list of places to keep free.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Queuing in a tunnel is allowed",
+    "it": "gallerie",
+    "lines": [
+     "Keep free: crossings, junctions",
+     "Tunnel: you may queue"
+    ],
+    "icons": [
+     "road",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "gallerie",
+    "en": "tunnels"
+   },
+   {
+    "it": "code di veicoli",
+    "en": "queues of vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18677": {
+  "en": "Entrances to private homes must be kept clear when queues of vehicles form.",
+  "explain": {
+   "short": "The quiz rule lists junctions, crossings, tracks and road entries. Private house entrances are not on that list.",
+   "rule": "In queues keep free: all junctions, level crossings, tram tracks, pedestrian/cycle crossings and road entries.",
+   "trap": "'abitazioni private' (private homes) are not in the official list.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Private home entrances: not in this rule",
+    "it": "abitazioni private",
+    "lines": [
+     "Keep free: junctions, crossings",
+     "Home entrances: not listed"
+    ],
+    "icons": [
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ingressi delle abitazioni private",
+    "en": "entrances to private homes"
+   },
+   {
+    "it": "code di veicoli",
+    "en": "queues of vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18678": {
+  "en": "Underpasses must be kept clear in heavy traffic.",
+  "explain": {
+   "short": "An underpass is just a road under a bridge. You may queue in it.",
+   "rule": "In queues keep free: all junctions, level crossings, tram tracks, pedestrian/cycle crossings and road entries.",
+   "trap": "'sottovia' (underpass) is not one of the places to keep free.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Queuing in an underpass is allowed",
+    "it": "sottovia",
+    "lines": [
+     "Keep free: crossings, junctions",
+     "Underpass: you may queue"
+    ],
+    "icons": [
+     "road",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sottovia",
+    "en": "underpass"
+   },
+   {
+    "it": "traffico intenso",
+    "en": "heavy traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18679": {
+  "en": "When driving in a line with other vehicles, you must not just watch the vehicle in front, but also look far ahead to check the traffic situation.",
+  "explain": {
+   "short": "Looking far ahead lets you see braking or problems early, before the car in front reacts.",
+   "rule": "In a queue: keep the safety distance, look far ahead, stay in your lane and stay focused.",
+   "trap": "'anche in lontananza' means 'also far away': look beyond the car ahead.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Look far ahead, not only at the car in front",
+    "it": "lontananza",
+    "lines": [
+     "Look past the car ahead",
+     "See problems early"
+    ],
+    "icons": [
+     "eye",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in fila",
+    "en": "in a line / queue"
+   },
+   {
+    "it": "veicolo che precede",
+    "en": "vehicle in front"
+   },
+   {
+    "it": "in lontananza",
+    "en": "far ahead"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18680": {
+  "en": "To help traffic flow, it is right to leave the exits of side roads clear when driving behind a line of vehicles.",
+  "explain": {
+   "short": "Cars from side roads must be able to come out. Stop before the side road, not in front of it.",
+   "rule": "In a queue: keep the safety distance, look far ahead, stay in your lane and stay focused.",
+   "trap": "'sbocchi' means the points where side roads come out.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Leave a gap at side roads",
+    "it": "sbocchi",
+    "lines": [
+     "Queue: leave a gap",
+     "Side road cars can exit"
+    ],
+    "icons": [
+     "distance",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "agevolare il traffico",
+    "en": "help traffic flow"
+   },
+   {
+    "it": "sbocchi delle strade laterali",
+    "en": "exits of side roads"
+   },
+   {
+    "it": "fila di veicoli",
+    "en": "line of vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18681": {
+  "en": "When driving in a line with other vehicles, you must still keep the safety distance.",
+  "explain": {
+   "short": "In a queue cars brake suddenly. With a safety distance you can stop in time.",
+   "rule": "In a queue: keep the safety distance, look far ahead, stay in your lane and stay focused.",
+   "trap": "'ugualmente' means 'all the same': the safety distance applies in a queue too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Keep the safety distance, also in a queue",
+    "it": "distanza",
+    "lines": [
+     "Queue: cars brake suddenly",
+     "Keep your safety distance"
+    ],
+    "icons": [
+     "brake",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in fila",
+    "en": "in a line / queue"
+   },
+   {
+    "it": "ugualmente",
+    "en": "all the same / still"
+   },
+   {
+    "it": "distanza di sicurezza",
+    "en": "safety distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18682": {
+  "en": "For more safety, when driving in a line with other vehicles, it is right not to get too close to the vehicle in front.",
+  "explain": {
+   "short": "If you are too close, you cannot stop in time when the car in front brakes.",
+   "rule": "In a queue: keep the safety distance, look far ahead, stay in your lane and stay focused.",
+   "trap": "'non avvicinarsi troppo' means 'do not get too close': keep a gap.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Don't get too close to the car ahead",
+    "it": "avvicinarsi",
+    "lines": [
+     "Too close: no time to brake",
+     "Keep a gap"
+    ],
+    "icons": [
+     "brake",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in fila",
+    "en": "in a line / queue"
+   },
+   {
+    "it": "non avvicinarsi troppo",
+    "en": "not get too close"
+   },
+   {
+    "it": "veicolo che precede",
+    "en": "vehicle in front"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18683": {
+  "en": "For more safety, when driving in a line with other vehicles in towns, it is right to always keep the hazard lights on.",
+  "explain": {
+   "short": "Hazard lights are for real emergencies, like a stopped vehicle or a sudden queue on a fast road, not for normal town queues.",
+   "rule": "In a queue: keep the safety distance, look far ahead, stay in your lane and stay focused.",
+   "trap": "'sempre' (always) and 'luci di emergenza' (hazard lights) are the trap.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No hazard lights in normal town queues",
+    "it": "luci di emergenza",
+    "lines": [
+     "Town queue: normal lights",
+     "Hazard lights: emergencies only"
+    ],
+    "icons": [
+     "car",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "centri urbani",
+    "en": "towns / urban areas"
+   },
+   {
+    "it": "sempre accese",
+    "en": "always on"
+   },
+   {
+    "it": "luci di emergenza",
+    "en": "hazard lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18684": {
+  "en": "When driving in a line with other vehicles, you may get distracted if you are going slowly.",
+  "explain": {
+   "short": "Even at low speed the car in front can stop suddenly. You must always stay focused.",
+   "rule": "In a queue: keep the safety distance, look far ahead, stay in your lane and stay focused.",
+   "trap": "'consentito distrarsi' (allowed to get distracted) is never true when driving.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never distracted, even at low speed",
+    "it": "distrarsi",
+    "lines": [
+     "Slow queue: still focus",
+     "Car ahead can stop suddenly"
+    ],
+    "icons": [
+     "eye",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in fila",
+    "en": "in a line / queue"
+   },
+   {
+    "it": "distrarsi",
+    "en": "get distracted"
+   },
+   {
+    "it": "bassa velocità",
+    "en": "low speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18685": {
+  "en": "When driving behind in a line with other vehicles, it is right to move as far left as possible to create a free lane on the right.",
+  "explain": {
+   "short": "Moving left takes space from oncoming traffic. Stay in your lane on the right.",
+   "rule": "In a queue: keep the safety distance, look far ahead, stay in your lane and stay focused.",
+   "trap": "'spostarsi il più possibile a sinistra' is dangerous: you could invade the other side.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Stay in your lane, don't move left",
+    "it": "sinistra",
+    "lines": [
+     "Queue: stay in your lane",
+     "Left side: oncoming cars"
+    ],
+    "icons": [
+     "road",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in fila",
+    "en": "in a line / queue"
+   },
+   {
+    "it": "il più possibile a sinistra",
+    "en": "as far left as possible"
+   },
+   {
+    "it": "corsia libera a destra",
+    "en": "free lane on the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18686": {
+  "en": "When driving in a line with other vehicles, it is right to move to the centre of the road to check the traffic situation.",
+  "explain": {
+   "short": "Moving to the centre puts you near oncoming traffic. Look far ahead from your own lane.",
+   "rule": "In a queue: keep the safety distance, look far ahead, stay in your lane and stay focused.",
+   "trap": "'al centro della carreggiata' (to the centre of the road) is the trap.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Don't move to the centre of the road",
+    "it": "centro",
+    "lines": [
+     "Stay in your lane",
+     "Look ahead from there"
+    ],
+    "icons": [
+     "road",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in fila",
+    "en": "in a line / queue"
+   },
+   {
+    "it": "centro della carreggiata",
+    "en": "centre of the road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18687": {
+  "en": "Even when visibility is poor, when driving behind a vehicle raising dust it is best to overtake it at once.",
+  "explain": {
+   "short": "If you cannot see, you must not overtake. Slow down and increase the distance until the dust clears.",
+   "rule": "In a queue: keep the safety distance, look far ahead, stay in your lane and stay focused.",
+   "trap": "'conviene sorpassarlo subito' (best to overtake at once) is wrong with poor visibility.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Can't see? Don't overtake, drop back",
+    "it": "sorpassarlo",
+    "lines": [
+     "Dust: you can't see",
+     "Slow down, keep distance"
+    ],
+    "icons": [
+     "fog",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "scarsa visibilità",
+    "en": "poor visibility"
+   },
+   {
+    "it": "solleva polvere",
+    "en": "raises dust"
+   },
+   {
+    "it": "sorpassarlo subito",
+    "en": "overtake it at once"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18688": {
+  "en": "When entering a built-up area, you must keep in mind that priority at junctions can change often.",
+  "explain": {
+   "short": "In towns there are many junctions with different signs. Check the priority at each one.",
+   "rule": "In a built-up area (centro abitato) traffic is mixed and changes often: be more careful, patient and focused.",
+   "trap": "'può cambiare spesso' (can change often): do not assume the same priority everywhere.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Check priority at every junction",
+    "it": "precedenza",
+    "lines": [
+     "Many junctions in town",
+     "Check priority each time"
+    ],
+    "icons": [
+     "road",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "centro abitato",
+    "en": "built-up area"
+   },
+   {
+    "it": "cambiare spesso",
+    "en": "change often"
+   },
+   {
+    "it": "precedenza",
+    "en": "priority / right of way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18689": {
+  "en": "When entering a built-up area, you must keep in mind that traffic is often slowed or stopped by vehicles that are stopped, starting or turning.",
+  "explain": {
+   "short": "In towns cars park, leave and turn all the time. Expect the traffic to stop and go.",
+   "rule": "In a built-up area (centro abitato) traffic is mixed and changes often: be more careful, patient and focused.",
+   "trap": "'intralciato o interrotto' means 'slowed or stopped': be ready to brake.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Town traffic stops and starts often",
+    "it": "intralciato",
+    "lines": [
+     "Cars park, start and turn",
+     "Be ready to brake"
+    ],
+    "icons": [
+     "car",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "centro abitato",
+    "en": "built-up area"
+   },
+   {
+    "it": "intralciato o interrotto",
+    "en": "slowed or stopped"
+   },
+   {
+    "it": "cambiano direzione",
+    "en": "change direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18690": {
+  "en": "Once in a built-up area, you must keep in mind that other road users (such as pedestrians and cyclists) mix more with motor traffic.",
+  "explain": {
+   "short": "In towns pedestrians and cyclists are close to cars. Watch out for them all the time.",
+   "rule": "In a built-up area (centro abitato) traffic is mixed and changes often: be more careful, patient and focused.",
+   "trap": "'si mescolano maggiormente' means 'mix more': they are everywhere.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pedestrians and cyclists mix with cars",
+    "it": "pedoni",
+    "lines": [
+     "Pedestrians near cars",
+     "Cyclists near cars"
+    ],
+    "icons": [
+     "pedestrian",
+     "bike"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "centro abitato",
+    "en": "built-up area"
+   },
+   {
+    "it": "pedoni e ciclisti",
+    "en": "pedestrians and cyclists"
+   },
+   {
+    "it": "si mescolano",
+    "en": "mix"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18691": {
+  "en": "In a built-up area you must be more attentive, careful and tolerant, because more users interact in the urban environment.",
+  "explain": {
+   "short": "More people use the road in towns, so more care and patience are needed.",
+   "rule": "In a built-up area (centro abitato) traffic is mixed and changes often: be more careful, patient and focused.",
+   "trap": "'tolleranti' means 'tolerant / patient' with other road users.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Town: more care and patience",
+    "it": "tolleranti",
+    "lines": [
+     "Many road users",
+     "Be careful and patient"
+    ],
+    "icons": [
+     "pedestrian",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "centro abitato",
+    "en": "built-up area"
+   },
+   {
+    "it": "attenti, prudenti e tolleranti",
+    "en": "attentive, careful and tolerant"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18692": {
+  "en": "When entering a built-up area, you must keep concentrating on driving even if there may be more reasons to get distracted.",
+  "explain": {
+   "short": "Shops, signs and people can distract you in towns. Keep your attention on the road.",
+   "rule": "In a built-up area (centro abitato) traffic is mixed and changes often: be more careful, patient and focused.",
+   "trap": "'anche se' (even if): distractions are no excuse.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stay focused despite distractions",
+    "it": "concentrazione",
+    "lines": [
+     "Shops, signs, people",
+     "Eyes on the road"
+    ],
+    "icons": [
+     "sign",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "centro abitato",
+    "en": "built-up area"
+   },
+   {
+    "it": "concentrazione alla guida",
+    "en": "concentration on driving"
+   },
+   {
+    "it": "distrarsi",
+    "en": "get distracted"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18693": {
+  "en": "When entering a built-up area, you must consider that you may park at unregulated junctions.",
+  "explain": {
+   "short": "Parking (sosta) at junctions is forbidden: it blocks the view and the way of others.",
+   "rule": "In a built-up area (centro abitato) traffic is mixed and changes often: be more careful, patient and focused.",
+   "trap": "'è possibile sostare' (you may park) is the trap: at junctions you may not.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No parking at junctions",
+    "it": "sostare",
+    "lines": [
+     "Junction: no parking",
+     "Parked cars block the view"
+    ],
+    "icons": [
+     "cross",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "centro abitato",
+    "en": "built-up area"
+   },
+   {
+    "it": "sostare",
+    "en": "to park / stop for a while"
+   },
+   {
+    "it": "incroci non regolati",
+    "en": "unregulated junctions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18694": {
+  "en": "In a built-up area driving in parallel lines is always allowed.",
+  "explain": {
+   "short": "Driving side by side in town is allowed only on roads with at least two marked lanes in your direction, not always.",
+   "rule": "In a built-up area (centro abitato) traffic is mixed and changes often: be more careful, patient and focused.",
+   "trap": "'sempre' (always) is the trap: it depends on the road.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parallel lines: only with 2+ lanes your way",
+    "it": "sempre",
+    "lines": [
+     "2+ marked lanes your way",
+     "Then side by side is OK"
+    ],
+    "icons": [
+     "road",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "centro abitato",
+    "en": "built-up area"
+   },
+   {
+    "it": "sempre consentita",
+    "en": "always allowed"
+   },
+   {
+    "it": "file parallele",
+    "en": "parallel lines"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18695": {
+  "en": "In a built-up area, you must consider that pedestrians and disabled people must always give way to motor vehicles.",
+  "explain": {
+   "short": "It is the opposite: on crossings drivers must give way to pedestrians, and be extra careful with disabled people.",
+   "rule": "In a built-up area (centro abitato) traffic is mixed and changes often: be more careful, patient and focused.",
+   "trap": "'devono sempre dare la precedenza ai veicoli' is the trap: drivers give way.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Drivers give way to pedestrians",
+    "it": "precedenza",
+    "lines": [
+     "Pedestrian on crossing",
+     "The car stops and waits"
+    ],
+    "icons": [
+     "pedestrian",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   },
+   {
+    "it": "diversamente abili",
+    "en": "disabled people"
+   },
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18696": {
+  "en": "It is forbidden to move or deface road signs.",
+  "explain": {
+   "short": "Moved or dirty signs give wrong or unreadable information and can cause crashes.",
+   "rule": "Moving, removing or dirtying road signs is always forbidden: it can put others in serious danger.",
+   "trap": "'imbrattare' means 'to deface / dirty', for example with paint or stickers.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Don't move or dirty road signs",
+    "it": "imbrattare",
+    "lines": [
+     "Moving signs: forbidden",
+     "Dirtying signs: forbidden"
+    ],
+    "icons": [
+     "sign",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "è vietato",
+    "en": "it is forbidden"
+   },
+   {
+    "it": "spostare o imbrattare",
+    "en": "move or deface"
+   },
+   {
+    "it": "segnaletica stradale",
+    "en": "road signs"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18697": {
+  "en": "It is forbidden to remove road signs.",
+  "explain": {
+   "short": "Without the sign, drivers lose important information. Removing it is forbidden.",
+   "rule": "Moving, removing or dirtying road signs is always forbidden: it can put others in serious danger.",
+   "trap": "'rimuovere' means 'to remove / take away'.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Don't remove road signs",
+    "it": "rimuovere",
+    "lines": [
+     "Removing signs: forbidden",
+     "Others need that information"
+    ],
+    "icons": [
+     "sign",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "è vietato rimuovere",
+    "en": "it is forbidden to remove"
+   },
+   {
+    "it": "segnaletica stradale",
+    "en": "road signs"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18698": {
+  "en": "Moving road signs can cause serious danger for other road users.",
+  "explain": {
+   "short": "A sign in the wrong place can send drivers the wrong way or hide a danger.",
+   "rule": "Moving, removing or dirtying road signs is always forbidden: it can put others in serious danger.",
+   "trap": "'pericolo grave' means 'serious danger': it is not a small matter.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Moved signs cause serious danger",
+    "it": "pericolo grave",
+    "lines": [
+     "Sign in wrong place",
+     "Drivers get wrong info"
+    ],
+    "icons": [
+     "sign",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "spostare",
+    "en": "to move"
+   },
+   {
+    "it": "pericolo grave",
+    "en": "serious danger"
+   },
+   {
+    "it": "utenti della strada",
+    "en": "road users"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18699": {
+  "en": "It is allowed to move road signs if they are not danger signs.",
+  "explain": {
+   "short": "No road sign may be moved, whatever its type.",
+   "rule": "Moving, removing or dirtying road signs is always forbidden: it can put others in serious danger.",
+   "trap": "'consentito' (allowed) is the trap: there is no exception for non-danger signs.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No sign may be moved, of any type",
+    "it": "consentito",
+    "lines": [
+     "Danger sign: don't move",
+     "Any other sign: don't move"
+    ],
+    "icons": [
+     "warning",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "E' consentito",
+    "en": "it is allowed"
+   },
+   {
+    "it": "spostare",
+    "en": "to move"
+   },
+   {
+    "it": "segnali di pericolo",
+    "en": "danger signs"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18700": {
+  "en": "It is allowed to move road signs after informing the police.",
+  "explain": {
+   "short": "Telling the police does not give you permission. Drivers may never move signs.",
+   "rule": "Moving, removing or dirtying road signs is always forbidden: it can put others in serious danger.",
+   "trap": "'dopo aver avvisato' (after informing) does not make it allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Telling police doesn't make it allowed",
+    "it": "consentito",
+    "lines": [
+     "Moving signs: forbidden",
+     "Police call: still forbidden"
+    ],
+    "icons": [
+     "sign",
+     "police"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "E' consentito",
+    "en": "it is allowed"
+   },
+   {
+    "it": "organi di polizia",
+    "en": "police"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18701": {
+  "en": "It is allowed to move road signs if they are barriers or traffic cones.",
+  "explain": {
+   "short": "Cones and barriers are signs too: they mark works or dangers. Do not move them.",
+   "rule": "Moving, removing or dirtying road signs is always forbidden: it can put others in serious danger.",
+   "trap": "'coni stradali' (traffic cones) are road signs as well.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Cones and barriers are signs too",
+    "it": "coni",
+    "lines": [
+     "Cones mark works or danger",
+     "Don't move them"
+    ],
+    "icons": [
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "E' consentito",
+    "en": "it is allowed"
+   },
+   {
+    "it": "barriere di delimitazione",
+    "en": "boundary barriers"
+   },
+   {
+    "it": "coni stradali",
+    "en": "traffic cones"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18702": {
+  "en": "Speed racing on roads is forbidden.",
+  "explain": {
+   "short": "Racing on public roads puts everyone in danger, so it is forbidden.",
+   "rule": "Unauthorised speed races on public roads are forbidden and punished with prison, also for those who bet.",
+   "trap": "'gareggiare in velocità' means 'to race'.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No racing on roads",
+    "it": "gareggiare",
+    "lines": [
+     "Racing on roads: forbidden",
+     "Danger for everyone"
+    ],
+    "icons": [
+     "speed",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "è vietato",
+    "en": "it is forbidden"
+   },
+   {
+    "it": "gareggiare in velocità",
+    "en": "to race"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18703": {
+  "en": "A driver who takes part in unauthorised speed races in public areas is punished with imprisonment.",
+  "explain": {
+   "short": "Taking part in an illegal race is a crime, punished with prison (reclusione).",
+   "rule": "Unauthorised speed races on public roads are forbidden and punished with prison, also for those who bet.",
+   "trap": "'reclusione' means prison: this is a crime, not just a fine.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Illegal race = crime, prison",
+    "it": "reclusione",
+    "lines": [
+     "Illegal race",
+     "Crime: prison"
+    ],
+    "icons": [
+     "speed",
+     "police"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "gare di velocità non autorizzate",
+    "en": "unauthorised speed races"
+   },
+   {
+    "it": "aree pubbliche",
+    "en": "public areas"
+   },
+   {
+    "it": "reclusione",
+    "en": "imprisonment"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18704": {
+  "en": "A driver who races on public roads is punished with imprisonment.",
+  "explain": {
+   "short": "Racing on public roads is a crime, punished with prison (reclusione).",
+   "rule": "Unauthorised speed races on public roads are forbidden and punished with prison, also for those who bet.",
+   "trap": "'reclusione' means prison: the most serious type of punishment.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Racing on public roads = prison",
+    "it": "reclusione",
+    "lines": [
+     "Race on public road",
+     "Crime: prison"
+    ],
+    "icons": [
+     "speed",
+     "police"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "punito con la reclusione",
+    "en": "punished with imprisonment"
+   },
+   {
+    "it": "gareggia in velocità",
+    "en": "races"
+   },
+   {
+    "it": "strade pubbliche",
+    "en": "public roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18705": {
+  "en": "Anyone who bets on vehicles taking part in unauthorised speed races on public roads is punished with imprisonment.",
+  "explain": {
+   "short": "Not only the drivers: people who bet on illegal races also commit a crime and risk prison.",
+   "rule": "Unauthorised speed races on public roads are forbidden and punished with prison, also for those who bet.",
+   "trap": "'chi scommette' (whoever bets) is also punished, not only the driver.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Betting on illegal races: also prison",
+    "it": "scommette",
+    "lines": [
+     "Betting on illegal races",
+     "Crime: prison"
+    ],
+    "icons": [
+     "money",
+     "police"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "punito con la reclusione",
+    "en": "punished with imprisonment"
+   },
+   {
+    "it": "chi scommette",
+    "en": "whoever bets"
+   },
+   {
+    "it": "non autorizzate",
+    "en": "unauthorised"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18706": {
+  "en": "Sports competitions with vehicles in public areas are allowed without authorisation.",
+  "explain": {
+   "short": "Any sports competition on public roads needs an official authorisation and the road closed to traffic.",
+   "rule": "Unauthorised speed races on public roads are forbidden and punished with prison, also for those who bet.",
+   "trap": "'senza autorizzazione' (without authorisation) is the trap.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Competitions need authorisation",
+    "it": "senza autorizzazione",
+    "lines": [
+     "Sports race on public road",
+     "Only with authorisation"
+    ],
+    "icons": [
+     "speed",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "competizioni sportive",
+    "en": "sports competitions"
+   },
+   {
+    "it": "aree pubbliche",
+    "en": "public areas"
+   },
+   {
+    "it": "senza autorizzazione",
+    "en": "without authorisation"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18707": {
+  "en": "On public roads speed races are allowed, even if not authorised, from 23:00 to 6:00.",
+  "explain": {
+   "short": "Unauthorised races are forbidden at any hour. Night time is no exception.",
+   "rule": "Unauthorised speed races on public roads are forbidden and punished with prison, also for those who bet.",
+   "trap": "'dalle ore 23.00 alle ore 6.00' is an invented exception.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No illegal races, day or night",
+    "it": "consentite",
+    "lines": [
+     "Illegal race at night",
+     "Still forbidden"
+    ],
+    "icons": [
+     "night",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade pubbliche",
+    "en": "public roads"
+   },
+   {
+    "it": "non autorizzate",
+    "en": "unauthorised"
+   },
+   {
+    "it": "dalle ore 23.00 alle ore 6.00",
+    "en": "from 23:00 to 6:00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18708": {
+  "en": "Speed races are allowed, even if not authorised, as long as only two cars take part.",
+  "explain": {
+   "short": "The number of cars does not matter. Every unauthorised race is forbidden.",
+   "rule": "Unauthorised speed races on public roads are forbidden and punished with prison, also for those who bet.",
+   "trap": "'purché partecipino solo due autovetture' is an invented exception.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Two cars racing is still forbidden",
+    "it": "consentite",
+    "lines": [
+     "Two cars racing",
+     "Still forbidden"
+    ],
+    "icons": [
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "gare di velocità",
+    "en": "speed races"
+   },
+   {
+    "it": "non autorizzate",
+    "en": "unauthorised"
+   },
+   {
+    "it": "solo due autovetture",
+    "en": "only two cars"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18709": {
+  "en": "On public roads speed races are allowed, even if not authorised, between motorcycles but not between motor vehicles.",
+  "explain": {
+   "short": "The type of vehicle does not matter. Unauthorised races are forbidden for motorcycles too.",
+   "rule": "Unauthorised speed races on public roads are forbidden and punished with prison, also for those who bet.",
+   "trap": "'tra motocicli' (between motorcycles) is an invented exception.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Motorcycle races are forbidden too",
+    "it": "motocicli",
+    "lines": [
+     "Motorcycles racing",
+     "Still forbidden"
+    ],
+    "icons": [
+     "moto",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade pubbliche",
+    "en": "public roads"
+   },
+   {
+    "it": "non autorizzate",
+    "en": "unauthorised"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18710": {
+  "en": "It is forbidden to throw lit cigarette ends out of the window.",
+  "explain": {
+   "short": "A lit cigarette end can hit a motorcyclist or start a fire. Throwing it is forbidden.",
+   "rule": "Do not throw things, dirty the road or move signs; drive gently where you could splash or throw stones.",
+   "trap": "'mozziconi accesi' means lit cigarette ends: double danger.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never throw cigarette ends out",
+    "it": "mozziconi",
+    "lines": [
+     "Cigarette out of window",
+     "Forbidden: fire, danger"
+    ],
+    "icons": [
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "E' vietato lanciare",
+    "en": "it is forbidden to throw"
+   },
+   {
+    "it": "finestrino",
+    "en": "window"
+   },
+   {
+    "it": "mozziconi di sigaretta accesi",
+    "en": "lit cigarette ends"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18711": {
+  "en": "Throwing lit cigarette ends out of the window is very dangerous, especially if two-wheeled vehicles are coming.",
+  "explain": {
+   "short": "A lit cigarette end can hit a motorcyclist or cyclist in the face and make them fall.",
+   "rule": "Do not throw things, dirty the road or move signs; drive gently where you could splash or throw stones.",
+   "trap": "'sopraggiungono' means 'are coming up (from behind)'.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Cigarette ends can hit motorcyclists",
+    "it": "pericoloso",
+    "lines": [
+     "Cigarette from window",
+     "Can hit a rider behind"
+    ],
+    "icons": [
+     "car",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "mozziconi di sigaretta accesi",
+    "en": "lit cigarette ends"
+   },
+   {
+    "it": "molto pericoloso",
+    "en": "very dangerous"
+   },
+   {
+    "it": "veicoli a due ruote",
+    "en": "two-wheeled vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18712": {
+  "en": "Throwing lit cigarette ends out of the window near woods or green areas could cause fires.",
+  "explain": {
+   "short": "Dry grass and trees burn easily. One cigarette end can start a forest fire.",
+   "rule": "Do not throw things, dirty the road or move signs; drive gently where you could splash or throw stones.",
+   "trap": "'potrebbe causare incendi' means 'could cause fires': a real risk.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Cigarette ends can start fires",
+    "it": "incendi",
+    "lines": [
+     "Cigarette near woods",
+     "Risk of fire"
+    ],
+    "icons": [
+     "leaf",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "mozziconi accesi",
+    "en": "lit cigarette ends"
+   },
+   {
+    "it": "boschi o aree verdi",
+    "en": "woods or green areas"
+   },
+   {
+    "it": "incendi",
+    "en": "fires"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18713": {
+  "en": "It is forbidden to spread mud or debris on the roads with the vehicle's dirty wheels.",
+  "explain": {
+   "short": "Mud and debris make the road slippery and dangerous. You must not dirty the road.",
+   "rule": "Do not throw things, dirty the road or move signs; drive gently where you could splash or throw stones.",
+   "trap": "'spargere' means 'to spread / scatter'.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Don't spread mud on the road",
+    "it": "fango",
+    "lines": [
+     "Mud on the road",
+     "Slippery: forbidden"
+    ],
+    "icons": [
+     "tyre",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "E' vietato spargere",
+    "en": "it is forbidden to spread"
+   },
+   {
+    "it": "fango o detriti",
+    "en": "mud or debris"
+   },
+   {
+    "it": "ruote sporche",
+    "en": "dirty wheels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18714": {
+  "en": "A driver who notices that the vehicle is losing oil must take all necessary action to avoid danger for other users.",
+  "explain": {
+   "short": "Oil on the road is very slippery. The driver must act to stop the danger, for example stop and fix it.",
+   "rule": "Do not throw things, dirty the road or move signs; drive gently where you could splash or throw stones.",
+   "trap": "'tutte le azioni necessarie' means 'all necessary actions': a real duty.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Losing oil? Act to avoid danger",
+    "it": "olio",
+    "lines": [
+     "Oil on road: slippery",
+     "Stop and act"
+    ],
+    "icons": [
+     "fuel",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "perde olio",
+    "en": "is losing oil"
+   },
+   {
+    "it": "azioni necessarie",
+    "en": "necessary actions"
+   },
+   {
+    "it": "evitare pericoli",
+    "en": "avoid danger"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18715": {
+  "en": "A driver who notices heavy oil or fuel leaks from the vehicle must immediately warn the road owner or the police.",
+  "explain": {
+   "short": "A big oil or fuel leak is a serious danger. The road owner or police must know at once to clean and protect the road.",
+   "rule": "Do not throw things, dirty the road or move signs; drive gently where you could splash or throw stones.",
+   "trap": "'immediatamente' (immediately): do it at once.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Big leak: warn road owner or police",
+    "it": "avvisare",
+    "lines": [
+     "Heavy oil or fuel leak",
+     "Warn road owner or police"
+    ],
+    "icons": [
+     "fuel",
+     "police"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "forti perdite",
+    "en": "heavy leaks"
+   },
+   {
+    "it": "carburante",
+    "en": "fuel"
+   },
+   {
+    "it": "avvisare",
+    "en": "warn / inform"
+   },
+   {
+    "it": "organi di polizia",
+    "en": "police"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18716": {
+  "en": "The rider of a two-wheeled vehicle may carry a pet, if it is kept in a suitable cage, as long as it does not stick out more than 50 centimetres.",
+  "explain": {
+   "short": "On two wheels a pet must be in a proper cage, and the load must not stick out more than 50 cm.",
+   "rule": "Do not throw things, dirty the road or move signs; drive gently where you could splash or throw stones.",
+   "trap": "'apposita gabbia' (proper cage) and '50 centimetri' are both conditions.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pet on a moto: in a cage, max 50 cm out",
+    "it": "gabbia",
+    "lines": [
+     "Pet in a proper cage",
+     "Max 50 cm sticking out"
+    ],
+    "icons": [
+     "moto",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo a due ruote",
+    "en": "two-wheeled vehicle"
+   },
+   {
+    "it": "animale domestico",
+    "en": "pet"
+   },
+   {
+    "it": "apposita gabbia",
+    "en": "proper cage"
+   },
+   {
+    "it": "sporgente",
+    "en": "sticking out"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18717": {
+  "en": "When driving a vehicle, the driver must go slowly over puddles.",
+  "explain": {
+   "short": "Going fast through puddles splashes pedestrians and can make you lose grip (aquaplaning).",
+   "rule": "Do not throw things, dirty the road or move signs; drive gently where you could splash or throw stones.",
+   "trap": "'pozzanghere' means puddles.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down over puddles",
+    "it": "pozzanghere",
+    "lines": [
+     "Puddle ahead",
+     "Slow: no splash, good grip"
+    ],
+    "icons": [
+     "rain",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "bassa velocità",
+    "en": "low speed"
+   },
+   {
+    "it": "pozzanghere",
+    "en": "puddles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18718": {
+  "en": "If, coming out of a muddy track, you make the road very dirty, you can get an administrative fine.",
+  "explain": {
+   "short": "Dirtying the road is forbidden, and the punishment is an administrative fine (sanzione amministrativa).",
+   "rule": "Do not throw things, dirty the road or move signs; drive gently where you could splash or throw stones.",
+   "trap": "'sanzione amministrativa' means an administrative penalty, like a fine.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dirtying the road: fine",
+    "it": "sanzione",
+    "lines": [
+     "Mud on the road",
+     "You can get a fine"
+    ],
+    "icons": [
+     "tyre",
+     "money"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sentiero fangoso",
+    "en": "muddy track"
+   },
+   {
+    "it": "sporca notevolmente",
+    "en": "makes very dirty"
+   },
+   {
+    "it": "sanzione amministrativa",
+    "en": "administrative fine"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18719": {
+  "en": "To avoid dirtying the carriageway, you must clean the vehicle's wheels before coming out of a muddy track.",
+  "explain": {
+   "short": "Clean wheels do not leave mud on the road, so the road stays safe.",
+   "rule": "Do not throw things, dirty the road or move signs; drive gently where you could splash or throw stones.",
+   "trap": "'pulire le ruote' means 'clean the wheels'.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Clean the wheels before the road",
+    "it": "pulire",
+    "lines": [
+     "Muddy track",
+     "Clean wheels, then road"
+    ],
+    "icons": [
+     "tyre",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sporcare la carreggiata",
+    "en": "dirty the carriageway"
+   },
+   {
+    "it": "pulire le ruote",
+    "en": "clean the wheels"
+   },
+   {
+    "it": "sentiero fangoso",
+    "en": "muddy track"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18720": {
+  "en": "Coming out of a muddy track or a building site, you must make sure that no soil falls while driving and dirties the road.",
+  "explain": {
+   "short": "Soil falling from the vehicle makes the road slippery. Check before you drive on.",
+   "rule": "Do not throw things, dirty the road or move signs; drive gently where you could splash or throw stones.",
+   "trap": "'terriccio' means soil / earth.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No soil falling on the road",
+    "it": "terriccio",
+    "lines": [
+     "Building site exit",
+     "No soil on the road"
+    ],
+    "icons": [
+     "truck",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cantiere",
+    "en": "building site"
+   },
+   {
+    "it": "assicurarsi",
+    "en": "make sure"
+   },
+   {
+    "it": "terriccio",
+    "en": "soil"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18721": {
+  "en": "It is allowed to move temporary vertical road signs to park the vehicle.",
+  "explain": {
+   "short": "Temporary signs (for works or events) must not be moved, not even to park.",
+   "rule": "Do not throw things, dirty the road or move signs; drive gently where you could splash or throw stones.",
+   "trap": "'temporanei' (temporary) signs are still signs: no exception.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never move signs to park",
+    "it": "spostare",
+    "lines": [
+     "Temporary sign",
+     "Don't move it to park"
+    ],
+    "icons": [
+     "sign",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "E' consentito spostare",
+    "en": "it is allowed to move"
+   },
+   {
+    "it": "segnali stradali verticali temporanei",
+    "en": "temporary vertical road signs"
+   },
+   {
+    "it": "parcheggiare",
+    "en": "to park"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18722": {
+  "en": "It is allowed to throw paper out of the window.",
+  "explain": {
+   "short": "Nothing may be thrown from a vehicle: it dirties the road and can hit others.",
+   "rule": "Do not throw things, dirty the road or move signs; drive gently where you could splash or throw stones.",
+   "trap": "'consentito' (allowed) is the trap: throwing is forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Don't throw paper out of the window",
+    "it": "carta",
+    "lines": [
+     "Paper out of window",
+     "Forbidden"
+    ],
+    "icons": [
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "E' consentito lanciare",
+    "en": "it is allowed to throw"
+   },
+   {
+    "it": "carta",
+    "en": "paper"
+   },
+   {
+    "it": "finestrino",
+    "en": "window"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18723": {
+  "en": "The driver may throw objects out of the window onto the hard shoulder.",
+  "explain": {
+   "short": "Throwing objects is forbidden anywhere, including the banchina (hard shoulder / verge).",
+   "rule": "Do not throw things, dirty the road or move signs; drive gently where you could splash or throw stones.",
+   "trap": "'sulla banchina' (onto the verge) does not make it allowed.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No throwing, not even on the verge",
+    "it": "banchina",
+    "part": "banchina"
+   }
+  },
+  "keywords": [
+   {
+    "it": "lanciare oggetti",
+    "en": "throw objects"
+   },
+   {
+    "it": "finestrino",
+    "en": "window"
+   },
+   {
+    "it": "banchina",
+    "en": "hard shoulder / verge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18724": {
+  "en": "On a road covered with fine gravel the driver may drive at high speed.",
+  "explain": {
+   "short": "Gravel reduces grip and stones can fly and hit other vehicles. You must drive slowly.",
+   "rule": "Do not throw things, dirty the road or move signs; drive gently where you could splash or throw stones.",
+   "trap": "'velocità sostenuta' (high speed) is the trap on 'brecciolino' (fine gravel).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Gravel: drive slowly",
+    "it": "brecciolino",
+    "lines": [
+     "Gravel: little grip",
+     "Stones fly: go slow"
+    ],
+    "icons": [
+     "road",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "brecciolino",
+    "en": "fine gravel"
+   },
+   {
+    "it": "velocità sostenuta",
+    "en": "high speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q18725": {
+  "en": "The driver may pass queuing vehicles by accelerating sharply and changing lanes repeatedly.",
+  "explain": {
+   "short": "Weaving through a queue with sudden acceleration is dangerous and forbidden.",
+   "rule": "Do not throw things, dirty the road or move signs; drive gently where you could splash or throw stones.",
+   "trap": "'bruscamente' (sharply) and 'ripetutamente' (repeatedly) describe dangerous driving.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No weaving through queues",
+    "it": "bruscamente",
+    "lines": [
+     "Queue: stay in line",
+     "No weaving, no sudden speed"
+    ],
+    "icons": [
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicoli in coda",
+    "en": "queuing vehicles"
+   },
+   {
+    "it": "accelerando bruscamente",
+    "en": "accelerating sharply"
+   },
+   {
+    "it": "cambiando ripetutamente corsia",
+    "en": "changing lanes repeatedly"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

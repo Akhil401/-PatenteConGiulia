@@ -1,0 +1,86 @@
+/* Additions for the React version (the main look is in styles.css). */
+#root { min-height: 100dvh; }
+.qswipe { cursor: grab; }
+.qswipe:active { cursor: grabbing; }
+.q-img { pointer-events: none; user-select: none; }
+.q-en { overflow: hidden; }
+.teacher > div:first-child { width: 86px; }
+.hero > div:nth-child(2) { align-self: end; }
+.stage .g-hit { width: 124px; }
+@media (min-width: 720px) { .stage .g-hit { width: 170px; } }
+.done > div:first-child .giulia { width: 170px; margin: -6px auto 0; }
+.score-ring { margin: 6px auto 8px; }
+
+/* ---------- 3D board ---------- */
+.board-stack { position: relative; }
+.board-stack.is3d .board2d { visibility: hidden; }
+.scene3d { position: absolute; inset: 0; overflow: hidden; background: #bcd9ee; }
+.scene3d.loading { display: grid; place-items: center; color: #1e1b4b; font-weight: 800; }
+.scene3d canvas { touch-action: pan-y; }
+.shake3d { animation: shake .5s ease; }
+.stamp3d { position: absolute; left: 50%; top: 42%; display: flex; align-items: center; gap: 10px; padding: 12px 26px; border-radius: 22px; border: 5px solid #fff;
+  color: #fff; font: 900 2.2rem/1 var(--font-display); letter-spacing: .04em; pointer-events: none; opacity: 0; transform: translate(-50%, -50%) scale(2.6) rotate(-18deg);
+  box-shadow: 0 18px 40px -10px rgba(0,0,0,.5); }
+.stamp3d span { font-size: 1.8rem; }
+.stamp3d.ok { background: #16a34a; } .stamp3d.no { background: #dc2626; }
+.landed .stamp3d { opacity: 1; transform: translate(-50%, -50%) scale(1) rotate(-8deg); transition: transform .45s cubic-bezier(.2,1.6,.4,1), opacity .15s; }
+.landed .stamp3d.ok { transform: translate(-50%, -50%) scale(1) rotate(0); }
+.flash3d { position: absolute; inset: 0; pointer-events: none; opacity: 0; }
+.flash3d.ok { background: #22c55e; } .flash3d.no { background: #ef4444; }
+.landed .flash3d { animation: flash3d .7s ease-out; }
+@keyframes flash3d { 0% { opacity: .5; } 100% { opacity: 0; } }
+.m3d { width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; color: #fff; font-weight: 900; font-size: 18px; border: 3px solid #fff;
+  box-shadow: 0 6px 14px rgba(0,0,0,.35); transform: scale(0); transition: transform .5s cubic-bezier(.34,1.9,.5,1); pointer-events: none; }
+.m3d.on { transform: scale(1); }
+.m3d.no { background: #ef4444; } .m3d.ok { background: #16a34a; }
+.q3d { width: 26px; height: 26px; border-radius: 50%; background: #ef4444; color: #fff; display: grid; place-items: center; font-weight: 900; border: 2.5px solid #fff; pointer-events: none; }
+.c3d { background: #fff; color: #0f172a; font: 800 12px var(--font); padding: 6px 12px; border-radius: 999px; white-space: nowrap; box-shadow: 0 6px 14px rgba(0,0,0,.3);
+  opacity: 0; transform: scale(.6); transition: opacity .25s, transform .45s cubic-bezier(.34,1.8,.5,1); pointer-events: none; }
+.c3d.on { opacity: 1; transform: scale(1); }
+.c3d.red { background: #ef4444; color: #fff; } .c3d.green { background: #16a34a; color: #fff; }
+.hz3d { width: 54px; height: 54px; border-radius: 50%; display: grid; place-items: center; font-size: 30px; background: #facc15; border: 4px solid #fff; box-shadow: 0 10px 24px rgba(0,0,0,.35);
+  transform: scale(0); transition: transform .55s cubic-bezier(.34,1.9,.5,1); pointer-events: none; }
+.hz3d.on { transform: scale(1); animation: hzPulse 1.2s ease-in-out .6s infinite; }
+@keyframes hzPulse { 50% { box-shadow: 0 0 0 10px rgba(250,204,21,.35), 0 10px 24px rgba(0,0,0,.35); } }
+.tag3d { background: #0f172a; color: #fff; font: 800 11px var(--font); padding: 4px 10px; border-radius: 999px; white-space: nowrap; pointer-events: none; box-shadow: 0 6px 14px rgba(0,0,0,.3); }
+.tag3d.lbl { opacity: 0; transform: translateY(6px) scale(.8); transition: opacity .3s, transform .5s cubic-bezier(.34,1.8,.5,1); background: rgba(15,23,42,.82); }
+.tag3d.lbl.on { opacity: 1; transform: none; }
+.tag3d.lbl { white-space: normal; text-align: center; width: max-content; max-width: min(29vw, 170px); line-height: 1.25; border-radius: 12px; }
+.tag3d.big { font-size: 15px; padding: 8px 16px; background: #facc15; color: #1e1b4b; }
+.you3d { background: #2563eb; color: #fff; font: 900 10px var(--font); padding: 3px 9px; border-radius: 999px; border: 2px solid #fff; pointer-events: none; letter-spacing: .05em; }
+.stack3d { display: grid; gap: 8px; width: min(78vw, 300px); pointer-events: none; }
+.card3d { display: flex; gap: 10px; align-items: center; background: rgba(255,255,255,.95); color: #1e1b4b; border-radius: 16px; padding: 10px 14px; font: 750 14px/1.3 var(--font);
+  box-shadow: 0 14px 30px -10px rgba(0,0,0,.5); opacity: 0; transform: translateY(18px) scale(.9) rotateX(30deg); transition: opacity .4s, transform .65s cubic-bezier(.22,1.5,.36,1); }
+.card3d.on { opacity: 1; transform: none; }
+.card3d .ic { font-size: 22px; }
+.stack3d.rule { transform: translateY(40px); }
+.pill3d { justify-self: start; background: #facc15; color: #1e1b4b; font: 900 12px var(--font); letter-spacing: .12em; padding: 6px 14px; border-radius: 999px; opacity: 0; transition: opacity .4s; }
+.pill3d.on { opacity: 1; }
+.orb3d { font-size: 34px; opacity: 0; transition: opacity .3s; pointer-events: none; } .orb3d.on { opacity: 1; }
+.stamp3d.small { top: auto; bottom: 6%; transform: translate(-50%, 0) scale(2) rotate(-18deg); font-size: 1.6rem; padding: 8px 18px; }
+.landed .stamp3d.small { transform: translate(-50%, 0) scale(.85) rotate(-6deg); }
+.scene3d.studio { background: #1e1b4b; }
+.label-layer { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
+.lab3d { position: absolute; left: 0; top: 0; will-change: transform; }
+.scene3d > .stack3d { position: absolute; left: 50%; transform: translateX(-50%); bottom: 14%; z-index: 2; }
+.scene3d > .stack3d.figure { bottom: 6%; }
+.scene3d > .stack3d.rulecard { bottom: 10%; }
+.stack3d.rule { transform: none; }
+/* official picture inset on figure scenes (tap to enlarge) */
+.fig-inset { position: absolute; top: 10px; left: 10px; z-index: 3; width: 27%; max-width: 130px; padding: 5px 5px 3px; border: 0; border-radius: 12px; background: #fff;
+  box-shadow: 0 10px 24px -8px rgba(0,0,0,.55); display: grid; gap: 2px; cursor: zoom-in; transform-origin: top left; animation: insetIn .6s cubic-bezier(.34,1.6,.5,1) both;
+  transition: width .35s cubic-bezier(.22,1.2,.36,1), max-width .35s; }
+.fig-inset img { width: 100%; display: block; border-radius: 8px; pointer-events: none; }
+.fig-inset span { font: 800 10px var(--font); color: #1e1b4b; letter-spacing: .06em; text-transform: uppercase; text-align: center; }
+.fig-inset.big { width: calc(100% - 20px); max-width: 420px; cursor: zoom-out; }
+@keyframes insetIn { from { opacity: 0; transform: scale(.4) rotate(-6deg); } }
+/* in studio scenes the verdict stamp sits in the top-right corner, clear of the cards */
+.scene3d.studio .stamp3d.small { top: 5%; bottom: auto; left: auto; right: 5%; transform: scale(2) rotate(-18deg); transform-origin: top right; }
+.landed.scene3d.studio .stamp3d.small, .scene3d.studio.landed .stamp3d.small { transform: scale(.75) rotate(-6deg); }
+/* road scenes: compact cards low down so the road stays visible */
+.scene3d:not(.studio) > .stack3d { bottom: 3%; gap: 5px; width: min(74vw, 280px); }
+.scene3d:not(.studio) .card3d { padding: 6px 12px; font-size: 12.5px; border-radius: 12px; background: rgba(255,255,255,.9); }
+.scene3d:not(.studio) > .stack3d.rulecard { gap: 4px; }
+.scene3d:not(.studio) > .stack3d.rulecard .card3d { padding: 5px 10px; font-size: 12px; gap: 8px; }
+.scene3d:not(.studio) > .stack3d.rulecard .card3d .ic { font-size: 16px; }
+.scene3d:not(.studio) > .stack3d.rulecard .pill3d { font-size: 10px; padding: 4px 10px; }

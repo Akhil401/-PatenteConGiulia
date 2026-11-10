@@ -1,0 +1,711 @@
+{
+ "q18471": {
+  "short": "Le corsie di marcia sono dove passano i veicoli: sono dentro la carreggiata.",
+  "rule": "La carreggiata è dove passano i veicoli: corsie e attraversamenti sono dentro. Banchine, marciapiedi e corsie di emergenza sono fuori.",
+  "trap": "«corsie di marcia» sono le corsie normali: il cuore della carreggiata.",
+  "caption": "Le corsie di marcia sono nella carreggiata"
+ },
+ "q18472": {
+  "short": "L'attraversamento ciclabile è disegnato sulla strada dove passano i veicoli: è nella carreggiata.",
+  "rule": "La carreggiata è dove passano i veicoli: corsie e attraversamenti sono dentro. Banchine, marciapiedi e corsie di emergenza sono fuori.",
+  "trap": "«attraversamenti» sono disegnati SULLA carreggiata, anche se li usano le bici.",
+  "caption": "Gli attraversamenti ciclabili sono sulla carreggiata"
+ },
+ "q18473": {
+  "short": "Le strisce pedonali sono disegnate sulla carreggiata, dove passano le auto.",
+  "rule": "La carreggiata è dove passano i veicoli: corsie e attraversamenti sono dentro. Banchine, marciapiedi e corsie di emergenza sono fuori.",
+  "trap": "«attraversamenti pedonali» sono per i pedoni, ma sono disegnati SULLA carreggiata.",
+  "caption": "Le strisce pedonali sono sulla carreggiata"
+ },
+ "q18474": {
+  "short": "La corsia di sorpasso è una corsia dove passano i veicoli: è nella carreggiata.",
+  "rule": "La carreggiata è dove passano i veicoli: corsie e attraversamenti sono dentro. Banchine, marciapiedi e corsie di emergenza sono fuori.",
+  "trap": "«corsie di sorpasso» sono sempre corsie, e ogni corsia è nella carreggiata.",
+  "caption": "Le corsie di sorpasso sono nella carreggiata"
+ },
+ "q18475": {
+  "short": "La corsia di emergenza è accanto alla carreggiata, fuori. Serve solo per fermarsi in emergenza.",
+  "rule": "La carreggiata è dove passano i veicoli: corsie e attraversamenti sono dentro. Banchine, marciapiedi e corsie di emergenza sono fuori.",
+  "trap": "«corsie» fa pensare a una corsia di marcia, ma quella di emergenza è fuori dalla carreggiata.",
+  "caption": "La corsia di emergenza è fuori dalla carreggiata"
+ },
+ "q18476": {
+  "short": "La banchina è accanto alla carreggiata, oltre la linea bianca. È parte della strada, non della carreggiata.",
+  "rule": "La carreggiata è dove passano i veicoli: corsie e attraversamenti sono dentro. Banchine, marciapiedi e corsie di emergenza sono fuori.",
+  "trap": "«banchine» sono parte della strada, non della carreggiata.",
+  "caption": "La banchina è fuori dalla carreggiata"
+ },
+ "q18477": {
+  "short": "Il marciapiede è per i pedoni ed è fuori dalla carreggiata.",
+  "rule": "La carreggiata è dove passano i veicoli: corsie e attraversamenti sono dentro. Banchine, marciapiedi e corsie di emergenza sono fuori.",
+  "trap": "«marciapiedi» sono parte della strada, non della carreggiata.",
+  "caption": "Il marciapiede è fuori dalla carreggiata"
+ },
+ "q18478": {
+  "short": "La maggior parte delle corsie sono corsie normali, per i veicoli che viaggiano.",
+  "rule": "La corsia è una parte della carreggiata per una sola fila di veicoli. Può essere normale, di sorpasso, di accelerazione, di decelerazione, di svolta, di emergenza o riservata.",
+  "trap": "«può essere» va bene: la marcia normale è uno degli usi della corsia.",
+  "caption": "Le corsie normali sono per il traffico"
+ },
+ "q18479": {
+  "short": "Le corsie sono segnate sulla strada con strisce bianche, continue o discontinue.",
+  "rule": "La corsia è una parte della carreggiata per una sola fila di veicoli. Può essere normale, di sorpasso, di accelerazione, di decelerazione, di svolta, di emergenza o riservata.",
+  "trap": "«continue o discontinue»: tutte e due possono delimitare una corsia.",
+  "caption": "Corsie segnate da strisce continue o discontinue"
+ },
+ "q18480": {
+  "short": "La corsia di accelerazione è una corsia speciale per aumentare la velocità prima di entrare.",
+  "rule": "La corsia è una parte della carreggiata per una sola fila di veicoli. Può essere normale, di sorpasso, di accelerazione, di decelerazione, di svolta, di emergenza o riservata.",
+  "trap": "«può essere»: l'accelerazione è uno degli usi speciali della corsia.",
+  "caption": "La corsia di accelerazione è una corsia speciale"
+ },
+ "q18481": {
+  "short": "La corsia di decelerazione è una corsia speciale per rallentare quando esci.",
+  "rule": "La corsia è una parte della carreggiata per una sola fila di veicoli. Può essere normale, di sorpasso, di accelerazione, di decelerazione, di svolta, di emergenza o riservata.",
+  "trap": "«può essere»: rallentare è uno degli usi speciali della corsia.",
+  "caption": "La corsia di decelerazione è una corsia speciale"
+ },
+ "q18482": {
+  "short": "I segnali possono vietare una corsia ad alcuni veicoli, per esempio ai camion.",
+  "rule": "La corsia è una parte della carreggiata per una sola fila di veicoli. Può essere normale, di sorpasso, di accelerazione, di decelerazione, di svolta, di emergenza o riservata.",
+  "trap": "«vietate»: una corsia può essere vietata ad alcuni veicoli, non a tutti.",
+  "caption": "Alcune corsie sono vietate ad alcuni veicoli"
+ },
+ "q18483": {
+  "short": "Le corsie per bus e taxi sono riservate ad alcune categorie di veicoli.",
+  "rule": "La corsia è una parte della carreggiata per una sola fila di veicoli. Può essere normale, di sorpasso, di accelerazione, di decelerazione, di svolta, di emergenza o riservata.",
+  "trap": "«riservata»: la usano solo i veicoli indicati.",
+  "caption": "Le corsie per bus e taxi sono riservate"
+ },
+ "q18484": {
+  "short": "Sulle strade con più corsie nello stesso senso, la corsia di sinistra serve per sorpassare.",
+  "rule": "La corsia è una parte della carreggiata per una sola fila di veicoli. Può essere normale, di sorpasso, di accelerazione, di decelerazione, di svolta, di emergenza o riservata.",
+  "trap": "«effettuare sorpassi»: il sorpasso è uno degli usi della corsia.",
+  "caption": "La corsia di sorpasso è un tipo di corsia"
+ },
+ "q18485": {
+  "short": "L'ente proprietario può imporre una velocità minima su una corsia, con un segnale blu rotondo.",
+  "rule": "La corsia è una parte della carreggiata per una sola fila di veicoli. Può essere normale, di sorpasso, di accelerazione, di decelerazione, di svolta, di emergenza o riservata.",
+  "trap": "«velocità minima obbligatoria» esiste davvero: non ci sono solo limiti massimi.",
+  "caption": "Una corsia può avere una velocità minima"
+ },
+ "q18486": {
+  "short": "È la definizione di corsia: una parte della carreggiata per una sola fila di veicoli.",
+  "rule": "La corsia è una parte della carreggiata per una sola fila di veicoli. Può essere normale, di sorpasso, di accelerazione, di decelerazione, di svolta, di emergenza o riservata.",
+  "trap": "«una sola fila» è la chiave della definizione.",
+  "caption": "Una corsia = una sola fila di veicoli"
+ },
+ "q18487": {
+  "short": "La corsia di emergenza serve per fermarsi solo in caso di guasto o malessere.",
+  "rule": "La corsia è una parte della carreggiata per una sola fila di veicoli. Può essere normale, di sorpasso, di accelerazione, di decelerazione, di svolta, di emergenza o riservata.",
+  "trap": "«soste di emergenza»: solo vere emergenze, non sosta normale.",
+  "caption": "La corsia di emergenza è per guasto o malessere"
+ },
+ "q18488": {
+  "short": "Prima degli incroci ci sono corsie solo per chi svolta: sono corsie specializzate.",
+  "rule": "La corsia è una parte della carreggiata per una sola fila di veicoli. Può essere normale, di sorpasso, di accelerazione, di decelerazione, di svolta, di emergenza o riservata.",
+  "trap": "«corsia specializzata» è una corsia con un compito preciso, come svoltare.",
+  "caption": "Le corsie per svoltare sono specializzate"
+ },
+ "q18489": {
+  "short": "È la corsia di decelerazione: ci entri e rallenti quando esci dall'autostrada.",
+  "rule": "La corsia è una parte della carreggiata per una sola fila di veicoli. Può essere normale, di sorpasso, di accelerazione, di decelerazione, di svolta, di emergenza o riservata.",
+  "trap": "«rallentamento» descrive la corsia di decelerazione.",
+  "caption": "La corsia di decelerazione serve a rallentare"
+ },
+ "q18490": {
+  "short": "La corsia fa parte della carreggiata ed è per i veicoli. I pedoni usano il marciapiede.",
+  "rule": "La corsia è una parte della carreggiata per una sola fila di veicoli. Può essere normale, di sorpasso, di accelerazione, di decelerazione, di svolta, di emergenza o riservata.",
+  "trap": "«solo» e «pedoni» la rendono sbagliata: la corsia è per i veicoli.",
+  "caption": "Le corsie sono per i veicoli, non solo per i pedoni"
+ },
+ "q18491": {
+  "short": "La corsia ha una sola fila di veicoli in un solo senso. La strada può essere a doppio senso, la corsia no.",
+  "rule": "La corsia è una parte della carreggiata per una sola fila di veicoli. Può essere normale, di sorpasso, di accelerazione, di decelerazione, di svolta, di emergenza o riservata.",
+  "trap": "«doppio senso» vale per la strada o la carreggiata, mai per una sola corsia.",
+  "caption": "Una corsia = un solo senso"
+ },
+ "q18492": {
+  "short": "La corsia è una parte normale della carreggiata per il traffico. Non c'entra con le corse.",
+  "rule": "La corsia è una parte della carreggiata per una sola fila di veicoli. Può essere normale, di sorpasso, di accelerazione, di decelerazione, di svolta, di emergenza o riservata.",
+  "trap": "«corsia» sembra «corsa», ma vuol dire corsia di marcia.",
+  "caption": "La corsia è per il traffico, non per le corse"
+ },
+ "q18493": {
+  "short": "I pedoni attraversano le corsie sugli attraversamenti pedonali, che sono sulla carreggiata.",
+  "rule": "La corsia è una parte della carreggiata per una sola fila di veicoli. Può essere normale, di sorpasso, di accelerazione, di decelerazione, di svolta, di emergenza o riservata.",
+  "trap": "«mai» è troppo forte: i pedoni possono attraversare, soprattutto sulle strisce.",
+  "caption": "I pedoni attraversano le corsie sulle strisce"
+ },
+ "q18494": {
+  "short": "È il contrario: la carreggiata è formata da una o più corsie.",
+  "rule": "La corsia è una parte della carreggiata per una sola fila di veicoli. Può essere normale, di sorpasso, di accelerazione, di decelerazione, di svolta, di emergenza o riservata.",
+  "trap": "«formata da due carreggiate» capovolge l'ordine.",
+  "caption": "La carreggiata è fatta di corsie, non il contrario"
+ },
+ "q18495": {
+  "short": "La corsia è solo una striscia della carreggiata, non una strada intera.",
+  "rule": "La corsia è una parte della carreggiata per una sola fila di veicoli. Può essere normale, di sorpasso, di accelerazione, di decelerazione, di svolta, di emergenza o riservata.",
+  "trap": "«strada a scorrimento veloce» è un tipo di strada, non una corsia.",
+  "caption": "La corsia è una striscia, non una strada"
+ },
+ "q18496": {
+  "short": "La corsia ha una sola fila di veicoli: due moto vanno una dietro l'altra.",
+  "rule": "La corsia è una parte della carreggiata per una sola fila di veicoli. Può essere normale, di sorpasso, di accelerazione, di decelerazione, di svolta, di emergenza o riservata.",
+  "trap": "«Nei centri abitati» non cambia nulla: mai affiancati sulla stessa corsia.",
+  "caption": "Una corsia: le moto vanno in fila"
+ },
+ "q18497": {
+  "short": "La corsia ha una sola fila di veicoli, e i ciclomotori vanno sempre in fila.",
+  "rule": "La corsia è una parte della carreggiata per una sola fila di veicoli. Può essere normale, di sorpasso, di accelerazione, di decelerazione, di svolta, di emergenza o riservata.",
+  "trap": "«Fuori dai centri abitati» non cambia nulla: mai ciclomotori affiancati.",
+  "caption": "I ciclomotori vanno sempre in fila"
+ },
+ "q18498": {
+  "short": "Nella corsia di accelerazione prendi la velocità del traffico ed entri sicuro.",
+  "rule": "La corsia di accelerazione serve ad aumentare la velocità per entrare in autostrada. Non serve per sorpassare.",
+  "trap": "«facilita l'ingresso»: parla di ENTRARE, non di uscire.",
+  "caption": "Corsia di accelerazione: per entrare",
+  "lines": [
+   "Corsia per aumentare la velocità",
+   "Poi entri in autostrada",
+   "Qui non si sorpassa"
+  ]
+ },
+ "q18499": {
+  "short": "Usi la corsia di accelerazione per entrare in autostrada alla velocità giusta.",
+  "rule": "La corsia di accelerazione serve ad aumentare la velocità per entrare in autostrada. Non serve per sorpassare.",
+  "trap": "«entrare» è lo scopo giusto di questa corsia.",
+  "caption": "Corsia di accelerazione: entri bene in autostrada",
+  "lines": [
+   "Corsia per aumentare la velocità",
+   "Poi entri in autostrada",
+   "Qui non si sorpassa"
+  ]
+ },
+ "q18500": {
+  "short": "Lo dice il nome: qui acceleri per prendere la velocità del traffico.",
+  "rule": "La corsia di accelerazione serve ad aumentare la velocità per entrare in autostrada. Non serve per sorpassare.",
+  "trap": "«aumentare la velocità» è proprio il senso di «accelerazione».",
+  "caption": "Nella corsia di accelerazione acceleri",
+  "lines": [
+   "Corsia per aumentare la velocità",
+   "Poi entri in autostrada",
+   "Qui non si sorpassa"
+  ]
+ },
+ "q18501": {
+  "short": "Quando esci da un'area di servizio usi la corsia di accelerazione per rientrare in autostrada.",
+  "rule": "La corsia di accelerazione serve ad aumentare la velocità per entrare in autostrada. Non serve per sorpassare.",
+  "trap": "«rientrare» vuol dire entrare di nuovo: serve la corsia di accelerazione.",
+  "caption": "Dall'area di servizio rientri in autostrada",
+  "lines": [
+   "Corsia per aumentare la velocità",
+   "Poi entri in autostrada",
+   "Qui non si sorpassa"
+  ]
+ },
+ "q18502": {
+  "short": "La corsia di accelerazione serve solo per prendere velocità ed entrare. Non si sorpassa.",
+  "rule": "La corsia di accelerazione serve ad aumentare la velocità per entrare in autostrada. Non serve per sorpassare.",
+  "trap": "«sorpasso» è l'uso sbagliato: qui acceleri ed entri, basta.",
+  "caption": "Nella corsia di accelerazione non si sorpassa"
+ },
+ "q18503": {
+  "short": "La piazzola è un piccolo spazio per fermarsi ai lati; la corsia di accelerazione serve per entrare in autostrada.",
+  "rule": "La corsia di accelerazione serve ad aumentare la velocità per entrare in autostrada. Non serve per sorpassare.",
+  "trap": "«piazzola di sosta» non è il posto della corsia di accelerazione.",
+  "caption": "La corsia di accelerazione non è per le piazzole",
+  "lines": [
+   "Corsia per aumentare la velocità",
+   "Poi entri in autostrada",
+   "Qui non si sorpassa"
+  ]
+ },
+ "q18504": {
+  "short": "Per lasciare l'autostrada e andare in un'area di sosta usi la corsia di DEcelerazione.",
+  "rule": "La corsia di accelerazione serve ad aumentare la velocità per entrare in autostrada. Non serve per sorpassare.",
+  "trap": "«abbandonare» descrive la corsia di decelerazione, non quella di accelerazione.",
+  "caption": "Per uscire serve la corsia di decelerazione",
+  "lines": [
+   "Corsia per aumentare la velocità",
+   "Poi entri in autostrada",
+   "Qui non si sorpassa"
+  ]
+ },
+ "q18505": {
+  "short": "Entri nella corsia di decelerazione e rallenti lì, senza frenare nel traffico veloce.",
+  "rule": "La corsia di decelerazione serve per uscire dall'autostrada e rallentare fuori dal traffico. Non ci si ferma.",
+  "trap": "«uscita»: la corsia di decelerazione serve per USCIRE.",
+  "caption": "Corsia di decelerazione: per uscire",
+  "lines": [
+   "Lasci la carreggiata principale",
+   "Rallenti in questa corsia",
+   "Niente sosta, non si entra qui"
+  ]
+ },
+ "q18506": {
+  "short": "Anche le strade extraurbane principali hanno corsie di decelerazione alle uscite.",
+  "rule": "La corsia di decelerazione serve per uscire dall'autostrada e rallentare fuori dal traffico. Non ci si ferma.",
+  "trap": "«strada extraurbana principale»: non c'è solo l'autostrada.",
+  "caption": "Anche le extraurbane principali le hanno",
+  "lines": [
+   "Lasci la carreggiata principale",
+   "Rallenti in questa corsia",
+   "Niente sosta, non si entra qui"
+  ]
+ },
+ "q18507": {
+  "short": "Per entrare in un'area di servizio esci dall'autostrada: usi la corsia di decelerazione.",
+  "rule": "La corsia di decelerazione serve per uscire dall'autostrada e rallentare fuori dal traffico. Non ci si ferma.",
+  "trap": "«uscire ... ed entrare nell'area di servizio»: prima esci, quindi decelerazione.",
+  "caption": "In area di servizio con la decelerazione",
+  "lines": [
+   "Lasci la carreggiata principale",
+   "Rallenti in questa corsia",
+   "Niente sosta, non si entra qui"
+  ]
+ },
+ "q18508": {
+  "short": "La corsia di decelerazione serve solo per rallentare e uscire. Non si sosta.",
+  "rule": "La corsia di decelerazione serve per uscire dall'autostrada e rallentare fuori dal traffico. Non ci si ferma.",
+  "trap": "«sosta» non è mai permessa in questa corsia.",
+  "caption": "Nella corsia di decelerazione non si sosta",
+  "lines": [
+   "Lasci la carreggiata principale",
+   "Rallenti in questa corsia",
+   "Niente sosta, non si entra qui"
+  ]
+ },
+ "q18509": {
+  "short": "Nella piazzola si entra direttamente, senza corsia di decelerazione. Questa porta alle uscite.",
+  "rule": "La corsia di decelerazione serve per uscire dall'autostrada e rallentare fuori dal traffico. Non ci si ferma.",
+  "trap": "«piazzola di sosta» è sbagliato: la decelerazione porta alle uscite.",
+  "caption": "La decelerazione porta alle uscite",
+  "lines": [
+   "Lasci la carreggiata principale",
+   "Rallenti in questa corsia",
+   "Niente sosta, non si entra qui"
+  ]
+ },
+ "q18510": {
+  "short": "Per entrare in autostrada devi accelerare: usi la corsia di ACcelerazione.",
+  "rule": "La corsia di decelerazione serve per uscire dall'autostrada e rallentare fuori dal traffico. Non ci si ferma.",
+  "trap": "«entrare» va con la corsia di accelerazione.",
+  "caption": "Per entrare serve la corsia di accelerazione",
+  "lines": [
+   "Lasci la carreggiata principale",
+   "Rallenti in questa corsia",
+   "Niente sosta, non si entra qui"
+  ]
+ },
+ "q18511": {
+  "short": "La banchina è fuori dalla carreggiata: di norma i veicoli non ci passano.",
+  "rule": "La banchina è parte della strada fuori dalla carreggiata, oltre la linea bianca continua. Di norma i veicoli non ci passano.",
+  "trap": "«di norma»: si usa solo in casi speciali, come una fermata di emergenza.",
+  "caption": "Di norma non si passa sulla banchina"
+ },
+ "q18512": {
+  "short": "La banchina è parte della strada, ma è fuori dalla carreggiata.",
+  "rule": "La banchina è parte della strada fuori dalla carreggiata, oltre la linea bianca continua. Di norma i veicoli non ci passano.",
+  "trap": "«strada» e «carreggiata» sono diverse: la banchina è nella prima, non nella seconda.",
+  "caption": "Banchina: parte della strada, fuori carreggiata"
+ },
+ "q18513": {
+  "short": "La linea bianca continua segna la fine della carreggiata; la banchina è dall'altra parte.",
+  "rule": "La banchina è parte della strada fuori dalla carreggiata, oltre la linea bianca continua. Di norma i veicoli non ci passano.",
+  "trap": "«oltre» è giusto: la banchina inizia dopo la linea di margine.",
+  "caption": "La banchina è oltre la linea bianca di margine"
+ },
+ "q18514": {
+  "short": "In salita i veicoli lenti usano una corsia apposita. La banchina non è per circolare.",
+  "rule": "La banchina è parte della strada fuori dalla carreggiata, oltre la linea bianca continua. Di norma i veicoli non ci passano.",
+  "trap": "«riservata ai veicoli lenti» descrive una corsia, non la banchina.",
+  "caption": "I veicoli lenti non vanno sulla banchina"
+ },
+ "q18515": {
+  "short": "Non esiste una regola di sosta di 5 ore sulle banchine: il numero è inventato.",
+  "rule": "La banchina è parte della strada fuori dalla carreggiata, oltre la linea bianca continua. Di norma i veicoli non ci passano.",
+  "trap": "«massimo di 5 ore» è un limite inventato.",
+  "caption": "Nessuna regola di 5 ore sulle banchine"
+ },
+ "q18516": {
+  "short": "Le corsie sono divise da strisce bianche. La banchina è al lato, fuori dalla carreggiata.",
+  "rule": "La banchina è parte della strada fuori dalla carreggiata, oltre la linea bianca continua. Di norma i veicoli non ci passano.",
+  "trap": "«divide la carreggiata» è sbagliato: la banchina è al lato, non in mezzo.",
+  "caption": "La banchina è al lato, non in mezzo"
+ },
+ "q18517": {
+  "short": "La banchina è fuori dalla carreggiata e non è un parcheggio.",
+  "rule": "La banchina è parte della strada fuori dalla carreggiata, oltre la linea bianca continua. Di norma i veicoli non ci passano.",
+  "trap": "«parte della carreggiata» è sbagliato: la banchina è fuori dalla carreggiata.",
+  "caption": "La banchina non è parte della carreggiata"
+ },
+ "q18518": {
+  "short": "È la definizione di marciapiede: parte della strada rialzata o separata, per chi va a piedi.",
+  "rule": "Il marciapiede è fuori dalla carreggiata ed è riservato, di norma, ai pedoni. Si sosta solo con apposite strisce.",
+  "trap": "«rialzata o delimitata in altro modo»: non deve per forza essere rialzato.",
+  "caption": "Marciapiede: rialzato o delimitato, per i pedoni"
+ },
+ "q18519": {
+  "short": "Il marciapiede è per chi va a piedi. I veicoli lo usano solo in casi speciali.",
+  "rule": "Il marciapiede è fuori dalla carreggiata ed è riservato, di norma, ai pedoni. Si sosta solo con apposite strisce.",
+  "trap": "«di norma» lascia spazio a eccezioni, come le strisce di parcheggio.",
+  "caption": "Il marciapiede è, di norma, per i pedoni"
+ },
+ "q18520": {
+  "short": "Sul marciapiede non si sosta, a meno che ci siano strisce di parcheggio.",
+  "rule": "Il marciapiede è fuori dalla carreggiata ed è riservato, di norma, ai pedoni. Si sosta solo con apposite strisce.",
+  "trap": "«solo» qui è giusto: senza strisce non puoi sostare sul marciapiede.",
+  "caption": "Sosta sul marciapiede solo con le strisce"
+ },
+ "q18521": {
+  "short": "Il marciapiede è parte della strada, fuori dalla carreggiata, per chi va a piedi.",
+  "rule": "Il marciapiede è fuori dalla carreggiata ed è riservato, di norma, ai pedoni. Si sosta solo con apposite strisce.",
+  "trap": "«al di fuori della carreggiata» è il punto chiave.",
+  "caption": "Marciapiede: fuori carreggiata, per i pedoni"
+ },
+ "q18522": {
+  "short": "Il marciapiede è parte della strada, ma è fuori dalla carreggiata.",
+  "rule": "Il marciapiede è fuori dalla carreggiata ed è riservato, di norma, ai pedoni. Si sosta solo con apposite strisce.",
+  "trap": "«carreggiata» è il tranello: il marciapiede è della strada, non della carreggiata.",
+  "caption": "Il marciapiede è fuori dalla carreggiata"
+ },
+ "q18523": {
+  "short": "Il marciapiede è riservato ai pedoni. Le biciclette usano la carreggiata o le piste ciclabili.",
+  "rule": "Il marciapiede è fuori dalla carreggiata ed è riservato, di norma, ai pedoni. Si sosta solo con apposite strisce.",
+  "trap": "«anche alle biciclette» è sbagliato: solo pedoni.",
+  "caption": "Le biciclette non vanno sul marciapiede"
+ },
+ "q18524": {
+  "short": "Il marciapiede è per i pedoni, rialzato o no. La sosta solo con apposite strisce.",
+  "rule": "Il marciapiede è fuori dalla carreggiata ed è riservato, di norma, ai pedoni. Si sosta solo con apposite strisce.",
+  "trap": "«qualora non sia rialzato» è una condizione inventata.",
+  "caption": "Rialzato o no, il marciapiede è dei pedoni"
+ },
+ "q18525": {
+  "short": "Di norma sul marciapiede ci sono solo pedoni. I ciclomotori non ci sostano senza strisce.",
+  "rule": "Il marciapiede è fuori dalla carreggiata ed è riservato, di norma, ai pedoni. Si sosta solo con apposite strisce.",
+  "trap": "«ciclomotori» sono veicoli: anche per loro vale il divieto.",
+  "caption": "Niente sosta dei ciclomotori sul marciapiede"
+ },
+ "q18526": {
+  "short": "Su una strada larga i pedoni possono fermarsi al sicuro sul salvagente, a metà strada.",
+  "rule": "Il salvagente è un'area sicura per i pedoni, agli attraversamenti e alle fermate. Può avere colonnine a luce gialla fissa.",
+  "trap": "«anche»: il salvagente aiuta anche agli attraversamenti, non solo alle fermate.",
+  "caption": "I pedoni aspettano al sicuro a metà strada",
+  "lines": [
+   "Isola sicura per i pedoni",
+   "Agli attraversamenti e alle fermate",
+   "Può avere luci gialle fisse"
+  ]
+ },
+ "q18527": {
+  "short": "Alle fermate in mezzo alla strada i passeggeri salgono e scendono dal salvagente.",
+  "rule": "Il salvagente è un'area sicura per i pedoni, agli attraversamenti e alle fermate. Può avere colonnine a luce gialla fissa.",
+  "trap": "«salita e discesa»: è il compito principale del salvagente alle fermate.",
+  "caption": "Si sale sul tram dal salvagente",
+  "lines": [
+   "Isola sicura per i pedoni",
+   "Agli attraversamenti e alle fermate",
+   "Può avere luci gialle fisse"
+  ]
+ },
+ "q18528": {
+  "short": "Per essere visto bene, anche di notte, il salvagente può avere colonnine con luce gialla fissa.",
+  "rule": "Il salvagente è un'area sicura per i pedoni, agli attraversamenti e alle fermate. Può avere colonnine a luce gialla fissa.",
+  "trap": "«luce gialla fissa»: luce ferma, non lampeggiante.",
+  "caption": "Colonnine a luce gialla fissa sul salvagente",
+  "lines": [
+   "Isola sicura per i pedoni",
+   "Agli attraversamenti e alle fermate",
+   "Può avere luci gialle fisse"
+  ]
+ },
+ "q18529": {
+  "short": "Dividere i due sensi è il compito dello spartitraffico. Il salvagente è per i pedoni.",
+  "rule": "Il salvagente è un'area sicura per i pedoni, agli attraversamenti e alle fermate. Può avere colonnine a luce gialla fissa.",
+  "trap": "«dividere i sensi di marcia» descrive lo spartitraffico, non il salvagente.",
+  "caption": "Il salvagente è per i pedoni",
+  "lines": [
+   "Isola sicura per i pedoni",
+   "Agli attraversamenti e alle fermate",
+   "Può avere luci gialle fisse"
+  ]
+ },
+ "q18530": {
+  "short": "Incanalare i veicoli è il compito delle isole di traffico. Il salvagente protegge i pedoni.",
+  "rule": "Il salvagente è un'area sicura per i pedoni, agli attraversamenti e alle fermate. Può avere colonnine a luce gialla fissa.",
+  "trap": "«incanalare i veicoli» parla di auto, il salvagente parla di pedoni.",
+  "caption": "Il salvagente protegge i pedoni",
+  "lines": [
+   "Isola sicura per i pedoni",
+   "Agli attraversamenti e alle fermate",
+   "Può avere luci gialle fisse"
+  ]
+ },
+ "q18531": {
+  "short": "Nel codice della strada il salvagente è un posto sulla strada, non una persona.",
+  "rule": "Il salvagente è un'area sicura per i pedoni, agli attraversamenti e alle fermate. Può avere colonnine a luce gialla fissa.",
+  "trap": "«salvagente» nella vita è un oggetto per nuotare, ma qui è un'area per i pedoni.",
+  "caption": "Il salvagente è un posto, non una persona",
+  "lines": [
+   "Isola sicura per i pedoni",
+   "Agli attraversamenti e alle fermate",
+   "Può avere luci gialle fisse"
+  ]
+ },
+ "q18532": {
+  "short": "Il salvagente è una piccola area sicura sulla strada, non un percorso per bici e pedoni.",
+  "rule": "Il salvagente è un'area sicura per i pedoni, agli attraversamenti e alle fermate. Può avere colonnine a luce gialla fissa.",
+  "trap": "«itinerario ciclopedonale» è un altro tipo di strada.",
+  "caption": "Il salvagente è un'area, non un percorso",
+  "lines": [
+   "Isola sicura per i pedoni",
+   "Agli attraversamenti e alle fermate",
+   "Può avere luci gialle fisse"
+  ]
+ },
+ "q18533": {
+  "short": "Il passo carrabile è il punto dove le auto entrano dalla strada in un garage o cortile.",
+  "rule": "Il passo carrabile è l'accesso dei veicoli alle proprietà laterali. Davanti si può fare la fermata, non la sosta.",
+  "trap": "«proprietà private»: è un accesso, non una strada o un parcheggio.",
+  "caption": "Il passo carrabile porta a garage e cortili",
+  "lines": [
+   "Accesso a garage e cortili",
+   "Fermata: consentita",
+   "Sosta: vietata"
+  ]
+ },
+ "q18534": {
+  "short": "Il passo carrabile può portare dalla strada in un'area laterale dove si parcheggia.",
+  "rule": "Il passo carrabile è l'accesso dei veicoli alle proprietà laterali. Davanti si può fare la fermata, non la sosta.",
+  "trap": "«area laterale adibita alla sosta»: si parcheggia dentro, non davanti al passo carrabile.",
+  "caption": "Il passo carrabile può portare a un parcheggio",
+  "lines": [
+   "Accesso a garage e cortili",
+   "Fermata: consentita",
+   "Sosta: vietata"
+  ]
+ },
+ "q18535": {
+  "short": "Il passo carrabile ha un segnale ufficiale con il nome dell'ente e il numero di autorizzazione.",
+  "rule": "Il passo carrabile è l'accesso dei veicoli alle proprietà laterali. Davanti si può fare la fermata, non la sosta.",
+  "trap": "«deve»: senza questo segnale non è un passo carrabile ufficiale.",
+  "caption": "Segnale: ente e numero di autorizzazione",
+  "lines": [
+   "Accesso a garage e cortili",
+   "Fermata: consentita",
+   "Sosta: vietata"
+  ]
+ },
+ "q18536": {
+  "short": "È la definizione: il posto dove i veicoli entrano ed escono dalle proprietà laterali.",
+  "rule": "Il passo carrabile è l'accesso dei veicoli alle proprietà laterali. Davanti si può fare la fermata, non la sosta.",
+  "trap": "«accesso» è la parola chiave della definizione.",
+  "caption": "Passo carrabile = accesso alle proprietà",
+  "lines": [
+   "Accesso a garage e cortili",
+   "Fermata: consentita",
+   "Sosta: vietata"
+  ]
+ },
+ "q18537": {
+  "short": "La fermata è breve e il conducente è pronto a ripartire: davanti al passo carrabile è consentita.",
+  "rule": "Il passo carrabile è l'accesso dei veicoli alle proprietà laterali. Davanti si può fare la fermata, non la sosta.",
+  "trap": "«fermata» è consentita; la «sosta» no.",
+  "caption": "Fermata davanti al passo carrabile: sì",
+  "lines": [
+   "Accesso a garage e cortili",
+   "Fermata: consentita",
+   "Sosta: vietata"
+  ]
+ },
+ "q18538": {
+  "short": "Il parcheggio scambiatore è dove lasci l'auto e prendi i mezzi pubblici. Il passo carrabile è solo un accesso.",
+  "rule": "Il passo carrabile è l'accesso dei veicoli alle proprietà laterali. Davanti si può fare la fermata, non la sosta.",
+  "trap": "«parcheggio scambiatore» non c'entra con il passo carrabile.",
+  "caption": "Il passo carrabile è un accesso, non un parcheggio",
+  "lines": [
+   "Accesso a garage e cortili",
+   "Fermata: consentita",
+   "Sosta: vietata"
+  ]
+ },
+ "q18539": {
+  "short": "«carrabile» viene da «carro», ma vuol dire solo che i veicoli passano. È un accesso, non una strada.",
+  "rule": "Il passo carrabile è l'accesso dei veicoli alle proprietà laterali. Davanti si può fare la fermata, non la sosta.",
+  "trap": "«carri trainati da animali» gioca con la parola antica «carro».",
+  "caption": "Il passo carrabile non è per i carri",
+  "lines": [
+   "Accesso a garage e cortili",
+   "Fermata: consentita",
+   "Sosta: vietata"
+  ]
+ },
+ "q18540": {
+  "short": "Il passo carrabile è un accesso alle proprietà per tutti i veicoli, non una strada per camion.",
+  "rule": "Il passo carrabile è l'accesso dei veicoli alle proprietà laterali. Davanti si può fare la fermata, non la sosta.",
+  "trap": "«riservata agli autocarri» è inventato.",
+  "caption": "Il passo carrabile è per tutti i veicoli",
+  "lines": [
+   "Accesso a garage e cortili",
+   "Fermata: consentita",
+   "Sosta: vietata"
+  ]
+ },
+ "q18541": {
+  "short": "L'isola per i pedoni è il salvagente. Il passo carrabile è l'accesso dei veicoli alle proprietà.",
+  "rule": "Il passo carrabile è l'accesso dei veicoli alle proprietà laterali. Davanti si può fare la fermata, non la sosta.",
+  "trap": "«salvagente circolare» confonde due parti diverse della strada.",
+  "caption": "Il passo carrabile non è un salvagente",
+  "lines": [
+   "Accesso a garage e cortili",
+   "Fermata: consentita",
+   "Sosta: vietata"
+  ]
+ },
+ "q18542": {
+  "short": "Il passo carrabile è un posto (un accesso), non un segnale di rotatoria.",
+  "rule": "Il passo carrabile è l'accesso dei veicoli alle proprietà laterali. Davanti si può fare la fermata, non la sosta.",
+  "trap": "«segnale che impone la circolazione rotatoria» descrive il segnale di rotatoria.",
+  "caption": "Il passo carrabile non è un segnale di rotatoria",
+  "lines": [
+   "Accesso a garage e cortili",
+   "Fermata: consentita",
+   "Sosta: vietata"
+  ]
+ },
+ "q18543": {
+  "short": "La sosta davanti al passo carrabile blocca l'entrata e l'uscita: è vietata.",
+  "rule": "Il passo carrabile è l'accesso dei veicoli alle proprietà laterali. Davanti si può fare la fermata, non la sosta.",
+  "trap": "«sosta» è vietata; solo la «fermata» è consentita.",
+  "caption": "Davanti al passo carrabile niente sosta",
+  "lines": [
+   "Accesso a garage e cortili",
+   "Fermata: consentita",
+   "Sosta: vietata"
+  ]
+ },
+ "q18544": {
+  "short": "È la definizione di ciclomotore: due ruote, motore termico fino a 50 cm3, massimo 45 km/h.",
+  "rule": "Il ciclomotore ha 2 o 3 ruote, va al massimo a 45 km/h e, con motore termico, ha al massimo 50 cm3. Revisione dopo 4 anni, poi ogni 2.",
+  "trap": "«fino a 50» e «45 km/h» sono i limiti esatti: sopra è un motociclo.",
+  "caption": "Fino a 50 cm3 e 45 km/h = ciclomotore",
+  "lines": [
+   "2 o 3 ruote, massimo 45 km/h",
+   "Motore termico: max 50 cm3",
+   "Revisione dopo 4 anni, poi ogni 2"
+  ]
+ },
+ "q18545": {
+  "short": "Esistono ciclomotori a due ruote e a tre ruote.",
+  "rule": "Il ciclomotore ha 2 o 3 ruote, va al massimo a 45 km/h e, con motore termico, ha al massimo 50 cm3. Revisione dopo 4 anni, poi ogni 2.",
+  "trap": "«due o tre ruote» è giusto: anche a tre ruote può essere un ciclomotore.",
+  "caption": "Ciclomotori: due o tre ruote",
+  "lines": [
+   "2 o 3 ruote, massimo 45 km/h",
+   "Motore termico: max 50 cm3",
+   "Revisione dopo 4 anni, poi ogni 2"
+  ]
+ },
+ "q18546": {
+  "short": "Le due ruote più grandi o veloci (oltre 50 cm3 o 45 km/h) sono motocicli, non ciclomotori.",
+  "rule": "Il ciclomotore ha 2 o 3 ruote, va al massimo a 45 km/h e, con motore termico, ha al massimo 50 cm3. Revisione dopo 4 anni, poi ogni 2.",
+  "trap": "«Non tutti» è giusto: alcuni sono ciclomotori, altri motocicli.",
+  "caption": "Le due ruote più grandi sono motocicli",
+  "lines": [
+   "2 o 3 ruote, massimo 45 km/h",
+   "Motore termico: max 50 cm3",
+   "Revisione dopo 4 anni, poi ogni 2"
+  ]
+ },
+ "q18547": {
+  "short": "50 cm3 è la cilindrata massima del ciclomotore a due ruote con motore termico.",
+  "rule": "Il ciclomotore ha 2 o 3 ruote, va al massimo a 45 km/h e, con motore termico, ha al massimo 50 cm3. Revisione dopo 4 anni, poi ogni 2.",
+  "trap": "«superiore a 50»: oltre 50 cm3 non è più un ciclomotore.",
+  "caption": "Ciclomotore a due ruote: massimo 50 cm3",
+  "lines": [
+   "2 o 3 ruote, massimo 45 km/h",
+   "Motore termico: max 50 cm3",
+   "Revisione dopo 4 anni, poi ogni 2"
+  ]
+ },
+ "q18548": {
+  "short": "Come le auto, i ciclomotori fanno la revisione: la prima dopo 4 anni, poi ogni 2.",
+  "rule": "Il ciclomotore ha 2 o 3 ruote, va al massimo a 45 km/h e, con motore termico, ha al massimo 50 cm3. Revisione dopo 4 anni, poi ogni 2.",
+  "trap": "«quattro» e poi «due»: come per le auto.",
+  "caption": "Revisione: dopo 4 anni, poi ogni 2",
+  "lines": [
+   "2 o 3 ruote, massimo 45 km/h",
+   "Motore termico: max 50 cm3",
+   "Revisione dopo 4 anni, poi ogni 2"
+  ]
+ },
+ "q18549": {
+  "short": "I ciclomotori possono avere anche tre ruote.",
+  "rule": "Il ciclomotore ha 2 o 3 ruote, va al massimo a 45 km/h e, con motore termico, ha al massimo 50 cm3. Revisione dopo 4 anni, poi ogni 2.",
+  "trap": "«non hanno più di due ruote» dimentica i ciclomotori a tre ruote.",
+  "caption": "I ciclomotori possono avere anche 3 ruote",
+  "lines": [
+   "2 o 3 ruote, massimo 45 km/h",
+   "Motore termico: max 50 cm3",
+   "Revisione dopo 4 anni, poi ogni 2"
+  ]
+ },
+ "q18550": {
+  "short": "Queste bici aiutano solo mentre pedali: per la legge sono biciclette, non ciclomotori.",
+  "rule": "Il ciclomotore ha 2 o 3 ruote, va al massimo a 45 km/h e, con motore termico, ha al massimo 50 cm3. Revisione dopo 4 anni, poi ogni 2.",
+  "trap": "«pedalata assistita» vuol dire bicicletta, anche con un piccolo motore.",
+  "caption": "Le bici a pedalata assistita sono biciclette",
+  "lines": [
+   "2 o 3 ruote, massimo 45 km/h",
+   "Motore termico: max 50 cm3",
+   "Revisione dopo 4 anni, poi ogni 2"
+  ]
+ },
+ "q18551": {
+  "short": "È il contrario: sopra 50 cm3 la due ruote è un motociclo.",
+  "rule": "Il ciclomotore ha 2 o 3 ruote, va al massimo a 45 km/h e, con motore termico, ha al massimo 50 cm3. Revisione dopo 4 anni, poi ogni 2.",
+  "trap": "«superiore a 50» capovolge la regola: il ciclomotore arriva FINO a 50 cm3.",
+  "caption": "Sopra 50 cm3 è un motociclo",
+  "lines": [
+   "2 o 3 ruote, massimo 45 km/h",
+   "Motore termico: max 50 cm3",
+   "Revisione dopo 4 anni, poi ogni 2"
+  ]
+ },
+ "q18552": {
+  "short": "Il cambio non conta: molti ciclomotori sono automatici. Contano ruote, cilindrata e velocità.",
+  "rule": "Il ciclomotore ha 2 o 3 ruote, va al massimo a 45 km/h e, con motore termico, ha al massimo 50 cm3. Revisione dopo 4 anni, poi ogni 2.",
+  "trap": "«devono» inventa un obbligo: il tipo di cambio non è nella definizione.",
+  "caption": "Il cambio non definisce il ciclomotore",
+  "lines": [
+   "2 o 3 ruote, massimo 45 km/h",
+   "Motore termico: max 50 cm3",
+   "Revisione dopo 4 anni, poi ogni 2"
+  ]
+ },
+ "q18553": {
+  "short": "Il ciclomotore va al massimo a 45 km/h ovunque: 60 km/h è troppo.",
+  "rule": "Il ciclomotore ha 2 o 3 ruote, va al massimo a 45 km/h e, con motore termico, ha al massimo 50 cm3. Revisione dopo 4 anni, poi ogni 2.",
+  "trap": "«60 km/h» supera il limite di 45 km/h, anche fuori città.",
+  "caption": "Ciclomotori: massimo 45 km/h anche fuori città",
+  "lines": [
+   "2 o 3 ruote, massimo 45 km/h",
+   "Motore termico: max 50 cm3",
+   "Revisione dopo 4 anni, poi ogni 2"
+  ]
+ },
+ "q18554": {
+  "short": "I ciclomotori fanno la revisione: dopo 4 anni, poi ogni 2.",
+  "rule": "Il ciclomotore ha 2 o 3 ruote, va al massimo a 45 km/h e, con motore termico, ha al massimo 50 cm3. Revisione dopo 4 anni, poi ogni 2.",
+  "trap": "«non sono soggetti» è sbagliato: la revisione è obbligatoria.",
+  "caption": "I ciclomotori fanno la revisione",
+  "lines": [
+   "2 o 3 ruote, massimo 45 km/h",
+   "Motore termico: max 50 cm3",
+   "Revisione dopo 4 anni, poi ogni 2"
+  ]
+ }
+}

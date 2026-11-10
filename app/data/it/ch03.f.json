@@ -1,0 +1,458 @@
+{
+ "q19927": {
+  "short": "I segnali rotondi con bordo rosso danno ordini o divieti. Il divieto di sosta è uno di questi.",
+  "rule": "«Divieto di sosta»: una barra rossa su fondo blu. Fermata sì, sosta no. In città 8-20, fuori città 24 ore, solo dal lato del segnale.",
+  "trap": "«prescrizione» vuol dire una regola da rispettare, non un'informazione.",
+  "caption": "Segnale di prescrizione: divieto di sosta"
+ },
+ "q19928": {
+  "short": "Dove la legge vieta già la sosta, per esempio sulle strisce pedonali, il segnale non serve.",
+  "rule": "«Divieto di sosta»: una barra rossa su fondo blu. Fermata sì, sosta no. In città 8-20, fuori città 24 ore, solo dal lato del segnale.",
+  "trap": "«per regola generale» vuol dire per legge: lì il divieto vale anche senza cartello.",
+  "caption": "Non serve dove la legge vieta già la sosta"
+ },
+ "q19929": {
+  "short": "La «sosta» è lasciare il veicolo per un tempo lungo. Questo segnale la vieta.",
+  "rule": "«Divieto di sosta»: una barra rossa su fondo blu. Fermata sì, sosta no. In città 8-20, fuori città 24 ore, solo dal lato del segnale.",
+  "trap": "«abbandono prolungato» è proprio il significato di sosta.",
+  "caption": "Vieta di lasciare il veicolo a lungo"
+ },
+ "q19930": {
+  "short": "In città, senza pannello con altri orari, il divieto vale dalle 8.00 alle 20.00.",
+  "rule": "«Divieto di sosta»: una barra rossa su fondo blu. Fermata sì, sosta no. In città 8-20, fuori città 24 ore, solo dal lato del segnale.",
+  "trap": "«di norma» vuol dire di solito: un pannello può dare altri orari.",
+  "caption": "In città: sosta vietata dalle 8 alle 20"
+ },
+ "q19931": {
+  "short": "Il pannello B dice «eccetto» con un autobus: il divieto vale per tutti tranne gli autobus.",
+  "rule": "«Divieto di sosta»: una barra rossa su fondo blu. Fermata sì, sosta no. In città 8-20, fuori città 24 ore, solo dal lato del segnale.",
+  "trap": "«eccetto» sul pannello crea un'eccezione: gli autobus possono sostare.",
+  "caption": "Divieto di sosta, eccetto autobus"
+ },
+ "q19932": {
+  "short": "La croce sul pannello B indica i giorni festivi: il divieto vale solo in quei giorni, dalle 8 alle 20.",
+  "rule": "«Divieto di sosta»: una barra rossa su fondo blu. Fermata sì, sosta no. In città 8-20, fuori città 24 ore, solo dal lato del segnale.",
+  "trap": "«soltanto» qui è giusto: la croce limita il divieto ai festivi.",
+  "caption": "Croce = solo nei giorni festivi, 8-20"
+ },
+ "q19933": {
+  "short": "Una barra rossa vieta la sosta. Una breve fermata, per far scendere qualcuno, è permessa.",
+  "rule": "«Divieto di sosta»: una barra rossa su fondo blu. Fermata sì, sosta no. In città 8-20, fuori città 24 ore, solo dal lato del segnale.",
+  "trap": "«sosta» e «fermata» sono cose diverse: è vietata solo la sosta.",
+  "caption": "Sosta vietata, fermata permessa"
+ },
+ "q19934": {
+  "short": "Fermarsi un attimo per far salire o scendere passeggeri è «fermata». Questo segnale non la vieta.",
+  "rule": "«Divieto di sosta»: una barra rossa su fondo blu. Fermata sì, sosta no. In città 8-20, fuori città 24 ore, solo dal lato del segnale.",
+  "trap": "«sospensione temporanea della marcia» è la fermata, che qui è permessa.",
+  "caption": "Sbagliato: la fermata per i passeggeri è permessa"
+ },
+ "q19935": {
+  "short": "Fuori dai centri abitati il divieto di sosta vale giorno e notte. L'orario 8-20 vale solo in città.",
+  "rule": "«Divieto di sosta»: una barra rossa su fondo blu. Fermata sì, sosta no. In città 8-20, fuori città 24 ore, solo dal lato del segnale.",
+  "trap": "«soltanto nelle ore diurne» è sbagliato: fuori città vale 24 ore.",
+  "caption": "Sbagliato: fuori città vale 24 ore su 24"
+ },
+ "q19936": {
+  "short": "Il segnale vale solo sul lato della strada dove si trova. L'altro lato ha bisogno di un suo segnale.",
+  "rule": "«Divieto di sosta»: una barra rossa su fondo blu. Fermata sì, sosta no. In città 8-20, fuori città 24 ore, solo dal lato del segnale.",
+  "trap": "«su ambo i lati» è sbagliato: vale solo dal lato del segnale.",
+  "caption": "Sbagliato: vale solo dal lato del segnale"
+ },
+ "q19937": {
+  "short": "Senza pannello, il divieto vale per tutti i veicoli, anche per gli autobus.",
+  "rule": "«Divieto di sosta»: una barra rossa su fondo blu. Fermata sì, sosta no. In città 8-20, fuori città 24 ore, solo dal lato del segnale.",
+  "trap": "«permette» è sbagliato: senza pannello neanche gli autobus possono sostare.",
+  "caption": "Sbagliato: senza pannello vale anche per gli autobus"
+ },
+ "q19938": {
+  "short": "Il divieto vale per tutti i veicoli, anche per i ciclomotori.",
+  "rule": "«Divieto di sosta»: una barra rossa su fondo blu. Fermata sì, sosta no. In città 8-20, fuori città 24 ore, solo dal lato del segnale.",
+  "trap": "«ciclomotori» sono veicoli: per loro non c'è eccezione.",
+  "caption": "Sbagliato: anche i ciclomotori non possono sostare"
+ },
+ "q19939": {
+  "short": "Una breve sospensione della marcia è una «fermata». La X rossa vieta proprio la fermata.",
+  "rule": "«Divieto di fermata»: X rossa su fondo blu. Nessun veicolo può fermarsi o sostare, 24 ore su 24, salvo pannelli.",
+  "trap": "«temporanea sospensione della marcia» vuol dire fermata: qui è vietata.",
+  "caption": "Vietata anche la fermata breve"
+ },
+ "q19940": {
+  "short": "Nessun veicolo può decidere di fermarsi qui. Fermarsi in coda per il traffico non è «fermata».",
+  "rule": "«Divieto di fermata»: X rossa su fondo blu. Nessun veicolo può fermarsi o sostare, 24 ore su 24, salvo pannelli.",
+  "trap": "«volontaria»: è vietata la fermata scelta, non quella dovuta al traffico.",
+  "caption": "Nessun veicolo può fermarsi qui"
+ },
+ "q19941": {
+  "short": "Senza pannello con orari, il divieto di fermata vale giorno e notte.",
+  "rule": "«Divieto di fermata»: X rossa su fondo blu. Nessun veicolo può fermarsi o sostare, 24 ore su 24, salvo pannelli.",
+  "trap": "«24 ore su 24» è giusto: qui non c'è l'orario 8-20.",
+  "caption": "Divieto di fermata giorno e notte"
+ },
+ "q19942": {
+  "short": "La X rossa vieta sia la sosta sia la fermata. Solo il segnale con una barra permette la fermata.",
+  "rule": "«Divieto di fermata»: X rossa su fondo blu. Nessun veicolo può fermarsi o sostare, 24 ore su 24, salvo pannelli.",
+  "trap": "«consente la fermata» è sbagliato: con la X anche la fermata è vietata.",
+  "caption": "Sbagliato: la X vieta anche la fermata"
+ },
+ "q19943": {
+  "short": "Il divieto di fermata vale 24 ore su 24, anche in città. L'orario 8-20 è del divieto di sosta.",
+  "rule": "«Divieto di fermata»: X rossa su fondo blu. Nessun veicolo può fermarsi o sostare, 24 ore su 24, salvo pannelli.",
+  "trap": "«dalle ore 8.00 alle 20.00» è l'orario del divieto di sosta, non di fermata.",
+  "caption": "Sbagliato: vale 24 ore, anche in città"
+ },
+ "q19944": {
+  "short": "Fermarsi per far salire o scendere qualcuno è fermata. La X vieta ogni fermata.",
+  "rule": "«Divieto di fermata»: X rossa su fondo blu. Nessun veicolo può fermarsi o sostare, 24 ore su 24, salvo pannelli.",
+  "trap": "«per far salire o scendere passeggeri» non cambia nulla: è sempre fermata.",
+  "caption": "Sbagliato: niente fermata, neanche per passeggeri"
+ },
+ "q19945": {
+  "short": "Il divieto di fermata non ha eccezioni. Anche se non disturbi nessuno, non puoi fermarti.",
+  "rule": "«Divieto di fermata»: X rossa su fondo blu. Nessun veicolo può fermarsi o sostare, 24 ore su 24, salvo pannelli.",
+  "trap": "«se il veicolo non arreca intralcio» è una condizione falsa: qui non conta.",
+  "caption": "Sbagliato: vietato fermarsi anche senza intralcio"
+ },
+ "q19946": {
+  "short": "Se è vietata la fermata, è vietata anche la sosta. Vale 24 ore, anche in città.",
+  "rule": "«Divieto di fermata»: X rossa su fondo blu. Tutti i veicoli, sempre: niente fermata e quindi niente sosta, salvo pannelli.",
+  "trap": "«anche nei centri abitati» è giusto: qui non c'è l'orario 8-20.",
+  "caption": "Vietate fermata e sosta, giorno e notte"
+ },
+ "q19947": {
+  "short": "La X rossa vale per tutti: auto, autobus, taxi, moto.",
+  "rule": "«Divieto di fermata»: X rossa su fondo blu. Tutti i veicoli, sempre: niente fermata e quindi niente sosta, salvo pannelli.",
+  "trap": "«tutti i veicoli» è giusto: senza pannello nessuno è escluso.",
+  "caption": "Nessun veicolo può fermarsi"
+ },
+ "q19948": {
+  "short": "Senza pannello con orari, il divieto di fermata vale giorno e notte.",
+  "rule": "«Divieto di fermata»: X rossa su fondo blu. Tutti i veicoli, sempre: niente fermata e quindi niente sosta, salvo pannelli.",
+  "trap": "«in assenza di iscrizioni integrative» vuol dire senza pannello: allora vale 24 ore.",
+  "caption": "Senza pannello vale 24 ore"
+ },
+ "q19949": {
+  "short": "Ogni fermata che scegli di fare è vietata, anche molto breve.",
+  "rule": "«Divieto di fermata»: X rossa su fondo blu. Tutti i veicoli, sempre: niente fermata e quindi niente sosta, salvo pannelli.",
+  "trap": "«qualsiasi» è giusto: nessuna fermata è permessa.",
+  "caption": "Vietata ogni fermata volontaria"
+ },
+ "q19950": {
+  "short": "Dove è vietata la fermata, la legge prevede la rimozione del veicolo, anche senza pannello.",
+  "rule": "«Divieto di fermata»: X rossa su fondo blu. Tutti i veicoli, sempre: niente fermata e quindi niente sosta, salvo pannelli.",
+  "trap": "«sempre» qui è accettato: con il divieto di fermata la rimozione è prevista.",
+  "caption": "Divieto di fermata: rimozione prevista"
+ },
+ "q19951": {
+  "short": "La freccia in giù sul pannello B dice che il divieto valeva nel tratto appena percorso: qui finisce.",
+  "rule": "«Divieto di fermata»: X rossa su fondo blu. Tutti i veicoli, sempre: niente fermata e quindi niente sosta, salvo pannelli.",
+  "trap": "«nel tratto precedente» corrisponde alla freccia rivolta in basso.",
+  "caption": "Freccia in giù: divieto nel tratto prima"
+ },
+ "q19952": {
+  "short": "La freccia in giù indica che il divieto finisce al segnale. Dopo, questo divieto non vale più.",
+  "rule": "«Divieto di fermata»: X rossa su fondo blu. Tutti i veicoli, sempre: niente fermata e quindi niente sosta, salvo pannelli.",
+  "trap": "«la fine» è giusto: la freccia in giù segna dove finisce il divieto.",
+  "caption": "Freccia in giù: fine del divieto di fermata"
+ },
+ "q19953": {
+  "short": "La sosta dura più della fermata: se è vietata la fermata, è vietata anche la sosta.",
+  "rule": "«Divieto di fermata»: X rossa su fondo blu. Tutti i veicoli, sempre: niente fermata e quindi niente sosta, salvo pannelli.",
+  "trap": "«ma consente la sosta» è impossibile: senza fermata non c'è sosta.",
+  "caption": "Sbagliato: niente fermata vuol dire niente sosta"
+ },
+ "q19954": {
+  "short": "Il divieto di fermata vale per tutti i veicoli, anche per gli autobus, se non c'è un pannello.",
+  "rule": "«Divieto di fermata»: X rossa su fondo blu. Tutti i veicoli, sempre: niente fermata e quindi niente sosta, salvo pannelli.",
+  "trap": "«non vale» è sbagliato: anche gli autobus devono rispettarlo.",
+  "caption": "Sbagliato: vale anche per gli autobus"
+ },
+ "q19955": {
+  "short": "Il divieto di fermata vale per tutti, anche per i taxi: non possono fermarsi qui per i clienti.",
+  "rule": "«Divieto di fermata»: X rossa su fondo blu. Tutti i veicoli, sempre: niente fermata e quindi niente sosta, salvo pannelli.",
+  "trap": "«non vale» è sbagliato: anche i taxi devono rispettarlo.",
+  "caption": "Sbagliato: vale anche per i taxi"
+ },
+ "q19956": {
+  "short": "Non è un avviso per più avanti: vieta fermata e sosta proprio da dove si trova.",
+  "rule": "«Divieto di fermata»: X rossa su fondo blu. Tutti i veicoli, sempre: niente fermata e quindi niente sosta, salvo pannelli.",
+  "trap": "«preavviso» è sbagliato: è un divieto valido da qui.",
+  "caption": "Sbagliato: vieta la fermata qui, non avvisa"
+ },
+ "q19957": {
+  "short": "Senza pannello il divieto di fermata vale tutti i giorni, anche festivi, 24 ore su 24.",
+  "rule": "«Divieto di fermata»: X rossa su fondo blu. Tutti i veicoli, sempre: niente fermata e quindi niente sosta, salvo pannelli.",
+  "trap": "«solo nei giorni feriali» è sbagliato: vale tutti i giorni.",
+  "caption": "Sbagliato: vale tutti i giorni, anche festivi"
+ },
+ "q19958": {
+  "short": "Fermarsi per far salire o scendere passeggeri è fermata. La X vieta ogni fermata.",
+  "rule": "«Divieto di fermata»: X rossa su fondo blu. Tutti i veicoli, sempre: niente fermata e quindi niente sosta, salvo pannelli.",
+  "trap": "«per la salita e la discesa dei passeggeri» non cambia nulla: è sempre fermata.",
+  "caption": "Sbagliato: niente fermata, neanche per passeggeri"
+ },
+ "q19959": {
+  "short": "La X rossa senza pannello vieta fermata e sosta da qui in avanti. Non annuncia nessuna fine.",
+  "rule": "«Divieto di fermata»: X rossa su fondo blu. Tutti i veicoli, sempre: niente fermata e quindi niente sosta, salvo pannelli.",
+  "trap": "«preannuncia la fine» è sbagliato: solo la freccia in giù sul pannello indica la fine.",
+  "caption": "Sbagliato: impone il divieto di fermata"
+ },
+ "q19960": {
+  "short": "La P bianca su fondo blu indica un luogo dove la sosta è permessa.",
+  "rule": "La P bianca su fondo blu indica un parcheggio: sosta senza limiti di tempo, salvo pannelli.",
+  "trap": "«autorizzato» è giusto: è un parcheggio ufficiale.",
+  "caption": "P = parcheggio autorizzato"
+ },
+ "q19961": {
+  "short": "Il parcheggio serve per sostare. Senza pannello non c'è limite di tempo.",
+  "rule": "La P bianca su fondo blu indica un parcheggio: sosta senza limiti di tempo, salvo pannelli.",
+  "trap": "«salvo diversa indicazione»: un pannello può aggiungere limiti.",
+  "caption": "Sosta senza limiti, salvo pannelli"
+ },
+ "q19962": {
+  "short": "Se il parcheggio è più avanti, un pannello sotto la P può indicare quanto è lontano.",
+  "rule": "La P bianca su fondo blu indica un parcheggio: sosta senza limiti di tempo, salvo pannelli.",
+  "trap": "«la distanza» è un pannello normale per il segnale P.",
+  "caption": "Un pannello può indicare la distanza"
+ },
+ "q19963": {
+  "short": "Un pannello può riservare il parcheggio ad alcuni veicoli, per esempio autobus o moto.",
+  "rule": "La P bianca su fondo blu indica un parcheggio: sosta senza limiti di tempo, salvo pannelli.",
+  "trap": "«riservata»: un pannello può dire chi può usare il parcheggio.",
+  "caption": "Un pannello può riservarlo ad alcuni veicoli"
+ },
+ "q19964": {
+  "short": "Un pannello può dire quali veicoli NON possono usare il parcheggio, per esempio i camion.",
+  "rule": "La P bianca su fondo blu indica un parcheggio: sosta senza limiti di tempo, salvo pannelli.",
+  "trap": "«esclusi»: un pannello può tenere fuori alcuni veicoli.",
+  "caption": "Un pannello può escludere alcuni veicoli"
+ },
+ "q19965": {
+  "short": "Un pannello può limitare quanto tempo puoi sostare.",
+  "rule": "La P bianca su fondo blu indica un parcheggio: sosta senza limiti di tempo, salvo pannelli.",
+  "trap": "«limitazione nel tempo» c'è solo con un pannello; la P da sola non ha limiti.",
+  "caption": "Un pannello può dare un limite di tempo"
+ },
+ "q19966": {
+  "short": "Se ci sono orari o si paga, un pannello sotto la P indica orari e tariffe.",
+  "rule": "La P bianca su fondo blu indica un parcheggio: sosta senza limiti di tempo, salvo pannelli.",
+  "trap": "«l'orario e le tariffe» si possono indicare con un pannello.",
+  "caption": "Un pannello può indicare orari e tariffe"
+ },
+ "q19967": {
+  "short": "Un pannello può indicare come sostare: in fila, a pettine o a spina di pesce.",
+  "rule": "La P bianca su fondo blu indica un parcheggio: sosta senza limiti di tempo, salvo pannelli.",
+  "trap": "«disposizione dei veicoli» si può indicare con un pannello.",
+  "caption": "Un pannello può indicare come disporsi"
+ },
+ "q19968": {
+  "short": "La P da sola dice solo che puoi sostare. Non dice che devi pagare al parchimetro.",
+  "rule": "La P bianca su fondo blu indica un parcheggio: sosta senza limiti di tempo, salvo pannelli.",
+  "trap": "«parchimetro» non è sul segnale: niente dice che si paga.",
+  "caption": "Sbagliato: la P da sola non indica parchimetro"
+ },
+ "q19969": {
+  "short": "La P da sola non ha orari: puoi sostare sempre, salvo pannelli.",
+  "rule": "La P bianca su fondo blu indica un parcheggio: sosta senza limiti di tempo, salvo pannelli.",
+  "trap": "«dalle 8.00 alle 20.00» è inventato: il segnale non ha orari.",
+  "caption": "Sbagliato: nessun orario, sosta sempre"
+ },
+ "q19970": {
+  "short": "La P da sola non ha limiti di tempo: puoi sostare quanto vuoi, salvo pannelli.",
+  "rule": "La P bianca su fondo blu indica un parcheggio: sosta senza limiti di tempo, salvo pannelli.",
+  "trap": "«al massimo per un'ora» è inventato: non c'è nessun limite.",
+  "caption": "Sbagliato: nessun limite di tempo"
+ },
+ "q19971": {
+  "short": "Non ha senso: se puoi sostare, puoi anche fermarti. La P permette tutte e due.",
+  "rule": "La P bianca su fondo blu indica un parcheggio: sosta senza limiti di tempo, salvo pannelli.",
+  "trap": "«con divieto di fermata» è la trappola: la P non vieta nulla.",
+  "caption": "Sbagliato: la P permette sosta e fermata"
+ },
+ "q19972": {
+  "short": "La P da sola vale per tutti. Per riservarla serve un pannello.",
+  "rule": "La P bianca su fondo blu indica un parcheggio: sosta senza limiti di tempo, salvo pannelli.",
+  "trap": "«riservato» è sbagliato: niente sul segnale lo riserva.",
+  "caption": "Sbagliato: la P da sola è per tutti"
+ },
+ "q19973": {
+  "short": "I pannelli per la P indicano distanza, categorie, tempo, orari, tariffe o disposizione. Non la superficie.",
+  "rule": "La P bianca su fondo blu indica un parcheggio: sosta senza limiti di tempo, salvo pannelli.",
+  "trap": "«la superficie disponibile» non è un pannello della P.",
+  "caption": "Sbagliato: nessun pannello indica la superficie"
+ },
+ "q19974": {
+  "short": "Nessun pannello dice di lasciare la chiave in auto. Quando sosti, la chiave va tolta.",
+  "rule": "La P bianca su fondo blu indica un parcheggio: sosta senza limiti di tempo, salvo pannelli.",
+  "trap": "«lasciare la chiave nel quadro» è un pannello inventato.",
+  "caption": "Sbagliato: nessun pannello dice di lasciare la chiave"
+ },
+ "q19975": {
+  "short": "La P con la freccia indica da che parte andare per trovare il parcheggio.",
+  "rule": "P con freccia e distanza: c'è un parcheggio più avanti, verso la freccia.",
+  "trap": "«nella direzione della freccia» è giusto: segui la freccia.",
+  "caption": "Parcheggio più avanti: segui la freccia"
+ },
+ "q19976": {
+  "short": "Andando dove indica la freccia, trovi una zona di parcheggio.",
+  "rule": "P con freccia e distanza: c'è un parcheggio più avanti, verso la freccia.",
+  "trap": "«procedendo nel senso della freccia» è giusto.",
+  "caption": "Zona di parcheggio verso la freccia"
+ },
+ "q19977": {
+  "short": "Il pannello sotto dice 300 m: il parcheggio è a 300 metri, seguendo la freccia.",
+  "rule": "P con freccia e distanza: c'è un parcheggio più avanti, verso la freccia.",
+  "trap": "«a 300 metri» è giusto: la distanza è scritta sul pannello.",
+  "caption": "Parcheggio a 300 m, seguendo la freccia"
+ },
+ "q19978": {
+  "short": "La P vuol dire parcheggio. Il pronto soccorso ha un altro segnale, con la croce rossa.",
+  "rule": "P con freccia e distanza: c'è un parcheggio più avanti, verso la freccia.",
+  "trap": "«pronto soccorso» è sbagliato: la P vuol dire parcheggio.",
+  "caption": "Sbagliato: P vuol dire parcheggio"
+ },
+ "q19979": {
+  "short": "Il cartello blu con la P invita a parcheggiare. Non vieta niente.",
+  "rule": "P con freccia e distanza: c'è un parcheggio più avanti, verso la freccia.",
+  "trap": "«vietato» è sbagliato: la P annuncia un posto dove puoi sostare.",
+  "caption": "Sbagliato: lì puoi parcheggiare"
+ },
+ "q19980": {
+  "short": "La P con freccia ti porta a un parcheggio: lì la sosta è permessa.",
+  "rule": "P con freccia e distanza: c'è un parcheggio più avanti, verso la freccia.",
+  "trap": "«sono vietati» è sbagliato: la P permette la sosta.",
+  "caption": "Sbagliato: lì la sosta è permessa"
+ },
+ "q19981": {
+  "short": "Niente sul segnale dice che il parcheggio è riservato: indica solo dove si trova.",
+  "rule": "P con freccia e distanza: c'è un parcheggio più avanti, verso la freccia.",
+  "trap": "«perché il parcheggio è riservato» è inventato.",
+  "caption": "Sbagliato: niente dice che è riservato"
+ },
+ "q19982": {
+  "short": "Il segnale «passo carrabile» tiene libero l'ingresso: nessuno può sostare davanti.",
+  "rule": "«Passo carrabile»: sosta vietata a tutti, sempre; fermata permessa se non dai intralcio.",
+  "trap": "«nel luogo dove è posto» è giusto: il divieto è davanti al passo carrabile.",
+  "caption": "Sosta vietata davanti al passo carrabile"
+ },
+ "q19983": {
+  "short": "Il passo carrabile è il punto dove le auto entrano ed escono da una proprietà, come un garage.",
+  "rule": "«Passo carrabile»: sosta vietata a tutti, sempre; fermata permessa se non dai intralcio.",
+  "trap": "«proprietà laterali» sono gli edifici e i cortili a lato della strada.",
+  "caption": "Passo carrabile: accesso a una proprietà"
+ },
+ "q19984": {
+  "short": "Il cartello dice «passo carrabile»: qui escono veicoli da una proprietà.",
+  "rule": "«Passo carrabile»: sosta vietata a tutti, sempre; fermata permessa se non dai intralcio.",
+  "trap": "«sbocco» è il punto dove i veicoli escono sulla strada.",
+  "caption": "Qui escono veicoli da un passo carrabile"
+ },
+ "q19985": {
+  "short": "Il segnale vieta la sosta, non la fermata. Puoi fermarti un attimo se non blocchi nessuno.",
+  "rule": "«Passo carrabile»: sosta vietata a tutti, sempre; fermata permessa se non dai intralcio.",
+  "trap": "«purché» è la condizione: la fermata va bene solo senza intralcio.",
+  "caption": "Fermata permessa, se non dai intralcio"
+ },
+ "q19986": {
+  "short": "Il passo carrabile serve un'autorizzazione del Comune. Il cartello deve indicare ente, numero e anno.",
+  "rule": "«Passo carrabile»: sosta vietata a tutti, sempre; fermata permessa se non dai intralcio.",
+  "trap": "«per essere valido»: senza questi dati il cartello non vale.",
+  "caption": "Valido solo con ente, numero e anno"
+ },
+ "q19987": {
+  "short": "I passi carrabili ci sono in città e fuori, quindi il segnale si usa su tutte le strade.",
+  "rule": "«Passo carrabile»: sosta vietata a tutti, sempre; fermata permessa se non dai intralcio.",
+  "trap": "«soltanto» è sbagliato: si usa anche fuori città.",
+  "caption": "Sbagliato: si usa su tutte le strade"
+ },
+ "q19988": {
+  "short": "I veicoli possono uscire a ogni ora, quindi il divieto vale giorno e notte.",
+  "rule": "«Passo carrabile»: sosta vietata a tutti, sempre; fermata permessa se non dai intralcio.",
+  "trap": "«solo nelle ore diurne» è sbagliato: vale 24 ore.",
+  "caption": "Sbagliato: vale giorno e notte"
+ },
+ "q19989": {
+  "short": "I veicoli possono uscire a ogni ora, quindi il divieto vale giorno e notte.",
+  "rule": "«Passo carrabile»: sosta vietata a tutti, sempre; fermata permessa se non dai intralcio.",
+  "trap": "«solo nelle ore notturne» è sbagliato: vale 24 ore.",
+  "caption": "Sbagliato: vale giorno e notte"
+ },
+ "q19990": {
+  "short": "Il passo carrabile deve restare libero: nessun tipo di veicolo può sostare davanti.",
+  "rule": "«Passo carrabile»: sosta vietata a tutti, sempre; fermata permessa se non dai intralcio.",
+  "trap": "«consente la sosta» è sbagliato: non ci sono eccezioni.",
+  "caption": "Sbagliato: nessuno può sostare"
+ },
+ "q19991": {
+  "short": "Un'ambulanza non in emergenza è come gli altri veicoli: non può sostare davanti al passo carrabile.",
+  "rule": "«Passo carrabile»: sosta vietata a tutti, sempre; fermata permessa se non dai intralcio.",
+  "trap": "«non in servizio»: senza emergenza non ci sono diritti speciali.",
+  "caption": "Sbagliato: neanche l'ambulanza non in servizio"
+ },
+ "q19992": {
+  "short": "La P e la carrozzina sotto il divieto vogliono dire: sosta solo per veicoli al servizio di invalidi con contrassegno.",
+  "rule": "Divieto di sosta con P e carrozzina: sostano solo i veicoli al servizio di invalidi con contrassegno.",
+  "trap": "«munite dell'apposito contrassegno»: il contrassegno deve essere esposto.",
+  "caption": "Sosta solo per veicoli al servizio di invalidi"
+ },
+ "q19993": {
+  "short": "Contiene il disco di divieto di sosta: dà un ordine su chi può sostare. È un segnale di prescrizione.",
+  "rule": "Divieto di sosta con P e carrozzina: sostano solo i veicoli al servizio di invalidi con contrassegno.",
+  "trap": "«prescrizione» vuol dire una regola da rispettare, non un'informazione.",
+  "caption": "Segnale di prescrizione: regola la sosta"
+ },
+ "q19994": {
+  "short": "Il disco vieta la sosta, il pannello sotto fa un'eccezione per i veicoli degli invalidi.",
+  "rule": "Divieto di sosta con P e carrozzina: sostano solo i veicoli al servizio di invalidi con contrassegno.",
+  "trap": "«eccezione»: il divieto resta, ma un gruppo può sostare.",
+  "caption": "Divieto di sosta, eccetto invalidi"
+ },
+ "q19995": {
+  "short": "Per tutti gli altri il divieto resta: possono sostare solo i veicoli degli invalidi.",
+  "rule": "Divieto di sosta con P e carrozzina: sostano solo i veicoli al servizio di invalidi con contrassegno.",
+  "trap": "«veicoli diversi»: per loro il divieto vale ancora.",
+  "caption": "Gli altri veicoli non possono sostare"
+ },
+ "q19996": {
+  "short": "Il simbolo della carrozzina vuol dire solo invalidi. Gli scuolabus non hanno eccezione.",
+  "rule": "Divieto di sosta con P e carrozzina: sostano solo i veicoli al servizio di invalidi con contrassegno.",
+  "trap": "«scuolabus» non è sul pannello.",
+  "caption": "Sbagliato: solo veicoli al servizio di invalidi"
+ },
+ "q19997": {
+  "short": "Il segnale riguarda la sosta, non la marcia: non indica una corsia.",
+  "rule": "Divieto di sosta con P e carrozzina: sostano solo i veicoli al servizio di invalidi con contrassegno.",
+  "trap": "«corsia» è sbagliato: il segnale riguarda i posti di sosta.",
+  "caption": "Sbagliato: riguarda la sosta, non una corsia"
+ },
+ "q19998": {
+  "short": "È il contrario: i veicoli degli invalidi sono gli unici che POSSONO sostare. Non indica altri parcheggi.",
+  "rule": "Divieto di sosta con P e carrozzina: sostano solo i veicoli al servizio di invalidi con contrassegno.",
+  "trap": "«divieto di sosta per i veicoli al servizio di invalidi» capovolge il significato.",
+  "caption": "Sbagliato: i veicoli degli invalidi POSSONO sostare"
+ },
+ "q19999": {
+  "short": "Il segnale regola la sosta dove si trova. Non avvisa di una zona chiusa al traffico.",
+  "rule": "Divieto di sosta con P e carrozzina: sostano solo i veicoli al servizio di invalidi con contrassegno.",
+  "trap": "«preavvisa una zona vietata al traffico» è sbagliato: non chiude nessuna strada.",
+  "caption": "Sbagliato: regola solo la sosta qui"
+ },
+ "q20000": {
+  "short": "Il segnale riguarda la sosta, non il transito: tutti possono passare sulla strada.",
+  "rule": "Divieto di sosta con P e carrozzina: sostano solo i veicoli al servizio di invalidi con contrassegno.",
+  "trap": "«transito» è sbagliato: è riservata solo la sosta.",
+  "caption": "Sbagliato: regola la sosta, non il transito"
+ },
+ "q20001": {
+  "short": "Possono sostare solo i veicoli degli invalidi. Ciclomotori e moto non hanno eccezione.",
+  "rule": "Divieto di sosta con P e carrozzina: sostano solo i veicoli al servizio di invalidi con contrassegno.",
+  "trap": "«ciclomotori e motocicli» non sono sul pannello.",
+  "caption": "Sbagliato: solo veicoli al servizio di invalidi"
+ },
+ "q20002": {
+  "short": "Pagare non serve: possono sostare solo i veicoli degli invalidi con il contrassegno.",
+  "rule": "Divieto di sosta con P e carrozzina: sostano solo i veicoli al servizio di invalidi con contrassegno.",
+  "trap": "«tagliando emesso da un parchimetro» non dà diritto alla sosta qui.",
+  "caption": "Sbagliato: il biglietto del parchimetro non basta"
+ }
+}

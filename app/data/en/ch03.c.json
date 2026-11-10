@@ -1,0 +1,2093 @@
+{
+ "q19679": {
+  "en": "The sign shown bans motorcycles from passing.",
+  "explain": {
+   "short": "The sign shows a motorbike inside a red circle, so motorcycles may not go in.",
+   "rule": "This sign bans motorcycles of every engine size. Mopeds, bicycles, cars, tricycles and quadricycles may pass.",
+   "trap": "'vieta il transito' (bans passing) is exactly what this red circle does.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorcycles may not enter here",
+    "it": "divieto di transito",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans passing"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19680": {
+  "en": "The sign shown allows motor tricycles and quadricycles to pass.",
+  "explain": {
+   "short": "The ban is only for motorcycles; tricycles and quadricycles are different vehicles, so they may pass.",
+   "rule": "This sign bans motorcycles of every engine size. Mopeds, bicycles, cars, tricycles and quadricycles may pass.",
+   "trap": "'tricicli e quadricicli' (three- and four-wheel light vehicles) are not motorcycles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tricycles and quadricycles may pass",
+    "it": "divieto di transito",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows passing"
+   },
+   {
+    "it": "tricicli",
+    "en": "tricycles"
+   },
+   {
+    "it": "quadricicli a motore",
+    "en": "motor quadricycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19681": {
+  "en": "The sign shown allows cars to pass.",
+  "explain": {
+   "short": "Only motorcycles are banned; cars (autovetture) may drive on.",
+   "rule": "This sign bans motorcycles of every engine size. Mopeds, bicycles, cars, tricycles and quadricycles may pass.",
+   "trap": "'autovetture' (cars) are not shown on the sign, so they are not banned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cars may pass: only motorcycles are banned",
+    "it": "divieto di transito",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows passing"
+   },
+   {
+    "it": "autovetture",
+    "en": "cars"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19682": {
+  "en": "The sign shown allows bicycles to pass.",
+  "explain": {
+   "short": "Bicycles have no engine and are not motorcycles, so they may pass.",
+   "rule": "This sign bans motorcycles of every engine size. Mopeds, bicycles, cars, tricycles and quadricycles may pass.",
+   "trap": "'biciclette' (bicycles) have two wheels, but they are not motorcycles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bicycles may pass: only motorcycles are banned",
+    "it": "divieto di transito",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows passing"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19683": {
+  "en": "The sign shown bans motorcycles of any engine size from passing.",
+  "explain": {
+   "short": "The ban covers every motorcycle, small or big; there is no engine-size limit.",
+   "rule": "This sign bans motorcycles of every engine size. Mopeds, bicycles, cars, tricycles and quadricycles may pass.",
+   "trap": "'di qualsiasi cilindrata' (of any engine size) is right: no size is excluded.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "All motorcycles banned, any engine size",
+    "it": "divieto di transito",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans passing"
+   },
+   {
+    "it": "di qualsiasi cilindrata",
+    "en": "of any engine size"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19684": {
+  "en": "The sign shown allows motorcycles to pass.",
+  "explain": {
+   "short": "It is the opposite: the motorbike in the red circle means motorcycles are banned.",
+   "rule": "This sign bans motorcycles of every engine size. Mopeds, bicycles, cars, tricycles and quadricycles may pass.",
+   "trap": "'consente' (allows) is wrong: the sign forbids motorcycles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: this sign BANS motorcycles",
+    "it": "divieto di transito",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows passing"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19685": {
+  "en": "The sign shown bans all two-wheeled vehicles from passing.",
+  "explain": {
+   "short": "Only motorcycles are banned; bicycles and two-wheel mopeds may still pass.",
+   "rule": "This sign bans motorcycles of every engine size. Mopeds, bicycles, cars, tricycles and quadricycles may pass.",
+   "trap": "'tutti i veicoli a due ruote' (all two-wheelers) is too much: bikes and mopeds are allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only motorcycles: bikes and mopeds may pass",
+    "it": "divieto di transito",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans passing"
+   },
+   {
+    "it": "a tutti i veicoli a due ruote",
+    "en": "to all two-wheeled vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19686": {
+  "en": "The sign shown refers only to motorcycles with an engine size over 125 cc.",
+  "explain": {
+   "short": "The sign bans all motorcycles, also those of 125 cc or less.",
+   "rule": "This sign bans motorcycles of every engine size. Mopeds, bicycles, cars, tricycles and quadricycles may pass.",
+   "trap": "'soli' (only) with 'superiore ai 125 cm3' adds a limit the sign does not have.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "All motorcycles banned, not only over 125 cc",
+    "it": "divieto di transito",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si riferisce ai soli motocicli",
+    "en": "refers only to motorcycles"
+   },
+   {
+    "it": "cilindrata superiore ai 125 cm3",
+    "en": "engine size over 125 cc"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19687": {
+  "en": "The sign shown allows motorcycles fitted with a safety cell to pass.",
+  "explain": {
+   "short": "A motorcycle with a safety cell (a protective frame and roof) is still a motorcycle, so it is banned.",
+   "rule": "This sign bans motorcycles of every engine size. Mopeds, bicycles, cars, tricycles and quadricycles may pass.",
+   "trap": "'dotati di cellula di sicurezza' (with a safety cell) does not create an exception.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Safety cell or not, motorcycles are banned",
+    "it": "divieto di transito",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows passing"
+   },
+   {
+    "it": "cellula di sicurezza",
+    "en": "safety cell"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19688": {
+  "en": "The sign shown bans mopeds from passing.",
+  "explain": {
+   "short": "Mopeds (ciclomotori) are not motorcycles, so this sign does not ban them.",
+   "rule": "This sign bans motorcycles of every engine size. Mopeds, bicycles, cars, tricycles and quadricycles may pass.",
+   "trap": "'ciclomotori' (mopeds, max 45 km/h) are a different category from 'motocicli'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mopeds may pass: only motorcycles are banned",
+    "it": "divieto di transito",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans passing"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19689": {
+  "en": "The sign shown bans motor quadricycles from passing.",
+  "explain": {
+   "short": "Quadricycles are four-wheel vehicles, not motorcycles, so they may pass.",
+   "rule": "This sign bans motorcycles of every engine size. Mopeds, bicycles, cars, tricycles and quadricycles may pass.",
+   "trap": "'quadricicli a motore' (small four-wheel vehicles) are not on this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Quadricycles may pass: only motorcycles banned",
+    "it": "divieto di transito",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans passing"
+   },
+   {
+    "it": "quadricicli a motore",
+    "en": "motor quadricycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19690": {
+  "en": "The sign shown is a danger sign.",
+  "explain": {
+   "short": "A red circle is a prohibition sign; danger signs are red triangles.",
+   "rule": "This sign bans motorcycles of every engine size. Mopeds, bicycles, cars, tricycles and quadricycles may pass.",
+   "trap": "'segnale di pericolo' (danger sign) is wrong: round red-bordered signs forbid something.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It is a prohibition sign, not a danger sign",
+    "it": "divieto di transito",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19691": {
+  "en": "The sign shown requires motorcyclists to use the lane reserved for them.",
+  "explain": {
+   "short": "The sign forbids motorcycles; it does not send them to a special lane. Obligations are blue round signs.",
+   "rule": "This sign bans motorcycles of every engine size. Mopeds, bicycles, cars, tricycles and quadricycles may pass.",
+   "trap": "'obbliga' (requires) is wrong: a red circle forbids, it does not order a lane.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It bans motorcycles; no special lane",
+    "it": "divieto di transito",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga",
+    "en": "requires"
+   },
+   {
+    "it": "pista loro riservata",
+    "en": "lane reserved for them"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19692": {
+  "en": "The sign shown bans hand-drawn vehicles from passing.",
+  "explain": {
+   "short": "The picture shows a person pushing a cart: vehicles moved by hand may not go in.",
+   "rule": "This sign bans only vehicles pushed or pulled by hand (veicoli a braccia). All other vehicles may pass.",
+   "trap": "'veicoli a braccia' (vehicles moved by human arms) is exactly the meaning.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No vehicles pushed or pulled by hand",
+    "it": "veicoli a braccia",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans passing"
+   },
+   {
+    "it": "veicoli a braccia",
+    "en": "hand-drawn vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19693": {
+  "en": "The sign shown allows bicycles to pass.",
+  "explain": {
+   "short": "Only hand-drawn vehicles are banned; bicycles may pass.",
+   "rule": "This sign bans only vehicles pushed or pulled by hand (veicoli a braccia). All other vehicles may pass.",
+   "trap": "'biciclette' are pedalled, not pushed like a handcart.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bicycles may pass: only handcarts banned",
+    "it": "veicoli a braccia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows passing"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19694": {
+  "en": "The sign shown allows mopeds to pass.",
+  "explain": {
+   "short": "Only hand-drawn vehicles are banned; mopeds may pass.",
+   "rule": "This sign bans only vehicles pushed or pulled by hand (veicoli a braccia). All other vehicles may pass.",
+   "trap": "'ciclomotori' (mopeds) have an engine: they are not hand-drawn.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mopeds may pass: only handcarts banned",
+    "it": "veicoli a braccia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows passing"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19695": {
+  "en": "The sign shown allows cars towing a small luggage trailer to pass.",
+  "explain": {
+   "short": "A car with a small luggage trailer is a motor vehicle, not a hand-drawn one, so it may pass.",
+   "rule": "This sign bans only vehicles pushed or pulled by hand (veicoli a braccia). All other vehicles may pass.",
+   "trap": "'carrello-appendice' (small luggage trailer) may look like a cart, but the car pulls it, not a person.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A car with a luggage trailer may pass",
+    "it": "veicoli a braccia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows passing"
+   },
+   {
+    "it": "carrello-appendice",
+    "en": "small luggage trailer"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19696": {
+  "en": "The sign shown bans handcarts from passing.",
+  "explain": {
+   "short": "A handcart (carretto a mano) is a hand-drawn vehicle, exactly what the sign shows.",
+   "rule": "This sign bans only vehicles pushed or pulled by hand (veicoli a braccia). All other vehicles may pass.",
+   "trap": "'carretti a mano' (handcarts) is just another name for 'veicoli a braccia'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No handcarts: they are hand-drawn vehicles",
+    "it": "veicoli a braccia",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans passing"
+   },
+   {
+    "it": "carretti a mano",
+    "en": "handcarts"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19697": {
+  "en": "The sign shown indicates a road reserved for street sellers.",
+  "explain": {
+   "short": "The sign bans handcarts; it does not reserve the road for anyone.",
+   "rule": "This sign bans only vehicles pushed or pulled by hand (veicoli a braccia). All other vehicles may pass.",
+   "trap": "'riservata ai venditori ambulanti' (reserved for street sellers) is invented: a red circle forbids.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It bans handcarts; it reserves nothing",
+    "it": "veicoli a braccia",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada riservata",
+    "en": "reserved road"
+   },
+   {
+    "it": "venditori ambulanti",
+    "en": "street sellers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19698": {
+  "en": "The sign shown bans motor vehicles during market hours.",
+  "explain": {
+   "short": "The sign bans hand-drawn vehicles, at any time; motor vehicles may pass.",
+   "rule": "This sign bans only vehicles pushed or pulled by hand (veicoli a braccia). All other vehicles may pass.",
+   "trap": "'veicoli a motore' and 'ore di mercato' are both wrong: no engines, no times on this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bans handcarts at all times, not motor vehicles",
+    "it": "veicoli a braccia",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicoli a motore",
+    "en": "motor vehicles"
+   },
+   {
+    "it": "ore di mercato",
+    "en": "market hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19699": {
+  "en": "The sign shown is a danger sign.",
+  "explain": {
+   "short": "A red circle is a prohibition sign; danger signs are red triangles.",
+   "rule": "This sign bans only vehicles pushed or pulled by hand (veicoli a braccia). All other vehicles may pass.",
+   "trap": "'segnale di pericolo' (danger sign) is wrong: this round sign forbids handcarts.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It is a prohibition sign, not a danger sign",
+    "it": "veicoli a braccia",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19700": {
+  "en": "The sign shown applies to all vehicles during market hours.",
+  "explain": {
+   "short": "The sign applies only to hand-drawn vehicles, and at all hours.",
+   "rule": "This sign bans only vehicles pushed or pulled by hand (veicoli a braccia). All other vehicles may pass.",
+   "trap": "'per tutti i veicoli' and 'ore di mercato' are both invented.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only handcarts, and at all hours",
+    "it": "veicoli a braccia",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "per tutti i veicoli",
+    "en": "for all vehicles"
+   },
+   {
+    "it": "ore di mercato",
+    "en": "market hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19701": {
+  "en": "The sign shown bans animal-drawn vehicles from passing.",
+  "explain": {
+   "short": "Animal-drawn vehicles have their own sign (a horse and cart); this one shows a person pushing a cart.",
+   "rule": "This sign bans only vehicles pushed or pulled by hand (veicoli a braccia). All other vehicles may pass.",
+   "trap": "'trazione animale' (pulled by animals) is not 'a braccia' (by hand).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only hand-drawn vehicles, not animal-drawn",
+    "it": "veicoli a braccia",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans passing"
+   },
+   {
+    "it": "trazione animale",
+    "en": "animal-drawn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19702": {
+  "en": "The sign shown bans a motorcycle from passing, even if it is pushed by hand.",
+  "explain": {
+   "short": "A motorcycle pushed by hand is still a motorcycle, not a hand-drawn vehicle, so this sign does not ban it.",
+   "rule": "This sign bans only vehicles pushed or pulled by hand (veicoli a braccia). All other vehicles may pass.",
+   "trap": "'anche se spinto a braccia' (even if pushed by hand) does not turn a motorbike into a handcart.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A pushed motorbike is not a handcart",
+    "it": "veicoli a braccia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "motociclo",
+    "en": "motorcycle"
+   },
+   {
+    "it": "anche se spinto a braccia",
+    "en": "even if pushed by hand"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19703": {
+  "en": "The sign shown bans all motor vehicles from passing.",
+  "explain": {
+   "short": "The car in the red circle stands for all autoveicoli (motor vehicles with three or more wheels).",
+   "rule": "This sign bans all autoveicoli, including tricycles and quadricycles. Motorcycles, two-wheel mopeds and non-motor vehicles may pass.",
+   "trap": "'tutti gli autoveicoli' (all motor vehicles) is right: not only cars.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No motor vehicles (autoveicoli) at all",
+    "it": "autoveicoli",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans passing"
+   },
+   {
+    "it": "tutti gli autoveicoli",
+    "en": "all motor vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19704": {
+  "en": "The sign shown bans motor tricycles from passing.",
+  "explain": {
+   "short": "Motor tricycles are autoveicoli, so they are banned too.",
+   "rule": "This sign bans all autoveicoli, including tricycles and quadricycles. Motorcycles, two-wheel mopeds and non-motor vehicles may pass.",
+   "trap": "'tricicli a motore' (motor tricycles) count as autoveicoli, even with only three wheels.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motor tricycles are banned too",
+    "it": "autoveicoli",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans passing"
+   },
+   {
+    "it": "tricicli a motore",
+    "en": "motor tricycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19705": {
+  "en": "Where the sign shown is present, motorcycles may pass.",
+  "explain": {
+   "short": "Motorcycles have two wheels, so they are not autoveicoli and may pass.",
+   "rule": "This sign bans all autoveicoli, including tricycles and quadricycles. Motorcycles, two-wheel mopeds and non-motor vehicles may pass.",
+   "trap": "'motocicli' (motorcycles) are not covered by the car symbol.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorcycles may pass this sign",
+    "it": "autoveicoli",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è permesso il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19706": {
+  "en": "Where the sign shown is present, two-wheel mopeds may pass.",
+  "explain": {
+   "short": "Two-wheel mopeds are not autoveicoli, so they may pass.",
+   "rule": "This sign bans all autoveicoli, including tricycles and quadricycles. Motorcycles, two-wheel mopeds and non-motor vehicles may pass.",
+   "trap": "'a due ruote' (two-wheel) matters: two-wheelers are outside this ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Two-wheel mopeds may pass",
+    "it": "autoveicoli",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è permesso il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "ciclomotori a due ruote",
+    "en": "two-wheel mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19707": {
+  "en": "The sign shown bans motor quadricycles from passing.",
+  "explain": {
+   "short": "Motor quadricycles are autoveicoli, so they are banned.",
+   "rule": "This sign bans all autoveicoli, including tricycles and quadricycles. Motorcycles, two-wheel mopeds and non-motor vehicles may pass.",
+   "trap": "'quadricicli a motore' (small four-wheel vehicles) count as autoveicoli.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motor quadricycles are banned too",
+    "it": "autoveicoli",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans passing"
+   },
+   {
+    "it": "quadricicli a motore",
+    "en": "motor quadricycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19708": {
+  "en": "Where the sign shown is present, vehicles without an engine may pass.",
+  "explain": {
+   "short": "The ban is only for motor vehicles; bicycles and carts without an engine may pass.",
+   "rule": "This sign bans all autoveicoli, including tricycles and quadricycles. Motorcycles, two-wheel mopeds and non-motor vehicles may pass.",
+   "trap": "'sprovvisti di motore' (without an engine) means not autoveicoli.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Vehicles without an engine may pass",
+    "it": "autoveicoli",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è permesso il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "sprovvisti di motore",
+    "en": "without an engine"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19709": {
+  "en": "Where the sign shown is present, motor quadricycles may pass.",
+  "explain": {
+   "short": "Motor quadricycles are autoveicoli, so they are banned.",
+   "rule": "This sign bans all autoveicoli, including tricycles and quadricycles. Motorcycles, two-wheel mopeds and non-motor vehicles may pass.",
+   "trap": "'permesso' (allowed) is wrong: quadricycles are covered by the ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: quadricycles are banned here",
+    "it": "autoveicoli",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è permesso il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "quadricicli a motore",
+    "en": "motor quadricycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19710": {
+  "en": "The sign shown bans only non-catalytic cars from passing.",
+  "explain": {
+   "short": "The sign bans ALL motor vehicles, with or without a catalytic converter.",
+   "rule": "This sign bans all autoveicoli, including tricycles and quadricycles. Motorcycles, two-wheel mopeds and non-motor vehicles may pass.",
+   "trap": "'sole' (only) with 'non catalizzate' (without catalytic converter) is invented.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "All motor vehicles banned, not just old cars",
+    "it": "autoveicoli",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "alle sole autovetture",
+    "en": "only to cars"
+   },
+   {
+    "it": "non catalizzate",
+    "en": "non-catalytic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19711": {
+  "en": "Where the sign shown is present, cars used as taxis may pass.",
+  "explain": {
+   "short": "A taxi is still a car, so it is banned like every autoveicolo.",
+   "rule": "This sign bans all autoveicoli, including tricycles and quadricycles. Motorcycles, two-wheel mopeds and non-motor vehicles may pass.",
+   "trap": "'servizio di taxi' (taxi service) does not create an exception.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Taxis are cars: they are banned too",
+    "it": "autoveicoli",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "servizio di taxi",
+    "en": "taxi service"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19712": {
+  "en": "Where the sign shown is present, all motor tricycles may pass.",
+  "explain": {
+   "short": "Motor tricycles are autoveicoli, so they are banned.",
+   "rule": "This sign bans all autoveicoli, including tricycles and quadricycles. Motorcycles, two-wheel mopeds and non-motor vehicles may pass.",
+   "trap": "'tutti i tricicli' (all tricycles) is wrong: they are covered by the ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: motor tricycles are banned here",
+    "it": "autoveicoli",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è permesso il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "tutti i tricicli a motore",
+    "en": "all motor tricycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19713": {
+  "en": "Where the sign shown is present, buses may pass.",
+  "explain": {
+   "short": "Buses are autoveicoli, so they are banned by this sign.",
+   "rule": "This sign bans all autoveicoli, including tricycles and quadricycles. Motorcycles, two-wheel mopeds and non-motor vehicles may pass.",
+   "trap": "'autobus' is not drawn, but the car symbol covers all autoveicoli.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Buses are banned too: they are autoveicoli",
+    "it": "autoveicoli",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "autobus",
+    "en": "buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19714": {
+  "en": "Where the sign shown is present, lorries may pass.",
+  "explain": {
+   "short": "Lorries are autoveicoli, so they are banned by this sign.",
+   "rule": "This sign bans all autoveicoli, including tricycles and quadricycles. Motorcycles, two-wheel mopeds and non-motor vehicles may pass.",
+   "trap": "'autocarri' (lorries) are not drawn, but the car symbol covers them.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lorries are banned too: they are autoveicoli",
+    "it": "autoveicoli",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "autocarri",
+    "en": "lorries"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19715": {
+  "en": "The sign shown indicates that buses are banned from passing.",
+  "explain": {
+   "short": "The bus inside a red circle means buses may not go in.",
+   "rule": "This sign bans every bus, of any type or mass. Cars, lorries, motorcycles and campers may pass.",
+   "trap": "'divieto di transito' (ban on passing) is the meaning of every red circle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No buses",
+    "it": "autobus",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto di transito",
+    "en": "ban on passing"
+   },
+   {
+    "it": "autobus",
+    "en": "buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19716": {
+  "en": "Where the sign shown is present, cars may pass.",
+  "explain": {
+   "short": "Only buses are banned; cars may drive on.",
+   "rule": "This sign bans every bus, of any type or mass. Cars, lorries, motorcycles and campers may pass.",
+   "trap": "'autovetture' (cars) are not on the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cars may pass: only buses are banned",
+    "it": "autobus",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "autovetture",
+    "en": "cars"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19717": {
+  "en": "Where the sign shown is present, lorries may pass.",
+  "explain": {
+   "short": "Only buses are banned; lorries carry goods, not passengers, so they may pass.",
+   "rule": "This sign bans every bus, of any type or mass. Cars, lorries, motorcycles and campers may pass.",
+   "trap": "'autocarri' (lorries) are not buses.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lorries may pass: only buses are banned",
+    "it": "autobus",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "autocarri",
+    "en": "lorries"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19718": {
+  "en": "Where the sign shown is present, motorcycles may pass.",
+  "explain": {
+   "short": "Only buses are banned; motorcycles may pass.",
+   "rule": "This sign bans every bus, of any type or mass. Cars, lorries, motorcycles and campers may pass.",
+   "trap": "'motocicli' (motorcycles) are not on the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorcycles may pass: only buses are banned",
+    "it": "autobus",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19719": {
+  "en": "Where the sign shown is present, campers may pass.",
+  "explain": {
+   "short": "A camper (autocaravan) is not a bus, so it may pass.",
+   "rule": "This sign bans every bus, of any type or mass. Cars, lorries, motorcycles and campers may pass.",
+   "trap": "'autocaravan' (motorhome) is big, but it is not a bus.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Campers may pass: only buses are banned",
+    "it": "autobus",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "autocaravan",
+    "en": "campers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19720": {
+  "en": "The sign shown also bans buses with a laden mass under 3.5 tonnes.",
+  "explain": {
+   "short": "The sign bans every bus, small or large; there is no mass limit.",
+   "rule": "This sign bans every bus, of any type or mass. Cars, lorries, motorcycles and campers may pass.",
+   "trap": "'anche' (also) is right: even light buses under 3.5 t are banned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "All buses banned, even under 3.5 t",
+    "it": "autobus",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "anche",
+    "en": "also"
+   },
+   {
+    "it": "massa a pieno carico",
+    "en": "laden mass"
+   },
+   {
+    "it": "inferiore a 3,5 tonnellate",
+    "en": "under 3.5 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19721": {
+  "en": "Where the sign shown is present, tourist buses may pass.",
+  "explain": {
+   "short": "Tourist buses are buses, so they are banned.",
+   "rule": "This sign bans every bus, of any type or mass. Cars, lorries, motorcycles and campers may pass.",
+   "trap": "'turistici' (tourist) does not create an exception.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tourist buses are banned too",
+    "it": "autobus",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "autobus turistici",
+    "en": "tourist buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19722": {
+  "en": "The sign shown marks a lane reserved for buses.",
+  "explain": {
+   "short": "A red circle forbids buses; it does not mark a bus lane.",
+   "rule": "This sign bans every bus, of any type or mass. Cars, lorries, motorcycles and campers may pass.",
+   "trap": "'corsia riservata' (reserved lane) is the opposite idea: here buses are banned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It bans buses; it is not a bus lane",
+    "it": "autobus",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia riservata",
+    "en": "reserved lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19723": {
+  "en": "The sign shown announces a parking area for tourist buses.",
+  "explain": {
+   "short": "The sign bans buses; it does not announce any parking area.",
+   "rule": "This sign bans every bus, of any type or mass. Cars, lorries, motorcycles and campers may pass.",
+   "trap": "'preannuncia un'area di sosta' (announces a parking area) is wrong: a red circle forbids.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It bans buses; no bus parking here",
+    "it": "autobus",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "announces"
+   },
+   {
+    "it": "area di sosta",
+    "en": "parking area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19724": {
+  "en": "Where the sign shown is present, school buses may pass.",
+  "explain": {
+   "short": "School buses are buses, so they are banned.",
+   "rule": "This sign bans every bus, of any type or mass. Cars, lorries, motorcycles and campers may pass.",
+   "trap": "'scuolabus' (school bus) does not create an exception.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "School buses are banned too",
+    "it": "autobus",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "scuolabus",
+    "en": "school buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19725": {
+  "en": "The sign shown bans campers from passing.",
+  "explain": {
+   "short": "Campers (autocaravan) are not buses, so they may pass.",
+   "rule": "This sign bans every bus, of any type or mass. Cars, lorries, motorcycles and campers may pass.",
+   "trap": "'autocaravan' (motorhomes) are not buses.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Campers may pass: only buses are banned",
+    "it": "autobus",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans passing"
+   },
+   {
+    "it": "autocaravan",
+    "en": "campers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19726": {
+  "en": "The sign shown is valid only on working days.",
+  "explain": {
+   "short": "The sign is valid every day; only an extra panel could limit days or times.",
+   "rule": "This sign bans every bus, of any type or mass. Cars, lorries, motorcycles and campers may pass.",
+   "trap": "'solo nei giorni feriali' (only on working days) is invented: no panel says so.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Valid every day, not only working days",
+    "it": "autobus",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "valido solo",
+    "en": "valid only"
+   },
+   {
+    "it": "giorni feriali",
+    "en": "working days"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19727": {
+  "en": "The sign shown bans vehicles used to carry goods with a laden mass over 3.5 tonnes.",
+  "explain": {
+   "short": "A lorry with no number on the sign means goods vehicles over 3.5 t are banned.",
+   "rule": "Without a number, this sign bans goods vehicles over 3.5 t laden mass. Buses and campers are not affected.",
+   "trap": "'superiore a 3,5 tonnellate' (over 3.5 tonnes) is the limit when no number is shown.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Goods vehicles over 3.5 t banned",
+    "it": "trasporto di cose",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "trasporto di cose",
+    "en": "carrying goods"
+   },
+   {
+    "it": "massa a pieno carico",
+    "en": "laden mass"
+   },
+   {
+    "it": "superiore a 3,5 tonnellate",
+    "en": "over 3.5 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19728": {
+  "en": "Where the sign shown is present, buses with a total mass over 3.5 tonnes may pass.",
+  "explain": {
+   "short": "Buses carry people, not goods, so this sign does not concern them.",
+   "rule": "Without a number, this sign bans goods vehicles over 3.5 t laden mass. Buses and campers are not affected.",
+   "trap": "'autobus' carry people: the ban is only for 'trasporto di cose' (goods).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Buses may pass: the ban is for goods vehicles",
+    "it": "trasporto di cose",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "autobus",
+    "en": "buses"
+   },
+   {
+    "it": "massa complessiva",
+    "en": "total mass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19729": {
+  "en": "Where the sign shown is present, a camper with a laden mass over 3.5 tonnes may pass.",
+  "explain": {
+   "short": "A camper (autocaravan) is not a goods vehicle, so it may pass even if heavy.",
+   "rule": "Without a number, this sign bans goods vehicles over 3.5 t laden mass. Buses and campers are not affected.",
+   "trap": "'autocaravan' is heavy but carries people, not goods.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Heavy campers may pass: not goods vehicles",
+    "it": "trasporto di cose",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "autocaravan",
+    "en": "camper"
+   },
+   {
+    "it": "massa a pieno carico",
+    "en": "laden mass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19730": {
+  "en": "The sign shown may have an extra panel showing a different mass allowed to pass.",
+  "explain": {
+   "short": "Without a number the limit is 3.5 t, but an extra panel can set a different mass.",
+   "rule": "Without a number, this sign bans goods vehicles over 3.5 t laden mass. Buses and campers are not affected.",
+   "trap": "'pannello integrativo' (extra panel under the sign) can change the mass value.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "An extra panel can set a different mass",
+    "it": "trasporto di cose",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello integrativo",
+    "en": "extra panel"
+   },
+   {
+    "it": "diverso valore della massa",
+    "en": "different mass value"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19731": {
+  "en": "The sign shown bans a lorry with a laden mass of 3 tonnes from passing.",
+  "explain": {
+   "short": "3 tonnes is under the 3.5 t limit, so this lorry may pass.",
+   "rule": "Without a number, this sign bans goods vehicles over 3.5 t laden mass. Buses and campers are not affected.",
+   "trap": "'pari a 3 tonnellate' (equal to 3 tonnes) is below 3.5 t.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A 3 t lorry may pass: limit is over 3.5 t",
+    "it": "trasporto di cose",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarro",
+    "en": "lorry"
+   },
+   {
+    "it": "pari a 3 tonnellate",
+    "en": "equal to 3 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19732": {
+  "en": "The sign shown bans all lorries with a closed van body from passing.",
+  "explain": {
+   "short": "Only goods vehicles over 3.5 t are banned; light vans may pass, whatever their body.",
+   "rule": "Without a number, this sign bans goods vehicles over 3.5 t laden mass. Buses and campers are not affected.",
+   "trap": "'tutti' (all) is wrong: the type of body does not matter, only the mass.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only over 3.5 t: body type does not matter",
+    "it": "trasporto di cose",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tutti gli autocarri",
+    "en": "all lorries"
+   },
+   {
+    "it": "furgone chiuso",
+    "en": "closed van body"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19733": {
+  "en": "Where the sign shown is present, all lorries with an open body may pass.",
+  "explain": {
+   "short": "Lorries over 3.5 t are banned, also with an open body.",
+   "rule": "Without a number, this sign bans goods vehicles over 3.5 t laden mass. Buses and campers are not affected.",
+   "trap": "'tutti' (all) is wrong: a heavy open lorry is still banned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Over 3.5 t banned, open body or not",
+    "it": "trasporto di cose",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tutti gli autocarri",
+    "en": "all lorries"
+   },
+   {
+    "it": "cassone aperto",
+    "en": "open body"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19734": {
+  "en": "The sign shown bans vehicles over 3.5 tonnes used to carry people.",
+  "explain": {
+   "short": "The sign is for goods vehicles; vehicles for people (buses, campers) may pass.",
+   "rule": "Without a number, this sign bans goods vehicles over 3.5 t laden mass. Buses and campers are not affected.",
+   "trap": "'trasporto di persone' (carrying people) is wrong: the ban is for goods.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only goods vehicles: people carriers may pass",
+    "it": "trasporto di cose",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "superiore a 3,5 tonnellate",
+    "en": "over 3.5 tonnes"
+   },
+   {
+    "it": "trasporto di persone",
+    "en": "carrying people"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19735": {
+  "en": "Where the sign shown is present, road trains over 3.5 tonnes not used to carry people may pass.",
+  "explain": {
+   "short": "A road train (autotreno) that does not carry people carries goods, so over 3.5 t it is banned.",
+   "rule": "Without a number, this sign bans goods vehicles over 3.5 t laden mass. Buses and campers are not affected.",
+   "trap": "'non adibiti al trasporto di persone' (not carrying people) means goods: exactly what is banned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Heavy goods road trains are banned",
+    "it": "trasporto di cose",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autotreni",
+    "en": "road trains"
+   },
+   {
+    "it": "non adibiti al trasporto di persone",
+    "en": "not used to carry people"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19736": {
+  "en": "Where the sign shown is present, campers may pass.",
+  "explain": {
+   "short": "Campers carry people, not goods, so this ban does not concern them.",
+   "rule": "This sign bans goods vehicles whose laden mass is over the value shown (6.5 t). Lighter goods vehicles, buses and campers may pass.",
+   "trap": "'autocaravan' (motorhomes) are not goods vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Campers may pass: ban is for goods vehicles",
+    "it": "massa a pieno carico",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "autocaravan",
+    "en": "campers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19737": {
+  "en": "Where the sign shown is present, buses may pass.",
+  "explain": {
+   "short": "Buses carry people, not goods, so this ban does not concern them.",
+   "rule": "This sign bans goods vehicles whose laden mass is over the value shown (6.5 t). Lighter goods vehicles, buses and campers may pass.",
+   "trap": "'autobus' carry people: the ban is for goods vehicles only.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Buses may pass: ban is for goods vehicles",
+    "it": "massa a pieno carico",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "autobus",
+    "en": "buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19738": {
+  "en": "The sign shown bans lorries with a laden mass over 6.5 tonnes from passing.",
+  "explain": {
+   "short": "The 6.5 t on the lorry is the limit: heavier lorries may not pass.",
+   "rule": "This sign bans goods vehicles whose laden mass is over the value shown (6.5 t). Lighter goods vehicles, buses and campers may pass.",
+   "trap": "'superiore a 6,5 tonnellate' (over 6.5 tonnes) matches the number on the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lorries over 6.5 t banned",
+    "it": "massa a pieno carico",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarri",
+    "en": "lorries"
+   },
+   {
+    "it": "massa a pieno carico",
+    "en": "laden mass"
+   },
+   {
+    "it": "superiore a 6,5 tonnellate",
+    "en": "over 6.5 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19739": {
+  "en": "Where the sign shown is present, vehicles used to carry goods with a total mass equal to or below the one shown on the sign may pass.",
+  "explain": {
+   "short": "Only goods vehicles heavier than 6.5 t are banned; those up to 6.5 t may pass.",
+   "rule": "This sign bans goods vehicles whose laden mass is over the value shown (6.5 t). Lighter goods vehicles, buses and campers may pass.",
+   "trap": "'pari o inferiore' (equal to or below) is allowed: the ban starts above the number.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Goods vehicles up to 6.5 t may pass",
+    "it": "massa a pieno carico",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "trasporto di cose",
+    "en": "carrying goods"
+   },
+   {
+    "it": "pari o inferiore",
+    "en": "equal to or below"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19740": {
+  "en": "Where the sign shown is present, lorries are banned if the registration document shows a laden mass over 6.5 tonnes.",
+  "explain": {
+   "short": "The mass that counts is the laden mass written in the registration document (carta di circolazione).",
+   "rule": "This sign bans goods vehicles whose laden mass is over the value shown (6.5 t). Lighter goods vehicles, buses and campers may pass.",
+   "trap": "'carta di circolazione' (registration document) is where you read the mass that counts.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Registered mass over 6.5 t: banned",
+    "it": "massa a pieno carico",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "carta di circolazione",
+    "en": "registration document"
+   },
+   {
+    "it": "massa a pieno carico",
+    "en": "laden mass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19741": {
+  "en": "Where the sign shown is present, lorries with a total mass of 7.5 tonnes may pass.",
+  "explain": {
+   "short": "7.5 t is more than 6.5 t, so these lorries are banned.",
+   "rule": "This sign bans goods vehicles whose laden mass is over the value shown (6.5 t). Lighter goods vehicles, buses and campers may pass.",
+   "trap": "'7,5 tonnellate' is over the 6.5 t limit.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "7.5 t is over 6.5 t: banned",
+    "it": "massa a pieno carico",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "7,5 tonnellate",
+    "en": "7.5 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19742": {
+  "en": "The sign shown bans vehicles over 6.5 tonnes used to carry people.",
+  "explain": {
+   "short": "The sign is for goods vehicles; buses and campers may pass at any mass.",
+   "rule": "This sign bans goods vehicles whose laden mass is over the value shown (6.5 t). Lighter goods vehicles, buses and campers may pass.",
+   "trap": "'trasporto di persone' (carrying people) is wrong: the ban is for goods.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only goods vehicles: people carriers may pass",
+    "it": "massa a pieno carico",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "superiore a 6,5 tonnellate",
+    "en": "over 6.5 tonnes"
+   },
+   {
+    "it": "trasporto di persone",
+    "en": "carrying people"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19743": {
+  "en": "Where the sign shown is present, special-use motor vehicles over 6.5 tonnes may pass.",
+  "explain": {
+   "short": "Heavy special-use vehicles (e.g. crane or tow trucks) are covered by the ban too.",
+   "rule": "This sign bans goods vehicles whose laden mass is over the value shown (6.5 t). Lighter goods vehicles, buses and campers may pass.",
+   "trap": "'uso speciale' (special use) gives no exception over 6.5 t.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Special-use vehicles over 6.5 t are banned",
+    "it": "massa a pieno carico",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "uso speciale",
+    "en": "special use"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19744": {
+  "en": "The sign shown announces a public weighbridge nearby.",
+  "explain": {
+   "short": "The sign bans heavy goods vehicles; it does not announce a weighbridge.",
+   "rule": "This sign bans goods vehicles whose laden mass is over the value shown (6.5 t). Lighter goods vehicles, buses and campers may pass.",
+   "trap": "'pesa pubblica' (public weighbridge) is invented: the 6.5 t is a limit, not a scale.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A mass limit, not a weighbridge",
+    "it": "massa a pieno carico",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "announces"
+   },
+   {
+    "it": "pesa pubblica",
+    "en": "public weighbridge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19745": {
+  "en": "The sign shown bans buses with a total mass over 10 tonnes from passing.",
+  "explain": {
+   "short": "Buses carry people, so this goods-vehicle ban does not concern them at any mass.",
+   "rule": "This sign bans goods vehicles whose laden mass is over the value shown (6.5 t). Lighter goods vehicles, buses and campers may pass.",
+   "trap": "'autobus' and '10 tonnellate' are both wrong: no buses, and the limit is 6.5 t.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Buses may pass: only goods vehicles banned",
+    "it": "massa a pieno carico",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autobus",
+    "en": "buses"
+   },
+   {
+    "it": "superiore a 10 tonnellate",
+    "en": "over 10 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19746": {
+  "en": "The sign shown may have an extra panel allowing trailers with a mass not over the one shown on the panel.",
+  "explain": {
+   "short": "An extra panel can allow light trailers, up to the mass it shows.",
+   "rule": "This sign bans motor vehicles towing a trailer of any kind. A small luggage trailer (carrello-appendice) and articulated buses are allowed.",
+   "trap": "'pannello' (extra panel) can soften the ban for light trailers.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A panel can allow light trailers",
+    "it": "rimorchio",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "traino di rimorchi",
+    "en": "towing trailers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19747": {
+  "en": "The sign shown bans road trains from passing.",
+  "explain": {
+   "short": "A road train (autotreno) is a lorry towing a trailer, exactly what the sign shows.",
+   "rule": "This sign bans motor vehicles towing a trailer of any kind. A small luggage trailer (carrello-appendice) and articulated buses are allowed.",
+   "trap": "'autotreni' (lorry plus trailer) are the typical case of this ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No road trains (lorry + trailer)",
+    "it": "rimorchio",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans passing"
+   },
+   {
+    "it": "autotreni",
+    "en": "road trains"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19748": {
+  "en": "Where the sign shown is present, a motor vehicle towing a small luggage trailer may pass.",
+  "explain": {
+   "short": "A carrello-appendice (small luggage trailer) is not a real trailer, so it is allowed.",
+   "rule": "This sign bans motor vehicles towing a trailer of any kind. A small luggage trailer (carrello-appendice) and articulated buses are allowed.",
+   "trap": "'carrello-appendice' is not a 'rimorchio' for this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A small luggage trailer is allowed",
+    "it": "rimorchio",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "carrello-appendice",
+    "en": "small luggage trailer"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19749": {
+  "en": "The sign shown bans motor vehicles towing a trailer from passing.",
+  "explain": {
+   "short": "The lorry with a trailer stands for every motor vehicle that tows a trailer.",
+   "rule": "This sign bans motor vehicles towing a trailer of any kind. A small luggage trailer (carrello-appendice) and articulated buses are allowed.",
+   "trap": "'trainanti un rimorchio' (towing a trailer) is the exact meaning.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No motor vehicles towing a trailer",
+    "it": "rimorchio",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans passing"
+   },
+   {
+    "it": "trainanti un rimorchio",
+    "en": "towing a trailer"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19750": {
+  "en": "Where the sign shown is present, articulated buses may pass.",
+  "explain": {
+   "short": "An articulated bus (autosnodato) is one bendy vehicle, not a vehicle towing a trailer.",
+   "rule": "This sign bans motor vehicles towing a trailer of any kind. A small luggage trailer (carrello-appendice) and articulated buses are allowed.",
+   "trap": "'autosnodati' (bendy buses) look long, but they do not tow a trailer.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Articulated buses may pass: no trailer",
+    "it": "rimorchio",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "autosnodati",
+    "en": "articulated buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19751": {
+  "en": "Where the sign shown is present, a car towing a caravan may pass.",
+  "explain": {
+   "short": "A caravan is a trailer, so a car towing it is banned.",
+   "rule": "This sign bans motor vehicles towing a trailer of any kind. A small luggage trailer (carrello-appendice) and articulated buses are allowed.",
+   "trap": "'caravan' is a trailer: the ban is not only for lorries.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A car with a caravan is banned",
+    "it": "rimorchio",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "trainante un caravan",
+    "en": "towing a caravan"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19752": {
+  "en": "The sign shown applies only to vehicles used to carry goods.",
+  "explain": {
+   "short": "The ban covers every motor vehicle with a trailer, also cars with a caravan.",
+   "rule": "This sign bans motor vehicles towing a trailer of any kind. A small luggage trailer (carrello-appendice) and articulated buses are allowed.",
+   "trap": "'soltanto' (only) is wrong: it is not just for goods vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "All vehicles with a trailer, not only goods",
+    "it": "rimorchio",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "soltanto",
+    "en": "only"
+   },
+   {
+    "it": "trasporto di merci",
+    "en": "carrying goods"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19753": {
+  "en": "The sign shown indicates slowing lorries.",
+  "explain": {
+   "short": "The sign bans vehicles towing a trailer; it says nothing about lorries slowing down.",
+   "rule": "This sign bans motor vehicles towing a trailer of any kind. A small luggage trailer (carrello-appendice) and articulated buses are allowed.",
+   "trap": "'in rallentamento' (slowing down) is invented: a red circle forbids.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It bans trailers; nothing about slowing",
+    "it": "rimorchio",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarri",
+    "en": "lorries"
+   },
+   {
+    "it": "in rallentamento",
+    "en": "slowing down"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19754": {
+  "en": "The sign shown indicates that road trains must keep at least 100 metres apart.",
+  "explain": {
+   "short": "The sign bans vehicles towing a trailer; it sets no distance between them.",
+   "rule": "This sign bans motor vehicles towing a trailer of any kind. A small luggage trailer (carrello-appendice) and articulated buses are allowed.",
+   "trap": "'distanza di almeno 100 metri' (at least 100 m apart) is invented for this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It bans trailers; no distance rule",
+    "it": "rimorchio",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autotreni",
+    "en": "road trains"
+   },
+   {
+    "it": "distanza di almeno 100 metri",
+    "en": "at least 100 metres apart"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q19755": {
+  "en": "Where the sign shown is present, a car towing a boat trailer may pass.",
+  "explain": {
+   "short": "A boat trailer is a trailer, so a car towing it is banned.",
+   "rule": "This sign bans motor vehicles towing a trailer of any kind. A small luggage trailer (carrello-appendice) and articulated buses are allowed.",
+   "trap": "'rimorchio per imbarcazione' (boat trailer) is still a 'rimorchio'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A car with a boat trailer is banned",
+    "it": "rimorchio",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito il transito",
+    "en": "passing is allowed"
+   },
+   {
+    "it": "rimorchio per imbarcazione",
+    "en": "boat trailer"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

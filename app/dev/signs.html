@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Sign scenes</title>
+<style>body{margin:0;font:12px system-ui;background:#eef0f8}.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;padding:8px}.c{background:#0f172a;border-radius:12px;overflow:hidden}.c p{margin:0;padding:4px 6px;background:#fff}</style></head>
+<body><div class="g" id="g"></div>
+<script type="module">
+import { createBoard } from "../js/scenes/engine.js";
+import { buildScene } from "../js/scenes/index.js";
+const at = +(new URLSearchParams(location.search).get("at") || .5);
+const img = "../images/4232f21e2893.jpeg";
+const cases = ["slow", "stop", "giveWay", "priority", "noEntry", "noOvertake", "turnLeft", "turnRight", "straight", "keepRight", "keepLeft", "noTurnLeft", "noUTurn", "speedLimit", "endLimit", "park", "noParking", "info"]
+  .map(a => ({ scene: "sign", p: { action: a, hazard: a === "slow" ? "🚧" : null, distance: a === "slow" ? "150 m" : null, value: 50, verdict: "ok", caption: a, it: "segnale" } }))
+  .concat([{ scene: "figure", p: { lines: ["Three separate carriageways", "Overtaking in bends is allowed here"], verdict: "ok", caption: "figure" } },
+           { scene: "roadparts", p: { part: "banchina", verdict: "ok", caption: "banchina" } }]);
+for (const c of cases) {
+  const el = document.createElement("div"); el.className = "c"; const h = document.createElement("div"); el.appendChild(h);
+  el.insertAdjacentHTML("beforeend", `<p>${c.scene} · ${c.p.action || c.p.part || ""}</p>`); document.getElementById("g").appendChild(el);
+  const q = { image: img, explain: { scene: c.scene, sceneParams: c.p } };
+  const b = createBoard(h, {}); const s = buildScene(q); b.load(s); b.seek(s.duration * at);
+}
+</script></body></html>
