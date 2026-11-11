@@ -39,6 +39,28 @@ function load() {
 }
 function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch { /* storage full or blocked */ } }
 
+/**
+ * Ask the browser to keep this site's data permanently (not cleared when the device runs low on space).
+ * Asked once the learner has started answering, not on the first visit: some browsers decide from how
+ * much the site is used, and Firefox shows a small prompt.
+ */
+let persistAsked = false;
+export async function keepStorage() {
+  try {
+    const sm = navigator.storage;
+    if (!sm || !sm.persist) return "unsupported";
+    if (await sm.persisted()) return "kept";
+    if (persistAsked) return "not-kept";
+    persistAsked = true;
+    return (await sm.persist()) ? "kept" : "not-kept";
+  } catch { return "unsupported"; }
+}
+/** Current state without asking: "kept" | "not-kept" | "unsupported". */
+export async function storageStatus() {
+  try { const sm = navigator.storage; if (!sm || !sm.persisted) return "unsupported"; return (await sm.persisted()) ? "kept" : "not-kept"; }
+  catch { return "unsupported"; }
+}
+
 export const store = {
   today,
   get settings() { return state.settings; },
@@ -55,6 +77,7 @@ export const store = {
     else { r.ko++; r.box = 1; r.lastOk = false; }
     r.due = addDays(t, INTERVAL_DAYS[r.box]);
     state.q[id] = r;
+    if (!persistAsked) keepStorage();
     state.days[t] = (state.days[t] || 0) + 1;
     save();
     return r;

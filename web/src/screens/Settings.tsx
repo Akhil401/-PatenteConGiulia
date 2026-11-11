@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { voiceInfo } from '../lib/speech.js'
-import { store } from '../lib/store.js'
+import { keepStorage, storageStatus, store } from '../lib/store.js'
 import { setSetting, toast, useSettings } from '../util'
 
 function Switch({ k, title, desc }: { k: string; title: string; desc: string }) {
@@ -21,7 +21,8 @@ function Select({ k, title, opts }: { k: string; title: string; opts: [string, s
 export default function Settings() {
   const [vi, setVi] = useState<{ it: string | null; en: string | null }>({ it: null, en: null })
   const file = useRef<HTMLInputElement>(null)
-  useEffect(() => { voiceInfo().then(setVi) }, [])
+  const [kept, setKept] = useState<string>('')
+  useEffect(() => { voiceInfo().then(setVi); storageStatus().then(setKept) }, [])
 
   const exportFile = () => {
     const blob = new Blob([store.exportJSON()], { type: 'application/json' })
@@ -64,6 +65,15 @@ export default function Settings() {
       <div className="section-title"><h3>Your progress</h3></div>
       <div className="card stack">
         <p className="muted small" style={{ margin: 0 }}>Progress is saved on this device only. Export it to keep a copy or move it to another phone.</p>
+        {kept && kept !== 'unsupported' && (
+          <div className={`keep ${kept === 'kept' ? 'ok' : ''}`}>
+            <span className="dot" aria-hidden="true" />
+            <span>{kept === 'kept'
+              ? <><b>Kept permanently.</b> The browser will not clear your progress to free up space.</>
+              : <><b>Not yet kept permanently.</b> The browser may clear it if the device runs low on space. Installing the app to the home screen helps.</>}</span>
+            {kept !== 'kept' && <button className="btn small" onClick={async () => { const r = await keepStorage(); setKept(r); toast(r === 'kept' ? 'Your progress is now kept permanently.' : 'The browser said no for now. Install the app, then try again.') }}>Keep it</button>}
+          </div>
+        )}
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
           <button className="btn" onClick={exportFile}>⬇ Export</button>
           <button className="btn" onClick={() => file.current?.click()}>⬆ Import</button>
