@@ -1,0 +1,2734 @@
+{
+ "q25168": {
+  "en": "Grip allows the vehicle to move.",
+  "explain": {
+   "short": "The wheels push on the road thanks to grip. Without grip the wheels just spin and the car does not move.",
+   "rule": "Grip (forza aderente) is the friction between tyres and road. Without it the car cannot move, steer or brake, and it slides.",
+   "trap": "'consente il movimento' (allows movement) is correct: grip turns the wheel's turning into forward motion.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Grip lets the wheels push the car forward",
+    "it": "forza aderente",
+    "lines": [
+     "Wheels turn and push on the road",
+     "Grip turns this into movement",
+     "No grip: wheels spin, car stays"
+    ],
+    "icons": [
+     "tyre",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "forza aderente",
+    "en": "grip (force of adhesion)"
+   },
+   {
+    "it": "consente il movimento",
+    "en": "allows movement"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25169": {
+  "en": "Grip resists sliding towards the outside of the bend.",
+  "explain": {
+   "short": "In a bend a force pushes the car outwards. Grip between tyres and road holds the car on its line.",
+   "rule": "Grip (forza aderente) is the friction between tyres and road. Without it the car cannot move, steer or brake, and it slides.",
+   "trap": "'verso l'esterno della curva' (towards the outside of the bend) is the right direction of the slide.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Grip holds the car in the bend",
+    "it": "slittamento",
+    "lines": [
+     "In a bend the car is pushed outwards",
+     "Grip holds the tyres on the road",
+     "The car stays on its line"
+    ],
+    "icons": [
+     "curve",
+     "tyre",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "forza aderente",
+    "en": "grip"
+   },
+   {
+    "it": "slittamento",
+    "en": "sliding, skid"
+   },
+   {
+    "it": "verso l'esterno della curva",
+    "en": "towards the outside of the bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25170": {
+  "en": "Grip allows the vehicle to follow the path it wants.",
+  "explain": {
+   "short": "When you steer, the tyres need grip to change the car's direction. With grip the car goes where you steer it.",
+   "rule": "Grip (forza aderente) is the friction between tyres and road. Without it the car cannot move, steer or brake, and it slides.",
+   "trap": "'traiettoria voluta' (the wanted path) is correct: grip makes steering work.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Grip lets the car go where you steer",
+    "it": "traiettoria voluta",
+    "lines": [
+     "You turn the steering wheel",
+     "Tyres grip the road",
+     "The car follows your path"
+    ],
+    "icons": [
+     "car",
+     "tyre",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "forza aderente",
+    "en": "grip"
+   },
+   {
+    "it": "percorrere la traiettoria voluta",
+    "en": "follow the wanted path"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25171": {
+  "en": "Grip resists the tyre slipping on the asphalt.",
+  "explain": {
+   "short": "Grip is the friction between tyre and asphalt. Friction is exactly what stops the tyre from slipping.",
+   "rule": "Grip (forza aderente) is the friction between tyres and road. Without it the car cannot move, steer or brake, and it slides.",
+   "trap": "'slittamento dello pneumatico' (tyre slipping) is what grip is there to stop.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Grip stops the tyre slipping",
+    "it": "slittamento",
+    "lines": [
+     "Tyre touches the asphalt",
+     "Friction holds it in place",
+     "No slipping"
+    ],
+    "icons": [
+     "tyre",
+     "road",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "forza aderente",
+    "en": "grip"
+   },
+   {
+    "it": "pneumatico",
+    "en": "tyre"
+   },
+   {
+    "it": "asfalto",
+    "en": "asphalt"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25172": {
+  "en": "Grip does not resist sliding caused by side wind.",
+  "explain": {
+   "short": "Grip resists every slide, whatever the cause. A strong side wind pushes the car sideways, and grip holds it.",
+   "rule": "Grip (forza aderente) is the friction between tyres and road. Without it the car cannot move, steer or brake, and it slides.",
+   "trap": "'non si oppone' (does not resist) is wrong: grip fights the slide from the wind too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Grip also holds the car against side wind",
+    "it": "vento laterale",
+    "lines": [
+     "Side wind pushes the car sideways",
+     "Grip holds the tyres on the road",
+     "Saying it does not help: wrong"
+    ],
+    "icons": [
+     "wind",
+     "tyre",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "forza aderente",
+    "en": "grip"
+   },
+   {
+    "it": "vento laterale",
+    "en": "side wind"
+   },
+   {
+    "it": "non si oppone",
+    "en": "does not resist"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25173": {
+  "en": "Grip, if too high, causes the brakes to overheat.",
+  "explain": {
+   "short": "Grip is between the tyres and the road. Brakes overheat from long or hard use, for example on long downhill roads, not from grip.",
+   "rule": "Grip (forza aderente) is the friction between tyres and road. Without it the car cannot move, steer or brake, and it slides.",
+   "trap": "'surriscaldamento dei freni' (brakes overheating) has nothing to do with grip.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Hot brakes come from long braking, not grip",
+    "it": "surriscaldamento",
+    "lines": [
+     "Grip: between tyre and road",
+     "Hot brakes: long braking downhill",
+     "No link between the two"
+    ],
+    "icons": [
+     "tyre",
+     "brake",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "forza aderente",
+    "en": "grip"
+   },
+   {
+    "it": "eccessiva",
+    "en": "too high"
+   },
+   {
+    "it": "surriscaldamento dei freni",
+    "en": "brakes overheating"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25174": {
+  "en": "Grip increases if the asphalt is rough.",
+  "explain": {
+   "short": "A rough surface gives the tyre more to hold on to. So the tyre grips better than on smooth asphalt.",
+   "rule": "Grip is highest on dry, clean, rough asphalt. Wet roads, leaves, ice, mud and oil reduce it.",
+   "trap": "'rugoso' (rough) is good for grip, not bad.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Rough asphalt gives more grip",
+    "it": "asfalto rugoso",
+    "lines": [
+     "Rough asphalt",
+     "The tyre holds on better",
+     "More grip"
+    ],
+    "icons": [
+     "road",
+     "tyre",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aumenta",
+    "en": "increases"
+   },
+   {
+    "it": "rugoso",
+    "en": "rough"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25175": {
+  "en": "Grip decreases if the asphalt is wet.",
+  "explain": {
+   "short": "Water makes a thin layer between tyre and road. The tyre holds less, so grip goes down.",
+   "rule": "Grip is highest on dry, clean, rough asphalt. Wet roads, leaves, ice, mud and oil reduce it.",
+   "trap": "'diminuisce' (decreases) with 'bagnato' (wet) is the correct pair.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wet asphalt means less grip",
+    "it": "asfalto bagnato",
+    "lines": [
+     "Rain makes the asphalt wet",
+     "Water between tyre and road",
+     "Less grip: slow down"
+    ],
+    "icons": [
+     "rain",
+     "tyre",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "diminuisce",
+    "en": "decreases"
+   },
+   {
+    "it": "bagnato",
+    "en": "wet"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25176": {
+  "en": "Grip increases if the asphalt is wet.",
+  "explain": {
+   "short": "Water between the tyre and the road makes the tyre hold less. Grip goes down, not up.",
+   "rule": "Grip is highest on dry, clean, rough asphalt. Wet roads, leaves, ice, mud and oil reduce it.",
+   "trap": "'aumenta' (increases) is wrong: on wet asphalt grip 'diminuisce' (decreases).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Wet asphalt lowers grip, it does not raise it",
+    "it": "asfalto bagnato",
+    "lines": [
+     "Rain makes the asphalt wet",
+     "Grip goes DOWN, not up",
+     "Slow down and keep more distance"
+    ],
+    "icons": [
+     "rain",
+     "cross",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aumenta",
+    "en": "increases"
+   },
+   {
+    "it": "bagnato",
+    "en": "wet"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25177": {
+  "en": "Grip increases if the asphalt is covered with leaves.",
+  "explain": {
+   "short": "Leaves on the road are slippery, especially when wet. They lower grip, they do not raise it.",
+   "rule": "Grip is highest on dry, clean, rough asphalt. Wet roads, leaves, ice, mud and oil reduce it.",
+   "trap": "'aumenta' (increases) is wrong: leaves ('foglie') make the road slippery.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Leaves make the road slippery",
+    "it": "foglie",
+    "lines": [
+     "Leaves on the asphalt",
+     "Slippery: grip goes down",
+     "Saying it increases: wrong"
+    ],
+    "icons": [
+     "leaf",
+     "tyre",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aumenta",
+    "en": "increases"
+   },
+   {
+    "it": "coperto di foglie",
+    "en": "covered with leaves"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25178": {
+  "en": "Grip increases if the asphalt is covered with ice.",
+  "explain": {
+   "short": "Ice is the most slippery surface of all. Grip becomes very low.",
+   "rule": "Grip is highest on dry, clean, rough asphalt. Wet roads, leaves, ice, mud and oil reduce it.",
+   "trap": "'aumenta' (increases) is wrong: on 'ghiaccio' (ice) grip is very low.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Ice gives very little grip",
+    "it": "ghiaccio",
+    "lines": [
+     "Ice on the asphalt",
+     "Grip is very low",
+     "Saying it increases: wrong"
+    ],
+    "icons": [
+     "snow",
+     "tyre",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aumenta",
+    "en": "increases"
+   },
+   {
+    "it": "ghiaccio",
+    "en": "ice"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25179": {
+  "en": "Grip increases if the asphalt is covered with mud.",
+  "explain": {
+   "short": "Mud is soft and slippery between tyre and road. It lowers grip.",
+   "rule": "Grip is highest on dry, clean, rough asphalt. Wet roads, leaves, ice, mud and oil reduce it.",
+   "trap": "'aumenta' (increases) is wrong: 'fango' (mud) makes the road slippery.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Mud makes the road slippery",
+    "it": "fango",
+    "lines": [
+     "Mud on the asphalt",
+     "Slippery: grip goes down",
+     "Saying it increases: wrong"
+    ],
+    "icons": [
+     "road",
+     "tyre",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aumenta",
+    "en": "increases"
+   },
+   {
+    "it": "fango",
+    "en": "mud"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25180": {
+  "en": "If the grip coefficient decreases, the driving wheels could spin.",
+  "explain": {
+   "short": "The driving wheels (ruote motrici) push the car. With little grip they cannot push on the road and spin on the spot.",
+   "rule": "A low grip coefficient makes the car slide more and brake in a longer space. You must drive slower everywhere.",
+   "trap": "'pattinare' (spin, slip) is what driving wheels do on a slippery road.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Low grip: driving wheels can spin",
+    "it": "pattinare",
+    "lines": [
+     "Slippery road: low grip",
+     "Driving wheels spin on the spot",
+     "Accelerate gently"
+    ],
+    "icons": [
+     "rain",
+     "tyre",
+     "engine"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "coefficiente di aderenza",
+    "en": "grip coefficient"
+   },
+   {
+    "it": "ruote motrici",
+    "en": "driving wheels"
+   },
+   {
+    "it": "pattinare",
+    "en": "spin, slip"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25181": {
+  "en": "If the grip coefficient decreases, the braking distance increases.",
+  "explain": {
+   "short": "With less grip the brakes cannot slow the car as fast. The car needs more road to stop.",
+   "rule": "A low grip coefficient makes the car slide more and brake in a longer space. You must drive slower everywhere.",
+   "trap": "'aumenta' (increases) is correct here: less grip, longer braking.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Low grip: longer braking distance",
+    "it": "spazio di frenatura",
+    "lines": [
+     "Less grip on the road",
+     "Brakes slow the car less",
+     "Braking distance gets longer"
+    ],
+    "icons": [
+     "rain",
+     "brake",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "coefficiente di aderenza",
+    "en": "grip coefficient"
+   },
+   {
+    "it": "spazio di frenatura",
+    "en": "braking distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25182": {
+  "en": "If the grip coefficient is low, you must reduce speed.",
+  "explain": {
+   "short": "On a slippery road the car slides and stops later. Lower speed gives you back control and space.",
+   "rule": "A low grip coefficient makes the car slide more and brake in a longer space. You must drive slower everywhere.",
+   "trap": "'bisogna ridurre la velocità' (you must slow down): no 'solo' (only), so it is right.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Low grip: slow down",
+    "it": "ridurre la velocità",
+    "lines": [
+     "Slippery road: low grip",
+     "Longer braking, easier skids",
+     "Reduce your speed"
+    ],
+    "icons": [
+     "rain",
+     "warning",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "coefficiente di aderenza",
+    "en": "grip coefficient"
+   },
+   {
+    "it": "ridurre la velocità",
+    "en": "reduce speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25183": {
+  "en": "If the grip coefficient decreases, the braking distance gets shorter.",
+  "explain": {
+   "short": "Less grip means the brakes hold the car less. The car needs MORE road to stop, not less.",
+   "rule": "A low grip coefficient makes the car slide more and brake in a longer space. You must drive slower everywhere.",
+   "trap": "'si riduce' (gets shorter) is wrong: the braking distance 'aumenta' (gets longer).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Low grip makes braking LONGER",
+    "it": "spazio di frenatura",
+    "lines": [
+     "Less grip on the road",
+     "Braking distance gets LONGER",
+     "Saying shorter: wrong"
+    ],
+    "icons": [
+     "rain",
+     "brake",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "coefficiente di aderenza",
+    "en": "grip coefficient"
+   },
+   {
+    "it": "spazio di frenatura",
+    "en": "braking distance"
+   },
+   {
+    "it": "si riduce",
+    "en": "gets shorter"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25184": {
+  "en": "If the grip coefficient is low, you must reduce speed only in bends.",
+  "explain": {
+   "short": "Low grip is a danger everywhere: on straights you also brake later and can skid. You must slow down always.",
+   "rule": "A low grip coefficient makes the car slide more and brake in a longer space. You must drive slower everywhere.",
+   "trap": "'solo in curva' (only in bends) is the trap: you slow down everywhere.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Low grip: slow down everywhere, not only in bends",
+    "it": "solo in curva",
+    "lines": [
+     "Slippery road: low grip",
+     "Slow down on straights too",
+     "'Only in bends': wrong"
+    ],
+    "icons": [
+     "rain",
+     "speed",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "coefficiente di aderenza",
+    "en": "grip coefficient"
+   },
+   {
+    "it": "solo in curva",
+    "en": "only in bends"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25185": {
+  "en": "A low grip coefficient limits the speed at which you can drive through a bend safely.",
+  "explain": {
+   "short": "In a bend grip holds the car against the outward push. With little grip the car slides at a lower speed, so the safe bend speed is lower.",
+   "rule": "A low grip coefficient makes the car slide more and brake in a longer space. You must drive slower everywhere.",
+   "trap": "'limita la velocità' (limits the speed) is correct: low grip means a slower safe speed in the bend.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Low grip: take the bend slower",
+    "it": "curva",
+    "lines": [
+     "Slippery road and a bend ahead",
+     "Less grip holds the car",
+     "Take the bend slower"
+    ],
+    "icons": [
+     "curve",
+     "tyre",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "coefficiente di aderenza basso",
+    "en": "low grip coefficient"
+   },
+   {
+    "it": "percorrere una curva",
+    "en": "drive through a bend"
+   },
+   {
+    "it": "in sicurezza",
+    "en": "safely"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25186": {
+  "en": "A low grip coefficient makes sliding in a bend more likely.",
+  "explain": {
+   "short": "In a bend the car is pushed outwards and only grip holds it. With low grip the tyres let go more easily.",
+   "rule": "A low grip coefficient makes the car slide more and brake in a longer space. You must drive slower everywhere.",
+   "trap": "'favorisce' (makes more likely) is correct: low grip helps the skid happen.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Low grip: easier to slide in a bend",
+    "it": "slittamento in curva",
+    "lines": [
+     "Bend on a slippery road",
+     "Low grip: tyres let go",
+     "The car slides outwards"
+    ],
+    "icons": [
+     "curve",
+     "rain",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "coefficiente di aderenza basso",
+    "en": "low grip coefficient"
+   },
+   {
+    "it": "favorisce",
+    "en": "makes more likely"
+   },
+   {
+    "it": "slittamento in curva",
+    "en": "sliding in a bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25187": {
+  "en": "A low grip coefficient increases the braking distance.",
+  "explain": {
+   "short": "With little grip the brakes slow the car less. The car needs more road to stop.",
+   "rule": "A low grip coefficient makes the car slide more and brake in a longer space. You must drive slower everywhere.",
+   "trap": "'aumenta' (increases) is correct: low grip, longer braking.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Low grip: longer braking distance",
+    "it": "spazio di frenatura",
+    "lines": [
+     "Slippery road",
+     "Brakes slow the car less",
+     "Braking distance gets longer"
+    ],
+    "icons": [
+     "rain",
+     "brake",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "coefficiente di aderenza basso",
+    "en": "low grip coefficient"
+   },
+   {
+    "it": "spazio di frenatura",
+    "en": "braking distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25188": {
+  "en": "A low grip coefficient makes sudden braking dangerous.",
+  "explain": {
+   "short": "Braking hard on a slippery road can lock the wheels and make the car skid. Brake gently and early.",
+   "rule": "A low grip coefficient makes the car slide more and brake in a longer space. You must drive slower everywhere.",
+   "trap": "'frenate brusche' (sudden braking) is exactly what is risky with low grip.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Low grip: brake gently, not suddenly",
+    "it": "frenate brusche",
+    "lines": [
+     "Slippery road",
+     "Sudden braking: wheels lock, skid",
+     "Brake early and gently"
+    ],
+    "icons": [
+     "rain",
+     "brake",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "coefficiente di aderenza basso",
+    "en": "low grip coefficient"
+   },
+   {
+    "it": "frenate brusche",
+    "en": "sudden braking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25189": {
+  "en": "A low grip coefficient does not affect the vehicle's speed.",
+  "explain": {
+   "short": "With low grip you must drive slower, because you brake later and slide more easily. So it does affect speed.",
+   "rule": "A low grip coefficient makes the car slide more and brake in a longer space. You must drive slower everywhere.",
+   "trap": "'non condiziona' (does not affect) is wrong: low grip forces you to slow down.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Low grip forces you to drive slower",
+    "it": "velocità",
+    "lines": [
+     "Slippery road: low grip",
+     "You must drive slower",
+     "'Does not affect speed': wrong"
+    ],
+    "icons": [
+     "rain",
+     "speed",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "coefficiente di aderenza basso",
+    "en": "low grip coefficient"
+   },
+   {
+    "it": "non condiziona",
+    "en": "does not affect"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25190": {
+  "en": "A low grip coefficient reduces the braking distance.",
+  "explain": {
+   "short": "Low grip makes the brakes less effective. The braking distance gets longer, not shorter.",
+   "rule": "A low grip coefficient makes the car slide more and brake in a longer space. You must drive slower everywhere.",
+   "trap": "'riduce' (reduces) is wrong: low grip 'aumenta' (increases) the braking distance.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Low grip makes braking LONGER",
+    "it": "spazio di frenatura",
+    "lines": [
+     "Slippery road",
+     "Braking distance gets LONGER",
+     "Saying it reduces: wrong"
+    ],
+    "icons": [
+     "rain",
+     "brake",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "coefficiente di aderenza basso",
+    "en": "low grip coefficient"
+   },
+   {
+    "it": "riduce",
+    "en": "reduces"
+   },
+   {
+    "it": "spazio di frenatura",
+    "en": "braking distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25191": {
+  "en": "A low grip coefficient lowers fuel consumption.",
+  "explain": {
+   "short": "Grip is about holding the road, not about saving fuel. If anything, spinning wheels waste fuel.",
+   "rule": "A low grip coefficient makes the car slide more and brake in a longer space. You must drive slower everywhere.",
+   "trap": "'diminuisce i consumi' (lowers fuel use) is an invented benefit.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Low grip does not save fuel",
+    "it": "consumi",
+    "lines": [
+     "Low grip: car holds the road less",
+     "No fuel saving",
+     "Only more danger"
+    ],
+    "icons": [
+     "tyre",
+     "fuel",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "coefficiente di aderenza basso",
+    "en": "low grip coefficient"
+   },
+   {
+    "it": "consumi di carburante",
+    "en": "fuel consumption"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25192": {
+  "en": "A low grip coefficient reduces sliding in a bend.",
+  "explain": {
+   "short": "Low grip means the tyres hold the road less. Sliding in a bend becomes MORE likely, not less.",
+   "rule": "A low grip coefficient makes the car slide more and brake in a longer space. You must drive slower everywhere.",
+   "trap": "'riduce' (reduces) is wrong: low grip 'favorisce' (makes more likely) the slide.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Low grip makes sliding in bends MORE likely",
+    "it": "slittamento in curva",
+    "lines": [
+     "Bend on a slippery road",
+     "Sliding is MORE likely",
+     "Saying it reduces: wrong"
+    ],
+    "icons": [
+     "curve",
+     "rain",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "coefficiente di aderenza basso",
+    "en": "low grip coefficient"
+   },
+   {
+    "it": "riduce",
+    "en": "reduces"
+   },
+   {
+    "it": "slittamento in curva",
+    "en": "sliding in a bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25193": {
+  "en": "Anyone riding a motorcycle must consider that grip decreases on rails, especially in the rain.",
+  "explain": {
+   "short": "Metal rails are smooth. When wet they are very slippery for the thin tyres of a motorcycle.",
+   "rule": "On a motorcycle grip depends on the surface: rails and road paint are slippery, above all when wet.",
+   "trap": "'specialmente in caso di pioggia' (especially in the rain) is correct: rails are worst when wet.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Rails are slippery, above all in rain",
+    "it": "rotaie",
+    "lines": [
+     "Motorcycle crossing rails",
+     "Smooth metal, worse when wet",
+     "Less grip: ride carefully"
+    ],
+    "icons": [
+     "moto",
+     "rain",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "motociclo",
+    "en": "motorcycle"
+   },
+   {
+    "it": "rotaie",
+    "en": "rails"
+   },
+   {
+    "it": "pioggia",
+    "en": "rain"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25194": {
+  "en": "Anyone riding a motorcycle must consider that grip decreases on the road markings in the rain.",
+  "explain": {
+   "short": "The paint of the road markings is smoother than asphalt. When wet it becomes slippery for a motorcycle.",
+   "rule": "On a motorcycle grip depends on the surface: rails and road paint are slippery, above all when wet.",
+   "trap": "'strisce della segnaletica orizzontale' (painted road markings) are slippery when wet.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wet road paint is slippery for motorbikes",
+    "it": "strisce",
+    "lines": [
+     "Painted lines on the road",
+     "In the rain they are slippery",
+     "Less grip: avoid braking on them"
+    ],
+    "icons": [
+     "moto",
+     "rain",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "motociclo",
+    "en": "motorcycle"
+   },
+   {
+    "it": "strisce della segnaletica orizzontale",
+    "en": "painted road markings"
+   },
+   {
+    "it": "pioggia",
+    "en": "rain"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25195": {
+  "en": "A motorcycle rider must consider that grip does not depend on the type of road surface.",
+  "explain": {
+   "short": "Grip changes a lot with the surface: asphalt, cobblestones, rails, paint, gravel. So it does depend on it.",
+   "rule": "On a motorcycle grip depends on the surface: rails and road paint are slippery, above all when wet.",
+   "trap": "'non dipende' (does not depend) is wrong: the surface is one of the main factors.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Grip depends on the road surface",
+    "it": "pavimentazione",
+    "lines": [
+     "Asphalt, cobbles, rails, paint",
+     "Each surface gives different grip",
+     "'Does not depend': wrong"
+    ],
+    "icons": [
+     "moto",
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "motociclo",
+    "en": "motorcycle"
+   },
+   {
+    "it": "non dipende",
+    "en": "does not depend"
+   },
+   {
+    "it": "pavimentazione stradale",
+    "en": "road surface"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25196": {
+  "en": "Anyone riding a motorcycle must consider that grip decreases when carrying a passenger.",
+  "explain": {
+   "short": "A passenger adds weight and changes how the bike handles, but it does not make the tyres hold the road less.",
+   "rule": "On a motorcycle grip depends on the surface: rails and road paint are slippery, above all when wet.",
+   "trap": "'quando trasporta un passeggero' (when carrying a passenger) is not a cause of lower grip.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A passenger does not reduce grip",
+    "it": "passeggero",
+    "lines": [
+     "Motorcycle with a passenger",
+     "More weight, not less grip",
+     "Grip depends on road and tyres"
+    ],
+    "icons": [
+     "moto",
+     "tyre",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "motociclo",
+    "en": "motorcycle"
+   },
+   {
+    "it": "trasporta un passeggero",
+    "en": "carries a passenger"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25197": {
+  "en": "Grip decreases if the road is dirty with oil.",
+  "explain": {
+   "short": "Oil makes a slippery film on the asphalt. The tyre cannot hold, so grip goes down.",
+   "rule": "Grip depends on the road (dry and clean is best; oil, ice, mud are bad) and on the tyres, including their pressure.",
+   "trap": "'sporca di olio' (dirty with oil) is one of the most slippery conditions.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Oil on the road lowers grip",
+    "it": "olio",
+    "lines": [
+     "Oil spilled on the road",
+     "Slippery film under the tyre",
+     "Less grip: slow down"
+    ],
+    "icons": [
+     "fuel",
+     "tyre",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "diminuisce",
+    "en": "decreases"
+   },
+   {
+    "it": "sporca di olio",
+    "en": "dirty with oil"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25198": {
+  "en": "Grip is greater if the asphalt is dry and clean.",
+  "explain": {
+   "short": "Nothing lies between the tyre and the road. This is when the tyre holds best.",
+   "rule": "Grip depends on the road (dry and clean is best; oil, ice, mud are bad) and on the tyres, including their pressure.",
+   "trap": "'asciutto e pulito' (dry and clean) is the best case for grip.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dry, clean asphalt: best grip",
+    "it": "asciutto e pulito",
+    "lines": [
+     "Dry, clean asphalt",
+     "Tyre touches the road directly",
+     "Maximum grip"
+    ],
+    "icons": [
+     "road",
+     "tyre",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "maggiore",
+    "en": "greater"
+   },
+   {
+    "it": "asciutto e pulito",
+    "en": "dry and clean"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25199": {
+  "en": "Grip increases if the asphalt is covered with ice.",
+  "explain": {
+   "short": "Ice is the most slippery surface of all. Grip becomes very low.",
+   "rule": "Grip depends on the road (dry and clean is best; oil, ice, mud are bad) and on the tyres, including their pressure.",
+   "trap": "'aumenta' (increases) is wrong: on 'ghiaccio' (ice) grip is very low.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Ice gives very little grip",
+    "it": "ghiaccio",
+    "lines": [
+     "Ice on the asphalt",
+     "Grip is very low",
+     "Saying it increases: wrong"
+    ],
+    "icons": [
+     "snow",
+     "tyre",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aumenta",
+    "en": "increases"
+   },
+   {
+    "it": "ghiaccio",
+    "en": "ice"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25200": {
+  "en": "Grip increases if the asphalt is covered with mud.",
+  "explain": {
+   "short": "Mud is soft and slippery between tyre and road. It lowers grip.",
+   "rule": "Grip depends on the road (dry and clean is best; oil, ice, mud are bad) and on the tyres, including their pressure.",
+   "trap": "'aumenta' (increases) is wrong: 'fango' (mud) makes the road slippery.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Mud makes the road slippery",
+    "it": "fango",
+    "lines": [
+     "Mud on the asphalt",
+     "Slippery: grip goes down",
+     "Saying it increases: wrong"
+    ],
+    "icons": [
+     "road",
+     "tyre",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aumenta",
+    "en": "increases"
+   },
+   {
+    "it": "fango",
+    "en": "mud"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25201": {
+  "en": "Grip does not depend on tyre pressure.",
+  "explain": {
+   "short": "Tyre pressure changes how much of the tyre touches the road. Wrong pressure lowers grip, so grip does depend on it.",
+   "rule": "Grip depends on the road (dry and clean is best; oil, ice, mud are bad) and on the tyres, including their pressure.",
+   "trap": "'non dipende' (does not depend) is wrong: pressure affects grip.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Correct tyre pressure is needed for grip",
+    "it": "pressione",
+    "lines": [
+     "Tyre pressure too low or too high",
+     "Tyre touches the road badly",
+     "Grip DOES depend on it"
+    ],
+    "icons": [
+     "tyre",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non dipende",
+    "en": "does not depend"
+   },
+   {
+    "it": "pressione dei pneumatici",
+    "en": "tyre pressure"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25202": {
+  "en": "When the vehicle drives through a bend, it is subject to a force that tends to push it outwards.",
+  "explain": {
+   "short": "In a bend the car wants to keep going straight. This pushes it towards the outside of the bend (centrifugal force).",
+   "rule": "In a bend the car is pushed outwards. Too much speed makes it skid or roll over, so slow down before the bend.",
+   "trap": "'verso l'esterno' (outwards) is the correct direction.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "In a bend the car is pushed outwards",
+    "it": "verso l'esterno",
+    "lines": [
+     "Car enters a bend",
+     "A force pushes it outwards",
+     "Grip holds it on the road"
+    ],
+    "icons": [
+     "curve",
+     "car",
+     "tyre"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "curva",
+    "en": "bend"
+   },
+   {
+    "it": "forza",
+    "en": "force"
+   },
+   {
+    "it": "verso l'esterno",
+    "en": "outwards"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25203": {
+  "en": "When the vehicle drives through a bend, too much speed can make it skid.",
+  "explain": {
+   "short": "The faster you go, the stronger the outward push. If it is stronger than the grip, the car skids.",
+   "rule": "In a bend the car is pushed outwards. Too much speed makes it skid or roll over, so slow down before the bend.",
+   "trap": "'velocità eccessiva' (too much speed) and 'sbandamento' (skid) go together.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Too fast in a bend: the car skids",
+    "it": "sbandamento",
+    "lines": [
+     "Too fast into a bend",
+     "Outward push beats the grip",
+     "The car skids: slow down first"
+    ],
+    "icons": [
+     "curve",
+     "speed",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "curva",
+    "en": "bend"
+   },
+   {
+    "it": "velocità eccessiva",
+    "en": "too much speed"
+   },
+   {
+    "it": "sbandamento",
+    "en": "skid"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25204": {
+  "en": "When the vehicle drives through a bend, too much speed can make it roll over.",
+  "explain": {
+   "short": "At high speed the outward push can be so strong that the car tips over, above all if it is tall or loaded high.",
+   "rule": "In a bend the car is pushed outwards. Too much speed makes it skid or roll over, so slow down before the bend.",
+   "trap": "'ribaltamento' (rolling over) is a real risk of too much speed in a bend.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Too fast in a bend: the car can roll over",
+    "it": "ribaltamento",
+    "lines": [
+     "Too fast into a bend",
+     "Strong outward push",
+     "The vehicle can tip over"
+    ],
+    "icons": [
+     "curve",
+     "speed",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "curva",
+    "en": "bend"
+   },
+   {
+    "it": "velocità eccessiva",
+    "en": "too much speed"
+   },
+   {
+    "it": "ribaltamento",
+    "en": "rolling over"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25205": {
+  "en": "When the vehicle drives through a bend, it is subject to a force that tends to push it inwards.",
+  "explain": {
+   "short": "The force in a bend pushes the car towards the OUTSIDE, not the inside.",
+   "rule": "In a bend the car is pushed outwards. Too much speed makes it skid or roll over, so slow down before the bend.",
+   "trap": "'verso l'interno' (inwards) is wrong: the push is 'verso l'esterno' (outwards).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The push in a bend is outwards, not inwards",
+    "it": "verso l'interno",
+    "lines": [
+     "Car enters a bend",
+     "The force pushes it OUTWARDS",
+     "'Inwards': wrong"
+    ],
+    "icons": [
+     "curve",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "curva",
+    "en": "bend"
+   },
+   {
+    "it": "verso l'interno",
+    "en": "inwards"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25206": {
+  "en": "When the vehicle drives through a bend, you must increase speed to avoid sliding.",
+  "explain": {
+   "short": "More speed makes the outward push stronger and a slide MORE likely. You slow down before the bend.",
+   "rule": "In a bend the car is pushed outwards. Too much speed makes it skid or roll over, so slow down before the bend.",
+   "trap": "'aumentare la velocità' (increase speed) is the opposite of the right thing.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Speeding up in a bend makes sliding worse",
+    "it": "aumentare la velocità",
+    "lines": [
+     "Bend ahead",
+     "Speeding up: more outward push",
+     "Slow down before the bend"
+    ],
+    "icons": [
+     "curve",
+     "speed",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "curva",
+    "en": "bend"
+   },
+   {
+    "it": "aumentare la velocità",
+    "en": "increase speed"
+   },
+   {
+    "it": "slittamento",
+    "en": "sliding"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25207": {
+  "en": "When the vehicle drives through a bend, you must increase speed to avoid rolling over.",
+  "explain": {
+   "short": "The rollover force grows with speed. Going faster makes rolling over MORE likely.",
+   "rule": "In a bend the car is pushed outwards. Too much speed makes it skid or roll over, so slow down before the bend.",
+   "trap": "'aumentare la velocità' (increase speed) is wrong: you must slow down.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Speeding up in a bend risks rollover",
+    "it": "ribaltamento",
+    "lines": [
+     "Bend ahead",
+     "More speed: stronger rollover force",
+     "Slow down before the bend"
+    ],
+    "icons": [
+     "curve",
+     "speed",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "curva",
+    "en": "bend"
+   },
+   {
+    "it": "aumentare la velocità",
+    "en": "increase speed"
+   },
+   {
+    "it": "ribaltamento",
+    "en": "rolling over"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25208": {
+  "en": "A vehicle rolling over in a bend is made more likely by a load placed high up.",
+  "explain": {
+   "short": "A high load raises the centre of gravity (the balance point). In a bend the vehicle tips over more easily.",
+   "rule": "High or loose loads, a narrow track and a tight bend make a rollover more likely. Low loads, a wide track and wide bends make the vehicle more stable.",
+   "trap": "'carico posto in alto' (load placed high) is bad for stability.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "High load: easier rollover",
+    "it": "carico posto in alto",
+    "lines": [
+     "Heavy load on the roof",
+     "Higher balance point",
+     "Easier to tip over in a bend"
+    ],
+    "icons": [
+     "car",
+     "curve",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ribaltamento",
+    "en": "rolling over"
+   },
+   {
+    "it": "carico posto in alto",
+    "en": "load placed high"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25209": {
+  "en": "A vehicle rolling over in a bend is made more likely by a load that is not firmly secured.",
+  "explain": {
+   "short": "A loose load slides to the outside in a bend. This sudden shift of weight can tip the vehicle over.",
+   "rule": "High or loose loads, a narrow track and a tight bend make a rollover more likely. Low loads, a wide track and wide bends make the vehicle more stable.",
+   "trap": "'non stabilmente fissato' (not firmly secured) is dangerous: the load moves in the bend.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Loose load: easier rollover",
+    "it": "carico non fissato",
+    "lines": [
+     "Load not tied down",
+     "In the bend it slides outwards",
+     "The vehicle can tip over"
+    ],
+    "icons": [
+     "truck",
+     "curve",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ribaltamento",
+    "en": "rolling over"
+   },
+   {
+    "it": "carico non stabilmente fissato",
+    "en": "load not firmly secured"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25210": {
+  "en": "A vehicle rolling over in a bend is made more likely by a small distance between the wheels of the same axle (narrow track).",
+  "explain": {
+   "short": "Wheels close together give a narrow base. A narrow base tips over more easily than a wide one.",
+   "rule": "High or loose loads, a narrow track and a tight bend make a rollover more likely. Low loads, a wide track and wide bends make the vehicle more stable.",
+   "trap": "'carreggiata stretta' (narrow track) here means the vehicle's wheels, not the road.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Narrow track: easier rollover",
+    "it": "carreggiata stretta",
+    "lines": [
+     "Wheels of one axle close together",
+     "Narrow base under the vehicle",
+     "Easier to tip over in a bend"
+    ],
+    "icons": [
+     "car",
+     "curve",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ribaltamento",
+    "en": "rolling over"
+   },
+   {
+    "it": "ridotta distanza fra ruote dello stesso asse",
+    "en": "small distance between wheels of the same axle"
+   },
+   {
+    "it": "carreggiata stretta",
+    "en": "narrow track"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25211": {
+  "en": "A vehicle rolling over in a bend is made more likely by a small road curve radius (tight bend).",
+  "explain": {
+   "short": "In a tight bend the car turns sharply and the outward push is stronger. So the risk of rolling over is higher.",
+   "rule": "High or loose loads, a narrow track and a tight bend make a rollover more likely. Low loads, a wide track and wide bends make the vehicle more stable.",
+   "trap": "'raggio piccolo' (small radius) means a TIGHT bend, which is the dangerous one.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tight bend: easier rollover",
+    "it": "curva stretta",
+    "lines": [
+     "Tight bend: small radius",
+     "Stronger outward push",
+     "Higher risk of tipping over"
+    ],
+    "icons": [
+     "curve",
+     "warning",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ribaltamento",
+    "en": "rolling over"
+   },
+   {
+    "it": "raggio di curvatura",
+    "en": "curve radius"
+   },
+   {
+    "it": "curva stretta",
+    "en": "tight bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25212": {
+  "en": "A vehicle rolling over in a bend is made more likely by a large distance between the wheels of the same axle (wide track).",
+  "explain": {
+   "short": "A wide track gives the vehicle a wide base. A wide base makes it MORE stable, not less.",
+   "rule": "High or loose loads, a narrow track and a tight bend make a rollover more likely. Low loads, a wide track and wide bends make the vehicle more stable.",
+   "trap": "'carreggiata larga' (wide track) helps stability; the narrow one is the danger.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Wide track makes the vehicle more stable",
+    "it": "carreggiata larga",
+    "lines": [
+     "Wheels of one axle far apart",
+     "Wide base: more stable",
+     "Narrow track is the danger"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ribaltamento",
+    "en": "rolling over"
+   },
+   {
+    "it": "ampia distanza fra ruote dello stesso asse",
+    "en": "large distance between wheels of the same axle"
+   },
+   {
+    "it": "carreggiata larga",
+    "en": "wide track"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25213": {
+  "en": "A vehicle rolling over in a bend is made more likely by a load placed low down.",
+  "explain": {
+   "short": "A low load keeps the centre of gravity (balance point) low. This makes the vehicle MORE stable.",
+   "rule": "High or loose loads, a narrow track and a tight bend make a rollover more likely. Low loads, a wide track and wide bends make the vehicle more stable.",
+   "trap": "'carico posto in basso' (load placed low) is the safe position; high loads are the danger.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Low load makes the vehicle more stable",
+    "it": "carico posto in basso",
+    "lines": [
+     "Heavy load placed low",
+     "Low balance point: more stable",
+     "High loads are the danger"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ribaltamento",
+    "en": "rolling over"
+   },
+   {
+    "it": "carico posto in basso",
+    "en": "load placed low"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25214": {
+  "en": "A vehicle rolling over in a bend is made more likely by a large road curve radius (wide bend).",
+  "explain": {
+   "short": "A wide bend turns gently and the outward push is weaker. The dangerous one is the tight bend.",
+   "rule": "High or loose loads, a narrow track and a tight bend make a rollover more likely. Low loads, a wide track and wide bends make the vehicle more stable.",
+   "trap": "'raggio ampio' (large radius) means a WIDE, gentle bend: less risk, not more.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Wide bend: less risk of rollover",
+    "it": "curva larga",
+    "lines": [
+     "Wide bend: large radius",
+     "Weaker outward push",
+     "Tight bends are the danger"
+    ],
+    "icons": [
+     "curve",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ribaltamento",
+    "en": "rolling over"
+   },
+   {
+    "it": "raggio di curvatura",
+    "en": "curve radius"
+   },
+   {
+    "it": "curva larga",
+    "en": "wide bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25215": {
+  "en": "The rollover force in a bend increases as speed increases.",
+  "explain": {
+   "short": "The faster you go into a bend, the harder the vehicle is pushed outwards. So the rollover force grows.",
+   "rule": "The rollover force in a bend grows with speed.",
+   "trap": "'aumenta all'aumentare' (increases as ... increases) is the correct link.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Faster in a bend: stronger rollover force",
+    "it": "forza ribaltante",
+    "lines": [
+     "Higher speed in the bend",
+     "Stronger push outwards",
+     "Bigger rollover risk"
+    ],
+    "icons": [
+     "speed",
+     "curve",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "forza ribaltante",
+    "en": "rollover force"
+   },
+   {
+    "it": "aumenta all'aumentare della velocità",
+    "en": "increases as speed increases"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25216": {
+  "en": "The rollover force in a bend decreases as speed increases.",
+  "explain": {
+   "short": "More speed pushes the vehicle outwards harder. The rollover force grows, it does not shrink.",
+   "rule": "The rollover force in a bend grows with speed.",
+   "trap": "'diminuisce' (decreases) is wrong: it 'aumenta' (increases) with speed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Rollover force grows with speed",
+    "it": "forza ribaltante",
+    "lines": [
+     "Higher speed in the bend",
+     "Rollover force goes UP",
+     "Saying it decreases: wrong"
+    ],
+    "icons": [
+     "speed",
+     "curve",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "forza ribaltante",
+    "en": "rollover force"
+   },
+   {
+    "it": "diminuisce",
+    "en": "decreases"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25217": {
+  "en": "ABS prevents the wheels from locking.",
+  "explain": {
+   "short": "When you brake hard, ABS lets go of the brake on a wheel for a moment if it starts to lock. So the wheels keep turning.",
+   "rule": "ABS stops any wheel from locking during braking, so you can still steer and use the maximum grip.",
+   "trap": "'impedisce alle ruote di bloccarsi' (prevents the wheels from locking) is exactly ABS's job.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "ABS keeps the wheels from locking",
+    "it": "A.B.S.",
+    "lines": [
+     "Hard braking",
+     "ABS stops each wheel locking",
+     "Wheels keep turning"
+    ],
+    "icons": [
+     "brake",
+     "tyre",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "A.B.S.",
+    "en": "anti-lock braking system"
+   },
+   {
+    "it": "bloccarsi",
+    "en": "to lock"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25218": {
+  "en": "ABS lets you correct the vehicle's path even during emergency braking.",
+  "explain": {
+   "short": "A locked wheel cannot steer. Because ABS keeps the wheels turning, you can still steer around an obstacle while braking.",
+   "rule": "ABS stops any wheel from locking during braking, so you can still steer and use the maximum grip.",
+   "trap": "'anche durante una frenata di emergenza' (even during emergency braking) is correct with ABS.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "With ABS you can steer while braking hard",
+    "it": "frenata di emergenza",
+    "lines": [
+     "Emergency braking",
+     "Wheels keep turning with ABS",
+     "You can still steer"
+    ],
+    "icons": [
+     "brake",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "A.B.S.",
+    "en": "anti-lock braking system"
+   },
+   {
+    "it": "correggere la traiettoria",
+    "en": "correct the path"
+   },
+   {
+    "it": "frenata di emergenza",
+    "en": "emergency braking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25219": {
+  "en": "ABS lets you use the maximum grip when braking.",
+  "explain": {
+   "short": "A tyre that is still rolling grips better than a locked, sliding tyre. ABS keeps each wheel just before locking, where grip is highest.",
+   "rule": "ABS stops any wheel from locking during braking, so you can still steer and use the maximum grip.",
+   "trap": "'massima forza aderente' (maximum grip) is what ABS lets you use.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "ABS uses the maximum grip when braking",
+    "it": "massima forza aderente",
+    "lines": [
+     "Locked wheel slides: less grip",
+     "ABS keeps the wheel rolling",
+     "Maximum grip while braking"
+    ],
+    "icons": [
+     "tyre",
+     "brake",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "A.B.S.",
+    "en": "anti-lock braking system"
+   },
+   {
+    "it": "massima forza aderente",
+    "en": "maximum grip"
+   },
+   {
+    "it": "in frenata",
+    "en": "when braking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25220": {
+  "en": "ABS can act on all the wheels, working each time on the ones that are about to lock during braking.",
+  "explain": {
+   "short": "ABS has a sensor on every wheel. It works only on the wheel that is about to lock, at that moment.",
+   "rule": "ABS stops any wheel from locking during braking, so you can still steer and use the maximum grip.",
+   "trap": "'di volta in volta' (each time) means ABS acts wheel by wheel, as needed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "ABS watches every wheel",
+    "it": "tutte le ruote",
+    "lines": [
+     "A sensor on every wheel",
+     "One wheel starts to lock",
+     "ABS acts on that wheel"
+    ],
+    "icons": [
+     "tyre",
+     "brake",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "A.B.S.",
+    "en": "anti-lock braking system"
+   },
+   {
+    "it": "tutte le ruote",
+    "en": "all the wheels"
+   },
+   {
+    "it": "di volta in volta",
+    "en": "each time, as needed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25221": {
+  "en": "ABS also works when the tyres are worn.",
+  "explain": {
+   "short": "ABS is part of the braking system, not of the tyres. It still works with worn tyres, but worn tyres have less grip, so you brake worse anyway.",
+   "rule": "ABS stops any wheel from locking during braking, so you can still steer and use the maximum grip.",
+   "trap": "'anche quando' (also when) is correct: ABS keeps working, but it cannot fix worn tyres.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "ABS works with worn tyres too",
+    "it": "pneumatici usurati",
+    "lines": [
+     "Worn tyres: less grip",
+     "ABS still works",
+     "Change worn tyres anyway"
+    ],
+    "icons": [
+     "tyre",
+     "brake",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "A.B.S.",
+    "en": "anti-lock braking system"
+   },
+   {
+    "it": "pneumatici sono usurati",
+    "en": "tyres are worn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25222": {
+  "en": "ABS also works when the asphalt is wet.",
+  "explain": {
+   "short": "On wet asphalt the wheels lock more easily, so ABS is especially useful there. It works on any road surface.",
+   "rule": "ABS stops any wheel from locking during braking, so you can still steer and use the maximum grip.",
+   "trap": "'anche quando l'asfalto è bagnato' (also on wet asphalt) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "ABS works on wet roads too",
+    "it": "asfalto bagnato",
+    "lines": [
+     "Rain: wet asphalt",
+     "Wheels lock more easily",
+     "ABS works and helps"
+    ],
+    "icons": [
+     "rain",
+     "brake",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "A.B.S.",
+    "en": "anti-lock braking system"
+   },
+   {
+    "it": "asfalto è bagnato",
+    "en": "asphalt is wet"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25223": {
+  "en": "ABS makes braking safer because it prevents the wheels from locking.",
+  "explain": {
+   "short": "Wheels that do not lock keep their grip and let you steer. That is why braking with ABS is safer.",
+   "rule": "ABS stops any wheel from locking during braking, so you can still steer and use the maximum grip.",
+   "trap": "'più sicura' (safer) with the reason 'impedisce alle ruote di bloccarsi' is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "ABS: safer braking, no locked wheels",
+    "it": "frenata più sicura",
+    "lines": [
+     "Hard braking",
+     "No locked wheels with ABS",
+     "Better grip and steering: safer"
+    ],
+    "icons": [
+     "brake",
+     "tyre",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "A.B.S.",
+    "en": "anti-lock braking system"
+   },
+   {
+    "it": "frenata più sicura",
+    "en": "safer braking"
+   },
+   {
+    "it": "bloccarsi",
+    "en": "to lock"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25224": {
+  "en": "ABS makes it easier for the wheels to lock.",
+  "explain": {
+   "short": "ABS does the opposite: it stops the wheels from locking.",
+   "rule": "ABS stops any wheel from locking during braking, so you can still steer and use the maximum grip.",
+   "trap": "'favorisce il bloccaggio' (makes locking easier) is the opposite of what ABS does.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "ABS PREVENTS wheel locking",
+    "it": "bloccaggio",
+    "lines": [
+     "Hard braking",
+     "ABS PREVENTS locking",
+     "'Makes locking easier': wrong"
+    ],
+    "icons": [
+     "brake",
+     "tyre",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "A.B.S.",
+    "en": "anti-lock braking system"
+   },
+   {
+    "it": "favorisce il bloccaggio",
+    "en": "makes locking easier"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25225": {
+  "en": "ABS prevents you from changing the vehicle's path during braking.",
+  "explain": {
+   "short": "ABS keeps the wheels turning, so you CAN steer while braking. It does not stop you steering.",
+   "rule": "ABS stops any wheel from locking during braking, so you can still steer and use the maximum grip.",
+   "trap": "'impedisce di modificare la traiettoria' (prevents changing the path) is wrong: ABS makes steering possible.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "With ABS you CAN steer while braking",
+    "it": "traiettoria",
+    "lines": [
+     "Emergency braking",
+     "Wheels turn: you CAN steer",
+     "'Prevents steering': wrong"
+    ],
+    "icons": [
+     "brake",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "A.B.S.",
+    "en": "anti-lock braking system"
+   },
+   {
+    "it": "modificare la traiettoria",
+    "en": "change the path"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25226": {
+  "en": "ABS prevents you from using the maximum grip when braking.",
+  "explain": {
+   "short": "ABS keeps each wheel just before locking, where grip is highest. So it lets you use the maximum grip.",
+   "rule": "ABS stops any wheel from locking during braking, so you can still steer and use the maximum grip.",
+   "trap": "'impedisce' (prevents) is wrong: ABS 'consente' (allows) the maximum grip.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "ABS lets you USE the maximum grip",
+    "it": "massima forza aderente",
+    "lines": [
+     "Hard braking",
+     "ABS keeps the wheels at best grip",
+     "'Prevents maximum grip': wrong"
+    ],
+    "icons": [
+     "brake",
+     "tyre",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "A.B.S.",
+    "en": "anti-lock braking system"
+   },
+   {
+    "it": "massima forza aderente",
+    "en": "maximum grip"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25227": {
+  "en": "ABS does not act on the driving wheels.",
+  "explain": {
+   "short": "ABS works on ALL wheels, driving wheels (ruote motrici) included.",
+   "rule": "ABS stops any wheel from locking during braking, so you can still steer and use the maximum grip.",
+   "trap": "'non agisce sulle ruote motrici' (does not act on driving wheels) is wrong: it acts on every wheel.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "ABS works on ALL wheels",
+    "it": "ruote motrici",
+    "lines": [
+     "ABS has a sensor on every wheel",
+     "Driving wheels included",
+     "'Not on driving wheels': wrong"
+    ],
+    "icons": [
+     "tyre",
+     "engine",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "A.B.S.",
+    "en": "anti-lock braking system"
+   },
+   {
+    "it": "ruote motrici",
+    "en": "driving wheels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25228": {
+  "en": "ABS does not switch on if the tyres are worn.",
+  "explain": {
+   "short": "ABS is part of the brakes and works whatever the state of the tyres. Worn tyres reduce grip, but ABS still switches on.",
+   "rule": "ABS stops any wheel from locking during braking, so you can still steer and use the maximum grip.",
+   "trap": "'non si attiva' (does not switch on) is wrong: ABS works with worn tyres too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "ABS works with worn tyres too",
+    "it": "pneumatici usurati",
+    "lines": [
+     "Worn tyres: less grip",
+     "ABS still switches on",
+     "'Does not work': wrong"
+    ],
+    "icons": [
+     "tyre",
+     "brake",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "A.B.S.",
+    "en": "anti-lock braking system"
+   },
+   {
+    "it": "non si attiva",
+    "en": "does not switch on"
+   },
+   {
+    "it": "pneumatici sono usurati",
+    "en": "tyres are worn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25229": {
+  "en": "You must check the tyre inflation pressure regularly, including that of the spare wheel.",
+  "explain": {
+   "short": "Tyres slowly lose air. The spare wheel too: if you need it and it is flat, it is useless.",
+   "rule": "Check the pressure often, with cold tyres, spare wheel included, and adapt it to the load.",
+   "trap": "'compresa quella della ruota di scorta' (including the spare wheel) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Check pressure often, spare wheel too",
+    "it": "ruota di scorta",
+    "lines": [
+     "Tyres slowly lose air",
+     "Check pressure regularly",
+     "Spare wheel included"
+    ],
+    "icons": [
+     "tyre",
+     "check",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "periodicamente",
+    "en": "regularly"
+   },
+   {
+    "it": "pressione di gonfiaggio",
+    "en": "inflation pressure"
+   },
+   {
+    "it": "ruota di scorta",
+    "en": "spare wheel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25230": {
+  "en": "Tyre inflation pressure must be adapted to the weight conditions of the vehicle.",
+  "explain": {
+   "short": "A heavily loaded car needs more pressure than an empty one. The car's manual gives values for both.",
+   "rule": "Check the pressure often, with cold tyres, spare wheel included, and adapt it to the load.",
+   "trap": "'adeguata alle condizioni di peso' (adapted to the weight) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Adapt tyre pressure to the load",
+    "it": "condizioni di peso",
+    "lines": [
+     "Car full of people and luggage",
+     "Tyres carry more weight",
+     "Adapt the pressure to the load"
+    ],
+    "icons": [
+     "car",
+     "tyre",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pressione di gonfiaggio",
+    "en": "inflation pressure"
+   },
+   {
+    "it": "condizioni di peso",
+    "en": "weight conditions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25231": {
+  "en": "The correct tyre inflation pressure depends on the vehicle's load and on the number of passengers carried.",
+  "explain": {
+   "short": "More passengers and luggage mean more weight on the tyres. So the right pressure changes with the load.",
+   "rule": "Check the pressure often, with cold tyres, spare wheel included, and adapt it to the load.",
+   "trap": "'carico' (load) and 'numero dei passeggeri' (number of passengers) are both correct factors.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pressure depends on load and passengers",
+    "it": "carico",
+    "lines": [
+     "More passengers and luggage",
+     "More weight on the tyres",
+     "Set the pressure for that load"
+    ],
+    "icons": [
+     "car",
+     "tyre",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pressione di gonfiaggio",
+    "en": "inflation pressure"
+   },
+   {
+    "it": "carico del veicolo",
+    "en": "vehicle's load"
+   },
+   {
+    "it": "passeggeri",
+    "en": "passengers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25232": {
+  "en": "Too low tyre inflation pressure increases friction and also fuel consumption.",
+  "explain": {
+   "short": "A soft tyre flattens more on the road and rolls with more effort. The engine works harder and uses more fuel.",
+   "rule": "Check the pressure often, with cold tyres, spare wheel included, and adapt it to the load.",
+   "trap": "'insufficiente' (too low) pressure: more friction and more fuel, both correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Low pressure: more friction, more fuel",
+    "it": "consumi",
+    "lines": [
+     "Tyre pressure too low",
+     "More friction on the road",
+     "Higher fuel consumption"
+    ],
+    "icons": [
+     "tyre",
+     "road",
+     "fuel"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "insufficiente pressione",
+    "en": "too low pressure"
+   },
+   {
+    "it": "attrito",
+    "en": "friction"
+   },
+   {
+    "it": "consumi di carburante",
+    "en": "fuel consumption"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25233": {
+  "en": "Tyre inflation pressure must be checked when the tyre is cold.",
+  "explain": {
+   "short": "Driving heats the tyre and the air inside expands, so the pressure reads higher. Only a cold tyre gives the true value.",
+   "rule": "Check the pressure often, with cold tyres, spare wheel included, and adapt it to the load.",
+   "trap": "'fredda' (cold) is correct; a hot tyre gives a wrong reading.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Check pressure with cold tyres",
+    "it": "gomma fredda",
+    "lines": [
+     "Car parked, tyres cold",
+     "Check the pressure now",
+     "Hot tyres give a wrong value"
+    ],
+    "icons": [
+     "tyre",
+     "check",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pressione di gonfiaggio",
+    "en": "inflation pressure"
+   },
+   {
+    "it": "gomma è fredda",
+    "en": "tyre is cold"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25234": {
+  "en": "The automatic tyre pressure monitoring system increases the safety of vehicles fitted with it.",
+  "explain": {
+   "short": "The system warns you on the dashboard when a tyre loses pressure. You can act before it becomes dangerous.",
+   "rule": "Check the pressure often, with cold tyres, spare wheel included, and adapt it to the load.",
+   "trap": "'fa aumentare la sicurezza' (increases safety) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pressure monitor warns you: more safety",
+    "it": "rilevamento della pressione",
+    "lines": [
+     "Sensor checks tyre pressure",
+     "Warning light if a tyre loses air",
+     "You act in time: safer"
+    ],
+    "icons": [
+     "tyre",
+     "warning",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sistema automatico",
+    "en": "automatic system"
+   },
+   {
+    "it": "rilevamento della pressione",
+    "en": "pressure monitoring"
+   },
+   {
+    "it": "sicurezza",
+    "en": "safety"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25235": {
+  "en": "If you measure tyre inflation pressure when the tyre is hot, you get a correct reading of the pressure values.",
+  "explain": {
+   "short": "A hot tyre has a higher pressure than normal. The reading is wrong; measure with cold tyres.",
+   "rule": "Check the pressure often, with cold tyres, spare wheel included, and adapt it to the load.",
+   "trap": "'calda' (hot) is the trap: the correct reading is with the tyre 'fredda' (cold).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Hot tyres give a wrong pressure reading",
+    "it": "gomma calda",
+    "lines": [
+     "Tyres hot after driving",
+     "Pressure reads too high",
+     "Measure with cold tyres"
+    ],
+    "icons": [
+     "tyre",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pressione di gonfiaggio",
+    "en": "inflation pressure"
+   },
+   {
+    "it": "gomma è calda",
+    "en": "tyre is hot"
+   },
+   {
+    "it": "corretta lettura",
+    "en": "correct reading"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25236": {
+  "en": "Tyre inflation pressure should be checked after driving a few kilometres, as soon as the tyre has heated up.",
+  "explain": {
+   "short": "Heat makes the pressure read higher. You check it with cold tyres, before driving.",
+   "rule": "Check the pressure often, with cold tyres, spare wheel included, and adapt it to the load.",
+   "trap": "'appena la gomma si è surriscaldata' (as soon as the tyre is hot) is the wrong moment.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Check pressure cold, not after driving",
+    "it": "surriscaldata",
+    "lines": [
+     "After a few km the tyre is hot",
+     "Pressure reads too high",
+     "Check before driving, cold"
+    ],
+    "icons": [
+     "tyre",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pressione di gonfiaggio",
+    "en": "inflation pressure"
+   },
+   {
+    "it": "alcuni chilometri",
+    "en": "a few kilometres"
+   },
+   {
+    "it": "surriscaldata",
+    "en": "heated up"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25237": {
+  "en": "Tyre inflation pressure should be set according to the material of the wheel rims (steel, light alloy, etc.).",
+  "explain": {
+   "short": "The right pressure depends on the car, the tyres and the load. The rim material does not matter.",
+   "rule": "Check the pressure often, with cold tyres, spare wheel included, and adapt it to the load.",
+   "trap": "'cerchioni' (wheel rims) is an invented factor.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Rim material does not decide the pressure",
+    "it": "cerchioni",
+    "lines": [
+     "Steel or alloy rims",
+     "Do not change the pressure",
+     "Pressure depends on the load"
+    ],
+    "icons": [
+     "tyre",
+     "cross",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pressione di gonfiaggio",
+    "en": "inflation pressure"
+   },
+   {
+    "it": "cerchioni",
+    "en": "wheel rims"
+   },
+   {
+    "it": "lega leggera",
+    "en": "light alloy"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25238": {
+  "en": "Before starting a long journey, it is a good idea to increase the tyre inflation pressure.",
+  "explain": {
+   "short": "You check that the pressure is the right one, not higher. Too much pressure reduces the tyre's contact with the road and its grip.",
+   "rule": "Check the pressure often, with cold tyres, spare wheel included, and adapt it to the load.",
+   "trap": "'aumentare' (increase) is the trap: you check and set the correct value, you do not raise it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Before a trip: check pressure, do not raise it",
+    "it": "lungo viaggio",
+    "lines": [
+     "Before a long journey",
+     "Check the correct pressure",
+     "Do not just increase it"
+    ],
+    "icons": [
+     "car",
+     "tyre",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "lungo viaggio",
+    "en": "long journey"
+   },
+   {
+    "it": "aumentare la pressione",
+    "en": "increase the pressure"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25239": {
+  "en": "In vehicles with a trailer, the tyre inflation pressure of the towing vehicle must be the same as that of the trailer's tyres.",
+  "explain": {
+   "short": "The car and the trailer have different tyres and loads. Each one has its own correct pressure.",
+   "rule": "Check the pressure often, with cold tyres, spare wheel included, and adapt it to the load.",
+   "trap": "'uguale' (the same) is wrong: each vehicle uses its own pressure values.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Car and trailer have their own pressures",
+    "it": "rimorchio",
+    "lines": [
+     "Car towing a trailer",
+     "Different tyres and loads",
+     "Each has its own pressure"
+    ],
+    "icons": [
+     "car",
+     "tyre",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rimorchio",
+    "en": "trailer"
+   },
+   {
+    "it": "veicolo trainante",
+    "en": "towing vehicle"
+   },
+   {
+    "it": "uguale",
+    "en": "the same"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

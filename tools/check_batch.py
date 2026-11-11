@@ -10,7 +10,7 @@ import sys, os, json, re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 APP = os.path.join(ROOT, "app")
 SCENES = {"overtake.basic", "overtake.blocked", "overtake.allowed", "overtake.right", "overtake.space",
-          "overtake.beingOvertaken", "overtake.motorway", "rulecard", "sign", "figure", "roadparts"}
+          "overtake.beingOvertaken", "overtake.motorway", "rulecard", "sign", "figure", "roadparts", "junctionOrder"}
 ACTIONS = {"slow", "stop", "giveWay", "priority", "noEntry", "noOvertake", "turnLeft", "turnRight", "straight", "keepRight", "keepLeft",
            "noTurnLeft", "noTurnRight", "noUTurn", "speedLimit", "endLimit", "park", "noParking", "noStopping", "info",
            "straightOrRight", "straightOrLeft", "leftOrRight", "eitherSide", "narrowGiveWay", "narrowPriority"}
@@ -62,6 +62,18 @@ for qid, q in qs.items():
         if sc == "sign" and sp.get("action") not in ACTIONS: P.append("%s: sign action %r invalid" % (qid, sp.get("action")))
         if sc == "sign" and not q.get("image"): P.append("%s: sign scene but the question has no image" % qid)
         if sc == "figure" and not q.get("image"): P.append("%s: figure scene but the question has no image" % qid)
+        if sc == "junctionOrder":
+            arms = sp.get("arms") or []; vs = sp.get("vehicles") or []; order = sp.get("order") or []
+            COMP = {"n", "ne", "e", "se", "s", "sw", "w", "nw"}
+            if not q.get("image"): P.append("%s: junctionOrder needs a picture" % qid)
+            if len(arms) < 3 or any(a not in COMP for a in arms): P.append("%s: junctionOrder arms must be 3+ of %s" % (qid, sorted(COMP)))
+            ids = [v.get("id") for v in vs]
+            if len(vs) < 2 or len(set(ids)) != len(ids): P.append("%s: junctionOrder needs 2+ vehicles with different ids" % qid)
+            for v in vs:
+                if v.get("from") not in arms or v.get("to") not in arms: P.append("%s: vehicle %s from/to must be one of the arms" % (qid, v.get("id")))
+                if v.get("kind", "car") not in ("car", "truck", "bus", "tram", "moto", "bike", "police", "ambulance"): P.append("%s: vehicle %s has an unknown kind" % (qid, v.get("id")))
+            flat = [x for g in order for x in (g if isinstance(g, list) else [g])]
+            if sorted(flat) != sorted(ids): P.append("%s: junctionOrder order must list every vehicle exactly once" % qid)
         if sc == "roadparts" and sp.get("part") not in PARTS: P.append("%s: roadparts part %r invalid" % (qid, sp.get("part")))
         if sc in ("rulecard", "figure"):
             ls = sp.get("lines") or []

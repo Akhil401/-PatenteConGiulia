@@ -15,6 +15,8 @@ async function json(path) {
 export const data = {
   index: () => json("data/index.json"),
   chapter: id => json(`data/chapters/${id}.json`),
+  /** Small index of every question: { ch: {chNN: {n, titleIt, titleEn}}, q: [[id, chNN, it, answer 1/0, image]] } */
+  qbank: () => json("data/qbank.json"),
   glossary: () => json("data/glossary.json"),
   intros: () => json("data/intros.json"),
   dict: id => json(`data/dict/${id}.json`).catch(() => ({ words: {} })),

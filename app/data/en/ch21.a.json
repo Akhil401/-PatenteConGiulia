@@ -1,0 +1,2286 @@
+{
+ "q24697": {
+  "en": "A likely cause of accidents due to the structure of the road can be a narrow road.",
+  "explain": {
+   "short": "On a narrow road there is little space to pass oncoming vehicles or avoid an obstacle, so accidents are more likely.",
+   "rule": "Road causes of accidents are DEFECTS or MISSING things: a narrow road, junctions or narrowings (strettoie) without signs, missing road markings, a deformed or slippery road surface. Separate carriageways, lanes, one-way roads, flat roads, guardrails, traffic lights and the absence of dangerous bends make a road SAFER, so they are NOT causes.",
+   "trap": "'ristrettezza della strada' (narrowness of the road) is a real defect of the road.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A narrow road: little room, more risk",
+    "it": "ristrettezza",
+    "lines": [
+     "A very narrow road",
+     "Little room to pass others",
+     "A real road cause of accidents"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ristrettezza della strada",
+    "en": "narrowness of the road"
+   },
+   {
+    "it": "causa probabile",
+    "en": "likely cause"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24698": {
+  "en": "A likely cause of accidents due to the structure of the road can be junctions without signs.",
+  "explain": {
+   "short": "If a junction has no signs, drivers may not see it in time or may not know who has priority.",
+   "rule": "Road causes of accidents are DEFECTS or MISSING things: a narrow road, junctions or narrowings (strettoie) without signs, missing road markings, a deformed or slippery road surface. Separate carriageways, lanes, one-way roads, flat roads, guardrails, traffic lights and the absence of dangerous bends make a road SAFER, so they are NOT causes.",
+   "trap": "'mancata segnalazione' (missing signs) is a lack, so it is a cause.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "An unsigned junction surprises drivers",
+    "it": "incroci",
+    "lines": [
+     "A junction with no warning sign",
+     "Drivers see it too late",
+     "A real road cause of accidents"
+    ],
+    "icons": [
+     "sign",
+     "cross",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "mancata segnalazione",
+    "en": "missing signs"
+   },
+   {
+    "it": "incroci",
+    "en": "junctions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24699": {
+  "en": "A likely cause of accidents due to the structure of the road can be missing road markings.",
+  "explain": {
+   "short": "Road markings (segnaletica orizzontale, the lines painted on the road) show lanes and edges. Without them drivers can lose their way, above all at night.",
+   "rule": "Road causes of accidents are DEFECTS or MISSING things: a narrow road, junctions or narrowings (strettoie) without signs, missing road markings, a deformed or slippery road surface. Separate carriageways, lanes, one-way roads, flat roads, guardrails, traffic lights and the absence of dangerous bends make a road SAFER, so they are NOT causes.",
+   "trap": "'mancanza' (lack) of road markings is a defect of the road.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No painted lines: lanes are unclear",
+    "it": "segnaletica orizzontale",
+    "lines": [
+     "Road with no painted lines",
+     "Lanes and edges are unclear",
+     "A real road cause of accidents"
+    ],
+    "icons": [
+     "road",
+     "night",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "mancanza di segnaletica orizzontale",
+    "en": "lack of road markings"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24700": {
+  "en": "A likely cause of accidents due to the structure of the road can be a deformed road surface.",
+  "explain": {
+   "short": "Holes and bumps in the surface can make you lose control of the car or damage it.",
+   "rule": "Road causes of accidents are DEFECTS or MISSING things: a narrow road, junctions or narrowings (strettoie) without signs, missing road markings, a deformed or slippery road surface. Separate carriageways, lanes, one-way roads, flat roads, guardrails, traffic lights and the absence of dangerous bends make a road SAFER, so they are NOT causes.",
+   "trap": "'fondo stradale deformato' (deformed road surface) is a defect, so it is a cause.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Holes and bumps: you can lose control",
+    "it": "fondo deformato",
+    "lines": [
+     "Road surface with holes and bumps",
+     "The car can jump or swerve",
+     "A real road cause of accidents"
+    ],
+    "icons": [
+     "road",
+     "tyre",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fondo stradale deformato",
+    "en": "deformed road surface"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24701": {
+  "en": "A likely cause of accidents due to the structure of the road can be a slippery road surface.",
+  "explain": {
+   "short": "On a slippery surface the tyres have less grip, so braking takes longer and the car can skid.",
+   "rule": "Road causes of accidents are DEFECTS or MISSING things: a narrow road, junctions or narrowings (strettoie) without signs, missing road markings, a deformed or slippery road surface. Separate carriageways, lanes, one-way roads, flat roads, guardrails, traffic lights and the absence of dangerous bends make a road SAFER, so they are NOT causes.",
+   "trap": "'fondo stradale scivoloso' (slippery surface) means less grip: a real cause.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slippery surface: less grip, longer braking",
+    "it": "scivoloso",
+    "lines": [
+     "A slippery road surface",
+     "Tyres have less grip",
+     "A real road cause of accidents"
+    ],
+    "icons": [
+     "road",
+     "brake",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fondo stradale scivoloso",
+    "en": "slippery road surface"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24702": {
+  "en": "A likely cause of accidents due to the structure of the road can be narrowings without signs.",
+  "explain": {
+   "short": "A narrowing (strettoia, where the road suddenly gets narrow) with no sign surprises the driver, who arrives too fast.",
+   "rule": "Road causes of accidents are DEFECTS or MISSING things: a narrow road, junctions or narrowings (strettoie) without signs, missing road markings, a deformed or slippery road surface. Separate carriageways, lanes, one-way roads, flat roads, guardrails, traffic lights and the absence of dangerous bends make a road SAFER, so they are NOT causes.",
+   "trap": "'non segnalate' (not signed) is the key: a hidden danger.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Unsigned narrowing: a surprise danger",
+    "it": "strettoie",
+    "lines": [
+     "The road suddenly gets narrow",
+     "No sign warns the driver",
+     "A real road cause of accidents"
+    ],
+    "icons": [
+     "road",
+     "sign",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strettoie non segnalate",
+    "en": "unsigned narrowings"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24703": {
+  "en": "A likely cause of accidents due to the structure of the road can be a road divided into carriageways.",
+  "explain": {
+   "short": "Separate carriageways (carreggiate) keep the two directions apart, so they prevent head-on crashes. They make the road safer.",
+   "rule": "Road causes of accidents are DEFECTS or MISSING things: a narrow road, junctions or narrowings (strettoie) without signs, missing road markings, a deformed or slippery road surface. Separate carriageways, lanes, one-way roads, flat roads, guardrails, traffic lights and the absence of dangerous bends make a road SAFER, so they are NOT causes.",
+   "trap": "'suddivisa in carreggiate' sounds technical, but it is a safety feature, not a defect.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Separate carriageways make roads safer",
+    "it": "carreggiate",
+    "lines": [
+     "Two separate carriageways",
+     "Directions kept apart",
+     "Safer road: not a cause"
+    ],
+    "icons": [
+     "road",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "suddivisa in carreggiate",
+    "en": "divided into carriageways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24704": {
+  "en": "A likely cause of accidents due to the structure of the road can be a road divided into lanes.",
+  "explain": {
+   "short": "Lanes (corsie) put traffic in order and help drivers keep their place. They are not a defect.",
+   "rule": "Road causes of accidents are DEFECTS or MISSING things: a narrow road, junctions or narrowings (strettoie) without signs, missing road markings, a deformed or slippery road surface. Separate carriageways, lanes, one-way roads, flat roads, guardrails, traffic lights and the absence of dangerous bends make a road SAFER, so they are NOT causes.",
+   "trap": "'suddivisa in corsie' is normal road design, not a cause of accidents.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Lanes put traffic in order",
+    "it": "corsie",
+    "lines": [
+     "A road divided into lanes",
+     "Traffic flows in order",
+     "Safer road: not a cause"
+    ],
+    "icons": [
+     "road",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "suddivisa in corsie",
+    "en": "divided into lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24705": {
+  "en": "A likely cause of accidents due to the structure of the road can be a one-way carriageway.",
+  "explain": {
+   "short": "On a one-way road there is no oncoming traffic, so head-on crashes cannot happen. It is safer.",
+   "rule": "Road causes of accidents are DEFECTS or MISSING things: a narrow road, junctions or narrowings (strettoie) without signs, missing road markings, a deformed or slippery road surface. Separate carriageways, lanes, one-way roads, flat roads, guardrails, traffic lights and the absence of dangerous bends make a road SAFER, so they are NOT causes.",
+   "trap": "'senso unico' (one-way) removes oncoming traffic: it is not a defect.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "One-way road: no oncoming traffic",
+    "it": "senso unico",
+    "lines": [
+     "One-way carriageway",
+     "No oncoming traffic",
+     "Safer road: not a cause"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "senso unico di circolazione",
+    "en": "one-way traffic"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24706": {
+  "en": "A likely cause of accidents due to the structure of the road can be a flat road.",
+  "explain": {
+   "short": "A flat road (pianeggiante) has no steep climbs or descents and gives good visibility. It is not a defect.",
+   "rule": "Road causes of accidents are DEFECTS or MISSING things: a narrow road, junctions or narrowings (strettoie) without signs, missing road markings, a deformed or slippery road surface. Separate carriageways, lanes, one-way roads, flat roads, guardrails, traffic lights and the absence of dangerous bends make a road SAFER, so they are NOT causes.",
+   "trap": "'percorso pianeggiante' (flat route) is an easy road, not a danger.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A flat road is not a defect",
+    "it": "pianeggiante",
+    "lines": [
+     "A flat road, no steep hills",
+     "Good visibility ahead",
+     "Not a road cause of accidents"
+    ],
+    "icons": [
+     "road",
+     "eye",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "percorso pianeggiante",
+    "en": "flat route"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24707": {
+  "en": "A likely cause of accidents due to the structure of the road can be side barriers that absorb impacts (guardrails).",
+  "explain": {
+   "short": "Guardrails stop a car that leaves the road and absorb the hit. They protect people, they do not cause accidents.",
+   "rule": "Road causes of accidents are DEFECTS or MISSING things: a narrow road, junctions or narrowings (strettoie) without signs, missing road markings, a deformed or slippery road surface. Separate carriageways, lanes, one-way roads, flat roads, guardrails, traffic lights and the absence of dangerous bends make a road SAFER, so they are NOT causes.",
+   "trap": "'barriere ... ad assorbimento d'urto' are safety devices, not defects.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Guardrails protect: not a cause",
+    "it": "guardrails",
+    "lines": [
+     "Guardrail along the road",
+     "It stops a car leaving the road",
+     "Protection: not a cause"
+    ],
+    "icons": [
+     "road",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "barriere laterali",
+    "en": "side barriers"
+   },
+   {
+    "it": "assorbimento d'urto",
+    "en": "impact absorption"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24708": {
+  "en": "A likely cause of accidents due to the structure of the road can be traffic-light control.",
+  "explain": {
+   "short": "Traffic lights (semafori) tell drivers when to go and when to stop at a junction. They make it safer.",
+   "rule": "Road causes of accidents are DEFECTS or MISSING things: a narrow road, junctions or narrowings (strettoie) without signs, missing road markings, a deformed or slippery road surface. Separate carriageways, lanes, one-way roads, flat roads, guardrails, traffic lights and the absence of dangerous bends make a road SAFER, so they are NOT causes.",
+   "trap": "'regolamentazione semaforica' (control by traffic lights) is a safety measure.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Traffic lights make junctions safer",
+    "it": "semaforo",
+    "lines": [
+     "Junction with traffic lights",
+     "Lights decide who goes",
+     "Safer: not a cause"
+    ],
+    "icons": [
+     "light",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolamentazione semaforica",
+    "en": "traffic-light control"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24709": {
+  "en": "A likely cause of accidents due to the structure of the road can be the absence of dangerous bends.",
+  "explain": {
+   "short": "If there are no dangerous bends, the road is easier, not harder. A missing danger is not a cause.",
+   "rule": "Road causes of accidents are DEFECTS or MISSING things: a narrow road, junctions or narrowings (strettoie) without signs, missing road markings, a deformed or slippery road surface. Separate carriageways, lanes, one-way roads, flat roads, guardrails, traffic lights and the absence of dangerous bends make a road SAFER, so they are NOT causes.",
+   "trap": "'mancanza' here is the lack of a DANGER, so it is a good thing.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No dangerous bends: an easier road",
+    "it": "curve pericolose",
+    "lines": [
+     "A road with no dangerous bends",
+     "Easier to drive",
+     "Not a road cause of accidents"
+    ],
+    "icons": [
+     "curve",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "mancanza di curve pericolose",
+    "en": "absence of dangerous bends"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24710": {
+  "en": "In case of rain you must reduce your speed.",
+  "explain": {
+   "short": "Rain makes the road slippery and you see less, so braking takes longer. Going slower gives you more time.",
+   "rule": "In the rain: slow down, keep a bigger safe distance, keep the wipers on, keep the windows free of mist, and steer gently. FALSE: driving fast through puddles, covering the radiator, braking hard, using the hazard lights while driving, or driving with the clutch pedal pressed down.",
+   "trap": "'ridurre la velocità' (reduce speed) is the first rule in the rain.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Rain: slow down",
+    "it": "ridurre la velocità",
+    "lines": [
+     "Rain makes the road slippery",
+     "Braking takes longer",
+     "Reduce your speed"
+    ],
+    "icons": [
+     "rain",
+     "brake",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pioggia",
+    "en": "rain"
+   },
+   {
+    "it": "ridurre la velocità",
+    "en": "reduce speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24711": {
+  "en": "In case of rain you must keep the windscreen wipers working.",
+  "explain": {
+   "short": "The wipers clear the water from the windscreen so you can see the road.",
+   "rule": "In the rain: slow down, keep a bigger safe distance, keep the wipers on, keep the windows free of mist, and steer gently. FALSE: driving fast through puddles, covering the radiator, braking hard, using the hazard lights while driving, or driving with the clutch pedal pressed down.",
+   "trap": "'tergicristalli' are the windscreen wipers: keep them on in the rain.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Rain: wipers on to see the road",
+    "it": "tergicristalli",
+    "lines": [
+     "Rain on the windscreen",
+     "Wipers on",
+     "You can see the road"
+    ],
+    "icons": [
+     "rain",
+     "check",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tergicristalli",
+    "en": "windscreen wipers"
+   },
+   {
+    "it": "tenere in funzione",
+    "en": "keep working"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24712": {
+  "en": "In case of rain you must increase the safe distance.",
+  "explain": {
+   "short": "On a wet road you need more space to stop, so leave a bigger gap to the car in front.",
+   "rule": "In the rain: slow down, keep a bigger safe distance, keep the wipers on, keep the windows free of mist, and steer gently. FALSE: driving fast through puddles, covering the radiator, braking hard, using the hazard lights while driving, or driving with the clutch pedal pressed down.",
+   "trap": "'aumentare' (increase) the distance is right: wet road, longer braking.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Rain: leave a bigger gap",
+    "it": "distanza di sicurezza",
+    "lines": [
+     "Wet road: longer braking",
+     "Car in front may brake",
+     "Keep a bigger safe distance"
+    ],
+    "icons": [
+     "rain",
+     "brake",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aumentare la distanza di sicurezza",
+    "en": "increase the safe distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24713": {
+  "en": "In case of rain you must prevent the windows from misting up.",
+  "explain": {
+   "short": "In rainy weather the windows mist up (appannamento) from inside. Use the fan or air conditioning so you can see well.",
+   "rule": "In the rain: slow down, keep a bigger safe distance, keep the wipers on, keep the windows free of mist, and steer gently. FALSE: driving fast through puddles, covering the radiator, braking hard, using the hazard lights while driving, or driving with the clutch pedal pressed down.",
+   "trap": "'appannamento dei vetri' (misted windows) must be avoided to keep good visibility.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Rain: keep the windows clear",
+    "it": "appannamento",
+    "lines": [
+     "Rain: windows mist up inside",
+     "Use the fan or air conditioning",
+     "Keep good visibility"
+    ],
+    "icons": [
+     "rain",
+     "check",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "appannamento dei vetri",
+    "en": "misting of the windows"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24714": {
+  "en": "In case of rain you must steer carefully.",
+  "explain": {
+   "short": "On a wet road a sudden turn of the wheel can make the car skid. Steer gently.",
+   "rule": "In the rain: slow down, keep a bigger safe distance, keep the wipers on, keep the windows free of mist, and steer gently. FALSE: driving fast through puddles, covering the radiator, braking hard, using the hazard lights while driving, or driving with the clutch pedal pressed down.",
+   "trap": "'con prudenza' (carefully) is right: no sudden steering on a wet road.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Rain: gentle steering",
+    "it": "sterzo",
+    "lines": [
+     "Wet road, less grip",
+     "Sudden steering = skid",
+     "Steer gently"
+    ],
+    "icons": [
+     "rain",
+     "warning",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "manovrare con prudenza lo sterzo",
+    "en": "steer carefully"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24715": {
+  "en": "In case of rain you must drive fast through puddles so you do not get stuck.",
+  "explain": {
+   "short": "Going fast into a puddle can cause aquaplaning and loss of control, and you splash others. Go slowly.",
+   "rule": "In the rain: slow down, keep a bigger safe distance, keep the wipers on, keep the windows free of mist, and steer gently. FALSE: driving fast through puddles, covering the radiator, braking hard, using the hazard lights while driving, or driving with the clutch pedal pressed down.",
+   "trap": "'passare velocemente' (go through fast) is wrong: in puddles you go SLOWLY.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Puddles: slow down, never speed up",
+    "it": "pozzanghere",
+    "lines": [
+     "Big puddle on the road",
+     "Fast through it: aquaplaning",
+     "Slow down before puddles"
+    ],
+    "icons": [
+     "rain",
+     "cross",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pozzanghere",
+    "en": "puddles"
+   },
+   {
+    "it": "passare velocemente",
+    "en": "go through fast"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24716": {
+  "en": "In case of rain you must cover the radiator with the special cover.",
+  "explain": {
+   "short": "Rain does not make the engine cold. A radiator cover has nothing to do with driving in the rain.",
+   "rule": "In the rain: slow down, keep a bigger safe distance, keep the wipers on, keep the windows free of mist, and steer gently. FALSE: driving fast through puddles, covering the radiator, braking hard, using the hazard lights while driving, or driving with the clutch pedal pressed down.",
+   "trap": "'coprire il radiatore' has nothing to do with rain.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Rain: no need to cover the radiator",
+    "it": "radiatore",
+    "lines": [
+     "Rain does not chill the engine",
+     "Covering the radiator: no use",
+     "Drive slowly and carefully"
+    ],
+    "icons": [
+     "engine",
+     "cross",
+     "rain"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "coprire il radiatore",
+    "en": "cover the radiator"
+   },
+   {
+    "it": "mascherina",
+    "en": "cover"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24717": {
+  "en": "In case of rain you must brake hard.",
+  "explain": {
+   "short": "On a wet road hard braking can lock the wheels and make the car skid. Brake gently and early.",
+   "rule": "In the rain: slow down, keep a bigger safe distance, keep the wipers on, keep the windows free of mist, and steer gently. FALSE: driving fast through puddles, covering the radiator, braking hard, using the hazard lights while driving, or driving with the clutch pedal pressed down.",
+   "trap": "'energicamente' (hard) is the trap: in the rain you brake gently.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Rain: brake gently, not hard",
+    "it": "frenare energicamente",
+    "lines": [
+     "Wet road, less grip",
+     "Hard braking: wheels lock, skid",
+     "Brake gently and early"
+    ],
+    "icons": [
+     "rain",
+     "cross",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "frenare energicamente",
+    "en": "brake hard"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24718": {
+  "en": "In case of rain you must use the hazard warning lights (all four indicators flashing together) while driving.",
+  "explain": {
+   "short": "Hazard lights are for a stopped vehicle or a sudden danger, not for normal driving in the rain. They confuse other drivers.",
+   "rule": "In the rain: slow down, keep a bigger safe distance, keep the wipers on, keep the windows free of mist, and steer gently. FALSE: driving fast through puddles, covering the radiator, braking hard, using the hazard lights while driving, or driving with the clutch pedal pressed down.",
+   "trap": "'durante la marcia' (while driving) is the trap: hazard lights are not for driving in the rain.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Rain: no hazard lights while driving",
+    "it": "quattro frecce",
+    "lines": [
+     "Driving in the rain",
+     "Hazard lights on: wrong",
+     "Use dipped headlights instead"
+    ],
+    "icons": [
+     "rain",
+     "cross",
+     "light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "durante la marcia",
+    "en": "while driving"
+   },
+   {
+    "it": "segnalazione luminosa di pericolo",
+    "en": "hazard warning lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24719": {
+  "en": "In case of rain you must, as a rule, drive with the clutch pedal pressed down.",
+  "explain": {
+   "short": "With the clutch down the engine does not hold the car and you control it less. Never drive with the clutch pressed.",
+   "rule": "In the rain: slow down, keep a bigger safe distance, keep the wipers on, keep the windows free of mist, and steer gently. FALSE: driving fast through puddles, covering the radiator, braking hard, using the hazard lights while driving, or driving with the clutch pedal pressed down.",
+   "trap": "'di norma' (as a rule) with 'frizione abbassata' (clutch down) is wrong in any weather.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never drive with the clutch pressed",
+    "it": "frizione",
+    "lines": [
+     "Clutch pedal held down",
+     "Engine does not hold the car",
+     "Wrong in any weather"
+    ],
+    "icons": [
+     "car",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pedale della frizione abbassato",
+    "en": "clutch pedal pressed down"
+   },
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24720": {
+  "en": "The aquaplaning effect makes the wheels slide on the layer of water.",
+  "explain": {
+   "short": "That is exactly what aquaplaning is: the tyre cannot push the water away and floats on it.",
+   "rule": "Aquaplaning: the tyres slide on a layer of water and lose grip, so the car can skid. It happens more easily at HIGH speed, with worn tyres and on light vehicles, and it depends on tread depth and pattern. A road with a strong side slope drains the water, so the risk does not grow there.",
+   "trap": "'scivolare ... sullo strato di acqua' is the correct definition.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Aquaplaning: tyres float on water",
+    "it": "aquaplaning",
+    "lines": [
+     "Layer of water on the road",
+     "The tyre floats on the water",
+     "No grip: the car slides"
+    ],
+    "icons": [
+     "rain",
+     "tyre",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "scivolare le ruote",
+    "en": "make the wheels slide"
+   },
+   {
+    "it": "strato di acqua",
+    "en": "layer of water"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24721": {
+  "en": "The aquaplaning effect starts at a lower speed if the tyre is very worn.",
+  "explain": {
+   "short": "A worn tyre has shallow grooves, so it pushes away less water. It starts to float even at lower speed.",
+   "rule": "Aquaplaning: the tyres slide on a layer of water and lose grip, so the car can skid. It happens more easily at HIGH speed, with worn tyres and on light vehicles, and it depends on tread depth and pattern. A road with a strong side slope drains the water, so the risk does not grow there.",
+   "trap": "'più bassa' (lower) speed with a worn tyre is right.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Worn tyres: aquaplaning sooner",
+    "it": "pneumatico consumato",
+    "lines": [
+     "Tyre with shallow tread",
+     "Pushes away less water",
+     "Aquaplaning at lower speed"
+    ],
+    "icons": [
+     "tyre",
+     "rain",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pneumatico",
+    "en": "tyre"
+   },
+   {
+    "it": "molto consumato",
+    "en": "very worn"
+   },
+   {
+    "it": "velocità più bassa",
+    "en": "lower speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24722": {
+  "en": "The aquaplaning effect happens more easily on lighter vehicles.",
+  "explain": {
+   "short": "A light vehicle presses less on the road, so the water lifts its tyres more easily.",
+   "rule": "Aquaplaning: the tyres slide on a layer of water and lose grip, so the car can skid. It happens more easily at HIGH speed, with worn tyres and on light vehicles, and it depends on tread depth and pattern. A road with a strong side slope drains the water, so the risk does not grow there.",
+   "trap": "'più leggeri' (lighter) is right: less weight, easier to float.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Light vehicles float more easily",
+    "it": "veicoli leggeri",
+    "lines": [
+     "Light car on a wet road",
+     "Less weight on the tyres",
+     "Aquaplaning comes easier"
+    ],
+    "icons": [
+     "car",
+     "rain",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "più leggeri",
+    "en": "lighter"
+   },
+   {
+    "it": "si verifica più facilmente",
+    "en": "happens more easily"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24723": {
+  "en": "The aquaplaning effect happens more easily at low speed.",
+  "explain": {
+   "short": "It is the opposite: aquaplaning comes with HIGH speed, when the tyre has no time to push the water away.",
+   "rule": "Aquaplaning: the tyres slide on a layer of water and lose grip, so the car can skid. It happens more easily at HIGH speed, with worn tyres and on light vehicles, and it depends on tread depth and pattern. A road with a strong side slope drains the water, so the risk does not grow there.",
+   "trap": "'bassa velocità' (low speed) is the trap: the risk grows with HIGH speed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Aquaplaning comes with HIGH speed",
+    "it": "bassa velocità",
+    "lines": [
+     "Wet road",
+     "High speed: the tyre floats",
+     "Slow down to avoid it"
+    ],
+    "icons": [
+     "rain",
+     "speed",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "bassa velocità",
+    "en": "low speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24724": {
+  "en": "The aquaplaning effect reduces the skidding of the vehicle.",
+  "explain": {
+   "short": "Aquaplaning removes grip, so it CAUSES skidding. It never reduces it.",
+   "rule": "Aquaplaning: the tyres slide on a layer of water and lose grip, so the car can skid. It happens more easily at HIGH speed, with worn tyres and on light vehicles, and it depends on tread depth and pattern. A road with a strong side slope drains the water, so the risk does not grow there.",
+   "trap": "'riduce' (reduces) is wrong: aquaplaning increases skidding.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Aquaplaning causes skids",
+    "it": "sbandamento",
+    "lines": [
+     "Tyres float on water",
+     "No grip at all",
+     "The car can skid"
+    ],
+    "icons": [
+     "rain",
+     "tyre",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "riduce lo sbandamento",
+    "en": "reduces skidding"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24725": {
+  "en": "The aquaplaning effect increases on carriageways with a strong side slope.",
+  "explain": {
+   "short": "A strong side slope lets the rain water run off the road, so less water stays under the tyres.",
+   "rule": "Aquaplaning: the tyres slide on a layer of water and lose grip, so the car can skid. It happens more easily at HIGH speed, with worn tyres and on light vehicles, and it depends on tread depth and pattern. A road with a strong side slope drains the water, so the risk does not grow there.",
+   "trap": "'forte pendenza laterale' (strong side slope) drains water: the risk does not grow.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A side slope drains the water away",
+    "it": "pendenza laterale",
+    "lines": [
+     "Road with a strong side slope",
+     "Rain water runs off",
+     "Less water under the tyres"
+    ],
+    "icons": [
+     "road",
+     "rain",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "forte pendenza laterale",
+    "en": "strong side slope"
+   },
+   {
+    "it": "aumenta",
+    "en": "increases"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24726": {
+  "en": "The aquaplaning effect increases grip on the road surface.",
+  "explain": {
+   "short": "Aquaplaning does the opposite: the tyre loses contact with the road, so grip drops almost to zero.",
+   "rule": "Aquaplaning: the tyres slide on a layer of water and lose grip, so the car can skid. It happens more easily at HIGH speed, with worn tyres and on light vehicles, and it depends on tread depth and pattern. A road with a strong side slope drains the water, so the risk does not grow there.",
+   "trap": "'aumenta l'aderenza' (increases grip) is the trap: grip is lost.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Aquaplaning: grip is lost",
+    "it": "aderenza",
+    "lines": [
+     "Water under the tyres",
+     "Tyre loses contact",
+     "Grip drops almost to zero"
+    ],
+    "icons": [
+     "rain",
+     "tyre",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aumenta l'aderenza",
+    "en": "increases grip"
+   },
+   {
+    "it": "fondo stradale",
+    "en": "road surface"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24727": {
+  "en": "The aquaplaning effect strengthens the contact between tyres and asphalt.",
+  "explain": {
+   "short": "With aquaplaning a layer of water separates the tyre from the asphalt. The contact is lost, not stronger.",
+   "rule": "Aquaplaning: the tyres slide on a layer of water and lose grip, so the car can skid. It happens more easily at HIGH speed, with worn tyres and on light vehicles, and it depends on tread depth and pattern. A road with a strong side slope drains the water, so the risk does not grow there.",
+   "trap": "'rafforza il contatto' (strengthens contact) is the opposite of the truth.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Water separates tyre and asphalt",
+    "it": "contatto",
+    "lines": [
+     "Layer of water on the asphalt",
+     "Tyre lifted off the road",
+     "Contact lost, not stronger"
+    ],
+    "icons": [
+     "rain",
+     "tyre",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rafforza il contatto",
+    "en": "strengthens the contact"
+   },
+   {
+    "it": "pneumatici e asfalto",
+    "en": "tyres and asphalt"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24728": {
+  "en": "The aquaplaning effect does not depend on the depth and pattern of the tread.",
+  "explain": {
+   "short": "The tread (battistrada) grooves carry the water away. Deep, good grooves reduce aquaplaning, so it DOES depend on them.",
+   "rule": "Aquaplaning: the tyres slide on a layer of water and lose grip, so the car can skid. It happens more easily at HIGH speed, with worn tyres and on light vehicles, and it depends on tread depth and pattern. A road with a strong side slope drains the water, so the risk does not grow there.",
+   "trap": "'non dipende' (does not depend) is the trap: tread depth and pattern matter a lot.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Tread depth and pattern matter",
+    "it": "battistrada",
+    "lines": [
+     "Tyre grooves carry water away",
+     "Worn tread: more aquaplaning",
+     "It depends on the tread"
+    ],
+    "icons": [
+     "tyre",
+     "rain",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non dipende",
+    "en": "does not depend"
+   },
+   {
+    "it": "battistrada",
+    "en": "tread"
+   },
+   {
+    "it": "spessore",
+    "en": "depth"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24729": {
+  "en": "On snow-covered roads you must fit snow tyres on all wheels or chains on the driving wheels.",
+  "explain": {
+   "short": "On snow normal tyres have almost no grip. Snow tyres go on all four wheels; chains go on the wheels that drive the car.",
+   "rule": "On snowy roads: snow tyres on all wheels or chains on the driving wheels, moderate speed, bigger safe distance, no sudden moves and no sudden acceleration. FALSE: braking harder, full acceleration when starting, sudden steering, braking fully in a skid.",
+   "trap": "'tutte le ruote' for snow tyres and 'ruote motrici' (driving wheels) for chains: both are right.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Snow: snow tyres or chains",
+    "it": "catene",
+    "lines": [
+     "Road covered with snow",
+     "Snow tyres on all wheels",
+     "Or chains on driving wheels"
+    ],
+    "icons": [
+     "snow",
+     "tyre",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pneumatici per neve",
+    "en": "snow tyres"
+   },
+   {
+    "it": "catene",
+    "en": "chains"
+   },
+   {
+    "it": "ruote motrici",
+    "en": "driving wheels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24730": {
+  "en": "On snow-covered roads you must moderate your speed.",
+  "explain": {
+   "short": "Snow reduces grip a lot, so you need to go slowly to stay in control.",
+   "rule": "On snowy roads: snow tyres on all wheels or chains on the driving wheels, moderate speed, bigger safe distance, no sudden moves and no sudden acceleration. FALSE: braking harder, full acceleration when starting, sudden steering, braking fully in a skid.",
+   "trap": "'moderare la velocità' (moderate speed) is right on snow.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Snow: go slowly",
+    "it": "moderare la velocità",
+    "lines": [
+     "Snow on the road",
+     "Very little grip",
+     "Moderate your speed"
+    ],
+    "icons": [
+     "snow",
+     "warning",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "moderare la velocità",
+    "en": "moderate the speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24731": {
+  "en": "On snow-covered roads you must increase the safe distance.",
+  "explain": {
+   "short": "On snow braking takes much longer, so keep more space from the car in front.",
+   "rule": "On snowy roads: snow tyres on all wheels or chains on the driving wheels, moderate speed, bigger safe distance, no sudden moves and no sudden acceleration. FALSE: braking harder, full acceleration when starting, sudden steering, braking fully in a skid.",
+   "trap": "'aumentare' (increase) the distance is right on snow.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Snow: leave a bigger gap",
+    "it": "distanza di sicurezza",
+    "lines": [
+     "Snowy road",
+     "Braking takes much longer",
+     "Keep a bigger safe distance"
+    ],
+    "icons": [
+     "snow",
+     "brake",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aumentare la distanza di sicurezza",
+    "en": "increase the safe distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24732": {
+  "en": "On snow-covered roads you must avoid sudden manoeuvres.",
+  "explain": {
+   "short": "A sudden move on snow can make the car skid. Every move must be smooth.",
+   "rule": "On snowy roads: snow tyres on all wheels or chains on the driving wheels, moderate speed, bigger safe distance, no sudden moves and no sudden acceleration. FALSE: braking harder, full acceleration when starting, sudden steering, braking fully in a skid.",
+   "trap": "'evitare brusche manovre' (avoid sudden moves) is right.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Snow: smooth moves only",
+    "it": "brusche manovre",
+    "lines": [
+     "Snowy road",
+     "Sudden move = skid",
+     "Steer and brake smoothly"
+    ],
+    "icons": [
+     "snow",
+     "warning",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "evitare brusche manovre",
+    "en": "avoid sudden manoeuvres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24733": {
+  "en": "On snow-covered roads you must avoid sudden acceleration.",
+  "explain": {
+   "short": "If you accelerate hard on snow the wheels spin and the car can slide. Accelerate gently.",
+   "rule": "On snowy roads: snow tyres on all wheels or chains on the driving wheels, moderate speed, bigger safe distance, no sudden moves and no sudden acceleration. FALSE: braking harder, full acceleration when starting, sudden steering, braking fully in a skid.",
+   "trap": "'evitare brusche accelerazioni' (avoid sudden acceleration) is right.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Snow: accelerate gently",
+    "it": "brusche accelerazioni",
+    "lines": [
+     "Snowy road",
+     "Hard acceleration: wheels spin",
+     "Accelerate gently"
+    ],
+    "icons": [
+     "snow",
+     "warning",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "evitare brusche accelerazioni",
+    "en": "avoid sudden acceleration"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24734": {
+  "en": "On snow-covered roads you must brake with more force.",
+  "explain": {
+   "short": "Braking harder on snow locks the wheels and the car slides. You must brake gently and early.",
+   "rule": "On snowy roads: snow tyres on all wheels or chains on the driving wheels, moderate speed, bigger safe distance, no sudden moves and no sudden acceleration. FALSE: braking harder, full acceleration when starting, sudden steering, braking fully in a skid.",
+   "trap": "'maggiore energia' (more force) is the trap: on snow you brake MORE gently.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Snow: brake gently, not harder",
+    "it": "frenare",
+    "lines": [
+     "Snowy road",
+     "Hard braking: wheels lock",
+     "Brake gently and early"
+    ],
+    "icons": [
+     "snow",
+     "cross",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "frenare con maggiore energia",
+    "en": "brake with more force"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24735": {
+  "en": "On snow-covered roads, when starting off, you must accelerate to the maximum.",
+  "explain": {
+   "short": "Full acceleration on snow makes the wheels spin and the car does not move or slides. Start gently.",
+   "rule": "On snowy roads: snow tyres on all wheels or chains on the driving wheels, moderate speed, bigger safe distance, no sudden moves and no sudden acceleration. FALSE: braking harder, full acceleration when starting, sudden steering, braking fully in a skid.",
+   "trap": "'accelerare al massimo' (full acceleration) is wrong: start gently.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Snow: start off gently",
+    "it": "partenza",
+    "lines": [
+     "Starting off on snow",
+     "Full throttle: wheels spin",
+     "Start gently, low revs"
+    ],
+    "icons": [
+     "snow",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "alla partenza",
+    "en": "when starting off"
+   },
+   {
+    "it": "accelerare al massimo",
+    "en": "accelerate to the maximum"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24736": {
+  "en": "On snow-covered roads you must steer sharply to avoid hitting stopped vehicles.",
+  "explain": {
+   "short": "A sharp turn on snow makes the car skid, so you may hit them anyway. Go slowly so you never need sudden steering.",
+   "rule": "On snowy roads: snow tyres on all wheels or chains on the driving wheels, moderate speed, bigger safe distance, no sudden moves and no sudden acceleration. FALSE: braking harder, full acceleration when starting, sudden steering, braking fully in a skid.",
+   "trap": "'sterzare bruscamente' (steer sharply) is the trap: on snow no sudden steering.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Snow: no sharp steering",
+    "it": "sterzare bruscamente",
+    "lines": [
+     "Stopped car ahead on snow",
+     "Sharp steering: the car skids",
+     "Go slowly and steer gently"
+    ],
+    "icons": [
+     "snow",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sterzare bruscamente",
+    "en": "steer sharply"
+   },
+   {
+    "it": "veicoli fermi",
+    "en": "stopped vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24737": {
+  "en": "On snow-covered roads you must brake fully if the vehicle skids.",
+  "explain": {
+   "short": "Braking fully during a skid locks the wheels and you cannot steer. Ease off and steer gently to straighten the car.",
+   "rule": "On snowy roads: snow tyres on all wheels or chains on the driving wheels, moderate speed, bigger safe distance, no sudden moves and no sudden acceleration. FALSE: braking harder, full acceleration when starting, sudden steering, braking fully in a skid.",
+   "trap": "'frenare a fondo' (brake fully) in a skid makes it worse.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Skid on snow: do not brake fully",
+    "it": "sbandamento",
+    "lines": [
+     "The car skids on snow",
+     "Full braking: no steering",
+     "Ease off, steer gently"
+    ],
+    "icons": [
+     "snow",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "frenare a fondo",
+    "en": "brake fully"
+   },
+   {
+    "it": "sbandamento",
+    "en": "skid"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24738": {
+  "en": "Where there are icy stretches of road, it is advisable to drive at moderate speed.",
+  "explain": {
+   "short": "Ice has almost no grip. A low speed gives you time and control.",
+   "rule": "On icy stretches: moderate speed, bigger safe distance, keep away from the path of oncoming vehicles, low gears downhill, no sudden acceleration, extra care in shady spots, and four-wheel drive on if the car has it. FALSE: driving very close to the side barrier, studded tyres instead of chains, braking hard when meeting a car, driving in neutral.",
+   "trap": "'velocità moderata' (moderate speed) is right on ice.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Ice: drive slowly",
+    "it": "velocità moderata",
+    "lines": [
+     "Icy stretch of road",
+     "Almost no grip",
+     "Drive at moderate speed"
+    ],
+    "icons": [
+     "snow",
+     "warning",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ghiacciati",
+    "en": "icy"
+   },
+   {
+    "it": "velocità moderata",
+    "en": "moderate speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24739": {
+  "en": "Where there are icy stretches of road, it is advisable to increase the safe distance.",
+  "explain": {
+   "short": "On ice braking is very long, so you need much more space from the car in front.",
+   "rule": "On icy stretches: moderate speed, bigger safe distance, keep away from the path of oncoming vehicles, low gears downhill, no sudden acceleration, extra care in shady spots, and four-wheel drive on if the car has it. FALSE: driving very close to the side barrier, studded tyres instead of chains, braking hard when meeting a car, driving in neutral.",
+   "trap": "'aumentare' (increase) the distance is right on ice.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Ice: much bigger gap",
+    "it": "distanza di sicurezza",
+    "lines": [
+     "Icy road",
+     "Braking is very long",
+     "Increase the safe distance"
+    ],
+    "icons": [
+     "snow",
+     "brake",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aumentare la distanza di sicurezza",
+    "en": "increase the safe distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24740": {
+  "en": "Where there are icy stretches of road, it is advisable to keep away from the path of oncoming vehicles.",
+  "explain": {
+   "short": "An oncoming car can slide on the ice towards you. Keeping more side space gives both of you room.",
+   "rule": "On icy stretches: moderate speed, bigger safe distance, keep away from the path of oncoming vehicles, low gears downhill, no sudden acceleration, extra care in shady spots, and four-wheel drive on if the car has it. FALSE: driving very close to the side barrier, studded tyres instead of chains, braking hard when meeting a car, driving in neutral.",
+   "trap": "'distanziarsi dalla traiettoria' (keep away from the path) of oncoming cars is right.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Ice: give oncoming cars room",
+    "it": "traiettoria",
+    "lines": [
+     "Oncoming car on an icy road",
+     "It may slide towards you",
+     "Keep away from its path"
+    ],
+    "icons": [
+     "car",
+     "warning",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanziarsi dalla traiettoria",
+    "en": "keep away from the path"
+   },
+   {
+    "it": "veicoli che si incrociano",
+    "en": "oncoming vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24741": {
+  "en": "Where there are icy stretches of road, it is advisable, when going downhill, to drive in low gears.",
+  "explain": {
+   "short": "A low gear lets the engine hold the car back (engine braking), so you need the brakes less and the wheels do not lock.",
+   "rule": "On icy stretches: moderate speed, bigger safe distance, keep away from the path of oncoming vehicles, low gears downhill, no sudden acceleration, extra care in shady spots, and four-wheel drive on if the car has it. FALSE: driving very close to the side barrier, studded tyres instead of chains, braking hard when meeting a car, driving in neutral.",
+   "trap": "'marce basse' (low gears) 'in discesa' (downhill) is right: engine braking.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Ice downhill: low gear",
+    "it": "marce basse",
+    "lines": [
+     "Icy road going downhill",
+     "Low gear: the engine holds back",
+     "Less braking, less skidding"
+    ],
+    "icons": [
+     "hill",
+     "engine",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in discesa",
+    "en": "downhill"
+   },
+   {
+    "it": "marce basse",
+    "en": "low gears"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24742": {
+  "en": "Where there are icy stretches of road, it is advisable to avoid sudden acceleration.",
+  "explain": {
+   "short": "On ice a sudden acceleration makes the wheels spin and the car can slide. Accelerate gently.",
+   "rule": "On icy stretches: moderate speed, bigger safe distance, keep away from the path of oncoming vehicles, low gears downhill, no sudden acceleration, extra care in shady spots, and four-wheel drive on if the car has it. FALSE: driving very close to the side barrier, studded tyres instead of chains, braking hard when meeting a car, driving in neutral.",
+   "trap": "'evitare brusche accelerazioni' (avoid sudden acceleration) is right.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Ice: accelerate gently",
+    "it": "brusche accelerazioni",
+    "lines": [
+     "Icy road",
+     "Sudden acceleration: wheels spin",
+     "Accelerate gently"
+    ],
+    "icons": [
+     "snow",
+     "warning",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "evitare brusche accelerazioni",
+    "en": "avoid sudden acceleration"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24743": {
+  "en": "Where there are icy stretches of road, it is advisable to take more care when driving through shady areas.",
+  "explain": {
+   "short": "In the shade the sun does not melt the ice, so ice stays there longer, even when the rest of the road is dry.",
+   "rule": "On icy stretches: moderate speed, bigger safe distance, keep away from the path of oncoming vehicles, low gears downhill, no sudden acceleration, extra care in shady spots, and four-wheel drive on if the car has it. FALSE: driving very close to the side barrier, studded tyres instead of chains, braking hard when meeting a car, driving in neutral.",
+   "trap": "'zone in ombra' (shady areas) are where ice stays longest.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Shady spots keep the ice longer",
+    "it": "zone in ombra",
+    "lines": [
+     "Road in the shade",
+     "The ice does not melt there",
+     "Take extra care"
+    ],
+    "icons": [
+     "snow",
+     "warning",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "zone in ombra",
+    "en": "shady areas"
+   },
+   {
+    "it": "maggiore attenzione",
+    "en": "more care"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24744": {
+  "en": "Where there are icy stretches of road, it is advisable to engage four-wheel drive, if the vehicle has it.",
+  "explain": {
+   "short": "With four-wheel drive (doppia trazione) all wheels push the car, so it has more traction on ice.",
+   "rule": "On icy stretches: moderate speed, bigger safe distance, keep away from the path of oncoming vehicles, low gears downhill, no sudden acceleration, extra care in shady spots, and four-wheel drive on if the car has it. FALSE: driving very close to the side barrier, studded tyres instead of chains, braking hard when meeting a car, driving in neutral.",
+   "trap": "'se il veicolo ne è provvisto' (if the vehicle has it): only cars with it can do this.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Ice: four-wheel drive on if you have it",
+    "it": "doppia trazione",
+    "lines": [
+     "Icy road",
+     "Four-wheel drive: all wheels push",
+     "Better traction"
+    ],
+    "icons": [
+     "snow",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "doppia trazione",
+    "en": "four-wheel drive"
+   },
+   {
+    "it": "se il veicolo ne è provvisto",
+    "en": "if the vehicle has it"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24745": {
+  "en": "Where there are icy stretches of road, it is advisable to drive very close to the side barrier.",
+  "explain": {
+   "short": "If the car slides, being very close to the barrier means you hit it at once. Also ice often stays near the edge.",
+   "rule": "On icy stretches: moderate speed, bigger safe distance, keep away from the path of oncoming vehicles, low gears downhill, no sudden acceleration, extra care in shady spots, and four-wheel drive on if the car has it. FALSE: driving very close to the side barrier, studded tyres instead of chains, braking hard when meeting a car, driving in neutral.",
+   "trap": "'molto vicino alla barriera laterale' (very close to the side barrier) gives no space if you slide.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Ice: do not hug the side barrier",
+    "it": "barriera laterale",
+    "lines": [
+     "Icy road with a side barrier",
+     "Too close: a slide hits it",
+     "Keep a safe side space"
+    ],
+    "icons": [
+     "snow",
+     "cross",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "molto vicino",
+    "en": "very close"
+   },
+   {
+    "it": "barriera laterale",
+    "en": "side barrier"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24746": {
+  "en": "Where there are icy stretches of road, it is advisable not to use chains, but studded tyres on the front wheels.",
+  "explain": {
+   "short": "Chains are a proper tool for ice and snow. Studded tyres are not fitted only on the front wheels.",
+   "rule": "On icy stretches: moderate speed, bigger safe distance, keep away from the path of oncoming vehicles, low gears downhill, no sudden acceleration, extra care in shady spots, and four-wheel drive on if the car has it. FALSE: driving very close to the side barrier, studded tyres instead of chains, braking hard when meeting a car, driving in neutral.",
+   "trap": "'non usare le catene' and 'solo anteriori' are both wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Ice: chains are right; no front-only studs",
+    "it": "catene",
+    "lines": [
+     "Icy road",
+     "Chains help on ice",
+     "Studs only on front: wrong"
+    ],
+    "icons": [
+     "snow",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non usare le catene",
+    "en": "not use chains"
+   },
+   {
+    "it": "gomme chiodate",
+    "en": "studded tyres"
+   },
+   {
+    "it": "ruote anteriori",
+    "en": "front wheels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24747": {
+  "en": "Where there are icy stretches of road, it is advisable to brake hard every time you meet another vehicle.",
+  "explain": {
+   "short": "Hard braking on ice locks the wheels and the car slides, maybe towards the other car. Slow down early and gently.",
+   "rule": "On icy stretches: moderate speed, bigger safe distance, keep away from the path of oncoming vehicles, low gears downhill, no sudden acceleration, extra care in shady spots, and four-wheel drive on if the car has it. FALSE: driving very close to the side barrier, studded tyres instead of chains, braking hard when meeting a car, driving in neutral.",
+   "trap": "'frenare energicamente' (brake hard) on ice is dangerous.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Ice: never brake hard",
+    "it": "frenare energicamente",
+    "lines": [
+     "Meeting a car on an icy road",
+     "Hard braking: the car slides",
+     "Slow down early and gently"
+    ],
+    "icons": [
+     "snow",
+     "cross",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "frenare energicamente",
+    "en": "brake hard"
+   },
+   {
+    "it": "si incrocia un altro veicolo",
+    "en": "you meet another vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24748": {
+  "en": "Where there are icy stretches of road, it is advisable to drive with the gearbox in neutral.",
+  "explain": {
+   "short": "In neutral (folle) the engine does not hold the car and you have less control. Always drive in gear.",
+   "rule": "On icy stretches: moderate speed, bigger safe distance, keep away from the path of oncoming vehicles, low gears downhill, no sudden acceleration, extra care in shady spots, and four-wheel drive on if the car has it. FALSE: driving very close to the side barrier, studded tyres instead of chains, braking hard when meeting a car, driving in neutral.",
+   "trap": "'cambio in folle' (in neutral) removes engine braking: wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Ice: never drive in neutral",
+    "it": "folle",
+    "lines": [
+     "Icy road",
+     "Neutral: no engine braking",
+     "Always drive in gear"
+    ],
+    "icons": [
+     "snow",
+     "cross",
+     "engine"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cambio in folle",
+    "en": "gearbox in neutral"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24749": {
+  "en": "In case of thick fog it is advisable to let the road markings guide you.",
+  "explain": {
+   "short": "In thick fog you cannot see far, but the painted lines near the car show you where the lane and the edge are.",
+   "rule": "In thick fog: follow the road markings, keep a speed that fits what you can see, turn on the fog lights (or dipped headlights) and the rear fog light, drive with full attention. Stop off the carriageway; if you must stop on it, use the hazard lights. FALSE: only sidelights, left indicator on, zig-zag, following close, continuous horn, seat belt off.",
+   "trap": "'segnaletica orizzontale' (painted road markings) is your guide in fog.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fog: follow the painted lines",
+    "it": "segnaletica orizzontale",
+    "lines": [
+     "Thick fog: little visibility",
+     "The painted lines are close",
+     "Follow them to keep your lane"
+    ],
+    "icons": [
+     "fog",
+     "road",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "lasciarsi guidare",
+    "en": "let yourself be guided"
+   },
+   {
+    "it": "segnaletica orizzontale",
+    "en": "road markings"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24750": {
+  "en": "In case of thick fog it is advisable to drive at a speed suited to the visibility.",
+  "explain": {
+   "short": "You must be able to stop within the distance you can see. In thick fog that means going slowly.",
+   "rule": "In thick fog: follow the road markings, keep a speed that fits what you can see, turn on the fog lights (or dipped headlights) and the rear fog light, drive with full attention. Stop off the carriageway; if you must stop on it, use the hazard lights. FALSE: only sidelights, left indicator on, zig-zag, following close, continuous horn, seat belt off.",
+   "trap": "'adeguata alla visibilità' (suited to visibility) is the key rule in fog.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fog: speed fits what you can see",
+    "it": "visibilità",
+    "lines": [
+     "Thick fog: you see little",
+     "Stop within what you see",
+     "Speed suited to visibility"
+    ],
+    "icons": [
+     "fog",
+     "eye",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "velocità adeguata alla visibilità",
+    "en": "speed suited to the visibility"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24751": {
+  "en": "In case of thick fog it is advisable to stop, if necessary, off the carriageway.",
+  "explain": {
+   "short": "A car stopped on the road in fog can be hit from behind. If you must stop, get off the carriageway.",
+   "rule": "In thick fog: follow the road markings, keep a speed that fits what you can see, turn on the fog lights (or dipped headlights) and the rear fog light, drive with full attention. Stop off the carriageway; if you must stop on it, use the hazard lights. FALSE: only sidelights, left indicator on, zig-zag, following close, continuous horn, seat belt off.",
+   "trap": "'se necessario' (if necessary) and 'fuori dalla carreggiata' (off the carriageway): both right.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fog: stop off the carriageway",
+    "it": "fuori dalla carreggiata",
+    "lines": [
+     "Thick fog, you need to stop",
+     "On the road you can be hit",
+     "Stop off the carriageway"
+    ],
+    "icons": [
+     "fog",
+     "warning",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "se necessario",
+    "en": "if necessary"
+   },
+   {
+    "it": "fuori dalla carreggiata",
+    "en": "off the carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24752": {
+  "en": "In case of thick fog it is advisable, if forced to stop on the carriageway, to use the hazard warning lights (all four indicators flashing together).",
+  "explain": {
+   "short": "If you really must stop on the road, the hazard lights warn the drivers behind that you are not moving.",
+   "rule": "In thick fog: follow the road markings, keep a speed that fits what you can see, turn on the fog lights (or dipped headlights) and the rear fog light, drive with full attention. Stop off the carriageway; if you must stop on it, use the hazard lights. FALSE: only sidelights, left indicator on, zig-zag, following close, continuous horn, seat belt off.",
+   "trap": "'se costretti a fermarsi' (if forced to stop): here the hazard lights are right.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Forced stop in fog: hazard lights on",
+    "it": "quattro frecce",
+    "lines": [
+     "Thick fog, forced to stop on the road",
+     "Hazard lights on",
+     "Drivers behind see you"
+    ],
+    "icons": [
+     "fog",
+     "light",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "se costretti a fermarsi",
+    "en": "if forced to stop"
+   },
+   {
+    "it": "segnalazione luminosa di pericolo",
+    "en": "hazard warning lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24753": {
+  "en": "In case of thick fog it is advisable to avoid stopping on the carriageway, except for reasons of force majeure.",
+  "explain": {
+   "short": "A stopped car in fog is a big danger. Stop on the carriageway only when you really have no choice (forza maggiore, like a breakdown).",
+   "rule": "In thick fog: follow the road markings, keep a speed that fits what you can see, turn on the fog lights (or dipped headlights) and the rear fog light, drive with full attention. Stop off the carriageway; if you must stop on it, use the hazard lights. FALSE: only sidelights, left indicator on, zig-zag, following close, continuous horn, seat belt off.",
+   "trap": "'se non per cause di forza maggiore' (except when you have no choice) is the right exception.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fog: do not stop on the road",
+    "it": "forza maggiore",
+    "lines": [
+     "Thick fog",
+     "Stopped car: risk of crash",
+     "Stop on the road only if forced"
+    ],
+    "icons": [
+     "fog",
+     "warning",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "evitare di fermarsi",
+    "en": "avoid stopping"
+   },
+   {
+    "it": "forza maggiore",
+    "en": "force majeure, no choice"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24754": {
+  "en": "In case of thick fog it is advisable to turn on the front fog lights or, if there are none, the dipped headlights.",
+  "explain": {
+   "short": "Fog lights light the road low and wide under the fog. If the car has none, use dipped headlights, never high beams.",
+   "rule": "In thick fog: follow the road markings, keep a speed that fits what you can see, turn on the fog lights (or dipped headlights) and the rear fog light, drive with full attention. Stop off the carriageway; if you must stop on it, use the hazard lights. FALSE: only sidelights, left indicator on, zig-zag, following close, continuous horn, seat belt off.",
+   "trap": "'in mancanza' (if there are none): dipped headlights are the right alternative.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fog: fog lights or dipped beams",
+    "it": "fendinebbia",
+    "lines": [
+     "Thick fog",
+     "Front fog lights on",
+     "No fog lights: dipped beams"
+    ],
+    "icons": [
+     "fog",
+     "light",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "proiettori fendinebbia",
+    "en": "front fog lights"
+   },
+   {
+    "it": "anabbaglianti",
+    "en": "dipped headlights"
+   },
+   {
+    "it": "in mancanza",
+    "en": "if there are none"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24755": {
+  "en": "In case of thick fog it is advisable to turn on the rear fog light.",
+  "explain": {
+   "short": "The rear fog light is a strong red light that helps the drivers behind see you in thick fog.",
+   "rule": "In thick fog: follow the road markings, keep a speed that fits what you can see, turn on the fog lights (or dipped headlights) and the rear fog light, drive with full attention. Stop off the carriageway; if you must stop on it, use the hazard lights. FALSE: only sidelights, left indicator on, zig-zag, following close, continuous horn, seat belt off.",
+   "trap": "'luce posteriore per nebbia' (rear fog light) is meant for thick fog.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Thick fog: rear fog light on",
+    "it": "retronebbia",
+    "lines": [
+     "Thick fog",
+     "Rear fog light on",
+     "Drivers behind see you"
+    ],
+    "icons": [
+     "fog",
+     "light",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce posteriore per nebbia",
+    "en": "rear fog light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24756": {
+  "en": "In case of thick fog it is advisable to drive with the greatest care and concentration.",
+  "explain": {
+   "short": "In fog dangers appear suddenly and close. Full attention is needed all the time.",
+   "rule": "In thick fog: follow the road markings, keep a speed that fits what you can see, turn on the fog lights (or dipped headlights) and the rear fog light, drive with full attention. Stop off the carriageway; if you must stop on it, use the hazard lights. FALSE: only sidelights, left indicator on, zig-zag, following close, continuous horn, seat belt off.",
+   "trap": "'massima prudenza e concentrazione' (greatest care and concentration) is always right in fog.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fog: full attention",
+    "it": "massima prudenza",
+    "lines": [
+     "Thick fog",
+     "Dangers appear suddenly",
+     "Greatest care and concentration"
+    ],
+    "icons": [
+     "fog",
+     "warning",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "massima prudenza",
+    "en": "greatest care"
+   },
+   {
+    "it": "concentrazione",
+    "en": "concentration"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24757": {
+  "en": "In case of thick fog it is advisable to drive with only the sidelights on.",
+  "explain": {
+   "short": "Sidelights (luci di posizione) are too weak: you see little and others do not see you. Use fog lights or dipped headlights.",
+   "rule": "In thick fog: follow the road markings, keep a speed that fits what you can see, turn on the fog lights (or dipped headlights) and the rear fog light, drive with full attention. Stop off the carriageway; if you must stop on it, use the hazard lights. FALSE: only sidelights, left indicator on, zig-zag, following close, continuous horn, seat belt off.",
+   "trap": "'sole luci di posizione' (only sidelights) is the trap: not enough in fog.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Sidelights alone are not enough",
+    "it": "luci di posizione",
+    "lines": [
+     "Thick fog",
+     "Only sidelights: too weak",
+     "Use fog lights or dipped beams"
+    ],
+    "icons": [
+     "fog",
+     "cross",
+     "light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sole luci di posizioni",
+    "en": "only sidelights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24758": {
+  "en": "In case of thick fog it is advisable to keep the left indicator on.",
+  "explain": {
+   "short": "The left indicator means you want to turn or move left. Keeping it on confuses other drivers.",
+   "rule": "In thick fog: follow the road markings, keep a speed that fits what you can see, turn on the fog lights (or dipped headlights) and the rear fog light, drive with full attention. Stop off the carriageway; if you must stop on it, use the hazard lights. FALSE: only sidelights, left indicator on, zig-zag, following close, continuous horn, seat belt off.",
+   "trap": "'indicatore di direzione sinistro' is only for a real turn or lane change.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Fog: no indicator left on",
+    "it": "indicatore di direzione",
+    "lines": [
+     "Thick fog",
+     "Left indicator always on: wrong",
+     "Indicators only to turn"
+    ],
+    "icons": [
+     "fog",
+     "cross",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "indicatore di direzione sinistro",
+    "en": "left indicator"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24759": {
+  "en": "In case of thick fog it is advisable to drive in a zig-zag to make yourself more visible.",
+  "explain": {
+   "short": "Zig-zagging puts you in the other lane and off your path: very dangerous. Others see you thanks to your lights.",
+   "rule": "In thick fog: follow the road markings, keep a speed that fits what you can see, turn on the fog lights (or dipped headlights) and the rear fog light, drive with full attention. Stop off the carriageway; if you must stop on it, use the hazard lights. FALSE: only sidelights, left indicator on, zig-zag, following close, continuous horn, seat belt off.",
+   "trap": "'a zig zag' is a dangerous move, never a way to be seen.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Fog: never zig-zag",
+    "it": "zig zag",
+    "lines": [
+     "Thick fog",
+     "Zig-zag: into the other lane",
+     "Keep a straight, steady line"
+    ],
+    "icons": [
+     "fog",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "procedere a zig zag",
+    "en": "drive in a zig-zag"
+   },
+   {
+    "it": "propria presenza",
+    "en": "your presence"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24760": {
+  "en": "In case of thick fog it is advisable to follow the vehicle ahead as closely as possible.",
+  "explain": {
+   "short": "If you follow too close and the car ahead brakes, you crash into it. In fog keep a BIGGER distance.",
+   "rule": "In thick fog: follow the road markings, keep a speed that fits what you can see, turn on the fog lights (or dipped headlights) and the rear fog light, drive with full attention. Stop off the carriageway; if you must stop on it, use the hazard lights. FALSE: only sidelights, left indicator on, zig-zag, following close, continuous horn, seat belt off.",
+   "trap": "'quanto più vicino possibile' (as close as possible) is the trap: keep more distance.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Fog: never follow too close",
+    "it": "accodarsi",
+    "lines": [
+     "Thick fog, car ahead",
+     "Too close: you crash if it brakes",
+     "Keep a bigger distance"
+    ],
+    "icons": [
+     "fog",
+     "cross",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "accodarsi",
+    "en": "follow behind"
+   },
+   {
+    "it": "quanto più vicino possibile",
+    "en": "as close as possible"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24761": {
+  "en": "In case of thick fog it is advisable to sound the horn continuously.",
+  "explain": {
+   "short": "Continuous use of the horn is not allowed and does not help. Use the right lights and drive slowly.",
+   "rule": "In thick fog: follow the road markings, keep a speed that fits what you can see, turn on the fog lights (or dipped headlights) and the rear fog light, drive with full attention. Stop off the carriageway; if you must stop on it, use the hazard lights. FALSE: only sidelights, left indicator on, zig-zag, following close, continuous horn, seat belt off.",
+   "trap": "'continuativamente' (continuously) is the trap: no constant horn.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Fog: no continuous horn",
+    "it": "clacson",
+    "lines": [
+     "Thick fog",
+     "Continuous horn: wrong",
+     "Use the right lights"
+    ],
+    "icons": [
+     "fog",
+     "cross",
+     "light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "suonare continuativamente il clacson",
+    "en": "sound the horn continuously"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24762": {
+  "en": "In case of thick fog it is advisable to keep the seat belt unfastened so you are readier to leave the vehicle in case of an accident.",
+  "explain": {
+   "short": "The seat belt must always be fastened. In a crash it keeps you alive; it does not stop you from getting out.",
+   "rule": "In thick fog: follow the road markings, keep a speed that fits what you can see, turn on the fog lights (or dipped headlights) and the rear fog light, drive with full attention. Stop off the carriageway; if you must stop on it, use the hazard lights. FALSE: only sidelights, left indicator on, zig-zag, following close, continuous horn, seat belt off.",
+   "trap": "'sganciata' (unfastened) is always wrong: the belt is compulsory.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Seat belt always fastened",
+    "it": "cintura di sicurezza",
+    "lines": [
+     "Thick fog, risk of a crash",
+     "Unfastened belt: wrong",
+     "Seat belt always on"
+    ],
+    "icons": [
+     "fog",
+     "cross",
+     "seatbelt"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cintura di sicurezza sganciata",
+    "en": "seat belt unfastened"
+   },
+   {
+    "it": "abbandonare il veicolo",
+    "en": "leave the vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

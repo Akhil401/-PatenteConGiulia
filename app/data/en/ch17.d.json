@@ -1,0 +1,2650 @@
+{
+ "q24005": {
+  "en": "Before moving off again, the driver of a truck must pay special attention to a pedestrian or cyclist who may be in the area just in front of the stopped vehicle.",
+  "explain": {
+   "short": "From the high cab the driver cannot see the area just in front of the truck. A pedestrian or cyclist could be hidden there.",
+   "rule": "A truck driver cannot see the zone just in front of and beside the truck (blind spot). Before moving off he must expect hidden pedestrians and cyclists.",
+   "trap": "'zona immediatamente antistante' means the zone right in front: exactly the zone the driver cannot see.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Look out for hidden people before moving off",
+    "it": "angolo cieco",
+    "lines": [
+     "Truck stopped, about to move off",
+     "The zone right in front is hidden",
+     "Check for pedestrians and cyclists"
+    ],
+    "icons": [
+     "truck",
+     "eye",
+     "pedestrian"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "riprendere la marcia",
+    "en": "move off again"
+   },
+   {
+    "it": "autocarro",
+    "en": "truck"
+   },
+   {
+    "it": "immediatamente antistante",
+    "en": "just in front"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24006": {
+  "en": "The driver of a truck stopped at a traffic light must expect pedestrians and cyclists that he cannot see because of the shape of his own vehicle.",
+  "explain": {
+   "short": "The big body of the truck hides people standing close to it. The driver must imagine they may be there.",
+   "rule": "A truck driver cannot see the zone just in front of and beside the truck (blind spot). Before moving off he must expect hidden pedestrians and cyclists.",
+   "trap": "'prevedere' (expect) is right: you must think of people you cannot see.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Expect people hidden by the truck",
+    "it": "prevedere",
+    "lines": [
+     "Truck waiting at a traffic light",
+     "Its body hides people close by",
+     "Expect pedestrians and cyclists"
+    ],
+    "icons": [
+     "truck",
+     "light",
+     "bike"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermo al semaforo",
+    "en": "stopped at the traffic light"
+   },
+   {
+    "it": "prevedere",
+    "en": "expect"
+   },
+   {
+    "it": "sagoma",
+    "en": "shape, outline"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24007": {
+  "en": "The limited view through a truck's windscreen of the area just in front of the vehicle makes it dangerous for these vehicles to stop in a queue when pedestrians or two-wheelers are around.",
+  "explain": {
+   "short": "In a queue, people on foot or on two wheels often pass close to the front of trucks. The driver cannot see them there, so the situation is risky.",
+   "rule": "A truck driver cannot see the zone just in front of and beside the truck (blind spot). Before moving off he must expect hidden pedestrians and cyclists.",
+   "trap": "'limitata visuale' (limited view) is the key: the windscreen does not show the zone right in front.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Queue + people near the front = danger",
+    "it": "limitata visuale",
+    "lines": [
+     "Trucks stopped in a queue",
+     "The windscreen hides the front zone",
+     "Bikes and pedestrians may be there"
+    ],
+    "icons": [
+     "truck",
+     "eye",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "limitata visuale",
+    "en": "limited view"
+   },
+   {
+    "it": "parabrezza",
+    "en": "windscreen"
+   },
+   {
+    "it": "in colonna",
+    "en": "in a queue"
+   },
+   {
+    "it": "mezzi a due ruote",
+    "en": "two-wheelers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24008": {
+  "en": "The field of view of trucks allows safe control of the whole area just in front of and beside the vehicle.",
+  "explain": {
+   "short": "A truck has big blind spots right in front and at the sides. The driver cannot check all of that area.",
+   "rule": "A truck driver cannot see the zone just in front of and beside the truck (blind spot). Before moving off he must expect hidden pedestrians and cyclists.",
+   "trap": "'tutta la zona' (the whole zone) is wrong: part of it is always hidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A truck cannot see the whole front and side zone",
+    "it": "campo di visibilità",
+    "lines": [
+     "Truck driver sits high",
+     "Zone in front and at sides is hidden",
+     "No full view: blind spots exist"
+    ],
+    "icons": [
+     "truck",
+     "eye",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "campo di visibilità",
+    "en": "field of view"
+   },
+   {
+    "it": "controllo sicuro",
+    "en": "safe control"
+   },
+   {
+    "it": "antistante e laterale",
+    "en": "in front and at the side"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24009": {
+  "en": "A pedestrian can cross the road in complete safety by walking very close to the front of a truck stopped in a queue that is about to move off, because the driver can surely see him.",
+  "explain": {
+   "short": "Right in front of a truck is exactly where the driver cannot see. Walking there when the truck moves off is very dangerous.",
+   "rule": "A truck driver cannot see the zone just in front of and beside the truck (blind spot). Before moving off he must expect hidden pedestrians and cyclists.",
+   "trap": "'sicuramente avvistabile' (surely visible) is wrong: close to the front, the pedestrian is hidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never walk close to the front of a truck",
+    "it": "distanza ravvicinata",
+    "lines": [
+     "Truck in a queue, about to move off",
+     "Pedestrian close to its front",
+     "The driver cannot see him: danger"
+    ],
+    "icons": [
+     "truck",
+     "pedestrian",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in tutta sicurezza",
+    "en": "in complete safety"
+   },
+   {
+    "it": "distanza ravvicinata",
+    "en": "very close"
+   },
+   {
+    "it": "sicuramente avvistabile",
+    "en": "surely visible"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24010": {
+  "en": "When they are about to move off after stopping at a traffic light, truck drivers can easily see pedestrians or cyclists that are beside and brushing against the front of their vehicles.",
+  "explain": {
+   "short": "People very close to the front and sides of a truck are in its blind spot. The driver can NOT easily see them.",
+   "rule": "A truck driver cannot see the zone just in front of and beside the truck (blind spot). Before moving off he must expect hidden pedestrians and cyclists.",
+   "trap": "'possono facilmente avvistare' (can easily see) is wrong: these people are hidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Truck drivers do NOT easily see people close in front",
+    "it": "facilmente avvistare",
+    "lines": [
+     "Truck moves off at a green light",
+     "Cyclist right next to its front",
+     "Hidden in the blind spot: not seen"
+    ],
+    "icons": [
+     "truck",
+     "bike",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "riprendere la marcia",
+    "en": "move off again"
+   },
+   {
+    "it": "facilmente avvistare",
+    "en": "easily see"
+   },
+   {
+    "it": "sfiorano",
+    "en": "brush against"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24011": {
+  "en": "The high-visibility retroreflective vest or braces can, in every case, replace the portable warning triangle.",
+  "explain": {
+   "short": "The vest makes YOU visible when you walk on the road. The triangle warns drivers about the stopped vehicle. You need both; one does not replace the other.",
+   "rule": "Outside towns, when you get out of a stopped vehicle on the road or emergency lane, you wear a high-visibility vest or braces so other drivers see you.",
+   "trap": "'in ogni caso' (in every case) is wrong: the vest never replaces the triangle.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Vest and triangle: you need both",
+    "it": "triangolo",
+    "lines": [
+     "Vehicle stopped on the road",
+     "Triangle warns about the vehicle",
+     "Vest makes the driver visible"
+    ],
+    "icons": [
+     "car",
+     "warning",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "giubbotto",
+    "en": "vest, jacket"
+   },
+   {
+    "it": "bretelle retroriflettenti",
+    "en": "retroreflective braces"
+   },
+   {
+    "it": "in ogni caso",
+    "en": "in every case"
+   },
+   {
+    "it": "triangolo mobile di pericolo",
+    "en": "portable warning triangle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24012": {
+  "en": "The high-visibility retroreflective vest or braces can only be yellow.",
+  "explain": {
+   "short": "High-visibility vests and braces are not only yellow. Fluorescent orange or red ones are also allowed.",
+   "rule": "Outside towns, when you get out of a stopped vehicle on the road or emergency lane, you wear a high-visibility vest or braces so other drivers see you.",
+   "trap": "'solo' (only) is wrong: other bright colours are allowed too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not only yellow: orange or red also OK",
+    "it": "solo di colore giallo",
+    "lines": [
+     "Vest: fluorescent and reflective",
+     "Yellow, orange or red are allowed",
+     "'Only yellow' is wrong"
+    ],
+    "icons": [
+     "eye",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "alta visibilità",
+    "en": "high visibility"
+   },
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "giallo",
+    "en": "yellow"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24013": {
+  "en": "The high-visibility retroreflective vest also protects the driver from chemical risks, heat, fire and electricity.",
+  "explain": {
+   "short": "The vest only helps other drivers to see you. It is not protective clothing against chemicals, heat, fire or electricity.",
+   "rule": "Outside towns, when you get out of a stopped vehicle on the road or emergency lane, you wear a high-visibility vest or braces so other drivers see you.",
+   "trap": "'anche' (also) adds protections the vest does not give.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The vest only makes you visible",
+    "it": "protegge",
+    "lines": [
+     "Vest: makes you easy to see",
+     "No protection from fire or heat",
+     "No protection from chemicals or power"
+    ],
+    "icons": [
+     "eye",
+     "cross",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "protegge",
+    "en": "protects"
+   },
+   {
+    "it": "rischi chimici",
+    "en": "chemical risks"
+   },
+   {
+    "it": "calore, fuoco ed elettricità",
+    "en": "heat, fire and electricity"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24014": {
+  "en": "Inside the vehicle you must keep high-visibility retroreflective vests or braces, as many as the number of seats.",
+  "explain": {
+   "short": "The rule is for the driver who gets out on the road. You do not need one vest for every seat.",
+   "rule": "Outside towns, when you get out of a stopped vehicle on the road or emergency lane, you wear a high-visibility vest or braces so other drivers see you.",
+   "trap": "'in numero pari a quello dei posti' (as many as the seats) is wrong: the law does not ask for that.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No need for one vest per seat",
+    "it": "numero pari",
+    "lines": [
+     "Driver gets out on the road",
+     "The driver must wear the vest",
+     "Not one vest for every seat"
+    ],
+    "icons": [
+     "car",
+     "eye",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "All'interno del veicolo",
+    "en": "inside the vehicle"
+   },
+   {
+    "it": "in numero pari",
+    "en": "in the same number"
+   },
+   {
+    "it": "posti disponibili",
+    "en": "available seats"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24015": {
+  "en": "You must wear the high-visibility vest when you stop outside built-up areas, while the retroreflective braces must be worn in urban areas.",
+  "explain": {
+   "short": "Vest and braces are two equal options for the same rule. Both are for outside towns; braces are not a rule for urban areas.",
+   "rule": "Outside towns, when you get out of a stopped vehicle on the road or emergency lane, you wear a high-visibility vest or braces so other drivers see you.",
+   "trap": "The trap splits vest and braces by place ('aree urbane'): in fact they are alternatives for the same case.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Vest OR braces: same rule, outside towns",
+    "it": "bretelle retroriflettenti",
+    "lines": [
+     "Vest or braces: you choose one",
+     "Both are for outside towns",
+     "No special braces rule in towns"
+    ],
+    "icons": [
+     "eye",
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fuori dai centri abitati",
+    "en": "outside built-up areas"
+   },
+   {
+    "it": "bretelle retroriflettenti",
+    "en": "retroreflective braces"
+   },
+   {
+    "it": "aree urbane",
+    "en": "urban areas"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24016": {
+  "en": "The high-visibility retroreflective vest is used to ask passing drivers for help.",
+  "explain": {
+   "short": "The vest is not a signal for help. It makes you visible so that passing drivers do not hit you.",
+   "rule": "Outside towns, when you get out of a stopped vehicle on the road or emergency lane, you wear a high-visibility vest or braces so other drivers see you.",
+   "trap": "'serve per chiedere aiuto' (is for asking help) is wrong: its job is safety, being seen.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The vest is for being seen, not for help",
+    "it": "chiedere aiuto",
+    "lines": [
+     "Driver walks on the road",
+     "Vest makes him visible",
+     "It is not a help signal"
+    ],
+    "icons": [
+     "pedestrian",
+     "eye",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "serve per",
+    "en": "is used for"
+   },
+   {
+    "it": "chiedere aiuto",
+    "en": "ask for help"
+   },
+   {
+    "it": "in transito",
+    "en": "passing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24017": {
+  "en": "The high-visibility retroreflective vest is useful only when you have to change a punctured tyre.",
+  "explain": {
+   "short": "You need the vest every time you get out of the vehicle on the road outside towns: a breakdown, an accident, placing the triangle, not only for a flat tyre.",
+   "rule": "Outside towns, when you get out of a stopped vehicle on the road or emergency lane, you wear a high-visibility vest or braces so other drivers see you.",
+   "trap": "'solo' (only) is wrong: the tyre is just one example.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not only for a flat tyre",
+    "it": "solo",
+    "lines": [
+     "Breakdown, accident, placing the triangle",
+     "Flat tyre too",
+     "Always wear the vest on the road"
+    ],
+    "icons": [
+     "car",
+     "tyre",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "utile",
+    "en": "useful"
+   },
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "ruota forata",
+    "en": "punctured tyre"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24018": {
+  "en": "When driving behind a vehicle carrying a load in danger of falling, it is wise to increase the safe distance, especially uphill.",
+  "explain": {
+   "short": "If the load falls, you need space to stop. Uphill, things slide off the back more easily, so keep even more distance.",
+   "rule": "Behind an unstable or falling load: keep a longer safe distance, be ready to stop, warn the driver, and overtake only when it is safe.",
+   "trap": "'specie se si è in salita' (especially uphill) is right: uphill the load falls backwards, towards you.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Load may fall: keep more distance",
+    "it": "distanza di sicurezza",
+    "lines": [
+     "Truck ahead with a loose load",
+     "Keep a longer safe distance",
+     "Even more when going uphill"
+    ],
+    "icons": [
+     "truck",
+     "distance",
+     "hill"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carico in pericolo di cadere",
+    "en": "load in danger of falling"
+   },
+   {
+    "it": "aumentare la distanza di sicurezza",
+    "en": "increase the safe distance"
+   },
+   {
+    "it": "in salita",
+    "en": "uphill"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24019": {
+  "en": "When driving behind a vehicle with an unstable load, it is wise to increase the safe distance and to overtake it as soon as possible.",
+  "explain": {
+   "short": "Stay back to have time to react, and get past the danger as soon as you can do it safely.",
+   "rule": "Behind an unstable or falling load: keep a longer safe distance, be ready to stop, warn the driver, and overtake only when it is safe.",
+   "trap": "'appena possibile' (as soon as possible) means when it is safe and allowed, not at any cost.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stay back, then overtake when safe",
+    "it": "sorpassarlo appena possibile",
+    "lines": [
+     "Unstable load ahead",
+     "Keep a longer distance",
+     "Overtake as soon as it is safe"
+    ],
+    "icons": [
+     "truck",
+     "distance",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carico instabile",
+    "en": "unstable load"
+   },
+   {
+    "it": "distanza di sicurezza",
+    "en": "safe distance"
+   },
+   {
+    "it": "appena possibile",
+    "en": "as soon as possible"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24020": {
+  "en": "When driving behind a vehicle carrying a load that is about to fall, it is wise to warn the driver of the possible danger.",
+  "explain": {
+   "short": "The driver in front may not know the load is moving. Warning him (for example with a flash of the lights) can prevent an accident.",
+   "rule": "Behind an unstable or falling load: keep a longer safe distance, be ready to stop, warn the driver, and overtake only when it is safe.",
+   "trap": "'avvertire il conducente' (warn the driver) is a good, helpful action here.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Warn the driver about the falling load",
+    "it": "avvertire",
+    "lines": [
+     "Load about to fall off",
+     "The driver may not know",
+     "Warn him, e.g. flash the lights"
+    ],
+    "icons": [
+     "truck",
+     "warning",
+     "highbeam"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sta per cadere",
+    "en": "is about to fall"
+   },
+   {
+    "it": "avvertire il conducente",
+    "en": "warn the driver"
+   },
+   {
+    "it": "potenziale pericolo",
+    "en": "possible danger"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24021": {
+  "en": "When driving behind a vehicle with an unsafe load, it is better not to stay too close, so that you can stop in time if the goods fall.",
+  "explain": {
+   "short": "A larger gap gives you the time and space to stop before hitting fallen goods.",
+   "rule": "Behind an unstable or falling load: keep a longer safe distance, be ready to stop, warn the driver, and overtake only when it is safe.",
+   "trap": "'non stargli troppo vicino' (not too close) matches the rule of a longer safe distance.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not too close: room to stop",
+    "it": "non stargli troppo vicino",
+    "lines": [
+     "Unsafe load ahead",
+     "Do not follow too closely",
+     "You can stop in time if it falls"
+    ],
+    "icons": [
+     "truck",
+     "distance",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carico poco sicuro",
+    "en": "unsafe load"
+   },
+   {
+    "it": "non stargli troppo vicino",
+    "en": "not stay too close"
+   },
+   {
+    "it": "fermarsi in tempo",
+    "en": "stop in time"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24022": {
+  "en": "When driving behind a vehicle with an unstable load, you must be careful, above all when it brakes or turns, because the goods may fall.",
+  "explain": {
+   "short": "When a vehicle brakes or turns, its load moves. That is when an unstable load is most likely to fall.",
+   "rule": "Behind an unstable or falling load: keep a longer safe distance, be ready to stop, warn the driver, and overtake only when it is safe.",
+   "trap": "'soprattutto quando frena o svolta' (above all when it brakes or turns) is right: these moves shake the load.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Braking and turning can drop the load",
+    "it": "frena o svolta",
+    "lines": [
+     "Unstable load ahead",
+     "It brakes or turns: load moves",
+     "Be ready for falling goods"
+    ],
+    "icons": [
+     "truck",
+     "brake",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carico instabile",
+    "en": "unstable load"
+   },
+   {
+    "it": "frena o svolta",
+    "en": "brakes or turns"
+   },
+   {
+    "it": "caduta della merce",
+    "en": "falling goods"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24023": {
+  "en": "When driving behind a vehicle with a load sticking out, it may be hard to notice that it wants to turn, if the direction indicators are hidden by the hanging goods.",
+  "explain": {
+   "short": "Goods hanging off the back can cover the indicators. Then you may not see that the vehicle is about to turn.",
+   "rule": "Behind an unstable or falling load: keep a longer safe distance, be ready to stop, warn the driver, and overtake only when it is safe.",
+   "trap": "'può risultare difficile' (may be hard) is right: hidden indicators give no warning.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hanging load can hide the indicators",
+    "it": "carico sporgente",
+    "lines": [
+     "Load hangs over the back",
+     "It may cover the indicators",
+     "A turn can come without warning"
+    ],
+    "icons": [
+     "truck",
+     "indicator",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carico sporgente",
+    "en": "load sticking out"
+   },
+   {
+    "it": "indicatori di direzione",
+    "en": "direction indicators"
+   },
+   {
+    "it": "merce penzolante",
+    "en": "hanging goods"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24024": {
+  "en": "When driving behind a vehicle carrying a load that is about to fall, it is better to keep as close as possible to the left edge of the carriageway.",
+  "explain": {
+   "short": "Moving to the left edge puts you in the way of oncoming traffic and does not protect you. The right move is to keep a longer distance.",
+   "rule": "Behind an unstable or falling load: keep a longer safe distance, be ready to stop, warn the driver, and overtake only when it is safe.",
+   "trap": "'margine sinistro' (left edge) is the wrong answer: distance, not position, protects you.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Do not move to the left edge: keep distance",
+    "it": "margine sinistro",
+    "lines": [
+     "Load about to fall ahead",
+     "Left edge: oncoming traffic danger",
+     "Keep a longer distance instead"
+    ],
+    "icons": [
+     "truck",
+     "cross",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sta per cadere",
+    "en": "is about to fall"
+   },
+   {
+    "it": "il più vicino possibile",
+    "en": "as close as possible"
+   },
+   {
+    "it": "margine sinistro",
+    "en": "left edge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24025": {
+  "en": "When driving behind a vehicle carrying an unsafe load, it is better to move along the left edge of the carriageway.",
+  "explain": {
+   "short": "On the left you meet oncoming traffic. You must keep right and simply stay further back.",
+   "rule": "Behind an unstable or falling load: keep a longer safe distance, be ready to stop, warn the driver, and overtake only when it is safe.",
+   "trap": "'margine sinistro' (left edge) is wrong: you stay right and keep distance.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Keep right and stay back",
+    "it": "margine sinistro",
+    "lines": [
+     "Unsafe load ahead",
+     "Do not drive along the left edge",
+     "Stay right, keep a longer distance"
+    ],
+    "icons": [
+     "truck",
+     "cross",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carico poco sicuro",
+    "en": "unsafe load"
+   },
+   {
+    "it": "spostarsi",
+    "en": "move over"
+   },
+   {
+    "it": "margine sinistro",
+    "en": "left edge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24026": {
+  "en": "When driving behind a vehicle carrying a load that is about to fall, it is better to overtake it at once, even on a bend.",
+  "explain": {
+   "short": "Overtaking on a bend is dangerous because you cannot see oncoming traffic. Overtake only when it is safe.",
+   "rule": "Behind an unstable or falling load: keep a longer safe distance, be ready to stop, warn the driver, and overtake only when it is safe.",
+   "trap": "'anche se in curva' (even on a bend) makes it wrong: never overtake where you cannot see.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never overtake on a bend",
+    "it": "anche se in curva",
+    "lines": [
+     "Load about to fall ahead",
+     "Bend: you cannot see ahead",
+     "Wait, overtake only when safe"
+    ],
+    "icons": [
+     "truck",
+     "curve",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sorpassarlo subito",
+    "en": "overtake it at once"
+   },
+   {
+    "it": "anche se",
+    "en": "even if"
+   },
+   {
+    "it": "in curva",
+    "en": "on a bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24027": {
+  "en": "When driving behind a vehicle carrying a load that is about to fall, it is better to stop suddenly and move off again only when the other vehicles have passed us.",
+  "explain": {
+   "short": "A sudden stop can make the cars behind you crash into you. Just keep a longer distance.",
+   "rule": "Behind an unstable or falling load: keep a longer safe distance, be ready to stop, warn the driver, and overtake only when it is safe.",
+   "trap": "'arrestarsi bruscamente' (stop suddenly) is the danger: it causes rear-end crashes.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No sudden stop: keep distance",
+    "it": "arrestarsi bruscamente",
+    "lines": [
+     "Load about to fall ahead",
+     "Sudden stop: cars behind hit you",
+     "Slow down and keep distance"
+    ],
+    "icons": [
+     "truck",
+     "brake",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "arrestarsi bruscamente",
+    "en": "stop suddenly"
+   },
+   {
+    "it": "ripartendo",
+    "en": "moving off again"
+   },
+   {
+    "it": "superato",
+    "en": "passed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24028": {
+  "en": "When driving behind a vehicle carrying an unstable load, you must reduce the safe distance, so that other vehicles give up overtaking because there is not enough space.",
+  "explain": {
+   "short": "With an unstable load ahead you must INCREASE the distance, not reduce it. Blocking other drivers is not your job.",
+   "rule": "Behind an unstable or falling load: keep a longer safe distance, be ready to stop, warn the driver, and overtake only when it is safe.",
+   "trap": "'diminuire' (reduce) is the opposite of the rule.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Increase, never reduce, the distance",
+    "it": "diminuire la distanza",
+    "lines": [
+     "Unstable load ahead",
+     "Reduce distance? No!",
+     "Increase the safe distance"
+    ],
+    "icons": [
+     "truck",
+     "cross",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carico instabile",
+    "en": "unstable load"
+   },
+   {
+    "it": "diminuire la distanza di sicurezza",
+    "en": "reduce the safe distance"
+   },
+   {
+    "it": "rinuncino al sorpasso",
+    "en": "give up overtaking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24029": {
+  "en": "Towing a trailer on roads with steep climbs makes the engine coolant temperature rise.",
+  "explain": {
+   "short": "Pulling extra weight uphill makes the engine work harder, so it gets hotter. Keep an eye on the temperature.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'fa aumentare la temperatura' (makes the temperature rise) is correct: more effort, more heat.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Trailer + climb = hotter engine",
+    "it": "liquido di raffreddamento",
+    "lines": [
+     "Car towing a trailer",
+     "Steep climb: engine works harder",
+     "Coolant gets hotter: watch it"
+    ],
+    "icons": [
+     "car",
+     "hill",
+     "engine"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rimorchio",
+    "en": "trailer"
+   },
+   {
+    "it": "forti salite",
+    "en": "steep climbs"
+   },
+   {
+    "it": "liquido di raffreddamento",
+    "en": "coolant"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24030": {
+  "en": "If you tow a trailer, the braking distance increases.",
+  "explain": {
+   "short": "The trailer adds weight, so the car needs more road to stop. Keep a longer safe distance.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'aumenta' (increases) is right: more mass, longer stop.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Trailer = longer braking distance",
+    "it": "spazio di frenatura",
+    "lines": [
+     "Car with a trailer",
+     "More weight to stop",
+     "Longer braking distance"
+    ],
+    "icons": [
+     "car",
+     "brake",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "traina",
+    "en": "tows"
+   },
+   {
+    "it": "rimorchio",
+    "en": "trailer"
+   },
+   {
+    "it": "spazio di frenatura",
+    "en": "braking distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24031": {
+  "en": "When towing a light trailer, you must consider that the overturning force of the wind is greater.",
+  "explain": {
+   "short": "A light trailer is easy for side wind to push and even tip over. Drive slower when it is windy.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'leggero' (light) is the key: less weight, more effect of the wind.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Light trailer: wind pushes it more",
+    "it": "forza ribaltante",
+    "lines": [
+     "Car with a light trailer",
+     "Strong side wind",
+     "Light trailer can tip: slow down"
+    ],
+    "icons": [
+     "car",
+     "wind",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rimorchio leggero",
+    "en": "light trailer"
+   },
+   {
+    "it": "forza ribaltante",
+    "en": "overturning force"
+   },
+   {
+    "it": "vento",
+    "en": "wind"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24032": {
+  "en": "For greater safety, it is advisable to arrange the load in the trailer so that heavy objects are as close as possible to its axle.",
+  "explain": {
+   "short": "Heavy things over the trailer's axle keep it balanced and stable. Not at the front, not at the back.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'il più vicino possibile al suo asse' (as close as possible to its axle) is the correct way to load.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Heavy items over the trailer's axle",
+    "it": "asse",
+    "lines": [
+     "Loading a trailer",
+     "Heavy items over the axle",
+     "The trailer stays stable"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carico",
+    "en": "load"
+   },
+   {
+    "it": "oggetti pesanti",
+    "en": "heavy objects"
+   },
+   {
+    "it": "asse",
+    "en": "axle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24033": {
+  "en": "When driving a vehicle with a trailer, on a right turn you must take special care not to drive the rear wheel onto the pavement.",
+  "explain": {
+   "short": "In a turn the trailer's wheels follow a tighter line than the car. On a right turn they can cut the corner and climb the pavement.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'ruota posteriore' (rear wheel) is right: the back wheels cut inside the curve.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right turn: trailer wheels cut the corner",
+    "it": "marciapiede",
+    "lines": [
+     "Car with trailer turns right",
+     "Trailer wheels take a tighter line",
+     "Turn wider: keep off the pavement"
+    ],
+    "icons": [
+     "car",
+     "curve",
+     "pedestrian"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "svoltare a destra",
+    "en": "turn right"
+   },
+   {
+    "it": "ruota posteriore",
+    "en": "rear wheel"
+   },
+   {
+    "it": "marciapiede",
+    "en": "pavement"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24034": {
+  "en": "When a broken-down vehicle with power steering is towed, turning the steering wheel may be hard work.",
+  "explain": {
+   "short": "Power steering works with the engine running. If the broken car's engine is off, the steering wheel is much heavier.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'faticoso' (hard work) is right; heavy, but it still turns.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Towed car: power steering off = heavy wheel",
+    "it": "servosterzo",
+    "lines": [
+     "Broken car being towed",
+     "Engine off: no power steering",
+     "Steering is heavy, not blocked"
+    ],
+    "icons": [
+     "car",
+     "engine",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo guasto",
+    "en": "broken-down vehicle"
+   },
+   {
+    "it": "servosterzo",
+    "en": "power steering"
+   },
+   {
+    "it": "faticoso",
+    "en": "hard work, tiring"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24035": {
+  "en": "Before towing a trailer, you should make sure that the lighting and signalling systems work properly.",
+  "explain": {
+   "short": "The trailer's lights show your braking and turning to drivers behind. Check them all before you leave.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'è opportuno accertarsi' (you should make sure) is right: a quick check before every trip.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Check the trailer's lights first",
+    "it": "impianti di illuminazione",
+    "lines": [
+     "Trailer hitched to the car",
+     "Test brake lights and indicators",
+     "All working: you can leave"
+    ],
+    "icons": [
+     "car",
+     "light",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "trainare un rimorchio",
+    "en": "tow a trailer"
+   },
+   {
+    "it": "accertarsi",
+    "en": "make sure"
+   },
+   {
+    "it": "impianti di illuminazione e di segnalazione",
+    "en": "lighting and signalling systems"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24036": {
+  "en": "Before starting to tow a trailer, you must check in the rear-view mirrors that visibility is adequate.",
+  "explain": {
+   "short": "A trailer can block your view behind. Adjust and check the mirrors (or add extra mirrors) before you set off.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'visibilità sia adeguata' (visibility is adequate) is right: you must see behind the trailer.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Check you can see behind the trailer",
+    "it": "specchi retrovisori",
+    "lines": [
+     "Trailer may block the rear view",
+     "Check the mirrors before leaving",
+     "You must see behind clearly"
+    ],
+    "icons": [
+     "car",
+     "mirror",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "specchi retrovisori",
+    "en": "rear-view mirrors"
+   },
+   {
+    "it": "visibilità",
+    "en": "visibility"
+   },
+   {
+    "it": "adeguata",
+    "en": "adequate"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24037": {
+  "en": "When trailers are unhitched from the towing vehicle, they must have insurance cover that is valid also for the static risk (when standing still).",
+  "explain": {
+   "short": "A trailer parked on its own can still cause damage, for example if it rolls away. So it needs its own insurance also when it stands still.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'rischio statico (da fermo)' (static risk, standing still) is the key: insurance covers it too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Unhitched trailer: insured even when still",
+    "it": "rischio statico",
+    "lines": [
+     "Trailer unhitched and parked",
+     "It can still cause damage",
+     "Insurance must cover it standing still"
+    ],
+    "icons": [
+     "car",
+     "money",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "staccati dalla motrice",
+    "en": "unhitched from the towing vehicle"
+   },
+   {
+    "it": "copertura assicurativa",
+    "en": "insurance cover"
+   },
+   {
+    "it": "rischio statico",
+    "en": "static risk"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24038": {
+  "en": "Trailers towed by cars usually have an inertia brake.",
+  "explain": {
+   "short": "An inertia brake (freno ad inerzia) works by itself: when the car slows, the trailer pushes on the hitch and its brakes come on.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'in genere' (usually) is right: most car trailers have it, but very light ones may not.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Car trailers usually have an inertia brake",
+    "it": "freno ad inerzia",
+    "lines": [
+     "Car slows down",
+     "Trailer pushes on the hitch",
+     "Its inertia brake comes on"
+    ],
+    "icons": [
+     "car",
+     "brake",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in genere",
+    "en": "usually"
+   },
+   {
+    "it": "freno ad inerzia",
+    "en": "inertia brake (overrun brake)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24039": {
+  "en": "Trailers must have their own number plate.",
+  "explain": {
+   "short": "A trailer is a vehicle on its own and is registered, so it carries its own plate.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'targa propria' (own plate) is right: it is not the car's plate.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A trailer has its own plate",
+    "it": "targa propria",
+    "lines": [
+     "A trailer is a vehicle too",
+     "It is registered",
+     "It has its own number plate"
+    ],
+    "icons": [
+     "car",
+     "book",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rimorchi",
+    "en": "trailers"
+   },
+   {
+    "it": "targa propria",
+    "en": "own number plate"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24040": {
+  "en": "For more safety when driving a vehicle with a trailer, it is advisable to concentrate the maximum load at the tow hook.",
+  "explain": {
+   "short": "Too much weight on the hook overloads the car's rear and makes steering and braking worse. Put heavy items over the trailer's axle.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'in corrispondenza del gancio di traino' (at the tow hook) is the wrong place.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Heavy load over the axle, not on the hook",
+    "it": "gancio di traino",
+    "lines": [
+     "Max load on the tow hook? No",
+     "Car rear overloaded: bad handling",
+     "Put heavy items over the axle"
+    ],
+    "icons": [
+     "car",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carico massimo",
+    "en": "maximum load"
+   },
+   {
+    "it": "gancio di traino",
+    "en": "tow hook"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24041": {
+  "en": "To tow a trailer, you do not need to make the electrical connection between the towing vehicle and the trailer.",
+  "explain": {
+   "short": "The electrical connection powers the trailer's lights: brake lights, indicators, rear lights. It is always needed.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'non occorre' (is not needed) is wrong: without it the trailer has no lights.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Electrical connection is always needed",
+    "it": "collegamento elettrico",
+    "lines": [
+     "Plug the trailer into the car",
+     "It powers lights and indicators",
+     "Always needed"
+    ],
+    "icons": [
+     "car",
+     "light",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non occorre",
+    "en": "is not needed"
+   },
+   {
+    "it": "collegamento elettrico",
+    "en": "electrical connection"
+   },
+   {
+    "it": "motrice",
+    "en": "towing vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24042": {
+  "en": "To drive a car that tows a broken-down vehicle with a driver on board, you need a Category E driving licence.",
+  "explain": {
+   "short": "Towing a broken-down vehicle is an emergency, not driving with a trailer. A normal Category B licence is enough.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'categoria E' is wrong: E is for real trailers, not for towing a broken car.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Towing a broken car: Category B is enough",
+    "it": "categoria E",
+    "lines": [
+     "Car tows a broken-down car",
+     "Not a trailer: B licence is enough",
+     "No E licence needed"
+    ],
+    "icons": [
+     "car",
+     "book",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo guasto",
+    "en": "broken-down vehicle"
+   },
+   {
+    "it": "con conducente a bordo",
+    "en": "with a driver on board"
+   },
+   {
+    "it": "categoria E",
+    "en": "Category E"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24043": {
+  "en": "The driver on board a broken-down vehicle that is being towed may have no driving licence.",
+  "explain": {
+   "short": "The person in the towed car still steers and brakes it, so they must hold a driving licence.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'può essere privo di patente' (may have no licence) is wrong: a licence is required.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The towed car's driver needs a licence",
+    "it": "privo di patente",
+    "lines": [
+     "Broken car being towed",
+     "Its driver steers and brakes",
+     "He must have a licence"
+    ],
+    "icons": [
+     "car",
+     "book",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo guasto",
+    "en": "broken-down vehicle"
+   },
+   {
+    "it": "viene trainato",
+    "en": "is being towed"
+   },
+   {
+    "it": "privo di patente",
+    "en": "without a licence"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24044": {
+  "en": "If a broken-down vehicle is towed with all four wheels on the ground, you must put the gearbox in fourth gear.",
+  "explain": {
+   "short": "A towed car must have the gearbox in neutral, so the wheels turn freely. A gear engaged would drag the engine.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'quarta marcia' (fourth gear) is wrong: the correct position is neutral (folle).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Towed car: gearbox in neutral",
+    "it": "quarta marcia",
+    "lines": [
+     "Broken car towed on four wheels",
+     "Gearbox in neutral (folle)",
+     "No gear engaged"
+    ],
+    "icons": [
+     "car",
+     "engine",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "quattro ruote al suolo",
+    "en": "four wheels on the ground"
+   },
+   {
+    "it": "quarta marcia",
+    "en": "fourth gear"
+   },
+   {
+    "it": "cambio di velocità",
+    "en": "gearbox"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24045": {
+  "en": "A vehicle's towing parts do not need to be lubricated regularly.",
+  "explain": {
+   "short": "The hook and towing parts move and wear. They must be greased regularly to work well and safely.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'non devono' (must not / need not) is wrong: regular greasing is needed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Tow parts need regular greasing",
+    "it": "lubrificati",
+    "lines": [
+     "Tow hook and parts",
+     "They move and wear",
+     "Grease them regularly"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "organi di traino",
+    "en": "towing parts"
+   },
+   {
+    "it": "periodicamente",
+    "en": "regularly"
+   },
+   {
+    "it": "lubrificati",
+    "en": "lubricated"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24046": {
+  "en": "A vehicle's towing parts may be non-approved, as long as the trailers towed weigh less than 750 kilograms.",
+  "explain": {
+   "short": "The tow hook must always be approved (omologato), whatever the weight of the trailer. The 750 kg figure does not change this.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'possono non essere omologati' (may be non-approved) is wrong; '750 chilogrammi' is a distractor.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Tow hook must always be approved",
+    "it": "omologati",
+    "lines": [
+     "Tow hook on the car",
+     "Must always be approved",
+     "Even for light trailers"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "organi di traino",
+    "en": "towing parts"
+   },
+   {
+    "it": "omologati",
+    "en": "approved, type-approved"
+   },
+   {
+    "it": "750 chilogrammi",
+    "en": "750 kilograms"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24047": {
+  "en": "If you tow a broken-down vehicle with power steering, the steering will always be locked.",
+  "explain": {
+   "short": "Without the engine, power steering does not help, so the wheel is heavy. But it is not locked: you can still steer.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'sempre bloccato' (always locked) is wrong: it is hard to turn, not locked.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Heavy steering, but not locked",
+    "it": "sempre bloccato",
+    "lines": [
+     "Broken car with power steering",
+     "Engine off: steering is heavy",
+     "But it still turns"
+    ],
+    "icons": [
+     "car",
+     "engine",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo guasto",
+    "en": "broken-down vehicle"
+   },
+   {
+    "it": "servosterzo",
+    "en": "power steering"
+   },
+   {
+    "it": "sempre bloccato",
+    "en": "always locked"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24048": {
+  "en": "When towing a trailer on steep descents, you do not need to consider the pushing force of the trailer on the towing vehicle.",
+  "explain": {
+   "short": "Downhill the trailer pushes the car forward. You must slow down, use a low gear and brake earlier.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'non occorre tener conto' (no need to consider) is wrong: the push is a real danger.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Downhill the trailer pushes the car",
+    "it": "forza di spinta",
+    "lines": [
+     "Steep descent with a trailer",
+     "The trailer pushes the car",
+     "Low gear, slow, brake early"
+    ],
+    "icons": [
+     "car",
+     "hill",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "forti discese",
+    "en": "steep descents"
+   },
+   {
+    "it": "forza di spinta",
+    "en": "pushing force"
+   },
+   {
+    "it": "motrice",
+    "en": "towing vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24049": {
+  "en": "To tow a light trailer, you do not need to make the electrical connection.",
+  "explain": {
+   "short": "Even a light trailer needs lights and indicators that work. The electrical connection is always needed.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'leggero' (light) changes nothing: 'non occorre' is wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Light trailer: still connect the lights",
+    "it": "collegamento elettrico",
+    "lines": [
+     "Light trailer",
+     "Still needs lights and indicators",
+     "Electrical connection always"
+    ],
+    "icons": [
+     "car",
+     "light",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rimorchio leggero",
+    "en": "light trailer"
+   },
+   {
+    "it": "non occorre",
+    "en": "is not needed"
+   },
+   {
+    "it": "collegamento elettrico",
+    "en": "electrical connection"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24050": {
+  "en": "When you tow a broken-down vehicle, the distance between the two vehicles must be at least 3 metres.",
+  "explain": {
+   "short": "The rules set a maximum length for the tow link, not a minimum of 3 metres. The link must be short and well visible.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'almeno 3 metri' (at least 3 metres) is wrong: the rule is about a maximum, not a minimum.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No minimum of 3 m between the vehicles",
+    "it": "almeno 3 metri",
+    "lines": [
+     "Car tows a broken-down car",
+     "The tow link has a maximum length",
+     "No '3 m minimum' rule"
+    ],
+    "icons": [
+     "car",
+     "distance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo guasto",
+    "en": "broken-down vehicle"
+   },
+   {
+    "it": "almeno",
+    "en": "at least"
+   },
+   {
+    "it": "3 metri",
+    "en": "3 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24051": {
+  "en": "When towing a trailer, you must consider that in tight bends the swept width (the space taken) is smaller.",
+  "explain": {
+   "short": "With a trailer the space needed in a tight bend is LARGER, because the trailer cuts inside the curve.",
+   "rule": "A trailer changes how the car brakes, turns and climbs. Load it well, connect its lights, and know the rules for towing a broken-down car.",
+   "trap": "'minore' (smaller) is wrong: it is bigger ('maggiore').",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Tight bend + trailer = more space needed",
+    "it": "fascia di ingombro",
+    "lines": [
+     "Car with trailer in a tight bend",
+     "The trailer cuts inside",
+     "It needs MORE space, not less"
+    ],
+    "icons": [
+     "car",
+     "curve",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "curve strette",
+    "en": "tight bends"
+   },
+   {
+    "it": "fascia di ingombro",
+    "en": "swept width, space taken"
+   },
+   {
+    "it": "minore",
+    "en": "smaller"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24052": {
+  "en": "The number of people that vehicles may carry is shown on the registration document.",
+  "explain": {
+   "short": "The registration document (carta di circolazione) lists the seats, so it tells you how many people you may carry.",
+   "rule": "The registration document (carta di circolazione) shows the number of seats, driver included. A car has at most 9 seats.",
+   "trap": "'carta di circolazione' is the right document: not the licence, not the insurance.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Seats are written on the carta di circolazione",
+    "it": "carta di circolazione",
+    "lines": [
+     "Open the registration document",
+     "It shows the number of seats",
+     "That is how many people you may carry"
+    ],
+    "icons": [
+     "book",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "persone trasportabili",
+    "en": "people that may be carried"
+   },
+   {
+    "it": "carta di circolazione",
+    "en": "registration document"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24053": {
+  "en": "The number of seats of a vehicle is shown on the registration document.",
+  "explain": {
+   "short": "Each vehicle's registration document (carta di circolazione) states how many seats it has, driver included.",
+   "rule": "The registration document (carta di circolazione) shows the number of seats, driver included. A car has at most 9 seats.",
+   "trap": "'numero dei posti' (number of seats) is exactly what the document shows.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Seats are written on the carta di circolazione",
+    "it": "numero dei posti",
+    "lines": [
+     "Registration document",
+     "Number of seats, driver included",
+     "Never carry more people"
+    ],
+    "icons": [
+     "book",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "numero dei posti",
+    "en": "number of seats"
+   },
+   {
+    "it": "carta di circolazione",
+    "en": "registration document"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24055": {
+  "en": "The maximum number of seats in cars is nine, including the driver's seat.",
+  "explain": {
+   "short": "A car (autovettura) can have at most 9 seats, counting the driver. Bigger vehicles for people are buses.",
+   "rule": "The registration document (carta di circolazione) shows the number of seats, driver included. A car has at most 9 seats.",
+   "trap": "'compreso quello del conducente' (including the driver's) is right: 9 in total.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Car: max 9 seats, driver included",
+    "it": "nove",
+    "lines": [
+     "Car (autovettura)",
+     "At most 9 seats",
+     "The driver's seat is included"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "seatbelt"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "numero massimo di posti",
+    "en": "maximum number of seats"
+   },
+   {
+    "it": "autovetture",
+    "en": "cars"
+   },
+   {
+    "it": "compreso quello del conducente",
+    "en": "including the driver's"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24056": {
+  "en": "The number of people that cars may carry can be at most nine, including the driver.",
+  "explain": {
+   "short": "A car has at most 9 seats, and the driver counts as one of them.",
+   "rule": "The registration document (carta di circolazione) shows the number of seats, driver included. A car has at most 9 seats.",
+   "trap": "'al massimo di nove, compreso il conducente' (at most nine, driver included) is right.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Car: max 9 people, driver included",
+    "it": "al massimo di nove",
+    "lines": [
+     "Car (autovettura)",
+     "Max 9 people",
+     "Driver counted"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "seatbelt"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autovetture",
+    "en": "cars"
+   },
+   {
+    "it": "al massimo",
+    "en": "at most"
+   },
+   {
+    "it": "compreso il conducente",
+    "en": "including the driver"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24057": {
+  "en": "The number of people that motorcycles may carry is always two, besides the driver.",
+  "explain": {
+   "short": "A motorcycle can carry at most one passenger, and only if the registration document allows it. Never two, and not 'always'.",
+   "rule": "The registration document (carta di circolazione) shows the number of seats, driver included. A car has at most 9 seats.",
+   "trap": "'sempre di due' (always two) is wrong: the maximum is one passenger.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Motorcycle: at most 1 passenger",
+    "it": "sempre di due",
+    "lines": [
+     "Motorcycle",
+     "At most one passenger",
+     "Only if the document allows it"
+    ],
+    "icons": [
+     "moto",
+     "book",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   },
+   {
+    "it": "sempre",
+    "en": "always"
+   },
+   {
+    "it": "oltre il conducente",
+    "en": "besides the driver"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24058": {
+  "en": "The number of people that cars may carry is at most four.",
+  "explain": {
+   "short": "Cars can have up to 9 seats, driver included. The real number is on the registration document.",
+   "rule": "The registration document (carta di circolazione) shows the number of seats, driver included. A car has at most 9 seats.",
+   "trap": "'al massimo di quattro' (at most four) is wrong: the limit is nine.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Cars: up to 9, not 4",
+    "it": "al massimo di quattro",
+    "lines": [
+     "Car (autovettura)",
+     "Up to 9 seats, driver included",
+     "Check the registration document"
+    ],
+    "icons": [
+     "car",
+     "book",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autovetture",
+    "en": "cars"
+   },
+   {
+    "it": "al massimo di quattro",
+    "en": "at most four"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24059": {
+  "en": "The number of people that trucks may carry is always five, including the driver.",
+  "explain": {
+   "short": "There is no fixed number for trucks. Each truck's registration document shows its own number of seats.",
+   "rule": "The registration document (carta di circolazione) shows the number of seats, driver included. A car has at most 9 seats.",
+   "trap": "'sempre di cinque' (always five) is wrong: it depends on the vehicle.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Trucks: seats as on the document",
+    "it": "sempre di cinque",
+    "lines": [
+     "Truck",
+     "No fixed number of seats",
+     "Read the registration document"
+    ],
+    "icons": [
+     "truck",
+     "book",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarri",
+    "en": "trucks"
+   },
+   {
+    "it": "sempre",
+    "en": "always"
+   },
+   {
+    "it": "compreso il conducente",
+    "en": "including the driver"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24060": {
+  "en": "The number of people that a vehicle may carry, shown on the registration document, does not include the driver.",
+  "explain": {
+   "short": "The number on the registration document counts all seats, the driver's seat too.",
+   "rule": "The registration document (carta di circolazione) shows the number of seats, driver included. A car has at most 9 seats.",
+   "trap": "'non comprende il conducente' (does not include the driver) is wrong: the driver is included.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The number includes the driver",
+    "it": "non comprende il conducente",
+    "lines": [
+     "Registration document",
+     "Number of seats",
+     "The driver is included"
+    ],
+    "icons": [
+     "book",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carta di circolazione",
+    "en": "registration document"
+   },
+   {
+    "it": "non comprende",
+    "en": "does not include"
+   },
+   {
+    "it": "conducente",
+    "en": "driver"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24061": {
+  "en": "The panel shown must be placed at the end of the load that sticks out behind the vehicle.",
+  "explain": {
+   "short": "The panel marks the very end of the overhanging load, so drivers behind see where it really ends.",
+   "rule": "The red-white striped panel marks a load sticking out at the back. It is retroreflective and goes at the end of the load.",
+   "trap": "'all'estremità del carico' (at the end of the load) is right: not on the vehicle body.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Panel at the end of the overhanging load",
+    "it": "estremità del carico",
+    "lines": [
+     "Load sticks out at the back",
+     "Panel at the very end of the load"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "estremità del carico",
+    "en": "end of the load"
+   },
+   {
+    "it": "sporge dietro",
+    "en": "sticks out behind"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24062": {
+  "en": "The panel shown signals loads that stick out from the rear of the vehicle.",
+  "explain": {
+   "short": "This red and white striped panel tells drivers behind that the load sticks out beyond the back of the vehicle.",
+   "rule": "The red-white striped panel marks a load sticking out at the back. It is retroreflective and goes at the end of the load.",
+   "trap": "'parte posteriore' (rear) is right: the panel is for rear overhangs.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It marks a load sticking out at the back",
+    "it": "carichi che sporgono",
+    "lines": [
+     "Red-white striped square panel",
+     "Load sticks out at the rear"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "carichi che sporgono",
+    "en": "loads sticking out"
+   },
+   {
+    "it": "parte posteriore",
+    "en": "rear"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24063": {
+  "en": "The panel shown must be retroreflective.",
+  "explain": {
+   "short": "Retroreflective means it shines back in headlights. So drivers see the load at night too.",
+   "rule": "The red-white striped panel marks a load sticking out at the back. It is retroreflective and goes at the end of the load.",
+   "trap": "'retroriflettente' (retroreflective) is right: it must be seen in the dark.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The panel must reflect light",
+    "it": "retroriflettente",
+    "lines": [
+     "Panel on an overhanging load",
+     "Retroreflective: seen at night too"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "retroriflettente",
+    "en": "retroreflective"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24064": {
+  "en": "The panel shown is used when the load sticks out behind the vehicle, even by only a little.",
+  "explain": {
+   "short": "Any load that sticks out at the back needs the panel, even a short overhang.",
+   "rule": "The red-white striped panel marks a load sticking out at the back. It is retroreflective and goes at the end of the load.",
+   "trap": "'anche se di poco' (even by a little) is right: there is no minimum.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Even a small rear overhang needs the panel",
+    "it": "anche se di poco",
+    "lines": [
+     "Load sticks out a little at the back",
+     "The panel is still needed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "sporga dietro",
+    "en": "sticks out behind"
+   },
+   {
+    "it": "anche se di poco",
+    "en": "even by a little"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24065": {
+  "en": "The panel shown can be put on broken-down vehicles when they are towed and the hazard lights do not work.",
+  "explain": {
+   "short": "If a towed broken-down vehicle cannot use its hazard lights, this panel can mark its back so drivers behind see it.",
+   "rule": "The red-white striped panel marks a load sticking out at the back. It is retroreflective and goes at the end of the load.",
+   "trap": "'può' (can) is right: it is an allowed option when hazard lights do not work.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Also for a towed car without hazard lights",
+    "it": "veicoli guasti",
+    "lines": [
+     "Broken car towed, no hazard lights",
+     "The panel can mark its back"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicoli guasti",
+    "en": "broken-down vehicles"
+   },
+   {
+    "it": "vengono trainati",
+    "en": "are towed"
+   },
+   {
+    "it": "luci di emergenza",
+    "en": "hazard lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24066": {
+  "en": "The panel shown must be fixed at the end of the load sticking out from the vehicle, so that it is always clearly visible.",
+  "explain": {
+   "short": "The panel only works if drivers behind can see it, so it goes at the end of the load in plain view.",
+   "rule": "The red-white striped panel marks a load sticking out at the back. It is retroreflective and goes at the end of the load.",
+   "trap": "'sempre ben visibile' (always clearly visible) is right: it must not be hidden.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At the load's end, always visible",
+    "it": "sempre ben visibile",
+    "lines": [
+     "Panel at the end of the load",
+     "Always clearly visible"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "estremità del carico sporgente",
+    "en": "end of the overhanging load"
+   },
+   {
+    "it": "sempre ben visibile",
+    "en": "always clearly visible"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24067": {
+  "en": "The panel shown asks drivers behind the vehicle it is fixed on to drive with special care.",
+  "explain": {
+   "short": "The panel warns that a load sticks out at the back. Drivers behind must keep their distance and be careful.",
+   "rule": "The red-white striped panel marks a load sticking out at the back. It is retroreflective and goes at the end of the load.",
+   "trap": "'particolare prudenza' (special care) is right: that is the message of the panel.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Drivers behind: be careful",
+    "it": "particolare prudenza",
+    "lines": [
+     "Load sticks out at the back",
+     "Drivers behind: keep distance, be careful"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "invita",
+    "en": "asks"
+   },
+   {
+    "it": "stanno dietro",
+    "en": "are behind"
+   },
+   {
+    "it": "particolare prudenza",
+    "en": "special care"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24068": {
+  "en": "The panel shown is used only if the load sticks out by more than three tenths of the vehicle's length.",
+  "explain": {
+   "short": "The panel is needed for ANY rear overhang, even a small one. Three tenths (3/10) is the maximum a load may stick out, not the starting point for the panel.",
+   "rule": "The red-white striped panel marks a load sticking out at the back. It is retroreflective and goes at the end of the load.",
+   "trap": "'solo se ... oltre tre decimi' (only if more than 3/10) is wrong: the panel is needed even for a little.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Panel for any rear overhang, not only over 3/10",
+    "it": "tre decimi",
+    "lines": [
+     "Any load sticking out at the back",
+     "Panel needed, even a little"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "tre decimi",
+    "en": "three tenths"
+   },
+   {
+    "it": "lunghezza del veicolo",
+    "en": "length of the vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24069": {
+  "en": "The panel shown must also be placed on the side, when the load sticks out beyond the vehicle's width.",
+  "explain": {
+   "short": "This panel is for loads that stick out at the BACK. It is not a side signal.",
+   "rule": "The red-white striped panel marks a load sticking out at the back. It is retroreflective and goes at the end of the load.",
+   "trap": "'anche di lato' (also on the side) is wrong: the panel is only for the rear.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Rear only, not on the side",
+    "it": "di lato",
+    "lines": [
+     "Panel: for loads sticking out behind",
+     "It is not used on the sides"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "di lato",
+    "en": "on the side"
+   },
+   {
+    "it": "sporge",
+    "en": "sticks out"
+   },
+   {
+    "it": "larghezza del veicolo",
+    "en": "width of the vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24070": {
+  "en": "The panel shown identifies trucks specialised in carrying building materials.",
+  "explain": {
+   "short": "The panel is not a label for a type of truck. It marks any load sticking out at the back.",
+   "rule": "The red-white striped panel marks a load sticking out at the back. It is retroreflective and goes at the end of the load.",
+   "trap": "'identifica gli autocarri specializzati' (identifies special trucks) is wrong: it is about the load, not the truck.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It marks an overhanging load, not a truck type",
+    "it": "materiali da costruzione",
+    "lines": [
+     "Not a label for a type of truck",
+     "It marks a load sticking out behind"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "identifica",
+    "en": "identifies"
+   },
+   {
+    "it": "autocarri specializzati",
+    "en": "specialised trucks"
+   },
+   {
+    "it": "materiali da costruzione",
+    "en": "building materials"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24071": {
+  "en": "The panel shown must be placed on vehicles that carry rubbish.",
+  "explain": {
+   "short": "Rubbish trucks do not need this panel just because of what they carry. It is only for loads sticking out at the back.",
+   "rule": "The red-white striped panel marks a load sticking out at the back. It is retroreflective and goes at the end of the load.",
+   "trap": "'spazzatura' (rubbish) has nothing to do with this panel.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not for rubbish trucks: for rear overhangs",
+    "it": "spazzatura",
+    "lines": [
+     "Not linked to the type of goods",
+     "Only for loads sticking out behind"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "va messo",
+    "en": "must be placed"
+   },
+   {
+    "it": "trasportano",
+    "en": "carry"
+   },
+   {
+    "it": "spazzatura",
+    "en": "rubbish"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24072": {
+  "en": "The panel shown must be placed on vehicles only if the load sticks out by at least 50 centimetres.",
+  "explain": {
+   "short": "There is no minimum: the panel is needed even if the load sticks out only a little. 50 cm is the size of the panel's side, not an overhang limit.",
+   "rule": "The red-white striped panel marks a load sticking out at the back. It is retroreflective and goes at the end of the load.",
+   "trap": "'solo se ... almeno 50 centimetri' (only if at least 50 cm) is wrong: even a little overhang needs it.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No minimum overhang for the panel",
+    "it": "almeno 50 centimetri",
+    "lines": [
+     "Load sticks out even a little",
+     "Panel needed: no 50 cm minimum"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "almeno",
+    "en": "at least"
+   },
+   {
+    "it": "50 centimetri",
+    "en": "50 centimetres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24073": {
+  "en": "The panel shown must be placed on the back of all trucks.",
+  "explain": {
+   "short": "The panel is needed only when a load sticks out at the back, not on every truck.",
+   "rule": "The red-white striped panel marks a load sticking out at the back. It is retroreflective and goes at the end of the load.",
+   "trap": "'tutti gli autocarri' (all trucks) is wrong: only vehicles with an overhanging load.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not on all trucks: only with rear overhang",
+    "it": "tutti gli autocarri",
+    "lines": [
+     "Truck without overhang: no panel",
+     "Load sticks out behind: panel"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "va messo dietro",
+    "en": "goes at the back"
+   },
+   {
+    "it": "tutti gli autocarri",
+    "en": "all trucks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24074": {
+  "en": "The panel shown can be replaced by a red flag measuring 50x50 centimetres.",
+  "explain": {
+   "short": "Only this retroreflective striped panel is valid. A red flag cannot replace it.",
+   "rule": "The red-white striped panel marks a load sticking out at the back. It is retroreflective and goes at the end of the load.",
+   "trap": "'bandiera di colore rosso' (red flag) is wrong: the 50x50 size belongs to the panel itself.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No red flag: only the striped panel",
+    "it": "bandiera di colore rosso",
+    "lines": [
+     "Only the retroreflective striped panel",
+     "A red flag is not allowed instead"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "può essere sostituito",
+    "en": "can be replaced"
+   },
+   {
+    "it": "bandiera",
+    "en": "flag"
+   },
+   {
+    "it": "50x50 centimetri",
+    "en": "50x50 centimetres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

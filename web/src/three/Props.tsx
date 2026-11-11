@@ -288,6 +288,22 @@ function Label({ world, x, y, text, clock, t0 = 0, big }: { world: World; x: num
   return null
 }
 
+/** A junction with arms at any angle (deg, 0 = up the road): a round asphalt centre plus straight arms with a dashed middle line. */
+function Radial({ world, arms }: { world: World; arms: number[] }) {
+  const c = world.to3(180, 210)
+  return (
+    <group position={[c.x, 0, c.z]}>
+      <mesh rotation-x={-Math.PI / 2} position={[0, .012, 0]} receiveShadow><circleGeometry args={[6, 48]} /><meshStandardMaterial color="#3a3f4a" roughness={.92} /></mesh>
+      {arms.map(a => (
+        <group key={a} rotation-y={-a * Math.PI / 180}>
+          <mesh rotation-x={-Math.PI / 2} position={[0, .01, -12]} receiveShadow><planeGeometry args={[5.2, 24]} /><meshStandardMaterial color="#3a3f4a" roughness={.92} /></mesh>
+          {[-2.5, 2.5].map(x => <mesh key={x} rotation-x={-Math.PI / 2} position={[x, .011, -11.5]}><planeGeometry args={[.12, 19]} /><meshStandardMaterial color="#f8fafc" /></mesh>)}
+          {Array.from({ length: 6 }, (_, i) => <mesh key={i} rotation-x={-Math.PI / 2} position={[0, .013, -7.5 - i * 3]}><planeGeometry args={[.12, 1.5]} /><meshStandardMaterial color="#f8fafc" /></mesh>)}
+        </group>))}
+    </group>
+  )
+}
+
 /** Low houses on both sides of the road for town / urban rules. */
 function Town({ world }: { world: World }) {
   const houses = useMemo(() => {
@@ -376,6 +392,7 @@ export function Props({ world, clock }: { world: World; clock: Clock }) {
           case 'tramRails': return <TramRails key={i} world={world} xs={p.xs} />
           case 'hazard': return <Hazard key={i} world={world} x={p.x} y={p.y} emoji={p.emoji} clock={clock} t0={p.t0 ?? 0} />
           case 'town': return <Town key={i} world={world} />
+          case 'radial': return <Radial key={i} world={world} arms={p.arms} />
           case 'speedSign': return <SpeedSign key={i} world={world} x={p.x} y={p.y} value={p.value} clock={clock} t0={p.t0} />
           case 'wind': return <Wind key={i} world={world} clock={clock} />
           case 'label': return <Label key={i} world={world} x={p.x} y={p.y} text={p.text} clock={clock} t0={p.t0} big={p.big} />

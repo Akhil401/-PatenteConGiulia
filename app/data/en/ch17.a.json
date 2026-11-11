@@ -1,0 +1,2490 @@
+{
+ "q23805": {
+  "en": "If the carriageway is blocked because the load fell off by accident, the driver must remove the load, if possible.",
+  "explain": {
+   "short": "A fallen load is a danger for everyone. The driver who lost it must take it off the road whenever this is possible.",
+   "rule": "If your load falls onto the carriageway (carreggiata, the part of the road for vehicles), you must clear it as fast as you can and, outside towns, warn traffic with the warning triangle.",
+   "trap": "'se possibile' (if possible) makes it reasonable: you remove it only when you can do it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Remove the fallen load if you can",
+    "it": "rimuovere il carico",
+    "lines": [
+     "Load fell onto the carriageway",
+     "Remove it, if possible",
+     "Free the road quickly"
+    ],
+    "icons": [
+     "truck",
+     "check",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ingombro della carreggiata",
+    "en": "blocking of the carriageway"
+   },
+   {
+    "it": "caduta accidentale del carico",
+    "en": "load falling by accident"
+   },
+   {
+    "it": "rimuovere il carico",
+    "en": "remove the load"
+   },
+   {
+    "it": "se possibile",
+    "en": "if possible"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23806": {
+  "en": "On an extra-urban road, if the carriageway is blocked because the load fell off by accident, the driver must warn of the obstacle in advance with the stopped-vehicle sign (triangle).",
+  "explain": {
+   "short": "Outside towns traffic is fast. Other drivers must be warned early, so the driver places the warning triangle behind the fallen load.",
+   "rule": "If your load falls onto the carriageway (carreggiata, the part of the road for vehicles), you must clear it as fast as you can and, outside towns, warn traffic with the warning triangle.",
+   "trap": "'presegnalare' (warn in advance) with the 'triangolo' is the correct tool, not a STOP sign or the horn.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Warn with the triangle behind the load",
+    "it": "presegnalare",
+    "lines": [
+     "Extra-urban road: load fell",
+     "Place the warning triangle behind it",
+     "Drivers are warned in time"
+    ],
+    "icons": [
+     "truck",
+     "warning",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada extraurbana",
+    "en": "road outside towns"
+   },
+   {
+    "it": "presegnalare l'ostacolo",
+    "en": "warn of the obstacle in advance"
+   },
+   {
+    "it": "segnale di veicolo fermo (triangolo)",
+    "en": "stopped-vehicle sign (triangle)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23807": {
+  "en": "If the carriageway is blocked because the load fell off by accident, the driver must quickly free the way for traffic, as far as possible.",
+  "explain": {
+   "short": "The fallen load blocks other vehicles. The driver must clear the road quickly, as much as he can.",
+   "rule": "If your load falls onto the carriageway (carreggiata, the part of the road for vehicles), you must clear it as fast as you can and, outside towns, warn traffic with the warning triangle.",
+   "trap": "'sollecitamente' (quickly) and 'per quanto possibile' (as far as possible): both are part of the real rule.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Free the road quickly, as far as possible",
+    "it": "rendere libero il transito",
+    "lines": [
+     "Load blocks the carriageway",
+     "Free the way quickly",
+     "As far as possible"
+    ],
+    "icons": [
+     "truck",
+     "speed",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sollecitamente",
+    "en": "quickly"
+   },
+   {
+    "it": "libero, per quanto possibile, il transito",
+    "en": "the way free, as far as possible"
+   },
+   {
+    "it": "caduta accidentale del carico",
+    "en": "load falling by accident"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23808": {
+  "en": "If the carriageway is blocked because the load fell off by accident, the driver must warn of the obstacle in advance with the STOP sign.",
+  "explain": {
+   "short": "A fallen load is signalled with the warning triangle (stopped-vehicle sign). The STOP sign is a road sign for junctions, not a tool for drivers.",
+   "rule": "If your load falls onto the carriageway (carreggiata, the part of the road for vehicles), you must clear it as fast as you can and, outside towns, warn traffic with the warning triangle.",
+   "trap": "'segnale di STOP' is wrong: the right tool is the 'triangolo' (warning triangle).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Use the warning triangle, not a STOP sign",
+    "it": "segnale di STOP",
+    "lines": [
+     "Load fell onto the carriageway",
+     "Use the warning triangle",
+     "Not a STOP sign"
+    ],
+    "icons": [
+     "truck",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "presegnalare l'ostacolo",
+    "en": "warn of the obstacle in advance"
+   },
+   {
+    "it": "segnale di STOP",
+    "en": "STOP sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23809": {
+  "en": "If the carriageway is blocked because the load fell off by accident, the driver must stay in the vehicle waiting for help.",
+  "explain": {
+   "short": "Waiting in the vehicle leaves the danger on the road. The driver must act: clear the road if possible and warn the others.",
+   "rule": "If your load falls onto the carriageway (carreggiata, the part of the road for vehicles), you must clear it as fast as you can and, outside towns, warn traffic with the warning triangle.",
+   "trap": "'restare a bordo' (stay on board) is wrong: the driver must get out (with the vest) and act.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Don't wait inside: clear and warn",
+    "it": "restare a bordo",
+    "lines": [
+     "Load blocks the carriageway",
+     "Do not just wait inside",
+     "Clear the road and warn others"
+    ],
+    "icons": [
+     "truck",
+     "cross",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "restare a bordo del veicolo",
+    "en": "stay in the vehicle"
+   },
+   {
+    "it": "in attesa dei soccorsi",
+    "en": "waiting for help"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23810": {
+  "en": "If the carriageway is blocked because the vehicle broke down, the driver must quickly free the way for the traffic coming behind.",
+  "explain": {
+   "short": "A broken-down car on the carriageway is a danger for the cars arriving. The driver must free the road as soon as possible.",
+   "rule": "If your vehicle breaks down or anything blocks the carriageway, you must free the road quickly: push the vehicle off the carriageway or, if you cannot, to its right edge.",
+   "trap": "'sollecitamente' (quickly) is correct: there is no waiting.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Free the road quickly for traffic behind",
+    "it": "avaria",
+    "lines": [
+     "Car broke down on the carriageway",
+     "Free the way quickly",
+     "Traffic behind can pass"
+    ],
+    "icons": [
+     "engine",
+     "speed",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "avaria del veicolo",
+    "en": "vehicle breakdown"
+   },
+   {
+    "it": "sollecitamente",
+    "en": "quickly"
+   },
+   {
+    "it": "traffico sopraggiungente",
+    "en": "oncoming traffic from behind"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23811": {
+  "en": "If the carriageway is blocked because the vehicle broke down, the driver must push the vehicle off the carriageway or, if this is not possible, put it at the right edge of the carriageway.",
+  "explain": {
+   "short": "First choice: push the car completely off the carriageway. If you cannot, at least move it to the right edge so others can pass.",
+   "rule": "If your vehicle breaks down or anything blocks the carriageway, you must free the road quickly: push the vehicle off the carriageway or, if you cannot, to its right edge.",
+   "trap": "The order matters: 'fuori della carreggiata' first, 'margine destro' only if that is not possible.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Off the carriageway, or to the right edge",
+    "it": "margine destro",
+    "lines": [
+     "Car broke down",
+     "Push it off the carriageway",
+     "If impossible: to the right edge"
+    ],
+    "icons": [
+     "engine",
+     "car",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "spingere il veicolo",
+    "en": "push the vehicle"
+   },
+   {
+    "it": "fuori della carreggiata",
+    "en": "off the carriageway"
+   },
+   {
+    "it": "margine destro",
+    "en": "right edge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23812": {
+  "en": "If the carriageway is blocked by a fallen load or for any other reason, the driver must remove the obstruction, as far as possible.",
+  "explain": {
+   "short": "Whatever blocks the road, the driver who caused it must clear it, as much as he can.",
+   "rule": "If your vehicle breaks down or anything blocks the carriageway, you must free the road quickly: push the vehicle off the carriageway or, if you cannot, to its right edge.",
+   "trap": "'per qualsiasi altra causa' (for any other reason): the duty is general, not only for loads.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Remove the obstruction as far as possible",
+    "it": "rimuovere l'ingombro",
+    "lines": [
+     "Load or anything blocks the road",
+     "Remove the obstruction",
+     "As far as possible"
+    ],
+    "icons": [
+     "warning",
+     "check",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "qualsiasi altra causa",
+    "en": "any other reason"
+   },
+   {
+    "it": "rimuovere l'ingombro",
+    "en": "remove the obstruction"
+   },
+   {
+    "it": "per quanto possibile",
+    "en": "as far as possible"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23813": {
+  "en": "If the carriageway is blocked because the vehicle broke down, the driver does not have to move it while waiting for help, if there is little traffic.",
+  "explain": {
+   "short": "The duty to free the road does not depend on traffic. Even with few cars, one car arriving fast can crash into it.",
+   "rule": "If your vehicle breaks down or anything blocks the carriageway, you must free the road quickly: push the vehicle off the carriageway or, if you cannot, to its right edge.",
+   "trap": "'se il traffico è scarso' (if traffic is light) is an invented exception.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Move it even if traffic is light",
+    "it": "traffico scarso",
+    "lines": [
+     "Car broke down on the carriageway",
+     "Light traffic: still move it",
+     "No exception for few cars"
+    ],
+    "icons": [
+     "engine",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è tenuto a spostarlo",
+    "en": "does not have to move it"
+   },
+   {
+    "it": "in attesa dei soccorsi",
+    "en": "waiting for help"
+   },
+   {
+    "it": "traffico è scarso",
+    "en": "traffic is light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23814": {
+  "en": "If the carriageway is blocked because the load fell off by accident, the driver must avoid moving it, so that what happened can be reconstructed correctly.",
+  "explain": {
+   "short": "A fallen load is not a crash scene to keep. The priority is safety: the driver must clear the road.",
+   "rule": "If your vehicle breaks down or anything blocks the carriageway, you must free the road quickly: push the vehicle off the carriageway or, if you cannot, to its right edge.",
+   "trap": "'evitare di spostarlo' (avoid moving it) is the opposite of the rule: you must remove it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Clear the load: safety comes first",
+    "it": "evitare di spostarlo",
+    "lines": [
+     "Load fell onto the carriageway",
+     "Safety first: clear the road",
+     "Do not leave it there"
+    ],
+    "icons": [
+     "truck",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "evitare di spostarlo",
+    "en": "avoid moving it"
+   },
+   {
+    "it": "ricostruzione corretta dell'accaduto",
+    "en": "correct reconstruction of what happened"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23816": {
+  "en": "On an extra-urban road, if an accident blocks the carriageway with damaged vehicles that cannot be removed, the driver or the passengers must warn of the area in advance with the portable warning triangle.",
+  "explain": {
+   "short": "Outside towns other drivers come fast. If the damaged cars cannot be moved, the driver or a passenger places the warning triangle behind them.",
+   "rule": "If you cannot remove the obstacle (crashed vehicles, a broken-down car, fallen load), you must BOTH warn traffic with the warning triangle AND inform the police.",
+   "trap": "'il conducente o i passeggeri' (the driver or the passengers): anyone in the car may place the triangle.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Driver or passenger places the triangle",
+    "it": "segnale triangolare",
+    "lines": [
+     "Accident: cars cannot be moved",
+     "Driver or passenger places the triangle",
+     "Traffic is warned in time"
+    ],
+    "icons": [
+     "car",
+     "warning",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è possibile rimuovere",
+    "en": "cannot be removed"
+   },
+   {
+    "it": "il conducente o i passeggeri",
+    "en": "the driver or the passengers"
+   },
+   {
+    "it": "segnale triangolare mobile di pericolo",
+    "en": "portable warning triangle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23817": {
+  "en": "If the carriageway is blocked by a broken-down vehicle that cannot be moved, the driver must inform the police, without having to warn of the area in advance.",
+  "explain": {
+   "short": "Calling the police is not enough. The driver must also place the warning triangle, because cars arrive before the police.",
+   "rule": "If you cannot remove the obstacle (crashed vehicles, a broken-down car, fallen load), you must BOTH warn traffic with the warning triangle AND inform the police.",
+   "trap": "'senza dover' (without having to): the rule wants BOTH the police call AND the triangle.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Police AND triangle: both are required",
+    "it": "presegnalare",
+    "lines": [
+     "Car cannot be moved",
+     "Inform the police",
+     "AND place the triangle"
+    ],
+    "icons": [
+     "engine",
+     "police",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è possibile spostare",
+    "en": "cannot be moved"
+   },
+   {
+    "it": "informare l'organo di polizia",
+    "en": "inform the police"
+   },
+   {
+    "it": "senza dover opportunamente presegnalare",
+    "en": "without having to warn in advance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23818": {
+  "en": "If the carriageway is blocked by a fallen load that cannot be removed, the driver may avoid informing the police if he warns of the area with effective hand signals.",
+  "explain": {
+   "short": "Hand signals do not replace the police call. If the load cannot be removed, the police must be told.",
+   "rule": "If you cannot remove the obstacle (crashed vehicles, a broken-down car, fallen load), you must BOTH warn traffic with the warning triangle AND inform the police.",
+   "trap": "'può evitare di informare' (may avoid informing): no, informing the police is required.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Hand signals don't replace the police",
+    "it": "organo di polizia",
+    "lines": [
+     "Load cannot be removed",
+     "Hand signals are not enough",
+     "Always inform the police"
+    ],
+    "icons": [
+     "truck",
+     "cross",
+     "police"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carico non removibile",
+    "en": "load that cannot be removed"
+   },
+   {
+    "it": "evitare di informare",
+    "en": "avoid informing"
+   },
+   {
+    "it": "segnali manuali",
+    "en": "hand signals"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23819": {
+  "en": "Anyone who could not avoid dropping or spilling slippery, flammable or otherwise dangerous materials must, among other things, warn of the area with the portable warning sign, even in the middle of the carriageway.",
+  "explain": {
+   "short": "A spill can cover the whole road. So the warning triangle may be placed even in the middle of the carriageway, where it is most visible.",
+   "rule": "If you spill slippery, flammable or dangerous material, you must place the warning triangle (even in the middle of the carriageway), make hand signals on the other side, and remove the material or cover it with sand or earth.",
+   "trap": "'anche in mezzo alla carreggiata' (even in the middle of the carriageway) is correct for spills.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Triangle may go in the middle of the road",
+    "it": "materie viscide",
+    "lines": [
+     "Dangerous material spilled",
+     "Triangle even mid-carriageway",
+     "Drivers see the danger"
+    ],
+    "icons": [
+     "warning",
+     "sign",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "materie viscide, infiammabili",
+    "en": "slippery, flammable materials"
+   },
+   {
+    "it": "segnale mobile di pericolo",
+    "en": "portable warning sign"
+   },
+   {
+    "it": "anche in mezzo alla carreggiata",
+    "en": "even in the middle of the carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23820": {
+  "en": "On an extra-urban road, anyone who could not avoid dropping or spilling slippery, flammable or otherwise dangerous materials must, among other things, warn of the area with the portable warning sign, placed even in the middle of the carriageway.",
+  "explain": {
+   "short": "Outside towns cars are fast and a spill is very dangerous. The warning triangle can be placed even in the middle of the carriageway.",
+   "rule": "If you spill slippery, flammable or dangerous material, you must place the warning triangle (even in the middle of the carriageway), make hand signals on the other side, and remove the material or cover it with sand or earth.",
+   "trap": "'posto anche in mezzo alla carreggiata' is allowed here, unlike for a normal stopped car.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Spill: triangle even in mid-carriageway",
+    "it": "spargimento",
+    "lines": [
+     "Extra-urban road: spill",
+     "Triangle even mid-carriageway",
+     "Drivers slow down in time"
+    ],
+    "icons": [
+     "warning",
+     "sign",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada extraurbana",
+    "en": "road outside towns"
+   },
+   {
+    "it": "spargimento",
+    "en": "spilling"
+   },
+   {
+    "it": "anche in mezzo alla carreggiata",
+    "en": "even in the middle of the carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23821": {
+  "en": "Anyone who could not avoid dropping or spilling dangerous materials must, among other things, make hand signals to stop vehicles passing on the side where the portable warning sign was not placed.",
+  "explain": {
+   "short": "The triangle covers one direction only. On the other side, the person makes hand signals to stop the traffic.",
+   "rule": "If you spill slippery, flammable or dangerous material, you must place the warning triangle (even in the middle of the carriageway), make hand signals on the other side, and remove the material or cover it with sand or earth.",
+   "trap": "'dalla parte dove non è stato posto' (on the side WITHOUT the triangle) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hand signals on the side without triangle",
+    "it": "segnali manuali",
+    "lines": [
+     "Dangerous material spilled",
+     "Triangle on one side",
+     "Hand signals on the other side"
+    ],
+    "icons": [
+     "warning",
+     "sign",
+     "pedestrian"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnali manuali",
+    "en": "hand signals"
+   },
+   {
+    "it": "impedire il transito",
+    "en": "stop vehicles passing"
+   },
+   {
+    "it": "non è stato posto",
+    "en": "was not placed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23822": {
+  "en": "Anyone who could not avoid dropping or spilling slippery, flammable or dangerous materials must, among other things, remove them or, if possible, spread sand, earth, sawdust or other suitable material on the ground to restore grip.",
+  "explain": {
+   "short": "A slippery road makes cars skid. You remove the material or cover it with sand, earth or sawdust so the tyres grip again.",
+   "rule": "If you spill slippery, flammable or dangerous material, you must place the warning triangle (even in the middle of the carriageway), make hand signals on the other side, and remove the material or cover it with sand or earth.",
+   "trap": "'ripristinare l'aderenza' (restore grip) is the aim: this is part of the real rule.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Remove it or cover with sand to restore grip",
+    "it": "aderenza",
+    "lines": [
+     "Slippery material on the road",
+     "Remove it, or",
+     "Cover with sand or earth"
+    ],
+    "icons": [
+     "tyre",
+     "check",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rimuoverle",
+    "en": "remove them"
+   },
+   {
+    "it": "sabbia, terra, segatura",
+    "en": "sand, earth, sawdust"
+   },
+   {
+    "it": "ripristinare l'aderenza",
+    "en": "restore grip"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23823": {
+  "en": "Anyone who could not avoid dropping or spilling dangerous materials must, among other things, make hand signals to warn of the danger only on the side where the portable warning triangle was placed.",
+  "explain": {
+   "short": "Hand signals are needed on the OTHER side, where there is no triangle. On the triangle side, the triangle already does the job.",
+   "rule": "If you spill slippery, flammable or dangerous material, you must place the warning triangle (even in the middle of the carriageway), make hand signals on the other side, and remove the material or cover it with sand or earth.",
+   "trap": "'solo dalla parte dove è stato posto' is the wrong side: hand signals go where there is NO triangle.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Hand signals go on the side WITHOUT triangle",
+    "it": "segnali manuali",
+    "lines": [
+     "Triangle on one side",
+     "Hand signals on the OTHER side",
+     "Not on the triangle side"
+    ],
+    "icons": [
+     "sign",
+     "pedestrian",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnali manuali",
+    "en": "hand signals"
+   },
+   {
+    "it": "solo dalla parte",
+    "en": "only on the side"
+   },
+   {
+    "it": "è stato posto",
+    "en": "was placed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23824": {
+  "en": "The driver of a motor vehicle who could not avoid spilling dangerous materials may avoid warning of the area with the portable warning sign if he uses the horn to keep other vehicles away.",
+  "explain": {
+   "short": "The horn does not replace the warning triangle. The triangle is always required for a spill.",
+   "rule": "If you spill slippery, flammable or dangerous material, you must place the warning triangle (even in the middle of the carriageway), make hand signals on the other side, and remove the material or cover it with sand or earth.",
+   "trap": "'può evitare' (may avoid) + 'segnali sonori' (horn): there is no such exception.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The horn does not replace the triangle",
+    "it": "segnali sonori",
+    "lines": [
+     "Dangerous material spilled",
+     "Horn is not enough",
+     "Always place the triangle"
+    ],
+    "icons": [
+     "warning",
+     "horn",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "può evitare di presegnalare",
+    "en": "may avoid warning in advance"
+   },
+   {
+    "it": "segnali sonori",
+    "en": "horn signals"
+   },
+   {
+    "it": "segnale mobile di pericolo",
+    "en": "portable warning sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23825": {
+  "en": "Anyone who could not avoid dropping slippery materials must divert the traffic while waiting for the road owner to come and restore normal conditions.",
+  "explain": {
+   "short": "The person must act at once: place the triangle, make hand signals and remove or cover the material. Diverting traffic and waiting is not the rule.",
+   "rule": "If you spill slippery, flammable or dangerous material, you must place the warning triangle (even in the middle of the carriageway), make hand signals on the other side, and remove the material or cover it with sand or earth.",
+   "trap": "'deviare il traffico in attesa' (divert traffic and wait) is invented: you must clear or cover the material yourself.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Don't divert and wait: signal and cover it",
+    "it": "deviare il traffico",
+    "lines": [
+     "Slippery material on the road",
+     "Don't just divert and wait",
+     "Triangle, signals, sand"
+    ],
+    "icons": [
+     "tyre",
+     "cross",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "materie viscide",
+    "en": "slippery materials"
+   },
+   {
+    "it": "deviare il traffico",
+    "en": "divert the traffic"
+   },
+   {
+    "it": "ente proprietario della strada",
+    "en": "road owner"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23826": {
+  "en": "Outside built-up areas, at night, when the rear position lights or hazard lights are missing or not enough, it is compulsory to warn of the vehicle stopped on the carriageway with the portable warning triangle.",
+  "explain": {
+   "short": "At night a stopped car without working rear lights is almost invisible. Outside towns the warning triangle is then compulsory.",
+   "rule": "Outside towns, a vehicle or a load stopped on the carriageway must be signalled with the warning triangle at night when the rear lights are missing or too weak, and also by day when it cannot be seen clearly from 100 m.",
+   "trap": "'obbligatorio' (compulsory) is correct: it is not just advice.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Night, no rear lights: triangle compulsory",
+    "it": "presegnalare",
+    "lines": [
+     "Outside towns, at night",
+     "Rear lights missing or weak",
+     "Triangle is compulsory"
+    ],
+    "icons": [
+     "night",
+     "light",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fuori dei centri abitati",
+    "en": "outside built-up areas"
+   },
+   {
+    "it": "luci posteriori di posizione",
+    "en": "rear position lights"
+   },
+   {
+    "it": "è obbligatorio",
+    "en": "compulsory"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23827": {
+  "en": "Outside built-up areas, at night, it is compulsory to warn with the portable warning triangle of any load that fell from the vehicle onto the carriageway by accident.",
+  "explain": {
+   "short": "A fallen load has no lights at all. Outside towns at night it must always be signalled with the warning triangle.",
+   "rule": "Outside towns, a vehicle or a load stopped on the carriageway must be signalled with the warning triangle at night when the rear lights are missing or too weak, and also by day when it cannot be seen clearly from 100 m.",
+   "trap": "'ogni carico' (any load): at night outside towns there are no exceptions.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fallen load at night: triangle compulsory",
+    "it": "carico caduto",
+    "lines": [
+     "Outside towns, at night",
+     "Load fell onto the carriageway",
+     "Triangle is compulsory"
+    ],
+    "icons": [
+     "night",
+     "truck",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "di notte",
+    "en": "at night"
+   },
+   {
+    "it": "ogni carico caduto",
+    "en": "any fallen load"
+   },
+   {
+    "it": "segnale triangolare mobile di pericolo",
+    "en": "portable warning triangle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23828": {
+  "en": "Outside built-up areas, it is compulsory even by day to warn of a vehicle stopped on the carriageway with the warning triangle when it cannot be seen clearly from 100 metres away.",
+  "explain": {
+   "short": "By day the triangle is needed when the car is hard to see, for example after a bend or in fog. The limit is 100 m.",
+   "rule": "Outside towns, a vehicle or a load stopped on the carriageway must be signalled with the warning triangle at night when the rear lights are missing or too weak, and also by day when it cannot be seen clearly from 100 m.",
+   "trap": "'anche di giorno' (even by day) and '100 metri' are both correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not visible at 100 m: triangle even by day",
+    "it": "anche di giorno",
+    "lines": [
+     "Outside towns, by day",
+     "Car not visible at 100 m",
+     "Triangle is compulsory"
+    ],
+    "icons": [
+     "eye",
+     "curve",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "anche di giorno",
+    "en": "even by day"
+   },
+   {
+    "it": "non può essere visto nettamente",
+    "en": "cannot be seen clearly"
+   },
+   {
+    "it": "100 metri",
+    "en": "100 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23829": {
+  "en": "Outside built-up areas it is compulsory, even by day, to warn of a load that fell onto the carriageway by accident with the portable warning triangle, when the obstacle cannot be seen clearly from 100 metres away.",
+  "explain": {
+   "short": "The same rule as for a stopped car: if the fallen load is not clearly visible from 100 m, the triangle is required, also by day.",
+   "rule": "Outside towns, a vehicle or a load stopped on the carriageway must be signalled with the warning triangle at night when the rear lights are missing or too weak, and also by day when it cannot be seen clearly from 100 m.",
+   "trap": "'obbligatorio' and '100 metri' are both correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Load not visible at 100 m: triangle",
+    "it": "ingombro",
+    "lines": [
+     "Outside towns, by day",
+     "Load not visible at 100 m",
+     "Triangle is compulsory"
+    ],
+    "icons": [
+     "eye",
+     "truck",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "anche di giorno",
+    "en": "even by day"
+   },
+   {
+    "it": "carico accidentalmente caduto",
+    "en": "load fallen by accident"
+   },
+   {
+    "it": "100 metri",
+    "en": "100 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23830": {
+  "en": "The portable warning triangle is part of the compulsory equipment of motor vehicles.",
+  "explain": {
+   "short": "Every motor vehicle (car, truck, bus) must carry a warning triangle on board.",
+   "rule": "The warning triangle goes behind the vehicle or obstacle, at least 50 m away, and must be visible from at least 100 m.",
+   "trap": "'obbligatorio' is correct: you can be fined if it is missing.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Warning triangle: compulsory on board",
+    "it": "equipaggiamento",
+    "lines": [
+     "Every motor vehicle",
+     "Must carry a warning triangle",
+     "Compulsory equipment"
+    ],
+    "icons": [
+     "car",
+     "warning",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale mobile triangolare di pericolo",
+    "en": "portable warning triangle"
+   },
+   {
+    "it": "equipaggiamento obbligatorio",
+    "en": "compulsory equipment"
+   },
+   {
+    "it": "autoveicoli",
+    "en": "motor vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23831": {
+  "en": "The portable warning triangle must be placed behind the vehicle or obstacle to be signalled, at least 50 metres away.",
+  "explain": {
+   "short": "The triangle must give drivers time to slow down, so it goes at least 50 m behind the stopped vehicle or obstacle.",
+   "rule": "The warning triangle goes behind the vehicle or obstacle, at least 50 m away, and must be visible from at least 100 m.",
+   "trap": "'dietro' (behind) and 'almeno 50 metri' (at least 50 m) are both correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Triangle at least 50 m behind",
+    "it": "almeno 50 metri",
+    "lines": [
+     "Stopped vehicle or obstacle",
+     "Triangle behind it",
+     "At least 50 m away"
+    ],
+    "icons": [
+     "car",
+     "warning",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dietro al veicolo",
+    "en": "behind the vehicle"
+   },
+   {
+    "it": "ad almeno 50 metri",
+    "en": "at least 50 metres away"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23832": {
+  "en": "If there is a junction less than 50 metres away, the portable warning triangle must be placed behind the vehicle in the position where it is best seen.",
+  "explain": {
+   "short": "If a junction is closer than 50 m, you cannot always keep the 50 m. You put the triangle behind the car where drivers see it best.",
+   "rule": "The warning triangle goes behind the vehicle or obstacle, at least 50 m away, and must be visible from at least 100 m.",
+   "trap": "'nella posizione più idonea' (in the most suitable position) is the correct exception near a junction.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Junction near: triangle where best seen",
+    "it": "intersezione",
+    "lines": [
+     "Junction closer than 50 m",
+     "Triangle behind the vehicle",
+     "Where it is best seen"
+    ],
+    "icons": [
+     "road",
+     "warning",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "intersezione",
+    "en": "junction"
+   },
+   {
+    "it": "distanza inferiore a 50 metri",
+    "en": "less than 50 metres away"
+   },
+   {
+    "it": "posizione più idonea ad essere avvistato",
+    "en": "position where it is best seen"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23833": {
+  "en": "The portable warning triangle must be placed on the carriageway so that arriving vehicles can see it from at least 100 metres away.",
+  "explain": {
+   "short": "Drivers must see the triangle early. It must be visible from at least 100 m.",
+   "rule": "The warning triangle goes behind the vehicle or obstacle, at least 50 m away, and must be visible from at least 100 m.",
+   "trap": "'almeno 100 metri' for visibility is correct (50 m is the distance from the vehicle).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Triangle visible from at least 100 m",
+    "it": "visibile",
+    "lines": [
+     "Triangle on the carriageway",
+     "Visible from 100 m or more",
+     "Drivers slow down in time"
+    ],
+    "icons": [
+     "warning",
+     "eye",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "visibile",
+    "en": "visible"
+   },
+   {
+    "it": "almeno 100 metri",
+    "en": "at least 100 metres"
+   },
+   {
+    "it": "veicoli sopraggiungenti",
+    "en": "arriving vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23834": {
+  "en": "Outside built-up areas, at night, when the rear position lights or hazard lights are missing or not enough, it is advisable to warn of the vehicle stopped on the carriageway with the portable warning triangle.",
+  "explain": {
+   "short": "In this case the triangle is compulsory, not just advisable.",
+   "rule": "Outside towns, a vehicle or a load stopped on the carriageway must be signalled with the warning triangle at night when the rear lights are missing or too weak, and also by day when it cannot be seen clearly from 100 m.",
+   "trap": "'consigliabile' (advisable) is wrong: the correct word is 'obbligatorio' (compulsory).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Compulsory, not just advisable",
+    "it": "consigliabile",
+    "lines": [
+     "Outside towns, at night",
+     "Rear lights missing or weak",
+     "Triangle compulsory, not advice"
+    ],
+    "icons": [
+     "night",
+     "light",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consigliabile",
+    "en": "advisable"
+   },
+   {
+    "it": "luci posteriori di posizione o di emergenza",
+    "en": "rear position or hazard lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23835": {
+  "en": "The portable warning triangle must be used to warn of a vehicle stopped by a breakdown at night, if the obstacle is not visible from at least 150 metres away.",
+  "explain": {
+   "short": "The distance in the rule is 100 m, not 150 m.",
+   "rule": "Outside towns, a vehicle or a load stopped on the carriageway must be signalled with the warning triangle at night when the rear lights are missing or too weak, and also by day when it cannot be seen clearly from 100 m.",
+   "trap": "'150 metri' is the wrong number: the rule says 100 m.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The number is 100 m, not 150 m",
+    "it": "150 metri",
+    "lines": [
+     "Vehicle stopped by a breakdown",
+     "Rule says 100 m",
+     "Not 150 m"
+    ],
+    "icons": [
+     "engine",
+     "distance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "avaria",
+    "en": "breakdown"
+   },
+   {
+    "it": "di notte",
+    "en": "at night"
+   },
+   {
+    "it": "150 metri",
+    "en": "150 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23836": {
+  "en": "Outside built-up areas, it is optional, even by day, to warn of a load that fell onto the carriageway by accident with the warning sign, when it cannot be seen clearly from 100 metres away.",
+  "explain": {
+   "short": "It is not optional: if the load cannot be seen from 100 m, the triangle is compulsory.",
+   "rule": "Outside towns, a vehicle or a load stopped on the carriageway must be signalled with the warning triangle at night when the rear lights are missing or too weak, and also by day when it cannot be seen clearly from 100 m.",
+   "trap": "'facoltativo' (optional) is wrong: it is 'obbligatorio'.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Compulsory, not optional",
+    "it": "facoltativo",
+    "lines": [
+     "Load not visible at 100 m",
+     "Triangle is compulsory",
+     "Not optional"
+    ],
+    "icons": [
+     "truck",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "è facoltativo",
+    "en": "optional"
+   },
+   {
+    "it": "anche di giorno",
+    "en": "even by day"
+   },
+   {
+    "it": "100 metri",
+    "en": "100 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23837": {
+  "en": "At night, when the rear position lights or hazard lights are missing or not enough, it is compulsory to warn of the stopped vehicle with the portable warning triangle also inside built-up areas.",
+  "explain": {
+   "short": "The triangle obligation is for roads outside built-up areas. Inside towns there is street lighting and it is not required.",
+   "rule": "Outside towns, a vehicle or a load stopped on the carriageway must be signalled with the warning triangle at night when the rear lights are missing or too weak, and also by day when it cannot be seen clearly from 100 m.",
+   "trap": "'anche nei centri abitati' (also in towns) is wrong: the duty is only outside towns.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Compulsory only outside towns",
+    "it": "centri abitati",
+    "lines": [
+     "Night, rear lights not working",
+     "Triangle compulsory outside towns",
+     "Not required inside towns"
+    ],
+    "icons": [
+     "night",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "di notte",
+    "en": "at night"
+   },
+   {
+    "it": "anche nei centri abitati",
+    "en": "also in built-up areas"
+   },
+   {
+    "it": "è obbligatorio",
+    "en": "compulsory"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23838": {
+  "en": "At night, when the rear position lights are missing or not enough, it is compulsory to warn of stopped bicycles, mopeds and motorcycles with the portable warning triangle, also inside built-up areas.",
+  "explain": {
+   "short": "Bicycles, mopeds and motorcycles do not have to carry the warning triangle. And inside towns it is not compulsory anyway.",
+   "rule": "Outside towns, a vehicle or a load stopped on the carriageway must be signalled with the warning triangle at night when the rear lights are missing or too weak, and also by day when it cannot be seen clearly from 100 m.",
+   "trap": "Two errors: 'velocipedi, ciclomotori e motocicli' are exempt, and 'anche nei centri abitati' is wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Two-wheelers don't need the triangle",
+    "it": "velocipedi",
+    "lines": [
+     "Bicycles, mopeds, motorcycles",
+     "No triangle required",
+     "Not in towns either"
+    ],
+    "icons": [
+     "moto",
+     "cross",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "velocipedi",
+    "en": "bicycles"
+   },
+   {
+    "it": "ciclomotori e motocicli",
+    "en": "mopeds and motorcycles"
+   },
+   {
+    "it": "anche nei centri abitati",
+    "en": "also in built-up areas"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23839": {
+  "en": "The portable warning triangle must be placed on the load that fell onto the carriageway by accident.",
+  "explain": {
+   "short": "A triangle on the load warns too late. It goes behind the obstacle, at least 50 m away.",
+   "rule": "The warning triangle goes behind the vehicle or obstacle, at least 50 m away, and must be visible from at least 100 m.",
+   "trap": "'posto sul carico' (placed on the load) is wrong: it goes 'dietro' (behind).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Behind the load, not on it",
+    "it": "posto sul carico",
+    "lines": [
+     "Load fell onto the carriageway",
+     "Triangle at least 50 m behind",
+     "Not on the load"
+    ],
+    "icons": [
+     "truck",
+     "distance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "posto sul carico",
+    "en": "placed on the load"
+   },
+   {
+    "it": "accidentalmente caduto",
+    "en": "fallen by accident"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23840": {
+  "en": "The portable warning triangle must be placed on the carriageway so that arriving vehicles can see it from at least 50 metres away.",
+  "explain": {
+   "short": "Visibility must be at least 100 m. 50 m is the minimum distance between the triangle and the vehicle.",
+   "rule": "The warning triangle goes behind the vehicle or obstacle, at least 50 m away, and must be visible from at least 100 m.",
+   "trap": "The number is mixed up: '50 metri' is the distance from the vehicle, visibility is 100 m.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Visible from 100 m, not 50 m",
+    "it": "visibile",
+    "lines": [
+     "Triangle 50 m behind the vehicle",
+     "Visible from at least 100 m",
+     "Not just 50 m"
+    ],
+    "icons": [
+     "distance",
+     "eye",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "visibile",
+    "en": "visible"
+   },
+   {
+    "it": "almeno 50 metri",
+    "en": "at least 50 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23841": {
+  "en": "The portable warning triangle must be placed on the lane occupied by the stopped vehicle or the fallen load.",
+  "explain": {
+   "short": "The triangle warns the drivers who are heading for the obstacle, so it goes on the same lane as the stopped vehicle or load.",
+   "rule": "Place the triangle on the lane where the stopped vehicle or the load is, at least 1 m from the outer edge of the carriageway.",
+   "trap": "'sulla corsia occupata' (on the occupied lane) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Triangle on the same lane as the vehicle",
+    "it": "corsia occupata",
+    "lines": [
+     "Vehicle stopped on a lane",
+     "Triangle on the SAME lane",
+     "Behind it, 50 m or more"
+    ],
+    "icons": [
+     "car",
+     "warning",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia occupata",
+    "en": "occupied lane"
+   },
+   {
+    "it": "veicolo fermo",
+    "en": "stopped vehicle"
+   },
+   {
+    "it": "carico caduto",
+    "en": "fallen load"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23842": {
+  "en": "The portable warning triangle must be placed on the carriageway at least one metre from its outer edge.",
+  "explain": {
+   "short": "If the triangle is too near the edge, drivers may not notice it. It goes at least 1 m inside the carriageway.",
+   "rule": "Place the triangle on the lane where the stopped vehicle or the load is, at least 1 m from the outer edge of the carriageway.",
+   "trap": "'almeno un metro dal bordo esterno' (at least 1 m from the outer edge) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At least 1 m from the outer edge",
+    "it": "bordo esterno",
+    "lines": [
+     "Triangle on the carriageway",
+     "At least 1 m from the outer edge",
+     "Easy to see"
+    ],
+    "icons": [
+     "warning",
+     "distance",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "almeno un metro",
+    "en": "at least one metre"
+   },
+   {
+    "it": "bordo esterno",
+    "en": "outer edge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23843": {
+  "en": "On a carriageway with several lanes, the portable warning triangle must be placed on the lane immediately to the left of the stopped vehicle or fallen load.",
+  "explain": {
+   "short": "The triangle goes on the lane where the vehicle or load is, not on the lane next to it.",
+   "rule": "Place the triangle on the lane where the stopped vehicle or the load is, at least 1 m from the outer edge of the carriageway.",
+   "trap": "'corsia immediatamente a sinistra' (lane just to the left) is wrong: it is the occupied lane.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "On the occupied lane, not the left one",
+    "it": "a sinistra",
+    "lines": [
+     "Multi-lane carriageway",
+     "Triangle on the occupied lane",
+     "Not the lane to the left"
+    ],
+    "icons": [
+     "road",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carreggiata a più corsie",
+    "en": "carriageway with several lanes"
+   },
+   {
+    "it": "immediatamente a sinistra",
+    "en": "immediately to the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23844": {
+  "en": "The portable warning triangle must be placed on the carriageway at least one metre from the line separating the directions of travel.",
+  "explain": {
+   "short": "The 1 m rule is about the OUTER edge of the carriageway, not the centre line.",
+   "rule": "Place the triangle on the lane where the stopped vehicle or the load is, at least 1 m from the outer edge of the carriageway.",
+   "trap": "'striscia di separazione dei sensi di marcia' (centre line) is wrong: it is the 'bordo esterno' (outer edge).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "1 m from the outer edge, not the centre line",
+    "it": "striscia di separazione",
+    "lines": [
+     "Triangle on the carriageway",
+     "1 m from the OUTER edge",
+     "Not from the centre line"
+    ],
+    "icons": [
+     "warning",
+     "distance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "almeno un metro",
+    "en": "at least one metre"
+   },
+   {
+    "it": "striscia di separazione dei sensi di marcia",
+    "en": "line separating the directions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23845": {
+  "en": "While placing the portable warning sign, the driver must make himself visible by wearing the high-visibility reflective vest or braces.",
+  "explain": {
+   "short": "A person on the road is hard to see, especially at night. The reflective vest or braces make the driver visible.",
+   "rule": "Outside towns, when you get out to place the warning triangle, you must wear an approved high-visibility reflective vest or braces, also on the emergency lane and in lay-bys.",
+   "trap": "'giubbotto o le bretelle' (vest or braces): either one is fine.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wear the reflective vest or braces",
+    "it": "giubbotto",
+    "lines": [
+     "Driver gets out to place triangle",
+     "Wears reflective vest or braces",
+     "Other drivers see him"
+    ],
+    "icons": [
+     "warning",
+     "pedestrian",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "giubbotto o le bretelle",
+    "en": "vest or braces"
+   },
+   {
+    "it": "retroriflettenti",
+    "en": "reflective"
+   },
+   {
+    "it": "ad alta visibilità",
+    "en": "high-visibility"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23846": {
+  "en": "The high-visibility reflective vest or braces used while placing the portable warning sign must be of an approved type.",
+  "explain": {
+   "short": "Not any yellow jacket is good. The vest or braces must be an approved (officially certified) model.",
+   "rule": "Outside towns, when you get out to place the warning triangle, you must wear an approved high-visibility reflective vest or braces, also on the emergency lane and in lay-bys.",
+   "trap": "'di tipo approvato' (approved type) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Vest or braces must be approved",
+    "it": "tipo approvato",
+    "lines": [
+     "Reflective vest or braces",
+     "Must be an approved type",
+     "Used when placing triangle"
+    ],
+    "icons": [
+     "pedestrian",
+     "check",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "di tipo approvato",
+    "en": "of an approved type"
+   },
+   {
+    "it": "retroriflettenti",
+    "en": "reflective"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23847": {
+  "en": "While placing the portable warning sign, the driver must wear the high-visibility vest even if he is on the emergency lanes or in the lay-bys.",
+  "explain": {
+   "short": "On the emergency lane (corsia di emergenza) or in a lay-by (piazzola di sosta) fast traffic is very close. The vest is required there too.",
+   "rule": "Outside towns, when you get out to place the warning triangle, you must wear an approved high-visibility reflective vest or braces, also on the emergency lane and in lay-bys.",
+   "trap": "'anche se si trova sulle corsie di emergenza' (even on emergency lanes) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Vest also on emergency lanes and lay-bys",
+    "it": "corsie di emergenza",
+    "lines": [
+     "Motorway: emergency lane or lay-by",
+     "Placing the triangle",
+     "Vest is still compulsory"
+    ],
+    "icons": [
+     "road",
+     "warning",
+     "pedestrian"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsie di emergenza",
+    "en": "emergency lanes"
+   },
+   {
+    "it": "piazzole di sosta",
+    "en": "lay-bys"
+   },
+   {
+    "it": "anche se",
+    "en": "even if"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23848": {
+  "en": "To place the portable warning sign, the driver must not get out of the vehicle and walk on the road without wearing the high-visibility vest.",
+  "explain": {
+   "short": "Getting out on the road without the vest is forbidden. Put the vest on first, then get out.",
+   "rule": "Outside towns, when you get out to place the warning triangle, you must wear an approved high-visibility reflective vest or braces, also on the emergency lane and in lay-bys.",
+   "trap": "'vietato... senza indossare' (forbidden without wearing) is correct: vest first.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Vest on before you get out",
+    "it": "vietato",
+    "lines": [
+     "Put the vest on first",
+     "Then get out of the car",
+     "No vest: forbidden on the road"
+    ],
+    "icons": [
+     "pedestrian",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "è vietato",
+    "en": "forbidden"
+   },
+   {
+    "it": "scendere dal veicolo",
+    "en": "get out of the vehicle"
+   },
+   {
+    "it": "senza indossare il giubbotto",
+    "en": "without wearing the vest"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23849": {
+  "en": "While placing the portable warning sign, using the high-visibility reflective vest or braces is optional.",
+  "explain": {
+   "short": "The vest or braces are compulsory, not optional.",
+   "rule": "Outside towns, when you get out to place the warning triangle, you must wear an approved high-visibility reflective vest or braces, also on the emergency lane and in lay-bys.",
+   "trap": "'facoltativo' (optional) is wrong: it is compulsory.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Compulsory, not optional",
+    "it": "facoltativo",
+    "lines": [
+     "Placing the triangle",
+     "Vest or braces: compulsory",
+     "Not optional"
+    ],
+    "icons": [
+     "warning",
+     "pedestrian",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "è facoltativo",
+    "en": "optional"
+   },
+   {
+    "it": "giubbotto o delle bretelle",
+    "en": "vest or braces"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23850": {
+  "en": "While placing the portable warning sign, the driver must not wear the high-visibility vest if he is on the emergency lanes or in the lay-bys.",
+  "explain": {
+   "short": "It is the opposite: the vest must be worn there too, because fast traffic passes very close.",
+   "rule": "Outside towns, when you get out to place the warning triangle, you must wear an approved high-visibility reflective vest or braces, also on the emergency lane and in lay-bys.",
+   "trap": "'non deve indossare' (must not wear) is the opposite of the rule.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Vest required on emergency lanes too",
+    "it": "non deve indossare",
+    "lines": [
+     "Emergency lane or lay-by",
+     "Vest is compulsory there too",
+     "Never 'do not wear'"
+    ],
+    "icons": [
+     "road",
+     "pedestrian",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non deve indossare",
+    "en": "must not wear"
+   },
+   {
+    "it": "corsie di emergenza",
+    "en": "emergency lanes"
+   },
+   {
+    "it": "piazzole di sosta",
+    "en": "lay-bys"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23851": {
+  "en": "The driver must wear the high-visibility vest at night, also inside built-up areas, if he has to stop on the carriageway because his vehicle has a fault.",
+  "explain": {
+   "short": "The vest obligation applies outside built-up areas. Inside towns it is not compulsory (though it is a good idea).",
+   "rule": "Outside towns, when you get out to place the warning triangle, you must wear an approved high-visibility reflective vest or braces, also on the emergency lane and in lay-bys.",
+   "trap": "'anche nei centri abitati' (also in towns) is wrong: the duty is only outside towns.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Vest compulsory only outside towns",
+    "it": "centri abitati",
+    "lines": [
+     "Breakdown at night",
+     "Vest compulsory outside towns",
+     "Not compulsory inside towns"
+    ],
+    "icons": [
+     "night",
+     "pedestrian",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "di notte",
+    "en": "at night"
+   },
+   {
+    "it": "anche nei centri abitati",
+    "en": "also in built-up areas"
+   },
+   {
+    "it": "guasto",
+    "en": "fault"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23852": {
+  "en": "On motorways and main extra-urban roads, bicycles, mopeds and motorcycles under 150 cm3 are not allowed.",
+  "explain": {
+   "short": "These vehicles are too slow or too weak for fast roads. The quiz rule bans motorcycles under 150 cm3.",
+   "rule": "On motorways and main extra-urban roads these are banned: bicycles, mopeds, small motorcycles, cars that cannot reach 80 km/h, farm machines, vehicles without pneumatic tyres, and unsafe or badly loaded vehicles.",
+   "trap": "Learn the official number '150 cm3' for the quiz.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bikes, mopeds, small motorbikes: banned",
+    "it": "vietata la circolazione",
+    "lines": [
+     "Motorway / main extra-urban road",
+     "No bicycles or mopeds",
+     "No motorcycles under 150 cm3"
+    ],
+    "icons": [
+     "road",
+     "bike",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "velocipedi",
+    "en": "bicycles"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   },
+   {
+    "it": "cilindrata inferiore a 150 cm3",
+    "en": "engine size under 150 cm3"
+   }
+  ],
+  "review": true,
+  "reviewNote": "Art. 175 was changed in 2021 (L. 156/2021): thermal motorcycles from 120 cm3 are now allowed if the rider is an adult; official answer kept."
+ },
+ "q23853": {
+  "en": "On motorways and main extra-urban roads, cars that by design cannot reach a speed of at least 80 km/h on level ground are not allowed.",
+  "explain": {
+   "short": "Slow vehicles are dangerous on fast roads. Cars must be able to reach at least 80 km/h on the flat.",
+   "rule": "On motorways and main extra-urban roads these are banned: bicycles, mopeds, small motorcycles, cars that cannot reach 80 km/h, farm machines, vehicles without pneumatic tyres, and unsafe or badly loaded vehicles.",
+   "trap": "'almeno 80 km/h' and 'per costruzione' (by design) are correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cars that can't reach 80 km/h: banned",
+    "it": "80 km/h",
+    "lines": [
+     "Motorway / main extra-urban road",
+     "Car must reach 80 km/h",
+     "Slower cars: banned"
+    ],
+    "icons": [
+     "road",
+     "speed",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autovetture",
+    "en": "cars"
+   },
+   {
+    "it": "per costruzione",
+    "en": "by design"
+   },
+   {
+    "it": "almeno 80 km/h",
+    "en": "at least 80 km/h"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23854": {
+  "en": "On motorways and main extra-urban roads, agricultural machines are not allowed.",
+  "explain": {
+   "short": "Tractors and farm machines are very slow. They are banned on these fast roads.",
+   "rule": "On motorways and main extra-urban roads these are banned: bicycles, mopeds, small motorcycles, cars that cannot reach 80 km/h, farm machines, vehicles without pneumatic tyres, and unsafe or badly loaded vehicles.",
+   "trap": "'macchine agricole' (farm machines) are always banned here.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Farm machines: banned",
+    "it": "macchine agricole",
+    "lines": [
+     "Motorway / main extra-urban road",
+     "Farm machines are slow",
+     "Banned"
+    ],
+    "icons": [
+     "road",
+     "leaf",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "macchine agricole",
+    "en": "agricultural machines"
+   },
+   {
+    "it": "vietata la circolazione",
+    "en": "driving is forbidden"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23855": {
+  "en": "On motorways and main extra-urban roads, vehicles with a messy load that is not firmly secured, or that sticks out beyond the allowed limits, are not allowed.",
+  "explain": {
+   "short": "At high speed a loose load can fall and cause a crash. Such vehicles are banned.",
+   "rule": "On motorways and main extra-urban roads these are banned: bicycles, mopeds, small motorcycles, cars that cannot reach 80 km/h, farm machines, vehicles without pneumatic tyres, and unsafe or badly loaded vehicles.",
+   "trap": "'carico disordinato e non solidamente assicurato' (messy, not secured load) is a real ban.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Loose or overhanging load: banned",
+    "it": "carico disordinato",
+    "lines": [
+     "Motorway / main extra-urban road",
+     "Loose or sticking-out load",
+     "Banned"
+    ],
+    "icons": [
+     "road",
+     "truck",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carico disordinato",
+    "en": "messy load"
+   },
+   {
+    "it": "non solidamente assicurato",
+    "en": "not firmly secured"
+   },
+   {
+    "it": "sporgente",
+    "en": "sticking out"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23856": {
+  "en": "On motorways and main extra-urban roads, vehicles that are not sealed and have an uncovered load are not allowed if they carry materials that can scatter.",
+  "explain": {
+   "short": "Sand or gravel blowing off an open truck can hit other cars. These vehicles are banned.",
+   "rule": "On motorways and main extra-urban roads these are banned: bicycles, mopeds, small motorcycles, cars that cannot reach 80 km/h, farm machines, vehicles without pneumatic tyres, and unsafe or badly loaded vehicles.",
+   "trap": "'vietata' is correct: it is a ban, not advice.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Uncovered loose material: banned",
+    "it": "carico scoperto",
+    "lines": [
+     "Open truck, uncovered load",
+     "Material can fly off",
+     "Banned"
+    ],
+    "icons": [
+     "truck",
+     "wind",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "a tenuta non stagna",
+    "en": "not sealed"
+   },
+   {
+    "it": "carico scoperto",
+    "en": "uncovered load"
+   },
+   {
+    "it": "possono disperdersi",
+    "en": "can scatter"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23857": {
+  "en": "On motorways and main extra-urban roads, vehicles whose condition, equipment and tyres may be a danger to traffic are not allowed.",
+  "explain": {
+   "short": "A vehicle in bad condition, for example with worn tyres, is dangerous at high speed. It is banned.",
+   "rule": "On motorways and main extra-urban roads these are banned: bicycles, mopeds, small motorcycles, cars that cannot reach 80 km/h, farm machines, vehicles without pneumatic tyres, and unsafe or badly loaded vehicles.",
+   "trap": "'condizioni di uso, equipaggiamento e gommatura' (condition, equipment, tyres): all count.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Unsafe vehicles: banned",
+    "it": "gommatura",
+    "lines": [
+     "Motorway / main extra-urban road",
+     "Bad condition or worn tyres",
+     "Banned"
+    ],
+    "icons": [
+     "road",
+     "tyre",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "condizioni di uso",
+    "en": "condition of use"
+   },
+   {
+    "it": "gommatura",
+    "en": "tyres"
+   },
+   {
+    "it": "pericolo per la circolazione",
+    "en": "danger to traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23858": {
+  "en": "On motorways and main extra-urban roads, buses carrying students are not allowed.",
+  "explain": {
+   "short": "School buses are normal buses and can use motorways. There is no such ban.",
+   "rule": "On motorways and main extra-urban roads these are banned: bicycles, mopeds, small motorcycles, cars that cannot reach 80 km/h, farm machines, vehicles without pneumatic tyres, and unsafe or badly loaded vehicles.",
+   "trap": "'autobus per trasporto di studenti' (school buses) are not on the banned list.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "School buses are allowed",
+    "it": "autobus",
+    "lines": [
+     "Motorway / main extra-urban road",
+     "School buses are allowed",
+     "No such ban"
+    ],
+    "icons": [
+     "road",
+     "bus",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autobus",
+    "en": "buses"
+   },
+   {
+    "it": "trasporto di studenti",
+    "en": "carrying students"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23859": {
+  "en": "On motorways and main extra-urban roads, it is advisable to avoid driving unsealed vehicles with an uncovered load, if they carry materials that can scatter.",
+  "explain": {
+   "short": "It is not just advice: these vehicles are banned.",
+   "rule": "On motorways and main extra-urban roads these are banned: bicycles, mopeds, small motorcycles, cars that cannot reach 80 km/h, farm machines, vehicles without pneumatic tyres, and unsafe or badly loaded vehicles.",
+   "trap": "'consigliabile evitare' (advisable to avoid) is wrong: the correct word is 'vietata' (forbidden).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Banned, not just advisable",
+    "it": "consigliabile",
+    "lines": [
+     "Open truck, uncovered load",
+     "It is a ban",
+     "Not just advice"
+    ],
+    "icons": [
+     "truck",
+     "cross",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "consigliabile evitare",
+    "en": "advisable to avoid"
+   },
+   {
+    "it": "carico scoperto",
+    "en": "uncovered load"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23860": {
+  "en": "On motorways and main extra-urban roads, vehicles carrying live animals are not allowed.",
+  "explain": {
+   "short": "Trucks carrying animals in the right way can use motorways. Only animals walking free on the road are banned.",
+   "rule": "On motorways and main extra-urban roads these are banned: bicycles, mopeds, small motorcycles, cars that cannot reach 80 km/h, farm machines, vehicles without pneumatic tyres, and unsafe or badly loaded vehicles.",
+   "trap": "'veicoli che trasportano animali vivi' (vehicles carrying animals) are allowed; free animals are not.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Vehicles carrying animals are allowed",
+    "it": "animali vivi",
+    "lines": [
+     "Motorway / main extra-urban road",
+     "Trucks carrying animals: allowed",
+     "Free-walking animals: banned"
+    ],
+    "icons": [
+     "road",
+     "truck",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "trasportano animali vivi",
+    "en": "carry live animals"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23861": {
+  "en": "Mopeds that reach a speed of at least 50 km/h are allowed on motorways and main extra-urban roads.",
+  "explain": {
+   "short": "Mopeds (ciclomotori) are always banned on these roads, whatever their speed.",
+   "rule": "On motorways and main extra-urban roads these are banned: bicycles, mopeds, small motorcycles, cars that cannot reach 80 km/h, farm machines, vehicles without pneumatic tyres, and unsafe or badly loaded vehicles.",
+   "trap": "'almeno 50 km/h' is a fake condition: mopeds are banned in any case.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Mopeds are always banned",
+    "it": "ciclomotori",
+    "lines": [
+     "Motorway / main extra-urban road",
+     "Mopeds always banned",
+     "Speed doesn't matter"
+    ],
+    "icons": [
+     "road",
+     "moto",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ammessi",
+    "en": "allowed"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   },
+   {
+    "it": "almeno 50 km/h",
+    "en": "at least 50 km/h"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23862": {
+  "en": "Agricultural machines not pulling a trailer are allowed on motorways and main extra-urban roads.",
+  "explain": {
+   "short": "Farm machines are banned on these roads, with or without a trailer.",
+   "rule": "On motorways and main extra-urban roads these are banned: bicycles, mopeds, small motorcycles, cars that cannot reach 80 km/h, farm machines, vehicles without pneumatic tyres, and unsafe or badly loaded vehicles.",
+   "trap": "'non trainanti un rimorchio' (not pulling a trailer) is a fake exception.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Farm machines banned, trailer or not",
+    "it": "macchine agricole",
+    "lines": [
+     "Motorway / main extra-urban road",
+     "Farm machines banned",
+     "Trailer or not"
+    ],
+    "icons": [
+     "road",
+     "leaf",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ammesse",
+    "en": "allowed"
+   },
+   {
+    "it": "macchine agricole",
+    "en": "agricultural machines"
+   },
+   {
+    "it": "non trainanti un rimorchio",
+    "en": "not pulling a trailer"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23863": {
+  "en": "Vehicles without pneumatic tyres are allowed on motorways and main extra-urban roads, if insured.",
+  "explain": {
+   "short": "Vehicles without pneumatic (air-filled) tyres are banned. Insurance does not change this.",
+   "rule": "On motorways and main extra-urban roads these are banned: bicycles, mopeds, small motorcycles, cars that cannot reach 80 km/h, farm machines, vehicles without pneumatic tyres, and unsafe or badly loaded vehicles.",
+   "trap": "'se assicurati' (if insured) is a fake condition: insurance has nothing to do with it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No pneumatic tyres: banned even if insured",
+    "it": "pneumatici",
+    "lines": [
+     "Motorway / main extra-urban road",
+     "No pneumatic tyres: banned",
+     "Insurance doesn't help"
+    ],
+    "icons": [
+     "road",
+     "tyre",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ammessi",
+    "en": "allowed"
+   },
+   {
+    "it": "non muniti di pneumatici",
+    "en": "without pneumatic tyres"
+   },
+   {
+    "it": "se assicurati",
+    "en": "if insured"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23864": {
+  "en": "On motorways and main extra-urban roads, pedestrians and animals are not allowed, except in service areas and rest areas.",
+  "explain": {
+   "short": "People and animals on a fast road are in great danger. Only in service areas and rest areas may they move about.",
+   "rule": "On motorways and main extra-urban roads pedestrians and animals are banned, except in service areas and rest areas (animals only if kept under control).",
+   "trap": "'ad eccezione delle aree di servizio' (except service areas) is the correct exception.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only in service and rest areas",
+    "it": "aree di servizio",
+    "lines": [
+     "Motorway / main extra-urban road",
+     "No pedestrians or animals",
+     "Except service and rest areas"
+    ],
+    "icons": [
+     "road",
+     "pedestrian",
+     "fuel"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pedoni e animali",
+    "en": "pedestrians and animals"
+   },
+   {
+    "it": "ad eccezione",
+    "en": "except"
+   },
+   {
+    "it": "aree di servizio",
+    "en": "service areas"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23865": {
+  "en": "In the service areas and rest areas of motorways and main extra-urban roads, animals may move about only if properly kept under control.",
+  "explain": {
+   "short": "In service areas animals are allowed, but only under control, for example on a lead.",
+   "rule": "On motorways and main extra-urban roads pedestrians and animals are banned, except in service areas and rest areas (animals only if kept under control).",
+   "trap": "'solo se debitamente custoditi' (only if properly kept) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Animals only if kept under control",
+    "it": "custoditi",
+    "lines": [
+     "Service or rest area",
+     "Animals allowed",
+     "Only on a lead / under control"
+    ],
+    "icons": [
+     "fuel",
+     "check",
+     "pedestrian"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aree di servizio",
+    "en": "service areas"
+   },
+   {
+    "it": "animali",
+    "en": "animals"
+   },
+   {
+    "it": "debitamente custoditi",
+    "en": "properly kept under control"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23866": {
+  "en": "Along the emergency lanes of motorways, pedestrians may walk only to reach the emergency call points.",
+  "explain": {
+   "short": "If your car breaks down, you may walk on the emergency lane only to reach an SOS phone point.",
+   "rule": "On motorways and main extra-urban roads pedestrians and animals are banned, except in service areas and rest areas (animals only if kept under control).",
+   "trap": "'solo per raggiungere i punti per le richieste di soccorso' (only to reach SOS points) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Walk only to reach the SOS point",
+    "it": "corsie di emergenza",
+    "lines": [
+     "Motorway emergency lane",
+     "Walk only to the SOS point",
+     "Call for help"
+    ],
+    "icons": [
+     "road",
+     "pedestrian",
+     "firstaid"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsie di emergenza",
+    "en": "emergency lanes"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   },
+   {
+    "it": "richieste di soccorso",
+    "en": "calls for help"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23867": {
+  "en": "On a motorway, towing broken-down vehicles on carriageways, ramps, junctions, service or parking areas is allowed only to authorised rescue vehicles.",
+  "explain": {
+   "short": "Towing with a private car on a motorway is dangerous. Only authorised tow trucks (rescue vehicles) may do it.",
+   "rule": "On motorways only authorised rescue vehicles may tow a broken-down vehicle; a friend's car may not.",
+   "trap": "'solo ai veicoli di soccorso autorizzati' (only authorised rescue vehicles) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only authorised tow trucks may tow",
+    "it": "traino",
+    "lines": [
+     "Motorway: car broke down",
+     "Towing by private cars: no",
+     "Only authorised rescue vehicles"
+    ],
+    "icons": [
+     "engine",
+     "cross",
+     "truck"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "traino",
+    "en": "towing"
+   },
+   {
+    "it": "veicoli in avaria",
+    "en": "broken-down vehicles"
+   },
+   {
+    "it": "veicoli di soccorso autorizzati",
+    "en": "authorised rescue vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23868": {
+  "en": "On motorways and main extra-urban roads, pedestrians and animals are not allowed, even in service areas and rest areas.",
+  "explain": {
+   "short": "Service areas and rest areas are the exception: there pedestrians and controlled animals may move about.",
+   "rule": "On motorways and main extra-urban roads pedestrians and animals are banned, except in service areas and rest areas (animals only if kept under control).",
+   "trap": "'anche nelle aree di servizio' (even in service areas) is wrong: these areas are the exception.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Service and rest areas are the exception",
+    "it": "aree di servizio",
+    "lines": [
+     "Motorway: no pedestrians on the road",
+     "Service and rest areas: allowed",
+     "They are the exception"
+    ],
+    "icons": [
+     "road",
+     "fuel",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pedoni e animali",
+    "en": "pedestrians and animals"
+   },
+   {
+    "it": "anche nelle aree di servizio",
+    "en": "even in service areas"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23869": {
+  "en": "In the service areas and rest areas of motorways and main extra-urban roads, animals may not move about even if properly kept under control.",
+  "explain": {
+   "short": "In these areas animals are allowed if kept under control, for example on a lead.",
+   "rule": "On motorways and main extra-urban roads pedestrians and animals are banned, except in service areas and rest areas (animals only if kept under control).",
+   "trap": "'neppure se debitamente custoditi' (not even if kept under control) is wrong: under control they are allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Animals under control are allowed",
+    "it": "custoditi",
+    "lines": [
+     "Service or rest area",
+     "Animals under control: allowed",
+     "The ban is wrong here"
+    ],
+    "icons": [
+     "fuel",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non possono circolare",
+    "en": "may not move about"
+   },
+   {
+    "it": "neppure se debitamente custoditi",
+    "en": "not even if properly kept"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

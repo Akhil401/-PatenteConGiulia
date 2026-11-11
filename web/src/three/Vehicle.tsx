@@ -9,11 +9,11 @@ import { sample } from '../lib/scenes/engine.js'
 import type { World } from './world'
 
 export interface Panel { img: string; crop?: number[]; mode: 'pair' | 'single' | 'load'; w: number; h: number }
-export interface Actor { id: string; kind: string; color?: string; keys: Record<string, any>[]; cone?: number; beam?: boolean; panel?: Panel; tag?: { text: string; ok: boolean; t0: number } }
+export interface Actor { id: string; kind: string; color?: string; keys: Record<string, any>[]; cone?: number; beam?: boolean; panel?: Panel; tag?: { text: string; ok: boolean; t0: number; cls?: string } }
 
 /** A ✓ / ✕ bubble that rides above a vehicle (allowed / not allowed). */
 function VehTag({ target, tag, clock }: { target: React.RefObject<THREE.Group | null>; tag: NonNullable<Actor['tag']>; clock: Clock }) {
-  const lab = useLabel(tag.text, `m3d ${tag.ok ? 'ok' : 'no'}`, [0, 0, 0])
+  const lab = useLabel(tag.text, `m3d ${tag.cls || (tag.ok ? 'ok' : 'no')}`, [0, 0, 0])
   useFrame(() => {
     if (target.current) lab.pos.current.copy(target.current.position).add(new THREE.Vector3(0, 4.4, 0))
     lab.el.current?.classList.toggle('on', clock().time >= tag.t0)

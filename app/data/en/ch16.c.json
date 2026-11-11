@@ -1,0 +1,2597 @@
+{
+ "q23738": {
+  "en": "Parking and stopping are forbidden on bends and, outside built-up areas and on urban fast-flow roads, also near them.",
+  "explain": {
+   "short": "A car standing on a bend is seen too late by drivers coming round it. Outside towns and on fast urban roads traffic is faster, so the ban also covers the area near the bend.",
+   "rule": "Stopping and parking are both forbidden on bends, in front of signs or traffic lights (hiding them), on lane arrows and channelling lanes, and at junctions. Outside towns and on fast urban roads also NEAR bends and junctions.",
+   "trap": "'anche in loro prossimità' (also near them) extends the ban to the road just before and after the bend.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No stopping or parking on or near a bend",
+    "it": "curve",
+    "lines": [
+     "Car stopped on a bend outside town",
+     "Others see it too late",
+     "Stopping and parking: forbidden"
+    ],
+    "icons": [
+     "curve",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta",
+    "en": "parking"
+   },
+   {
+    "it": "fermata",
+    "en": "short stop"
+   },
+   {
+    "it": "curve",
+    "en": "bends"
+   },
+   {
+    "it": "in loro prossimità",
+    "en": "near them"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23739": {
+  "en": "Parking and stopping are forbidden near and at upright road signs, in a way that hides them from view.",
+  "explain": {
+   "short": "A stopped vehicle must never hide a road sign: other drivers need to see it. This is true even for a short stop.",
+   "rule": "Stopping and parking are both forbidden on bends, in front of signs or traffic lights (hiding them), on lane arrows and channelling lanes, and at junctions. Outside towns and on fast urban roads also NEAR bends and junctions.",
+   "trap": "'in modo da occultarne la vista' (so as to hide them): the ban is about blocking the view of the sign.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never hide a road sign, not even for a short stop",
+    "it": "occultarne la vista",
+    "lines": [
+     "Van stopped in front of a road sign",
+     "Drivers cannot see the sign",
+     "Stopping and parking: forbidden"
+    ],
+    "icons": [
+     "truck",
+     "sign",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta",
+    "en": "parking"
+   },
+   {
+    "it": "fermata",
+    "en": "short stop"
+   },
+   {
+    "it": "segnali stradali verticali",
+    "en": "upright road signs"
+   },
+   {
+    "it": "occultarne la vista",
+    "en": "hide them from view"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23740": {
+  "en": "Parking and stopping are forbidden near and at traffic lights, in a way that hides them from view.",
+  "explain": {
+   "short": "A stopped vehicle must never hide traffic lights: drivers behind need to see them. This is true even for a short stop.",
+   "rule": "Stopping and parking are both forbidden on bends, in front of signs or traffic lights (hiding them), on lane arrows and channelling lanes, and at junctions. Outside towns and on fast urban roads also NEAR bends and junctions.",
+   "trap": "'in modo da occultarne la vista' (so as to hide them): the ban is about blocking the view of the lights.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never hide traffic lights, not even for a short stop",
+    "it": "segnali semaforici",
+    "lines": [
+     "Car stopped in front of traffic lights",
+     "The lights are hidden",
+     "Stopping and parking: forbidden"
+    ],
+    "icons": [
+     "car",
+     "light",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta",
+    "en": "parking"
+   },
+   {
+    "it": "fermata",
+    "en": "short stop"
+   },
+   {
+    "it": "segnali semaforici",
+    "en": "traffic lights"
+   },
+   {
+    "it": "occultarne la vista",
+    "en": "hide them from view"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23741": {
+  "en": "Parking and stopping are forbidden on lane-selection road markings and along channelling lanes.",
+  "explain": {
+   "short": "Before a junction, arrows painted on the road send each driver into the right lane. A car stopped there blocks a lane that others must use.",
+   "rule": "Stopping and parking are both forbidden on bends, in front of signs or traffic lights (hiding them), on lane arrows and channelling lanes, and at junctions. Outside towns and on fast urban roads also NEAR bends and junctions.",
+   "trap": "'segnali orizzontali di preselezione' are the arrows on the lanes before a junction; 'corsie di canalizzazione' are the lanes they create.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No stopping on the lane arrows before a junction",
+    "it": "preselezione",
+    "lines": [
+     "Lane arrows before a junction",
+     "A stopped car blocks the lane",
+     "Stopping and parking: forbidden"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnali orizzontali di preselezione",
+    "en": "lane-selection arrows on the road"
+   },
+   {
+    "it": "corsie di canalizzazione",
+    "en": "channelling lanes"
+   },
+   {
+    "it": "sono vietate",
+    "en": "are forbidden"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23742": {
+  "en": "Outside built-up areas, parking and stopping are forbidden at and near junction areas.",
+  "explain": {
+   "short": "A car standing at or near a junction hides the view and blocks vehicles that turn. So both stopping and parking are forbidden there.",
+   "rule": "Stopping and parking are both forbidden on bends, in front of signs or traffic lights (hiding them), on lane arrows and channelling lanes, and at junctions. Outside towns and on fast urban roads also NEAR bends and junctions.",
+   "trap": "'in corrispondenza e in prossimità' (at and near): the ban covers the junction and the road close to it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No stopping or parking at or near a junction",
+    "it": "intersezione",
+    "lines": [
+     "Junction on a road outside town",
+     "Car stopped near the corner",
+     "Stopping and parking: forbidden"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Fuori dei centri abitati",
+    "en": "outside built-up areas"
+   },
+   {
+    "it": "aree di intersezione",
+    "en": "junction areas"
+   },
+   {
+    "it": "in prossimità",
+    "en": "near"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23743": {
+  "en": "Parking is forbidden on bends but, outside built-up areas and on fast-flow roads, it is not forbidden near them.",
+  "explain": {
+   "short": "It is the opposite: outside towns and on fast-flow roads the ban also covers the area NEAR the bend, because traffic there is faster.",
+   "rule": "Stopping and parking are both forbidden on bends, in front of signs or traffic lights (hiding them), on lane arrows and channelling lanes, and at junctions. Outside towns and on fast urban roads also NEAR bends and junctions.",
+   "trap": "'non è vietata in loro prossimità' (not forbidden near them) turns the real rule upside down.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Outside towns: no parking near a bend either",
+    "it": "in loro prossimità",
+    "lines": [
+     "Car parked just before a bend",
+     "Outside town, traffic is fast",
+     "Forbidden near the bend too"
+    ],
+    "icons": [
+     "curve",
+     "speed",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "nelle curve",
+    "en": "on bends"
+   },
+   {
+    "it": "strade di scorrimento",
+    "en": "fast-flow roads"
+   },
+   {
+    "it": "non è vietata in loro prossimità",
+    "en": "it is not forbidden near them"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23744": {
+  "en": "Parking, but not stopping, is forbidden near and at traffic lights in a way that hides them from view.",
+  "explain": {
+   "short": "Traffic lights hidden even for a moment are dangerous. So both parking and stopping are forbidden there, not only parking.",
+   "rule": "Stopping and parking are both forbidden on bends, in front of signs or traffic lights (hiding them), on lane arrows and channelling lanes, and at junctions. Outside towns and on fast urban roads also NEAR bends and junctions.",
+   "trap": "'ma non la fermata' (but not stopping) is wrong: a short stop is forbidden too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Even a short stop must not hide traffic lights",
+    "it": "ma non la fermata",
+    "lines": [
+     "Car stops briefly before traffic lights",
+     "The lights are hidden",
+     "Short stop forbidden too"
+    ],
+    "icons": [
+     "car",
+     "light",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ma non la fermata",
+    "en": "but not stopping"
+   },
+   {
+    "it": "segnali semaforici",
+    "en": "traffic lights"
+   },
+   {
+    "it": "occultarne la vista",
+    "en": "hide them from view"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23745": {
+  "en": "Parking is forbidden on lane-selection road markings but not along channelling lanes.",
+  "explain": {
+   "short": "Channelling lanes guide traffic into a junction, just like the arrows. A car parked there blocks the lane, so it is forbidden there too.",
+   "rule": "Stopping and parking are both forbidden on bends, in front of signs or traffic lights (hiding them), on lane arrows and channelling lanes, and at junctions. Outside towns and on fast urban roads also NEAR bends and junctions.",
+   "trap": "'ma non lungo le corsie di canalizzazione' (but not along channelling lanes) is wrong: those lanes are included.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No parking along the channelling lanes either",
+    "it": "corsie di canalizzazione",
+    "lines": [
+     "Channelling lanes before a junction",
+     "Car parked along the lane",
+     "Forbidden there too"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnali orizzontali di preselezione",
+    "en": "lane-selection arrows on the road"
+   },
+   {
+    "it": "corsie di canalizzazione",
+    "en": "channelling lanes"
+   },
+   {
+    "it": "ma non",
+    "en": "but not"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23746": {
+  "en": "Outside built-up areas, parking is forbidden at junction areas but not near them.",
+  "explain": {
+   "short": "Outside towns traffic is fast, and a car parked near a junction hides the view of crossing traffic. So the ban covers the area near the junction too.",
+   "rule": "Stopping and parking are both forbidden on bends, in front of signs or traffic lights (hiding them), on lane arrows and channelling lanes, and at junctions. Outside towns and on fast urban roads also NEAR bends and junctions.",
+   "trap": "'ma non in loro prossimità' (but not near them) is wrong: near the junction is forbidden too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Outside towns: no parking near a junction either",
+    "it": "in loro prossimità",
+    "lines": [
+     "Junction on a road outside town",
+     "Car parked just before it",
+     "Forbidden near the junction too"
+    ],
+    "icons": [
+     "road",
+     "eye",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Fuori dei centri abitati",
+    "en": "outside built-up areas"
+   },
+   {
+    "it": "aree di intersezione",
+    "en": "junction areas"
+   },
+   {
+    "it": "ma non in loro prossimità",
+    "en": "but not near them"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23747": {
+  "en": "Parking is forbidden in front of the exit of driveways.",
+  "explain": {
+   "short": "A driveway (passo carrabile) must stay free so that people can drive in and out at any time.",
+   "rule": "Parking is forbidden in front of driveways. Stopping and parking are both forbidden on pedestrian crossings, on cycle tracks and their exits, and on pavements, even for a short time.",
+   "trap": "'sbocco dei passi carrabili' means the place where the driveway meets the road.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never park in front of a driveway",
+    "it": "passi carrabili",
+    "lines": [
+     "Driveway exit between town houses",
+     "A parked car blocks it",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta",
+    "en": "parking"
+   },
+   {
+    "it": "sbocco",
+    "en": "exit, opening"
+   },
+   {
+    "it": "passi carrabili",
+    "en": "driveways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23748": {
+  "en": "Parking but not stopping is forbidden on pedestrian crossings.",
+  "explain": {
+   "short": "On a pedestrian crossing even a short stop is forbidden: the car blocks people walking and hides them from other drivers.",
+   "rule": "Parking is forbidden in front of driveways. Stopping and parking are both forbidden on pedestrian crossings, on cycle tracks and their exits, and on pavements, even for a short time.",
+   "trap": "'ma non la fermata' (but not stopping) is wrong: stopping is forbidden too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No stopping on a pedestrian crossing, not even briefly",
+    "it": "attraversamenti pedonali",
+    "lines": [
+     "Car stopped on a pedestrian crossing",
+     "People cannot cross safely",
+     "Stopping and parking: forbidden"
+    ],
+    "icons": [
+     "pedestrian",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ma non la fermata",
+    "en": "but not stopping"
+   },
+   {
+    "it": "attraversamenti pedonali",
+    "en": "pedestrian crossings"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23749": {
+  "en": "Parking is forbidden on cycle tracks, but not where they come out onto the road, if it is short.",
+  "explain": {
+   "short": "Where a cycle track meets the road, cyclists need a free way out. Parking there is forbidden, even for a short time.",
+   "rule": "Parking is forbidden in front of driveways. Stopping and parking are both forbidden on pedestrian crossings, on cycle tracks and their exits, and on pavements, even for a short time.",
+   "trap": "'nel caso sia di breve durata' (if it is short): a short time does not make it allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No parking at the end of a cycle track, even briefly",
+    "it": "sbocchi",
+    "lines": [
+     "Car at the end of a cycle track",
+     "Cyclists cannot get out",
+     "Forbidden, even for a short time"
+    ],
+    "icons": [
+     "bike",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "piste ciclabili",
+    "en": "cycle tracks"
+   },
+   {
+    "it": "sbocchi",
+    "en": "exits, where they come out"
+   },
+   {
+    "it": "di breve durata",
+    "en": "short, brief"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23750": {
+  "en": "Parking is allowed on pavements, only if it is short.",
+  "explain": {
+   "short": "Pavements are for pedestrians. Parking there is forbidden (unless a sign allows it), however short it is.",
+   "rule": "Parking is forbidden in front of driveways. Stopping and parking are both forbidden on pedestrian crossings, on cycle tracks and their exits, and on pavements, even for a short time.",
+   "trap": "'solo se di breve durata' (only if short): how long you stay does not matter.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No parking on the pavement, short or long",
+    "it": "marciapiedi",
+    "lines": [
+     "Car with two wheels on the pavement",
+     "Pedestrians must walk in the road",
+     "Forbidden, short or long"
+    ],
+    "icons": [
+     "car",
+     "pedestrian",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "consentita",
+    "en": "allowed"
+   },
+   {
+    "it": "marciapiedi",
+    "en": "pavements"
+   },
+   {
+    "it": "solo se di breve durata",
+    "en": "only if it is short"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23751": {
+  "en": "Parking is forbidden if it prevents access to another vehicle already correctly parked.",
+  "explain": {
+   "short": "If your car blocks a correctly parked car, its driver cannot get in or drive away. So you must not park there.",
+   "rule": "Parking is forbidden if it blocks parked vehicles, in double row (except two-wheelers), in bus and tram stop spaces, and within 15 metres of an unmarked stop sign.",
+   "trap": "'già regolarmente in sosta' (already correctly parked): the other car has the right to leave.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Do not block a correctly parked car",
+    "it": "impedisce l'accesso",
+    "lines": [
+     "Car parked tight against another",
+     "The other driver cannot get in",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "car",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "impedisce l'accesso",
+    "en": "prevents access"
+   },
+   {
+    "it": "regolarmente in sosta",
+    "en": "correctly parked"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23752": {
+  "en": "Parking is forbidden wherever it prevents parked vehicles from moving.",
+  "explain": {
+   "short": "Parked cars must be able to drive away. If your car stops them from moving out, you must not park there.",
+   "rule": "Parking is forbidden if it blocks parked vehicles, in double row (except two-wheelers), in bus and tram stop spaces, and within 15 metres of an unmarked stop sign.",
+   "trap": "'dovunque' (wherever): the ban applies in any place where you block other parked vehicles.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Do not park where you block others from leaving",
+    "it": "spostamento",
+    "lines": [
+     "Cars parked along a town street",
+     "Your car closes them in",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "car",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dovunque",
+    "en": "wherever"
+   },
+   {
+    "it": "impedito lo spostamento",
+    "en": "prevented from moving"
+   },
+   {
+    "it": "veicoli in sosta",
+    "en": "parked vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23753": {
+  "en": "Parking in double row is forbidden, unless they are two-wheeled vehicles.",
+  "explain": {
+   "short": "A car parked in the second row narrows the road and closes in the parked cars. Only two-wheeled vehicles are an exception.",
+   "rule": "Parking is forbidden if it blocks parked vehicles, in double row (except two-wheelers), in bus and tram stop spaces, and within 15 metres of an unmarked stop sign.",
+   "trap": "'salvo che si tratti di veicoli a due ruote' (unless two-wheelers): the only exception.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No double parking (except two-wheelers)",
+    "it": "seconda fila",
+    "lines": [
+     "Car parked in double row",
+     "It narrows the road",
+     "Forbidden, except two-wheelers"
+    ],
+    "icons": [
+     "car",
+     "road",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in seconda fila",
+    "en": "in double row"
+   },
+   {
+    "it": "salvo che",
+    "en": "unless"
+   },
+   {
+    "it": "veicoli a due ruote",
+    "en": "two-wheeled vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23754": {
+  "en": "Parking is forbidden in spaces reserved for buses, trolleybuses and rail vehicles to stand and stop.",
+  "explain": {
+   "short": "The bus stop must stay free, so buses and trams can stop close to the pavement and passengers can get on safely.",
+   "rule": "Parking is forbidden if it blocks parked vehicles, in double row (except two-wheelers), in bus and tram stop spaces, and within 15 metres of an unmarked stop sign.",
+   "trap": "'veicoli circolanti su rotaia' means vehicles running on rails, such as trams.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Keep bus and tram stops free",
+    "it": "fermata degli autobus",
+    "lines": [
+     "Car parked at a bus stop",
+     "The bus cannot reach the stop",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "bus",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "spazi riservati",
+    "en": "reserved spaces"
+   },
+   {
+    "it": "filobus",
+    "en": "trolleybuses"
+   },
+   {
+    "it": "veicoli circolanti su rotaia",
+    "en": "rail vehicles (trams)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23755": {
+  "en": "Parking is forbidden less than 15 metres from the stop sign of buses, trolleybuses and rail vehicles, if the standing spaces are not marked.",
+  "explain": {
+   "short": "When the bus stop space is not painted on the road, the law fixes it for you: no parking closer than 15 metres to the stop sign.",
+   "rule": "Parking is forbidden if it blocks parked vehicles, in double row (except two-wheelers), in bus and tram stop spaces, and within 15 metres of an unmarked stop sign.",
+   "trap": "'qualora ... non siano delimitati' (if not marked): the 15 metres apply when there are no markings.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No parking within 15 m of an unmarked bus stop",
+    "it": "15 metri",
+    "lines": [
+     "Bus stop sign, no road markings",
+     "Car parked close to the sign",
+     "Less than 15 m: forbidden"
+    ],
+    "icons": [
+     "bus",
+     "distance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "a meno di 15 metri",
+    "en": "less than 15 metres"
+   },
+   {
+    "it": "segnale di fermata",
+    "en": "stop sign"
+   },
+   {
+    "it": "non siano delimitati",
+    "en": "are not marked"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23756": {
+  "en": "Double parking of cars is allowed for a few minutes, by switching on the hazard lights.",
+  "explain": {
+   "short": "Double parking is forbidden for cars. Hazard lights do not make it allowed, not even for a few minutes.",
+   "rule": "Parking is forbidden if it blocks parked vehicles, in double row (except two-wheelers), in bus and tram stop spaces, and within 15 metres of an unmarked stop sign.",
+   "trap": "'azionando le luci di emergenza' (switching on hazard lights) is a common excuse, not a permission.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Hazard lights do not allow double parking",
+    "it": "doppia fila",
+    "lines": [
+     "Car in double row, hazard lights on",
+     "Only for a few minutes",
+     "Still forbidden"
+    ],
+    "icons": [
+     "car",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in doppia fila",
+    "en": "in double row"
+   },
+   {
+    "it": "pochi minuti",
+    "en": "a few minutes"
+   },
+   {
+    "it": "luci di emergenza",
+    "en": "hazard lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23757": {
+  "en": "Double parking of cars is allowed as long as enough space remains for two rows of vehicles to drive.",
+  "explain": {
+   "short": "Double parking of cars is forbidden however wide the road is. It still closes in the cars parked beside it.",
+   "rule": "Parking is forbidden if it blocks parked vehicles, in double row (except two-wheelers), in bus and tram stop spaces, and within 15 metres of an unmarked stop sign.",
+   "trap": "'purché rimanga spazio sufficiente' (as long as enough space remains) is an invented condition.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Double parking is banned, even on a wide road",
+    "it": "doppia fila",
+    "lines": [
+     "Wide road, car in double row",
+     "Two lanes still free",
+     "Still forbidden"
+    ],
+    "icons": [
+     "car",
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in doppia fila",
+    "en": "in double row"
+   },
+   {
+    "it": "purché",
+    "en": "as long as"
+   },
+   {
+    "it": "spazio sufficiente",
+    "en": "enough space"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23758": {
+  "en": "Parking is allowed in spaces reserved for buses, trolleybuses and rail vehicles to stand and stop, as long as it is short.",
+  "explain": {
+   "short": "A bus or tram can arrive at any moment. Parking in its stop space is forbidden, even for a short time.",
+   "rule": "Parking is forbidden if it blocks parked vehicles, in double row (except two-wheelers), in bus and tram stop spaces, and within 15 metres of an unmarked stop sign.",
+   "trap": "'purché sia di breve durata' (as long as it is short): a short time does not make it allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No parking at bus stops, even briefly",
+    "it": "breve durata",
+    "lines": [
+     "Car parked at a bus stop",
+     "Only for a short time",
+     "Still forbidden"
+    ],
+    "icons": [
+     "bus",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "consentita",
+    "en": "allowed"
+   },
+   {
+    "it": "spazi riservati",
+    "en": "reserved spaces"
+   },
+   {
+    "it": "purché sia di breve durata",
+    "en": "as long as it is short"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23759": {
+  "en": "Parking is forbidden in spaces reserved for public-hire vehicles (taxis).",
+  "explain": {
+   "short": "Taxi ranks must stay free for taxis waiting for customers. Other drivers must not park there.",
+   "rule": "Parking is forbidden in taxi spaces, market and loading areas (in the set hours), on verges unless signed, in disabled spaces and at their kerb ramps. A short time does not make it allowed.",
+   "trap": "'veicoli in servizio di piazza' is the official name for taxis.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Taxi rank: no parking for other cars",
+    "it": "servizio di piazza",
+    "lines": [
+     "Taxi rank in a town square",
+     "A private car parks there",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "car",
+     "sign",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "spazi riservati",
+    "en": "reserved spaces"
+   },
+   {
+    "it": "veicoli in servizio di piazza",
+    "en": "public-hire vehicles (taxis)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23760": {
+  "en": "Parking is forbidden on areas for the market and for vehicles loading and unloading goods, during the set hours.",
+  "explain": {
+   "short": "During the set hours these areas are needed for the market or for vans loading goods. Parking there blocks their work.",
+   "rule": "Parking is forbidden in taxi spaces, market and loading areas (in the set hours), on verges unless signed, in disabled spaces and at their kerb ramps. A short time does not make it allowed.",
+   "trap": "'nelle ore stabilite' (during the set hours): the ban applies at the times shown on the sign.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Market and loading areas: no parking in set hours",
+    "it": "carico e lo scarico",
+    "lines": [
+     "Loading area in a town street",
+     "Car parked in the set hours",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "truck",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "mercato",
+    "en": "market"
+   },
+   {
+    "it": "carico e lo scarico di cose",
+    "en": "loading and unloading goods"
+   },
+   {
+    "it": "nelle ore stabilite",
+    "en": "during the set hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23761": {
+  "en": "Parking is forbidden on verges, unless signs say otherwise.",
+  "explain": {
+   "short": "The verge (banchina) is the strip at the side of the carriageway. You may park there only when a sign allows it.",
+   "rule": "Parking is forbidden in taxi spaces, market and loading areas (in the set hours), on verges unless signed, in disabled spaces and at their kerb ramps. A short time does not make it allowed.",
+   "trap": "'salvo diversa segnalazione' (unless signs say otherwise): a sign can allow it.",
+   "scene": "roadparts",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Verge: no parking unless a sign allows it",
+    "it": "banchine",
+    "part": "banchina"
+   }
+  },
+  "keywords": [
+   {
+    "it": "banchine",
+    "en": "verges"
+   },
+   {
+    "it": "salvo diversa segnalazione",
+    "en": "unless signs say otherwise"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23762": {
+  "en": "Parking is forbidden in spaces reserved for vehicles of disabled people to stop or park.",
+  "explain": {
+   "short": "These spaces are kept for disabled people, who need to park close by. Other drivers must never use them.",
+   "rule": "Parking is forbidden in taxi spaces, market and loading areas (in the set hours), on verges unless signed, in disabled spaces and at their kerb ramps. A short time does not make it allowed.",
+   "trap": "'veicoli per persone invalide' are vehicles serving disabled people (with the special permit).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Disabled spaces: no parking for others",
+    "it": "persone invalide",
+    "lines": [
+     "Space marked for disabled people",
+     "A car without the permit parks there",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "sign",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "spazi riservati",
+    "en": "reserved spaces"
+   },
+   {
+    "it": "veicoli per persone invalide",
+    "en": "vehicles of disabled people"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23763": {
+  "en": "Parking is forbidden at the ramps or links between pavements and carriageway used by vehicles of disabled people.",
+  "explain": {
+   "short": "A kerb ramp lets a wheelchair go from the pavement to the road. A car parked in front of it blocks the way.",
+   "rule": "Parking is forbidden in taxi spaces, market and loading areas (in the set hours), on verges unless signed, in disabled spaces and at their kerb ramps. A short time does not make it allowed.",
+   "trap": "'scivoli o raccordi' are the small ramps that join the pavement to the road.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never block a kerb ramp",
+    "it": "scivoli",
+    "lines": [
+     "Kerb ramp between pavement and road",
+     "Car parked in front of it",
+     "Wheelchair blocked: forbidden"
+    ],
+    "icons": [
+     "pedestrian",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "scivoli",
+    "en": "ramps"
+   },
+   {
+    "it": "raccordi",
+    "en": "links, joins"
+   },
+   {
+    "it": "persone invalide",
+    "en": "disabled people"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23764": {
+  "en": "Parking is allowed in spaces reserved for taxis only if it does not last a long time.",
+  "explain": {
+   "short": "Taxi spaces are only for taxis. Other cars must not park there, for a short or a long time.",
+   "rule": "Parking is forbidden in taxi spaces, market and loading areas (in the set hours), on verges unless signed, in disabled spaces and at their kerb ramps. A short time does not make it allowed.",
+   "trap": "'solo se non si protrae per lungo tempo' (only if not for long): how long you stay does not matter.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Taxi spaces: no parking, even briefly",
+    "it": "taxi",
+    "lines": [
+     "Car parked at a taxi rank",
+     "Only for a short time",
+     "Still forbidden"
+    ],
+    "icons": [
+     "car",
+     "sign",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "consentita",
+    "en": "allowed"
+   },
+   {
+    "it": "taxi",
+    "en": "taxis"
+   },
+   {
+    "it": "non si protrae per lungo tempo",
+    "en": "does not last a long time"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23765": {
+  "en": "Parking is allowed on areas for vehicles loading and unloading goods, during the set hours, only if it is short.",
+  "explain": {
+   "short": "During the set hours the loading area is only for vehicles that load or unload goods. Parking there is forbidden, even briefly.",
+   "rule": "Parking is forbidden in taxi spaces, market and loading areas (in the set hours), on verges unless signed, in disabled spaces and at their kerb ramps. A short time does not make it allowed.",
+   "trap": "'soltanto se di breve durata' (only if short): a short time does not make it allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Loading area in set hours: no parking at all",
+    "it": "breve durata",
+    "lines": [
+     "Loading area in the set hours",
+     "Car parked for a short time",
+     "Still forbidden"
+    ],
+    "icons": [
+     "truck",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "consentita",
+    "en": "allowed"
+   },
+   {
+    "it": "carico e lo scarico di cose",
+    "en": "loading and unloading goods"
+   },
+   {
+    "it": "soltanto se di breve durata",
+    "en": "only if short"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23766": {
+  "en": "Parking is allowed in spaces reserved for vehicles of disabled people to stop or park, as long as it is short.",
+  "explain": {
+   "short": "Disabled spaces are only for vehicles serving disabled people. Others must not park there, even for a short time.",
+   "rule": "Parking is forbidden in taxi spaces, market and loading areas (in the set hours), on verges unless signed, in disabled spaces and at their kerb ramps. A short time does not make it allowed.",
+   "trap": "'purché di breve durata' (as long as it is short): a short time does not make it allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Disabled spaces: no parking, even briefly",
+    "it": "breve durata",
+    "lines": [
+     "Car parked in a disabled space",
+     "Only for a short time",
+     "Still forbidden"
+    ],
+    "icons": [
+     "car",
+     "sign",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "consentita",
+    "en": "allowed"
+   },
+   {
+    "it": "persone invalide",
+    "en": "disabled people"
+   },
+   {
+    "it": "purché di breve durata",
+    "en": "as long as it is short"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23767": {
+  "en": "Parking is forbidden in lanes or carriageways reserved for public transport.",
+  "explain": {
+   "short": "Bus lanes must stay free so buses and taxis can move quickly. A parked car blocks the whole lane.",
+   "rule": "Parking is forbidden in public-transport lanes, pedestrian areas, ZTL without permit, emergency/cleaning spaces and in front of bins. At emergency spaces and bins a short stop is still allowed.",
+   "trap": "'mezzi pubblici' means public transport (buses, trams, taxis).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No parking in a bus lane",
+    "it": "mezzi pubblici",
+    "lines": [
+     "Bus lane in a town street",
+     "Car parked in the lane",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "bus",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsie",
+    "en": "lanes"
+   },
+   {
+    "it": "carreggiate",
+    "en": "carriageways"
+   },
+   {
+    "it": "riservate ai mezzi pubblici",
+    "en": "reserved for public transport"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23768": {
+  "en": "Parking is forbidden in urban pedestrian areas.",
+  "explain": {
+   "short": "A pedestrian area in town is only for people on foot. Vehicles may not park there.",
+   "rule": "Parking is forbidden in public-transport lanes, pedestrian areas, ZTL without permit, emergency/cleaning spaces and in front of bins. At emergency spaces and bins a short stop is still allowed.",
+   "trap": "'aree pedonali urbane' are town areas closed to traffic and kept for pedestrians.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No parking in a pedestrian area",
+    "it": "aree pedonali",
+    "lines": [
+     "Pedestrian area in town",
+     "Only people on foot",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "pedestrian",
+     "sign",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aree pedonali urbane",
+    "en": "urban pedestrian areas"
+   },
+   {
+    "it": "è vietata",
+    "en": "is forbidden"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23769": {
+  "en": "Parking is forbidden in limited traffic zones for vehicles that are not authorised.",
+  "explain": {
+   "short": "In a limited traffic zone (ZTL) only vehicles with a permit may drive and park. Without a permit, parking there is forbidden.",
+   "rule": "Parking is forbidden in public-transport lanes, pedestrian areas, ZTL without permit, emergency/cleaning spaces and in front of bins. At emergency spaces and bins a short stop is still allowed.",
+   "trap": "'per i veicoli non autorizzati' (for unauthorised vehicles): the ban is for vehicles without a permit.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "ZTL: no parking without a permit",
+    "it": "traffico limitato",
+    "lines": [
+     "Limited traffic zone in town",
+     "Car without a permit",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "sign",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "zone a traffico limitato",
+    "en": "limited traffic zones (ZTL)"
+   },
+   {
+    "it": "non autorizzati",
+    "en": "not authorised"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23770": {
+  "en": "Parking is forbidden in spaces for emergency or public-cleaning services shown by the proper signs.",
+  "explain": {
+   "short": "These spaces must be free for ambulances, fire engines or street-cleaning vehicles. A parked car could stop them working.",
+   "rule": "Parking is forbidden in public-transport lanes, pedestrian areas, ZTL without permit, emergency/cleaning spaces and in front of bins. At emergency spaces and bins a short stop is still allowed.",
+   "trap": "'igiene pubblica' (public hygiene) means services like street cleaning and rubbish collection.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Emergency and cleaning spaces: no parking",
+    "it": "servizi di emergenza",
+    "lines": [
+     "Space marked for emergency services",
+     "Car parked there",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "ambulance",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "servizi di emergenza",
+    "en": "emergency services"
+   },
+   {
+    "it": "igiene pubblica",
+    "en": "public cleaning (hygiene)"
+   },
+   {
+    "it": "apposita segnaletica",
+    "en": "proper signs"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23771": {
+  "en": "Parking is forbidden in front of urban rubbish bins.",
+  "explain": {
+   "short": "The rubbish lorry must reach the bins to empty them. A car parked in front of them blocks the collection.",
+   "rule": "Parking is forbidden in public-transport lanes, pedestrian areas, ZTL without permit, emergency/cleaning spaces and in front of bins. At emergency spaces and bins a short stop is still allowed.",
+   "trap": "'cassonetti dei rifiuti urbani' are the large street bins for household rubbish.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No parking in front of rubbish bins",
+    "it": "cassonetti",
+    "lines": [
+     "Rubbish bins at the roadside",
+     "Car parked in front of them",
+     "The bin lorry cannot work"
+    ],
+    "icons": [
+     "car",
+     "truck",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "davanti ai cassonetti",
+    "en": "in front of the bins"
+   },
+   {
+    "it": "rifiuti urbani",
+    "en": "household rubbish"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23772": {
+  "en": "Short parking is allowed in urban pedestrian areas.",
+  "explain": {
+   "short": "A pedestrian area is only for people on foot. Parking there is forbidden, even for a short time.",
+   "rule": "Parking is forbidden in public-transport lanes, pedestrian areas, ZTL without permit, emergency/cleaning spaces and in front of bins. At emergency spaces and bins a short stop is still allowed.",
+   "trap": "'Brevi soste' (short parking): a short time does not make it allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Pedestrian area: no parking, even briefly",
+    "it": "aree pedonali",
+    "lines": [
+     "Car in a pedestrian area",
+     "Only for a short time",
+     "Still forbidden"
+    ],
+    "icons": [
+     "pedestrian",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Brevi soste",
+    "en": "short parking"
+   },
+   {
+    "it": "consentite",
+    "en": "allowed"
+   },
+   {
+    "it": "aree pedonali urbane",
+    "en": "urban pedestrian areas"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23773": {
+  "en": "Parking, and also stopping, are forbidden in spaces for emergency or public-cleaning services shown by the proper signs.",
+  "explain": {
+   "short": "In these spaces only parking (sosta) is forbidden. A short stop (fermata) to let someone in or out is allowed.",
+   "rule": "Parking is forbidden in public-transport lanes, pedestrian areas, ZTL without permit, emergency/cleaning spaces and in front of bins. At emergency spaces and bins a short stop is still allowed.",
+   "trap": "'ed anche la fermata' (and also stopping) is wrong: only parking is banned here.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only parking is banned here; a short stop is allowed",
+    "it": "ed anche la fermata",
+    "lines": [
+     "Space for emergency services",
+     "Short stop to let someone out: OK",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "ambulance",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ed anche la fermata",
+    "en": "and also stopping"
+   },
+   {
+    "it": "servizi di emergenza",
+    "en": "emergency services"
+   },
+   {
+    "it": "igiene pubblica",
+    "en": "public cleaning (hygiene)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23774": {
+  "en": "Parking as well as stopping are forbidden in front of urban rubbish bins.",
+  "explain": {
+   "short": "In front of rubbish bins only parking (sosta) is forbidden. A short stop (fermata) to let someone in or out is allowed.",
+   "rule": "Parking is forbidden in public-transport lanes, pedestrian areas, ZTL without permit, emergency/cleaning spaces and in front of bins. At emergency spaces and bins a short stop is still allowed.",
+   "trap": "'così come la fermata' (as well as stopping) is wrong: only parking is banned here.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only parking is banned at bins; a short stop is allowed",
+    "it": "così come la fermata",
+    "lines": [
+     "Rubbish bins at the roadside",
+     "Short stop to let someone out: OK",
+     "Parking: forbidden"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "così come la fermata",
+    "en": "as well as stopping"
+   },
+   {
+    "it": "cassonetti",
+    "en": "rubbish bins"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23776": {
+  "en": "In built-up areas the driver must not leave a trailer parked unhooked from its towing vehicle, unless signs say otherwise.",
+  "explain": {
+   "short": "A trailer left alone in a town street takes space and can be dangerous. So it is forbidden, unless signs allow it.",
+   "rule": "A parking ban written in the Code applies even without signs. In towns, no trailer may be left parked without its towing vehicle unless signs allow it.",
+   "trap": "'salvo diversa segnalazione' (unless signs say otherwise): only a sign can allow it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "In town: no trailer left without its towing vehicle",
+    "it": "rimorchio staccato",
+    "lines": [
+     "Trailer unhooked in a town street",
+     "Left there without its towing vehicle",
+     "Forbidden, unless signs allow it"
+    ],
+    "icons": [
+     "truck",
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Nei centri abitati",
+    "en": "in built-up areas"
+   },
+   {
+    "it": "rimorchio staccato dalla motrice",
+    "en": "trailer unhooked from its towing vehicle"
+   },
+   {
+    "it": "salvo diversa segnalazione",
+    "en": "unless signs say otherwise"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23777": {
+  "en": "When parking is expressly forbidden by a rule of the Highway Code, the ban applies whether or not there are signs.",
+  "explain": {
+   "short": "Bans written in the Code (on bends, crossings, bus stops...) apply everywhere. There is no need for a sign to remind you.",
+   "rule": "A parking ban written in the Code applies even without signs. In towns, no trailer may be left parked without its towing vehicle unless signs allow it.",
+   "trap": "'non è condizionata dalla presenza di cartelli' (does not depend on signs): the Code alone is enough.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Code bans apply even with no sign",
+    "it": "cartelli segnaletici",
+    "lines": [
+     "No-parking rule in the Highway Code",
+     "No sign on the road",
+     "The ban still applies"
+    ],
+    "icons": [
+     "book",
+     "sign",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "espressamente vietata",
+    "en": "expressly forbidden"
+   },
+   {
+    "it": "non è condizionata",
+    "en": "does not depend on"
+   },
+   {
+    "it": "cartelli segnaletici",
+    "en": "road signs"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23778": {
+  "en": "Parking is forbidden at fuel stations, up to 5 metres before and after, even when the stations are closed.",
+  "explain": {
+   "short": "The Highway Code has no ban on parking 5 metres before and after a fuel station that is closed. You may park there if no other rule or sign forbids it.",
+   "rule": "A parking ban written in the Code applies even without signs. In towns, no trailer may be left parked without its towing vehicle unless signs allow it.",
+   "trap": "'anche quando i distributori sono chiusi' (even when closed): this ban does not exist.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No 5 m ban at a closed fuel station",
+    "it": "distributori di carburante",
+    "lines": [
+     "Fuel station closed at night",
+     "No such ban in the Code",
+     "Park if no sign or rule forbids it"
+    ],
+    "icons": [
+     "fuel",
+     "book",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "distributori di carburante",
+    "en": "fuel stations"
+   },
+   {
+    "it": "sino a 5 metri prima e dopo",
+    "en": "up to 5 metres before and after"
+   },
+   {
+    "it": "anche quando",
+    "en": "even when"
+   }
+  ],
+  "review": true,
+  "reviewNote": "Rule appears to come from the old Code; current art. 158 has no fuel-station ban, so the explanation says 'no such ban'. Check wording."
+ },
+ "q23779": {
+  "en": "When parking is expressly forbidden by a rule of the Highway Code, obeying the ban still depends on the presence of signs.",
+  "explain": {
+   "short": "Bans written in the Code apply everywhere, with or without signs. You must know them yourself.",
+   "rule": "A parking ban written in the Code applies even without signs. In towns, no trailer may be left parked without its towing vehicle unless signs allow it.",
+   "trap": "'comunque condizionata dalla presenza di cartelli' (still depends on signs) is wrong: the Code alone is enough.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Code bans apply even without signs",
+    "it": "condizionata",
+    "lines": [
+     "No-parking rule in the Highway Code",
+     "No sign on the road",
+     "The ban still applies"
+    ],
+    "icons": [
+     "book",
+     "sign",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "espressamente vietata",
+    "en": "expressly forbidden"
+   },
+   {
+    "it": "comunque condizionata",
+    "en": "still depends on"
+   },
+   {
+    "it": "cartelli segnaletici",
+    "en": "road signs"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23780": {
+  "en": "Parking in spaces reserved for buses, trolleybuses and rail vehicles to stand and stop leads, among other things, to the loss of points from the licence.",
+  "explain": {
+   "short": "Blocking a bus or tram stop is a serious offence. Besides the fine, you lose points from your licence.",
+   "rule": "These parking offences (bus/tram stops, disabled spaces and ramps, public-transport lanes) cost a fine and licence points. No disc, hazard lights or time of day makes them allowed.",
+   "trap": "'tra l'altro' (among other things): the fine is not the only penalty.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Parking at a bus stop: fine and licence points",
+    "it": "sottrazione di punti",
+    "lines": [
+     "Car parked at a bus stop",
+     "Fine to pay",
+     "Points lost from the licence"
+    ],
+    "icons": [
+     "bus",
+     "money",
+     "points"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tra l'altro",
+    "en": "among other things"
+   },
+   {
+    "it": "sottrazione di punti",
+    "en": "loss of points"
+   },
+   {
+    "it": "patente",
+    "en": "driving licence"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23781": {
+  "en": "Parking less than 15 metres from the bus stop sign, if the stop spaces are not marked, leads among other things to the loss of points from the licence.",
+  "explain": {
+   "short": "Near an unmarked bus stop the 15 metres belong to the bus. Parking there costs a fine and licence points.",
+   "rule": "These parking offences (bus/tram stops, disabled spaces and ramps, public-transport lanes) cost a fine and licence points. No disc, hazard lights or time of day makes them allowed.",
+   "trap": "'tra l'altro' (among other things): besides the fine, you lose points.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Within 15 m of a bus stop: fine and points",
+    "it": "sottrazione di punti",
+    "lines": [
+     "Car parked near a bus stop sign",
+     "Less than 15 m, no markings",
+     "Fine and licence points"
+    ],
+    "icons": [
+     "bus",
+     "distance",
+     "points"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "a meno di 15 metri",
+    "en": "less than 15 metres"
+   },
+   {
+    "it": "non siano delimitati",
+    "en": "are not marked"
+   },
+   {
+    "it": "sottrazione di punti",
+    "en": "loss of points"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23782": {
+  "en": "Parking in spaces reserved for vehicles of disabled people to stop and park leads, among other things, to the loss of points from the licence.",
+  "explain": {
+   "short": "Taking a disabled person's space is a serious offence. Besides the fine, you lose points from your licence.",
+   "rule": "These parking offences (bus/tram stops, disabled spaces and ramps, public-transport lanes) cost a fine and licence points. No disc, hazard lights or time of day makes them allowed.",
+   "trap": "'tra l'altro' (among other things): besides the fine, you lose points.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Disabled space: fine and licence points",
+    "it": "sottrazione di punti",
+    "lines": [
+     "Car parked in a disabled space",
+     "Fine to pay",
+     "Points lost from the licence"
+    ],
+    "icons": [
+     "sign",
+     "money",
+     "points"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "persone invalide",
+    "en": "disabled people"
+   },
+   {
+    "it": "tra l'altro",
+    "en": "among other things"
+   },
+   {
+    "it": "sottrazione di punti",
+    "en": "loss of points"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23783": {
+  "en": "Parking at the ramps or links between pavements and carriageway used by vehicles of disabled people leads, among other things, to the loss of points from the licence.",
+  "explain": {
+   "short": "Blocking a kerb ramp stops wheelchairs from passing. Besides the fine, you lose points from your licence.",
+   "rule": "These parking offences (bus/tram stops, disabled spaces and ramps, public-transport lanes) cost a fine and licence points. No disc, hazard lights or time of day makes them allowed.",
+   "trap": "'tra l'altro' (among other things): besides the fine, you lose points.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Blocking a kerb ramp: fine and points",
+    "it": "scivoli",
+    "lines": [
+     "Car parked in front of a kerb ramp",
+     "Fine to pay",
+     "Points lost from the licence"
+    ],
+    "icons": [
+     "car",
+     "money",
+     "points"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "scivoli",
+    "en": "ramps"
+   },
+   {
+    "it": "raccordi",
+    "en": "links, joins"
+   },
+   {
+    "it": "sottrazione di punti",
+    "en": "loss of points"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23784": {
+  "en": "Parking in lanes or carriageways reserved for public transport leads, among other things, to the loss of points from the licence.",
+  "explain": {
+   "short": "A car parked in a bus lane blocks public transport. Besides the fine, you lose points from your licence.",
+   "rule": "These parking offences (bus/tram stops, disabled spaces and ramps, public-transport lanes) cost a fine and licence points. No disc, hazard lights or time of day makes them allowed.",
+   "trap": "'tra l'altro' (among other things): besides the fine, you lose points.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Parking in a bus lane: fine and points",
+    "it": "sottrazione di punti",
+    "lines": [
+     "Car parked in a bus lane",
+     "Fine to pay",
+     "Points lost from the licence"
+    ],
+    "icons": [
+     "bus",
+     "money",
+     "points"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "riservate ai mezzi pubblici",
+    "en": "reserved for public transport"
+   },
+   {
+    "it": "tra l'altro",
+    "en": "among other things"
+   },
+   {
+    "it": "sottrazione di punti",
+    "en": "loss of points"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23785": {
+  "en": "Parking in spaces reserved for buses, trolleybuses and rail vehicles to stand and stop is allowed if you use the parking disc.",
+  "explain": {
+   "short": "A parking disc (disco orario) is only for time-limited parking spaces. It never makes parking at a bus stop allowed.",
+   "rule": "These parking offences (bus/tram stops, disabled spaces and ramps, public-transport lanes) cost a fine and licence points. No disc, hazard lights or time of day makes them allowed.",
+   "trap": "'se si utilizza il disco orario' (if you use the parking disc): the disc changes nothing here.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A parking disc does not allow parking at a bus stop",
+    "it": "disco orario",
+    "lines": [
+     "Car at a bus stop with a parking disc",
+     "The disc changes nothing",
+     "Forbidden: fine and points"
+    ],
+    "icons": [
+     "bus",
+     "cross",
+     "points"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "consentita",
+    "en": "allowed"
+   },
+   {
+    "it": "disco orario",
+    "en": "parking disc"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23786": {
+  "en": "Parking less than 15 metres from the bus stop sign, if the standing spaces are not marked, is allowed by switching on the hazard warning lights (all four indicators flashing together).",
+  "explain": {
+   "short": "Within 15 metres of an unmarked bus stop parking is forbidden. Hazard lights never make a forbidden parking allowed.",
+   "rule": "These parking offences (bus/tram stops, disabled spaces and ramps, public-transport lanes) cost a fine and licence points. No disc, hazard lights or time of day makes them allowed.",
+   "trap": "'azionando la segnalazione luminosa di pericolo' (switching on hazard lights) is not a permission.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Hazard lights do not allow parking at a bus stop",
+    "it": "quattro frecce",
+    "lines": [
+     "Car near a bus stop, hazard lights on",
+     "Less than 15 m from the sign",
+     "Still forbidden"
+    ],
+    "icons": [
+     "bus",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "a meno di 15 metri",
+    "en": "less than 15 metres"
+   },
+   {
+    "it": "consentita",
+    "en": "allowed"
+   },
+   {
+    "it": "quattro frecce",
+    "en": "hazard lights (four indicators)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23787": {
+  "en": "Parking in spaces reserved for vehicles of disabled people to stop and park leads to a fine, but not to the loss of points from the driver's licence.",
+  "explain": {
+   "short": "Parking in a disabled space costs a fine AND licence points, not only a fine.",
+   "rule": "These parking offences (bus/tram stops, disabled spaces and ramps, public-transport lanes) cost a fine and licence points. No disc, hazard lights or time of day makes them allowed.",
+   "trap": "'ma non la sottrazione di punti' (but not the loss of points) is wrong: you lose points too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Disabled space: fine AND licence points",
+    "it": "sottrazione di punti",
+    "lines": [
+     "Car parked in a disabled space",
+     "Fine to pay",
+     "And points lost too"
+    ],
+    "icons": [
+     "sign",
+     "money",
+     "points"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sanzione pecuniaria",
+    "en": "fine"
+   },
+   {
+    "it": "ma non",
+    "en": "but not"
+   },
+   {
+    "it": "sottrazione di punti",
+    "en": "loss of points"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23788": {
+  "en": "Parking at the ramps or links between pavements and carriageway used by vehicles of disabled people leads to the suspension of the licence.",
+  "explain": {
+   "short": "Blocking a kerb ramp costs a fine and licence points. The licence is not suspended for this.",
+   "rule": "These parking offences (bus/tram stops, disabled spaces and ramps, public-transport lanes) cost a fine and licence points. No disc, hazard lights or time of day makes them allowed.",
+   "trap": "'sospensione della patente' (licence suspension) is too heavy: the penalty is a fine and points.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Kerb ramp: fine and points, not suspension",
+    "it": "sospensione",
+    "lines": [
+     "Car parked in front of a kerb ramp",
+     "Fine and licence points",
+     "No licence suspension"
+    ],
+    "icons": [
+     "car",
+     "points",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "scivoli",
+    "en": "ramps"
+   },
+   {
+    "it": "persone invalide",
+    "en": "disabled people"
+   },
+   {
+    "it": "sospensione della patente",
+    "en": "licence suspension"
+   }
+  ],
+  "review": true,
+  "reviewNote": "Check whether Legge 177/2024 added licence suspension (e.g. for repeat offences) for parking in disabled spaces or ramps."
+ },
+ "q23789": {
+  "en": "Parking in lanes or carriageways reserved for public transport is allowed in built-up areas from 22:00 to 8:00.",
+  "explain": {
+   "short": "Lanes reserved for public transport are for buses and taxis at all hours. Parking there is forbidden, day and night.",
+   "rule": "These parking offences (bus/tram stops, disabled spaces and ramps, public-transport lanes) cost a fine and licence points. No disc, hazard lights or time of day makes them allowed.",
+   "trap": "'dalle ore 22.00 alle ore 8.00' (from 22:00 to 8:00) is an invented time window.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Bus lane: no parking, day or night",
+    "it": "mezzi pubblici",
+    "lines": [
+     "Bus lane in town at night",
+     "Car parked after 22:00",
+     "Still forbidden"
+    ],
+    "icons": [
+     "bus",
+     "night",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "consentita",
+    "en": "allowed"
+   },
+   {
+    "it": "mezzi pubblici",
+    "en": "public transport"
+   },
+   {
+    "it": "dalle ore 22.00 alle ore 8.00",
+    "en": "from 22:00 to 8:00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23790": {
+  "en": "An emergency stop is the interruption of the journey when the vehicle cannot be used because of a breakdown.",
+  "explain": {
+   "short": "If the car breaks down and cannot go on, you are forced to stop. This is exactly an emergency stop.",
+   "rule": "Emergency stop = the vehicle is broken down, or the driver or a passenger feels ill. Stopping for traffic is 'arresto'; letting people in or out is 'fermata'.",
+   "trap": "'inutilizzabile per avaria' (unusable because of a breakdown) is one of the two real cases.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Breakdown = emergency stop",
+    "it": "avaria",
+    "lines": [
+     "Car breaks down on the road",
+     "It cannot move any more",
+     "This is an emergency stop"
+    ],
+    "icons": [
+     "engine",
+     "warning",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta di emergenza",
+    "en": "emergency stop"
+   },
+   {
+    "it": "inutilizzabile",
+    "en": "unusable"
+   },
+   {
+    "it": "avaria",
+    "en": "breakdown"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23791": {
+  "en": "An emergency stop is the interruption of the journey when the vehicle must stop because the driver or a passenger feels ill.",
+  "explain": {
+   "short": "If the driver or a passenger suddenly feels ill, you must stop. This is an emergency stop.",
+   "rule": "Emergency stop = the vehicle is broken down, or the driver or a passenger feels ill. Stopping for traffic is 'arresto'; letting people in or out is 'fermata'.",
+   "trap": "'malessere fisico' (feeling physically ill) is one of the two real cases.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Feeling ill = emergency stop",
+    "it": "malessere fisico",
+    "lines": [
+     "Driver suddenly feels ill",
+     "Stops the car at the side",
+     "This is an emergency stop"
+    ],
+    "icons": [
+     "firstaid",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta di emergenza",
+    "en": "emergency stop"
+   },
+   {
+    "it": "malessere fisico",
+    "en": "feeling physically ill"
+   },
+   {
+    "it": "passeggero",
+    "en": "passenger"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23792": {
+  "en": "An emergency stop is the interruption of the journey due to traffic needs.",
+  "explain": {
+   "short": "Stopping because of traffic (a red light, a queue) is called 'arresto'. An emergency stop is for a breakdown or illness.",
+   "rule": "Emergency stop = the vehicle is broken down, or the driver or a passenger feels ill. Stopping for traffic is 'arresto'; letting people in or out is 'fermata'.",
+   "trap": "'esigenze della circolazione' (traffic needs) is the definition of 'arresto', not of the emergency stop.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Stopping for traffic is 'arresto', not emergency",
+    "it": "esigenze della circolazione",
+    "lines": [
+     "Car stops in a queue at traffic lights",
+     "That is 'arresto', for traffic",
+     "Emergency: breakdown or illness"
+    ],
+    "icons": [
+     "light",
+     "car",
+     "firstaid"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta di emergenza",
+    "en": "emergency stop"
+   },
+   {
+    "it": "esigenze della circolazione",
+    "en": "traffic needs"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23793": {
+  "en": "An emergency stop is the temporary halt of the journey to let a disabled person get out.",
+  "explain": {
+   "short": "Stopping briefly to let a person (also a disabled person) get out is a 'fermata'. An emergency stop is for a breakdown or illness.",
+   "rule": "Emergency stop = the vehicle is broken down, or the driver or a passenger feels ill. Stopping for traffic is 'arresto'; letting people in or out is 'fermata'.",
+   "trap": "'per consentire la discesa' (to let someone get out) describes a 'fermata', not an emergency stop.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Letting someone out is a 'fermata'",
+    "it": "discesa",
+    "lines": [
+     "Car stops to let a disabled person out",
+     "That is a 'fermata'",
+     "Emergency: breakdown or illness"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "firstaid"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta di emergenza",
+    "en": "emergency stop"
+   },
+   {
+    "it": "temporanea sospensione",
+    "en": "temporary halt"
+   },
+   {
+    "it": "discesa",
+    "en": "getting out"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23794": {
+  "en": "An emergency stop is the temporary halt of the journey to let a disabled person get into the vehicle.",
+  "explain": {
+   "short": "Stopping briefly to let a person (also a disabled person) get in is a 'fermata'. An emergency stop is for a breakdown or illness.",
+   "rule": "Emergency stop = the vehicle is broken down, or the driver or a passenger feels ill. Stopping for traffic is 'arresto'; letting people in or out is 'fermata'.",
+   "trap": "'di salire sul veicolo' (to get in) describes a 'fermata', not an emergency stop.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Letting someone in is a 'fermata'",
+    "it": "salire",
+    "lines": [
+     "Car stops to let a disabled person in",
+     "That is a 'fermata'",
+     "Emergency: breakdown or illness"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "firstaid"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta di emergenza",
+    "en": "emergency stop"
+   },
+   {
+    "it": "temporanea sospensione",
+    "en": "temporary halt"
+   },
+   {
+    "it": "salire sul veicolo",
+    "en": "get into the vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23795": {
+  "en": "When you open the doors of a vehicle, you must make sure that this is no danger or obstacle for other road users.",
+  "explain": {
+   "short": "An open door can hit a cyclist, a car or a pedestrian. So you check first and open only when it is safe.",
+   "rule": "Open doors or get out only after checking, also in the mirror, that no one is coming. Leave a parked car with the engine off and the handbrake on.",
+   "trap": "'bisogna assicurarsi' (you must make sure): checking before opening is compulsory.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Check before you open a door",
+    "it": "assicurarsi",
+    "lines": [
+     "Parked car, door about to open",
+     "Check for bikes and cars behind",
+     "Open only when it is safe"
+    ],
+    "icons": [
+     "mirror",
+     "bike",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "si aprono le porte",
+    "en": "you open the doors"
+   },
+   {
+    "it": "bisogna assicurarsi",
+    "en": "you must make sure"
+   },
+   {
+    "it": "pericolo o intralcio",
+    "en": "danger or obstacle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23796": {
+  "en": "Before opening a vehicle door on the side facing the middle of the road, you must make sure that no other vehicles are coming.",
+  "explain": {
+   "short": "On the road side, cars and bikes pass close to your door. Look (also in the mirror) before you open it.",
+   "rule": "Open doors or get out only after checking, also in the mirror, that no one is coming. Leave a parked car with the engine off and the handbrake on.",
+   "trap": "'verso il centro della strada' (towards the middle of the road): the side where traffic passes.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road-side door: check traffic first",
+    "it": "centro della strada",
+    "lines": [
+     "Door on the traffic side",
+     "Check that no vehicle is coming",
+     "Then open it carefully"
+    ],
+    "icons": [
+     "mirror",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sportello",
+    "en": "door"
+   },
+   {
+    "it": "centro della strada",
+    "en": "middle of the road"
+   },
+   {
+    "it": "non sopraggiungano altri veicoli",
+    "en": "no other vehicles are coming"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23797": {
+  "en": "Before opening a vehicle door on the side facing the pavement, you must make sure that no pedestrians are coming.",
+  "explain": {
+   "short": "On the pavement side, people walk close to the car. A door opened suddenly can hit them, so check first.",
+   "rule": "Open doors or get out only after checking, also in the mirror, that no one is coming. Leave a parked car with the engine off and the handbrake on.",
+   "trap": "'verso il marciapiede' (towards the pavement): on this side you watch for pedestrians.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pavement-side door: check for pedestrians",
+    "it": "pedoni",
+    "lines": [
+     "Door on the pavement side",
+     "Check that no pedestrian is coming",
+     "Then open it carefully"
+    ],
+    "icons": [
+     "pedestrian",
+     "eye",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sportello",
+    "en": "door"
+   },
+   {
+    "it": "marciapiede",
+    "en": "pavement"
+   },
+   {
+    "it": "non sopraggiungano pedoni",
+    "en": "no pedestrians are coming"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23798": {
+  "en": "When getting out of a vehicle, you must make sure that this is no danger or obstacle for other road users.",
+  "explain": {
+   "short": "When you get out you stand in the road for a moment. Check first, so you do not put yourself or others at risk.",
+   "rule": "Open doors or get out only after checking, also in the mirror, that no one is coming. Leave a parked car with the engine off and the handbrake on.",
+   "trap": "'bisogna assicurarsi' (you must make sure): checking before getting out is compulsory.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Check before you get out",
+    "it": "scende",
+    "lines": [
+     "Driver about to get out",
+     "Check the road around the car",
+     "Get out only when it is safe"
+    ],
+    "icons": [
+     "mirror",
+     "pedestrian",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "si scende",
+    "en": "you get out"
+   },
+   {
+    "it": "bisogna assicurarsi",
+    "en": "you must make sure"
+   },
+   {
+    "it": "pericolo o intralcio",
+    "en": "danger or obstacle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23799": {
+  "en": "When about to get out of the car, the driver must make sure, also by using the rear-view mirror, that no other vehicles are coming.",
+  "explain": {
+   "short": "The mirror shows cars and bikes coming from behind. Look in it before you open the door and get out.",
+   "rule": "Open doors or get out only after checking, also in the mirror, that no one is coming. Leave a parked car with the engine off and the handbrake on.",
+   "trap": "'anche mediante lo specchietto retrovisore' (also with the mirror): the mirror is part of the check.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Use the mirror before getting out",
+    "it": "specchietto retrovisore",
+    "lines": [
+     "Driver about to get out",
+     "Look in the mirror for traffic",
+     "Get out when nobody is coming"
+    ],
+    "icons": [
+     "mirror",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "scendere",
+    "en": "get out"
+   },
+   {
+    "it": "specchietto retrovisore",
+    "en": "rear-view mirror"
+   },
+   {
+    "it": "non sopraggiungano altri veicoli",
+    "en": "no other vehicles are coming"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23800": {
+  "en": "Before getting out of a parked vehicle, the driver must make sure the engine is switched off.",
+  "explain": {
+   "short": "A parked car with the engine running wastes fuel, pollutes and could move. Switch the engine off before you get out.",
+   "rule": "Open doors or get out only after checking, also in the mirror, that no one is coming. Leave a parked car with the engine off and the handbrake on.",
+   "trap": "'deve assicurarsi di avere spento il motore' (must make sure the engine is off): this is compulsory.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Engine off before you leave the car",
+    "it": "spento il motore",
+    "lines": [
+     "Car parked, driver about to get out",
+     "Switch off the engine first",
+     "Then get out safely"
+    ],
+    "icons": [
+     "car",
+     "engine",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo in sosta",
+    "en": "parked vehicle"
+   },
+   {
+    "it": "spento il motore",
+    "en": "switched off the engine"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23801": {
+  "en": "Opening a vehicle door on the pavement side means you must switch on the indicator on that side.",
+  "explain": {
+   "short": "No indicator is needed to open a door. You only have to check that no pedestrian or vehicle is coming.",
+   "rule": "Open doors or get out only after checking, also in the mirror, that no one is coming. Leave a parked car with the engine off and the handbrake on.",
+   "trap": "'l'obbligo di attivare l'indicatore di direzione' (must switch on the indicator) is an invented duty.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No indicator needed: just check it is safe",
+    "it": "indicatore di direzione",
+    "lines": [
+     "Door on the pavement side",
+     "No indicator is needed",
+     "Just check for pedestrians"
+    ],
+    "icons": [
+     "indicator",
+     "pedestrian",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sportello",
+    "en": "door"
+   },
+   {
+    "it": "marciapiede",
+    "en": "pavement"
+   },
+   {
+    "it": "indicatore di direzione",
+    "en": "indicator"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23802": {
+  "en": "Opening the vehicle doors on the side facing the middle of the road is forbidden.",
+  "explain": {
+   "short": "You may open the road-side door. You must only check first that no vehicles are coming.",
+   "rule": "Open doors or get out only after checking, also in the mirror, that no one is coming. Leave a parked car with the engine off and the handbrake on.",
+   "trap": "'è vietato' (is forbidden) is wrong: it is allowed with care.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road-side door: allowed, after checking traffic",
+    "it": "è vietato",
+    "lines": [
+     "Door on the traffic side",
+     "Check that no vehicle is coming",
+     "Then you may open it"
+    ],
+    "icons": [
+     "mirror",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sportelli",
+    "en": "doors"
+   },
+   {
+    "it": "centro della strada",
+    "en": "middle of the road"
+   },
+   {
+    "it": "è vietato",
+    "en": "is forbidden"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23803": {
+  "en": "The driver may leave the vehicle parked with the engine running to keep the air conditioning working.",
+  "explain": {
+   "short": "During parking the engine must be off. Keeping it running for the air conditioning is forbidden.",
+   "rule": "Open doors or get out only after checking, also in the mirror, that no one is coming. Leave a parked car with the engine off and the handbrake on.",
+   "trap": "'con il motore acceso' (with the engine running): not allowed, not even for the air conditioning.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No engine running for the air conditioning",
+    "it": "motore acceso",
+    "lines": [
+     "Parked car, engine running",
+     "Only for the air conditioning",
+     "Forbidden: switch it off"
+    ],
+    "icons": [
+     "car",
+     "engine",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in sosta",
+    "en": "parked"
+   },
+   {
+    "it": "motore acceso",
+    "en": "engine running"
+   },
+   {
+    "it": "aria condizionata",
+    "en": "air conditioning"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23804": {
+  "en": "Before getting out of a parked vehicle, the driver must pull the handbrake on all downhill roads but not on uphill ones.",
+  "explain": {
+   "short": "A car can roll backwards on an uphill road too. Always pull the handbrake before leaving the car, uphill or downhill.",
+   "rule": "Open doors or get out only after checking, also in the mirror, that no one is coming. Leave a parked car with the engine off and the handbrake on.",
+   "trap": "'ma non in quelle in salita' (but not uphill) is wrong: the handbrake is needed on every slope.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Handbrake on uphill AND downhill",
+    "it": "in salita",
+    "lines": [
+     "Car parked on an uphill road",
+     "No handbrake: it can roll back",
+     "Always pull the handbrake"
+    ],
+    "icons": [
+     "hill",
+     "brake",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "freno a mano",
+    "en": "handbrake"
+   },
+   {
+    "it": "in discesa",
+    "en": "downhill"
+   },
+   {
+    "it": "in salita",
+    "en": "uphill"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

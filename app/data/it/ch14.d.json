@@ -1,0 +1,410 @@
+{
+ "q23250": {
+  "short": "B ha il «dare precedenza» e gira a sinistra: lascia passare T, G e anche P.",
+  "rule": "B e P hanno il «dare precedenza»: lasciano passare prima T e G. Il tram T passa prima dell'auto G. Poi P (dritto) passa prima di B (svolta a sinistra).",
+  "trap": "«tutti gli altri» qui è giusto: B passa per ultimo.",
+  "caption": "B dà la precedenza a tutti: passa per ultimo"
+ },
+ "q23251": {
+  "short": "T è un tram sulla strada senza segnale: B e P aspettano, e il tram passa prima dell'auto G.",
+  "rule": "B e P hanno il «dare precedenza»: lasciano passare prima T e G. Il tram T passa prima dell'auto G. Poi P (dritto) passa prima di B (svolta a sinistra).",
+  "trap": "«passa per primo»: sì, il tram T è il primo.",
+  "caption": "Il tram T passa per primo"
+ },
+ "q23252": {
+  "short": "B ha il «dare precedenza» e gira a sinistra: aspetta T, G e P. È l'ultimo.",
+  "rule": "B e P hanno il «dare precedenza»: lasciano passare prima T e G. Il tram T passa prima dell'auto G. Poi P (dritto) passa prima di B (svolta a sinistra).",
+  "trap": "«per ultimo»: sì, B è l'ultimo.",
+  "caption": "Ordine T, G, P, B: B è l'ultimo"
+ },
+ "q23253": {
+  "short": "P ha il «dare precedenza»: lascia passare prima T e G, che sono sull'altra strada.",
+  "rule": "B e P hanno il «dare precedenza»: lasciano passare prima T e G. Il tram T passa prima dell'auto G. Poi P (dritto) passa prima di B (svolta a sinistra).",
+  "trap": "«ai veicoli T e G»: proprio i due veicoli sulla strada senza segnale.",
+  "caption": "P ha il dare precedenza: passano T e G"
+ },
+ "q23254": {
+  "short": "Prima il tram, poi G sulla stessa strada, poi P (dritto), e B (a sinistra) per ultimo.",
+  "rule": "B e P hanno il «dare precedenza»: lasciano passare prima T e G. Il tram T passa prima dell'auto G. Poi P (dritto) passa prima di B (svolta a sinistra).",
+  "trap": "Controlla ogni posto nell'«ordine»: qui sono giusti tutti e quattro.",
+  "caption": "Ordine giusto: T, G, P, B"
+ },
+ "q23255": {
+  "short": "Di solito i tram hanno la precedenza sui veicoli senza rotaie: G lascia passare prima il tram T.",
+  "rule": "B e P hanno il «dare precedenza»: lasciano passare prima T e G. Il tram T passa prima dell'auto G. Poi P (dritto) passa prima di B (svolta a sinistra).",
+  "trap": "«deve attendere»: sì, G aspetta il tram.",
+  "caption": "G aspetta il tram T"
+ },
+ "q23256": {
+  "short": "È il contrario: il tram T ha la precedenza e G lo aspetta.",
+  "rule": "B e P hanno il «dare precedenza»: lasciano passare prima T e G. Il tram T passa prima dell'auto G. Poi P (dritto) passa prima di B (svolta a sinistra).",
+  "trap": "I nomi sono scambiati: è G che deve «attendere» T.",
+  "caption": "Al contrario: G aspetta il tram T"
+ },
+ "q23257": {
+  "short": "G è secondo: il tram T ha la precedenza e passa prima.",
+  "rule": "B e P hanno il «dare precedenza»: lasciano passare prima T e G. Il tram T passa prima dell'auto G. Poi P (dritto) passa prima di B (svolta a sinistra).",
+  "trap": "«per primo» è sbagliato: il primo è il tram T.",
+  "caption": "Il primo è il tram T, poi G"
+ },
+ "q23258": {
+  "short": "B ha il «dare precedenza» e gira a sinistra: passa per ultimo, dopo T, G e P.",
+  "rule": "B e P hanno il «dare precedenza»: lasciano passare prima T e G. Il tram T passa prima dell'auto G. Poi P (dritto) passa prima di B (svolta a sinistra).",
+  "trap": "«impegna per primo» è sbagliato: B è l'ultimo.",
+  "caption": "B non passa per primo: è l'ultimo"
+ },
+ "q23259": {
+  "short": "Il tram T passa per primo e attraversa senza fermarsi: non deve aspettare nessuno.",
+  "rule": "B e P hanno il «dare precedenza»: lasciano passare prima T e G. Il tram T passa prima dell'auto G. Poi P (dritto) passa prima di B (svolta a sinistra).",
+  "trap": "La prima parte è giusta, ma «deve fermarsi al centro» è sbagliato.",
+  "caption": "Il tram T passa per primo e NON si ferma"
+ },
+ "q23260": {
+  "short": "P ha il «dare precedenza»: deve aspettare anche G. G passa prima di P.",
+  "rule": "B e P hanno il «dare precedenza»: lasciano passare prima T e G. Il tram T passa prima dell'auto G. Poi P (dritto) passa prima di B (svolta a sinistra).",
+  "trap": "Nell'«ordine» P e G sono scambiati.",
+  "caption": "Ordine giusto: T, G, P, B (G prima di P)"
+ },
+ "q23261": {
+  "short": "Dopo il tram T passa G, non P: P ha il «dare precedenza» e aspetta anche G.",
+  "rule": "B e P hanno il «dare precedenza»: lasciano passare prima T e G. Il tram T passa prima dell'auto G. Poi P (dritto) passa prima di B (svolta a sinistra).",
+  "trap": "«subito dopo» è sbagliato: tra T e P c'è G.",
+  "caption": "Dopo T passa G, poi P"
+ },
+ "q23262": {
+  "short": "E arriva dalla destra di N: N dà la precedenza a E.",
+  "rule": "Senza segnali, dai la precedenza a chi viene da destra. L gira a destra e non taglia la strada a nessuno: passa per primo. Poi E, poi N, poi R. Il filobus non ha rotaie: nessuna precedenza speciale.",
+  "trap": "«deve attendere»: sì, perché E è alla destra di N.",
+  "caption": "E è alla destra di N: N aspetta"
+ },
+ "q23263": {
+  "short": "L arriva dalla destra di E: E dà la precedenza a L.",
+  "rule": "Senza segnali, dai la precedenza a chi viene da destra. L gira a destra e non taglia la strada a nessuno: passa per primo. Poi E, poi N, poi R. Il filobus non ha rotaie: nessuna precedenza speciale.",
+  "trap": "«deve attendere»: sì, L è alla destra di E.",
+  "caption": "L è alla destra di E: E aspetta"
+ },
+ "q23264": {
+  "short": "N è alla destra di R: R aspetta N; e N prima aspetta E. Quindi R passa dopo tutti e due.",
+  "rule": "Senza segnali, dai la precedenza a chi viene da destra. L gira a destra e non taglia la strada a nessuno: passa per primo. Poi E, poi N, poi R. Il filobus non ha rotaie: nessuna precedenza speciale.",
+  "trap": "«dei veicoli E ed N»: passano tutti e due prima di R.",
+  "caption": "R è l'ultimo: dopo E e N"
+ },
+ "q23265": {
+  "short": "L gira a destra e non taglia la strada a nessuno: è il primo. Poi ognuno aspetta chi è a destra: E, N, R.",
+  "rule": "Senza segnali, dai la precedenza a chi viene da destra. L gira a destra e non taglia la strada a nessuno: passa per primo. Poi E, poi N, poi R. Il filobus non ha rotaie: nessuna precedenza speciale.",
+  "trap": "Controlla ogni posto nell'«ordine»: qui sono giusti tutti e quattro.",
+  "caption": "Ordine giusto: L, E, N, R"
+ },
+ "q23266": {
+  "short": "Il filobus non ha rotaie: non ha precedenza speciale. R ha N alla sua destra e passa per ultimo.",
+  "rule": "Senza segnali, dai la precedenza a chi viene da destra. L gira a destra e non taglia la strada a nessuno: passa per primo. Poi E, poi N, poi R. Il filobus non ha rotaie: nessuna precedenza speciale.",
+  "trap": "«filobus» non è un tram: solo i veicoli su rotaia hanno la precedenza del tram.",
+  "caption": "Il filobus R non ha precedenza: passa ultimo"
+ },
+ "q23267": {
+  "short": "R non è alla destra di E: arriva di fronte e gira a sinistra. E aspetta solo L.",
+  "rule": "Senza segnali, dai la precedenza a chi viene da destra. L gira a destra e non taglia la strada a nessuno: passa per primo. Poi E, poi N, poi R. Il filobus non ha rotaie: nessuna precedenza speciale.",
+  "trap": "«deve attendere ... R» è sbagliato: R passa dopo E.",
+  "caption": "E aspetta solo L; R passa dopo E"
+ },
+ "q23268": {
+  "short": "L gira a destra e non incrocia la strada di R: passa per primo e non aspetta R.",
+  "rule": "Senza segnali, dai la precedenza a chi viene da destra. L gira a destra e non taglia la strada a nessuno: passa per primo. Poi E, poi N, poi R. Il filobus non ha rotaie: nessuna precedenza speciale.",
+  "trap": "«deve attendere» è sbagliato: L è il primo a passare.",
+  "caption": "L gira a destra e passa per primo"
+ },
+ "q23269": {
+  "short": "N è alla sinistra di E e R arriva di fronte: aspettano tutti e due E. E aspetta solo L.",
+  "rule": "Senza segnali, dai la precedenza a chi viene da destra. L gira a destra e non taglia la strada a nessuno: passa per primo. Poi E, poi N, poi R. Il filobus non ha rotaie: nessuna precedenza speciale.",
+  "trap": "«dei veicoli N e R» è sbagliato: passano dopo E.",
+  "caption": "E aspetta solo L, non N e R"
+ },
+ "q23270": {
+  "short": "È il contrario: E è alla destra di N, quindi N aspetta E.",
+  "rule": "Senza segnali, dai la precedenza a chi viene da destra. L gira a destra e non taglia la strada a nessuno: passa per primo. Poi E, poi N, poi R. Il filobus non ha rotaie: nessuna precedenza speciale.",
+  "trap": "I nomi sono scambiati: è N che deve «attendere» E.",
+  "caption": "Al contrario: N aspetta E"
+ },
+ "q23271": {
+  "short": "R non è il primo: è un filobus senza precedenza speciale e aspetta N alla sua destra. L'ordine è L, E, N, R.",
+  "rule": "Senza segnali, dai la precedenza a chi viene da destra. L gira a destra e non taglia la strada a nessuno: passa per primo. Poi E, poi N, poi R. Il filobus non ha rotaie: nessuna precedenza speciale.",
+  "trap": "Nell'«ordine» R è messo primo, ma è l'ultimo.",
+  "caption": "Ordine giusto: L, E, N, R (R ultimo)"
+ },
+ "q23272": {
+  "short": "A arriva dalla destra di F: l'autobus F dà la precedenza ad A.",
+  "rule": "Senza segnali, dai la precedenza a chi viene da destra. H gira a destra e non taglia la strada a nessuno: passa per primo. Poi A (H alla sua destra), poi F (A alla sua destra), poi L (F alla sua destra).",
+  "trap": "«deve attendere»: sì, A è alla destra di F.",
+  "caption": "A è alla destra di F: F aspetta"
+ },
+ "q23273": {
+  "short": "F è alla destra di L: L aspetta F; e F prima aspetta A. Quindi L passa dopo tutti e due.",
+  "rule": "Senza segnali, dai la precedenza a chi viene da destra. H gira a destra e non taglia la strada a nessuno: passa per primo. Poi A (H alla sua destra), poi F (A alla sua destra), poi L (F alla sua destra).",
+  "trap": "«dei veicoli A ed F»: passano tutti e due prima di L.",
+  "caption": "L aspetta A e F"
+ },
+ "q23274": {
+  "short": "H arriva dalla destra di A: A dà la precedenza a H.",
+  "rule": "Senza segnali, dai la precedenza a chi viene da destra. H gira a destra e non taglia la strada a nessuno: passa per primo. Poi A (H alla sua destra), poi F (A alla sua destra), poi L (F alla sua destra).",
+  "trap": "«deve attendere»: sì, H è alla destra di A.",
+  "caption": "H è alla destra di A: A aspetta"
+ },
+ "q23275": {
+  "short": "L ha F alla sua destra, F ha A e A ha H: L aspetta tutti.",
+  "rule": "Senza segnali, dai la precedenza a chi viene da destra. H gira a destra e non taglia la strada a nessuno: passa per primo. Poi A (H alla sua destra), poi F (A alla sua destra), poi L (F alla sua destra).",
+  "trap": "«per ultimo»: sì, L è l'ultimo.",
+  "caption": "Ordine H, A, F, L: L è l'ultimo"
+ },
+ "q23276": {
+  "short": "H gira a destra e non taglia la strada a nessuno: passa per primo.",
+  "rule": "Senza segnali, dai la precedenza a chi viene da destra. H gira a destra e non taglia la strada a nessuno: passa per primo. Poi A (H alla sua destra), poi F (A alla sua destra), poi L (F alla sua destra).",
+  "trap": "«per primo»: sì, H è il primo.",
+  "caption": "H gira a destra e passa per primo"
+ },
+ "q23277": {
+  "short": "H gira a destra ed è il primo; poi ognuno aspetta chi è a destra: A, F, L.",
+  "rule": "Senza segnali, dai la precedenza a chi viene da destra. H gira a destra e non taglia la strada a nessuno: passa per primo. Poi A (H alla sua destra), poi F (A alla sua destra), poi L (F alla sua destra).",
+  "trap": "Controlla ogni posto nell'«ordine»: qui sono giusti tutti e quattro.",
+  "caption": "Ordine giusto: H, A, F, L"
+ },
+ "q23278": {
+  "short": "H non è l'ultimo: gira a destra, non incrocia nessuno e passa per primo. A aspetta H.",
+  "rule": "Senza segnali, dai la precedenza a chi viene da destra. H gira a destra e non taglia la strada a nessuno: passa per primo. Poi A (H alla sua destra), poi F (A alla sua destra), poi L (F alla sua destra).",
+  "trap": "Nell'«ordine» H è messo ultimo, ma è il primo.",
+  "caption": "Ordine giusto: H, A, F, L (H primo)"
+ },
+ "q23279": {
+  "short": "L'autobus F ha A alla sua destra: aspetta A (e A aspetta H). F è terzo.",
+  "rule": "Senza segnali, dai la precedenza a chi viene da destra. H gira a destra e non taglia la strada a nessuno: passa per primo. Poi A (H alla sua destra), poi F (A alla sua destra), poi L (F alla sua destra).",
+  "trap": "«per primo» è sbagliato: l'autobus non ha precedenza speciale.",
+  "caption": "F è terzo: H, A, poi F"
+ },
+ "q23280": {
+  "short": "H gira a destra e non incrocia la strada di L: H passa per primo; L è l'ultimo.",
+  "rule": "Senza segnali, dai la precedenza a chi viene da destra. H gira a destra e non taglia la strada a nessuno: passa per primo. Poi A (H alla sua destra), poi F (A alla sua destra), poi L (F alla sua destra).",
+  "trap": "«deve attendere» è sbagliato: H non aspetta nessuno.",
+  "caption": "H passa per primo; L è l'ultimo"
+ },
+ "q23281": {
+  "short": "H gira a destra e non incrocia nessuno: passa per primo; l'autobus F è terzo.",
+  "rule": "Senza segnali, dai la precedenza a chi viene da destra. H gira a destra e non taglia la strada a nessuno: passa per primo. Poi A (H alla sua destra), poi F (A alla sua destra), poi L (F alla sua destra).",
+  "trap": "«deve attendere» è sbagliato: H non aspetta nessuno.",
+  "caption": "H passa per primo; F è terzo"
+ },
+ "q23282": {
+  "short": "È il contrario: A è alla destra di F, quindi F aspetta A.",
+  "rule": "Senza segnali, dai la precedenza a chi viene da destra. H gira a destra e non taglia la strada a nessuno: passa per primo. Poi A (H alla sua destra), poi F (A alla sua destra), poi L (F alla sua destra).",
+  "trap": "I nomi sono scambiati: è F che deve «attendere» A.",
+  "caption": "Al contrario: F aspetta A"
+ },
+ "q23283": {
+  "short": "N va al centro e si ferma; passano R e A, e solo dopo N finisce la svolta a sinistra.",
+  "rule": "R dà la precedenza a N (N è alla sua destra). N gira a sinistra: dà la precedenza ad A che arriva dritto di fronte. A dà la precedenza a R. Quindi N va al centro e si ferma; passa R, poi A, poi N finisce la svolta.",
+  "trap": "«conclude per ultimo»: sì, N finisce per ultimo.",
+  "caption": "N finisce la svolta per ultimo"
+ },
+ "q23284": {
+  "short": "N gira a sinistra e A arriva dritto di fronte: chi gira a sinistra dà la precedenza a chi arriva di fronte e va dritto.",
+  "rule": "R dà la precedenza a N (N è alla sua destra). N gira a sinistra: dà la precedenza ad A che arriva dritto di fronte. A dà la precedenza a R. Quindi N va al centro e si ferma; passa R, poi A, poi N finisce la svolta.",
+  "trap": "«dare la precedenza al veicolo A»: sì, A arriva di fronte e va dritto.",
+  "caption": "N gira a sinistra: cede ad A di fronte"
+ },
+ "q23285": {
+  "short": "N è alla destra di R: R deve dare la precedenza a N.",
+  "rule": "R dà la precedenza a N (N è alla sua destra). N gira a sinistra: dà la precedenza ad A che arriva dritto di fronte. A dà la precedenza a R. Quindi N va al centro e si ferma; passa R, poi A, poi N finisce la svolta.",
+  "trap": "«ha la precedenza»: sì, su R, perché N è alla destra di R.",
+  "caption": "N è alla destra di R: ha la precedenza su R"
+ },
+ "q23286": {
+  "short": "N aspetta al centro; passa R, poi A, e poi N finisce la svolta a sinistra.",
+  "rule": "R dà la precedenza a N (N è alla sua destra). N gira a sinistra: dà la precedenza ad A che arriva dritto di fronte. A dà la precedenza a R. Quindi N va al centro e si ferma; passa R, poi A, poi N finisce la svolta.",
+  "trap": "«dopo il transito dei veicoli R e A»: sì, passano prima tutti e due.",
+  "caption": "N finisce dopo R e A"
+ },
+ "q23287": {
+  "short": "N ha la precedenza su R e può entrare; poi però aspetta al centro R e A.",
+  "rule": "R dà la precedenza a N (N è alla sua destra). N gira a sinistra: dà la precedenza ad A che arriva dritto di fronte. A dà la precedenza a R. Quindi N va al centro e si ferma; passa R, poi A, poi N finisce la svolta.",
+  "trap": "«dopo essersi portato al centro»: così si esce dal cerchio di precedenze.",
+  "caption": "N va al centro e aspetta R e A"
+ },
+ "q23288": {
+  "short": "N entra per primo ma si ferma al centro: finisce l'attraversamento per ultimo, dopo R e A.",
+  "rule": "R dà la precedenza a N (N è alla sua destra). N gira a sinistra: dà la precedenza ad A che arriva dritto di fronte. A dà la precedenza a R. Quindi N va al centro e si ferma; passa R, poi A, poi N finisce la svolta.",
+  "trap": "«attraversa per primo» è sbagliato: N entra per primo ma attraversa per ultimo.",
+  "caption": "N entra per primo ma attraversa per ultimo"
+ },
+ "q23289": {
+  "short": "È il contrario: N è alla destra di R, quindi R dà la precedenza a N.",
+  "rule": "R dà la precedenza a N (N è alla sua destra). N gira a sinistra: dà la precedenza ad A che arriva dritto di fronte. A dà la precedenza a R. Quindi N va al centro e si ferma; passa R, poi A, poi N finisce la svolta.",
+  "trap": "I nomi sono scambiati: è R che deve «dare la precedenza» a N.",
+  "caption": "Al contrario: R dà la precedenza a N"
+ },
+ "q23290": {
+  "short": "N gira a sinistra e A arriva dritto di fronte: N deve dare la precedenza ad A.",
+  "rule": "R dà la precedenza a N (N è alla sua destra). N gira a sinistra: dà la precedenza ad A che arriva dritto di fronte. A dà la precedenza a R. Quindi N va al centro e si ferma; passa R, poi A, poi N finisce la svolta.",
+  "trap": "«ha la precedenza» è sbagliato: chi gira a sinistra cede a chi arriva di fronte dritto.",
+  "caption": "N gira a sinistra: cede ad A"
+ },
+ "q23291": {
+  "short": "La prima parte è giusta, ma N deve aspettare anche A: finisce dopo R e dopo A.",
+  "rule": "R dà la precedenza a N (N è alla sua destra). N gira a sinistra: dà la precedenza ad A che arriva dritto di fronte. A dà la precedenza a R. Quindi N va al centro e si ferma; passa R, poi A, poi N finisce la svolta.",
+  "trap": "«ma prima che transiti il veicolo A» è sbagliato.",
+  "caption": "N finisce dopo R E dopo A"
+ },
+ "q23292": {
+  "short": "N entra nell'incrocio PER PRIMO (ha la precedenza su R) e si ferma al centro; finisce solo per ultimo.",
+  "rule": "R dà la precedenza a N (N è alla sua destra). N gira a sinistra: dà la precedenza ad A che arriva dritto di fronte. A dà la precedenza a R. Quindi N va al centro e si ferma; passa R, poi A, poi N finisce la svolta.",
+  "trap": "«impegna ... per ultimo» è sbagliato: N entra per primo e finisce per ultimo.",
+  "caption": "N entra per primo, poi aspetta al centro"
+ },
+ "q23293": {
+  "short": "Il tram ha la precedenza sui veicoli senza rotaie, e B arriva dalla destra di A.",
+  "rule": "Nessun segnale. Il tram T ha la precedenza e B non ha nessuno a destra. T e B vanno in direzioni opposte e non si incrociano: passano insieme. Poi A (B era alla sua destra), infine C (A è alla sua destra).",
+  "trap": "«al tram e al veicolo B»: sì, a tutti e due.",
+  "caption": "A dà la precedenza al tram T e a B"
+ },
+ "q23294": {
+  "short": "A è alla destra di C: C deve dare la precedenza ad A.",
+  "rule": "Nessun segnale. Il tram T ha la precedenza e B non ha nessuno a destra. T e B vanno in direzioni opposte e non si incrociano: passano insieme. Poi A (B era alla sua destra), infine C (A è alla sua destra).",
+  "trap": "«ha la precedenza»: sì, su C.",
+  "caption": "A è alla destra di C: C aspetta A"
+ },
+ "q23295": {
+  "short": "Il tram e B passano insieme, poi A, e C per ultimo.",
+  "rule": "Nessun segnale. Il tram T ha la precedenza e B non ha nessuno a destra. T e B vanno in direzioni opposte e non si incrociano: passano insieme. Poi A (B era alla sua destra), infine C (A è alla sua destra).",
+  "trap": "«T e B» insieme al primo posto: giusto, le loro strade non si incrociano.",
+  "caption": "Ordine giusto: T e B, poi A, poi C"
+ },
+ "q23296": {
+  "short": "Il tram ha la precedenza, B non ha nessuno a destra e vanno in direzioni opposte senza incrociarsi.",
+  "rule": "Nessun segnale. Il tram T ha la precedenza e B non ha nessuno a destra. T e B vanno in direzioni opposte e non si incrociano: passano insieme. Poi A (B era alla sua destra), infine C (A è alla sua destra).",
+  "trap": "«contemporaneamente» qui è giusto: le loro strade non si incrociano.",
+  "caption": "T e B passano insieme: non si incrociano"
+ },
+ "q23297": {
+  "short": "C ha A alla sua destra, e A aspetta il tram e B: quindi C è l'ultimo.",
+  "rule": "Nessun segnale. Il tram T ha la precedenza e B non ha nessuno a destra. T e B vanno in direzioni opposte e non si incrociano: passano insieme. Poi A (B era alla sua destra), infine C (A è alla sua destra).",
+  "trap": "«per ultimo»: sì, C è l'ultimo.",
+  "caption": "Ordine T+B, A, C: C è l'ultimo"
+ },
+ "q23298": {
+  "short": "C non può passare con il tram: ha A alla sua destra e deve aspettarlo; A passa dopo il tram.",
+  "rule": "Nessun segnale. Il tram T ha la precedenza e B non ha nessuno a destra. T e B vanno in direzioni opposte e non si incrociano: passano insieme. Poi A (B era alla sua destra), infine C (A è alla sua destra).",
+  "trap": "«contemporaneamente» è sbagliato: T passa con B, non con C.",
+  "caption": "T passa con B; C è l'ultimo"
+ },
+ "q23299": {
+  "short": "C non può passare prima di A: A è alla destra di C. E T e B passano insieme.",
+  "rule": "Nessun segnale. Il tram T ha la precedenza e B non ha nessuno a destra. T e B vanno in direzioni opposte e non si incrociano: passano insieme. Poi A (B era alla sua destra), infine C (A è alla sua destra).",
+  "trap": "Nell'«ordine» A e C sono scambiati.",
+  "caption": "Ordine giusto: T e B, A, C (A prima di C)"
+ },
+ "q23300": {
+  "short": "A è terzo: l'ultimo è C, perché A è alla destra di C.",
+  "rule": "Nessun segnale. Il tram T ha la precedenza e B non ha nessuno a destra. T e B vanno in direzioni opposte e non si incrociano: passano insieme. Poi A (B era alla sua destra), infine C (A è alla sua destra).",
+  "trap": "«per ultimo» è sbagliato: l'ultimo è C.",
+  "caption": "A è terzo; C è l'ultimo"
+ },
+ "q23301": {
+  "short": "T e B passano insieme, ma C deve aspettare A (alla sua destra): C passa per ultimo.",
+  "rule": "Nessun segnale. Il tram T ha la precedenza e B non ha nessuno a destra. T e B vanno in direzioni opposte e non si incrociano: passano insieme. Poi A (B era alla sua destra), infine C (A è alla sua destra).",
+  "trap": "«T, B, C» insieme è sbagliato: insieme passano solo T e B.",
+  "caption": "Insieme solo T e B; C è l'ultimo"
+ },
+ "q23302": {
+  "short": "È il contrario: B è alla destra di A, quindi A dà la precedenza a B.",
+  "rule": "Nessun segnale. Il tram T ha la precedenza e B non ha nessuno a destra. T e B vanno in direzioni opposte e non si incrociano: passano insieme. Poi A (B era alla sua destra), infine C (A è alla sua destra).",
+  "trap": "I nomi sono scambiati: è A che deve «dare la precedenza» a B.",
+  "caption": "Al contrario: A dà la precedenza a B"
+ },
+ "q23303": {
+  "short": "Da destra di D non arriva nessuno, e A, di fronte, gira anche lui a sinistra: D non aspetta nessuno.",
+  "rule": "Nessun segnale. D non ha nessuno alla sua destra. L'unico che arriva di fronte a D è A, che gira anche lui a sinistra: D non dà la precedenza a nessuno. Chi gira a sinistra cede solo a chi arriva DI FRONTE dritto o a destra.",
+  "trap": "«passa per primo»: sì, D è il primo.",
+  "caption": "D non cede a nessuno: passa per primo"
+ },
+ "q23304": {
+  "short": "Nessuno è alla destra di D, E e S sono alla sua sinistra, e A di fronte gira anche lui a sinistra.",
+  "rule": "Nessun segnale. D non ha nessuno alla sua destra. L'unico che arriva di fronte a D è A, che gira anche lui a sinistra: D non dà la precedenza a nessuno. Chi gira a sinistra cede solo a chi arriva DI FRONTE dritto o a destra.",
+  "trap": "«non ... ad alcun veicolo»: giusto, D non cede a nessuno.",
+  "caption": "D non dà la precedenza a nessuno"
+ },
+ "q23305": {
+  "short": "A arriva di fronte ma gira anche lui a sinistra: D non aspetta A.",
+  "rule": "Nessun segnale. D non ha nessuno alla sua destra. L'unico che arriva di fronte a D è A, che gira anche lui a sinistra: D non dà la precedenza a nessuno. Chi gira a sinistra cede solo a chi arriva DI FRONTE dritto o a destra.",
+  "trap": "«non ha l'obbligo»: giusto, A deve comunque aspettare E e S.",
+  "caption": "D non aspetta A"
+ },
+ "q23306": {
+  "short": "D passa per primo: da destra non arriva nessuno e A, di fronte, gira anche lui a sinistra.",
+  "rule": "Nessun segnale. D non ha nessuno alla sua destra. L'unico che arriva di fronte a D è A, che gira anche lui a sinistra: D non dà la precedenza a nessuno. Chi gira a sinistra cede solo a chi arriva DI FRONTE dritto o a destra.",
+  "trap": "«per terzo» è sbagliato: D è il primo.",
+  "caption": "D passa per primo, non per terzo"
+ },
+ "q23307": {
+  "short": "D non dà la precedenza a nessuno: nessuno è alla sua destra, e A di fronte gira anche lui a sinistra.",
+  "rule": "Nessun segnale. D non ha nessuno alla sua destra. L'unico che arriva di fronte a D è A, che gira anche lui a sinistra: D non dà la precedenza a nessuno. Chi gira a sinistra cede solo a chi arriva DI FRONTE dritto o a destra.",
+  "trap": "«a tutti i veicoli» è sbagliato: D passa per primo.",
+  "caption": "D non dà la precedenza a nessuno"
+ },
+ "q23308": {
+  "short": "E arriva dalla SINISTRA di D: E aspetta D. Chi gira a sinistra cede solo a chi arriva DI FRONTE dritto.",
+  "rule": "Nessun segnale. D non ha nessuno alla sua destra. L'unico che arriva di fronte a D è A, che gira anche lui a sinistra: D non dà la precedenza a nessuno. Chi gira a sinistra cede solo a chi arriva DI FRONTE dritto o a destra.",
+  "trap": "«che prosegue diritto» è un tranello: E non arriva di fronte, è alla sinistra di D.",
+  "caption": "E viene dalla sinistra di D: E aspetta D"
+ },
+ "q23309": {
+  "short": "N è alla destra di R: R deve dare la precedenza a N; poi N si ferma al centro e lascia passare R.",
+  "rule": "R dà la precedenza a N (N è alla sua destra). N gira a sinistra: dà la precedenza ad A che arriva dritto di fronte. A dà la precedenza a R. Quindi N va al centro e si ferma; passa R, poi A, poi N finisce la svolta.",
+  "trap": "«deve dare la precedenza»: sì, N è alla destra di R.",
+  "caption": "N è alla destra di R: N entra per primo"
+ },
+ "q23310": {
+  "short": "R è alla destra di A: A deve dare la precedenza a R.",
+  "rule": "R dà la precedenza a N (N è alla sua destra). N gira a sinistra: dà la precedenza ad A che arriva dritto di fronte. A dà la precedenza a R. Quindi N va al centro e si ferma; passa R, poi A, poi N finisce la svolta.",
+  "trap": "«ha la precedenza»: sì, R è alla destra di A.",
+  "caption": "R è alla destra di A: A aspetta R"
+ },
+ "q23311": {
+  "short": "N entra per primo e si ferma al centro (deve aspettare A); poi R può attraversare.",
+  "rule": "R dà la precedenza a N (N è alla sua destra). N gira a sinistra: dà la precedenza ad A che arriva dritto di fronte. A dà la precedenza a R. Quindi N va al centro e si ferma; passa R, poi A, poi N finisce la svolta.",
+  "trap": "«dopo che ... si è fermato al centro»: sì.",
+  "caption": "N si ferma al centro, poi passa R"
+ },
+ "q23312": {
+  "short": "R è alla destra di A: A aspetta e R passa prima.",
+  "rule": "R dà la precedenza a N (N è alla sua destra). N gira a sinistra: dà la precedenza ad A che arriva dritto di fronte. A dà la precedenza a R. Quindi N va al centro e si ferma; passa R, poi A, poi N finisce la svolta.",
+  "trap": "«prima del veicolo A»: sì.",
+  "caption": "R passa prima di A"
+ },
+ "q23313": {
+  "short": "N aspetta al centro, A aspetta R: R è il primo a finire l'attraversamento.",
+  "rule": "R dà la precedenza a N (N è alla sua destra). N gira a sinistra: dà la precedenza ad A che arriva dritto di fronte. A dà la precedenza a R. Quindi N va al centro e si ferma; passa R, poi A, poi N finisce la svolta.",
+  "trap": "«conclude per primo»: sì; N entra per primo, ma R finisce per primo.",
+  "caption": "R finisce l'attraversamento per primo"
+ },
+ "q23314": {
+  "short": "È il contrario: R è alla destra di A, quindi A dà la precedenza a R.",
+  "rule": "R dà la precedenza a N (N è alla sua destra). N gira a sinistra: dà la precedenza ad A che arriva dritto di fronte. A dà la precedenza a R. Quindi N va al centro e si ferma; passa R, poi A, poi N finisce la svolta.",
+  "trap": "I nomi sono scambiati: è A che deve «dare la precedenza» a R.",
+  "caption": "Al contrario: A dà la precedenza a R"
+ },
+ "q23315": {
+  "short": "R è il primo a finire l'attraversamento; l'ultimo è N, che aspetta al centro.",
+  "rule": "R dà la precedenza a N (N è alla sua destra). N gira a sinistra: dà la precedenza ad A che arriva dritto di fronte. A dà la precedenza a R. Quindi N va al centro e si ferma; passa R, poi A, poi N finisce la svolta.",
+  "trap": "«per ultimo» è sbagliato: l'ultimo è N.",
+  "caption": "R è il primo; N finisce per ultimo"
+ },
+ "q23316": {
+  "short": "R è alla destra di A: A aspetta R. R passa prima di A.",
+  "rule": "R dà la precedenza a N (N è alla sua destra). N gira a sinistra: dà la precedenza ad A che arriva dritto di fronte. A dà la precedenza a R. Quindi N va al centro e si ferma; passa R, poi A, poi N finisce la svolta.",
+  "trap": "«dopo il transito del veicolo A» è sbagliato: R passa prima di A.",
+  "caption": "R passa prima di A, non dopo"
+ },
+ "q23317": {
+  "short": "È N (che gira a sinistra) a fermarsi al centro. R va dritto e attraversa senza fermarsi.",
+  "rule": "R dà la precedenza a N (N è alla sua destra). N gira a sinistra: dà la precedenza ad A che arriva dritto di fronte. A dà la precedenza a R. Quindi N va al centro e si ferma; passa R, poi A, poi N finisce la svolta.",
+  "trap": "«si ferma al centro» è sbagliato per R: è quello che fa N.",
+  "caption": "N si ferma al centro; R passa dritto"
+ }
+}

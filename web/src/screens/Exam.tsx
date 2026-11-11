@@ -15,7 +15,8 @@ import { confetti, shuffle, toast, useSettings, type Chapter, type Question } fr
 const SIZE = 30, MINUTES = 20
 
 type Phase = 'loading' | 'intro' | 'run' | 'result'
-interface Pool { qs: Question[]; chOf: Map<string, Chapter>; title: string; sub: string }
+interface ChMeta { id: string; n: number; titleIt: string; titleEn: string }
+interface Pool { qs: Question[]; chOf: Map<string, ChMeta>; title: string; sub: string }
 
 export default function Exam({ scope }: { scope: string }) {
   const settings = useSettings()
@@ -26,7 +27,14 @@ export default function Exam({ scope }: { scope: string }) {
   const [i, setI] = useState(0)
   const [left, setLeft] = useState(MINUTES * 60)
   const [used, setUsed] = useState(0)
-  const [explain, setExplain] = useState<Question | null>(null)
+  const [explain, setExplain] = useState<{ q: Question; ch: Chapter } | null>(null)
+  /** Load the full question (explanation, scene...) from its chapter only when the learner opens it. */
+  const openExplain = async (id: string) => {
+    const meta = pool?.chOf.get(id); if (!meta) return
+    const ch = (await data.chapter(meta.id)) as Chapter
+    const q = ch.questions.find(x => x.id === id)
+    if (q) setExplain({ q, ch })
+  }
   const started = useRef(0)
   const ans = useRef<(boolean | null)[]>([])
   ans.current = answers
@@ -37,10 +45,12 @@ export default function Exam({ scope }: { scope: string }) {
     ;(async () => {
       const ready = (await data.ready()).chapters as string[]
       const chIds = scope === 'mock' ? ready : ready.includes(scope) ? [scope] : []
-      const chOf = new Map<string, Chapter>(); const qs: Question[] = []
-      for (const id of chIds) {
-        const ch = (await data.chapter(id)) as Chapter
-        ch.questions.filter(q => !q.hidden).forEach(q => { qs.push(q); chOf.set(q.id, ch) })
+      const qb = (await data.qbank()) as { ch: Record<string, Omit<ChMeta, 'id'>>; q: [string, string, string, number, string][] }
+      const want = new Set(chIds), chOf = new Map<string, ChMeta>(), qs: Question[] = []
+      for (const [id, c, it, answer, image] of qb.q) {
+        if (!want.has(c)) continue
+        qs.push({ id, it, answer: !!answer, image: image || null } as unknown as Question)
+        chOf.set(id, { id: c, ...qb.ch[c] })
       }
       if (!live) return
       const one = chIds.length === 1 ? chOf.get(qs[0]?.id) : null
@@ -159,7 +169,7 @@ export default function Exam({ scope }: { scope: string }) {
           {(() => {
             const row = (id: string, k: number) => {
               const q = byId.get(id)!, a = answers[k], ok = a === q.answer
-              return <button key={id} className={`qres ${ok ? 'ok' : 'no'}`} onClick={() => setExplain(q)}>
+              return <button key={id} className={`qres ${ok ? 'ok' : 'no'}`} onClick={() => openExplain(q.id)}>
                 <span className="mark">{ok ? '✓' : '✕'}</span>
                 <span className="txt">{q.it}<small>{q.answer ? 'VERO' : 'FALSO'}{ok ? '' : a === null ? ' · not answered' : ' · you said ' + (a ? 'VERO' : 'FALSO')}</small></span>
               </button>
@@ -175,7 +185,7 @@ export default function Exam({ scope }: { scope: string }) {
           {scope !== 'mock' && <a className="btn block" href={`#/learn/${scope}`}>Study this chapter</a>}
           <a className="btn ghost block" href="#/">Back to chapters</a>
         </div>
-        <AnimatePresence>{explain && <Explanation key={'ex' + explain.id} q={explain} ch={pool.chOf.get(explain.id)!} wasRight={answers[ids.indexOf(explain.id)] === explain.answer} dunno={false} onDone={() => setExplain(null)} />}</AnimatePresence>
+        <AnimatePresence>{explain && <Explanation key={'ex' + explain.q.id} q={explain.q} ch={explain.ch} wasRight={answers[ids.indexOf(explain.q.id)] === explain.q.answer} dunno={false} onDone={() => setExplain(null)} />}</AnimatePresence>
       </div>
     )
   }

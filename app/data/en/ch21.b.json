@@ -1,0 +1,2270 @@
+{
+ "q24763": {
+  "en": "A driver involved in a road accident must stop and help any injured people.",
+  "explain": {
+   "short": "The law requires every driver involved in an accident to stop and help the injured. Driving away is a crime (omissione di soccorso).",
+   "rule": "If you are involved in a road accident you must stop, help any injured people and give your details (name, driving licence, number plate, insurance) to the people who suffered damage. Do not change the traces if they are needed to understand how the accident happened.",
+   "trap": "'ha l'obbligo' (must) is right: stopping and helping are duties, not just good manners.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stop and help the injured",
+    "it": "prestare assistenza",
+    "lines": [
+     "Accident with an injured person",
+     "Stop your vehicle",
+     "Help the injured, call 112"
+    ],
+    "icons": [
+     "warning",
+     "car",
+     "firstaid"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "incidente stradale",
+    "en": "road accident"
+   },
+   {
+    "it": "fermarsi",
+    "en": "to stop"
+   },
+   {
+    "it": "prestare assistenza",
+    "en": "give help"
+   },
+   {
+    "it": "feriti",
+    "en": "injured people"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24764": {
+  "en": "A driver involved in a road accident must give their personal details and the details of their driving licence, number plate and vehicle insurance to the people who suffered damage.",
+  "explain": {
+   "short": "The people harmed need these details to get compensation, so the driver must give them.",
+   "rule": "If you are involved in a road accident you must stop, help any injured people and give your details (name, driving licence, number plate, insurance) to the people who suffered damage. Do not change the traces if they are needed to understand how the accident happened.",
+   "trap": "'generalità' means your name and personal details; 'estremi' means the numbers and data of the documents.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Give your details to the damaged party",
+    "it": "generalità",
+    "lines": [
+     "Accident with damage",
+     "Give name and licence details",
+     "Give plate and insurance data"
+    ],
+    "icons": [
+     "warning",
+     "book",
+     "money"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "generalità",
+    "en": "personal details (name, address)"
+   },
+   {
+    "it": "estremi della patente",
+    "en": "driving licence details"
+   },
+   {
+    "it": "assicurazione",
+    "en": "insurance"
+   },
+   {
+    "it": "persone danneggiate",
+    "en": "people who suffered damage"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24765": {
+  "en": "A driver involved in a road accident must avoid changing the traces, if the dynamics of the accident need to be reconstructed.",
+  "explain": {
+   "short": "The police use marks on the road and the position of the cars to understand what happened, so you must not change them when they are needed.",
+   "rule": "If you are involved in a road accident you must stop, help any injured people and give your details (name, driving licence, number plate, insurance) to the people who suffered damage. Do not change the traces if they are needed to understand how the accident happened.",
+   "trap": "'se occorre' (if needed) limits the rule: when there are injured people or a dispute, keep the traces.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Keep the traces of the accident",
+    "it": "tracce",
+    "lines": [
+     "Accident to be reconstructed",
+     "Do not move or erase the traces",
+     "Police check how it happened"
+    ],
+    "icons": [
+     "warning",
+     "cross",
+     "police"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tracce",
+    "en": "traces, marks"
+   },
+   {
+    "it": "ricostruire la dinamica",
+    "en": "reconstruct how it happened"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24766": {
+  "en": "To report the accident to the insurance company, a driver involved in a road accident can use the special pre-printed forms supplied by their own insurer.",
+  "explain": {
+   "short": "Insurers give a printed form (the CAI, constatazione amichevole) to fill in after an accident. You can use it to report the claim.",
+   "rule": "If you are involved in a road accident you must stop, help any injured people and give your details (name, driving licence, number plate, insurance) to the people who suffered damage. Do not change the traces if they are needed to understand how the accident happened.",
+   "trap": "'può avvalersi' (can use) is a possibility, not a duty, and it is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Use the insurer's printed form (CAI)",
+    "it": "moduli prestampati",
+    "lines": [
+     "Accident with damage only",
+     "Fill in the insurance form (CAI)",
+     "Send it to your insurer"
+    ],
+    "icons": [
+     "car",
+     "book",
+     "money"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "denunzia all'assicurazione",
+    "en": "claim report to the insurer"
+   },
+   {
+    "it": "moduli prestampati",
+    "en": "pre-printed forms"
+   },
+   {
+    "it": "può avvalersi",
+    "en": "can use"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24767": {
+  "en": "After a road accident it is compulsory to put the warning triangle on the rear window of the vehicle before leaving.",
+  "explain": {
+   "short": "The warning triangle goes on the road behind the stopped vehicle to warn traffic. It is not put on the rear window, and you remove it when you leave.",
+   "rule": "The warning triangle (segnale mobile di pericolo) goes ON THE ROAD behind a vehicle stopped on the carriageway, by day and by night, at a good distance. Outside towns it is compulsory; in towns it is not always required.",
+   "trap": "'sul lunotto posteriore' (on the rear window) is the wrong place: the triangle goes on the road.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The triangle goes on the road, not the window",
+    "it": "lunotto posteriore",
+    "lines": [
+     "Vehicle stopped after an accident",
+     "Triangle on the rear window: no",
+     "Triangle on the road behind it"
+    ],
+    "icons": [
+     "warning",
+     "cross",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale mobile di pericolo",
+    "en": "warning triangle"
+   },
+   {
+    "it": "lunotto posteriore",
+    "en": "rear window"
+   },
+   {
+    "it": "prima di andar via",
+    "en": "before leaving"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24768": {
+  "en": "After a road accident it is compulsory to cover the vehicle with a plastic sheet.",
+  "explain": {
+   "short": "No rule asks you to cover the car. What matters is to help the injured, signal the danger and exchange details.",
+   "rule": "If you are involved in a road accident you must stop, help any injured people and give your details (name, driving licence, number plate, insurance) to the people who suffered damage. Do not change the traces if they are needed to understand how the accident happened.",
+   "trap": "'coprire il veicolo con un telo' (cover with a sheet) is an invented duty.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No duty to cover the car with a sheet",
+    "it": "telo di plastica",
+    "lines": [
+     "After an accident",
+     "Cover the car with a sheet: no",
+     "Help, warn traffic, give details"
+    ],
+    "icons": [
+     "warning",
+     "cross",
+     "firstaid"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "coprire il veicolo",
+    "en": "cover the vehicle"
+   },
+   {
+    "it": "telo di plastica",
+    "en": "plastic sheet"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24769": {
+  "en": "After a road accident it is compulsory, only at night, to place the warning triangle near the vehicle.",
+  "explain": {
+   "short": "The warning triangle is needed by day too: a stopped vehicle on the road is a danger at any hour.",
+   "rule": "The warning triangle (segnale mobile di pericolo) goes ON THE ROAD behind a vehicle stopped on the carriageway, by day and by night, at a good distance. Outside towns it is compulsory; in towns it is not always required.",
+   "trap": "'solo di notte' (only at night) is the trap: the triangle is used by day as well.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Triangle by day AND by night",
+    "it": "solo di notte",
+    "lines": [
+     "Vehicle stopped on the road",
+     "Triangle only at night: no",
+     "Use it by day and by night"
+    ],
+    "icons": [
+     "warning",
+     "night",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo di notte",
+    "en": "only at night"
+   },
+   {
+    "it": "segnale mobile di pericolo",
+    "en": "warning triangle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24770": {
+  "en": "After a road accident it is compulsory to put the vehicle on the pavement immediately.",
+  "explain": {
+   "short": "The pavement is for pedestrians. With damage only you move the cars out of the traffic, but not onto the pavement; with injured people you leave them where they are.",
+   "rule": "If you are involved in a road accident you must stop, help any injured people and give your details (name, driving licence, number plate, insurance) to the people who suffered damage. Do not change the traces if they are needed to understand how the accident happened.",
+   "trap": "'subito sul marciapiede' (at once on the pavement) is wrong twice: not always at once, and never on the pavement.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never put the car on the pavement",
+    "it": "marciapiede",
+    "lines": [
+     "After an accident",
+     "Car onto the pavement: no",
+     "Damage only: clear the road safely"
+    ],
+    "icons": [
+     "warning",
+     "pedestrian",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "marciapiede",
+    "en": "pavement, sidewalk"
+   },
+   {
+    "it": "subito",
+    "en": "immediately"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24771": {
+  "en": "After a road accident it is compulsory to signal the stopped vehicle with the warning triangle even in built-up areas.",
+  "explain": {
+   "short": "The warning triangle is a must mainly outside towns. In built-up areas it is not always compulsory, so 'even in towns' as a strict duty is wrong.",
+   "rule": "The warning triangle (segnale mobile di pericolo) goes ON THE ROAD behind a vehicle stopped on the carriageway, by day and by night, at a good distance. Outside towns it is compulsory; in towns it is not always required.",
+   "trap": "'anche nei centri abitati' (even in built-up areas) turns a mainly out-of-town duty into a general one.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "In towns the triangle is not always compulsory",
+    "it": "centri abitati",
+    "lines": [
+     "Vehicle stopped after an accident",
+     "Outside towns: triangle compulsory",
+     "In towns: not always required"
+    ],
+    "icons": [
+     "warning",
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale mobile di pericolo",
+    "en": "warning triangle"
+   },
+   {
+    "it": "anche nei centri abitati",
+    "en": "even in built-up areas"
+   }
+  ],
+  "review": true,
+  "reviewNote": "Official answer FALSE; art. 162 CdS on triangle use in built-up areas is nuanced - check the official reasoning."
+ },
+ "q24772": {
+  "en": "It is advisable for the driver to service the injection pump of their own vehicle personally.",
+  "explain": {
+   "short": "The injection pump is a precise, complex part. Only a specialised workshop should service it.",
+   "rule": "Keep the vehicle as it was approved: no home-made repairs on complex parts, no changes to engine size or electronics, and fix every fault at once. A warning light that stays on means a problem.",
+   "trap": "'personalmente' (personally) is the trap: this job is for a specialist.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Injection pump: specialist workshop only",
+    "it": "pompa di iniezione",
+    "lines": [
+     "Injection pump needs service",
+     "Do it yourself: no",
+     "Go to a specialised workshop"
+    ],
+    "icons": [
+     "engine",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "personalmente",
+    "en": "personally, by yourself"
+   },
+   {
+    "it": "pompa di iniezione",
+    "en": "fuel injection pump"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24773": {
+  "en": "The distance travelled during the reaction time does not change with speed.",
+  "explain": {
+   "short": "During the reaction time the car keeps moving at the same speed. The faster you go, the more metres you cover before you even brake.",
+   "rule": "Reaction distance = speed x reaction time. If the speed goes up, the distance covered before braking goes up too.",
+   "trap": "'non varia' (does not change) is wrong: it grows with speed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Faster = longer reaction distance",
+    "it": "tempo di reazione",
+    "lines": [
+     "You see a danger and react",
+     "Car still moving at full speed",
+     "More speed = more metres"
+    ],
+    "icons": [
+     "eye",
+     "speed",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tempo di reazione",
+    "en": "reaction time"
+   },
+   {
+    "it": "non varia",
+    "en": "does not change"
+   },
+   {
+    "it": "velocità",
+    "en": "speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24774": {
+  "en": "Correct operation of the engine is guaranteed by the red lubricating-oil warning light staying on all the time.",
+  "explain": {
+   "short": "The red oil light should go off after starting. If it stays on, the oil pressure is too low: stop and check, or the engine can be damaged.",
+   "rule": "Keep the vehicle as it was approved: no home-made repairs on complex parts, no changes to engine size or electronics, and fix every fault at once. A warning light that stays on means a problem.",
+   "trap": "'costantemente accesa' (always on) means a fault, not a working engine.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Red oil light on = problem, stop",
+    "it": "spia rossa dell'olio",
+    "lines": [
+     "Red oil light stays on",
+     "Engine OK: no",
+     "Stop and check the oil"
+    ],
+    "icons": [
+     "engine",
+     "cross",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "spia rossa",
+    "en": "red warning light"
+   },
+   {
+    "it": "olio di lubrificazione",
+    "en": "lubricating oil"
+   },
+   {
+    "it": "costantemente accesa",
+    "en": "always on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24775": {
+  "en": "It is allowed to improve the performance of your vehicle by increasing the engine capacity.",
+  "explain": {
+   "short": "The vehicle must stay as it was approved and as written in its registration document. Changing the engine size is not allowed freely.",
+   "rule": "Keep the vehicle as it was approved: no home-made repairs on complex parts, no changes to engine size or electronics, and fix every fault at once. A warning light that stays on means a problem.",
+   "trap": "'è consentito' (it is allowed) is wrong: changing the engine size (cilindrata) changes the approved vehicle.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No free changes to engine size",
+    "it": "cilindrata",
+    "lines": [
+     "Bigger engine for more power",
+     "Allowed: no",
+     "Car must match its approval"
+    ],
+    "icons": [
+     "engine",
+     "cross",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cilindrata",
+    "en": "engine capacity (cc)"
+   },
+   {
+    "it": "prestazioni",
+    "en": "performance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24776": {
+  "en": "It is not necessary to adjust unbalanced brakes if the driver can correct the vehicle's abnormal behaviour by steering.",
+  "explain": {
+   "short": "Uneven brakes pull the car to one side when braking. In an emergency you cannot correct it in time: the brakes must be repaired.",
+   "rule": "Keep the vehicle as it was approved: no home-made repairs on complex parts, no changes to engine size or electronics, and fix every fault at once. A warning light that stays on means a problem.",
+   "trap": "'non è necessario' (it is not necessary) is the trap: unbalanced brakes must always be fixed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Unbalanced brakes must be repaired",
+    "it": "freni squilibrati",
+    "lines": [
+     "Car pulls to one side when braking",
+     "Correct with the steering: no",
+     "Have the brakes repaired"
+    ],
+    "icons": [
+     "brake",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "freni squilibrati",
+    "en": "unbalanced brakes"
+   },
+   {
+    "it": "mettere a punto",
+    "en": "adjust, tune"
+   },
+   {
+    "it": "sterzo",
+    "en": "steering"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24777": {
+  "en": "On a slippery road, to get the best grip when braking, it is advisable to press the brake pedal all the way down.",
+  "explain": {
+   "short": "On a slippery road a hard brake locks the wheels and the car slides. Brake gently and progressively to keep grip.",
+   "rule": "On slippery roads brake gently and gradually, keep more distance and lower your speed. Hard braking makes the wheels lock and slide.",
+   "trap": "'premere a fondo' (press all the way) is the trap: it causes skidding, not grip.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Slippery road: brake gently",
+    "it": "premere a fondo",
+    "lines": [
+     "Slippery, wet road",
+     "Brake pedal fully down: no",
+     "Brake gently and gradually"
+    ],
+    "icons": [
+     "rain",
+     "cross",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada sdrucciolevole",
+    "en": "slippery road"
+   },
+   {
+    "it": "aderenza",
+    "en": "grip"
+   },
+   {
+    "it": "premere a fondo",
+    "en": "press all the way down"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24778": {
+  "en": "It is allowed to increase the performance of your vehicle by changing the electronic settings of the control unit that manages fuel injection.",
+  "explain": {
+   "short": "Changing the engine control unit (centralina) changes the approved vehicle, its emissions and safety. It is not allowed.",
+   "rule": "Keep the vehicle as it was approved: no home-made repairs on complex parts, no changes to engine size or electronics, and fix every fault at once. A warning light that stays on means a problem.",
+   "trap": "'è consentito' (it is allowed) is wrong: chip tuning of the centralina is a forbidden change.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No changes to the engine control unit",
+    "it": "centralina",
+    "lines": [
+     "Reprogram the engine ECU",
+     "Allowed: no",
+     "Car must match its approval"
+    ],
+    "icons": [
+     "engine",
+     "cross",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "centralina",
+    "en": "electronic control unit"
+   },
+   {
+    "it": "iniezione di carburante",
+    "en": "fuel injection"
+   },
+   {
+    "it": "aumentare le prestazioni",
+    "en": "increase performance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24779": {
+  "en": "When a passenger needs to get in or out, it is advisable to do it on the pavement side or, if there is none, on the side away from traffic.",
+  "explain": {
+   "short": "On the pavement side the passenger is away from moving cars, so it is the safest side.",
+   "rule": "Passengers get in and out only when the vehicle has completely stopped, on the pavement side (or the side away from traffic), opening the door only when it is not a danger for others. Children need an adult's control. No door is ever free of risk.",
+   "trap": "'dal lato opposto al traffico' (the side away from traffic) is the right second choice when there is no pavement.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Get out on the pavement side",
+    "it": "lato del marciapiede",
+    "lines": [
+     "Passenger gets out",
+     "Use the pavement side",
+     "No pavement: side away from traffic"
+    ],
+    "icons": [
+     "pedestrian",
+     "check",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "lato del marciapiede",
+    "en": "pavement side"
+   },
+   {
+    "it": "lato opposto al traffico",
+    "en": "side away from traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24780": {
+  "en": "When a passenger must get in or out of the vehicle, you must open the door only when it causes no danger to other road users.",
+  "explain": {
+   "short": "An opened door can hit a cyclist, a motorbike or a pedestrian. Look first and open only when nobody is coming.",
+   "rule": "Passengers get in and out only when the vehicle has completely stopped, on the pavement side (or the side away from traffic), opening the door only when it is not a danger for others. Children need an adult's control. No door is ever free of risk.",
+   "trap": "'solamente' (only) is correct here: the door opens only when it is safe.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Open the door only when it is safe",
+    "it": "aprire la portiera",
+    "lines": [
+     "Passenger gets out",
+     "Check mirror: bike coming?",
+     "Open the door only when clear"
+    ],
+    "icons": [
+     "car",
+     "mirror",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aprire la portiera",
+    "en": "open the door"
+   },
+   {
+    "it": "solamente",
+    "en": "only"
+   },
+   {
+    "it": "pericolo",
+    "en": "danger"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24781": {
+  "en": "When a passenger must get in or out of the vehicle, you must make them wait until the vehicle has completely stopped.",
+  "explain": {
+   "short": "Getting in or out of a moving car can make the person fall. Wait until the car is completely still.",
+   "rule": "Passengers get in and out only when the vehicle has completely stopped, on the pavement side (or the side away from traffic), opening the door only when it is not a danger for others. Children need an adult's control. No door is ever free of risk.",
+   "trap": "'completamente fermo' (completely stopped) is right: 'almost stopped' is not enough.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wait until the car has fully stopped",
+    "it": "completamente fermo",
+    "lines": [
+     "Car still rolling",
+     "Passenger waits",
+     "Out only when fully stopped"
+    ],
+    "icons": [
+     "car",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "completamente fermo",
+    "en": "completely stopped"
+   },
+   {
+    "it": "attendere",
+    "en": "wait"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24782": {
+  "en": "When a child must get in or out of the vehicle, it is advisable that an adult supervises.",
+  "explain": {
+   "short": "Children may open the door without looking or run into the road. An adult should control them.",
+   "rule": "Passengers get in and out only when the vehicle has completely stopped, on the pavement side (or the side away from traffic), opening the door only when it is not a danger for others. Children need an adult's control. No door is ever free of risk.",
+   "trap": "'controllo di un adulto' (an adult's supervision) is good advice and correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Children get out with an adult watching",
+    "it": "bambino",
+    "lines": [
+     "Child gets out of the car",
+     "Adult watches and helps",
+     "Pavement side, door safe"
+    ],
+    "icons": [
+     "child",
+     "pedestrian",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "bambino",
+    "en": "child"
+   },
+   {
+    "it": "controllo di un adulto",
+    "en": "an adult's supervision"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24783": {
+  "en": "When letting a passenger out, you must bear in mind that opening the right-hand door is free of any risk and danger.",
+  "explain": {
+   "short": "Even the right door can hit a cyclist, a scooter passing on the right or a pedestrian on the pavement. No door is risk-free.",
+   "rule": "Passengers get in and out only when the vehicle has completely stopped, on the pavement side (or the side away from traffic), opening the door only when it is not a danger for others. Children need an adult's control. No door is ever free of risk.",
+   "trap": "'priva di qualsiasi rischio' (free of any risk) is the trap: there is always some risk.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The right door is not risk-free",
+    "it": "priva di qualsiasi rischio",
+    "lines": [
+     "Passenger opens the right door",
+     "Bike or scooter may pass",
+     "Always look before opening"
+    ],
+    "icons": [
+     "car",
+     "bike",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "portiera di destra",
+    "en": "right-hand door"
+   },
+   {
+    "it": "priva di qualsiasi rischio",
+    "en": "free of any risk"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24784": {
+  "en": "If the vehicle sinks into snow or sand and you cannot move it, it is advisable to put something that gives grip (pieces of wood, car mats, etc.) under the spinning wheel.",
+  "explain": {
+   "short": "The spinning wheel has no grip. Wood or a car mat under it gives it something to grip so the car can move.",
+   "rule": "If the wheels spin in snow or sand, put something with grip under the spinning wheel (wood, car mats) and try starting in a higher gear, which gives less force and less spinning. Ice gives even less grip than snow.",
+   "trap": "'qualcosa che faccia attrito' (something that gives friction) is the right idea.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Put wood or mats under the spinning wheel",
+    "it": "attrito",
+    "lines": [
+     "Car stuck in snow or sand",
+     "Wheel spins without grip",
+     "Wood or mat under the wheel"
+    ],
+    "icons": [
+     "snow",
+     "tyre",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "infossamento",
+    "en": "sinking in, getting stuck"
+   },
+   {
+    "it": "ruota che slitta",
+    "en": "spinning wheel"
+   },
+   {
+    "it": "attrito",
+    "en": "friction, grip"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24785": {
+  "en": "If the vehicle sinks into snow or sand and you cannot start in first gear, it is advisable to engage a higher gear.",
+  "explain": {
+   "short": "First gear gives a lot of force to the wheels and they spin. A higher gear gives less force, so the wheels spin less and can grip.",
+   "rule": "If the wheels spin in snow or sand, put something with grip under the spinning wheel (wood, car mats) and try starting in a higher gear, which gives less force and less spinning. Ice gives even less grip than snow.",
+   "trap": "'marcia superiore' (higher gear) sounds strange but is right: less force means less wheelspin.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stuck: try starting in second gear",
+    "it": "marcia superiore",
+    "lines": [
+     "Stuck in snow, wheels spin in 1st",
+     "Engage a higher gear",
+     "Less force, less spinning"
+    ],
+    "icons": [
+     "snow",
+     "engine",
+     "tyre"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "prima marcia",
+    "en": "first gear"
+   },
+   {
+    "it": "marcia superiore",
+    "en": "higher gear"
+   },
+   {
+    "it": "infossamento",
+    "en": "sinking in, getting stuck"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24786": {
+  "en": "On a snowy road the vehicle's grip is lower than on an icy road.",
+  "explain": {
+   "short": "Ice is the most slippery surface. Snow gives poor grip, but ice gives even less.",
+   "rule": "If the wheels spin in snow or sand, put something with grip under the spinning wheel (wood, car mats) and try starting in a higher gear, which gives less force and less spinning. Ice gives even less grip than snow.",
+   "trap": "'minore' (lower) is reversed: grip on snow is greater than on ice.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Ice has even less grip than snow",
+    "it": "strada ghiacciata",
+    "lines": [
+     "Snowy road: poor grip",
+     "Icy road: even less grip",
+     "Ice is the most slippery"
+    ],
+    "icons": [
+     "snow",
+     "warning",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada innevata",
+    "en": "snowy road"
+   },
+   {
+    "it": "strada ghiacciata",
+    "en": "icy road"
+   },
+   {
+    "it": "aderenza",
+    "en": "grip"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24787": {
+  "en": "Rear-end collisions happen mainly because of high speed.",
+  "explain": {
+   "short": "At high speed you need much more space to stop, so you hit the car in front more easily.",
+   "rule": "Rear-end collisions (tamponamenti) happen mainly because of high speed, not keeping the safe distance, and driver distraction. They do not depend on the handbrake or on power steering.",
+   "trap": "'forte velocità' (high speed) is one of the true main causes.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "High speed causes rear-end crashes",
+    "it": "tamponamenti",
+    "lines": [
+     "Car ahead brakes suddenly",
+     "High speed: long stopping distance",
+     "Rear-end collision"
+    ],
+    "icons": [
+     "car",
+     "speed",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tamponamenti",
+    "en": "rear-end collisions"
+   },
+   {
+    "it": "forte velocità",
+    "en": "high speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24788": {
+  "en": "Rear-end collisions happen more often if the safe distance is not kept.",
+  "explain": {
+   "short": "Too close to the car in front, you have no space to stop when it brakes.",
+   "rule": "Rear-end collisions (tamponamenti) happen mainly because of high speed, not keeping the safe distance, and driver distraction. They do not depend on the handbrake or on power steering.",
+   "trap": "'distanza di sicurezza' (safe distance) is a real cause when it is not respected.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Keep the safe distance",
+    "it": "distanza di sicurezza",
+    "lines": [
+     "Following too close",
+     "Car ahead brakes",
+     "No space to stop: crash"
+    ],
+    "icons": [
+     "distance",
+     "brake",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tamponamenti",
+    "en": "rear-end collisions"
+   },
+   {
+    "it": "distanza di sicurezza",
+    "en": "safe distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24789": {
+  "en": "Rear-end collisions happen mainly because of drivers' lack of attention.",
+  "explain": {
+   "short": "A distracted driver sees the car in front braking too late.",
+   "rule": "Rear-end collisions (tamponamenti) happen mainly because of high speed, not keeping the safe distance, and driver distraction. They do not depend on the handbrake or on power steering.",
+   "trap": "'disattenzione' (lack of attention) is one of the true main causes.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Distraction causes rear-end crashes",
+    "it": "disattenzione",
+    "lines": [
+     "Driver looks at the phone",
+     "Car ahead brakes",
+     "Reacts too late: crash"
+    ],
+    "icons": [
+     "eye",
+     "brake",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tamponamenti",
+    "en": "rear-end collisions"
+   },
+   {
+    "it": "disattenzione",
+    "en": "lack of attention"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24790": {
+  "en": "Rear-end collisions happen mainly because of a sudden failure of the parking brake.",
+  "explain": {
+   "short": "The parking brake (handbrake) holds the car when parked. Its failure is not what causes rear-end crashes.",
+   "rule": "Rear-end collisions (tamponamenti) happen mainly because of high speed, not keeping the safe distance, and driver distraction. They do not depend on the handbrake or on power steering.",
+   "trap": "'freno di stazionamento' (parking brake) is the wrong cause.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Not the handbrake: speed, distance, distraction",
+    "it": "freno di stazionamento",
+    "lines": [
+     "Handbrake failure: not the cause",
+     "Real causes: speed, distance",
+     "and driver distraction"
+    ],
+    "icons": [
+     "cross",
+     "speed",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tamponamenti",
+    "en": "rear-end collisions"
+   },
+   {
+    "it": "freno di stazionamento",
+    "en": "parking brake, handbrake"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24791": {
+  "en": "Rear-end collisions happen mainly between motor vehicles with power steering.",
+  "explain": {
+   "short": "Power steering only makes steering lighter. It has nothing to do with rear-end crashes.",
+   "rule": "Rear-end collisions (tamponamenti) happen mainly because of high speed, not keeping the safe distance, and driver distraction. They do not depend on the handbrake or on power steering.",
+   "trap": "'servosterzo' (power steering) is an unrelated cause.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Power steering has nothing to do with it",
+    "it": "servosterzo",
+    "lines": [
+     "Power steering: not the cause",
+     "Real causes: speed, distance",
+     "and driver distraction"
+    ],
+    "icons": [
+     "cross",
+     "speed",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tamponamenti",
+    "en": "rear-end collisions"
+   },
+   {
+    "it": "servosterzo",
+    "en": "power steering"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24792": {
+  "en": "Driving through a long tunnel, when long queues of vehicles form, it is advisable to increase the safe distance, to prevent flames from spreading quickly in case of fire.",
+  "explain": {
+   "short": "Cars packed close together let a fire jump from one to the next. More space slows the fire down.",
+   "rule": "In a long tunnel, keep a bigger distance in queues so a fire cannot spread fast. In a fire, leave the car quickly, follow the signs to the escape routes and safe places, and obey the spoken orders of tunnel staff and firefighters: their orders come first.",
+   "trap": "'aumentare la distanza' (increase the distance) is right in tunnel queues.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tunnel queue: keep a bigger gap",
+    "it": "distanza di sicurezza",
+    "lines": [
+     "Queue in a long tunnel",
+     "Leave a bigger gap",
+     "A fire spreads less"
+    ],
+    "icons": [
+     "road",
+     "distance",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tunnel o traforo",
+    "en": "tunnel"
+   },
+   {
+    "it": "distanza di sicurezza",
+    "en": "safe distance"
+   },
+   {
+    "it": "incendio",
+    "en": "fire"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24793": {
+  "en": "Driving through a long tunnel, in case of fire you must leave the vehicle quickly, following the signs to the escape routes or to safe places protected by fire doors.",
+  "explain": {
+   "short": "Smoke fills a tunnel very fast. Leave the car at once and walk to the emergency exits shown by the signs.",
+   "rule": "In a long tunnel, keep a bigger distance in queues so a fire cannot spread fast. In a fire, leave the car quickly, follow the signs to the escape routes and safe places, and obey the spoken orders of tunnel staff and firefighters: their orders come first.",
+   "trap": "'abbandonare velocemente il veicolo' (leave the car quickly) is right: do not stay inside.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tunnel fire: leave the car, follow exit signs",
+    "it": "vie di fuga",
+    "lines": [
+     "Fire in the tunnel",
+     "Leave the car quickly",
+     "Follow signs to the exits"
+    ],
+    "icons": [
+     "warning",
+     "pedestrian",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "incendio",
+    "en": "fire"
+   },
+   {
+    "it": "vie di fuga",
+    "en": "escape routes"
+   },
+   {
+    "it": "porte tagliafuoco",
+    "en": "fire doors"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24794": {
+  "en": "Driving through a long tunnel, in case of fire you must follow the spoken instructions of the staff or the firefighters, so as not to walk in the wrong direction.",
+  "explain": {
+   "short": "Staff and firefighters know where the fire and smoke are, so their spoken orders keep you safe.",
+   "rule": "In a long tunnel, keep a bigger distance in queues so a fire cannot spread fast. In a fire, leave the car quickly, follow the signs to the escape routes and safe places, and obey the spoken orders of tunnel staff and firefighters: their orders come first.",
+   "trap": "'istruzioni vocali' (spoken instructions) of staff and firefighters must be obeyed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Obey staff and firefighters",
+    "it": "vigili del fuoco",
+    "lines": [
+     "Fire in the tunnel",
+     "Listen to staff and firefighters",
+     "Walk the way they say"
+    ],
+    "icons": [
+     "warning",
+     "police",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "istruzioni vocali",
+    "en": "spoken instructions"
+   },
+   {
+    "it": "vigili del fuoco",
+    "en": "firefighters"
+   },
+   {
+    "it": "direzione sbagliata",
+    "en": "wrong direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24798": {
+  "en": "Driving through a long tunnel, in case of fire you must follow the emergency signs, even if they clearly contradict the spoken orders given by the firefighters.",
+  "explain": {
+   "short": "The firefighters see the real situation, so their orders come before the fixed signs.",
+   "rule": "In a long tunnel, keep a bigger distance in queues so a fire cannot spread fast. In a fire, leave the car quickly, follow the signs to the escape routes and safe places, and obey the spoken orders of tunnel staff and firefighters: their orders come first.",
+   "trap": "'anche se in netto contrasto' (even if clearly against) is the trap: the firefighters' orders win.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Firefighters' orders beat the signs",
+    "it": "ordini vocali",
+    "lines": [
+     "Fire in the tunnel",
+     "Signs vs firefighters' orders",
+     "Obey the firefighters"
+    ],
+    "icons": [
+     "warning",
+     "sign",
+     "police"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnaletica di emergenza",
+    "en": "emergency signs"
+   },
+   {
+    "it": "in netto contrasto",
+    "en": "clearly against"
+   },
+   {
+    "it": "vigili del fuoco",
+    "en": "firefighters"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24799": {
+  "en": "Motorcycles, having a small frontal outline, are less visible from a distance.",
+  "explain": {
+   "short": "A motorbike is narrow seen from the front, so other drivers notice it late.",
+   "rule": "Motorbikes are narrow, so they are harder to see from far away: watch for them at junctions, when opening doors and in queues (they may pass on the right), and leave a wide side gap when you overtake them. Motorbikes always use dipped headlights, even by day. Noise does not make them more visible, clothing does.",
+   "trap": "'meno visibili' (less visible) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorbikes are hard to see from far",
+    "it": "ridotta sagoma frontale",
+    "lines": [
+     "Motorbike coming from far",
+     "Narrow front shape",
+     "Hard to see: look twice"
+    ],
+    "icons": [
+     "moto",
+     "eye",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ridotta sagoma frontale",
+    "en": "small frontal outline"
+   },
+   {
+    "it": "meno visibili",
+    "en": "less visible"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24800": {
+  "en": "Drivers of motor vehicles must, in general, pay special attention to two-wheeled motor vehicles, because they are less easily visible.",
+  "explain": {
+   "short": "Since motorbikes are hard to see, car drivers must look for them carefully.",
+   "rule": "Motorbikes are narrow, so they are harder to see from far away: watch for them at junctions, when opening doors and in queues (they may pass on the right), and leave a wide side gap when you overtake them. Motorbikes always use dipped headlights, even by day. Noise does not make them more visible, clothing does.",
+   "trap": "'in generale' (in general) is right: the extra care is always needed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Watch out for motorbikes",
+    "it": "prestare particolare attenzione",
+    "lines": [
+     "Motorbikes are less visible",
+     "Car drivers look carefully",
+     "Check mirrors and blind spots"
+    ],
+    "icons": [
+     "moto",
+     "eye",
+     "mirror"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "prestare particolare attenzione",
+    "en": "pay special attention"
+   },
+   {
+    "it": "veicoli a motore a due ruote",
+    "en": "two-wheeled motor vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24801": {
+  "en": "Drivers of motor vehicles, when opening the doors, must pay special attention to two-wheeled motor vehicles, because they are less visible.",
+  "explain": {
+   "short": "A motorbike passing close to a parked car can hit an opening door. Check the mirror before opening.",
+   "rule": "Motorbikes are narrow, so they are harder to see from far away: watch for them at junctions, when opening doors and in queues (they may pass on the right), and leave a wide side gap when you overtake them. Motorbikes always use dipped headlights, even by day. Noise does not make them more visible, clothing does.",
+   "trap": "'nell'aprire le portiere' (when opening doors) is a real danger moment, so it is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Check for motorbikes before opening the door",
+    "it": "aprire le portiere",
+    "lines": [
+     "Parked car, door about to open",
+     "Motorbike passing close",
+     "Check the mirror first"
+    ],
+    "icons": [
+     "car",
+     "moto",
+     "mirror"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aprire le portiere",
+    "en": "opening the doors"
+   },
+   {
+    "it": "meno visibili",
+    "en": "less visible"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24802": {
+  "en": "When crossing junctions you must always consider that a two-wheeled motor vehicle may arrive, not visible from far, after overtaking the stopped vehicles.",
+  "explain": {
+   "short": "A motorbike can pass a queue of stopped cars and appear suddenly at the junction. Always expect it.",
+   "rule": "Motorbikes are narrow, so they are harder to see from far away: watch for them at junctions, when opening doors and in queues (they may pass on the right), and leave a wide side gap when you overtake them. Motorbikes always use dipped headlights, even by day. Noise does not make them more visible, clothing does.",
+   "trap": "'sempre' (always) is right here: this danger can be there at any junction.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Expect a motorbike passing the queue",
+    "it": "incroci",
+    "lines": [
+     "Junction, cars stopped in a queue",
+     "Motorbike passes the queue",
+     "Expect it before you cross"
+    ],
+    "icons": [
+     "road",
+     "moto",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "incroci",
+    "en": "junctions"
+   },
+   {
+    "it": "sempre",
+    "en": "always"
+   },
+   {
+    "it": "veicoli fermi",
+    "en": "stopped vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24803": {
+  "en": "In heavy traffic with queues of vehicles, before opening the doors to get out of your parked vehicle, you must always consider that a two-wheeled motor vehicle may arrive, overtaking the queued vehicles on the right.",
+  "explain": {
+   "short": "In a queue, scooters often pass on the right, close to parked cars. Look before you open the door.",
+   "rule": "Motorbikes are narrow, so they are harder to see from far away: watch for them at junctions, when opening doors and in queues (they may pass on the right), and leave a wide side gap when you overtake them. Motorbikes always use dipped headlights, even by day. Noise does not make them more visible, clothing does.",
+   "trap": "'sorpassando a destra' (overtaking on the right) is exactly what scooters do in queues, so it is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Scooters pass the queue on the right: look",
+    "it": "sorpassando a destra",
+    "lines": [
+     "Heavy traffic, cars in a queue",
+     "Scooter passing on the right",
+     "Look before opening the door"
+    ],
+    "icons": [
+     "car",
+     "moto",
+     "mirror"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "incolonnamento",
+    "en": "queue of vehicles"
+   },
+   {
+    "it": "aprire le portiere",
+    "en": "opening the doors"
+   },
+   {
+    "it": "sorpassando a destra",
+    "en": "overtaking on the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24804": {
+  "en": "When overtaking a two-wheeled motor vehicle, especially at high speed, you must keep a good safe side distance.",
+  "explain": {
+   "short": "A motorbike can move sideways because of wind or holes, and a fast car's air flow can push it. Leave a wide gap.",
+   "rule": "Motorbikes are narrow, so they are harder to see from far away: watch for them at junctions, when opening doors and in queues (they may pass on the right), and leave a wide side gap when you overtake them. Motorbikes always use dipped headlights, even by day. Noise does not make them more visible, clothing does.",
+   "trap": "'distanza laterale' (side distance) is the key: give two-wheelers plenty of room.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wide side gap when passing a motorbike",
+    "it": "distanza laterale",
+    "lines": [
+     "Overtaking a motorbike",
+     "Leave a wide side gap",
+     "More speed, more space"
+    ],
+    "icons": [
+     "moto",
+     "distance",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza laterale",
+    "en": "side distance"
+   },
+   {
+    "it": "elevata velocità",
+    "en": "high speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24805": {
+  "en": "When riding on the road, to be more visible, motorcycles must keep their dipped headlights on even by day.",
+  "explain": {
+   "short": "Motorcycles must always ride with dipped headlights on, day and night, so others see them better.",
+   "rule": "Motorbikes are narrow, so they are harder to see from far away: watch for them at junctions, when opening doors and in queues (they may pass on the right), and leave a wide side gap when you overtake them. Motorbikes always use dipped headlights, even by day. Noise does not make them more visible, clothing does.",
+   "trap": "'anche di giorno' (even by day) is right for motorcycles.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorbikes: dipped beam on, day and night",
+    "it": "anabbaglianti",
+    "lines": [
+     "Motorbike on the road by day",
+     "Dipped headlights on",
+     "Seen better by others"
+    ],
+    "icons": [
+     "moto",
+     "light",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "proiettori anabbaglianti",
+    "en": "dipped headlights"
+   },
+   {
+    "it": "anche di giorno",
+    "en": "even by day"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24806": {
+  "en": "When riding in built-up areas, motorcyclists may in any case use the horn when approaching junctions.",
+  "explain": {
+   "short": "In towns the horn is allowed only to avoid an immediate danger. Motorcyclists have no special right to use it at every junction.",
+   "rule": "In built-up areas the horn is used only in case of real, immediate danger, for everyone, motorcyclists included.",
+   "trap": "'in ogni caso' (in any case) is the trap: the horn is only for real danger.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Horn in towns only for real danger",
+    "it": "avvisatore acustico",
+    "lines": [
+     "Motorbike in town at a junction",
+     "Horn 'in any case': no",
+     "Horn only for immediate danger"
+    ],
+    "icons": [
+     "moto",
+     "cross",
+     "horn"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "avvisatore acustico",
+    "en": "horn"
+   },
+   {
+    "it": "in ogni caso",
+    "en": "in any case"
+   },
+   {
+    "it": "centri abitati",
+    "en": "built-up areas"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24808": {
+  "en": "On roads where chains are compulsory, when it snows, two-wheeled vehicles are still allowed to ride.",
+  "explain": {
+   "short": "Where chains are compulsory in snow, two-wheelers cannot ride safely and cannot fit chains, so they may not ride there.",
+   "rule": "Where snow chains are compulsory and it is snowing, two-wheeled vehicles may not ride on that road.",
+   "trap": "'comunque concesso' (still allowed) is the trap: two-wheelers must stay off that road.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Chains required and snow: no two-wheelers",
+    "it": "obbligo di catene",
+    "lines": [
+     "Road with chains compulsory",
+     "Snow is falling",
+     "Two-wheelers may not ride"
+    ],
+    "icons": [
+     "snow",
+     "moto",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo di catene",
+    "en": "chains compulsory"
+   },
+   {
+    "it": "nevicata",
+    "en": "snowfall"
+   },
+   {
+    "it": "comunque concesso",
+    "en": "still allowed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24809": {
+  "en": "Motorcycle riders are more easily noticed by car drivers because they are noisier.",
+  "explain": {
+   "short": "Noise does not make a motorbike easy to see. Inside a car you often do not hear it, and it stays hard to spot.",
+   "rule": "Motorbikes are narrow, so they are harder to see from far away: watch for them at junctions, when opening doors and in queues (they may pass on the right), and leave a wide side gap when you overtake them. Motorbikes always use dipped headlights, even by day. Noise does not make them more visible, clothing does.",
+   "trap": "'perché più rumorosi' (because noisier) is the false reason.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Noise does not make motorbikes visible",
+    "it": "più rumorosi",
+    "lines": [
+     "Motorbike is loud",
+     "Car driver may not hear it",
+     "Still hard to see: look"
+    ],
+    "icons": [
+     "moto",
+     "cross",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "più facilmente percepibili",
+    "en": "more easily noticed"
+   },
+   {
+    "it": "più rumorosi",
+    "en": "noisier"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24810": {
+  "en": "Riders of two-wheeled vehicles, having a small frontal outline, are more visible from a distance.",
+  "explain": {
+   "short": "A small frontal outline makes them LESS visible, not more.",
+   "rule": "Motorbikes are narrow, so they are harder to see from far away: watch for them at junctions, when opening doors and in queues (they may pass on the right), and leave a wide side gap when you overtake them. Motorbikes always use dipped headlights, even by day. Noise does not make them more visible, clothing does.",
+   "trap": "'più visibili' (more visible) is reversed: they are less visible.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Narrow shape = LESS visible",
+    "it": "più visibili",
+    "lines": [
+     "Two-wheeler from far away",
+     "Narrow front shape",
+     "Less visible, not more"
+    ],
+    "icons": [
+     "moto",
+     "eye",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ridotta sagoma frontale",
+    "en": "small frontal outline"
+   },
+   {
+    "it": "più visibili",
+    "en": "more visible"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24811": {
+  "en": "Riders of two-wheeled vehicles, being less easily visible from a distance, must in any case ride with high beams on at night.",
+  "explain": {
+   "short": "High beams dazzle oncoming drivers. Like everyone, riders use them only when allowed (no oncoming traffic, no one close ahead), not in any case.",
+   "rule": "At night two-wheelers use dipped headlights; high beams only outside towns when they do not dazzle anyone.",
+   "trap": "'in ogni caso' (in any case) is the trap: high beams would dazzle others.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "At night no high beams 'in any case'",
+    "it": "abbaglianti",
+    "lines": [
+     "Motorbike at night",
+     "High beams in any case: no",
+     "Dipped beam; high beam if no one dazzled"
+    ],
+    "icons": [
+     "night",
+     "cross",
+     "light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "proiettori abbaglianti",
+    "en": "high beams"
+   },
+   {
+    "it": "in ogni caso",
+    "en": "in any case"
+   },
+   {
+    "it": "ore notturne",
+    "en": "night hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24812": {
+  "en": "A motorcyclist's clothing does not affect their visibility in traffic.",
+  "explain": {
+   "short": "Bright or reflective clothes make a rider much easier to see; dark clothes make them harder to see.",
+   "rule": "Motorbikes are narrow, so they are harder to see from far away: watch for them at junctions, when opening doors and in queues (they may pass on the right), and leave a wide side gap when you overtake them. Motorbikes always use dipped headlights, even by day. Noise does not make them more visible, clothing does.",
+   "trap": "'non incide' (does not affect) is wrong: clothing matters a lot.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Bright clothes make riders visible",
+    "it": "abbigliamento",
+    "lines": [
+     "Rider in dark clothes: hard to see",
+     "Bright, reflective clothes",
+     "Seen much earlier"
+    ],
+    "icons": [
+     "moto",
+     "light",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "abbigliamento",
+    "en": "clothing"
+   },
+   {
+    "it": "non incide",
+    "en": "does not affect"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24813": {
+  "en": "Tram rails are a road feature that can be dangerous for two-wheeled vehicles.",
+  "explain": {
+   "short": "Tram rails are smooth and slippery, so a two-wheeler can lose grip on them.",
+   "rule": "For two-wheelers, tram rails, painted pedestrian crossings and manhole covers (tombini) are slippery, above all when wet. Go over them slowly and upright, without braking or accelerating hard, and never ride inside the rail groove.",
+   "trap": "'può essere pericoloso' (can be dangerous) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tram rails: danger for two-wheelers",
+    "it": "rotaie del tram",
+    "lines": [
+     "Tram rails on the road",
+     "Slippery for two-wheelers",
+     "Ride over them carefully"
+    ],
+    "icons": [
+     "tram",
+     "moto",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rotaie del tram",
+    "en": "tram rails"
+   },
+   {
+    "it": "veicoli a due ruote",
+    "en": "two-wheeled vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24814": {
+  "en": "Pedestrian crossings painted on the road are a road feature that can be dangerous for two-wheeled vehicles.",
+  "explain": {
+   "short": "The painted stripes are smooth and slippery, so a two-wheeler can lose grip on them.",
+   "rule": "For two-wheelers, tram rails, painted pedestrian crossings and manhole covers (tombini) are slippery, above all when wet. Go over them slowly and upright, without braking or accelerating hard, and never ride inside the rail groove.",
+   "trap": "'può essere pericoloso' (can be dangerous) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Painted crossings: slippery on two wheels",
+    "it": "strisce pedonali",
+    "lines": [
+     "Painted pedestrian crossing",
+     "Slippery for two-wheelers",
+     "Ride over them carefully"
+    ],
+    "icons": [
+     "pedestrian",
+     "moto",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strisce pedonali",
+    "en": "pedestrian crossing stripes"
+   },
+   {
+    "it": "veicoli a due ruote",
+    "en": "two-wheeled vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24815": {
+  "en": "Manhole covers on the road are a road feature that can be dangerous for two-wheeled vehicles.",
+  "explain": {
+   "short": "Manhole covers (tombini) are smooth and slippery, so a two-wheeler can lose grip on them.",
+   "rule": "For two-wheelers, tram rails, painted pedestrian crossings and manhole covers (tombini) are slippery, above all when wet. Go over them slowly and upright, without braking or accelerating hard, and never ride inside the rail groove.",
+   "trap": "'può essere pericoloso' (can be dangerous) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Manhole covers: danger for two-wheelers",
+    "it": "tombini",
+    "lines": [
+     "Manhole cover on the road",
+     "Slippery for two-wheelers",
+     "Ride over them carefully"
+    ],
+    "icons": [
+     "road",
+     "moto",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tombini",
+    "en": "manhole covers"
+   },
+   {
+    "it": "veicoli a due ruote",
+    "en": "two-wheeled vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24816": {
+  "en": "Tram rails are particularly dangerous for two-wheeled vehicles when the road surface is wet.",
+  "explain": {
+   "short": "Water on smooth metal or paint removes almost all grip, so the danger is much bigger in the wet.",
+   "rule": "For two-wheelers, tram rails, painted pedestrian crossings and manhole covers (tombini) are slippery, above all when wet. Go over them slowly and upright, without braking or accelerating hard, and never ride inside the rail groove.",
+   "trap": "'quando il fondo stradale è bagnato' (when the road is wet) is when the danger is highest: correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wet tram rails: very slippery",
+    "it": "rotaie del tram",
+    "lines": [
+     "Tram rails in the rain",
+     "Wet road: very slippery",
+     "Slow down, ride upright"
+    ],
+    "icons": [
+     "tram",
+     "rain",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rotaie del tram",
+    "en": "tram rails"
+   },
+   {
+    "it": "fondo stradale è bagnato",
+    "en": "the road surface is wet"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24817": {
+  "en": "Pedestrian crossings painted on the road are particularly dangerous for two-wheeled vehicles when the road surface is wet.",
+  "explain": {
+   "short": "Water on smooth metal or paint removes almost all grip, so the danger is much bigger in the wet.",
+   "rule": "For two-wheelers, tram rails, painted pedestrian crossings and manhole covers (tombini) are slippery, above all when wet. Go over them slowly and upright, without braking or accelerating hard, and never ride inside the rail groove.",
+   "trap": "'quando il fondo stradale è bagnato' (when the road is wet) is when the danger is highest: correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wet painted stripes: very slippery",
+    "it": "strisce pedonali",
+    "lines": [
+     "Painted crossing in the rain",
+     "Wet road: very slippery",
+     "Slow down, ride upright"
+    ],
+    "icons": [
+     "pedestrian",
+     "rain",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strisce pedonali",
+    "en": "pedestrian crossing stripes"
+   },
+   {
+    "it": "fondo stradale è bagnato",
+    "en": "the road surface is wet"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24818": {
+  "en": "Manhole covers on the road are particularly dangerous for two-wheeled vehicles when the road surface is wet.",
+  "explain": {
+   "short": "Water on smooth metal or paint removes almost all grip, so the danger is much bigger in the wet.",
+   "rule": "For two-wheelers, tram rails, painted pedestrian crossings and manhole covers (tombini) are slippery, above all when wet. Go over them slowly and upright, without braking or accelerating hard, and never ride inside the rail groove.",
+   "trap": "'quando il fondo stradale è bagnato' (when the road is wet) is when the danger is highest: correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wet manhole covers: very slippery",
+    "it": "tombini",
+    "lines": [
+     "Manhole cover in the rain",
+     "Wet road: very slippery",
+     "Slow down, ride upright"
+    ],
+    "icons": [
+     "road",
+     "rain",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tombini",
+    "en": "manhole covers"
+   },
+   {
+    "it": "fondo stradale è bagnato",
+    "en": "the road surface is wet"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24819": {
+  "en": "Riding a two-wheeled vehicle on a wet road, braking is particularly dangerous if the wheels are on tram rails, pedestrian crossings or manhole covers.",
+  "explain": {
+   "short": "On these slippery spots a wet wheel locks easily when you brake, and the bike falls. Brake before or after them, not on them.",
+   "rule": "For two-wheelers, tram rails, painted pedestrian crossings and manhole covers (tombini) are slippery, above all when wet. Go over them slowly and upright, without braking or accelerating hard, and never ride inside the rail groove.",
+   "trap": "'la frenata è particolarmente pericolosa' (braking is particularly dangerous) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Do not brake on rails, stripes or manholes",
+    "it": "frenata",
+    "lines": [
+     "Wet road, two-wheeler",
+     "Wheels on rails, stripes, manholes",
+     "Do not brake there"
+    ],
+    "icons": [
+     "rain",
+     "moto",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "frenata",
+    "en": "braking"
+   },
+   {
+    "it": "rotaie del tram",
+    "en": "tram rails"
+   },
+   {
+    "it": "tombini",
+    "en": "manhole covers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24820": {
+  "en": "Riding fast over manhole covers or tram rails on a two-wheeled vehicle can make it lose road holding and steering control, causing skids or falls.",
+  "explain": {
+   "short": "At speed the wheel slips or is deflected by rails and manholes, so the rider can skid or fall. Slow down before them.",
+   "rule": "For two-wheelers, tram rails, painted pedestrian crossings and manhole covers (tombini) are slippery, above all when wet. Go over them slowly and upright, without braking or accelerating hard, and never ride inside the rail groove.",
+   "trap": "'in velocità' (at speed) is the danger, and the statement is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Too fast over rails or manholes: skids",
+    "it": "tenuta di strada",
+    "lines": [
+     "Two-wheeler fast over rails",
+     "Loses grip and steering",
+     "Skid or fall: slow down"
+    ],
+    "icons": [
+     "moto",
+     "speed",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in velocità",
+    "en": "at speed"
+   },
+   {
+    "it": "tenuta di strada",
+    "en": "road holding"
+   },
+   {
+    "it": "sbandamenti",
+    "en": "skids"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24821": {
+  "en": "Tram rails or manhole covers on the road are not a danger for a rider of a two-wheeled vehicle.",
+  "explain": {
+   "short": "Rails and manholes are slippery and can catch the wheel, so they are a real danger for two-wheelers.",
+   "rule": "For two-wheelers, tram rails, painted pedestrian crossings and manhole covers (tombini) are slippery, above all when wet. Go over them slowly and upright, without braking or accelerating hard, and never ride inside the rail groove.",
+   "trap": "'non costituiscono un pericolo' (are not a danger) is wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Rails and manholes ARE a danger",
+    "it": "non costituiscono un pericolo",
+    "lines": [
+     "Tram rails and manhole covers",
+     "No danger: wrong",
+     "Slippery for two-wheelers"
+    ],
+    "icons": [
+     "tram",
+     "cross",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rotaie del tram",
+    "en": "tram rails"
+   },
+   {
+    "it": "tombini",
+    "en": "manhole covers"
+   },
+   {
+    "it": "non costituiscono un pericolo",
+    "en": "are not a danger"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24822": {
+  "en": "When, on a rainy day, you must ride a two-wheeler over tram rails or manhole covers on the road, you must accelerate hard before going over them.",
+  "explain": {
+   "short": "Hard acceleration makes the wet wheel spin and slide. Go over them slowly and steadily.",
+   "rule": "For two-wheelers, tram rails, painted pedestrian crossings and manhole covers (tombini) are slippery, above all when wet. Go over them slowly and upright, without braking or accelerating hard, and never ride inside the rail groove.",
+   "trap": "'accelerare decisamente' (accelerate hard) is the trap: it causes a slide.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Do not accelerate hard over wet rails",
+    "it": "accelerare",
+    "lines": [
+     "Rain: two-wheeler over rails/manholes",
+     "Accelerate hard: no",
+     "Go slowly, upright, no sudden moves"
+    ],
+    "icons": [
+     "rain",
+     "cross",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "giorno di pioggia",
+    "en": "rainy day"
+   },
+   {
+    "it": "accelerare decisamente",
+    "en": "accelerate hard"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24823": {
+  "en": "When, on a rainy day, you must ride a two-wheeler over tram rails or manhole covers on the road, it is good to stand up on the footrests before going over them.",
+  "explain": {
+   "short": "Standing up makes the bike less stable and helps nothing. Stay seated, upright and calm.",
+   "rule": "For two-wheelers, tram rails, painted pedestrian crossings and manhole covers (tombini) are slippery, above all when wet. Go over them slowly and upright, without braking or accelerating hard, and never ride inside the rail groove.",
+   "trap": "'alzarsi in piedi sulle pedivelle' (stand on the footrests) is a useless, risky trick.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Do not stand up on the footrests",
+    "it": "pedivelle",
+    "lines": [
+     "Rain: two-wheeler over rails/manholes",
+     "Stand on the footrests: no",
+     "Go slowly, upright, no sudden moves"
+    ],
+    "icons": [
+     "rain",
+     "cross",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "giorno di pioggia",
+    "en": "rainy day"
+   },
+   {
+    "it": "alzarsi in piedi",
+    "en": "stand up"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24824": {
+  "en": "When, on a rainy day, you must ride a two-wheeler over tram rails or manhole covers on the road, it is good to do it in a wheelie, so that the front wheel, which steers, does not go over them.",
+  "explain": {
+   "short": "A wheelie is dangerous and you lose control. Both wheels go over the obstacle slowly and in line.",
+   "rule": "For two-wheelers, tram rails, painted pedestrian crossings and manhole covers (tombini) are slippery, above all when wet. Go over them slowly and upright, without braking or accelerating hard, and never ride inside the rail groove.",
+   "trap": "'in impennata' (in a wheelie) is the trap: it is a dangerous stunt.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No wheelies over wet rails",
+    "it": "impennata",
+    "lines": [
+     "Rain: two-wheeler over rails/manholes",
+     "Wheelie: no",
+     "Go slowly, upright, no sudden moves"
+    ],
+    "icons": [
+     "rain",
+     "cross",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "giorno di pioggia",
+    "en": "rainy day"
+   },
+   {
+    "it": "impennata",
+    "en": "wheelie (front wheel up)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24825": {
+  "en": "Tram rails or manhole covers on the road are a danger for a two-wheeler rider only if the vehicle has an automatic gearbox.",
+  "explain": {
+   "short": "Rails and manholes are slippery for every two-wheeler, whatever the gearbox.",
+   "rule": "For two-wheelers, tram rails, painted pedestrian crossings and manhole covers (tombini) are slippery, above all when wet. Go over them slowly and upright, without braking or accelerating hard, and never ride inside the rail groove.",
+   "trap": "'nella sola eventualità' (only if) is the trap: the gearbox does not matter.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Danger for all two-wheelers, any gearbox",
+    "it": "cambio automatico",
+    "lines": [
+     "Rails and manhole covers",
+     "Only with automatic gears: no",
+     "Danger for every two-wheeler"
+    ],
+    "icons": [
+     "tram",
+     "cross",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "nella sola eventualità",
+    "en": "only in the case"
+   },
+   {
+    "it": "cambio automatico",
+    "en": "automatic gearbox"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24826": {
+  "en": "If you have to ride a two-wheeled vehicle on a carriageway shared by vehicles and trams, it is good, if possible, to ride with both wheels inside the groove of the tram rail.",
+  "explain": {
+   "short": "The wheel can get stuck in the rail groove and you cannot steer out, so you fall. Keep away from the groove.",
+   "rule": "For two-wheelers, tram rails, painted pedestrian crossings and manhole covers (tombini) are slippery, above all when wet. Go over them slowly and upright, without braking or accelerating hard, and never ride inside the rail groove.",
+   "trap": "'nel solco della rotaia' (in the rail groove) is the trap: it traps the wheel.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never ride inside the tram rail groove",
+    "it": "solco della rotaia",
+    "lines": [
+     "Road shared with trams",
+     "Wheels in the rail groove: no",
+     "Ride beside the rails"
+    ],
+    "icons": [
+     "tram",
+     "cross",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "solco della rotaia",
+    "en": "rail groove"
+   },
+   {
+    "it": "circolazione promiscua",
+    "en": "shared traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

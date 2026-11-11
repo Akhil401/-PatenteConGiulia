@@ -1,0 +1,422 @@
+{
+ "q23110": {
+  "short": "D ha la destra libera e passa per primo. Poi passa chi ha la destra libera: P, poi B, poi N.",
+  "rule": "Non ci sono segnali: dai la precedenza a chi viene da destra. D ha la destra libera e passa per primo; poi P, poi B, poi N, uno alla volta.",
+  "trap": "«nel seguente ordine»: controlla ogni lettera. D, P, B, N è giusto.",
+  "caption": "Ordine giusto: D, P, B, N"
+ },
+ "q23111": {
+  "short": "N ha B alla sua destra, B aspetta P e P aspetta D. Quindi N è l'ultimo.",
+  "rule": "Non ci sono segnali: dai la precedenza a chi viene da destra. D ha la destra libera e passa per primo; poi P, poi B, poi N, uno alla volta.",
+  "trap": "«per ultimo» è giusto: N aspetta tutti e tre gli altri.",
+  "caption": "N è ultimo: prima D, P, B"
+ },
+ "q23112": {
+  "short": "P è alla destra di B: B dà la precedenza a P e passa dopo.",
+  "rule": "Non ci sono segnali: dai la precedenza a chi viene da destra. D ha la destra libera e passa per primo; poi P, poi B, poi N, uno alla volta.",
+  "trap": "«dopo» è giusto: P è alla destra di B.",
+  "caption": "P è a destra di B: B passa dopo P"
+ },
+ "q23113": {
+  "short": "D è l'unico senza nessuno alla sua destra, quindi passa per primo.",
+  "rule": "Non ci sono segnali: dai la precedenza a chi viene da destra. D ha la destra libera e passa per primo; poi P, poi B, poi N, uno alla volta.",
+  "trap": "«prima degli altri» è giusto: D ha la destra libera.",
+  "caption": "D ha la destra libera: passa primo"
+ },
+ "q23114": {
+  "short": "B è alla destra di N: N dà la precedenza a B, che passa prima.",
+  "rule": "Non ci sono segnali: dai la precedenza a chi viene da destra. D ha la destra libera e passa per primo; poi P, poi B, poi N, uno alla volta.",
+  "trap": "«prima» è giusto: B è alla destra di N.",
+  "caption": "B è a destra di N: B passa prima"
+ },
+ "q23115": {
+  "short": "B arriva dalla destra di N, quindi N aspetta B.",
+  "rule": "Non ci sono segnali: dai la precedenza a chi viene da destra. D ha la destra libera e passa per primo; poi P, poi B, poi N, uno alla volta.",
+  "trap": "«dopo» è giusto: N passa per ultimo.",
+  "caption": "N passa dopo B (B è alla sua destra)"
+ },
+ "q23116": {
+  "short": "P è alla destra di B: ha la precedenza su B e passa prima.",
+  "rule": "Non ci sono segnali: dai la precedenza a chi viene da destra. D ha la destra libera e passa per primo; poi P, poi B, poi N, uno alla volta.",
+  "trap": "«può passare prima» è giusto: B deve aspettare P.",
+  "caption": "P è a destra di B: P passa prima"
+ },
+ "q23117": {
+  "short": "L'ordine giusto è D, P, B, N. B non può passare prima di P, che è alla sua destra.",
+  "rule": "Non ci sono segnali: dai la precedenza a chi viene da destra. D ha la destra libera e passa per primo; poi P, poi B, poi N, uno alla volta.",
+  "trap": "«nel seguente ordine»: D è giusto, ma B prima di P è sbagliato.",
+  "caption": "Sbagliato: P passa prima. Ordine: D, P, B, N"
+ },
+ "q23118": {
+  "short": "L'ordine giusto è D, P, B, N. P non può passare primo: D è alla sua destra.",
+  "rule": "Non ci sono segnali: dai la precedenza a chi viene da destra. D ha la destra libera e passa per primo; poi P, poi B, poi N, uno alla volta.",
+  "trap": "«nel seguente ordine»: D è primo, non ultimo.",
+  "caption": "Sbagliato: D passa primo. Ordine: D, P, B, N"
+ },
+ "q23119": {
+  "short": "D passa per primo e N per ultimo: non passano insieme.",
+  "rule": "Non ci sono segnali: dai la precedenza a chi viene da destra. D ha la destra libera e passa per primo; poi P, poi B, poi N, uno alla volta.",
+  "trap": "«contemporaneamente» è sbagliato: D è primo, N è ultimo.",
+  "caption": "Non insieme: D primo, N ultimo"
+ },
+ "q23120": {
+  "short": "D passa per primo; B deve ancora aspettare P. Quindi D e B non passano insieme.",
+  "rule": "Non ci sono segnali: dai la precedenza a chi viene da destra. D ha la destra libera e passa per primo; poi P, poi B, poi N, uno alla volta.",
+  "trap": "«contemporaneamente» è sbagliato: tra D e B passa P.",
+  "caption": "Non insieme: D, poi P, poi B"
+ },
+ "q23121": {
+  "short": "P passa davvero prima di B, ma N è l'ultimo di tutti: P non passa dopo N.",
+  "rule": "Non ci sono segnali: dai la precedenza a chi viene da destra. D ha la destra libera e passa per primo; poi P, poi B, poi N, uno alla volta.",
+  "trap": "«ma dopo quello N» è la parte sbagliata: N è ultimo.",
+  "caption": "Sbagliato: N è ultimo. Ordine: D, P, B, N"
+ },
+ "q23122": {
+  "short": "Solo D passa per primo. B deve aspettare P, che è alla sua destra.",
+  "rule": "Non ci sono segnali: dai la precedenza a chi viene da destra. D ha la destra libera e passa per primo; poi P, poi B, poi N, uno alla volta.",
+  "trap": "«indifferentemente» è sbagliato: solo D è primo.",
+  "caption": "Solo D passa primo; B aspetta P"
+ },
+ "q23123": {
+  "short": "D svolta a destra senza tagliare la strada a nessuno e passa primo; poi C, A e H con la precedenza a destra.",
+  "rule": "Ogni veicolo ha qualcuno a destra. D svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi C, A, H.",
+  "trap": "«nel seguente ordine»: D, C, A, H è giusto.",
+  "caption": "Ordine giusto: D, C, A, H"
+ },
+ "q23124": {
+  "short": "C, che arriva dall'alto, è alla destra di A. La destra di A non è libera.",
+  "rule": "Ogni veicolo ha qualcuno a destra. D svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi C, A, H.",
+  "trap": "«la destra occupata» è giusto: C è alla destra di A.",
+  "caption": "C è a destra di A: A deve aspettare"
+ },
+ "q23125": {
+  "short": "D è alla destra di C, quindi C deve dare la precedenza a D.",
+  "rule": "Ogni veicolo ha qualcuno a destra. D svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi C, A, H.",
+  "trap": "«ha la precedenza» è giusto: D è alla destra di C.",
+  "caption": "D è a destra di C: D passa prima"
+ },
+ "q23126": {
+  "short": "D svolta solo a destra, vicino all'angolo, e non taglia la strada a nessuno: passa primo.",
+  "rule": "Ogni veicolo ha qualcuno a destra. D svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi C, A, H.",
+  "trap": "«il primo» è giusto: D passa prima di tutti.",
+  "caption": "D svolta a destra e passa primo"
+ },
+ "q23127": {
+  "short": "H ha A alla sua destra, A aspetta C e C aspetta D. Quindi H è ultimo.",
+  "rule": "Ogni veicolo ha qualcuno a destra. D svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi C, A, H.",
+  "trap": "«l'ultimo» è giusto: H aspetta A.",
+  "caption": "H è ultimo: A è alla sua destra"
+ },
+ "q23128": {
+  "short": "È il contrario: D è alla destra di C, quindi C dà la precedenza a D.",
+  "rule": "Ogni veicolo ha qualcuno a destra. D svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi C, A, H.",
+  "trap": "«deve dare la precedenza» è al contrario: è C che la dà a D.",
+  "caption": "Al contrario: C dà la precedenza a D"
+ },
+ "q23129": {
+  "short": "C ha D alla sua destra, quindi deve aspettare D. C passa secondo.",
+  "rule": "Ogni veicolo ha qualcuno a destra. D svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi C, A, H.",
+  "trap": "«per primo» è sbagliato: D è primo, C secondo.",
+  "caption": "Sbagliato: D primo, C secondo"
+ },
+ "q23130": {
+  "short": "C è alla destra di A, quindi A aspetta C e passa dopo.",
+  "rule": "Ogni veicolo ha qualcuno a destra. D svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi C, A, H.",
+  "trap": "«prima del veicolo C» è sbagliato: C è alla destra di A.",
+  "caption": "Sbagliato: C è a destra di A e passa prima"
+ },
+ "q23131": {
+  "short": "L'ordine giusto è D, C, A, H. D passa primo, non ultimo.",
+  "rule": "Ogni veicolo ha qualcuno a destra. D svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi C, A, H.",
+  "trap": "«nel seguente ordine»: D è spostato da primo a ultimo.",
+  "caption": "Sbagliato: D primo. Ordine: D, C, A, H"
+ },
+ "q23132": {
+  "short": "È l'ordine al contrario. L'ordine giusto è D, C, A, H.",
+  "rule": "Ogni veicolo ha qualcuno a destra. D svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi C, A, H.",
+  "trap": "«nel seguente ordine»: è l'ordine giusto rovesciato.",
+  "caption": "Sbagliato: al contrario. Ordine: D, C, A, H"
+ },
+ "q23133": {
+  "short": "C deve aspettare D e H deve aspettare A. Solo D passa per primo.",
+  "rule": "Ogni veicolo ha qualcuno a destra. D svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi C, A, H.",
+  "trap": "«per primi» è sbagliato: C è secondo e H è ultimo.",
+  "caption": "Sbagliato: solo D passa primo"
+ },
+ "q23134": {
+  "short": "Alla destra di L non c'è nessuno, quindi L passa per primo.",
+  "rule": "L ha la destra libera e passa per primo. Poi A e C passano insieme (le loro strade non si incrociano). D è ultimo: A e C sono alla sua destra.",
+  "trap": "«per primo» è giusto: L ha la destra libera.",
+  "caption": "L ha la destra libera: passa primo"
+ },
+ "q23135": {
+  "short": "A e C sono alla destra di D, quindi D li aspetta. D è ultimo.",
+  "rule": "L ha la destra libera e passa per primo. Poi A e C passano insieme (le loro strade non si incrociano). D è ultimo: A e C sono alla sua destra.",
+  "trap": "«l'ultimo» è giusto: D ha A e C alla sua destra.",
+  "caption": "D è ultimo: A e C sono a destra"
+ },
+ "q23136": {
+  "short": "Dopo L, A e C possono passare insieme: vengono dalla stessa strada e non si incrociano.",
+  "rule": "L ha la destra libera e passa per primo. Poi A e C passano insieme (le loro strade non si incrociano). D è ultimo: A e C sono alla sua destra.",
+  "trap": "«contemporaneamente» qui è giusto: A svolta a sinistra, C va dritto, affiancati.",
+  "caption": "Dopo L, A e C passano insieme"
+ },
+ "q23137": {
+  "short": "A arriva dalla destra di D, quindi D deve dare la precedenza ad A.",
+  "rule": "L ha la destra libera e passa per primo. Poi A e C passano insieme (le loro strade non si incrociano). D è ultimo: A e C sono alla sua destra.",
+  "trap": "«ha la precedenza» è giusto: A è alla destra di D.",
+  "caption": "A è a destra di D: A passa prima"
+ },
+ "q23138": {
+  "short": "La velocità non decide mai chi passa primo. Decidono le regole di precedenza.",
+  "rule": "L ha la destra libera e passa per primo. Poi A e C passano insieme (le loro strade non si incrociano). D è ultimo: A e C sono alla sua destra.",
+  "trap": "«il veicolo più veloce» è la trappola: la velocità non dà precedenza.",
+  "caption": "La velocità non conta: L passa primo"
+ },
+ "q23139": {
+  "short": "A passa insieme a C, subito dopo L. L'ultimo è D.",
+  "rule": "L ha la destra libera e passa per primo. Poi A e C passano insieme (le loro strade non si incrociano). D è ultimo: A e C sono alla sua destra.",
+  "trap": "«per ultimo» è sbagliato: l'ultimo è D, non A.",
+  "caption": "Sbagliato: A passa con C; D è ultimo"
+ },
+ "q23140": {
+  "short": "L passa primo, non ultimo. L'ordine giusto è L, poi A e C insieme, poi D.",
+  "rule": "L ha la destra libera e passa per primo. Poi A e C passano insieme (le loro strade non si incrociano). D è ultimo: A e C sono alla sua destra.",
+  "trap": "«nel seguente ordine»: L è spostato da primo a ultimo.",
+  "caption": "Sbagliato: L primo, poi A+C, poi D"
+ },
+ "q23141": {
+  "short": "C non può passare prima di L, che è alla sua destra. Ordine giusto: L, poi A e C insieme, poi D.",
+  "rule": "L ha la destra libera e passa per primo. Poi A e C passano insieme (le loro strade non si incrociano). D è ultimo: A e C sono alla sua destra.",
+  "trap": "«nel seguente ordine»: C messo prima di L è sbagliato.",
+  "caption": "Sbagliato: L prima di C. Poi A+C, poi D"
+ },
+ "q23142": {
+  "short": "L passa primo, ma D è ultimo: deve aspettare A e C alla sua destra.",
+  "rule": "L ha la destra libera e passa per primo. Poi A e C passano insieme (le loro strade non si incrociano). D è ultimo: A e C sono alla sua destra.",
+  "trap": "«contemporaneamente» è sbagliato: D passa dopo A, non con L.",
+  "caption": "Sbagliato: L primo, poi A+C, D ultimo"
+ },
+ "q23143": {
+  "short": "H svolta a destra senza tagliare la strada a nessuno e passa primo; poi D, B e L con la precedenza a destra.",
+  "rule": "H svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi D (H a destra), poi B (D a destra), poi L (B a destra).",
+  "trap": "«nel seguente ordine»: H, D, B, L è giusto.",
+  "caption": "Ordine giusto: H, D, B, L"
+ },
+ "q23144": {
+  "short": "H svolta solo a destra, vicino all'angolo, e non taglia la strada a nessuno: passa primo.",
+  "rule": "H svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi D (H a destra), poi B (D a destra), poi L (B a destra).",
+  "trap": "«per primo» è giusto: la svolta a destra di H non blocca nessuno.",
+  "caption": "H svolta a destra e passa primo"
+ },
+ "q23145": {
+  "short": "B è alla destra di L, quindi L dà la precedenza a B.",
+  "rule": "H svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi D (H a destra), poi B (D a destra), poi L (B a destra).",
+  "trap": "«prima del veicolo L» è giusto: B è alla destra di L.",
+  "caption": "B è a destra di L: B passa prima"
+ },
+ "q23146": {
+  "short": "H arriva dalla destra di D, quindi D dà la precedenza a H.",
+  "rule": "H svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi D (H a destra), poi B (D a destra), poi L (B a destra).",
+  "trap": "«deve dare la precedenza» è giusto: H è alla destra di D.",
+  "caption": "H è a destra di D: D dà la precedenza"
+ },
+ "q23147": {
+  "short": "B arriva dalla destra di L, quindi L dà la precedenza a B.",
+  "rule": "H svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi D (H a destra), poi B (D a destra), poi L (B a destra).",
+  "trap": "«deve dare la precedenza» è giusto: B è alla destra di L.",
+  "caption": "B è a destra di L: L dà la precedenza"
+ },
+ "q23148": {
+  "short": "L ha B alla sua destra, B aspetta D e D aspetta H. Quindi L è ultimo.",
+  "rule": "H svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi D (H a destra), poi B (D a destra), poi L (B a destra).",
+  "trap": "«per ultimo» è giusto: L aspetta tutti gli altri.",
+  "caption": "L è ultimo: B è alla sua destra"
+ },
+ "q23149": {
+  "short": "D è alla destra di B, quindi B dà la precedenza a D.",
+  "rule": "H svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi D (H a destra), poi B (D a destra), poi L (B a destra).",
+  "trap": "«prima del veicolo B» è giusto: D è alla destra di B.",
+  "caption": "D è a destra di B: D passa prima"
+ },
+ "q23150": {
+  "short": "B aspetta solo H e D. L è alla sinistra di B e aspetta B.",
+  "rule": "H svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi D (H a destra), poi B (D a destra), poi L (B a destra).",
+  "trap": "«degli altri tre» è sbagliato: B passa prima di L.",
+  "caption": "Sbagliato: B aspetta H e D, non L"
+ },
+ "q23151": {
+  "short": "H passa per primo. Sono D e B ad aspettare H, non il contrario.",
+  "rule": "H svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi D (H a destra), poi B (D a destra), poi L (B a destra).",
+  "trap": "«deve attendere» è sbagliato: H è primo.",
+  "caption": "Sbagliato: H passa primo"
+ },
+ "q23152": {
+  "short": "D passa secondo, L passa ultimo. Non passano insieme.",
+  "rule": "H svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi D (H a destra), poi B (D a destra), poi L (B a destra).",
+  "trap": "«contemporaneamente» è sbagliato: tra D e L passa B.",
+  "caption": "Non insieme: D secondo, L ultimo"
+ },
+ "q23153": {
+  "short": "L non può passare prima di B, che è alla sua destra. Ordine giusto: H, D, B, L.",
+  "rule": "H svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi D (H a destra), poi B (D a destra), poi L (B a destra).",
+  "trap": "«nel seguente ordine»: gli ultimi due sono scambiati.",
+  "caption": "Sbagliato: B prima di L. Ordine: H, D, B, L"
+ },
+ "q23154": {
+  "short": "Svoltare a sinistra non toglie a B la precedenza a destra: L è alla sinistra di B e deve aspettarlo.",
+  "rule": "H svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi D (H a destra), poi B (D a destra), poi L (B a destra).",
+  "trap": "«non ha diritto di precedenza su alcun veicolo» è sbagliato: B ha la precedenza su L.",
+  "caption": "Sbagliato: B ha la precedenza su L"
+ },
+ "q23155": {
+  "short": "Andare dritto non dà precedenza. Anzi L è ultimo, perché ha B alla sua destra.",
+  "rule": "H svolta a destra vicino all'angolo e non taglia la strada a nessuno: passa per primo. Poi D (H a destra), poi B (D a destra), poi L (B a destra).",
+  "trap": "«perché non effettuano svolte» è sbagliato: andare dritto non dà precedenza.",
+  "caption": "Sbagliato: andare dritto non dà precedenza"
+ },
+ "q23156": {
+  "short": "R è alla destra di N, quindi N dà la precedenza a R.",
+  "rule": "Stallo: B ha la destra libera ma svolta a sinistra. B va al centro e si ferma; poi passa R, poi D e N insieme, infine B completa la svolta.",
+  "trap": "«dopo il veicolo R» è giusto: R è alla destra di N.",
+  "caption": "Prima R, poi D e N insieme"
+ },
+ "q23157": {
+  "short": "B svolta a sinistra e deve lasciar passare N, che arriva dritto dal lato opposto. B aspetta al centro.",
+  "rule": "Stallo: B ha la destra libera ma svolta a sinistra. B va al centro e si ferma; poi passa R, poi D e N insieme, infine B completa la svolta.",
+  "trap": "«dopo il veicolo N» è giusto: chi svolta a sinistra lascia passare chi arriva di fronte.",
+  "caption": "B aspetta al centro; N passa prima di B"
+ },
+ "q23158": {
+  "short": "R è alla destra di D, quindi D dà la precedenza a R.",
+  "rule": "Stallo: B ha la destra libera ma svolta a sinistra. B va al centro e si ferma; poi passa R, poi D e N insieme, infine B completa la svolta.",
+  "trap": "«dopo il veicolo R» è giusto: R è alla destra di D.",
+  "caption": "Prima R, poi D e N insieme"
+ },
+ "q23159": {
+  "short": "B è alla destra di R. Quando B si è spostato al centro e si è fermato, non blocca più R: R passa.",
+  "rule": "Stallo: B ha la destra libera ma svolta a sinistra. B va al centro e si ferma; poi passa R, poi D e N insieme, infine B completa la svolta.",
+  "trap": "«dopo che il veicolo B si è spostato al centro» è giusto: così si risolve lo stallo.",
+  "caption": "B va al centro, poi passa R"
+ },
+ "q23160": {
+  "short": "Dopo R, D e N possono passare insieme: vengono dalla stessa strada e non si incrociano.",
+  "rule": "Stallo: B ha la destra libera ma svolta a sinistra. B va al centro e si ferma; poi passa R, poi D e N insieme, infine B completa la svolta.",
+  "trap": "«contemporaneamente» qui è giusto: D svolta a sinistra, N va dritto, affiancati.",
+  "caption": "Dopo R, D e N passano insieme"
+ },
+ "q23161": {
+  "short": "B ha la destra libera ed entra per primo, ma svolta a sinistra e deve lasciar passare N: si ferma al centro.",
+  "rule": "Stallo: B ha la destra libera ma svolta a sinistra. B va al centro e si ferma; poi passa R, poi D e N insieme, infine B completa la svolta.",
+  "trap": "«fermarsi al centro» è giusto: B entra e poi aspetta lì.",
+  "caption": "B entra e si ferma al centro"
+ },
+ "q23162": {
+  "short": "È B, non R, che si ferma al centro. R attraversa dritto dopo che B si è spostato.",
+  "rule": "Stallo: B ha la destra libera ma svolta a sinistra. B va al centro e si ferma; poi passa R, poi D e N insieme, infine B completa la svolta.",
+  "trap": "«si ferma al centro» è sbagliato per R: lo fa B.",
+  "caption": "Sbagliato: B si ferma al centro, R va dritto"
+ },
+ "q23163": {
+  "short": "R è alla destra di N, quindi N deve aspettare R. N passa dopo R, insieme a D.",
+  "rule": "Stallo: B ha la destra libera ma svolta a sinistra. B va al centro e si ferma; poi passa R, poi D e N insieme, infine B completa la svolta.",
+  "trap": "«per primo» è sbagliato: R passa prima di N.",
+  "caption": "Sbagliato: prima R, poi D e N"
+ },
+ "q23164": {
+  "short": "R è alla destra di D, quindi D deve aspettare R. D passa dopo R, insieme a N.",
+  "rule": "Stallo: B ha la destra libera ma svolta a sinistra. B va al centro e si ferma; poi passa R, poi D e N insieme, infine B completa la svolta.",
+  "trap": "«per primo» è sbagliato: R passa prima di D.",
+  "caption": "Sbagliato: prima R, poi D e N"
+ },
+ "q23165": {
+  "short": "D e B arrivano da lati opposti e svoltano entrambi a sinistra: nessuno dà la precedenza all'altro.",
+  "rule": "Stallo: B ha la destra libera ma svolta a sinistra. B va al centro e si ferma; poi passa R, poi D e N insieme, infine B completa la svolta.",
+  "trap": "«deve dare la precedenza» è sbagliato: D e B non si danno la precedenza.",
+  "caption": "D e B svoltano a sinistra: nessuna precedenza"
+ },
+ "q23166": {
+  "short": "B e D arrivano da lati opposti e svoltano entrambi a sinistra: nessuno dà la precedenza all'altro.",
+  "rule": "Stallo: B ha la destra libera ma svolta a sinistra. B va al centro e si ferma; poi passa R, poi D e N insieme, infine B completa la svolta.",
+  "trap": "«deve dare la precedenza» è sbagliato: B aspetta N, non D.",
+  "caption": "B e D svoltano a sinistra: nessuna precedenza"
+ },
+ "q23167": {
+  "short": "R passa subito dopo che B si è spostato al centro, prima di D e N. B finisce per ultimo.",
+  "rule": "Stallo: B ha la destra libera ma svolta a sinistra. B va al centro e si ferma; poi passa R, poi D e N insieme, infine B completa la svolta.",
+  "trap": "«per ultimo» è sbagliato: R è il primo ad attraversare.",
+  "caption": "Sbagliato: R attraversa primo; B finisce ultimo"
+ },
+ "q23168": {
+  "short": "C ha la destra libera e passa primo; A aveva C a destra; P aveva A a destra.",
+  "rule": "Precedenza a destra. C non ha nessuno a destra: passa primo. A aveva C a destra: secondo. P aveva A a destra: ultimo.",
+  "trap": "«nel seguente ordine»: C, A, P è giusto.",
+  "caption": "Ordine giusto: C, A, P"
+ },
+ "q23169": {
+  "short": "C è alla destra di A, quindi A dà la precedenza a C.",
+  "rule": "Precedenza a destra. C non ha nessuno a destra: passa primo. A aveva C a destra: secondo. P aveva A a destra: ultimo.",
+  "trap": "«dopo il veicolo C» è giusto: C è alla destra di A.",
+  "caption": "C è a destra di A: A passa dopo C"
+ },
+ "q23170": {
+  "short": "P ha A alla sua destra, e A aspetta C. Quindi P è ultimo.",
+  "rule": "Precedenza a destra. C non ha nessuno a destra: passa primo. A aveva C a destra: secondo. P aveva A a destra: ultimo.",
+  "trap": "«per ultimo» è giusto: la destra di P non è libera.",
+  "caption": "P è ultimo: A è alla sua destra"
+ },
+ "q23171": {
+  "short": "P non può passare primo: A è alla sua destra. L'ordine giusto è C, A, P.",
+  "rule": "Precedenza a destra. C non ha nessuno a destra: passa primo. A aveva C a destra: secondo. P aveva A a destra: ultimo.",
+  "trap": "«nel seguente ordine»: P è spostato da ultimo a primo.",
+  "caption": "Sbagliato: P è ultimo. Ordine: C, A, P"
+ },
+ "q23172": {
+  "short": "C passa primo e P passa ultimo. P non passa prima di C.",
+  "rule": "Precedenza a destra. C non ha nessuno a destra: passa primo. A aveva C a destra: secondo. P aveva A a destra: ultimo.",
+  "trap": "«prima del veicolo C» è sbagliato: C è primo, P è ultimo.",
+  "caption": "Sbagliato: C primo, P ultimo"
+ },
+ "q23173": {
+  "short": "La destra di P non è libera: A è alla sua destra. P passa ultimo.",
+  "rule": "Precedenza a destra. C non ha nessuno a destra: passa primo. A aveva C a destra: secondo. P aveva A a destra: ultimo.",
+  "trap": "«ha la destra libera» è sbagliato: A è alla destra di P.",
+  "caption": "Sbagliato: A è a destra di P. P è ultimo"
+ },
+ "q23174": {
+  "short": "S ha la destra libera e passa primo; N aveva S a destra; C aveva N a destra.",
+  "rule": "Precedenza a destra. S ha la destra libera: passa primo. N aveva S a destra: secondo. C aveva N a destra: ultimo.",
+  "trap": "«nel seguente ordine»: S, N, C è giusto.",
+  "caption": "Ordine giusto: S, N, C"
+ },
+ "q23175": {
+  "short": "C ha N alla sua destra, e N aspetta S. Quindi C è ultimo.",
+  "rule": "Precedenza a destra. S ha la destra libera: passa primo. N aveva S a destra: secondo. C aveva N a destra: ultimo.",
+  "trap": "«per ultimo» è giusto: N è alla destra di C.",
+  "caption": "C è ultimo: N è alla sua destra"
+ },
+ "q23176": {
+  "short": "S è alla destra di N, quindi N aspetta S. N è alla destra di C, quindi C aspetta N.",
+  "rule": "Precedenza a destra. S ha la destra libera: passa primo. N aveva S a destra: secondo. C aveva N a destra: ultimo.",
+  "trap": "«dopo... e prima»: tutte e due le parti sono giuste.",
+  "caption": "N è secondo: dopo S, prima di C"
+ },
+ "q23177": {
+  "short": "È l'ordine al contrario. L'ordine giusto è S, N, C.",
+  "rule": "Precedenza a destra. S ha la destra libera: passa primo. N aveva S a destra: secondo. C aveva N a destra: ultimo.",
+  "trap": "«nel seguente ordine»: è l'ordine giusto rovesciato.",
+  "caption": "Sbagliato: al contrario. Ordine: S, N, C"
+ },
+ "q23178": {
+  "short": "N passa dopo S, ma prima di C: N è alla destra di C.",
+  "rule": "Precedenza a destra. S ha la destra libera: passa primo. N aveva S a destra: secondo. C aveva N a destra: ultimo.",
+  "trap": "«dopo il veicolo C» è la parte sbagliata: C aspetta N.",
+  "caption": "Sbagliato: N prima di C. Ordine: S, N, C"
+ },
+ "q23179": {
+  "short": "C ha N alla sua destra e deve aspettare. C passa ultimo.",
+  "rule": "Precedenza a destra. S ha la destra libera: passa primo. N aveva S a destra: secondo. C aveva N a destra: ultimo.",
+  "trap": "«per primo» è sbagliato: C è ultimo.",
+  "caption": "Sbagliato: C è ultimo. Ordine: S, N, C"
+ }
+}

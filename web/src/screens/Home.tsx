@@ -5,7 +5,6 @@ import { voiceInfo } from '../lib/speech.js'
 import { store } from '../lib/store.js'
 import { Giulia } from '../components/Giulia'
 import { Ring } from '../components/Ring'
-import type { Chapter } from '../util'
 
 
 interface IndexCh { id: string; n: number; titleIt: string; titleEn: string; count: number }
@@ -20,15 +19,16 @@ export default function Home() {
   useEffect(() => {
     let live = true
     ;(async () => {
-      const [idx, rd] = await Promise.all([data.index(), data.ready()])
+      // progress per chapter from the small question index (never download every chapter here)
+      const [idx, rd, qb] = await Promise.all([data.index(), data.ready(), data.qbank()])
+      const ids: Record<string, string[]> = {}
+      for (const [id, ch] of (qb as { q: [string, string][] }).q) (ids[ch] = ids[ch] || []).push(id)
       const st: Record<string, Stats> = {}
-      for (const id of rd.chapters) {
-        const ch = (await data.chapter(id)) as Chapter
-        st[id] = store.chapterStats(ch.questions.map(q => q.id)) as Stats
-      }
-      const vi = await voiceInfo()
+      for (const id of rd.chapters) st[id] = store.chapterStats(ids[id] || []) as Stats
       if (!live) return
-      setIndex(idx); setReady(new Set(rd.chapters)); setStats(st); setNoVoice(!vi.supported || !vi.it)
+      setIndex(idx); setReady(new Set(rd.chapters)); setStats(st)
+      const vi = await voiceInfo()
+      if (live) setNoVoice(!vi.supported || !vi.it)
     })()
     return () => { live = false }
   }, [])

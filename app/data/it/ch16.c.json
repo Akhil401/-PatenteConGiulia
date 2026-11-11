@@ -1,0 +1,723 @@
+{
+ "q23738": {
+  "short": "Un'auto ferma in curva si vede troppo tardi. Fuori città e sulle strade di scorrimento il traffico è veloce: è vietato anche vicino alla curva.",
+  "rule": "Fermata e sosta sono vietate in curva, davanti a cartelli o semafori (se li coprono), sulle frecce di preselezione e agli incroci. Fuori città anche VICINO a curve e incroci.",
+  "trap": "«anche in loro prossimità»: il divieto vale anche prima e dopo la curva.",
+  "caption": "Niente fermata né sosta in curva o vicino",
+  "lines": [
+   "Auto ferma in curva fuori città",
+   "Gli altri la vedono tardi",
+   "Fermata e sosta: vietate"
+  ]
+ },
+ "q23739": {
+  "short": "Un veicolo fermo non deve mai coprire un cartello: gli altri devono vederlo. Vale anche per una fermata breve.",
+  "rule": "Fermata e sosta sono vietate in curva, davanti a cartelli o semafori (se li coprono), sulle frecce di preselezione e agli incroci. Fuori città anche VICINO a curve e incroci.",
+  "trap": "«in modo da occultarne la vista»: il divieto riguarda il cartello coperto.",
+  "caption": "Mai coprire un cartello, neanche per una fermata",
+  "lines": [
+   "Furgone fermo davanti a un cartello",
+   "Gli altri non vedono il cartello",
+   "Fermata e sosta: vietate"
+  ]
+ },
+ "q23740": {
+  "short": "Un veicolo fermo non deve mai coprire un semaforo: chi arriva deve vederlo. Vale anche per una fermata breve.",
+  "rule": "Fermata e sosta sono vietate in curva, davanti a cartelli o semafori (se li coprono), sulle frecce di preselezione e agli incroci. Fuori città anche VICINO a curve e incroci.",
+  "trap": "«in modo da occultarne la vista»: il divieto riguarda il semaforo coperto.",
+  "caption": "Mai coprire un semaforo, neanche per una fermata",
+  "lines": [
+   "Auto ferma davanti al semaforo",
+   "Il semaforo è coperto",
+   "Fermata e sosta: vietate"
+  ]
+ },
+ "q23741": {
+  "short": "Prima dell'incrocio le frecce sulla strada mandano ogni auto nella corsia giusta. Un'auto ferma lì blocca la corsia.",
+  "rule": "Fermata e sosta sono vietate in curva, davanti a cartelli o semafori (se li coprono), sulle frecce di preselezione e agli incroci. Fuori città anche VICINO a curve e incroci.",
+  "trap": "«segnali orizzontali di preselezione»: le frecce dipinte sulle corsie prima dell'incrocio.",
+  "caption": "Niente fermata sulle frecce prima dell'incrocio",
+  "lines": [
+   "Frecce sulle corsie prima dell'incrocio",
+   "Un'auto ferma blocca la corsia",
+   "Fermata e sosta: vietate"
+  ]
+ },
+ "q23742": {
+  "short": "Un'auto ferma sull'incrocio o vicino copre la vista e blocca chi svolta. Per questo fermata e sosta sono vietate.",
+  "rule": "Fermata e sosta sono vietate in curva, davanti a cartelli o semafori (se li coprono), sulle frecce di preselezione e agli incroci. Fuori città anche VICINO a curve e incroci.",
+  "trap": "«in corrispondenza e in prossimità»: il divieto vale sull'incrocio e anche vicino.",
+  "caption": "Niente fermata né sosta sull'incrocio o vicino",
+  "lines": [
+   "Incrocio su strada fuori città",
+   "Auto ferma vicino all'angolo",
+   "Fermata e sosta: vietate"
+  ]
+ },
+ "q23743": {
+  "short": "È il contrario: fuori città e sulle strade di scorrimento il divieto vale anche VICINO alla curva, perché il traffico è veloce.",
+  "rule": "Fermata e sosta sono vietate in curva, davanti a cartelli o semafori (se li coprono), sulle frecce di preselezione e agli incroci. Fuori città anche VICINO a curve e incroci.",
+  "trap": "«non è vietata in loro prossimità» rovescia la regola vera.",
+  "caption": "Fuori città: vietata la sosta anche vicino alla curva",
+  "lines": [
+   "Auto in sosta poco prima di una curva",
+   "Fuori città il traffico è veloce",
+   "Vietato anche vicino alla curva"
+  ]
+ },
+ "q23744": {
+  "short": "Un semaforo coperto anche per un momento è pericoloso. Quindi sono vietate sia la sosta sia la fermata.",
+  "rule": "Fermata e sosta sono vietate in curva, davanti a cartelli o semafori (se li coprono), sulle frecce di preselezione e agli incroci. Fuori città anche VICINO a curve e incroci.",
+  "trap": "«ma non la fermata» è sbagliato: è vietata anche la fermata breve.",
+  "caption": "Anche una fermata breve non deve coprire il semaforo",
+  "lines": [
+   "Auto ferma un attimo davanti al semaforo",
+   "Il semaforo è coperto",
+   "Vietata anche la fermata"
+  ]
+ },
+ "q23745": {
+  "short": "Le corsie di canalizzazione guidano il traffico verso l'incrocio, come le frecce. Un'auto lì blocca la corsia: è vietato anche lì.",
+  "rule": "Fermata e sosta sono vietate in curva, davanti a cartelli o semafori (se li coprono), sulle frecce di preselezione e agli incroci. Fuori città anche VICINO a curve e incroci.",
+  "trap": "«ma non lungo le corsie di canalizzazione» è sbagliato: anche quelle corsie sono incluse.",
+  "caption": "Vietata la sosta anche lungo le corsie di canalizzazione",
+  "lines": [
+   "Corsie di canalizzazione prima dell'incrocio",
+   "Auto in sosta lungo la corsia",
+   "Vietato anche lì"
+  ]
+ },
+ "q23746": {
+  "short": "Fuori città il traffico è veloce e un'auto vicino all'incrocio copre la vista. Il divieto vale anche vicino all'incrocio.",
+  "rule": "Fermata e sosta sono vietate in curva, davanti a cartelli o semafori (se li coprono), sulle frecce di preselezione e agli incroci. Fuori città anche VICINO a curve e incroci.",
+  "trap": "«ma non in loro prossimità» è sbagliato: è vietato anche vicino.",
+  "caption": "Fuori città: niente sosta neanche vicino all'incrocio",
+  "lines": [
+   "Incrocio su strada fuori città",
+   "Auto in sosta poco prima",
+   "Vietato anche vicino all'incrocio"
+  ]
+ },
+ "q23747": {
+  "short": "Un passo carrabile deve restare libero: chi abita lì deve poter entrare e uscire sempre.",
+  "rule": "La sosta è vietata davanti ai passi carrabili. Fermata e sosta sono vietate su strisce pedonali, piste ciclabili e loro uscite, marciapiedi, anche per poco.",
+  "trap": "«sbocco dei passi carrabili»: il punto dove il passo carrabile esce sulla strada.",
+  "caption": "Mai sosta davanti a un passo carrabile",
+  "lines": [
+   "Passo carrabile tra le case",
+   "Un'auto in sosta lo blocca",
+   "Sosta: vietata"
+  ]
+ },
+ "q23748": {
+  "short": "Sulle strisce pedonali è vietata anche la fermata breve: l'auto blocca i pedoni e li nasconde agli altri.",
+  "rule": "La sosta è vietata davanti ai passi carrabili. Fermata e sosta sono vietate su strisce pedonali, piste ciclabili e loro uscite, marciapiedi, anche per poco.",
+  "trap": "«ma non la fermata» è sbagliato: anche la fermata è vietata.",
+  "caption": "Niente fermata sulle strisce, neanche breve",
+  "lines": [
+   "Auto ferma sulle strisce pedonali",
+   "I pedoni non attraversano sicuri",
+   "Fermata e sosta: vietate"
+  ]
+ },
+ "q23749": {
+  "short": "Dove la pista ciclabile esce sulla strada, i ciclisti devono passare. La sosta lì è vietata, anche breve.",
+  "rule": "La sosta è vietata davanti ai passi carrabili. Fermata e sosta sono vietate su strisce pedonali, piste ciclabili e loro uscite, marciapiedi, anche per poco.",
+  "trap": "«nel caso sia di breve durata»: il poco tempo non la rende permessa.",
+  "caption": "Niente sosta all'uscita della pista ciclabile",
+  "lines": [
+   "Auto all'uscita di una pista ciclabile",
+   "I ciclisti non possono uscire",
+   "Vietato, anche per poco"
+  ]
+ },
+ "q23750": {
+  "short": "Il marciapiede è per i pedoni. La sosta lì è vietata (salvo un cartello che la permette), anche se breve.",
+  "rule": "La sosta è vietata davanti ai passi carrabili. Fermata e sosta sono vietate su strisce pedonali, piste ciclabili e loro uscite, marciapiedi, anche per poco.",
+  "trap": "«solo se di breve durata»: la durata non conta.",
+  "caption": "Niente sosta sul marciapiede, breve o lunga",
+  "lines": [
+   "Auto con due ruote sul marciapiede",
+   "I pedoni devono andare in strada",
+   "Vietato, breve o lungo"
+  ]
+ },
+ "q23751": {
+  "short": "Se la tua auto blocca un'auto in sosta regolare, il suo conducente non può salire o partire. Lì non puoi sostare.",
+  "rule": "La sosta è vietata se blocca veicoli in sosta, in doppia fila (tranne due ruote), alle fermate di bus e tram, e a meno di 15 metri da un cartello di fermata senza strisce.",
+  "trap": "«già regolarmente in sosta»: l'altra auto ha il diritto di andare via.",
+  "caption": "Non bloccare un'auto in sosta regolare",
+  "lines": [
+   "Auto in sosta attaccata a un'altra",
+   "L'altro conducente non può salire",
+   "Sosta: vietata"
+  ]
+ },
+ "q23752": {
+  "short": "Le auto in sosta devono poter partire. Se la tua auto non le fa uscire, lì non puoi sostare.",
+  "rule": "La sosta è vietata se blocca veicoli in sosta, in doppia fila (tranne due ruote), alle fermate di bus e tram, e a meno di 15 metri da un cartello di fermata senza strisce.",
+  "trap": "«dovunque»: il divieto vale in ogni posto dove blocchi altri veicoli in sosta.",
+  "caption": "Non sostare dove blocchi chi deve uscire",
+  "lines": [
+   "Auto in sosta in una via in città",
+   "La tua auto le chiude dentro",
+   "Sosta: vietata"
+  ]
+ },
+ "q23753": {
+  "short": "Un'auto in seconda fila stringe la strada e chiude le auto in sosta. Fanno eccezione solo i veicoli a due ruote.",
+  "rule": "La sosta è vietata se blocca veicoli in sosta, in doppia fila (tranne due ruote), alle fermate di bus e tram, e a meno di 15 metri da un cartello di fermata senza strisce.",
+  "trap": "«salvo che si tratti di veicoli a due ruote»: è l'unica eccezione.",
+  "caption": "Niente doppia fila (tranne i due ruote)",
+  "lines": [
+   "Auto in sosta in doppia fila",
+   "Stringe la strada",
+   "Vietato, tranne i due ruote"
+  ]
+ },
+ "q23754": {
+  "short": "La fermata del bus deve restare libera: bus e tram si fermano vicino al marciapiede e i passeggeri salgono sicuri.",
+  "rule": "La sosta è vietata se blocca veicoli in sosta, in doppia fila (tranne due ruote), alle fermate di bus e tram, e a meno di 15 metri da un cartello di fermata senza strisce.",
+  "trap": "«veicoli circolanti su rotaia»: veicoli che vanno sui binari, come il tram.",
+  "caption": "Fermate di bus e tram sempre libere",
+  "lines": [
+   "Auto in sosta alla fermata del bus",
+   "Il bus non arriva alla fermata",
+   "Sosta: vietata"
+  ]
+ },
+ "q23755": {
+  "short": "Se lo spazio della fermata non è segnato sulla strada, vale la legge: niente sosta a meno di 15 metri dal cartello.",
+  "rule": "La sosta è vietata se blocca veicoli in sosta, in doppia fila (tranne due ruote), alle fermate di bus e tram, e a meno di 15 metri da un cartello di fermata senza strisce.",
+  "trap": "«qualora ... non siano delimitati»: i 15 metri valgono quando non ci sono strisce.",
+  "caption": "Niente sosta a meno di 15 m dalla fermata",
+  "lines": [
+   "Cartello di fermata bus, senza strisce",
+   "Auto in sosta vicino al cartello",
+   "Meno di 15 m: vietato"
+  ]
+ },
+ "q23756": {
+  "short": "La doppia fila è vietata per le auto. Le quattro frecce non la rendono permessa, neanche per pochi minuti.",
+  "rule": "La sosta è vietata se blocca veicoli in sosta, in doppia fila (tranne due ruote), alle fermate di bus e tram, e a meno di 15 metri da un cartello di fermata senza strisce.",
+  "trap": "«azionando le luci di emergenza»: è una scusa comune, non un permesso.",
+  "caption": "Le quattro frecce non permettono la doppia fila",
+  "lines": [
+   "Auto in doppia fila con quattro frecce",
+   "Solo per pochi minuti",
+   "Comunque vietato"
+  ]
+ },
+ "q23757": {
+  "short": "La doppia fila delle auto è vietata anche su una strada larga. Chiude comunque le auto in sosta accanto.",
+  "rule": "La sosta è vietata se blocca veicoli in sosta, in doppia fila (tranne due ruote), alle fermate di bus e tram, e a meno di 15 metri da un cartello di fermata senza strisce.",
+  "trap": "«purché rimanga spazio sufficiente» è una condizione inventata.",
+  "caption": "Doppia fila vietata, anche su strada larga",
+  "lines": [
+   "Strada larga, auto in doppia fila",
+   "Due file restano libere",
+   "Comunque vietato"
+  ]
+ },
+ "q23758": {
+  "short": "Un bus o un tram può arrivare in ogni momento. La sosta alla fermata è vietata, anche breve.",
+  "rule": "La sosta è vietata se blocca veicoli in sosta, in doppia fila (tranne due ruote), alle fermate di bus e tram, e a meno di 15 metri da un cartello di fermata senza strisce.",
+  "trap": "«purché sia di breve durata»: il poco tempo non la rende permessa.",
+  "caption": "Niente sosta alla fermata del bus, neanche breve",
+  "lines": [
+   "Auto in sosta alla fermata del bus",
+   "Solo per poco tempo",
+   "Comunque vietato"
+  ]
+ },
+ "q23759": {
+  "short": "Gli spazi dei taxi devono restare liberi per i taxi che aspettano i clienti. Gli altri non possono sostare lì.",
+  "rule": "La sosta è vietata negli spazi taxi, mercato e carico/scarico (nelle ore stabilite), sulle banchine salvo cartelli, negli spazi invalidi e davanti ai loro scivoli. Anche se breve.",
+  "trap": "«veicoli in servizio di piazza» è il nome ufficiale dei taxi.",
+  "caption": "Spazio taxi: sosta vietata alle altre auto",
+  "lines": [
+   "Posteggio taxi in piazza",
+   "Un'auto privata sosta lì",
+   "Sosta: vietata"
+  ]
+ },
+ "q23760": {
+  "short": "Nelle ore stabilite queste aree servono al mercato o ai furgoni che caricano merci. La sosta lì blocca il loro lavoro.",
+  "rule": "La sosta è vietata negli spazi taxi, mercato e carico/scarico (nelle ore stabilite), sulle banchine salvo cartelli, negli spazi invalidi e davanti ai loro scivoli. Anche se breve.",
+  "trap": "«nelle ore stabilite»: il divieto vale negli orari indicati dal cartello.",
+  "caption": "Mercato e carico/scarico: sosta vietata negli orari",
+  "lines": [
+   "Area di carico in una via",
+   "Auto in sosta negli orari stabiliti",
+   "Sosta: vietata"
+  ]
+ },
+ "q23761": {
+  "short": "La banchina è la striscia a lato della carreggiata. Puoi sostare lì solo se un cartello lo permette.",
+  "rule": "La sosta è vietata negli spazi taxi, mercato e carico/scarico (nelle ore stabilite), sulle banchine salvo cartelli, negli spazi invalidi e davanti ai loro scivoli. Anche se breve.",
+  "trap": "«salvo diversa segnalazione»: un cartello può permetterla.",
+  "caption": "Banchina: sosta vietata, salvo cartelli"
+ },
+ "q23762": {
+  "short": "Questi spazi sono per le persone invalide, che devono sostare vicino. Gli altri non li devono mai usare.",
+  "rule": "La sosta è vietata negli spazi taxi, mercato e carico/scarico (nelle ore stabilite), sulle banchine salvo cartelli, negli spazi invalidi e davanti ai loro scivoli. Anche se breve.",
+  "trap": "«veicoli per persone invalide»: veicoli al servizio di persone con disabilità (con il contrassegno).",
+  "caption": "Spazi per invalidi: sosta vietata agli altri",
+  "lines": [
+   "Spazio per persone invalide",
+   "Auto senza contrassegno in sosta",
+   "Sosta: vietata"
+  ]
+ },
+ "q23763": {
+  "short": "Lo scivolo permette alla carrozzina di passare dal marciapiede alla strada. Un'auto davanti lo blocca.",
+  "rule": "La sosta è vietata negli spazi taxi, mercato e carico/scarico (nelle ore stabilite), sulle banchine salvo cartelli, negli spazi invalidi e davanti ai loro scivoli. Anche se breve.",
+  "trap": "«scivoli o raccordi»: le piccole rampe tra marciapiede e strada.",
+  "caption": "Mai bloccare uno scivolo per invalidi",
+  "lines": [
+   "Scivolo tra marciapiede e strada",
+   "Auto in sosta davanti",
+   "Carrozzina bloccata: vietato"
+  ]
+ },
+ "q23764": {
+  "short": "Gli spazi taxi sono solo per i taxi. Le altre auto non possono sostare lì, né poco né tanto.",
+  "rule": "La sosta è vietata negli spazi taxi, mercato e carico/scarico (nelle ore stabilite), sulle banchine salvo cartelli, negli spazi invalidi e davanti ai loro scivoli. Anche se breve.",
+  "trap": "«solo se non si protrae per lungo tempo»: la durata non conta.",
+  "caption": "Spazi taxi: sosta vietata, anche breve",
+  "lines": [
+   "Auto in sosta al posteggio taxi",
+   "Solo per poco tempo",
+   "Comunque vietato"
+  ]
+ },
+ "q23765": {
+  "short": "Negli orari stabiliti l'area di carico è solo per chi carica o scarica merci. La sosta è vietata, anche breve.",
+  "rule": "La sosta è vietata negli spazi taxi, mercato e carico/scarico (nelle ore stabilite), sulle banchine salvo cartelli, negli spazi invalidi e davanti ai loro scivoli. Anche se breve.",
+  "trap": "«soltanto se di breve durata»: il poco tempo non la rende permessa.",
+  "caption": "Area di carico negli orari: sosta sempre vietata",
+  "lines": [
+   "Area di carico negli orari stabiliti",
+   "Auto in sosta per poco",
+   "Comunque vietato"
+  ]
+ },
+ "q23766": {
+  "short": "Gli spazi per invalidi sono solo per i veicoli delle persone invalide. Gli altri non sostano lì, neanche per poco.",
+  "rule": "La sosta è vietata negli spazi taxi, mercato e carico/scarico (nelle ore stabilite), sulle banchine salvo cartelli, negli spazi invalidi e davanti ai loro scivoli. Anche se breve.",
+  "trap": "«purché di breve durata»: il poco tempo non la rende permessa.",
+  "caption": "Spazi invalidi: sosta vietata, anche breve",
+  "lines": [
+   "Auto in sosta nello spazio invalidi",
+   "Solo per poco tempo",
+   "Comunque vietato"
+  ]
+ },
+ "q23767": {
+  "short": "Le corsie dei bus devono restare libere per far passare bus e taxi. Un'auto in sosta blocca tutta la corsia.",
+  "rule": "La sosta è vietata nelle corsie dei mezzi pubblici, aree pedonali, ZTL senza permesso, spazi di emergenza/igiene e davanti ai cassonetti. Lì la fermata breve è permessa.",
+  "trap": "«mezzi pubblici»: i mezzi di trasporto pubblico (bus, tram, taxi).",
+  "caption": "Niente sosta nella corsia dei bus",
+  "lines": [
+   "Corsia dei bus in città",
+   "Auto in sosta nella corsia",
+   "Sosta: vietata"
+  ]
+ },
+ "q23768": {
+  "short": "Un'area pedonale in città è solo per chi va a piedi. I veicoli non possono sostare lì.",
+  "rule": "La sosta è vietata nelle corsie dei mezzi pubblici, aree pedonali, ZTL senza permesso, spazi di emergenza/igiene e davanti ai cassonetti. Lì la fermata breve è permessa.",
+  "trap": "«aree pedonali urbane»: zone della città chiuse al traffico, per i pedoni.",
+  "caption": "Niente sosta nell'area pedonale",
+  "lines": [
+   "Area pedonale in città",
+   "Solo persone a piedi",
+   "Sosta: vietata"
+  ]
+ },
+ "q23769": {
+  "short": "Nella zona a traffico limitato (ZTL) solo i veicoli con permesso possono entrare e sostare. Senza permesso è vietato.",
+  "rule": "La sosta è vietata nelle corsie dei mezzi pubblici, aree pedonali, ZTL senza permesso, spazi di emergenza/igiene e davanti ai cassonetti. Lì la fermata breve è permessa.",
+  "trap": "«per i veicoli non autorizzati»: il divieto è per chi non ha il permesso.",
+  "caption": "ZTL: sosta vietata senza permesso",
+  "lines": [
+   "Zona a traffico limitato in città",
+   "Auto senza permesso",
+   "Sosta: vietata"
+  ]
+ },
+ "q23770": {
+  "short": "Questi spazi devono restare liberi per ambulanze, pompieri o mezzi della pulizia. Un'auto in sosta li blocca.",
+  "rule": "La sosta è vietata nelle corsie dei mezzi pubblici, aree pedonali, ZTL senza permesso, spazi di emergenza/igiene e davanti ai cassonetti. Lì la fermata breve è permessa.",
+  "trap": "«igiene pubblica»: servizi come pulizia delle strade e raccolta dei rifiuti.",
+  "caption": "Spazi emergenza e pulizia: sosta vietata",
+  "lines": [
+   "Spazio per i servizi di emergenza",
+   "Auto in sosta lì",
+   "Sosta: vietata"
+  ]
+ },
+ "q23771": {
+  "short": "Il camion dei rifiuti deve arrivare ai cassonetti per svuotarli. Un'auto in sosta davanti lo blocca.",
+  "rule": "La sosta è vietata nelle corsie dei mezzi pubblici, aree pedonali, ZTL senza permesso, spazi di emergenza/igiene e davanti ai cassonetti. Lì la fermata breve è permessa.",
+  "trap": "«cassonetti dei rifiuti urbani»: i grandi contenitori dei rifiuti in strada.",
+  "caption": "Niente sosta davanti ai cassonetti",
+  "lines": [
+   "Cassonetti a lato della strada",
+   "Auto in sosta davanti",
+   "Il camion non può lavorare"
+  ]
+ },
+ "q23772": {
+  "short": "L'area pedonale è solo per chi va a piedi. La sosta è vietata, anche per poco tempo.",
+  "rule": "La sosta è vietata nelle corsie dei mezzi pubblici, aree pedonali, ZTL senza permesso, spazi di emergenza/igiene e davanti ai cassonetti. Lì la fermata breve è permessa.",
+  "trap": "«Brevi soste»: il poco tempo non la rende permessa.",
+  "caption": "Area pedonale: sosta vietata, anche breve",
+  "lines": [
+   "Auto in un'area pedonale",
+   "Solo per poco tempo",
+   "Comunque vietato"
+  ]
+ },
+ "q23773": {
+  "short": "In questi spazi è vietata solo la sosta. Una fermata breve per far salire o scendere qualcuno è permessa.",
+  "rule": "La sosta è vietata nelle corsie dei mezzi pubblici, aree pedonali, ZTL senza permesso, spazi di emergenza/igiene e davanti ai cassonetti. Lì la fermata breve è permessa.",
+  "trap": "«ed anche la fermata» è sbagliato: qui è vietata solo la sosta.",
+  "caption": "Qui è vietata solo la sosta; la fermata è permessa",
+  "lines": [
+   "Spazio per i servizi di emergenza",
+   "Fermata per far scendere: OK",
+   "Sosta: vietata"
+  ]
+ },
+ "q23774": {
+  "short": "Davanti ai cassonetti è vietata solo la sosta. Una fermata breve per far salire o scendere qualcuno è permessa.",
+  "rule": "La sosta è vietata nelle corsie dei mezzi pubblici, aree pedonali, ZTL senza permesso, spazi di emergenza/igiene e davanti ai cassonetti. Lì la fermata breve è permessa.",
+  "trap": "«così come la fermata» è sbagliato: qui è vietata solo la sosta.",
+  "caption": "Ai cassonetti è vietata solo la sosta",
+  "lines": [
+   "Cassonetti a lato della strada",
+   "Fermata per far scendere: OK",
+   "Sosta: vietata"
+  ]
+ },
+ "q23776": {
+  "short": "Un rimorchio lasciato da solo in una via occupa spazio e può essere pericoloso. È vietato, salvo cartelli.",
+  "rule": "Un divieto di sosta scritto nel codice vale anche senza cartelli. In città non si lascia un rimorchio staccato, salvo cartelli.",
+  "trap": "«salvo diversa segnalazione»: solo un cartello può permetterlo.",
+  "caption": "In città: niente rimorchio staccato in sosta",
+  "lines": [
+   "Rimorchio staccato in una via",
+   "Lasciato senza la motrice",
+   "Vietato, salvo cartelli"
+  ]
+ },
+ "q23777": {
+  "short": "I divieti scritti nel codice (curve, strisce, fermate dei bus...) valgono sempre. Non serve un cartello.",
+  "rule": "Un divieto di sosta scritto nel codice vale anche senza cartelli. In città non si lascia un rimorchio staccato, salvo cartelli.",
+  "trap": "«non è condizionata dalla presenza di cartelli»: basta il codice.",
+  "caption": "I divieti del codice valgono anche senza cartelli",
+  "lines": [
+   "Divieto di sosta scritto nel codice",
+   "Nessun cartello sulla strada",
+   "Il divieto vale lo stesso"
+  ]
+ },
+ "q23778": {
+  "short": "Il codice non vieta la sosta 5 metri prima e dopo un distributore chiuso. Puoi sostare se nessun'altra regola o cartello lo vieta.",
+  "rule": "Un divieto di sosta scritto nel codice vale anche senza cartelli. In città non si lascia un rimorchio staccato, salvo cartelli.",
+  "trap": "«anche quando i distributori sono chiusi»: questo divieto non esiste.",
+  "caption": "Distributore chiuso: nessun divieto di 5 m",
+  "lines": [
+   "Distributore chiuso di notte",
+   "Il codice non ha questo divieto",
+   "Sosta se nessun cartello la vieta"
+  ]
+ },
+ "q23779": {
+  "short": "I divieti scritti nel codice valgono sempre, con o senza cartelli. Devi conoscerli tu.",
+  "rule": "Un divieto di sosta scritto nel codice vale anche senza cartelli. In città non si lascia un rimorchio staccato, salvo cartelli.",
+  "trap": "«comunque condizionata dalla presenza di cartelli» è sbagliato: basta il codice.",
+  "caption": "I divieti del codice valgono anche senza cartelli",
+  "lines": [
+   "Divieto di sosta scritto nel codice",
+   "Nessun cartello sulla strada",
+   "Il divieto vale lo stesso"
+  ]
+ },
+ "q23780": {
+  "short": "Bloccare una fermata di bus o tram è un'infrazione grave. Oltre alla multa, perdi punti della patente.",
+  "rule": "Queste soste (fermate bus/tram, spazi e scivoli invalidi, corsie dei mezzi pubblici) costano multa e punti. Disco orario, quattro frecce o orari non le rendono permesse.",
+  "trap": "«tra l'altro»: la multa non è l'unica sanzione.",
+  "caption": "Sosta alla fermata bus: multa e punti",
+  "lines": [
+   "Auto in sosta alla fermata bus",
+   "Multa da pagare",
+   "Punti tolti dalla patente"
+  ]
+ },
+ "q23781": {
+  "short": "Vicino a una fermata senza strisce, i 15 metri sono per il bus. La sosta lì costa multa e punti.",
+  "rule": "Queste soste (fermate bus/tram, spazi e scivoli invalidi, corsie dei mezzi pubblici) costano multa e punti. Disco orario, quattro frecce o orari non le rendono permesse.",
+  "trap": "«tra l'altro»: oltre alla multa, perdi punti.",
+  "caption": "Entro 15 m dalla fermata: multa e punti",
+  "lines": [
+   "Auto in sosta vicino al cartello bus",
+   "Meno di 15 m, senza strisce",
+   "Multa e punti della patente"
+  ]
+ },
+ "q23782": {
+  "short": "Prendere lo spazio di una persona invalida è un'infrazione grave. Oltre alla multa, perdi punti.",
+  "rule": "Queste soste (fermate bus/tram, spazi e scivoli invalidi, corsie dei mezzi pubblici) costano multa e punti. Disco orario, quattro frecce o orari non le rendono permesse.",
+  "trap": "«tra l'altro»: oltre alla multa, perdi punti.",
+  "caption": "Spazio invalidi: multa e punti",
+  "lines": [
+   "Auto in sosta nello spazio invalidi",
+   "Multa da pagare",
+   "Punti tolti dalla patente"
+  ]
+ },
+ "q23783": {
+  "short": "Bloccare uno scivolo impedisce il passaggio delle carrozzine. Oltre alla multa, perdi punti.",
+  "rule": "Queste soste (fermate bus/tram, spazi e scivoli invalidi, corsie dei mezzi pubblici) costano multa e punti. Disco orario, quattro frecce o orari non le rendono permesse.",
+  "trap": "«tra l'altro»: oltre alla multa, perdi punti.",
+  "caption": "Scivolo bloccato: multa e punti",
+  "lines": [
+   "Auto in sosta davanti allo scivolo",
+   "Multa da pagare",
+   "Punti tolti dalla patente"
+  ]
+ },
+ "q23784": {
+  "short": "Un'auto in sosta nella corsia dei bus blocca i mezzi pubblici. Oltre alla multa, perdi punti.",
+  "rule": "Queste soste (fermate bus/tram, spazi e scivoli invalidi, corsie dei mezzi pubblici) costano multa e punti. Disco orario, quattro frecce o orari non le rendono permesse.",
+  "trap": "«tra l'altro»: oltre alla multa, perdi punti.",
+  "caption": "Sosta nella corsia bus: multa e punti",
+  "lines": [
+   "Auto in sosta nella corsia bus",
+   "Multa da pagare",
+   "Punti tolti dalla patente"
+  ]
+ },
+ "q23785": {
+  "short": "Il disco orario serve solo nei parcheggi a tempo. Non rende mai permessa la sosta alla fermata del bus.",
+  "rule": "Queste soste (fermate bus/tram, spazi e scivoli invalidi, corsie dei mezzi pubblici) costano multa e punti. Disco orario, quattro frecce o orari non le rendono permesse.",
+  "trap": "«se si utilizza il disco orario»: il disco qui non cambia niente.",
+  "caption": "Il disco orario non permette la sosta alla fermata",
+  "lines": [
+   "Auto alla fermata con disco orario",
+   "Il disco non cambia niente",
+   "Vietato: multa e punti"
+  ]
+ },
+ "q23786": {
+  "short": "A meno di 15 metri da una fermata senza strisce la sosta è vietata. Le quattro frecce non la rendono mai permessa.",
+  "rule": "Queste soste (fermate bus/tram, spazi e scivoli invalidi, corsie dei mezzi pubblici) costano multa e punti. Disco orario, quattro frecce o orari non le rendono permesse.",
+  "trap": "«azionando la segnalazione luminosa di pericolo»: non è un permesso.",
+  "caption": "Le quattro frecce non permettono la sosta alla fermata",
+  "lines": [
+   "Auto vicino alla fermata, quattro frecce",
+   "Meno di 15 m dal cartello",
+   "Comunque vietato"
+  ]
+ },
+ "q23787": {
+  "short": "La sosta nello spazio invalidi costa una multa E punti della patente, non solo la multa.",
+  "rule": "Queste soste (fermate bus/tram, spazi e scivoli invalidi, corsie dei mezzi pubblici) costano multa e punti. Disco orario, quattro frecce o orari non le rendono permesse.",
+  "trap": "«ma non la sottrazione di punti» è sbagliato: perdi anche punti.",
+  "caption": "Spazio invalidi: multa E punti",
+  "lines": [
+   "Auto in sosta nello spazio invalidi",
+   "Multa da pagare",
+   "E anche punti tolti"
+  ]
+ },
+ "q23788": {
+  "short": "Bloccare uno scivolo costa una multa e punti della patente. La patente non viene sospesa.",
+  "rule": "Queste soste (fermate bus/tram, spazi e scivoli invalidi, corsie dei mezzi pubblici) costano multa e punti. Disco orario, quattro frecce o orari non le rendono permesse.",
+  "trap": "«sospensione della patente» è troppo: la sanzione è multa e punti.",
+  "caption": "Scivolo: multa e punti, non sospensione",
+  "lines": [
+   "Auto in sosta davanti allo scivolo",
+   "Multa e punti della patente",
+   "Nessuna sospensione"
+  ]
+ },
+ "q23789": {
+  "short": "Le corsie dei mezzi pubblici sono per bus e taxi a tutte le ore. La sosta è vietata, di giorno e di notte.",
+  "rule": "Queste soste (fermate bus/tram, spazi e scivoli invalidi, corsie dei mezzi pubblici) costano multa e punti. Disco orario, quattro frecce o orari non le rendono permesse.",
+  "trap": "«dalle ore 22.00 alle ore 8.00» è un orario inventato.",
+  "caption": "Corsia bus: sosta vietata, giorno e notte",
+  "lines": [
+   "Corsia bus in città di notte",
+   "Auto in sosta dopo le 22",
+   "Comunque vietato"
+  ]
+ },
+ "q23790": {
+  "short": "Se l'auto si guasta e non può andare avanti, devi fermarti. Questa è proprio la sosta di emergenza.",
+  "rule": "Sosta di emergenza = veicolo guasto, o conducente o passeggero che sta male. Fermarsi per il traffico è «arresto»; far salire o scendere persone è «fermata».",
+  "trap": "«inutilizzabile per avaria»: è uno dei due casi veri.",
+  "caption": "Guasto = sosta di emergenza",
+  "lines": [
+   "L'auto si guasta sulla strada",
+   "Non può più ripartire",
+   "Questa è sosta di emergenza"
+  ]
+ },
+ "q23791": {
+  "short": "Se il conducente o un passeggero sta male all'improvviso, devi fermarti. Questa è sosta di emergenza.",
+  "rule": "Sosta di emergenza = veicolo guasto, o conducente o passeggero che sta male. Fermarsi per il traffico è «arresto»; far salire o scendere persone è «fermata».",
+  "trap": "«malessere fisico»: è uno dei due casi veri.",
+  "caption": "Malessere = sosta di emergenza",
+  "lines": [
+   "Il conducente sta male all'improvviso",
+   "Ferma l'auto a lato",
+   "Questa è sosta di emergenza"
+  ]
+ },
+ "q23792": {
+  "short": "Fermarsi per il traffico (semaforo rosso, coda) si chiama «arresto». La sosta di emergenza è per guasto o malessere.",
+  "rule": "Sosta di emergenza = veicolo guasto, o conducente o passeggero che sta male. Fermarsi per il traffico è «arresto»; far salire o scendere persone è «fermata».",
+  "trap": "«esigenze della circolazione» è la definizione di «arresto», non di sosta di emergenza.",
+  "caption": "Fermarsi per il traffico è arresto",
+  "lines": [
+   "Auto ferma in coda al semaforo",
+   "Questo è arresto, per il traffico",
+   "Emergenza: guasto o malessere"
+  ]
+ },
+ "q23793": {
+  "short": "Fermarsi un attimo per far scendere una persona (anche invalida) è una «fermata». La sosta di emergenza è per guasto o malessere.",
+  "rule": "Sosta di emergenza = veicolo guasto, o conducente o passeggero che sta male. Fermarsi per il traffico è «arresto»; far salire o scendere persone è «fermata».",
+  "trap": "«per consentire la discesa» descrive la fermata, non la sosta di emergenza.",
+  "caption": "Far scendere qualcuno è una fermata",
+  "lines": [
+   "Auto ferma per far scendere un invalido",
+   "Questa è una fermata",
+   "Emergenza: guasto o malessere"
+  ]
+ },
+ "q23794": {
+  "short": "Fermarsi un attimo per far salire una persona (anche invalida) è una «fermata». La sosta di emergenza è per guasto o malessere.",
+  "rule": "Sosta di emergenza = veicolo guasto, o conducente o passeggero che sta male. Fermarsi per il traffico è «arresto»; far salire o scendere persone è «fermata».",
+  "trap": "«di salire sul veicolo» descrive la fermata, non la sosta di emergenza.",
+  "caption": "Far salire qualcuno è una fermata",
+  "lines": [
+   "Auto ferma per far salire un invalido",
+   "Questa è una fermata",
+   "Emergenza: guasto o malessere"
+  ]
+ },
+ "q23795": {
+  "short": "Una porta aperta può colpire un ciclista, un'auto o un pedone. Quindi controlli prima e apri solo se è sicuro.",
+  "rule": "Apri la porta o scendi solo dopo aver controllato, anche con lo specchietto, che non arrivi nessuno. Lascia l'auto con motore spento e freno a mano tirato.",
+  "trap": "«bisogna assicurarsi»: controllare prima di aprire è obbligatorio.",
+  "caption": "Controlla prima di aprire la porta",
+  "lines": [
+   "Auto in sosta, porta da aprire",
+   "Controlla bici e auto dietro",
+   "Apri solo se è sicuro"
+  ]
+ },
+ "q23796": {
+  "short": "Dal lato della strada auto e bici passano vicino alla porta. Guarda (anche con lo specchietto) prima di aprire.",
+  "rule": "Apri la porta o scendi solo dopo aver controllato, anche con lo specchietto, che non arrivi nessuno. Lascia l'auto con motore spento e freno a mano tirato.",
+  "trap": "«verso il centro della strada»: il lato dove passa il traffico.",
+  "caption": "Porta lato strada: controlla il traffico",
+  "lines": [
+   "Porta dal lato del traffico",
+   "Controlla che non arrivi nessuno",
+   "Poi apri con attenzione"
+  ]
+ },
+ "q23797": {
+  "short": "Dal lato del marciapiede le persone camminano vicino all'auto. Una porta aperta di colpo può colpirle: controlla prima.",
+  "rule": "Apri la porta o scendi solo dopo aver controllato, anche con lo specchietto, che non arrivi nessuno. Lascia l'auto con motore spento e freno a mano tirato.",
+  "trap": "«verso il marciapiede»: da questo lato guardi i pedoni.",
+  "caption": "Porta lato marciapiede: guarda i pedoni",
+  "lines": [
+   "Porta dal lato del marciapiede",
+   "Controlla che non arrivino pedoni",
+   "Poi apri con attenzione"
+  ]
+ },
+ "q23798": {
+  "short": "Quando scendi, per un momento sei sulla strada. Controlla prima, per non mettere in pericolo te o gli altri.",
+  "rule": "Apri la porta o scendi solo dopo aver controllato, anche con lo specchietto, che non arrivi nessuno. Lascia l'auto con motore spento e freno a mano tirato.",
+  "trap": "«bisogna assicurarsi»: controllare prima di scendere è obbligatorio.",
+  "caption": "Controlla prima di scendere",
+  "lines": [
+   "Il conducente sta per scendere",
+   "Controlla la strada intorno",
+   "Scendi solo se è sicuro"
+  ]
+ },
+ "q23799": {
+  "short": "Lo specchietto mostra auto e bici che arrivano da dietro. Guardalo prima di aprire la porta e scendere.",
+  "rule": "Apri la porta o scendi solo dopo aver controllato, anche con lo specchietto, che non arrivi nessuno. Lascia l'auto con motore spento e freno a mano tirato.",
+  "trap": "«anche mediante lo specchietto retrovisore»: lo specchietto fa parte del controllo.",
+  "caption": "Usa lo specchietto prima di scendere",
+  "lines": [
+   "Il conducente sta per scendere",
+   "Guarda nello specchietto",
+   "Scendi se non arriva nessuno"
+  ]
+ },
+ "q23800": {
+  "short": "Un'auto in sosta con il motore acceso spreca carburante, inquina e potrebbe muoversi. Spegni il motore prima di scendere.",
+  "rule": "Apri la porta o scendi solo dopo aver controllato, anche con lo specchietto, che non arrivi nessuno. Lascia l'auto con motore spento e freno a mano tirato.",
+  "trap": "«deve assicurarsi di avere spento il motore»: è obbligatorio.",
+  "caption": "Motore spento prima di lasciare l'auto",
+  "lines": [
+   "Auto in sosta, il conducente scende",
+   "Prima spegni il motore",
+   "Poi scendi sicuro"
+  ]
+ },
+ "q23801": {
+  "short": "Per aprire una porta non serve la freccia. Devi solo controllare che non arrivino pedoni o veicoli.",
+  "rule": "Apri la porta o scendi solo dopo aver controllato, anche con lo specchietto, che non arrivi nessuno. Lascia l'auto con motore spento e freno a mano tirato.",
+  "trap": "«l'obbligo di attivare l'indicatore di direzione» è un obbligo inventato.",
+  "caption": "Freccia non necessaria: controlla solo che sia sicuro",
+  "lines": [
+   "Porta dal lato del marciapiede",
+   "La freccia non serve",
+   "Controlla solo i pedoni"
+  ]
+ },
+ "q23802": {
+  "short": "Puoi aprire la porta dal lato della strada. Devi solo controllare prima che non arrivino veicoli.",
+  "rule": "Apri la porta o scendi solo dopo aver controllato, anche con lo specchietto, che non arrivi nessuno. Lascia l'auto con motore spento e freno a mano tirato.",
+  "trap": "«è vietato» è sbagliato: è permesso, con attenzione.",
+  "caption": "Porta lato strada: permessa, dopo aver controllato",
+  "lines": [
+   "Porta dal lato del traffico",
+   "Controlla che non arrivi nessuno",
+   "Poi la puoi aprire"
+  ]
+ },
+ "q23803": {
+  "short": "Durante la sosta il motore deve essere spento. Tenerlo acceso per l'aria condizionata è vietato.",
+  "rule": "Apri la porta o scendi solo dopo aver controllato, anche con lo specchietto, che non arrivi nessuno. Lascia l'auto con motore spento e freno a mano tirato.",
+  "trap": "«con il motore acceso»: non è permesso, neanche per l'aria condizionata.",
+  "caption": "Niente motore acceso per l'aria condizionata",
+  "lines": [
+   "Auto in sosta, motore acceso",
+   "Solo per l'aria condizionata",
+   "Vietato: spegni il motore"
+  ]
+ },
+ "q23804": {
+  "short": "Un'auto può andare indietro anche in salita. Tira sempre il freno a mano prima di lasciare l'auto, in salita o in discesa.",
+  "rule": "Apri la porta o scendi solo dopo aver controllato, anche con lo specchietto, che non arrivi nessuno. Lascia l'auto con motore spento e freno a mano tirato.",
+  "trap": "«ma non in quelle in salita» è sbagliato: il freno a mano serve su ogni pendenza.",
+  "caption": "Freno a mano in salita E in discesa",
+  "lines": [
+   "Auto in sosta in salita",
+   "Senza freno a mano va indietro",
+   "Tira sempre il freno a mano"
+  ]
+ }
+}

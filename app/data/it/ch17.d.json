@@ -1,0 +1,747 @@
+{
+ "q24005": {
+  "short": "Dalla cabina alta l'autista non vede la zona subito davanti. Lì può esserci un pedone o un ciclista.",
+  "rule": "Chi guida un autocarro non vede la zona subito davanti e di lato (angolo cieco). Prima di ripartire deve pensare a pedoni e ciclisti nascosti.",
+  "trap": "«zona immediatamente antistante» è la zona subito davanti: proprio quella che l'autista non vede.",
+  "caption": "Prima di ripartire, cerca chi è nascosto",
+  "lines": [
+   "Autocarro fermo, sta per ripartire",
+   "La zona davanti è nascosta",
+   "Controlla pedoni e ciclisti"
+  ]
+ },
+ "q24006": {
+  "short": "La grande sagoma del camion nasconde chi è vicino. L'autista deve pensare che ci sia qualcuno.",
+  "rule": "Chi guida un autocarro non vede la zona subito davanti e di lato (angolo cieco). Prima di ripartire deve pensare a pedoni e ciclisti nascosti.",
+  "trap": "«prevedere» è giusto: devi pensare anche a chi non vedi.",
+  "caption": "Pensa a chi è nascosto dal camion",
+  "lines": [
+   "Camion fermo al semaforo",
+   "La sagoma nasconde chi è vicino",
+   "Prevedi pedoni e ciclisti"
+  ]
+ },
+ "q24007": {
+  "short": "In colonna pedoni e moto passano spesso vicino al muso dei camion. L'autista non li vede: è pericoloso.",
+  "rule": "Chi guida un autocarro non vede la zona subito davanti e di lato (angolo cieco). Prima di ripartire deve pensare a pedoni e ciclisti nascosti.",
+  "trap": "«limitata visuale» è la chiave: dal parabrezza non si vede la zona subito davanti.",
+  "caption": "Colonna + persone davanti = pericolo",
+  "lines": [
+   "Camion fermi in colonna",
+   "Il parabrezza nasconde la zona davanti",
+   "Lì possono esserci bici e pedoni"
+  ]
+ },
+ "q24008": {
+  "short": "Il camion ha grandi angoli ciechi davanti e di lato. L'autista non può controllare tutta la zona.",
+  "rule": "Chi guida un autocarro non vede la zona subito davanti e di lato (angolo cieco). Prima di ripartire deve pensare a pedoni e ciclisti nascosti.",
+  "trap": "«tutta la zona» è sbagliato: una parte resta sempre nascosta.",
+  "caption": "Il camion non vede tutta la zona davanti e di lato",
+  "lines": [
+   "L'autista del camion è in alto",
+   "Davanti e di lato c'è una zona nascosta",
+   "Niente vista completa: angoli ciechi"
+  ]
+ },
+ "q24009": {
+  "short": "Proprio davanti al camion l'autista non vede. Passare lì quando riparte è molto pericoloso.",
+  "rule": "Chi guida un autocarro non vede la zona subito davanti e di lato (angolo cieco). Prima di ripartire deve pensare a pedoni e ciclisti nascosti.",
+  "trap": "«sicuramente avvistabile» è sbagliato: vicino al muso il pedone è nascosto.",
+  "caption": "Mai passare vicino al muso di un camion",
+  "lines": [
+   "Camion in colonna, sta per ripartire",
+   "Pedone vicino al muso",
+   "L'autista non lo vede: pericolo"
+  ]
+ },
+ "q24010": {
+  "short": "Chi è vicinissimo al muso e ai lati del camion è nell'angolo cieco. L'autista NON lo vede facilmente.",
+  "rule": "Chi guida un autocarro non vede la zona subito davanti e di lato (angolo cieco). Prima di ripartire deve pensare a pedoni e ciclisti nascosti.",
+  "trap": "«possono facilmente avvistare» è sbagliato: queste persone sono nascoste.",
+  "caption": "L'autista NON vede bene chi è vicino al muso",
+  "lines": [
+   "Il camion riparte col verde",
+   "Ciclista vicino al muso",
+   "È nell'angolo cieco: non si vede"
+  ]
+ },
+ "q24011": {
+  "short": "Il giubbotto fa vedere TE quando sei a piedi. Il triangolo segnala il veicolo fermo. Servono tutti e due.",
+  "rule": "Fuori dai centri abitati, se scendi da un veicolo fermo sulla strada o sulla corsia di emergenza, indossi giubbotto o bretelle per farti vedere.",
+  "trap": "«in ogni caso» è sbagliato: il giubbotto non sostituisce mai il triangolo.",
+  "caption": "Giubbotto e triangolo: servono entrambi",
+  "lines": [
+   "Veicolo fermo sulla strada",
+   "Il triangolo segnala il veicolo",
+   "Il giubbotto fa vedere il conducente"
+  ]
+ },
+ "q24012": {
+  "short": "Giubbotto e bretelle non sono solo gialli. Vanno bene anche arancioni o rossi fluorescenti.",
+  "rule": "Fuori dai centri abitati, se scendi da un veicolo fermo sulla strada o sulla corsia di emergenza, indossi giubbotto o bretelle per farti vedere.",
+  "trap": "«solo» è sbagliato: sono ammessi anche altri colori vivaci.",
+  "caption": "Non solo giallo: anche arancione o rosso",
+  "lines": [
+   "Giubbotto fluorescente e riflettente",
+   "Giallo, arancione o rosso",
+   "«Solo giallo» è sbagliato"
+  ]
+ },
+ "q24013": {
+  "short": "Il giubbotto serve solo a farti vedere. Non protegge da sostanze chimiche, calore, fuoco o elettricità.",
+  "rule": "Fuori dai centri abitati, se scendi da un veicolo fermo sulla strada o sulla corsia di emergenza, indossi giubbotto o bretelle per farti vedere.",
+  "trap": "«anche» aggiunge protezioni che il giubbotto non dà.",
+  "caption": "Il giubbotto serve solo a farti vedere",
+  "lines": [
+   "Giubbotto: ti fa vedere bene",
+   "Non protegge da fuoco o calore",
+   "Non protegge da chimica o corrente"
+  ]
+ },
+ "q24014": {
+  "short": "La regola riguarda il conducente che scende sulla strada. Non serve un giubbotto per ogni posto.",
+  "rule": "Fuori dai centri abitati, se scendi da un veicolo fermo sulla strada o sulla corsia di emergenza, indossi giubbotto o bretelle per farti vedere.",
+  "trap": "«in numero pari a quello dei posti» è sbagliato: la legge non lo chiede.",
+  "caption": "Non serve un giubbotto per ogni posto",
+  "lines": [
+   "Il conducente scende sulla strada",
+   "Il conducente indossa il giubbotto",
+   "Non uno per ogni posto"
+  ]
+ },
+ "q24015": {
+  "short": "Giubbotto e bretelle sono due scelte uguali per la stessa regola. Valgono tutti e due fuori dai centri abitati.",
+  "rule": "Fuori dai centri abitati, se scendi da un veicolo fermo sulla strada o sulla corsia di emergenza, indossi giubbotto o bretelle per farti vedere.",
+  "trap": "La trappola divide giubbotto e bretelle per luogo («aree urbane»): invece sono alternativi.",
+  "caption": "Giubbotto O bretelle: stessa regola, fuori città",
+  "lines": [
+   "Giubbotto o bretelle: scegli uno",
+   "Tutti e due fuori dai centri abitati",
+   "Niente regola per le bretelle in città"
+  ]
+ },
+ "q24016": {
+  "short": "Il giubbotto non è un segnale di aiuto. Ti fa vedere, così chi passa non ti investe.",
+  "rule": "Fuori dai centri abitati, se scendi da un veicolo fermo sulla strada o sulla corsia di emergenza, indossi giubbotto o bretelle per farti vedere.",
+  "trap": "«serve per chiedere aiuto» è sbagliato: il suo scopo è farti vedere.",
+  "caption": "Il giubbotto ti fa vedere, non chiede aiuto",
+  "lines": [
+   "Il conducente cammina sulla strada",
+   "Il giubbotto lo fa vedere",
+   "Non è un segnale di aiuto"
+  ]
+ },
+ "q24017": {
+  "short": "Il giubbotto serve ogni volta che scendi sulla strada fuori città: guasto, incidente, triangolo, non solo per una gomma bucata.",
+  "rule": "Fuori dai centri abitati, se scendi da un veicolo fermo sulla strada o sulla corsia di emergenza, indossi giubbotto o bretelle per farti vedere.",
+  "trap": "«solo» è sbagliato: la ruota forata è solo un esempio.",
+  "caption": "Non solo per la ruota forata",
+  "lines": [
+   "Guasto, incidente, triangolo",
+   "Anche la ruota forata",
+   "Sempre il giubbotto sulla strada"
+  ]
+ },
+ "q24018": {
+  "short": "Se il carico cade, ti serve spazio per fermarti. In salita il carico scivola indietro più facilmente.",
+  "rule": "Dietro a un carico instabile: aumenta la distanza, sii pronto a fermarti, avverti il conducente e sorpassa solo quando è sicuro.",
+  "trap": "«specie se si è in salita» è giusto: in salita il carico cade all'indietro, verso di te.",
+  "caption": "Il carico può cadere: più distanza",
+  "lines": [
+   "Camion davanti con carico instabile",
+   "Aumenta la distanza di sicurezza",
+   "Ancora di più in salita"
+  ]
+ },
+ "q24019": {
+  "short": "Stai lontano per avere tempo di reagire, poi supera il pericolo appena puoi farlo in sicurezza.",
+  "rule": "Dietro a un carico instabile: aumenta la distanza, sii pronto a fermarti, avverti il conducente e sorpassa solo quando è sicuro.",
+  "trap": "«appena possibile» vuol dire quando è sicuro e permesso, non a ogni costo.",
+  "caption": "Stai indietro, poi sorpassa quando è sicuro",
+  "lines": [
+   "Carico instabile davanti",
+   "Aumenta la distanza",
+   "Sorpassa appena è sicuro"
+  ]
+ },
+ "q24020": {
+  "short": "Chi guida davanti forse non sa che il carico si muove. Avvisarlo, per esempio con i fari, evita un incidente.",
+  "rule": "Dietro a un carico instabile: aumenta la distanza, sii pronto a fermarti, avverti il conducente e sorpassa solo quando è sicuro.",
+  "trap": "«avvertire il conducente» è un'azione utile e giusta.",
+  "caption": "Avvisa il conducente del carico",
+  "lines": [
+   "Il carico sta per cadere",
+   "Il conducente forse non lo sa",
+   "Avvisalo, per esempio coi fari"
+  ]
+ },
+ "q24021": {
+  "short": "Più spazio ti dà tempo e strada per fermarti prima della merce caduta.",
+  "rule": "Dietro a un carico instabile: aumenta la distanza, sii pronto a fermarti, avverti il conducente e sorpassa solo quando è sicuro.",
+  "trap": "«non stargli troppo vicino» è la regola della distanza maggiore.",
+  "caption": "Non troppo vicino: spazio per fermarsi",
+  "lines": [
+   "Carico poco sicuro davanti",
+   "Non stare troppo vicino",
+   "Ti fermi in tempo se cade"
+  ]
+ },
+ "q24022": {
+  "short": "Quando un veicolo frena o svolta il carico si sposta. Proprio allora può cadere.",
+  "rule": "Dietro a un carico instabile: aumenta la distanza, sii pronto a fermarti, avverti il conducente e sorpassa solo quando è sicuro.",
+  "trap": "«soprattutto quando frena o svolta» è giusto: queste manovre scuotono il carico.",
+  "caption": "Frenate e svolte fanno cadere il carico",
+  "lines": [
+   "Carico instabile davanti",
+   "Frena o svolta: il carico si muove",
+   "Preparati alla caduta della merce"
+  ]
+ },
+ "q24023": {
+  "short": "La merce che pende dietro può coprire le frecce. Così non vedi che il veicolo sta per svoltare.",
+  "rule": "Dietro a un carico instabile: aumenta la distanza, sii pronto a fermarti, avverti il conducente e sorpassa solo quando è sicuro.",
+  "trap": "«può risultare difficile» è giusto: con le frecce nascoste non c'è avviso.",
+  "caption": "Il carico che pende nasconde le frecce",
+  "lines": [
+   "Il carico pende dietro",
+   "Può coprire le frecce",
+   "La svolta arriva senza avviso"
+  ]
+ },
+ "q24024": {
+  "short": "Andare sul margine sinistro ti mette contro chi arriva e non ti protegge. Serve più distanza.",
+  "rule": "Dietro a un carico instabile: aumenta la distanza, sii pronto a fermarti, avverti il conducente e sorpassa solo quando è sicuro.",
+  "trap": "«margine sinistro» è la risposta sbagliata: ti protegge la distanza, non la posizione.",
+  "caption": "Non andare a sinistra: tieni la distanza",
+  "lines": [
+   "Carico che sta per cadere davanti",
+   "A sinistra: pericolo con chi arriva",
+   "Meglio aumentare la distanza"
+  ]
+ },
+ "q24025": {
+  "short": "A sinistra incontri chi arriva. Tieni la destra e stai più indietro.",
+  "rule": "Dietro a un carico instabile: aumenta la distanza, sii pronto a fermarti, avverti il conducente e sorpassa solo quando è sicuro.",
+  "trap": "«margine sinistro» è sbagliato: stai a destra e tieni la distanza.",
+  "caption": "Tieni la destra e stai indietro",
+  "lines": [
+   "Carico poco sicuro davanti",
+   "Non andare sul margine sinistro",
+   "Destra e più distanza"
+  ]
+ },
+ "q24026": {
+  "short": "Sorpassare in curva è pericoloso perché non vedi chi arriva. Sorpassa solo quando è sicuro.",
+  "rule": "Dietro a un carico instabile: aumenta la distanza, sii pronto a fermarti, avverti il conducente e sorpassa solo quando è sicuro.",
+  "trap": "«anche se in curva» rende la frase falsa: mai sorpassare dove non vedi.",
+  "caption": "Mai sorpassare in curva",
+  "lines": [
+   "Carico che sta per cadere davanti",
+   "In curva non vedi avanti",
+   "Aspetta e sorpassa quando è sicuro"
+  ]
+ },
+ "q24027": {
+  "short": "Una frenata brusca fa tamponare chi ti segue. Basta aumentare la distanza.",
+  "rule": "Dietro a un carico instabile: aumenta la distanza, sii pronto a fermarti, avverti il conducente e sorpassa solo quando è sicuro.",
+  "trap": "«arrestarsi bruscamente» è il pericolo: causa tamponamenti.",
+  "caption": "Niente frenate brusche: più distanza",
+  "lines": [
+   "Carico che sta per cadere davanti",
+   "Frenata brusca: chi segue ti tampona",
+   "Rallenta e tieni la distanza"
+  ]
+ },
+ "q24028": {
+  "short": "Con un carico instabile davanti devi AUMENTARE la distanza, non diminuirla. Non devi bloccare gli altri.",
+  "rule": "Dietro a un carico instabile: aumenta la distanza, sii pronto a fermarti, avverti il conducente e sorpassa solo quando è sicuro.",
+  "trap": "«diminuire» è il contrario della regola.",
+  "caption": "Aumenta, non diminuire, la distanza",
+  "lines": [
+   "Carico instabile davanti",
+   "Diminuire la distanza? No!",
+   "Aumenta la distanza di sicurezza"
+  ]
+ },
+ "q24029": {
+  "short": "Tirare più peso in salita fa lavorare di più il motore, che si scalda. Controlla la temperatura.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«fa aumentare la temperatura» è giusto: più sforzo, più calore.",
+  "caption": "Rimorchio + salita = motore più caldo",
+  "lines": [
+   "Auto con rimorchio",
+   "Salita: il motore fatica",
+   "Il liquido si scalda: controlla"
+  ]
+ },
+ "q24030": {
+  "short": "Il rimorchio aggiunge peso: l'auto ha bisogno di più strada per fermarsi. Tieni più distanza.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«aumenta» è giusto: più massa, frenata più lunga.",
+  "caption": "Rimorchio = frenata più lunga",
+  "lines": [
+   "Auto con rimorchio",
+   "Più peso da fermare",
+   "Spazio di frenatura maggiore"
+  ]
+ },
+ "q24031": {
+  "short": "Un rimorchio leggero viene spinto facilmente dal vento laterale e può ribaltarsi. Con vento vai piano.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«leggero» è la chiave: meno peso, più effetto del vento.",
+  "caption": "Rimorchio leggero: il vento lo spinge di più",
+  "lines": [
+   "Auto con rimorchio leggero",
+   "Forte vento laterale",
+   "Può ribaltarsi: rallenta"
+  ]
+ },
+ "q24032": {
+  "short": "Gli oggetti pesanti sopra l'asse tengono il rimorchio stabile ed equilibrato.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«il più vicino possibile al suo asse» è il modo giusto di caricare.",
+  "caption": "Il peso sopra l'asse del rimorchio",
+  "lines": [
+   "Caricare il rimorchio",
+   "Oggetti pesanti sopra l'asse",
+   "Il rimorchio resta stabile"
+  ]
+ },
+ "q24033": {
+  "short": "In curva le ruote del rimorchio fanno una linea più stretta. Svoltando a destra possono salire sul marciapiede.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«ruota posteriore» è giusto: le ruote dietro tagliano la curva.",
+  "caption": "Svolta a destra: il rimorchio taglia la curva",
+  "lines": [
+   "Auto con rimorchio svolta a destra",
+   "Le ruote del rimorchio stringono",
+   "Allarga: niente marciapiede"
+  ]
+ },
+ "q24034": {
+  "short": "Il servosterzo funziona col motore acceso. Se il motore del veicolo guasto è spento, il volante è duro.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«faticoso» è giusto: è duro, ma gira ancora.",
+  "caption": "Veicolo trainato: volante duro",
+  "lines": [
+   "Veicolo guasto trainato",
+   "Motore spento: niente servosterzo",
+   "Sterzo duro, non bloccato"
+  ]
+ },
+ "q24035": {
+  "short": "Le luci del rimorchio mostrano frenate e svolte a chi segue. Controllale tutte prima di partire.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«è opportuno accertarsi» è giusto: un controllo prima di ogni viaggio.",
+  "caption": "Prima controlla le luci del rimorchio",
+  "lines": [
+   "Rimorchio agganciato all'auto",
+   "Prova stop e frecce",
+   "Tutto funziona: puoi partire"
+  ]
+ },
+ "q24036": {
+  "short": "Il rimorchio può coprire la vista dietro. Regola e controlla gli specchi prima di partire.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«visibilità sia adeguata» è giusto: devi vedere dietro il rimorchio.",
+  "caption": "Controlla di vedere dietro il rimorchio",
+  "lines": [
+   "Il rimorchio copre la vista dietro",
+   "Controlla gli specchi prima",
+   "Devi vedere bene dietro"
+  ]
+ },
+ "q24037": {
+  "short": "Anche un rimorchio fermo da solo può fare danni, per esempio se si muove. Serve l'assicurazione anche da fermo.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«rischio statico (da fermo)» è la chiave: l'assicurazione copre anche questo.",
+  "caption": "Rimorchio staccato: assicurato anche da fermo",
+  "lines": [
+   "Rimorchio staccato e fermo",
+   "Può comunque fare danni",
+   "Assicurazione anche da fermo"
+  ]
+ },
+ "q24038": {
+  "short": "Il freno ad inerzia funziona da solo: quando l'auto rallenta, il rimorchio spinge sul gancio e frena.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«in genere» è giusto: quasi tutti lo hanno, i rimorchi molto leggeri forse no.",
+  "caption": "Di solito freno ad inerzia",
+  "lines": [
+   "L'auto rallenta",
+   "Il rimorchio spinge sul gancio",
+   "Il freno ad inerzia si attiva"
+  ]
+ },
+ "q24039": {
+  "short": "Il rimorchio è un veicolo a sé ed è immatricolato: ha la sua targa.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«targa propria» è giusto: non è la targa dell'auto.",
+  "caption": "Il rimorchio ha la sua targa",
+  "lines": [
+   "Anche il rimorchio è un veicolo",
+   "È immatricolato",
+   "Ha la sua targa"
+  ]
+ },
+ "q24040": {
+  "short": "Troppo peso sul gancio carica il retro dell'auto e peggiora sterzo e frenata. Il peso va sopra l'asse.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«in corrispondenza del gancio di traino» è il posto sbagliato.",
+  "caption": "Peso sopra l'asse, non sul gancio",
+  "lines": [
+   "Carico massimo sul gancio? No",
+   "Retro dell'auto troppo carico",
+   "Peso sopra l'asse del rimorchio"
+  ]
+ },
+ "q24041": {
+  "short": "Il collegamento elettrico accende le luci del rimorchio: stop, frecce, luci dietro. Serve sempre.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«non occorre» è sbagliato: senza, il rimorchio non ha luci.",
+  "caption": "Il collegamento elettrico serve sempre",
+  "lines": [
+   "Collega il rimorchio all'auto",
+   "Accende luci e frecce",
+   "Serve sempre"
+  ]
+ },
+ "q24042": {
+  "short": "Trainare un veicolo guasto è un'emergenza, non è guidare col rimorchio. Basta la patente B.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«categoria E» è sbagliato: la E serve per i rimorchi veri.",
+  "caption": "Traino di veicolo guasto: basta la B",
+  "lines": [
+   "Auto traina un veicolo guasto",
+   "Non è un rimorchio: basta la B",
+   "Non serve la E"
+  ]
+ },
+ "q24043": {
+  "short": "Chi sta nel veicolo trainato sterza e frena, quindi deve avere la patente.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«può essere privo di patente» è sbagliato: la patente serve.",
+  "caption": "Chi è nel veicolo trainato ha la patente",
+  "lines": [
+   "Veicolo guasto trainato",
+   "Il conducente sterza e frena",
+   "Deve avere la patente"
+  ]
+ },
+ "q24044": {
+  "short": "Il veicolo trainato deve avere il cambio in folle, così le ruote girano libere.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«quarta marcia» è sbagliato: la posizione giusta è la folle.",
+  "caption": "Veicolo trainato: cambio in folle",
+  "lines": [
+   "Veicolo guasto su quattro ruote",
+   "Cambio in folle",
+   "Nessuna marcia inserita"
+  ]
+ },
+ "q24045": {
+  "short": "Gancio e parti di traino si muovono e si consumano. Vanno lubrificati spesso.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«non devono» è sbagliato: serve lubrificarli regolarmente.",
+  "caption": "Il gancio va lubrificato",
+  "lines": [
+   "Gancio e parti di traino",
+   "Si muovono e si consumano",
+   "Lubrificali spesso"
+  ]
+ },
+ "q24046": {
+  "short": "Il gancio di traino deve essere sempre omologato, qualunque sia il peso del rimorchio.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«possono non essere omologati» è sbagliato; i «750 chilogrammi» sono una distrazione.",
+  "caption": "Il gancio è sempre omologato",
+  "lines": [
+   "Gancio di traino sull'auto",
+   "Sempre omologato",
+   "Anche per rimorchi leggeri"
+  ]
+ },
+ "q24047": {
+  "short": "Senza motore il servosterzo non aiuta e il volante è duro. Ma non è bloccato: si può sterzare.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«sempre bloccato» è sbagliato: è duro, non bloccato.",
+  "caption": "Sterzo duro, ma non bloccato",
+  "lines": [
+   "Veicolo guasto con servosterzo",
+   "Motore spento: sterzo duro",
+   "Ma gira ancora"
+  ]
+ },
+ "q24048": {
+  "short": "In discesa il rimorchio spinge l'auto in avanti. Rallenta, usa una marcia bassa e frena prima.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«non occorre tener conto» è sbagliato: la spinta è un pericolo vero.",
+  "caption": "In discesa il rimorchio spinge",
+  "lines": [
+   "Forte discesa col rimorchio",
+   "Il rimorchio spinge l'auto",
+   "Marcia bassa, piano, frena prima"
+  ]
+ },
+ "q24049": {
+  "short": "Anche un rimorchio leggero ha bisogno di luci e frecce funzionanti. Il collegamento serve sempre.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«leggero» non cambia niente: «non occorre» è sbagliato.",
+  "caption": "Rimorchio leggero: collega le luci",
+  "lines": [
+   "Rimorchio leggero",
+   "Servono luci e frecce",
+   "Collegamento sempre"
+  ]
+ },
+ "q24050": {
+  "short": "Le regole fissano una lunghezza massima del collegamento, non un minimo di 3 metri.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«almeno 3 metri» è sbagliato: la regola parla di un massimo, non di un minimo.",
+  "caption": "Nessun minimo di 3 m tra i veicoli",
+  "lines": [
+   "Auto traina un veicolo guasto",
+   "Il collegamento ha una lunghezza massima",
+   "Nessun minimo di 3 m"
+  ]
+ },
+ "q24051": {
+  "short": "Col rimorchio, nelle curve strette serve PIÙ spazio, perché il rimorchio taglia la curva.",
+  "rule": "Il rimorchio cambia frenata, curve e salite. Caricalo bene, collega le luci e conosci le regole per trainare un veicolo guasto.",
+  "trap": "«minore» è sbagliato: è maggiore.",
+  "caption": "Curva stretta + rimorchio = più spazio",
+  "lines": [
+   "Auto con rimorchio in curva stretta",
+   "Il rimorchio taglia la curva",
+   "Serve PIÙ spazio, non meno"
+  ]
+ },
+ "q24052": {
+  "short": "La carta di circolazione indica i posti, quindi quante persone puoi trasportare.",
+  "rule": "La carta di circolazione indica il numero dei posti, conducente compreso. Un'autovettura ha al massimo 9 posti.",
+  "trap": "«carta di circolazione» è il documento giusto: non la patente né l'assicurazione.",
+  "caption": "I posti sono sulla carta di circolazione",
+  "lines": [
+   "Apri la carta di circolazione",
+   "Indica il numero dei posti",
+   "Così sai quante persone porti"
+  ]
+ },
+ "q24053": {
+  "short": "La carta di circolazione di ogni veicolo indica quanti posti ha, conducente compreso.",
+  "rule": "La carta di circolazione indica il numero dei posti, conducente compreso. Un'autovettura ha al massimo 9 posti.",
+  "trap": "«numero dei posti» è proprio ciò che indica il documento.",
+  "caption": "I posti sono sulla carta di circolazione",
+  "lines": [
+   "Carta di circolazione",
+   "Numero dei posti, conducente compreso",
+   "Mai più persone"
+  ]
+ },
+ "q24055": {
+  "short": "Un'autovettura ha al massimo 9 posti, conducente compreso. Oltre, è un autobus.",
+  "rule": "La carta di circolazione indica il numero dei posti, conducente compreso. Un'autovettura ha al massimo 9 posti.",
+  "trap": "«compreso quello del conducente» è giusto: 9 in tutto.",
+  "caption": "Auto: massimo 9 posti, conducente compreso",
+  "lines": [
+   "Autovettura",
+   "Al massimo 9 posti",
+   "Compreso il conducente"
+  ]
+ },
+ "q24056": {
+  "short": "Un'autovettura ha al massimo 9 posti e il conducente conta come uno.",
+  "rule": "La carta di circolazione indica il numero dei posti, conducente compreso. Un'autovettura ha al massimo 9 posti.",
+  "trap": "«al massimo di nove, compreso il conducente» è giusto.",
+  "caption": "Auto: massimo 9 persone, conducente compreso",
+  "lines": [
+   "Autovettura",
+   "Massimo 9 persone",
+   "Conducente compreso"
+  ]
+ },
+ "q24057": {
+  "short": "Una moto porta al massimo un passeggero, e solo se la carta di circolazione lo permette.",
+  "rule": "La carta di circolazione indica il numero dei posti, conducente compreso. Un'autovettura ha al massimo 9 posti.",
+  "trap": "«sempre di due» è sbagliato: il massimo è un passeggero.",
+  "caption": "Moto: al massimo 1 passeggero",
+  "lines": [
+   "Motociclo",
+   "Al massimo un passeggero",
+   "Solo se il documento lo permette"
+  ]
+ },
+ "q24058": {
+  "short": "Le autovetture possono avere fino a 9 posti, conducente compreso. Il numero vero è sulla carta di circolazione.",
+  "rule": "La carta di circolazione indica il numero dei posti, conducente compreso. Un'autovettura ha al massimo 9 posti.",
+  "trap": "«al massimo di quattro» è sbagliato: il limite è nove.",
+  "caption": "Auto: fino a 9, non 4",
+  "lines": [
+   "Autovettura",
+   "Fino a 9 posti, conducente compreso",
+   "Guarda la carta di circolazione"
+  ]
+ },
+ "q24059": {
+  "short": "Per gli autocarri non c'è un numero fisso. La carta di circolazione di ogni camion indica i suoi posti.",
+  "rule": "La carta di circolazione indica il numero dei posti, conducente compreso. Un'autovettura ha al massimo 9 posti.",
+  "trap": "«sempre di cinque» è sbagliato: dipende dal veicolo.",
+  "caption": "Autocarri: posti come sul documento",
+  "lines": [
+   "Autocarro",
+   "Nessun numero fisso",
+   "Leggi la carta di circolazione"
+  ]
+ },
+ "q24060": {
+  "short": "Il numero sulla carta di circolazione conta tutti i posti, anche quello del conducente.",
+  "rule": "La carta di circolazione indica il numero dei posti, conducente compreso. Un'autovettura ha al massimo 9 posti.",
+  "trap": "«non comprende il conducente» è sbagliato: il conducente è compreso.",
+  "caption": "Il numero comprende il conducente",
+  "lines": [
+   "Carta di circolazione",
+   "Numero dei posti",
+   "Il conducente è compreso"
+  ]
+ },
+ "q24061": {
+  "short": "Il pannello segna la fine del carico sporgente, così chi segue vede dove finisce davvero.",
+  "rule": "Il pannello a strisce bianche e rosse segnala un carico che sporge dietro. È retroriflettente e va all'estremità del carico.",
+  "trap": "«all'estremità del carico» è giusto: non sulla carrozzeria.",
+  "caption": "Pannello alla fine del carico sporgente",
+  "lines": [
+   "Il carico sporge dietro",
+   "Pannello alla fine del carico"
+  ]
+ },
+ "q24062": {
+  "short": "Il pannello a strisce bianche e rosse dice a chi segue che il carico sporge dietro il veicolo.",
+  "rule": "Il pannello a strisce bianche e rosse segnala un carico che sporge dietro. È retroriflettente e va all'estremità del carico.",
+  "trap": "«parte posteriore» è giusto: il pannello è per i carichi che sporgono dietro.",
+  "caption": "Segnala un carico che sporge dietro",
+  "lines": [
+   "Pannello quadrato a strisce bianche e rosse",
+   "Il carico sporge dietro"
+  ]
+ },
+ "q24063": {
+  "short": "Retroriflettente vuol dire che rimanda la luce dei fari. Così si vede anche di notte.",
+  "rule": "Il pannello a strisce bianche e rosse segnala un carico che sporge dietro. È retroriflettente e va all'estremità del carico.",
+  "trap": "«retroriflettente» è giusto: deve vedersi al buio.",
+  "caption": "Il pannello deve riflettere la luce",
+  "lines": [
+   "Pannello su un carico sporgente",
+   "Retroriflettente: si vede di notte"
+  ]
+ },
+ "q24064": {
+  "short": "Ogni carico che sporge dietro ha bisogno del pannello, anche se sporge poco.",
+  "rule": "Il pannello a strisce bianche e rosse segnala un carico che sporge dietro. È retroriflettente e va all'estremità del carico.",
+  "trap": "«anche se di poco» è giusto: non c'è un minimo.",
+  "caption": "Anche se sporge poco serve il pannello",
+  "lines": [
+   "Il carico sporge un po' dietro",
+   "Serve lo stesso il pannello"
+  ]
+ },
+ "q24065": {
+  "short": "Se un veicolo guasto trainato non ha le luci di emergenza, il pannello può segnalarne il retro.",
+  "rule": "Il pannello a strisce bianche e rosse segnala un carico che sporge dietro. È retroriflettente e va all'estremità del carico.",
+  "trap": "«può» è giusto: è una possibilità quando le luci di emergenza non funzionano.",
+  "caption": "Anche su un veicolo trainato senza luci",
+  "lines": [
+   "Veicolo guasto trainato senza luci",
+   "Il pannello segnala il retro"
+  ]
+ },
+ "q24066": {
+  "short": "Il pannello serve solo se chi segue lo vede: va alla fine del carico, ben in vista.",
+  "rule": "Il pannello a strisce bianche e rosse segnala un carico che sporge dietro. È retroriflettente e va all'estremità del carico.",
+  "trap": "«sempre ben visibile» è giusto: non deve essere nascosto.",
+  "caption": "Alla fine del carico, sempre visibile",
+  "lines": [
+   "Pannello alla fine del carico",
+   "Sempre ben visibile"
+  ]
+ },
+ "q24067": {
+  "short": "Il pannello avvisa che il carico sporge dietro. Chi segue deve tenere la distanza ed essere prudente.",
+  "rule": "Il pannello a strisce bianche e rosse segnala un carico che sporge dietro. È retroriflettente e va all'estremità del carico.",
+  "trap": "«particolare prudenza» è giusto: è il messaggio del pannello.",
+  "caption": "Chi segue: prudenza",
+  "lines": [
+   "Il carico sporge dietro",
+   "Chi segue: distanza e prudenza"
+  ]
+ },
+ "q24068": {
+  "short": "Il pannello serve per QUALSIASI carico sporgente dietro, anche poco. I 3/10 sono il massimo che il carico può sporgere.",
+  "rule": "Il pannello a strisce bianche e rosse segnala un carico che sporge dietro. È retroriflettente e va all'estremità del carico.",
+  "trap": "«solo se... oltre tre decimi» è sbagliato: il pannello serve anche se sporge poco.",
+  "caption": "Pannello per ogni sporgenza, non solo oltre 3/10",
+  "lines": [
+   "Ogni carico che sporge dietro",
+   "Pannello anche se poco"
+  ]
+ },
+ "q24069": {
+  "short": "Questo pannello è per i carichi che sporgono DIETRO. Non si mette di lato.",
+  "rule": "Il pannello a strisce bianche e rosse segnala un carico che sporge dietro. È retroriflettente e va all'estremità del carico.",
+  "trap": "«anche di lato» è sbagliato: il pannello è solo per il retro.",
+  "caption": "Solo dietro, non di lato",
+  "lines": [
+   "Pannello: per carichi che sporgono dietro",
+   "Non si usa di lato"
+  ]
+ },
+ "q24070": {
+  "short": "Il pannello non indica un tipo di camion. Segnala qualsiasi carico che sporge dietro.",
+  "rule": "Il pannello a strisce bianche e rosse segnala un carico che sporge dietro. È retroriflettente e va all'estremità del carico.",
+  "trap": "«identifica gli autocarri specializzati» è sbagliato: riguarda il carico, non il camion.",
+  "caption": "Segnala un carico sporgente, non un tipo di camion",
+  "lines": [
+   "Non indica un tipo di camion",
+   "Segnala un carico che sporge dietro"
+  ]
+ },
+ "q24071": {
+  "short": "I camion della spazzatura non hanno bisogno di questo pannello. Serve solo per i carichi che sporgono dietro.",
+  "rule": "Il pannello a strisce bianche e rosse segnala un carico che sporge dietro. È retroriflettente e va all'estremità del carico.",
+  "trap": "«spazzatura» non c'entra con questo pannello.",
+  "caption": "Non per la spazzatura: per carichi sporgenti",
+  "lines": [
+   "Non dipende dalla merce",
+   "Solo per carichi che sporgono dietro"
+  ]
+ },
+ "q24072": {
+  "short": "Non c'è un minimo: il pannello serve anche se il carico sporge poco. 50 cm è il lato del pannello.",
+  "rule": "Il pannello a strisce bianche e rosse segnala un carico che sporge dietro. È retroriflettente e va all'estremità del carico.",
+  "trap": "«solo se... almeno 50 centimetri» è sbagliato: serve anche se sporge poco.",
+  "caption": "Nessun minimo di sporgenza",
+  "lines": [
+   "Il carico sporge anche poco",
+   "Serve il pannello: niente minimo 50 cm"
+  ]
+ },
+ "q24073": {
+  "short": "Il pannello serve solo quando un carico sporge dietro, non su tutti i camion.",
+  "rule": "Il pannello a strisce bianche e rosse segnala un carico che sporge dietro. È retroriflettente e va all'estremità del carico.",
+  "trap": "«tutti gli autocarri» è sbagliato: solo con carico sporgente.",
+  "caption": "Non su tutti i camion: solo con carico sporgente",
+  "lines": [
+   "Camion senza sporgenza: niente pannello",
+   "Carico che sporge dietro: pannello"
+  ]
+ },
+ "q24074": {
+  "short": "Vale solo questo pannello a strisce retroriflettente. Una bandiera rossa non lo sostituisce.",
+  "rule": "Il pannello a strisce bianche e rosse segnala un carico che sporge dietro. È retroriflettente e va all'estremità del carico.",
+  "trap": "«bandiera di colore rosso» è sbagliato: la misura 50x50 è quella del pannello.",
+  "caption": "Niente bandiera rossa: solo il pannello",
+  "lines": [
+   "Solo il pannello a strisce retroriflettente",
+   "La bandiera rossa non va bene"
+  ]
+ }
+}

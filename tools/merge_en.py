@@ -10,7 +10,7 @@ import sys, os, json, glob, re
 
 app = sys.argv[1]
 SCENES = {"overtake.basic", "overtake.blocked", "overtake.allowed", "overtake.right", "overtake.space",
-          "overtake.beingOvertaken", "overtake.motorway", "rulecard", "sign", "figure", "roadparts"}
+          "overtake.beingOvertaken", "overtake.motorway", "rulecard", "sign", "figure", "roadparts", "junctionOrder"}
 ready, problems = [], []
 for path in sorted(glob.glob(os.path.join(app, "data", "chapters", "ch*.json"))):
     ch = json.load(open(path, encoding="utf-8"))

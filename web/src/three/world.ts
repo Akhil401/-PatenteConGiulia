@@ -1,13 +1,13 @@
 // Maps the 2D scene coordinates (0..360 x 0..420, cars drive "up") onto a 3D road that can bend and climb.
 import * as THREE from 'three'
 
-export type RoadKind = 'twoWay' | 'oneWay' | 'dual' | 'twoLanesEach' | 'motorway' | 'motorway3' | 'space' | 'threeLanesEach' | 'threeCarriageways' | 'threeLane'
+export type RoadKind = 'twoWay' | 'oneWay' | 'dual' | 'twoLanesEach' | 'motorway' | 'motorway3' | 'space' | 'threeLanesEach' | 'threeCarriageways' | 'threeLane' | 'none'
 export interface Prop { type: string; [k: string]: any }
 export interface World3D {
   road?: RoadKind; line?: 'dashed' | 'solid' | 'double' | 'mixed' | 'mixedSolidMine'; feature?: 'hill' | 'hillDown' | 'curve' | 'fog' | null
   props?: Prop[]
   /** studio scenes without a road: figure / rulecard / roadparts */
-  studio?: 'figure' | 'rulecard' | 'roadparts'
+  studio?: 'figure' | 'rulecard' | 'roadparts' | 'dashboard'
   [k: string]: any
 }
 
@@ -32,6 +32,7 @@ export function layout(road: RoadKind = 'twoWay', line: World3D['line'] = 'dashe
     case 'threeCarriageways': L.asphalt.push([10, 90], [106, 254], [270, 350]); L.medians.push([90, 106], [254, 270]); L.solids.push(13, 87, 109, 251, 273, 347, 176.5, 183.5); L.dashes.push(50, 143, 217, 310); L.shoulders.push([0, 10], [350, 360]); break
     // one carriageway, 3 lanes, two-way: the centre lane is shared (overtaking / turning left)
     case 'threeLane': L.asphalt.push([70, 290]); L.solids.push(73, 287); L.dashes.push(143.3, 216.6); L.shoulders.push([58, 70], [290, 302]); break
+    case 'none': break   // the scene draws its own roads (e.g. a radial junction)
     default: L.asphalt.push([110, 250]); L.shoulders.push([98, 110], [250, 262]); L.solids.push(113, 247); centre(180)
   }
   return L
@@ -120,6 +121,7 @@ export function trees(world: World) {
     // keep junction arms and side roads free of trees
     if (world.props.some((p: Prop) => (p.type === 'junction' || p.type === 'sideRoad' || p.type === 'rails') && y > p.y - 30 && y < p.y + (p.h || 26) + 30)) continue
     if (world.props.some((p: Prop) => p.type === 'town') && Math.abs(l) < 330) continue
+    if (world.props.some((p: Prop) => p.type === 'radial') && Math.hypot(l, y - 210) < 380) continue
     // hill scenes: keep the left side open so the side camera can show the crest
     if (world.hill && side < 0 && y > -120 && y < 420) continue
     out.push({ p: world.to3(CX + l, y), s, hue })

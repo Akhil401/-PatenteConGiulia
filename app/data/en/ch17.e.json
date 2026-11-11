@@ -1,0 +1,2566 @@
+{
+ "q24075": {
+  "en": "In caravans, to reduce the risk of tipping over on a bend, the heavy items must be loaded so that the centre of gravity stays as low as possible.",
+  "explain": {
+   "short": "A low centre of gravity (baricentro) makes the caravan much harder to tip over in a bend.",
+   "rule": "In a caravan, put heavy things low and spread the load evenly left and right. This keeps it stable in bends.",
+   "trap": "'il più basso possibile' (as low as possible): heavy things go at the bottom, never up high.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Heavy items low in the caravan",
+    "it": "baricentro",
+    "lines": [
+     "Caravan going round a bend",
+     "Heavy items on the floor",
+     "Low weight = less tipping"
+    ],
+    "icons": [
+     "curve",
+     "truck",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "baricentro",
+    "en": "centre of gravity"
+   },
+   {
+    "it": "ribaltamento",
+    "en": "tipping over"
+   },
+   {
+    "it": "il più basso possibile",
+    "en": "as low as possible"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24076": {
+  "en": "In caravans, to reduce the risk of tipping over on a bend, the load must be placed as evenly as possible between the right and left side.",
+  "explain": {
+   "short": "If one side is heavier, the caravan leans and can tip over in a bend. An even load keeps it balanced.",
+   "rule": "In a caravan, put heavy things low and spread the load evenly left and right. This keeps it stable in bends.",
+   "trap": "'equilibrato tra lato destro e sinistro' (balanced between right and left): this is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Spread the load evenly left and right",
+    "it": "equilibrato",
+    "lines": [
+     "Caravan going round a bend",
+     "Same weight left and right",
+     "Balanced = more stable"
+    ],
+    "icons": [
+     "curve",
+     "truck",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "equilibrato",
+    "en": "balanced"
+   },
+   {
+    "it": "lato destro e sinistro",
+    "en": "right and left side"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24077": {
+  "en": "The caravan is not considered a trailer because it can be used as living accommodation.",
+  "explain": {
+   "short": "A caravan is a trailer: it has no engine and is towed by a car. Being able to sleep in it does not change that.",
+   "rule": "A caravan (roulotte) is a trailer. Nobody may stay inside it while it is moving.",
+   "trap": "'non è considerato un rimorchio' (is not considered a trailer): wrong, a caravan IS a trailer.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A caravan IS a trailer",
+    "it": "rimorchio",
+    "lines": [
+     "Car towing a caravan",
+     "The caravan is a trailer",
+     "Trailer rules apply to it"
+    ],
+    "icons": [
+     "car",
+     "truck",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "caravan",
+    "en": "caravan"
+   },
+   {
+    "it": "rimorchio",
+    "en": "trailer"
+   },
+   {
+    "it": "alloggio",
+    "en": "living accommodation"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24078": {
+  "en": "You may stay inside caravans (roulotte) while they are moving, provided that all passengers fasten their seat belts.",
+  "explain": {
+   "short": "Nobody may ride inside a caravan while it is moving. Seat belts do not make it allowed.",
+   "rule": "A caravan (roulotte) is a trailer. Nobody may stay inside it while it is moving.",
+   "trap": "'purché ... allaccino le cinture' (provided they fasten belts): a fake condition, it is never allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No people inside a moving caravan",
+    "it": "alloggiare",
+    "lines": [
+     "Caravan on the road",
+     "People inside: forbidden",
+     "Seat belts change nothing"
+    ],
+    "icons": [
+     "truck",
+     "cross",
+     "seatbelt"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "alloggiare",
+    "en": "stay, be lodged"
+   },
+   {
+    "it": "durante la circolazione",
+    "en": "while moving"
+   },
+   {
+    "it": "cinture di sicurezza",
+    "en": "seat belts"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24079": {
+  "en": "The trailer has a safety device that, if the trailer comes loose by accident, automatically applies the parking brake.",
+  "explain": {
+   "short": "If the trailer comes off the hook, a safety cable pulls its parking brake, so it stops by itself.",
+   "rule": "A trailer has a safety device: if it comes loose, its parking brake goes on by itself. When you leave it parked, pull its parking brake and on a slope add wheel chocks.",
+   "trap": "'automaticamente' (automatically): yes, the device works by itself.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A loose trailer brakes by itself",
+    "it": "sganciamento accidentale",
+    "lines": [
+     "Trailer comes off the hook",
+     "Safety device pulls the brake",
+     "The trailer stops by itself"
+    ],
+    "icons": [
+     "warning",
+     "brake",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dispositivo di sicurezza",
+    "en": "safety device"
+   },
+   {
+    "it": "sganciamento accidentale",
+    "en": "accidental uncoupling"
+   },
+   {
+    "it": "freno di stazionamento",
+    "en": "parking brake"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24080": {
+  "en": "In trailers with an inertia brake, after a long period of not being used, the brakes may have lost efficiency because of rust.",
+  "explain": {
+   "short": "A trailer that stands still for months can get rust in its brakes, so they work less well.",
+   "rule": "A trailer that stands still for a long time can have rusty, weaker brakes. Check them before you drive.",
+   "trap": "'potrebbero' (may): it is a possible risk, so check the brakes.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Long rest can rust the brakes",
+    "it": "ruggine",
+    "lines": [
+     "Trailer parked for months",
+     "Rust on the brakes",
+     "Check brakes before driving"
+    ],
+    "icons": [
+     "truck",
+     "brake",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "freno a inerzia",
+    "en": "inertia brake"
+   },
+   {
+    "it": "inattività",
+    "en": "not being used"
+   },
+   {
+    "it": "ruggine",
+    "en": "rust"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24081": {
+  "en": "When you leave a trailer parked you must pull the parking brake lever and, if the road slopes, it is advisable to put wheel chocks under the wheels.",
+  "explain": {
+   "short": "The parking brake holds the trailer; on a slope the wheel chocks (cunei) give extra safety.",
+   "rule": "A trailer has a safety device: if it comes loose, its parking brake goes on by itself. When you leave it parked, pull its parking brake and on a slope add wheel chocks.",
+   "trap": "'in caso di strada in pendenza' (on a sloping road): chocks are advised there.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking brake on, chocks on a slope",
+    "it": "cunei di arresto",
+    "lines": [
+     "Trailer left parked",
+     "Pull its parking brake",
+     "On a slope: wheel chocks"
+    ],
+    "icons": [
+     "truck",
+     "brake",
+     "hill"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "freno di stazionamento",
+    "en": "parking brake"
+   },
+   {
+    "it": "pendenza",
+    "en": "slope"
+   },
+   {
+    "it": "cunei di arresto",
+    "en": "wheel chocks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24082": {
+  "en": "A trailer with an inertia brake does not brake at the same time as the towing vehicle, because it brakes only after the trailer has pushed against the towing vehicle.",
+  "explain": {
+   "short": "The inertia brake is switched on by the trailer's push. So it always comes a little after the car brakes.",
+   "rule": "An inertia brake (freno a inerzia) works only when the trailer pushes against the towing car. So the trailer brakes a little AFTER the car, not at the same time and not before.",
+   "trap": "'non avviene simultaneamente' (not at the same time): correct, there is a small delay.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Inertia brake: trailer brakes a bit later",
+    "it": "freno a inerzia",
+    "lines": [
+     "Car brakes first",
+     "Trailer pushes on the car",
+     "Then the trailer brakes"
+    ],
+    "icons": [
+     "car",
+     "truck",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "freno a inerzia",
+    "en": "inertia brake"
+   },
+   {
+    "it": "simultaneamente",
+    "en": "at the same time"
+   },
+   {
+    "it": "spinta",
+    "en": "push"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24083": {
+  "en": "In a trailer with an inertia brake, the braking effect happens when the trailer moves closer to the towing vehicle.",
+  "explain": {
+   "short": "When the car slows, the trailer rolls up to it and pushes the hitch in. That push puts on the trailer brakes.",
+   "rule": "An inertia brake (freno a inerzia) works only when the trailer pushes against the towing car. So the trailer brakes a little AFTER the car, not at the same time and not before.",
+   "trap": "'si avvicina alla motrice' (moves closer to the towing vehicle): this is exactly how it works.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Trailer pushes in, then it brakes",
+    "it": "si avvicina",
+    "lines": [
+     "Car brakes first",
+     "Trailer pushes on the car",
+     "Then the trailer brakes"
+    ],
+    "icons": [
+     "car",
+     "truck",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "freno a inerzia",
+    "en": "inertia brake"
+   },
+   {
+    "it": "si avvicina alla motrice",
+    "en": "moves closer to the towing vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24084": {
+  "en": "When driving a vehicle with a trailer, while braking on a straight road, the load being carried will tend to move backwards.",
+  "explain": {
+   "short": "When you brake, the load wants to keep going, so it moves FORWARD, not backwards.",
+   "rule": "The load keeps moving the way it was going: when you brake it moves FORWARD, when you accelerate it moves BACKWARD.",
+   "trap": "'all'indietro' (backwards): wrong direction, in braking the load moves forward.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Braking: the load moves forward",
+    "it": "frenata",
+    "lines": [
+     "Braking on a straight road",
+     "The load keeps going",
+     "It moves forward, not back"
+    ],
+    "icons": [
+     "brake",
+     "truck",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "frenata",
+    "en": "braking"
+   },
+   {
+    "it": "marcia rettilinea",
+    "en": "driving straight"
+   },
+   {
+    "it": "all'indietro",
+    "en": "backwards"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24085": {
+  "en": "When driving a vehicle with a trailer, during a sudden acceleration on a straight road, the load being carried will tend to move forwards.",
+  "explain": {
+   "short": "When you speed up suddenly, the load stays behind, so it moves BACKWARDS, not forwards.",
+   "rule": "The load keeps moving the way it was going: when you brake it moves FORWARD, when you accelerate it moves BACKWARD.",
+   "trap": "'in avanti' (forwards): wrong direction, in acceleration the load moves back.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Accelerating: the load moves back",
+    "it": "accelerazione",
+    "lines": [
+     "Sudden acceleration",
+     "The load stays behind",
+     "It moves back, not forward"
+    ],
+    "icons": [
+     "speed",
+     "truck",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "brusca accelerazione",
+    "en": "sudden acceleration"
+   },
+   {
+    "it": "in avanti",
+    "en": "forwards"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24086": {
+  "en": "In cars fitted with A.B.S. it is not possible to hitch a trailer that has no braking system.",
+  "explain": {
+   "short": "ABS does not forbid towing. A car with ABS can tow a trailer without brakes, within the normal towing limits.",
+   "rule": "ABS on the car does not stop you towing a trailer, also one without brakes (within the towing limits).",
+   "trap": "'non è possibile' (it is not possible): invented ban, ABS has nothing to do with it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "ABS does not stop you towing",
+    "it": "A.B.S.",
+    "lines": [
+     "Car with ABS",
+     "Trailer without brakes",
+     "Towing is allowed"
+    ],
+    "icons": [
+     "car",
+     "brake",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "A.B.S.",
+    "en": "anti-lock braking system"
+   },
+   {
+    "it": "privo di impianto frenante",
+    "en": "without a braking system"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24087": {
+  "en": "In trailers with an inertia brake, the trailer brakes at the same time as the towing vehicle.",
+  "explain": {
+   "short": "The inertia brake needs the trailer's push first, so it brakes a little after the car, not at the same moment.",
+   "rule": "An inertia brake (freno a inerzia) works only when the trailer pushes against the towing car. So the trailer brakes a little AFTER the car, not at the same time and not before.",
+   "trap": "'simultaneamente' (at the same time): wrong, there is a small delay.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not at the same time: a bit later",
+    "it": "simultaneamente",
+    "lines": [
+     "Car brakes first",
+     "Trailer pushes on the car",
+     "Then the trailer brakes"
+    ],
+    "icons": [
+     "car",
+     "truck",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "freno a inerzia",
+    "en": "inertia brake"
+   },
+   {
+    "it": "simultaneamente",
+    "en": "at the same time"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24088": {
+  "en": "In trailers with an inertia brake, the trailer brakes about one second before the towing vehicle.",
+  "explain": {
+   "short": "It is the other way round: the trailer brakes after the car, when it pushes on it. It can never brake before.",
+   "rule": "An inertia brake (freno a inerzia) works only when the trailer pushes against the towing car. So the trailer brakes a little AFTER the car, not at the same time and not before.",
+   "trap": "'prima della motrice' (before the towing vehicle): wrong order, it is AFTER.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Trailer brakes after the car, not before",
+    "it": "prima della motrice",
+    "lines": [
+     "Car brakes first",
+     "Trailer pushes on the car",
+     "Then the trailer brakes"
+    ],
+    "icons": [
+     "car",
+     "truck",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "freno a inerzia",
+    "en": "inertia brake"
+   },
+   {
+    "it": "prima della motrice",
+    "en": "before the towing vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24089": {
+  "en": "In built-up areas the driver must not leave a trailer parked unhitched from the towing vehicle, unless signs say otherwise.",
+  "explain": {
+   "short": "In towns a trailer left alone, without its car, takes space and blocks traffic. So it is forbidden unless a sign allows it.",
+   "rule": "Trailer rules: it is a separate vehicle with its own registration, plate, inspection and documents; it travels covered by the towing vehicle's insurance; the towing vehicle needs a right mirror.",
+   "trap": "'salvo diversa segnalazione' (unless signs say otherwise): signs can allow it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "In town: no unhitched trailer parked",
+    "it": "staccato dalla motrice",
+    "lines": [
+     "Built-up area (town)",
+     "Trailer parked without its car",
+     "Forbidden, unless a sign allows"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "centri abitati",
+    "en": "built-up areas"
+   },
+   {
+    "it": "staccato dalla motrice",
+    "en": "unhitched from the towing vehicle"
+   },
+   {
+    "it": "salvo diversa segnalazione",
+    "en": "unless signs say otherwise"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24090": {
+  "en": "While on the road, trailers must be insured with the same policy as the towing vehicle.",
+  "explain": {
+   "short": "When a trailer is being towed, the towing vehicle's insurance covers the damage it can cause.",
+   "rule": "Trailer rules: it is a separate vehicle with its own registration, plate, inspection and documents; it travels covered by the towing vehicle's insurance; the towing vehicle needs a right mirror.",
+   "trap": "'Durante la circolazione' (while on the road): when it is towed, the car's policy covers it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Towed trailer: covered by the car's policy",
+    "it": "polizza",
+    "lines": [
+     "Car towing a trailer",
+     "One insurance policy",
+     "The car's policy covers both"
+    ],
+    "icons": [
+     "car",
+     "truck",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "durante la circolazione",
+    "en": "while on the road"
+   },
+   {
+    "it": "polizza",
+    "en": "insurance policy"
+   },
+   {
+    "it": "motrice",
+    "en": "towing vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24091": {
+  "en": "The outside mirrors fitted on the towing vehicle must not stick out more than 20 centimetres beyond the outline of the vehicle (towing vehicle or trailer), measured at the widest point.",
+  "explain": {
+   "short": "Mirrors may stick out only a little, at most 20 cm beyond the widest part, so they do not hit people or objects.",
+   "rule": "Outside mirrors on the towing car may stick out at most 20 cm beyond the widest point of car or trailer.",
+   "trap": "'20 centimetri' measured from the widest point: this is the correct number.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mirrors: max 20 cm beyond the widest point",
+    "it": "specchietti esterni",
+    "lines": [
+     "Car towing a wide trailer",
+     "Extra outside mirrors",
+     "Max 20 cm beyond the widest point"
+    ],
+    "icons": [
+     "car",
+     "mirror",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "specchietti esterni",
+    "en": "outside mirrors"
+   },
+   {
+    "it": "sporgere",
+    "en": "stick out"
+   },
+   {
+    "it": "maggiore larghezza",
+    "en": "widest point"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24092": {
+  "en": "The towing ratio, within the limits technically allowed for the vehicle, must not be more than 1 for trailers with a service brake and a mass of up to 3.5 tonnes.",
+  "explain": {
+   "short": "A braked trailer up to 3.5 t may weigh at most as much as the towing car (ratio 1).",
+   "rule": "Towing ratio (rapporto di traino: trailer mass compared with car mass): max 1 for a braked trailer up to 3.5 t, max 0.5 for a trailer without brakes.",
+   "trap": "'muniti di freno di servizio' (with a service brake): with brakes the limit is 1.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Braked trailer: towing ratio max 1",
+    "it": "rapporto di traino",
+    "lines": [
+     "Trailer with its own brakes",
+     "Up to 3.5 t",
+     "Trailer mass max = car mass"
+    ],
+    "icons": [
+     "truck",
+     "brake",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rapporto di traino",
+    "en": "towing ratio"
+   },
+   {
+    "it": "freno di servizio",
+    "en": "service brake"
+   },
+   {
+    "it": "3,5 tonnellate",
+    "en": "3.5 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24093": {
+  "en": "The maximum towing ratio for a trailer without any braking device is 0.5.",
+  "explain": {
+   "short": "A trailer with no brakes may weigh at most half of the towing car (ratio 0.5), because only the car brakes.",
+   "rule": "Towing ratio (rapporto di traino: trailer mass compared with car mass): max 1 for a braked trailer up to 3.5 t, max 0.5 for a trailer without brakes.",
+   "trap": "'sprovvisto di qualsiasi dispositivo di frenatura' (no brakes at all): then the limit is 0.5.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Unbraked trailer: towing ratio max 0.5",
+    "it": "rapporto di traino",
+    "lines": [
+     "Trailer without brakes",
+     "Only the car brakes",
+     "Trailer mass max half the car"
+    ],
+    "icons": [
+     "truck",
+     "brake",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rapporto di traino",
+    "en": "towing ratio"
+   },
+   {
+    "it": "sprovvisto",
+    "en": "without"
+   },
+   {
+    "it": "dispositivo di frenatura",
+    "en": "braking device"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24094": {
+  "en": "When the tow hook is not used, because you are not towing a trailer, the part sticking out from the rear outline of the vehicle must be removed, taken off or folded away.",
+  "explain": {
+   "short": "An unused tow ball sticking out behind can hurt people or damage other cars. So it must be taken out or folded.",
+   "rule": "Trailer rules: it is a separate vehicle with its own registration, plate, inspection and documents; it travels covered by the towing vehicle's insurance; the towing vehicle needs a right mirror.",
+   "trap": "'sfilata, smontata o ripiegata' (pulled out, removed or folded): any of these is fine.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Unused tow hook: remove or fold it",
+    "it": "gancio di traino",
+    "lines": [
+     "Car not towing anything",
+     "Tow hook sticking out",
+     "Remove it or fold it away"
+    ],
+    "icons": [
+     "car",
+     "warning",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "gancio di traino",
+    "en": "tow hook"
+   },
+   {
+    "it": "sagoma posteriore",
+    "en": "rear outline"
+   },
+   {
+    "it": "ripiegata",
+    "en": "folded"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24095": {
+  "en": "T.A.T.S. trailers are meant to carry equipment that must not be for trade, but used only for free time.",
+  "explain": {
+   "short": "T.A.T.S. means trailers for tourist and sports equipment (like a boat or bikes). They are for leisure, not for business.",
+   "rule": "Trailer rules: it is a separate vehicle with its own registration, plate, inspection and documents; it travels covered by the towing vehicle's insurance; the towing vehicle needs a right mirror.",
+   "trap": "'non devono costituire oggetto di commercio' (not for trade): correct, leisure only.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "T.A.T.S.: leisure gear only, not trade",
+    "it": "T.A.T.S.",
+    "lines": [
+     "T.A.T.S. trailer",
+     "Boat, bikes, sports gear",
+     "Free time only, not for sale"
+    ],
+    "icons": [
+     "truck",
+     "leaf",
+     "money"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "T.A.T.S.",
+    "en": "trailer for tourist and sports equipment"
+   },
+   {
+    "it": "oggetto di commercio",
+    "en": "goods for trade"
+   },
+   {
+    "it": "tempo libero",
+    "en": "free time"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24096": {
+  "en": "Drivers of motor vehicles towing a trailer, when the total laden mass of the combination is over 3.5 tonnes, are considered drunk if a blood alcohol level above zero grams per litre is found.",
+  "explain": {
+   "short": "For drivers of vehicles or combinations over 3.5 t the alcohol limit is zero. Any alcohol counts as drunk driving.",
+   "rule": "Trailer rules: it is a separate vehicle with its own registration, plate, inspection and documents; it travels covered by the towing vehicle's insurance; the towing vehicle needs a right mirror.",
+   "trap": "'superiore a zero' (above zero): for these drivers even a little alcohol is too much.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Combination over 3.5 t: zero alcohol",
+    "it": "tasso alcolemico",
+    "lines": [
+     "Car + trailer over 3.5 t",
+     "Alcohol limit: zero",
+     "Any alcohol = drunk driving"
+    ],
+    "icons": [
+     "truck",
+     "alcohol",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "massa complessiva a pieno carico",
+    "en": "total laden mass"
+   },
+   {
+    "it": "stato di ebbrezza",
+    "en": "drunk state"
+   },
+   {
+    "it": "tasso alcolemico",
+    "en": "blood alcohol level"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24097": {
+  "en": "On motorways whose carriageways have three or more lanes, drivers of vehicle combinations longer than 7 metres in total may not use any lanes other than the two nearest the right edge of the carriageway.",
+  "explain": {
+   "short": "Long, slow combinations must stay in the two right-hand lanes, so the left lane stays free for faster traffic.",
+   "rule": "On motorways with 3 or more lanes, a combination longer than 7 m may use only the two right-hand lanes. Horse trailers may use motorways.",
+   "trap": "'le due più vicine al bordo destro' (the two nearest the right edge): only those two lanes.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Over 7 m: only the two right lanes",
+    "it": "autostrade",
+    "lines": [
+     "Motorway with 3 lanes",
+     "Car + caravan over 7 m long",
+     "Only the two right-hand lanes"
+    ],
+    "icons": [
+     "road",
+     "truck",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autostrade",
+    "en": "motorways"
+   },
+   {
+    "it": "superiore a 7 metri",
+    "en": "over 7 metres"
+   },
+   {
+    "it": "bordo destro",
+    "en": "right edge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24098": {
+  "en": "While on the road, trailers with a maximum laden mass of up to 3.5 tonnes must be marked with rear and side retro-reflective strips.",
+  "explain": {
+   "short": "Reflective strips on the back and sides are required for heavy trailers, over 3.5 t, not for light ones.",
+   "rule": "Trailer rules: it is a separate vehicle with its own registration, plate, inspection and documents; it travels covered by the towing vehicle's insurance; the towing vehicle needs a right mirror.",
+   "trap": "'fino a 3,5 tonnellate' (up to 3.5 tonnes): the strips are for trailers ABOVE 3.5 t.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Reflective strips: only trailers over 3.5 t",
+    "it": "strisce retroriflettenti",
+    "lines": [
+     "Trailer up to 3.5 t",
+     "No reflective strips needed",
+     "Required only over 3.5 t"
+    ],
+    "icons": [
+     "truck",
+     "light",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fino a 3,5 tonnellate",
+    "en": "up to 3.5 tonnes"
+   },
+   {
+    "it": "strisce",
+    "en": "strips"
+   },
+   {
+    "it": "retroriflettenti",
+    "en": "retro-reflective"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24099": {
+  "en": "You may tow unregistered trailers if their mass is less than 750 kilograms.",
+  "explain": {
+   "short": "Every trailer must be registered and have its own documents, also a light one under 750 kg.",
+   "rule": "Trailer rules: it is a separate vehicle with its own registration, plate, inspection and documents; it travels covered by the towing vehicle's insurance; the towing vehicle needs a right mirror.",
+   "trap": "'non immatricolati' (unregistered): no trailer may be towed without registration.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Every trailer must be registered",
+    "it": "non immatricolati",
+    "lines": [
+     "Light trailer under 750 kg",
+     "Not registered",
+     "Not allowed: register it"
+    ],
+    "icons": [
+     "truck",
+     "book",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non immatricolati",
+    "en": "unregistered"
+   },
+   {
+    "it": "750 chilogrammi",
+    "en": "750 kilograms"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24100": {
+  "en": "The trailer is considered an integral part of the vehicle if its mass is up to 3.5 tonnes.",
+  "explain": {
+   "short": "A trailer is always a separate vehicle with its own documents, whatever its mass.",
+   "rule": "Trailer rules: it is a separate vehicle with its own registration, plate, inspection and documents; it travels covered by the towing vehicle's insurance; the towing vehicle needs a right mirror.",
+   "trap": "'parte integrante del veicolo' (integral part of the vehicle): wrong, it is a vehicle on its own.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A trailer is a separate vehicle",
+    "it": "parte integrante",
+    "lines": [
+     "Car and trailer",
+     "Two separate vehicles",
+     "Mass does not change this"
+    ],
+    "icons": [
+     "car",
+     "truck",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "parte integrante",
+    "en": "integral part"
+   },
+   {
+    "it": "3,5 tonnellate",
+    "en": "3.5 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24101": {
+  "en": "The width of the trailer must not be more than the width of the towing vehicle.",
+  "explain": {
+   "short": "A trailer may be wider than the car. Then the car needs extra outside mirrors to see behind it.",
+   "rule": "Outside mirrors on the towing car may stick out at most 20 cm beyond the widest point of car or trailer.",
+   "trap": "'non deve superare' (must not be more): no such rule exists.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A trailer may be wider than the car",
+    "it": "larghezza",
+    "lines": [
+     "Trailer wider than the car",
+     "This is allowed",
+     "Fit extra mirrors to see behind"
+    ],
+    "icons": [
+     "truck",
+     "check",
+     "mirror"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "larghezza",
+    "en": "width"
+   },
+   {
+    "it": "veicolo trainante",
+    "en": "towing vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24102": {
+  "en": "The trailer is an integral part of the vehicle it was paired with at the inspection and cannot be hitched to another vehicle.",
+  "explain": {
+   "short": "A trailer is a separate vehicle. It can be towed by any vehicle that is allowed to tow it.",
+   "rule": "Trailer rules: it is a separate vehicle with its own registration, plate, inspection and documents; it travels covered by the towing vehicle's insurance; the towing vehicle needs a right mirror.",
+   "trap": "'non può essere agganciato a un altro veicolo' (cannot be hitched to another vehicle): wrong, it can.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Any suitable car may tow the trailer",
+    "it": "agganciato",
+    "lines": [
+     "One trailer",
+     "Different towing cars",
+     "Allowed if each car may tow it"
+    ],
+    "icons": [
+     "truck",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "parte integrante",
+    "en": "integral part"
+   },
+   {
+    "it": "collaudo",
+    "en": "type inspection"
+   },
+   {
+    "it": "agganciato",
+    "en": "hitched"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24103": {
+  "en": "If you tow caravans and T.A.T.S. trailers, it is not compulsory for the towing vehicle to have a right-hand rear-view mirror.",
+  "explain": {
+   "short": "With a trailer you see less behind you. The right mirror is compulsory, also with caravans and T.A.T.S.",
+   "rule": "Trailer rules: it is a separate vehicle with its own registration, plate, inspection and documents; it travels covered by the towing vehicle's insurance; the towing vehicle needs a right mirror.",
+   "trap": "'non è obbligatorio' (not compulsory): wrong, the right mirror is required.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Towing: right mirror is compulsory",
+    "it": "specchietto retrovisore destro",
+    "lines": [
+     "Car towing a caravan",
+     "Right-hand mirror needed",
+     "Compulsory for every trailer"
+    ],
+    "icons": [
+     "car",
+     "mirror",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è obbligatorio",
+    "en": "is not compulsory"
+   },
+   {
+    "it": "specchietto retrovisore destro",
+    "en": "right-hand rear-view mirror"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24104": {
+  "en": "The outside mirrors fitted on the towing vehicle may stick out up to 50 centimetres from the outline of the widest vehicle, if they are placed at a height above the ground of no more than 1 metre.",
+  "explain": {
+   "short": "The limit is 20 cm beyond the widest point, not 50 cm. There is no special case for low mirrors.",
+   "rule": "Outside mirrors on the towing car may stick out at most 20 cm beyond the widest point of car or trailer.",
+   "trap": "'fino a 50 centimetri' (up to 50 cm): wrong number, the limit is 20 cm.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Limit is 20 cm, not 50 cm",
+    "it": "50 centimetri",
+    "lines": [
+     "Extra outside mirrors",
+     "50 cm: too much",
+     "Max 20 cm beyond the widest point"
+    ],
+    "icons": [
+     "mirror",
+     "cross",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "specchietti esterni",
+    "en": "outside mirrors"
+   },
+   {
+    "it": "50 centimetri",
+    "en": "50 centimetres"
+   },
+   {
+    "it": "altezza da terra",
+    "en": "height above the ground"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24105": {
+  "en": "Within the maximum width set for T.A.T.S. trailers, the boats carried may stick out up to 50 centimetres on each side beyond the outer edges of the rear position lights.",
+  "explain": {
+   "short": "The official answer says this 50 cm allowance on each side does not exist for boats on T.A.T.S. trailers.",
+   "rule": "Load may not stick out at the front. Load sticking out at the back must always be signalled, also on light trailers.",
+   "trap": "'fino a 50 centimetri per ogni lato' (up to 50 cm on each side): this allowance is invented.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No 50 cm side overhang for boats",
+    "it": "sporgere",
+    "lines": [
+     "T.A.T.S. trailer with a boat",
+     "Boat 50 cm out on each side",
+     "Not allowed"
+    ],
+    "icons": [
+     "truck",
+     "distance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "T.A.T.S.",
+    "en": "trailer for tourist and sports equipment"
+   },
+   {
+    "it": "imbarcazioni",
+    "en": "boats"
+   },
+   {
+    "it": "luci di posizione posteriori",
+    "en": "rear position lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24106": {
+  "en": "A holder of a category BE driving licence who later gets a category C licence may also drive category CE vehicles.",
+  "explain": {
+   "short": "CE is a separate licence: you need to pass the CE test. BE plus C does not give you CE.",
+   "rule": "Trailer rules: it is a separate vehicle with its own registration, plate, inspection and documents; it travels covered by the towing vehicle's insurance; the towing vehicle needs a right mirror.",
+   "trap": "'può guidare anche veicoli della categoria CE' (may also drive CE): wrong, CE needs its own exam.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "BE + C does not give CE",
+    "it": "categoria CE",
+    "lines": [
+     "Licence BE, then C",
+     "CE is not included",
+     "CE needs its own exam"
+    ],
+    "icons": [
+     "book",
+     "truck",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "categoria BE",
+    "en": "category BE"
+   },
+   {
+    "it": "categoria C",
+    "en": "category C"
+   },
+   {
+    "it": "categoria CE",
+    "en": "category CE"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24107": {
+  "en": "For vehicle combinations with trailers up to 3.5 tonnes, there is no obligation to put on the back the discs showing their own maximum speed limits.",
+  "explain": {
+   "short": "Combinations with a trailer have lower speed limits, and the speed discs on the back are compulsory, also for light trailers.",
+   "rule": "Trailer rules: it is a separate vehicle with its own registration, plate, inspection and documents; it travels covered by the towing vehicle's insurance; the towing vehicle needs a right mirror.",
+   "trap": "'non vige l'obbligo' (there is no obligation): wrong, the speed discs are compulsory.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Speed limit discs on the back are compulsory",
+    "it": "contrassegni",
+    "lines": [
+     "Car + trailer up to 3.5 t",
+     "Speed limit discs on the back",
+     "Compulsory"
+    ],
+    "icons": [
+     "truck",
+     "speed",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non vige l'obbligo",
+    "en": "there is no obligation"
+   },
+   {
+    "it": "contrassegni",
+    "en": "discs, marks"
+   },
+   {
+    "it": "limiti massimi di velocità",
+    "en": "maximum speed limits"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24108": {
+  "en": "When towing a trailer carrying live animals you must keep the hazard warning lights on to tell other drivers to increase their safety distance.",
+  "explain": {
+   "short": "Hazard lights are for a stopped vehicle or real danger, not for normal driving with animals.",
+   "rule": "Trailer rules: it is a separate vehicle with its own registration, plate, inspection and documents; it travels covered by the towing vehicle's insurance; the towing vehicle needs a right mirror.",
+   "trap": "'occorre tenere in funzione la segnalazione luminosa di pericolo' (must keep hazard lights on): invented duty.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No hazard lights just for animals",
+    "it": "segnalazione luminosa di pericolo",
+    "lines": [
+     "Trailer with live animals",
+     "Hazard lights: not required",
+     "Drive normally and smoothly"
+    ],
+    "icons": [
+     "truck",
+     "light",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "animali vivi",
+    "en": "live animals"
+   },
+   {
+    "it": "segnalazione luminosa di pericolo",
+    "en": "hazard warning lights"
+   },
+   {
+    "it": "distanza di sicurezza",
+    "en": "safety distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24109": {
+  "en": "When towing a trailer you must take off the towing vehicle's number plate and fix it on the back of the trailer.",
+  "explain": {
+   "short": "You never move the car's plate. The trailer has its own plate (a light trailer carries a repeat plate).",
+   "rule": "Trailer rules: it is a separate vehicle with its own registration, plate, inspection and documents; it travels covered by the towing vehicle's insurance; the towing vehicle needs a right mirror.",
+   "trap": "'staccare la targa della motrice' (take off the car's plate): wrong, the car keeps its plate.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Don't move the car's plate",
+    "it": "targa",
+    "lines": [
+     "Car towing a trailer",
+     "Car keeps its own plate",
+     "Trailer has its own plate"
+    ],
+    "icons": [
+     "car",
+     "truck",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "staccare la targa",
+    "en": "take off the plate"
+   },
+   {
+    "it": "motrice",
+    "en": "towing vehicle"
+   },
+   {
+    "it": "parte posteriore",
+    "en": "back"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24110": {
+  "en": "If the towable mass is missing from the registration document, this means the vehicle can tow trailers of any mass.",
+  "explain": {
+   "short": "If the registration document shows no towable mass, the vehicle may not tow a trailer at all.",
+   "rule": "Trailer rules: it is a separate vehicle with its own registration, plate, inspection and documents; it travels covered by the towing vehicle's insurance; the towing vehicle needs a right mirror.",
+   "trap": "'di qualsiasi massa' (of any mass): the opposite is true, no towable mass means no towing.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No towable mass = no towing",
+    "it": "massa rimorchiabile",
+    "lines": [
+     "Registration document",
+     "No towable mass written",
+     "The car may not tow"
+    ],
+    "icons": [
+     "book",
+     "truck",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carta di circolazione",
+    "en": "registration document"
+   },
+   {
+    "it": "massa rimorchiabile",
+    "en": "towable mass"
+   },
+   {
+    "it": "qualsiasi massa",
+    "en": "any mass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24111": {
+  "en": "Trailers must have their periodic inspection together with the towing vehicle.",
+  "explain": {
+   "short": "A trailer is a separate vehicle and has its own periodic inspection (revisione), not tied to the towing car.",
+   "rule": "Trailer rules: it is a separate vehicle with its own registration, plate, inspection and documents; it travels covered by the towing vehicle's insurance; the towing vehicle needs a right mirror.",
+   "trap": "'insieme al veicolo trainante' (together with the towing vehicle): wrong, each has its own.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Trailer has its own inspection",
+    "it": "revisione periodica",
+    "lines": [
+     "Car: its own inspection",
+     "Trailer: its own inspection",
+     "Not done together"
+    ],
+    "icons": [
+     "car",
+     "truck",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "revisione periodica",
+    "en": "periodic inspection"
+   },
+   {
+    "it": "insieme al veicolo trainante",
+    "en": "together with the towing vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24112": {
+  "en": "On trailers, the load carried may stick out at the front up to 3/10 of the length of the vehicle combination.",
+  "explain": {
+   "short": "Load must never stick out at the front of a vehicle. 3/10 is a limit for the rear overhang, not the front.",
+   "rule": "Load may not stick out at the front. Load sticking out at the back must always be signalled, also on light trailers.",
+   "trap": "'dalla parte anteriore' (at the front): wrong side, 3/10 is about the back.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No load sticking out at the front",
+    "it": "parte anteriore",
+    "lines": [
+     "Load on a trailer",
+     "Sticking out at the front",
+     "Not allowed"
+    ],
+    "icons": [
+     "truck",
+     "distance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sporgere",
+    "en": "stick out"
+   },
+   {
+    "it": "parte anteriore",
+    "en": "front"
+   },
+   {
+    "it": "3/10",
+    "en": "three tenths"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24113": {
+  "en": "On light trailers, the load carried may stick out at the back without any duty to signal it.",
+  "explain": {
+   "short": "Load sticking out at the back must always be signalled with the special panel, also on light trailers.",
+   "rule": "Load may not stick out at the front. Load sticking out at the back must always be signalled, also on light trailers.",
+   "trap": "'senza obbligo di specifiche segnalazioni' (without signalling): wrong, it must be signalled.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Rear overhang: always signal it",
+    "it": "sporgere posteriormente",
+    "lines": [
+     "Light trailer",
+     "Load sticking out at the back",
+     "Signal it with the panel"
+    ],
+    "icons": [
+     "truck",
+     "warning",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rimorchi leggeri",
+    "en": "light trailers"
+   },
+   {
+    "it": "sporgere posteriormente",
+    "en": "stick out at the back"
+   },
+   {
+    "it": "segnalazioni",
+    "en": "signals"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24114": {
+  "en": "Trailers for carrying horses (horse boxes) may not travel on the motorway.",
+  "explain": {
+   "short": "Horse trailers may use the motorway like other trailers. There is no special ban.",
+   "rule": "On motorways with 3 or more lanes, a combination longer than 7 m may use only the two right-hand lanes. Horse trailers may use motorways.",
+   "trap": "'non possono circolare in autostrada' (may not use the motorway): invented ban.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Horse trailers may use the motorway",
+    "it": "autostrada",
+    "lines": [
+     "Car towing a horse trailer",
+     "Joining the motorway",
+     "Allowed"
+    ],
+    "icons": [
+     "car",
+     "road",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "trasporto di cavalli",
+    "en": "carrying horses"
+   },
+   {
+    "it": "autostrada",
+    "en": "motorway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24115": {
+  "en": "When driving a vehicle with a trailer and turning right, you must take special care not to hit, with the right rear wheel, any pedestrians who are near the pavement.",
+  "explain": {
+   "short": "When you turn, the trailer wheels cut inside the curve, close to the pavement, where people may stand.",
+   "rule": "Driving with a trailer: it cuts inside on bends, needs more space, pushes you downhill, slows your acceleration and uses more fuel. Check the area before manoeuvring.",
+   "trap": "'la ruota posteriore destra' (the right rear wheel): it passes closer to the kerb than the front.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Turning right: rear wheels cut close",
+    "it": "svoltare a destra",
+    "lines": [
+     "Turning right with a trailer",
+     "Rear wheels cut inside",
+     "Watch pedestrians at the kerb"
+    ],
+    "icons": [
+     "curve",
+     "truck",
+     "pedestrian"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "svoltare a destra",
+    "en": "turning right"
+   },
+   {
+    "it": "ruota posteriore destra",
+    "en": "right rear wheel"
+   },
+   {
+    "it": "marciapiede",
+    "en": "pavement"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24116": {
+  "en": "When towing a trailer, you must consider that on bends the space taken up is larger.",
+  "explain": {
+   "short": "On a bend the trailer follows a tighter line than the car, so the whole combination needs a wider strip of road.",
+   "rule": "Driving with a trailer: it cuts inside on bends, needs more space, pushes you downhill, slows your acceleration and uses more fuel. Check the area before manoeuvring.",
+   "trap": "'fascia di ingombro è maggiore' (the space taken is larger): correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "On bends you need more space",
+    "it": "fascia di ingombro",
+    "lines": [
+     "Car + trailer on a bend",
+     "Trailer takes a tighter line",
+     "Needs a wider strip of road"
+    ],
+    "icons": [
+     "curve",
+     "truck",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "curve",
+    "en": "bends"
+   },
+   {
+    "it": "fascia di ingombro",
+    "en": "space taken up"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24117": {
+  "en": "When towing a trailer on steep downhill roads, you must take into account the pushing force of the trailer on the towing vehicle.",
+  "explain": {
+   "short": "Downhill the trailer's weight pushes the car forward. Use a low gear and keep a lower speed.",
+   "rule": "Driving with a trailer: it cuts inside on bends, needs more space, pushes you downhill, slows your acceleration and uses more fuel. Check the area before manoeuvring.",
+   "trap": "'forza di spinta' (pushing force): the trailer pushes the car, especially downhill.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Downhill the trailer pushes you",
+    "it": "forza di spinta",
+    "lines": [
+     "Steep downhill road",
+     "Trailer pushes the car",
+     "Low gear, lower speed"
+    ],
+    "icons": [
+     "hill",
+     "truck",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "forti discese",
+    "en": "steep descents"
+   },
+   {
+    "it": "forza di spinta",
+    "en": "pushing force"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24118": {
+  "en": "When towing a trailer, especially a loaded one, the vehicle's ability to accelerate (pick-up) is clearly reduced.",
+  "explain": {
+   "short": "The engine has to move much more weight, so the car speeds up more slowly. Plan overtakes with more space.",
+   "rule": "Driving with a trailer: it cuts inside on bends, needs more space, pushes you downhill, slows your acceleration and uses more fuel. Check the area before manoeuvring.",
+   "trap": "'specie se carico' (especially if loaded): more weight, less pick-up.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "With a trailer you accelerate slower",
+    "it": "ripresa",
+    "lines": [
+     "Car + loaded trailer",
+     "More weight to move",
+     "Slower acceleration"
+    ],
+    "icons": [
+     "truck",
+     "engine",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "specie se carico",
+    "en": "especially if loaded"
+   },
+   {
+    "it": "capacità di accelerazione",
+    "en": "ability to accelerate"
+   },
+   {
+    "it": "ripresa",
+    "en": "pick-up"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24119": {
+  "en": "Before doing any manoeuvre with the trailer hitched, it is good to make sure there are no objects and/or people within the turning area of the combination.",
+  "explain": {
+   "short": "A car with a trailer is long and hard to see around. Check the whole area before you move.",
+   "rule": "Driving with a trailer: it cuts inside on bends, needs more space, pushes you downhill, slows your acceleration and uses more fuel. Check the area before manoeuvring.",
+   "trap": "'raggio di manovra del complesso' (the combination's turning area): bigger than a car's.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Check the area before manoeuvring",
+    "it": "raggio di manovra",
+    "lines": [
+     "Manoeuvring with a trailer",
+     "Large turning area",
+     "Check no people or objects"
+    ],
+    "icons": [
+     "truck",
+     "eye",
+     "pedestrian"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "manovra",
+    "en": "manoeuvre"
+   },
+   {
+    "it": "raggio di manovra",
+    "en": "turning area"
+   },
+   {
+    "it": "complesso",
+    "en": "combination"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24120": {
+  "en": "On bends the trailer tends to \"cut in\" because it follows a circular path with a smaller radius than the towing vehicle.",
+  "explain": {
+   "short": "The trailer follows inside the car's line, on a smaller circle. So it cuts towards the inside of the bend.",
+   "rule": "Driving with a trailer: it cuts inside on bends, needs more space, pushes you downhill, slows your acceleration and uses more fuel. Check the area before manoeuvring.",
+   "trap": "'raggio inferiore' (smaller radius): yes, the trailer's circle is smaller.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "On bends the trailer cuts inside",
+    "it": "stringere",
+    "lines": [
+     "Car + trailer on a bend",
+     "Trailer on a smaller circle",
+     "It cuts towards the inside"
+    ],
+    "icons": [
+     "curve",
+     "truck",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "stringere",
+    "en": "cut in"
+   },
+   {
+    "it": "traiettoria circolare",
+    "en": "circular path"
+   },
+   {
+    "it": "raggio inferiore",
+    "en": "smaller radius"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24121": {
+  "en": "The movements of liquid inside a tank fixed to a trailer, during changes of direction, braking and acceleration, are the main causes of instability of vehicle combinations.",
+  "explain": {
+   "short": "Liquid in a tank sloshes from side to side and back and forth, and pushes the trailer. This makes it very unstable.",
+   "rule": "Driving with a trailer: it cuts inside on bends, needs more space, pushes you downhill, slows your acceleration and uses more fuel. Check the area before manoeuvring.",
+   "trap": "'maggiori cause di instabilità' (main causes of instability): correct for liquid loads.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Sloshing liquid makes it unstable",
+    "it": "instabilità",
+    "lines": [
+     "Trailer with a liquid tank",
+     "Liquid sloshes in turns, braking",
+     "Big risk of instability"
+    ],
+    "icons": [
+     "truck",
+     "brake",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "liquido",
+    "en": "liquid"
+   },
+   {
+    "it": "serbatoio",
+    "en": "tank"
+   },
+   {
+    "it": "instabilità",
+    "en": "instability"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24122": {
+  "en": "When towing a trailer you must check that the load on the hook does not change the vehicle's attitude and the angle of the headlight beam.",
+  "explain": {
+   "short": "Too much weight on the hook lowers the back of the car, so the headlights point up and dazzle others.",
+   "rule": "The coupling (organi di traino) must be type-approved, clean, greased, with no play, bends or cracks. If it breaks, replace it; do not weld it. Respect the maximum vertical load on the hook.",
+   "trap": "'inclinazione del fascio luminoso dei fari' (angle of the headlight beam): it changes if the car tilts.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Weight on the hook can tilt the lights",
+    "it": "assetto",
+    "lines": [
+     "Heavy weight on the hook",
+     "Car's back goes down",
+     "Headlights point up: check"
+    ],
+    "icons": [
+     "truck",
+     "light",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "gancio",
+    "en": "hook"
+   },
+   {
+    "it": "assetto",
+    "en": "attitude, level"
+   },
+   {
+    "it": "fascio luminoso dei fari",
+    "en": "headlight beam"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24123": {
+  "en": "When taking a bend at moderate speed, the trailer always follows the same path as the towing vehicle.",
+  "explain": {
+   "short": "Even at low speed the trailer cuts inside the bend. It never follows exactly the car's path.",
+   "rule": "Driving with a trailer: it cuts inside on bends, needs more space, pushes you downhill, slows your acceleration and uses more fuel. Check the area before manoeuvring.",
+   "trap": "'sempre lo stesso percorso' (always the same path): wrong, the trailer cuts in.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The trailer cuts inside, even slowly",
+    "it": "stesso percorso",
+    "lines": [
+     "Car + trailer on a bend",
+     "Trailer does not follow the car",
+     "It cuts inside, even slowly"
+    ],
+    "icons": [
+     "curve",
+     "truck",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "velocità moderata",
+    "en": "moderate speed"
+   },
+   {
+    "it": "sempre",
+    "en": "always"
+   },
+   {
+    "it": "stesso percorso",
+    "en": "same path"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24124": {
+  "en": "While driving, the trailer must have its swivel jockey wheel lowered (resting on the ground).",
+  "explain": {
+   "short": "The jockey wheel (ruotino) is only for moving the trailer by hand. While driving it must be raised.",
+   "rule": "Driving with a trailer: it cuts inside on bends, needs more space, pushes you downhill, slows your acceleration and uses more fuel. Check the area before manoeuvring.",
+   "trap": "'abbassato (poggiato al suolo)' (lowered, on the ground): wrong, it must be up.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Jockey wheel up while driving",
+    "it": "ruotino",
+    "lines": [
+     "Trailer on the road",
+     "Jockey wheel down: no",
+     "Raise it before you drive"
+    ],
+    "icons": [
+     "truck",
+     "tyre",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ruotino pivottante",
+    "en": "swivel jockey wheel"
+   },
+   {
+    "it": "abbassato",
+    "en": "lowered"
+   },
+   {
+    "it": "suolo",
+    "en": "ground"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24125": {
+  "en": "In vehicles fitted with parking sensors it is not possible to hitch a trailer.",
+  "explain": {
+   "short": "Parking sensors do not stop you from towing. You may still hitch a trailer.",
+   "rule": "Driving with a trailer: it cuts inside on bends, needs more space, pushes you downhill, slows your acceleration and uses more fuel. Check the area before manoeuvring.",
+   "trap": "'non è possibile' (it is not possible): invented ban.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking sensors don't stop towing",
+    "it": "sensori di parcheggio",
+    "lines": [
+     "Car with parking sensors",
+     "Hitching a trailer",
+     "Allowed"
+    ],
+    "icons": [
+     "car",
+     "truck",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sensori di parcheggio",
+    "en": "parking sensors"
+   },
+   {
+    "it": "agganciare",
+    "en": "hitch"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24126": {
+  "en": "Towing a trailer does not increase fuel consumption if you drive at moderate speed.",
+  "explain": {
+   "short": "More weight and more air resistance always mean more fuel, even at a moderate speed.",
+   "rule": "Driving with a trailer: it cuts inside on bends, needs more space, pushes you downhill, slows your acceleration and uses more fuel. Check the area before manoeuvring.",
+   "trap": "'non comporta un aumento' (does not increase): wrong, consumption always goes up.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A trailer always uses more fuel",
+    "it": "consumi di carburante",
+    "lines": [
+     "Car + trailer",
+     "More weight, more air drag",
+     "More fuel, even slowly"
+    ],
+    "icons": [
+     "truck",
+     "wind",
+     "fuel"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "consumi di carburante",
+    "en": "fuel consumption"
+   },
+   {
+    "it": "velocità moderata",
+    "en": "moderate speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24127": {
+  "en": "The moving mechanical parts of the coupling devices of a motor vehicle and a trailer must be kept clean and properly greased.",
+  "explain": {
+   "short": "Clean, greased parts move freely and wear less, so the coupling stays safe.",
+   "rule": "The coupling (organi di traino) must be type-approved, clean, greased, with no play, bends or cracks. If it breaks, replace it; do not weld it. Respect the maximum vertical load on the hook.",
+   "trap": "'pulite e adeguatamente lubrificate' (clean and properly greased): correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Keep the coupling clean and greased",
+    "it": "lubrificate",
+    "lines": [
+     "Tow hook and coupling",
+     "Keep them clean",
+     "Grease the moving parts"
+    ],
+    "icons": [
+     "truck",
+     "check",
+     "engine"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "organi di traino",
+    "en": "coupling devices"
+   },
+   {
+    "it": "pulite",
+    "en": "clean"
+   },
+   {
+    "it": "lubrificate",
+    "en": "greased"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24128": {
+  "en": "The coupling devices of a vehicle must not have play, deformations or cracks.",
+  "explain": {
+   "short": "Play, bends or cracks can make the trailer come loose. The coupling must be in perfect condition.",
+   "rule": "The coupling (organi di traino) must be type-approved, clean, greased, with no play, bends or cracks. If it breaks, replace it; do not weld it. Respect the maximum vertical load on the hook.",
+   "trap": "'giochi, deformazioni o incrinature' (play, bends or cracks): none is allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No play, bends or cracks in the coupling",
+    "it": "incrinature",
+    "lines": [
+     "Check the tow hook",
+     "No play, bends or cracks",
+     "Damaged: do not tow"
+    ],
+    "icons": [
+     "eye",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "organi di traino",
+    "en": "coupling devices"
+   },
+   {
+    "it": "giochi",
+    "en": "play, looseness"
+   },
+   {
+    "it": "incrinature",
+    "en": "cracks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24129": {
+  "en": "The coupling devices of a vehicle must allow enough up-and-down movement between towing vehicle and trailer, to make up for the different angles of the vehicles caused by bumps and slopes in the road.",
+  "explain": {
+   "short": "Car and trailer go over bumps at different moments. The coupling must let them move up and down freely.",
+   "rule": "The coupling (organi di traino) must be type-approved, clean, greased, with no play, bends or cracks. If it breaks, replace it; do not weld it. Respect the maximum vertical load on the hook.",
+   "trap": "'oscillazioni in senso verticale' (up-and-down movement): needed, not a defect.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Coupling must allow up-down movement",
+    "it": "oscillazioni",
+    "lines": [
+     "Road with bumps and slopes",
+     "Car and trailer tilt differently",
+     "Coupling lets them move"
+    ],
+    "icons": [
+     "hill",
+     "truck",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "organi di traino",
+    "en": "coupling devices"
+   },
+   {
+    "it": "oscillazioni in senso verticale",
+    "en": "up-and-down movement"
+   },
+   {
+    "it": "dislivelli stradali",
+    "en": "bumps and slopes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24130": {
+  "en": "When towing a trailer you must check that the vertical load on the hook does not go over the limit given by the manufacturer.",
+  "explain": {
+   "short": "Too much weight pressing down on the hook can damage it and upset the car. Respect the maker's limit.",
+   "rule": "The coupling (organi di traino) must be type-approved, clean, greased, with no play, bends or cracks. If it breaks, replace it; do not weld it. Respect the maximum vertical load on the hook.",
+   "trap": "'limite indicato dal costruttore' (the maker's limit): this is the reference.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Respect the hook's vertical load limit",
+    "it": "carico verticale",
+    "lines": [
+     "Trailer hitched to the car",
+     "Weight pressing on the hook",
+     "Within the maker's limit"
+    ],
+    "icons": [
+     "truck",
+     "check",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carico verticale",
+    "en": "vertical load"
+   },
+   {
+    "it": "gancio",
+    "en": "hook"
+   },
+   {
+    "it": "costruttore",
+    "en": "manufacturer"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24131": {
+  "en": "The maximum vertical load that may press on the towing vehicle's hook is shown on a special plate fixed to the tow hook.",
+  "explain": {
+   "short": "The limit is written on a small plate on the hook, so you can always check it.",
+   "rule": "The coupling (organi di traino) must be type-approved, clean, greased, with no play, bends or cracks. If it breaks, replace it; do not weld it. Respect the maximum vertical load on the hook.",
+   "trap": "'apposita targhetta' (special plate): yes, the limit is written there.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hook limit is on a plate on the hook",
+    "it": "targhetta",
+    "lines": [
+     "Tow hook",
+     "Small plate on it",
+     "Shows the max vertical load"
+    ],
+    "icons": [
+     "truck",
+     "sign",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carico verticale massimo",
+    "en": "maximum vertical load"
+   },
+   {
+    "it": "targhetta",
+    "en": "small plate"
+   },
+   {
+    "it": "gancio di traino",
+    "en": "tow hook"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24132": {
+  "en": "The coupling devices of a vehicle do not need greasing, but must be cleaned of grease from time to time with special cleaners or with petrol.",
+  "explain": {
+   "short": "The moving parts of the coupling must be greased, not stripped of grease with petrol.",
+   "rule": "The coupling (organi di traino) must be type-approved, clean, greased, with no play, bends or cracks. If it breaks, replace it; do not weld it. Respect the maximum vertical load on the hook.",
+   "trap": "'non necessitano di lubrificazione' (do not need greasing): wrong, they need it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Coupling needs grease, not petrol",
+    "it": "lubrificazione",
+    "lines": [
+     "Coupling parts",
+     "Cleaning with petrol: no",
+     "Keep them greased"
+    ],
+    "icons": [
+     "truck",
+     "fuel",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "lubrificazione",
+    "en": "greasing"
+   },
+   {
+    "it": "sgrassati",
+    "en": "degreased"
+   },
+   {
+    "it": "benzina",
+    "en": "petrol"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24133": {
+  "en": "The coupling devices of a vehicle may be of a non-approved type if they are meant only for towing light trailers.",
+  "explain": {
+   "short": "Every tow hook must be type-approved (omologato), also for light trailers.",
+   "rule": "The coupling (organi di traino) must be type-approved, clean, greased, with no play, bends or cracks. If it breaks, replace it; do not weld it. Respect the maximum vertical load on the hook.",
+   "trap": "'possono non essere di tipo omologato' (may be non-approved): wrong, always approved.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Tow hook must always be approved",
+    "it": "omologato",
+    "lines": [
+     "Tow hook for a light trailer",
+     "Not approved: forbidden",
+     "Always use an approved one"
+    ],
+    "icons": [
+     "truck",
+     "cross",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "omologato",
+    "en": "type-approved"
+   },
+   {
+    "it": "rimorchi leggeri",
+    "en": "light trailers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24134": {
+  "en": "To tow a light trailer you do not need to make the electrical connection between towing vehicle and trailer.",
+  "explain": {
+   "short": "Every trailer needs its lights: brake lights, indicators, rear lights. So the electrical plug must always be connected.",
+   "rule": "The coupling (organi di traino) must be type-approved, clean, greased, with no play, bends or cracks. If it breaks, replace it; do not weld it. Respect the maximum vertical load on the hook.",
+   "trap": "'non occorre' (is not needed): wrong, the trailer's lights need the connection.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Always connect the electric plug",
+    "it": "collegamento elettrico",
+    "lines": [
+     "Light trailer hitched",
+     "Plug in the electric cable",
+     "Its lights must work"
+    ],
+    "icons": [
+     "truck",
+     "light",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rimorchio leggero",
+    "en": "light trailer"
+   },
+   {
+    "it": "collegamento elettrico",
+    "en": "electrical connection"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24135": {
+  "en": "If the coupling devices of a vehicle break, they can be repaired by welding at a specialist workshop.",
+  "explain": {
+   "short": "A broken coupling must be replaced with a new approved part. Welding is not allowed.",
+   "rule": "The coupling (organi di traino) must be type-approved, clean, greased, with no play, bends or cracks. If it breaks, replace it; do not weld it. Respect the maximum vertical load on the hook.",
+   "trap": "'riparati tramite saldatura' (repaired by welding): not allowed, even in a workshop.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Broken coupling: replace, don't weld",
+    "it": "saldatura",
+    "lines": [
+     "Broken tow hook",
+     "Welding: not allowed",
+     "Replace it with a new one"
+    ],
+    "icons": [
+     "truck",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rottura",
+    "en": "breakage"
+   },
+   {
+    "it": "saldatura",
+    "en": "welding"
+   },
+   {
+    "it": "officina specializzata",
+    "en": "specialist workshop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24136": {
+  "en": "For more safety when driving a vehicle with a trailer, it is advisable to concentrate the maximum load at the tow hook.",
+  "explain": {
+   "short": "All the weight at the hook overloads it and lifts the car's front. Spread the load evenly instead.",
+   "rule": "The coupling (organi di traino) must be type-approved, clean, greased, with no play, bends or cracks. If it breaks, replace it; do not weld it. Respect the maximum vertical load on the hook.",
+   "trap": "'concentrare il carico massimo' (concentrate the maximum load): wrong, spread it out.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Don't pile all the load at the hook",
+    "it": "concentrare",
+    "lines": [
+     "All the weight at the hook",
+     "Too much on the hook",
+     "Spread the load evenly"
+    ],
+    "icons": [
+     "truck",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "concentrare",
+    "en": "concentrate"
+   },
+   {
+    "it": "carico massimo",
+    "en": "maximum load"
+   },
+   {
+    "it": "gancio di traino",
+    "en": "tow hook"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24137": {
+  "en": "The driver of a vehicle with a trailer must place the goods carried so that, while driving, they do not shift, tip over, fall or rub.",
+  "explain": {
+   "short": "A load that moves can make the trailer unstable or fall onto the road. Secure it well.",
+   "rule": "Secure the load so it cannot move. If the trailer stands still for a long time, lift its tyres off the ground or pump them up and turn them now and then. Car and trailer tyres each have their own pressure.",
+   "trap": "'spostamenti, rovesciamenti, cadute o sfregamenti' (shifting, tipping, falling, rubbing): all must be avoided.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Secure the load so it cannot move",
+    "it": "spostamenti",
+    "lines": [
+     "Goods on a trailer",
+     "Tie them down well",
+     "No shifting or falling"
+    ],
+    "icons": [
+     "truck",
+     "check",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "merce trasportata",
+    "en": "goods carried"
+   },
+   {
+    "it": "spostamenti",
+    "en": "shifting"
+   },
+   {
+    "it": "cadute",
+    "en": "falling"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24138": {
+  "en": "If the trailer stays unused for a long time it is advisable, if you cannot lift it off the ground, to increase the tyre pressure and change their contact surface from time to time, to stop them going oval.",
+  "explain": {
+   "short": "Tyres that stand on the same spot for months get a flat area. More air and moving them now and then prevent this.",
+   "rule": "Secure the load so it cannot move. If the trailer stands still for a long time, lift its tyres off the ground or pump them up and turn them now and then. Car and trailer tyres each have their own pressure.",
+   "trap": "'se non è possibile sollevarlo' (if you cannot lift it): this is the second-best option.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Long rest: more air, turn the tyres",
+    "it": "ovalizzazione",
+    "lines": [
+     "Trailer unused for months",
+     "Pump the tyres a bit more",
+     "Turn them now and then"
+    ],
+    "icons": [
+     "truck",
+     "tyre",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "prolungata inattività",
+    "en": "long time unused"
+   },
+   {
+    "it": "pressione di gonfiaggio",
+    "en": "tyre pressure"
+   },
+   {
+    "it": "ovalizzazione",
+    "en": "going oval"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24139": {
+  "en": "If the trailer stays unused for a long time it is advisable, if possible, to keep the tyres off the ground by putting special supports under the frame.",
+  "explain": {
+   "short": "With supports under the frame, the tyres carry no weight and do not get deformed.",
+   "rule": "Secure the load so it cannot move. If the trailer stands still for a long time, lift its tyres off the ground or pump them up and turn them now and then. Car and trailer tyres each have their own pressure.",
+   "trap": "'se possibile' (if possible): lifting is the best choice when you can.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Long rest: lift the tyres off the ground",
+    "it": "sostegni",
+    "lines": [
+     "Trailer unused for months",
+     "Supports under the frame",
+     "Tyres off the ground"
+    ],
+    "icons": [
+     "truck",
+     "tyre",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "inattivo",
+    "en": "unused"
+   },
+   {
+    "it": "sollevati da terra",
+    "en": "lifted off the ground"
+   },
+   {
+    "it": "sostegni",
+    "en": "supports"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24140": {
+  "en": "When towing a trailer, the tyre pressure of the towing vehicle must be the same as that of the trailer's tyres.",
+  "explain": {
+   "short": "Each vehicle has its own correct tyre pressures, given by its maker. They do not have to be the same.",
+   "rule": "Secure the load so it cannot move. If the trailer stands still for a long time, lift its tyres off the ground or pump them up and turn them now and then. Car and trailer tyres each have their own pressure.",
+   "trap": "'deve essere la stessa' (must be the same): wrong, each has its own value.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Each vehicle has its own tyre pressure",
+    "it": "pressione di gonfiaggio",
+    "lines": [
+     "Car tyres: the car's pressure",
+     "Trailer tyres: its own pressure",
+     "Not necessarily the same"
+    ],
+    "icons": [
+     "car",
+     "truck",
+     "tyre"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pressione di gonfiaggio",
+    "en": "tyre pressure"
+   },
+   {
+    "it": "la stessa",
+    "en": "the same"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

@@ -87,3 +87,14 @@ A road drawing where one part lights up.
 | `part` | `carreggiata`, `corsia`, `banchina`, `marciapiede`, `pistaCiclabile`, `spartitraffico`, `passaggioPedonale`, `intersezione`, `corsiaEmergenza` |
 
 Choose: questions about a SIGN picture -> `sign`; questions about a road DIAGRAM picture -> `figure`; definitions without a picture -> `roadparts` when one of the parts fits, otherwise `rulecard`.
+
+## Right of way at a junction (chapter 14) - `junctionOrder`
+The junction from the question's picture is rebuilt in 3D and the vehicles cross in the CORRECT order, each labelled with its letter.
+Describe the picture as data (north = up in the picture; use the 8 compass points n, ne, e, se, s, sw, w, nw):
+| param | values |
+|---|---|
+| `arms` | the arms the junction has, e.g. `["n","e","s","w"]` (a T-junction has 3; a 5-way junction uses diagonals like `"ne"`) |
+| `vehicles` | `[{ "id": "A", "from": "s", "to": "n", "kind": "car" }]`: `from` = the arm it arrives on, `to` = the arm it leaves by (turning right from "s" goes to "e", left goes to "w"); `kind`: car, truck, bus, tram, moto, bike, police, ambulance; add `"siren": true` for an emergency vehicle on an emergency |
+| `order` | the correct order as groups: `[["A"], ["B","E"], ["C"]]` (vehicles in one group go at the same time); list every vehicle exactly once |
+| `signs` | optional: `[{ "arm": "s", "type": "stop" }]`, type stop / giveWay / priority, for signs shown in the picture |
+For a FALSE statement still give the CORRECT order (verdict "ok"); the caption says what the statement got wrong.

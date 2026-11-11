@@ -1,0 +1,728 @@
+{
+ "q24075": {
+  "short": "Un baricentro basso rende il caravan più difficile da ribaltare in curva.",
+  "rule": "Nel caravan metti le cose pesanti in basso e dividi il carico tra destra e sinistra. Così è stabile in curva.",
+  "trap": "«il più basso possibile»: le cose pesanti vanno in basso, mai in alto.",
+  "caption": "Oggetti pesanti in basso nel caravan",
+  "lines": [
+   "Caravan in curva",
+   "Oggetti pesanti sul pavimento",
+   "Peso in basso = meno ribaltamento"
+  ]
+ },
+ "q24076": {
+  "short": "Se un lato è più pesante, il caravan si inclina e può ribaltarsi. Il carico equilibrato lo tiene stabile.",
+  "rule": "Nel caravan metti le cose pesanti in basso e dividi il carico tra destra e sinistra. Così è stabile in curva.",
+  "trap": "«equilibrato tra lato destro e sinistro»: è giusto.",
+  "caption": "Carico uguale a destra e a sinistra",
+  "lines": [
+   "Caravan in curva",
+   "Stesso peso a destra e a sinistra",
+   "Equilibrato = più stabile"
+  ]
+ },
+ "q24077": {
+  "short": "Il caravan è un rimorchio: non ha motore ed è trainato. Poterci dormire non cambia niente.",
+  "rule": "Il caravan (roulotte) è un rimorchio. Nessuno può stare dentro mentre circola.",
+  "trap": "«non è considerato un rimorchio»: sbagliato, il caravan È un rimorchio.",
+  "caption": "Il caravan È un rimorchio",
+  "lines": [
+   "Auto che traina un caravan",
+   "Il caravan è un rimorchio",
+   "Valgono le regole dei rimorchi"
+  ]
+ },
+ "q24078": {
+  "short": "Nessuno può stare nel caravan mentre circola. Le cinture non lo rendono permesso.",
+  "rule": "Il caravan (roulotte) è un rimorchio. Nessuno può stare dentro mentre circola.",
+  "trap": "«purché ... allaccino le cinture»: condizione falsa, non è mai permesso.",
+  "caption": "Nessuno dentro il caravan in movimento",
+  "lines": [
+   "Caravan in strada",
+   "Persone dentro: vietato",
+   "Le cinture non cambiano niente"
+  ]
+ },
+ "q24079": {
+  "short": "Se il rimorchio si stacca, un cavo di sicurezza tira il freno di stazionamento e lo ferma.",
+  "rule": "Il rimorchio ha un dispositivo: se si stacca, frena da solo con il freno di stazionamento. In sosta tira il freno e in pendenza metti i cunei.",
+  "trap": "«automaticamente»: sì, il dispositivo funziona da solo.",
+  "caption": "Il rimorchio staccato frena da solo",
+  "lines": [
+   "Il rimorchio si stacca",
+   "Il dispositivo tira il freno",
+   "Il rimorchio si ferma da solo"
+  ]
+ },
+ "q24080": {
+  "short": "Un rimorchio fermo per mesi può avere ruggine nei freni, che funzionano peggio.",
+  "rule": "Un rimorchio fermo a lungo può avere i freni arrugginiti e meno efficaci. Controllali prima di partire.",
+  "trap": "«potrebbero»: è un rischio possibile, quindi controlla i freni.",
+  "caption": "Fermo a lungo: ruggine nei freni",
+  "lines": [
+   "Rimorchio fermo per mesi",
+   "Ruggine sui freni",
+   "Controlla i freni prima di partire"
+  ]
+ },
+ "q24081": {
+  "short": "Il freno di stazionamento tiene fermo il rimorchio; in pendenza i cunei danno più sicurezza.",
+  "rule": "Il rimorchio ha un dispositivo: se si stacca, frena da solo con il freno di stazionamento. In sosta tira il freno e in pendenza metti i cunei.",
+  "trap": "«in caso di strada in pendenza»: lì servono i cunei.",
+  "caption": "Freno tirato, cunei in pendenza",
+  "lines": [
+   "Rimorchio lasciato in sosta",
+   "Tira il freno di stazionamento",
+   "In pendenza: cunei alle ruote"
+  ]
+ },
+ "q24082": {
+  "short": "Il freno a inerzia si attiva con la spinta del rimorchio. Quindi arriva sempre un po' dopo.",
+  "rule": "Il freno a inerzia funziona solo quando il rimorchio spinge sulla motrice. Quindi il rimorchio frena un po' DOPO la motrice, non insieme e non prima.",
+  "trap": "«non avviene simultaneamente»: giusto, c'è un piccolo ritardo.",
+  "caption": "Freno a inerzia: il rimorchio frena dopo",
+  "lines": [
+   "La motrice frena per prima",
+   "Il rimorchio spinge sulla motrice",
+   "Poi frena il rimorchio"
+  ]
+ },
+ "q24083": {
+  "short": "Quando l'auto rallenta, il rimorchio si avvicina e spinge il gancio. Questa spinta aziona i freni.",
+  "rule": "Il freno a inerzia funziona solo quando il rimorchio spinge sulla motrice. Quindi il rimorchio frena un po' DOPO la motrice, non insieme e non prima.",
+  "trap": "«si avvicina alla motrice»: è proprio così che funziona.",
+  "caption": "Il rimorchio spinge, poi frena",
+  "lines": [
+   "La motrice frena per prima",
+   "Il rimorchio spinge sulla motrice",
+   "Poi frena il rimorchio"
+  ]
+ },
+ "q24084": {
+  "short": "Quando freni, il carico vuole continuare, quindi va IN AVANTI, non indietro.",
+  "rule": "Il carico continua il suo movimento: in frenata va IN AVANTI, in accelerazione va INDIETRO.",
+  "trap": "«all'indietro»: direzione sbagliata, in frenata il carico va avanti.",
+  "caption": "In frenata il carico va in avanti",
+  "lines": [
+   "Frenata in rettilineo",
+   "Il carico continua ad andare",
+   "Va avanti, non indietro"
+  ]
+ },
+ "q24085": {
+  "short": "Quando acceleri di colpo, il carico resta indietro, quindi va INDIETRO, non avanti.",
+  "rule": "Il carico continua il suo movimento: in frenata va IN AVANTI, in accelerazione va INDIETRO.",
+  "trap": "«in avanti»: direzione sbagliata, in accelerazione il carico va indietro.",
+  "caption": "In accelerazione il carico va indietro",
+  "lines": [
+   "Accelerazione brusca",
+   "Il carico resta indietro",
+   "Va indietro, non avanti"
+  ]
+ },
+ "q24086": {
+  "short": "L'ABS non vieta il traino. Un'auto con ABS può trainare un rimorchio senza freni, nei limiti normali.",
+  "rule": "L'ABS dell'auto non vieta di trainare un rimorchio, anche senza freni (nei limiti di traino).",
+  "trap": "«non è possibile»: divieto inventato, l'ABS non c'entra.",
+  "caption": "L'ABS non vieta il traino",
+  "lines": [
+   "Auto con ABS",
+   "Rimorchio senza freni",
+   "Il traino è permesso"
+  ]
+ },
+ "q24087": {
+  "short": "Il freno a inerzia ha bisogno prima della spinta, quindi frena un po' dopo, non nello stesso momento.",
+  "rule": "Il freno a inerzia funziona solo quando il rimorchio spinge sulla motrice. Quindi il rimorchio frena un po' DOPO la motrice, non insieme e non prima.",
+  "trap": "«simultaneamente»: sbagliato, c'è un piccolo ritardo.",
+  "caption": "Non insieme: un po' dopo",
+  "lines": [
+   "La motrice frena per prima",
+   "Il rimorchio spinge sulla motrice",
+   "Poi frena il rimorchio"
+  ]
+ },
+ "q24088": {
+  "short": "È il contrario: il rimorchio frena dopo la motrice, quando la spinge. Non può mai frenare prima.",
+  "rule": "Il freno a inerzia funziona solo quando il rimorchio spinge sulla motrice. Quindi il rimorchio frena un po' DOPO la motrice, non insieme e non prima.",
+  "trap": "«prima della motrice»: ordine sbagliato, è DOPO.",
+  "caption": "Il rimorchio frena dopo, non prima",
+  "lines": [
+   "La motrice frena per prima",
+   "Il rimorchio spinge sulla motrice",
+   "Poi frena il rimorchio"
+  ]
+ },
+ "q24089": {
+  "short": "In città un rimorchio lasciato senza la sua motrice occupa spazio. È vietato, salvo un segnale che lo permette.",
+  "rule": "Regole per il rimorchio: è un veicolo a sé, con immatricolazione, targa, revisione e documenti suoi; circola con l'assicurazione della motrice; la motrice deve avere lo specchietto destro.",
+  "trap": "«salvo diversa segnalazione»: un segnale può permetterlo.",
+  "caption": "In città: niente rimorchio staccato in sosta",
+  "lines": [
+   "Centro abitato",
+   "Rimorchio in sosta senza motrice",
+   "Vietato, salvo segnale"
+  ]
+ },
+ "q24090": {
+  "short": "Quando il rimorchio è trainato, l'assicurazione della motrice copre i danni che può fare.",
+  "rule": "Regole per il rimorchio: è un veicolo a sé, con immatricolazione, targa, revisione e documenti suoi; circola con l'assicurazione della motrice; la motrice deve avere lo specchietto destro.",
+  "trap": "«Durante la circolazione»: mentre è trainato, vale la polizza della motrice.",
+  "caption": "Rimorchio trainato: vale la polizza della motrice",
+  "lines": [
+   "Auto che traina un rimorchio",
+   "Una sola polizza",
+   "La polizza della motrice copre tutto"
+  ]
+ },
+ "q24091": {
+  "short": "Gli specchietti possono sporgere poco, al massimo 20 cm dal punto più largo, per non urtare persone o cose.",
+  "rule": "Gli specchietti esterni della motrice possono sporgere al massimo 20 cm dal punto più largo di motrice o rimorchio.",
+  "trap": "«20 centimetri» dal punto più largo: è il numero giusto.",
+  "caption": "Specchietti: max 20 cm dal punto più largo",
+  "lines": [
+   "Auto con rimorchio largo",
+   "Specchietti esterni in più",
+   "Max 20 cm dal punto più largo"
+  ]
+ },
+ "q24092": {
+  "short": "Un rimorchio frenato fino a 3,5 t può pesare al massimo quanto la motrice (rapporto 1).",
+  "rule": "Rapporto di traino (massa del rimorchio rispetto alla motrice): massimo 1 per rimorchio frenato fino a 3,5 t, massimo 0,5 per rimorchio senza freni.",
+  "trap": "«muniti di freno di servizio»: con i freni il limite è 1.",
+  "caption": "Rimorchio frenato: rapporto massimo 1",
+  "lines": [
+   "Rimorchio con freni propri",
+   "Fino a 3,5 t",
+   "Massa rimorchio max = massa auto"
+  ]
+ },
+ "q24093": {
+  "short": "Un rimorchio senza freni può pesare al massimo metà della motrice (0,5), perché frena solo la motrice.",
+  "rule": "Rapporto di traino (massa del rimorchio rispetto alla motrice): massimo 1 per rimorchio frenato fino a 3,5 t, massimo 0,5 per rimorchio senza freni.",
+  "trap": "«sprovvisto di qualsiasi dispositivo di frenatura»: allora il limite è 0,5.",
+  "caption": "Rimorchio senza freni: rapporto massimo 0,5",
+  "lines": [
+   "Rimorchio senza freni",
+   "Frena solo la motrice",
+   "Massa rimorchio max metà auto"
+  ]
+ },
+ "q24094": {
+  "short": "Un gancio non usato che sporge dietro può ferire persone o danneggiare auto. Va tolto o ripiegato.",
+  "rule": "Regole per il rimorchio: è un veicolo a sé, con immatricolazione, targa, revisione e documenti suoi; circola con l'assicurazione della motrice; la motrice deve avere lo specchietto destro.",
+  "trap": "«sfilata, smontata o ripiegata»: va bene una di queste.",
+  "caption": "Gancio non usato: toglilo o ripiegalo",
+  "lines": [
+   "Auto senza rimorchio",
+   "Il gancio sporge dietro",
+   "Toglilo o ripiegalo"
+  ]
+ },
+ "q24095": {
+  "short": "T.A.T.S. vuol dire rimorchi per attrezzature turistiche e sportive (barca, bici). Sono per il tempo libero, non per lavoro.",
+  "rule": "Regole per il rimorchio: è un veicolo a sé, con immatricolazione, targa, revisione e documenti suoi; circola con l'assicurazione della motrice; la motrice deve avere lo specchietto destro.",
+  "trap": "«non devono costituire oggetto di commercio»: giusto, solo tempo libero.",
+  "caption": "T.A.T.S.: solo tempo libero, non commercio",
+  "lines": [
+   "Rimorchio T.A.T.S.",
+   "Barca, bici, attrezzi sportivi",
+   "Solo tempo libero, non vendita"
+  ]
+ },
+ "q24096": {
+  "short": "Per chi guida veicoli o complessi oltre 3,5 t il limite di alcol è zero. Ogni goccia conta come ebbrezza.",
+  "rule": "Regole per il rimorchio: è un veicolo a sé, con immatricolazione, targa, revisione e documenti suoi; circola con l'assicurazione della motrice; la motrice deve avere lo specchietto destro.",
+  "trap": "«superiore a zero»: per questi conducenti anche poco alcol è troppo.",
+  "caption": "Complesso oltre 3,5 t: alcol zero",
+  "lines": [
+   "Auto + rimorchio oltre 3,5 t",
+   "Limite di alcol: zero",
+   "Qualsiasi alcol = ebbrezza"
+  ]
+ },
+ "q24097": {
+  "short": "I complessi lunghi e lenti stanno nelle due corsie di destra, così la corsia di sinistra resta libera.",
+  "rule": "In autostrada con 3 o più corsie, un complesso lungo più di 7 m può usare solo le due corsie di destra. I van per cavalli possono andare in autostrada.",
+  "trap": "«le due più vicine al bordo destro»: solo quelle due corsie.",
+  "caption": "Oltre 7 m: solo le due corsie di destra",
+  "lines": [
+   "Autostrada a 3 corsie",
+   "Auto + caravan oltre 7 m",
+   "Solo le due corsie di destra"
+  ]
+ },
+ "q24098": {
+  "short": "Le strisce riflettenti dietro e ai lati servono per i rimorchi pesanti, oltre 3,5 t, non per quelli leggeri.",
+  "rule": "Regole per il rimorchio: è un veicolo a sé, con immatricolazione, targa, revisione e documenti suoi; circola con l'assicurazione della motrice; la motrice deve avere lo specchietto destro.",
+  "trap": "«fino a 3,5 tonnellate»: le strisce sono per i rimorchi OLTRE 3,5 t.",
+  "caption": "Strisce riflettenti: solo rimorchi oltre 3,5 t",
+  "lines": [
+   "Rimorchio fino a 3,5 t",
+   "Strisce riflettenti non obbligatorie",
+   "Obbligatorie solo oltre 3,5 t"
+  ]
+ },
+ "q24099": {
+  "short": "Ogni rimorchio deve essere immatricolato e avere i suoi documenti, anche quello leggero sotto 750 kg.",
+  "rule": "Regole per il rimorchio: è un veicolo a sé, con immatricolazione, targa, revisione e documenti suoi; circola con l'assicurazione della motrice; la motrice deve avere lo specchietto destro.",
+  "trap": "«non immatricolati»: nessun rimorchio si può trainare senza immatricolazione.",
+  "caption": "Ogni rimorchio va immatricolato",
+  "lines": [
+   "Rimorchio leggero sotto 750 kg",
+   "Non immatricolato",
+   "Non permesso: va immatricolato"
+  ]
+ },
+ "q24100": {
+  "short": "Il rimorchio è sempre un veicolo a sé, con i suoi documenti, qualunque sia la massa.",
+  "rule": "Regole per il rimorchio: è un veicolo a sé, con immatricolazione, targa, revisione e documenti suoi; circola con l'assicurazione della motrice; la motrice deve avere lo specchietto destro.",
+  "trap": "«parte integrante del veicolo»: sbagliato, è un veicolo a sé.",
+  "caption": "Il rimorchio è un veicolo a sé",
+  "lines": [
+   "Auto e rimorchio",
+   "Due veicoli separati",
+   "La massa non cambia niente"
+  ]
+ },
+ "q24101": {
+  "short": "Il rimorchio può essere più largo dell'auto. Allora l'auto ha bisogno di specchietti esterni in più.",
+  "rule": "Gli specchietti esterni della motrice possono sporgere al massimo 20 cm dal punto più largo di motrice o rimorchio.",
+  "trap": "«non deve superare»: questa regola non esiste.",
+  "caption": "Il rimorchio può essere più largo dell'auto",
+  "lines": [
+   "Rimorchio più largo dell'auto",
+   "È permesso",
+   "Metti specchietti in più"
+  ]
+ },
+ "q24102": {
+  "short": "Il rimorchio è un veicolo a sé. Può essere trainato da ogni veicolo che può trainarlo.",
+  "rule": "Regole per il rimorchio: è un veicolo a sé, con immatricolazione, targa, revisione e documenti suoi; circola con l'assicurazione della motrice; la motrice deve avere lo specchietto destro.",
+  "trap": "«non può essere agganciato a un altro veicolo»: sbagliato, si può.",
+  "caption": "Ogni auto adatta può trainare il rimorchio",
+  "lines": [
+   "Un rimorchio",
+   "Auto diverse che trainano",
+   "Permesso se l'auto può trainarlo"
+  ]
+ },
+ "q24103": {
+  "short": "Con il rimorchio vedi meno dietro. Lo specchietto destro è obbligatorio, anche con caravan e T.A.T.S.",
+  "rule": "Regole per il rimorchio: è un veicolo a sé, con immatricolazione, targa, revisione e documenti suoi; circola con l'assicurazione della motrice; la motrice deve avere lo specchietto destro.",
+  "trap": "«non è obbligatorio»: sbagliato, lo specchietto destro serve.",
+  "caption": "Con il rimorchio: specchietto destro obbligatorio",
+  "lines": [
+   "Auto che traina un caravan",
+   "Serve lo specchietto destro",
+   "Obbligatorio per ogni rimorchio"
+  ]
+ },
+ "q24104": {
+  "short": "Il limite è 20 cm dal punto più largo, non 50 cm. Non c'è un caso speciale per gli specchietti bassi.",
+  "rule": "Gli specchietti esterni della motrice possono sporgere al massimo 20 cm dal punto più largo di motrice o rimorchio.",
+  "trap": "«fino a 50 centimetri»: numero sbagliato, il limite è 20 cm.",
+  "caption": "Il limite è 20 cm, non 50 cm",
+  "lines": [
+   "Specchietti esterni in più",
+   "50 cm: troppo",
+   "Max 20 cm dal punto più largo"
+  ]
+ },
+ "q24105": {
+  "short": "La risposta ufficiale dice che questa sporgenza di 50 cm per lato non esiste per le barche sui T.A.T.S.",
+  "rule": "Il carico non può sporgere davanti. Il carico che sporge dietro va sempre segnalato, anche sui rimorchi leggeri.",
+  "trap": "«fino a 50 centimetri per ogni lato»: questa sporgenza è inventata.",
+  "caption": "Niente 50 cm di sporgenza laterale per le barche",
+  "lines": [
+   "Rimorchio T.A.T.S. con barca",
+   "Barca fuori 50 cm per lato",
+   "Non permesso"
+  ]
+ },
+ "q24106": {
+  "short": "CE è una patente a sé: serve l'esame CE. BE più C non dà la CE.",
+  "rule": "Regole per il rimorchio: è un veicolo a sé, con immatricolazione, targa, revisione e documenti suoi; circola con l'assicurazione della motrice; la motrice deve avere lo specchietto destro.",
+  "trap": "«può guidare anche veicoli della categoria CE»: sbagliato, la CE ha il suo esame.",
+  "caption": "BE + C non dà la CE",
+  "lines": [
+   "Patente BE, poi C",
+   "La CE non è inclusa",
+   "La CE ha il suo esame"
+  ]
+ },
+ "q24107": {
+  "short": "Il complesso con rimorchio ha limiti di velocità più bassi, e i contrassegni dietro sono obbligatori.",
+  "rule": "Regole per il rimorchio: è un veicolo a sé, con immatricolazione, targa, revisione e documenti suoi; circola con l'assicurazione della motrice; la motrice deve avere lo specchietto destro.",
+  "trap": "«non vige l'obbligo»: sbagliato, i contrassegni sono obbligatori.",
+  "caption": "Contrassegni di velocità dietro: obbligatori",
+  "lines": [
+   "Auto + rimorchio fino a 3,5 t",
+   "Contrassegni di velocità dietro",
+   "Obbligatori"
+  ]
+ },
+ "q24108": {
+  "short": "Le luci di emergenza servono per un veicolo fermo o un vero pericolo, non per la guida normale con animali.",
+  "rule": "Regole per il rimorchio: è un veicolo a sé, con immatricolazione, targa, revisione e documenti suoi; circola con l'assicurazione della motrice; la motrice deve avere lo specchietto destro.",
+  "trap": "«occorre tenere in funzione la segnalazione luminosa di pericolo»: obbligo inventato.",
+  "caption": "Niente luci di emergenza solo per gli animali",
+  "lines": [
+   "Rimorchio con animali vivi",
+   "Luci di emergenza: non servono",
+   "Guida normale e dolce"
+  ]
+ },
+ "q24109": {
+  "short": "La targa dell'auto non si sposta mai. Il rimorchio ha la sua targa (il rimorchio leggero ha una targa ripetitrice).",
+  "rule": "Regole per il rimorchio: è un veicolo a sé, con immatricolazione, targa, revisione e documenti suoi; circola con l'assicurazione della motrice; la motrice deve avere lo specchietto destro.",
+  "trap": "«staccare la targa della motrice»: sbagliato, l'auto tiene la sua targa.",
+  "caption": "Non spostare la targa dell'auto",
+  "lines": [
+   "Auto che traina un rimorchio",
+   "L'auto tiene la sua targa",
+   "Il rimorchio ha la sua targa"
+  ]
+ },
+ "q24110": {
+  "short": "Se nella carta di circolazione non c'è la massa rimorchiabile, il veicolo non può trainare.",
+  "rule": "Regole per il rimorchio: è un veicolo a sé, con immatricolazione, targa, revisione e documenti suoi; circola con l'assicurazione della motrice; la motrice deve avere lo specchietto destro.",
+  "trap": "«di qualsiasi massa»: è il contrario, senza massa rimorchiabile niente traino.",
+  "caption": "Niente massa rimorchiabile = niente traino",
+  "lines": [
+   "Carta di circolazione",
+   "Manca la massa rimorchiabile",
+   "L'auto non può trainare"
+  ]
+ },
+ "q24111": {
+  "short": "Il rimorchio è un veicolo a sé e ha la sua revisione, non legata alla motrice.",
+  "rule": "Regole per il rimorchio: è un veicolo a sé, con immatricolazione, targa, revisione e documenti suoi; circola con l'assicurazione della motrice; la motrice deve avere lo specchietto destro.",
+  "trap": "«insieme al veicolo trainante»: sbagliato, ognuno ha la sua.",
+  "caption": "Il rimorchio ha la sua revisione",
+  "lines": [
+   "Auto: la sua revisione",
+   "Rimorchio: la sua revisione",
+   "Non si fanno insieme"
+  ]
+ },
+ "q24112": {
+  "short": "Il carico non deve mai sporgere davanti. 3/10 è un limite per la sporgenza dietro, non davanti.",
+  "rule": "Il carico non può sporgere davanti. Il carico che sporge dietro va sempre segnalato, anche sui rimorchi leggeri.",
+  "trap": "«dalla parte anteriore»: lato sbagliato, 3/10 riguarda il retro.",
+  "caption": "Il carico non sporge davanti",
+  "lines": [
+   "Carico su un rimorchio",
+   "Sporge davanti",
+   "Non permesso"
+  ]
+ },
+ "q24113": {
+  "short": "Il carico che sporge dietro va sempre segnalato con il pannello, anche sui rimorchi leggeri.",
+  "rule": "Il carico non può sporgere davanti. Il carico che sporge dietro va sempre segnalato, anche sui rimorchi leggeri.",
+  "trap": "«senza obbligo di specifiche segnalazioni»: sbagliato, va segnalato.",
+  "caption": "Sporgenza dietro: sempre segnalata",
+  "lines": [
+   "Rimorchio leggero",
+   "Il carico sporge dietro",
+   "Segnalalo con il pannello"
+  ]
+ },
+ "q24114": {
+  "short": "I van per cavalli possono andare in autostrada come gli altri rimorchi. Non c'è un divieto speciale.",
+  "rule": "In autostrada con 3 o più corsie, un complesso lungo più di 7 m può usare solo le due corsie di destra. I van per cavalli possono andare in autostrada.",
+  "trap": "«non possono circolare in autostrada»: divieto inventato.",
+  "caption": "I van per cavalli possono andare in autostrada",
+  "lines": [
+   "Auto che traina un van per cavalli",
+   "Entra in autostrada",
+   "Permesso"
+  ]
+ },
+ "q24115": {
+  "short": "In svolta le ruote del rimorchio passano più all'interno, vicino al marciapiede, dove ci possono essere pedoni.",
+  "rule": "Guidare con il rimorchio: in curva stringe, serve più spazio, in discesa spinge, la ripresa è minore e si consuma di più. Controlla intorno prima di manovrare.",
+  "trap": "«la ruota posteriore destra»: passa più vicina al marciapiede della ruota davanti.",
+  "caption": "Svolta a destra: le ruote dietro stringono",
+  "lines": [
+   "Svolta a destra con rimorchio",
+   "Le ruote dietro stringono",
+   "Attento ai pedoni sul bordo"
+  ]
+ },
+ "q24116": {
+  "short": "In curva il rimorchio fa una linea più stretta dell'auto, quindi il complesso occupa più strada.",
+  "rule": "Guidare con il rimorchio: in curva stringe, serve più spazio, in discesa spinge, la ripresa è minore e si consuma di più. Controlla intorno prima di manovrare.",
+  "trap": "«fascia di ingombro è maggiore»: giusto.",
+  "caption": "In curva serve più spazio",
+  "lines": [
+   "Auto + rimorchio in curva",
+   "Il rimorchio stringe",
+   "Serve una fascia di strada più larga"
+  ]
+ },
+ "q24117": {
+  "short": "In discesa il peso del rimorchio spinge l'auto in avanti. Usa una marcia bassa e vai più piano.",
+  "rule": "Guidare con il rimorchio: in curva stringe, serve più spazio, in discesa spinge, la ripresa è minore e si consuma di più. Controlla intorno prima di manovrare.",
+  "trap": "«forza di spinta»: il rimorchio spinge la motrice, soprattutto in discesa.",
+  "caption": "In discesa il rimorchio spinge",
+  "lines": [
+   "Discesa ripida",
+   "Il rimorchio spinge l'auto",
+   "Marcia bassa, più piano"
+  ]
+ },
+ "q24118": {
+  "short": "Il motore deve muovere più peso, quindi l'auto accelera più piano. Serve più spazio per sorpassare.",
+  "rule": "Guidare con il rimorchio: in curva stringe, serve più spazio, in discesa spinge, la ripresa è minore e si consuma di più. Controlla intorno prima di manovrare.",
+  "trap": "«specie se carico»: più peso, meno ripresa.",
+  "caption": "Con il rimorchio acceleri più piano",
+  "lines": [
+   "Auto + rimorchio carico",
+   "Più peso da muovere",
+   "Accelerazione più lenta"
+  ]
+ },
+ "q24119": {
+  "short": "Un'auto con rimorchio è lunga e si vede poco intorno. Controlla tutta la zona prima di muoverti.",
+  "rule": "Guidare con il rimorchio: in curva stringe, serve più spazio, in discesa spinge, la ripresa è minore e si consuma di più. Controlla intorno prima di manovrare.",
+  "trap": "«raggio di manovra del complesso»: è più grande di quello di un'auto.",
+  "caption": "Controlla la zona prima di manovrare",
+  "lines": [
+   "Manovra con rimorchio",
+   "Grande raggio di manovra",
+   "Nessuna persona o cosa vicino"
+  ]
+ },
+ "q24120": {
+  "short": "Il rimorchio segue una linea più interna, su un cerchio più piccolo. Quindi stringe verso l'interno.",
+  "rule": "Guidare con il rimorchio: in curva stringe, serve più spazio, in discesa spinge, la ripresa è minore e si consuma di più. Controlla intorno prima di manovrare.",
+  "trap": "«raggio inferiore»: sì, il cerchio del rimorchio è più piccolo.",
+  "caption": "In curva il rimorchio stringe",
+  "lines": [
+   "Auto + rimorchio in curva",
+   "Rimorchio su cerchio più piccolo",
+   "Stringe verso l'interno"
+  ]
+ },
+ "q24121": {
+  "short": "Il liquido nel serbatoio si muove avanti, indietro e di lato e spinge il rimorchio. È molto instabile.",
+  "rule": "Guidare con il rimorchio: in curva stringe, serve più spazio, in discesa spinge, la ripresa è minore e si consuma di più. Controlla intorno prima di manovrare.",
+  "trap": "«maggiori cause di instabilità»: giusto per i carichi liquidi.",
+  "caption": "Il liquido che si muove rende instabili",
+  "lines": [
+   "Rimorchio con serbatoio di liquido",
+   "Il liquido si muove in curva e frenata",
+   "Grande rischio di instabilità"
+  ]
+ },
+ "q24122": {
+  "short": "Troppo peso sul gancio abbassa il retro dell'auto: i fari puntano in alto e abbagliano.",
+  "rule": "Gli organi di traino devono essere omologati, puliti, lubrificati, senza giochi, deformazioni o crepe. Se si rompono si sostituiscono, non si saldano. Rispetta il carico massimo sul gancio.",
+  "trap": "«inclinazione del fascio luminoso dei fari»: cambia se l'auto si inclina.",
+  "caption": "Il peso sul gancio può alzare i fari",
+  "lines": [
+   "Molto peso sul gancio",
+   "Il retro dell'auto si abbassa",
+   "Fari verso l'alto: controlla"
+  ]
+ },
+ "q24123": {
+  "short": "Anche piano, in curva il rimorchio stringe. Non segue mai la stessa linea dell'auto.",
+  "rule": "Guidare con il rimorchio: in curva stringe, serve più spazio, in discesa spinge, la ripresa è minore e si consuma di più. Controlla intorno prima di manovrare.",
+  "trap": "«sempre lo stesso percorso»: sbagliato, il rimorchio stringe.",
+  "caption": "Il rimorchio stringe anche piano",
+  "lines": [
+   "Auto + rimorchio in curva",
+   "Il rimorchio non segue l'auto",
+   "Stringe, anche piano"
+  ]
+ },
+ "q24124": {
+  "short": "Il ruotino serve solo per spostare il rimorchio a mano. Durante la marcia va alzato.",
+  "rule": "Guidare con il rimorchio: in curva stringe, serve più spazio, in discesa spinge, la ripresa è minore e si consuma di più. Controlla intorno prima di manovrare.",
+  "trap": "«abbassato (poggiato al suolo)»: sbagliato, va alzato.",
+  "caption": "Ruotino alzato durante la marcia",
+  "lines": [
+   "Rimorchio in strada",
+   "Ruotino abbassato: no",
+   "Alzalo prima di partire"
+  ]
+ },
+ "q24125": {
+  "short": "I sensori di parcheggio non vietano il traino. Puoi agganciare un rimorchio.",
+  "rule": "Guidare con il rimorchio: in curva stringe, serve più spazio, in discesa spinge, la ripresa è minore e si consuma di più. Controlla intorno prima di manovrare.",
+  "trap": "«non è possibile»: divieto inventato.",
+  "caption": "I sensori di parcheggio non vietano il traino",
+  "lines": [
+   "Auto con sensori di parcheggio",
+   "Agganciare un rimorchio",
+   "Permesso"
+  ]
+ },
+ "q24126": {
+  "short": "Più peso e più resistenza dell'aria vogliono sempre dire più carburante, anche a velocità moderata.",
+  "rule": "Guidare con il rimorchio: in curva stringe, serve più spazio, in discesa spinge, la ripresa è minore e si consuma di più. Controlla intorno prima di manovrare.",
+  "trap": "«non comporta un aumento»: sbagliato, il consumo aumenta sempre.",
+  "caption": "Con il rimorchio si consuma sempre di più",
+  "lines": [
+   "Auto + rimorchio",
+   "Più peso, più resistenza dell'aria",
+   "Più carburante, anche piano"
+  ]
+ },
+ "q24127": {
+  "short": "Parti pulite e lubrificate si muovono bene e si consumano meno: l'aggancio resta sicuro.",
+  "rule": "Gli organi di traino devono essere omologati, puliti, lubrificati, senza giochi, deformazioni o crepe. Se si rompono si sostituiscono, non si saldano. Rispetta il carico massimo sul gancio.",
+  "trap": "«pulite e adeguatamente lubrificate»: giusto.",
+  "caption": "Organi di traino puliti e lubrificati",
+  "lines": [
+   "Gancio e organi di traino",
+   "Tienili puliti",
+   "Lubrifica le parti mobili"
+  ]
+ },
+ "q24128": {
+  "short": "Giochi, deformazioni o crepe possono far staccare il rimorchio. L'aggancio deve essere perfetto.",
+  "rule": "Gli organi di traino devono essere omologati, puliti, lubrificati, senza giochi, deformazioni o crepe. Se si rompono si sostituiscono, non si saldano. Rispetta il carico massimo sul gancio.",
+  "trap": "«giochi, deformazioni o incrinature»: nessuno è permesso.",
+  "caption": "Niente giochi, deformazioni o crepe",
+  "lines": [
+   "Controlla il gancio",
+   "Niente giochi, deformazioni, crepe",
+   "Danneggiato: non trainare"
+  ]
+ },
+ "q24129": {
+  "short": "Auto e rimorchio passano sulle buche in momenti diversi. L'aggancio deve lasciarli muovere su e giù.",
+  "rule": "Gli organi di traino devono essere omologati, puliti, lubrificati, senza giochi, deformazioni o crepe. Se si rompono si sostituiscono, non si saldano. Rispetta il carico massimo sul gancio.",
+  "trap": "«oscillazioni in senso verticale»: servono, non sono un difetto.",
+  "caption": "L'aggancio deve permettere il su e giù",
+  "lines": [
+   "Strada con dossi e pendenze",
+   "Auto e rimorchio si inclinano diversi",
+   "L'aggancio li lascia muovere"
+  ]
+ },
+ "q24130": {
+  "short": "Troppo peso sul gancio lo può rompere e disturba l'auto. Rispetta il limite del costruttore.",
+  "rule": "Gli organi di traino devono essere omologati, puliti, lubrificati, senza giochi, deformazioni o crepe. Se si rompono si sostituiscono, non si saldano. Rispetta il carico massimo sul gancio.",
+  "trap": "«limite indicato dal costruttore»: è questo il riferimento.",
+  "caption": "Rispetta il carico massimo sul gancio",
+  "lines": [
+   "Rimorchio agganciato all'auto",
+   "Peso che preme sul gancio",
+   "Dentro il limite del costruttore"
+  ]
+ },
+ "q24131": {
+  "short": "Il limite è scritto su una piccola targhetta sul gancio, così puoi sempre controllarlo.",
+  "rule": "Gli organi di traino devono essere omologati, puliti, lubrificati, senza giochi, deformazioni o crepe. Se si rompono si sostituiscono, non si saldano. Rispetta il carico massimo sul gancio.",
+  "trap": "«apposita targhetta»: sì, il limite è scritto lì.",
+  "caption": "Il limite è sulla targhetta del gancio",
+  "lines": [
+   "Gancio di traino",
+   "Piccola targhetta sopra",
+   "Indica il carico verticale massimo"
+  ]
+ },
+ "q24132": {
+  "short": "Le parti mobili dell'aggancio vanno lubrificate, non sgrassate con la benzina.",
+  "rule": "Gli organi di traino devono essere omologati, puliti, lubrificati, senza giochi, deformazioni o crepe. Se si rompono si sostituiscono, non si saldano. Rispetta il carico massimo sul gancio.",
+  "trap": "«non necessitano di lubrificazione»: sbagliato, serve.",
+  "caption": "Aggancio: grasso sì, benzina no",
+  "lines": [
+   "Organi di traino",
+   "Pulire con benzina: no",
+   "Tienili lubrificati"
+  ]
+ },
+ "q24133": {
+  "short": "Ogni gancio deve essere omologato, anche per i rimorchi leggeri.",
+  "rule": "Gli organi di traino devono essere omologati, puliti, lubrificati, senza giochi, deformazioni o crepe. Se si rompono si sostituiscono, non si saldano. Rispetta il carico massimo sul gancio.",
+  "trap": "«possono non essere di tipo omologato»: sbagliato, sempre omologati.",
+  "caption": "Il gancio deve essere sempre omologato",
+  "lines": [
+   "Gancio per rimorchio leggero",
+   "Non omologato: vietato",
+   "Usa sempre uno omologato"
+  ]
+ },
+ "q24134": {
+  "short": "Ogni rimorchio ha bisogno delle luci: stop, frecce, luci dietro. Il cavo elettrico va sempre collegato.",
+  "rule": "Gli organi di traino devono essere omologati, puliti, lubrificati, senza giochi, deformazioni o crepe. Se si rompono si sostituiscono, non si saldano. Rispetta il carico massimo sul gancio.",
+  "trap": "«non occorre»: sbagliato, le luci del rimorchio hanno bisogno del collegamento.",
+  "caption": "Collega sempre la presa elettrica",
+  "lines": [
+   "Rimorchio leggero agganciato",
+   "Collega il cavo elettrico",
+   "Le sue luci devono funzionare"
+  ]
+ },
+ "q24135": {
+  "short": "Un aggancio rotto va sostituito con un pezzo nuovo omologato. La saldatura non è permessa.",
+  "rule": "Gli organi di traino devono essere omologati, puliti, lubrificati, senza giochi, deformazioni o crepe. Se si rompono si sostituiscono, non si saldano. Rispetta il carico massimo sul gancio.",
+  "trap": "«riparati tramite saldatura»: non permesso, nemmeno in officina.",
+  "caption": "Aggancio rotto: sostituire, non saldare",
+  "lines": [
+   "Gancio rotto",
+   "Saldatura: non permessa",
+   "Sostituiscilo con uno nuovo"
+  ]
+ },
+ "q24136": {
+  "short": "Tutto il peso sul gancio lo sovraccarica e alza il muso dell'auto. Distribuisci il carico.",
+  "rule": "Gli organi di traino devono essere omologati, puliti, lubrificati, senza giochi, deformazioni o crepe. Se si rompono si sostituiscono, non si saldano. Rispetta il carico massimo sul gancio.",
+  "trap": "«concentrare il carico massimo»: sbagliato, va distribuito.",
+  "caption": "Non mettere tutto il carico sul gancio",
+  "lines": [
+   "Tutto il peso sul gancio",
+   "Troppo peso sul gancio",
+   "Distribuisci il carico"
+  ]
+ },
+ "q24137": {
+  "short": "Un carico che si muove rende instabile il rimorchio o cade in strada. Fissalo bene.",
+  "rule": "Fissa il carico perché non si muova. Se il rimorchio resta fermo a lungo, solleva le ruote da terra o gonfiale di più e girale ogni tanto. Motrice e rimorchio hanno ognuno la sua pressione.",
+  "trap": "«spostamenti, rovesciamenti, cadute o sfregamenti»: vanno evitati tutti.",
+  "caption": "Fissa il carico perché non si muova",
+  "lines": [
+   "Merce sul rimorchio",
+   "Legala bene",
+   "Niente spostamenti o cadute"
+  ]
+ },
+ "q24138": {
+  "short": "Le gomme ferme per mesi sullo stesso punto si deformano. Più aria e girarle ogni tanto lo evita.",
+  "rule": "Fissa il carico perché non si muova. Se il rimorchio resta fermo a lungo, solleva le ruote da terra o gonfiale di più e girale ogni tanto. Motrice e rimorchio hanno ognuno la sua pressione.",
+  "trap": "«se non è possibile sollevarlo»: è la seconda scelta migliore.",
+  "caption": "Fermo a lungo: più aria, gira le gomme",
+  "lines": [
+   "Rimorchio fermo per mesi",
+   "Gonfia un po' di più le gomme",
+   "Girale ogni tanto"
+  ]
+ },
+ "q24139": {
+  "short": "Con i sostegni sotto il telaio le gomme non portano peso e non si deformano.",
+  "rule": "Fissa il carico perché non si muova. Se il rimorchio resta fermo a lungo, solleva le ruote da terra o gonfiale di più e girale ogni tanto. Motrice e rimorchio hanno ognuno la sua pressione.",
+  "trap": "«se possibile»: sollevare è la scelta migliore quando si può.",
+  "caption": "Fermo a lungo: gomme sollevate da terra",
+  "lines": [
+   "Rimorchio fermo per mesi",
+   "Sostegni sotto il telaio",
+   "Gomme sollevate da terra"
+  ]
+ },
+ "q24140": {
+  "short": "Ogni veicolo ha la sua pressione giusta, data dal costruttore. Non devono essere uguali.",
+  "rule": "Fissa il carico perché non si muova. Se il rimorchio resta fermo a lungo, solleva le ruote da terra o gonfiale di più e girale ogni tanto. Motrice e rimorchio hanno ognuno la sua pressione.",
+  "trap": "«deve essere la stessa»: sbagliato, ognuno ha il suo valore.",
+  "caption": "Ogni veicolo ha la sua pressione",
+  "lines": [
+   "Gomme auto: pressione dell'auto",
+   "Gomme rimorchio: pressione sua",
+   "Non per forza uguali"
+  ]
+ }
+}

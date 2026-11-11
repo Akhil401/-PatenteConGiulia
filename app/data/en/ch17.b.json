@@ -1,0 +1,2584 @@
+{
+ "q23870": {
+  "en": "On the carriageways, ramps, junctions, service or parking areas and in every other motorway area, it is forbidden to ask for or give lifts.",
+  "explain": {
+   "short": "Picking up or dropping people on a motorway is dangerous, so lifts are forbidden everywhere on it, also in service areas.",
+   "rule": "On motorways and in all their areas you may never ask for or give lifts. Camping only in the special areas, selling only with permission, and no parking in service areas for more than 24 hours.",
+   "trap": "'in ogni altra pertinenza autostradale' (in every other motorway area) makes the ban complete: there is no place where lifts are allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No lifts anywhere on the motorway",
+    "it": "passaggi",
+    "lines": [
+     "Motorway, ramps, service areas",
+     "Asking for a lift: forbidden",
+     "Giving a lift: forbidden"
+    ],
+    "icons": [
+     "road",
+     "pedestrian",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "richiedere o concedere passaggi",
+    "en": "ask for or give lifts"
+   },
+   {
+    "it": "pertinenza autostradale",
+    "en": "motorway area"
+   },
+   {
+    "it": "aree di servizio",
+    "en": "service areas"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23871": {
+  "en": "In the service or parking areas of motorways and in every other motorway area, commercial activities may be carried out only if authorised by the road owner.",
+  "explain": {
+   "short": "The motorway areas belong to the road owner. Nobody may sell things there without its permission.",
+   "rule": "On motorways and in all their areas you may never ask for or give lifts. Camping only in the special areas, selling only with permission, and no parking in service areas for more than 24 hours.",
+   "trap": "'solo se autorizzate' (only if authorised) is the key: selling is not free, it needs permission.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Selling only with the road owner's permission",
+    "it": "autorizzate",
+    "lines": [
+     "Motorway service area",
+     "Selling things: only with permission",
+     "Permission from the road owner"
+    ],
+    "icons": [
+     "road",
+     "money",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "attività commerciali",
+    "en": "commercial activities"
+   },
+   {
+    "it": "autorizzate",
+    "en": "authorised"
+   },
+   {
+    "it": "ente proprietario della strada",
+    "en": "road owner"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23872": {
+  "en": "On the carriageways, ramps, junctions, service or parking areas and in every other motorway area, camping is allowed only in the areas made for it and for the period set by the road owner.",
+  "explain": {
+   "short": "Free camping on a motorway is forbidden. You may camp only in the special areas and only for the time the road owner allows.",
+   "rule": "On motorways and in all their areas you may never ask for or give lifts. Camping only in the special areas, selling only with permission, and no parking in service areas for more than 24 hours.",
+   "trap": "'solo nelle aree a ciò destinate' (only in the areas made for it) limits the permission: camping is not free.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Camping only in the special areas",
+    "it": "campeggiare",
+    "lines": [
+     "Motorway areas",
+     "Camping only in special areas",
+     "Only for the time allowed"
+    ],
+    "icons": [
+     "road",
+     "sign",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "campeggiare",
+    "en": "to camp"
+   },
+   {
+    "it": "aree a ciò destinate",
+    "en": "areas made for it"
+   },
+   {
+    "it": "periodo stabilito",
+    "en": "set period"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23873": {
+  "en": "In motorway service areas, the driver must not leave the vehicle parked for more than 24 hours.",
+  "explain": {
+   "short": "Service areas are for short breaks, not a car park. A vehicle may not stay parked there for more than 24 hours.",
+   "rule": "On motorways and in all their areas you may never ask for or give lifts. Camping only in the special areas, selling only with permission, and no parking in service areas for more than 24 hours.",
+   "trap": "'24 ore' is the right number for service areas; do not mix it with the 3 hours of the emergency stop.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Service area: parking max 24 hours",
+    "it": "24 ore",
+    "lines": [
+     "Motorway service area",
+     "Parking: at most 24 hours"
+    ],
+    "icons": [
+     "fuel",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aree di servizio",
+    "en": "service areas"
+   },
+   {
+    "it": "lasciare in sosta",
+    "en": "leave parked"
+   },
+   {
+    "it": "24 ore",
+    "en": "24 hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23874": {
+  "en": "On motorways it is allowed to give lifts to disabled people.",
+  "explain": {
+   "short": "The ban on lifts on motorways has no exceptions. Disabled people are not an exception.",
+   "rule": "On motorways and in all their areas you may never ask for or give lifts. Camping only in the special areas, selling only with permission, and no parking in service areas for more than 24 hours.",
+   "trap": "'persone invalide' (disabled people) is a made-up exception: the ban covers everyone.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No lifts on motorways, for anyone",
+    "it": "passaggi",
+    "lines": [
+     "Motorway: no lifts",
+     "No exception for disabled people"
+    ],
+    "icons": [
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "concedere passaggi",
+    "en": "give lifts"
+   },
+   {
+    "it": "persone invalide",
+    "en": "disabled people"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23875": {
+  "en": "In motorway service or parking areas it is allowed to ask for and give lifts.",
+  "explain": {
+   "short": "The lift ban covers the whole motorway, service and parking areas included.",
+   "rule": "On motorways and in all their areas you may never ask for or give lifts. Camping only in the special areas, selling only with permission, and no parking in service areas for more than 24 hours.",
+   "trap": "'aree di servizio' (service areas) seem a safe place, but lifts are forbidden there too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No lifts, also in service areas",
+    "it": "passaggi",
+    "lines": [
+     "Motorway service area",
+     "Asking or giving lifts: forbidden"
+    ],
+    "icons": [
+     "fuel",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aree di servizio",
+    "en": "service areas"
+   },
+   {
+    "it": "chiedere e concedere passaggi",
+    "en": "ask for and give lifts"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23876": {
+  "en": "In the service or parking areas of motorways and main extra-urban roads, camping is allowed.",
+  "explain": {
+   "short": "Camping is not free there. It is allowed only in the areas made for it and for a set time.",
+   "rule": "On motorways and in all their areas you may never ask for or give lifts. Camping only in the special areas, selling only with permission, and no parking in service areas for more than 24 hours.",
+   "trap": "The statement says camping is simply 'consentito' (allowed), without the limit 'solo nelle aree destinate'.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Camping only in the special areas",
+    "it": "campeggiare",
+    "lines": [
+     "Service or parking area",
+     "Free camping: forbidden",
+     "Only in special areas"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aree di servizio",
+    "en": "service areas"
+   },
+   {
+    "it": "strade extraurbane principali",
+    "en": "main extra-urban roads"
+   },
+   {
+    "it": "campeggiare",
+    "en": "to camp"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23877": {
+  "en": "In motorway service and parking areas the maximum parking time for a vehicle is three hours.",
+  "explain": {
+   "short": "The limit in service areas is 24 hours, not 3. Three hours is the limit for an emergency stop.",
+   "rule": "On motorways and in all their areas you may never ask for or give lifts. Camping only in the special areas, selling only with permission, and no parking in service areas for more than 24 hours.",
+   "trap": "'tre ore' (three hours) is the number for the emergency lane, not for service areas.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Service area limit is 24 h, not 3 h",
+    "it": "sosta",
+    "lines": [
+     "Service area: max 24 hours",
+     "3 hours = emergency stop limit"
+    ],
+    "icons": [
+     "fuel",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aree di servizio",
+    "en": "service areas"
+   },
+   {
+    "it": "durata massima per la sosta",
+    "en": "maximum parking time"
+   },
+   {
+    "it": "tre ore",
+    "en": "three hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23878": {
+  "en": "When driving on motorways and main extra-urban roads, the use of dipped headlights is compulsory also by day.",
+  "explain": {
+   "short": "On fast roads outside towns your car must be easy to see. So the dipped headlights stay on also during the day.",
+   "rule": "On motorways and main extra-urban roads the dipped headlights must be on all the time, also by day, also with perfect visibility.",
+   "trap": "'anche di giorno' (also by day) is correct: the lights are on day and night.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dipped headlights on, also by day",
+    "it": "anabbaglianti",
+    "lines": [
+     "Motorway or main extra-urban road",
+     "Dipped headlights always on",
+     "Also by day"
+    ],
+    "icons": [
+     "road",
+     "light",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "proiettori anabbaglianti",
+    "en": "dipped headlights"
+   },
+   {
+    "it": "anche di giorno",
+    "en": "also by day"
+   },
+   {
+    "it": "strade extraurbane principali",
+    "en": "main extra-urban roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23879": {
+  "en": "When driving on motorways and main extra-urban roads, the use of dipped headlights is optional when visibility is perfect.",
+  "explain": {
+   "short": "The dipped headlights are compulsory there all the time, also with perfect visibility.",
+   "rule": "On motorways and main extra-urban roads the dipped headlights must be on all the time, also by day, also with perfect visibility.",
+   "trap": "'facoltativo' (optional) is wrong: the lights are never optional on these roads.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dipped headlights compulsory, not optional",
+    "it": "anabbaglianti",
+    "lines": [
+     "Motorway, perfect visibility",
+     "Dipped headlights still compulsory"
+    ],
+    "icons": [
+     "road",
+     "light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "proiettori anabbaglianti",
+    "en": "dipped headlights"
+   },
+   {
+    "it": "facoltativo",
+    "en": "optional"
+   },
+   {
+    "it": "perfetta visibilità",
+    "en": "perfect visibility"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23880": {
+  "en": "On the carriageways, ramps and junctions of motorways and main extra-urban roads it is forbidden to make a U-turn and to cross the central reservation, also at the gaps.",
+  "explain": {
+   "short": "Turning round on a fast road is extremely dangerous. The gaps in the central reservation are only for police and rescue.",
+   "rule": "On motorways and main extra-urban roads: no U-turns, no crossing the central reservation, no driving against traffic, no reversing - not even in an emergency. The emergency lane is only for an emergency stop.",
+   "trap": "'anche all'altezza dei varchi' (also at the gaps) is correct: a gap does not make the U-turn allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No U-turn, not even at the gaps",
+    "it": "invertire",
+    "lines": [
+     "Motorway or main extra-urban road",
+     "U-turn: forbidden",
+     "Crossing the central reservation: forbidden"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "invertire il senso di marcia",
+    "en": "make a U-turn"
+   },
+   {
+    "it": "spartitraffico",
+    "en": "central reservation"
+   },
+   {
+    "it": "varchi",
+    "en": "gaps"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23881": {
+  "en": "On the carriageways, ramps and junctions of motorways and main extra-urban roads it is forbidden to drive on the carriageway, or part of it, in the direction opposite to the one allowed.",
+  "explain": {
+   "short": "Driving against the traffic on a fast road causes head-on crashes. It is always forbidden.",
+   "rule": "On motorways and main extra-urban roads: no U-turns, no crossing the central reservation, no driving against traffic, no reversing - not even in an emergency. The emergency lane is only for an emergency stop.",
+   "trap": "'o parte di essa' (or part of it) means even a short stretch against the traffic is forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never drive against the traffic",
+    "it": "senso opposto",
+    "lines": [
+     "Motorway or main extra-urban road",
+     "Driving the wrong way: forbidden"
+    ],
+    "icons": [
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "senso di marcia opposto",
+    "en": "opposite direction"
+   },
+   {
+    "it": "o parte di essa",
+    "en": "or part of it"
+   },
+   {
+    "it": "rampe",
+    "en": "ramps"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23882": {
+  "en": "On the carriageways, ramps and junctions of motorways and main extra-urban roads it is forbidden to reverse.",
+  "explain": {
+   "short": "Cars arrive fast and do not expect a car going backwards. Reversing is forbidden there.",
+   "rule": "On motorways and main extra-urban roads: no U-turns, no crossing the central reservation, no driving against traffic, no reversing - not even in an emergency. The emergency lane is only for an emergency stop.",
+   "trap": "'retromarcia' (reversing) is forbidden even if you missed your exit: go on to the next one.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No reversing: go to the next exit",
+    "it": "retromarcia",
+    "lines": [
+     "Motorway or main extra-urban road",
+     "Reversing: forbidden",
+     "Missed the exit? Take the next one"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "retromarcia",
+    "en": "reversing"
+   },
+   {
+    "it": "svincoli",
+    "en": "junctions"
+   },
+   {
+    "it": "rampe",
+    "en": "ramps"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23883": {
+  "en": "It is allowed to drive on the emergency stopping lanes of motorways and main extra-urban roads in order to stop because of a vehicle breakdown.",
+  "explain": {
+   "short": "The emergency lane exists exactly for this: when your car breaks down, you move onto it and stop there.",
+   "rule": "On motorways and main extra-urban roads: no U-turns, no crossing the central reservation, no driving against traffic, no reversing - not even in an emergency. The emergency lane is only for an emergency stop.",
+   "trap": "'per arrestarsi per avaria' (to stop because of a breakdown) is the right reason to use the emergency lane.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Breakdown: move onto the emergency lane",
+    "it": "avaria",
+    "lines": [
+     "Motorway or main extra-urban road",
+     "Car breaks down",
+     "Drive onto the emergency lane and stop"
+    ],
+    "icons": [
+     "road",
+     "engine",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsie per la sosta di emergenza",
+    "en": "emergency stopping lanes"
+   },
+   {
+    "it": "avaria",
+    "en": "breakdown"
+   },
+   {
+    "it": "arrestarsi",
+    "en": "to stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23884": {
+  "en": "On the emergency stopping lanes of motorways it is forbidden to reverse.",
+  "explain": {
+   "short": "Reversing is forbidden on the whole motorway, and the emergency lane is part of it.",
+   "rule": "On motorways and main extra-urban roads: no U-turns, no crossing the central reservation, no driving against traffic, no reversing - not even in an emergency. The emergency lane is only for an emergency stop.",
+   "trap": "The 'corsia di emergenza' (emergency lane) seems safe, but reversing is forbidden there too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No reversing in the emergency lane",
+    "it": "retromarcia",
+    "lines": [
+     "Motorway emergency lane",
+     "Reversing: forbidden"
+    ],
+    "icons": [
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsie per le soste di emergenza",
+    "en": "emergency stopping lanes"
+   },
+   {
+    "it": "retromarcia",
+    "en": "reversing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23885": {
+  "en": "On the carriageways, ramps and junctions of motorways and main extra-urban roads, the driver may make a U-turn by taking all the necessary precautions.",
+  "explain": {
+   "short": "No precaution makes a U-turn safe on these roads. It is always forbidden.",
+   "rule": "On motorways and main extra-urban roads: no U-turns, no crossing the central reservation, no driving against traffic, no reversing - not even in an emergency. The emergency lane is only for an emergency stop.",
+   "trap": "'adottando tutti gli accorgimenti necessari' (taking all precautions) does not make a forbidden move allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "U-turn forbidden, even with care",
+    "it": "invertire",
+    "lines": [
+     "Motorway or main extra-urban road",
+     "U-turn: always forbidden",
+     "Being careful does not help"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "invertire il senso di marcia",
+    "en": "make a U-turn"
+   },
+   {
+    "it": "accorgimenti necessari",
+    "en": "necessary precautions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23886": {
+  "en": "On the carriageways, ramps and junctions of motorways and main extra-urban roads, the driver may make a U-turn in cases of special emergency.",
+  "explain": {
+   "short": "Even in an emergency you must not turn round. You stop in the emergency lane instead.",
+   "rule": "On motorways and main extra-urban roads: no U-turns, no crossing the central reservation, no driving against traffic, no reversing - not even in an emergency. The emergency lane is only for an emergency stop.",
+   "trap": "'in casi di particolare emergenza' (in special emergencies) is a false exception: the ban has none.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No U-turn, not even in an emergency",
+    "it": "invertire",
+    "lines": [
+     "Motorway or main extra-urban road",
+     "Emergency: stop in the emergency lane",
+     "U-turn: still forbidden"
+    ],
+    "icons": [
+     "road",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "invertire il senso di marcia",
+    "en": "make a U-turn"
+   },
+   {
+    "it": "particolare emergenza",
+    "en": "special emergency"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23887": {
+  "en": "On the carriageways, ramps and junctions of motorways and main extra-urban roads, the driver may go against the normal traffic flow for short stretches.",
+  "explain": {
+   "short": "Driving against the traffic is forbidden there, even for a few metres.",
+   "rule": "On motorways and main extra-urban roads: no U-turns, no crossing the central reservation, no driving against traffic, no reversing - not even in an emergency. The emergency lane is only for an emergency stop.",
+   "trap": "'per brevi tratti' (for short stretches) is the trap: even a short stretch is forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never against the traffic, not even briefly",
+    "it": "senso contrario",
+    "lines": [
+     "Motorway or main extra-urban road",
+     "Against the traffic: forbidden",
+     "Not even for a short way"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "senso contrario",
+    "en": "opposite direction"
+   },
+   {
+    "it": "normale flusso del traffico",
+    "en": "normal traffic flow"
+   },
+   {
+    "it": "per brevi tratti",
+    "en": "for short stretches"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23888": {
+  "en": "On motorways and main extra-urban roads, the driver may use the emergency lane if the traffic is heavy.",
+  "explain": {
+   "short": "The emergency lane must stay free for real emergencies and rescue vehicles. Heavy traffic is not an emergency.",
+   "rule": "On motorways and main extra-urban roads: no U-turns, no crossing the central reservation, no driving against traffic, no reversing - not even in an emergency. The emergency lane is only for an emergency stop.",
+   "trap": "'se il traffico è intenso' (if traffic is heavy) is not a reason to use the emergency lane.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Emergency lane is not for heavy traffic",
+    "it": "corsia di emergenza",
+    "lines": [
+     "Motorway or main extra-urban road",
+     "Heavy traffic: stay in your lane",
+     "Emergency lane only for emergencies"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "ambulance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di emergenza",
+    "en": "emergency lane"
+   },
+   {
+    "it": "traffico è intenso",
+    "en": "traffic is heavy"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23889": {
+  "en": "On motorways and main extra-urban roads, the driver on the acceleration lane must give way to the vehicles travelling in the traffic lanes.",
+  "explain": {
+   "short": "The cars already on the road go first. On the acceleration lane you build up speed and join only when there is a safe gap.",
+   "rule": "Join from the acceleration lane giving way, leave from the start of the deceleration lane, always signal lane changes. In a jam the emergency lane is only for exiting (from the 500 m sign), and the right lane moves left to make room for rescue.",
+   "trap": "'deve dare la precedenza' (must give way) is correct: the joining car gives way, not the others.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Acceleration lane: give way, then join",
+    "it": "corsia di accelerazione",
+    "lines": [
+     "Motorway or main extra-urban road",
+     "Speed up on the acceleration lane",
+     "Give way to traffic in the lanes"
+    ],
+    "icons": [
+     "road",
+     "speed",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di accelerazione",
+    "en": "acceleration lane"
+   },
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "corsie di marcia",
+    "en": "traffic lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23890": {
+  "en": "On motorways and main extra-urban roads, to leave the carriageway the driver must move into the right lane in good time and then enter the deceleration lane from its start.",
+  "explain": {
+   "short": "Leaving needs planning: first the right lane, then the deceleration lane from where it begins, and slow down there, not on the main road.",
+   "rule": "Join from the acceleration lane giving way, leave from the start of the deceleration lane, always signal lane changes. In a jam the emergency lane is only for exiting (from the 500 m sign), and the right lane moves left to make room for rescue.",
+   "trap": "'dal suo inizio' (from its start) is correct: you enter the deceleration lane at the beginning, not halfway.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Exit: right lane early, then from the start",
+    "it": "corsia di decelerazione",
+    "lines": [
+     "Motorway or main extra-urban road",
+     "Move to the right lane in good time",
+     "Enter the deceleration lane at its start"
+    ],
+    "icons": [
+     "road",
+     "indicator",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di decelerazione",
+    "en": "deceleration lane"
+   },
+   {
+    "it": "per tempo",
+    "en": "in good time"
+   },
+   {
+    "it": "dal suo inizio",
+    "en": "from its start"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23891": {
+  "en": "On motorways and main extra-urban roads, the driver must signal a lane change in good time using the direction indicators.",
+  "explain": {
+   "short": "At high speed the others need to know early what you will do. So every lane change is signalled with the indicator.",
+   "rule": "Join from the acceleration lane giving way, leave from the start of the deceleration lane, always signal lane changes. In a jam the emergency lane is only for exiting (from the 500 m sign), and the right lane moves left to make room for rescue.",
+   "trap": "'tempestivamente' (in good time) is correct: signal before you move, not while moving.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Signal every lane change in good time",
+    "it": "indicatori di direzione",
+    "lines": [
+     "Motorway or main extra-urban road",
+     "Indicator on in good time",
+     "Then change lane"
+    ],
+    "icons": [
+     "road",
+     "indicator",
+     "mirror"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cambiamento di corsia",
+    "en": "lane change"
+   },
+   {
+    "it": "indicatori di direzione",
+    "en": "direction indicators"
+   },
+   {
+    "it": "tempestivamente",
+    "en": "in good time"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23892": {
+  "en": "In a traffic jam on main extra-urban roads or motorways, if the emergency lane is missing or not wide enough for police or rescue vehicles, the driver of the vehicle in the first lane on the right must move as close as possible to the left line.",
+  "explain": {
+   "short": "Moving the right-lane cars to the left opens a free passage along the right edge for police and ambulances.",
+   "rule": "Join from the acceleration lane giving way, leave from the start of the deceleration lane, always signal lane changes. In a jam the emergency lane is only for exiting (from the 500 m sign), and the right lane moves left to make room for rescue.",
+   "trap": "'striscia di sinistra' (left line) may surprise you, but it is correct: the right lane moves left to make room on the right.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right lane moves left to open a rescue path",
+    "it": "striscia di sinistra",
+    "lines": [
+     "Motorway or main extra-urban road",
+     "Traffic jam, no emergency lane",
+     "Right lane moves close to its left line",
+     "Space on the right for rescue"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "car",
+     "ambulance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ingorgo",
+    "en": "traffic jam"
+   },
+   {
+    "it": "corsia di emergenza",
+    "en": "emergency lane"
+   },
+   {
+    "it": "veicoli di polizia o di soccorso",
+    "en": "police or rescue vehicles"
+   },
+   {
+    "it": "striscia di sinistra",
+    "en": "left line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23893": {
+  "en": "In a traffic jam the driver may drive on the emergency stopping lane only to leave the motorway, starting from the exit warning sign placed 500 metres before the junction.",
+  "explain": {
+   "short": "In a jam the emergency lane must stay free. The only exception is the last stretch before your exit, from the 500 m warning sign.",
+   "rule": "Join from the acceleration lane giving way, leave from the start of the deceleration lane, always signal lane changes. In a jam the emergency lane is only for exiting (from the 500 m sign), and the right lane moves left to make room for rescue.",
+   "trap": "'solo per uscire' (only to leave) and 'a partire dal cartello' (from the sign) are both limits: not before, not to go on.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Jam: emergency lane only to exit, last 500 m",
+    "it": "500 metri",
+    "lines": [
+     "Motorway jam",
+     "Exit sign 500 m before the junction",
+     "From there: emergency lane only to exit"
+    ],
+    "icons": [
+     "road",
+     "sign",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ingorgo",
+    "en": "traffic jam"
+   },
+   {
+    "it": "corsia per la sosta di emergenza",
+    "en": "emergency stopping lane"
+   },
+   {
+    "it": "solo per uscire",
+    "en": "only to leave"
+   },
+   {
+    "it": "cartello di preavviso",
+    "en": "warning sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23894": {
+  "en": "On motorways and main extra-urban roads, to leave the carriageway the driver may enter the deceleration lane also in the stretch after its start.",
+  "explain": {
+   "short": "You must enter the deceleration lane at its start. Cutting in later is a sudden move that surprises the others.",
+   "rule": "Join from the acceleration lane giving way, leave from the start of the deceleration lane, always signal lane changes. In a jam the emergency lane is only for exiting (from the 500 m sign), and the right lane moves left to make room for rescue.",
+   "trap": "'anche nel tratto successivo' (also after its start) is wrong: you enter from the start only.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Enter the deceleration lane at its start",
+    "it": "corsia di decelerazione",
+    "lines": [
+     "Motorway or main extra-urban road",
+     "Deceleration lane: enter at its start",
+     "Cutting in later: wrong"
+    ],
+    "icons": [
+     "road",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di decelerazione",
+    "en": "deceleration lane"
+   },
+   {
+    "it": "tratto successivo",
+    "en": "later stretch"
+   },
+   {
+    "it": "al suo inizio",
+    "en": "to its start"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23895": {
+  "en": "On motorways and main extra-urban roads, if the traffic is not heavy the driver does not have to use the direction indicators to signal a lane change.",
+  "explain": {
+   "short": "The indicator is compulsory for every lane change, whatever the traffic.",
+   "rule": "Join from the acceleration lane giving way, leave from the start of the deceleration lane, always signal lane changes. In a jam the emergency lane is only for exiting (from the 500 m sign), and the right lane moves left to make room for rescue.",
+   "trap": "'se il traffico non è intenso' (if traffic is not heavy) is a false exception.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Indicator always, even with little traffic",
+    "it": "indicatori di direzione",
+    "lines": [
+     "Motorway or main extra-urban road",
+     "Little traffic",
+     "Indicator still compulsory"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "traffico non è intenso",
+    "en": "traffic is not heavy"
+   },
+   {
+    "it": "indicatori di direzione",
+    "en": "direction indicators"
+   },
+   {
+    "it": "cambiamento di corsia",
+    "en": "lane change"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23896": {
+  "en": "On motorways and main extra-urban roads, driving in parallel rows is allowed even when there is no traffic.",
+  "explain": {
+   "short": "Without traffic you keep to the right lane and use the others to overtake. Parallel rows are for heavy traffic only.",
+   "rule": "Join from the acceleration lane giving way, leave from the start of the deceleration lane, always signal lane changes. In a jam the emergency lane is only for exiting (from the 500 m sign), and the right lane moves left to make room for rescue.",
+   "trap": "'anche in assenza di traffico' (even without traffic) is wrong: parallel rows need heavy traffic.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parallel rows only in heavy traffic",
+    "it": "file parallele",
+    "lines": [
+     "Motorway or main extra-urban road",
+     "Little traffic: keep right",
+     "Parallel rows only in heavy traffic"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "marcia per file parallele",
+    "en": "driving in parallel rows"
+   },
+   {
+    "it": "in assenza di traffico",
+    "en": "when there is no traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23897": {
+  "en": "On the carriageways, ramps and junctions of motorways, stopping is allowed only in emergencies caused by illness of the driver or passengers, or by a vehicle fault.",
+  "explain": {
+   "short": "On the motorway you may not stop for normal reasons. Only an illness or a vehicle fault is an emergency that allows a stop.",
+   "rule": "On the motorway you may stop only for an emergency (someone feels ill or the vehicle breaks down), in the emergency lane, for the time strictly needed and at most 3 hours.",
+   "trap": "'solo in situazioni di emergenza' (only in emergencies) is the correct limit.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stop only for illness or a fault",
+    "it": "sosta di emergenza",
+    "lines": [
+     "Motorway",
+     "Someone ill or vehicle fault",
+     "Only then you may stop"
+    ],
+    "icons": [
+     "road",
+     "firstaid",
+     "engine"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "situazioni di emergenza",
+    "en": "emergencies"
+   },
+   {
+    "it": "malessere",
+    "en": "illness"
+   },
+   {
+    "it": "inefficienza del veicolo",
+    "en": "vehicle fault"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23898": {
+  "en": "On the carriageways, ramps and junctions of motorways, if a passenger feels ill it is allowed to stop on the emergency stopping lane.",
+  "explain": {
+   "short": "A passenger feeling ill is a real emergency. You may stop in the emergency lane.",
+   "rule": "On the motorway you may stop only for an emergency (someone feels ill or the vehicle breaks down), in the emergency lane, for the time strictly needed and at most 3 hours.",
+   "trap": "'malessere di un passeggero' (a passenger feeling ill) is one of the accepted emergencies.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Passenger ill: stop in the emergency lane",
+    "it": "malessere",
+    "lines": [
+     "Motorway",
+     "A passenger feels ill",
+     "Stop in the emergency lane"
+    ],
+    "icons": [
+     "road",
+     "firstaid",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "malessere di un passeggero",
+    "en": "a passenger feeling ill"
+   },
+   {
+    "it": "corsia per la sosta di emergenza",
+    "en": "emergency stopping lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23899": {
+  "en": "If a passenger feels ill while driving on the motorway carriageway, it is allowed to stop on the emergency stopping lane.",
+  "explain": {
+   "short": "Illness is an emergency. The right place to stop is the emergency lane.",
+   "rule": "On the motorway you may stop only for an emergency (someone feels ill or the vehicle breaks down), in the emergency lane, for the time strictly needed and at most 3 hours.",
+   "trap": "'è consentito' (it is allowed) is right here because illness is a real emergency.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Passenger ill: emergency lane stop allowed",
+    "it": "malessere",
+    "lines": [
+     "Motorway",
+     "A passenger feels ill",
+     "Stop in the emergency lane"
+    ],
+    "icons": [
+     "road",
+     "firstaid",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "malessere di un passeggero",
+    "en": "a passenger feeling ill"
+   },
+   {
+    "it": "corsia per la sosta di emergenza",
+    "en": "emergency stopping lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23900": {
+  "en": "On the carriageways, ramps and junctions of motorways, an emergency stop must not last longer than strictly necessary and must never go beyond three hours.",
+  "explain": {
+   "short": "A stopped car on the motorway is a danger. Stay only as long as needed, and in any case no more than 3 hours.",
+   "rule": "On the motorway you may stop only for an emergency (someone feels ill or the vehicle breaks down), in the emergency lane, for the time strictly needed and at most 3 hours.",
+   "trap": "'tre ore' (three hours) is the right limit for the emergency stop; 24 hours is for service areas.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Emergency stop: as short as possible, max 3 h",
+    "it": "tre ore",
+    "lines": [
+     "Motorway emergency stop",
+     "Only the time strictly needed",
+     "Never more than 3 hours"
+    ],
+    "icons": [
+     "road",
+     "warning",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta di emergenza",
+    "en": "emergency stop"
+   },
+   {
+    "it": "tempo strettamente necessario",
+    "en": "time strictly needed"
+   },
+   {
+    "it": "tre ore",
+    "en": "three hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23901": {
+  "en": "On the carriageways, ramps and junctions of motorways it is forbidden to park or stop if passengers feel ill.",
+  "explain": {
+   "short": "Illness is exactly one of the emergencies that allow you to stop in the emergency lane.",
+   "rule": "On the motorway you may stop only for an emergency (someone feels ill or the vehicle breaks down), in the emergency lane, for the time strictly needed and at most 3 hours.",
+   "trap": "'è vietato' (it is forbidden) is wrong: illness of passengers allows an emergency stop.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Passengers ill: you may stop",
+    "it": "malessere",
+    "lines": [
+     "Motorway",
+     "Passengers feel ill",
+     "Emergency stop is allowed"
+    ],
+    "icons": [
+     "road",
+     "firstaid",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sostare o fermarsi",
+    "en": "park or stop"
+   },
+   {
+    "it": "malessere dei passeggeri",
+    "en": "illness of the passengers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23903": {
+  "en": "On the carriageways, ramps and junctions of motorways, an emergency stop must not last longer than strictly necessary and may go on for up to 24 hours.",
+  "explain": {
+   "short": "The emergency stop may last at most 3 hours, not 24.",
+   "rule": "On the motorway you may stop only for an emergency (someone feels ill or the vehicle breaks down), in the emergency lane, for the time strictly needed and at most 3 hours.",
+   "trap": "'fino a 24 ore' (up to 24 hours) is the limit for service areas, not for the emergency stop.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Emergency stop: max 3 hours, not 24",
+    "it": "24 ore",
+    "lines": [
+     "Motorway emergency stop",
+     "Maximum 3 hours",
+     "24 hours = service areas"
+    ],
+    "icons": [
+     "road",
+     "warning",
+     "fuel"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta di emergenza",
+    "en": "emergency stop"
+   },
+   {
+    "it": "tempo strettamente necessario",
+    "en": "time strictly needed"
+   },
+   {
+    "it": "fino a 24 ore",
+    "en": "up to 24 hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23904": {
+  "en": "On the motorway it is forbidden to give a lift to a driver stopped in the emergency lane because of a vehicle breakdown.",
+  "explain": {
+   "short": "Lifts are forbidden on the motorway, also for a driver whose car broke down. The motorway rescue service will help.",
+   "rule": "On the motorway you do not give lifts, you do not have to stop for a broken-down car, you never reverse and you do not tow it. The motorway rescue service helps.",
+   "trap": "'è vietato dare un passaggio' (it is forbidden to give a lift) is correct even though it sounds unkind.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No lift, not even for a broken-down driver",
+    "it": "passaggio",
+    "lines": [
+     "Motorway: car broken down",
+     "Giving a lift: forbidden",
+     "Motorway rescue will help"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "police"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dare un passaggio",
+    "en": "give a lift"
+   },
+   {
+    "it": "avaria del veicolo",
+    "en": "vehicle breakdown"
+   },
+   {
+    "it": "corsia di emergenza",
+    "en": "emergency lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23905": {
+  "en": "If the driver sees a motorist stopped with a broken-down vehicle on the motorway, he must take him to the nearest service station.",
+  "explain": {
+   "short": "Taking him would mean giving a lift, which is forbidden on the motorway.",
+   "rule": "On the motorway you do not give lifts, you do not have to stop for a broken-down car, you never reverse and you do not tow it. The motorway rescue service helps.",
+   "trap": "'lo deve accompagnare' (must take him) is wrong twice: there is no duty, and lifts are forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No lift to the service station",
+    "it": "accompagnare",
+    "lines": [
+     "Motorway: car broken down",
+     "Taking the driver: a lift, forbidden"
+    ],
+    "icons": [
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo in avaria",
+    "en": "broken-down vehicle"
+   },
+   {
+    "it": "accompagnare",
+    "en": "take, accompany"
+   },
+   {
+    "it": "stazione di servizio",
+    "en": "service station"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23906": {
+  "en": "If the driver sees a motorist stopped because of a vehicle breakdown on the motorway, he must stop to help.",
+  "explain": {
+   "short": "There is no duty to stop for a simple breakdown, and stopping on the motorway is allowed only for your own emergencies.",
+   "rule": "On the motorway you do not give lifts, you do not have to stop for a broken-down car, you never reverse and you do not tow it. The motorway rescue service helps.",
+   "trap": "'si deve fermare' (must stop) is wrong: a breakdown of another car is not your emergency.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No duty to stop for another's breakdown",
+    "it": "prestare soccorso",
+    "lines": [
+     "Motorway: another car broken down",
+     "No duty to stop",
+     "Motorway rescue will help"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "police"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "avaria del veicolo",
+    "en": "vehicle breakdown"
+   },
+   {
+    "it": "si deve fermare",
+    "en": "must stop"
+   },
+   {
+    "it": "prestare soccorso",
+    "en": "give help"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23907": {
+  "en": "If the driver sees a motorist stopped because of a vehicle breakdown on the motorway, and he has already passed him, he may reverse carefully to help him.",
+  "explain": {
+   "short": "Reversing is always forbidden on the motorway, even carefully and even to help.",
+   "rule": "On the motorway you do not give lifts, you do not have to stop for a broken-down car, you never reverse and you do not tow it. The motorway rescue service helps.",
+   "trap": "'retrocedere con prudenza' (reverse carefully) is still reversing, and that is forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never reverse on the motorway",
+    "it": "retrocedere",
+    "lines": [
+     "Motorway: you passed a broken-down car",
+     "Reversing back: forbidden"
+    ],
+    "icons": [
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "avaria del veicolo",
+    "en": "vehicle breakdown"
+   },
+   {
+    "it": "retrocedere con prudenza",
+    "en": "reverse carefully"
+   },
+   {
+    "it": "soccorrerlo",
+    "en": "help him"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23908": {
+  "en": "If the driver sees a motorist stopped on the motorway because of a vehicle breakdown, he may carefully tow the vehicle as far as the first exit toll booth.",
+  "explain": {
+   "short": "Towing a broken-down car on the motorway is not your job and is dangerous. The motorway rescue service does it.",
+   "rule": "On the motorway you do not give lifts, you do not have to stop for a broken-down car, you never reverse and you do not tow it. The motorway rescue service helps.",
+   "trap": "'trainare prudentemente' (tow carefully): being careful does not make it allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Do not tow: motorway rescue does it",
+    "it": "trainare",
+    "lines": [
+     "Motorway: car broken down",
+     "Towing it yourself: not allowed",
+     "Motorway rescue tows it"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "truck"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "avaria del veicolo",
+    "en": "vehicle breakdown"
+   },
+   {
+    "it": "trainare prudentemente",
+    "en": "tow carefully"
+   },
+   {
+    "it": "casello di uscita",
+    "en": "exit toll booth"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23909": {
+  "en": "All passengers of motor vehicles must sit so that they do not limit the driver's freedom of movement and do not block his view.",
+  "explain": {
+   "short": "The driver needs free movements and a clear view to drive safely. Passengers must not get in the way.",
+   "rule": "Passengers must not limit the driver. The number of seats is on the registration document and includes the driver. One pet is fine if it does not disturb; more than one only in a cage or behind a net.",
+   "trap": "'tutti i passeggeri' (all passengers) is right: the rule applies to everyone on board.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Passengers must not limit the driver",
+    "it": "libertà del conducente",
+    "lines": [
+     "Passengers sit correctly",
+     "Driver free to move",
+     "Driver's view not blocked"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passeggeri",
+    "en": "passengers"
+   },
+   {
+    "it": "libertà del conducente",
+    "en": "the driver's freedom"
+   },
+   {
+    "it": "visibilità",
+    "en": "view"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23910": {
+  "en": "The maximum number of seats in a car is shown on the registration document.",
+  "explain": {
+   "short": "Each car is approved for a certain number of seats. That number is written on the registration document (carta di circolazione).",
+   "rule": "Passengers must not limit the driver. The number of seats is on the registration document and includes the driver. One pet is fine if it does not disturb; more than one only in a cage or behind a net.",
+   "trap": "'carta di circolazione' (registration document) is the right document, not the driving licence.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Seat number is on the registration document",
+    "it": "carta di circolazione",
+    "lines": [
+     "Car registration document",
+     "Shows the maximum number of seats"
+    ],
+    "icons": [
+     "book",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "numero massimo di posti",
+    "en": "maximum number of seats"
+   },
+   {
+    "it": "autovetture",
+    "en": "cars"
+   },
+   {
+    "it": "carta di circolazione",
+    "en": "registration document"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23911": {
+  "en": "Vehicles may carry one pet, provided it is in a condition that does not hinder or endanger the driving.",
+  "explain": {
+   "short": "One pet is allowed, as long as it cannot disturb the driver or create danger.",
+   "rule": "Passengers must not limit the driver. The number of seats is on the registration document and includes the driver. One pet is fine if it does not disturb; more than one only in a cage or behind a net.",
+   "trap": "'comunque' (in any case) adds the condition: the pet must never hinder the driving.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One pet: OK if it does not disturb",
+    "it": "animale domestico",
+    "lines": [
+     "Car with one pet",
+     "Allowed if it does not disturb the driver"
+    ],
+    "icons": [
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "animale domestico",
+    "en": "pet"
+   },
+   {
+    "it": "impedimento",
+    "en": "hindrance"
+   },
+   {
+    "it": "pericolo per la guida",
+    "en": "danger for driving"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23912": {
+  "en": "Vehicles may carry more than one pet, provided they are kept in a cage or in the rear compartment, specially divided by a net.",
+  "explain": {
+   "short": "Several animals could move around and distract the driver. So they must be in a cage or behind a dividing net.",
+   "rule": "Passengers must not limit the driver. The number of seats is on the registration document and includes the driver. One pet is fine if it does not disturb; more than one only in a cage or behind a net.",
+   "trap": "'purché' (provided that) is the condition: cage or rear space with a net.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Several pets: cage or behind a net",
+    "it": "gabbia",
+    "lines": [
+     "Car with several pets",
+     "In a cage",
+     "Or in the rear space behind a net"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "animali domestici",
+    "en": "pets"
+   },
+   {
+    "it": "gabbia",
+    "en": "cage"
+   },
+   {
+    "it": "vano posteriore",
+    "en": "rear compartment"
+   },
+   {
+    "it": "rete",
+    "en": "net"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23913": {
+  "en": "The number of people that can be carried in cars, shown on the registration document, does not include the driver.",
+  "explain": {
+   "short": "The number of seats on the registration document counts all seats, the driver's seat too.",
+   "rule": "Passengers must not limit the driver. The number of seats is on the registration document and includes the driver. One pet is fine if it does not disturb; more than one only in a cage or behind a net.",
+   "trap": "'non comprende il conducente' (does not include the driver) is wrong: the driver is counted.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Seat number includes the driver",
+    "it": "conducente",
+    "lines": [
+     "Registration document: seats",
+     "The driver is counted too"
+    ],
+    "icons": [
+     "book",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "numero delle persone trasportabili",
+    "en": "number of people that can be carried"
+   },
+   {
+    "it": "carta di circolazione",
+    "en": "registration document"
+   },
+   {
+    "it": "non comprende il conducente",
+    "en": "does not include the driver"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23914": {
+  "en": "The number of people that can be carried in cars may reach a maximum of ten.",
+  "explain": {
+   "short": "A car (autovettura) has at most 9 seats, driver included. A vehicle with more seats is a bus.",
+   "rule": "Passengers must not limit the driver. The number of seats is on the registration document and includes the driver. One pet is fine if it does not disturb; more than one only in a cage or behind a net.",
+   "trap": "'dieci' (ten) is too many: the maximum for a car is nine, driver included.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A car has at most 9 seats, not 10",
+    "it": "dieci",
+    "lines": [
+     "Car: at most 9 seats",
+     "Driver included",
+     "More seats = bus"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "bus"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "persone trasportabili",
+    "en": "people that can be carried"
+   },
+   {
+    "it": "autovetture",
+    "en": "cars"
+   },
+   {
+    "it": "dieci",
+    "en": "ten"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23915": {
+  "en": "Vehicles may carry dogs, even more than one, provided they are properly held on a leash.",
+  "explain": {
+   "short": "With more than one animal a leash is not enough. They must be in a cage or in the rear space behind a net.",
+   "rule": "Passengers must not limit the driver. The number of seats is on the registration document and includes the driver. One pet is fine if it does not disturb; more than one only in a cage or behind a net.",
+   "trap": "'al guinzaglio' (on a leash) is not one of the allowed ways: only cage or net.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Several dogs: cage or net, not a leash",
+    "it": "guinzaglio",
+    "lines": [
+     "Car with several dogs",
+     "On a leash: not enough",
+     "Cage or net needed"
+    ],
+    "icons": [
+     "car",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cani",
+    "en": "dogs"
+   },
+   {
+    "it": "numero superiore ad uno",
+    "en": "more than one"
+   },
+   {
+    "it": "guinzaglio",
+    "en": "leash"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23917": {
+  "en": "On motorcycles it is forbidden to carry children under 5 years of age.",
+  "explain": {
+   "short": "Very small children cannot hold on safely on a motorcycle. So children under 5 may not ride as passengers.",
+   "rule": "Motorcycles: no children under 5, no towing or being towed, objects firmly fixed and not blocking the view. A small projection is allowed within the legal limits.",
+   "trap": "'minori di anni 5' (under 5 years) is the right age limit.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No children under 5 on a motorcycle",
+    "it": "minori di anni 5",
+    "lines": [
+     "Motorcycle passenger",
+     "Child under 5: forbidden"
+    ],
+    "icons": [
+     "moto",
+     "child"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   },
+   {
+    "it": "minori di anni 5",
+    "en": "children under 5"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23918": {
+  "en": "Motorcycle riders are forbidden to tow other vehicles and to be towed by them.",
+  "explain": {
+   "short": "A motorcycle is not stable enough to pull or be pulled. Towing is forbidden in both directions.",
+   "rule": "Motorcycles: no children under 5, no towing or being towed, objects firmly fixed and not blocking the view. A small projection is allowed within the legal limits.",
+   "trap": "'trainare e farsi trainare' covers both cases: neither is allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Motorcycle: no towing at all",
+    "it": "trainare",
+    "lines": [
+     "Motorcycle",
+     "Towing another vehicle: forbidden",
+     "Being towed: forbidden"
+    ],
+    "icons": [
+     "moto",
+     "cross",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   },
+   {
+    "it": "trainare",
+    "en": "to tow"
+   },
+   {
+    "it": "farsi trainare",
+    "en": "to be towed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23919": {
+  "en": "On motorcycles it is forbidden to carry objects that are not firmly secured.",
+  "explain": {
+   "short": "A loose object can fall onto the road or make the rider lose balance. It must be firmly fixed.",
+   "rule": "Motorcycles: no children under 5, no towing or being towed, objects firmly fixed and not blocking the view. A small projection is allowed within the legal limits.",
+   "trap": "'solidamente assicurati' (firmly secured) is the condition for carrying objects.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Objects on a motorcycle: firmly fixed",
+    "it": "solidamente assicurati",
+    "lines": [
+     "Motorcycle with luggage",
+     "Loose objects: forbidden",
+     "Fix them firmly"
+    ],
+    "icons": [
+     "moto",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   },
+   {
+    "it": "oggetti",
+    "en": "objects"
+   },
+   {
+    "it": "solidamente assicurati",
+    "en": "firmly secured"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23920": {
+  "en": "On motorcycles it is forbidden to carry objects that prevent or limit the rider's view.",
+  "explain": {
+   "short": "The rider must always see the road well. Objects that block the view are not allowed.",
+   "rule": "Motorcycles: no children under 5, no towing or being towed, objects firmly fixed and not blocking the view. A small projection is allowed within the legal limits.",
+   "trap": "'impediscano o limitino' (prevent or limit): even a partly blocked view is not allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Objects must not block the rider's view",
+    "it": "visibilità",
+    "lines": [
+     "Motorcycle with objects",
+     "Rider's view must stay clear"
+    ],
+    "icons": [
+     "moto",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   },
+   {
+    "it": "impediscano o limitino",
+    "en": "prevent or limit"
+   },
+   {
+    "it": "visibilità",
+    "en": "view"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23921": {
+  "en": "On motorcycles a passenger may be carried only if he or she is an adult.",
+  "explain": {
+   "short": "A passenger does not have to be 18. The age limit is only for small children: under 5 is forbidden.",
+   "rule": "Motorcycles: no children under 5, no towing or being towed, objects firmly fixed and not blocking the view. A small projection is allowed within the legal limits.",
+   "trap": "'solo se maggiorenne' (only if adult) is wrong: older children and teenagers may ride too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Passenger need not be an adult",
+    "it": "maggiorenne",
+    "lines": [
+     "Motorcycle passenger",
+     "Need not be an adult",
+     "Only under 5 is forbidden"
+    ],
+    "icons": [
+     "moto",
+     "check",
+     "child"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passeggero",
+    "en": "passenger"
+   },
+   {
+    "it": "maggiorenne",
+    "en": "adult (18 or older)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23922": {
+  "en": "Motorcycles are allowed to be towed, but only by cars.",
+  "explain": {
+   "short": "A motorcycle may never be towed, by any vehicle, cars included.",
+   "rule": "Motorcycles: no children under 5, no towing or being towed, objects firmly fixed and not blocking the view. A small projection is allowed within the legal limits.",
+   "trap": "'ma solo da autovetture' (but only by cars) invents an exception that does not exist.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Motorcycle may never be towed",
+    "it": "farsi trainare",
+    "lines": [
+     "Motorcycle",
+     "Being towed: always forbidden",
+     "Not even by a car"
+    ],
+    "icons": [
+     "moto",
+     "cross",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   },
+   {
+    "it": "farsi trainare",
+    "en": "to be towed"
+   },
+   {
+    "it": "autovetture",
+    "en": "cars"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23923": {
+  "en": "On motorcycles it is forbidden to carry objects that stick out lengthwise beyond the outline of the vehicle.",
+  "explain": {
+   "short": "A small lengthwise projection is allowed, within the limits of the law. So it is not forbidden in every case.",
+   "rule": "Motorcycles: no children under 5, no towing or being towed, objects firmly fixed and not blocking the view. A small projection is allowed within the legal limits.",
+   "trap": "The statement bans every projection; the law allows it 'within limits', so the absolute ban is wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A small projection is allowed, within limits",
+    "it": "sporgano",
+    "lines": [
+     "Motorcycle with a long object",
+     "Small projection: allowed",
+     "Only within legal limits"
+    ],
+    "icons": [
+     "moto",
+     "check",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sporgano",
+    "en": "stick out"
+   },
+   {
+    "it": "longitudinalmente",
+    "en": "lengthwise"
+   },
+   {
+    "it": "sagoma del veicolo",
+    "en": "vehicle outline"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23924": {
+  "en": "The load of vehicles must be arranged so that it cannot fall or scatter.",
+  "explain": {
+   "short": "A falling load is a serious danger for the vehicles behind. It must be fixed and covered if needed.",
+   "rule": "The load must never fall, block the driver, make the vehicle unstable or hide lights, plates and arm signals - on every road, day and night.",
+   "trap": "'caduta o la dispersione' (falling or scattering): both must be prevented, also loose material like sand.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Load fixed: it must not fall or scatter",
+    "it": "caduta",
+    "lines": [
+     "Truck with a load",
+     "Load fixed and covered",
+     "Nothing falls on the road"
+    ],
+    "icons": [
+     "truck",
+     "check",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carico",
+    "en": "load"
+   },
+   {
+    "it": "caduta",
+    "en": "falling"
+   },
+   {
+    "it": "dispersione",
+    "en": "scattering"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23925": {
+  "en": "The load of vehicles must be arranged so that it does not reduce the driver's view or limit his freedom of movement when driving.",
+  "explain": {
+   "short": "The driver must see well and move freely. The load must not get in the way.",
+   "rule": "The load must never fall, block the driver, make the vehicle unstable or hide lights, plates and arm signals - on every road, day and night.",
+   "trap": "'né impedirgli' (nor prevent him): both the view and the movements must stay free.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Load must not block the driver",
+    "it": "visibilità",
+    "lines": [
+     "Vehicle with a load",
+     "Driver's view stays clear",
+     "Driver moves freely"
+    ],
+    "icons": [
+     "car",
+     "eye",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carico",
+    "en": "load"
+   },
+   {
+    "it": "visibilità",
+    "en": "view"
+   },
+   {
+    "it": "libertà dei movimenti",
+    "en": "freedom of movement"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23926": {
+  "en": "The load of vehicles must be arranged so that it does not compromise the stability of the vehicle.",
+  "explain": {
+   "short": "A badly placed load can make the vehicle tip over or skid in bends. It must be balanced.",
+   "rule": "The load must never fall, block the driver, make the vehicle unstable or hide lights, plates and arm signals - on every road, day and night.",
+   "trap": "'stabilità' (stability) is the point: a heavy load placed high or on one side is dangerous.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Balanced load keeps the vehicle stable",
+    "it": "stabilità",
+    "lines": [
+     "Truck with a load",
+     "Load balanced and low",
+     "Vehicle stays stable"
+    ],
+    "icons": [
+     "truck",
+     "check",
+     "curve"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carico",
+    "en": "load"
+   },
+   {
+    "it": "stabilità",
+    "en": "stability"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23927": {
+  "en": "The load of vehicles must be arranged so that it does not hide lighting and visual signal devices, number plates or arm signals.",
+  "explain": {
+   "short": "Other road users must see your lights, your plate and your arm signals. The load must not cover them.",
+   "rule": "The load must never fall, block the driver, make the vehicle unstable or hide lights, plates and arm signals - on every road, day and night.",
+   "trap": "The list is complete: lights, signal devices, plates and arm signals must all stay visible.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Load must not hide lights, plates, signals",
+    "it": "targhe",
+    "lines": [
+     "Vehicle with a load",
+     "Lights and plates visible",
+     "Arm signals visible"
+    ],
+    "icons": [
+     "truck",
+     "light",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dispositivi di illuminazione",
+    "en": "lighting devices"
+   },
+   {
+    "it": "targhe di riconoscimento",
+    "en": "number plates"
+   },
+   {
+    "it": "segnali fatti col braccio",
+    "en": "arm signals"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23928": {
+  "en": "The load of the vehicle must be arranged so that it cannot fall or scatter only if the driver has to drive on an extra-urban road.",
+  "explain": {
+   "short": "A falling load is dangerous on every road, in towns too. The rule applies everywhere.",
+   "rule": "The load must never fall, block the driver, make the vehicle unstable or hide lights, plates and arm signals - on every road, day and night.",
+   "trap": "'solo se' (only if) limits the rule to roads outside towns, which is wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Secure the load on every road",
+    "it": "solo se",
+    "lines": [
+     "Any road, in or out of town",
+     "Load must never fall"
+    ],
+    "icons": [
+     "road",
+     "truck"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "caduta o la dispersione",
+    "en": "falling or scattering"
+   },
+   {
+    "it": "solo se",
+    "en": "only if"
+   },
+   {
+    "it": "strada extraurbana",
+    "en": "extra-urban road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23929": {
+  "en": "The load of vehicles must be arranged so that it does not hide lighting and visual signal devices only when driving at night.",
+  "explain": {
+   "short": "Lights, indicators and brake lights are also needed by day. The load must never hide them.",
+   "rule": "The load must never fall, block the driver, make the vehicle unstable or hide lights, plates and arm signals - on every road, day and night.",
+   "trap": "'soltanto durante la circolazione notturna' (only at night) is wrong: the rule applies day and night.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lights never hidden, day or night",
+    "it": "soltanto",
+    "lines": [
+     "Day and night",
+     "Load must not hide the lights"
+    ],
+    "icons": [
+     "night",
+     "light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dispositivi di illuminazione",
+    "en": "lighting devices"
+   },
+   {
+    "it": "soltanto",
+    "en": "only"
+   },
+   {
+    "it": "circolazione notturna",
+    "en": "driving at night"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23930": {
+  "en": "The load must not exceed the outline limit set for each type of vehicle.",
+  "explain": {
+   "short": "Each type of vehicle has maximum sizes (sagoma, the outline). The load must stay within them.",
+   "rule": "No front projection; rear projection up to 3/10 of the length for indivisible things; side projection up to 30 cm from the position lights; nothing may drag on the ground.",
+   "trap": "'limite di sagoma' (outline limit) is the maximum size of the vehicle with its load.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Load stays within the vehicle's outline",
+    "it": "sagoma",
+    "lines": [
+     "Vehicle with a load",
+     "Stay within the maximum outline"
+    ],
+    "icons": [
+     "truck",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carico",
+    "en": "load"
+   },
+   {
+    "it": "limite di sagoma",
+    "en": "outline limit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23931": {
+  "en": "On motor vehicles, the load may not stick out lengthwise at the front.",
+  "explain": {
+   "short": "A load sticking out at the front could hit pedestrians or other vehicles. It is not allowed.",
+   "rule": "No front projection; rear projection up to 3/10 of the length for indivisible things; side projection up to 30 cm from the position lights; nothing may drag on the ground.",
+   "trap": "'dalla parte anteriore' (at the front) is the key: front projection is never allowed; rear projection is, within limits.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No load sticking out at the front",
+    "it": "parte anteriore",
+    "lines": [
+     "Motor vehicle with a load",
+     "Front projection: forbidden",
+     "Rear: allowed within limits"
+    ],
+    "icons": [
+     "truck",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sporgere longitudinalmente",
+    "en": "stick out lengthwise"
+   },
+   {
+    "it": "parte anteriore",
+    "en": "front"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23932": {
+  "en": "The load may stick out lengthwise at the rear, if made of indivisible things, up to 3/10 of the length of the motor vehicle.",
+  "explain": {
+   "short": "Long things that cannot be divided, like poles or beams, may stick out at the back, up to 3/10 of the vehicle's length.",
+   "rule": "No front projection; rear projection up to 3/10 of the length for indivisible things; side projection up to 30 cm from the position lights; nothing may drag on the ground.",
+   "trap": "'3/10 della lunghezza' (3/10 of the length) is right for the REAR; do not confuse it with the sides.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Rear projection up to 3/10 of the length",
+    "it": "3/10",
+    "lines": [
+     "Indivisible load, e.g. long poles",
+     "May stick out at the rear",
+     "Up to 3/10 of the vehicle length"
+    ],
+    "icons": [
+     "truck",
+     "check",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "parte posteriore",
+    "en": "rear"
+   },
+   {
+    "it": "cose indivisibili",
+    "en": "indivisible things"
+   },
+   {
+    "it": "3/10 della lunghezza",
+    "en": "3/10 of the length"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23933": {
+  "en": "Motor vehicles may carry things that stick out sideways beyond their outline by no more than 30 centimetres from the front and rear position lights (in any case within the maximum outline limits).",
+  "explain": {
+   "short": "A small side projection is allowed: up to 30 cm beyond the position lights, and still within the maximum sizes.",
+   "rule": "No front projection; rear projection up to 3/10 of the length for indivisible things; side projection up to 30 cm from the position lights; nothing may drag on the ground.",
+   "trap": "'30 centimetri' is measured from the position lights, and the maximum outline still applies.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Side projection up to 30 cm from the lights",
+    "it": "30 centimetri",
+    "lines": [
+     "Motor vehicle with a wide load",
+     "Side projection up to 30 cm",
+     "Measured from the position lights"
+    ],
+    "icons": [
+     "truck",
+     "distance",
+     "light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sporgono lateralmente",
+    "en": "stick out sideways"
+   },
+   {
+    "it": "30 centimetri",
+    "en": "30 centimetres"
+   },
+   {
+    "it": "luci di posizione",
+    "en": "position lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23934": {
+  "en": "It is forbidden to carry or tow things that drag on the ground, even if partly supported by wheels.",
+  "explain": {
+   "short": "Something dragging on the road damages the surface, can lose pieces and is hard to control. It is always forbidden.",
+   "rule": "No front projection; rear projection up to 3/10 of the length for indivisible things; side projection up to 30 cm from the position lights; nothing may drag on the ground.",
+   "trap": "'anche se in parte sostenute da ruote' (even if partly on wheels) does not make dragging allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Nothing may drag on the ground",
+    "it": "strisciano",
+    "lines": [
+     "Load dragging on the road",
+     "Forbidden",
+     "Even if partly on wheels"
+    ],
+    "icons": [
+     "truck",
+     "cross",
+     "tyre"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strisciano sul terreno",
+    "en": "drag on the ground"
+   },
+   {
+    "it": "in parte sostenute da ruote",
+    "en": "partly supported by wheels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23935": {
+  "en": "If the load sticks out beyond the vehicle's outline, the driver must take all suitable precautions to avoid danger to other road users.",
+  "explain": {
+   "short": "A projecting load is a risk for others, for example in bends or when parking. The driver must be extra careful.",
+   "rule": "No front projection; rear projection up to 3/10 of the length for indivisible things; side projection up to 30 cm from the position lights; nothing may drag on the ground.",
+   "trap": "'tutte le cautele idonee' (all suitable precautions) is a general duty of care: it is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Projecting load: take extra care",
+    "it": "cautele",
+    "lines": [
+     "Load sticking out",
+     "Drive with extra care",
+     "No danger for others"
+    ],
+    "icons": [
+     "truck",
+     "warning",
+     "pedestrian"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sporge oltre la sagoma",
+    "en": "sticks out beyond the outline"
+   },
+   {
+    "it": "cautele idonee",
+    "en": "suitable precautions"
+   },
+   {
+    "it": "altri utenti della strada",
+    "en": "other road users"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23936": {
+  "en": "The load must be arranged on the vehicle so that its rear projection is signalled with the retroreflective panel shown in the figure.",
+  "explain": {
+   "short": "The panel in the picture is red and yellow: it marks the rear of heavy or long vehicles. A projecting load uses a square red-and-white striped panel.",
+   "rule": "No front projection; rear projection up to 3/10 of the length for indivisible things; side projection up to 30 cm from the position lights; nothing may drag on the ground.",
+   "trap": "'pannello in figura' (panel in the figure) is the trap: it is the wrong panel, the red-and-yellow one.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong panel: projecting load = red-and-white",
+    "it": "pannello",
+    "lines": [
+     "Red-and-yellow: heavy or long vehicles",
+     "Projecting load: square red-white panel"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sporgenza posteriore",
+    "en": "rear projection"
+   },
+   {
+    "it": "pannello retroriflettente",
+    "en": "retroreflective panel"
+   },
+   {
+    "it": "in figura",
+    "en": "in the figure"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23937": {
+  "en": "The load may stick out sideways, if made of indivisible things, up to 3/10 of the vehicle's width.",
+  "explain": {
+   "short": "The 3/10 rule is for the REAR (length). At the sides the limit is 30 cm from the position lights.",
+   "rule": "No front projection; rear projection up to 3/10 of the length for indivisible things; side projection up to 30 cm from the position lights; nothing may drag on the ground.",
+   "trap": "'lateralmente' (sideways) and 'larghezza' (width) are the trap: 3/10 is for the rear and the length.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "3/10 is for the rear; sides max 30 cm",
+    "it": "lateralmente",
+    "lines": [
+     "Rear: up to 3/10 of the length",
+     "Sides: up to 30 cm from the lights"
+    ],
+    "icons": [
+     "truck",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sporgere lateralmente",
+    "en": "stick out sideways"
+   },
+   {
+    "it": "cose indivisibili",
+    "en": "indivisible things"
+   },
+   {
+    "it": "larghezza",
+    "en": "width"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23938": {
+  "en": "It is allowed to carry or tow things that drag on the ground if they are partly supported by wheels.",
+  "explain": {
+   "short": "Things that drag on the ground are always forbidden, even with some wheels under them.",
+   "rule": "No front projection; rear projection up to 3/10 of the length for indivisible things; side projection up to 30 cm from the position lights; nothing may drag on the ground.",
+   "trap": "'se in parte sostenute da ruote' (if partly on wheels) is a false exception.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Dragging is forbidden, even with wheels",
+    "it": "strisciano",
+    "lines": [
+     "Load dragging on the road",
+     "Forbidden, even partly on wheels"
+    ],
+    "icons": [
+     "truck",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strisciano sul terreno",
+    "en": "drag on the ground"
+   },
+   {
+    "it": "in parte sostenute da ruote",
+    "en": "partly supported by wheels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

@@ -1,0 +1,2648 @@
+{
+ "q24456": {
+  "en": "It is forbidden to use a car on public roads when the vehicle is not covered by third-party liability insurance.",
+  "explain": {
+   "short": "Third-party insurance (RCA) is compulsory. Without it the car may not be used on public roads, even if parked.",
+   "rule": "To drive on public roads you need: the right licence, a registered vehicle with plates, valid third-party insurance (RCA). You do NOT need to carry the tax receipt or the ownership certificate, and the car may belong to someone else.",
+   "trap": "'responsabilità civile' is the compulsory insurance (RCA) that pays for damage you cause to others.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No RCA insurance = no driving",
+    "it": "assicurazione",
+    "lines": [
+     "Car on a public road",
+     "Third-party insurance (RCA): compulsory",
+     "No insurance = forbidden"
+    ],
+    "icons": [
+     "car",
+     "book",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "assicurazione",
+    "en": "insurance"
+   },
+   {
+    "it": "responsabilità civile",
+    "en": "third-party liability"
+   },
+   {
+    "it": "strade pubbliche",
+    "en": "public roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24457": {
+  "en": "It is forbidden to drive a car on public roads when you do not hold the driving licence needed for that type of vehicle.",
+  "explain": {
+   "short": "Each vehicle type needs its licence category. Driving without the right one is forbidden.",
+   "rule": "To drive on public roads you need: the right licence, a registered vehicle with plates, valid third-party insurance (RCA). You do NOT need to carry the tax receipt or the ownership certificate, and the car may belong to someone else.",
+   "trap": "'necessaria per quel tipo di veicolo': not any licence, the right category for that vehicle.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "You need the right licence category",
+    "it": "patente di guida",
+    "lines": [
+     "Each vehicle needs its licence",
+     "Wrong or no licence = forbidden"
+    ],
+    "icons": [
+     "book",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "patente di guida",
+    "en": "driving licence"
+   },
+   {
+    "it": "quel tipo di veicolo",
+    "en": "that type of vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24458": {
+  "en": "As a rule, it is forbidden to drive on public roads a car that is not registered.",
+  "explain": {
+   "short": "A car must be registered (immatricolato) and have plates to use public roads. There are a few exceptions, like trial plates, so 'as a rule'.",
+   "rule": "To drive on public roads you need: the right licence, a registered vehicle with plates, valid third-party insurance (RCA). You do NOT need to carry the tax receipt or the ownership certificate, and the car may belong to someone else.",
+   "trap": "'di norma' (as a rule) makes it right: there are exceptions such as the trial plate (targa prova).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not registered: as a rule forbidden",
+    "it": "immatricolato",
+    "lines": [
+     "Car must be registered, with plates",
+     "Not registered: as a rule forbidden"
+    ],
+    "icons": [
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "immatricolato",
+    "en": "registered"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24459": {
+  "en": "It is forbidden to use a car on public roads when you do not have with you the receipt of payment of the ownership tax.",
+  "explain": {
+   "short": "You must pay the car tax (bollo), but you do not have to carry the receipt. The payment is checked in the records.",
+   "rule": "To drive on public roads you need: the right licence, a registered vehicle with plates, valid third-party insurance (RCA). You do NOT need to carry the tax receipt or the ownership certificate, and the car may belong to someone else.",
+   "trap": "'con sé' (with you) is the trap: paying is required, carrying the receipt is not.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Tax receipt does not have to be carried",
+    "it": "tassa di possesso",
+    "lines": [
+     "Car tax (bollo): must be paid",
+     "Receipt: no need to carry it"
+    ],
+    "icons": [
+     "money",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ricevuta",
+    "en": "receipt"
+   },
+   {
+    "it": "tassa di possesso",
+    "en": "ownership tax (bollo)"
+   },
+   {
+    "it": "con sé",
+    "en": "with you"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24460": {
+  "en": "It is forbidden to drive on public roads with a car fitted with a trial plate.",
+  "explain": {
+   "short": "The trial plate (targa prova) is made exactly for using unregistered vehicles on the road for tests and transfers. So it is allowed.",
+   "rule": "To drive on public roads you need: the right licence, a registered vehicle with plates, valid third-party insurance (RCA). You do NOT need to carry the tax receipt or the ownership certificate, and the car may belong to someone else.",
+   "trap": "'targa prova' (trial plate) is legal: it is the exception to the registration rule.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Trial plate: driving is allowed",
+    "it": "targa prova",
+    "lines": [
+     "Trial plate (targa prova)",
+     "For tests and transfers: allowed"
+    ],
+    "icons": [
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "targa prova",
+    "en": "trial plate"
+   },
+   {
+    "it": "dotato",
+    "en": "fitted with"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24461": {
+  "en": "It is forbidden to use a car on public roads when the registration document is in the name of a person other than the driver.",
+  "explain": {
+   "short": "You may drive a car that belongs to someone else, for example a friend's or a family car. The owner does not have to be the driver.",
+   "rule": "To drive on public roads you need: the right licence, a registered vehicle with plates, valid third-party insurance (RCA). You do NOT need to carry the tax receipt or the ownership certificate, and the car may belong to someone else.",
+   "trap": "'intestata a persona diversa' (in another person's name) is normal and allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "You may drive a car owned by someone else",
+    "it": "intestata",
+    "lines": [
+     "Car in a friend's name",
+     "You may drive it with your licence"
+    ],
+    "icons": [
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carta di circolazione",
+    "en": "registration document"
+   },
+   {
+    "it": "intestata",
+    "en": "registered in the name of"
+   },
+   {
+    "it": "persona diversa dal conducente",
+    "en": "a person other than the driver"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24462": {
+  "en": "On public roads it is forbidden to use a car if its warranty has expired.",
+  "explain": {
+   "short": "The warranty (garanzia) is a deal between buyer and seller for repairs. It has nothing to do with the right to drive.",
+   "rule": "To drive on public roads you need: the right licence, a registered vehicle with plates, valid third-party insurance (RCA). You do NOT need to carry the tax receipt or the ownership certificate, and the car may belong to someone else.",
+   "trap": "'garanzia' is the shop warranty, not the insurance: when it expires you can still drive.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Expired warranty does not stop you",
+    "it": "garanzia",
+    "lines": [
+     "Warranty: only for repairs",
+     "Expired warranty: you may drive"
+    ],
+    "icons": [
+     "book",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "garanzia",
+    "en": "warranty"
+   },
+   {
+    "it": "scaduta di validità",
+    "en": "expired"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24463": {
+  "en": "It is forbidden to use a car on public roads when you do not have the certificate of ownership with you.",
+  "explain": {
+   "short": "The certificate of ownership is not a document you must carry while driving. You carry the licence, the registration document and the insurance.",
+   "rule": "To drive on public roads you need: the right licence, a registered vehicle with plates, valid third-party insurance (RCA). You do NOT need to carry the tax receipt or the ownership certificate, and the car may belong to someone else.",
+   "trap": "'certificato di proprietà' is not in the list of documents to carry: do not mix it up with the 'carta di circolazione'.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Ownership certificate: no need to carry it",
+    "it": "certificato di proprietà",
+    "lines": [
+     "Carry: licence + registration",
+     "Ownership certificate: not needed"
+    ],
+    "icons": [
+     "book",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "certificato di proprietà",
+    "en": "certificate of ownership"
+   },
+   {
+    "it": "con sé",
+    "en": "with you"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24464": {
+  "en": "To be allowed on the road, a car must have identification plates, so that the owner of the vehicle can be traced.",
+  "explain": {
+   "short": "Plates identify the vehicle, so police can find who it belongs to. Without plates the car cannot circulate.",
+   "rule": "A car on the road must have its plates, its registration document (carta di circolazione) and the warning triangle. The only compulsory insurance is third-party (RCA), not 'kasko'.",
+   "trap": "'affinché sia possibile risalire all'intestatario' explains why: the plate leads to the owner.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Plates show who owns the car",
+    "it": "targhe",
+    "lines": [
+     "Car must have plates",
+     "Police can trace the owner"
+    ],
+    "icons": [
+     "car",
+     "police"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "targhe identificative",
+    "en": "identification plates"
+   },
+   {
+    "it": "intestatario",
+    "en": "registered owner"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24465": {
+  "en": "To be allowed on the road, a car must have its registration document.",
+  "explain": {
+   "short": "The registration document (carta di circolazione) shows the car's data and must be kept on board, ready to show the police.",
+   "rule": "A car on the road must have its plates, its registration document (carta di circolazione) and the warning triangle. The only compulsory insurance is third-party (RCA), not 'kasko'.",
+   "trap": "'carta di circolazione' (registration document) is one of the documents always kept in the car.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Registration document on board",
+    "it": "carta di circolazione",
+    "lines": [
+     "Registration document on board",
+     "Show it to the police on request"
+    ],
+    "icons": [
+     "book",
+     "police"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carta di circolazione",
+    "en": "registration document"
+   },
+   {
+    "it": "munito",
+    "en": "equipped with"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24467": {
+  "en": "To be allowed on the road, a car must have the portable warning sign (triangle).",
+  "explain": {
+   "short": "Every car must carry the warning triangle, to signal the car when it stops in a dangerous place.",
+   "rule": "A car on the road must have its plates, its registration document (carta di circolazione) and the warning triangle. The only compulsory insurance is third-party (RCA), not 'kasko'.",
+   "trap": "'segnale mobile di pericolo' is just the official name of the triangle.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Warning triangle: compulsory",
+    "it": "triangolo",
+    "lines": [
+     "Warning triangle in the car",
+     "Use it when you stop on the road"
+    ],
+    "icons": [
+     "warning",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale mobile di pericolo",
+    "en": "portable warning sign"
+   },
+   {
+    "it": "triangolo",
+    "en": "triangle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24468": {
+  "en": "To be allowed on the road, a car must have a 'kasko' type insurance policy.",
+  "explain": {
+   "short": "Only third-party insurance (RCA) is compulsory. 'Kasko' covers damage to your own car and is optional.",
+   "rule": "A car on the road must have its plates, its registration document (carta di circolazione) and the warning triangle. The only compulsory insurance is third-party (RCA), not 'kasko'.",
+   "trap": "'kasko' is extra insurance for your own car: it is a free choice.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Kasko is optional; RCA is compulsory",
+    "it": "kasko",
+    "lines": [
+     "RCA insurance: compulsory",
+     "Kasko insurance: optional"
+    ],
+    "icons": [
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "polizza assicurativa",
+    "en": "insurance policy"
+   },
+   {
+    "it": "kasko",
+    "en": "kasko (own-damage cover)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24469": {
+  "en": "Vehicle plates must be fixed firmly and in the correct position.",
+  "explain": {
+   "short": "A plate must not fall off or be in the wrong place: it must be easy to see and read.",
+   "rule": "Plates must be fixed firmly in the right place, always readable, clean and never altered or bent. Cars for driving lessons carry 'P' panels front and back.",
+   "trap": "'saldamente' (firmly) and 'posizione corretta': both are required.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Plates: firm and in the right place",
+    "it": "targhe",
+    "lines": [
+     "Plate fixed firmly",
+     "In the correct position"
+    ],
+    "icons": [
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "targhe",
+    "en": "number plates"
+   },
+   {
+    "it": "apposte saldamente",
+    "en": "fixed firmly"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24470": {
+  "en": "Vehicle plates must always be clearly readable.",
+  "explain": {
+   "short": "Police and cameras must read the plate at any time. So it must always be readable.",
+   "rule": "Plates must be fixed firmly in the right place, always readable, clean and never altered or bent. Cars for driving lessons carry 'P' panels front and back.",
+   "trap": "'sempre' (always) is right here: a plate must be readable at all times.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Plates always readable",
+    "it": "leggibili",
+    "lines": [
+     "Plate always readable",
+     "Police must read it at any time"
+    ],
+    "icons": [
+     "eye",
+     "police"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sempre",
+    "en": "always"
+   },
+   {
+    "it": "ben leggibili",
+    "en": "clearly readable"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24471": {
+  "en": "Vehicle plates must not be dirty.",
+  "explain": {
+   "short": "A dirty plate cannot be read well. Keep it clean, for example after mud or snow.",
+   "rule": "Plates must be fixed firmly in the right place, always readable, clean and never altered or bent. Cars for driving lessons carry 'P' panels front and back.",
+   "trap": "'sporche' (dirty): a dirty plate is not readable, so it is not allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Keep plates clean",
+    "it": "sporche",
+    "lines": [
+     "Dirty plate: hard to read",
+     "Keep it clean"
+    ],
+    "icons": [
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "targhe",
+    "en": "number plates"
+   },
+   {
+    "it": "sporche",
+    "en": "dirty"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24472": {
+  "en": "Vehicle plates must not be tampered with or forged.",
+  "explain": {
+   "short": "Changing or faking a plate hides who owns the car. It is a serious offence.",
+   "rule": "Plates must be fixed firmly in the right place, always readable, clean and never altered or bent. Cars for driving lessons carry 'P' panels front and back.",
+   "trap": "'manomesse' (tampered) and 'contraffatte' (forged): both are forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Never alter or fake a plate",
+    "it": "manomesse",
+    "lines": [
+     "Altered or fake plate",
+     "Forbidden: serious offence"
+    ],
+    "icons": [
+     "cross",
+     "police"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "manomesse",
+    "en": "tampered with"
+   },
+   {
+    "it": "contraffatte",
+    "en": "forged"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24473": {
+  "en": "Cars used for driving practice must have, both at the front and at the rear, special retroreflective panels with the letter 'P' (learner).",
+  "explain": {
+   "short": "A learner car must show the 'P' panel front and back, so other drivers know a beginner is driving.",
+   "rule": "Plates must be fixed firmly in the right place, always readable, clean and never altered or bent. Cars for driving lessons carry 'P' panels front and back.",
+   "trap": "'sia anteriormente che posteriormente' (both front and rear): one panel only is not enough.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Learner car: 'P' panel front and rear",
+    "it": "principiante",
+    "lines": [
+     "Learner driving practice",
+     "'P' panel at the front",
+     "'P' panel at the rear"
+    ],
+    "icons": [
+     "car",
+     "sign",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "esercitazioni di guida",
+    "en": "driving practice"
+   },
+   {
+    "it": "anteriormente che posteriormente",
+    "en": "front and rear"
+   },
+   {
+    "it": "principiante",
+    "en": "learner"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24474": {
+  "en": "Vehicle plates may be bent to fit their holder better.",
+  "explain": {
+   "short": "A bent plate is altered and can be hard to read. Plates must stay as they are.",
+   "rule": "Plates must be fixed firmly in the right place, always readable, clean and never altered or bent. Cars for driving lessons carry 'P' panels front and back.",
+   "trap": "'piegate' (bent) makes it wrong: you may not change the shape of a plate.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never bend a plate",
+    "it": "piegate",
+    "lines": [
+     "Bent plate: forbidden",
+     "Plate must stay flat and readable"
+    ],
+    "icons": [
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "piegate",
+    "en": "bent"
+   },
+   {
+    "it": "supporto",
+    "en": "holder"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24475": {
+  "en": "With an AM licence you may drive light quadricycles.",
+  "explain": {
+   "short": "The AM licence covers mopeds and light quadricycles (small, slow four-wheel vehicles, 'minicar').",
+   "rule": "AM licence: from 14 years, with theory and driving exams. It covers mopeds with 2 or 3 wheels and light quadricycles. It does not cover motorbikes or non-light quadricycles.",
+   "trap": "'leggeri' (light) is the key: light quadricycles yes, non-light ones no.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "AM: light quadricycles allowed",
+    "it": "quadricicli leggeri",
+    "lines": [
+     "AM licence",
+     "Light quadricycle (minicar): yes"
+    ],
+    "icons": [
+     "book",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "patente di categoria AM",
+    "en": "AM licence"
+   },
+   {
+    "it": "quadricicli leggeri",
+    "en": "light quadricycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24476": {
+  "en": "With an AM licence you may drive two-wheel mopeds.",
+  "explain": {
+   "short": "Two-wheel mopeds (ciclomotori, scooters) are the main AM vehicles.",
+   "rule": "AM licence: from 14 years, with theory and driving exams. It covers mopeds with 2 or 3 wheels and light quadricycles. It does not cover motorbikes or non-light quadricycles.",
+   "trap": "'ciclomotori' are mopeds, not motorbikes (motocicli).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "AM: two-wheel mopeds allowed",
+    "it": "ciclomotori",
+    "lines": [
+     "AM licence",
+     "Two-wheel moped: yes"
+    ],
+    "icons": [
+     "book",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   },
+   {
+    "it": "due ruote",
+    "en": "two wheels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24477": {
+  "en": "With an AM licence you may drive three-wheel mopeds.",
+  "explain": {
+   "short": "AM covers all mopeds, with two or three wheels.",
+   "rule": "AM licence: from 14 years, with theory and driving exams. It covers mopeds with 2 or 3 wheels and light quadricycles. It does not cover motorbikes or non-light quadricycles.",
+   "trap": "'tre ruote' (three wheels) is still a moped: AM is enough.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "AM: three-wheel mopeds allowed",
+    "it": "tre ruote",
+    "lines": [
+     "AM licence",
+     "Three-wheel moped: yes"
+    ],
+    "icons": [
+     "book",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   },
+   {
+    "it": "tre ruote",
+    "en": "three wheels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24478": {
+  "en": "You can get the AM licence at 14 years of age.",
+  "explain": {
+   "short": "The minimum age for the AM licence in Italy is 14.",
+   "rule": "AM licence: from 14 years, with theory and driving exams. It covers mopeds with 2 or 3 wheels and light quadricycles. It does not cover motorbikes or non-light quadricycles.",
+   "trap": "The number 14 is correct for AM.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "AM licence: from 14 years",
+    "it": "14 anni",
+    "lines": [
+     "AM licence",
+     "Minimum age: 14"
+    ],
+    "icons": [
+     "book",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "patente AM",
+    "en": "AM licence"
+   },
+   {
+    "it": "conseguire",
+    "en": "obtain"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24479": {
+  "en": "The AM licence allows you to drive mopeds with a thermal engine of not more than 50 cm3.",
+  "explain": {
+   "short": "A moped with a fuel (thermal) engine has at most 50 cm3. That is exactly an AM vehicle.",
+   "rule": "AM licence: from 14 years, with theory and driving exams. It covers mopeds with 2 or 3 wheels and light quadricycles. It does not cover motorbikes or non-light quadricycles.",
+   "trap": "'non superiore a 50 cm3' (not more than 50 cm3) is the moped limit, so it is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "AM: mopeds up to 50 cm3",
+    "it": "ciclomotori",
+    "lines": [
+     "Moped, fuel engine",
+     "Up to 50 cm3: AM licence"
+    ],
+    "icons": [
+     "moto",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   },
+   {
+    "it": "motore termico",
+    "en": "thermal (fuel) engine"
+   },
+   {
+    "it": "non superiore a 50 cm3",
+    "en": "not more than 50 cm3"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24481": {
+  "en": "With an AM licence you may drive two-wheel mopeds, while to drive three-wheel mopeds you need an A1 licence.",
+  "explain": {
+   "short": "AM covers mopeds with two AND three wheels. You do not need A1 for a three-wheel moped.",
+   "rule": "AM licence: from 14 years, with theory and driving exams. It covers mopeds with 2 or 3 wheels and light quadricycles. It does not cover motorbikes or non-light quadricycles.",
+   "trap": "'occorre la patente A1' (you need A1) is wrong: AM is enough.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Three-wheel mopeds: AM is enough",
+    "it": "occorre",
+    "lines": [
+     "Two-wheel moped: AM",
+     "Three-wheel moped: also AM"
+    ],
+    "icons": [
+     "moto",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tre ruote",
+    "en": "three wheels"
+   },
+   {
+    "it": "occorre",
+    "en": "is needed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24482": {
+  "en": "The AM licence allows anyone aged 14 to drive mopeds in all European Union countries.",
+  "explain": {
+   "short": "At 14 the AM licence is valid in Italy. Other EU countries may set a higher minimum age, so it is not valid everywhere at 14.",
+   "rule": "AM licence: from 14 years, with theory and driving exams. It covers mopeds with 2 or 3 wheels and light quadricycles. It does not cover motorbikes or non-light quadricycles.",
+   "trap": "'in tutti i paesi dell'Unione Europea' (in all EU countries) is the trap: at 14 it is only valid in Italy.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "At 14, AM is valid in Italy, not all the EU",
+    "it": "Unione Europea",
+    "lines": [
+     "AM at 14: valid in Italy",
+     "Abroad: their minimum age applies"
+    ],
+    "icons": [
+     "book",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "14 anni",
+    "en": "14 years"
+   },
+   {
+    "it": "tutti i paesi dell'unione europea",
+    "en": "all European Union countries"
+   }
+  ],
+  "review": true,
+  "reviewNote": "Explanation says other EU countries may require a higher age; no number given on purpose."
+ },
+ "q24483": {
+  "en": "With an AM licence you may drive non-light quadricycles with power up to 7 kW.",
+  "explain": {
+   "short": "AM covers only LIGHT quadricycles. Non-light quadricycles need the B1 (or B) licence.",
+   "rule": "AM licence: from 14 years, with theory and driving exams. It covers mopeds with 2 or 3 wheels and light quadricycles. It does not cover motorbikes or non-light quadricycles.",
+   "trap": "'non leggeri' (non-light) is the trap: AM stops at light quadricycles.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Non-light quadricycles: not with AM",
+    "it": "non leggeri",
+    "lines": [
+     "AM: light quadricycles only",
+     "Non-light quadricycle: B1 or B"
+    ],
+    "icons": [
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "quadricicli non leggeri",
+    "en": "non-light quadricycles"
+   },
+   {
+    "it": "potenza",
+    "en": "power"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24484": {
+  "en": "The AM licence allows you to drive motorbikes, as long as they have an electric engine.",
+  "explain": {
+   "short": "AM covers mopeds, not motorbikes (motocicli). An electric engine does not change the category.",
+   "rule": "AM licence: from 14 years, with theory and driving exams. It covers mopeds with 2 or 3 wheels and light quadricycles. It does not cover motorbikes or non-light quadricycles.",
+   "trap": "'motocicli' (motorbikes) are not mopeds; 'elettrico' does not make them AM vehicles.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Motorbikes need A1, A2 or A, even electric",
+    "it": "motocicli",
+    "lines": [
+     "Motorbike, even electric",
+     "Not with AM: A1, A2 or A"
+    ],
+    "icons": [
+     "moto",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "motocicli",
+    "en": "motorbikes"
+   },
+   {
+    "it": "motore elettrico",
+    "en": "electric engine"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24485": {
+  "en": "The AM licence can be issued without taking the theory and practical exams, as long as the applicant is of age.",
+  "explain": {
+   "short": "Everyone must pass the theory and driving exams for the AM licence. Being an adult gives no exemption.",
+   "rule": "AM licence: from 14 years, with theory and driving exams. It covers mopeds with 2 or 3 wheels and light quadricycles. It does not cover motorbikes or non-light quadricycles.",
+   "trap": "'senza dover sostenere gli esami' (without exams) is wrong: exams are always needed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "AM always needs theory and driving exams",
+    "it": "esami",
+    "lines": [
+     "AM licence",
+     "Theory exam: needed",
+     "Driving exam: needed"
+    ],
+    "icons": [
+     "book",
+     "check",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "esami teorici e pratici",
+    "en": "theory and practical exams"
+   },
+   {
+    "it": "maggiorenne",
+    "en": "of age (18+)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24486": {
+  "en": "The AM licence held for at least 3 years allows you to drive motorbikes with power up to 11 kW.",
+  "explain": {
+   "short": "AM never grows into a motorbike licence with time. For 11 kW motorbikes you need the A1 licence.",
+   "rule": "AM licence: from 14 years, with theory and driving exams. It covers mopeds with 2 or 3 wheels and light quadricycles. It does not cover motorbikes or non-light quadricycles.",
+   "trap": "'da almeno 3 anni' (for at least 3 years) is invented: time does not upgrade AM.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "AM never becomes a motorbike licence",
+    "it": "motocicli",
+    "lines": [
+     "AM, even after years",
+     "Still only mopeds",
+     "11 kW motorbike: A1 needed"
+    ],
+    "icons": [
+     "book",
+     "cross",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "da almeno 3 anni",
+    "en": "for at least 3 years"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorbikes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24488": {
+  "en": "With an A1 licence you may drive motorbikes (with or without sidecar) up to 125 cm3, power not over 11 kW and power/weight ratio not over 0.1 kW/kg.",
+  "explain": {
+   "short": "These are exactly the three limits of an A1 motorbike: 125 cm3, 11 kW and 0.1 kW/kg.",
+   "rule": "A1 licence: from 16 years. Motorbikes up to 125 cm3, 11 kW and 0.1 kW/kg; tricycles up to 15 kW; small farm machines; and all AM vehicles. It never turns into A2 or A by itself.",
+   "trap": "All three limits must be met together: size, power and power/weight.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A1: 125 cm3, 11 kW, 0.1 kW/kg",
+    "it": "motocicli",
+    "lines": [
+     "A1 motorbike: up to 125 cm3",
+     "Power up to 11 kW",
+     "Up to 0.1 kW/kg"
+    ],
+    "icons": [
+     "moto",
+     "engine",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "motocicli",
+    "en": "motorbikes"
+   },
+   {
+    "it": "carrozzetta",
+    "en": "sidecar"
+   },
+   {
+    "it": "cilindrata",
+    "en": "engine size"
+   },
+   {
+    "it": "rapporto potenza/peso",
+    "en": "power/weight ratio"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24489": {
+  "en": "With an A1 licence you may drive motor tricycles with power not over 15 kW.",
+  "explain": {
+   "short": "A1 covers tricycles up to 15 kW. More powerful tricycles need the A licence.",
+   "rule": "A1 licence: from 16 years. Motorbikes up to 125 cm3, 11 kW and 0.1 kW/kg; tricycles up to 15 kW; small farm machines; and all AM vehicles. It never turns into A2 or A by itself.",
+   "trap": "'non superiore a 15 kW' (not over 15 kW) is the correct A1 limit.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A1: tricycles up to 15 kW",
+    "it": "tricicli",
+    "lines": [
+     "Tricycle up to 15 kW: A1",
+     "Over 15 kW: A licence"
+    ],
+    "icons": [
+     "moto",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tricicli a motore",
+    "en": "motor tricycles"
+   },
+   {
+    "it": "non superiore a 15 kw",
+    "en": "not over 15 kW"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24490": {
+  "en": "With an A1 licence you may drive farm machines that stay within the size and mass limits set for motor vehicles of the motorbike class (motoveicoli).",
+  "explain": {
+   "short": "Small farm machines, within the size and weight of motoveicoli, can be driven with A1.",
+   "rule": "A1 licence: from 16 years. Motorbikes up to 125 cm3, 11 kW and 0.1 kW/kg; tricycles up to 15 kW; small farm machines; and all AM vehicles. It never turns into A2 or A by itself.",
+   "trap": "'nei limiti di sagoma e di massa' (within size and mass limits) is the condition that makes it true.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A1: small farm machines allowed",
+    "it": "macchine agricole",
+    "lines": [
+     "Small farm machine",
+     "Within motorbike-class limits: A1"
+    ],
+    "icons": [
+     "truck",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "macchine agricole",
+    "en": "farm machines"
+   },
+   {
+    "it": "limiti di sagoma e di massa",
+    "en": "size and mass limits"
+   },
+   {
+    "it": "motoveicoli",
+    "en": "motorbike-class vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24491": {
+  "en": "The A1 licence can be obtained by anyone who is at least 16 years old.",
+  "explain": {
+   "short": "The minimum age for A1 is 16.",
+   "rule": "A1 licence: from 16 years. Motorbikes up to 125 cm3, 11 kW and 0.1 kW/kg; tricycles up to 15 kW; small farm machines; and all AM vehicles. It never turns into A2 or A by itself.",
+   "trap": "16 is the correct number for A1 (AM is 14, A2 is 18).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A1: from 16 years",
+    "it": "16 anni",
+    "lines": [
+     "A1 licence",
+     "Minimum age: 16"
+    ],
+    "icons": [
+     "book",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "almeno 16 anni",
+    "en": "at least 16 years"
+   },
+   {
+    "it": "conseguita",
+    "en": "obtained"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24493": {
+  "en": "The A1 licence also allows you to drive the vehicles that can be driven with the AM licence.",
+  "explain": {
+   "short": "Each motorbike licence includes the lower ones. A1 includes AM: mopeds and light quadricycles.",
+   "rule": "A1 licence: from 16 years. Motorbikes up to 125 cm3, 11 kW and 0.1 kW/kg; tricycles up to 15 kW; small farm machines; and all AM vehicles. It never turns into A2 or A by itself.",
+   "trap": "'anche' (also): A1 covers its own vehicles plus all AM vehicles.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A1 includes AM vehicles",
+    "it": "anche",
+    "lines": [
+     "A1 licence",
+     "Also all AM vehicles"
+    ],
+    "icons": [
+     "book",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "abilita anche",
+    "en": "also allows"
+   },
+   {
+    "it": "patente AM",
+    "en": "AM licence"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24494": {
+  "en": "The A1 licence can be obtained only by someone who already holds the AM licence.",
+  "explain": {
+   "short": "You can take A1 directly at 16. You do not need AM first.",
+   "rule": "A1 licence: from 16 years. Motorbikes up to 125 cm3, 11 kW and 0.1 kW/kg; tricycles up to 15 kW; small farm machines; and all AM vehicles. It never turns into A2 or A by itself.",
+   "trap": "'solo' (only) makes it wrong: AM is not a required first step.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A1 does not require AM first",
+    "it": "solo",
+    "lines": [
+     "Age 16, no AM licence",
+     "You can take A1 directly"
+    ],
+    "icons": [
+     "book",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "già in possesso",
+    "en": "already holding"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24495": {
+  "en": "The A1 licence allows you to drive all motorbikes up to 125 cm3.",
+  "explain": {
+   "short": "Engine size is not the only limit: an A1 motorbike also needs at most 11 kW and 0.1 kW/kg. A powerful 125 is not allowed.",
+   "rule": "A1 licence: from 16 years. Motorbikes up to 125 cm3, 11 kW and 0.1 kW/kg; tricycles up to 15 kW; small farm machines; and all AM vehicles. It never turns into A2 or A by itself.",
+   "trap": "'tutti' (all) is the trap: some 125 cm3 motorbikes are too powerful for A1.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Not all 125s: also 11 kW and 0.1 kW/kg",
+    "it": "tutti",
+    "lines": [
+     "125 cm3 is not enough",
+     "Also max 11 kW and 0.1 kW/kg"
+    ],
+    "icons": [
+     "moto",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tutti",
+    "en": "all"
+   },
+   {
+    "it": "cilindrata",
+    "en": "engine size"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24496": {
+  "en": "With an A1 licence you may drive tricycles with power over 15 kW, but only if the driver is of age.",
+  "explain": {
+   "short": "Tricycles over 15 kW need the A licence (and age 21). A1 stops at 15 kW at any age.",
+   "rule": "A1 licence: from 16 years. Motorbikes up to 125 cm3, 11 kW and 0.1 kW/kg; tricycles up to 15 kW; small farm machines; and all AM vehicles. It never turns into A2 or A by itself.",
+   "trap": "'superiore a 15 kW' (over 15 kW): age does not change the A1 limit.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Tricycle over 15 kW: A licence, not A1",
+    "it": "superiore",
+    "lines": [
+     "Tricycle over 15 kW",
+     "Not with A1, at any age",
+     "A licence needed"
+    ],
+    "icons": [
+     "moto",
+     "cross",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "superiore a 15 kw",
+    "en": "over 15 kW"
+   },
+   {
+    "it": "maggiorenne",
+    "en": "of age (18+)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24497": {
+  "en": "With an A1 licence you may drive non-exceptional work machines.",
+  "explain": {
+   "short": "Work machines (macchine operatrici, like road-works vehicles) are not A1 vehicles; they need the B licence.",
+   "rule": "A1 licence: from 16 years. Motorbikes up to 125 cm3, 11 kW and 0.1 kW/kg; tricycles up to 15 kW; small farm machines; and all AM vehicles. It never turns into A2 or A by itself.",
+   "trap": "'macchine operatrici' (work machines) are not 'macchine agricole' (farm machines): only small farm machines go with A1.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Work machines: not with A1",
+    "it": "macchine operatrici",
+    "lines": [
+     "Work machine (road works)",
+     "Not with A1: B licence"
+    ],
+    "icons": [
+     "truck",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "macchine operatrici",
+    "en": "work machines"
+   },
+   {
+    "it": "non eccezionali",
+    "en": "non-exceptional"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24498": {
+  "en": "The A1 licence lets a driver under 18 carry a passenger, but only if the passenger is of age.",
+  "explain": {
+   "short": "Whether you may carry a passenger depends on the vehicle: the registration document must allow a passenger seat. The passenger's age is not the rule.",
+   "rule": "A1 licence: from 16 years. Motorbikes up to 125 cm3, 11 kW and 0.1 kW/kg; tricycles up to 15 kW; small farm machines; and all AM vehicles. It never turns into A2 or A by itself.",
+   "trap": "'solo se lo stesso è maggiorenne' (only if the passenger is an adult) is an invented condition.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Passenger: depends on the vehicle, not age",
+    "it": "passeggero",
+    "lines": [
+     "Passenger seat on the registration?",
+     "Yes: passenger allowed",
+     "Passenger's age: not the rule"
+    ],
+    "icons": [
+     "book",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "meno di 18 anni",
+    "en": "under 18"
+   },
+   {
+    "it": "passeggero",
+    "en": "passenger"
+   },
+   {
+    "it": "maggiorenne",
+    "en": "of age (18+)"
+   }
+  ],
+  "review": true,
+  "reviewNote": "Passenger rules for under-18 A1 riders: explained via the registration document (as in q24503); please verify against art. 170 CdS."
+ },
+ "q24499": {
+  "en": "After the first two years, the A1 licence automatically becomes an A2 licence and, after two more years, an A licence that allows any motorbike.",
+  "explain": {
+   "short": "No licence changes category by itself. To move from A1 to A2, or from A2 to A, you must pass a new driving test.",
+   "rule": "A1 licence: from 16 years. Motorbikes up to 125 cm3, 11 kW and 0.1 kW/kg; tricycles up to 15 kW; small farm machines; and all AM vehicles. It never turns into A2 or A by itself.",
+   "trap": "'automaticamente' (automatically) makes it wrong: each step needs a new test.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A1 never turns into A2 or A by itself",
+    "it": "automaticamente",
+    "lines": [
+     "A1 to A2: new test needed",
+     "A2 to A: new test needed",
+     "Nothing is automatic"
+    ],
+    "icons": [
+     "book",
+     "book",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "automaticamente",
+    "en": "automatically"
+   },
+   {
+    "it": "trascorsi i primi due anni",
+    "en": "after the first two years"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24500": {
+  "en": "With an A2 licence you may drive motorbikes (with or without sidecar) with power up to 35 kW and power/weight ratio not over 0.2 kW/kg, as long as they are not derived from a version of the same model with more than double the maximum power.",
+  "explain": {
+   "short": "These are the exact A2 limits: 35 kW, 0.2 kW/kg, and the bike must not be a reduced version of one with more than double the power.",
+   "rule": "A2 licence: from 18 years. Motorbikes up to 35 kW and 0.2 kW/kg (not derived from a model with more than double the power), plus all A1 and AM vehicles. After 2 years with A2 you can get A at 20.",
+   "trap": "'oltre il doppio' (more than double) and 35 kW are the correct numbers.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A2: 35 kW, 0.2 kW/kg, not from double power",
+    "it": "35 kW",
+    "lines": [
+     "A2 motorbike: up to 35 kW",
+     "Up to 0.2 kW/kg",
+     "Not from a model with double power"
+    ],
+    "icons": [
+     "moto",
+     "engine",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "potenza fino a 35 kw",
+    "en": "power up to 35 kW"
+   },
+   {
+    "it": "rapporto potenza/peso",
+    "en": "power/weight ratio"
+   },
+   {
+    "it": "oltre il doppio",
+    "en": "more than double"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24501": {
+  "en": "The A2 licence also allows you to drive the vehicles that can be driven with the A1 and AM licences.",
+  "explain": {
+   "short": "A2 includes the lower motorbike licences: all A1 and AM vehicles.",
+   "rule": "A2 licence: from 18 years. Motorbikes up to 35 kW and 0.2 kW/kg (not derived from a model with more than double the power), plus all A1 and AM vehicles. After 2 years with A2 you can get A at 20.",
+   "trap": "'anche' (also): A2 covers its own motorbikes plus A1 and AM vehicles.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A2 includes A1 and AM vehicles",
+    "it": "anche",
+    "lines": [
+     "A2 licence",
+     "Also all A1 and AM vehicles"
+    ],
+    "icons": [
+     "book",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "abilita anche",
+    "en": "also allows"
+   },
+   {
+    "it": "patenti a1 e am",
+    "en": "A1 and AM licences"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24502": {
+  "en": "The A2 licence can be obtained by anyone who is at least 18 years old.",
+  "explain": {
+   "short": "The minimum age for A2 is 18.",
+   "rule": "A2 licence: from 18 years. Motorbikes up to 35 kW and 0.2 kW/kg (not derived from a model with more than double the power), plus all A1 and AM vehicles. After 2 years with A2 you can get A at 20.",
+   "trap": "18 is the correct number for A2.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A2: from 18 years",
+    "it": "18 anni",
+    "lines": [
+     "A2 licence",
+     "Minimum age: 18"
+    ],
+    "icons": [
+     "book",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "almeno 18 anni",
+    "en": "at least 18 years"
+   },
+   {
+    "it": "conseguita",
+    "en": "obtained"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24503": {
+  "en": "The A2 licence allows the holder to carry a passenger only if the passenger seat is stated in the vehicle's registration document.",
+  "explain": {
+   "short": "You may carry a passenger only on a motorbike approved for two people, as written in the registration document.",
+   "rule": "A2 licence: from 18 years. Motorbikes up to 35 kW and 0.2 kW/kg (not derived from a model with more than double the power), plus all A1 and AM vehicles. After 2 years with A2 you can get A at 20.",
+   "trap": "'solo se ... previsto sulla carta di circolazione': the registration document decides.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Passenger only if the registration allows it",
+    "it": "passeggero",
+    "lines": [
+     "Passenger seat on the registration?",
+     "Yes: you may carry a passenger",
+     "No: ride alone"
+    ],
+    "icons": [
+     "book",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passeggero",
+    "en": "passenger"
+   },
+   {
+    "it": "carta di circolazione",
+    "en": "registration document"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24504": {
+  "en": "Someone who has held the A2 licence for at least two years can get the A licence, valid for all motorbikes, even if under 24.",
+  "explain": {
+   "short": "This is gradual access: after 2 years of A2 you can take A at 20. You do not have to wait until 24.",
+   "rule": "A2 licence: from 18 years. Motorbikes up to 35 kW and 0.2 kW/kg (not derived from a model with more than double the power), plus all A1 and AM vehicles. After 2 years with A2 you can get A at 20.",
+   "trap": "'anche se ha meno di 24 anni' (even if under 24) is right: 24 is only for direct access.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "2 years of A2: A licence before 24",
+    "it": "almeno due anni",
+    "lines": [
+     "A2 held for 2 years",
+     "Can get A from age 20",
+     "No need to wait until 24"
+    ],
+    "icons": [
+     "book",
+     "check",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "da almeno due anni",
+    "en": "for at least two years"
+   },
+   {
+    "it": "meno di 24 anni",
+    "en": "under 24"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24505": {
+  "en": "The holder of an A2 licence may also drive farm machines within the size and mass limits of motorbike-class vehicles (motoveicoli).",
+  "explain": {
+   "short": "A2 includes A1, and A1 allows small farm machines within motoveicoli limits.",
+   "rule": "A2 licence: from 18 years. Motorbikes up to 35 kW and 0.2 kW/kg (not derived from a model with more than double the power), plus all A1 and AM vehicles. After 2 years with A2 you can get A at 20.",
+   "trap": "'anche' (also): A2 inherits the farm machines allowed by A1.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A2: small farm machines allowed",
+    "it": "macchine agricole",
+    "lines": [
+     "A2 includes A1",
+     "Small farm machine: allowed"
+    ],
+    "icons": [
+     "book",
+     "truck"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "macchine agricole",
+    "en": "farm machines"
+   },
+   {
+    "it": "limiti di sagoma e di massa",
+    "en": "size and mass limits"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24506": {
+  "en": "The A2 licence can be obtained by anyone who is at least 20 years old.",
+  "explain": {
+   "short": "The minimum age for A2 is 18, not 20. Age 20 is when you can move from A2 to A.",
+   "rule": "A2 licence: from 18 years. Motorbikes up to 35 kW and 0.2 kW/kg (not derived from a model with more than double the power), plus all A1 and AM vehicles. After 2 years with A2 you can get A at 20.",
+   "trap": "The number is wrong: 20 is the age for gradual access to A, not for A2.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A2: from 18, not 20",
+    "it": "20 anni",
+    "lines": [
+     "A2 licence",
+     "Minimum age: 18",
+     "20 is for the A licence"
+    ],
+    "icons": [
+     "book",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "almeno 20 anni",
+    "en": "at least 20 years"
+   },
+   {
+    "it": "conseguita",
+    "en": "obtained"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24507": {
+  "en": "With an A2 licence you may drive motorbikes (with or without sidecar) with power up to 25 kW and power/weight ratio not over 0.2 kW/kg, as long as they are not derived from a version with more than triple the maximum power.",
+  "explain": {
+   "short": "Two numbers are wrong: the A2 limit is 35 kW, and the bike must not come from a version with more than DOUBLE the power.",
+   "rule": "A2 licence: from 18 years. Motorbikes up to 35 kW and 0.2 kW/kg (not derived from a model with more than double the power), plus all A1 and AM vehicles. After 2 years with A2 you can get A at 20.",
+   "trap": "'25 kW' and 'triplo' (triple) are wrong; the right values are 35 kW and 'doppio' (double).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A2: 35 kW and double, not 25 kW and triple",
+    "it": "triplo",
+    "lines": [
+     "A2 limit: 35 kW, not 25",
+     "Not from DOUBLE power, not triple"
+    ],
+    "icons": [
+     "moto",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "25 kw",
+    "en": "25 kW"
+   },
+   {
+    "it": "oltre il triplo",
+    "en": "more than triple"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24508": {
+  "en": "Someone who has held the A2 licence for at least two years can get the A licence, valid for all motorbikes, only if they already hold the AM licence and are over 24.",
+  "explain": {
+   "short": "After 2 years of A2 you can get A at 20. You do not need AM and you do not need to be over 24.",
+   "rule": "A2 licence: from 18 years. Motorbikes up to 35 kW and 0.2 kW/kg (not derived from a model with more than double the power), plus all A1 and AM vehicles. After 2 years with A2 you can get A at 20.",
+   "trap": "'solo se ... AM ed ha più di 24 anni' adds false conditions.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "2 years of A2: no AM, no age 24 needed",
+    "it": "più di 24 anni",
+    "lines": [
+     "A2 held for 2 years",
+     "A licence from 20",
+     "AM not needed"
+    ],
+    "icons": [
+     "book",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "da almeno due anni",
+    "en": "for at least two years"
+   },
+   {
+    "it": "patente di categoria am",
+    "en": "AM licence"
+   },
+   {
+    "it": "più di 24 anni",
+    "en": "over 24"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24509": {
+  "en": "The holder of an A2 licence may not drive motorbikes over 150 cm3 and over 25 kW.",
+  "explain": {
+   "short": "A2 has no engine-size limit. Its limit is power: up to 35 kW and 0.2 kW/kg. So a 25 kW bike over 150 cm3 is fine.",
+   "rule": "A2 licence: from 18 years. Motorbikes up to 35 kW and 0.2 kW/kg (not derived from a model with more than double the power), plus all A1 and AM vehicles. After 2 years with A2 you can get A at 20.",
+   "trap": "'150 cm3' and '25 kW' are invented limits: A2 counts power (35 kW), not engine size.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A2: no cm3 limit, power up to 35 kW",
+    "it": "cilindrata",
+    "lines": [
+     "A2: no engine-size limit",
+     "Power up to 35 kW"
+    ],
+    "icons": [
+     "moto",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cilindrata superiore a 150 cm3",
+    "en": "engine size over 150 cm3"
+   },
+   {
+    "it": "potenza superiore a 25 kw",
+    "en": "power over 25 kW"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24510": {
+  "en": "The A2 licence can be obtained only if you already hold the A1 licence.",
+  "explain": {
+   "short": "You can take A2 directly at 18. A1 is not required first.",
+   "rule": "A2 licence: from 18 years. Motorbikes up to 35 kW and 0.2 kW/kg (not derived from a model with more than double the power), plus all A1 and AM vehicles. After 2 years with A2 you can get A at 20.",
+   "trap": "'solo' (only) makes it wrong: A1 is not a required step.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A2 does not require A1 first",
+    "it": "solo",
+    "lines": [
+     "Age 18, no A1",
+     "You can take A2 directly"
+    ],
+    "icons": [
+     "book",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "già in possesso",
+    "en": "already holding"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24511": {
+  "en": "The A2 licence allows you to drive only mopeds and light quadricycles.",
+  "explain": {
+   "short": "A2 is a motorbike licence: motorbikes up to 35 kW, plus all A1 and AM vehicles. Mopeds and light quadricycles are only part of it.",
+   "rule": "A2 licence: from 18 years. Motorbikes up to 35 kW and 0.2 kW/kg (not derived from a model with more than double the power), plus all A1 and AM vehicles. After 2 years with A2 you can get A at 20.",
+   "trap": "'solo' (only) makes it wrong: mopeds and light quadricycles are the AM part.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A2: motorbikes too, not only mopeds",
+    "it": "solo",
+    "lines": [
+     "Mopeds, light quadricycles: yes",
+     "Motorbikes up to 35 kW: yes too"
+    ],
+    "icons": [
+     "moto",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   },
+   {
+    "it": "quadricicli leggeri",
+    "en": "light quadricycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24512": {
+  "en": "The A2 licence does not allow you to drive any kind of motor tricycle.",
+  "explain": {
+   "short": "A2 includes A1, and A1 allows tricycles up to 15 kW. So some tricycles are allowed with A2.",
+   "rule": "A2 licence: from 18 years. Motorbikes up to 35 kW and 0.2 kW/kg (not derived from a model with more than double the power), plus all A1 and AM vehicles. After 2 years with A2 you can get A at 20.",
+   "trap": "'alcun tipo' (any kind) is the trap: tricycles up to 15 kW are allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A2: tricycles up to 15 kW allowed",
+    "it": "alcun tipo",
+    "lines": [
+     "A2 includes A1",
+     "Tricycle up to 15 kW: yes"
+    ],
+    "icons": [
+     "book",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "alcun tipo",
+    "en": "any kind"
+   },
+   {
+    "it": "triciclo a motore",
+    "en": "motor tricycle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24513": {
+  "en": "With an A licence you may drive all motorbikes (with or without sidecar).",
+  "explain": {
+   "short": "The A licence has no power or size limit for motorbikes: all of them are allowed.",
+   "rule": "A licence: all motorbikes, plus A2, A1 and AM vehicles. Tricycles over 15 kW only from 21 years. You get it at 20 after 2 years of A2 (gradual access) or at 24 directly. It is valid in all the EU.",
+   "trap": "'tutti' (all) is right here: A is the full motorbike licence.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A licence: all motorbikes",
+    "it": "tutti",
+    "lines": [
+     "A licence",
+     "All motorbikes, any power"
+    ],
+    "icons": [
+     "book",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tutti i motocicli",
+    "en": "all motorbikes"
+   },
+   {
+    "it": "carrozzetta",
+    "en": "sidecar"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24514": {
+  "en": "With an A licence you may drive all motor tricycles, but only if the driver is at least 21.",
+  "explain": {
+   "short": "Tricycles over 15 kW need the driver to be at least 21. So ALL tricycles are allowed only from 21.",
+   "rule": "A licence: all motorbikes, plus A2, A1 and AM vehicles. Tricycles over 15 kW only from 21 years. You get it at 20 after 2 years of A2 (gradual access) or at 24 directly. It is valid in all the EU.",
+   "trap": "'tutti ... ma solo se ... almeno 21 anni': the age 21 is needed for the powerful ones, so for all of them.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "All tricycles with A: from 21",
+    "it": "21 anni",
+    "lines": [
+     "Tricycle up to 15 kW: also A1/A2",
+     "Over 15 kW: A and age 21"
+    ],
+    "icons": [
+     "moto",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tutti i tricicli a motore",
+    "en": "all motor tricycles"
+   },
+   {
+    "it": "almeno 21 anni",
+    "en": "at least 21 years"
+   }
+  ],
+  "review": true,
+  "reviewNote": "Official TRUE, but tricycles up to 15 kW are also A1/A2 vehicles; explained as: age 21 needed for the powerful ones, so for ALL."
+ },
+ "q24515": {
+  "en": "The A licence allows you to drive motorbikes over 50 cm3 even if they reach a speed over 45 km/h.",
+  "explain": {
+   "short": "Over 50 cm3 and over 45 km/h means a motorbike, not a moped. The A licence covers all motorbikes.",
+   "rule": "A licence: all motorbikes, plus A2, A1 and AM vehicles. Tricycles over 15 kW only from 21 years. You get it at 20 after 2 years of A2 (gradual access) or at 24 directly. It is valid in all the EU.",
+   "trap": "'anche se' (even if) is right: the A licence has no speed limit for motorbikes.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A licence: big and fast motorbikes too",
+    "it": "anche se",
+    "lines": [
+     "Over 50 cm3, over 45 km/h",
+     "It is a motorbike: A licence OK"
+    ],
+    "icons": [
+     "moto",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cilindrata superiore a 50 cm3",
+    "en": "engine size over 50 cm3"
+   },
+   {
+    "it": "velocità superiore a 45 km/h",
+    "en": "speed over 45 km/h"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24516": {
+  "en": "The A licence can be obtained by direct access, by someone who has not held an A2 licence for at least 2 years, only if they are 24 or older.",
+  "explain": {
+   "short": "Without 2 years of A2, you take A directly, and the minimum age is 24.",
+   "rule": "A licence: all motorbikes, plus A2, A1 and AM vehicles. Tricycles over 15 kW only from 21 years. You get it at 20 after 2 years of A2 (gradual access) or at 24 directly. It is valid in all the EU.",
+   "trap": "'accesso diretto' (direct access) goes with 24 years; 'accesso graduale' with 20.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Direct access to A: age 24",
+    "it": "accesso diretto",
+    "lines": [
+     "No 2 years of A2",
+     "Direct access to A",
+     "Minimum age: 24"
+    ],
+    "icons": [
+     "book",
+     "book",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "accesso diretto",
+    "en": "direct access"
+   },
+   {
+    "it": "24 anni",
+    "en": "24 years"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24517": {
+  "en": "The A licence can be obtained at 20, by gradual access, by someone who has held an A2 licence for at least 2 years.",
+  "explain": {
+   "short": "Gradual access: hold A2 for 2 years, then you can get A at 20.",
+   "rule": "A licence: all motorbikes, plus A2, A1 and AM vehicles. Tricycles over 15 kW only from 21 years. You get it at 20 after 2 years of A2 (gradual access) or at 24 directly. It is valid in all the EU.",
+   "trap": "'accesso graduale' (gradual access) goes with 20 years and 2 years of A2.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Gradual access to A: age 20 after 2 years A2",
+    "it": "accesso graduale",
+    "lines": [
+     "A2 held for 2 years",
+     "Gradual access: A at 20"
+    ],
+    "icons": [
+     "book",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "accesso graduale",
+    "en": "gradual access"
+   },
+   {
+    "it": "20 anni",
+    "en": "20 years"
+   },
+   {
+    "it": "da almeno 2 anni",
+    "en": "for at least 2 years"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24518": {
+  "en": "The A licence also allows you to drive the vehicles that can be driven with the A1, A2 and AM licences.",
+  "explain": {
+   "short": "A is the top motorbike licence and includes all the lower ones: A2, A1 and AM.",
+   "rule": "A licence: all motorbikes, plus A2, A1 and AM vehicles. Tricycles over 15 kW only from 21 years. You get it at 20 after 2 years of A2 (gradual access) or at 24 directly. It is valid in all the EU.",
+   "trap": "'anche' (also): A covers its own vehicles plus all the lower categories.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A includes A2, A1 and AM",
+    "it": "anche",
+    "lines": [
+     "A licence",
+     "Also all A2, A1 and AM vehicles"
+    ],
+    "icons": [
+     "book",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "abilita anche",
+    "en": "also allows"
+   },
+   {
+    "it": "patenti a1, a2 e am",
+    "en": "A1, A2 and AM licences"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24519": {
+  "en": "With an A licence you may also drive tricycles with power over 15 kW, but only if the driver is at least 21.",
+  "explain": {
+   "short": "Powerful tricycles (over 15 kW) are allowed with the A licence from age 21.",
+   "rule": "A licence: all motorbikes, plus A2, A1 and AM vehicles. Tricycles over 15 kW only from 21 years. You get it at 20 after 2 years of A2 (gradual access) or at 24 directly. It is valid in all the EU.",
+   "trap": "'ma solo se ... almeno 21 anni' (only if at least 21) is the correct condition.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tricycle over 15 kW: A and age 21",
+    "it": "21 anni",
+    "lines": [
+     "Tricycle over 15 kW",
+     "A licence + age 21"
+    ],
+    "icons": [
+     "moto",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "superiore a 15 kw",
+    "en": "over 15 kW"
+   },
+   {
+    "it": "almeno 21 anni",
+    "en": "at least 21 years"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24520": {
+  "en": "With an A licence you may drive motorbikes (with or without sidecar) of any engine size, as long as their power is under 35 kW for the first 2 years after getting it.",
+  "explain": {
+   "short": "The A licence has no power limit, not even in the first 2 years. The 35 kW limit belongs to the A2 licence.",
+   "rule": "A licence: all motorbikes, plus A2, A1 and AM vehicles. Tricycles over 15 kW only from 21 years. You get it at 20 after 2 years of A2 (gradual access) or at 24 directly. It is valid in all the EU.",
+   "trap": "'per i primi 2 anni' (for the first 2 years) is invented: it mixes up A with A2.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A licence: no 35 kW limit at the start",
+    "it": "primi 2 anni",
+    "lines": [
+     "A licence: any power from day one",
+     "35 kW limit: that is A2"
+    ],
+    "icons": [
+     "moto",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "qualsiasi cilindrata",
+    "en": "any engine size"
+   },
+   {
+    "it": "primi 2 anni",
+    "en": "first 2 years"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24521": {
+  "en": "With an A licence you may drive non-light quadricycles, whatever the driver's age.",
+  "explain": {
+   "short": "Non-light quadricycles are not A licence vehicles. They need the B1 or B licence.",
+   "rule": "A licence: all motorbikes, plus A2, A1 and AM vehicles. Tricycles over 15 kW only from 21 years. You get it at 20 after 2 years of A2 (gradual access) or at 24 directly. It is valid in all the EU.",
+   "trap": "'quadricicli non leggeri' are four-wheel vehicles: they are not motorbikes.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Non-light quadricycles: B1 or B, not A",
+    "it": "quadricicli non leggeri",
+    "lines": [
+     "Non-light quadricycle",
+     "Not with A: B1 or B"
+    ],
+    "icons": [
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "quadricicli non leggeri",
+    "en": "non-light quadricycles"
+   },
+   {
+    "it": "qualunque sia l'età",
+    "en": "whatever the age"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24522": {
+  "en": "The A licence can be obtained by gradual access at 18, by someone who has held an A1 licence for at least 2 years.",
+  "explain": {
+   "short": "Gradual access to A comes after 2 years of A2, and at age 20. A1 does not lead directly to A.",
+   "rule": "A licence: all motorbikes, plus A2, A1 and AM vehicles. Tricycles over 15 kW only from 21 years. You get it at 20 after 2 years of A2 (gradual access) or at 24 directly. It is valid in all the EU.",
+   "trap": "'A1' and '18 anni' are wrong: gradual access needs A2 and age 20.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Gradual access: from A2 at 20, not A1 at 18",
+    "it": "A1",
+    "lines": [
+     "Gradual access to A",
+     "Needs 2 years of A2",
+     "Age 20, not 18"
+    ],
+    "icons": [
+     "book",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "accesso graduale",
+    "en": "gradual access"
+   },
+   {
+    "it": "18 anni",
+    "en": "18 years"
+   },
+   {
+    "it": "patente a1",
+    "en": "A1 licence"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24523": {
+  "en": "With an A licence you may also drive tricycles with power over 15 kW, whatever the driver's age.",
+  "explain": {
+   "short": "Tricycles over 15 kW are allowed with A only from age 21. Age matters.",
+   "rule": "A licence: all motorbikes, plus A2, A1 and AM vehicles. Tricycles over 15 kW only from 21 years. You get it at 20 after 2 years of A2 (gradual access) or at 24 directly. It is valid in all the EU.",
+   "trap": "'qualunque sia l'età' (whatever the age) is wrong: 21 years are needed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Tricycle over 15 kW: only from 21",
+    "it": "qualunque sia l'età",
+    "lines": [
+     "Tricycle over 15 kW",
+     "A licence + age 21"
+    ],
+    "icons": [
+     "moto",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "superiore a 15 kw",
+    "en": "over 15 kW"
+   },
+   {
+    "it": "qualunque sia l'età",
+    "en": "whatever the age"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24524": {
+  "en": "The A licence can be obtained by direct access also by someone who has not held an A2 licence for at least 2 years, as long as they are 21.",
+  "explain": {
+   "short": "Direct access to the A licence needs age 24, not 21.",
+   "rule": "A licence: all motorbikes, plus A2, A1 and AM vehicles. Tricycles over 15 kW only from 21 years. You get it at 20 after 2 years of A2 (gradual access) or at 24 directly. It is valid in all the EU.",
+   "trap": "'21 anni' is the trap: 21 is for tricycles over 15 kW; direct access is 24.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Direct access to A: 24, not 21",
+    "it": "21 anni",
+    "lines": [
+     "Direct access to A",
+     "Minimum age: 24",
+     "21 is wrong here"
+    ],
+    "icons": [
+     "book",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "accesso diretto",
+    "en": "direct access"
+   },
+   {
+    "it": "21 anni",
+    "en": "21 years"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24525": {
+  "en": "The A licence obtained by direct access at 24 or older allows you to drive all motorbikes, but only in Italy; to drive abroad another exam is needed.",
+  "explain": {
+   "short": "An Italian licence is an EU licence: it is valid in all EU countries, with no extra exam.",
+   "rule": "A licence: all motorbikes, plus A2, A1 and AM vehicles. Tricycles over 15 kW only from 21 years. You get it at 20 after 2 years of A2 (gradual access) or at 24 directly. It is valid in all the EU.",
+   "trap": "'solo in Italia' (only in Italy) is wrong: the licence is valid in the whole EU.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A licence valid in all the EU",
+    "it": "solo in Italia",
+    "lines": [
+     "A licence, direct access",
+     "Valid in all EU countries",
+     "No extra exam"
+    ],
+    "icons": [
+     "book",
+     "check",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo in italia",
+    "en": "only in Italy"
+   },
+   {
+    "it": "all'estero",
+    "en": "abroad"
+   },
+   {
+    "it": "ulteriore esame",
+    "en": "extra exam"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24526": {
+  "en": "To get the A licence you must in every case be at least 24 years old.",
+  "explain": {
+   "short": "Not in every case: with 2 years of A2 you can get A at 20. 24 is only for direct access.",
+   "rule": "A licence: all motorbikes, plus A2, A1 and AM vehicles. Tricycles over 15 kW only from 21 years. You get it at 20 after 2 years of A2 (gradual access) or at 24 directly. It is valid in all the EU.",
+   "trap": "'in ogni caso' (in every case) is the trap: gradual access allows age 20.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "24 only for direct access; 20 with A2",
+    "it": "in ogni caso",
+    "lines": [
+     "Direct access: 24",
+     "With 2 years of A2: 20"
+    ],
+    "icons": [
+     "book",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in ogni caso",
+    "en": "in every case"
+   },
+   {
+    "it": "almeno 24 anni",
+    "en": "at least 24 years"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24527": {
+  "en": "The B1 licence can be obtained at 16 years of age.",
+  "explain": {
+   "short": "The minimum age for B1 is 16.",
+   "rule": "B1 licence: from 16 years, only for non-light quadricycles (also the handlebar 'Quad'). No motorbikes, no tricycles, no cars, no A1 vehicles.",
+   "trap": "16 is the correct number for B1.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "B1: from 16 years",
+    "it": "16 anni",
+    "lines": [
+     "B1 licence",
+     "Minimum age: 16"
+    ],
+    "icons": [
+     "book",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "categoria b1",
+    "en": "category B1"
+   },
+   {
+    "it": "16 anni",
+    "en": "16 years"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24530": {
+  "en": "The B1 licence allows you to drive some types of non-light quadricycles.",
+  "explain": {
+   "short": "B1 is the licence for non-light quadricycles (heavier four-wheel vehicles, bigger than a minicar).",
+   "rule": "B1 licence: from 16 years, only for non-light quadricycles (also the handlebar 'Quad'). No motorbikes, no tricycles, no cars, no A1 vehicles.",
+   "trap": "'alcuni tipi' (some types) is careful wording, and correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "B1: non-light quadricycles",
+    "it": "quadricicli non leggeri",
+    "lines": [
+     "B1 licence",
+     "Non-light quadricycle: yes"
+    ],
+    "icons": [
+     "book",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "alcuni tipi",
+    "en": "some types"
+   },
+   {
+    "it": "quadricicli non leggeri",
+    "en": "non-light quadricycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24531": {
+  "en": "The B1 licence allows you to drive non-light quadricycles with handlebars (Quad).",
+  "explain": {
+   "short": "A 'Quad' with handlebars is a non-light quadricycle, so B1 is the right licence.",
+   "rule": "B1 licence: from 16 years, only for non-light quadricycles (also the handlebar 'Quad'). No motorbikes, no tricycles, no cars, no A1 vehicles.",
+   "trap": "'manubrio' (handlebars) does not make it a motorbike: it still has four wheels.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "B1: Quad with handlebars",
+    "it": "Quad",
+    "lines": [
+     "Quad with handlebars",
+     "Non-light quadricycle: B1"
+    ],
+    "icons": [
+     "moto",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "quadricicli non leggeri",
+    "en": "non-light quadricycles"
+   },
+   {
+    "it": "manubrio",
+    "en": "handlebars"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24532": {
+  "en": "The B1 licence allows you to drive motorbikes (with or without sidecar) up to 125 cm3, power not over 11 kW and power/weight ratio not over 0.1 kW/kg.",
+  "explain": {
+   "short": "Those are the A1 motorbike limits. B1 is only for quadricycles, not motorbikes.",
+   "rule": "B1 licence: from 16 years, only for non-light quadricycles (also the handlebar 'Quad'). No motorbikes, no tricycles, no cars, no A1 vehicles.",
+   "trap": "The numbers are right, but for A1: 'B1' does not allow motorbikes.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "These motorbikes need A1, not B1",
+    "it": "motocicli",
+    "lines": [
+     "125 cm3, 11 kW motorbike",
+     "Needs A1, not B1"
+    ],
+    "icons": [
+     "moto",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "categoria b1",
+    "en": "category B1"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorbikes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24533": {
+  "en": "With a B1 licence you may drive all motor tricycles, but only if the driver is already 18.",
+  "explain": {
+   "short": "B1 does not cover tricycles. Tricycles go with motorbike licences (A1, A2, A) or B.",
+   "rule": "B1 licence: from 16 years, only for non-light quadricycles (also the handlebar 'Quad'). No motorbikes, no tricycles, no cars, no A1 vehicles.",
+   "trap": "'tutti i tricicli' (all tricycles) is wrong: B1 is only for quadricycles.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Tricycles: not with B1",
+    "it": "tricicli",
+    "lines": [
+     "Motor tricycle",
+     "Not with B1"
+    ],
+    "icons": [
+     "moto",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tutti i tricicli a motore",
+    "en": "all motor tricycles"
+   },
+   {
+    "it": "18 anni",
+    "en": "18 years"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24534": {
+  "en": "The B1 licence allows you to drive single-seat cars, or cars with at most three seats including the driver, as long as you travel with no passengers.",
+  "explain": {
+   "short": "Cars (autovetture) need the B licence. B1 is only for non-light quadricycles.",
+   "rule": "B1 licence: from 16 years, only for non-light quadricycles (also the handlebar 'Quad'). No motorbikes, no tricycles, no cars, no A1 vehicles.",
+   "trap": "'autovetture' (cars) are not quadricycles: the passenger condition is a distraction.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Cars need B, not B1",
+    "it": "autovetture",
+    "lines": [
+     "Car, even small, no passengers",
+     "Needs B licence, not B1"
+    ],
+    "icons": [
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autovetture",
+    "en": "cars"
+   },
+   {
+    "it": "senza passeggeri a bordo",
+    "en": "with no passengers on board"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24535": {
+  "en": "The B1 licence also allows you to drive the vehicles that can be driven with the A1 licence.",
+  "explain": {
+   "short": "B1 does not include A1. A1 motorbikes need the A1 (or A2, A) licence.",
+   "rule": "B1 licence: from 16 years, only for non-light quadricycles (also the handlebar 'Quad'). No motorbikes, no tricycles, no cars, no A1 vehicles.",
+   "trap": "'anche' (also) is the trap: B1 is a separate category, it does not include A1.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "B1 does not include A1",
+    "it": "anche",
+    "lines": [
+     "B1: only non-light quadricycles",
+     "A1 vehicles: not included"
+    ],
+    "icons": [
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "abilita anche",
+    "en": "also allows"
+   },
+   {
+    "it": "patente a1",
+    "en": "A1 licence"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24536": {
+  "en": "A B1 licence holder who wants to get a B licence will only have to take an extra theory exam.",
+  "explain": {
+   "short": "Getting B is not just an extra theory exam: you must also pass the driving test for B.",
+   "rule": "B1 licence: from 16 years, only for non-light quadricycles (also the handlebar 'Quad'). No motorbikes, no tricycles, no cars, no A1 vehicles.",
+   "trap": "'solo un esame teorico integrativo' (only an extra theory exam) is the trap: a driving test is needed too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "From B1 to B: driving test needed too",
+    "it": "solo",
+    "lines": [
+     "From B1 to B",
+     "Theory alone is not enough",
+     "Driving test needed"
+    ],
+    "icons": [
+     "book",
+     "cross",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "esame teorico integrativo",
+    "en": "extra theory exam"
+   }
+  ],
+  "review": true,
+  "reviewNote": "Explanation says a driving test is also needed to go from B1 to B; exact exam requirement not certain."
+ }
+}

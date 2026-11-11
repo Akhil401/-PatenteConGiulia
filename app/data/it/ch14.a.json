@@ -1,0 +1,410 @@
+{
+ "q23042": {
+  "short": "I veicoli su rotaie, come il tram, di solito hanno la precedenza all'incrocio.",
+  "rule": "Il tram passa per primo. Senza segnali, precedenza a destra; chi gira a sinistra lascia passare chi arriva di fronte. Qui A va al centro, poi O, M e infine A.",
+  "trap": "«il tram ha la precedenza» è giusto: nessun segnale o vigile dice il contrario.",
+  "caption": "Il tram passa per primo"
+ },
+ "q23043": {
+  "short": "All'incrocio tutti devono essere prudenti, anche chi ha la precedenza.",
+  "rule": "Il tram passa per primo. Senza segnali, precedenza a destra; chi gira a sinistra lascia passare chi arriva di fronte. Qui A va al centro, poi O, M e infine A.",
+  "trap": "«tutti i veicoli» è giusto: avere la precedenza non vuol dire smettere di fare attenzione.",
+  "caption": "Tutti attraversano con prudenza"
+ },
+ "q23044": {
+  "short": "Dopo il tram, A, O e M si bloccano a vicenda. A si porta al centro; poi O può passare.",
+  "rule": "Il tram passa per primo. Senza segnali, precedenza a destra; chi gira a sinistra lascia passare chi arriva di fronte. Qui A va al centro, poi O, M e infine A.",
+  "trap": "«si porti al centro» è la chiave: A va solo al centro, non finisce ancora la svolta.",
+  "caption": "Tram, A al centro, poi passa O"
+ },
+ "q23045": {
+  "short": "Il tram va su rotaie e ha la precedenza sugli altri: attraversa per primo.",
+  "rule": "Il tram passa per primo. Senza segnali, precedenza a destra; chi gira a sinistra lascia passare chi arriva di fronte. Qui A va al centro, poi O, M e infine A.",
+  "trap": "«per primo» è giusto per il tram: nessun segnale o vigile toglie la sua precedenza.",
+  "caption": "Il tram passa per primo"
+ },
+ "q23046": {
+  "short": "M deve dare la precedenza a O, perché O arriva dalla destra di M.",
+  "rule": "Il tram passa per primo. Senza segnali, precedenza a destra; chi gira a sinistra lascia passare chi arriva di fronte. Qui A va al centro, poi O, M e infine A.",
+  "trap": "«deve attendere» è giusto: O è alla destra di M.",
+  "caption": "O è a destra di M: M aspetta"
+ },
+ "q23047": {
+  "short": "M non passa con il tram: dopo il tram deve aspettare O, che viene dalla sua destra.",
+  "rule": "Il tram passa per primo. Senza segnali, precedenza a destra; chi gira a sinistra lascia passare chi arriva di fronte. Qui A va al centro, poi O, M e infine A.",
+  "trap": "«insieme al tram» è la trappola: M passa dopo, dopo O.",
+  "caption": "Sbagliato: M passa dopo il tram E dopo O"
+ },
+ "q23048": {
+  "short": "Mentre gira a sinistra, A si trova con M alla sua destra. Quindi la destra non è libera: deve lasciar passare M.",
+  "rule": "Il tram passa per primo. Senza segnali, precedenza a destra; chi gira a sinistra lascia passare chi arriva di fronte. Qui A va al centro, poi O, M e infine A.",
+  "trap": "«ha la destra libera» è la trappola: durante la svolta M arriva dalla destra di A.",
+  "caption": "Sbagliato: in svolta M è a destra di A"
+ },
+ "q23049": {
+  "short": "O aspetta solo il tram (e che A vada al centro). M è alla sinistra di O, quindi è M che aspetta O.",
+  "rule": "Il tram passa per primo. Senza segnali, precedenza a destra; chi gira a sinistra lascia passare chi arriva di fronte. Qui A va al centro, poi O, M e infine A.",
+  "trap": "«ed il veicolo M» è la trappola: O non dà la precedenza a M.",
+  "caption": "Sbagliato: M aspetta O, non il contrario"
+ },
+ "q23050": {
+  "short": "O non passa per ultimo: passa subito dopo il tram (con A al centro), prima di M e di A.",
+  "rule": "Il tram passa per primo. Senza segnali, precedenza a destra; chi gira a sinistra lascia passare chi arriva di fronte. Qui A va al centro, poi O, M e infine A.",
+  "trap": "«tutti gli altri veicoli» è la trappola: O aspetta solo il tram.",
+  "caption": "Sbagliato: O passa secondo, non ultimo"
+ },
+ "q23051": {
+  "short": "A gira a sinistra: deve lasciar passare anche la moto M che arriva di fronte, non solo il tram.",
+  "rule": "Il tram passa per primo. Senza segnali, precedenza a destra; chi gira a sinistra lascia passare chi arriva di fronte. Qui A va al centro, poi O, M e infine A.",
+  "trap": "«ma non al veicolo M» è la trappola: A dà la precedenza anche a M.",
+  "caption": "Sbagliato: A la dà al tram E a M"
+ },
+ "q23052": {
+  "short": "O dà la precedenza solo al tram. M è alla sinistra di O, quindi è M che la dà a O.",
+  "rule": "Il tram passa per primo. Senza segnali, precedenza a destra; chi gira a sinistra lascia passare chi arriva di fronte. Qui A va al centro, poi O, M e infine A.",
+  "trap": "«ed al veicolo M» è la trappola: O ha la precedenza su M.",
+  "caption": "Sbagliato: O la dà al tram, non a M"
+ },
+ "q23053": {
+  "short": "L'autobus B non ha strade alla sua destra: non deve dare la precedenza a nessuno.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. B non ha nessuno a destra: B, poi H, poi C.",
+  "trap": "«non deve dare la precedenza» è giusto per B.",
+  "caption": "B ha la destra libera: passa primo"
+ },
+ "q23054": {
+  "short": "B passa primo. H ha B a destra, quindi passa subito dopo B; C aspetta H.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. B non ha nessuno a destra: B, poi H, poi C.",
+  "trap": "«per secondo» è giusto: H aspetta solo B.",
+  "caption": "Ordine: B, H, C"
+ },
+ "q23055": {
+  "short": "C ha l'autobus H a destra, e H aspetta B. Quindi C passa dopo tutti e due.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. B non ha nessuno a destra: B, poi H, poi C.",
+  "trap": "«per ultimo» è giusto per C.",
+  "caption": "Ordine: B, H, C"
+ },
+ "q23056": {
+  "short": "B non ha strade né veicoli alla sua destra: non dà la precedenza e passa primo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. B non ha nessuno a destra: B, poi H, poi C.",
+  "trap": "«per primo» è giusto per B.",
+  "caption": "B passa per primo"
+ },
+ "q23057": {
+  "short": "H arriva dalla strada alla destra di C: C deve lasciar passare H.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. B non ha nessuno a destra: B, poi H, poi C.",
+  "trap": "«deve dare la precedenza al veicolo H» è giusto: H è a destra di C.",
+  "caption": "H è a destra di C: C dà precedenza"
+ },
+ "q23058": {
+  "short": "H ha l'autobus B a destra: deve aspettare B. H passa per secondo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. B non ha nessuno a destra: B, poi H, poi C.",
+  "trap": "«per primo» è la trappola: H è secondo, dopo B.",
+  "caption": "Sbagliato: H passa secondo, dopo B"
+ },
+ "q23059": {
+  "short": "B passa primo, ma C non può passare con lui: C aspetta H, che è alla sua destra.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. B non ha nessuno a destra: B, poi H, poi C.",
+  "trap": "«contemporaneamente» è la trappola: C passa per ultimo.",
+  "caption": "Sbagliato: B primo, C ultimo"
+ },
+ "q23060": {
+  "short": "H aspetta solo B. C è alla sinistra di H e deve aspettare H.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. B non ha nessuno a destra: B, poi H, poi C.",
+  "trap": "«dopo il passaggio dei veicoli B e C» è la trappola: H passa prima di C.",
+  "caption": "Sbagliato: H dopo B ma prima di C"
+ },
+ "q23061": {
+  "short": "H passa prima di C perché arriva dalla destra di C, non perché è un autobus. L'autobus non ha precedenze speciali.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. B non ha nessuno a destra: B, poi H, poi C.",
+  "trap": "«in quanto è un autobus» è la trappola: il motivo è sbagliato.",
+  "caption": "Motivo sbagliato: H è a destra di C"
+ },
+ "q23062": {
+  "short": "C ha l'autobus H a destra, e H aspetta B. Quindi C passa ultimo, non primo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. B non ha nessuno a destra: B, poi H, poi C.",
+  "trap": "«per primo» è la trappola: C è ultimo.",
+  "caption": "Sbagliato: C passa per ultimo"
+ },
+ "q23063": {
+  "short": "Nessun veicolo arriva dalla destra di R: non dà precedenza e passa primo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi A, poi C.",
+  "trap": "«per primo» è giusto per R.",
+  "caption": "Ordine: R, A, C"
+ },
+ "q23064": {
+  "short": "C ha A a destra, e A ha R a destra. C aspetta tutti e due e passa ultimo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi A, poi C.",
+  "trap": "«per ultimo» è giusto per C.",
+  "caption": "Ordine: R, A, C"
+ },
+ "q23065": {
+  "short": "R arriva dalla destra di A: A deve far passare prima R.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi A, poi C.",
+  "trap": "«dopo il veicolo R» è giusto.",
+  "caption": "R è a destra di A: A aspetta"
+ },
+ "q23066": {
+  "short": "A arriva dalla destra di C: C deve aspettare A. A passa secondo, C ultimo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi A, poi C.",
+  "trap": "«prima del veicolo C» è giusto.",
+  "caption": "A è a destra di C: A passa prima"
+ },
+ "q23067": {
+  "short": "C aspetta A (alla sua destra), e A aspetta R. Quindi C passa dopo tutti e due.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi A, poi C.",
+  "trap": "«dopo i veicoli R e A» è giusto: C è ultimo.",
+  "caption": "Ordine: R, A, C"
+ },
+ "q23068": {
+  "short": "Un'auto della polizia in emergenza (sirena e luce blu accese) ha la precedenza su tutti: A passerebbe primo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi A, poi C.",
+  "trap": "«con i dispositivi di allarme in funzione» è la chiave: solo così A passa primo.",
+  "caption": "Polizia con sirena: A passa primo"
+ },
+ "q23069": {
+  "short": "R arriva dalla destra di A: A deve aspettare R. A passa secondo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi A, poi C.",
+  "trap": "«per primo» è la trappola: A è secondo, dopo R.",
+  "caption": "Sbagliato: A passa secondo, dopo R"
+ },
+ "q23070": {
+  "short": "A arriva dalla destra di C: C aspetta A. A passa secondo; C è ultimo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi A, poi C.",
+  "trap": "«per ultimo» è la trappola: l'ultimo è C, non A.",
+  "caption": "Sbagliato: A secondo, C ultimo"
+ },
+ "q23071": {
+  "short": "È il contrario: R è alla destra di A, quindi A aspetta R.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi A, poi C.",
+  "trap": "«dopo il veicolo A» è la trappola: R passa prima di A.",
+  "caption": "Sbagliato: R passa prima di A"
+ },
+ "q23072": {
+  "short": "R non ha nessuno alla sua destra: passa primo, non secondo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi A, poi C.",
+  "trap": "«per secondo» è la trappola: R è primo.",
+  "caption": "Sbagliato: R passa per primo"
+ },
+ "q23073": {
+  "short": "C ha A a destra, e A aspetta R. Quindi C è terzo, non secondo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi A, poi C.",
+  "trap": "«per secondo» è la trappola: A è secondo, C è ultimo.",
+  "caption": "Sbagliato: C passa per ultimo"
+ },
+ "q23074": {
+  "short": "R passa primo, ma C non può passare con lui: C aspetta A, che è alla sua destra.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi A, poi C.",
+  "trap": "«contemporaneamente» è la trappola: C passa per ultimo.",
+  "caption": "Sbagliato: R primo, C ultimo"
+ },
+ "q23075": {
+  "short": "L va dritto e non ha nessuno alla sua destra. C e H devono dargli la precedenza.",
+  "rule": "Qui non ci sono segnali: precedenza a destra, e chi gira a sinistra lascia passare chi va dritto di fronte. Ordine: L, C, H.",
+  "trap": "«per primo» è giusto per L.",
+  "caption": "Ordine: L, C, H"
+ },
+ "q23076": {
+  "short": "H gira a sinistra: ha C a destra e L che arriva dritto di fronte. Aspetta tutti e due.",
+  "rule": "Qui non ci sono segnali: precedenza a destra, e chi gira a sinistra lascia passare chi va dritto di fronte. Ordine: L, C, H.",
+  "trap": "«per ultimo» è giusto per H.",
+  "caption": "Ordine: L, C, H"
+ },
+ "q23077": {
+  "short": "L non ha nessuno a destra; C ha L a destra; H ha C a destra. Quindi L, C, H.",
+  "rule": "Qui non ci sono segnali: precedenza a destra, e chi gira a sinistra lascia passare chi va dritto di fronte. Ordine: L, C, H.",
+  "trap": "«veicolo L, veicolo C, veicolo H» è proprio l'ordine giusto.",
+  "caption": "Ordine: L, C, H"
+ },
+ "q23078": {
+  "short": "C aspetta L (alla sua destra), e H aspetta C (alla sua destra). C è in mezzo.",
+  "rule": "Qui non ci sono segnali: precedenza a destra, e chi gira a sinistra lascia passare chi va dritto di fronte. Ordine: L, C, H.",
+  "trap": "«dopo il veicolo L, ma prima del veicolo H» è giusto: C è secondo.",
+  "caption": "Ordine: L, C, H"
+ },
+ "q23079": {
+  "short": "C gira a sinistra e ha L a destra. Vanno nella stessa strada: C deve aspettare L.",
+  "rule": "Qui non ci sono segnali: precedenza a destra, e chi gira a sinistra lascia passare chi va dritto di fronte. Ordine: L, C, H.",
+  "trap": "«contemporaneamente» è la trappola: C passa dopo L.",
+  "caption": "Sbagliato: C passa dopo L"
+ },
+ "q23080": {
+  "short": "È l'ordine al contrario. L passa primo e H, che gira a sinistra, passa ultimo.",
+  "rule": "Qui non ci sono segnali: precedenza a destra, e chi gira a sinistra lascia passare chi va dritto di fronte. Ordine: L, C, H.",
+  "trap": "«il veicolo H, il veicolo C, il veicolo L» è il contrario dell'ordine giusto L, C, H.",
+  "caption": "Sbagliato: l'ordine è L, C, H"
+ },
+ "q23081": {
+  "short": "H non può passare primo: ha C a destra e L di fronte. H è ultimo.",
+  "rule": "Qui non ci sono segnali: precedenza a destra, e chi gira a sinistra lascia passare chi va dritto di fronte. Ordine: L, C, H.",
+  "trap": "«il veicolo H» per primo è la trappola: H passa ultimo.",
+  "caption": "Sbagliato: l'ordine è L, C, H"
+ },
+ "q23082": {
+  "short": "L primo è giusto, ma H non può passare prima di C: C è alla destra di H.",
+  "rule": "Qui non ci sono segnali: precedenza a destra, e chi gira a sinistra lascia passare chi va dritto di fronte. Ordine: L, C, H.",
+  "trap": "«il veicolo H, il veicolo C» è la trappola: C passa prima di H.",
+  "caption": "Sbagliato: C passa prima di H"
+ },
+ "q23083": {
+  "short": "C non può passare primo: L è alla sua destra. Passa L, poi C, poi H.",
+  "rule": "Qui non ci sono segnali: precedenza a destra, e chi gira a sinistra lascia passare chi va dritto di fronte. Ordine: L, C, H.",
+  "trap": "«il veicolo C» per primo è la trappola: passa prima L.",
+  "caption": "Sbagliato: l'ordine è L, C, H"
+ },
+ "q23084": {
+  "short": "A non ha nessuno a destra; E ha A a destra; B ha E a destra. Quindi A, E, B.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. A non ha nessuno a destra: A, poi E, poi B.",
+  "trap": "«dopo il veicolo A» e «dopo il veicolo E» sono tutti e due giusti.",
+  "caption": "Ordine: A, E, B"
+ },
+ "q23085": {
+  "short": "Nessun veicolo arriva dalla destra di A: non dà precedenza e passa primo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. A non ha nessuno a destra: A, poi E, poi B.",
+  "trap": "«non deve dare la precedenza ad alcun veicolo» è giusto per A.",
+  "caption": "A ha la destra libera: passa primo"
+ },
+ "q23086": {
+  "short": "E arriva dalla destra di B: B deve far passare E.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. A non ha nessuno a destra: A, poi E, poi B.",
+  "trap": "«ha diritto di precedenza sul veicolo B» è giusto.",
+  "caption": "E è a destra di B: E passa prima"
+ },
+ "q23087": {
+  "short": "E aspetta A (alla sua destra), e B aspetta E (alla sua destra). E è secondo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. A non ha nessuno a destra: A, poi E, poi B.",
+  "trap": "«prima di quello B, ma dopo il veicolo A» è giusto: E è in mezzo.",
+  "caption": "Ordine: A, E, B"
+ },
+ "q23088": {
+  "short": "B ha E a destra, ed E ha A a destra. B passa dopo tutti e due.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. A non ha nessuno a destra: A, poi E, poi B.",
+  "trap": "«per ultimo» è giusto per B.",
+  "caption": "Ordine: A, E, B"
+ },
+ "q23089": {
+  "short": "B ha E che arriva dalla sua destra: deve dare la precedenza. B passa ultimo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. A non ha nessuno a destra: A, poi E, poi B.",
+  "trap": "«non deve dare la precedenza ad alcun veicolo» è la trappola: vale per A, non per B.",
+  "caption": "Sbagliato: B dà la precedenza a E"
+ },
+ "q23090": {
+  "short": "B non è alla destra di A (arriva dal lato opposto). A non dà precedenza a nessuno.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. A non ha nessuno a destra: A, poi E, poi B.",
+  "trap": "«deve dare la precedenza al veicolo B» è la trappola: A passa primo.",
+  "caption": "Sbagliato: A non dà precedenza"
+ },
+ "q23091": {
+  "short": "E arriva dalla destra di B: B deve dare la precedenza a E.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. A non ha nessuno a destra: A, poi E, poi B.",
+  "trap": "«non deve» è la trappola: B deve dare la precedenza a E.",
+  "caption": "Sbagliato: B dà la precedenza a E"
+ },
+ "q23092": {
+  "short": "A passa primo, prima di E. B passa ultimo, dopo E. Non passano insieme.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. A non ha nessuno a destra: A, poi E, poi B.",
+  "trap": "«contemporaneamente dopo il veicolo E» è la trappola: A passa prima di E.",
+  "caption": "Sbagliato: A, poi E, poi B"
+ },
+ "q23093": {
+  "short": "A passa prima di E, ma B deve aspettare E, che è alla sua destra.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. A non ha nessuno a destra: A, poi E, poi B.",
+  "trap": "«contemporaneamente» è la trappola: B passa ultimo.",
+  "caption": "Sbagliato: A, poi E, poi B"
+ },
+ "q23094": {
+  "short": "R non ha nessuno a destra; A ha R a destra; C ha A a destra. Quindi R, A, C.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi A, poi C.",
+  "trap": "«dopo il veicolo R» e «dopo il veicolo A» sono tutti e due giusti.",
+  "caption": "Ordine: R, A, C"
+ },
+ "q23095": {
+  "short": "A aspetta R (alla sua destra), e C aspetta A (alla sua destra). A è secondo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi A, poi C.",
+  "trap": "«prima del veicolo C e dopo il veicolo R» è giusto: A è in mezzo.",
+  "caption": "Ordine: R, A, C"
+ },
+ "q23096": {
+  "short": "Nessun veicolo arriva dalla destra di R: non dà precedenza e passa primo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi A, poi C.",
+  "trap": "«non deve dare la precedenza ad alcun veicolo» è giusto per R.",
+  "caption": "R ha la destra libera: passa primo"
+ },
+ "q23097": {
+  "short": "R non ha nessuno a destra, A ha R a destra, C ha A a destra. Quindi R, A, C.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi A, poi C.",
+  "trap": "«R, A, C» è proprio l'ordine giusto.",
+  "caption": "Ordine: R, A, C"
+ },
+ "q23098": {
+  "short": "A arriva dalla destra di C: C deve dare la precedenza. C passa ultimo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi A, poi C.",
+  "trap": "«non deve dare la precedenza ad alcun veicolo» è la trappola: vale per R, non per C.",
+  "caption": "Sbagliato: C dà precedenza, è ultimo"
+ },
+ "q23099": {
+  "short": "È il contrario: A passa dopo R (alla sua destra) e prima di C.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi A, poi C.",
+  "trap": "«prima del veicolo R e dopo il veicolo C» è la trappola: è tutto al contrario.",
+  "caption": "Sbagliato: A dopo R e prima di C"
+ },
+ "q23100": {
+  "short": "C non può passare prima di A: A arriva dalla destra di C. L'ordine è R, A, C.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi A, poi C.",
+  "trap": "«R, C, A» è la trappola: C e A sono scambiati.",
+  "caption": "Sbagliato: l'ordine è R, A, C"
+ },
+ "q23101": {
+  "short": "R non ha nessuno alla sua destra: passa primo, non ultimo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi A, poi C.",
+  "trap": "«per ultimo» è la trappola: R è primo.",
+  "caption": "Sbagliato: R passa per primo"
+ },
+ "q23102": {
+  "short": "R arriva dalla destra di D: D deve far passare prima R.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi D, poi il camion B.",
+  "trap": "«dopo l'attraversamento del veicolo R» è giusto.",
+  "caption": "R è a destra di D: D aspetta"
+ },
+ "q23103": {
+  "short": "Il camion B ha D a destra, e D ha R a destra. Quindi B passa ultimo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi D, poi il camion B.",
+  "trap": "«dopo l'attraversamento di tutti gli altri veicoli» è giusto per B.",
+  "caption": "Ordine: R, D, B"
+ },
+ "q23104": {
+  "short": "Nessun veicolo arriva dalla destra di R: non dà precedenza e passa primo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi D, poi il camion B.",
+  "trap": "«senza dare la precedenza ad alcun veicolo» è giusto per R.",
+  "caption": "R ha la destra libera: passa primo"
+ },
+ "q23105": {
+  "short": "B aspetta D (alla sua destra), e D aspetta R. B passa dopo tutti e due.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi D, poi il camion B.",
+  "trap": "«dopo l'attraversamento dei veicoli R e D» è giusto.",
+  "caption": "Ordine: R, D, B"
+ },
+ "q23106": {
+  "short": "B ha D a destra: non può passare prima di D, e nemmeno insieme a R.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi D, poi il camion B.",
+  "trap": "«contemporaneamente al veicolo R e prima di quello D» è la trappola: B passa ultimo.",
+  "caption": "Sbagliato: B passa ultimo, dopo D"
+ },
+ "q23107": {
+  "short": "R arriva dalla destra di D: D deve aspettare R. D passa secondo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi D, poi il camion B.",
+  "trap": "«prima degli altri veicoli» è la trappola: passa prima R.",
+  "caption": "Sbagliato: D secondo, dopo R"
+ },
+ "q23108": {
+  "short": "È il contrario: R non ha nessuno a destra e passa primo; B e D aspettano.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi D, poi il camion B.",
+  "trap": "«dopo l'attraversamento dei veicoli B e D» è la trappola: R passa prima.",
+  "caption": "Sbagliato: R passa per primo"
+ },
+ "q23109": {
+  "short": "Il camion B ha D a destra: deve aspettare. B passa ultimo, non primo.",
+  "rule": "Qui non ci sono segnali: ognuno dà la precedenza a chi viene da destra. R non ha nessuno a destra: R, poi D, poi il camion B.",
+  "trap": "«prima degli altri veicoli» è la trappola: B è ultimo.",
+  "caption": "Sbagliato: B passa per ultimo"
+ }
+}

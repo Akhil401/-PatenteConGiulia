@@ -205,8 +205,10 @@ const lbl = (x, y, text, t0) => ({ type: "label", x, y, text, t0 });
 // sign "A then B" pictures: crop each sign out of the picture
 const CROP_A = [.248, .107, .758, .523], CROP_B = [.261, .581, .707, .945];
 
+const DASHBOARD = ["ec7b0a5e3715", "7933bbf13cf3", "d858676ca464", "583c22d15e61", "14a02317e39b", "7f50dfe61c76", "36779cfc84d8", "7ddd91f6c3fc", "44cc0960ffd0"];
 function figureModel(img, dur) {
   const has = h => img.includes(h);
+  if (DASHBOARD.some(has)) return { studio: "dashboard", img };
   // carriageway with 2 lanes each way
   if (has("637129125cd2")) return { road: "twoLanesEach", cam: "fly", actors: traffic([292, 217], [67, 142], dur),
     props: [lbl(292, 150, T("normal driving", "marcia normale"), 1600), lbl(217, 60, T("overtaking", "sorpasso"), 2200), lbl(105, 20, T("other direction", "senso opposto"), 2800)] };
@@ -224,6 +226,7 @@ function figureModel(img, dur) {
   if (has("be0079414cd4")) return truck({ img, crop: [.04, .34, .96, .66], mode: "pair", w: .95, h: .33 });  // trailers > 3.5 t
   if (has("37cb85177810")) return truck({ img, crop: [.1, .2, .9, .8], mode: "single", w: .8, h: .6 });      // dangerous goods
   if (has("cebd5604de2f")) return truck({ img, crop: [.15, .15, .85, .85], mode: "load", w: .6, h: .6 });    // load sticking out
+  if (has("da5d3e67a29e")) return truck({ img, mode: "single", w: .9, h: .9 });                             // works-vehicle panel (ch17)
   if (has("061decd67e69")) return truck({ img, mode: "single", w: 1.15, h: 1.15 });                     // speed-limit stickers (ch11)
   // sign A, then sign B further on
   if (has("8c3ca9b5032f") || has("2a0caaad4dff")) return { road: "twoWay", line: "dashed",

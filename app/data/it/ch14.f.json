@@ -1,0 +1,422 @@
+{
+ "q23387": {
+  "short": "T è un tram. Senza segnali, i veicoli su rotaie hanno la precedenza: il tram passa per primo.",
+  "rule": "Senza segnali né vigile, il tram (su rotaie) passa per primo. Chi svolta a sinistra lascia passare chi arriva di fronte e va dritto.",
+  "trap": "«per primo» è giusto: il tram T apre l'ordine.",
+  "caption": "Giusto: il tram T passa per primo"
+ },
+ "q23388": {
+  "short": "Dopo il tram passa A, che va dritto. S svolta a sinistra e deve lasciar passare A.",
+  "rule": "Senza segnali né vigile, il tram (su rotaie) passa per primo. Chi svolta a sinistra lascia passare chi arriva di fronte e va dritto.",
+  "trap": "«subito dopo» è giusto: A passa appena dopo il tram.",
+  "caption": "Giusto: A passa subito dopo il tram T"
+ },
+ "q23389": {
+  "short": "S aspetta il tram (precedenza su rotaie) e A (S svolta a sinistra, A arriva di fronte e va dritto).",
+  "rule": "Senza segnali né vigile, il tram (su rotaie) passa per primo. Chi svolta a sinistra lascia passare chi arriva di fronte e va dritto.",
+  "trap": "«deve attendere» è giusto: S aspetta sia T sia A.",
+  "caption": "Giusto: S aspetta T e A"
+ },
+ "q23390": {
+  "short": "Prima il tram, poi A che va dritto, poi S che svolta a sinistra. È l'ordine giusto.",
+  "rule": "Senza segnali né vigile, il tram (su rotaie) passa per primo. Chi svolta a sinistra lascia passare chi arriva di fronte e va dritto.",
+  "trap": "«nel seguente ordine»: controlla ogni lettera; T, A, S è giusto.",
+  "caption": "Ordine giusto: T, A, S"
+ },
+ "q23391": {
+  "short": "A non può passare per primo: il tram T ha la precedenza sui veicoli senza rotaie. A è secondo.",
+  "rule": "Senza segnali né vigile, il tram (su rotaie) passa per primo. Chi svolta a sinistra lascia passare chi arriva di fronte e va dritto.",
+  "trap": "«per primo» è sbagliato: passa prima il tram, poi A.",
+  "caption": "Sbagliato: passa prima il tram T, A è secondo"
+ },
+ "q23392": {
+  "short": "L'ordine comincia con A, ma il tram T ha la precedenza e passa per primo. Ordine giusto: T, A, S.",
+  "rule": "Senza segnali né vigile, il tram (su rotaie) passa per primo. Chi svolta a sinistra lascia passare chi arriva di fronte e va dritto.",
+  "trap": "«A, T, S» scambia i primi due: il tram passa prima di A.",
+  "caption": "Sbagliato: l'ordine è T, A, S, non A, T, S"
+ },
+ "q23393": {
+  "short": "S svolta a sinistra: deve lasciar passare A, che arriva di fronte e va dritto. S passa dopo A.",
+  "rule": "Senza segnali né vigile, il tram (su rotaie) passa per primo. Chi svolta a sinistra lascia passare chi arriva di fronte e va dritto.",
+  "trap": "«ma prima del veicolo A» è sbagliato: S passa dopo A.",
+  "caption": "Sbagliato: S passa dopo A, non prima"
+ },
+ "q23394": {
+  "short": "A e S non possono passare insieme: S svolta a sinistra e taglia la strada di A, quindi aspetta.",
+  "rule": "Senza segnali né vigile, il tram (su rotaie) passa per primo. Chi svolta a sinistra lascia passare chi arriva di fronte e va dritto.",
+  "trap": "«contemporaneamente» è sbagliato: le loro strade si incrociano.",
+  "caption": "Sbagliato: A e S non passano insieme"
+ },
+ "q23395": {
+  "short": "P arriva dalla destra di B, quindi B deve dare la precedenza a P.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. P ha la destra libera e passa per primo.",
+  "trap": "«deve attendere» è giusto: P è alla destra di B.",
+  "caption": "Giusto: B aspetta P, che ha a destra"
+ },
+ "q23396": {
+  "short": "P non ha nessuno alla sua destra: non deve dare la precedenza a nessuno. Passa per primo.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. P ha la destra libera e passa per primo.",
+  "trap": "«per primo» è giusto: P ha la destra libera.",
+  "caption": "Giusto: P passa per primo (destra libera)"
+ },
+ "q23397": {
+  "short": "P ha la destra libera; B ha P a destra; C ha B a destra. Quindi P, B, C.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. P ha la destra libera e passa per primo.",
+  "trap": "«nell'ordine»: controlla ogni lettera; P, B, C è giusto.",
+  "caption": "Ordine giusto: P, B, C"
+ },
+ "q23398": {
+  "short": "B è alla destra di C: la destra di C è «occupata» e C deve dare la precedenza a B.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. P ha la destra libera e passa per primo.",
+  "trap": "«destra occupata» vuol dire che qualcuno arriva da destra: qui è B.",
+  "caption": "Giusto: B è alla destra di C"
+ },
+ "q23399": {
+  "short": "B passa secondo, non ultimo. C ha B a destra, quindi C passa per ultimo.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. P ha la destra libera e passa per primo.",
+  "trap": "«per ultimo» è sbagliato: l'ultimo è C.",
+  "caption": "Sbagliato: B è secondo, C passa per ultimo"
+ },
+ "q23400": {
+  "short": "C non può passare prima di B: B è alla destra di C. L'ordine giusto è P, B, C.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. P ha la destra libera e passa per primo.",
+  "trap": "«P, C, B» scambia gli ultimi due: C aspetta B.",
+  "caption": "Sbagliato: l'ordine è P, B, C, non P, C, B"
+ },
+ "q23401": {
+  "short": "P e C non passano insieme: P passa per primo, ma C deve aspettare B, che aspetta P. C è ultimo.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. P ha la destra libera e passa per primo.",
+  "trap": "«contemporaneamente» è sbagliato: C passa per ultimo.",
+  "caption": "Sbagliato: P passa primo, C passa ultimo"
+ },
+ "q23402": {
+  "short": "P passa per primo e attraversa l'incrocio senza fermarsi: nessuno ha la precedenza su di lui.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. P ha la destra libera e passa per primo.",
+  "trap": "«si deve fermare al centro» è sbagliato: P completa la svolta senza fermarsi.",
+  "caption": "Sbagliato: P passa primo e non si ferma"
+ },
+ "q23403": {
+  "short": "B non ha nessuno alla sua destra: non dà la precedenza a nessuno e passa per primo.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. B ha la destra libera, T ha B a destra, S ha T a destra.",
+  "trap": "«per primo» è giusto: B ha la destra libera.",
+  "caption": "Giusto: B passa per primo (destra libera)"
+ },
+ "q23404": {
+  "short": "B ha la destra libera; T ha B a destra; S ha T a destra. Quindi B, T, S.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. B ha la destra libera, T ha B a destra, S ha T a destra.",
+  "trap": "«nel seguente ordine»: controlla ogni lettera; B, T, S è giusto.",
+  "caption": "Ordine giusto: B, T, S"
+ },
+ "q23405": {
+  "short": "S ha T a destra, e T aspetta B. Quindi S passa per ultimo.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. B ha la destra libera, T ha B a destra, S ha T a destra.",
+  "trap": "«per ultimo» è giusto: S aspetta T e B.",
+  "caption": "Giusto: S passa per ultimo"
+ },
+ "q23406": {
+  "short": "S non può passare per primo: ha T a destra. L'ordine giusto è B, T, S.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. B ha la destra libera, T ha B a destra, S ha T a destra.",
+  "trap": "«S, B, T» mette S per primo, ma S è l'ultimo.",
+  "caption": "Sbagliato: l'ordine è B, T, S, non S, B, T"
+ },
+ "q23407": {
+  "short": "È il contrario: B è alla destra di T, quindi T dà la precedenza a B.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. B ha la destra libera, T ha B a destra, S ha T a destra.",
+  "trap": "«B deve dare la precedenza a T» rovescia la regola: è T che la dà a B.",
+  "caption": "Sbagliato: T dà la precedenza a B, non il contrario"
+ },
+ "q23408": {
+  "short": "A ogni incrocio tutti devono moderare la velocità e essere pronti a dare la precedenza, anche chi passa per primo.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. B ha la destra libera, T ha B a destra, S ha T a destra.",
+  "trap": "«nessuno» è sbagliato: all'incrocio tutti devono rallentare.",
+  "caption": "Sbagliato: all'incrocio tutti rallentano"
+ },
+ "q23409": {
+  "short": "B passa per primo, ma S deve aspettare T, che ha a destra. S passa per ultimo, non insieme a B.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. B ha la destra libera, T ha B a destra, S ha T a destra.",
+  "trap": "«contemporaneamente» è sbagliato: tra B e S passa T.",
+  "caption": "Sbagliato: prima B, poi T, poi S"
+ },
+ "q23410": {
+  "short": "R arriva dalla destra di A, quindi A deve aspettare R.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. R ha la destra libera, A ha R a destra, C ha A a destra.",
+  "trap": "«dopo il veicolo R» è giusto: R è alla destra di A.",
+  "caption": "Giusto: A passa dopo R"
+ },
+ "q23411": {
+  "short": "R non ha nessuno alla sua destra: non dà la precedenza a nessuno e passa per primo.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. R ha la destra libera, A ha R a destra, C ha A a destra.",
+  "trap": "«non deve dare la precedenza ad alcun veicolo» è giusto per R.",
+  "caption": "Giusto: R non dà precedenza a nessuno"
+ },
+ "q23412": {
+  "short": "A arriva dalla destra di C, quindi C deve dare la precedenza ad A.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. R ha la destra libera, A ha R a destra, C ha A a destra.",
+  "trap": "«C deve dare la precedenza al veicolo A» è giusto: A è alla destra di C.",
+  "caption": "Giusto: C dà la precedenza ad A"
+ },
+ "q23413": {
+  "short": "R ha la destra libera; A ha R a destra; C ha A a destra. Quindi R, A, C.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. R ha la destra libera, A ha R a destra, C ha A a destra.",
+  "trap": "«nel seguente ordine»: controlla ogni lettera; R, A, C è giusto.",
+  "caption": "Ordine giusto: R, A, C"
+ },
+ "q23414": {
+  "short": "C ha A alla sua destra, quindi deve dare la precedenza ad A. C passa per ultimo.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. R ha la destra libera, A ha R a destra, C ha A a destra.",
+  "trap": "«non deve dare la precedenza ad alcun veicolo» è sbagliato per C: vale solo per R.",
+  "caption": "Sbagliato: C deve dare la precedenza ad A"
+ },
+ "q23415": {
+  "short": "R passa per primo, ma C deve aspettare A, che ha a destra. C passa ultimo, non insieme a R.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. R ha la destra libera, A ha R a destra, C ha A a destra.",
+  "trap": "«contemporaneamente» è sbagliato: tra R e C passa A.",
+  "caption": "Sbagliato: prima R, poi A, poi C"
+ },
+ "q23416": {
+  "short": "C non può passare prima di A: A è alla destra di C. L'ordine giusto è R, A, C.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. R ha la destra libera, A ha R a destra, C ha A a destra.",
+  "trap": "«R, C, A» scambia gli ultimi due: C aspetta A.",
+  "caption": "Sbagliato: l'ordine è R, A, C, non R, C, A"
+ },
+ "q23417": {
+  "short": "R ha la destra libera e passa per primo. Sono C e A che aspettano R.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. R ha la destra libera, A ha R a destra, C ha A a destra.",
+  "trap": "«deve attendere» è sbagliato: R non aspetta nessuno.",
+  "caption": "Sbagliato: R passa primo, gli altri aspettano"
+ },
+ "q23418": {
+  "short": "H svolta a destra senza tagliare la strada a nessuno e passa primo. D ha H a destra. B svolta a sinistra e aspetta D.",
+  "rule": "Dai la precedenza a destra; chi svolta a sinistra lascia passare chi arriva di fronte. H svolta a destra stretto e non taglia la strada a nessuno.",
+  "trap": "«disimpegnano» vuol dire «lasciano» l'incrocio: l'ordine H, D, B è giusto.",
+  "caption": "Ordine giusto: H, D, B"
+ },
+ "q23419": {
+  "short": "B svolta a sinistra: deve lasciar passare D, che arriva di fronte. D aspetta H. Quindi B è ultimo.",
+  "rule": "Dai la precedenza a destra; chi svolta a sinistra lascia passare chi arriva di fronte. H svolta a destra stretto e non taglia la strada a nessuno.",
+  "trap": "«per ultimo» è giusto: B svolta a sinistra e aspetta tutti.",
+  "caption": "Giusto: B svolta a sinistra e passa ultimo"
+ },
+ "q23420": {
+  "short": "H svolta a destra stretto e non taglia la strada a nessuno. B svolta a sinistra e deve aspettare. Quindi H non dà precedenza.",
+  "rule": "Dai la precedenza a destra; chi svolta a sinistra lascia passare chi arriva di fronte. H svolta a destra stretto e non taglia la strada a nessuno.",
+  "trap": "«non deve dare la precedenza ad alcun veicolo» è giusto per H.",
+  "caption": "Giusto: H svolta a destra e passa primo"
+ },
+ "q23421": {
+  "short": "H arriva dalla destra di D, quindi D deve dare la precedenza a H.",
+  "rule": "Dai la precedenza a destra; chi svolta a sinistra lascia passare chi arriva di fronte. H svolta a destra stretto e non taglia la strada a nessuno.",
+  "trap": "«D deve dare la precedenza al veicolo H» è giusto: H è alla destra di D.",
+  "caption": "Giusto: D dà la precedenza a H"
+ },
+ "q23422": {
+  "short": "È il contrario: B svolta a sinistra, quindi B aspetta D, che arriva di fronte e va dritto.",
+  "rule": "Dai la precedenza a destra; chi svolta a sinistra lascia passare chi arriva di fronte. H svolta a destra stretto e non taglia la strada a nessuno.",
+  "trap": "«D deve attendere» B rovescia la regola: è B che aspetta D.",
+  "caption": "Sbagliato: B aspetta D, non il contrario"
+ },
+ "q23423": {
+  "short": "B non può passare prima di D: svolta a sinistra e deve lasciar passare D. L'ordine giusto è H, D, B.",
+  "rule": "Dai la precedenza a destra; chi svolta a sinistra lascia passare chi arriva di fronte. H svolta a destra stretto e non taglia la strada a nessuno.",
+  "trap": "«H, B, D» scambia gli ultimi due: B aspetta D.",
+  "caption": "Sbagliato: l'ordine è H, D, B, non H, B, D"
+ },
+ "q23424": {
+  "short": "B svolta a sinistra: chi svolta a sinistra lascia passare chi arriva di fronte e va dritto. D ha la precedenza su B.",
+  "rule": "Dai la precedenza a destra; chi svolta a sinistra lascia passare chi arriva di fronte. H svolta a destra stretto e non taglia la strada a nessuno.",
+  "trap": "«ha la precedenza» è al contrario: è D che ha la precedenza su B.",
+  "caption": "Sbagliato: D ha la precedenza su B"
+ },
+ "q23425": {
+  "short": "B deve aspettare D, e D aspetta H. Quindi B passa per ultimo, non insieme a H.",
+  "rule": "Dai la precedenza a destra; chi svolta a sinistra lascia passare chi arriva di fronte. H svolta a destra stretto e non taglia la strada a nessuno.",
+  "trap": "«contemporaneamente» è sbagliato: tra H e B passa D.",
+  "caption": "Sbagliato: prima H, poi D, poi B"
+ },
+ "q23426": {
+  "short": "P svolta a destra stretto e non taglia la strada a nessuno. Quindi può passare per primo.",
+  "rule": "Dai la precedenza a chi arriva da destra. P svolta a destra stretto e non taglia la strada a nessuno: può passare per primo.",
+  "trap": "«può passare per primo» è giusto: la svolta a destra di P non ostacola nessuno.",
+  "caption": "Giusto: P svolta a destra e passa primo"
+ },
+ "q23427": {
+  "short": "P arriva dalla destra di D, quindi D deve dare la precedenza a P.",
+  "rule": "Dai la precedenza a chi arriva da destra. P svolta a destra stretto e non taglia la strada a nessuno: può passare per primo.",
+  "trap": "«D deve dare la precedenza al veicolo P» è giusto: P è alla destra di D.",
+  "caption": "Giusto: D dà la precedenza a P"
+ },
+ "q23428": {
+  "short": "B ha D a destra, e D aspetta P. Quindi B passa dopo P e D.",
+  "rule": "Dai la precedenza a chi arriva da destra. P svolta a destra stretto e non taglia la strada a nessuno: può passare per primo.",
+  "trap": "«deve attendere» è giusto: B aspetta P e D.",
+  "caption": "Giusto: B aspetta P e D"
+ },
+ "q23429": {
+  "short": "B arriva dalla destra di L, quindi L deve dare la precedenza a B.",
+  "rule": "Dai la precedenza a chi arriva da destra. P svolta a destra stretto e non taglia la strada a nessuno: può passare per primo.",
+  "trap": "«L deve dare la precedenza al veicolo B» è giusto: B è alla destra di L.",
+  "caption": "Giusto: L dà la precedenza a B"
+ },
+ "q23430": {
+  "short": "P svolta a destra e passa primo; poi ognuno aspetta chi ha a destra: D, poi B, poi L.",
+  "rule": "Dai la precedenza a chi arriva da destra. P svolta a destra stretto e non taglia la strada a nessuno: può passare per primo.",
+  "trap": "«nel seguente ordine»: controlla ogni lettera; P, D, B, L è giusto.",
+  "caption": "Ordine giusto: P, D, B, L"
+ },
+ "q23431": {
+  "short": "È il contrario: B è alla destra di L, quindi L dà la precedenza a B.",
+  "rule": "Dai la precedenza a chi arriva da destra. P svolta a destra stretto e non taglia la strada a nessuno: può passare per primo.",
+  "trap": "«B deve dare la precedenza al veicolo L» rovescia la regola: è L che la dà a B.",
+  "caption": "Sbagliato: L dà la precedenza a B"
+ },
+ "q23432": {
+  "short": "P svolta a destra senza tagliare la strada a nessuno: passa primo. Non aspetta gli altri.",
+  "rule": "Dai la precedenza a chi arriva da destra. P svolta a destra stretto e non taglia la strada a nessuno: può passare per primo.",
+  "trap": "«deve attendere» è sbagliato: P è il primo, non l'ultimo.",
+  "caption": "Sbagliato: P passa primo, non aspetta"
+ },
+ "q23433": {
+  "short": "L non può passare prima di B: B è alla destra di L. L'ordine giusto è P, D, B, L.",
+  "rule": "Dai la precedenza a chi arriva da destra. P svolta a destra stretto e non taglia la strada a nessuno: può passare per primo.",
+  "trap": "«P, D, L, B» scambia gli ultimi due: L aspetta B.",
+  "caption": "Sbagliato: l'ordine è P, D, B, L, non P, D, L, B"
+ },
+ "q23434": {
+  "short": "P passa per primo. D passa secondo, e L è l'ultimo. Non passano insieme.",
+  "rule": "Dai la precedenza a chi arriva da destra. P svolta a destra stretto e non taglia la strada a nessuno: può passare per primo.",
+  "trap": "«contemporaneamente per primi» è doppiamente sbagliato: il primo è P, L è ultimo.",
+  "caption": "Sbagliato: P passa primo, L passa ultimo"
+ },
+ "q23435": {
+  "short": "E svolta a destra stretto e non taglia la strada a nessuno: passa per primo.",
+  "rule": "Chi svolta a destra stretto non taglia la strada a nessuno: E passa per primo. Poi precedenza a destra: M ha C a destra, quindi C passa prima di M.",
+  "trap": "«per primo» è giusto: la svolta a destra di E non ostacola nessuno.",
+  "caption": "Giusto: E svolta a destra e passa primo"
+ },
+ "q23436": {
+  "short": "E passa per primo. C svolta a sinistra dopo E, e prima di M, che ha C a destra.",
+  "rule": "Chi svolta a destra stretto non taglia la strada a nessuno: E passa per primo. Poi precedenza a destra: M ha C a destra, quindi C passa prima di M.",
+  "trap": "«dopo il veicolo E» è giusto: C è secondo.",
+  "caption": "Giusto: C passa dopo E"
+ },
+ "q23437": {
+  "short": "E svolta a destra e passa primo; poi C; M ha C a destra e passa per ultimo. Quindi E, C, M.",
+  "rule": "Chi svolta a destra stretto non taglia la strada a nessuno: E passa per primo. Poi precedenza a destra: M ha C a destra, quindi C passa prima di M.",
+  "trap": "«nel seguente ordine»: controlla ogni lettera; E, C, M è giusto.",
+  "caption": "Ordine giusto: E, C, M"
+ },
+ "q23438": {
+  "short": "M ha C alla sua destra, quindi deve dare la precedenza a C. M passa per ultimo, non primo.",
+  "rule": "Chi svolta a destra stretto non taglia la strada a nessuno: E passa per primo. Poi precedenza a destra: M ha C a destra, quindi C passa prima di M.",
+  "trap": "«per primo» è sbagliato: M è l'ultimo.",
+  "caption": "Sbagliato: M passa ultimo, E passa primo"
+ },
+ "q23439": {
+  "short": "E è primo, non ultimo: la sua svolta a destra non taglia la strada a nessuno. L'ordine giusto è E, C, M.",
+  "rule": "Chi svolta a destra stretto non taglia la strada a nessuno: E passa per primo. Poi precedenza a destra: M ha C a destra, quindi C passa prima di M.",
+  "trap": "«C, M ed E» mette E per ultimo, ma E passa per primo.",
+  "caption": "Sbagliato: l'ordine è E, C, M, non C, M, E"
+ },
+ "q23440": {
+  "short": "E passa per primo, ma M deve aspettare C, che ha a destra. M passa ultimo, non insieme a E.",
+  "rule": "Chi svolta a destra stretto non taglia la strada a nessuno: E passa per primo. Poi precedenza a destra: M ha C a destra, quindi C passa prima di M.",
+  "trap": "«contemporaneamente» è sbagliato: tra E e M passa C.",
+  "caption": "Sbagliato: prima E, poi C, poi M"
+ },
+ "q23441": {
+  "short": "A svolta a destra stretto e non taglia la strada a nessuno: passa per primo.",
+  "rule": "Chi svolta a destra stretto non taglia la strada a nessuno: A passa per primo. C ha A a destra. L svolta a sinistra e lascia passare C che arriva di fronte.",
+  "trap": "«per primo» è giusto: la svolta a destra di A non ostacola nessuno.",
+  "caption": "Giusto: A svolta a destra e passa primo"
+ },
+ "q23442": {
+  "short": "A arriva dalla destra di C, quindi C deve dare la precedenza ad A.",
+  "rule": "Chi svolta a destra stretto non taglia la strada a nessuno: A passa per primo. C ha A a destra. L svolta a sinistra e lascia passare C che arriva di fronte.",
+  "trap": "«C deve dare la precedenza al veicolo A» è giusto: A è alla destra di C.",
+  "caption": "Giusto: C dà la precedenza ad A"
+ },
+ "q23443": {
+  "short": "L svolta a sinistra: deve lasciar passare C, che arriva di fronte. C aspetta A. Quindi L è ultimo.",
+  "rule": "Chi svolta a destra stretto non taglia la strada a nessuno: A passa per primo. C ha A a destra. L svolta a sinistra e lascia passare C che arriva di fronte.",
+  "trap": "«per ultimo» è giusto: L svolta a sinistra e aspetta tutti.",
+  "caption": "Giusto: L svolta a sinistra e passa ultimo"
+ },
+ "q23444": {
+  "short": "A svolta a destra e passa primo; C ha A a destra; L svolta a sinistra e aspetta C. Quindi A, C, L.",
+  "rule": "Chi svolta a destra stretto non taglia la strada a nessuno: A passa per primo. C ha A a destra. L svolta a sinistra e lascia passare C che arriva di fronte.",
+  "trap": "«nel seguente ordine»: controlla ogni lettera; A, C, L è giusto.",
+  "caption": "Ordine giusto: A, C, L"
+ },
+ "q23445": {
+  "short": "A svolta a destra senza tagliare la strada a nessuno e passa per primo. Sono C e L che aspettano.",
+  "rule": "Chi svolta a destra stretto non taglia la strada a nessuno: A passa per primo. C ha A a destra. L svolta a sinistra e lascia passare C che arriva di fronte.",
+  "trap": "«deve attendere» è sbagliato: A non aspetta nessuno.",
+  "caption": "Sbagliato: A passa primo, gli altri aspettano"
+ },
+ "q23446": {
+  "short": "L svolta a sinistra: deve lasciar passare C, che arriva di fronte. L passa ultimo, non primo.",
+  "rule": "Chi svolta a destra stretto non taglia la strada a nessuno: A passa per primo. C ha A a destra. L svolta a sinistra e lascia passare C che arriva di fronte.",
+  "trap": "«per primo» è sbagliato: L è l'ultimo.",
+  "caption": "Sbagliato: L passa ultimo, A passa primo"
+ },
+ "q23447": {
+  "short": "È l'ordine al contrario. L'ordine giusto è A, C, L.",
+  "rule": "Chi svolta a destra stretto non taglia la strada a nessuno: A passa per primo. C ha A a destra. L svolta a sinistra e lascia passare C che arriva di fronte.",
+  "trap": "«L, C, A» rovescia l'ordine: A è primo, L è ultimo.",
+  "caption": "Sbagliato: l'ordine è A, C, L, non L, C, A"
+ },
+ "q23448": {
+  "short": "È il contrario: L svolta a sinistra, quindi L aspetta C, che arriva di fronte e va dritto.",
+  "rule": "Chi svolta a destra stretto non taglia la strada a nessuno: A passa per primo. C ha A a destra. L svolta a sinistra e lascia passare C che arriva di fronte.",
+  "trap": "«C deve attendere» L rovescia la regola: è L che aspetta C.",
+  "caption": "Sbagliato: L aspetta C, non il contrario"
+ },
+ "q23449": {
+  "short": "E non ha nessuno alla sua destra: non dà la precedenza a nessuno e passa per primo.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. E ha la destra libera, C ha E a destra, L ha C a destra.",
+  "trap": "«non deve dare la precedenza ad alcun veicolo» è giusto per E.",
+  "caption": "Giusto: E non dà precedenza a nessuno"
+ },
+ "q23450": {
+  "short": "E arriva dalla destra di C, quindi C deve dare la precedenza a E.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. E ha la destra libera, C ha E a destra, L ha C a destra.",
+  "trap": "«C deve dare la precedenza al veicolo E» è giusto: E è alla destra di C.",
+  "caption": "Giusto: C dà la precedenza a E"
+ },
+ "q23451": {
+  "short": "L ha C a destra, e C aspetta E. Quindi L passa dopo E e C.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. E ha la destra libera, C ha E a destra, L ha C a destra.",
+  "trap": "«deve attendere» è giusto: L aspetta E e C.",
+  "caption": "Giusto: L aspetta E e C"
+ },
+ "q23452": {
+  "short": "E ha la destra libera; C ha E a destra; L ha C a destra. Quindi E, C, L.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. E ha la destra libera, C ha E a destra, L ha C a destra.",
+  "trap": "«disimpegnano» vuol dire «lasciano» l'incrocio: l'ordine E, C, L è giusto.",
+  "caption": "Ordine giusto: E, C, L"
+ },
+ "q23453": {
+  "short": "È il contrario: C è alla destra di L, quindi L aspetta C.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. E ha la destra libera, C ha E a destra, L ha C a destra.",
+  "trap": "«C deve attendere» L rovescia la regola: è L che aspetta C.",
+  "caption": "Sbagliato: L aspetta C, non il contrario"
+ },
+ "q23454": {
+  "short": "E ha la destra libera e passa per primo, non per ultimo. L'ultimo è L.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. E ha la destra libera, C ha E a destra, L ha C a destra.",
+  "trap": "«per ultimo» è sbagliato: E è il primo.",
+  "caption": "Sbagliato: E passa primo, L passa ultimo"
+ },
+ "q23455": {
+  "short": "L non può passare prima di C: C è alla destra di L. L'ordine giusto è E, C, L.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. E ha la destra libera, C ha E a destra, L ha C a destra.",
+  "trap": "«E, L, C» scambia gli ultimi due: L aspetta C.",
+  "caption": "Sbagliato: l'ordine è E, C, L, non E, L, C"
+ },
+ "q23456": {
+  "short": "E è alla destra di C, quindi C deve aspettare E. Non passano insieme.",
+  "rule": "Senza segnali, dai la precedenza a chi arriva da destra. E ha la destra libera, C ha E a destra, L ha C a destra.",
+  "trap": "«contemporaneamente» è sbagliato: C aspetta E.",
+  "caption": "Sbagliato: prima E, poi C"
+ }
+}

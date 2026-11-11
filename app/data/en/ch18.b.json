@@ -1,0 +1,2022 @@
+{
+ "q24197": {
+  "en": "The symbol shown is on the switch that turns on the main beam headlights.",
+  "explain": {
+   "short": "The straight horizontal lines mean main beam. 'Proiettori di profondità' is another name for the main beam (abbaglianti).",
+   "rule": "Straight lines = main beam (abbaglianti, 'proiettori di profondità'). The symbol is on its switch and on a blue light.",
+   "trap": "'proiettori di profondità' sounds strange, but it simply means the main beam (abbaglianti).",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Straight lines: main beam switch",
+    "it": "proiettori di profondità",
+    "lines": [
+     "Straight lines = main beam",
+     "Also called 'proiettori di profondità'"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "proiettori di profondità",
+    "en": "main beam headlights"
+   },
+   {
+    "it": "comando di accensione",
+    "en": "on switch"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24198": {
+  "en": "The symbol shown is on a blue warning light.",
+  "explain": {
+   "short": "When the main beam is on, a blue light with this symbol switches on in the dashboard. Blue is used only for the main beam.",
+   "rule": "Straight lines = main beam (abbaglianti, 'proiettori di profondità'). The symbol is on its switch and on a blue light.",
+   "trap": "'luce blu' is right: the main beam light is blue, the dipped beam light is green.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Main beam on: the warning light is blue",
+    "it": "spia a luce blu",
+    "lines": [
+     "Main beam on",
+     "Dashboard light: BLUE"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "spia",
+    "en": "warning light"
+   },
+   {
+    "it": "luce blu",
+    "en": "blue light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24199": {
+  "en": "The symbol shown is on a green warning light.",
+  "explain": {
+   "short": "This is the main beam symbol, and its warning light is blue, not green. Green is for the dipped beam.",
+   "rule": "Straight lines = main beam (abbaglianti, 'proiettori di profondità'). The symbol is on its switch and on a blue light.",
+   "trap": "'verde' is the trap: green belongs to the dipped beam (lines sloping down), not to this symbol.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not green: the main beam light is blue",
+    "it": "spia a luce verde",
+    "lines": [
+     "Straight lines = main beam",
+     "Its light is BLUE, not green"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "spia",
+    "en": "warning light"
+   },
+   {
+    "it": "luce verde",
+    "en": "green light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24200": {
+  "en": "The symbol shown is on the switch that turns on the dipped beam headlights.",
+  "explain": {
+   "short": "Straight horizontal lines mean main beam. The dipped beam symbol has lines sloping down towards the road.",
+   "rule": "Straight lines = main beam (abbaglianti, 'proiettori di profondità'). The symbol is on its switch and on a blue light.",
+   "trap": "'anabbaglianti' (dipped beam) is the trap: this symbol is the 'abbaglianti' (main beam).",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Straight lines = main beam, not dipped beam",
+    "it": "anabbaglianti",
+    "lines": [
+     "Straight lines = main beam",
+     "Dipped beam: lines slope down"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "proiettori anabbaglianti",
+    "en": "dipped beam headlights"
+   },
+   {
+    "it": "comando di accensione",
+    "en": "on switch"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24201": {
+  "en": "The symbol shown signals that the rear fog light is on.",
+  "explain": {
+   "short": "This symbol is the main beam. The rear fog light has a different symbol: a lamp facing the other way with a wavy line across the beams, on an amber light.",
+   "rule": "Straight lines = main beam (abbaglianti, 'proiettori di profondità'). The symbol is on its switch and on a blue light.",
+   "trap": "'luce posteriore per nebbia' (rear fog light) is wrong: there is no wavy fog line here, only straight beams.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Main beam, not the rear fog light",
+    "it": "luce posteriore per nebbia",
+    "lines": [
+     "Straight lines = main beam",
+     "Rear fog light: other symbol"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce posteriore per nebbia",
+    "en": "rear fog light"
+   },
+   {
+    "it": "accensione",
+    "en": "switching on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24202": {
+  "en": "The symbol shown reminds the driver that they must switch off the side lights.",
+  "explain": {
+   "short": "The symbol only shows that the main beam is on. It is not a reminder about the side lights (luci di posizione).",
+   "rule": "Straight lines = main beam (abbaglianti, 'proiettori di profondità'). The symbol is on its switch and on a blue light.",
+   "trap": "'ricorda... di spegnere le luci di posizione' is invented: this light just says the main beam is on.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It only shows the main beam is on",
+    "it": "luci di posizione",
+    "lines": [
+     "Blue light = main beam is on",
+     "No reminder about side lights"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ricorda al conducente",
+    "en": "reminds the driver"
+   },
+   {
+    "it": "spegnere",
+    "en": "switch off"
+   },
+   {
+    "it": "luci di posizione",
+    "en": "side lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24203": {
+  "en": "The symbol shown is on the switch that turns on the dipped beam headlights.",
+  "explain": {
+   "short": "A headlamp with lines sloping down towards the road is the dipped beam (anabbaglianti). The beam points down so it does not dazzle others.",
+   "rule": "Lines sloping down = dipped beam (anabbaglianti). The symbol is on its switch and on a green light.",
+   "trap": "'anabbaglianti' is right: lines sloping down = dipped beam; straight lines would be main beam.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lines sloping down: dipped beam switch",
+    "it": "anabbaglianti",
+    "lines": [
+     "Lines slope down = dipped beam",
+     "The beam points at the road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "proiettori anabbaglianti",
+    "en": "dipped beam headlights"
+   },
+   {
+    "it": "comando di accensione",
+    "en": "on switch"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24204": {
+  "en": "The symbol shown is on a green warning light.",
+  "explain": {
+   "short": "When the dipped beam is on, a green light with this symbol switches on in the dashboard. Green means a light is working.",
+   "rule": "Lines sloping down = dipped beam (anabbaglianti). The symbol is on its switch and on a green light.",
+   "trap": "'verde' is right here: dipped beam = green; only the main beam is blue.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dipped beam on: the warning light is green",
+    "it": "spia a luce verde",
+    "lines": [
+     "Dipped beam on",
+     "Dashboard light: GREEN"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "spia",
+    "en": "warning light"
+   },
+   {
+    "it": "luce verde",
+    "en": "green light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24205": {
+  "en": "The symbol shown is on a blue warning light.",
+  "explain": {
+   "short": "This is the dipped beam symbol, and its light is green. Blue is only for the main beam.",
+   "rule": "Lines sloping down = dipped beam (anabbaglianti). The symbol is on its switch and on a green light.",
+   "trap": "'blu' is the trap: blue belongs to the main beam (straight lines), not to the dipped beam.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not blue: the dipped beam light is green",
+    "it": "spia a luce blu",
+    "lines": [
+     "Lines slope down = dipped beam",
+     "Its light is GREEN, not blue"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "spia",
+    "en": "warning light"
+   },
+   {
+    "it": "luce blu",
+    "en": "blue light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24206": {
+  "en": "The symbol shown signals that the rear fog light is on.",
+  "explain": {
+   "short": "This symbol is the dipped beam. The rear fog light has its own symbol, with a wavy line across the beams, on an amber light.",
+   "rule": "Lines sloping down = dipped beam (anabbaglianti). The symbol is on its switch and on a green light.",
+   "trap": "'luce posteriore per nebbia' (rear fog light) is wrong: no wavy fog line here.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dipped beam, not the rear fog light",
+    "it": "luce posteriore per nebbia",
+    "lines": [
+     "Lines slope down = dipped beam",
+     "Rear fog light: other symbol"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce posteriore per nebbia",
+    "en": "rear fog light"
+   },
+   {
+    "it": "accensione",
+    "en": "switching on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24207": {
+  "en": "The symbol shown is on the warning light for the main beam being on.",
+  "explain": {
+   "short": "The lines slope down, so this is the dipped beam. The main beam symbol has straight lines and a blue light.",
+   "rule": "Lines sloping down = dipped beam (anabbaglianti). The symbol is on its switch and on a green light.",
+   "trap": "'abbaglianti' (main beam) vs 'anabbaglianti' (dipped beam): one letter group changes everything; here the lines slope down.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dipped beam, not main beam",
+    "it": "abbaglianti",
+    "lines": [
+     "Lines slope down = dipped beam",
+     "Main beam: straight lines, blue"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luci abbaglianti",
+    "en": "main beam lights"
+   },
+   {
+    "it": "spia",
+    "en": "warning light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24208": {
+  "en": "The symbol shown signals that the side lights are on.",
+  "explain": {
+   "short": "This symbol is the dipped beam. The side lights (luci di posizione) have a different symbol: two small lamps facing outwards.",
+   "rule": "Lines sloping down = dipped beam (anabbaglianti). The symbol is on its switch and on a green light.",
+   "trap": "'luci di posizione' (side lights) is wrong: they have their own symbol, not one big headlamp.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dipped beam, not side lights",
+    "it": "luci di posizione",
+    "lines": [
+     "Lines slope down = dipped beam",
+     "Side lights: two small lamps"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luci di posizione",
+    "en": "side lights"
+   },
+   {
+    "it": "accensione",
+    "en": "switching on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24209": {
+  "en": "The symbol shown indicates the control for operating the right direction indicator.",
+  "explain": {
+   "short": "This is a headlamp with beams, the dipped beam. The indicators have arrows as their symbol.",
+   "rule": "Lines sloping down = dipped beam (anabbaglianti). The symbol is on its switch and on a green light.",
+   "trap": "'indicatore di direzione destro' (right indicator) is wrong: indicators are shown with arrows, not a headlamp.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dipped beam, not the right indicator",
+    "it": "indicatore di direzione",
+    "lines": [
+     "Headlamp = dipped beam",
+     "Indicators: arrows"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "indicatore di direzione destro",
+    "en": "right direction indicator"
+   },
+   {
+    "it": "comando",
+    "en": "control"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24210": {
+  "en": "The symbol shown indicates the control of the direction indicators.",
+  "explain": {
+   "short": "Two arrows, one left and one right, are the symbol of the direction indicators (frecce).",
+   "rule": "Two arrows = direction indicators. Their light is green and flashes while an indicator is on.",
+   "trap": "'indicatori di direzione' are the normal indicators (frecce), one side at a time.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Two arrows: direction indicators",
+    "it": "indicatori di direzione",
+    "lines": [
+     "Two arrows = direction indicators",
+     "Left or right, one side at a time"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "indicatori di direzione",
+    "en": "direction indicators"
+   },
+   {
+    "it": "comando",
+    "en": "control"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24211": {
+  "en": "The symbol shown is on a green warning light.",
+  "explain": {
+   "short": "When an indicator is on, a green arrow flashes in the dashboard. Green means a light is working.",
+   "rule": "Two arrows = direction indicators. Their light is green and flashes while an indicator is on.",
+   "trap": "'verde' is right: the indicator light is green (red is for danger).",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Indicator light: green",
+    "it": "spia a luce verde",
+    "lines": [
+     "Indicator on",
+     "Dashboard light: GREEN"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "spia",
+    "en": "warning light"
+   },
+   {
+    "it": "luce verde",
+    "en": "green light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24212": {
+  "en": "The symbol shown is on the flashing green warning light of the indicator that is switched on.",
+  "explain": {
+   "short": "When you switch on an indicator, the green arrow for that side flashes in the dashboard, together with the indicator outside.",
+   "rule": "Two arrows = direction indicators. Their light is green and flashes while an indicator is on.",
+   "trap": "'lampeggiante' (flashing) is right: the green arrow flashes, it does not stay fixed.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The green arrow flashes with the indicator",
+    "it": "lampeggiante",
+    "lines": [
+     "Indicator on: green arrow",
+     "It flashes on that side"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce verde lampeggiante",
+    "en": "flashing green light"
+   },
+   {
+    "it": "indicatore di direzione azionato",
+    "en": "indicator switched on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24213": {
+  "en": "The symbol shown is on a red warning light.",
+  "explain": {
+   "short": "The indicator light is green, not red. Red lights mean danger, like the hazard lights or the brake warning.",
+   "rule": "Two arrows = direction indicators. Their light is green and flashes while an indicator is on.",
+   "trap": "'rosso' is the trap: the normal indicators use a green light.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not red: the indicator light is green",
+    "it": "spia di colore rosso",
+    "lines": [
+     "Two arrows = indicators",
+     "Their light is GREEN, not red"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "spia",
+    "en": "warning light"
+   },
+   {
+    "it": "colore rosso",
+    "en": "red colour"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24214": {
+  "en": "The symbol shown is on a warning light that comes on when the side lights are on.",
+  "explain": {
+   "short": "The arrows only flash when an indicator is working. The side lights have their own symbol.",
+   "rule": "Two arrows = direction indicators. Their light is green and flashes while an indicator is on.",
+   "trap": "'luci di posizione' (side lights) is wrong: arrows mean indicators.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrows = indicators, not side lights",
+    "it": "luci di posizione",
+    "lines": [
+     "Two arrows = indicators",
+     "Side lights: other symbol"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luci di posizione",
+    "en": "side lights"
+   },
+   {
+    "it": "spia",
+    "en": "warning light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24215": {
+  "en": "The symbol shown indicates the control for switching on the side lights.",
+  "explain": {
+   "short": "Two arrows are the direction indicators. The side lights are switched on with another control and symbol.",
+   "rule": "Two arrows = direction indicators. Their light is green and flashes while an indicator is on.",
+   "trap": "'luci di posizione' (side lights) is wrong: the arrows mean indicators.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Indicator control, not side lights",
+    "it": "luci di posizione",
+    "lines": [
+     "Two arrows = indicators",
+     "Not the side lights switch"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luci di posizione",
+    "en": "side lights"
+   },
+   {
+    "it": "comando",
+    "en": "control"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24216": {
+  "en": "The symbol shown indicates the control for operating the hazard warning lights.",
+  "explain": {
+   "short": "The double triangle is the hazard lights button (segnalazione luminosa di pericolo, the 'quattro frecce').",
+   "rule": "Double triangle = hazard lights (quattro frecce): all indicators flash together. Red switch, for emergencies; you switch it on yourself.",
+   "trap": "'segnalazione luminosa di pericolo' means the hazard lights (all indicators flashing).",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Double triangle: hazard lights button",
+    "it": "segnalazione luminosa di pericolo",
+    "lines": [
+     "Double triangle = hazard lights",
+     "All indicators flash together"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnalazione luminosa di pericolo",
+    "en": "hazard warning lights"
+   },
+   {
+    "it": "comando",
+    "en": "control"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24217": {
+  "en": "The symbol shown is on the control that switches on all the direction indicators at the same time.",
+  "explain": {
+   "short": "Pressing the hazard button makes all the indicators (front, back, sides) flash together.",
+   "rule": "Double triangle = hazard lights (quattro frecce): all indicators flash together. Red switch, for emergencies; you switch it on yourself.",
+   "trap": "'contemporanea di tutti' (all at the same time) is exactly what the hazard lights do.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hazard button: all indicators flash at once",
+    "it": "quattro frecce",
+    "lines": [
+     "Press the double triangle",
+     "All indicators flash together"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "accensione contemporanea",
+    "en": "switching on at the same time"
+   },
+   {
+    "it": "tutti gli indicatori di direzione",
+    "en": "all the direction indicators"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24218": {
+  "en": "The symbol shown is on a red warning light.",
+  "explain": {
+   "short": "The hazard lights button with this symbol is red, because it is used for danger. Red = danger.",
+   "rule": "Double triangle = hazard lights (quattro frecce): all indicators flash together. Red switch, for emergencies; you switch it on yourself.",
+   "trap": "'rosso' is right here: the hazard symbol is red, unlike the green indicator arrows.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hazard symbol: red",
+    "it": "spia di colore rosso",
+    "lines": [
+     "Double triangle = hazard lights",
+     "Its colour is RED: danger"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "spia",
+    "en": "warning light"
+   },
+   {
+    "it": "colore rosso",
+    "en": "red colour"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24219": {
+  "en": "The symbol shown indicates a device to be used in emergencies.",
+  "explain": {
+   "short": "Hazard lights are for emergencies: for example a vehicle stopped where it is a danger, or a sudden queue ahead.",
+   "rule": "Double triangle = hazard lights (quattro frecce): all indicators flash together. Red switch, for emergencies; you switch it on yourself.",
+   "trap": "'casi di emergenza' (emergencies) is right: that is when you use the hazard lights.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hazard lights: for emergencies",
+    "it": "emergenza",
+    "lines": [
+     "Hazard lights = emergency",
+     "e.g. stopped vehicle, sudden queue"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dispositivo",
+    "en": "device"
+   },
+   {
+    "it": "casi di emergenza",
+    "en": "emergencies"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24220": {
+  "en": "The symbol shown indicates the control that operates the portable warning sign.",
+  "explain": {
+   "short": "The 'segnale mobile di pericolo' is the warning triangle you place on the road by hand. It has no switch; this symbol is the hazard lights.",
+   "rule": "Double triangle = hazard lights (quattro frecce): all indicators flash together. Red switch, for emergencies; you switch it on yourself.",
+   "trap": "'segnale mobile di pericolo' is the warning triangle you put on the road, not the hazard lights.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hazard lights, not the warning triangle",
+    "it": "segnale mobile di pericolo",
+    "lines": [
+     "Symbol = hazard lights button",
+     "Warning triangle: placed by hand"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale mobile di pericolo",
+    "en": "portable warning triangle"
+   },
+   {
+    "it": "comando",
+    "en": "control"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24221": {
+  "en": "The symbol shown is on the warning light for the handbrake being on.",
+  "explain": {
+   "short": "This is the hazard lights symbol. The handbrake light has a different symbol: a circle with '!' or 'P' inside.",
+   "rule": "Double triangle = hazard lights (quattro frecce): all indicators flash together. Red switch, for emergencies; you switch it on yourself.",
+   "trap": "'freno a mano inserito' (handbrake on) is wrong: that light is a circle, not a triangle.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hazard lights, not the handbrake",
+    "it": "freno a mano",
+    "lines": [
+     "Double triangle = hazard lights",
+     "Handbrake: circle with P or !"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "freno a mano",
+    "en": "handbrake"
+   },
+   {
+    "it": "spia",
+    "en": "warning light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24222": {
+  "en": "The symbol shown indicates a device that switches on automatically at every accident.",
+  "explain": {
+   "short": "The driver switches on the hazard lights by pressing the button. They do not come on by themselves at every accident.",
+   "rule": "Double triangle = hazard lights (quattro frecce): all indicators flash together. Red switch, for emergencies; you switch it on yourself.",
+   "trap": "'automaticamente ad ogni incidente' is the trap: you must press the button yourself.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "You switch the hazard lights on yourself",
+    "it": "automaticamente",
+    "lines": [
+     "Hazard lights: press the button",
+     "Not automatic at every accident"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "automaticamente",
+    "en": "automatically"
+   },
+   {
+    "it": "ad ogni incidente",
+    "en": "at every accident"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24223": {
+  "en": "You must use the direction indicators before every lane change when driving on a road divided into lanes.",
+  "explain": {
+   "short": "A lane change is a sideways move. The drivers behind and beside you must know it in advance.",
+   "rule": "Signal every sideways move in good time: lane changes, turns, pulling out, pulling off the road, motorway entry and exit. Indicators show direction, not braking.",
+   "trap": "'ogni' (every) is right: every lane change needs the indicator.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Every lane change: indicator first",
+    "it": "cambio di corsia",
+    "lines": [
+     "Road with lanes",
+     "Indicator on, then change lane"
+    ],
+    "icons": [
+     "road",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "indicatori di direzione",
+    "en": "direction indicators"
+   },
+   {
+    "it": "cambio di corsia",
+    "en": "lane change"
+   },
+   {
+    "it": "strada suddivisa in corsie",
+    "en": "road divided into lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24224": {
+  "en": "You must use the direction indicators if, driving on a one-way road, you move from the right lane to the left lane.",
+  "explain": {
+   "short": "Moving from one lane to another is a lane change, also on a one-way road. Signal left before moving.",
+   "rule": "Signal every sideways move in good time: lane changes, turns, pulling out, pulling off the road, motorway entry and exit. Indicators show direction, not braking.",
+   "trap": "'senso unico' (one-way) changes nothing: a lane change is always signalled.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One-way road: signal the lane change too",
+    "it": "senso unico",
+    "lines": [
+     "One-way road, two lanes",
+     "Right to left lane: signal left"
+    ],
+    "icons": [
+     "road",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   },
+   {
+    "it": "corsia di sinistra",
+    "en": "left lane"
+   },
+   {
+    "it": "indicatori di direzione",
+    "en": "direction indicators"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24225": {
+  "en": "You must use the direction indicators every time you have to make a turn.",
+  "explain": {
+   "short": "Every turn, left or right, is a change of direction, so the others must be warned with the indicator.",
+   "rule": "Signal every sideways move in good time: lane changes, turns, pulling out, pulling off the road, motorway entry and exit. Indicators show direction, not braking.",
+   "trap": "'ogni volta' (every time) is right: no turn without the indicator.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Every turn: indicator",
+    "it": "svolta",
+    "lines": [
+     "Turning left or right",
+     "Indicator on every time"
+    ],
+    "icons": [
+     "road",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ogni volta",
+    "en": "every time"
+   },
+   {
+    "it": "manovra di svolta",
+    "en": "turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24226": {
+  "en": "You must use the direction indicators if you intend to leave the carriageway to stop.",
+  "explain": {
+   "short": "Leaving the carriageway (the part of the road for vehicles) is a sideways move: signal before pulling off.",
+   "rule": "Signal every sideways move in good time: lane changes, turns, pulling out, pulling off the road, motorway entry and exit. Indicators show direction, not braking.",
+   "trap": "'uscire dalla carreggiata' (leave the carriageway) is a change of direction, so the indicator is needed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Leaving the road to stop: indicator",
+    "it": "uscire dalla carreggiata",
+    "lines": [
+     "You want to stop off the road",
+     "Indicator on, then pull off"
+    ],
+    "icons": [
+     "car",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "uscire dalla carreggiata",
+    "en": "leave the carriageway"
+   },
+   {
+    "it": "fermata",
+    "en": "stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24227": {
+  "en": "You must use the direction indicators when, starting from the edge of the carriageway, you want to join the traffic.",
+  "explain": {
+   "short": "Pulling out from the edge into the traffic is a sideways move: the drivers coming must see your indicator first.",
+   "rule": "Signal every sideways move in good time: lane changes, turns, pulling out, pulling off the road, motorway entry and exit. Indicators show direction, not braking.",
+   "trap": "'immettere nella circolazione' (join the traffic) always needs the indicator.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pulling out: indicator first",
+    "it": "immettersi",
+    "lines": [
+     "Car parked at the edge",
+     "Indicator on, then join traffic"
+    ],
+    "icons": [
+     "car",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "margine della carreggiata",
+    "en": "edge of the carriageway"
+   },
+   {
+    "it": "immettere nella circolazione",
+    "en": "join the traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24228": {
+  "en": "You must use the direction indicators to signal that you intend to move into the deceleration lane of a motorway junction.",
+  "explain": {
+   "short": "Moving into the deceleration lane (the exit lane) is a lane change: signal right in good time.",
+   "rule": "Signal every sideways move in good time: lane changes, turns, pulling out, pulling off the road, motorway entry and exit. Indicators show direction, not braking.",
+   "trap": "'corsia di decelerazione' (deceleration lane) is the motorway exit lane: you reach it with the indicator on.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Exit lane on the motorway: signal right",
+    "it": "corsia di decelerazione",
+    "lines": [
+     "Motorway exit ahead",
+     "Right indicator, then exit lane"
+    ],
+    "icons": [
+     "road",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di decelerazione",
+    "en": "deceleration lane"
+   },
+   {
+    "it": "svincolo autostradale",
+    "en": "motorway junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24229": {
+  "en": "You must use the direction indicators to signal that you intend to enter the motorway carriageway, coming from an acceleration lane.",
+  "explain": {
+   "short": "From the acceleration lane (the entry lane) you move left into the motorway: signal left before joining.",
+   "rule": "Signal every sideways move in good time: lane changes, turns, pulling out, pulling off the road, motorway entry and exit. Indicators show direction, not braking.",
+   "trap": "'corsia di accelerazione' (acceleration lane) is the entry lane: you leave it with the left indicator.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Joining the motorway: signal left",
+    "it": "corsia di accelerazione",
+    "lines": [
+     "Entry lane on the motorway",
+     "Left indicator, then join"
+    ],
+    "icons": [
+     "road",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carreggiata autostradale",
+    "en": "motorway carriageway"
+   },
+   {
+    "it": "corsia di accelerazione",
+    "en": "acceleration lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24230": {
+  "en": "You must not use the direction indicators when you change lane while driving on a one-way road.",
+  "explain": {
+   "short": "A lane change must always be signalled, also on a one-way road. Saying you must NOT use them is wrong.",
+   "rule": "Signal every sideways move in good time: lane changes, turns, pulling out, pulling off the road, motorway entry and exit. Indicators show direction, not braking.",
+   "trap": "'Non si devono' (you must not) is the trap: on a one-way road you still signal.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "One-way road: lane changes are signalled too",
+    "it": "senso unico",
+    "lines": [
+     "One-way road",
+     "Lane change without indicator",
+     "Wrong: always signal"
+    ],
+    "icons": [
+     "road",
+     "indicator",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non si devono usare",
+    "en": "you must not use"
+   },
+   {
+    "it": "si cambia corsia",
+    "en": "you change lane"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24231": {
+  "en": "It is never necessary to use the direction indicators when driving on a two-way road with carriageways separated by a central reservation.",
+  "explain": {
+   "short": "On a divided road you still change lane, turn and exit, and each of these moves needs the indicator.",
+   "rule": "Signal every sideways move in good time: lane changes, turns, pulling out, pulling off the road, motorway entry and exit. Indicators show direction, not braking.",
+   "trap": "'Non è mai necessario' (never necessary) is the trap: lane changes and exits are signalled on every road.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Divided road: you still signal every move",
+    "it": "spartitraffico",
+    "lines": [
+     "Road with a central reservation",
+     "Lane changes and exits happen",
+     "Indicator needed every time"
+    ],
+    "icons": [
+     "road",
+     "indicator",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è mai necessario",
+    "en": "it is never necessary"
+   },
+   {
+    "it": "carreggiate separate",
+    "en": "separate carriageways"
+   },
+   {
+    "it": "spartitraffico",
+    "en": "central reservation"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24232": {
+  "en": "You must not use the direction indicators if, to stop off the carriageway, you move to the left edge.",
+  "explain": {
+   "short": "Moving to the left edge to stop is a sideways move, so you must signal left. The statement says the opposite.",
+   "rule": "Signal every sideways move in good time: lane changes, turns, pulling out, pulling off the road, motorway entry and exit. Indicators show direction, not braking.",
+   "trap": "'Non si devono' plus 'margine sinistro' (left edge): stopping on the left is signalled too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Stopping on the left: signal left",
+    "it": "margine sinistro",
+    "lines": [
+     "You stop off the road on the left",
+     "No indicator?",
+     "Wrong: signal left"
+    ],
+    "icons": [
+     "car",
+     "indicator",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non si devono usare",
+    "en": "you must not use"
+   },
+   {
+    "it": "fuori della carreggiata",
+    "en": "off the carriageway"
+   },
+   {
+    "it": "margine sinistro",
+    "en": "left edge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24233": {
+  "en": "You must use the right direction indicators to signal that you are about to brake suddenly.",
+  "explain": {
+   "short": "Braking is shown by the brake lights, which come on by themselves. Indicators show a change of direction, not braking.",
+   "rule": "Signal every sideways move in good time: lane changes, turns, pulling out, pulling off the road, motorway entry and exit. Indicators show direction, not braking.",
+   "trap": "'per segnalare che si sta per frenare' is the trap: indicators never mean braking.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Brake lights show braking, not indicators",
+    "it": "frenare bruscamente",
+    "lines": [
+     "Sudden braking",
+     "Brake lights do the job",
+     "Right indicator: wrong"
+    ],
+    "icons": [
+     "brake",
+     "light",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "indicatori di direzione destri",
+    "en": "right direction indicators"
+   },
+   {
+    "it": "frenare bruscamente",
+    "en": "brake suddenly"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24234": {
+  "en": "You must not use the direction indicators if you have to turn right to enter a driveway.",
+  "explain": {
+   "short": "Entering a driveway (passo carrabile) is a turn, and every turn must be signalled, also to the right.",
+   "rule": "Signal every sideways move in good time: lane changes, turns, pulling out, pulling off the road, motorway entry and exit. Indicators show direction, not braking.",
+   "trap": "'Non si devono' is the trap: turning into a 'passo carrabile' (driveway) is a normal turn.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Driveway on the right: signal right",
+    "it": "passo carrabile",
+    "lines": [
+     "Driveway on your right",
+     "Turning without indicator?",
+     "Wrong: signal right"
+    ],
+    "icons": [
+     "car",
+     "indicator",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non si devono usare",
+    "en": "you must not use"
+   },
+   {
+    "it": "passo carrabile",
+    "en": "driveway"
+   },
+   {
+    "it": "svoltare a destra",
+    "en": "turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24235": {
+  "en": "You must use the direction indicators when you turn left, but not when you turn right.",
+  "explain": {
+   "short": "Every turn needs the indicator, both left and right. There is no exception for right turns.",
+   "rule": "Signal every sideways move in good time: lane changes, turns, pulling out, pulling off the road, motorway entry and exit. Indicators show direction, not braking.",
+   "trap": "'ma non quando si svolta a destra' (but not right) is the trap: right turns are signalled too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Right turns are signalled too",
+    "it": "svolta a destra",
+    "lines": [
+     "Turn left: indicator",
+     "Turn right: indicator too"
+    ],
+    "icons": [
+     "indicator",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "svolta a sinistra",
+    "en": "left turn"
+   },
+   {
+    "it": "ma non quando",
+    "en": "but not when"
+   },
+   {
+    "it": "si svolta a destra",
+    "en": "you turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24236": {
+  "en": "You must use the left direction indicators when you have to drive along a hairpin bend to the left.",
+  "explain": {
+   "short": "A hairpin bend (tornante) is just the road bending sharply. You follow your road, you do not turn off it, so no indicator.",
+   "rule": "Signal every sideways move in good time: lane changes, turns, pulling out, pulling off the road, motorway entry and exit. Indicators show direction, not braking.",
+   "trap": "'tornante' (hairpin bend) is a curve of the same road, not a turn.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Following a bend is not a turn: no indicator",
+    "it": "tornante",
+    "lines": [
+     "Hairpin bend to the left",
+     "You stay on the same road",
+     "No indicator needed"
+    ],
+    "icons": [
+     "curve",
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "indicatori di direzione sinistri",
+    "en": "left direction indicators"
+   },
+   {
+    "it": "tornante",
+    "en": "hairpin bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24237": {
+  "en": "Using the direction indicators is necessary to signal that you want to change lane.",
+  "explain": {
+   "short": "A lane change is a sideways move. Signal it so the drivers around you know.",
+   "rule": "Indicators are for changes of direction or lane, from the start to the end of the move. Standing still in your lane needs no indicator.",
+   "trap": "'necessario' (necessary) is right: lane changes always need the indicator.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lane change: indicator needed",
+    "it": "cambio di corsia",
+    "lines": [
+     "You want to change lane",
+     "Indicator on first"
+    ],
+    "icons": [
+     "road",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "necessario",
+    "en": "necessary"
+   },
+   {
+    "it": "cambio di corsia",
+    "en": "lane change"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24238": {
+  "en": "Using the direction indicators is necessary to signal the intention to overtake.",
+  "explain": {
+   "short": "To overtake you move out to the left: signal left before you start.",
+   "rule": "Indicators are for changes of direction or lane, from the start to the end of the move. Standing still in your lane needs no indicator.",
+   "trap": "'sorpasso' (overtaking) starts with a move to the left, so the indicator is needed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Overtaking: signal left first",
+    "it": "sorpasso",
+    "lines": [
+     "Slow car ahead",
+     "Left indicator, then overtake"
+    ],
+    "icons": [
+     "car",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "necessario",
+    "en": "necessary"
+   },
+   {
+    "it": "manovra di sorpasso",
+    "en": "overtaking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24239": {
+  "en": "Using the direction indicators is necessary to signal the intention to park on the left edge of a one-way road.",
+  "explain": {
+   "short": "On a one-way road you may park on the left. Moving to the left edge is a sideways move: signal left.",
+   "rule": "Indicators are for changes of direction or lane, from the start to the end of the move. Standing still in your lane needs no indicator.",
+   "trap": "'margine sinistro' (left edge) is fine on a one-way road, and it is signalled with the left indicator.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking on the left: signal left",
+    "it": "margine sinistro",
+    "lines": [
+     "One-way road",
+     "Left indicator, then park on the left"
+    ],
+    "icons": [
+     "road",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "parcheggiare",
+    "en": "park"
+   },
+   {
+    "it": "margine sinistro",
+    "en": "left edge"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24240": {
+  "en": "Using the direction indicators is necessary every time you have to make a turn.",
+  "explain": {
+   "short": "Every turn changes your direction, so it must always be signalled.",
+   "rule": "Indicators are for changes of direction or lane, from the start to the end of the move. Standing still in your lane needs no indicator.",
+   "trap": "'ogni qualvolta' (every time) is right: no exceptions for turns.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Every turn: indicator",
+    "it": "svolta",
+    "lines": [
+     "Turning left or right",
+     "Indicator on every time"
+    ],
+    "icons": [
+     "road",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ogni qualvolta",
+    "en": "every time"
+   },
+   {
+    "it": "manovra di svolta",
+    "en": "turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24241": {
+  "en": "Using the direction indicators is necessary when reversing.",
+  "explain": {
+   "short": "Reversing is a risky move that changes your position on the road. Show the others which way you are going with the indicator.",
+   "rule": "Indicators are for changes of direction or lane, from the start to the end of the move. Standing still in your lane needs no indicator.",
+   "trap": "'retromarcia' (reversing) is a manoeuvre too, so the indicator is needed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Reversing: signal with the indicator",
+    "it": "retromarcia",
+    "lines": [
+     "You need to reverse",
+     "Indicator shows which side"
+    ],
+    "icons": [
+     "car",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "necessario",
+    "en": "necessary"
+   },
+   {
+    "it": "manovre di retromarcia",
+    "en": "reversing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24242": {
+  "en": "Using the direction indicators is necessary when driving in parallel lines of traffic, even if you do not change lane.",
+  "explain": {
+   "short": "In parallel lines of traffic (marcia per file parallele) you just stay in your lane. With no change of lane, there is nothing to signal.",
+   "rule": "Indicators are for changes of direction or lane, from the start to the end of the move. Standing still in your lane needs no indicator.",
+   "trap": "'anche se non si effettuano cambiamenti di corsia' (even without changing lane) is the trap: no move, no indicator.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Staying in your lane: no indicator",
+    "it": "file parallele",
+    "lines": [
+     "Parallel lines of traffic",
+     "You stay in your lane",
+     "No indicator needed"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "file parallele",
+    "en": "parallel lines of traffic"
+   },
+   {
+    "it": "anche se non",
+    "en": "even if not"
+   },
+   {
+    "it": "cambiamenti di corsia",
+    "en": "lane changes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24243": {
+  "en": "Using the direction indicators is necessary for at least 500 metres after overtaking.",
+  "explain": {
+   "short": "The indicator is used only during the move. Once you are back in your lane, you switch it off.",
+   "rule": "Indicators are for changes of direction or lane, from the start to the end of the move. Standing still in your lane needs no indicator.",
+   "trap": "'almeno 500 metri' (at least 500 metres) is invented: no such rule exists.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Indicator off once the move is over",
+    "it": "500 metri",
+    "lines": [
+     "Overtake finished",
+     "Switch the indicator off",
+     "No '500 metres' rule"
+    ],
+    "icons": [
+     "car",
+     "indicator",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "almeno 500 metri",
+    "en": "at least 500 metres"
+   },
+   {
+    "it": "dopo aver effettuato un sorpasso",
+    "en": "after overtaking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24244": {
+  "en": "Using the direction indicators is necessary when you start an overtake, but not when you finish it by moving back into your normal lane.",
+  "explain": {
+   "short": "Overtaking has two sideways moves: out to the left and back to the right. Both must be signalled.",
+   "rule": "Indicators are for changes of direction or lane, from the start to the end of the move. Standing still in your lane needs no indicator.",
+   "trap": "'ma non quando la si termina' (but not when you finish) is the trap: signal right when moving back too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Signal when moving out AND when moving back",
+    "it": "rientrando",
+    "lines": [
+     "Move out: left indicator",
+     "Move back: right indicator"
+    ],
+    "icons": [
+     "indicator",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sorpasso",
+    "en": "overtaking"
+   },
+   {
+    "it": "ma non quando la si termina",
+    "en": "but not when you finish it"
+   },
+   {
+    "it": "rientrando",
+    "en": "moving back"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24245": {
+  "en": "Using the direction indicators is not necessary if you have to park the vehicle by moving to the right edge of the carriageway.",
+  "explain": {
+   "short": "Moving to the right edge to park is a sideways move: signal right. Others behind you must know you are pulling in.",
+   "rule": "Indicators are for changes of direction or lane, from the start to the end of the move. Standing still in your lane needs no indicator.",
+   "trap": "'non è necessario' (not necessary) is the trap: parking on the right needs the indicator too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Parking on the right: signal right",
+    "it": "margine destro",
+    "lines": [
+     "You pull in to park on the right",
+     "No indicator?",
+     "Wrong: signal right"
+    ],
+    "icons": [
+     "car",
+     "indicator",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è necessario",
+    "en": "is not necessary"
+   },
+   {
+    "it": "parcheggiare",
+    "en": "park"
+   },
+   {
+    "it": "margine destro",
+    "en": "right edge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24246": {
+  "en": "Using the direction indicators is necessary when you stop at a red traffic light.",
+  "explain": {
+   "short": "At a red light you just stop in your lane. You do not change direction, so no indicator is needed for stopping.",
+   "rule": "Indicators are for changes of direction or lane, from the start to the end of the move. Standing still in your lane needs no indicator.",
+   "trap": "'quando ci si arresta ad un semaforo rosso' (stopping at a red light): stopping is not a change of direction.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Stopping at a red light: no indicator",
+    "it": "semaforo rosso",
+    "lines": [
+     "Red light: you stop in your lane",
+     "No change of direction",
+     "No indicator needed"
+    ],
+    "icons": [
+     "light",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ci si arresta",
+    "en": "you stop"
+   },
+   {
+    "it": "semaforo rosso",
+    "en": "red traffic light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24247": {
+  "en": "Using the right direction indicators is necessary when you stop because the traffic is blocked.",
+  "explain": {
+   "short": "If traffic stops ahead you simply stop in your lane. The right indicator would wrongly say you are moving right.",
+   "rule": "Indicators are for changes of direction or lane, from the start to the end of the move. Standing still in your lane needs no indicator.",
+   "trap": "'indicatori di direzione destri' (right indicators) is the trap: you are not moving right, you are just stopping.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Stopped in a queue: no right indicator",
+    "it": "interruzione della circolazione",
+    "lines": [
+     "Traffic stops ahead",
+     "You stop in your lane",
+     "Right indicator: wrong"
+    ],
+    "icons": [
+     "car",
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "indicatori di direzione destri",
+    "en": "right direction indicators"
+   },
+   {
+    "it": "interruzione della circolazione",
+    "en": "traffic being blocked"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24248": {
+  "en": "Using the main beam headlights is, as a rule, forbidden while driving in built-up areas.",
+  "explain": {
+   "short": "In towns the streets are lit and there are many people, so main beam would dazzle them. As a rule you use dipped beam.",
+   "rule": "Main beam: outside towns, in the dark, with nobody to dazzle. Meeting another vehicle: switch to dipped beam. In towns, as a rule, no.",
+   "trap": "'di norma' (as a rule) makes it true: in towns, the normal rule is no main beam.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "In towns: no main beam, as a rule",
+    "it": "centri abitati",
+    "lines": [
+     "In town: lit streets, many people",
+     "Main beam would dazzle",
+     "Use dipped beam"
+    ],
+    "icons": [
+     "night",
+     "highbeam",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato",
+    "en": "forbidden"
+   },
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "centri abitati",
+    "en": "built-up areas"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24249": {
+  "en": "Using the main beam headlights is necessary outside built-up areas when street lighting is insufficient and you are not meeting other vehicles.",
+  "explain": {
+   "short": "Outside towns in poor light you need to see far ahead. With nobody coming the other way, main beam dazzles no one.",
+   "rule": "Main beam: outside towns, in the dark, with nobody to dazzle. Meeting another vehicle: switch to dipped beam. In towns, as a rule, no.",
+   "trap": "'insufficiente' (insufficient) and 'non si incrociano' (no oncoming vehicles) together make main beam the right choice.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Outside town, poor light, nobody coming: main beam",
+    "it": "abbaglianti",
+    "lines": [
+     "Outside town, weak lighting",
+     "No vehicles coming",
+     "Main beam on"
+    ],
+    "icons": [
+     "night",
+     "road",
+     "highbeam"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fuori dei centri abitati",
+    "en": "outside built-up areas"
+   },
+   {
+    "it": "illuminazione pubblica è insufficiente",
+    "en": "street lighting is insufficient"
+   },
+   {
+    "it": "non si incrociano altri veicoli",
+    "en": "you are not meeting other vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24250": {
+  "en": "Using the main beam headlights is necessary outside built-up areas when there is no street lighting and you are not meeting other vehicles.",
+  "explain": {
+   "short": "Outside towns with no street lights it is dark, and you must see far. With no oncoming vehicles, use main beam.",
+   "rule": "Main beam: outside towns, in the dark, with nobody to dazzle. Meeting another vehicle: switch to dipped beam. In towns, as a rule, no.",
+   "trap": "'manca' (is missing) and 'non si incrociano' (no oncoming vehicles): both conditions are there, so main beam is right.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Outside town, no lights, nobody coming: main beam",
+    "it": "abbaglianti",
+    "lines": [
+     "Outside town, no street lights",
+     "No vehicles coming",
+     "Main beam on"
+    ],
+    "icons": [
+     "night",
+     "road",
+     "highbeam"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fuori dei centri abitati",
+    "en": "outside built-up areas"
+   },
+   {
+    "it": "illuminazione pubblica manca",
+    "en": "there is no street lighting"
+   },
+   {
+    "it": "non si incrociano altri veicoli",
+    "en": "you are not meeting other vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24251": {
+  "en": "Using the main beam headlights must be replaced by using the dipped beam headlights when meeting other vehicles.",
+  "explain": {
+   "short": "Main beam dazzles the drivers coming the other way. When you meet a vehicle, switch to dipped beam.",
+   "rule": "Main beam: outside towns, in the dark, with nobody to dazzle. Meeting another vehicle: switch to dipped beam. In towns, as a rule, no.",
+   "trap": "'incrociano' (meet, oncoming) is the key: oncoming vehicle = dipped beam.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Vehicle coming: switch to dipped beam",
+    "it": "anabbaglianti",
+    "lines": [
+     "Main beam on",
+     "A car comes the other way",
+     "Switch to dipped beam"
+    ],
+    "icons": [
+     "highbeam",
+     "car",
+     "light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "va sostituito",
+    "en": "must be replaced"
+   },
+   {
+    "it": "luce anabbagliante",
+    "en": "dipped beam"
+   },
+   {
+    "it": "si incrociano altri veicoli",
+    "en": "you meet other vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24252": {
+  "en": "Using the main beam headlights is, as a rule, allowed in town in thick fog.",
+  "explain": {
+   "short": "In fog the strong main beam reflects back off the fog and blinds you. Also, in towns main beam is not used as a rule.",
+   "rule": "Main beam: outside towns, in the dark, with nobody to dazzle. Meeting another vehicle: switch to dipped beam. In towns, as a rule, no.",
+   "trap": "'consentito... in caso di nebbia fitta' is the trap: fog is the worst moment for main beam.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Fog: main beam blinds you, use dipped beam",
+    "it": "nebbia fitta",
+    "lines": [
+     "Thick fog in town",
+     "Main beam reflects back",
+     "Use dipped and fog lights"
+    ],
+    "icons": [
+     "fog",
+     "highbeam",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "consentito",
+    "en": "allowed"
+   },
+   {
+    "it": "in città",
+    "en": "in town"
+   },
+   {
+    "it": "nebbia fitta",
+    "en": "thick fog"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24253": {
+  "en": "Using the main beam headlights is necessary in one-way urban tunnels.",
+  "explain": {
+   "short": "In tunnels you must use the dipped beam. Main beam is not required there, and in towns it is not used as a rule.",
+   "rule": "Main beam: outside towns, in the dark, with nobody to dazzle. Meeting another vehicle: switch to dipped beam. In towns, as a rule, no.",
+   "trap": "'necessario' (necessary) is the trap: in tunnels the compulsory light is the dipped beam.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Tunnel: dipped beam, not main beam",
+    "it": "gallerie",
+    "lines": [
+     "Tunnel in town",
+     "Dipped beam is compulsory",
+     "Main beam not needed"
+    ],
+    "icons": [
+     "road",
+     "light",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "necessario",
+    "en": "necessary"
+   },
+   {
+    "it": "gallerie urbane",
+    "en": "urban tunnels"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24254": {
+  "en": "Using the main beam headlights is always allowed when carrying injured or seriously ill people.",
+  "explain": {
+   "short": "Carrying injured people does not change the light rules. Main beam can still dazzle others, so no exception.",
+   "rule": "Main beam: outside towns, in the dark, with nobody to dazzle. Meeting another vehicle: switch to dipped beam. In towns, as a rule, no.",
+   "trap": "'sempre ammesso' (always allowed) is the trap: there is no special rule for carrying the injured.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Injured on board: same light rules",
+    "it": "feriti",
+    "lines": [
+     "Injured person on board",
+     "Main beam still dazzles",
+     "No special exception"
+    ],
+    "icons": [
+     "firstaid",
+     "highbeam",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sempre ammesso",
+    "en": "always allowed"
+   },
+   {
+    "it": "feriti",
+    "en": "injured people"
+   },
+   {
+    "it": "ammalati gravi",
+    "en": "seriously ill people"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q24255": {
+  "en": "Using the main beam headlights is necessary by day if you drive on a motorway against the sun.",
+  "explain": {
+   "short": "Main beam is for the dark, not for daytime. Driving against the sun, it would only dazzle others; slow down and use the sun visor.",
+   "rule": "Main beam: outside towns, in the dark, with nobody to dazzle. Meeting another vehicle: switch to dipped beam. In towns, as a rule, no.",
+   "trap": "'di giorno' (by day) and 'controsole' (against the sun) are the trap: main beam does not help against the sun.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "By day against the sun: no main beam",
+    "it": "controsole",
+    "lines": [
+     "Daytime, driving into the sun",
+     "Main beam does not help",
+     "Use the sun visor, slow down"
+    ],
+    "icons": [
+     "eye",
+     "highbeam",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "di giorno",
+    "en": "by day"
+   },
+   {
+    "it": "autostrada",
+    "en": "motorway"
+   },
+   {
+    "it": "controsole",
+    "en": "against the sun"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

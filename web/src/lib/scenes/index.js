@@ -4,6 +4,7 @@ import { lib, W, T, setLang } from "./engine.js";
 import * as ov from "./overtake.js";
 import * as sg from "./signs.js";
 import { ruleWorld } from "./rule3d.js";
+import { junctionOrder } from "./junction.js";
 
 const ICONS = {
   car: "🚗", truck: "🚚", bus: "🚌", tram: "🚋", moto: "🏍️", bike: "🚲", pedestrian: "🚶", police: "🚓", ambulance: "🚑",
@@ -23,6 +24,7 @@ const TEMPLATES = {
   "overtake.motorway": ov.motorway,
   sign: sg.sign,
   figure: sg.figure,
+  junctionOrder,
   roadparts: sg.roadparts,
   rulecard,
 };

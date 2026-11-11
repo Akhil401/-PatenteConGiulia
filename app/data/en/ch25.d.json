@@ -1,0 +1,2602 @@
+{
+ "q25386": {
+  "en": "If the power steering does not work properly, the steering becomes \"heavy\".",
+  "explain": {
+   "short": "Power steering helps you turn the wheel. Without its help you must use more force, so the steering feels heavy.",
+   "rule": "Power steering only makes the wheel lighter to turn. If it fails, steering becomes heavy, not easier; the hydraulic type needs the engine running.",
+   "trap": "'pesante' (heavy) is right: a broken power steering makes the wheel harder, not easier, to turn.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Power steering fault: heavy steering",
+    "it": "servosterzo",
+    "lines": [
+     "Power steering fault",
+     "Steering becomes heavy"
+    ],
+    "icons": [
+     "warning",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "servosterzo",
+    "en": "power steering"
+   },
+   {
+    "it": "mal funzionamento",
+    "en": "malfunction"
+   },
+   {
+    "it": "pesante",
+    "en": "heavy"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25387": {
+  "en": "If a tyre is punctured, the steering pulls in the direction of the flat wheel.",
+  "explain": {
+   "short": "A flat tyre slows its own wheel and the car leans on it, so the car pulls towards that side.",
+   "rule": "With a flat tyre the car pulls towards the side of the flat wheel. Hold the wheel firmly, do not brake hard and slow down gently.",
+   "trap": "'della ruota forata' (of the flat wheel) is right: the pull is TOWARDS the flat tyre, not away from it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Flat tyre: the car pulls to that side",
+    "it": "foratura",
+    "lines": [
+     "Flat tyre on one side",
+     "Car pulls towards the flat wheel",
+     "Hold the wheel firmly"
+    ],
+    "icons": [
+     "tyre",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "foratura",
+    "en": "puncture"
+   },
+   {
+    "it": "pneumatico",
+    "en": "tyre"
+   },
+   {
+    "it": "ruota forata",
+    "en": "flat wheel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25388": {
+  "en": "For road safety, you must regularly check that the steering has no abnormal play.",
+  "explain": {
+   "short": "Play (gioco: free movement) in the steering makes the car react late and badly, so it must be checked regularly.",
+   "rule": "Steering is precise only if it has no play, the wheels are well aligned and balanced, tyres are at the right pressure and suspension is in good order.",
+   "trap": "'giochi anomali' means abnormal play (looseness) in the steering, not games.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Check the steering for play regularly",
+    "it": "giochi anomali",
+    "lines": [
+     "Check the steering regularly",
+     "No abnormal play allowed"
+    ],
+    "icons": [
+     "check",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "verificare periodicamente",
+    "en": "check regularly"
+   },
+   {
+    "it": "giochi anomali",
+    "en": "abnormal play"
+   },
+   {
+    "it": "sterzo",
+    "en": "steering"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25389": {
+  "en": "\"Hard\" steering can be a sign of low tyre pressure.",
+  "explain": {
+   "short": "A soft tyre has more rubber on the road, so the wheels are harder to turn. Heavy steering can mean low pressure.",
+   "rule": "Steering is precise only if it has no play, the wheels are well aligned and balanced, tyres are at the right pressure and suspension is in good order.",
+   "trap": "'può essere indice' (can be a sign): low pressure is one possible cause, not the only one.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hard steering: check tyre pressure",
+    "it": "pressione dei pneumatici",
+    "lines": [
+     "Steering feels hard",
+     "Check the tyre pressure"
+    ],
+    "icons": [
+     "warning",
+     "tyre"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "durezza",
+    "en": "hardness"
+   },
+   {
+    "it": "indice",
+    "en": "sign, clue"
+   },
+   {
+    "it": "insufficiente pressione",
+    "en": "low pressure"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25390": {
+  "en": "Hydraulic power steering does not work if the engine is off.",
+  "explain": {
+   "short": "The hydraulic pump of the power steering is driven by the engine. Engine off means no help, so the wheel is very heavy.",
+   "rule": "Power steering only makes the wheel lighter to turn. If it fails, steering becomes heavy, not easier; the hydraulic type needs the engine running.",
+   "trap": "'idraulico' (hydraulic): this type needs the running engine to work.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Engine off: no hydraulic power steering",
+    "it": "servosterzo idraulico",
+    "lines": [
+     "Engine off",
+     "Hydraulic power steering stops",
+     "Steering is very heavy"
+    ],
+    "icons": [
+     "engine",
+     "cross",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "servosterzo idraulico",
+    "en": "hydraulic power steering"
+   },
+   {
+    "it": "motore è spento",
+    "en": "engine is off"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25391": {
+  "en": "Too much play in the steering makes the vehicle's path imprecise.",
+  "explain": {
+   "short": "With play, the wheels do not follow the steering wheel at once, so the car does not go exactly where you want.",
+   "rule": "Steering is precise only if it has no play, the wheels are well aligned and balanced, tyres are at the right pressure and suspension is in good order.",
+   "trap": "'giochi' here means looseness in the steering parts.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Steering play: imprecise path",
+    "it": "giochi allo sterzo",
+    "lines": [
+     "Too much steering play",
+     "The car's path is imprecise"
+    ],
+    "icons": [
+     "warning",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "eccessivi giochi",
+    "en": "too much play"
+   },
+   {
+    "it": "traiettoria",
+    "en": "path, trajectory"
+   },
+   {
+    "it": "imprecisa",
+    "en": "imprecise"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25392": {
+  "en": "Wheel alignment (toe) affects how precisely the vehicle steers.",
+  "explain": {
+   "short": "If the wheels are not well aligned, they do not point the same way, so the car steers badly and the tyres wear out.",
+   "rule": "Steering is precise only if it has no play, the wheels are well aligned and balanced, tyres are at the right pressure and suspension is in good order.",
+   "trap": "'convergenza' is the wheel alignment (toe), the angle of the wheels seen from above.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wheel alignment affects steering",
+    "it": "convergenza",
+    "lines": [
+     "Wheels must be well aligned",
+     "Then steering is precise"
+    ],
+    "icons": [
+     "tyre",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "convergenza",
+    "en": "wheel alignment (toe)"
+   },
+   {
+    "it": "precisione della sterzata",
+    "en": "steering precision"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25393": {
+  "en": "If the steering vibrates, you should have the balance of the front wheels checked.",
+  "explain": {
+   "short": "The steering is linked to the front wheels. If they are not balanced, they shake and the steering wheel vibrates.",
+   "rule": "Steering is precise only if it has no play, the wheels are well aligned and balanced, tyres are at the right pressure and suspension is in good order.",
+   "trap": "'anteriori' (front) is right: the steering moves the FRONT wheels.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Vibrating steering: balance the front wheels",
+    "it": "bilanciatura",
+    "lines": [
+     "Steering wheel vibrates",
+     "Check balance of the front wheels"
+    ],
+    "icons": [
+     "warning",
+     "tyre"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sterzo vibra",
+    "en": "steering vibrates"
+   },
+   {
+    "it": "bilanciatura",
+    "en": "wheel balancing"
+   },
+   {
+    "it": "ruote anteriori",
+    "en": "front wheels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25394": {
+  "en": "Power steering helps you keep control of the vehicle's path if a tyre is punctured.",
+  "explain": {
+   "short": "With a flat tyre the car pulls to one side. Power steering makes it easier to hold the wheel and keep the car straight.",
+   "rule": "With a flat tyre the car pulls towards the side of the flat wheel. Hold the wheel firmly, do not brake hard and slow down gently.",
+   "trap": "'aiuta' (helps): it makes correcting easier, it does not stop the puncture.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Power steering helps after a puncture",
+    "it": "servosterzo",
+    "lines": [
+     "Flat tyre: car pulls to one side",
+     "Power steering helps you correct"
+    ],
+    "icons": [
+     "tyre",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "servosterzo",
+    "en": "power steering"
+   },
+   {
+    "it": "traiettoria",
+    "en": "path"
+   },
+   {
+    "it": "foratura",
+    "en": "puncture"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25395": {
+  "en": "Power steering improves the vehicle's braking.",
+  "explain": {
+   "short": "Power steering only helps you turn the wheel. It has nothing to do with the brakes.",
+   "rule": "Power steering only makes the wheel lighter to turn. If it fails, steering becomes heavy, not easier; the hydraulic type needs the engine running.",
+   "trap": "'azione frenante' (braking): power steering is for steering, not for braking (that is the servofreno, brake booster).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Power steering does not help braking",
+    "it": "servosterzo",
+    "lines": [
+     "Power steering: easier steering",
+     "Better braking: no"
+    ],
+    "icons": [
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "servosterzo",
+    "en": "power steering"
+   },
+   {
+    "it": "azione frenante",
+    "en": "braking action"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25396": {
+  "en": "If a tyre is punctured, the steering pulls in the direction opposite to the flat wheel.",
+  "explain": {
+   "short": "The car pulls TOWARDS the flat wheel, not away from it.",
+   "rule": "With a flat tyre the car pulls towards the side of the flat wheel. Hold the wheel firmly, do not brake hard and slow down gently.",
+   "trap": "'opposta' (opposite) is the trick: the pull is towards the flat wheel.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Flat tyre: pulls towards it, not away",
+    "it": "foratura",
+    "lines": [
+     "Flat tyre on one side",
+     "Pulls away from it: no",
+     "Pulls towards it: yes"
+    ],
+    "icons": [
+     "tyre",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "foratura",
+    "en": "puncture"
+   },
+   {
+    "it": "direzione opposta",
+    "en": "opposite direction"
+   },
+   {
+    "it": "ruota forata",
+    "en": "flat wheel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25397": {
+  "en": "If the steering vibrates, you must have the balance of the rear wheels checked.",
+  "explain": {
+   "short": "The steering is linked to the FRONT wheels, so a vibrating steering wheel means checking the front wheels, not the rear ones.",
+   "rule": "Steering is precise only if it has no play, the wheels are well aligned and balanced, tyres are at the right pressure and suspension is in good order.",
+   "trap": "'posteriori' (rear) is wrong: it should be 'anteriori' (front).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Vibrating steering: front wheels, not rear",
+    "it": "bilanciatura",
+    "lines": [
+     "Steering wheel vibrates",
+     "Rear wheels: no",
+     "Balance the front wheels"
+    ],
+    "icons": [
+     "warning",
+     "cross",
+     "tyre"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sterzo vibra",
+    "en": "steering vibrates"
+   },
+   {
+    "it": "bilanciatura",
+    "en": "wheel balancing"
+   },
+   {
+    "it": "ruote posteriori",
+    "en": "rear wheels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25398": {
+  "en": "A power steering failure shows itself as steering that is too easy to turn.",
+  "explain": {
+   "short": "When power steering breaks, the wheel becomes heavy and hard to turn, not too easy.",
+   "rule": "Power steering only makes the wheel lighter to turn. If it fails, steering becomes heavy, not easier; the hydraulic type needs the engine running.",
+   "trap": "'eccessiva facilità' (too easy) is the opposite of the truth: it becomes heavy.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Power steering failure: heavy, not easy",
+    "it": "servosterzo",
+    "lines": [
+     "Power steering breaks",
+     "Too easy: no",
+     "Heavy steering: yes"
+    ],
+    "icons": [
+     "warning",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rottura",
+    "en": "failure, breakage"
+   },
+   {
+    "it": "servosterzo",
+    "en": "power steering"
+   },
+   {
+    "it": "eccessiva facilità",
+    "en": "too much ease"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25399": {
+  "en": "The steering wheel must be held in its lower part, with both hands under the spokes.",
+  "explain": {
+   "short": "Hold the wheel in the upper half, hands at 'quarter to three'. Holding it low gives poor control.",
+   "rule": "Hold the wheel with both hands at 'quarter to three' (left hand at 9, right hand at 3). Most wheels can be adjusted in height and depth.",
+   "trap": "'parte bassa' (lower part) and 'sotto le razze' (under the spokes) are both wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Hands at quarter to three, not low",
+    "it": "volante",
+    "lines": [
+     "Hands low, under the spokes: no",
+     "Hands at quarter to three"
+    ],
+    "icons": [
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "volante",
+    "en": "steering wheel"
+   },
+   {
+    "it": "parte bassa",
+    "en": "lower part"
+   },
+   {
+    "it": "razze",
+    "en": "spokes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25400": {
+  "en": "The steering wheel cannot be adjusted in height.",
+  "explain": {
+   "short": "Most cars have a steering wheel you can adjust in height (and often in depth) to find a good driving position.",
+   "rule": "Hold the wheel with both hands at 'quarter to three' (left hand at 9, right hand at 3). Most wheels can be adjusted in height and depth.",
+   "trap": "'non può' (cannot) is wrong: many steering wheels can be adjusted.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The steering wheel can be adjusted",
+    "it": "volante",
+    "lines": [
+     "Steering wheel height",
+     "Adjustable: yes"
+    ],
+    "icons": [
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "volante",
+    "en": "steering wheel"
+   },
+   {
+    "it": "regolato in altezza",
+    "en": "adjusted in height"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25401": {
+  "en": "Steering precision is not affected by the bad condition of the suspension and shock absorbers.",
+  "explain": {
+   "short": "Worn suspension and shock absorbers let the wheels bounce and lose grip, so steering becomes less precise.",
+   "rule": "Steering is precise only if it has no play, the wheels are well aligned and balanced, tyres are at the right pressure and suspension is in good order.",
+   "trap": "'non è influenzata' (is not affected) is wrong: worn suspension does affect steering.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Worn shock absorbers affect steering",
+    "it": "ammortizzatori",
+    "lines": [
+     "Worn suspension and shocks",
+     "Wheels lose grip",
+     "Steering less precise"
+    ],
+    "icons": [
+     "warning",
+     "tyre",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "precisione della sterzata",
+    "en": "steering precision"
+   },
+   {
+    "it": "sospensioni",
+    "en": "suspension"
+   },
+   {
+    "it": "ammortizzatori",
+    "en": "shock absorbers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25402": {
+  "en": "Steering precision is affected by low lubricating oil pressure.",
+  "explain": {
+   "short": "Engine oil pressure is about lubricating the engine. It has nothing to do with how precisely the car steers.",
+   "rule": "Steering is precise only if it has no play, the wheels are well aligned and balanced, tyres are at the right pressure and suspension is in good order.",
+   "trap": "'olio di lubrificazione' is the engine oil: it does not act on the steering.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Engine oil pressure: not a steering matter",
+    "it": "olio di lubrificazione",
+    "lines": [
+     "Low engine oil pressure",
+     "Engine problem, not steering"
+    ],
+    "icons": [
+     "engine",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "precisione della sterzata",
+    "en": "steering precision"
+   },
+   {
+    "it": "pressione dell'olio",
+    "en": "oil pressure"
+   },
+   {
+    "it": "lubrificazione",
+    "en": "lubrication"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25403": {
+  "en": "Steering precision is affected by too high coolant temperature.",
+  "explain": {
+   "short": "Coolant temperature is about the engine overheating. It does not change how precisely the car steers.",
+   "rule": "Steering is precise only if it has no play, the wheels are well aligned and balanced, tyres are at the right pressure and suspension is in good order.",
+   "trap": "'liquido di raffreddamento' (coolant) belongs to the engine, not to the steering.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Coolant temperature: not a steering matter",
+    "it": "liquido di raffreddamento",
+    "lines": [
+     "Hot engine coolant",
+     "Engine problem, not steering"
+    ],
+    "icons": [
+     "engine",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "precisione della sterzata",
+    "en": "steering precision"
+   },
+   {
+    "it": "temperatura",
+    "en": "temperature"
+   },
+   {
+    "it": "liquido di raffreddamento",
+    "en": "coolant"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25404": {
+  "en": "A damaged silencer increases the noise pollution made by motor vehicles.",
+  "explain": {
+   "short": "The silencer (marmitta) reduces engine noise. When it is damaged, the vehicle becomes much louder.",
+   "rule": "A damaged exhaust is replaced with an approved part for that vehicle, in an authorised workshop. Driving without a silencer or tampering with the exhaust is never allowed.",
+   "trap": "'inquinamento acustico' means noise pollution, not air pollution.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Damaged silencer: more noise",
+    "it": "marmitta",
+    "lines": [
+     "Damaged silencer",
+     "More noise pollution"
+    ],
+    "icons": [
+     "warning",
+     "engine"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "marmitta",
+    "en": "silencer, muffler"
+   },
+   {
+    "it": "deteriorata",
+    "en": "damaged, worn"
+   },
+   {
+    "it": "inquinamento acustico",
+    "en": "noise pollution"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25405": {
+  "en": "A damaged silencer must be replaced with another one of an approved type for that type of vehicle.",
+  "explain": {
+   "short": "You cannot fit any silencer you like: it must be an approved (omologata) part made for that vehicle.",
+   "rule": "A damaged exhaust is replaced with an approved part for that vehicle, in an authorised workshop. Driving without a silencer or tampering with the exhaust is never allowed.",
+   "trap": "'tipo approvato per quel tipo di veicolo': approved AND for that vehicle, both are needed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Replace with an approved silencer",
+    "it": "marmitta",
+    "lines": [
+     "Damaged silencer",
+     "Replace it",
+     "Approved part for that vehicle"
+    ],
+    "icons": [
+     "warning",
+     "check",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "marmitta",
+    "en": "silencer"
+   },
+   {
+    "it": "sostituita",
+    "en": "replaced"
+   },
+   {
+    "it": "tipo approvato",
+    "en": "approved type"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25406": {
+  "en": "The exhaust system carries the exhaust gases outside after lowering their toxicity.",
+  "explain": {
+   "short": "The exhaust system (with the catalytic converter) cleans the gases, making them less toxic, before letting them out.",
+   "rule": "The exhaust takes the gases out of the car after lowering their toxicity, pressure and temperature; it also cuts noise and air pollution.",
+   "trap": "'tossicità' (toxicity): lowering it is one of the jobs of the exhaust.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Exhaust lowers the gases' toxicity",
+    "it": "impianto di scarico",
+    "lines": [
+     "Exhaust gases from the engine",
+     "Less toxic",
+     "Out of the vehicle"
+    ],
+    "icons": [
+     "engine",
+     "leaf",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "impianto di scarico",
+    "en": "exhaust system"
+   },
+   {
+    "it": "convogliare",
+    "en": "to carry, channel"
+   },
+   {
+    "it": "tossicità",
+    "en": "toxicity"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25407": {
+  "en": "The exhaust system carries the exhaust gases outside after lowering their pressure.",
+  "explain": {
+   "short": "Gases leave the engine at high pressure. The exhaust slows them down and lowers the pressure, which also cuts the noise.",
+   "rule": "The exhaust takes the gases out of the car after lowering their toxicity, pressure and temperature; it also cuts noise and air pollution.",
+   "trap": "'pressione' (pressure): lowering it is one of the jobs of the exhaust.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Exhaust lowers the gases' pressure",
+    "it": "impianto di scarico",
+    "lines": [
+     "Exhaust gases from the engine",
+     "Lower pressure",
+     "Out of the vehicle"
+    ],
+    "icons": [
+     "engine",
+     "check",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "impianto di scarico",
+    "en": "exhaust system"
+   },
+   {
+    "it": "convogliare",
+    "en": "to carry, channel"
+   },
+   {
+    "it": "pressione",
+    "en": "pressure"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25408": {
+  "en": "The exhaust system carries the exhaust gases outside after lowering their temperature.",
+  "explain": {
+   "short": "Gases leave the engine very hot. Along the exhaust pipe they cool down before going out.",
+   "rule": "The exhaust takes the gases out of the car after lowering their toxicity, pressure and temperature; it also cuts noise and air pollution.",
+   "trap": "'temperatura' (temperature): lowering it is one of the jobs of the exhaust.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Exhaust lowers the gases' temperature",
+    "it": "impianto di scarico",
+    "lines": [
+     "Hot gases from the engine",
+     "Cooler gases",
+     "Out of the vehicle"
+    ],
+    "icons": [
+     "engine",
+     "check",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "impianto di scarico",
+    "en": "exhaust system"
+   },
+   {
+    "it": "convogliare",
+    "en": "to carry, channel"
+   },
+   {
+    "it": "temperatura",
+    "en": "temperature"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25409": {
+  "en": "The purpose of the exhaust system is to reduce the vehicle's noise.",
+  "explain": {
+   "short": "The silencer is part of the exhaust system, and its job is to make the engine quieter.",
+   "rule": "The exhaust takes the gases out of the car after lowering their toxicity, pressure and temperature; it also cuts noise and air pollution.",
+   "trap": "'rumorosità' means noise: reducing it is a job of the exhaust.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Exhaust reduces noise",
+    "it": "rumorosità",
+    "lines": [
+     "Exhaust with silencer",
+     "Less engine noise"
+    ],
+    "icons": [
+     "engine",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "impianto di scarico",
+    "en": "exhaust system"
+   },
+   {
+    "it": "ridurre",
+    "en": "reduce"
+   },
+   {
+    "it": "rumorosità",
+    "en": "noise"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25410": {
+  "en": "The purpose of the exhaust system is to reduce the air pollution caused by the vehicle's exhaust gases.",
+  "explain": {
+   "short": "The catalytic converter in the exhaust system cleans the gases, so the vehicle pollutes the air less.",
+   "rule": "The exhaust takes the gases out of the car after lowering their toxicity, pressure and temperature; it also cuts noise and air pollution.",
+   "trap": "'inquinamento atmosferico' is air pollution (smog), different from noise.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Exhaust reduces air pollution",
+    "it": "inquinamento atmosferico",
+    "lines": [
+     "Exhaust with catalytic converter",
+     "Less air pollution"
+    ],
+    "icons": [
+     "engine",
+     "leaf"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "impianto di scarico",
+    "en": "exhaust system"
+   },
+   {
+    "it": "inquinamento atmosferico",
+    "en": "air pollution"
+   },
+   {
+    "it": "gas di scarico",
+    "en": "exhaust gases"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25411": {
+  "en": "The exhaust system must be completely replaced at every oil change.",
+  "explain": {
+   "short": "The exhaust is replaced only when it is damaged or worn, not at every oil change.",
+   "rule": "A damaged exhaust is replaced with an approved part for that vehicle, in an authorised workshop. Driving without a silencer or tampering with the exhaust is never allowed.",
+   "trap": "'integralmente' (completely) and 'a ogni cambio di lubrificante' (at every oil change): nonsense, no such rule.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Oil change: no need to replace the exhaust",
+    "it": "impianto di scarico",
+    "lines": [
+     "Oil change",
+     "Replace the exhaust: no",
+     "Replace it only if damaged"
+    ],
+    "icons": [
+     "engine",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "integralmente sostituito",
+    "en": "completely replaced"
+   },
+   {
+    "it": "cambio di lubrificante",
+    "en": "oil change"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25412": {
+  "en": "The exhaust system of electric vehicles needs more frequent maintenance than that of petrol-engine vehicles.",
+  "explain": {
+   "short": "Electric vehicles burn no fuel and have no exhaust system at all, so there is nothing to maintain.",
+   "rule": "The exhaust takes the gases out of the car after lowering their toxicity, pressure and temperature; it also cuts noise and air pollution.",
+   "trap": "'veicoli elettrici' (electric vehicles): they have no exhaust, so the comparison is false.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Electric vehicles: no exhaust at all",
+    "it": "veicoli elettrici",
+    "lines": [
+     "Electric vehicle",
+     "No fuel burnt, no exhaust"
+    ],
+    "icons": [
+     "leaf",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicoli elettrici",
+    "en": "electric vehicles"
+   },
+   {
+    "it": "manutenzione",
+    "en": "maintenance"
+   },
+   {
+    "it": "motore a scoppio",
+    "en": "combustion engine"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25413": {
+  "en": "Outside built-up areas, vehicles may also be driven without a silencer.",
+  "explain": {
+   "short": "A silencer is always required, inside and outside towns. Without it, the vehicle is too noisy and not in order.",
+   "rule": "A damaged exhaust is replaced with an approved part for that vehicle, in an authorised workshop. Driving without a silencer or tampering with the exhaust is never allowed.",
+   "trap": "'Fuori dei centri abitati' (outside towns) changes nothing: the silencer is always compulsory.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Silencer compulsory everywhere",
+    "it": "silenziatore",
+    "lines": [
+     "Outside towns",
+     "No silencer: no",
+     "Silencer always needed"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fuori dei centri abitati",
+    "en": "outside built-up areas"
+   },
+   {
+    "it": "silenziatore",
+    "en": "silencer"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25414": {
+  "en": "If the silencer's exhaust pipe gets a hole and you do not plan to replace it soon, you can repair it by wrapping it in glass wool and insulating tape.",
+  "explain": {
+   "short": "Home-made repairs are not allowed: a damaged exhaust must be replaced with an approved part, without delay.",
+   "rule": "A damaged exhaust is replaced with an approved part for that vehicle, in an authorised workshop. Driving without a silencer or tampering with the exhaust is never allowed.",
+   "trap": "'non si intende sostituirlo a breve' (you don't plan to replace it soon): there is no such option, it must be replaced.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Holed exhaust: replace it, no tape",
+    "it": "tubo di scarico",
+    "lines": [
+     "Hole in the exhaust pipe",
+     "Glass wool and tape: no",
+     "Replace with approved part"
+    ],
+    "icons": [
+     "warning",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tubo di scarico",
+    "en": "exhaust pipe"
+   },
+   {
+    "it": "si fora",
+    "en": "gets a hole"
+   },
+   {
+    "it": "lana di vetro",
+    "en": "glass wool"
+   },
+   {
+    "it": "nastro isolante",
+    "en": "insulating tape"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25415": {
+  "en": "The exhaust pipe may also be replaced by yourself, without going to an authorised workshop.",
+  "explain": {
+   "short": "The quiz expects the exhaust to be replaced by an authorised workshop, so that the part fitted is approved and fitted correctly.",
+   "rule": "A damaged exhaust is replaced with an approved part for that vehicle, in an authorised workshop. Driving without a silencer or tampering with the exhaust is never allowed.",
+   "trap": "'personalmente' (by yourself) is the trap: the official answer wants an authorised workshop.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Exhaust replaced by an authorised workshop",
+    "it": "officina autorizzata",
+    "lines": [
+     "Replace exhaust yourself: no",
+     "Authorised workshop"
+    ],
+    "icons": [
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sostituzione",
+    "en": "replacement"
+   },
+   {
+    "it": "tubo di scarico",
+    "en": "exhaust pipe"
+   },
+   {
+    "it": "officina autorizzata",
+    "en": "authorised workshop"
+   }
+  ],
+  "review": true,
+  "reviewNote": "Official answer FALSE; the Codice does not clearly forbid fitting an approved exhaust part yourself - answer kept as official."
+ },
+ "q25416": {
+  "en": "You may modify the exhaust system, as long as you self-certify that this does not increase fuel consumption.",
+  "explain": {
+   "short": "Modifying the exhaust is not allowed. A self-declaration about fuel consumption changes nothing.",
+   "rule": "A damaged exhaust is replaced with an approved part for that vehicle, in an authorised workshop. Driving without a silencer or tampering with the exhaust is never allowed.",
+   "trap": "'purché si autocertifichi' (as long as you self-certify): no self-declaration makes a modified exhaust legal.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Modifying the exhaust: not allowed",
+    "it": "impianto di scarico",
+    "lines": [
+     "Modified exhaust",
+     "Self-declaration: not enough"
+    ],
+    "icons": [
+     "cross",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "modificare",
+    "en": "modify"
+   },
+   {
+    "it": "autocertifichi",
+    "en": "self-certify"
+   },
+   {
+    "it": "consumo di carburante",
+    "en": "fuel consumption"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25417": {
+  "en": "Tampering with the exhaust system brings no penalty, as long as you drive only in urban areas.",
+  "explain": {
+   "short": "Tampering with the exhaust is punished with a fine everywhere, and in towns noise is an even bigger problem.",
+   "rule": "A damaged exhaust is replaced with an approved part for that vehicle, in an authorised workshop. Driving without a silencer or tampering with the exhaust is never allowed.",
+   "trap": "'non comporta alcuna sanzione' (no penalty) and 'solo nei centri urbani' (only in towns) are both wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Tampered exhaust: fined everywhere",
+    "it": "manomissione",
+    "lines": [
+     "Tampered exhaust",
+     "Fine: yes, also in towns"
+    ],
+    "icons": [
+     "cross",
+     "money"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "manomissione",
+    "en": "tampering"
+   },
+   {
+    "it": "sanzione",
+    "en": "penalty"
+   },
+   {
+    "it": "centri urbani",
+    "en": "urban areas"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25419": {
+  "en": "On two-wheel motor vehicles, the engine can also be switched off with the emergency switch on the handlebar.",
+  "explain": {
+   "short": "The emergency switch (kill switch) on the handlebar stops the engine, as well as the key.",
+   "rule": "The kill switch is on the handlebar. It stops the engine without taking your hands off the handlebar, and must be on ON to start.",
+   "trap": "'anche' (also): the key works, and the handlebar switch works too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Kill switch on the handlebar stops the engine",
+    "it": "interruttore di emergenza",
+    "lines": [
+     "Kill switch on the handlebar",
+     "It stops the engine"
+    ],
+    "icons": [
+     "moto",
+     "engine"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "interruttore di emergenza",
+    "en": "emergency (kill) switch"
+   },
+   {
+    "it": "manubrio",
+    "en": "handlebar"
+   },
+   {
+    "it": "spegnere",
+    "en": "switch off"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25420": {
+  "en": "On two-wheel motor vehicles, to start the engine the emergency switch on the handlebar must be set to ON/Start.",
+  "explain": {
+   "short": "If the kill switch is on OFF, the engine cannot start. It must be on ON/RUN.",
+   "rule": "The kill switch is on the handlebar. It stops the engine without taking your hands off the handlebar, and must be on ON to start.",
+   "trap": "'necessario' (necessary): with the switch on OFF the bike will not start.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Kill switch on ON to start",
+    "it": "interruttore di emergenza",
+    "lines": [
+     "Kill switch on ON",
+     "Then the engine can start"
+    ],
+    "icons": [
+     "moto",
+     "engine"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "avviare",
+    "en": "start"
+   },
+   {
+    "it": "interruttore di emergenza",
+    "en": "emergency switch"
+   },
+   {
+    "it": "ON/Avviamento",
+    "en": "ON/Start"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25421": {
+  "en": "On two-wheel motor vehicles, the emergency switch lets you stop the engine without taking your hands off the handlebar.",
+  "explain": {
+   "short": "The switch is right next to the grip, so you can press it with your thumb and keep both hands on the handlebar.",
+   "rule": "The kill switch is on the handlebar. It stops the engine without taking your hands off the handlebar, and must be on ON to start.",
+   "trap": "'senza staccare le mani' (without taking hands off): this is the reason it is on the handlebar.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stop the engine, hands on the handlebar",
+    "it": "interruttore di emergenza",
+    "lines": [
+     "Switch next to the grip",
+     "Engine off, hands stay on"
+    ],
+    "icons": [
+     "moto",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "interruttore di emergenza",
+    "en": "emergency switch"
+   },
+   {
+    "it": "spegnimento",
+    "en": "switching off"
+   },
+   {
+    "it": "senza staccare le mani",
+    "en": "without taking the hands off"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25422": {
+  "en": "On two-wheel motor vehicles, the emergency switch lets you stop the engine if you stop on very steep roads with your hands busy on the control levers.",
+  "explain": {
+   "short": "On a steep slope your hands hold the brake and clutch levers. The kill switch lets you stop the engine without letting go.",
+   "rule": "The kill switch is on the handlebar. It stops the engine without taking your hands off the handlebar, and must be on ON to start.",
+   "trap": "'forti pendenze' (steep slopes) with 'mani occupate' (hands busy): a typical use of the switch.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Steep slope, hands busy: use the kill switch",
+    "it": "forti pendenze",
+    "lines": [
+     "Stopped on a steep slope",
+     "Hands on brake and clutch",
+     "Kill switch stops the engine"
+    ],
+    "icons": [
+     "hill",
+     "moto",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "forti pendenze",
+    "en": "steep slopes"
+   },
+   {
+    "it": "mani occupate",
+    "en": "hands busy"
+   },
+   {
+    "it": "leve di comando",
+    "en": "control levers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25423": {
+  "en": "The emergency switch fitted on two-wheel motor vehicles must be repaired as soon as possible if it is broken.",
+  "explain": {
+   "short": "The kill switch is a safety device. If it does not work, have it repaired soon.",
+   "rule": "The kill switch is on the handlebar. It stops the engine without taking your hands off the handlebar, and must be on ON to start.",
+   "trap": "'al più presto' (as soon as possible): a safety device must not stay broken.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Broken kill switch: repair it soon",
+    "it": "interruttore di emergenza",
+    "lines": [
+     "Kill switch broken",
+     "Repair it as soon as possible"
+    ],
+    "icons": [
+     "warning",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "interruttore di emergenza",
+    "en": "emergency switch"
+   },
+   {
+    "it": "guasto",
+    "en": "broken"
+   },
+   {
+    "it": "riparato al più presto",
+    "en": "repaired as soon as possible"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25424": {
+  "en": "On a motorcycle, to switch off the engine in normal situations, it is better to use the ignition key rather than the emergency switch.",
+  "explain": {
+   "short": "The kill switch is for emergencies. Normally you switch off with the key, which also turns off the electrics.",
+   "rule": "The kill switch is on the handlebar. It stops the engine without taking your hands off the handlebar, and must be on ON to start.",
+   "trap": "'situazioni ordinarie' (normal situations): then the key is preferred.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Normally: switch off with the key",
+    "it": "chiave di accensione",
+    "lines": [
+     "Normal stop",
+     "Use the ignition key",
+     "Kill switch: for emergencies"
+    ],
+    "icons": [
+     "moto",
+     "check",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "situazioni ordinarie",
+    "en": "normal situations"
+   },
+   {
+    "it": "chiave di accensione",
+    "en": "ignition key"
+   },
+   {
+    "it": "interruttore di emergenza",
+    "en": "emergency switch"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25425": {
+  "en": "On two-wheel motor vehicles, the emergency switch on the handlebar replaces the key ignition.",
+  "explain": {
+   "short": "The kill switch only stops the engine. You still need the key to switch on the bike.",
+   "rule": "The kill switch is on the handlebar. It stops the engine without taking your hands off the handlebar, and must be on ON to start.",
+   "trap": "'sostituisce' (replaces) is wrong: the switch works together with the key.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Kill switch does not replace the key",
+    "it": "sostituisce",
+    "lines": [
+     "Kill switch: stops the engine",
+     "Replaces the key: no"
+    ],
+    "icons": [
+     "moto",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "interruttore di emergenza",
+    "en": "emergency switch"
+   },
+   {
+    "it": "sostituisce",
+    "en": "replaces"
+   },
+   {
+    "it": "accensione a chiave",
+    "en": "key ignition"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25426": {
+  "en": "To make stopping the engine easier, two-wheel motor vehicles have an emergency switch on the gear pedal.",
+  "explain": {
+   "short": "The kill switch is on the handlebar, near the right grip, not on the gear pedal.",
+   "rule": "The kill switch is on the handlebar. It stops the engine without taking your hands off the handlebar, and must be on ON to start.",
+   "trap": "'pedivella del cambio' (gear pedal) is the wrong place: it is on the handlebar.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Kill switch: on the handlebar, not the pedal",
+    "it": "pedivella del cambio",
+    "lines": [
+     "Switch on the gear pedal: no",
+     "Switch on the handlebar"
+    ],
+    "icons": [
+     "cross",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "interruttore d'emergenza",
+    "en": "emergency switch"
+   },
+   {
+    "it": "pedivella del cambio",
+    "en": "gear pedal"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25427": {
+  "en": "On two-wheel motor vehicles, the emergency switch locks the wheels instantly.",
+  "explain": {
+   "short": "The kill switch only stops the engine. It does not brake or lock the wheels; locking the wheels would be dangerous.",
+   "rule": "The kill switch is on the handlebar. It stops the engine without taking your hands off the handlebar, and must be on ON to start.",
+   "trap": "'blocco istantaneo delle ruote' (instant wheel lock) is wrong: it only cuts the engine.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Kill switch stops the engine, not the wheels",
+    "it": "blocco istantaneo",
+    "lines": [
+     "Kill switch: engine off",
+     "Locks the wheels: no"
+    ],
+    "icons": [
+     "engine",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "interruttore d'emergenza",
+    "en": "emergency switch"
+   },
+   {
+    "it": "blocco istantaneo",
+    "en": "instant lock"
+   },
+   {
+    "it": "ruote",
+    "en": "wheels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25428": {
+  "en": "The emergency switch on the side stand is for switching off the motorcycle's engine on sloping roads.",
+  "explain": {
+   "short": "The emergency switch is on the handlebar, not on the side stand. It is used when you cannot let go of the levers.",
+   "rule": "The kill switch is on the handlebar. It stops the engine without taking your hands off the handlebar, and must be on ON to start.",
+   "trap": "'posto sul cavalletto laterale' (on the side stand) is the wrong place.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Kill switch: on the handlebar, not the stand",
+    "it": "cavalletto laterale",
+    "lines": [
+     "Switch on the side stand: no",
+     "Switch on the handlebar"
+    ],
+    "icons": [
+     "cross",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "interruttore di emergenza",
+    "en": "emergency switch"
+   },
+   {
+    "it": "cavalletto laterale",
+    "en": "side stand"
+   },
+   {
+    "it": "pendenza",
+    "en": "slope"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25429": {
+  "en": "To make stopping the engine easier, two-wheel motor vehicles have an emergency switch operated by pressing with the right foot.",
+  "explain": {
+   "short": "The kill switch is pressed with the thumb on the handlebar, not with the foot (the right foot works the rear brake).",
+   "rule": "The kill switch is on the handlebar. It stops the engine without taking your hands off the handlebar, and must be on ON to start.",
+   "trap": "'pressione del piede destro' (right foot) is wrong: it is a hand switch on the handlebar.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Kill switch: by hand, not by foot",
+    "it": "piede destro",
+    "lines": [
+     "Switch pressed by foot: no",
+     "Thumb on the handlebar"
+    ],
+    "icons": [
+     "cross",
+     "moto"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "interruttore d'emergenza",
+    "en": "emergency switch"
+   },
+   {
+    "it": "pressione del piede destro",
+    "en": "pressing with the right foot"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25430": {
+  "en": "On two-wheel motor vehicles, the emergency switch works as a parking brake.",
+  "explain": {
+   "short": "The kill switch only stops the engine. It does not hold the bike still like a parking brake.",
+   "rule": "The kill switch is on the handlebar. It stops the engine without taking your hands off the handlebar, and must be on ON to start.",
+   "trap": "'freno di stazionamento' (parking brake) is wrong: the switch has nothing to do with brakes.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Kill switch is not a parking brake",
+    "it": "freno di stazionamento",
+    "lines": [
+     "Kill switch: engine off",
+     "Parking brake: no"
+    ],
+    "icons": [
+     "engine",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "interruttore d'emergenza",
+    "en": "emergency switch"
+   },
+   {
+    "it": "freno di stazionamento",
+    "en": "parking brake"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25431": {
+  "en": "On two-wheel motor vehicles, the emergency switch is connected to the vehicle's anti-theft device.",
+  "explain": {
+   "short": "The kill switch is only for stopping the engine quickly. It is not part of the anti-theft system.",
+   "rule": "The kill switch is on the handlebar. It stops the engine without taking your hands off the handlebar, and must be on ON to start.",
+   "trap": "'collegato con l'antifurto' (connected to the anti-theft) is wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Kill switch is not an anti-theft device",
+    "it": "antifurto",
+    "lines": [
+     "Kill switch: engine off",
+     "Anti-theft: no"
+    ],
+    "icons": [
+     "engine",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "interruttore d'emergenza",
+    "en": "emergency switch"
+   },
+   {
+    "it": "antifurto",
+    "en": "anti-theft device"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25432": {
+  "en": "For road safety, on two-wheel motor vehicles you should regularly check the wear of the drive chain.",
+  "explain": {
+   "short": "A worn chain can slip or break, which is dangerous. Checking its wear regularly is part of safe maintenance.",
+   "rule": "Check the drive chain regularly: wear, tension and lubrication. A worn chain is replaced; a broken chain can lock the rear wheel.",
+   "trap": "'usura' (wear): a worn chain is a safety risk.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Check chain wear regularly",
+    "it": "catena di trasmissione",
+    "lines": [
+     "Drive chain",
+     "Check wear regularly"
+    ],
+    "icons": [
+     "moto",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "usura",
+    "en": "wear"
+   },
+   {
+    "it": "catena di trasmissione",
+    "en": "drive chain"
+   },
+   {
+    "it": "verificare periodicamente",
+    "en": "check regularly"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25433": {
+  "en": "The drive chain of two-wheel motor vehicles can break if it is not lubricated.",
+  "explain": {
+   "short": "A dry chain wears quickly and can break. It needs regular lubrication.",
+   "rule": "Check the drive chain regularly: wear, tension and lubrication. A worn chain is replaced; a broken chain can lock the rear wheel.",
+   "trap": "'se non lubrificata' (if not lubricated): lack of oil is the cause of the break.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dry chain can break",
+    "it": "lubrificata",
+    "lines": [
+     "Chain not lubricated",
+     "Fast wear",
+     "It can break"
+    ],
+    "icons": [
+     "moto",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "catena di trasmissione",
+    "en": "drive chain"
+   },
+   {
+    "it": "lubrificata",
+    "en": "lubricated"
+   },
+   {
+    "it": "rottura",
+    "en": "breaking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25434": {
+  "en": "On two-wheel motor vehicles, the drive chain links the engine sprocket to the wheel sprocket.",
+  "explain": {
+   "short": "The chain carries the engine's power: from the small sprocket on the engine (pignone) to the big one on the rear wheel (corona).",
+   "rule": "Check the drive chain regularly: wear, tension and lubrication. A worn chain is replaced; a broken chain can lock the rear wheel.",
+   "trap": "'pignone' is the small engine sprocket, 'corona' the big wheel sprocket.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Chain: engine sprocket to wheel sprocket",
+    "it": "pignone",
+    "lines": [
+     "Engine sprocket (pignone)",
+     "Chain",
+     "Rear wheel sprocket (corona)"
+    ],
+    "icons": [
+     "engine",
+     "moto",
+     "tyre"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "catena di trasmissione",
+    "en": "drive chain"
+   },
+   {
+    "it": "pignone",
+    "en": "engine sprocket"
+   },
+   {
+    "it": "corona",
+    "en": "wheel sprocket"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25435": {
+  "en": "For safety, on two-wheel motor vehicles you should regularly check that the drive chain is well lubricated.",
+  "explain": {
+   "short": "A well lubricated chain lasts longer and does not break. Check it regularly.",
+   "rule": "Check the drive chain regularly: wear, tension and lubrication. A worn chain is replaced; a broken chain can lock the rear wheel.",
+   "trap": "'ben lubrificata' (well lubricated): this is what you check.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Check the chain is well lubricated",
+    "it": "lubrificata",
+    "lines": [
+     "Drive chain",
+     "Check it is well lubricated"
+    ],
+    "icons": [
+     "moto",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "catena di trasmissione",
+    "en": "drive chain"
+   },
+   {
+    "it": "ben lubrificata",
+    "en": "well lubricated"
+   },
+   {
+    "it": "verificare periodicamente",
+    "en": "check regularly"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25436": {
+  "en": "On two-wheel motor vehicles, you should regularly check the correct tension of the drive chain.",
+  "explain": {
+   "short": "A chain that is too loose can jump off; too tight, it wears out and can break. Check the tension regularly.",
+   "rule": "Check the drive chain regularly: wear, tension and lubrication. A worn chain is replaced; a broken chain can lock the rear wheel.",
+   "trap": "'tensione' (tension): neither too loose nor too tight.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Check the chain tension regularly",
+    "it": "tensione",
+    "lines": [
+     "Chain too loose or too tight",
+     "Check the tension regularly"
+    ],
+    "icons": [
+     "warning",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tensione",
+    "en": "tension"
+   },
+   {
+    "it": "catena di trasmissione",
+    "en": "drive chain"
+   },
+   {
+    "it": "verificare periodicamente",
+    "en": "check regularly"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25437": {
+  "en": "On two-wheel motor vehicles, a sudden break of the drive chain can lock the rear wheel, with loss of control of the vehicle.",
+  "explain": {
+   "short": "A broken chain can wrap around the rear sprocket and block the rear wheel, and the rider can fall.",
+   "rule": "Check the drive chain regularly: wear, tension and lubrication. A worn chain is replaced; a broken chain can lock the rear wheel.",
+   "trap": "'bloccaggio della ruota posteriore' (rear wheel lock): this is why a chain break is dangerous.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Broken chain: rear wheel can lock",
+    "it": "bloccaggio",
+    "lines": [
+     "Chain breaks suddenly",
+     "Rear wheel can lock",
+     "Loss of control"
+    ],
+    "icons": [
+     "warning",
+     "tyre",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rottura improvvisa",
+    "en": "sudden break"
+   },
+   {
+    "it": "bloccaggio",
+    "en": "locking"
+   },
+   {
+    "it": "ruota posteriore",
+    "en": "rear wheel"
+   },
+   {
+    "it": "perdita del controllo",
+    "en": "loss of control"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25438": {
+  "en": "On two-wheel motor vehicles, if the drive chain shows signs of wear, it must be replaced.",
+  "explain": {
+   "short": "A worn chain is not repaired: it is replaced with a new one.",
+   "rule": "Check the drive chain regularly: wear, tension and lubrication. A worn chain is replaced; a broken chain can lock the rear wheel.",
+   "trap": "'sostituirla' (replace it): the only correct fix for a worn chain.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Worn chain: replace it",
+    "it": "usura",
+    "lines": [
+     "Chain shows wear",
+     "Replace it"
+    ],
+    "icons": [
+     "warning",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segni di usura",
+    "en": "signs of wear"
+   },
+   {
+    "it": "sostituirla",
+    "en": "replace it"
+   },
+   {
+    "it": "catena di trasmissione",
+    "en": "drive chain"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25439": {
+  "en": "On two-wheel motor vehicles, the drive chain needs no lubrication because it is made of self-lubricating steel.",
+  "explain": {
+   "short": "Drive chains are not self-lubricating: they must be lubricated regularly.",
+   "rule": "Check the drive chain regularly: wear, tension and lubrication. A worn chain is replaced; a broken chain can lock the rear wheel.",
+   "trap": "'acciaio autolubrificante' (self-lubricating steel) does not exist for drive chains.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The chain needs lubrication",
+    "it": "autolubrificante",
+    "lines": [
+     "Self-lubricating chain: no",
+     "Lubricate it regularly"
+    ],
+    "icons": [
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "lubrificazione",
+    "en": "lubrication"
+   },
+   {
+    "it": "acciaio autolubrificante",
+    "en": "self-lubricating steel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25440": {
+  "en": "On two-wheel motor vehicles, a broken drive chain affects the riding speed, but not safety.",
+  "explain": {
+   "short": "A broken chain can lock the rear wheel and make you fall, so it is a serious safety problem.",
+   "rule": "Check the drive chain regularly: wear, tension and lubrication. A worn chain is replaced; a broken chain can lock the rear wheel.",
+   "trap": "'ma non la sicurezza' (but not safety) is wrong: safety is exactly what is at risk.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Broken chain: a safety danger",
+    "it": "sicurezza",
+    "lines": [
+     "Chain breaks",
+     "Rear wheel can lock",
+     "Safety at risk"
+    ],
+    "icons": [
+     "warning",
+     "tyre",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rottura",
+    "en": "break"
+   },
+   {
+    "it": "velocità di marcia",
+    "en": "riding speed"
+   },
+   {
+    "it": "sicurezza",
+    "en": "safety"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25441": {
+  "en": "On two-wheel motor vehicles, if the drive chain shows signs of wear, it must be reinforced with suitable iron wire.",
+  "explain": {
+   "short": "A worn chain must be replaced, never repaired with wire.",
+   "rule": "Check the drive chain regularly: wear, tension and lubrication. A worn chain is replaced; a broken chain can lock the rear wheel.",
+   "trap": "'rinforzarla con filo di ferro' (reinforce it with iron wire) is a dangerous home repair.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Worn chain: replace, no iron wire",
+    "it": "filo di ferro",
+    "lines": [
+     "Chain shows wear",
+     "Iron wire: no",
+     "Replace the chain"
+    ],
+    "icons": [
+     "warning",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segni di usura",
+    "en": "signs of wear"
+   },
+   {
+    "it": "rinforzarla",
+    "en": "reinforce it"
+   },
+   {
+    "it": "filo di ferro",
+    "en": "iron wire"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25442": {
+  "en": "On two-wheel motor vehicles, when the drive chain is replaced because of wear, it is never necessary to replace the engine sprocket and the wheel sprocket too.",
+  "explain": {
+   "short": "Chain and sprockets wear together. Often they must be replaced together, so 'never' is wrong.",
+   "rule": "Check the drive chain regularly: wear, tension and lubrication. A worn chain is replaced; a broken chain can lock the rear wheel.",
+   "trap": "'mai' (never) is the trap: often the sprockets must be changed too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "New chain: often new sprockets too",
+    "it": "mai necessario",
+    "lines": [
+     "Worn chain replaced",
+     "Sprockets often worn too",
+     "Never replace them: no"
+    ],
+    "icons": [
+     "moto",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sostituzione",
+    "en": "replacement"
+   },
+   {
+    "it": "non è mai necessario",
+    "en": "it is never necessary"
+   },
+   {
+    "it": "pignone",
+    "en": "engine sprocket"
+   },
+   {
+    "it": "corona",
+    "en": "wheel sprocket"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25443": {
+  "en": "On two-wheel motor vehicles, there is no need to check the tension of the drive chain regularly, because it has an automatic tensioner.",
+  "explain": {
+   "short": "Drive chains must have their tension checked and adjusted regularly; they do not adjust themselves.",
+   "rule": "Check the drive chain regularly: wear, tension and lubrication. A worn chain is replaced; a broken chain can lock the rear wheel.",
+   "trap": "'tenditore automatico' (automatic tensioner) is the false excuse.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Chain tension must be checked",
+    "it": "tenditore automatico",
+    "lines": [
+     "Automatic tensioner: no",
+     "Check chain tension regularly"
+    ],
+    "icons": [
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tensione",
+    "en": "tension"
+   },
+   {
+    "it": "catena di trasmissione",
+    "en": "drive chain"
+   },
+   {
+    "it": "tenditore automatico",
+    "en": "automatic tensioner"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25444": {
+  "en": "On two-wheel motor vehicles, the drive chain must be cleaned with degreasing detergent, but absolutely not lubricated, so the gearbox does not slip.",
+  "explain": {
+   "short": "The chain must be cleaned AND lubricated. Lubrication has nothing to do with the gearbox slipping.",
+   "rule": "Check the drive chain regularly: wear, tension and lubrication. A worn chain is replaced; a broken chain can lock the rear wheel.",
+   "trap": "'assolutamente non lubrificata' (absolutely not lubricated) is the opposite of the truth.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Clean and lubricate the chain",
+    "it": "non lubrificata",
+    "lines": [
+     "Clean the chain",
+     "Lubricate it too",
+     "No lubrication: no"
+    ],
+    "icons": [
+     "check",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "detergente sgrassante",
+    "en": "degreasing detergent"
+   },
+   {
+    "it": "non lubrificata",
+    "en": "not lubricated"
+   },
+   {
+    "it": "slittare il cambio",
+    "en": "the gearbox slip"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25445": {
+  "en": "On two-wheel motor vehicles, you may replace the engine sprocket and the wheel sprocket in order to change the transmission ratio.",
+  "explain": {
+   "short": "Changing the sprockets to alter the ratio changes the approved vehicle (its speed and performance), which is not allowed.",
+   "rule": "Check the drive chain regularly: wear, tension and lubrication. A worn chain is replaced; a broken chain can lock the rear wheel.",
+   "trap": "'modificare il rapporto di trasmissione' (change the ratio): a modification of the approved vehicle.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Changing the gear ratio: not allowed",
+    "it": "rapporto di trasmissione",
+    "lines": [
+     "Change sprockets to alter ratio",
+     "Not allowed"
+    ],
+    "icons": [
+     "moto",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pignone",
+    "en": "engine sprocket"
+   },
+   {
+    "it": "corona",
+    "en": "wheel sprocket"
+   },
+   {
+    "it": "rapporto di trasmissione",
+    "en": "transmission ratio"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25446": {
+  "en": "On two-wheel motor vehicles, the oil level must be checked with the vehicle perfectly upright, standing on its wheels and not on the stand.",
+  "explain": {
+   "short": "On the side stand the bike leans and the oil moves, so the reading is wrong. Check it upright, with both wheels on the ground.",
+   "rule": "Check engine oil and brake fluid regularly. Oil: bike upright and level, wheels on the ground, engine off for a few minutes.",
+   "trap": "'non sul cavalletto' (not on the stand): on the stand the bike leans and the level is wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Check oil with the bike upright",
+    "it": "livello dell'olio",
+    "lines": [
+     "Bike upright, wheels on ground",
+     "Not on the stand",
+     "Then check the oil"
+    ],
+    "icons": [
+     "moto",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "livello dell'olio",
+    "en": "oil level"
+   },
+   {
+    "it": "perfettamente orizzontale",
+    "en": "perfectly level"
+   },
+   {
+    "it": "cavalletto",
+    "en": "stand"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25447": {
+  "en": "On motorcycles you must regularly check the levels of engine oil and brake fluid.",
+  "explain": {
+   "short": "Too little oil damages the engine; too little brake fluid makes the brakes fail. Check both regularly.",
+   "rule": "Check engine oil and brake fluid regularly. Oil: bike upright and level, wheels on the ground, engine off for a few minutes.",
+   "trap": "'olio motore e liquido freni' (engine oil and brake fluid): both have levels to check.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Check oil and brake fluid regularly",
+    "it": "livelli",
+    "lines": [
+     "Engine oil level",
+     "Brake fluid level",
+     "Check both regularly"
+    ],
+    "icons": [
+     "engine",
+     "brake",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "livelli",
+    "en": "levels"
+   },
+   {
+    "it": "olio motore",
+    "en": "engine oil"
+   },
+   {
+    "it": "liquido freni",
+    "en": "brake fluid"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25448": {
+  "en": "On motorcycles, the brake fluid level is checked by looking at the special transparent reservoir.",
+  "explain": {
+   "short": "The brake fluid is in a small clear reservoir, usually on the handlebar, with marks for the right level.",
+   "rule": "Check engine oil and brake fluid regularly. Oil: bike upright and level, wheels on the ground, engine off for a few minutes.",
+   "trap": "'vaschetta trasparente' (transparent reservoir): you can see the level through it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Brake fluid: look at the clear reservoir",
+    "it": "liquido freni",
+    "lines": [
+     "Clear reservoir",
+     "See the brake fluid level"
+    ],
+    "icons": [
+     "brake",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "liquido freni",
+    "en": "brake fluid"
+   },
+   {
+    "it": "vaschetta trasparente",
+    "en": "transparent reservoir"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25449": {
+  "en": "In some motorcycle engines, the engine oil level can be checked through a special small window on the sump.",
+  "explain": {
+   "short": "Some engines have a small glass window on the sump (the oil pan at the bottom) to see the oil level.",
+   "rule": "Check engine oil and brake fluid regularly. Oil: bike upright and level, wheels on the ground, engine off for a few minutes.",
+   "trap": "'In alcuni' (in some): not all engines, but some have this window.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Some engines: oil window on the sump",
+    "it": "finestrella",
+    "lines": [
+     "Small window on the sump",
+     "See the oil level"
+    ],
+    "icons": [
+     "engine",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in alcuni motori",
+    "en": "in some engines"
+   },
+   {
+    "it": "finestrella",
+    "en": "small window"
+   },
+   {
+    "it": "coppa motore",
+    "en": "engine sump"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25450": {
+  "en": "On motorcycles, the oil level is checked with the vehicle on level ground and after the engine has been off for a few minutes.",
+  "explain": {
+   "short": "After a few minutes the oil flows back down to the sump, and on level ground the reading is correct.",
+   "rule": "Check engine oil and brake fluid regularly. Oil: bike upright and level, wheels on the ground, engine off for a few minutes.",
+   "trap": "'dopo aver spento il motore da alcuni minuti' (engine off for a few minutes): not with the engine running.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Oil: level ground, engine off a few minutes",
+    "it": "lubrificante",
+    "lines": [
+     "Bike on level ground",
+     "Engine off a few minutes",
+     "Then check the oil"
+    ],
+    "icons": [
+     "moto",
+     "engine",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "lubrificante",
+    "en": "lubricant, oil"
+   },
+   {
+    "it": "in piano",
+    "en": "on level ground"
+   },
+   {
+    "it": "alcuni minuti",
+    "en": "a few minutes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25451": {
+  "en": "On two-wheel motor vehicles, there are no fluids whose levels need checking, because the tanks are sealed.",
+  "explain": {
+   "short": "Motorbikes have engine oil and brake fluid (and some coolant) that must be checked regularly.",
+   "rule": "Check engine oil and brake fluid regularly. Oil: bike upright and level, wheels on the ground, engine off for a few minutes.",
+   "trap": "'serbatoi sigillati' (sealed tanks) is false: the levels must be checked.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Motorbike fluids must be checked",
+    "it": "serbatoi sono sigillati",
+    "lines": [
+     "Sealed tanks: no",
+     "Check oil and brake fluid"
+    ],
+    "icons": [
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "liquidi",
+    "en": "fluids"
+   },
+   {
+    "it": "controllo dei livelli",
+    "en": "level check"
+   },
+   {
+    "it": "sigillati",
+    "en": "sealed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25452": {
+  "en": "On motorcycles, the engine oil level must be checked with the engine running at idle and the bike on the stand.",
+  "explain": {
+   "short": "Oil is checked with the engine OFF for a few minutes and the bike upright, not on the stand.",
+   "rule": "Check engine oil and brake fluid regularly. Oil: bike upright and level, wheels on the ground, engine off for a few minutes.",
+   "trap": "'motore in funzione al minimo' (engine idling) and 'sul cavalletto' (on the stand) are both wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Oil: engine off, bike upright",
+    "it": "cavalletto",
+    "lines": [
+     "Engine idling, on stand: no",
+     "Engine off, bike upright"
+    ],
+    "icons": [
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "olio motore",
+    "en": "engine oil"
+   },
+   {
+    "it": "in funzione al minimo",
+    "en": "running at idle"
+   },
+   {
+    "it": "cavalletto",
+    "en": "stand"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25453": {
+  "en": "Motorcycles have no brake fluid reservoir because their braking is purely mechanical.",
+  "explain": {
+   "short": "Most motorcycles have hydraulic brakes with a brake fluid reservoir that must be checked.",
+   "rule": "Check engine oil and brake fluid regularly. Oil: bike upright and level, wheels on the ground, engine off for a few minutes.",
+   "trap": "'puramente meccanico' (purely mechanical) is wrong: motorbike brakes are hydraulic.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Motorbike brakes are hydraulic",
+    "it": "liquido freni",
+    "lines": [
+     "Purely mechanical brakes: no",
+     "Hydraulic brakes, fluid reservoir"
+    ],
+    "icons": [
+     "cross",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "serbatoio del liquido freni",
+    "en": "brake fluid reservoir"
+   },
+   {
+    "it": "frenatura",
+    "en": "braking"
+   },
+   {
+    "it": "puramente meccanico",
+    "en": "purely mechanical"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q25454": {
+  "en": "On air-cooled motorcycles, the coolant level can be checked through a special small window between the engine fins.",
+  "explain": {
+   "short": "An air-cooled engine is cooled by air through its fins. It has no coolant liquid, so there is no level to check.",
+   "rule": "Check engine oil and brake fluid regularly. Oil: bike upright and level, wheels on the ground, engine off for a few minutes.",
+   "trap": "'raffreddati ad aria' (air-cooled): no coolant liquid at all.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Air-cooled engine: no coolant",
+    "it": "raffreddati ad aria",
+    "lines": [
+     "Air-cooled engine",
+     "No coolant liquid",
+     "Nothing to check"
+    ],
+    "icons": [
+     "engine",
+     "cross",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "raffreddati ad aria",
+    "en": "air-cooled"
+   },
+   {
+    "it": "liquido di raffreddamento",
+    "en": "coolant"
+   },
+   {
+    "it": "alettature",
+    "en": "cooling fins"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

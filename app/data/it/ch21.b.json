@@ -1,0 +1,662 @@
+{
+ "q24763": {
+  "short": "La legge obbliga chi è coinvolto in un incidente a fermarsi e aiutare i feriti. Scappare è un reato.",
+  "rule": "Se sei coinvolto in un incidente devi fermarti, aiutare i feriti e dare i tuoi dati (nome, patente, targa, assicurazione) ai danneggiati. Non cambiare le tracce se servono a capire come è successo.",
+  "trap": "«ha l'obbligo» è giusto: fermarsi e aiutare sono doveri.",
+  "caption": "Fermarsi e aiutare i feriti",
+  "lines": [
+   "Incidente con un ferito",
+   "Ferma il veicolo",
+   "Aiuta i feriti, chiama il 112"
+  ]
+ },
+ "q24764": {
+  "short": "Chi ha subito danni ha bisogno di questi dati per il risarcimento, quindi il conducente li deve dare.",
+  "rule": "Se sei coinvolto in un incidente devi fermarti, aiutare i feriti e dare i tuoi dati (nome, patente, targa, assicurazione) ai danneggiati. Non cambiare le tracce se servono a capire come è successo.",
+  "trap": "«generalità» sono nome e dati personali; «estremi» sono i numeri dei documenti.",
+  "caption": "Dai i tuoi dati ai danneggiati",
+  "lines": [
+   "Incidente con danni",
+   "Dai nome e dati della patente",
+   "Dai targa e assicurazione"
+  ]
+ },
+ "q24765": {
+  "short": "La polizia usa i segni sulla strada e la posizione delle auto per capire cosa è successo: non vanno cambiati.",
+  "rule": "Se sei coinvolto in un incidente devi fermarti, aiutare i feriti e dare i tuoi dati (nome, patente, targa, assicurazione) ai danneggiati. Non cambiare le tracce se servono a capire come è successo.",
+  "trap": "«se occorre» limita la regola: quando serve ricostruire l'incidente, lascia le tracce.",
+  "caption": "Lascia le tracce dell'incidente",
+  "lines": [
+   "Incidente da ricostruire",
+   "Non spostare né cancellare le tracce",
+   "La polizia capisce come è andata"
+  ]
+ },
+ "q24766": {
+  "short": "L'assicurazione dà un modulo stampato (la constatazione amichevole, CAI) da compilare dopo l'incidente. Si può usare per la denuncia.",
+  "rule": "Se sei coinvolto in un incidente devi fermarti, aiutare i feriti e dare i tuoi dati (nome, patente, targa, assicurazione) ai danneggiati. Non cambiare le tracce se servono a capire come è successo.",
+  "trap": "«può avvalersi» indica una possibilità, ed è giusto.",
+  "caption": "Usa il modulo dell'assicurazione (CAI)",
+  "lines": [
+   "Incidente solo con danni",
+   "Compila il modulo (CAI)",
+   "Mandalo all'assicurazione"
+  ]
+ },
+ "q24767": {
+  "short": "Il triangolo va sulla strada dietro al veicolo fermo. Non va sul lunotto, e si toglie quando si riparte.",
+  "rule": "Il triangolo (segnale mobile di pericolo) va SULLA STRADA dietro al veicolo fermo sulla carreggiata, di giorno e di notte, a buona distanza. Fuori dai centri abitati è obbligatorio; in città non sempre.",
+  "trap": "«sul lunotto posteriore» è il posto sbagliato: il triangolo va sulla strada.",
+  "caption": "Il triangolo va sulla strada, non sul vetro",
+  "lines": [
+   "Veicolo fermo dopo un incidente",
+   "Triangolo sul lunotto: no",
+   "Triangolo sulla strada dietro"
+  ]
+ },
+ "q24768": {
+  "short": "Nessuna regola chiede di coprire l'auto. Conta aiutare i feriti, segnalare il pericolo e scambiare i dati.",
+  "rule": "Se sei coinvolto in un incidente devi fermarti, aiutare i feriti e dare i tuoi dati (nome, patente, targa, assicurazione) ai danneggiati. Non cambiare le tracce se servono a capire come è successo.",
+  "trap": "«coprire il veicolo con un telo» è un obbligo inventato.",
+  "caption": "Nessun obbligo di coprire l'auto",
+  "lines": [
+   "Dopo un incidente",
+   "Coprire l'auto con un telo: no",
+   "Aiuta, segnala, dai i dati"
+  ]
+ },
+ "q24769": {
+  "short": "Il triangolo serve anche di giorno: un veicolo fermo sulla strada è un pericolo a ogni ora.",
+  "rule": "Il triangolo (segnale mobile di pericolo) va SULLA STRADA dietro al veicolo fermo sulla carreggiata, di giorno e di notte, a buona distanza. Fuori dai centri abitati è obbligatorio; in città non sempre.",
+  "trap": "«solo di notte» è la trappola: il triangolo si usa anche di giorno.",
+  "caption": "Triangolo di giorno E di notte",
+  "lines": [
+   "Veicolo fermo sulla strada",
+   "Triangolo solo di notte: no",
+   "Usalo di giorno e di notte"
+  ]
+ },
+ "q24770": {
+  "short": "Il marciapiede è dei pedoni. Con soli danni sposti le auto fuori dal traffico, ma non sul marciapiede; con feriti le lasci dove sono.",
+  "rule": "Se sei coinvolto in un incidente devi fermarti, aiutare i feriti e dare i tuoi dati (nome, patente, targa, assicurazione) ai danneggiati. Non cambiare le tracce se servono a capire come è successo.",
+  "trap": "«subito sul marciapiede» è sbagliato due volte: non sempre subito, e mai sul marciapiede.",
+  "caption": "Mai l'auto sul marciapiede",
+  "lines": [
+   "Dopo un incidente",
+   "Auto sul marciapiede: no",
+   "Solo danni: libera la strada"
+  ]
+ },
+ "q24771": {
+  "short": "Il triangolo è obbligatorio soprattutto fuori dai centri abitati. In città non sempre, quindi «anche in città» come obbligo è sbagliato.",
+  "rule": "Il triangolo (segnale mobile di pericolo) va SULLA STRADA dietro al veicolo fermo sulla carreggiata, di giorno e di notte, a buona distanza. Fuori dai centri abitati è obbligatorio; in città non sempre.",
+  "trap": "«anche nei centri abitati» trasforma un obbligo di fuori città in un obbligo generale.",
+  "caption": "In città il triangolo non sempre è obbligatorio",
+  "lines": [
+   "Veicolo fermo dopo un incidente",
+   "Fuori città: triangolo obbligatorio",
+   "In città: non sempre"
+  ]
+ },
+ "q24772": {
+  "short": "La pompa di iniezione è un pezzo preciso e complesso. Solo un'officina specializzata deve fare la manutenzione.",
+  "rule": "Il veicolo deve restare come è stato omologato: niente riparazioni fai da te su parti complesse, niente modifiche a cilindrata o centralina, e ogni guasto va riparato subito. Una spia sempre accesa indica un problema.",
+  "trap": "«personalmente» è la trappola: è un lavoro da specialisti.",
+  "caption": "Pompa di iniezione: solo in officina",
+  "lines": [
+   "La pompa di iniezione va controllata",
+   "Fai da te: no",
+   "Vai in un'officina specializzata"
+  ]
+ },
+ "q24773": {
+  "short": "Durante il tempo di reazione l'auto va ancora alla stessa velocità. Più vai veloce, più metri fai prima di frenare.",
+  "rule": "Spazio di reazione = velocità x tempo di reazione. Se la velocità sale, sale anche lo spazio percorso prima di frenare.",
+  "trap": "«non varia» è sbagliato: cresce con la velocità.",
+  "caption": "Più veloce = più spazio di reazione",
+  "lines": [
+   "Vedi un pericolo e reagisci",
+   "L'auto corre ancora",
+   "Più velocità = più metri"
+  ]
+ },
+ "q24774": {
+  "short": "La spia rossa dell'olio si spegne dopo l'avvio. Se resta accesa la pressione dell'olio è bassa: fermati e controlla.",
+  "rule": "Il veicolo deve restare come è stato omologato: niente riparazioni fai da te su parti complesse, niente modifiche a cilindrata o centralina, e ogni guasto va riparato subito. Una spia sempre accesa indica un problema.",
+  "trap": "«costantemente accesa» indica un guasto, non un motore che va bene.",
+  "caption": "Spia rossa olio accesa = problema",
+  "lines": [
+   "Spia rossa dell'olio accesa",
+   "Motore a posto: no",
+   "Fermati e controlla l'olio"
+  ]
+ },
+ "q24775": {
+  "short": "Il veicolo deve restare come è stato omologato e come scritto sul libretto. Cambiare la cilindrata non è libero.",
+  "rule": "Il veicolo deve restare come è stato omologato: niente riparazioni fai da te su parti complesse, niente modifiche a cilindrata o centralina, e ogni guasto va riparato subito. Una spia sempre accesa indica un problema.",
+  "trap": "«è consentito» è sbagliato: cambiare la «cilindrata» modifica il veicolo omologato.",
+  "caption": "Niente modifiche alla cilindrata",
+  "lines": [
+   "Motore più grande per più potenza",
+   "Consentito: no",
+   "L'auto deve restare omologata"
+  ]
+ },
+ "q24776": {
+  "short": "Con freni squilibrati l'auto tira da un lato in frenata. In emergenza non riesci a correggere: i freni vanno riparati.",
+  "rule": "Il veicolo deve restare come è stato omologato: niente riparazioni fai da te su parti complesse, niente modifiche a cilindrata o centralina, e ogni guasto va riparato subito. Una spia sempre accesa indica un problema.",
+  "trap": "«non è necessario» è la trappola: i freni squilibrati vanno sempre sistemati.",
+  "caption": "Freni squilibrati: vanno riparati",
+  "lines": [
+   "L'auto tira da un lato in frenata",
+   "Correggere con lo sterzo: no",
+   "Fai riparare i freni"
+  ]
+ },
+ "q24777": {
+  "short": "Su strada scivolosa una frenata forte blocca le ruote e l'auto scivola. Frena piano e in modo graduale.",
+  "rule": "Su strada scivolosa frena piano e in modo graduale, tieni più distanza e vai più piano. Una frenata forte blocca le ruote.",
+  "trap": "«premere a fondo» è la trappola: fa slittare, non dà aderenza.",
+  "caption": "Strada scivolosa: frena dolcemente",
+  "lines": [
+   "Strada bagnata e scivolosa",
+   "Freno premuto a fondo: no",
+   "Frena piano e gradualmente"
+  ]
+ },
+ "q24778": {
+  "short": "Modificare la centralina cambia il veicolo omologato, le emissioni e la sicurezza. Non è consentito.",
+  "rule": "Il veicolo deve restare come è stato omologato: niente riparazioni fai da te su parti complesse, niente modifiche a cilindrata o centralina, e ogni guasto va riparato subito. Una spia sempre accesa indica un problema.",
+  "trap": "«è consentito» è sbagliato: modificare la «centralina» è vietato.",
+  "caption": "Niente modifiche alla centralina",
+  "lines": [
+   "Riprogrammare la centralina",
+   "Consentito: no",
+   "L'auto deve restare omologata"
+  ]
+ },
+ "q24779": {
+  "short": "Dal lato del marciapiede il passeggero è lontano dalle auto, quindi è il lato più sicuro.",
+  "rule": "I passeggeri salgono e scendono solo a veicolo fermo, dal lato del marciapiede (o lontano dal traffico), aprendo la portiera solo se non è pericoloso per gli altri. I bambini con il controllo di un adulto. Nessuna portiera è senza rischi.",
+  "trap": "«dal lato opposto al traffico» è giusto quando manca il marciapiede.",
+  "caption": "Scendi dal lato del marciapiede",
+  "lines": [
+   "Il passeggero scende",
+   "Usa il lato del marciapiede",
+   "Senza marciapiede: lato senza traffico"
+  ]
+ },
+ "q24780": {
+  "short": "Una portiera aperta può colpire una bici, una moto o un pedone. Guarda prima e apri solo se non arriva nessuno.",
+  "rule": "I passeggeri salgono e scendono solo a veicolo fermo, dal lato del marciapiede (o lontano dal traffico), aprendo la portiera solo se non è pericoloso per gli altri. I bambini con il controllo di un adulto. Nessuna portiera è senza rischi.",
+  "trap": "«solamente» qui è giusto: si apre solo quando è sicuro.",
+  "caption": "Apri la portiera solo se è sicuro",
+  "lines": [
+   "Il passeggero scende",
+   "Specchietto: arriva una bici?",
+   "Apri solo se è libero"
+  ]
+ },
+ "q24781": {
+  "short": "Salire o scendere da un'auto che si muove può far cadere. Aspetta che l'auto sia del tutto ferma.",
+  "rule": "I passeggeri salgono e scendono solo a veicolo fermo, dal lato del marciapiede (o lontano dal traffico), aprendo la portiera solo se non è pericoloso per gli altri. I bambini con il controllo di un adulto. Nessuna portiera è senza rischi.",
+  "trap": "«completamente fermo» è giusto: «quasi fermo» non basta.",
+  "caption": "Aspetta che l'auto sia del tutto ferma",
+  "lines": [
+   "L'auto si muove ancora",
+   "Il passeggero aspetta",
+   "Scende solo a veicolo fermo"
+  ]
+ },
+ "q24782": {
+  "short": "I bambini possono aprire la portiera senza guardare o correre in strada. Un adulto deve controllarli.",
+  "rule": "I passeggeri salgono e scendono solo a veicolo fermo, dal lato del marciapiede (o lontano dal traffico), aprendo la portiera solo se non è pericoloso per gli altri. I bambini con il controllo di un adulto. Nessuna portiera è senza rischi.",
+  "trap": "«controllo di un adulto» è un buon consiglio, ed è giusto.",
+  "caption": "Il bambino scende con un adulto",
+  "lines": [
+   "Il bambino scende dall'auto",
+   "Un adulto controlla e aiuta",
+   "Lato marciapiede, portiera sicura"
+  ]
+ },
+ "q24783": {
+  "short": "Anche la portiera destra può colpire una bici, uno scooter che passa a destra o un pedone. Nessuna portiera è senza rischi.",
+  "rule": "I passeggeri salgono e scendono solo a veicolo fermo, dal lato del marciapiede (o lontano dal traffico), aprendo la portiera solo se non è pericoloso per gli altri. I bambini con il controllo di un adulto. Nessuna portiera è senza rischi.",
+  "trap": "«priva di qualsiasi rischio» è la trappola: un rischio c'è sempre.",
+  "caption": "La portiera destra non è senza rischi",
+  "lines": [
+   "Il passeggero apre a destra",
+   "Può passare una bici o moto",
+   "Guarda sempre prima di aprire"
+  ]
+ },
+ "q24784": {
+  "short": "La ruota che slitta non ha presa. Legno o un tappetino sotto la ruota le danno presa e l'auto si muove.",
+  "rule": "Se le ruote slittano su neve o sabbia, metti sotto la ruota qualcosa che fa attrito (legno, tappetini) e prova a partire con una marcia più alta, che slitta meno. Il ghiaccio dà ancora meno aderenza della neve.",
+  "trap": "«qualcosa che faccia attrito» è l'idea giusta.",
+  "caption": "Legno o tappetini sotto la ruota",
+  "lines": [
+   "Auto bloccata su neve o sabbia",
+   "La ruota gira senza presa",
+   "Legno o tappetino sotto la ruota"
+  ]
+ },
+ "q24785": {
+  "short": "La prima marcia dà molta forza alle ruote e slittano. Una marcia più alta dà meno forza: le ruote slittano meno.",
+  "rule": "Se le ruote slittano su neve o sabbia, metti sotto la ruota qualcosa che fa attrito (legno, tappetini) e prova a partire con una marcia più alta, che slitta meno. Il ghiaccio dà ancora meno aderenza della neve.",
+  "trap": "«marcia superiore» sembra strano ma è giusto: meno forza, meno slittamento.",
+  "caption": "Bloccato: parti in seconda",
+  "lines": [
+   "Bloccato, in prima le ruote slittano",
+   "Metti una marcia più alta",
+   "Meno forza, meno slittamento"
+  ]
+ },
+ "q24786": {
+  "short": "Il ghiaccio è il fondo più scivoloso. La neve dà poca aderenza, ma il ghiaccio ancora meno.",
+  "rule": "Se le ruote slittano su neve o sabbia, metti sotto la ruota qualcosa che fa attrito (legno, tappetini) e prova a partire con una marcia più alta, che slitta meno. Il ghiaccio dà ancora meno aderenza della neve.",
+  "trap": "«minore» è al contrario: sulla neve l'aderenza è maggiore che sul ghiaccio.",
+  "caption": "Sul ghiaccio meno aderenza che sulla neve",
+  "lines": [
+   "Strada innevata: poca aderenza",
+   "Strada ghiacciata: ancora meno",
+   "Il ghiaccio è il più scivoloso"
+  ]
+ },
+ "q24787": {
+  "short": "Ad alta velocità serve molto più spazio per fermarsi, quindi si tampona più facilmente.",
+  "rule": "I tamponamenti avvengono soprattutto per velocità alta, distanza di sicurezza non rispettata e distrazione. Non dipendono dal freno a mano o dal servosterzo.",
+  "trap": "«forte velocità» è davvero una delle cause principali.",
+  "caption": "La velocità causa i tamponamenti",
+  "lines": [
+   "L'auto davanti frena",
+   "Velocità alta: frenata lunga",
+   "Tamponamento"
+  ]
+ },
+ "q24788": {
+  "short": "Troppo vicino all'auto davanti non hai spazio per fermarti quando frena.",
+  "rule": "I tamponamenti avvengono soprattutto per velocità alta, distanza di sicurezza non rispettata e distrazione. Non dipendono dal freno a mano o dal servosterzo.",
+  "trap": "«distanza di sicurezza» non rispettata è una causa vera.",
+  "caption": "Rispetta la distanza di sicurezza",
+  "lines": [
+   "Troppo vicino all'auto davanti",
+   "L'auto davanti frena",
+   "Niente spazio: tamponamento"
+  ]
+ },
+ "q24789": {
+  "short": "Un conducente distratto vede tardi l'auto davanti che frena.",
+  "rule": "I tamponamenti avvengono soprattutto per velocità alta, distanza di sicurezza non rispettata e distrazione. Non dipendono dal freno a mano o dal servosterzo.",
+  "trap": "«disattenzione» è davvero una delle cause principali.",
+  "caption": "La distrazione causa i tamponamenti",
+  "lines": [
+   "Il conducente guarda il telefono",
+   "L'auto davanti frena",
+   "Reagisce tardi: tamponamento"
+  ]
+ },
+ "q24790": {
+  "short": "Il freno di stazionamento (freno a mano) tiene ferma l'auto parcheggiata. Il suo guasto non causa i tamponamenti.",
+  "rule": "I tamponamenti avvengono soprattutto per velocità alta, distanza di sicurezza non rispettata e distrazione. Non dipendono dal freno a mano o dal servosterzo.",
+  "trap": "«freno di stazionamento» è la causa sbagliata.",
+  "caption": "Non il freno a mano: velocità, distanza, distrazione",
+  "lines": [
+   "Guasto al freno a mano: no",
+   "Cause vere: velocità, distanza",
+   "e distrazione"
+  ]
+ },
+ "q24791": {
+  "short": "Il servosterzo rende solo lo sterzo più leggero. Non c'entra con i tamponamenti.",
+  "rule": "I tamponamenti avvengono soprattutto per velocità alta, distanza di sicurezza non rispettata e distrazione. Non dipendono dal freno a mano o dal servosterzo.",
+  "trap": "«servosterzo» non c'entra.",
+  "caption": "Il servosterzo non c'entra",
+  "lines": [
+   "Servosterzo: non è la causa",
+   "Cause vere: velocità, distanza",
+   "e distrazione"
+  ]
+ },
+ "q24792": {
+  "short": "Auto molto vicine fanno passare il fuoco da una all'altra. Più spazio rallenta l'incendio.",
+  "rule": "In una lunga galleria, in coda tieni più distanza perché un incendio non si allarghi. In caso di incendio lascia subito l'auto, segui i cartelli verso le uscite di sicurezza e ubbidisci agli ordini a voce del personale e dei vigili del fuoco: i loro ordini vengono prima.",
+  "trap": "«aumentare la distanza» è giusto in coda in galleria.",
+  "caption": "Coda in galleria: più distanza",
+  "lines": [
+   "Coda in una lunga galleria",
+   "Lascia più spazio",
+   "Il fuoco si allarga meno"
+  ]
+ },
+ "q24793": {
+  "short": "Il fumo riempie la galleria molto in fretta. Lascia subito l'auto e vai a piedi verso le uscite indicate.",
+  "rule": "In una lunga galleria, in coda tieni più distanza perché un incendio non si allarghi. In caso di incendio lascia subito l'auto, segui i cartelli verso le uscite di sicurezza e ubbidisci agli ordini a voce del personale e dei vigili del fuoco: i loro ordini vengono prima.",
+  "trap": "«abbandonare velocemente il veicolo» è giusto: non restare dentro.",
+  "caption": "Incendio: lascia l'auto, segui le uscite",
+  "lines": [
+   "Incendio in galleria",
+   "Lascia subito l'auto",
+   "Segui i cartelli delle uscite"
+  ]
+ },
+ "q24794": {
+  "short": "Il personale e i vigili del fuoco sanno dove sono fuoco e fumo: i loro ordini a voce ti proteggono.",
+  "rule": "In una lunga galleria, in coda tieni più distanza perché un incendio non si allarghi. In caso di incendio lascia subito l'auto, segui i cartelli verso le uscite di sicurezza e ubbidisci agli ordini a voce del personale e dei vigili del fuoco: i loro ordini vengono prima.",
+  "trap": "«istruzioni vocali» del personale e dei vigili vanno seguite.",
+  "caption": "Ubbidisci a personale e vigili del fuoco",
+  "lines": [
+   "Incendio in galleria",
+   "Ascolta personale e vigili",
+   "Vai dove dicono loro"
+  ]
+ },
+ "q24798": {
+  "short": "I vigili del fuoco vedono la situazione reale, quindi i loro ordini valgono più dei cartelli.",
+  "rule": "In una lunga galleria, in coda tieni più distanza perché un incendio non si allarghi. In caso di incendio lascia subito l'auto, segui i cartelli verso le uscite di sicurezza e ubbidisci agli ordini a voce del personale e dei vigili del fuoco: i loro ordini vengono prima.",
+  "trap": "«anche se in netto contrasto» è la trappola: vincono gli ordini dei vigili.",
+  "caption": "Gli ordini dei vigili valgono più dei cartelli",
+  "lines": [
+   "Incendio in galleria",
+   "Cartelli contro ordini dei vigili",
+   "Ubbidisci ai vigili"
+  ]
+ },
+ "q24799": {
+  "short": "Vista di fronte la moto è stretta, quindi gli altri la notano tardi.",
+  "rule": "Le moto sono strette, quindi si vedono meno da lontano: attenzione agli incroci, quando apri la portiera e in coda (possono passare a destra), e lascia molto spazio di lato quando le sorpassi. Le moto hanno sempre gli anabbaglianti accesi, anche di giorno. Il rumore non le rende più visibili, l'abbigliamento sì.",
+  "trap": "«meno visibili» è giusto.",
+  "caption": "Le moto si vedono poco da lontano",
+  "lines": [
+   "Moto che arriva da lontano",
+   "Sagoma frontale stretta",
+   "Si vede poco: guarda bene"
+  ]
+ },
+ "q24800": {
+  "short": "Le moto si vedono poco, quindi chi guida l'auto deve cercarle con attenzione.",
+  "rule": "Le moto sono strette, quindi si vedono meno da lontano: attenzione agli incroci, quando apri la portiera e in coda (possono passare a destra), e lascia molto spazio di lato quando le sorpassi. Le moto hanno sempre gli anabbaglianti accesi, anche di giorno. Il rumore non le rende più visibili, l'abbigliamento sì.",
+  "trap": "«in generale» è giusto: serve sempre più attenzione.",
+  "caption": "Attenzione alle moto",
+  "lines": [
+   "Le moto si vedono poco",
+   "Chi guida l'auto guarda bene",
+   "Specchietti e angolo cieco"
+  ]
+ },
+ "q24801": {
+  "short": "Una moto che passa vicino a un'auto ferma può urtare la portiera. Guarda lo specchietto prima di aprire.",
+  "rule": "Le moto sono strette, quindi si vedono meno da lontano: attenzione agli incroci, quando apri la portiera e in coda (possono passare a destra), e lascia molto spazio di lato quando le sorpassi. Le moto hanno sempre gli anabbaglianti accesi, anche di giorno. Il rumore non le rende più visibili, l'abbigliamento sì.",
+  "trap": "«nell'aprire le portiere» è un momento di vero pericolo, quindi è giusto.",
+  "caption": "Guarda se arriva una moto prima di aprire",
+  "lines": [
+   "Auto ferma, portiera da aprire",
+   "Una moto passa vicino",
+   "Prima guarda lo specchietto"
+  ]
+ },
+ "q24802": {
+  "short": "Una moto può superare la fila di auto ferme e comparire all'improvviso all'incrocio. Aspettatela sempre.",
+  "rule": "Le moto sono strette, quindi si vedono meno da lontano: attenzione agli incroci, quando apri la portiera e in coda (possono passare a destra), e lascia molto spazio di lato quando le sorpassi. Le moto hanno sempre gli anabbaglianti accesi, anche di giorno. Il rumore non le rende più visibili, l'abbigliamento sì.",
+  "trap": "«sempre» qui è giusto: questo pericolo può esserci a ogni incrocio.",
+  "caption": "Aspettati una moto che supera la coda",
+  "lines": [
+   "Incrocio, auto ferme in fila",
+   "Una moto supera la fila",
+   "Pensaci prima di attraversare"
+  ]
+ },
+ "q24803": {
+  "short": "In coda gli scooter passano spesso a destra, vicino alle auto in sosta. Guarda prima di aprire la portiera.",
+  "rule": "Le moto sono strette, quindi si vedono meno da lontano: attenzione agli incroci, quando apri la portiera e in coda (possono passare a destra), e lascia molto spazio di lato quando le sorpassi. Le moto hanno sempre gli anabbaglianti accesi, anche di giorno. Il rumore non le rende più visibili, l'abbigliamento sì.",
+  "trap": "«sorpassando a destra» è proprio ciò che fanno gli scooter in coda, quindi è giusto.",
+  "caption": "Gli scooter passano a destra: guarda",
+  "lines": [
+   "Traffico intenso, auto in coda",
+   "Uno scooter passa a destra",
+   "Guarda prima di aprire"
+  ]
+ },
+ "q24804": {
+  "short": "La moto può spostarsi di lato per vento o buche, e lo spostamento d'aria di un'auto veloce la spinge. Lascia molto spazio.",
+  "rule": "Le moto sono strette, quindi si vedono meno da lontano: attenzione agli incroci, quando apri la portiera e in coda (possono passare a destra), e lascia molto spazio di lato quando le sorpassi. Le moto hanno sempre gli anabbaglianti accesi, anche di giorno. Il rumore non le rende più visibili, l'abbigliamento sì.",
+  "trap": "«distanza laterale» è la chiave: lascia molto spazio alle moto.",
+  "caption": "Molto spazio di lato quando sorpassi una moto",
+  "lines": [
+   "Sorpasso di una moto",
+   "Lascia molto spazio di lato",
+   "Più velocità, più spazio"
+  ]
+ },
+ "q24805": {
+  "short": "Le moto devono sempre avere gli anabbaglianti accesi, di giorno e di notte, per farsi vedere meglio.",
+  "rule": "Le moto sono strette, quindi si vedono meno da lontano: attenzione agli incroci, quando apri la portiera e in coda (possono passare a destra), e lascia molto spazio di lato quando le sorpassi. Le moto hanno sempre gli anabbaglianti accesi, anche di giorno. Il rumore non le rende più visibili, l'abbigliamento sì.",
+  "trap": "«anche di giorno» è giusto per le moto.",
+  "caption": "Moto: anabbaglianti di giorno e di notte",
+  "lines": [
+   "Moto in strada di giorno",
+   "Anabbaglianti accesi",
+   "Gli altri la vedono meglio"
+  ]
+ },
+ "q24806": {
+  "short": "In città il clacson è permesso solo per evitare un pericolo immediato. I motociclisti non hanno un diritto speciale agli incroci.",
+  "rule": "Nei centri abitati il clacson si usa solo per un pericolo reale e immediato, per tutti, anche per i motociclisti.",
+  "trap": "«in ogni caso» è la trappola: il clacson è solo per un vero pericolo.",
+  "caption": "In città clacson solo per un pericolo",
+  "lines": [
+   "Moto in città a un incrocio",
+   "Clacson «in ogni caso»: no",
+   "Clacson solo per un pericolo"
+  ]
+ },
+ "q24808": {
+  "short": "Dove servono le catene con la neve, i veicoli a due ruote non sono sicuri e non possono montarle: non possono circolare.",
+  "rule": "Dove le catene sono obbligatorie e nevica, i veicoli a due ruote non possono circolare su quella strada.",
+  "trap": "«comunque concesso» è la trappola: le due ruote devono restare fuori.",
+  "caption": "Catene obbligatorie e neve: niente due ruote",
+  "lines": [
+   "Strada con obbligo di catene",
+   "Sta nevicando",
+   "Le due ruote non circolano"
+  ]
+ },
+ "q24809": {
+  "short": "Il rumore non rende la moto facile da vedere. In auto spesso non si sente, e resta difficile da notare.",
+  "rule": "Le moto sono strette, quindi si vedono meno da lontano: attenzione agli incroci, quando apri la portiera e in coda (possono passare a destra), e lascia molto spazio di lato quando le sorpassi. Le moto hanno sempre gli anabbaglianti accesi, anche di giorno. Il rumore non le rende più visibili, l'abbigliamento sì.",
+  "trap": "«perché più rumorosi» è il motivo falso.",
+  "caption": "Il rumore non rende visibili le moto",
+  "lines": [
+   "La moto è rumorosa",
+   "In auto spesso non si sente",
+   "Resta difficile da vedere"
+  ]
+ },
+ "q24810": {
+  "short": "Una sagoma frontale stretta li rende MENO visibili, non di più.",
+  "rule": "Le moto sono strette, quindi si vedono meno da lontano: attenzione agli incroci, quando apri la portiera e in coda (possono passare a destra), e lascia molto spazio di lato quando le sorpassi. Le moto hanno sempre gli anabbaglianti accesi, anche di giorno. Il rumore non le rende più visibili, l'abbigliamento sì.",
+  "trap": "«più visibili» è al contrario: sono meno visibili.",
+  "caption": "Sagoma stretta = MENO visibili",
+  "lines": [
+   "Moto vista da lontano",
+   "Sagoma frontale stretta",
+   "Meno visibile, non di più"
+  ]
+ },
+ "q24811": {
+  "short": "Gli abbaglianti abbagliano chi arriva. Come tutti, le moto li usano solo quando è permesso, non in ogni caso.",
+  "rule": "Di notte le moto usano gli anabbaglianti; gli abbaglianti solo fuori città quando non abbagliano nessuno.",
+  "trap": "«in ogni caso» è la trappola: gli abbaglianti abbagliano gli altri.",
+  "caption": "Di notte non abbaglianti «in ogni caso»",
+  "lines": [
+   "Moto di notte",
+   "Abbaglianti sempre: no",
+   "Anabbaglianti; abbaglianti se possibile"
+  ]
+ },
+ "q24812": {
+  "short": "Vestiti chiari o rifrangenti rendono il motociclista più visibile; vestiti scuri lo nascondono.",
+  "rule": "Le moto sono strette, quindi si vedono meno da lontano: attenzione agli incroci, quando apri la portiera e in coda (possono passare a destra), e lascia molto spazio di lato quando le sorpassi. Le moto hanno sempre gli anabbaglianti accesi, anche di giorno. Il rumore non le rende più visibili, l'abbigliamento sì.",
+  "trap": "«non incide» è sbagliato: l'abbigliamento conta molto.",
+  "caption": "Vestiti chiari rendono visibili",
+  "lines": [
+   "Vestiti scuri: si vede poco",
+   "Vestiti chiari e rifrangenti",
+   "Si vede molto prima"
+  ]
+ },
+ "q24813": {
+  "short": "Le rotaie del tram sono lisci e scivolosi, quindi una moto può perdere aderenza.",
+  "rule": "Per i veicoli a due ruote, rotaie del tram, strisce pedonali e tombini sono scivolosi, soprattutto se bagnati. Passaci sopra piano e dritto, senza frenare o accelerare forte, e mai dentro il solco della rotaia.",
+  "trap": "«può essere pericoloso» è giusto.",
+  "caption": "Rotaie del tram: pericolo per le moto",
+  "lines": [
+   "Rotaie del tram sulla strada",
+   "Scivolosi per le due ruote",
+   "Passaci sopra con prudenza"
+  ]
+ },
+ "q24814": {
+  "short": "Le strisce dipinte sono lisce e scivolose, quindi una moto può perdere aderenza.",
+  "rule": "Per i veicoli a due ruote, rotaie del tram, strisce pedonali e tombini sono scivolosi, soprattutto se bagnati. Passaci sopra piano e dritto, senza frenare o accelerare forte, e mai dentro il solco della rotaia.",
+  "trap": "«può essere pericoloso» è giusto.",
+  "caption": "Strisce pedonali: scivolose in moto",
+  "lines": [
+   "Strisce pedonali dipinte",
+   "Scivolosi per le due ruote",
+   "Passaci sopra con prudenza"
+  ]
+ },
+ "q24815": {
+  "short": "I tombini sono lisci e scivolosi, quindi una moto può perdere aderenza.",
+  "rule": "Per i veicoli a due ruote, rotaie del tram, strisce pedonali e tombini sono scivolosi, soprattutto se bagnati. Passaci sopra piano e dritto, senza frenare o accelerare forte, e mai dentro il solco della rotaia.",
+  "trap": "«può essere pericoloso» è giusto.",
+  "caption": "Tombini: pericolo per le moto",
+  "lines": [
+   "Tombino sulla strada",
+   "Scivolosi per le due ruote",
+   "Passaci sopra con prudenza"
+  ]
+ },
+ "q24816": {
+  "short": "L'acqua su metallo liscio o vernice toglie quasi tutta l'aderenza: con il bagnato il pericolo è molto più grande.",
+  "rule": "Per i veicoli a due ruote, rotaie del tram, strisce pedonali e tombini sono scivolosi, soprattutto se bagnati. Passaci sopra piano e dritto, senza frenare o accelerare forte, e mai dentro il solco della rotaia.",
+  "trap": "«quando il fondo stradale è bagnato» è il momento di più pericolo: giusto.",
+  "caption": "Rotaie bagnate: molto scivolose",
+  "lines": [
+   "Rotaie del tram sotto la pioggia",
+   "Strada bagnata: molto scivolosa",
+   "Rallenta, stai dritto"
+  ]
+ },
+ "q24817": {
+  "short": "L'acqua su metallo liscio o vernice toglie quasi tutta l'aderenza: con il bagnato il pericolo è molto più grande.",
+  "rule": "Per i veicoli a due ruote, rotaie del tram, strisce pedonali e tombini sono scivolosi, soprattutto se bagnati. Passaci sopra piano e dritto, senza frenare o accelerare forte, e mai dentro il solco della rotaia.",
+  "trap": "«quando il fondo stradale è bagnato» è il momento di più pericolo: giusto.",
+  "caption": "Strisce bagnate: molto scivolose",
+  "lines": [
+   "Strisce pedonali sotto la pioggia",
+   "Strada bagnata: molto scivolosa",
+   "Rallenta, stai dritto"
+  ]
+ },
+ "q24818": {
+  "short": "L'acqua su metallo liscio o vernice toglie quasi tutta l'aderenza: con il bagnato il pericolo è molto più grande.",
+  "rule": "Per i veicoli a due ruote, rotaie del tram, strisce pedonali e tombini sono scivolosi, soprattutto se bagnati. Passaci sopra piano e dritto, senza frenare o accelerare forte, e mai dentro il solco della rotaia.",
+  "trap": "«quando il fondo stradale è bagnato» è il momento di più pericolo: giusto.",
+  "caption": "Tombini bagnati: molto scivolosi",
+  "lines": [
+   "Tombino sotto la pioggia",
+   "Strada bagnata: molto scivolosa",
+   "Rallenta, stai dritto"
+  ]
+ },
+ "q24819": {
+  "short": "Su questi punti scivolosi la ruota bagnata si blocca facilmente in frenata e la moto cade. Frena prima o dopo, non sopra.",
+  "rule": "Per i veicoli a due ruote, rotaie del tram, strisce pedonali e tombini sono scivolosi, soprattutto se bagnati. Passaci sopra piano e dritto, senza frenare o accelerare forte, e mai dentro il solco della rotaia.",
+  "trap": "«la frenata è particolarmente pericolosa» è giusto.",
+  "caption": "Non frenare su rotaie, strisce o tombini",
+  "lines": [
+   "Strada bagnata, in moto",
+   "Ruote su rotaie, strisce, tombini",
+   "Non frenare lì"
+  ]
+ },
+ "q24820": {
+  "short": "In velocità la ruota scivola o viene deviata da rotaie e tombini, e si può sbandare o cadere. Rallenta prima.",
+  "rule": "Per i veicoli a due ruote, rotaie del tram, strisce pedonali e tombini sono scivolosi, soprattutto se bagnati. Passaci sopra piano e dritto, senza frenare o accelerare forte, e mai dentro il solco della rotaia.",
+  "trap": "«in velocità» è il pericolo, e la frase è giusta.",
+  "caption": "Veloce su rotaie o tombini: sbandi",
+  "lines": [
+   "Moto veloce sulle rotaie",
+   "Perde aderenza e controllo",
+   "Sbanda o cade: rallenta"
+  ]
+ },
+ "q24821": {
+  "short": "Rotaie e tombini sono scivolosi e possono bloccare la ruota: sono un vero pericolo per le moto.",
+  "rule": "Per i veicoli a due ruote, rotaie del tram, strisce pedonali e tombini sono scivolosi, soprattutto se bagnati. Passaci sopra piano e dritto, senza frenare o accelerare forte, e mai dentro il solco della rotaia.",
+  "trap": "«non costituiscono un pericolo» è sbagliato.",
+  "caption": "Rotaie e tombini SONO un pericolo",
+  "lines": [
+   "Rotaie del tram e tombini",
+   "Nessun pericolo: sbagliato",
+   "Scivolosi per le due ruote"
+  ]
+ },
+ "q24822": {
+  "short": "Un'accelerazione forte fa slittare la ruota bagnata. Passaci sopra piano e in modo regolare.",
+  "rule": "Per i veicoli a due ruote, rotaie del tram, strisce pedonali e tombini sono scivolosi, soprattutto se bagnati. Passaci sopra piano e dritto, senza frenare o accelerare forte, e mai dentro il solco della rotaia.",
+  "trap": "«accelerare decisamente» è la trappola: fa slittare.",
+  "caption": "Non accelerare forte sulle rotaie bagnate",
+  "lines": [
+   "Pioggia: moto su rotaie/tombini",
+   "Accelerare forte: no",
+   "Piano, dritto, niente scatti"
+  ]
+ },
+ "q24823": {
+  "short": "Stare in piedi rende la moto meno stabile e non aiuta. Resta seduto, dritto e calmo.",
+  "rule": "Per i veicoli a due ruote, rotaie del tram, strisce pedonali e tombini sono scivolosi, soprattutto se bagnati. Passaci sopra piano e dritto, senza frenare o accelerare forte, e mai dentro il solco della rotaia.",
+  "trap": "«alzarsi in piedi sulle pedivelle» è un trucco inutile e rischioso.",
+  "caption": "Non alzarti in piedi sulle pedane",
+  "lines": [
+   "Pioggia: moto su rotaie/tombini",
+   "In piedi sulle pedane: no",
+   "Piano, dritto, niente scatti"
+  ]
+ },
+ "q24824": {
+  "short": "L'impennata è pericolosa e fa perdere il controllo. Le due ruote passano sopra piano e in linea.",
+  "rule": "Per i veicoli a due ruote, rotaie del tram, strisce pedonali e tombini sono scivolosi, soprattutto se bagnati. Passaci sopra piano e dritto, senza frenare o accelerare forte, e mai dentro il solco della rotaia.",
+  "trap": "«in impennata» è la trappola: è una manovra pericolosa.",
+  "caption": "Niente impennate sulle rotaie",
+  "lines": [
+   "Pioggia: moto su rotaie/tombini",
+   "Impennata: no",
+   "Piano, dritto, niente scatti"
+  ]
+ },
+ "q24825": {
+  "short": "Rotaie e tombini sono scivolosi per tutte le moto, con qualsiasi cambio.",
+  "rule": "Per i veicoli a due ruote, rotaie del tram, strisce pedonali e tombini sono scivolosi, soprattutto se bagnati. Passaci sopra piano e dritto, senza frenare o accelerare forte, e mai dentro il solco della rotaia.",
+  "trap": "«nella sola eventualità» è la trappola: il cambio non c'entra.",
+  "caption": "Pericolo per tutte le moto, ogni cambio",
+  "lines": [
+   "Rotaie e tombini",
+   "Solo col cambio automatico: no",
+   "Pericolo per tutte le due ruote"
+  ]
+ },
+ "q24826": {
+  "short": "La ruota può incastrarsi nel solco della rotaia e non si riesce a sterzare: si cade. Stai lontano dal solco.",
+  "rule": "Per i veicoli a due ruote, rotaie del tram, strisce pedonali e tombini sono scivolosi, soprattutto se bagnati. Passaci sopra piano e dritto, senza frenare o accelerare forte, e mai dentro il solco della rotaia.",
+  "trap": "«nel solco della rotaia» è la trappola: blocca la ruota.",
+  "caption": "Mai dentro il solco della rotaia",
+  "lines": [
+   "Strada con il tram",
+   "Ruote nel solco: no",
+   "Viaggia accanto alle rotaie"
+  ]
+ }
+}

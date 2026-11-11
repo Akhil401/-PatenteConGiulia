@@ -1,0 +1,720 @@
+{
+ "q23870": {
+  "short": "Fermarsi per far salire o scendere persone in autostrada è pericoloso: i passaggi sono vietati ovunque, anche nelle aree di servizio.",
+  "rule": "In autostrada e nelle sue aree non si chiedono e non si danno passaggi. Campeggio solo nelle aree apposite, commercio solo con autorizzazione, sosta nelle aree di servizio massimo 24 ore.",
+  "trap": "«in ogni altra pertinenza autostradale» rende il divieto completo: nessun posto dove i passaggi sono ammessi.",
+  "caption": "Niente passaggi in tutta l'autostrada",
+  "lines": [
+   "Autostrada, rampe, aree di servizio",
+   "Chiedere un passaggio: vietato",
+   "Dare un passaggio: vietato"
+  ]
+ },
+ "q23871": {
+  "short": "Le aree dell'autostrada appartengono all'ente proprietario. Nessuno può vendere senza il suo permesso.",
+  "rule": "In autostrada e nelle sue aree non si chiedono e non si danno passaggi. Campeggio solo nelle aree apposite, commercio solo con autorizzazione, sosta nelle aree di servizio massimo 24 ore.",
+  "trap": "«solo se autorizzate» è la chiave: il commercio non è libero, serve il permesso.",
+  "caption": "Commercio solo con permesso dell'ente",
+  "lines": [
+   "Area di servizio in autostrada",
+   "Vendere: solo con permesso",
+   "Permesso dell'ente proprietario"
+  ]
+ },
+ "q23872": {
+  "short": "In autostrada il campeggio libero è vietato. Si campeggia solo nelle aree apposite e per il tempo deciso dall'ente.",
+  "rule": "In autostrada e nelle sue aree non si chiedono e non si danno passaggi. Campeggio solo nelle aree apposite, commercio solo con autorizzazione, sosta nelle aree di servizio massimo 24 ore.",
+  "trap": "«solo nelle aree a ciò destinate» limita il permesso: il campeggio non è libero.",
+  "caption": "Campeggio solo nelle aree apposite",
+  "lines": [
+   "Aree autostradali",
+   "Campeggio solo nelle aree apposite",
+   "Solo per il tempo permesso"
+  ]
+ },
+ "q23873": {
+  "short": "Le aree di servizio servono per brevi pause, non sono un parcheggio. La sosta non può superare 24 ore.",
+  "rule": "In autostrada e nelle sue aree non si chiedono e non si danno passaggi. Campeggio solo nelle aree apposite, commercio solo con autorizzazione, sosta nelle aree di servizio massimo 24 ore.",
+  "trap": "«24 ore» è il numero giusto per le aree di servizio; non confonderlo con le tre ore della sosta di emergenza.",
+  "caption": "Area di servizio: sosta massimo 24 ore",
+  "lines": [
+   "Area di servizio in autostrada",
+   "Sosta: al massimo 24 ore"
+  ]
+ },
+ "q23874": {
+  "short": "Il divieto di passaggi in autostrada non ha eccezioni. Le persone invalide non sono un'eccezione.",
+  "rule": "In autostrada e nelle sue aree non si chiedono e non si danno passaggi. Campeggio solo nelle aree apposite, commercio solo con autorizzazione, sosta nelle aree di servizio massimo 24 ore.",
+  "trap": "«persone invalide» è un'eccezione inventata: il divieto vale per tutti.",
+  "caption": "Niente passaggi in autostrada, per nessuno",
+  "lines": [
+   "Autostrada: niente passaggi",
+   "Nessuna eccezione per invalidi"
+  ]
+ },
+ "q23875": {
+  "short": "Il divieto di passaggi vale in tutta l'autostrada, anche nelle aree di servizio e parcheggio.",
+  "rule": "In autostrada e nelle sue aree non si chiedono e non si danno passaggi. Campeggio solo nelle aree apposite, commercio solo con autorizzazione, sosta nelle aree di servizio massimo 24 ore.",
+  "trap": "«aree di servizio» sembrano un posto sicuro, ma anche lì i passaggi sono vietati.",
+  "caption": "Niente passaggi, anche nelle aree di servizio",
+  "lines": [
+   "Area di servizio in autostrada",
+   "Chiedere o dare passaggi: vietato"
+  ]
+ },
+ "q23876": {
+  "short": "Il campeggio non è libero. È ammesso solo nelle aree apposite e per un tempo stabilito.",
+  "rule": "In autostrada e nelle sue aree non si chiedono e non si danno passaggi. Campeggio solo nelle aree apposite, commercio solo con autorizzazione, sosta nelle aree di servizio massimo 24 ore.",
+  "trap": "La frase dice solo «consentito», senza il limite «solo nelle aree destinate».",
+  "caption": "Campeggio solo nelle aree apposite",
+  "lines": [
+   "Area di servizio o parcheggio",
+   "Campeggio libero: vietato",
+   "Solo nelle aree apposite"
+  ]
+ },
+ "q23877": {
+  "short": "Nelle aree di servizio il limite è 24 ore, non 3. Tre ore è il limite della sosta di emergenza.",
+  "rule": "In autostrada e nelle sue aree non si chiedono e non si danno passaggi. Campeggio solo nelle aree apposite, commercio solo con autorizzazione, sosta nelle aree di servizio massimo 24 ore.",
+  "trap": "«tre ore» è il numero della corsia di emergenza, non delle aree di servizio.",
+  "caption": "Area di servizio: 24 ore, non 3",
+  "lines": [
+   "Area di servizio: massimo 24 ore",
+   "3 ore = limite sosta di emergenza"
+  ]
+ },
+ "q23878": {
+  "short": "Sulle strade veloci fuori città l'auto deve essere ben visibile. Gli anabbaglianti restano accesi anche di giorno.",
+  "rule": "Su autostrade e strade extraurbane principali gli anabbaglianti devono essere sempre accesi, anche di giorno e con visibilità perfetta.",
+  "trap": "«anche di giorno» è giusto: le luci sono accese di giorno e di notte.",
+  "caption": "Anabbaglianti accesi anche di giorno",
+  "lines": [
+   "Autostrada o extraurbana principale",
+   "Anabbaglianti sempre accesi",
+   "Anche di giorno"
+  ]
+ },
+ "q23879": {
+  "short": "Lì gli anabbaglianti sono sempre obbligatori, anche con visibilità perfetta.",
+  "rule": "Su autostrade e strade extraurbane principali gli anabbaglianti devono essere sempre accesi, anche di giorno e con visibilità perfetta.",
+  "trap": "«facoltativo» è sbagliato: su queste strade le luci non sono mai facoltative.",
+  "caption": "Anabbaglianti obbligatori, non facoltativi",
+  "lines": [
+   "Autostrada, visibilità perfetta",
+   "Anabbaglianti comunque obbligatori"
+  ]
+ },
+ "q23880": {
+  "short": "Girarsi su una strada veloce è molto pericoloso. I varchi nello spartitraffico servono solo a polizia e soccorsi.",
+  "rule": "Su autostrade e extraurbane principali: niente inversione, niente attraversamento dello spartitraffico, niente contromano, niente retromarcia, neanche in emergenza. La corsia di emergenza serve solo per fermarsi in emergenza.",
+  "trap": "«anche all'altezza dei varchi» è giusto: un varco non rende permessa l'inversione.",
+  "caption": "Niente inversione, neanche nei varchi",
+  "lines": [
+   "Autostrada o extraurbana principale",
+   "Inversione: vietata",
+   "Attraversare lo spartitraffico: vietato"
+  ]
+ },
+ "q23881": {
+  "short": "Andare contromano su una strada veloce causa scontri frontali. È sempre vietato.",
+  "rule": "Su autostrade e extraurbane principali: niente inversione, niente attraversamento dello spartitraffico, niente contromano, niente retromarcia, neanche in emergenza. La corsia di emergenza serve solo per fermarsi in emergenza.",
+  "trap": "«o parte di essa» significa che anche un breve tratto contromano è vietato.",
+  "caption": "Mai contromano",
+  "lines": [
+   "Autostrada o extraurbana principale",
+   "Contromano: vietato"
+  ]
+ },
+ "q23882": {
+  "short": "Le auto arrivano veloci e non si aspettano un'auto in retromarcia. La retromarcia lì è vietata.",
+  "rule": "Su autostrade e extraurbane principali: niente inversione, niente attraversamento dello spartitraffico, niente contromano, niente retromarcia, neanche in emergenza. La corsia di emergenza serve solo per fermarsi in emergenza.",
+  "trap": "«retromarcia» è vietata anche se hai perso l'uscita: vai alla successiva.",
+  "caption": "Niente retromarcia: prendi l'uscita dopo",
+  "lines": [
+   "Autostrada o extraurbana principale",
+   "Retromarcia: vietata",
+   "Uscita persa? Prendi la successiva"
+  ]
+ },
+ "q23883": {
+  "short": "La corsia di emergenza serve proprio a questo: se l'auto si guasta, ti sposti lì e ti fermi.",
+  "rule": "Su autostrade e extraurbane principali: niente inversione, niente attraversamento dello spartitraffico, niente contromano, niente retromarcia, neanche in emergenza. La corsia di emergenza serve solo per fermarsi in emergenza.",
+  "trap": "«per arrestarsi per avaria» è il motivo giusto per usare la corsia di emergenza.",
+  "caption": "Guasto: vai nella corsia di emergenza",
+  "lines": [
+   "Autostrada o extraurbana principale",
+   "L'auto si guasta",
+   "Vai nella corsia di emergenza e fermati"
+  ]
+ },
+ "q23884": {
+  "short": "La retromarcia è vietata in tutta l'autostrada, e la corsia di emergenza ne fa parte.",
+  "rule": "Su autostrade e extraurbane principali: niente inversione, niente attraversamento dello spartitraffico, niente contromano, niente retromarcia, neanche in emergenza. La corsia di emergenza serve solo per fermarsi in emergenza.",
+  "trap": "La «corsia di emergenza» sembra sicura, ma anche lì la retromarcia è vietata.",
+  "caption": "Niente retromarcia nella corsia di emergenza",
+  "lines": [
+   "Corsia di emergenza in autostrada",
+   "Retromarcia: vietata"
+  ]
+ },
+ "q23885": {
+  "short": "Nessuna prudenza rende sicura un'inversione su queste strade. È sempre vietata.",
+  "rule": "Su autostrade e extraurbane principali: niente inversione, niente attraversamento dello spartitraffico, niente contromano, niente retromarcia, neanche in emergenza. La corsia di emergenza serve solo per fermarsi in emergenza.",
+  "trap": "«adottando tutti gli accorgimenti necessari» non rende permessa una manovra vietata.",
+  "caption": "Inversione vietata, anche con prudenza",
+  "lines": [
+   "Autostrada o extraurbana principale",
+   "Inversione: sempre vietata",
+   "La prudenza non basta"
+  ]
+ },
+ "q23886": {
+  "short": "Anche in emergenza non devi girarti. Ti fermi invece nella corsia di emergenza.",
+  "rule": "Su autostrade e extraurbane principali: niente inversione, niente attraversamento dello spartitraffico, niente contromano, niente retromarcia, neanche in emergenza. La corsia di emergenza serve solo per fermarsi in emergenza.",
+  "trap": "«in casi di particolare emergenza» è un'eccezione falsa: il divieto non ne ha.",
+  "caption": "Niente inversione, neanche in emergenza",
+  "lines": [
+   "Autostrada o extraurbana principale",
+   "Emergenza: fermati nella corsia apposita",
+   "Inversione: sempre vietata"
+  ]
+ },
+ "q23887": {
+  "short": "Lì andare contromano è vietato, anche per pochi metri.",
+  "rule": "Su autostrade e extraurbane principali: niente inversione, niente attraversamento dello spartitraffico, niente contromano, niente retromarcia, neanche in emergenza. La corsia di emergenza serve solo per fermarsi in emergenza.",
+  "trap": "«per brevi tratti» è il trucco: anche un tratto breve è vietato.",
+  "caption": "Mai contromano, neanche per poco",
+  "lines": [
+   "Autostrada o extraurbana principale",
+   "Contromano: vietato",
+   "Neanche per un breve tratto"
+  ]
+ },
+ "q23888": {
+  "short": "La corsia di emergenza deve restare libera per le vere emergenze e i soccorsi. Il traffico intenso non è un'emergenza.",
+  "rule": "Su autostrade e extraurbane principali: niente inversione, niente attraversamento dello spartitraffico, niente contromano, niente retromarcia, neanche in emergenza. La corsia di emergenza serve solo per fermarsi in emergenza.",
+  "trap": "«se il traffico è intenso» non è un motivo per usare la corsia di emergenza.",
+  "caption": "Corsia di emergenza: non per il traffico",
+  "lines": [
+   "Autostrada o extraurbana principale",
+   "Traffico intenso: resta nella tua corsia",
+   "Corsia di emergenza solo per emergenze"
+  ]
+ },
+ "q23889": {
+  "short": "Chi è già sulla strada passa prima. Sulla corsia di accelerazione prendi velocità ed entri solo con uno spazio sicuro.",
+  "rule": "Si entra dalla corsia di accelerazione dando precedenza, si esce dall'inizio della corsia di decelerazione, si segnala sempre il cambio di corsia. Nell'ingorgo la corsia di emergenza serve solo per uscire (dal cartello a 500 m) e la corsia di destra si sposta a sinistra per i soccorsi.",
+  "trap": "«deve dare la precedenza» è giusto: dà la precedenza chi entra, non gli altri.",
+  "caption": "Accelerazione: dai precedenza, poi entra",
+  "lines": [
+   "Autostrada o extraurbana principale",
+   "Accelera sulla corsia di accelerazione",
+   "Precedenza a chi è nelle corsie"
+  ]
+ },
+ "q23890": {
+  "short": "Per uscire serve un piano: prima la corsia di destra, poi la corsia di decelerazione dal suo inizio; rallenti lì, non sulla strada.",
+  "rule": "Si entra dalla corsia di accelerazione dando precedenza, si esce dall'inizio della corsia di decelerazione, si segnala sempre il cambio di corsia. Nell'ingorgo la corsia di emergenza serve solo per uscire (dal cartello a 500 m) e la corsia di destra si sposta a sinistra per i soccorsi.",
+  "trap": "«dal suo inizio» è giusto: si entra nella corsia di decelerazione all'inizio, non a metà.",
+  "caption": "Uscita: destra per tempo, poi dall'inizio",
+  "lines": [
+   "Autostrada o extraurbana principale",
+   "Vai per tempo nella corsia di destra",
+   "Entra in decelerazione dal suo inizio"
+  ]
+ },
+ "q23891": {
+  "short": "A velocità alta gli altri devono sapere presto cosa farai. Ogni cambio di corsia si segnala con la freccia.",
+  "rule": "Si entra dalla corsia di accelerazione dando precedenza, si esce dall'inizio della corsia di decelerazione, si segnala sempre il cambio di corsia. Nell'ingorgo la corsia di emergenza serve solo per uscire (dal cartello a 500 m) e la corsia di destra si sposta a sinistra per i soccorsi.",
+  "trap": "«tempestivamente» è giusto: segnali prima di spostarti, non mentre ti sposti.",
+  "caption": "Segnala ogni cambio di corsia per tempo",
+  "lines": [
+   "Autostrada o extraurbana principale",
+   "Freccia accesa per tempo",
+   "Poi cambia corsia"
+  ]
+ },
+ "q23892": {
+  "short": "Se le auto della corsia di destra si spostano a sinistra, lungo il bordo destro resta un passaggio per polizia e ambulanze.",
+  "rule": "Si entra dalla corsia di accelerazione dando precedenza, si esce dall'inizio della corsia di decelerazione, si segnala sempre il cambio di corsia. Nell'ingorgo la corsia di emergenza serve solo per uscire (dal cartello a 500 m) e la corsia di destra si sposta a sinistra per i soccorsi.",
+  "trap": "«striscia di sinistra» può sorprendere, ma è giusto: la corsia di destra va a sinistra per lasciare spazio a destra.",
+  "caption": "La corsia di destra va a sinistra per i soccorsi",
+  "lines": [
+   "Autostrada o extraurbana principale",
+   "Ingorgo, manca la corsia di emergenza",
+   "Corsia di destra verso la sua striscia sinistra",
+   "Spazio a destra per i soccorsi"
+  ]
+ },
+ "q23893": {
+  "short": "Nell'ingorgo la corsia di emergenza deve restare libera. L'unica eccezione è l'ultimo tratto prima dell'uscita, dal cartello a 500 metri.",
+  "rule": "Si entra dalla corsia di accelerazione dando precedenza, si esce dall'inizio della corsia di decelerazione, si segnala sempre il cambio di corsia. Nell'ingorgo la corsia di emergenza serve solo per uscire (dal cartello a 500 m) e la corsia di destra si sposta a sinistra per i soccorsi.",
+  "trap": "«solo per uscire» e «a partire dal cartello» sono due limiti: non prima, e non per proseguire.",
+  "caption": "Ingorgo: emergenza solo per uscire, ultimi 500 m",
+  "lines": [
+   "Ingorgo in autostrada",
+   "Cartello di uscita a 500 m dallo svincolo",
+   "Da lì: corsia di emergenza solo per uscire"
+  ]
+ },
+ "q23894": {
+  "short": "Nella corsia di decelerazione si entra dal suo inizio. Entrare dopo è una manovra brusca che sorprende gli altri.",
+  "rule": "Si entra dalla corsia di accelerazione dando precedenza, si esce dall'inizio della corsia di decelerazione, si segnala sempre il cambio di corsia. Nell'ingorgo la corsia di emergenza serve solo per uscire (dal cartello a 500 m) e la corsia di destra si sposta a sinistra per i soccorsi.",
+  "trap": "«anche nel tratto successivo» è sbagliato: si entra solo dall'inizio.",
+  "caption": "In decelerazione si entra dall'inizio",
+  "lines": [
+   "Autostrada o extraurbana principale",
+   "Decelerazione: entra dal suo inizio",
+   "Entrare più avanti: sbagliato"
+  ]
+ },
+ "q23895": {
+  "short": "La freccia è obbligatoria per ogni cambio di corsia, con qualsiasi traffico.",
+  "rule": "Si entra dalla corsia di accelerazione dando precedenza, si esce dall'inizio della corsia di decelerazione, si segnala sempre il cambio di corsia. Nell'ingorgo la corsia di emergenza serve solo per uscire (dal cartello a 500 m) e la corsia di destra si sposta a sinistra per i soccorsi.",
+  "trap": "«se il traffico non è intenso» è un'eccezione falsa.",
+  "caption": "Freccia sempre, anche con poco traffico",
+  "lines": [
+   "Autostrada o extraurbana principale",
+   "Poco traffico",
+   "Freccia comunque obbligatoria"
+  ]
+ },
+ "q23896": {
+  "short": "Senza traffico si sta nella corsia di destra e si usano le altre per sorpassare. Le file parallele sono solo per il traffico intenso.",
+  "rule": "Si entra dalla corsia di accelerazione dando precedenza, si esce dall'inizio della corsia di decelerazione, si segnala sempre il cambio di corsia. Nell'ingorgo la corsia di emergenza serve solo per uscire (dal cartello a 500 m) e la corsia di destra si sposta a sinistra per i soccorsi.",
+  "trap": "«anche in assenza di traffico» è sbagliato: le file parallele richiedono traffico intenso.",
+  "caption": "File parallele solo con traffico intenso",
+  "lines": [
+   "Autostrada o extraurbana principale",
+   "Poco traffico: stai a destra",
+   "File parallele solo con traffico intenso"
+  ]
+ },
+ "q23897": {
+  "short": "In autostrada non ci si ferma per motivi normali. Solo un malessere o un guasto è un'emergenza che permette la sosta.",
+  "rule": "In autostrada ci si ferma solo per emergenza (malessere o guasto), nella corsia di emergenza, per il tempo strettamente necessario e al massimo tre ore.",
+  "trap": "«solo in situazioni di emergenza» è il limite giusto.",
+  "caption": "Sosta solo per malessere o guasto",
+  "lines": [
+   "Autostrada",
+   "Malessere o guasto del veicolo",
+   "Solo allora ci si ferma"
+  ]
+ },
+ "q23898": {
+  "short": "Un passeggero che sta male è una vera emergenza. Puoi fermarti nella corsia di emergenza.",
+  "rule": "In autostrada ci si ferma solo per emergenza (malessere o guasto), nella corsia di emergenza, per il tempo strettamente necessario e al massimo tre ore.",
+  "trap": "«malessere di un passeggero» è una delle emergenze ammesse.",
+  "caption": "Passeggero sta male: ferma in corsia di emergenza",
+  "lines": [
+   "Autostrada",
+   "Un passeggero sta male",
+   "Fermati nella corsia di emergenza"
+  ]
+ },
+ "q23899": {
+  "short": "Il malessere è un'emergenza. Il posto giusto per fermarsi è la corsia di emergenza.",
+  "rule": "In autostrada ci si ferma solo per emergenza (malessere o guasto), nella corsia di emergenza, per il tempo strettamente necessario e al massimo tre ore.",
+  "trap": "«è consentito» qui è giusto, perché il malessere è una vera emergenza.",
+  "caption": "Passeggero sta male: sosta di emergenza ammessa",
+  "lines": [
+   "Autostrada",
+   "Un passeggero sta male",
+   "Fermati nella corsia di emergenza"
+  ]
+ },
+ "q23900": {
+  "short": "Un'auto ferma in autostrada è un pericolo. Resta solo il tempo necessario, e comunque non più di tre ore.",
+  "rule": "In autostrada ci si ferma solo per emergenza (malessere o guasto), nella corsia di emergenza, per il tempo strettamente necessario e al massimo tre ore.",
+  "trap": "«tre ore» è il limite giusto per la sosta di emergenza; 24 ore vale per le aree di servizio.",
+  "caption": "Sosta di emergenza: il minimo, massimo 3 ore",
+  "lines": [
+   "Sosta di emergenza in autostrada",
+   "Solo il tempo strettamente necessario",
+   "Mai oltre tre ore"
+  ]
+ },
+ "q23901": {
+  "short": "Il malessere è proprio una delle emergenze che permettono di fermarsi nella corsia di emergenza.",
+  "rule": "In autostrada ci si ferma solo per emergenza (malessere o guasto), nella corsia di emergenza, per il tempo strettamente necessario e al massimo tre ore.",
+  "trap": "«è vietato» è sbagliato: il malessere dei passeggeri permette la sosta di emergenza.",
+  "caption": "Passeggeri stanno male: puoi fermarti",
+  "lines": [
+   "Autostrada",
+   "I passeggeri stanno male",
+   "La sosta di emergenza è ammessa"
+  ]
+ },
+ "q23903": {
+  "short": "La sosta di emergenza può durare al massimo tre ore, non 24.",
+  "rule": "In autostrada ci si ferma solo per emergenza (malessere o guasto), nella corsia di emergenza, per il tempo strettamente necessario e al massimo tre ore.",
+  "trap": "«fino a 24 ore» è il limite delle aree di servizio, non della sosta di emergenza.",
+  "caption": "Sosta di emergenza: massimo 3 ore, non 24",
+  "lines": [
+   "Sosta di emergenza in autostrada",
+   "Massimo tre ore",
+   "24 ore = aree di servizio"
+  ]
+ },
+ "q23904": {
+  "short": "In autostrada i passaggi sono vietati, anche a chi ha l'auto guasta. Aiuterà il soccorso autostradale.",
+  "rule": "In autostrada non si danno passaggi, non c'è obbligo di fermarsi per un'auto in avaria, non si fa retromarcia e non si traina. Aiuta il soccorso autostradale.",
+  "trap": "«è vietato dare un passaggio» è giusto, anche se sembra poco gentile.",
+  "caption": "Niente passaggio, anche per chi è in avaria",
+  "lines": [
+   "Autostrada: auto in avaria",
+   "Dare un passaggio: vietato",
+   "Aiuta il soccorso autostradale"
+  ]
+ },
+ "q23905": {
+  "short": "Portarlo con te significa dargli un passaggio, e in autostrada è vietato.",
+  "rule": "In autostrada non si danno passaggi, non c'è obbligo di fermarsi per un'auto in avaria, non si fa retromarcia e non si traina. Aiuta il soccorso autostradale.",
+  "trap": "«lo deve accompagnare» è sbagliato due volte: non c'è obbligo e i passaggi sono vietati.",
+  "caption": "Niente passaggio fino all'area di servizio",
+  "lines": [
+   "Autostrada: auto in avaria",
+   "Portare l'automobilista: passaggio vietato"
+  ]
+ },
+ "q23906": {
+  "short": "Non c'è obbligo di fermarsi per un semplice guasto, e in autostrada ci si ferma solo per le proprie emergenze.",
+  "rule": "In autostrada non si danno passaggi, non c'è obbligo di fermarsi per un'auto in avaria, non si fa retromarcia e non si traina. Aiuta il soccorso autostradale.",
+  "trap": "«si deve fermare» è sbagliato: il guasto di un'altra auto non è la tua emergenza.",
+  "caption": "Nessun obbligo di fermarsi per un guasto altrui",
+  "lines": [
+   "Autostrada: un'altra auto in avaria",
+   "Nessun obbligo di fermarsi",
+   "Aiuta il soccorso autostradale"
+  ]
+ },
+ "q23907": {
+  "short": "In autostrada la retromarcia è sempre vietata, anche con prudenza e anche per aiutare.",
+  "rule": "In autostrada non si danno passaggi, non c'è obbligo di fermarsi per un'auto in avaria, non si fa retromarcia e non si traina. Aiuta il soccorso autostradale.",
+  "trap": "«retrocedere con prudenza» è comunque retromarcia, ed è vietata.",
+  "caption": "Mai retromarcia in autostrada",
+  "lines": [
+   "Autostrada: hai superato un'auto in avaria",
+   "Tornare indietro: vietato"
+  ]
+ },
+ "q23908": {
+  "short": "Trainare un'auto guasta in autostrada non è compito tuo ed è pericoloso. Lo fa il soccorso autostradale.",
+  "rule": "In autostrada non si danno passaggi, non c'è obbligo di fermarsi per un'auto in avaria, non si fa retromarcia e non si traina. Aiuta il soccorso autostradale.",
+  "trap": "«trainare prudentemente»: la prudenza non lo rende permesso.",
+  "caption": "Non trainare: ci pensa il soccorso",
+  "lines": [
+   "Autostrada: auto in avaria",
+   "Trainarla tu: non ammesso",
+   "La traina il soccorso autostradale"
+  ]
+ },
+ "q23909": {
+  "short": "Il conducente deve muoversi liberamente e vedere bene per guidare sicuro. I passeggeri non devono ostacolarlo.",
+  "rule": "I passeggeri non devono limitare il conducente. I posti sono scritti sulla carta di circolazione e comprendono il conducente. Un animale va bene se non disturba; più di uno solo in gabbia o dietro una rete.",
+  "trap": "«tutti i passeggeri» è giusto: la regola vale per tutti a bordo.",
+  "caption": "I passeggeri non devono limitare il conducente",
+  "lines": [
+   "Passeggeri seduti bene",
+   "Conducente libero di muoversi",
+   "Visuale del conducente libera"
+  ]
+ },
+ "q23910": {
+  "short": "Ogni auto è omologata per un certo numero di posti. Questo numero è scritto sulla carta di circolazione.",
+  "rule": "I passeggeri non devono limitare il conducente. I posti sono scritti sulla carta di circolazione e comprendono il conducente. Un animale va bene se non disturba; più di uno solo in gabbia o dietro una rete.",
+  "trap": "«carta di circolazione» è il documento giusto, non la patente.",
+  "caption": "I posti sono scritti sulla carta di circolazione",
+  "lines": [
+   "Carta di circolazione dell'auto",
+   "Indica il numero massimo di posti"
+  ]
+ },
+ "q23911": {
+  "short": "Un animale domestico è ammesso, purché non disturbi il conducente e non crei pericolo.",
+  "rule": "I passeggeri non devono limitare il conducente. I posti sono scritti sulla carta di circolazione e comprendono il conducente. Un animale va bene se non disturba; più di uno solo in gabbia o dietro una rete.",
+  "trap": "«comunque» aggiunge la condizione: l'animale non deve mai ostacolare la guida.",
+  "caption": "Un animale: sì, se non disturba",
+  "lines": [
+   "Auto con un animale",
+   "Ammesso se non disturba il conducente"
+  ]
+ },
+ "q23912": {
+  "short": "Più animali potrebbero muoversi e distrarre il conducente. Devono stare in gabbia o dietro una rete divisoria.",
+  "rule": "I passeggeri non devono limitare il conducente. I posti sono scritti sulla carta di circolazione e comprendono il conducente. Un animale va bene se non disturba; più di uno solo in gabbia o dietro una rete.",
+  "trap": "«purché» è la condizione: gabbia o vano posteriore con rete.",
+  "caption": "Più animali: in gabbia o dietro una rete",
+  "lines": [
+   "Auto con più animali",
+   "In gabbia",
+   "O nel vano posteriore dietro una rete"
+  ]
+ },
+ "q23913": {
+  "short": "Il numero dei posti sulla carta di circolazione conta tutti i posti, anche quello del conducente.",
+  "rule": "I passeggeri non devono limitare il conducente. I posti sono scritti sulla carta di circolazione e comprendono il conducente. Un animale va bene se non disturba; più di uno solo in gabbia o dietro una rete.",
+  "trap": "«non comprende il conducente» è sbagliato: il conducente è contato.",
+  "caption": "Il numero comprende il conducente",
+  "lines": [
+   "Carta di circolazione: posti",
+   "Si conta anche il conducente"
+  ]
+ },
+ "q23914": {
+  "short": "Un'autovettura ha al massimo 9 posti, conducente compreso. Con più posti è un autobus.",
+  "rule": "I passeggeri non devono limitare il conducente. I posti sono scritti sulla carta di circolazione e comprendono il conducente. Un animale va bene se non disturba; più di uno solo in gabbia o dietro una rete.",
+  "trap": "«dieci» è troppo: il massimo per un'autovettura è nove, conducente compreso.",
+  "caption": "Autovettura: massimo 9 posti, non 10",
+  "lines": [
+   "Autovettura: massimo 9 posti",
+   "Conducente compreso",
+   "Più posti = autobus"
+  ]
+ },
+ "q23915": {
+  "short": "Con più animali il guinzaglio non basta. Devono stare in gabbia o nel vano posteriore dietro una rete.",
+  "rule": "I passeggeri non devono limitare il conducente. I posti sono scritti sulla carta di circolazione e comprendono il conducente. Un animale va bene se non disturba; più di uno solo in gabbia o dietro una rete.",
+  "trap": "«al guinzaglio» non è uno dei modi ammessi: solo gabbia o rete.",
+  "caption": "Più cani: gabbia o rete, non guinzaglio",
+  "lines": [
+   "Auto con più cani",
+   "Al guinzaglio: non basta",
+   "Serve gabbia o rete"
+  ]
+ },
+ "q23917": {
+  "short": "I bambini piccoli non riescono a tenersi bene sul motociclo. Sotto i 5 anni non possono essere passeggeri.",
+  "rule": "Motocicli: niente bambini sotto i 5 anni, niente traino, oggetti ben fissati e che non tolgono visuale. Una piccola sporgenza è ammessa nei limiti di legge.",
+  "trap": "«minori di anni 5» è il limite di età giusto.",
+  "caption": "Niente bambini sotto i 5 anni in moto",
+  "lines": [
+   "Passeggero in moto",
+   "Bambino sotto i 5 anni: vietato"
+  ]
+ },
+ "q23918": {
+  "short": "Il motociclo non è abbastanza stabile per trainare o essere trainato. Il traino è vietato in entrambi i sensi.",
+  "rule": "Motocicli: niente bambini sotto i 5 anni, niente traino, oggetti ben fissati e che non tolgono visuale. Una piccola sporgenza è ammessa nei limiti di legge.",
+  "trap": "«trainare e farsi trainare» comprende i due casi: nessuno è ammesso.",
+  "caption": "Moto: niente traino",
+  "lines": [
+   "Motociclo",
+   "Trainare un veicolo: vietato",
+   "Farsi trainare: vietato"
+  ]
+ },
+ "q23919": {
+  "short": "Un oggetto libero può cadere sulla strada o far perdere l'equilibrio. Deve essere ben fissato.",
+  "rule": "Motocicli: niente bambini sotto i 5 anni, niente traino, oggetti ben fissati e che non tolgono visuale. Una piccola sporgenza è ammessa nei limiti di legge.",
+  "trap": "«solidamente assicurati» è la condizione per portare oggetti.",
+  "caption": "Oggetti in moto: ben fissati",
+  "lines": [
+   "Moto con bagagli",
+   "Oggetti non fissati: vietati",
+   "Fissali bene"
+  ]
+ },
+ "q23920": {
+  "short": "Chi guida la moto deve sempre vedere bene la strada. Oggetti che tolgono la visuale non sono ammessi.",
+  "rule": "Motocicli: niente bambini sotto i 5 anni, niente traino, oggetti ben fissati e che non tolgono visuale. Una piccola sporgenza è ammessa nei limiti di legge.",
+  "trap": "«impediscano o limitino»: anche una visuale ridotta solo in parte non va bene.",
+  "caption": "Gli oggetti non devono togliere la visuale",
+  "lines": [
+   "Moto con oggetti",
+   "Visuale del conducente libera"
+  ]
+ },
+ "q23921": {
+  "short": "Il passeggero non deve per forza avere 18 anni. Il limite riguarda solo i bambini sotto i 5 anni.",
+  "rule": "Motocicli: niente bambini sotto i 5 anni, niente traino, oggetti ben fissati e che non tolgono visuale. Una piccola sporgenza è ammessa nei limiti di legge.",
+  "trap": "«solo se maggiorenne» è sbagliato: anche ragazzi più grandi possono salire.",
+  "caption": "Il passeggero può essere minorenne",
+  "lines": [
+   "Passeggero in moto",
+   "Non serve essere maggiorenni",
+   "Vietato solo sotto i 5 anni"
+  ]
+ },
+ "q23922": {
+  "short": "Il motociclo non può mai farsi trainare, da nessun veicolo, nemmeno da un'auto.",
+  "rule": "Motocicli: niente bambini sotto i 5 anni, niente traino, oggetti ben fissati e che non tolgono visuale. Una piccola sporgenza è ammessa nei limiti di legge.",
+  "trap": "«ma solo da autovetture» inventa un'eccezione che non esiste.",
+  "caption": "La moto non può mai farsi trainare",
+  "lines": [
+   "Motociclo",
+   "Farsi trainare: sempre vietato",
+   "Nemmeno da un'auto"
+  ]
+ },
+ "q23923": {
+  "short": "Una piccola sporgenza in lunghezza è ammessa, nei limiti di legge. Quindi non è vietata in ogni caso.",
+  "rule": "Motocicli: niente bambini sotto i 5 anni, niente traino, oggetti ben fissati e che non tolgono visuale. Una piccola sporgenza è ammessa nei limiti di legge.",
+  "trap": "La frase vieta ogni sporgenza; la legge la permette «entro certi limiti», quindi il divieto assoluto è sbagliato.",
+  "caption": "Piccola sporgenza ammessa, nei limiti",
+  "lines": [
+   "Moto con un oggetto lungo",
+   "Piccola sporgenza: ammessa",
+   "Solo nei limiti di legge"
+  ]
+ },
+ "q23924": {
+  "short": "Un carico che cade è un grave pericolo per chi viene dietro. Deve essere fissato e, se serve, coperto.",
+  "rule": "Il carico non deve mai cadere, ostacolare il conducente, rendere instabile il veicolo o coprire luci, targhe e segnali col braccio, su ogni strada, di giorno e di notte.",
+  "trap": "«caduta o la dispersione»: vanno evitate tutte e due, anche per materiale sfuso come la sabbia.",
+  "caption": "Carico fissato: non deve cadere né disperdersi",
+  "lines": [
+   "Camion con carico",
+   "Carico fissato e coperto",
+   "Niente cade sulla strada"
+  ]
+ },
+ "q23925": {
+  "short": "Il conducente deve vedere bene e muoversi liberamente. Il carico non deve ostacolarlo.",
+  "rule": "Il carico non deve mai cadere, ostacolare il conducente, rendere instabile il veicolo o coprire luci, targhe e segnali col braccio, su ogni strada, di giorno e di notte.",
+  "trap": "«né impedirgli»: devono restare liberi sia la visuale sia i movimenti.",
+  "caption": "Il carico non deve ostacolare il conducente",
+  "lines": [
+   "Veicolo con carico",
+   "Visuale del conducente libera",
+   "Conducente libero di muoversi"
+  ]
+ },
+ "q23926": {
+  "short": "Un carico messo male può far ribaltare o sbandare il veicolo in curva. Deve essere bilanciato.",
+  "rule": "Il carico non deve mai cadere, ostacolare il conducente, rendere instabile il veicolo o coprire luci, targhe e segnali col braccio, su ogni strada, di giorno e di notte.",
+  "trap": "«stabilità» è il punto: un carico pesante messo in alto o su un lato è pericoloso.",
+  "caption": "Carico bilanciato, veicolo stabile",
+  "lines": [
+   "Camion con carico",
+   "Carico bilanciato e basso",
+   "Il veicolo resta stabile"
+  ]
+ },
+ "q23927": {
+  "short": "Gli altri devono vedere le tue luci, la targa e i segnali col braccio. Il carico non deve coprirli.",
+  "rule": "Il carico non deve mai cadere, ostacolare il conducente, rendere instabile il veicolo o coprire luci, targhe e segnali col braccio, su ogni strada, di giorno e di notte.",
+  "trap": "L'elenco è completo: luci, dispositivi di segnalazione, targhe e segnali col braccio devono restare visibili.",
+  "caption": "Il carico non copre luci, targhe, segnali",
+  "lines": [
+   "Veicolo con carico",
+   "Luci e targhe visibili",
+   "Segnali col braccio visibili"
+  ]
+ },
+ "q23928": {
+  "short": "Un carico che cade è pericoloso su ogni strada, anche in città. La regola vale ovunque.",
+  "rule": "Il carico non deve mai cadere, ostacolare il conducente, rendere instabile il veicolo o coprire luci, targhe e segnali col braccio, su ogni strada, di giorno e di notte.",
+  "trap": "«solo se» limita la regola alle strade fuori città, ed è sbagliato.",
+  "caption": "Carico fissato su tutte le strade",
+  "lines": [
+   "Ogni strada, in città o fuori",
+   "Il carico non deve mai cadere"
+  ]
+ },
+ "q23929": {
+  "short": "Frecce e luci dei freni servono anche di giorno. Il carico non deve mai coprirle.",
+  "rule": "Il carico non deve mai cadere, ostacolare il conducente, rendere instabile il veicolo o coprire luci, targhe e segnali col braccio, su ogni strada, di giorno e di notte.",
+  "trap": "«soltanto durante la circolazione notturna» è sbagliato: la regola vale di giorno e di notte.",
+  "caption": "Luci mai coperte, giorno e notte",
+  "lines": [
+   "Giorno e notte",
+   "Il carico non copre le luci"
+  ]
+ },
+ "q23930": {
+  "short": "Ogni tipo di veicolo ha misure massime (la sagoma). Il carico deve restare dentro questi limiti.",
+  "rule": "Niente sporgenza davanti; dietro fino ai 3/10 della lunghezza per cose indivisibili; ai lati fino a 30 cm dalle luci di posizione; niente deve strisciare a terra.",
+  "trap": "«limite di sagoma» è la misura massima del veicolo con il suo carico.",
+  "caption": "Il carico resta entro la sagoma",
+  "lines": [
+   "Veicolo con carico",
+   "Resta entro la sagoma massima"
+  ]
+ },
+ "q23931": {
+  "short": "Un carico che sporge davanti può colpire pedoni o altri veicoli. Non è ammesso.",
+  "rule": "Niente sporgenza davanti; dietro fino ai 3/10 della lunghezza per cose indivisibili; ai lati fino a 30 cm dalle luci di posizione; niente deve strisciare a terra.",
+  "trap": "«dalla parte anteriore» è la chiave: davanti mai; dietro sì, nei limiti.",
+  "caption": "Niente carico che sporge davanti",
+  "lines": [
+   "Autoveicolo con carico",
+   "Sporgenza davanti: vietata",
+   "Dietro: ammessa nei limiti"
+  ]
+ },
+ "q23932": {
+  "short": "Le cose lunghe che non si possono dividere, come pali o travi, possono sporgere dietro fino ai 3/10 della lunghezza del veicolo.",
+  "rule": "Niente sporgenza davanti; dietro fino ai 3/10 della lunghezza per cose indivisibili; ai lati fino a 30 cm dalle luci di posizione; niente deve strisciare a terra.",
+  "trap": "«3/10 della lunghezza» vale per il RETRO; non confonderlo con i lati.",
+  "caption": "Sporgenza dietro fino a 3/10 della lunghezza",
+  "lines": [
+   "Carico indivisibile, es. pali lunghi",
+   "Può sporgere dietro",
+   "Fino ai 3/10 della lunghezza"
+  ]
+ },
+ "q23933": {
+  "short": "Una piccola sporgenza laterale è ammessa: fino a 30 cm oltre le luci di posizione, sempre entro le misure massime.",
+  "rule": "Niente sporgenza davanti; dietro fino ai 3/10 della lunghezza per cose indivisibili; ai lati fino a 30 cm dalle luci di posizione; niente deve strisciare a terra.",
+  "trap": "«30 centimetri» si misurano dalle luci di posizione, e la sagoma massima vale comunque.",
+  "caption": "Ai lati fino a 30 cm dalle luci",
+  "lines": [
+   "Autoveicolo con carico largo",
+   "Sporgenza laterale fino a 30 cm",
+   "Misurata dalle luci di posizione"
+  ]
+ },
+ "q23934": {
+  "short": "Una cosa che striscia rovina la strada, può perdere pezzi ed è difficile da controllare. È sempre vietato.",
+  "rule": "Niente sporgenza davanti; dietro fino ai 3/10 della lunghezza per cose indivisibili; ai lati fino a 30 cm dalle luci di posizione; niente deve strisciare a terra.",
+  "trap": "«anche se in parte sostenute da ruote» non rende permesso lo strisciamento.",
+  "caption": "Niente deve strisciare a terra",
+  "lines": [
+   "Carico che striscia sulla strada",
+   "Vietato",
+   "Anche se in parte su ruote"
+  ]
+ },
+ "q23935": {
+  "short": "Un carico sporgente è un rischio per gli altri, per esempio in curva o in manovra. Il conducente deve fare più attenzione.",
+  "rule": "Niente sporgenza davanti; dietro fino ai 3/10 della lunghezza per cose indivisibili; ai lati fino a 30 cm dalle luci di posizione; niente deve strisciare a terra.",
+  "trap": "«tutte le cautele idonee» è un dovere generale di prudenza: è giusto.",
+  "caption": "Carico sporgente: massima attenzione",
+  "lines": [
+   "Carico che sporge",
+   "Guida con più attenzione",
+   "Nessun pericolo per gli altri"
+  ]
+ },
+ "q23936": {
+  "short": "Il pannello in figura è giallo e rosso: segnala il retro dei veicoli pesanti o lunghi. Il carico sporgente usa un pannello quadrato a strisce bianche e rosse.",
+  "rule": "Niente sporgenza davanti; dietro fino ai 3/10 della lunghezza per cose indivisibili; ai lati fino a 30 cm dalle luci di posizione; niente deve strisciare a terra.",
+  "trap": "«pannello in figura» è il trucco: è il pannello sbagliato, quello giallo e rosso.",
+  "caption": "Pannello sbagliato: carico sporgente = bianco e rosso",
+  "lines": [
+   "Giallo e rosso: veicoli pesanti o lunghi",
+   "Carico sporgente: pannello quadrato bianco e rosso"
+  ]
+ },
+ "q23937": {
+  "short": "La regola dei 3/10 vale per il RETRO (lunghezza). Ai lati il limite è 30 cm dalle luci di posizione.",
+  "rule": "Niente sporgenza davanti; dietro fino ai 3/10 della lunghezza per cose indivisibili; ai lati fino a 30 cm dalle luci di posizione; niente deve strisciare a terra.",
+  "trap": "«lateralmente» e «larghezza» sono il trucco: i 3/10 valgono per il retro e la lunghezza.",
+  "caption": "3/10 vale dietro; ai lati massimo 30 cm",
+  "lines": [
+   "Dietro: fino a 3/10 della lunghezza",
+   "Ai lati: fino a 30 cm dalle luci"
+  ]
+ },
+ "q23938": {
+  "short": "Le cose che strisciano a terra sono sempre vietate, anche con qualche ruota sotto.",
+  "rule": "Niente sporgenza davanti; dietro fino ai 3/10 della lunghezza per cose indivisibili; ai lati fino a 30 cm dalle luci di posizione; niente deve strisciare a terra.",
+  "trap": "«se in parte sostenute da ruote» è un'eccezione falsa.",
+  "caption": "Strisciare è vietato, anche con le ruote",
+  "lines": [
+   "Carico che striscia sulla strada",
+   "Vietato, anche se in parte su ruote"
+  ]
+ }
+}

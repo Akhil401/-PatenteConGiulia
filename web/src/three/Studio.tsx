@@ -150,7 +150,60 @@ function RoadPartsStudio({ w, clock }: { w: World3D; clock: Clock }) {
   )
 }
 
+/** A dial (speedometer / rev counter) with a needle that moves with the clock. */
+function Dial({ x, max, clock }: { x: number; max: number; clock: Clock }) {
+  const needle = useRef<THREE.Group>(null)
+  useFrame(() => { const t = clock().time / 1000; if (needle.current) needle.current.rotation.z = 2.2 - Math.min(max, .35 + Math.sin(t * .6) * .12 + t * .05) * 2.2 })
+  return (
+    <group position={[x, 0, .02]}>
+      <mesh><circleGeometry args={[.95, 48]} /><meshStandardMaterial color="#0b1020" roughness={.4} /></mesh>
+      <mesh position={[0, 0, .005]}><ringGeometry args={[.86, .95, 48, 1, -.6, 3.9]} /><meshBasicMaterial color="#60a5fa" toneMapped={false} /></mesh>
+      {Array.from({ length: 11 }, (_, i) => { const a = -.6 + i * .39; return <mesh key={i} position={[Math.cos(a) * .76, Math.sin(a) * .76, .01]} rotation-z={a}><planeGeometry args={[.12, .025]} /><meshBasicMaterial color="#cbd5e1" /></mesh> })}
+      <group ref={needle} position={[0, 0, .02]}><mesh position={[.36, 0, 0]}><planeGeometry args={[.72, .04]} /><meshBasicMaterial color="#f97316" toneMapped={false} /></mesh></group>
+      <mesh position={[0, 0, .03]}><circleGeometry args={[.07, 16]} /><meshStandardMaterial color="#334155" /></mesh>
+    </group>
+  )
+}
+/** The question's dashboard symbol as a glowing warning light, gently pulsing. */
+function SymbolLamp({ img, clock }: { img: string; clock: Clock }) {
+  const tex = useTexture(img); tex.colorSpace = THREE.SRGBColorSpace
+  const mat = useRef<THREE.MeshBasicMaterial>(null), glow = useRef<THREE.Mesh>(null)
+  useFrame(state => {
+    const on = clock().time > 900, k = on ? .85 + Math.sin(state.clock.elapsedTime * 3) * .15 : .15
+    if (mat.current) mat.current.color.setScalar(k)
+    if (glow.current) glow.current.scale.setScalar(on ? 1 + Math.sin(state.clock.elapsedTime * 3) * .05 : .001)
+  })
+  return (
+    <group position={[0, -.05, .03]}>
+      <mesh ref={glow} position={[0, 0, -.01]}><circleGeometry args={[.82, 40]} /><meshBasicMaterial color="#fde68a" transparent opacity={.18} toneMapped={false} /></mesh>
+      <mesh><planeGeometry args={[1.15, 1.15]} /><meshBasicMaterial ref={mat} map={tex} toneMapped={false} /></mesh>
+    </group>
+  )
+}
+/** Chapter 18: the driver's view of a dashboard with the question's symbol lit up in the middle. */
+function DashboardStudio({ w, clock }: { w: World3D; clock: Clock }) {
+  const { camera } = useThree()
+  useFrame(state => { const e = state.clock.elapsedTime; camera.position.set(Math.sin(e * .25) * .25, .2 + Math.sin(e * .4) * .05, 6.4); camera.lookAt(0, -.85, 0) })
+  return (
+    <group>
+      <color attach="background" args={['#0b0f1a']} />
+      <ambientLight intensity={.5} />
+      <pointLight position={[0, 2.5, 3]} intensity={18} color="#c7d2fe" />
+      <RoundedBox args={[7.4, 2.9, .4]} radius={.25} position={[0, .45, -.25]}><meshStandardMaterial color="#111827" roughness={.55} metalness={.2} /></RoundedBox>
+      <RoundedBox args={[5.6, 2.2, .1]} radius={.18} position={[0, .45, -.02]}><meshStandardMaterial color="#020617" roughness={.3} /></RoundedBox>
+      <group position={[0, .5, 0]}>
+        <Dial x={-1.75} max={.9} clock={clock} />
+        <Dial x={1.75} max={.6} clock={clock} />
+        {w.img && <Suspense fallback={null}><SymbolLamp img={w.img} clock={clock} /></Suspense>}
+      </group>
+      <mesh position={[0, -2.75, 1.4]} rotation-x={-.35}><torusGeometry args={[1.55, .11, 14, 60]} /><meshStandardMaterial color="#1f2937" roughness={.6} /></mesh>
+      <Sparkles count={30} scale={[8, 4, 2]} size={2} speed={.2} color="#93c5fd" />
+    </group>
+  )
+}
+
 export default function Studio({ w, clock }: { w: World3D; clock: Clock }) {
+  if (w.studio === 'dashboard') return <DashboardStudio w={w} clock={clock} />
   if (w.studio === 'figure') return <FigureStudio w={w} clock={clock} />
   if (w.studio === 'roadparts') return <RoadPartsStudio w={w} clock={clock} />
   return <RuleStudio w={w} clock={clock} />

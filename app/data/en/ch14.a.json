@@ -1,0 +1,4394 @@
+{
+ "q23042": {
+  "en": "In the situation shown in the picture, the tram has priority over the other vehicles.",
+  "explain": {
+   "short": "Vehicles on rails, like the tram, usually have priority over other vehicles at a junction.",
+   "rule": "The tram goes first. With no signs, give way to the right; a car turning left also lets oncoming traffic pass. Here A moves to the centre, then O, M and finally A.",
+   "trap": "'il tram ha la precedenza' (the tram has priority) is correct here: no sign or officer says otherwise.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The tram goes first",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     },
+     {
+      "id": "O",
+      "from": "n",
+      "to": "s",
+      "kind": "car"
+     },
+     {
+      "id": "M",
+      "from": "e",
+      "to": "w",
+      "kind": "moto"
+     },
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "O"
+     ],
+     [
+      "M"
+     ],
+     [
+      "A"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tram",
+    "en": "tram"
+   },
+   {
+    "it": "ha la precedenza",
+    "en": "has priority"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23043": {
+  "en": "At the junction shown in the picture, all vehicles must be careful when crossing it.",
+  "explain": {
+   "short": "Prudence is always required at a junction, for every driver, even the one with priority.",
+   "rule": "The tram goes first. With no signs, give way to the right; a car turning left also lets oncoming traffic pass. Here A moves to the centre, then O, M and finally A.",
+   "trap": "'tutti i veicoli' (all vehicles) is right: having priority never means you can stop being careful.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Everyone crosses with care",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     },
+     {
+      "id": "O",
+      "from": "n",
+      "to": "s",
+      "kind": "car"
+     },
+     {
+      "id": "M",
+      "from": "e",
+      "to": "w",
+      "kind": "moto"
+     },
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "O"
+     ],
+     [
+      "M"
+     ],
+     [
+      "A"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tutti i veicoli",
+    "en": "all vehicles"
+   },
+   {
+    "it": "usare prudenza",
+    "en": "be careful"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23044": {
+  "en": "In the situation shown in the picture, vehicle O must wait for the tram to pass and for vehicle A to move to the centre.",
+  "explain": {
+   "short": "After the tram, A, O and M block each other in a circle. A breaks the circle by moving to the centre; then O can go.",
+   "rule": "The tram goes first. With no signs, give way to the right; a car turning left also lets oncoming traffic pass. Here A moves to the centre, then O, M and finally A.",
+   "trap": "'si porti al centro' (moves to the centre) is the key: A only advances to the middle, it does not finish its turn yet.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tram, A to the centre, then O goes",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     },
+     {
+      "id": "O",
+      "from": "n",
+      "to": "s",
+      "kind": "car"
+     },
+     {
+      "id": "M",
+      "from": "e",
+      "to": "w",
+      "kind": "moto"
+     },
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "O"
+     ],
+     [
+      "M"
+     ],
+     [
+      "A"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "attendere il transito del tram",
+    "en": "wait for the tram to pass"
+   },
+   {
+    "it": "si porti al centro",
+    "en": "moves to the centre"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23045": {
+  "en": "In the situation shown in the picture, the tram goes through first.",
+  "explain": {
+   "short": "The tram runs on rails and has priority over the other vehicles, so it crosses first.",
+   "rule": "The tram goes first. With no signs, give way to the right; a car turning left also lets oncoming traffic pass. Here A moves to the centre, then O, M and finally A.",
+   "trap": "'per primo' (first) is right for the tram: no sign or officer takes its priority away.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The tram crosses first",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     },
+     {
+      "id": "O",
+      "from": "n",
+      "to": "s",
+      "kind": "car"
+     },
+     {
+      "id": "M",
+      "from": "e",
+      "to": "w",
+      "kind": "moto"
+     },
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "O"
+     ],
+     [
+      "M"
+     ],
+     [
+      "A"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "il tram",
+    "en": "the tram"
+   },
+   {
+    "it": "transita per primo",
+    "en": "goes through first"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23046": {
+  "en": "In the situation shown in the picture, vehicle M must wait for vehicle O to pass.",
+  "explain": {
+   "short": "M comes from the right side of the picture and O comes from M's right. M must give way to O.",
+   "rule": "The tram goes first. With no signs, give way to the right; a car turning left also lets oncoming traffic pass. Here A moves to the centre, then O, M and finally A.",
+   "trap": "'deve attendere' (must wait) is correct: O is on M's right.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "O is on M's right: M waits",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     },
+     {
+      "id": "O",
+      "from": "n",
+      "to": "s",
+      "kind": "car"
+     },
+     {
+      "id": "M",
+      "from": "e",
+      "to": "w",
+      "kind": "moto"
+     },
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "O"
+     ],
+     [
+      "M"
+     ],
+     [
+      "A"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo M",
+    "en": "vehicle M"
+   },
+   {
+    "it": "deve attendere",
+    "en": "must wait"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23047": {
+  "en": "In the situation shown in the picture, vehicle M crosses the junction together with the tram.",
+  "explain": {
+   "short": "M cannot go with the tram: after the tram, M must still wait for O, who comes from M's right.",
+   "rule": "The tram goes first. With no signs, give way to the right; a car turning left also lets oncoming traffic pass. Here A moves to the centre, then O, M and finally A.",
+   "trap": "'insieme al tram' (together with the tram) is the trap: M goes later, after O.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: M goes after the tram AND after O",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     },
+     {
+      "id": "O",
+      "from": "n",
+      "to": "s",
+      "kind": "car"
+     },
+     {
+      "id": "M",
+      "from": "e",
+      "to": "w",
+      "kind": "moto"
+     },
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "O"
+     ],
+     [
+      "M"
+     ],
+     [
+      "A"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "insieme al tram",
+    "en": "together with the tram"
+   },
+   {
+    "it": "attraversa l'incrocio",
+    "en": "crosses the junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23048": {
+  "en": "In the situation shown in the picture, vehicle A, when turning left, has a free right side.",
+  "explain": {
+   "short": "While A turns left it ends up facing north, and then M comes from its right. So A's right is not free: it must let M pass.",
+   "rule": "The tram goes first. With no signs, give way to the right; a car turning left also lets oncoming traffic pass. Here A moves to the centre, then O, M and finally A.",
+   "trap": "'ha la destra libera' (has its right free) is the trap: during the turn, M arrives from A's right.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: during the turn M is on A's right",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     },
+     {
+      "id": "O",
+      "from": "n",
+      "to": "s",
+      "kind": "car"
+     },
+     {
+      "id": "M",
+      "from": "e",
+      "to": "w",
+      "kind": "moto"
+     },
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "O"
+     ],
+     [
+      "M"
+     ],
+     [
+      "A"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "svoltare a sinistra",
+    "en": "turning left"
+   },
+   {
+    "it": "ha la destra libera",
+    "en": "has its right free"
+   }
+  ],
+  "review": true,
+  "reviewNote": "Official FALSE for \"A ha la destra libera\": the road on A's right is empty when it arrives; FALSE only holds mid-turn, when motorbike M comes from A's right. Check the textbook reasoning."
+ },
+ "q23049": {
+  "en": "In the situation shown in the picture, vehicle O must wait for the tram and vehicle M to pass.",
+  "explain": {
+   "short": "O waits only for the tram (and for A to move to the centre). M is on O's left, so M waits for O, not the opposite.",
+   "rule": "The tram goes first. With no signs, give way to the right; a car turning left also lets oncoming traffic pass. Here A moves to the centre, then O, M and finally A.",
+   "trap": "'ed il veicolo M' (and vehicle M) is the trap: O does not give way to M.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: M waits for O, not O for M",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     },
+     {
+      "id": "O",
+      "from": "n",
+      "to": "s",
+      "kind": "car"
+     },
+     {
+      "id": "M",
+      "from": "e",
+      "to": "w",
+      "kind": "moto"
+     },
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "O"
+     ],
+     [
+      "M"
+     ],
+     [
+      "A"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve attendere",
+    "en": "must wait"
+   },
+   {
+    "it": "il veicolo M",
+    "en": "vehicle M"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23050": {
+  "en": "In the situation shown in the picture, vehicle O must wait for all the other vehicles to pass.",
+  "explain": {
+   "short": "O is not last: it goes right after the tram (once A is in the centre), before M and before A finishes its turn.",
+   "rule": "The tram goes first. With no signs, give way to the right; a car turning left also lets oncoming traffic pass. Here A moves to the centre, then O, M and finally A.",
+   "trap": "'tutti gli altri veicoli' (all the other vehicles) is the trap: O waits only for the tram.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: O goes second, not last",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     },
+     {
+      "id": "O",
+      "from": "n",
+      "to": "s",
+      "kind": "car"
+     },
+     {
+      "id": "M",
+      "from": "e",
+      "to": "w",
+      "kind": "moto"
+     },
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "O"
+     ],
+     [
+      "M"
+     ],
+     [
+      "A"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve attendere",
+    "en": "must wait"
+   },
+   {
+    "it": "tutti gli altri veicoli",
+    "en": "all the other vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23051": {
+  "en": "In the situation shown in the picture, vehicle A must give way to the tram, but not to vehicle M.",
+  "explain": {
+   "short": "A turns left, so it must also let the oncoming motorbike M pass (going straight), not only the tram.",
+   "rule": "The tram goes first. With no signs, give way to the right; a car turning left also lets oncoming traffic pass. Here A moves to the centre, then O, M and finally A.",
+   "trap": "'ma non al veicolo M' (but not to vehicle M) is the trap: A gives way to M too.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: A gives way to the tram AND to M",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     },
+     {
+      "id": "O",
+      "from": "n",
+      "to": "s",
+      "kind": "car"
+     },
+     {
+      "id": "M",
+      "from": "e",
+      "to": "w",
+      "kind": "moto"
+     },
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "O"
+     ],
+     [
+      "M"
+     ],
+     [
+      "A"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "ma non al veicolo M",
+    "en": "but not to vehicle M"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23052": {
+  "en": "In the situation shown in the picture, vehicle O must give way to the tram and to vehicle M.",
+  "explain": {
+   "short": "O gives way to the tram only. M is on O's left, so M must give way to O.",
+   "rule": "The tram goes first. With no signs, give way to the right; a car turning left also lets oncoming traffic pass. Here A moves to the centre, then O, M and finally A.",
+   "trap": "'ed al veicolo M' (and to vehicle M) is the trap: O has priority over M.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: O gives way to the tram, not to M",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     },
+     {
+      "id": "O",
+      "from": "n",
+      "to": "s",
+      "kind": "car"
+     },
+     {
+      "id": "M",
+      "from": "e",
+      "to": "w",
+      "kind": "moto"
+     },
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "O"
+     ],
+     [
+      "M"
+     ],
+     [
+      "A"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "al veicolo M",
+    "en": "to vehicle M"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23053": {
+  "en": "In the situation shown in the picture, vehicle B does not have to give way to the other two vehicles.",
+  "explain": {
+   "short": "Bus B has no road on its right, so nobody comes from its right: it gives way to no one.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. B has nobody on its right: B, then H, then C.",
+   "trap": "'non deve dare la precedenza' (does not have to give way) is correct for B.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "B has a free right: it goes first",
+    "it": "precedenza a destra",
+    "arms": [
+     "w",
+     "e",
+     "s"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "e",
+      "to": "w",
+      "kind": "bus"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "bus"
+     },
+     {
+      "id": "C",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "B"
+     ],
+     [
+      "H"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non deve dare la precedenza",
+    "en": "does not have to give way"
+   },
+   {
+    "it": "agli altri due veicoli",
+    "en": "to the other two vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23054": {
+  "en": "In the situation shown in the picture, vehicle H goes second.",
+  "explain": {
+   "short": "B goes first (nobody on its right). H has B on its right, so it goes right after B; C waits for H.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. B has nobody on its right: B, then H, then C.",
+   "trap": "'per secondo' (second) is correct: H waits only for B.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: B, H, C",
+    "it": "precedenza a destra",
+    "arms": [
+     "w",
+     "e",
+     "s"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "e",
+      "to": "w",
+      "kind": "bus"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "bus"
+     },
+     {
+      "id": "C",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "B"
+     ],
+     [
+      "H"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo H",
+    "en": "vehicle H"
+   },
+   {
+    "it": "passa per secondo",
+    "en": "goes second"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23055": {
+  "en": "In the situation shown in the picture, vehicle C must clear the junction last.",
+  "explain": {
+   "short": "C has bus H on its right, and H waits for B. So C goes after both.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. B has nobody on its right: B, then H, then C.",
+   "trap": "'per ultimo' (last) is correct for C.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: B, H, C",
+    "it": "precedenza a destra",
+    "arms": [
+     "w",
+     "e",
+     "s"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "e",
+      "to": "w",
+      "kind": "bus"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "bus"
+     },
+     {
+      "id": "C",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "B"
+     ],
+     [
+      "H"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo C",
+    "en": "vehicle C"
+   },
+   {
+    "it": "disimpegnare l'incrocio per ultimo",
+    "en": "clear the junction last"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23056": {
+  "en": "In the situation shown in the picture, vehicle B goes first.",
+  "explain": {
+   "short": "B has no road and no vehicle on its right, so it gives way to nobody and goes first.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. B has nobody on its right: B, then H, then C.",
+   "trap": "'per primo' (first) is correct for B.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "B goes first",
+    "it": "precedenza a destra",
+    "arms": [
+     "w",
+     "e",
+     "s"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "e",
+      "to": "w",
+      "kind": "bus"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "bus"
+     },
+     {
+      "id": "C",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "B"
+     ],
+     [
+      "H"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo B",
+    "en": "vehicle B"
+   },
+   {
+    "it": "passa per primo",
+    "en": "goes first"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23057": {
+  "en": "In the situation shown in the picture, vehicle C must give way to vehicle H.",
+  "explain": {
+   "short": "H comes from the road on C's right, so C must let H pass.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. B has nobody on its right: B, then H, then C.",
+   "trap": "'deve dare la precedenza al veicolo H' is correct: H is on C's right.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "H is on C's right: C gives way",
+    "it": "precedenza a destra",
+    "arms": [
+     "w",
+     "e",
+     "s"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "e",
+      "to": "w",
+      "kind": "bus"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "bus"
+     },
+     {
+      "id": "C",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "B"
+     ],
+     [
+      "H"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "al veicolo H",
+    "en": "to vehicle H"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23058": {
+  "en": "In the situation shown in the picture, vehicle H goes first.",
+  "explain": {
+   "short": "H has bus B on its right, so it must wait for B. H goes second.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. B has nobody on its right: B, then H, then C.",
+   "trap": "'per primo' (first) is the trap: H is second, after B.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: H goes second, after B",
+    "it": "precedenza a destra",
+    "arms": [
+     "w",
+     "e",
+     "s"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "e",
+      "to": "w",
+      "kind": "bus"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "bus"
+     },
+     {
+      "id": "C",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "B"
+     ],
+     [
+      "H"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo H",
+    "en": "vehicle H"
+   },
+   {
+    "it": "passa per primo",
+    "en": "goes first"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23059": {
+  "en": "In the situation shown in the picture, vehicles B and C go first and at the same time.",
+  "explain": {
+   "short": "B goes first, but C cannot go with it: C must wait for H, who is on its right.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. B has nobody on its right: B, then H, then C.",
+   "trap": "'contemporaneamente' (at the same time) is the trap: C goes last.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: B first, C last",
+    "it": "precedenza a destra",
+    "arms": [
+     "w",
+     "e",
+     "s"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "e",
+      "to": "w",
+      "kind": "bus"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "bus"
+     },
+     {
+      "id": "C",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "B"
+     ],
+     [
+      "H"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passano per primi",
+    "en": "go first"
+   },
+   {
+    "it": "contemporaneamente",
+    "en": "at the same time"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23060": {
+  "en": "In the situation shown in the picture, vehicle H must enter the junction after vehicles B and C have passed.",
+  "explain": {
+   "short": "H waits only for B. C is on H's left and must wait for H.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. B has nobody on its right: B, then H, then C.",
+   "trap": "'dopo il passaggio dei veicoli B e C' (after B and C) is the trap: H goes before C.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: H goes after B but before C",
+    "it": "precedenza a destra",
+    "arms": [
+     "w",
+     "e",
+     "s"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "e",
+      "to": "w",
+      "kind": "bus"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "bus"
+     },
+     {
+      "id": "C",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "B"
+     ],
+     [
+      "H"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "impegnare l'incrocio",
+    "en": "enter the junction"
+   },
+   {
+    "it": "dopo il passaggio dei veicoli B e C",
+    "en": "after B and C have passed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23061": {
+  "en": "In the situation shown in the picture, vehicle H has priority over vehicle C because it is a bus.",
+  "explain": {
+   "short": "H does go before C, but because it comes from C's right, not because it is a bus. A bus has no special priority.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. B has nobody on its right: B, then H, then C.",
+   "trap": "'in quanto è un autobus' (because it is a bus) is the trap: the reason is wrong.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong reason: H is on C's right",
+    "it": "precedenza a destra",
+    "arms": [
+     "w",
+     "e",
+     "s"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "e",
+      "to": "w",
+      "kind": "bus"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "bus"
+     },
+     {
+      "id": "C",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "B"
+     ],
+     [
+      "H"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ha la precedenza",
+    "en": "has priority"
+   },
+   {
+    "it": "in quanto è un autobus",
+    "en": "because it is a bus"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23062": {
+  "en": "In the situation shown in the picture, vehicle C goes first.",
+  "explain": {
+   "short": "C has bus H on its right, and H waits for B. So C goes last, not first.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. B has nobody on its right: B, then H, then C.",
+   "trap": "'per primo' (first) is the trap: C is last.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: C goes last",
+    "it": "precedenza a destra",
+    "arms": [
+     "w",
+     "e",
+     "s"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "e",
+      "to": "w",
+      "kind": "bus"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "bus"
+     },
+     {
+      "id": "C",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "B"
+     ],
+     [
+      "H"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo C",
+    "en": "vehicle C"
+   },
+   {
+    "it": "passa per primo",
+    "en": "goes first"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23063": {
+  "en": "By the right-of-way rules, at the junction shown in the picture vehicle R goes first.",
+  "explain": {
+   "short": "R has no vehicle coming from its right, so it gives way to nobody and goes first.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then A, then C.",
+   "trap": "'per primo' (first) is correct for R.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: R, A, C",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo R",
+    "en": "vehicle R"
+   },
+   {
+    "it": "passa per primo",
+    "en": "goes first"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23064": {
+  "en": "By the right-of-way rules, at the junction shown in the picture vehicle C must go last.",
+  "explain": {
+   "short": "C has A on its right, and A has R on its right. So C waits for both and goes last.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then A, then C.",
+   "trap": "'per ultimo' (last) is correct for C.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: R, A, C",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo C",
+    "en": "vehicle C"
+   },
+   {
+    "it": "passare per ultimo",
+    "en": "go last"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23065": {
+  "en": "By the right-of-way rules, at the junction shown in the picture vehicle A must go after vehicle R.",
+  "explain": {
+   "short": "R comes from A's right, so A must let R pass first.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then A, then C.",
+   "trap": "'dopo il veicolo R' (after R) is correct.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "R is on A's right: A waits",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo A",
+    "en": "vehicle A"
+   },
+   {
+    "it": "dopo il veicolo R",
+    "en": "after vehicle R"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23066": {
+  "en": "By the right-of-way rules, at the junction shown in the picture vehicle A goes before vehicle C.",
+  "explain": {
+   "short": "A comes from C's right, so C must wait for A. A goes second, C last.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then A, then C.",
+   "trap": "'prima del veicolo C' (before C) is correct.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A is on C's right: A first",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo A",
+    "en": "vehicle A"
+   },
+   {
+    "it": "prima del veicolo C",
+    "en": "before vehicle C"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23067": {
+  "en": "By the right-of-way rules, at the junction shown in the picture vehicle C must go after vehicles R and A.",
+  "explain": {
+   "short": "C waits for A (on its right), and A waits for R. So C goes after both.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then A, then C.",
+   "trap": "'dopo i veicoli R e A' (after R and A) is correct: C is last.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: R, A, C",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo C",
+    "en": "vehicle C"
+   },
+   {
+    "it": "dopo i veicoli R e A",
+    "en": "after vehicles R and A"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23068": {
+  "en": "By the right-of-way rules, at the junction shown in the picture vehicle A, if it is a police car with its warning devices on, goes first.",
+  "explain": {
+   "short": "A police car on an emergency (siren and blue flashing light on) has priority over everyone, so A would go first.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then A, then C.",
+   "trap": "'con i dispositivi di allarme in funzione' (with siren and blue light on) is the key: only then does A go first.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Police with siren: A goes first",
+    "it": "dispositivi di allarme",
+    "arms": [
+     "n",
+     "e",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "police",
+      "siren": true
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "R"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "della polizia",
+    "en": "police"
+   },
+   {
+    "it": "dispositivi di allarme in funzione",
+    "en": "warning devices on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23069": {
+  "en": "By the right-of-way rules, at the junction shown in the picture vehicle A goes first.",
+  "explain": {
+   "short": "R comes from A's right, so A must wait for R. A goes second.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then A, then C.",
+   "trap": "'per primo' (first) is the trap: A is second, after R.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: A goes second, after R",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo A",
+    "en": "vehicle A"
+   },
+   {
+    "it": "passa per primo",
+    "en": "goes first"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23070": {
+  "en": "By the right-of-way rules, at the junction shown in the picture vehicle A must go last.",
+  "explain": {
+   "short": "A comes from C's right, so C waits for A. A goes second; C is last.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then A, then C.",
+   "trap": "'per ultimo' (last) is the trap: C is last, not A.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: A goes second, C last",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo A",
+    "en": "vehicle A"
+   },
+   {
+    "it": "passare per ultimo",
+    "en": "go last"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23071": {
+  "en": "By the right-of-way rules, at the junction shown in the picture vehicle R must go after vehicle A.",
+  "explain": {
+   "short": "It is the opposite: R is on A's right, so A waits for R.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then A, then C.",
+   "trap": "'dopo il veicolo A' (after A) is the trap: R goes before A.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: R goes before A",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo R",
+    "en": "vehicle R"
+   },
+   {
+    "it": "dopo il veicolo A",
+    "en": "after vehicle A"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23072": {
+  "en": "By the right-of-way rules, at the junction shown in the picture vehicle R must cross the junction second.",
+  "explain": {
+   "short": "R has nobody on its right, so it goes first, not second.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then A, then C.",
+   "trap": "'per secondo' (second) is the trap: R is first.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: R goes first",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo R",
+    "en": "vehicle R"
+   },
+   {
+    "it": "per secondo",
+    "en": "second"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23073": {
+  "en": "By the right-of-way rules, at the junction shown in the picture vehicle C goes second.",
+  "explain": {
+   "short": "C has A on its right, and A waits for R. So C is third, not second.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then A, then C.",
+   "trap": "'per secondo' (second) is the trap: A is second, C is last.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: C goes last",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo C",
+    "en": "vehicle C"
+   },
+   {
+    "it": "passa per secondo",
+    "en": "goes second"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23074": {
+  "en": "By the right-of-way rules, at the junction shown in the picture vehicles C and R go first and at the same time.",
+  "explain": {
+   "short": "R goes first, but C cannot go with it: C must wait for A, who is on its right.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then A, then C.",
+   "trap": "'contemporaneamente' (at the same time) is the trap: C goes last.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: R first, C last",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passano per primi",
+    "en": "go first"
+   },
+   {
+    "it": "contemporaneamente",
+    "en": "at the same time"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23075": {
+  "en": "In the situation shown in the picture, vehicle L crosses the junction first.",
+  "explain": {
+   "short": "L goes straight and has nobody on its right. C and H must give way to it.",
+   "rule": "No signs here: give way to the right, and a car turning left lets oncoming straight traffic pass. Order: L, then C, then H.",
+   "trap": "'per primo' (first) is correct for L.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: L, C, H",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "L",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "e",
+      "to": "s",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "L"
+     ],
+     [
+      "C"
+     ],
+     [
+      "H"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo L",
+    "en": "vehicle L"
+   },
+   {
+    "it": "per primo",
+    "en": "first"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23076": {
+  "en": "In the situation shown in the picture, vehicle H crosses the junction last.",
+  "explain": {
+   "short": "H turns left: it has C on its right and L coming straight from the opposite side. So H waits for both.",
+   "rule": "No signs here: give way to the right, and a car turning left lets oncoming straight traffic pass. Order: L, then C, then H.",
+   "trap": "'per ultimo' (last) is correct for H.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: L, C, H",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "L",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "e",
+      "to": "s",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "L"
+     ],
+     [
+      "C"
+     ],
+     [
+      "H"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo H",
+    "en": "vehicle H"
+   },
+   {
+    "it": "per ultimo",
+    "en": "last"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23077": {
+  "en": "You may cross the junction in the picture in this order: vehicle L, vehicle C, vehicle H.",
+  "explain": {
+   "short": "L has nobody on its right; C has L on its right; H has C on its right. So L, C, H.",
+   "rule": "No signs here: give way to the right, and a car turning left lets oncoming straight traffic pass. Order: L, then C, then H.",
+   "trap": "'veicolo L, veicolo C, veicolo H' is exactly the correct order.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: L, C, H",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "L",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "e",
+      "to": "s",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "L"
+     ],
+     [
+      "C"
+     ],
+     [
+      "H"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "secondo l'ordine",
+    "en": "in the order"
+   },
+   {
+    "it": "veicolo L, veicolo C, veicolo H",
+    "en": "vehicle L, vehicle C, vehicle H"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23078": {
+  "en": "You may cross the junction in the picture in this order: vehicle C after vehicle L, but before vehicle H.",
+  "explain": {
+   "short": "C waits for L (on its right), and H waits for C (on its right). So C is in the middle.",
+   "rule": "No signs here: give way to the right, and a car turning left lets oncoming straight traffic pass. Order: L, then C, then H.",
+   "trap": "'dopo il veicolo L, ma prima del veicolo H' is correct: C is second.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: L, C, H",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "L",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "e",
+      "to": "s",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "L"
+     ],
+     [
+      "C"
+     ],
+     [
+      "H"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dopo il veicolo L",
+    "en": "after vehicle L"
+   },
+   {
+    "it": "prima del veicolo H",
+    "en": "before vehicle H"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23079": {
+  "en": "You may cross the junction in the picture in this order: vehicle L at the same time as vehicle C, then vehicle H.",
+  "explain": {
+   "short": "C turns left and has L on its right. Both end up in the same road, so C must wait for L.",
+   "rule": "No signs here: give way to the right, and a car turning left lets oncoming straight traffic pass. Order: L, then C, then H.",
+   "trap": "'contemporaneamente' (at the same time) is the trap: C goes after L.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: C goes after L",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "L",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "e",
+      "to": "s",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "L"
+     ],
+     [
+      "C"
+     ],
+     [
+      "H"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "contemporaneamente",
+    "en": "at the same time"
+   },
+   {
+    "it": "poi il veicolo H",
+    "en": "then vehicle H"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23080": {
+  "en": "You may cross the junction in the picture in this order: vehicle H, vehicle C, vehicle L.",
+  "explain": {
+   "short": "This is the order backwards. L goes first and H, turning left, goes last.",
+   "rule": "No signs here: give way to the right, and a car turning left lets oncoming straight traffic pass. Order: L, then C, then H.",
+   "trap": "'il veicolo H, il veicolo C, il veicolo L' is the reverse of the correct order L, C, H.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: the order is L, C, H",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "L",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "e",
+      "to": "s",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "L"
+     ],
+     [
+      "C"
+     ],
+     [
+      "H"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "secondo l'ordine",
+    "en": "in the order"
+   },
+   {
+    "it": "il veicolo H, il veicolo C, il veicolo L",
+    "en": "vehicle H, vehicle C, vehicle L"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23081": {
+  "en": "You may cross the junction in the picture in this order: vehicle H, vehicle L, vehicle C.",
+  "explain": {
+   "short": "H cannot go first: it has C on its right and L oncoming. H is last.",
+   "rule": "No signs here: give way to the right, and a car turning left lets oncoming straight traffic pass. Order: L, then C, then H.",
+   "trap": "'il veicolo H' first is the trap: H goes last.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: the order is L, C, H",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "L",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "e",
+      "to": "s",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "L"
+     ],
+     [
+      "C"
+     ],
+     [
+      "H"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "secondo l'ordine",
+    "en": "in the order"
+   },
+   {
+    "it": "il veicolo H, il veicolo L, il veicolo C",
+    "en": "vehicle H, vehicle L, vehicle C"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23082": {
+  "en": "You may cross the junction in the picture in this order: vehicle L, vehicle H, vehicle C.",
+  "explain": {
+   "short": "L first is right, but H cannot go before C: C is on H's right.",
+   "rule": "No signs here: give way to the right, and a car turning left lets oncoming straight traffic pass. Order: L, then C, then H.",
+   "trap": "'il veicolo H, il veicolo C' is the trap: C goes before H.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: C goes before H",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "L",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "e",
+      "to": "s",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "L"
+     ],
+     [
+      "C"
+     ],
+     [
+      "H"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "secondo l'ordine",
+    "en": "in the order"
+   },
+   {
+    "it": "il veicolo L, il veicolo H, il veicolo C",
+    "en": "vehicle L, vehicle H, vehicle C"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23083": {
+  "en": "You may cross the junction in the picture in this order: vehicle C, vehicle H, vehicle L.",
+  "explain": {
+   "short": "C cannot go first: L is on its right. L goes first, then C, then H.",
+   "rule": "No signs here: give way to the right, and a car turning left lets oncoming straight traffic pass. Order: L, then C, then H.",
+   "trap": "'il veicolo C' first is the trap: L goes first.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: the order is L, C, H",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "L",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "e",
+      "to": "s",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "L"
+     ],
+     [
+      "C"
+     ],
+     [
+      "H"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "secondo l'ordine",
+    "en": "in the order"
+   },
+   {
+    "it": "il veicolo C, il veicolo H, il veicolo L",
+    "en": "vehicle C, vehicle H, vehicle L"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23084": {
+  "en": "At the junction shown in the picture, vehicle E goes after vehicle A, and vehicle B goes after vehicle E.",
+  "explain": {
+   "short": "A has nobody on its right; E has A on its right; B has E on its right. So A, E, B.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. A has nobody on its right: A, then E, then B.",
+   "trap": "'dopo il veicolo A' and 'dopo il veicolo E' are both correct.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: A, E, B",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "E",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "B",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "B"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passa dopo il veicolo A",
+    "en": "goes after vehicle A"
+   },
+   {
+    "it": "passa dopo il veicolo E",
+    "en": "goes after vehicle E"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23085": {
+  "en": "At the junction shown in the picture, vehicle A does not have to give way to any vehicle.",
+  "explain": {
+   "short": "No vehicle comes from A's right, so A gives way to nobody and goes first.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. A has nobody on its right: A, then E, then B.",
+   "trap": "'non deve dare la precedenza ad alcun veicolo' (gives way to no vehicle) is correct for A.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A has a free right: it goes first",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "E",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "B",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "B"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo A",
+    "en": "vehicle A"
+   },
+   {
+    "it": "non deve dare la precedenza",
+    "en": "does not have to give way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23086": {
+  "en": "At the junction shown in the picture, vehicle E has the right of way over vehicle B.",
+  "explain": {
+   "short": "E comes from B's right, so B must let E pass.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. A has nobody on its right: A, then E, then B.",
+   "trap": "'ha diritto di precedenza sul veicolo B' (has right of way over B) is correct.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "E is on B's right: E first",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "E",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "B",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "B"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "diritto di precedenza",
+    "en": "right of way"
+   },
+   {
+    "it": "sul veicolo B",
+    "en": "over vehicle B"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23087": {
+  "en": "At the junction shown in the picture, vehicle E goes before B, but after vehicle A.",
+  "explain": {
+   "short": "E waits for A (on its right), and B waits for E (on its right). So E is second.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. A has nobody on its right: A, then E, then B.",
+   "trap": "'prima di quello B, ma dopo il veicolo A' is correct: E is in the middle.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: A, E, B",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "E",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "B",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "B"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "prima di quello B",
+    "en": "before B"
+   },
+   {
+    "it": "dopo il veicolo A",
+    "en": "after vehicle A"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23088": {
+  "en": "At the junction shown in the picture, vehicle B must go last.",
+  "explain": {
+   "short": "B has E on its right, and E has A on its right. So B goes after both.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. A has nobody on its right: A, then E, then B.",
+   "trap": "'per ultimo' (last) is correct for B.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: A, E, B",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "E",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "B",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "B"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo B",
+    "en": "vehicle B"
+   },
+   {
+    "it": "passare per ultimo",
+    "en": "go last"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23089": {
+  "en": "At the junction shown in the picture, vehicle B does not have to give way to any vehicle.",
+  "explain": {
+   "short": "B has E coming from its right, so it must give way. B goes last.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. A has nobody on its right: A, then E, then B.",
+   "trap": "'non deve dare la precedenza ad alcun veicolo' is the trap: that is true for A, not for B.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: B gives way to E",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "E",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "B",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "B"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo B",
+    "en": "vehicle B"
+   },
+   {
+    "it": "non deve dare la precedenza",
+    "en": "does not have to give way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23090": {
+  "en": "At the junction shown in the picture, vehicle A must give way to vehicle B.",
+  "explain": {
+   "short": "B is not on A's right (it comes from the opposite side). A gives way to nobody.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. A has nobody on its right: A, then E, then B.",
+   "trap": "'deve dare la precedenza al veicolo B' is the trap: A goes first.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: A gives way to nobody",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "E",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "B",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "B"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "al veicolo B",
+    "en": "to vehicle B"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23091": {
+  "en": "At the junction shown in the picture, vehicle B does not have to give way to vehicle E.",
+  "explain": {
+   "short": "E comes from B's right, so B must give way to E.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. A has nobody on its right: A, then E, then B.",
+   "trap": "'non deve' (does not have to) is the trap: B must give way to E.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: B gives way to E",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "E",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "B",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "B"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non deve dare la precedenza",
+    "en": "does not have to give way"
+   },
+   {
+    "it": "al veicolo E",
+    "en": "to vehicle E"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23092": {
+  "en": "At the junction shown in the picture, vehicles A and B go at the same time after vehicle E.",
+  "explain": {
+   "short": "A goes first, before E. B goes last, after E. They do not go together.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. A has nobody on its right: A, then E, then B.",
+   "trap": "'contemporaneamente dopo il veicolo E' is the trap: A goes before E.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: A first, then E, then B",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "E",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "B",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "B"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "contemporaneamente",
+    "en": "at the same time"
+   },
+   {
+    "it": "dopo il veicolo E",
+    "en": "after vehicle E"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23093": {
+  "en": "At the junction shown in the picture, vehicles A and B go at the same time before vehicle E.",
+  "explain": {
+   "short": "A goes before E, but B must wait for E, who is on its right.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. A has nobody on its right: A, then E, then B.",
+   "trap": "'contemporaneamente' (at the same time) is the trap: B goes last.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: A first, then E, then B",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "E",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "B",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "B"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "contemporaneamente",
+    "en": "at the same time"
+   },
+   {
+    "it": "prima del veicolo E",
+    "en": "before vehicle E"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23094": {
+  "en": "At the junction shown in the picture, vehicle A goes after vehicle R, and vehicle C goes after vehicle A.",
+  "explain": {
+   "short": "R has nobody on its right; A has R on its right; C has A on its right. So R, A, C.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then A, then C.",
+   "trap": "'dopo il veicolo R' and 'dopo il veicolo A' are both correct.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: R, A, C",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passa dopo il veicolo R",
+    "en": "goes after vehicle R"
+   },
+   {
+    "it": "passa dopo il veicolo A",
+    "en": "goes after vehicle A"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23095": {
+  "en": "By the right-of-way rules, at the junction shown in the picture vehicle A goes before vehicle C and after vehicle R.",
+  "explain": {
+   "short": "A waits for R (on its right), and C waits for A (on its right). So A is second.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then A, then C.",
+   "trap": "'prima del veicolo C e dopo il veicolo R' is correct: A is in the middle.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: R, A, C",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "prima del veicolo C",
+    "en": "before vehicle C"
+   },
+   {
+    "it": "dopo il veicolo R",
+    "en": "after vehicle R"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23096": {
+  "en": "By the right-of-way rules, at the junction shown in the picture vehicle R does not have to give way to any vehicle.",
+  "explain": {
+   "short": "No vehicle comes from R's right, so R gives way to nobody and goes first.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then A, then C.",
+   "trap": "'non deve dare la precedenza ad alcun veicolo' is correct for R.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "R has a free right: it goes first",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo R",
+    "en": "vehicle R"
+   },
+   {
+    "it": "non deve dare la precedenza",
+    "en": "does not have to give way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23097": {
+  "en": "By the right-of-way rules, at the junction shown in the picture the vehicles go in this order: R, A, C.",
+  "explain": {
+   "short": "R has nobody on its right, A has R on its right, C has A on its right. So R, A, C.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then A, then C.",
+   "trap": "'R, A, C' is exactly the correct order.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: R, A, C",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "i veicoli passano nell'ordine",
+    "en": "the vehicles go in the order"
+   },
+   {
+    "it": "R, A, C",
+    "en": "R, A, C"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23098": {
+  "en": "By the right-of-way rules, at the junction shown in the picture vehicle C does not have to give way to any vehicle.",
+  "explain": {
+   "short": "A comes from C's right, so C must give way. C goes last.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then A, then C.",
+   "trap": "'non deve dare la precedenza ad alcun veicolo' is the trap: that is true for R, not for C.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: C gives way and goes last",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo C",
+    "en": "vehicle C"
+   },
+   {
+    "it": "non deve dare la precedenza",
+    "en": "does not have to give way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23099": {
+  "en": "By the right-of-way rules, at the junction shown in the picture vehicle A goes before vehicle R and after vehicle C.",
+  "explain": {
+   "short": "It is the opposite: A goes after R (on its right) and before C.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then A, then C.",
+   "trap": "'prima del veicolo R e dopo il veicolo C' is the trap: both parts are reversed.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: A goes after R, before C",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "prima del veicolo R",
+    "en": "before vehicle R"
+   },
+   {
+    "it": "dopo il veicolo C",
+    "en": "after vehicle C"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23100": {
+  "en": "By the right-of-way rules, at the junction shown in the picture the vehicles go in this order: R, C, A.",
+  "explain": {
+   "short": "C cannot go before A: A comes from C's right. The order is R, A, C.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then A, then C.",
+   "trap": "'R, C, A' is the trap: C and A are swapped.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: the order is R, A, C",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "i veicoli passano nell'ordine",
+    "en": "the vehicles go in the order"
+   },
+   {
+    "it": "R, C, A",
+    "en": "R, C, A"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23101": {
+  "en": "By the right-of-way rules, at the junction shown in the picture vehicle R goes last.",
+  "explain": {
+   "short": "R has nobody on its right, so it goes first, not last.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then A, then C.",
+   "trap": "'per ultimo' (last) is the trap: R is first.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: R goes first",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo R",
+    "en": "vehicle R"
+   },
+   {
+    "it": "passa per ultimo",
+    "en": "goes last"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23102": {
+  "en": "By the right-of-way rules, the junction shown in the picture may be entered by vehicle D after vehicle R has crossed.",
+  "explain": {
+   "short": "R comes from D's right, so D must let R pass first.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then D, then the truck B.",
+   "trap": "'dopo l'attraversamento del veicolo R' (after R has crossed) is correct.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "R is on D's right: D waits",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "D",
+      "from": "s",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "B",
+      "from": "w",
+      "to": "e",
+      "kind": "truck"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "D"
+     ],
+     [
+      "B"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo D",
+    "en": "vehicle D"
+   },
+   {
+    "it": "dopo l'attraversamento del veicolo R",
+    "en": "after vehicle R has crossed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23103": {
+  "en": "By the right-of-way rules, the junction shown in the picture may be entered by vehicle B after all the other vehicles have crossed.",
+  "explain": {
+   "short": "The truck B has D on its right, and D has R on its right. So B goes last.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then D, then the truck B.",
+   "trap": "'dopo l'attraversamento di tutti gli altri veicoli' (after all the others) is correct for B.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: R, D, B",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "D",
+      "from": "s",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "B",
+      "from": "w",
+      "to": "e",
+      "kind": "truck"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "D"
+     ],
+     [
+      "B"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo B",
+    "en": "vehicle B"
+   },
+   {
+    "it": "tutti gli altri veicoli",
+    "en": "all the other vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23104": {
+  "en": "By the right-of-way rules, the junction shown in the picture may be entered by vehicle R without giving way to any vehicle.",
+  "explain": {
+   "short": "No vehicle comes from R's right, so R gives way to nobody and goes first.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then D, then the truck B.",
+   "trap": "'senza dare la precedenza ad alcun veicolo' (without giving way) is correct for R.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "R has a free right: it goes first",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "D",
+      "from": "s",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "B",
+      "from": "w",
+      "to": "e",
+      "kind": "truck"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "D"
+     ],
+     [
+      "B"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo R",
+    "en": "vehicle R"
+   },
+   {
+    "it": "senza dare la precedenza",
+    "en": "without giving way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23105": {
+  "en": "By the right-of-way rules, the junction shown in the picture may be entered by vehicle B after vehicles R and D have crossed.",
+  "explain": {
+   "short": "B waits for D (on its right), and D waits for R. So B goes after both.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then D, then the truck B.",
+   "trap": "'dopo l'attraversamento dei veicoli R e D' (after R and D) is correct.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: R, D, B",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "D",
+      "from": "s",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "B",
+      "from": "w",
+      "to": "e",
+      "kind": "truck"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "D"
+     ],
+     [
+      "B"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo B",
+    "en": "vehicle B"
+   },
+   {
+    "it": "dei veicoli R e D",
+    "en": "of vehicles R and D"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23106": {
+  "en": "By the right-of-way rules, the junction shown in the picture may be entered by vehicle B at the same time as vehicle R and before D.",
+  "explain": {
+   "short": "B has D on its right, so B cannot go before D, and not together with R either.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then D, then the truck B.",
+   "trap": "'contemporaneamente al veicolo R e prima di quello D' is the trap: B goes last.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: B goes last, after D",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "D",
+      "from": "s",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "B",
+      "from": "w",
+      "to": "e",
+      "kind": "truck"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "D"
+     ],
+     [
+      "B"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "contemporaneamente",
+    "en": "at the same time"
+   },
+   {
+    "it": "prima di quello D",
+    "en": "before D"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23107": {
+  "en": "By the right-of-way rules, the junction shown in the picture may be entered by vehicle D before the other vehicles.",
+  "explain": {
+   "short": "R comes from D's right, so D must wait for R. D goes second.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then D, then the truck B.",
+   "trap": "'prima degli altri veicoli' (before the others) is the trap: R goes first.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: D goes second, after R",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "D",
+      "from": "s",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "B",
+      "from": "w",
+      "to": "e",
+      "kind": "truck"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "D"
+     ],
+     [
+      "B"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo D",
+    "en": "vehicle D"
+   },
+   {
+    "it": "prima degli altri veicoli",
+    "en": "before the other vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23108": {
+  "en": "By the right-of-way rules, the junction shown in the picture may be entered by vehicle R after vehicles B and D have crossed.",
+  "explain": {
+   "short": "It is the opposite: R has nobody on its right and goes first; B and D wait.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then D, then the truck B.",
+   "trap": "'dopo l'attraversamento dei veicoli B e D' is the trap: R goes before them.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: R goes first",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "D",
+      "from": "s",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "B",
+      "from": "w",
+      "to": "e",
+      "kind": "truck"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "D"
+     ],
+     [
+      "B"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo R",
+    "en": "vehicle R"
+   },
+   {
+    "it": "dei veicoli B e D",
+    "en": "of vehicles B and D"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23109": {
+  "en": "By the right-of-way rules, the junction shown in the picture may be entered by vehicle B before the other vehicles.",
+  "explain": {
+   "short": "The truck B has D on its right, so it must wait. B goes last, not first.",
+   "rule": "No signs here, so each driver gives way to the vehicle on their right. R has nobody on its right: R, then D, then the truck B.",
+   "trap": "'prima degli altri veicoli' (before the others) is the trap: B is last.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: B goes last",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "R",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "D",
+      "from": "s",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "B",
+      "from": "w",
+      "to": "e",
+      "kind": "truck"
+     }
+    ],
+    "order": [
+     [
+      "R"
+     ],
+     [
+      "D"
+     ],
+     [
+      "B"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo B",
+    "en": "vehicle B"
+   },
+   {
+    "it": "prima degli altri veicoli",
+    "en": "before the other vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

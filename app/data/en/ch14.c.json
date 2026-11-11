@@ -1,0 +1,5514 @@
+{
+ "q23180": {
+  "en": "At the junction shown in the picture, vehicle T goes through first.",
+  "explain": {
+   "short": "T is a tram. Here the vehicle on rails has priority over the cars, so it goes first.",
+   "rule": "Trams (vehicles on rails) go before cars here. Without signs, give way to vehicles from your right; two vehicles go together if their paths do not cross.",
+   "trap": "'per primo' (first): the tram is first, before L, A and C.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tram T first, then L and A, then C",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "n",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     },
+     {
+      "id": "L",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "L",
+      "A"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "transita per primo",
+    "en": "goes through first"
+   },
+   {
+    "it": "veicolo T",
+    "en": "vehicle T"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23181": {
+  "en": "At the junction shown in the picture, the vehicles go through in this order: T, L and A, finally C.",
+  "explain": {
+   "short": "The tram T goes first. Then L and A go together: their paths do not cross. C goes last, because L comes from its right.",
+   "rule": "Trams (vehicles on rails) go before cars here. Without signs, give way to vehicles from your right; two vehicles go together if their paths do not cross.",
+   "trap": "'L ed A' means L and A at the same time; 'infine' (finally) means C is last.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: T, then L and A together, then C",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "n",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     },
+     {
+      "id": "L",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "L",
+      "A"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "nel seguente ordine",
+    "en": "in this order"
+   },
+   {
+    "it": "infine",
+    "en": "finally"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23182": {
+  "en": "To cross the junction shown in the picture, the vehicles must go through in this order: C, A, L, R, E.",
+  "explain": {
+   "short": "Each vehicle waits for the one on its right. C has nobody on its right that crosses its path, so the chain is C, A, L, R, E.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'nel seguente ordine' (in this order): all five letters must be in the right place, and they are.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: C, A, L, R, E",
+    "it": "precedenza a destra",
+    "arms": [
+     "nw",
+     "ne",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "L",
+      "from": "nw",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "ne",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "A"
+     ],
+     [
+      "L"
+     ],
+     [
+      "R"
+     ],
+     [
+      "E"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "nel seguente ordine",
+    "en": "in this order"
+   },
+   {
+    "it": "devono transitare",
+    "en": "must go through"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23183": {
+  "en": "To cross the junction shown in the picture, vehicle C goes through first.",
+  "explain": {
+   "short": "On C's right there is only E, and E goes straight without crossing C's path. So C does not wait for anyone and goes first.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'per primo' (first): C starts, even if E is on its right, because their paths do not cross.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "C goes first: nobody on its right crosses it",
+    "it": "precedenza a destra",
+    "arms": [
+     "nw",
+     "ne",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "L",
+      "from": "nw",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "ne",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "A"
+     ],
+     [
+      "L"
+     ],
+     [
+      "R"
+     ],
+     [
+      "E"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "transita per primo",
+    "en": "goes through first"
+   },
+   {
+    "it": "veicolo C",
+    "en": "vehicle C"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23184": {
+  "en": "To cross the junction shown in the picture, vehicle A goes through immediately after vehicle C.",
+  "explain": {
+   "short": "C is on A's right, so A waits only for C. As soon as C has gone, A goes.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'subito dopo' (immediately after): A is second, right after C.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A goes second, right after C",
+    "it": "precedenza a destra",
+    "arms": [
+     "nw",
+     "ne",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "L",
+      "from": "nw",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "ne",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "A"
+     ],
+     [
+      "L"
+     ],
+     [
+      "R"
+     ],
+     [
+      "E"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "subito dopo",
+    "en": "immediately after"
+   },
+   {
+    "it": "transita",
+    "en": "goes through"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23185": {
+  "en": "To cross the junction shown in the picture, vehicle E must give way to vehicles R and L.",
+  "explain": {
+   "short": "R is on E's right, and R must itself wait for L. So E waits for both of them and goes last.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'deve dare la precedenza' (must give way): E is last, so it lets R and L go first.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "E waits for L and R and goes last",
+    "it": "precedenza a destra",
+    "arms": [
+     "nw",
+     "ne",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "L",
+      "from": "nw",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "ne",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "A"
+     ],
+     [
+      "L"
+     ],
+     [
+      "R"
+     ],
+     [
+      "E"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve dare la precedenza",
+    "en": "must give way"
+   },
+   {
+    "it": "veicoli R e L",
+    "en": "vehicles R and L"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23186": {
+  "en": "To cross the junction shown in the picture, vehicle A goes through before vehicle L.",
+  "explain": {
+   "short": "A is on L's right, so L waits for A.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'prima del' (before): A is second, L is third.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A (2nd) goes before L (3rd)",
+    "it": "precedenza a destra",
+    "arms": [
+     "nw",
+     "ne",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "L",
+      "from": "nw",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "ne",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "A"
+     ],
+     [
+      "L"
+     ],
+     [
+      "R"
+     ],
+     [
+      "E"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "prima del veicolo L",
+    "en": "before vehicle L"
+   },
+   {
+    "it": "transita",
+    "en": "goes through"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23187": {
+  "en": "To cross the junction shown in the picture, vehicle L goes through before vehicle R.",
+  "explain": {
+   "short": "L is on R's right, so R waits for L.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'prima del' (before): L is third, R is fourth.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "L (3rd) goes before R (4th)",
+    "it": "precedenza a destra",
+    "arms": [
+     "nw",
+     "ne",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "L",
+      "from": "nw",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "ne",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "A"
+     ],
+     [
+      "L"
+     ],
+     [
+      "R"
+     ],
+     [
+      "E"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "prima del veicolo R",
+    "en": "before vehicle R"
+   },
+   {
+    "it": "transita",
+    "en": "goes through"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23188": {
+  "en": "To cross the junction shown in the picture, vehicle L goes through after vehicle A.",
+  "explain": {
+   "short": "A is on L's right, so L must wait until A has gone.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'dopo' (after): L is third, after A, which is second.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "L goes after A",
+    "it": "precedenza a destra",
+    "arms": [
+     "nw",
+     "ne",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "L",
+      "from": "nw",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "ne",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "A"
+     ],
+     [
+      "L"
+     ],
+     [
+      "R"
+     ],
+     [
+      "E"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dopo il veicolo A",
+    "en": "after vehicle A"
+   },
+   {
+    "it": "transita",
+    "en": "goes through"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23189": {
+  "en": "To cross the junction shown in the picture, vehicle E must give way to vehicle A.",
+  "explain": {
+   "short": "A turns towards the right-hand road and E goes straight to the left: their paths do not cross. E gives way to R and L, not to A.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'al veicolo A': E does give way, but to R and L; A is not in its way.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "E waits for R and L, not for A",
+    "it": "precedenza a destra",
+    "arms": [
+     "nw",
+     "ne",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "L",
+      "from": "nw",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "ne",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "A"
+     ],
+     [
+      "L"
+     ],
+     [
+      "R"
+     ],
+     [
+      "E"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve dare la precedenza",
+    "en": "must give way"
+   },
+   {
+    "it": "al veicolo A",
+    "en": "to vehicle A"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23190": {
+  "en": "To cross the junction shown in the picture, the vehicles must go through in this order: E, C, A, L, R.",
+  "explain": {
+   "short": "E cannot go first: R is on its right. E goes last; the right order is C, A, L, R, E.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'E, C, A, L, R' puts E first, but E is the last one.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: E is last, not first",
+    "it": "precedenza a destra",
+    "arms": [
+     "nw",
+     "ne",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "L",
+      "from": "nw",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "ne",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "A"
+     ],
+     [
+      "L"
+     ],
+     [
+      "R"
+     ],
+     [
+      "E"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "nel seguente ordine",
+    "en": "in this order"
+   },
+   {
+    "it": "devono transitare",
+    "en": "must go through"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23191": {
+  "en": "To cross the junction shown in the picture, vehicle A must wait for vehicle E to pass.",
+  "explain": {
+   "short": "A's path does not cross E's path, and A goes second, long before E, which is last.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'deve attendere' (must wait): A does not wait for E; it waits only for C.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A goes 2nd; E goes last",
+    "it": "precedenza a destra",
+    "arms": [
+     "nw",
+     "ne",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "L",
+      "from": "nw",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "ne",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "A"
+     ],
+     [
+      "L"
+     ],
+     [
+      "R"
+     ],
+     [
+      "E"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve attendere",
+    "en": "must wait"
+   },
+   {
+    "it": "il passaggio del veicolo E",
+    "en": "vehicle E passing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23192": {
+  "en": "To cross the junction shown in the picture, any vehicle may enter the junction and stop in the middle of it.",
+  "explain": {
+   "short": "Nobody may enter a junction and stop in the middle: it blocks the others. Each vehicle enters in its turn, only when it can cross completely.",
+   "rule": "Enter a junction only in your turn and only when you can get out the other side. Never stop in the middle of it.",
+   "trap": "'qualunque veicolo' (any vehicle) and 'fermarsi al centro' (stop in the middle): this is never allowed.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Never stop in the middle of the junction",
+    "it": "precedenza a destra",
+    "arms": [
+     "nw",
+     "ne",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "L",
+      "from": "nw",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "ne",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "A"
+     ],
+     [
+      "L"
+     ],
+     [
+      "R"
+     ],
+     [
+      "E"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "impegnare l'incrocio",
+    "en": "enter the junction"
+   },
+   {
+    "it": "fermarsi al centro",
+    "en": "stop in the middle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23193": {
+  "en": "To cross the junction shown in the picture, vehicles C and R go through at the same time after vehicle A has passed.",
+  "explain": {
+   "short": "C goes first, before A. R goes only fourth, after L. They never go together.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'contemporaneamente' (at the same time): C is first and R is fourth.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: C is 1st, R is 4th, not together",
+    "it": "precedenza a destra",
+    "arms": [
+     "nw",
+     "ne",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "L",
+      "from": "nw",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "ne",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "A"
+     ],
+     [
+      "L"
+     ],
+     [
+      "R"
+     ],
+     [
+      "E"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "contemporaneamente",
+    "en": "at the same time"
+   },
+   {
+    "it": "dopo il passaggio",
+    "en": "after ... has passed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23194": {
+  "en": "At the junction shown in the picture, the vehicles leave the junction in this order: A, E, V, H, C.",
+  "explain": {
+   "short": "A goes first: nobody on its right crosses its path. Then each one follows the one on its right: E, V, H, and C last.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'disimpegnano l'incrocio' (leave the junction) in this order: every letter is in the right place.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: A, E, V, H, C",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "E",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "V",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "V"
+     ],
+     [
+      "H"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "disimpegnano l'incrocio",
+    "en": "leave the junction"
+   },
+   {
+    "it": "nel seguente ordine",
+    "en": "in this order"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23195": {
+  "en": "At the junction shown in the picture, vehicle V has priority over vehicle H.",
+  "explain": {
+   "short": "V comes from H's right, so H must wait for V.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'ha la precedenza' (has priority): V is on H's right, so V goes first.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "V (3rd) has priority over H (4th)",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "E",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "V",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "V"
+     ],
+     [
+      "H"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ha la precedenza",
+    "en": "has priority"
+   },
+   {
+    "it": "veicolo H",
+    "en": "vehicle H"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23196": {
+  "en": "At the junction shown in the picture, vehicle C must give way to vehicle H.",
+  "explain": {
+   "short": "H comes from C's right and their paths cross, so C waits for H. C goes last.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'deve dare la precedenza' (must give way): C gives way because H is on its right.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "C waits for H and goes last",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "E",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "V",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "V"
+     ],
+     [
+      "H"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve dare la precedenza",
+    "en": "must give way"
+   },
+   {
+    "it": "veicolo H",
+    "en": "vehicle H"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23197": {
+  "en": "At the junction shown in the picture, vehicle E goes before vehicle H.",
+  "explain": {
+   "short": "E is second; H is fourth, after V. So E goes before H.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'prima del' (before): E is 2nd, H is 4th.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "E (2nd) goes before H (4th)",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "E",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "V",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "V"
+     ],
+     [
+      "H"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passa prima",
+    "en": "goes before"
+   },
+   {
+    "it": "veicolo H",
+    "en": "vehicle H"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23198": {
+  "en": "At the junction shown in the picture, vehicle H goes after vehicles A, E, V.",
+  "explain": {
+   "short": "H has V on its right, and V waits for E, who waits for A. So H is fourth, after A, E and V.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'dopo i veicoli A, E, V' (after A, E, V): H is fourth, only C is after it.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "H goes 4th, after A, E and V",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "E",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "V",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "V"
+     ],
+     [
+      "H"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passa dopo",
+    "en": "goes after"
+   },
+   {
+    "it": "veicoli A, E, V",
+    "en": "vehicles A, E, V"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23199": {
+  "en": "At the junction shown in the picture, vehicle A goes first.",
+  "explain": {
+   "short": "A turns left into the top road, and the only vehicle on its right (C) does not cross its path. So A starts the chain.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'per primo' (first): A is first because no vehicle on its right is in its way.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A goes first",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "E",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "V",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "V"
+     ],
+     [
+      "H"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passa per primo",
+    "en": "goes first"
+   },
+   {
+    "it": "veicolo A",
+    "en": "vehicle A"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23200": {
+  "en": "At the junction shown in the picture, the vehicles leave the junction in this order: A, H, C, E, V.",
+  "explain": {
+   "short": "H cannot go second: V is on its right, and V waits for E. The right order is A, E, V, H, C.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'A, H, C, E, V': A is right, but then the order is wrong.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: after A comes E, then V, H, C",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "E",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "V",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "V"
+     ],
+     [
+      "H"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "disimpegnano l'incrocio",
+    "en": "leave the junction"
+   },
+   {
+    "it": "nel seguente ordine",
+    "en": "in this order"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23201": {
+  "en": "At the junction shown in the picture, the vehicles leave the junction in this order: A, E, C, V, H.",
+  "explain": {
+   "short": "C cannot be third: H is on its right, so C goes last. The right order is A, E, V, H, C.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'A, E, C, V, H': C is placed too early.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: C is last, after H",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "E",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "V",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "V"
+     ],
+     [
+      "H"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "disimpegnano l'incrocio",
+    "en": "leave the junction"
+   },
+   {
+    "it": "nel seguente ordine",
+    "en": "in this order"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23202": {
+  "en": "At the junction shown in the picture, vehicle V must wait until vehicles A, E, H have passed.",
+  "explain": {
+   "short": "V waits for A and E, but not for H: V is on H's right, so H waits for V.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'A, E, H': the trap is H; it is H that waits for V.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "V waits for A and E, not for H",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "E",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "V",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "V"
+     ],
+     [
+      "H"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve attendere",
+    "en": "must wait"
+   },
+   {
+    "it": "siano transitati",
+    "en": "have passed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23203": {
+  "en": "At the junction shown in the picture, vehicles A, V and C go at the same time.",
+  "explain": {
+   "short": "They go one after the other: A is first, V third and C last.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'contemporaneamente' (at the same time): here every vehicle goes alone, one by one.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: A 1st, V 3rd, C last",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "E",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "V",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "V"
+     ],
+     [
+      "H"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "contemporaneamente",
+    "en": "at the same time"
+   },
+   {
+    "it": "passano",
+    "en": "go"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23204": {
+  "en": "At the junction shown in the picture, vehicle V goes after vehicles C and H.",
+  "explain": {
+   "short": "V goes third, before H (fourth) and C (last). H waits for V, because V is on its right.",
+   "rule": "There are no signs, so each driver gives way to vehicles coming from the right. You wait only for vehicles whose path you would cross.",
+   "trap": "'dopo' (after): it is the opposite; V goes before C and H.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: V goes before H and C",
+    "it": "precedenza a destra",
+    "arms": [
+     "n",
+     "e",
+     "se",
+     "sw",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "w",
+      "to": "n",
+      "kind": "car"
+     },
+     {
+      "id": "E",
+      "from": "n",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "V",
+      "from": "e",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "se",
+      "to": "sw",
+      "kind": "car"
+     },
+     {
+      "id": "C",
+      "from": "sw",
+      "to": "e",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "V"
+     ],
+     [
+      "H"
+     ],
+     [
+      "C"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passa dopo",
+    "en": "goes after"
+   },
+   {
+    "it": "veicoli C e H",
+    "en": "vehicles C and H"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23205": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicles L and H go first at the same time.",
+  "explain": {
+   "short": "L and H are on the main road (B and O have a give-way sign). They go straight and their paths do not cross, so they go together.",
+   "rule": "A give-way sign (triangle, shark teeth on the road) means: let everyone on the other road pass. A driver turning left also lets oncoming traffic pass.",
+   "trap": "'contemporaneamente per primi' (together, first): yes, both are on the main road.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "L and H first together, then B, then O",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "n",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "L",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "O",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "L",
+      "H"
+     ],
+     [
+      "B"
+     ],
+     [
+      "O"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "n",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "contemporaneamente",
+    "en": "at the same time"
+   },
+   {
+    "it": "per primi",
+    "en": "first"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23206": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture the vehicles go in this order: L and H, B, O.",
+  "explain": {
+   "short": "L and H (main road) go together first. Then B, which turns right. O turns left and must also let B pass, so O is last.",
+   "rule": "A give-way sign (triangle, shark teeth on the road) means: let everyone on the other road pass. A driver turning left also lets oncoming traffic pass.",
+   "trap": "'L e H, B, O': L and H together, then B, then O, which is right.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: L and H, then B, then O",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "n",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "L",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "O",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "L",
+      "H"
+     ],
+     [
+      "B"
+     ],
+     [
+      "O"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "n",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "nel seguente ordine",
+    "en": "in this order"
+   },
+   {
+    "it": "norme di precedenza",
+    "en": "right-of-way rules"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23207": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture, vehicle B goes through after vehicles L and H.",
+  "explain": {
+   "short": "B has a give-way sign, so it waits for L and H on the main road.",
+   "rule": "A give-way sign (triangle, shark teeth on the road) means: let everyone on the other road pass. A driver turning left also lets oncoming traffic pass.",
+   "trap": "'dopo i veicoli L e H' (after L and H): yes, B must give way to them.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "B waits for L and H (give way)",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "n",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "L",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "O",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "L",
+      "H"
+     ],
+     [
+      "B"
+     ],
+     [
+      "O"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "n",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "transita dopo",
+    "en": "goes through after"
+   },
+   {
+    "it": "veicoli L e H",
+    "en": "vehicles L and H"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23208": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle O goes through last.",
+  "explain": {
+   "short": "O has a give-way sign and turns left, so it also lets B (coming from the opposite side) go first. O is last.",
+   "rule": "A give-way sign (triangle, shark teeth on the road) means: let everyone on the other road pass. A driver turning left also lets oncoming traffic pass.",
+   "trap": "'per ultimo' (last): yes, O waits for everyone.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "O goes last",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "n",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "L",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "O",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "L",
+      "H"
+     ],
+     [
+      "B"
+     ],
+     [
+      "O"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "n",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "transita per ultimo",
+    "en": "goes through last"
+   },
+   {
+    "it": "veicolo O",
+    "en": "vehicle O"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23209": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle B goes through before vehicle O and after vehicles L and H.",
+  "explain": {
+   "short": "B is in the middle: it waits for L and H (main road), but goes before O, which turns left.",
+   "rule": "A give-way sign (triangle, shark teeth on the road) means: let everyone on the other road pass. A driver turning left also lets oncoming traffic pass.",
+   "trap": "Two parts, both right: 'prima del veicolo O' (before O) and 'dopo i veicoli L e H' (after L and H).",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "B: after L and H, before O",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "n",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "L",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "O",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "L",
+      "H"
+     ],
+     [
+      "B"
+     ],
+     [
+      "O"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "n",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "prima del veicolo O",
+    "en": "before vehicle O"
+   },
+   {
+    "it": "dopo i veicoli L e H",
+    "en": "after vehicles L and H"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23210": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle O must give way to all the other vehicles.",
+  "explain": {
+   "short": "O has a give-way sign (so it waits for L and H) and turns left (so it waits for B too). It gives way to everybody.",
+   "rule": "A give-way sign (triangle, shark teeth on the road) means: let everyone on the other road pass. A driver turning left also lets oncoming traffic pass.",
+   "trap": "'a tutti gli altri' (to all the others): yes, O is last.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "O gives way to everyone",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "n",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "L",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "O",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "L",
+      "H"
+     ],
+     [
+      "B"
+     ],
+     [
+      "O"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "n",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve dare la precedenza",
+    "en": "must give way"
+   },
+   {
+    "it": "tutti gli altri veicoli",
+    "en": "all the other vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23211": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle O goes through before vehicle H, but after vehicle L.",
+  "explain": {
+   "short": "O is last. H goes first, together with L, on the main road.",
+   "rule": "A give-way sign (triangle, shark teeth on the road) means: let everyone on the other road pass. A driver turning left also lets oncoming traffic pass.",
+   "trap": "'prima del veicolo H' (before H) is wrong: H and L go together, first.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: O is last; H goes with L first",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "n",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "L",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "O",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "L",
+      "H"
+     ],
+     [
+      "B"
+     ],
+     [
+      "O"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "n",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "prima del veicolo H",
+    "en": "before vehicle H"
+   },
+   {
+    "it": "dopo il veicolo L",
+    "en": "after vehicle L"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23212": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle O goes through before vehicle H, but after vehicle B.",
+  "explain": {
+   "short": "O is after B, but it is not before H: H goes first, together with L. O is last.",
+   "rule": "A give-way sign (triangle, shark teeth on the road) means: let everyone on the other road pass. A driver turning left also lets oncoming traffic pass.",
+   "trap": "'prima del veicolo H' (before H) is the wrong half; 'dopo il veicolo B' alone would be right.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: O is last, after H too",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "n",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "L",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "O",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "L",
+      "H"
+     ],
+     [
+      "B"
+     ],
+     [
+      "O"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "n",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "prima del veicolo H",
+    "en": "before vehicle H"
+   },
+   {
+    "it": "dopo il veicolo B",
+    "en": "after vehicle B"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23213": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle B goes through first.",
+  "explain": {
+   "short": "B has a give-way sign, so it must wait for L and H on the main road.",
+   "rule": "A give-way sign (triangle, shark teeth on the road) means: let everyone on the other road pass. A driver turning left also lets oncoming traffic pass.",
+   "trap": "'per primo' (first): B is second, after L and H.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: B gives way to L and H first",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "n",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "L",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "O",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "L",
+      "H"
+     ],
+     [
+      "B"
+     ],
+     [
+      "O"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "n",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "transita per primo",
+    "en": "goes through first"
+   },
+   {
+    "it": "veicolo B",
+    "en": "vehicle B"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23214": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle H goes through after vehicle O.",
+  "explain": {
+   "short": "H is on the main road and goes first; O has a give-way sign and goes last.",
+   "rule": "A give-way sign (triangle, shark teeth on the road) means: let everyone on the other road pass. A driver turning left also lets oncoming traffic pass.",
+   "trap": "'dopo il veicolo O' (after O): it is the opposite.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: H goes first, O last",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "n",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "L",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "O",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "L",
+      "H"
+     ],
+     [
+      "B"
+     ],
+     [
+      "O"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "n",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "transita dopo",
+    "en": "goes through after"
+   },
+   {
+    "it": "veicolo O",
+    "en": "vehicle O"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23215": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture the vehicles go in this order: B, L, O, H.",
+  "explain": {
+   "short": "B and O have a give-way sign, so they cannot go before L and H. The right order is L and H, then B, then O.",
+   "rule": "A give-way sign (triangle, shark teeth on the road) means: let everyone on the other road pass. A driver turning left also lets oncoming traffic pass.",
+   "trap": "'B, L, O, H' puts the give-way vehicles too early.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: L and H first, then B, then O",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "n",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "L",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "O",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "L",
+      "H"
+     ],
+     [
+      "B"
+     ],
+     [
+      "O"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "n",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "nel seguente ordine",
+    "en": "in this order"
+   },
+   {
+    "it": "norme di precedenza",
+    "en": "right-of-way rules"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23216": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle O enters the junction first and stops in the middle of it.",
+  "explain": {
+   "short": "O has a give-way sign and turns left: it goes last. Nobody may enter a junction and stop in the middle of it.",
+   "rule": "A give-way sign (triangle, shark teeth on the road) means: let everyone on the other road pass. A driver turning left also lets oncoming traffic pass.",
+   "trap": "'impegna l'incrocio per primo' (enters first) and 'si ferma al centro' (stops in the middle): both are wrong.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: O goes last; never stop in the middle",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "B",
+      "from": "n",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "L",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "O",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "L",
+      "H"
+     ],
+     [
+      "B"
+     ],
+     [
+      "O"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "n",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "impegna l'incrocio per primo",
+    "en": "enters the junction first"
+   },
+   {
+    "it": "si ferma al centro",
+    "en": "stops in the middle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23217": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle S goes through before vehicle R.",
+  "explain": {
+   "short": "S is on the main road; R has a give-way sign. So S goes before R.",
+   "rule": "Vehicles on the main road go first; a give-way sign means wait. A driver turning left lets the oncoming vehicle going straight pass first.",
+   "trap": "'prima del veicolo R' (before R): yes, S is first and R is last.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "S (1st) before R (last)",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "S",
+      "from": "s",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "e",
+      "to": "s",
+      "kind": "truck"
+     }
+    ],
+    "order": [
+     [
+      "S"
+     ],
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "R"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "w",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "prima del veicolo R",
+    "en": "before vehicle R"
+   },
+   {
+    "it": "transita",
+    "en": "goes through"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23218": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle S goes through before all the other vehicles.",
+  "explain": {
+   "short": "S is on the main road and goes straight. A, also on the main road, turns left and waits for S. E and R have a give-way sign.",
+   "rule": "Vehicles on the main road go first; a give-way sign means wait. A driver turning left lets the oncoming vehicle going straight pass first.",
+   "trap": "'prima di tutti gli altri' (before all the others): yes, S is first.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "S goes first of all",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "S",
+      "from": "s",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "e",
+      "to": "s",
+      "kind": "truck"
+     }
+    ],
+    "order": [
+     [
+      "S"
+     ],
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "R"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "w",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "prima di tutti gli altri veicoli",
+    "en": "before all the other vehicles"
+   },
+   {
+    "it": "transita",
+    "en": "goes through"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23219": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture the vehicles go through in the order: S, A, E, R.",
+  "explain": {
+   "short": "Main road first: S (straight), then A (turning left). Then the give-way road: E (straight), then R (turning left).",
+   "rule": "Vehicles on the main road go first; a give-way sign means wait. A driver turning left lets the oncoming vehicle going straight pass first.",
+   "trap": "'nell'ordine: S, A, E, R' (in the order): every letter is in the right place.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: S, A, E, R",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "S",
+      "from": "s",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "e",
+      "to": "s",
+      "kind": "truck"
+     }
+    ],
+    "order": [
+     [
+      "S"
+     ],
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "R"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "w",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "nell'ordine",
+    "en": "in the order"
+   },
+   {
+    "it": "transitano",
+    "en": "go through"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23220": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle A must give way to vehicle S.",
+  "explain": {
+   "short": "A and S are both on the main road, facing each other. A turns left, so it lets S, going straight, pass first.",
+   "rule": "Vehicles on the main road go first; a give-way sign means wait. A driver turning left lets the oncoming vehicle going straight pass first.",
+   "trap": "'deve dare la precedenza' (must give way): yes, the one turning left waits for the oncoming one.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A turns left and waits for S",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "S",
+      "from": "s",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "e",
+      "to": "s",
+      "kind": "truck"
+     }
+    ],
+    "order": [
+     [
+      "S"
+     ],
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "R"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "w",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve dare la precedenza",
+    "en": "must give way"
+   },
+   {
+    "it": "veicolo S",
+    "en": "vehicle S"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23221": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle R goes through last.",
+  "explain": {
+   "short": "R has a give-way sign, so it waits for S and A. It also turns left, so it waits for E coming the other way. R is last.",
+   "rule": "Vehicles on the main road go first; a give-way sign means wait. A driver turning left lets the oncoming vehicle going straight pass first.",
+   "trap": "'per ultimo' (last): yes, R waits for everybody.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "R goes last",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "S",
+      "from": "s",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "e",
+      "to": "s",
+      "kind": "truck"
+     }
+    ],
+    "order": [
+     [
+      "S"
+     ],
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "R"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "w",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "transita per ultimo",
+    "en": "goes through last"
+   },
+   {
+    "it": "veicolo R",
+    "en": "vehicle R"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23222": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle E must wait for vehicle R to pass.",
+  "explain": {
+   "short": "E and R both have a give-way sign and face each other. R turns left, so R waits for E, not the other way round.",
+   "rule": "Vehicles on the main road go first; a give-way sign means wait. A driver turning left lets the oncoming vehicle going straight pass first.",
+   "trap": "'deve attendere' (must wait): it is R that waits for E.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: R turns left and waits for E",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "S",
+      "from": "s",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "e",
+      "to": "s",
+      "kind": "truck"
+     }
+    ],
+    "order": [
+     [
+      "S"
+     ],
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "R"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "w",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve attendere",
+    "en": "must wait"
+   },
+   {
+    "it": "il transito del veicolo R",
+    "en": "vehicle R passing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23223": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle R enters the junction first and stops in the middle of it.",
+  "explain": {
+   "short": "R has a give-way sign and turns left: it goes last. Nobody may enter a junction and stop in the middle of it.",
+   "rule": "Vehicles on the main road go first; a give-way sign means wait. A driver turning left lets the oncoming vehicle going straight pass first.",
+   "trap": "'impegna per primo' (enters first) and 'si ferma al centro' (stops in the middle): both are wrong.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: R goes last; never stop in the middle",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "S",
+      "from": "s",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "e",
+      "to": "s",
+      "kind": "truck"
+     }
+    ],
+    "order": [
+     [
+      "S"
+     ],
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "R"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "w",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "impegna per primo",
+    "en": "enters first"
+   },
+   {
+    "it": "si ferma al centro",
+    "en": "stops in the middle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23224": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle A must go through after vehicle E.",
+  "explain": {
+   "short": "A is on the main road; E has a give-way sign. So A goes before E (A is second, E third).",
+   "rule": "Vehicles on the main road go first; a give-way sign means wait. A driver turning left lets the oncoming vehicle going straight pass first.",
+   "trap": "'dopo il veicolo E' (after E): it is the opposite.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: A (2nd) goes before E (3rd)",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "S",
+      "from": "s",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "e",
+      "to": "s",
+      "kind": "truck"
+     }
+    ],
+    "order": [
+     [
+      "S"
+     ],
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "R"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "w",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve transitare dopo",
+    "en": "must go through after"
+   },
+   {
+    "it": "veicolo E",
+    "en": "vehicle E"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23225": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle A must go through last.",
+  "explain": {
+   "short": "A is on the main road: it waits only for S. It goes second, before E and R.",
+   "rule": "Vehicles on the main road go first; a give-way sign means wait. A driver turning left lets the oncoming vehicle going straight pass first.",
+   "trap": "'per ultimo' (last): A is second; R is last.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: A is 2nd; R is last",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "S",
+      "from": "s",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "e",
+      "to": "s",
+      "kind": "truck"
+     }
+    ],
+    "order": [
+     [
+      "S"
+     ],
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "R"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "w",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "per ultimo",
+    "en": "last"
+   },
+   {
+    "it": "deve transitare",
+    "en": "must go through"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23226": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture the vehicles go through in the order: E, R, S, A.",
+  "explain": {
+   "short": "E and R have a give-way sign, so they cannot go before S and A. The right order is S, A, E, R.",
+   "rule": "Vehicles on the main road go first; a give-way sign means wait. A driver turning left lets the oncoming vehicle going straight pass first.",
+   "trap": "'E, R, S, A' puts the give-way road first: it is upside down.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: main road first; S, A, E, R",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "S",
+      "from": "s",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "e",
+      "to": "s",
+      "kind": "truck"
+     }
+    ],
+    "order": [
+     [
+      "S"
+     ],
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "R"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "w",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "nell'ordine",
+    "en": "in the order"
+   },
+   {
+    "it": "transitano",
+    "en": "go through"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23227": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle A must wait until vehicles S and E have passed.",
+  "explain": {
+   "short": "A waits only for S. E has a give-way sign, so E waits for A.",
+   "rule": "Vehicles on the main road go first; a give-way sign means wait. A driver turning left lets the oncoming vehicle going straight pass first.",
+   "trap": "'S ed E': S is right, but E is the trap; A does not wait for E.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: A waits for S only; E waits for A",
+    "it": "dare precedenza",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "A",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "S",
+      "from": "s",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "E",
+      "from": "w",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "R",
+      "from": "e",
+      "to": "s",
+      "kind": "truck"
+     }
+    ],
+    "order": [
+     [
+      "S"
+     ],
+     [
+      "A"
+     ],
+     [
+      "E"
+     ],
+     [
+      "R"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "w",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve attendere",
+    "en": "must wait"
+   },
+   {
+    "it": "siano transitati",
+    "en": "have passed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23228": {
+  "en": "In the situation shown in the picture, vehicle A must wait for vehicles C and R to pass.",
+  "explain": {
+   "short": "A has a give-way sign, so it waits for C and R, which are on the main road.",
+   "rule": "The main road can bend: its vehicles go first and the give-way roads wait. A driver turning left lets the oncoming vehicle pass; among the waiting roads, give way to the right.",
+   "trap": "'deve attendere' (must wait): yes, A gives way to the main road.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A waits for C and R (main road)",
+    "it": "strada principale",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "C",
+      "from": "w",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "R",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "H"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve attendere",
+    "en": "must wait"
+   },
+   {
+    "it": "veicoli C ed R",
+    "en": "vehicles C and R"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23229": {
+  "en": "In the situation shown in the picture, the vehicles go through in the order: C, R, A, H.",
+  "explain": {
+   "short": "Main road first: C, then R (turning left, it waits for C). Then A (straight) and H last (A is on its right).",
+   "rule": "The main road can bend: its vehicles go first and the give-way roads wait. A driver turning left lets the oncoming vehicle pass; among the waiting roads, give way to the right.",
+   "trap": "'nell'ordine: C, R, A, H' (in the order): every letter is in the right place.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: C, R, A, H",
+    "it": "strada principale",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "C",
+      "from": "w",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "R",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "H"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "nell'ordine",
+    "en": "in the order"
+   },
+   {
+    "it": "transitano",
+    "en": "go through"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23230": {
+  "en": "In the situation shown in the picture, vehicle H must wait for vehicles C, R, A to pass.",
+  "explain": {
+   "short": "H has a give-way sign (so it waits for C and R) and A comes from its right (so it waits for A too).",
+   "rule": "The main road can bend: its vehicles go first and the give-way roads wait. A driver turning left lets the oncoming vehicle pass; among the waiting roads, give way to the right.",
+   "trap": "'C, R, A': yes, H waits for all three and goes last.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "H waits for C, R and A",
+    "it": "strada principale",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "C",
+      "from": "w",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "R",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "H"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve attendere",
+    "en": "must wait"
+   },
+   {
+    "it": "veicoli C, R, A",
+    "en": "vehicles C, R, A"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23231": {
+  "en": "In the situation shown in the picture, vehicle H must go through last.",
+  "explain": {
+   "short": "H has a give-way sign and A comes from its right; H also turns left. So H goes last.",
+   "rule": "The main road can bend: its vehicles go first and the give-way roads wait. A driver turning left lets the oncoming vehicle pass; among the waiting roads, give way to the right.",
+   "trap": "'per ultimo' (last): yes, H waits for everyone.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "H goes last",
+    "it": "strada principale",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "C",
+      "from": "w",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "R",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "H"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "per ultimo",
+    "en": "last"
+   },
+   {
+    "it": "deve transitare",
+    "en": "must go through"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23232": {
+  "en": "In the situation shown in the picture, vehicle R must wait for vehicle C to pass.",
+  "explain": {
+   "short": "R and C are both on the main road, facing each other. R turns left off it, so it lets C pass first.",
+   "rule": "The main road can bend: its vehicles go first and the give-way roads wait. A driver turning left lets the oncoming vehicle pass; among the waiting roads, give way to the right.",
+   "trap": "'deve attendere' (must wait): yes, the one turning left waits for the oncoming one.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "R turns left and waits for C",
+    "it": "strada principale",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "C",
+      "from": "w",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "R",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "H"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve attendere",
+    "en": "must wait"
+   },
+   {
+    "it": "veicolo C",
+    "en": "vehicle C"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23233": {
+  "en": "In the situation shown in the picture, vehicle C goes through first.",
+  "explain": {
+   "short": "C is on the main road and follows it around the bend. Nobody has priority over C, so it goes first.",
+   "rule": "The main road can bend: its vehicles go first and the give-way roads wait. A driver turning left lets the oncoming vehicle pass; among the waiting roads, give way to the right.",
+   "trap": "'per primo' (first): yes; the big truck C is on the main road.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "C goes first along the main road",
+    "it": "strada principale",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "C",
+      "from": "w",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "R",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "H"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "transita per primo",
+    "en": "goes through first"
+   },
+   {
+    "it": "veicolo C",
+    "en": "vehicle C"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23234": {
+  "en": "In the situation shown in the picture, the vehicles go through in the order: C, R, H, A.",
+  "explain": {
+   "short": "C and R are right, but H cannot go before A: A comes from H's right. The right order is C, R, A, H.",
+   "rule": "The main road can bend: its vehicles go first and the give-way roads wait. A driver turning left lets the oncoming vehicle pass; among the waiting roads, give way to the right.",
+   "trap": "'C, R, H, A': the last two are swapped.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: A goes before H",
+    "it": "strada principale",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "C",
+      "from": "w",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "R",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "H"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "nell'ordine",
+    "en": "in the order"
+   },
+   {
+    "it": "transitano",
+    "en": "go through"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23235": {
+  "en": "In the situation shown in the picture, vehicle C must wait for vehicle H to pass.",
+  "explain": {
+   "short": "C is on the main road and goes first; H has a give-way sign and goes last.",
+   "rule": "The main road can bend: its vehicles go first and the give-way roads wait. A driver turning left lets the oncoming vehicle pass; among the waiting roads, give way to the right.",
+   "trap": "'deve attendere' (must wait): it is H that waits for C.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: C goes first, H last",
+    "it": "strada principale",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "C",
+      "from": "w",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "R",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "H"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve attendere",
+    "en": "must wait"
+   },
+   {
+    "it": "veicolo H",
+    "en": "vehicle H"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23236": {
+  "en": "In the situation shown in the picture, vehicle A must wait for vehicle H to pass.",
+  "explain": {
+   "short": "A and H both have a give-way sign. A comes from H's right, so H waits for A, not the other way round.",
+   "rule": "The main road can bend: its vehicles go first and the give-way roads wait. A driver turning left lets the oncoming vehicle pass; among the waiting roads, give way to the right.",
+   "trap": "'deve attendere' (must wait): it is H that waits for A.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: A is on H's right; H waits",
+    "it": "strada principale",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "C",
+      "from": "w",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "R",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "H"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve attendere",
+    "en": "must wait"
+   },
+   {
+    "it": "veicolo H",
+    "en": "vehicle H"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23237": {
+  "en": "In the situation shown in the picture, vehicle R must wait for vehicles H and A to pass.",
+  "explain": {
+   "short": "R is on the main road; H and A have a give-way sign. R waits only for C, then goes before H and A.",
+   "rule": "The main road can bend: its vehicles go first and the give-way roads wait. A driver turning left lets the oncoming vehicle pass; among the waiting roads, give way to the right.",
+   "trap": "'H ed A': they are the ones who wait for R.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: R waits only for C",
+    "it": "strada principale",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "C",
+      "from": "w",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "R",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "H"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve attendere",
+    "en": "must wait"
+   },
+   {
+    "it": "veicoli H ed A",
+    "en": "vehicles H and A"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23238": {
+  "en": "In the situation shown in the picture, vehicle C must wait for vehicles R, A, H to pass.",
+  "explain": {
+   "short": "C is on the main road and goes straight along it: it goes first and waits for nobody.",
+   "rule": "The main road can bend: its vehicles go first and the give-way roads wait. A driver turning left lets the oncoming vehicle pass; among the waiting roads, give way to the right.",
+   "trap": "'deve attendere' (must wait): C is first, the others wait for C.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: C goes first, waits for nobody",
+    "it": "strada principale",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "C",
+      "from": "w",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "R",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "H"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve attendere",
+    "en": "must wait"
+   },
+   {
+    "it": "veicoli R, A, H",
+    "en": "vehicles R, A, H"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23239": {
+  "en": "In the situation shown in the picture, vehicle R must wait for vehicle H to pass.",
+  "explain": {
+   "short": "R is on the main road; H has a give-way sign and goes last. R waits only for C.",
+   "rule": "The main road can bend: its vehicles go first and the give-way roads wait. A driver turning left lets the oncoming vehicle pass; among the waiting roads, give way to the right.",
+   "trap": "'deve attendere' (must wait): it is H that waits for R.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: R (2nd) goes before H (last)",
+    "it": "strada principale",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "C",
+      "from": "w",
+      "to": "n",
+      "kind": "truck"
+     },
+     {
+      "id": "R",
+      "from": "n",
+      "to": "e",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "car"
+     },
+     {
+      "id": "H",
+      "from": "s",
+      "to": "w",
+      "kind": "car"
+     }
+    ],
+    "order": [
+     [
+      "C"
+     ],
+     [
+      "R"
+     ],
+     [
+      "A"
+     ],
+     [
+      "H"
+     ]
+    ],
+    "signs": [
+     {
+      "arm": "e",
+      "type": "giveWay"
+     },
+     {
+      "arm": "s",
+      "type": "giveWay"
+     }
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve attendere",
+    "en": "must wait"
+   },
+   {
+    "it": "veicolo H",
+    "en": "vehicle H"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23240": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle T goes through first.",
+  "explain": {
+   "short": "T is a tram. With no signs, the vehicle on rails has priority over vehicles without rails, so it goes first.",
+   "rule": "Without signs, a tram (vehicle on rails) goes before the other vehicles. Between cars, give way to the vehicle coming from your right.",
+   "trap": "'per primo' (first): yes, the tram is first.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tram T first, then O, then A",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "O",
+      "from": "n",
+      "to": "s",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "O"
+     ],
+     [
+      "A"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "transita per primo",
+    "en": "goes through first"
+   },
+   {
+    "it": "veicolo T",
+    "en": "vehicle T"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23241": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle A must wait for vehicle O to pass.",
+  "explain": {
+   "short": "O comes from A's right, so the truck A gives way to O.",
+   "rule": "Without signs, a tram (vehicle on rails) goes before the other vehicles. Between cars, give way to the vehicle coming from your right.",
+   "trap": "'deve attendere' (must wait): yes, O is on A's right.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A waits for O (O is on its right)",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "O",
+      "from": "n",
+      "to": "s",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "O"
+     ],
+     [
+      "A"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve attendere",
+    "en": "must wait"
+   },
+   {
+    "it": "veicolo O",
+    "en": "vehicle O"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23242": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle O must wait for vehicle T to pass.",
+  "explain": {
+   "short": "T is a tram and has priority over vehicles without rails, so O waits for it.",
+   "rule": "Without signs, a tram (vehicle on rails) goes before the other vehicles. Between cars, give way to the vehicle coming from your right.",
+   "trap": "'deve attendere' (must wait): yes, O waits for the tram.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "O waits for the tram T",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "O",
+      "from": "n",
+      "to": "s",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "O"
+     ],
+     [
+      "A"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve attendere",
+    "en": "must wait"
+   },
+   {
+    "it": "veicolo T",
+    "en": "vehicle T"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23243": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture the vehicles go through in the order: T, O, A.",
+  "explain": {
+   "short": "The tram T goes first. Then O, which is on A's right. The truck A goes last.",
+   "rule": "Without signs, a tram (vehicle on rails) goes before the other vehicles. Between cars, give way to the vehicle coming from your right.",
+   "trap": "'nell'ordine: T, O, A' (in the order): every letter is in the right place.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Order: T, O, A",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "O",
+      "from": "n",
+      "to": "s",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "O"
+     ],
+     [
+      "A"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "nell'ordine",
+    "en": "in the order"
+   },
+   {
+    "it": "transitano",
+    "en": "go through"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23244": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle O goes through before vehicle A.",
+  "explain": {
+   "short": "O comes from A's right, so O goes before A.",
+   "rule": "Without signs, a tram (vehicle on rails) goes before the other vehicles. Between cars, give way to the vehicle coming from your right.",
+   "trap": "'prima del veicolo A' (before A): yes, O is second and A last.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "O (2nd) goes before A (last)",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "O",
+      "from": "n",
+      "to": "s",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "O"
+     ],
+     [
+      "A"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "prima del veicolo A",
+    "en": "before vehicle A"
+   },
+   {
+    "it": "transita",
+    "en": "goes through"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23245": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle T must wait for vehicle O to pass.",
+  "explain": {
+   "short": "T is a tram: it has priority over O. It is O that waits for T.",
+   "rule": "Without signs, a tram (vehicle on rails) goes before the other vehicles. Between cars, give way to the vehicle coming from your right.",
+   "trap": "'deve attendere' (must wait): the opposite; O waits for the tram.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: the tram goes first, O waits",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "O",
+      "from": "n",
+      "to": "s",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "O"
+     ],
+     [
+      "A"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve attendere",
+    "en": "must wait"
+   },
+   {
+    "it": "veicolo O",
+    "en": "vehicle O"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23246": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle O must wait for vehicle A to pass.",
+  "explain": {
+   "short": "O comes from A's right, so A waits for O, not the other way round.",
+   "rule": "Without signs, a tram (vehicle on rails) goes before the other vehicles. Between cars, give way to the vehicle coming from your right.",
+   "trap": "'deve attendere' (must wait): it is A that waits for O.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: O is on A's right; A waits",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "O",
+      "from": "n",
+      "to": "s",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "O"
+     ],
+     [
+      "A"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve attendere",
+    "en": "must wait"
+   },
+   {
+    "it": "veicolo A",
+    "en": "vehicle A"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23247": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicle T must wait for vehicle A to pass.",
+  "explain": {
+   "short": "T is a tram and goes first. The truck A goes last.",
+   "rule": "Without signs, a tram (vehicle on rails) goes before the other vehicles. Between cars, give way to the vehicle coming from your right.",
+   "trap": "'deve attendere' (must wait): the tram waits for nobody here.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: tram first, truck A last",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "O",
+      "from": "n",
+      "to": "s",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "O"
+     ],
+     [
+      "A"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve attendere",
+    "en": "must wait"
+   },
+   {
+    "it": "veicolo A",
+    "en": "vehicle A"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23248": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture the vehicles go through in the order: T, A, O.",
+  "explain": {
+   "short": "T is right as first, but A cannot go before O: O comes from A's right. The right order is T, O, A.",
+   "rule": "Without signs, a tram (vehicle on rails) goes before the other vehicles. Between cars, give way to the vehicle coming from your right.",
+   "trap": "'T, A, O': the last two are swapped.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: O goes before A",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "O",
+      "from": "n",
+      "to": "s",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "O"
+     ],
+     [
+      "A"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "nell'ordine",
+    "en": "in the order"
+   },
+   {
+    "it": "transitano",
+    "en": "go through"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23249": {
+  "en": "According to the right-of-way rules, at the junction shown in the picture vehicles A and T go through at the same time.",
+  "explain": {
+   "short": "The tram T goes first. A must wait for O (on its right), and O must wait for T. So A goes last, not together with T.",
+   "rule": "Without signs, a tram (vehicle on rails) goes before the other vehicles. Between cars, give way to the vehicle coming from your right.",
+   "trap": "'contemporaneamente' (at the same time): A cannot go with the tram, because it must let O pass first.",
+   "scene": "junctionOrder",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No: T first, then O, then A",
+    "it": "tram",
+    "arms": [
+     "n",
+     "e",
+     "s",
+     "w"
+    ],
+    "vehicles": [
+     {
+      "id": "O",
+      "from": "n",
+      "to": "s",
+      "kind": "car"
+     },
+     {
+      "id": "A",
+      "from": "e",
+      "to": "w",
+      "kind": "truck"
+     },
+     {
+      "id": "T",
+      "from": "e",
+      "to": "w",
+      "kind": "tram"
+     }
+    ],
+    "order": [
+     [
+      "T"
+     ],
+     [
+      "O"
+     ],
+     [
+      "A"
+     ]
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "contemporaneamente",
+    "en": "at the same time"
+   },
+   {
+    "it": "veicoli A e T",
+    "en": "vehicles A and T"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

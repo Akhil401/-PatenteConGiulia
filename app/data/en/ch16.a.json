@@ -1,0 +1,2466 @@
+{
+ "q23614": {
+  "en": "If you park in a regulated zone with a parking meter, you must display the ticket so that it is clearly visible.",
+  "explain": {
+   "short": "The ticket proves you paid. Wardens must be able to read it, so it goes clearly visible (for example behind the windscreen).",
+   "rule": "In a zone with a parcheggio a pagamento (parking meter), you must pay and show the ticket clearly, even for a short park; only a fermata (a quick stop to let someone get in or out) needs no ticket. With a disco orario (parking disc) you show your ARRIVAL time (hours and minutes), never the end time, and you may not move the time forward without moving the car. Vehicles serving disabled people do not have to respect the time limit.",
+   "trap": "'ben visibile' (clearly visible): a ticket hidden in the car is not enough.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pay and show the ticket clearly",
+    "it": "tagliando",
+    "lines": [
+     "Paid parking zone in town",
+     "Pay at the parking meter",
+     "Show the ticket behind the windscreen"
+    ],
+    "icons": [
+     "money",
+     "check",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "parchimetro",
+    "en": "parking meter"
+   },
+   {
+    "it": "esporre l'apposito tagliando",
+    "en": "display the ticket"
+   },
+   {
+    "it": "ben visibile",
+    "en": "clearly visible"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23615": {
+  "en": "To park in a zone regulated by a parking disc, you must clearly display the time of arrival.",
+  "explain": {
+   "short": "The parking disc shows when you ARRIVED. From that time the warden can see if your time is over.",
+   "rule": "In a zone with a parcheggio a pagamento (parking meter), you must pay and show the ticket clearly, even for a short park; only a fermata (a quick stop to let someone get in or out) needs no ticket. With a disco orario (parking disc) you show your ARRIVAL time (hours and minutes), never the end time, and you may not move the time forward without moving the car. Vehicles serving disabled people do not have to respect the time limit.",
+   "trap": "'orario di arrivo' (arrival time) is correct; the quiz often swaps it with the end time.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking disc: show your arrival time",
+    "it": "disco orario",
+    "lines": [
+     "Zone with a parking disc",
+     "Set the disc to your arrival time",
+     "Put it where it is clearly visible"
+    ],
+    "icons": [
+     "sign",
+     "check",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "disco orario",
+    "en": "parking disc"
+   },
+   {
+    "it": "orario di arrivo",
+    "en": "arrival time"
+   },
+   {
+    "it": "ben visibile",
+    "en": "clearly visible"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23616": {
+  "en": "In a zone where parking is regulated by a parking meter, you do not need to use it if you stop only to let a passenger get in or out.",
+  "explain": {
+   "short": "Letting a passenger in or out is a fermata (short stop), not a sosta (parking). The meter is only for parking.",
+   "rule": "In a zone with a parcheggio a pagamento (parking meter), you must pay and show the ticket clearly, even for a short park; only a fermata (a quick stop to let someone get in or out) needs no ticket. With a disco orario (parking disc) you show your ARRIVAL time (hours and minutes), never the end time, and you may not move the time forward without moving the car. Vehicles serving disabled people do not have to respect the time limit.",
+   "trap": "'soltanto per far salire o scendere' (only to let someone in or out) = fermata, so no ticket.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Quick stop for a passenger: no ticket needed",
+    "it": "fermata",
+    "lines": [
+     "Paid parking zone",
+     "Passenger gets out, driver stays",
+     "This is a fermata: no ticket"
+    ],
+    "icons": [
+     "money",
+     "pedestrian",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "parchimetro",
+    "en": "parking meter"
+   },
+   {
+    "it": "non occorre utilizzarlo",
+    "en": "you do not need to use it"
+   },
+   {
+    "it": "far salire o scendere un passeggero",
+    "en": "let a passenger get in or out"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23617": {
+  "en": "In time-limited parking areas, vehicles serving disabled people are not obliged to respect the time limit set for parking.",
+  "explain": {
+   "short": "The law helps disabled people: a vehicle with the disabled badge may stay longer than the time limit.",
+   "rule": "In a zone with a parcheggio a pagamento (parking meter), you must pay and show the ticket clearly, even for a short park; only a fermata (a quick stop to let someone get in or out) needs no ticket. With a disco orario (parking disc) you show your ARRIVAL time (hours and minutes), never the end time, and you may not move the time forward without moving the car. Vehicles serving disabled people do not have to respect the time limit.",
+   "trap": "'non sono obbligati' (are not obliged): here the exemption is real.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Disabled badge: no time limit",
+    "it": "diversamente abili",
+    "lines": [
+     "Time-limited parking area",
+     "Car with the disabled badge",
+     "May stay beyond the time limit"
+    ],
+    "icons": [
+     "sign",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "parcheggio a tempo limitato",
+    "en": "time-limited parking"
+   },
+   {
+    "it": "persone diversamente abili",
+    "en": "disabled people"
+   },
+   {
+    "it": "limite di tempo",
+    "en": "time limit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23618": {
+  "en": "To park in a zone regulated by a parking disc, you must show on the disc the time your parking ends, or write it on a sheet of paper.",
+  "explain": {
+   "short": "The parking disc shows your ARRIVAL time, not the end time. The end is worked out from the arrival time.",
+   "rule": "In a zone with a parcheggio a pagamento (parking meter), you must pay and show the ticket clearly, even for a short park; only a fermata (a quick stop to let someone get in or out) needs no ticket. With a disco orario (parking disc) you show your ARRIVAL time (hours and minutes), never the end time, and you may not move the time forward without moving the car. Vehicles serving disabled people do not have to respect the time limit.",
+   "trap": "'orario di fine della sosta' (end time) is wrong: the disc shows the arrival time.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Wrong: the disc shows ARRIVAL, not end time",
+    "it": "disco orario",
+    "lines": [
+     "Zone with a parking disc",
+     "End time on the disc: wrong",
+     "Show the arrival time"
+    ],
+    "icons": [
+     "sign",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "disco orario",
+    "en": "parking disc"
+   },
+   {
+    "it": "orario di fine della sosta",
+    "en": "end time of parking"
+   },
+   {
+    "it": "foglio di carta",
+    "en": "sheet of paper"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23619": {
+  "en": "In a zone where parking is regulated by a parking disc, before the parking time runs out you are allowed to update the time without moving the vehicle.",
+  "explain": {
+   "short": "Changing the time on the disc without moving the car is cheating the time limit. It is not allowed.",
+   "rule": "In a zone with a parcheggio a pagamento (parking meter), you must pay and show the ticket clearly, even for a short park; only a fermata (a quick stop to let someone get in or out) needs no ticket. With a disco orario (parking disc) you show your ARRIVAL time (hours and minutes), never the end time, and you may not move the time forward without moving the car. Vehicles serving disabled people do not have to respect the time limit.",
+   "trap": "'senza che il veicolo venga spostato' (without moving the vehicle): this makes it forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "You may not reset the disc without moving",
+    "it": "aggiornare l'orario",
+    "lines": [
+     "Parking disc, time almost over",
+     "Changing the time on the spot: no",
+     "Time over: you must leave"
+    ],
+    "icons": [
+     "sign",
+     "cross",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "disco orario",
+    "en": "parking disc"
+   },
+   {
+    "it": "aggiornare l'orario",
+    "en": "update the time"
+   },
+   {
+    "it": "senza che il veicolo venga spostato",
+    "en": "without moving the vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23620": {
+  "en": "In a zone where parking is regulated by a parking meter, you do not need to use the parking meter if you park only briefly.",
+  "explain": {
+   "short": "Any sosta (parking), even a short one, must be paid. Only a fermata (letting people in or out) is free.",
+   "rule": "In a zone with a parcheggio a pagamento (parking meter), you must pay and show the ticket clearly, even for a short park; only a fermata (a quick stop to let someone get in or out) needs no ticket. With a disco orario (parking disc) you show your ARRIVAL time (hours and minutes), never the end time, and you may not move the time forward without moving the car. Vehicles serving disabled people do not have to respect the time limit.",
+   "trap": "'breve sosta' (short parking) is still a sosta, so you must pay.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Even short parking must be paid",
+    "it": "breve sosta",
+    "lines": [
+     "Paid parking zone",
+     "Short parking without ticket: no",
+     "Every sosta must be paid"
+    ],
+    "icons": [
+     "money",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "parchimetro",
+    "en": "parking meter"
+   },
+   {
+    "it": "breve sosta",
+    "en": "short parking"
+   },
+   {
+    "it": "non occorre",
+    "en": "you do not need"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23621": {
+  "en": "If you park in a zone regulated by a parking disc, you must write the arrival time on a sheet of paper, without the minutes.",
+  "explain": {
+   "short": "You use the parking disc and show the exact arrival time. Leaving out the minutes is not correct.",
+   "rule": "In a zone with a parcheggio a pagamento (parking meter), you must pay and show the ticket clearly, even for a short park; only a fermata (a quick stop to let someone get in or out) needs no ticket. With a disco orario (parking disc) you show your ARRIVAL time (hours and minutes), never the end time, and you may not move the time forward without moving the car. Vehicles serving disabled people do not have to respect the time limit.",
+   "trap": "'senza indicare i minuti' (without the minutes) and 'foglio di carta' (sheet of paper) make it wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Use the disc, with the exact time",
+    "it": "disco orario",
+    "lines": [
+     "Zone with a parking disc",
+     "Paper note without minutes: no",
+     "Use the disc with the arrival time"
+    ],
+    "icons": [
+     "sign",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "disco orario",
+    "en": "parking disc"
+   },
+   {
+    "it": "foglio di carta",
+    "en": "sheet of paper"
+   },
+   {
+    "it": "senza indicare i minuti",
+    "en": "without the minutes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23622": {
+  "en": "The driver of a motor vehicle parked on the right side of an urban road must pay special attention to approaching vehicles before opening the door.",
+  "explain": {
+   "short": "The driver's door opens towards the traffic. A car or bike coming from behind could hit the door.",
+   "rule": "Before you open a door of a parked car, look for vehicles coming. On a narrow road check BOTH directions (behind and in front). Remind passengers: on the traffic side watch the vehicles, on the pavement side watch the pedestrians. When you park, switch the engine off, even for a short time.",
+   "trap": "'prima di aprire la portiera' (before opening the door): look first, then open.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Check the mirror before opening the door",
+    "it": "portiera",
+    "lines": [
+     "Car parked on the right in town",
+     "Check vehicles coming from behind",
+     "Then open the door slowly"
+    ],
+    "icons": [
+     "car",
+     "mirror",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in sosta",
+    "en": "parked"
+   },
+   {
+    "it": "aprire la portiera",
+    "en": "open the door"
+   },
+   {
+    "it": "veicoli che sopraggiungono",
+    "en": "approaching vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23623": {
+  "en": "The driver of a motor vehicle parked on a narrow road must check that no vehicles are approaching before getting out.",
+  "explain": {
+   "short": "On a narrow road an open door blocks the lane. Check that nobody is coming before you get out.",
+   "rule": "Before you open a door of a parked car, look for vehicles coming. On a narrow road check BOTH directions (behind and in front). Remind passengers: on the traffic side watch the vehicles, on the pavement side watch the pedestrians. When you park, switch the engine off, even for a short time.",
+   "trap": "'strada stretta' (narrow road): little space, so check carefully.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Narrow road: check before getting out",
+    "it": "strada stretta",
+    "lines": [
+     "Car parked on a narrow road",
+     "Open door blocks the lane",
+     "Check no vehicle is coming"
+    ],
+    "icons": [
+     "road",
+     "warning",
+     "mirror"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada stretta",
+    "en": "narrow road"
+   },
+   {
+    "it": "prima di scendere",
+    "en": "before getting out"
+   },
+   {
+    "it": "non sopraggiungano veicoli",
+    "en": "no vehicles are coming"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23624": {
+  "en": "It is advisable that the driver of a motor vehicle parked on the left side of a one-way urban road reminds the passenger to pay special attention to approaching vehicles before opening the door.",
+  "explain": {
+   "short": "Parked on the LEFT of a one-way road, the passenger's door opens towards the traffic. So the passenger must watch the vehicles.",
+   "rule": "Before you open a door of a parked car, look for vehicles coming. On a narrow road check BOTH directions (behind and in front). Remind passengers: on the traffic side watch the vehicles, on the pavement side watch the pedestrians. When you park, switch the engine off, even for a short time.",
+   "trap": "'lato sinistro' with 'senso unico' (left side, one-way): here the passenger door is on the traffic side.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parked on the left: passenger door faces traffic",
+    "it": "senso unico",
+    "lines": [
+     "One-way road in town",
+     "Car parked on the left side",
+     "Passenger: watch the traffic"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "mirror"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "lato sinistro",
+    "en": "left side"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   },
+   {
+    "it": "passeggero",
+    "en": "passenger"
+   },
+   {
+    "it": "aprire la portiera",
+    "en": "open the door"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23625": {
+  "en": "It is advisable that the driver of a motor vehicle parked on the right side of an urban road reminds the passenger who opens the right door to watch out for passing pedestrians.",
+  "explain": {
+   "short": "On the right, the passenger door opens onto the pavement side. Pedestrians walking by could be hit.",
+   "rule": "Before you open a door of a parked car, look for vehicles coming. On a narrow road check BOTH directions (behind and in front). Remind passengers: on the traffic side watch the vehicles, on the pavement side watch the pedestrians. When you park, switch the engine off, even for a short time.",
+   "trap": "'pedoni in transito' (passing pedestrians): on the right side the danger is pedestrians, not cars.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right door opens near pedestrians",
+    "it": "pedoni in transito",
+    "lines": [
+     "Car parked on the right in town",
+     "Right door opens by the pavement",
+     "Passenger: watch the pedestrians"
+    ],
+    "icons": [
+     "car",
+     "pedestrian",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "lato destro",
+    "en": "right side"
+   },
+   {
+    "it": "portiera di destra",
+    "en": "right door"
+   },
+   {
+    "it": "pedoni in transito",
+    "en": "passing pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23626": {
+  "en": "The driver of a motor vehicle may leave the engine running if parking for a short time.",
+  "explain": {
+   "short": "When you park and leave the car, the engine must be off, even for a short time. A running car can move or be stolen.",
+   "rule": "Before you open a door of a parked car, look for vehicles coming. On a narrow road check BOTH directions (behind and in front). Remind passengers: on the traffic side watch the vehicles, on the pavement side watch the pedestrians. When you park, switch the engine off, even for a short time.",
+   "trap": "'per poco tempo' (for a short time) does not change the rule: engine off.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Parked car: engine always off",
+    "it": "motore acceso",
+    "lines": [
+     "Car parked, driver leaves",
+     "Engine running: not allowed",
+     "Switch the engine off"
+    ],
+    "icons": [
+     "car",
+     "cross",
+     "engine"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "motore acceso",
+    "en": "engine running"
+   },
+   {
+    "it": "sosta",
+    "en": "parks"
+   },
+   {
+    "it": "per poco tempo",
+    "en": "for a short time"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23627": {
+  "en": "The driver of a motor vehicle parked on a narrow road, before getting out, must worry about vehicles coming from behind, but not about those in front.",
+  "explain": {
+   "short": "On a narrow road vehicles from the front also pass very close to your door. You must check both directions.",
+   "rule": "Before you open a door of a parked car, look for vehicles coming. On a narrow road check BOTH directions (behind and in front). Remind passengers: on the traffic side watch the vehicles, on the pavement side watch the pedestrians. When you park, switch the engine off, even for a short time.",
+   "trap": "'ma non di quelli di fronte' (but not those in front): wrong, you check both ways.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Narrow road: check behind AND in front",
+    "it": "di fronte",
+    "lines": [
+     "Car parked on a narrow road",
+     "Check vehicles from behind",
+     "Check vehicles from the front too"
+    ],
+    "icons": [
+     "road",
+     "mirror",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada stretta",
+    "en": "narrow road"
+   },
+   {
+    "it": "da dietro",
+    "en": "from behind"
+   },
+   {
+    "it": "di fronte",
+    "en": "in front"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23628": {
+  "en": "Before starting to drive a motor vehicle, it is advisable to adjust the seat and head rest to your height.",
+  "explain": {
+   "short": "A seat at the right distance lets you reach the pedals and see well. A head rest at the right height protects your neck in a crash.",
+   "rule": "Before driving: adjust seat, head rest and mirrors to your height; know the controls; have valid documents and the right licence category; check the vehicle is in perfect working order (always, not only for long trips); secure the load and keep rear and side view free; check passengers wear seat belts. NOT required: setting the trip meter, switching off the driver airbag, checking that belts have pretensioners.",
+   "trap": "'secondo la propria statura' (to your own height): each driver adjusts for themselves.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Adjust seat and head rest first",
+    "it": "poggiatesta",
+    "lines": [
+     "Before you drive",
+     "Adjust the seat",
+     "Head rest at your height"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "seatbelt"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare il sedile",
+    "en": "adjust the seat"
+   },
+   {
+    "it": "poggiatesta",
+    "en": "head rest"
+   },
+   {
+    "it": "propria statura",
+    "en": "your own height"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23629": {
+  "en": "Before starting to drive a motor vehicle, it is advisable to adjust the inside and outside rear-view mirrors.",
+  "explain": {
+   "short": "Mirrors adjusted for you show what is behind and beside the car. Do it before moving, not while driving.",
+   "rule": "Before driving: adjust seat, head rest and mirrors to your height; know the controls; have valid documents and the right licence category; check the vehicle is in perfect working order (always, not only for long trips); secure the load and keep rear and side view free; check passengers wear seat belts. NOT required: setting the trip meter, switching off the driver airbag, checking that belts have pretensioners.",
+   "trap": "'interni ed esterni' (inside and outside): all mirrors.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Adjust all mirrors before moving",
+    "it": "specchi retrovisori",
+    "lines": [
+     "Before you drive",
+     "Adjust the inside mirror",
+     "Adjust both outside mirrors"
+    ],
+    "icons": [
+     "car",
+     "mirror",
+     "mirror"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "specchi retrovisori",
+    "en": "rear-view mirrors"
+   },
+   {
+    "it": "interni ed esterni",
+    "en": "inside and outside"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23630": {
+  "en": "Before starting to ride a motorcycle, it is advisable to adjust the mirrors to your height.",
+  "explain": {
+   "short": "On a motorcycle too, the mirrors must suit the rider's height and position, so you can see behind you.",
+   "rule": "Before driving: adjust seat, head rest and mirrors to your height; know the controls; have valid documents and the right licence category; check the vehicle is in perfect working order (always, not only for long trips); secure the load and keep rear and side view free; check passengers wear seat belts. NOT required: setting the trip meter, switching off the driver airbag, checking that belts have pretensioners.",
+   "trap": "'motociclo' (motorcycle): the rule is the same as for cars.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorcycle: adjust the mirrors too",
+    "it": "specchi",
+    "lines": [
+     "Before you ride a motorcycle",
+     "Sit in your riding position",
+     "Adjust the mirrors"
+    ],
+    "icons": [
+     "moto",
+     "check",
+     "mirror"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "motociclo",
+    "en": "motorcycle"
+   },
+   {
+    "it": "regolare gli specchi",
+    "en": "adjust the mirrors"
+   },
+   {
+    "it": "propria statura",
+    "en": "your own height"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23631": {
+  "en": "When driving a motor vehicle, you must carry all the documents needed for driving (registration certificate, insurance certificate, driving licence etc.), and they must be valid.",
+  "explain": {
+   "short": "The police can ask for these documents at any check. They must be with you and not expired.",
+   "rule": "Before driving: adjust seat, head rest and mirrors to your height; know the controls; have valid documents and the right licence category; check the vehicle is in perfect working order (always, not only for long trips); secure the load and keep rear and side view free; check passengers wear seat belts. NOT required: setting the trip meter, switching off the driver airbag, checking that belts have pretensioners.",
+   "trap": "'in corso di validità' (valid, not expired): carrying expired documents is not enough.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Carry valid documents",
+    "it": "documenti",
+    "lines": [
+     "Registration certificate",
+     "Insurance certificate",
+     "Driving licence, all valid"
+    ],
+    "icons": [
+     "book",
+     "book",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "documenti necessari",
+    "en": "necessary documents"
+   },
+   {
+    "it": "carta di circolazione",
+    "en": "registration certificate"
+   },
+   {
+    "it": "in corso di validità",
+    "en": "valid"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23632": {
+  "en": "Before starting to drive a motor vehicle, you must be sure that your licence category allows you to drive it.",
+  "explain": {
+   "short": "Each licence category covers certain vehicles. With licence B you cannot drive, for example, a big lorry.",
+   "rule": "Before driving: adjust seat, head rest and mirrors to your height; know the controls; have valid documents and the right licence category; check the vehicle is in perfect working order (always, not only for long trips); secure the load and keep rear and side view free; check passengers wear seat belts. NOT required: setting the trip meter, switching off the driver airbag, checking that belts have pretensioners.",
+   "trap": "'categoria di patente' (licence category): the licence must match the vehicle.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Your licence must cover this vehicle",
+    "it": "categoria di patente",
+    "lines": [
+     "Before you drive",
+     "Check your licence category",
+     "It must cover this vehicle"
+    ],
+    "icons": [
+     "book",
+     "check",
+     "truck"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "categoria di patente",
+    "en": "licence category"
+   },
+   {
+    "it": "ne consenta la guida",
+    "en": "allows you to drive it"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23633": {
+  "en": "Before starting to drive a vehicle, you must be sure the vehicle is in perfect working order.",
+  "explain": {
+   "short": "A vehicle with faults (brakes, lights, tyres) is dangerous. You check it before every trip.",
+   "rule": "Before driving: adjust seat, head rest and mirrors to your height; know the controls; have valid documents and the right licence category; check the vehicle is in perfect working order (always, not only for long trips); secure the load and keep rear and side view free; check passengers wear seat belts. NOT required: setting the trip meter, switching off the driver airbag, checking that belts have pretensioners.",
+   "trap": "'perfetto stato di efficienza' (perfect working order): always, not only on long trips.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Vehicle in perfect working order",
+    "it": "efficienza",
+    "lines": [
+     "Before every trip",
+     "Check brakes, lights, tyres",
+     "Drive only if all works"
+    ],
+    "icons": [
+     "check",
+     "brake",
+     "tyre"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "perfetto stato di efficienza",
+    "en": "perfect working order"
+   },
+   {
+    "it": "del mezzo",
+    "en": "of the vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23634": {
+  "en": "Before starting to drive a vehicle, you must make sure that the objects carried are arranged so that they cannot fall or spill.",
+  "explain": {
+   "short": "A load that falls on the road is a danger for everyone behind you. Secure it before you leave.",
+   "rule": "Before driving: adjust seat, head rest and mirrors to your height; know the controls; have valid documents and the right licence category; check the vehicle is in perfect working order (always, not only for long trips); secure the load and keep rear and side view free; check passengers wear seat belts. NOT required: setting the trip meter, switching off the driver airbag, checking that belts have pretensioners.",
+   "trap": "'caduta o dispersione' (falling or spilling): the load must stay in place.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Secure the load before leaving",
+    "it": "oggetti trasportati",
+    "lines": [
+     "Before you drive",
+     "Secure the load",
+     "Nothing may fall on the road"
+    ],
+    "icons": [
+     "truck",
+     "check",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "oggetti trasportati",
+    "en": "objects carried"
+   },
+   {
+    "it": "caduta o dispersione",
+    "en": "falling or spilling"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23635": {
+  "en": "Before starting to drive a vehicle, you must check that rear and side visibility is not blocked by passengers or by a badly placed load.",
+  "explain": {
+   "short": "You need to see behind and to the sides with the mirrors. Passengers or luggage must not block the view.",
+   "rule": "Before driving: adjust seat, head rest and mirrors to your height; know the controls; have valid documents and the right licence category; check the vehicle is in perfect working order (always, not only for long trips); secure the load and keep rear and side view free; check passengers wear seat belts. NOT required: setting the trip meter, switching off the driver airbag, checking that belts have pretensioners.",
+   "trap": "'visibilità posteriore e laterale' (rear and side view): it must stay free.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Keep rear and side view free",
+    "it": "visibilità",
+    "lines": [
+     "Before you drive",
+     "Load or passengers block the view?",
+     "Rear and side view must be free"
+    ],
+    "icons": [
+     "car",
+     "eye",
+     "mirror"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "visibilità posteriore e laterale",
+    "en": "rear and side visibility"
+   },
+   {
+    "it": "carico mal posizionato",
+    "en": "badly placed load"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23636": {
+  "en": "Before starting to drive a motor vehicle, you must find the controls (levers and buttons) needed for driving and understand well how they work.",
+  "explain": {
+   "short": "In an unknown car you must know where lights, wipers and other controls are before you move, not while driving.",
+   "rule": "Before driving: adjust seat, head rest and mirrors to your height; know the controls; have valid documents and the right licence category; check the vehicle is in perfect working order (always, not only for long trips); secure the load and keep rear and side view free; check passengers wear seat belts. NOT required: setting the trip meter, switching off the driver airbag, checking that belts have pretensioners.",
+   "trap": "'comandi (leve e pulsanti)' (controls: levers and buttons): learn them first.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Know the controls before moving",
+    "it": "comandi",
+    "lines": [
+     "New car? Before you drive",
+     "Find levers and buttons",
+     "Understand how they work"
+    ],
+    "icons": [
+     "car",
+     "eye",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "comandi",
+    "en": "controls"
+   },
+   {
+    "it": "leve e pulsanti",
+    "en": "levers and buttons"
+   },
+   {
+    "it": "funzionamento",
+    "en": "how they work"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23637": {
+  "en": "Before starting to drive a car, you must check that the passengers have properly fastened their seat belts.",
+  "explain": {
+   "short": "Seat belts save lives. The driver checks that passengers wear them before leaving.",
+   "rule": "Before driving: adjust seat, head rest and mirrors to your height; know the controls; have valid documents and the right licence category; check the vehicle is in perfect working order (always, not only for long trips); secure the load and keep rear and side view free; check passengers wear seat belts. NOT required: setting the trip meter, switching off the driver airbag, checking that belts have pretensioners.",
+   "trap": "'regolarmente allacciato' (properly fastened): the belt must be worn correctly.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Check passengers' seat belts",
+    "it": "cinture di sicurezza",
+    "lines": [
+     "Before you drive",
+     "Look at your passengers",
+     "All seat belts fastened"
+    ],
+    "icons": [
+     "car",
+     "eye",
+     "seatbelt"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passeggeri",
+    "en": "passengers"
+   },
+   {
+    "it": "allacciato",
+    "en": "fastened"
+   },
+   {
+    "it": "cinture di sicurezza",
+    "en": "seat belts"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23638": {
+  "en": "Before starting to drive a motor vehicle, you must set the trip meter.",
+  "explain": {
+   "short": "The trip meter only counts kilometres for your information. Setting it is not an obligation.",
+   "rule": "Before driving: adjust seat, head rest and mirrors to your height; know the controls; have valid documents and the right licence category; check the vehicle is in perfect working order (always, not only for long trips); secure the load and keep rear and side view free; check passengers wear seat belts. NOT required: setting the trip meter, switching off the driver airbag, checking that belts have pretensioners.",
+   "trap": "'bisogna' (you must) is too strong: the trip meter is optional.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Trip meter: not a required check",
+    "it": "contachilometri parziale",
+    "lines": [
+     "Before you drive",
+     "Setting the trip meter: optional",
+     "Check seat, mirrors, belts instead"
+    ],
+    "icons": [
+     "car",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "contachilometri parziale",
+    "en": "trip meter"
+   },
+   {
+    "it": "bisogna regolare",
+    "en": "you must set"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23639": {
+  "en": "Before starting to drive a motor vehicle, you must switch off the driver's side airbag.",
+  "explain": {
+   "short": "The driver's airbag protects you in a crash. It must stay active, never switched off.",
+   "rule": "Before driving: adjust seat, head rest and mirrors to your height; know the controls; have valid documents and the right licence category; check the vehicle is in perfect working order (always, not only for long trips); secure the load and keep rear and side view free; check passengers wear seat belts. NOT required: setting the trip meter, switching off the driver airbag, checking that belts have pretensioners.",
+   "trap": "'disinserire l'airbag' (switch off the airbag): wrong, it must stay on.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Driver airbag stays on",
+    "it": "airbag",
+    "lines": [
+     "Driver's airbag protects you",
+     "Switching it off: wrong",
+     "Keep it active"
+    ],
+    "icons": [
+     "car",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "disinserire",
+    "en": "switch off"
+   },
+   {
+    "it": "airbag del lato conducente",
+    "en": "driver's side airbag"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23640": {
+  "en": "Before starting to drive a car, you must check that the seat belts have a pretensioner.",
+  "explain": {
+   "short": "A pretensioner is a device built into some belts. You do not have to check it before every trip.",
+   "rule": "Before driving: adjust seat, head rest and mirrors to your height; know the controls; have valid documents and the right licence category; check the vehicle is in perfect working order (always, not only for long trips); secure the load and keep rear and side view free; check passengers wear seat belts. NOT required: setting the trip meter, switching off the driver airbag, checking that belts have pretensioners.",
+   "trap": "'pretensionatore' (belt pretensioner): a technical part, not a check before driving.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Pretensioner check: not required",
+    "it": "pretensionatore",
+    "lines": [
+     "Before you drive",
+     "Checking the pretensioner: no",
+     "Check that belts are fastened"
+    ],
+    "icons": [
+     "seatbelt",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cinture di sicurezza",
+    "en": "seat belts"
+   },
+   {
+    "it": "pretensionatore",
+    "en": "pretensioner"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23641": {
+  "en": "Before starting to drive a vehicle, you must check that it is in working order only if you are going on a long journey.",
+  "explain": {
+   "short": "The vehicle must work well on every trip, short or long. A short trip with bad brakes is still dangerous.",
+   "rule": "Before driving: adjust seat, head rest and mirrors to your height; know the controls; have valid documents and the right licence category; check the vehicle is in perfect working order (always, not only for long trips); secure the load and keep rear and side view free; check passengers wear seat belts. NOT required: setting the trip meter, switching off the driver airbag, checking that belts have pretensioners.",
+   "trap": "'solo' (only) is the trap: the check is for every trip.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Check the vehicle on every trip",
+    "it": "solo",
+    "lines": [
+     "Short trip or long trip",
+     "The vehicle must always work well",
+     "Not only for long journeys"
+    ],
+    "icons": [
+     "road",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "stato di efficienza",
+    "en": "working order"
+   },
+   {
+    "it": "solo se",
+    "en": "only if"
+   },
+   {
+    "it": "lungo viaggio",
+    "en": "long journey"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23642": {
+  "en": "Arresto (halt) is the interruption of the vehicle's movement caused by traffic needs, for example at a red traffic light.",
+  "explain": {
+   "short": "Arresto means you stop because the traffic makes you stop: a red light, a queue, a pedestrian crossing.",
+   "rule": "Arresto (halt) = you stop because of TRAFFIC (red light, queue). Fermata (stop) = a short stop for YOUR needs: to let people get in or out, or a very short need such as asking a traffic officer for information. Sosta (parking) = you leave the vehicle for longer. The fermata has no fixed time (no '10 minutes') and no limit on the number of passengers.",
+   "trap": "'esigenze della circolazione' (traffic needs) = arresto, not fermata.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red light stop = arresto",
+    "it": "arresto",
+    "lines": [
+     "Red traffic light at a junction",
+     "You must stop for traffic",
+     "This is an arresto (halt)"
+    ],
+    "icons": [
+     "light",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "arresto",
+    "en": "halt"
+   },
+   {
+    "it": "esigenze della circolazione",
+    "en": "traffic needs"
+   },
+   {
+    "it": "semaforo rosso",
+    "en": "red traffic light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23643": {
+  "en": "The fermata (stop) of a vehicle is the temporary interruption of movement to let people get in or out.",
+  "explain": {
+   "short": "This is the definition of fermata: a short stop so that people can get in or out of the vehicle.",
+   "rule": "Arresto (halt) = you stop because of TRAFFIC (red light, queue). Fermata (stop) = a short stop for YOUR needs: to let people get in or out, or a very short need such as asking a traffic officer for information. Sosta (parking) = you leave the vehicle for longer. The fermata has no fixed time (no '10 minutes') and no limit on the number of passengers.",
+   "trap": "'salita o la discesa delle persone' (people getting in or out) = fermata.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Letting people in or out = fermata",
+    "it": "fermata",
+    "lines": [
+     "Car stops at the right edge",
+     "A passenger gets out",
+     "This is a fermata (short stop)"
+    ],
+    "icons": [
+     "car",
+     "pedestrian",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "stop"
+   },
+   {
+    "it": "temporanea sospensione della marcia",
+    "en": "temporary interruption of movement"
+   },
+   {
+    "it": "salita o la discesa delle persone",
+    "en": "people getting in or out"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23644": {
+  "en": "The fermata (stop) of a vehicle is the temporary interruption of movement for very short needs, for example to ask traffic officers for information.",
+  "explain": {
+   "short": "A fermata also covers very short needs of the driver, such as asking a traffic officer for directions.",
+   "rule": "Arresto (halt) = you stop because of TRAFFIC (red light, queue). Fermata (stop) = a short stop for YOUR needs: to let people get in or out, or a very short need such as asking a traffic officer for information. Sosta (parking) = you leave the vehicle for longer. The fermata has no fixed time (no '10 minutes') and no limit on the number of passengers.",
+   "trap": "'esigenze di brevissima durata' (very short needs): also part of the fermata.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Asking an officer briefly = fermata",
+    "it": "fermata",
+    "lines": [
+     "Car stops briefly near an officer",
+     "Driver asks for information",
+     "This is a fermata"
+    ],
+    "icons": [
+     "car",
+     "police",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "stop"
+   },
+   {
+    "it": "brevissima durata",
+    "en": "very short duration"
+   },
+   {
+    "it": "agenti del traffico",
+    "en": "traffic officers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23645": {
+  "en": "The fermata (stop) of a vehicle is the temporary interruption of movement for very short needs.",
+  "explain": {
+   "short": "A fermata is short: it is for very brief needs. For longer stops it becomes a sosta (parking).",
+   "rule": "Arresto (halt) = you stop because of TRAFFIC (red light, queue). Fermata (stop) = a short stop for YOUR needs: to let people get in or out, or a very short need such as asking a traffic officer for information. Sosta (parking) = you leave the vehicle for longer. The fermata has no fixed time (no '10 minutes') and no limit on the number of passengers.",
+   "trap": "'brevissima durata' (very short): this is what separates fermata from sosta.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fermata = very short stop",
+    "it": "fermata",
+    "lines": [
+     "Car stops at the right edge",
+     "Only for a very short need",
+     "Fermata, not sosta (parking)"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "stop"
+   },
+   {
+    "it": "temporanea sospensione",
+    "en": "temporary interruption"
+   },
+   {
+    "it": "brevissima durata",
+    "en": "very short duration"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23646": {
+  "en": "Arresto (halt) is the temporary interruption of movement for the needs of the driver or the passengers of a vehicle.",
+  "explain": {
+   "short": "That is the definition of fermata. Arresto is a stop caused by TRAFFIC, like a red light.",
+   "rule": "Arresto (halt) = you stop because of TRAFFIC (red light, queue). Fermata (stop) = a short stop for YOUR needs: to let people get in or out, or a very short need such as asking a traffic officer for information. Sosta (parking) = you leave the vehicle for longer. The fermata has no fixed time (no '10 minutes') and no limit on the number of passengers.",
+   "trap": "'esigenze del conducente o dei passeggeri' (needs of driver or passengers) = fermata, not arresto.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Driver's needs = fermata, not arresto",
+    "it": "arresto",
+    "lines": [
+     "Stop for driver or passengers: fermata",
+     "Stop for traffic (red light): arresto",
+     "The statement mixes them up"
+    ],
+    "icons": [
+     "pedestrian",
+     "light",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "arresto",
+    "en": "halt"
+   },
+   {
+    "it": "esigenze del conducente o dei passeggeri",
+    "en": "needs of driver or passengers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23647": {
+  "en": "Fermata (stop) is the interruption of the vehicle's movement caused by traffic needs.",
+  "explain": {
+   "short": "A stop caused by traffic (red light, queue) is an arresto. A fermata is for letting people in or out.",
+   "rule": "Arresto (halt) = you stop because of TRAFFIC (red light, queue). Fermata (stop) = a short stop for YOUR needs: to let people get in or out, or a very short need such as asking a traffic officer for information. Sosta (parking) = you leave the vehicle for longer. The fermata has no fixed time (no '10 minutes') and no limit on the number of passengers.",
+   "trap": "'esigenze della circolazione' (traffic needs) = arresto, not fermata.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Traffic stop = arresto, not fermata",
+    "it": "fermata",
+    "lines": [
+     "Stop because of traffic: arresto",
+     "Stop for people in or out: fermata",
+     "The statement mixes them up"
+    ],
+    "icons": [
+     "light",
+     "pedestrian",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "stop"
+   },
+   {
+    "it": "esigenze della circolazione",
+    "en": "traffic needs"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23648": {
+  "en": "A fermata (stop) for the driver's needs may last at most ten minutes.",
+  "explain": {
+   "short": "The law gives no fixed time for a fermata. It must simply be very short; 'ten minutes' is invented.",
+   "rule": "Arresto (halt) = you stop because of TRAFFIC (red light, queue). Fermata (stop) = a short stop for YOUR needs: to let people get in or out, or a very short need such as asking a traffic officer for information. Sosta (parking) = you leave the vehicle for longer. The fermata has no fixed time (no '10 minutes') and no limit on the number of passengers.",
+   "trap": "'dieci minuti' (ten minutes): there is no such limit in the rules.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No '10 minutes' rule for a fermata",
+    "it": "dieci minuti",
+    "lines": [
+     "Fermata: only very short",
+     "No fixed limit of ten minutes",
+     "Longer stop = sosta (parking)"
+    ],
+    "icons": [
+     "car",
+     "cross",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "stop"
+   },
+   {
+    "it": "durata massima",
+    "en": "maximum duration"
+   },
+   {
+    "it": "dieci minuti",
+    "en": "ten minutes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23649": {
+  "en": "The fermata (stop) of a vehicle is forbidden if more than one passenger gets out.",
+  "explain": {
+   "short": "A fermata is for letting people in or out, any number of them. There is no limit on passengers.",
+   "rule": "Arresto (halt) = you stop because of TRAFFIC (red light, queue). Fermata (stop) = a short stop for YOUR needs: to let people get in or out, or a very short need such as asking a traffic officer for information. Sosta (parking) = you leave the vehicle for longer. The fermata has no fixed time (no '10 minutes') and no limit on the number of passengers.",
+   "trap": "'più di uno' (more than one): an invented limit.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Any number of passengers may get out",
+    "it": "più di uno",
+    "lines": [
+     "Car stops at the right edge",
+     "Three passengers get out",
+     "Still a normal fermata"
+    ],
+    "icons": [
+     "car",
+     "pedestrian",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "stop"
+   },
+   {
+    "it": "passeggeri che scendono",
+    "en": "passengers getting out"
+   },
+   {
+    "it": "più di uno",
+    "en": "more than one"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23650": {
+  "en": "A fermata (stop) must not obstruct traffic.",
+  "explain": {
+   "short": "Even a short stop must not block other vehicles. Stop where the others can pass.",
+   "rule": "During a fermata (short stop) the driver must stay at the wheel, ready to move off, and must not block traffic or create danger. You may not walk away, not even for a moment. Stopping to ask a traffic officer for information is allowed only if it does not slow down or block traffic, so it is NOT 'always' allowed.",
+   "trap": "'intralcio' (obstruction): a fermata must never block traffic.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A fermata must not block traffic",
+    "it": "intralcio",
+    "lines": [
+     "Short stop at the right edge",
+     "Other cars can pass",
+     "No obstruction: allowed"
+    ],
+    "icons": [
+     "car",
+     "road",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "stop"
+   },
+   {
+    "it": "arrecare intralcio",
+    "en": "obstruct"
+   },
+   {
+    "it": "circolazione",
+    "en": "traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23651": {
+  "en": "During a fermata (stop) the driver must not block the normal flow of traffic with the vehicle.",
+  "explain": {
+   "short": "During a fermata other vehicles must still be able to pass normally.",
+   "rule": "During a fermata (short stop) the driver must stay at the wheel, ready to move off, and must not block traffic or create danger. You may not walk away, not even for a moment. Stopping to ask a traffic officer for information is allowed only if it does not slow down or block traffic, so it is NOT 'always' allowed.",
+   "trap": "'normale flusso del traffico' (normal traffic flow): keep it moving.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Leave the traffic flowing",
+    "it": "flusso del traffico",
+    "lines": [
+     "Short stop at the right edge",
+     "Traffic keeps flowing",
+     "Never stop across the lane"
+    ],
+    "icons": [
+     "car",
+     "road",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "stop"
+   },
+   {
+    "it": "impedire",
+    "en": "block"
+   },
+   {
+    "it": "normale flusso del traffico",
+    "en": "normal flow of traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23652": {
+  "en": "During a fermata (stop) the driver must behave so as not to be a danger to other road users.",
+  "explain": {
+   "short": "A fermata must be safe: stop in a visible place, not where others could crash into you.",
+   "rule": "During a fermata (short stop) the driver must stay at the wheel, ready to move off, and must not block traffic or create danger. You may not walk away, not even for a moment. Stopping to ask a traffic officer for information is allowed only if it does not slow down or block traffic, so it is NOT 'always' allowed.",
+   "trap": "'pericolo' (danger): a fermata must not create one.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stop where you are no danger",
+    "it": "pericolo",
+    "lines": [
+     "Short stop in a safe place",
+     "Others see you in time",
+     "No danger to anyone"
+    ],
+    "icons": [
+     "car",
+     "eye",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "stop"
+   },
+   {
+    "it": "pericolo",
+    "en": "danger"
+   },
+   {
+    "it": "utenti della strada",
+    "en": "road users"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23653": {
+  "en": "During a fermata (stop) the driver must always be present and ready to move off again.",
+  "explain": {
+   "short": "This is what makes it a fermata: the driver stays at the wheel, ready to leave at once.",
+   "rule": "During a fermata (short stop) the driver must stay at the wheel, ready to move off, and must not block traffic or create danger. You may not walk away, not even for a moment. Stopping to ask a traffic officer for information is allowed only if it does not slow down or block traffic, so it is NOT 'always' allowed.",
+   "trap": "'sempre presente e pronto' (always present and ready): here 'always' is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Driver at the wheel, ready to go",
+    "it": "pronto a riprendere",
+    "lines": [
+     "Short stop at the right edge",
+     "Driver stays in the car",
+     "Ready to move off at once"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "stop"
+   },
+   {
+    "it": "sempre presente",
+    "en": "always present"
+   },
+   {
+    "it": "pronto a riprendere la marcia",
+    "en": "ready to move off again"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23654": {
+  "en": "During a fermata (stop) the driver must always take suitable precautions to avoid accidents.",
+  "explain": {
+   "short": "Even a short stop needs care: a good place, mirrors checked, doors opened carefully.",
+   "rule": "During a fermata (short stop) the driver must stay at the wheel, ready to move off, and must not block traffic or create danger. You may not walk away, not even for a moment. Stopping to ask a traffic officer for information is allowed only if it does not slow down or block traffic, so it is NOT 'always' allowed.",
+   "trap": "'opportune cautele' (suitable precautions): always needed, even for short stops.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Take care even in a short stop",
+    "it": "cautele",
+    "lines": [
+     "Short stop in a safe place",
+     "Check mirrors and doors",
+     "Avoid any accident"
+    ],
+    "icons": [
+     "car",
+     "mirror",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "stop"
+   },
+   {
+    "it": "opportune cautele",
+    "en": "suitable precautions"
+   },
+   {
+    "it": "evitare incidenti",
+    "en": "avoid accidents"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23655": {
+  "en": "It is not allowed to stop to ask traffic officers for information when this could obstruct or slow down traffic.",
+  "explain": {
+   "short": "Asking an officer is a fermata, but a fermata must never block or slow traffic. So in that case it is not allowed.",
+   "rule": "During a fermata (short stop) the driver must stay at the wheel, ready to move off, and must not block traffic or create danger. You may not walk away, not even for a moment. Stopping to ask a traffic officer for information is allowed only if it does not slow down or block traffic, so it is NOT 'always' allowed.",
+   "trap": "'quando ciò possa causare intralcio' (when it could obstruct): the condition makes it forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Not if it blocks or slows traffic",
+    "it": "intralcio",
+    "lines": [
+     "Driver stops to ask an officer",
+     "Traffic behind is blocked",
+     "Not allowed in this case"
+    ],
+    "icons": [
+     "police",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "chiedere informazioni",
+    "en": "ask for information"
+   },
+   {
+    "it": "agenti del traffico",
+    "en": "traffic officers"
+   },
+   {
+    "it": "intralcio o rallentamento",
+    "en": "obstruction or slowing down"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23656": {
+  "en": "During a fermata (stop) the driver may go away for a very short time before moving off again.",
+  "explain": {
+   "short": "In a fermata the driver must stay present and ready to leave. If the driver walks away, it is a sosta (parking).",
+   "rule": "During a fermata (short stop) the driver must stay at the wheel, ready to move off, and must not block traffic or create danger. You may not walk away, not even for a moment. Stopping to ask a traffic officer for information is allowed only if it does not slow down or block traffic, so it is NOT 'always' allowed.",
+   "trap": "'può allontanarsi' (may go away): not even for a moment in a fermata.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Fermata: the driver never leaves",
+    "it": "allontanarsi",
+    "lines": [
+     "Short stop at the right edge",
+     "Driver walks away: not a fermata",
+     "Stay in the car, ready to go"
+    ],
+    "icons": [
+     "car",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "stop"
+   },
+   {
+    "it": "allontanarsi",
+    "en": "go away"
+   },
+   {
+    "it": "brevissimo tempo",
+    "en": "very short time"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23657": {
+  "en": "The fermata (stop) of a vehicle is always allowed to ask traffic officers for information.",
+  "explain": {
+   "short": "It is allowed only if it does not obstruct or slow down traffic. So not 'always'.",
+   "rule": "During a fermata (short stop) the driver must stay at the wheel, ready to move off, and must not block traffic or create danger. You may not walk away, not even for a moment. Stopping to ask a traffic officer for information is allowed only if it does not slow down or block traffic, so it is NOT 'always' allowed.",
+   "trap": "'sempre' (always) is the trap: it depends on traffic.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Not always: only if traffic is not blocked",
+    "it": "sempre",
+    "lines": [
+     "Stopping to ask an officer",
+     "Allowed if traffic is not blocked",
+     "Not 'always' allowed"
+    ],
+    "icons": [
+     "police",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sempre consentita",
+    "en": "always allowed"
+   },
+   {
+    "it": "chiedere informazioni",
+    "en": "ask for information"
+   },
+   {
+    "it": "agenti del traffico",
+    "en": "traffic officers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23658": {
+  "en": "During a fermata (stop), if the driver goes away, he must leave the vehicle with the engine running.",
+  "explain": {
+   "short": "In a fermata the driver does not go away at all. And a car left alone must never have the engine running.",
+   "rule": "During a fermata (short stop) the driver must stay at the wheel, ready to move off, and must not block traffic or create danger. You may not walk away, not even for a moment. Stopping to ask a traffic officer for information is allowed only if it does not slow down or block traffic, so it is NOT 'always' allowed.",
+   "trap": "'motore acceso' (engine running): wrong twice, the driver stays and an unattended engine is off.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Driver stays; never leave the engine running",
+    "it": "motore acceso",
+    "lines": [
+     "Fermata: the driver stays",
+     "Leaving the car with engine on: no",
+     "Leaving = sosta, engine off"
+    ],
+    "icons": [
+     "car",
+     "cross",
+     "engine"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "stop"
+   },
+   {
+    "it": "si allontana",
+    "en": "goes away"
+   },
+   {
+    "it": "motore acceso",
+    "en": "engine running"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23659": {
+  "en": "In a fermata (stop), where there is no raised pavement, the driver must leave a space of at least one metre for pedestrians to pass.",
+  "explain": {
+   "short": "Without a raised pavement, pedestrians walk at the edge of the road. Your car must leave them at least 1 metre.",
+   "rule": "In town: stop close to the right edge; where there is no raised pavement, leave at least 1 metre for pedestrians. Outside towns: put the vehicle off the carriageway (carreggiata, the part of the road for vehicles) if possible, but never on a cycle lane; if not possible, stop as close as possible to the right edge.",
+   "trap": "'non inferiore ad un metro' (not less than one metre): this space is required.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No pavement: leave 1 m for pedestrians",
+    "it": "un metro",
+    "lines": [
+     "Town road with no raised pavement",
+     "Stop near the right edge",
+     "Leave at least 1 m for pedestrians"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "pedestrian"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "marciapiede rialzato",
+    "en": "raised pavement"
+   },
+   {
+    "it": "non inferiore ad un metro",
+    "en": "at least one metre"
+   },
+   {
+    "it": "transito dei pedoni",
+    "en": "pedestrians passing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23660": {
+  "en": "Outside towns, in a fermata (stop), the driver must place the vehicle off the carriageway, if possible.",
+  "explain": {
+   "short": "Outside towns traffic is fast. If there is space, stop completely off the road for vehicles.",
+   "rule": "In town: stop close to the right edge; where there is no raised pavement, leave at least 1 metre for pedestrians. Outside towns: put the vehicle off the carriageway (carreggiata, the part of the road for vehicles) if possible, but never on a cycle lane; if not possible, stop as close as possible to the right edge.",
+   "trap": "'se possibile' (if possible): off the carriageway when there is space.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Outside towns: stop off the carriageway",
+    "it": "fuori della carreggiata",
+    "lines": [
+     "Country road, fast traffic",
+     "Stop off the carriageway if possible",
+     "Not on a cycle lane"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Fuori dei centri abitati",
+    "en": "outside towns"
+   },
+   {
+    "it": "fuori della carreggiata",
+    "en": "off the carriageway"
+   },
+   {
+    "it": "se possibile",
+    "en": "if possible"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23661": {
+  "en": "Outside towns, in a fermata (stop), the driver must place the vehicle off the carriageway, but not on cycle lanes.",
+  "explain": {
+   "short": "Off the carriageway is right, but a cycle lane is for bikes: a car stopped there endangers cyclists.",
+   "rule": "In town: stop close to the right edge; where there is no raised pavement, leave at least 1 metre for pedestrians. Outside towns: put the vehicle off the carriageway (carreggiata, the part of the road for vehicles) if possible, but never on a cycle lane; if not possible, stop as close as possible to the right edge.",
+   "trap": "'ma non sulle piste ciclabili' (but not on cycle lanes): correct exception.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Off the carriageway, but not on the cycle lane",
+    "it": "piste ciclabili",
+    "lines": [
+     "Country road with a cycle lane",
+     "Stop off the carriageway",
+     "Never on the cycle lane"
+    ],
+    "icons": [
+     "road",
+     "check",
+     "bike"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fuori della carreggiata",
+    "en": "off the carriageway"
+   },
+   {
+    "it": "piste ciclabili",
+    "en": "cycle lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23662": {
+  "en": "Outside towns, if the vehicle cannot be placed off the carriageway, the driver must make the fermata (stop) as close as possible to the right edge of the carriageway.",
+  "explain": {
+   "short": "If there is no space off the road, stay as far right as you can, so traffic can pass.",
+   "rule": "In town: stop close to the right edge; where there is no raised pavement, leave at least 1 metre for pedestrians. Outside towns: put the vehicle off the carriageway (carreggiata, the part of the road for vehicles) if possible, but never on a cycle lane; if not possible, stop as close as possible to the right edge.",
+   "trap": "'il più vicino possibile al margine destro' (as close as possible to the right edge): the backup choice.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No space off the road: keep far right",
+    "it": "margine destro",
+    "lines": [
+     "Country road, no space off it",
+     "Stop at the right edge",
+     "As close to the edge as possible"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fuori della carreggiata",
+    "en": "off the carriageway"
+   },
+   {
+    "it": "il più vicino possibile",
+    "en": "as close as possible"
+   },
+   {
+    "it": "margine destro",
+    "en": "right edge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23663": {
+  "en": "In a fermata (stop) on an urban road with no raised pavement, the driver must place the vehicle as close as possible to the right edge of the carriageway.",
+  "explain": {
+   "short": "Without a raised pavement you must NOT go right to the edge: you leave at least 1 metre for pedestrians.",
+   "rule": "In town: stop close to the right edge; where there is no raised pavement, leave at least 1 metre for pedestrians. Outside towns: put the vehicle off the carriageway (carreggiata, the part of the road for vehicles) if possible, but never on a cycle lane; if not possible, stop as close as possible to the right edge.",
+   "trap": "'il più vicino possibile' (as close as possible) is wrong here: the 1-metre space for pedestrians is missing.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No pavement: leave 1 m, not right at the edge",
+    "it": "marciapiede rialzato",
+    "lines": [
+     "Town road with no raised pavement",
+     "Right against the edge: no",
+     "Leave 1 m for pedestrians"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "pedestrian"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada urbana",
+    "en": "urban road"
+   },
+   {
+    "it": "marciapiede rialzato",
+    "en": "raised pavement"
+   },
+   {
+    "it": "il più vicino possibile",
+    "en": "as close as possible"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23664": {
+  "en": "Outside towns, in a fermata (stop), the driver must place the vehicle off the carriageway, possibly on a cycle lane.",
+  "explain": {
+   "short": "Off the carriageway is right, but never on a cycle lane: it belongs to cyclists.",
+   "rule": "In town: stop close to the right edge; where there is no raised pavement, leave at least 1 metre for pedestrians. Outside towns: put the vehicle off the carriageway (carreggiata, the part of the road for vehicles) if possible, but never on a cycle lane; if not possible, stop as close as possible to the right edge.",
+   "trap": "'eventualmente su una pista ciclabile' (possibly on a cycle lane): forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never stop on a cycle lane",
+    "it": "pista ciclabile",
+    "lines": [
+     "Country road with a cycle lane",
+     "Stopping on the cycle lane: no",
+     "Off the carriageway, but not there"
+    ],
+    "icons": [
+     "bike",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fuori della carreggiata",
+    "en": "off the carriageway"
+   },
+   {
+    "it": "pista ciclabile",
+    "en": "cycle lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23665": {
+  "en": "A fermata (stop) is forbidden at or near level crossings.",
+  "explain": {
+   "short": "A car standing on or near a level crossing risks being hit by the train and blocks the crossing.",
+   "rule": "A fermata (short stop) is forbidden at or near level crossings, on or too near railway and tram tracks, in tunnels, underpasses, under overpasses, arches and porticoes (unless signs say otherwise), on hilltops and in bends (outside towns and on urban fast roads also NEAR them). It is NOT forbidden: at the right edge, on the left of a one-way road, in front of driveways, in market or loading areas (there only parking is forbidden).",
+   "trap": "'in corrispondenza o in prossimità' (at or near): both are forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No stopping at or near a level crossing",
+    "it": "passaggi a livello",
+    "lines": [
+     "Level crossing ahead",
+     "Stopping on or near it: forbidden",
+     "Keep the crossing free"
+    ],
+    "icons": [
+     "train",
+     "cross",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata è vietata",
+    "en": "stopping is forbidden"
+   },
+   {
+    "it": "in prossimità",
+    "en": "near"
+   },
+   {
+    "it": "passaggi a livello",
+    "en": "level crossings"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23666": {
+  "en": "A fermata (stop) is forbidden on railway or tram tracks, or so close to them that it obstructs rail vehicles.",
+  "explain": {
+   "short": "Trains and trams cannot steer around a car. Keep the tracks and the space next to them free.",
+   "rule": "A fermata (short stop) is forbidden at or near level crossings, on or too near railway and tram tracks, in tunnels, underpasses, under overpasses, arches and porticoes (unless signs say otherwise), on hilltops and in bends (outside towns and on urban fast roads also NEAR them). It is NOT forbidden: at the right edge, on the left of a one-way road, in front of driveways, in market or loading areas (there only parking is forbidden).",
+   "trap": "'così vicino ad essi da intralciare' (so close that it obstructs): even near the rails is forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Keep tram and train tracks free",
+    "it": "binari",
+    "lines": [
+     "Tram line along the street",
+     "Stopping on or by the rails: no",
+     "The tram cannot go around you"
+    ],
+    "icons": [
+     "tram",
+     "cross",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "binari",
+    "en": "tracks"
+   },
+   {
+    "it": "linee ferroviarie o tranviarie",
+    "en": "railway or tram lines"
+   },
+   {
+    "it": "veicoli su rotaia",
+    "en": "rail vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23667": {
+  "en": "A fermata (stop) is forbidden in tunnels, unless signs say otherwise.",
+  "explain": {
+   "short": "In a tunnel there is little space and light: a stopped car is a big danger. Only signs can allow it.",
+   "rule": "A fermata (short stop) is forbidden at or near level crossings, on or too near railway and tram tracks, in tunnels, underpasses, under overpasses, arches and porticoes (unless signs say otherwise), on hilltops and in bends (outside towns and on urban fast roads also NEAR them). It is NOT forbidden: at the right edge, on the left of a one-way road, in front of driveways, in market or loading areas (there only parking is forbidden).",
+   "trap": "'salvo diversa segnalazione' (unless signs say otherwise): the only exception.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No stopping in tunnels",
+    "it": "gallerie",
+    "lines": [
+     "Road enters a tunnel",
+     "Stopping inside: forbidden",
+     "Unless a sign allows it"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata è vietata",
+    "en": "stopping is forbidden"
+   },
+   {
+    "it": "gallerie",
+    "en": "tunnels"
+   },
+   {
+    "it": "salvo diversa segnalazione",
+    "en": "unless signs say otherwise"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23668": {
+  "en": "A fermata (stop) is forbidden in underpasses, under overpasses, under arches and porticoes, unless signs say otherwise.",
+  "explain": {
+   "short": "In these places visibility and space are poor, so a stopped car is a danger. Only signs can allow it.",
+   "rule": "A fermata (short stop) is forbidden at or near level crossings, on or too near railway and tram tracks, in tunnels, underpasses, under overpasses, arches and porticoes (unless signs say otherwise), on hilltops and in bends (outside towns and on urban fast roads also NEAR them). It is NOT forbidden: at the right edge, on the left of a one-way road, in front of driveways, in market or loading areas (there only parking is forbidden).",
+   "trap": "'salvo diversa segnalazione' (unless signs say otherwise): the only exception.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No stopping under bridges and arches",
+    "it": "sottovia",
+    "lines": [
+     "Underpass, overpass, arch, portico",
+     "Stopping there: forbidden",
+     "Unless a sign allows it"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sottovia",
+    "en": "underpasses"
+   },
+   {
+    "it": "sovrapassaggi",
+    "en": "overpasses"
+   },
+   {
+    "it": "fornici",
+    "en": "arches"
+   },
+   {
+    "it": "portici",
+    "en": "porticoes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23669": {
+  "en": "A fermata (stop) is forbidden on hilltops.",
+  "explain": {
+   "short": "On a hilltop (dosso) drivers coming over the top cannot see your stopped car in time.",
+   "rule": "A fermata (short stop) is forbidden at or near level crossings, on or too near railway and tram tracks, in tunnels, underpasses, under overpasses, arches and porticoes (unless signs say otherwise), on hilltops and in bends (outside towns and on urban fast roads also NEAR them). It is NOT forbidden: at the right edge, on the left of a one-way road, in front of driveways, in market or loading areas (there only parking is forbidden).",
+   "trap": "'sui dossi' (on hilltops): always forbidden, in and outside towns.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No stopping on a hilltop",
+    "it": "dossi",
+    "lines": [
+     "Road over a hilltop",
+     "Cars behind cannot see you",
+     "Stopping on it: forbidden"
+    ],
+    "icons": [
+     "hill",
+     "eye",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata è vietata",
+    "en": "stopping is forbidden"
+   },
+   {
+    "it": "dossi",
+    "en": "hilltops"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23670": {
+  "en": "Outside towns and on urban fast-flowing roads, a fermata (stop) is forbidden near hilltops.",
+  "explain": {
+   "short": "Where traffic is fast, a car stopped just before or after a hilltop is hidden. So stopping NEAR it is forbidden too.",
+   "rule": "A fermata (short stop) is forbidden at or near level crossings, on or too near railway and tram tracks, in tunnels, underpasses, under overpasses, arches and porticoes (unless signs say otherwise), on hilltops and in bends (outside towns and on urban fast roads also NEAR them). It is NOT forbidden: at the right edge, on the left of a one-way road, in front of driveways, in market or loading areas (there only parking is forbidden).",
+   "trap": "'in prossimità' (near): on fast roads even the area near the hilltop is forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Fast roads: no stopping near a hilltop",
+    "it": "in prossimità",
+    "lines": [
+     "Country road with a hilltop",
+     "Stopping near it: forbidden",
+     "Fast cars could not see you"
+    ],
+    "icons": [
+     "hill",
+     "cross",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Fuori dai centri abitati",
+    "en": "outside towns"
+   },
+   {
+    "it": "strade urbane di scorrimento",
+    "en": "urban fast-flowing roads"
+   },
+   {
+    "it": "in prossimità dei dossi",
+    "en": "near hilltops"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23671": {
+  "en": "A fermata (stop) is forbidden in bends and, outside towns and on urban fast-flowing roads, also near them.",
+  "explain": {
+   "short": "In a bend others see you too late. On fast roads even the area before and after the bend is forbidden.",
+   "rule": "A fermata (short stop) is forbidden at or near level crossings, on or too near railway and tram tracks, in tunnels, underpasses, under overpasses, arches and porticoes (unless signs say otherwise), on hilltops and in bends (outside towns and on urban fast roads also NEAR them). It is NOT forbidden: at the right edge, on the left of a one-way road, in front of driveways, in market or loading areas (there only parking is forbidden).",
+   "trap": "'anche in loro prossimità' (also near them): only outside towns and on urban fast roads.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No stopping in bends (and near them on fast roads)",
+    "it": "curve",
+    "lines": [
+     "Road with a bend",
+     "Stopping in the bend: forbidden",
+     "Fast roads: near the bend too"
+    ],
+    "icons": [
+     "curve",
+     "cross",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "curve",
+    "en": "bends"
+   },
+   {
+    "it": "strade urbane di scorrimento",
+    "en": "urban fast-flowing roads"
+   },
+   {
+    "it": "in loro prossimità",
+    "en": "near them"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23672": {
+  "en": "A fermata (stop) is forbidden on the right edge of the carriageway.",
+  "explain": {
+   "short": "The right edge is exactly where you SHOULD make a fermata. It is the normal place, not a forbidden one.",
+   "rule": "A fermata (short stop) is forbidden at or near level crossings, on or too near railway and tram tracks, in tunnels, underpasses, under overpasses, arches and porticoes (unless signs say otherwise), on hilltops and in bends (outside towns and on urban fast roads also NEAR them). It is NOT forbidden: at the right edge, on the left of a one-way road, in front of driveways, in market or loading areas (there only parking is forbidden).",
+   "trap": "'margine destro' (right edge): that is the correct place to stop.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The right edge is the normal place to stop",
+    "it": "margine destro",
+    "lines": [
+     "Town street",
+     "Stop at the right edge",
+     "This is the correct place"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata è vietata",
+    "en": "stopping is forbidden"
+   },
+   {
+    "it": "margine destro",
+    "en": "right edge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23673": {
+  "en": "A fermata (stop) is forbidden along the left edge of a one-way carriageway.",
+  "explain": {
+   "short": "On a one-way road you may also stop on the left side, because no traffic comes the other way.",
+   "rule": "A fermata (short stop) is forbidden at or near level crossings, on or too near railway and tram tracks, in tunnels, underpasses, under overpasses, arches and porticoes (unless signs say otherwise), on hilltops and in bends (outside towns and on urban fast roads also NEAR them). It is NOT forbidden: at the right edge, on the left of a one-way road, in front of driveways, in market or loading areas (there only parking is forbidden).",
+   "trap": "'senso unico' (one-way): here the left side is allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One-way road: the left side is allowed",
+    "it": "senso unico",
+    "lines": [
+     "One-way street in town",
+     "Stopping at the left edge",
+     "Allowed: no oncoming traffic"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "margine sinistro",
+    "en": "left edge"
+   },
+   {
+    "it": "senso unico di circolazione",
+    "en": "one-way traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23674": {
+  "en": "A short fermata (stop) is allowed even in a bend.",
+  "explain": {
+   "short": "In a bend others see you too late. A fermata there is forbidden, however short it is.",
+   "rule": "A fermata (short stop) is forbidden at or near level crossings, on or too near railway and tram tracks, in tunnels, underpasses, under overpasses, arches and porticoes (unless signs say otherwise), on hilltops and in bends (outside towns and on urban fast roads also NEAR them). It is NOT forbidden: at the right edge, on the left of a one-way road, in front of driveways, in market or loading areas (there only parking is forbidden).",
+   "trap": "'di breve durata' (short) does not help: in a bend it is always forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Even a short stop in a bend is forbidden",
+    "it": "in curva",
+    "lines": [
+     "Road with a bend",
+     "Short stop in the bend",
+     "Still forbidden"
+    ],
+    "icons": [
+     "curve",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata di breve durata",
+    "en": "short stop"
+   },
+   {
+    "it": "in curva",
+    "en": "in a bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23675": {
+  "en": "A fermata (stop) is forbidden at the exit of driveways.",
+  "explain": {
+   "short": "In front of a driveway only PARKING (sosta) is forbidden. A short fermata, with the driver ready to move, is allowed.",
+   "rule": "A fermata (short stop) is forbidden at or near level crossings, on or too near railway and tram tracks, in tunnels, underpasses, under overpasses, arches and porticoes (unless signs say otherwise), on hilltops and in bends (outside towns and on urban fast roads also NEAR them). It is NOT forbidden: at the right edge, on the left of a one-way road, in front of driveways, in market or loading areas (there only parking is forbidden).",
+   "trap": "fermata vs sosta: at 'passi carrabili' (driveways) only the sosta is forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Driveway: parking forbidden, a quick stop is OK",
+    "it": "passi carrabili",
+    "lines": [
+     "Driveway on a town street",
+     "Parking in front: forbidden",
+     "A short fermata: allowed"
+    ],
+    "icons": [
+     "car",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata è vietata",
+    "en": "stopping is forbidden"
+   },
+   {
+    "it": "sbocco",
+    "en": "exit"
+   },
+   {
+    "it": "passi carrabili",
+    "en": "driveways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23676": {
+  "en": "A fermata (stop) is forbidden in areas reserved for markets or for loading and unloading goods.",
+  "explain": {
+   "short": "In market and loading areas only PARKING (sosta) is forbidden. A short fermata is allowed.",
+   "rule": "A fermata (short stop) is forbidden at or near level crossings, on or too near railway and tram tracks, in tunnels, underpasses, under overpasses, arches and porticoes (unless signs say otherwise), on hilltops and in bends (outside towns and on urban fast roads also NEAR them). It is NOT forbidden: at the right edge, on the left of a one-way road, in front of driveways, in market or loading areas (there only parking is forbidden).",
+   "trap": "fermata vs sosta: in 'aree destinate al mercato' only the sosta is forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Market or loading area: a quick stop is OK",
+    "it": "carico e scarico",
+    "lines": [
+     "Loading area in town",
+     "Parking there: forbidden",
+     "A short fermata: allowed"
+    ],
+    "icons": [
+     "truck",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata è vietata",
+    "en": "stopping is forbidden"
+   },
+   {
+    "it": "mercato",
+    "en": "market"
+   },
+   {
+    "it": "carico e allo scarico delle merci",
+    "en": "loading and unloading goods"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

@@ -1,0 +1,728 @@
+{
+ "q23939": {
+  "short": "La figura mostra il pannello quadrato a strisce bianche e rosse. È proprio il pannello per il carico che sporge dietro.",
+  "rule": "Un carico che sporge dietro va sempre segnalato con il pannello quadrato a strisce bianche e rosse. Uno o due pannelli (uno per lato) se il carico occupa tutta la larghezza.",
+  "trap": "«uno o due»: un pannello per un carico stretto, due se il carico è largo come il veicolo.",
+  "caption": "Pannello quadrato bianco-rosso = carico sporgente",
+  "lines": [
+   "Pannello quadrato a strisce bianche e rosse",
+   "Il carico sporge dietro",
+   "Usa 1 o 2 pannelli"
+  ]
+ },
+ "q23940": {
+  "short": "Ogni carico che sporge dietro, anche poco, è un pericolo per chi segue. Il pannello serve sempre.",
+  "rule": "Un carico che sporge dietro va sempre segnalato con il pannello quadrato a strisce bianche e rosse. Uno o due pannelli (uno per lato) se il carico occupa tutta la larghezza.",
+  "trap": "«anche se di poco»: non c'è una misura minima, il pannello serve sempre.",
+  "caption": "Ogni carico sporgente dietro vuole il pannello",
+  "lines": [
+   "Il carico sporge dietro",
+   "Anche solo pochi centimetri",
+   "Pannello sempre obbligatorio"
+  ]
+ },
+ "q23941": {
+  "short": "Il pannello quadrato bianco-rosso segnala un carico che sporge dietro. Sono carichi lunghi che non si possono dividere.",
+  "rule": "Un carico che sporge dietro va sempre segnalato con il pannello quadrato a strisce bianche e rosse. Uno o due pannelli (uno per lato) se il carico occupa tutta la larghezza.",
+  "trap": "«parte posteriore»: il pannello è per la parte DIETRO del carico.",
+  "caption": "Segnala un carico che sporge dietro",
+  "lines": [
+   "Carico lungo, non divisibile",
+   "Sporge dietro",
+   "Pannello quadrato alla fine"
+  ]
+ },
+ "q23942": {
+  "short": "Un carico largo deve mostrare tutta la sua larghezza a chi segue. Servono due pannelli, uno per lato.",
+  "rule": "Un carico che sporge dietro va sempre segnalato con il pannello quadrato a strisce bianche e rosse. Uno o due pannelli (uno per lato) se il carico occupa tutta la larghezza.",
+  "trap": "«devono essere due»: un carico largo come il veicolo vuole due pannelli.",
+  "caption": "Carico largo: due pannelli, uno per lato",
+  "lines": [
+   "Carico largo come il veicolo",
+   "Due pannelli quadrati",
+   "Uno per ogni lato"
+  ]
+ },
+ "q23943": {
+  "short": "La figura mostra il pannello lungo a strisce gialle e rosse. Segnala il retro dei camion pesanti, non un carico sporgente.",
+  "rule": "Un carico che sporge dietro va sempre segnalato con il pannello quadrato a strisce bianche e rosse. Uno o due pannelli (uno per lato) se il carico occupa tutta la larghezza.",
+  "trap": "«in figura»: la regola è giusta, ma il pannello della figura è sbagliato.",
+  "caption": "Pannello sbagliato: questo è per i camion",
+  "lines": [
+   "Strisce giallo-rosse = camion pesante",
+   "Carico sporgente = pannello",
+   "quadrato bianco-rosso"
+  ]
+ },
+ "q23944": {
+  "short": "Questo pannello ha un cartello blu con una freccia verso destra. Si usa per lavori o veicoli di lavoro: passa a destra. Non segnala un carico.",
+  "rule": "Un carico che sporge dietro va sempre segnalato con il pannello quadrato a strisce bianche e rosse. Uno o due pannelli (uno per lato) se il carico occupa tutta la larghezza.",
+  "trap": "«segnala carichi»: il pannello con la freccia dice dove passare, non parla di carichi.",
+  "caption": "Freccia = passa a destra, non un carico",
+  "lines": [
+   "Pannello bianco-rosso con freccia blu",
+   "Passa dal lato della freccia",
+   "Non è un pannello per carichi"
+  ]
+ },
+ "q23945": {
+  "short": "Due pannelli vanno bene per un carico largo, ma la figura mostra il pannello sbagliato. Quello giallo con bordo rosso è per autotreni e autoarticolati.",
+  "rule": "Un carico che sporge dietro va sempre segnalato con il pannello quadrato a strisce bianche e rosse. Uno o due pannelli (uno per lato) se il carico occupa tutta la larghezza.",
+  "trap": "«pannelli retroriflettenti in figura»: il numero due è giusto, il pannello no.",
+  "caption": "Numero giusto, pannello sbagliato",
+  "lines": [
+   "Carico largo: 2 pannelli",
+   "Quadrati, bianchi e rossi",
+   "Pannello giallo = autotreno"
+  ]
+ },
+ "q23946": {
+  "short": "Il pannello arancione con due numeri si usa sui veicoli che portano merci pericolose. I numeri indicano il pericolo e la sostanza.",
+  "rule": "Pannello arancione con numeri = merci pericolose. Strisce giallo-rosse = retro dei camion oltre 3,5 t. Giallo con bordo rosso sul rimorchio = autotreno o autoarticolato.",
+  "trap": "«merci pericolose»: è proprio la funzione del pannello arancione.",
+  "caption": "Pannello arancione = merci pericolose",
+  "lines": [
+   "Pannello arancione con numeri",
+   "Il veicolo porta merci pericolose",
+   "Numeri: pericolo + sostanza"
+  ]
+ },
+ "q23947": {
+  "short": "Il pannello lungo a strisce gialle e rosse si mette dietro ai camion pesanti. Aiuta a vederli, soprattutto di notte.",
+  "rule": "Pannello arancione con numeri = merci pericolose. Strisce giallo-rosse = retro dei camion oltre 3,5 t. Giallo con bordo rosso sul rimorchio = autotreno o autoarticolato.",
+  "trap": "«autocarri» oltre 3,5 t: veicolo e peso sono giusti per questo pannello.",
+  "caption": "Strisce giallo-rosse = retro di un camion pesante",
+  "lines": [
+   "Pannello a strisce giallo-rosse",
+   "Dietro ai camion oltre 3,5 t",
+   "Si vede meglio da dietro"
+  ]
+ },
+ "q23948": {
+  "short": "Il pannello giallo con bordo rosso va dietro al rimorchio o semirimorchio. Indica un veicolo lungo: autotreno o autoarticolato.",
+  "rule": "Pannello arancione con numeri = merci pericolose. Strisce giallo-rosse = retro dei camion oltre 3,5 t. Giallo con bordo rosso sul rimorchio = autotreno o autoarticolato.",
+  "trap": "«rimorchio»: il pannello sta sul rimorchio, quindi indica un veicolo lungo.",
+  "caption": "Giallo con bordo rosso = autotreno",
+  "lines": [
+   "Pannello giallo, bordo rosso",
+   "Dietro al rimorchio",
+   "Veicolo lungo: autotreno"
+  ]
+ },
+ "q23949": {
+  "short": "Il pannello arancione segnala merci pericolose, non carichi sporgenti. Per i carichi sporgenti c'è il pannello quadrato bianco-rosso.",
+  "rule": "Pannello arancione con numeri = merci pericolose. Strisce giallo-rosse = retro dei camion oltre 3,5 t. Giallo con bordo rosso sul rimorchio = autotreno o autoarticolato.",
+  "trap": "«carichi sporgenti»: confonde due pannelli; l'arancione è per le merci pericolose.",
+  "caption": "Arancione = merci pericolose, non carico sporgente",
+  "lines": [
+   "Arancione = merci pericolose",
+   "Carico sporgente = pannello",
+   "quadrato bianco-rosso"
+  ]
+ },
+ "q23950": {
+  "short": "Questi pannelli a strisce gialle e rosse stanno dietro ai camion pesanti. Non si mettono sulla strada.",
+  "rule": "Pannello arancione con numeri = merci pericolose. Strisce giallo-rosse = retro dei camion oltre 3,5 t. Giallo con bordo rosso sul rimorchio = autotreno o autoarticolato.",
+  "trap": "«sulla carreggiata»: questi pannelli stanno sui veicoli, non sulla strada.",
+  "caption": "Sul retro dei camion, non sulla strada",
+  "lines": [
+   "Pannello a strisce giallo-rosse",
+   "Fissato dietro ai camion",
+   "Non si mette sulla strada"
+  ]
+ },
+ "q23951": {
+  "short": "Il pannello giallo con bordo rosso è per i rimorchi di autotreni e autoarticolati. Non si usa sugli autobus.",
+  "rule": "Pannello arancione con numeri = merci pericolose. Strisce giallo-rosse = retro dei camion oltre 3,5 t. Giallo con bordo rosso sul rimorchio = autotreno o autoarticolato.",
+  "trap": "«agli autobus»: gli autobus non hanno questi pannelli.",
+  "caption": "Non per gli autobus: indica gli autotreni",
+  "lines": [
+   "Pannello giallo, bordo rosso",
+   "Autotreni, autoarticolati",
+   "Non per gli autobus"
+  ]
+ },
+ "q23952": {
+  "short": "Si può trainare un solo veicolo alla volta. Una fila di veicoli è troppo difficile da guidare e da vedere.",
+  "rule": "In emergenza un'auto può trainare un solo veicolo guasto (non un rimorchio) con un collegamento solido e segnalato. Il veicolo trainato tiene le quattro frecce accese. Chi sbaglia perde 2 punti.",
+  "trap": "«più di un veicolo»: il limite è uno, tranne i trasporti eccezionali.",
+  "caption": "Si traina un solo veicolo",
+  "lines": [
+   "Un'auto traina",
+   "Solo UN veicolo dietro",
+   "Tranne trasporti eccezionali"
+  ]
+ },
+ "q23953": {
+  "short": "Il traino d'emergenza è permesso quando un veicolo non può muoversi da solo. Il guasto è proprio questo caso.",
+  "rule": "In emergenza un'auto può trainare un solo veicolo guasto (non un rimorchio) con un collegamento solido e segnalato. Il veicolo trainato tiene le quattro frecce accese. Chi sbaglia perde 2 punti.",
+  "trap": "«per avaria»: il traino di emergenza è solo per un veicolo che non può circolare.",
+  "caption": "Si può trainare un veicolo guasto",
+  "lines": [
+   "Auto guasta",
+   "Non si muove da sola",
+   "Un'altra auto può trainarla"
+  ]
+ },
+ "q23954": {
+  "short": "Il collegamento deve essere solido, così i veicoli non si staccano. Deve anche essere segnalato, così gli altri lo vedono.",
+  "rule": "In emergenza un'auto può trainare un solo veicolo guasto (non un rimorchio) con un collegamento solido e segnalato. Il veicolo trainato tiene le quattro frecce accese. Chi sbaglia perde 2 punti.",
+  "trap": "«purché idoneamente segnalati»: solido E segnalato, servono tutti e due.",
+  "caption": "Collegamento solido e segnalato",
+  "lines": [
+   "Fune, catena, cavo o barra",
+   "Collegamento forte tra le auto",
+   "Segnalalo, così gli altri lo vedono"
+  ]
+ },
+ "q23955": {
+  "short": "Una fune tra due auto si vede poco. Deve essere solida e segnalata, così nessuno passa in mezzo.",
+  "rule": "In emergenza un'auto può trainare un solo veicolo guasto (non un rimorchio) con un collegamento solido e segnalato. Il veicolo trainato tiene le quattro frecce accese. Chi sbaglia perde 2 punti.",
+  "trap": "«purché idoneamente segnalato»: la segnalazione è obbligatoria.",
+  "caption": "Collegamento solido e ben visibile",
+  "lines": [
+   "Auto guasta trainata",
+   "Collegamento forte tra le auto",
+   "Segnalato: ben visibile"
+  ]
+ },
+ "q23956": {
+  "short": "Trainare con un collegamento non solido è pericoloso e punito. Si perdono 2 punti.",
+  "rule": "In emergenza un'auto può trainare un solo veicolo guasto (non un rimorchio) con un collegamento solido e segnalato. Il veicolo trainato tiene le quattro frecce accese. Chi sbaglia perde 2 punti.",
+  "trap": "«2 punti»: impara il numero esatto; il quiz dice anche 4, che è sbagliato.",
+  "caption": "Collegamento non solido: meno 2 punti",
+  "lines": [
+   "Traino con collegamento debole",
+   "Multa",
+   "Meno 2 punti"
+  ]
+ },
+ "q23957": {
+  "short": "In autostrada un'auto normale non può trainare un'auto guasta: serve il carro attrezzi. E il traino è per un guasto, non per «qualsiasi motivo».",
+  "rule": "In emergenza un'auto può trainare un solo veicolo guasto (non un rimorchio) con un collegamento solido e segnalato. Il veicolo trainato tiene le quattro frecce accese. Chi sbaglia perde 2 punti.",
+  "trap": "«In autostrada»: lì il traino con un'auto normale non è permesso.",
+  "caption": "Autostrada: traina solo il carro attrezzi",
+  "lines": [
+   "Autostrada",
+   "Niente traino con un'auto normale",
+   "Chiama il carro attrezzi"
+  ]
+ },
+ "q23958": {
+  "short": "Il collegamento deve essere solido E segnalato. Se non puoi segnalarlo, non puoi trainare.",
+  "rule": "In emergenza un'auto può trainare un solo veicolo guasto (non un rimorchio) con un collegamento solido e segnalato. Il veicolo trainato tiene le quattro frecce accese. Chi sbaglia perde 2 punti.",
+  "trap": "«anche se non è possibile segnalarlo»: la segnalazione è obbligatoria.",
+  "caption": "Il collegamento va anche segnalato",
+  "lines": [
+   "Collegamento solido: sì",
+   "Segnalato: anche obbligatorio",
+   "Non segnalato = niente traino"
+  ]
+ },
+ "q23959": {
+  "short": "Il veicolo trainato tiene accese le quattro frecce. Se non può, espone il triangolo dietro. Le luci posteriori normali non bastano.",
+  "rule": "In emergenza un'auto può trainare un solo veicolo guasto (non un rimorchio) con un collegamento solido e segnalato. Il veicolo trainato tiene le quattro frecce accese. Chi sbaglia perde 2 punti.",
+  "trap": "«le luci posteriori»: la regola chiede le quattro frecce, o il triangolo.",
+  "caption": "Veicolo trainato: quattro frecce o triangolo",
+  "lines": [
+   "Auto trainata",
+   "Quattro frecce accese",
+   "Senza: triangolo"
+  ]
+ },
+ "q23960": {
+  "short": "La penalità per un collegamento non solido è 2 punti, non 4.",
+  "rule": "In emergenza un'auto può trainare un solo veicolo guasto (non un rimorchio) con un collegamento solido e segnalato. Il veicolo trainato tiene le quattro frecce accese. Chi sbaglia perde 2 punti.",
+  "trap": "«4 punti»: il numero giusto è 2.",
+  "caption": "Collegamento non solido: meno 2 punti, non 4",
+  "lines": [
+   "Traino con collegamento debole",
+   "Multa",
+   "Meno 2 punti, non 4"
+  ]
+ },
+ "q23961": {
+  "short": "Le bici sono leggere, lente e possono oscillare di lato. Chi guida un'auto deve pensarci.",
+  "rule": "Le bici sono leggere, lente e possono oscillare. I ciclisti (soprattutto bambini e anziani) non capiscono bene la velocità delle auto: il conducente deve essere molto prudente.",
+  "trap": "«velocipedi» vuol dire biciclette; i rischi elencati sono veri.",
+  "caption": "Le bici sono lente e oscillano: prudenza",
+  "lines": [
+   "Bici: leggera e lenta",
+   "Può oscillare di lato",
+   "Tieni più distanza"
+  ]
+ },
+ "q23962": {
+  "short": "I ciclisti sono fragili e possono muoversi all'improvviso. Auto e moto devono adattare la guida.",
+  "rule": "Le bici sono leggere, lente e possono oscillare. I ciclisti (soprattutto bambini e anziani) non capiscono bene la velocità delle auto: il conducente deve essere molto prudente.",
+  "trap": "«deve adattare»: è un obbligo adattare la guida.",
+  "caption": "Adatta la guida vicino alle bici",
+  "lines": [
+   "Bici nel traffico",
+   "Rallenta, tieni distanza",
+   "Adatta la guida"
+  ]
+ },
+ "q23963": {
+  "short": "Ciclisti molto giovani o anziani possono reagire lentamente o sbagliare. Bisogna fare molta attenzione.",
+  "rule": "Le bici sono leggere, lente e possono oscillare. I ciclisti (soprattutto bambini e anziani) non capiscono bene la velocità delle auto: il conducente deve essere molto prudente.",
+  "trap": "«giovanissimi e inesperti o anziani»: questi ciclisti vogliono più attenzione.",
+  "caption": "Più attenzione con ciclisti giovani e anziani",
+  "lines": [
+   "Ciclista giovane o anziano",
+   "Può reagire piano",
+   "Fai molta attenzione"
+  ]
+ },
+ "q23964": {
+  "short": "Da una bici è difficile capire quanto va veloce un'auto. Il ciclista può girare quando non è sicuro.",
+  "rule": "Le bici sono leggere, lente e possono oscillare. I ciclisti (soprattutto bambini e anziani) non capiscono bene la velocità delle auto: il conducente deve essere molto prudente.",
+  "trap": "«molto difficile valutare»: è un limite reale dei ciclisti.",
+  "caption": "Il ciclista non capisce bene la tua velocità",
+  "lines": [
+   "Ciclista che sta per svoltare",
+   "Difficile valutare la velocità",
+   "Aspettati un errore"
+  ]
+ },
+ "q23965": {
+  "short": "Un ciclista che gira a sinistra può tagliarti la strada perché sbaglia la tua velocità. Prevedilo e rallenta.",
+  "rule": "Le bici sono leggere, lente e possono oscillare. I ciclisti (soprattutto bambini e anziani) non capiscono bene la velocità delle auto: il conducente deve essere molto prudente.",
+  "trap": "«deve prevedere»: chi guida deve aspettarsi l'errore del ciclista.",
+  "caption": "Ciclista che gira a sinistra: prevedi l'errore",
+  "lines": [
+   "Ciclista davanti gira a sinistra",
+   "Può sbagliare la tua velocità",
+   "Rallenta, sii pronto"
+  ]
+ },
+ "q23966": {
+  "short": "Un ciclista anziano vede male dietro e può sbandare mentre si gira. Vai piano e lascia spazio.",
+  "rule": "Le bici sono leggere, lente e possono oscillare. I ciclisti (soprattutto bambini e anziani) non capiscono bene la velocità delle auto: il conducente deve essere molto prudente.",
+  "trap": "«particolare prudenza»: con il ciclista anziano servono più spazio e pazienza.",
+  "caption": "Ciclista anziano si gira piano: lascia spazio",
+  "lines": [
+   "Ciclista anziano",
+   "Si gira piano a guardare",
+   "Lascia spazio, vai piano"
+  ]
+ },
+ "q23967": {
+  "short": "I bambini in bici sono un rischio grande: sono inesperti e possono sbandare. Essere lenti non li rende sicuri.",
+  "rule": "Le bici sono leggere, lente e possono oscillare. I ciclisti (soprattutto bambini e anziani) non capiscono bene la velocità delle auto: il conducente deve essere molto prudente.",
+  "trap": "«non rappresenta un rischio»: sbagliato; lento non vuol dire sicuro.",
+  "caption": "I bambini in bici SONO un rischio",
+  "lines": [
+   "Bambini in bicicletta",
+   "Inesperti, possono sbandare",
+   "Rallenta, tieni distanza"
+  ]
+ },
+ "q23968": {
+  "short": "Nessuno può sempre prevedere quando un ciclista cade o sbanda. I ciclisti non sono mai del tutto sicuri.",
+  "rule": "Le bici sono leggere, lente e possono oscillare. I ciclisti (soprattutto bambini e anziani) non capiscono bene la velocità delle auto: il conducente deve essere molto prudente.",
+  "trap": "«sempre capaci»: nessuno può prevedere sempre una caduta.",
+  "caption": "Nessuno prevede sempre la caduta di un ciclista",
+  "lines": [
+   "Strada irregolare",
+   "Il ciclista può sbandare o cadere",
+   "Lascia molto spazio"
+  ]
+ },
+ "q23969": {
+  "short": "Per un ciclista è DIFFICILE capire quanto va veloce un'auto, soprattutto sulle strade extraurbane.",
+  "rule": "Le bici sono leggere, lente e possono oscillare. I ciclisti (soprattutto bambini e anziani) non capiscono bene la velocità delle auto: il conducente deve essere molto prudente.",
+  "trap": "«facilmente valutabile»: è il contrario, è difficile.",
+  "caption": "Per il ciclista è DIFFICILE valutare la velocità",
+  "lines": [
+   "Auto veloce su strada aperta",
+   "Ciclista lento davanti",
+   "Difficile valutare la velocità"
+  ]
+ },
+ "q23970": {
+  "short": "Molti ciclomotoristi sono ragazzi con poca esperienza. Chi guida un'auto deve sempre ricordarlo.",
+  "rule": "I ciclomotoristi sono spesso giovani e inesperti; possono fare zig-zag, frenare o girare all'improvviso. Prevedi i loro errori e tieni molta distanza laterale.",
+  "trap": "«costantemente»: devi pensarci sempre.",
+  "caption": "Ciclomotoristi giovani: attenzione sempre",
+  "lines": [
+   "Ragazzo in motorino",
+   "Poca esperienza",
+   "Sii sempre pronto"
+  ]
+ },
+ "q23971": {
+  "short": "Per girare a sinistra il motorino passa davanti alle auto più veloci che arrivano da dietro. È molto rischioso.",
+  "rule": "I ciclomotoristi sono spesso giovani e inesperti; possono fare zig-zag, frenare o girare all'improvviso. Prevedi i loro errori e tieni molta distanza laterale.",
+  "trap": "«particolarmente pericolosa»: la svolta a sinistra è davvero la manovra più difficile.",
+  "caption": "Motorino che gira a sinistra: pericolo",
+  "lines": [
+   "Motorino vuole girare a sinistra",
+   "Auto veloci arrivano da dietro",
+   "Momento molto pericoloso"
+  ]
+ },
+ "q23972": {
+  "short": "Un motorino che sta per girare può rallentare o attraversare di colpo. Valuta bene distanza e velocità.",
+  "rule": "I ciclomotoristi sono spesso giovani e inesperti; possono fare zig-zag, frenare o girare all'improvviso. Prevedi i loro errori e tieni molta distanza laterale.",
+  "trap": "«con prudenza»: è un dovere valutare bene la distanza.",
+  "caption": "Motorino che gira: valuta la distanza",
+  "lines": [
+   "Motorino che sta per girare",
+   "Controlla la tua velocità",
+   "Tieni abbastanza distanza"
+  ]
+ },
+ "q23973": {
+  "short": "I motorini possono muoversi di colpo o fare zig-zag. Un buon conducente lo prevede ed è pronto a rallentare.",
+  "rule": "I ciclomotoristi sono spesso giovani e inesperti; possono fare zig-zag, frenare o girare all'improvviso. Prevedi i loro errori e tieni molta distanza laterale.",
+  "trap": "«deve prevedere»: aspettarsi gli errori degli altri fa parte della guida sicura.",
+  "caption": "Prevedi mosse improvvise come lo zig-zag",
+  "lines": [
+   "Motorino fa zig-zag",
+   "Prevedi mosse improvvise",
+   "Sii pronto a frenare"
+  ]
+ },
+ "q23974": {
+  "short": "Passare troppo vicino può far perdere l'equilibrio a una bici o a un motorino. Lascia molto spazio di lato.",
+  "rule": "I ciclomotoristi sono spesso giovani e inesperti; possono fare zig-zag, frenare o girare all'improvviso. Prevedi i loro errori e tieni molta distanza laterale.",
+  "trap": "«distanza di sicurezza laterale»: lo spazio di lato è importante come quello davanti.",
+  "caption": "Molto spazio di lato da bici e motorini",
+  "lines": [
+   "Sorpassi una bici o un motorino",
+   "Lascia molto spazio di lato",
+   "Restano in equilibrio"
+  ]
+ },
+ "q23975": {
+  "short": "Anche un piccolo spostamento verso una bici o un motorino può farli cadere. Tieni una linea dritta.",
+  "rule": "I ciclomotoristi sono spesso giovani e inesperti; possono fare zig-zag, frenare o girare all'improvviso. Prevedi i loro errori e tieni molta distanza laterale.",
+  "trap": "«anche modeste»: anche piccoli spostamenti sono pericolosi.",
+  "caption": "Niente sbandate vicino a bici e motorini",
+  "lines": [
+   "Bici o motorino accanto",
+   "Niente spostamenti, anche piccoli",
+   "Tieni la linea dritta"
+  ]
+ },
+ "q23976": {
+  "short": "Rispettare le regole non basta: devi anche prevedere gli errori degli altri, soprattutto dei motorini.",
+  "rule": "I ciclomotoristi sono spesso giovani e inesperti; possono fare zig-zag, frenare o girare all'improvviso. Prevedi i loro errori e tieni molta distanza laterale.",
+  "trap": "«non è tenuto a prevedere»: sbagliato, devi prevederle.",
+  "caption": "Devi prevedere gli errori dei motorini",
+  "lines": [
+   "Motorino accanto a te",
+   "Può fare un errore",
+   "Prevedilo e stai pronto"
+  ]
+ },
+ "q23977": {
+  "short": "Un motorino che frena di colpo è difficile da prevedere. Valutare la distanza è difficile: tieni più spazio.",
+  "rule": "I ciclomotoristi sono spesso giovani e inesperti; possono fare zig-zag, frenare o girare all'improvviso. Prevedi i loro errori e tieni molta distanza laterale.",
+  "trap": "«Risulta facile»: sbagliato, è difficile.",
+  "caption": "Motorino che frena: la distanza è DIFFICILE da valutare",
+  "lines": [
+   "Motorino frena di colpo",
+   "Difficile valutare la distanza",
+   "Tieni più spazio"
+  ]
+ },
+ "q23978": {
+  "short": "Passare un motorino veloce e vicino può fargli perdere l'equilibrio. Rallenta e lascia spazio, anche se rispetti il limite.",
+  "rule": "I ciclomotoristi sono spesso giovani e inesperti; possono fare zig-zag, frenare o girare all'improvviso. Prevedi i loro errori e tieni molta distanza laterale.",
+  "trap": "«nonostante la scarsa distanza»: non è mai accettabile.",
+  "caption": "Mai sorpassare un motorino veloce e vicino",
+  "lines": [
+   "Sorpasso di un motorino",
+   "Rallenta",
+   "Lascia molto spazio di lato"
+  ]
+ },
+ "q23979": {
+  "short": "Sulle strade extraurbane le auto vanno veloci. Un veicolo molto lento, come un motorino a tre ruote, si raggiunge in fretta.",
+  "rule": "I veicoli molto lenti (motorini a tre ruote, macchine agricole) sono un pericolo sulle strade extraurbane: è difficile valutare la loro velocità. Grandi differenze di velocità riducono la sicurezza.",
+  "trap": "«deve conoscere i rischi»: conoscerli è un dovere di chi guida.",
+  "caption": "Veicoli lenti fuori città: conosci il rischio",
+  "lines": [
+   "Strada extraurbana",
+   "Motorino a tre ruote, lento",
+   "Lo raggiungi in fretta: rallenta"
+  ]
+ },
+ "q23980": {
+  "short": "Su una strada a due corsie c'è poco spazio. Un motorino a tre ruote lento che si muove di colpo è un pericolo.",
+  "rule": "I veicoli molto lenti (motorini a tre ruote, macchine agricole) sono un pericolo sulle strade extraurbane: è difficile valutare la loro velocità. Grandi differenze di velocità riducono la sicurezza.",
+  "trap": "«potenziale pericolo»: sì, anche se rispetti i limiti.",
+  "caption": "Motorino a tre ruote su strada stretta: pericolo",
+  "lines": [
+   "Strada extraurbana a due corsie",
+   "Motorino a tre ruote lento",
+   "Mosse improvvise: sii pronto"
+  ]
+ },
+ "q23981": {
+  "short": "Le macchine agricole sono molto più lente di quanto pensi. È difficile capire quanto ti avvicini: rallenta presto.",
+  "rule": "I veicoli molto lenti (motorini a tre ruote, macchine agricole) sono un pericolo sulle strade extraurbane: è difficile valutare la loro velocità. Grandi differenze di velocità riducono la sicurezza.",
+  "trap": "«difficoltosa la valutazione»: la loro lentezza inganna.",
+  "caption": "Macchina agricola: velocità difficile da valutare",
+  "lines": [
+   "Strada extraurbana",
+   "Macchina agricola lenta davanti",
+   "Difficile da valutare: rallenta presto"
+  ]
+ },
+ "q23982": {
+  "short": "Grandi differenze di velocità causano tamponamenti e sorpassi rischiosi. Riducono la sicurezza.",
+  "rule": "I veicoli molto lenti (motorini a tre ruote, macchine agricole) sono un pericolo sulle strade extraurbane: è difficile valutare la loro velocità. Grandi differenze di velocità riducono la sicurezza.",
+  "trap": "«fattore di sicurezza»: è il contrario, è un rischio.",
+  "caption": "Velocità molto diverse = più rischio",
+  "lines": [
+   "Auto veloci e veicoli lenti",
+   "Grande differenza di velocità",
+   "Più rischio, non sicurezza"
+  ]
+ },
+ "q23983": {
+  "short": "Se vai veloce e il veicolo davanti è lento, ti avvicini molto più in fretta di quanto pensi. È difficile da valutare.",
+  "rule": "I veicoli molto lenti (motorini a tre ruote, macchine agricole) sono un pericolo sulle strade extraurbane: è difficile valutare la loro velocità. Grandi differenze di velocità riducono la sicurezza.",
+  "trap": "«Risulta facile»: sbagliato, è difficile.",
+  "caption": "Avvicinarsi a un veicolo lento: DIFFICILE da valutare",
+  "lines": [
+   "Vai veloce",
+   "Veicolo lento davanti",
+   "Ti avvicini in fretta"
+  ]
+ },
+ "q23984": {
+  "short": "In uno scontro il veicolo più leggero subisce quasi tutta la forza. Masse molto diverse rendono lo scontro peggiore.",
+  "rule": "Uno scontro tra veicoli di massa molto diversa è più pericoloso, soprattutto per quello leggero. Grandi differenze di massa e prestazioni rendono la strada meno sicura.",
+  "trap": "«maggiormente pericolosa»: sì, soprattutto per il veicolo leggero.",
+  "caption": "Masse molto diverse: scontro peggiore",
+  "lines": [
+   "Veicolo pesante contro auto piccola",
+   "L'auto piccola subisce la forza",
+   "Scontro più pericoloso"
+  ]
+ },
+ "q23985": {
+  "short": "Un'auto piccola è la parte più debole in uno scontro con un'auto più pesante. Chi la guida deve pensarci.",
+  "rule": "Uno scontro tra veicoli di massa molto diversa è più pericoloso, soprattutto per quello leggero. Grandi differenze di massa e prestazioni rendono la strada meno sicura.",
+  "trap": "«maggiori rischi»: l'auto piccola è la più esposta.",
+  "caption": "Auto piccola: rischio maggiore",
+  "lines": [
+   "Guidi un'auto piccola",
+   "Auto più pesante vicino",
+   "Il rischio è tuo"
+  ]
+ },
+ "q23986": {
+  "short": "Un'auto pesante può proteggere chi è dentro, ma fa più danni ai veicoli leggeri. Non è una garanzia per gli altri.",
+  "rule": "Uno scontro tra veicoli di massa molto diversa è più pericoloso, soprattutto per quello leggero. Grandi differenze di massa e prestazioni rendono la strada meno sicura.",
+  "trap": "«anche per gli altri»: le auto pesanti sono più pericolose per gli altri.",
+  "caption": "Auto pesante = più pericolo per i piccoli",
+  "lines": [
+   "Auto pesante",
+   "Colpisce un'auto piccola",
+   "Più danni, non sicurezza"
+  ]
+ },
+ "q23987": {
+  "short": "È il contrario: più le masse sono diverse, più lo scontro è grave per il veicolo leggero.",
+  "rule": "Uno scontro tra veicoli di massa molto diversa è più pericoloso, soprattutto per quello leggero. Grandi differenze di massa e prestazioni rendono la strada meno sicura.",
+  "trap": "«tanto più sicuri»: è al contrario; più differenza vuol dire meno sicurezza.",
+  "caption": "Masse più diverse = meno sicurezza",
+  "lines": [
+   "Masse molto diverse",
+   "Scontri più gravi",
+   "Meno sicurezza"
+  ]
+ },
+ "q23988": {
+  "short": "Grandi differenze di potenza e peso rendono gli scontri più gravi. Riducono la sicurezza.",
+  "rule": "Uno scontro tra veicoli di massa molto diversa è più pericoloso, soprattutto per quello leggero. Grandi differenze di massa e prestazioni rendono la strada meno sicura.",
+  "trap": "«facilitano una buona sicurezza»: è il contrario.",
+  "caption": "Grandi differenze riducono la sicurezza",
+  "lines": [
+   "Auto molto diverse",
+   "Velocità diverse, scontri gravi",
+   "Meno sicurezza"
+  ]
+ },
+ "q23989": {
+  "short": "Un SUV alto e pesante colpisce più forte pedoni e auto piccole. Chi lo guida deve essere molto prudente.",
+  "rule": "Un SUV (fuoristrada) è alto e pesante, spesso con paraurti rinforzati: è più pericoloso per pedoni, ciclisti e auto piccole, e più difficile da guidare in città.",
+  "trap": "«potenziale pericolo»: le dimensioni del SUV sono un rischio per gli altri.",
+  "caption": "SUV: grande e pesante, pericolo per gli altri",
+  "lines": [
+   "SUV alto e pesante",
+   "Pericolo per pedoni e bici",
+   "Guida con molta prudenza"
+  ]
+ },
+ "q23990": {
+  "short": "I paraurti rinforzati e sporgenti fanno più danni a veicoli piccoli e persone. Chi guida un SUV deve pensarci.",
+  "rule": "Un SUV (fuoristrada) è alto e pesante, spesso con paraurti rinforzati: è più pericoloso per pedoni, ciclisti e auto piccole, e più difficile da guidare in città.",
+  "trap": "«gravi danni»: i paraurti rinforzati aumentano i danni agli altri.",
+  "caption": "I paraurti rinforzati fanno gravi danni",
+  "lines": [
+   "SUV con paraurti rinforzati",
+   "Scontro con un'auto piccola",
+   "Danni gravi"
+  ]
+ },
+ "q23991": {
+  "short": "Un SUV è grande, pesante e alto. Nelle strade strette e nelle manovre improvvise è più difficile da controllare.",
+  "rule": "Un SUV (fuoristrada) è alto e pesante, spesso con paraurti rinforzati: è più pericoloso per pedoni, ciclisti e auto piccole, e più difficile da guidare in città.",
+  "trap": "«particolarmente impegnativa in città»: vero, le dimensioni contano in città.",
+  "caption": "SUV in città: guida più difficile",
+  "lines": [
+   "SUV grande in città",
+   "Manovre di emergenza più difficili",
+   "Guida con più prudenza"
+  ]
+ },
+ "q23992": {
+  "short": "Un SUV può proteggere chi è dentro, ma è PIÙ pericoloso per gli altri. Non garantisce la sicurezza di tutti.",
+  "rule": "Un SUV (fuoristrada) è alto e pesante, spesso con paraurti rinforzati: è più pericoloso per pedoni, ciclisti e auto piccole, e più difficile da guidare in città.",
+  "trap": "«per gli altri utenti»: il SUV è un pericolo per loro, non una protezione.",
+  "caption": "Il SUV non è più sicuro per gli altri",
+  "lines": [
+   "SUV alto e pesante",
+   "Più pericoloso per gli altri",
+   "Nessuna garanzia di sicurezza"
+  ]
+ },
+ "q23993": {
+  "short": "I paraurti rinforzati sono duri e sporgono: fanno PIÙ danni agli altri veicoli e alle persone.",
+  "rule": "Un SUV (fuoristrada) è alto e pesante, spesso con paraurti rinforzati: è più pericoloso per pedoni, ciclisti e auto piccole, e più difficile da guidare in città.",
+  "trap": "«meno pericolosi»: è al contrario; i bull bar rendono i SUV più pericolosi.",
+  "caption": "I bull bar rendono i SUV PIÙ pericolosi",
+  "lines": [
+   "SUV con bull bar",
+   "Colpisce un altro veicolo",
+   "Più danni, non meno"
+  ]
+ },
+ "q23994": {
+  "short": "In città un SUV è più difficile da guidare e parcheggiare, e più pericoloso per pedoni e ciclisti.",
+  "rule": "Un SUV (fuoristrada) è alto e pesante, spesso con paraurti rinforzati: è più pericoloso per pedoni, ciclisti e auto piccole, e più difficile da guidare in città.",
+  "trap": "«particolarmente indicata»: è il contrario, in città il SUV è impegnativo.",
+  "caption": "SUV in città: impegnativo, non ideale",
+  "lines": [
+   "Strade strette in città",
+   "SUV grande, tanti pedoni",
+   "Non ideale: più prudenza"
+  ]
+ },
+ "q23995": {
+  "short": "Camion e autobus sono molto più pesanti di un'auto. In uno scontro l'auto ha la peggio: stai attento.",
+  "rule": "Camion, autotreni, autoarticolati e autobus sono molto più pesanti di un'auto: in uno scontro l'auto o la moto ha la peggio. Valuta sempre il loro pericolo.",
+  "trap": "«massa notevolmente maggiore»: per questo sono più pericolosi.",
+  "caption": "Camion e autobus: molto più pesanti",
+  "lines": [
+   "Camion o autobus vicino",
+   "Molto più pesante di te",
+   "Attenzione, tieni distanza"
+  ]
+ },
+ "q23996": {
+  "short": "Un camion pesante che va troppo veloce ha bisogno di molto spazio per fermarsi e colpisce forte.",
+  "rule": "Camion, autotreni, autoarticolati e autobus sono molto più pesanti di un'auto: in uno scontro l'auto o la moto ha la peggio. Valuta sempre il loro pericolo.",
+  "trap": "«alti rischi»: un mezzo pesante veloce è molto pericoloso.",
+  "caption": "Camion troppo veloci: rischio alto",
+  "lines": [
+   "Camion pesante troppo veloce",
+   "Lungo spazio di frenata",
+   "Rischio alto per auto e moto"
+  ]
+ },
+ "q23997": {
+  "short": "La loro grande massa li rende PIÙ pericolosi per auto e moto, non uguali agli altri.",
+  "rule": "Camion, autotreni, autoarticolati e autobus sono molto più pesanti di un'auto: in uno scontro l'auto o la moto ha la peggio. Valuta sempre il loro pericolo.",
+  "trap": "«non costituiscono rischi maggiori»: sbagliato, il rischio è maggiore.",
+  "caption": "I camion pesanti SONO un rischio maggiore",
+  "lines": [
+   "Camion pesante",
+   "Auto o moto",
+   "Rischio più alto per il piccolo"
+  ]
+ },
+ "q23998": {
+  "short": "Un'auto ben fatta non guarda al posto tuo. Devi sempre controllare davanti e intorno.",
+  "rule": "Anche se l'auto ha una buona visibilità, guarda bene intorno: poggiatesta e montanti nascondono le persone; un SUV alto può nascondere i bambini. Pellicole sul parabrezza e sui vetri laterali anteriori sono vietate.",
+  "trap": "«Nonostante»: una buona visibilità non sostituisce l'attenzione.",
+  "caption": "Buona visibilità, ma guarda bene",
+  "lines": [
+   "Buon campo visivo",
+   "Guarda comunque intorno",
+   "Controlla davanti e ai lati"
+  ]
+ },
+ "q23999": {
+  "short": "Poggiatesta e montanti creano angoli ciechi. Un pedone o una bici possono nascondersi lì.",
+  "rule": "Anche se l'auto ha una buona visibilità, guarda bene intorno: poggiatesta e montanti nascondono le persone; un SUV alto può nascondere i bambini. Pellicole sul parabrezza e sui vetri laterali anteriori sono vietate.",
+  "trap": "«può essere ridotto»: gli angoli ciechi ci sono anche nella tua auto.",
+  "caption": "Poggiatesta e montanti creano angoli ciechi",
+  "lines": [
+   "Poggiatesta, montanti",
+   "Angoli ciechi",
+   "Muovi la testa e controlla"
+  ]
+ },
+ "q24000": {
+  "short": "Le pellicole sul parabrezza e sui vetri laterali anteriori riducono la vista. Lì sono vietate.",
+  "rule": "Anche se l'auto ha una buona visibilità, guarda bene intorno: poggiatesta e montanti nascondono le persone; un SUV alto può nascondere i bambini. Pellicole sul parabrezza e sui vetri laterali anteriori sono vietate.",
+  "trap": "«è vietato»: divieto chiaro per parabrezza e vetri laterali anteriori.",
+  "caption": "Niente pellicole su parabrezza e vetri anteriori",
+  "lines": [
+   "Parabrezza, vetri laterali anteriori",
+   "Niente pellicole adesive",
+   "Vista libera"
+  ]
+ },
+ "q24001": {
+  "short": "Un SUV ha il cofano alto e lungo. Un bambino proprio davanti può essere invisibile per chi guida.",
+  "rule": "Anche se l'auto ha una buona visibilità, guarda bene intorno: poggiatesta e montanti nascondono le persone; un SUV alto può nascondere i bambini. Pellicole sul parabrezza e sui vetri laterali anteriori sono vietate.",
+  "trap": "«rischiano di rimanere fuori»: sì, le persone piccole possono non vedersi.",
+  "caption": "SUV: i bambini davanti possono non vedersi",
+  "lines": [
+   "SUV alto",
+   "Bambino proprio davanti",
+   "Chi guida può non vederlo"
+  ]
+ },
+ "q24002": {
+  "short": "Un'occhiata veloce non basta mai. Anche con buona visibilità devi controllare bene intorno.",
+  "rule": "Anche se l'auto ha una buona visibilità, guarda bene intorno: poggiatesta e montanti nascondono le persone; un SUV alto può nascondere i bambini. Pellicole sul parabrezza e sui vetri laterali anteriori sono vietate.",
+  "trap": "«controllo visivo affrettato»: serve sempre un controllo attento.",
+  "caption": "Un'occhiata veloce non basta",
+  "lines": [
+   "Buona visibilità di serie",
+   "Occhiata veloce: non basta",
+   "Controlla bene"
+  ]
+ },
+ "q24003": {
+  "short": "Le pellicole sul parabrezza e sui vetri laterali anteriori sono vietate, rimovibili o no.",
+  "rule": "Anche se l'auto ha una buona visibilità, guarda bene intorno: poggiatesta e montanti nascondono le persone; un SUV alto può nascondere i bambini. Pellicole sul parabrezza e sui vetri laterali anteriori sono vietate.",
+  "trap": "«a condizione che siano di materiale rimovibile»: rimovibile non le rende permesse.",
+  "caption": "Pellicole vietate, anche rimovibili",
+  "lines": [
+   "Parabrezza, vetri anteriori",
+   "Pellicola rimovibile: no",
+   "Serve vista libera"
+  ]
+ },
+ "q24004": {
+  "short": "Essere alti non aiuta a vedere le cose basse vicino all'auto. Un bambino davanti a un SUV può essere nascosto dal cofano.",
+  "rule": "Anche se l'auto ha una buona visibilità, guarda bene intorno: poggiatesta e montanti nascondono le persone; un SUV alto può nascondere i bambini. Pellicole sul parabrezza e sui vetri laterali anteriori sono vietate.",
+  "trap": "«adeguata visibilità»: l'altezza nasconde gli ostacoli bassi.",
+  "caption": "Il SUV alto nasconde gli ostacoli bassi",
+  "lines": [
+   "SUV alto",
+   "Bambino basso davanti",
+   "Nascosto dal cofano"
+  ]
+ }
+}

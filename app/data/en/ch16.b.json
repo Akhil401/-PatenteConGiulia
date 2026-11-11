@@ -1,0 +1,2345 @@
+{
+ "q23677": {
+  "en": "Stopping is forbidden near and at vertical road signs in a way that hides them from view.",
+  "explain": {
+   "short": "If your car hides a road sign, other drivers cannot see it. So stopping there is forbidden.",
+   "rule": "A short stop (fermata) is forbidden where it hides signs or lights, on lane-choice markings, channelling and acceleration lanes, and at or near junctions (in towns: within 5 m).",
+   "trap": "The key is 'occultarne la vista' (hiding it from view): only stops that hide the sign are forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Do not stop where you hide a road sign",
+    "it": "occultarne la vista",
+    "lines": [
+     "Road sign at the side of the road",
+     "Your stopped car hides it",
+     "Stopping here: forbidden"
+    ],
+    "icons": [
+     "sign",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "short stop"
+   },
+   {
+    "it": "segnali stradali verticali",
+    "en": "vertical road signs"
+   },
+   {
+    "it": "occultarne la vista",
+    "en": "hide it from view"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23678": {
+  "en": "Stopping is forbidden near and at traffic lights in a way that hides them from view.",
+  "explain": {
+   "short": "A car that hides a traffic light can cause a crash, because others cannot see the light. So this stop is forbidden.",
+   "rule": "A short stop (fermata) is forbidden where it hides signs or lights, on lane-choice markings, channelling and acceleration lanes, and at or near junctions (in towns: within 5 m).",
+   "trap": "'occultarne la vista' (hiding it from view) is what makes the stop forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Do not stop where you hide a traffic light",
+    "it": "segnali semaforici",
+    "lines": [
+     "Traffic light at a junction",
+     "Your stopped car hides the light",
+     "Stopping here: forbidden"
+    ],
+    "icons": [
+     "light",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnali semaforici",
+    "en": "traffic lights"
+   },
+   {
+    "it": "occultarne la vista",
+    "en": "hide it from view"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23679": {
+  "en": "Stopping is forbidden on the lane-choice road markings and along the channelling lanes.",
+  "explain": {
+   "short": "Before a junction the lanes with arrows (preselezione) guide cars to the right lane. A stopped car there blocks the traffic flow.",
+   "rule": "A short stop (fermata) is forbidden where it hides signs or lights, on lane-choice markings, channelling and acceleration lanes, and at or near junctions (in towns: within 5 m).",
+   "trap": "'preselezione' and 'corsie di canalizzazione' are the arrow lanes before a junction: no stopping there.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No stopping on the lane-choice arrows",
+    "it": "preselezione",
+    "lines": [
+     "Lanes with arrows before a junction",
+     "Cars choose their lane here",
+     "Stopping on these lanes: forbidden"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnali orizzontali di preselezione",
+    "en": "lane-choice road markings"
+   },
+   {
+    "it": "corsie di canalizzazione",
+    "en": "channelling lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23680": {
+  "en": "Outside built-up areas, stopping is forbidden at and near junction areas.",
+  "explain": {
+   "short": "Outside towns cars are fast. A car stopped at or near a junction hides the view and blocks turning cars.",
+   "rule": "A short stop (fermata) is forbidden where it hides signs or lights, on lane-choice markings, channelling and acceleration lanes, and at or near junctions (in towns: within 5 m).",
+   "trap": "'in corrispondenza e in prossimità' means both ON the junction and NEAR it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Outside towns: no stopping at or near junctions",
+    "it": "aree di intersezione",
+    "lines": [
+     "Junction on a road outside town",
+     "Stopping on it or near it",
+     "Forbidden: it blocks the view"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Fuori dei centri abitati",
+    "en": "outside built-up areas"
+   },
+   {
+    "it": "aree di intersezione",
+    "en": "junction areas"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23681": {
+  "en": "In built-up areas, stopping and parking are forbidden at junction areas and near them at less than 5 metres, unless signs say otherwise.",
+  "explain": {
+   "short": "In towns you must keep junctions free: no stop and no parking on the junction or closer than 5 metres to it.",
+   "rule": "A short stop (fermata) is forbidden where it hides signs or lights, on lane-choice markings, channelling and acceleration lanes, and at or near junctions (in towns: within 5 m).",
+   "trap": "'a meno di 5 metri' (closer than 5 metres) is the forbidden zone; 'salvo diversa segnalazione' means signs can change it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "In towns: keep 5 m free from junctions",
+    "it": "a meno di 5 metri",
+    "lines": [
+     "Junction in town",
+     "Stop or park closer than 5 m",
+     "Forbidden, unless signs allow"
+    ],
+    "icons": [
+     "road",
+     "distance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Nei centri abitati",
+    "en": "in built-up areas"
+   },
+   {
+    "it": "aree di intersezione",
+    "en": "junction areas"
+   },
+   {
+    "it": "a meno di 5 metri",
+    "en": "at less than 5 metres"
+   },
+   {
+    "it": "salvo diversa segnalazione",
+    "en": "unless signs say otherwise"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23682": {
+  "en": "Stopping is forbidden, only during opening hours, at fuel stations.",
+  "explain": {
+   "short": "At fuel stations the rule is about parking (sosta) during opening hours, not about a short stop (fermata).",
+   "rule": "A short stop (fermata) is forbidden where it hides signs or lights, on lane-choice markings, channelling and acceleration lanes, and at or near junctions (in towns: within 5 m).",
+   "trap": "The statement says 'fermata' (short stop), but the ban during 'ore di esercizio' (opening hours) is for 'sosta' (parking).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fuel station: the ban is on parking, not a short stop",
+    "it": "distributori di carburante",
+    "lines": [
+     "Fuel station, during opening hours",
+     "Parking in front of it: forbidden",
+     "A short stop is not forbidden"
+    ],
+    "icons": [
+     "fuel",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "short stop"
+   },
+   {
+    "it": "ore di esercizio",
+    "en": "opening hours"
+   },
+   {
+    "it": "distributori di carburante",
+    "en": "fuel stations"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23683": {
+  "en": "Stopping is forbidden after the NO PARKING sign.",
+  "explain": {
+   "short": "The NO PARKING sign forbids only parking (sosta). A short stop (fermata) to let people in or out is still allowed.",
+   "rule": "A short stop (fermata) is forbidden where it hides signs or lights, on lane-choice markings, channelling and acceleration lanes, and at or near junctions (in towns: within 5 m).",
+   "trap": "'DIVIETO DI SOSTA' bans 'sosta' (parking), not 'fermata' (a short stop).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No parking sign: a short stop is still allowed",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "short stop"
+   },
+   {
+    "it": "DIVIETO DI SOSTA",
+    "en": "no parking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23684": {
+  "en": "Stopping is forbidden near road signs, even if the vehicle does not hide them from view.",
+  "explain": {
+   "short": "Stopping near a sign is forbidden only when your car hides it. If the sign stays visible, the stop is not forbidden for this reason.",
+   "rule": "A short stop (fermata) is forbidden where it hides signs or lights, on lane-choice markings, channelling and acceleration lanes, and at or near junctions (in towns: within 5 m).",
+   "trap": "'anche se ... non ne occulta la vista' (even if it does not hide it) is wrong: hiding the sign is what matters.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Near a sign is OK if you do not hide it",
+    "it": "occulta la vista",
+    "lines": [
+     "Road sign at the side of the road",
+     "Your stopped car does not hide it",
+     "This stop is not forbidden"
+    ],
+    "icons": [
+     "sign",
+     "eye",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in prossimità dei segnali stradali",
+    "en": "near road signs"
+   },
+   {
+    "it": "anche se",
+    "en": "even if"
+   },
+   {
+    "it": "non ne occulta la vista",
+    "en": "does not hide them"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23685": {
+  "en": "Stopping is forbidden along motorways, even in an emergency.",
+  "explain": {
+   "short": "On motorways you must not stop, but in an emergency you may stop in the emergency lane or a lay-by.",
+   "rule": "A short stop (fermata) is forbidden where it hides signs or lights, on lane-choice markings, channelling and acceleration lanes, and at or near junctions (in towns: within 5 m).",
+   "trap": "'anche in caso di emergenza' (even in an emergency) is wrong: an emergency is exactly when you may stop.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorway: stop only in an emergency",
+    "it": "in caso di emergenza",
+    "lines": [
+     "Motorway: no stopping as a rule",
+     "Breakdown or illness: emergency",
+     "Stop in the emergency lane: OK"
+    ],
+    "icons": [
+     "road",
+     "warning",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autostrade",
+    "en": "motorways"
+   },
+   {
+    "it": "anche in caso di emergenza",
+    "en": "even in an emergency"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23686": {
+  "en": "In built-up areas stopping is forbidden near junction areas, at more than 5 metres.",
+  "explain": {
+   "short": "In towns the forbidden zone is CLOSER than 5 metres to the junction, not farther than 5 metres.",
+   "rule": "A short stop (fermata) is forbidden where it hides signs or lights, on lane-choice markings, channelling and acceleration lanes, and at or near junctions (in towns: within 5 m).",
+   "trap": "'a più di 5 metri' (more than 5 metres) is the trap: the real rule says 'a meno di 5 metri' (less than 5).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Forbidden closer than 5 m, not farther",
+    "it": "a più di 5 metri",
+    "lines": [
+     "Junction in town",
+     "Closer than 5 m: forbidden",
+     "More than 5 m away: allowed"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Nei centri abitati",
+    "en": "in built-up areas"
+   },
+   {
+    "it": "aree di intersezione",
+    "en": "junction areas"
+   },
+   {
+    "it": "a più di 5 metri",
+    "en": "at more than 5 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23687": {
+  "en": "Stopping is allowed on acceleration lanes, as long as it is very short.",
+  "explain": {
+   "short": "On an acceleration lane cars speed up to join fast traffic. Any stop there is dangerous and forbidden, even a very short one.",
+   "rule": "A short stop (fermata) is forbidden where it hides signs or lights, on lane-choice markings, channelling and acceleration lanes, and at or near junctions (in towns: within 5 m).",
+   "trap": "'purché brevissima' (as long as very short) does not help: stopping there is always forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No stopping on an acceleration lane",
+    "it": "corsie di accelerazione",
+    "lines": [
+     "Acceleration lane onto a fast road",
+     "Cars speed up here",
+     "Stopping, even briefly: forbidden"
+    ],
+    "icons": [
+     "road",
+     "speed",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsie di accelerazione",
+    "en": "acceleration lanes"
+   },
+   {
+    "it": "purché brevissima",
+    "en": "as long as very short"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23688": {
+  "en": "Parking and stopping are always forbidden on pedestrian crossings.",
+  "explain": {
+   "short": "Pedestrians need the crossing free and visible. So you may never stop or park on it.",
+   "rule": "Stopping and parking are both forbidden on pedestrian crossings, cycle lanes and their exits, and pavements. At driveways and rubbish bins only parking is forbidden; a short stop is allowed.",
+   "trap": "Here 'sempre' (always) is correct: no exceptions on pedestrian crossings.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never stop on a pedestrian crossing",
+    "it": "attraversamenti pedonali",
+    "lines": [
+     "Pedestrian crossing (zebra)",
+     "Stopping or parking on it",
+     "Always forbidden"
+    ],
+    "icons": [
+     "pedestrian",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sempre vietate",
+    "en": "always forbidden"
+   },
+   {
+    "it": "attraversamenti pedonali",
+    "en": "pedestrian crossings"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23689": {
+  "en": "Parking and stopping are forbidden in every case on cycle lanes and at their exits.",
+  "explain": {
+   "short": "A car on a cycle lane or at its exit blocks cyclists and pushes them into traffic. So both are always forbidden.",
+   "rule": "Stopping and parking are both forbidden on pedestrian crossings, cycle lanes and their exits, and pavements. At driveways and rubbish bins only parking is forbidden; a short stop is allowed.",
+   "trap": "'in ogni caso' (in every case) is right, and it covers the exits ('sbocchi') too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Cycle lane and its exit: never stop",
+    "it": "piste ciclabili",
+    "lines": [
+     "Cycle lane and its exit",
+     "Car stopped or parked there",
+     "Forbidden in every case"
+    ],
+    "icons": [
+     "bike",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in ogni caso",
+    "en": "in every case"
+   },
+   {
+    "it": "piste ciclabili",
+    "en": "cycle lanes"
+   },
+   {
+    "it": "sbocchi",
+    "en": "exits"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23690": {
+  "en": "Parking and stopping are forbidden on pavements, unless signs say otherwise.",
+  "explain": {
+   "short": "The pavement (marciapiede) is for pedestrians. You may stop or park there only if a sign allows it.",
+   "rule": "Stopping and parking are both forbidden on pedestrian crossings, cycle lanes and their exits, and pavements. At driveways and rubbish bins only parking is forbidden; a short stop is allowed.",
+   "trap": "'salvo diversa segnalazione' (unless signs say otherwise): a sign can allow it, so the rule is not absolute.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No stopping on the pavement, unless signs allow",
+    "it": "marciapiedi",
+    "lines": [
+     "Pavement for pedestrians",
+     "Car stopped or parked on it",
+     "Forbidden, unless signs allow"
+    ],
+    "icons": [
+     "pedestrian",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "marciapiedi",
+    "en": "pavements"
+   },
+   {
+    "it": "salvo diversa segnalazione",
+    "en": "unless signs say otherwise"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23691": {
+  "en": "Stopping is allowed at the exit of driveways.",
+  "explain": {
+   "short": "In front of a driveway (passo carrabile) parking is forbidden, but a short stop is allowed: you stay ready to move.",
+   "rule": "Stopping and parking are both forbidden on pedestrian crossings, cycle lanes and their exits, and pavements. At driveways and rubbish bins only parking is forbidden; a short stop is allowed.",
+   "trap": "'fermata' (short stop) is allowed; only 'sosta' (parking) is forbidden at a 'passo carrabile'.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Driveway: short stop yes, parking no",
+    "it": "passi carrabili",
+    "lines": [
+     "Driveway exit (passo carrabile)",
+     "Short stop, driver ready to move",
+     "Allowed; parking is not"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "short stop"
+   },
+   {
+    "it": "sbocco",
+    "en": "exit"
+   },
+   {
+    "it": "passi carrabili",
+    "en": "driveways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23692": {
+  "en": "Stopping is allowed in front of urban rubbish bins.",
+  "explain": {
+   "short": "In front of rubbish bins parking is forbidden so the bin lorry can work. A short stop is allowed.",
+   "rule": "Stopping and parking are both forbidden on pedestrian crossings, cycle lanes and their exits, and pavements. At driveways and rubbish bins only parking is forbidden; a short stop is allowed.",
+   "trap": "'fermata' (short stop) is allowed; the ban in front of 'cassonetti' (bins) is only for parking.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Rubbish bins: short stop yes, parking no",
+    "it": "cassonetti",
+    "lines": [
+     "Rubbish bins at the roadside",
+     "Short stop to drop off someone",
+     "Allowed; parking is not"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "short stop"
+   },
+   {
+    "it": "cassonetti dei rifiuti urbani",
+    "en": "urban rubbish bins"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23693": {
+  "en": "Stopping is allowed on pedestrian crossings to let a passenger get out.",
+  "explain": {
+   "short": "On a pedestrian crossing you may never stop, not even to let a passenger out.",
+   "rule": "Stopping and parking are both forbidden on pedestrian crossings, cycle lanes and their exits, and pavements. At driveways and rubbish bins only parking is forbidden; a short stop is allowed.",
+   "trap": "'per far scendere un passeggero' (to let a passenger out) is no excuse: the ban is always.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Not even to drop off a passenger",
+    "it": "attraversamenti pedonali",
+    "lines": [
+     "Pedestrian crossing (zebra)",
+     "Stop to let a passenger out",
+     "Still forbidden"
+    ],
+    "icons": [
+     "pedestrian",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "attraversamenti pedonali",
+    "en": "pedestrian crossings"
+   },
+   {
+    "it": "per far scendere un passeggero",
+    "en": "to let a passenger get out"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23694": {
+  "en": "A very short stop is forbidden on cycle lanes but not at their exits.",
+  "explain": {
+   "short": "Stopping is forbidden both on cycle lanes AND at their exits, even for a very short time.",
+   "rule": "Stopping and parking are both forbidden on pedestrian crossings, cycle lanes and their exits, and pavements. At driveways and rubbish bins only parking is forbidden; a short stop is allowed.",
+   "trap": "'ma non agli sbocchi' (but not at the exits) is wrong: the exits are included.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The exit of a cycle lane is included",
+    "it": "sbocchi",
+    "lines": [
+     "Exit of a cycle lane",
+     "Very short stop there",
+     "Forbidden, like on the lane"
+    ],
+    "icons": [
+     "bike",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "brevissima durata",
+    "en": "very short time"
+   },
+   {
+    "it": "piste ciclabili",
+    "en": "cycle lanes"
+   },
+   {
+    "it": "ma non agli sbocchi",
+    "en": "but not at the exits"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23695": {
+  "en": "Stopping is forbidden at the exit of driveways.",
+  "explain": {
+   "short": "At a driveway only parking is forbidden. A short stop, with the driver ready to move, is allowed.",
+   "rule": "Stopping and parking are both forbidden on pedestrian crossings, cycle lanes and their exits, and pavements. At driveways and rubbish bins only parking is forbidden; a short stop is allowed.",
+   "trap": "'fermata' is the trap: at a 'passo carrabile' only 'sosta' (parking) is forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Driveway: a short stop is allowed",
+    "it": "passi carrabili",
+    "lines": [
+     "Driveway exit (passo carrabile)",
+     "Short stop, driver ready to move",
+     "Allowed; parking is not"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "short stop"
+   },
+   {
+    "it": "passi carrabili",
+    "en": "driveways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23696": {
+  "en": "Stopping in double row is always forbidden.",
+  "explain": {
+   "short": "Parking in double row is forbidden, but a short stop in double row is not always forbidden, if it does not block traffic.",
+   "rule": "Stopping and parking are both forbidden on pedestrian crossings, cycle lanes and their exits, and pavements. At driveways and rubbish bins only parking is forbidden; a short stop is allowed.",
+   "trap": "'sempre' (always) is the trap: the ban in 'seconda fila' (double row) is for parking.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Double row: parking no, short stop not always banned",
+    "it": "seconda fila",
+    "lines": [
+     "Cars parked along the right edge",
+     "Short stop next to them, no blocking",
+     "Not always forbidden"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sempre vietata",
+    "en": "always forbidden"
+   },
+   {
+    "it": "seconda fila",
+    "en": "double row"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23697": {
+  "en": "Stopping is forbidden in every case at night.",
+  "explain": {
+   "short": "There is no general rule that forbids stopping at night. The bans depend on the place, not the time of day.",
+   "rule": "Stopping and parking are both forbidden on pedestrian crossings, cycle lanes and their exits, and pavements. At driveways and rubbish bins only parking is forbidden; a short stop is allowed.",
+   "trap": "'in ogni caso nelle ore notturne' (in every case at night) is invented: no such ban exists.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No general ban on stopping at night",
+    "it": "ore notturne",
+    "lines": [
+     "Night time on a town street",
+     "Short stop in an allowed place",
+     "Allowed"
+    ],
+    "icons": [
+     "night",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in ogni caso",
+    "en": "in every case"
+   },
+   {
+    "it": "ore notturne",
+    "en": "night hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23698": {
+  "en": "Parking is the stopping of the vehicle for a longer time, with the possibility for the driver to walk away.",
+  "explain": {
+   "short": "This is the official definition of parking (sosta): a long stop, and the driver may leave the car.",
+   "rule": "Parking (sosta) is a long stop: the driver may leave, but must avoid accidents and stop others from using the vehicle.",
+   "trap": "'protratta nel tempo' (for a longer time) and 'allontanarsi' (walk away) are what make it sosta, not fermata.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Sosta: long stop, the driver may leave",
+    "it": "sosta",
+    "lines": [
+     "Car parked at the right edge",
+     "Stays there for a long time",
+     "Driver may walk away"
+    ],
+    "icons": [
+     "car",
+     "book",
+     "pedestrian"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta",
+    "en": "parking"
+   },
+   {
+    "it": "protratta nel tempo",
+    "en": "for a longer time"
+   },
+   {
+    "it": "allontanarsi",
+    "en": "walk away"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23699": {
+  "en": "During parking the driver may walk away from the vehicle.",
+  "explain": {
+   "short": "That is the difference from a short stop (fermata): when parked, the driver may leave the car.",
+   "rule": "Parking (sosta) is a long stop: the driver may leave, but must avoid accidents and stop others from using the vehicle.",
+   "trap": "'può allontanarsi' (may walk away) is true for sosta; in a fermata the driver stays at the wheel.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parked: the driver may walk away",
+    "it": "allontanarsi",
+    "lines": [
+     "Car parked in an allowed place",
+     "Driver gets out and walks away",
+     "Allowed during parking"
+    ],
+    "icons": [
+     "car",
+     "pedestrian",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Durante la sosta",
+    "en": "during parking"
+   },
+   {
+    "it": "può allontanarsi",
+    "en": "may walk away"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23700": {
+  "en": "During parking the driver must take the proper precautions to avoid accidents.",
+  "explain": {
+   "short": "A parked car must not cause accidents: for example it must not roll away or block others dangerously.",
+   "rule": "Parking (sosta) is a long stop: the driver may leave, but must avoid accidents and stop others from using the vehicle.",
+   "trap": "'deve' (must): taking care is an obligation, not just advice.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A parked car must not cause accidents",
+    "it": "cautele",
+    "lines": [
+     "Car parked on the street",
+     "Driver takes care before leaving",
+     "No risk of accidents"
+    ],
+    "icons": [
+     "car",
+     "warning",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Durante la sosta",
+    "en": "during parking"
+   },
+   {
+    "it": "opportune cautele",
+    "en": "proper precautions"
+   },
+   {
+    "it": "evitare incidenti",
+    "en": "avoid accidents"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23701": {
+  "en": "During parking the driver must prevent the vehicle from being used without his consent.",
+  "explain": {
+   "short": "When you leave the car you must stop others from using it, for example by locking it and taking the key.",
+   "rule": "Parking (sosta) is a long stop: the driver may leave, but must avoid accidents and stop others from using the vehicle.",
+   "trap": "'senza il suo consenso' (without his consent): you must prevent use by others.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lock the car: nobody may use it without you",
+    "it": "senza il suo consenso",
+    "lines": [
+     "Driver leaves the parked car",
+     "Takes the key and locks it",
+     "Nobody can use it"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "impedire l'uso del veicolo",
+    "en": "prevent the use of the vehicle"
+   },
+   {
+    "it": "senza il suo consenso",
+    "en": "without his consent"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23702": {
+  "en": "During parking at night the driver must leave the parking lights on in every case.",
+  "explain": {
+   "short": "Parking lights at night are not needed in every case, for example not in a lit town street or off the carriageway.",
+   "rule": "Parking (sosta) is a long stop: the driver may leave, but must avoid accidents and stop others from using the vehicle.",
+   "trap": "'in ogni caso' (in every case) is the trap: lights are needed only in some situations.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking lights at night: not in every case",
+    "it": "in ogni caso",
+    "lines": [
+     "Night, car parked on a lit town street",
+     "Parking lights not needed here",
+     "Not required in every case"
+    ],
+    "icons": [
+     "night",
+     "light",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ore notturne",
+    "en": "night hours"
+   },
+   {
+    "it": "in ogni caso",
+    "en": "in every case"
+   },
+   {
+    "it": "luci di posizione",
+    "en": "parking lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23703": {
+  "en": "During parking the driver may not walk away from the vehicle for more than three hours.",
+  "explain": {
+   "short": "There is no general 3-hour limit: when parked, the driver may leave the car. Only local signs can limit time.",
+   "rule": "Parking (sosta) is a long stop: the driver may leave, but must avoid accidents and stop others from using the vehicle.",
+   "trap": "'per più di tre ore' (for more than three hours) is an invented number.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No general 3-hour limit on parking",
+    "it": "tre ore",
+    "lines": [
+     "Car parked in an allowed place",
+     "Driver away for many hours",
+     "No general time limit"
+    ],
+    "icons": [
+     "car",
+     "pedestrian",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non può allontanarsi",
+    "en": "may not walk away"
+   },
+   {
+    "it": "per più di tre ore",
+    "en": "for more than three hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23704": {
+  "en": "During parking it is advisable for the driver to pull the parking brake and put in the lowest gear.",
+  "explain": {
+   "short": "The parking brake and the lowest gear together keep the car from rolling away.",
+   "rule": "A parked car must stay still on any road: engine off, parking brake on, lowest gear in; on steep roads wheels turned to the pavement.",
+   "trap": "'rapporto più basso' (lowest gear) means first or reverse, not a high gear.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking brake on + lowest gear in",
+    "it": "freno di stazionamento",
+    "lines": [
+     "Car parked at the right edge",
+     "Parking brake pulled",
+     "Lowest gear engaged"
+    ],
+    "icons": [
+     "car",
+     "brake",
+     "engine"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "freno di stazionamento",
+    "en": "parking brake"
+   },
+   {
+    "it": "rapporto più basso",
+    "en": "lowest gear"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23705": {
+  "en": "During parking the driver must take measures to make sure the vehicle cannot move, whatever the slope of the road.",
+  "explain": {
+   "short": "Even on a flat road a car can roll away. So you must always secure it.",
+   "rule": "A parked car must stay still on any road: engine off, parking brake on, lowest gear in; on steep roads wheels turned to the pavement.",
+   "trap": "'indipendentemente dal grado di pendenza' (whatever the slope): on flat roads too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Secure the car on every road, flat or steep",
+    "it": "immobilità",
+    "lines": [
+     "Parked on a flat or a sloping road",
+     "Brake and gear on every time",
+     "The car must not move"
+    ],
+    "icons": [
+     "hill",
+     "brake",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "immobilità del veicolo",
+    "en": "vehicle cannot move"
+   },
+   {
+    "it": "indipendentemente",
+    "en": "whatever, regardless of"
+   },
+   {
+    "it": "pendenza",
+    "en": "slope"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23706": {
+  "en": "When parking on very steep roads, the driver should pull the parking brake, put in the lowest gear and leave the wheels turned towards the pavement.",
+  "explain": {
+   "short": "On a steep road, wheels turned to the pavement stop the car against the kerb if it starts to roll.",
+   "rule": "A parked car must stay still on any road: engine off, parking brake on, lowest gear in; on steep roads wheels turned to the pavement.",
+   "trap": "'ruote sterzate verso il marciapiede' (wheels turned towards the pavement) is the extra safety on steep roads.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Steep road: brake, low gear, wheels to the kerb",
+    "it": "ruote sterzate",
+    "lines": [
+     "Car parked on a steep hill",
+     "Parking brake and lowest gear",
+     "Wheels turned towards the pavement"
+    ],
+    "icons": [
+     "hill",
+     "brake",
+     "tyre"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "forte pendenza",
+    "en": "steep slope"
+   },
+   {
+    "it": "freno di stazionamento",
+    "en": "parking brake"
+   },
+   {
+    "it": "ruote sterzate verso il marciapiede",
+    "en": "wheels turned towards the pavement"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23707": {
+  "en": "During parking the driver must leave the vehicle with the engine switched off.",
+  "explain": {
+   "short": "A parked car must have the engine off: it is safer and it does not pollute.",
+   "rule": "A parked car must stay still on any road: engine off, parking brake on, lowest gear in; on steep roads wheels turned to the pavement.",
+   "trap": "'motore spento' (engine off) is required during parking.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parked car: engine off",
+    "it": "motore spento",
+    "lines": [
+     "Car parked at the right edge",
+     "Engine switched off",
+     "Then the driver may leave"
+    ],
+    "icons": [
+     "car",
+     "engine",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Durante la sosta",
+    "en": "during parking"
+   },
+   {
+    "it": "motore spento",
+    "en": "engine switched off"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23708": {
+  "en": "During parking, a driver who leaves the vehicle on an uphill road must make sure to put in fourth gear.",
+  "explain": {
+   "short": "To hold the car you put in the LOWEST gear (first or reverse), not fourth. A high gear holds the car badly.",
+   "rule": "A parked car must stay still on any road: engine off, parking brake on, lowest gear in; on steep roads wheels turned to the pavement.",
+   "trap": "'quarta marcia' (fourth gear) is wrong: the rule says the lowest gear.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Use the lowest gear, not fourth",
+    "it": "quarta marcia",
+    "lines": [
+     "Car parked on an uphill road",
+     "Fourth gear: wrong",
+     "Lowest gear and parking brake"
+    ],
+    "icons": [
+     "hill",
+     "cross",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in salita",
+    "en": "uphill"
+   },
+   {
+    "it": "quarta marcia",
+    "en": "fourth gear"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23709": {
+  "en": "During parking the driver must put the car's gearbox in neutral.",
+  "explain": {
+   "short": "In neutral (folle) the gearbox does not hold the car, so it can roll away. You put in the lowest gear instead.",
+   "rule": "A parked car must stay still on any road: engine off, parking brake on, lowest gear in; on steep roads wheels turned to the pavement.",
+   "trap": "'in folle' (in neutral) is the trap: it is the opposite of what you should do.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not neutral: put in the lowest gear",
+    "it": "in folle",
+    "lines": [
+     "Car parked at the right edge",
+     "Gear in neutral: wrong",
+     "Lowest gear and parking brake"
+    ],
+    "icons": [
+     "car",
+     "cross",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cambio di velocità",
+    "en": "gearbox"
+   },
+   {
+    "it": "in folle",
+    "en": "in neutral"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23710": {
+  "en": "Unless signs say otherwise, when parking in built-up areas the driver must place the vehicle as close as possible to the right edge of the carriageway, parallel to it and in the direction of travel, provided there is a raised pavement.",
+  "explain": {
+   "short": "In towns you park close to the right edge, parallel, facing the way traffic goes. With a raised pavement, pedestrians walk safely on it.",
+   "rule": "In towns park close to the right edge (with raised pavement) or leave 1 m for pedestrians. Outside towns park off the carriageway if possible, not on cycle lanes or hard shoulders; otherwise close to the right edge.",
+   "trap": "'purché esista il marciapiede rialzato' (provided there is a raised pavement): without it you must leave 1 metre for pedestrians.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "In town: close to the right edge, parallel",
+    "it": "margine destro",
+    "lines": [
+     "Town street with a raised pavement",
+     "Park close to the right edge",
+     "Parallel, facing the traffic flow"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "nei centri abitati",
+    "en": "in built-up areas"
+   },
+   {
+    "it": "margine destro",
+    "en": "right edge"
+   },
+   {
+    "it": "parallelamente",
+    "en": "parallel"
+   },
+   {
+    "it": "marciapiede rialzato",
+    "en": "raised pavement"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23711": {
+  "en": "When parking where there is no raised pavement, the driver must leave a space of at least one metre for pedestrians to pass.",
+  "explain": {
+   "short": "Without a raised pavement, pedestrians walk at the road edge. So you leave at least 1 metre free for them.",
+   "rule": "In towns park close to the right edge (with raised pavement) or leave 1 m for pedestrians. Outside towns park off the carriageway if possible, not on cycle lanes or hard shoulders; otherwise close to the right edge.",
+   "trap": "'non inferiore ad un metro' means at least 1 metre, not less.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No raised pavement: leave at least 1 m",
+    "it": "un metro",
+    "lines": [
+     "Town street with no raised pavement",
+     "Leave at least 1 m at the edge",
+     "Pedestrians can pass"
+    ],
+    "icons": [
+     "road",
+     "distance",
+     "pedestrian"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "marciapiede rialzato",
+    "en": "raised pavement"
+   },
+   {
+    "it": "non inferiore ad un metro",
+    "en": "at least one metre"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23712": {
+  "en": "Outside built-up areas, a driver who must park is obliged to place the vehicle, where possible, off the carriageway.",
+  "explain": {
+   "short": "Outside towns traffic is fast, so a parked car must stay off the carriageway when there is space.",
+   "rule": "In towns park close to the right edge (with raised pavement) or leave 1 m for pedestrians. Outside towns park off the carriageway if possible, not on cycle lanes or hard shoulders; otherwise close to the right edge.",
+   "trap": "'ove possibile' (where possible): if it is impossible, other rules apply.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Outside towns: park off the carriageway",
+    "it": "fuori della carreggiata",
+    "lines": [
+     "Road outside town",
+     "Space at the side of the road",
+     "Park off the carriageway"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Fuori dei centri abitati",
+    "en": "outside built-up areas"
+   },
+   {
+    "it": "ove possibile",
+    "en": "where possible"
+   },
+   {
+    "it": "fuori della carreggiata",
+    "en": "off the carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23713": {
+  "en": "Outside built-up areas, a driver who must park is obliged to place the vehicle off the carriageway, but not on cycle lanes.",
+  "explain": {
+   "short": "Off the carriageway, yes, but a cycle lane is for bikes: you must not park on it.",
+   "rule": "In towns park close to the right edge (with raised pavement) or leave 1 m for pedestrians. Outside towns park off the carriageway if possible, not on cycle lanes or hard shoulders; otherwise close to the right edge.",
+   "trap": "'ma non sulle piste ciclabili' (but not on cycle lanes) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Off the carriageway, but not on a cycle lane",
+    "it": "piste ciclabili",
+    "lines": [
+     "Road outside town with a cycle lane",
+     "Do not park on the cycle lane",
+     "Park off the carriageway elsewhere"
+    ],
+    "icons": [
+     "road",
+     "bike",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fuori della carreggiata",
+    "en": "off the carriageway"
+   },
+   {
+    "it": "ma non sulle piste ciclabili",
+    "en": "but not on cycle lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23714": {
+  "en": "Outside built-up areas the driver must place the parked vehicle off the carriageway, but not on the hard shoulders, unless signs say otherwise.",
+  "explain": {
+   "short": "The hard shoulder (banchina) is the strip at the road side for emergencies and pedestrians. You do not park there unless a sign allows it.",
+   "rule": "In towns park close to the right edge (with raised pavement) or leave 1 m for pedestrians. Outside towns park off the carriageway if possible, not on cycle lanes or hard shoulders; otherwise close to the right edge.",
+   "trap": "'ma non sulle banchine, salvo diversa segnalazione' (not on hard shoulders, unless signs say otherwise) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not on the hard shoulder, unless signs allow",
+    "it": "banchine",
+    "lines": [
+     "Road outside town",
+     "Hard shoulder: no parking",
+     "Unless a sign allows it"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fuori della carreggiata",
+    "en": "off the carriageway"
+   },
+   {
+    "it": "banchine",
+    "en": "hard shoulders"
+   },
+   {
+    "it": "salvo diversa segnalazione",
+    "en": "unless signs say otherwise"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23715": {
+  "en": "Outside built-up areas, if it is impossible to place the vehicle off the carriageway, the driver must park as close as possible to the right edge of the carriageway.",
+  "explain": {
+   "short": "If there is no space off the road, you may still park, but as far right as possible.",
+   "rule": "In towns park close to the right edge (with raised pavement) or leave 1 m for pedestrians. Outside towns park off the carriageway if possible, not on cycle lanes or hard shoulders; otherwise close to the right edge.",
+   "trap": "'il più vicino possibile al margine destro' (as close as possible to the right edge) is the fallback rule.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No space off the road: tight to the right edge",
+    "it": "margine destro",
+    "lines": [
+     "Road outside town, no space at the side",
+     "Park on the carriageway",
+     "As close as possible to the right edge"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "impossibilità",
+    "en": "impossible"
+   },
+   {
+    "it": "fuori della carreggiata",
+    "en": "off the carriageway"
+   },
+   {
+    "it": "margine destro",
+    "en": "right edge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23716": {
+  "en": "When parking in a built-up area, the driver must place the vehicle as close as possible to the right edge of the carriageway, even where there is no raised pavement.",
+  "explain": {
+   "short": "Without a raised pavement you must NOT park tight to the edge: you leave at least 1 metre for pedestrians.",
+   "rule": "In towns park close to the right edge (with raised pavement) or leave 1 m for pedestrians. Outside towns park off the carriageway if possible, not on cycle lanes or hard shoulders; otherwise close to the right edge.",
+   "trap": "'anche dove non esiste il marciapiede rialzato' (even where there is no raised pavement) is wrong: there you leave 1 metre.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No raised pavement: leave 1 m, not tight",
+    "it": "marciapiede rialzato",
+    "lines": [
+     "Town street with no raised pavement",
+     "Tight to the edge: wrong",
+     "Leave at least 1 m for pedestrians"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "pedestrian"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "centro abitato",
+    "en": "built-up area"
+   },
+   {
+    "it": "margine destro",
+    "en": "right edge"
+   },
+   {
+    "it": "anche dove non esiste",
+    "en": "even where there is no"
+   },
+   {
+    "it": "marciapiede rialzato",
+    "en": "raised pavement"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23717": {
+  "en": "Outside built-up areas, when parking the driver must place the vehicle off the carriageway, possibly also on cycle lanes.",
+  "explain": {
+   "short": "Parking on a cycle lane is never allowed. You park off the carriageway, but not on cycle lanes.",
+   "rule": "In towns park close to the right edge (with raised pavement) or leave 1 m for pedestrians. Outside towns park off the carriageway if possible, not on cycle lanes or hard shoulders; otherwise close to the right edge.",
+   "trap": "'eventualmente anche sulle piste ciclabili' (possibly also on cycle lanes) is wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never park on a cycle lane",
+    "it": "piste ciclabili",
+    "lines": [
+     "Road outside town with a cycle lane",
+     "Car parked on the cycle lane",
+     "Forbidden"
+    ],
+    "icons": [
+     "road",
+     "bike",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fuori della carreggiata",
+    "en": "off the carriageway"
+   },
+   {
+    "it": "eventualmente anche",
+    "en": "possibly also"
+   },
+   {
+    "it": "piste ciclabili",
+    "en": "cycle lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23718": {
+  "en": "Outside built-up areas, if it is impossible to place the vehicle off the carriageway, the driver must not park.",
+  "explain": {
+   "short": "Parking is still possible: if you cannot leave the carriageway, you park as close as possible to the right edge.",
+   "rule": "In towns park close to the right edge (with raised pavement) or leave 1 m for pedestrians. Outside towns park off the carriageway if possible, not on cycle lanes or hard shoulders; otherwise close to the right edge.",
+   "trap": "'non deve effettuare la sosta' (must not park) is wrong: the rule gives a solution, the right edge.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No space off the road: park at the right edge",
+    "it": "non deve effettuare la sosta",
+    "lines": [
+     "Road outside town, no space at the side",
+     "Parking is still allowed",
+     "As close as possible to the right edge"
+    ],
+    "icons": [
+     "road",
+     "check",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "impossibilità",
+    "en": "impossible"
+   },
+   {
+    "it": "fuori della carreggiata",
+    "en": "off the carriageway"
+   },
+   {
+    "it": "non deve effettuare la sosta",
+    "en": "must not park"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23719": {
+  "en": "On one-way urban roads, parking is also allowed along the left edge of the carriageway, as long as there is enough space left for at least one row of vehicles to pass.",
+  "explain": {
+   "short": "On a one-way street nobody comes towards you, so you may park on the left too, if traffic can still pass.",
+   "rule": "On one-way town streets you may park on the left if at least 3 m stay free. In marked areas park inside one bay and pay the meter, even for a short time.",
+   "trap": "'purché rimanga uno spazio sufficiente' (as long as enough space is left) is the condition.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One-way street: left side OK if one row can pass",
+    "it": "senso unico",
+    "lines": [
+     "One-way town street",
+     "Car parked on the left edge",
+     "One row of cars can still pass"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   },
+   {
+    "it": "margine sinistro",
+    "en": "left edge"
+   },
+   {
+    "it": "almeno di una fila di veicoli",
+    "en": "at least one row of vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23720": {
+  "en": "On one-way urban roads, parking is also allowed along the left edge of the carriageway, as long as a space at least three metres wide is left for vehicles to pass.",
+  "explain": {
+   "short": "On a one-way town street you may park on the left, but at least 3 metres must stay free for traffic.",
+   "rule": "On one-way town streets you may park on the left if at least 3 m stay free. In marked areas park inside one bay and pay the meter, even for a short time.",
+   "trap": "'non inferiore a tre metri' (at least three metres) is the official width.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One-way street: left side OK, leave 3 m",
+    "it": "tre metri",
+    "lines": [
+     "One-way town street",
+     "Car parked on the left edge",
+     "At least 3 m left free"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   },
+   {
+    "it": "margine sinistro",
+    "en": "left edge"
+   },
+   {
+    "it": "non inferiore a tre metri",
+    "en": "at least three metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23721": {
+  "en": "In areas set up for parking, the driver must place the vehicle in the way shown by the signs and markings.",
+  "explain": {
+   "short": "In a car park the signs and lines tell you how to park (straight, angled, parallel). You must follow them.",
+   "rule": "On one-way town streets you may park on the left if at least 3 m stay free. In marked areas park inside one bay and pay the meter, even for a short time.",
+   "trap": "'nel modo prescritto dalla segnaletica' (as shown by the signs): no free choice.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "In a car park, park as the markings show",
+    "it": "segnaletica",
+    "lines": [
+     "Parking area with painted bays",
+     "Lines show how to park",
+     "Follow the signs and markings"
+    ],
+    "icons": [
+     "sign",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "zone predisposte per la sosta",
+    "en": "areas set up for parking"
+   },
+   {
+    "it": "modo prescritto dalla segnaletica",
+    "en": "way shown by the signs"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23722": {
+  "en": "In areas where parking spaces are marked by road markings, the driver must always put the vehicle inside one of the marked spaces (bays), without taking up the next ones.",
+  "explain": {
+   "short": "When bays are painted, your car goes inside one bay and must not cross into the bays next to it.",
+   "rule": "On one-way town streets you may park on the left if at least 3 m stay free. In marked areas park inside one bay and pay the meter, even for a short time.",
+   "trap": "Here 'sempre' (always) is correct: inside one bay, every time.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Inside one bay, not over the lines",
+    "it": "stalli",
+    "lines": [
+     "Parking area with painted bays",
+     "Car inside one bay",
+     "Not over the next bays"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnaletica orizzontale",
+    "en": "road markings"
+   },
+   {
+    "it": "sempre",
+    "en": "always"
+   },
+   {
+    "it": "stalli",
+    "en": "bays"
+   },
+   {
+    "it": "senza invadere quelli contigui",
+    "en": "without taking up the next ones"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23723": {
+  "en": "On one-way urban roads, parking is always allowed also along the left edge of the carriageway.",
+  "explain": {
+   "short": "Parking on the left of a one-way street is allowed only if at least 3 metres stay free for traffic, not always.",
+   "rule": "On one-way town streets you may park on the left if at least 3 m stay free. In marked areas park inside one bay and pay the meter, even for a short time.",
+   "trap": "'sempre' (always) is the trap: there is a condition, 3 metres free.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left side only if 3 m stay free",
+    "it": "sempre consentita",
+    "lines": [
+     "One-way town street",
+     "Parking on the left edge",
+     "Only if 3 m stay free"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   },
+   {
+    "it": "sempre consentita",
+    "en": "always allowed"
+   },
+   {
+    "it": "margine sinistro",
+    "en": "left edge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23724": {
+  "en": "It is forbidden to park cars or motorcycles in built-up areas when there are no marked lines.",
+  "explain": {
+   "short": "Parking is not forbidden just because there are no lines. Where nothing forbids it, you may park following the normal rules.",
+   "rule": "On one-way town streets you may park on the left if at least 3 m stay free. In marked areas park inside one bay and pay the meter, even for a short time.",
+   "trap": "'quando non esistano le apposite strisce' (when there are no marked lines): no lines does not mean no parking.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No lines does not mean no parking",
+    "it": "apposite strisce",
+    "lines": [
+     "Town street without parking lines",
+     "No sign forbids parking",
+     "Parking is allowed"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato sostare",
+    "en": "forbidden to park"
+   },
+   {
+    "it": "centri abitati",
+    "en": "built-up areas"
+   },
+   {
+    "it": "apposite strisce",
+    "en": "marked lines"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23725": {
+  "en": "In areas where parking spaces are marked by road markings, the driver may also put the vehicle outside its bay, as long as the stay is very short.",
+  "explain": {
+   "short": "With painted bays you must park inside a bay, even for a very short stay.",
+   "rule": "On one-way town streets you may park on the left if at least 3 m stay free. In marked areas park inside one bay and pay the meter, even for a short time.",
+   "trap": "'a condizione che la sosta sia di brevissima durata' (as long as it is very short) is no excuse.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Outside the bay is wrong, even briefly",
+    "it": "fuori dall'apposito spazio",
+    "lines": [
+     "Parking area with painted bays",
+     "Car parked outside the bay",
+     "Wrong, even for a short time"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fuori dall'apposito spazio",
+    "en": "outside its space"
+   },
+   {
+    "it": "stallo",
+    "en": "bay"
+   },
+   {
+    "it": "brevissima durata",
+    "en": "very short time"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23726": {
+  "en": "In an area where parking is controlled by a parking meter, you do not need to use it if the stay is short.",
+  "explain": {
+   "short": "Where there is a parking meter you must pay, even for a short stay.",
+   "rule": "On one-way town streets you may park on the left if at least 3 m stay free. In marked areas park inside one bay and pay the meter, even for a short time.",
+   "trap": "'non occorre utilizzarlo se la sosta è di breve durata' (no need if short) is wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Parking meter: pay even for a short stay",
+    "it": "parchimetro",
+    "lines": [
+     "Parking area with a parking meter",
+     "Short stay without paying",
+     "Not allowed: always pay"
+    ],
+    "icons": [
+     "money",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "parchimetro",
+    "en": "parking meter"
+   },
+   {
+    "it": "non occorre",
+    "en": "you do not need"
+   },
+   {
+    "it": "breve durata",
+    "en": "short time"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23727": {
+  "en": "Parking is forbidden at or near level crossings.",
+  "explain": {
+   "short": "A car parked at or near a level crossing can block the way and hide the crossing. So it is forbidden.",
+   "rule": "Parking is forbidden at and near level crossings, on or near rails, in tunnels, underpasses, under arches and porticoes (unless signs allow), and on hilltops (near them too outside towns).",
+   "trap": "'in corrispondenza o in prossimità' covers both ON and NEAR the level crossing.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No parking at or near a level crossing",
+    "it": "passaggi a livello",
+    "lines": [
+     "Level crossing with railway tracks",
+     "Parking on it or near it",
+     "Forbidden"
+    ],
+    "icons": [
+     "train",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in corrispondenza o in prossimità",
+    "en": "at or near"
+   },
+   {
+    "it": "passaggi a livello",
+    "en": "level crossings"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23728": {
+  "en": "Parking is forbidden on railway or tram tracks, or so close to them that it blocks rail vehicles.",
+  "explain": {
+   "short": "A train or a tram cannot steer around a car. So you must not park on the rails or so close that you block them.",
+   "rule": "Parking is forbidden at and near level crossings, on or near rails, in tunnels, underpasses, under arches and porticoes (unless signs allow), and on hilltops (near them too outside towns).",
+   "trap": "It covers both 'ferroviarie' (railway) and 'tranviarie' (tram) tracks.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Keep rails free: train and tram",
+    "it": "binari",
+    "lines": [
+     "Tram line along the street",
+     "Car parked on or near the rails",
+     "Forbidden: it blocks the tram"
+    ],
+    "icons": [
+     "tram",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "binari",
+    "en": "tracks, rails"
+   },
+   {
+    "it": "ferroviarie o tranviarie",
+    "en": "railway or tram"
+   },
+   {
+    "it": "intralciare",
+    "en": "block, hinder"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23729": {
+  "en": "Parking is forbidden in tunnels, unless signs say otherwise.",
+  "explain": {
+   "short": "In a tunnel a parked car is a serious danger: little light and no space to go around it.",
+   "rule": "Parking is forbidden at and near level crossings, on or near rails, in tunnels, underpasses, under arches and porticoes (unless signs allow), and on hilltops (near them too outside towns).",
+   "trap": "'salvo diversa segnalazione' (unless signs say otherwise): only a sign can allow it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No parking in tunnels, unless signs allow",
+    "it": "gallerie",
+    "lines": [
+     "Road tunnel",
+     "Car parked inside",
+     "Forbidden, unless signs allow"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "gallerie",
+    "en": "tunnels"
+   },
+   {
+    "it": "salvo diversa segnalazione",
+    "en": "unless signs say otherwise"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23730": {
+  "en": "Parking is forbidden in underpasses, under overpasses, under arches and porticoes, unless signs say otherwise.",
+  "explain": {
+   "short": "These places are dark and narrow, and a parked car is seen late. So parking there is forbidden.",
+   "rule": "Parking is forbidden at and near level crossings, on or near rails, in tunnels, underpasses, under arches and porticoes (unless signs allow), and on hilltops (near them too outside towns).",
+   "trap": "'salvo diversa segnalazione' (unless signs say otherwise): a sign can allow it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No parking under bridges, arches, porticoes",
+    "it": "sottovia",
+    "lines": [
+     "Underpass, overpass or arches",
+     "Car parked under them",
+     "Forbidden, unless signs allow"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sottovia",
+    "en": "underpasses"
+   },
+   {
+    "it": "sovrapassaggi",
+    "en": "overpasses"
+   },
+   {
+    "it": "fornici",
+    "en": "arches"
+   },
+   {
+    "it": "portici",
+    "en": "porticoes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23731": {
+  "en": "Parking is forbidden on hilltops.",
+  "explain": {
+   "short": "On a hilltop (dosso) drivers coming up cannot see a parked car in time. So parking there is forbidden.",
+   "rule": "Parking is forbidden at and near level crossings, on or near rails, in tunnels, underpasses, under arches and porticoes (unless signs allow), and on hilltops (near them too outside towns).",
+   "trap": "'dossi' here means the top of a rise in the road, where you cannot see far.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No parking on a hilltop",
+    "it": "dossi",
+    "lines": [
+     "Top of a hill (dosso)",
+     "Cars coming up cannot see you",
+     "Parking here: forbidden"
+    ],
+    "icons": [
+     "hill",
+     "eye",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta",
+    "en": "parking"
+   },
+   {
+    "it": "dossi",
+    "en": "hilltops"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23732": {
+  "en": "Outside built-up areas and on urban fast-flow roads, parking is forbidden near hilltops.",
+  "explain": {
+   "short": "Where traffic is fast, a car parked even NEAR a hilltop is seen too late. So it is forbidden there too.",
+   "rule": "Parking is forbidden at and near level crossings, on or near rails, in tunnels, underpasses, under arches and porticoes (unless signs allow), and on hilltops (near them too outside towns).",
+   "trap": "'in prossimità' (near) applies outside towns and on 'strade urbane di scorrimento' (urban fast roads).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Fast roads: no parking near a hilltop",
+    "it": "in prossimità dei dossi",
+    "lines": [
+     "Road outside town with a hilltop",
+     "Car parked near the top",
+     "Forbidden: seen too late"
+    ],
+    "icons": [
+     "hill",
+     "speed",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Fuori dai centri abitati",
+    "en": "outside built-up areas"
+   },
+   {
+    "it": "strade urbane di scorrimento",
+    "en": "urban fast-flow roads"
+   },
+   {
+    "it": "in prossimità dei dossi",
+    "en": "near hilltops"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23733": {
+  "en": "Parking is forbidden at level crossings but not near them.",
+  "explain": {
+   "short": "Parking is forbidden both ON and NEAR level crossings.",
+   "rule": "Parking is forbidden at and near level crossings, on or near rails, in tunnels, underpasses, under arches and porticoes (unless signs allow), and on hilltops (near them too outside towns).",
+   "trap": "'ma non in loro prossimità' (but not near them) is wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Near a level crossing is forbidden too",
+    "it": "in loro prossimità",
+    "lines": [
+     "Level crossing with railway tracks",
+     "Car parked near it",
+     "Forbidden too"
+    ],
+    "icons": [
+     "train",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passaggi a livello",
+    "en": "level crossings"
+   },
+   {
+    "it": "ma non in loro prossimità",
+    "en": "but not near them"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23734": {
+  "en": "Parking is forbidden on railway tracks but not on tram tracks.",
+  "explain": {
+   "short": "Tram rails are included: a tram cannot steer around a parked car either.",
+   "rule": "Parking is forbidden at and near level crossings, on or near rails, in tunnels, underpasses, under arches and porticoes (unless signs allow), and on hilltops (near them too outside towns).",
+   "trap": "'ma non di quelle tranviarie' (but not tram ones) is wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Tram rails too: never park on them",
+    "it": "tranviarie",
+    "lines": [
+     "Tram line along the street",
+     "Car parked on the tram rails",
+     "Forbidden too"
+    ],
+    "icons": [
+     "tram",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "binari",
+    "en": "tracks"
+   },
+   {
+    "it": "linee ferroviarie",
+    "en": "railway lines"
+   },
+   {
+    "it": "ma non di quelle tranviarie",
+    "en": "but not tram ones"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23735": {
+  "en": "Parking is allowed in lit tunnels.",
+  "explain": {
+   "short": "Light does not change the rule: parking in tunnels is forbidden unless a sign allows it.",
+   "rule": "Parking is forbidden at and near level crossings, on or near rails, in tunnels, underpasses, under arches and porticoes (unless signs allow), and on hilltops (near them too outside towns).",
+   "trap": "'illuminate' (lit) is the trap: lights are no permission to park.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Lit or not, no parking in a tunnel",
+    "it": "gallerie illuminate",
+    "lines": [
+     "Lit road tunnel",
+     "Car parked inside",
+     "Still forbidden"
+    ],
+    "icons": [
+     "light",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "consentita",
+    "en": "allowed"
+   },
+   {
+    "it": "gallerie illuminate",
+    "en": "lit tunnels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23736": {
+  "en": "Parking, but not stopping, is forbidden in underpasses, under overpasses, under arches and porticoes.",
+  "explain": {
+   "short": "In these places a short stop (fermata) is forbidden too, not only parking (sosta).",
+   "rule": "Parking is forbidden at and near level crossings, on or near rails, in tunnels, underpasses, under arches and porticoes (unless signs allow), and on hilltops (near them too outside towns).",
+   "trap": "'ma non la fermata' (but not stopping) is wrong: both are forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Under arches: no stopping and no parking",
+    "it": "ma non la fermata",
+    "lines": [
+     "Underpass, overpass or arches",
+     "Short stop under them",
+     "Forbidden too, like parking"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ma non la fermata",
+    "en": "but not stopping"
+   },
+   {
+    "it": "sottovia",
+    "en": "underpasses"
+   },
+   {
+    "it": "portici",
+    "en": "porticoes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23737": {
+  "en": "Outside built-up areas and on urban fast-flow roads, parking is allowed near hilltops.",
+  "explain": {
+   "short": "On these fast roads parking near a hilltop is forbidden, because cars arriving see you too late.",
+   "rule": "Parking is forbidden at and near level crossings, on or near rails, in tunnels, underpasses, under arches and porticoes (unless signs allow), and on hilltops (near them too outside towns).",
+   "trap": "'è consentita' (is allowed) is wrong: near hilltops it is forbidden on these roads.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Near a hilltop on fast roads: forbidden",
+    "it": "in prossimità dei dossi",
+    "lines": [
+     "Road outside town with a hilltop",
+     "Car parked near the top",
+     "Forbidden: seen too late"
+    ],
+    "icons": [
+     "hill",
+     "speed",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Fuori dei centri abitati",
+    "en": "outside built-up areas"
+   },
+   {
+    "it": "strade urbane di scorrimento",
+    "en": "urban fast-flow roads"
+   },
+   {
+    "it": "in prossimità dei dossi",
+    "en": "near hilltops"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

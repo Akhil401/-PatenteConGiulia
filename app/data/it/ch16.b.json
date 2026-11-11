@@ -1,0 +1,668 @@
+{
+ "q23677": {
+  "short": "Se la tua auto copre un segnale, gli altri non lo vedono. Per questo la fermata lì è vietata.",
+  "rule": "La fermata è vietata dove copre segnali o semafori, sulla preselezione, sulle corsie di canalizzazione e accelerazione, sugli incroci e vicino (in città: a meno di 5 m).",
+  "trap": "La parola chiave è «occultarne la vista»: è vietata solo la fermata che copre il segnale.",
+  "caption": "Non fermarti dove copri un segnale",
+  "lines": [
+   "Segnale stradale sul bordo strada",
+   "La tua auto ferma lo copre",
+   "Fermata qui: vietata"
+  ]
+ },
+ "q23678": {
+  "short": "Un'auto che copre un semaforo è un pericolo: gli altri non vedono la luce. Per questo è vietato.",
+  "rule": "La fermata è vietata dove copre segnali o semafori, sulla preselezione, sulle corsie di canalizzazione e accelerazione, sugli incroci e vicino (in città: a meno di 5 m).",
+  "trap": "«occultarne la vista» rende la fermata vietata.",
+  "caption": "Non fermarti dove copri un semaforo",
+  "lines": [
+   "Semaforo all'incrocio",
+   "La tua auto ferma copre la luce",
+   "Fermata qui: vietata"
+  ]
+ },
+ "q23679": {
+  "short": "Prima dell'incrocio le corsie con le frecce guidano le auto. Un'auto ferma lì blocca il traffico.",
+  "rule": "La fermata è vietata dove copre segnali o semafori, sulla preselezione, sulle corsie di canalizzazione e accelerazione, sugli incroci e vicino (in città: a meno di 5 m).",
+  "trap": "«preselezione» e «corsie di canalizzazione» sono le corsie con frecce prima dell'incrocio: lì niente fermata.",
+  "caption": "Niente fermata sulle frecce di preselezione",
+  "lines": [
+   "Corsie con frecce prima dell'incrocio",
+   "Qui le auto scelgono la corsia",
+   "Fermata su queste corsie: vietata"
+  ]
+ },
+ "q23680": {
+  "short": "Fuori città le auto vanno veloci. Un'auto ferma sull'incrocio o vicino copre la vista e blocca chi svolta.",
+  "rule": "La fermata è vietata dove copre segnali o semafori, sulla preselezione, sulle corsie di canalizzazione e accelerazione, sugli incroci e vicino (in città: a meno di 5 m).",
+  "trap": "«in corrispondenza e in prossimità» vuol dire SULL'incrocio e VICINO.",
+  "caption": "Fuori città: niente fermata su incroci e vicino",
+  "lines": [
+   "Incrocio su strada fuori città",
+   "Fermarsi sopra o vicino",
+   "Vietato: copre la vista"
+  ]
+ },
+ "q23681": {
+  "short": "In città gli incroci devono restare liberi: niente fermata e niente sosta sull'incrocio o a meno di 5 metri.",
+  "rule": "La fermata è vietata dove copre segnali o semafori, sulla preselezione, sulle corsie di canalizzazione e accelerazione, sugli incroci e vicino (in città: a meno di 5 m).",
+  "trap": "«a meno di 5 metri» è la zona vietata; «salvo diversa segnalazione» vuol dire che i segnali possono cambiarla.",
+  "caption": "In città: 5 m liberi dagli incroci",
+  "lines": [
+   "Incrocio in città",
+   "Fermata o sosta a meno di 5 m",
+   "Vietato, salvo diversa segnalazione"
+  ]
+ },
+ "q23682": {
+  "short": "Ai distributori di carburante la regola riguarda la sosta nelle ore di esercizio, non la fermata.",
+  "rule": "La fermata è vietata dove copre segnali o semafori, sulla preselezione, sulle corsie di canalizzazione e accelerazione, sugli incroci e vicino (in città: a meno di 5 m).",
+  "trap": "La frase dice «fermata», ma il divieto nelle «ore di esercizio» è per la «sosta».",
+  "caption": "Distributore: vietata la sosta, non la fermata",
+  "lines": [
+   "Distributore aperto",
+   "Sosta davanti: vietata",
+   "Fermata breve: non vietata"
+  ]
+ },
+ "q23683": {
+  "short": "Il segnale DIVIETO DI SOSTA vieta solo la sosta. La fermata per far salire o scendere è consentita.",
+  "rule": "La fermata è vietata dove copre segnali o semafori, sulla preselezione, sulle corsie di canalizzazione e accelerazione, sugli incroci e vicino (in città: a meno di 5 m).",
+  "trap": "«DIVIETO DI SOSTA» vieta la «sosta», non la «fermata».",
+  "caption": "Divieto di sosta: la fermata è consentita"
+ },
+ "q23684": {
+  "short": "Fermarsi vicino a un segnale è vietato solo se l'auto lo copre. Se il segnale resta visibile, non è vietato.",
+  "rule": "La fermata è vietata dove copre segnali o semafori, sulla preselezione, sulle corsie di canalizzazione e accelerazione, sugli incroci e vicino (in città: a meno di 5 m).",
+  "trap": "«anche se ... non ne occulta la vista» è sbagliato: conta se copri il segnale.",
+  "caption": "Vicino al segnale va bene se non lo copri",
+  "lines": [
+   "Segnale stradale sul bordo strada",
+   "La tua auto non lo copre",
+   "Questa fermata non è vietata"
+  ]
+ },
+ "q23685": {
+  "short": "In autostrada non ci si ferma, ma in caso di emergenza puoi fermarti sulla corsia di emergenza o in una piazzola.",
+  "rule": "La fermata è vietata dove copre segnali o semafori, sulla preselezione, sulle corsie di canalizzazione e accelerazione, sugli incroci e vicino (in città: a meno di 5 m).",
+  "trap": "«anche in caso di emergenza» è sbagliato: in emergenza ti puoi fermare.",
+  "caption": "Autostrada: fermata solo in emergenza",
+  "lines": [
+   "Autostrada: di regola niente fermata",
+   "Guasto o malore: emergenza",
+   "Fermata in corsia di emergenza: sì"
+  ]
+ },
+ "q23686": {
+  "short": "In città la zona vietata è a MENO di 5 metri dall'incrocio, non a più di 5 metri.",
+  "rule": "La fermata è vietata dove copre segnali o semafori, sulla preselezione, sulle corsie di canalizzazione e accelerazione, sugli incroci e vicino (in città: a meno di 5 m).",
+  "trap": "«a più di 5 metri» è la trappola: la regola dice «a meno di 5 metri».",
+  "caption": "Vietato a meno di 5 m, non a più di 5",
+  "lines": [
+   "Incrocio in città",
+   "A meno di 5 m: vietato",
+   "A più di 5 m: consentito"
+  ]
+ },
+ "q23687": {
+  "short": "Sulla corsia di accelerazione le auto prendono velocità. Fermarsi lì è pericoloso e vietato, anche per poco.",
+  "rule": "La fermata è vietata dove copre segnali o semafori, sulla preselezione, sulle corsie di canalizzazione e accelerazione, sugli incroci e vicino (in città: a meno di 5 m).",
+  "trap": "«purché brevissima» non cambia nulla: lì la fermata è vietata.",
+  "caption": "Niente fermata sulla corsia di accelerazione",
+  "lines": [
+   "Corsia di accelerazione",
+   "Qui le auto accelerano",
+   "Fermata, anche breve: vietata"
+  ]
+ },
+ "q23688": {
+  "short": "I pedoni hanno bisogno delle strisce libere e visibili. Quindi lì non puoi mai fermarti né sostare.",
+  "rule": "Fermata e sosta sono vietate su strisce pedonali, piste ciclabili e loro sbocchi, marciapiedi. Ai passi carrabili e ai cassonetti è vietata solo la sosta; la fermata è consentita.",
+  "trap": "Qui «sempre» è giusto: sulle strisce pedonali non ci sono eccezioni.",
+  "caption": "Mai fermi sulle strisce pedonali",
+  "lines": [
+   "Strisce pedonali",
+   "Fermata o sosta sopra",
+   "Sempre vietato"
+  ]
+ },
+ "q23689": {
+  "short": "Un'auto sulla pista ciclabile o al suo sbocco blocca i ciclisti. Per questo fermata e sosta sono sempre vietate.",
+  "rule": "Fermata e sosta sono vietate su strisce pedonali, piste ciclabili e loro sbocchi, marciapiedi. Ai passi carrabili e ai cassonetti è vietata solo la sosta; la fermata è consentita.",
+  "trap": "«in ogni caso» è giusto, e vale anche per gli «sbocchi».",
+  "caption": "Pista ciclabile e sbocco: mai fermi",
+  "lines": [
+   "Pista ciclabile e suo sbocco",
+   "Auto ferma o in sosta lì",
+   "Vietato in ogni caso"
+  ]
+ },
+ "q23690": {
+  "short": "Il marciapiede è per i pedoni. Puoi fermarti o sostare lì solo se un segnale lo permette.",
+  "rule": "Fermata e sosta sono vietate su strisce pedonali, piste ciclabili e loro sbocchi, marciapiedi. Ai passi carrabili e ai cassonetti è vietata solo la sosta; la fermata è consentita.",
+  "trap": "«salvo diversa segnalazione»: un segnale può permetterlo.",
+  "caption": "Sul marciapiede no, salvo diversa segnalazione",
+  "lines": [
+   "Marciapiede per i pedoni",
+   "Auto ferma o in sosta sopra",
+   "Vietato, salvo segnale"
+  ]
+ },
+ "q23691": {
+  "short": "Davanti a un passo carrabile la sosta è vietata, ma la fermata è consentita: resti pronto a ripartire.",
+  "rule": "Fermata e sosta sono vietate su strisce pedonali, piste ciclabili e loro sbocchi, marciapiedi. Ai passi carrabili e ai cassonetti è vietata solo la sosta; la fermata è consentita.",
+  "trap": "La «fermata» è consentita; al «passo carrabile» è vietata solo la «sosta».",
+  "caption": "Passo carrabile: fermata sì, sosta no",
+  "lines": [
+   "Sbocco del passo carrabile",
+   "Fermata breve, pronto a ripartire",
+   "Consentita; la sosta no"
+  ]
+ },
+ "q23692": {
+  "short": "Davanti ai cassonetti la sosta è vietata, così il camion dei rifiuti può lavorare. La fermata è consentita.",
+  "rule": "Fermata e sosta sono vietate su strisce pedonali, piste ciclabili e loro sbocchi, marciapiedi. Ai passi carrabili e ai cassonetti è vietata solo la sosta; la fermata è consentita.",
+  "trap": "La «fermata» è consentita; davanti ai «cassonetti» è vietata solo la sosta.",
+  "caption": "Cassonetti: fermata sì, sosta no",
+  "lines": [
+   "Cassonetti sul bordo strada",
+   "Fermata breve per far scendere",
+   "Consentita; la sosta no"
+  ]
+ },
+ "q23693": {
+  "short": "Sulle strisce pedonali non puoi mai fermarti, nemmeno per far scendere un passeggero.",
+  "rule": "Fermata e sosta sono vietate su strisce pedonali, piste ciclabili e loro sbocchi, marciapiedi. Ai passi carrabili e ai cassonetti è vietata solo la sosta; la fermata è consentita.",
+  "trap": "«per far scendere un passeggero» non è una scusa: il divieto vale sempre.",
+  "caption": "Nemmeno per far scendere un passeggero",
+  "lines": [
+   "Strisce pedonali",
+   "Fermata per far scendere",
+   "Comunque vietato"
+  ]
+ },
+ "q23694": {
+  "short": "La fermata è vietata sulle piste ciclabili E ai loro sbocchi, anche se brevissima.",
+  "rule": "Fermata e sosta sono vietate su strisce pedonali, piste ciclabili e loro sbocchi, marciapiedi. Ai passi carrabili e ai cassonetti è vietata solo la sosta; la fermata è consentita.",
+  "trap": "«ma non agli sbocchi» è sbagliato: anche gli sbocchi sono vietati.",
+  "caption": "Anche lo sbocco della pista è vietato",
+  "lines": [
+   "Sbocco della pista ciclabile",
+   "Fermata brevissima lì",
+   "Vietata, come sulla pista"
+  ]
+ },
+ "q23695": {
+  "short": "Al passo carrabile è vietata solo la sosta. La fermata, con il conducente pronto a ripartire, è consentita.",
+  "rule": "Fermata e sosta sono vietate su strisce pedonali, piste ciclabili e loro sbocchi, marciapiedi. Ai passi carrabili e ai cassonetti è vietata solo la sosta; la fermata è consentita.",
+  "trap": "La trappola è «fermata»: al «passo carrabile» è vietata solo la «sosta».",
+  "caption": "Passo carrabile: la fermata è consentita",
+  "lines": [
+   "Sbocco del passo carrabile",
+   "Fermata breve, pronto a ripartire",
+   "Consentita; la sosta no"
+  ]
+ },
+ "q23696": {
+  "short": "La sosta in seconda fila è vietata, ma la fermata in seconda fila non è sempre vietata, se non intralcia.",
+  "rule": "Fermata e sosta sono vietate su strisce pedonali, piste ciclabili e loro sbocchi, marciapiedi. Ai passi carrabili e ai cassonetti è vietata solo la sosta; la fermata è consentita.",
+  "trap": "«sempre» è la trappola: in «seconda fila» il divieto è per la sosta.",
+  "caption": "Seconda fila: sosta no, fermata non sempre vietata",
+  "lines": [
+   "Auto in sosta sul margine destro",
+   "Fermata breve accanto, senza intralcio",
+   "Non sempre vietata"
+  ]
+ },
+ "q23697": {
+  "short": "Non c'è una regola che vieta la fermata di notte. I divieti dipendono dal luogo, non dall'ora.",
+  "rule": "Fermata e sosta sono vietate su strisce pedonali, piste ciclabili e loro sbocchi, marciapiedi. Ai passi carrabili e ai cassonetti è vietata solo la sosta; la fermata è consentita.",
+  "trap": "«in ogni caso nelle ore notturne» è inventato: questo divieto non esiste.",
+  "caption": "Di notte la fermata non è vietata in generale",
+  "lines": [
+   "Di notte in una via di città",
+   "Fermata in un posto consentito",
+   "Consentita"
+  ]
+ },
+ "q23698": {
+  "short": "Questa è la definizione di sosta: una fermata lunga, e il conducente può lasciare l'auto.",
+  "rule": "La sosta è una fermata lunga: il conducente può allontanarsi, ma deve evitare incidenti e impedire l'uso del veicolo ad altri.",
+  "trap": "«protratta nel tempo» e «allontanarsi» fanno la sosta, non la fermata.",
+  "caption": "Sosta: fermata lunga, il conducente può andare",
+  "lines": [
+   "Auto in sosta sul margine destro",
+   "Resta lì per molto tempo",
+   "Il conducente può allontanarsi"
+  ]
+ },
+ "q23699": {
+  "short": "Questa è la differenza con la fermata: in sosta il conducente può lasciare l'auto.",
+  "rule": "La sosta è una fermata lunga: il conducente può allontanarsi, ma deve evitare incidenti e impedire l'uso del veicolo ad altri.",
+  "trap": "«può allontanarsi» vale per la sosta; nella fermata il conducente resta al volante.",
+  "caption": "In sosta il conducente può allontanarsi",
+  "lines": [
+   "Auto in sosta in un posto consentito",
+   "Il conducente scende e va via",
+   "Consentito in sosta"
+  ]
+ },
+ "q23700": {
+  "short": "Un'auto in sosta non deve causare incidenti: per esempio non deve muoversi da sola.",
+  "rule": "La sosta è una fermata lunga: il conducente può allontanarsi, ma deve evitare incidenti e impedire l'uso del veicolo ad altri.",
+  "trap": "«deve»: le cautele sono un obbligo, non un consiglio.",
+  "caption": "L'auto in sosta non deve causare incidenti",
+  "lines": [
+   "Auto in sosta sulla strada",
+   "Il conducente fa attenzione prima di andare",
+   "Nessun rischio di incidenti"
+  ]
+ },
+ "q23701": {
+  "short": "Quando lasci l'auto devi impedire che altri la usino, per esempio chiudendola e prendendo la chiave.",
+  "rule": "La sosta è una fermata lunga: il conducente può allontanarsi, ma deve evitare incidenti e impedire l'uso del veicolo ad altri.",
+  "trap": "«senza il suo consenso»: devi impedire l'uso ad altri.",
+  "caption": "Chiudi l'auto: nessuno la usa senza di te",
+  "lines": [
+   "Il conducente lascia l'auto in sosta",
+   "Prende la chiave e chiude",
+   "Nessuno può usarla"
+  ]
+ },
+ "q23702": {
+  "short": "Di notte le luci di posizione non servono in ogni caso, per esempio in una via di città illuminata.",
+  "rule": "La sosta è una fermata lunga: il conducente può allontanarsi, ma deve evitare incidenti e impedire l'uso del veicolo ad altri.",
+  "trap": "«in ogni caso» è la trappola: le luci servono solo in alcune situazioni.",
+  "caption": "Luci di posizione di notte: non in ogni caso",
+  "lines": [
+   "Di notte, auto in sosta in via illuminata",
+   "Qui le luci non servono",
+   "Non obbligatorie in ogni caso"
+  ]
+ },
+ "q23703": {
+  "short": "Non c'è un limite generale di tre ore: in sosta il conducente può allontanarsi. Solo i segnali possono limitare il tempo.",
+  "rule": "La sosta è una fermata lunga: il conducente può allontanarsi, ma deve evitare incidenti e impedire l'uso del veicolo ad altri.",
+  "trap": "«per più di tre ore» è un numero inventato.",
+  "caption": "Nessun limite generale di tre ore",
+  "lines": [
+   "Auto in sosta in un posto consentito",
+   "Il conducente via per molte ore",
+   "Nessun limite generale"
+  ]
+ },
+ "q23704": {
+  "short": "Il freno di stazionamento e la marcia più bassa insieme tengono ferma l'auto.",
+  "rule": "Il veicolo in sosta deve restare immobile su ogni strada: motore spento, freno di stazionamento, marcia più bassa; in forte pendenza ruote verso il marciapiede.",
+  "trap": "«rapporto più basso» vuol dire prima o retromarcia, non una marcia alta.",
+  "caption": "Freno di stazionamento + marcia più bassa",
+  "lines": [
+   "Auto in sosta sul margine destro",
+   "Freno di stazionamento tirato",
+   "Marcia più bassa inserita"
+  ]
+ },
+ "q23705": {
+  "short": "Anche su strada piana l'auto può muoversi. Quindi devi sempre bloccarla.",
+  "rule": "Il veicolo in sosta deve restare immobile su ogni strada: motore spento, freno di stazionamento, marcia più bassa; in forte pendenza ruote verso il marciapiede.",
+  "trap": "«indipendentemente dal grado di pendenza»: anche su strada piana.",
+  "caption": "Blocca l'auto su ogni strada, piana o in pendenza",
+  "lines": [
+   "Sosta su strada piana o in pendenza",
+   "Freno e marcia ogni volta",
+   "L'auto non deve muoversi"
+  ]
+ },
+ "q23706": {
+  "short": "In forte pendenza, con le ruote girate verso il marciapiede l'auto si ferma contro il bordo se si muove.",
+  "rule": "Il veicolo in sosta deve restare immobile su ogni strada: motore spento, freno di stazionamento, marcia più bassa; in forte pendenza ruote verso il marciapiede.",
+  "trap": "«ruote sterzate verso il marciapiede» è la sicurezza in più in forte pendenza.",
+  "caption": "Pendenza: freno, marcia bassa, ruote al marciapiede",
+  "lines": [
+   "Auto in sosta in forte salita",
+   "Freno di stazionamento e marcia bassa",
+   "Ruote girate verso il marciapiede"
+  ]
+ },
+ "q23707": {
+  "short": "L'auto in sosta deve avere il motore spento: è più sicuro e non inquina.",
+  "rule": "Il veicolo in sosta deve restare immobile su ogni strada: motore spento, freno di stazionamento, marcia più bassa; in forte pendenza ruote verso il marciapiede.",
+  "trap": "«motore spento» è obbligatorio in sosta.",
+  "caption": "In sosta: motore spento",
+  "lines": [
+   "Auto in sosta sul margine destro",
+   "Motore spento",
+   "Poi il conducente può andare"
+  ]
+ },
+ "q23708": {
+  "short": "Per tenere l'auto ferma metti la marcia PIÙ BASSA, non la quarta.",
+  "rule": "Il veicolo in sosta deve restare immobile su ogni strada: motore spento, freno di stazionamento, marcia più bassa; in forte pendenza ruote verso il marciapiede.",
+  "trap": "«quarta marcia» è sbagliato: serve la marcia più bassa.",
+  "caption": "Marcia più bassa, non la quarta",
+  "lines": [
+   "Auto in sosta in salita",
+   "Quarta marcia: sbagliato",
+   "Marcia più bassa e freno"
+  ]
+ },
+ "q23709": {
+  "short": "In folle il cambio non tiene ferma l'auto. Devi mettere la marcia più bassa.",
+  "rule": "Il veicolo in sosta deve restare immobile su ogni strada: motore spento, freno di stazionamento, marcia più bassa; in forte pendenza ruote verso il marciapiede.",
+  "trap": "«in folle» è la trappola: è il contrario di quello che devi fare.",
+  "caption": "Non in folle: marcia più bassa",
+  "lines": [
+   "Auto in sosta sul margine destro",
+   "Cambio in folle: sbagliato",
+   "Marcia più bassa e freno"
+  ]
+ },
+ "q23710": {
+  "short": "In città sosti vicino al margine destro, parallelo, nel senso di marcia. Con il marciapiede rialzato i pedoni sono sicuri.",
+  "rule": "In città sosta vicino al margine destro (con marciapiede rialzato) o lascia 1 m ai pedoni. Fuori città sosta fuori della carreggiata se possibile, non su piste ciclabili o banchine; altrimenti vicino al margine destro.",
+  "trap": "«purché esista il marciapiede rialzato»: senza marciapiede devi lasciare 1 metro ai pedoni.",
+  "caption": "In città: vicino al margine destro, parallelo",
+  "lines": [
+   "Via di città con marciapiede rialzato",
+   "Sosta vicino al margine destro",
+   "Parallelo, nel senso di marcia"
+  ]
+ },
+ "q23711": {
+  "short": "Senza marciapiede rialzato i pedoni camminano sul bordo. Lasci almeno 1 metro libero per loro.",
+  "rule": "In città sosta vicino al margine destro (con marciapiede rialzato) o lascia 1 m ai pedoni. Fuori città sosta fuori della carreggiata se possibile, non su piste ciclabili o banchine; altrimenti vicino al margine destro.",
+  "trap": "«non inferiore ad un metro» vuol dire almeno 1 metro.",
+  "caption": "Senza marciapiede: lascia almeno 1 m",
+  "lines": [
+   "Via senza marciapiede rialzato",
+   "Lascia almeno 1 m sul bordo",
+   "I pedoni possono passare"
+  ]
+ },
+ "q23712": {
+  "short": "Fuori città il traffico è veloce: l'auto in sosta va fuori della carreggiata, se c'è spazio.",
+  "rule": "In città sosta vicino al margine destro (con marciapiede rialzato) o lascia 1 m ai pedoni. Fuori città sosta fuori della carreggiata se possibile, non su piste ciclabili o banchine; altrimenti vicino al margine destro.",
+  "trap": "«ove possibile»: se è impossibile valgono altre regole.",
+  "caption": "Fuori città: sosta fuori della carreggiata",
+  "lines": [
+   "Strada fuori città",
+   "Spazio a lato della strada",
+   "Sosta fuori della carreggiata"
+  ]
+ },
+ "q23713": {
+  "short": "Fuori della carreggiata sì, ma la pista ciclabile è per le bici: lì non puoi sostare.",
+  "rule": "In città sosta vicino al margine destro (con marciapiede rialzato) o lascia 1 m ai pedoni. Fuori città sosta fuori della carreggiata se possibile, non su piste ciclabili o banchine; altrimenti vicino al margine destro.",
+  "trap": "«ma non sulle piste ciclabili» è giusto.",
+  "caption": "Fuori carreggiata, ma non sulla pista ciclabile",
+  "lines": [
+   "Strada fuori città con pista ciclabile",
+   "Non sostare sulla pista ciclabile",
+   "Sosta fuori carreggiata altrove"
+  ]
+ },
+ "q23714": {
+  "short": "La banchina è la striscia a lato della strada per emergenze e pedoni. Non sosti lì, salvo segnale.",
+  "rule": "In città sosta vicino al margine destro (con marciapiede rialzato) o lascia 1 m ai pedoni. Fuori città sosta fuori della carreggiata se possibile, non su piste ciclabili o banchine; altrimenti vicino al margine destro.",
+  "trap": "«ma non sulle banchine, salvo diversa segnalazione» è giusto.",
+  "caption": "Non sulla banchina, salvo diversa segnalazione",
+  "lines": [
+   "Strada fuori città",
+   "Banchina: niente sosta",
+   "Salvo diversa segnalazione"
+  ]
+ },
+ "q23715": {
+  "short": "Se non c'è spazio fuori strada, puoi sostare lo stesso, ma il più a destra possibile.",
+  "rule": "In città sosta vicino al margine destro (con marciapiede rialzato) o lascia 1 m ai pedoni. Fuori città sosta fuori della carreggiata se possibile, non su piste ciclabili o banchine; altrimenti vicino al margine destro.",
+  "trap": "«il più vicino possibile al margine destro» è la regola di riserva.",
+  "caption": "Niente spazio fuori: vicino al margine destro",
+  "lines": [
+   "Strada fuori città, niente spazio a lato",
+   "Sosta sulla carreggiata",
+   "Il più vicino al margine destro"
+  ]
+ },
+ "q23716": {
+  "short": "Senza marciapiede rialzato NON sosti attaccato al bordo: lasci almeno 1 metro ai pedoni.",
+  "rule": "In città sosta vicino al margine destro (con marciapiede rialzato) o lascia 1 m ai pedoni. Fuori città sosta fuori della carreggiata se possibile, non su piste ciclabili o banchine; altrimenti vicino al margine destro.",
+  "trap": "«anche dove non esiste il marciapiede rialzato» è sbagliato: lì lasci 1 metro.",
+  "caption": "Senza marciapiede: lascia 1 m, non attaccato",
+  "lines": [
+   "Via di città senza marciapiede rialzato",
+   "Attaccato al bordo: sbagliato",
+   "Lascia almeno 1 m ai pedoni"
+  ]
+ },
+ "q23717": {
+  "short": "Sostare sulla pista ciclabile non è mai consentito. Fuori della carreggiata sì, ma non sulle piste ciclabili.",
+  "rule": "In città sosta vicino al margine destro (con marciapiede rialzato) o lascia 1 m ai pedoni. Fuori città sosta fuori della carreggiata se possibile, non su piste ciclabili o banchine; altrimenti vicino al margine destro.",
+  "trap": "«eventualmente anche sulle piste ciclabili» è sbagliato.",
+  "caption": "Mai in sosta sulla pista ciclabile",
+  "lines": [
+   "Strada fuori città con pista ciclabile",
+   "Auto in sosta sulla pista",
+   "Vietato"
+  ]
+ },
+ "q23718": {
+  "short": "La sosta è ancora possibile: se non puoi uscire dalla carreggiata, sosti vicino al margine destro.",
+  "rule": "In città sosta vicino al margine destro (con marciapiede rialzato) o lascia 1 m ai pedoni. Fuori città sosta fuori della carreggiata se possibile, non su piste ciclabili o banchine; altrimenti vicino al margine destro.",
+  "trap": "«non deve effettuare la sosta» è sbagliato: la regola dice di stare vicino al margine destro.",
+  "caption": "Niente spazio fuori: sosta al margine destro",
+  "lines": [
+   "Strada fuori città, niente spazio a lato",
+   "La sosta è ancora consentita",
+   "Il più vicino al margine destro"
+  ]
+ },
+ "q23719": {
+  "short": "Nel senso unico nessuno arriva di fronte: puoi sostare anche a sinistra, se il traffico passa.",
+  "rule": "Nelle strade urbane a senso unico puoi sostare a sinistra se restano almeno 3 m. Nelle zone segnate stai in un solo stallo e paga il parchimetro, anche per poco.",
+  "trap": "«purché rimanga uno spazio sufficiente» è la condizione.",
+  "caption": "Senso unico: a sinistra sì, se passa una fila",
+  "lines": [
+   "Via di città a senso unico",
+   "Auto in sosta sul margine sinistro",
+   "Una fila di auto passa ancora"
+  ]
+ },
+ "q23720": {
+  "short": "Nel senso unico in città puoi sostare a sinistra, ma devono restare almeno 3 metri per il traffico.",
+  "rule": "Nelle strade urbane a senso unico puoi sostare a sinistra se restano almeno 3 m. Nelle zone segnate stai in un solo stallo e paga il parchimetro, anche per poco.",
+  "trap": "«non inferiore a tre metri» è la larghezza ufficiale.",
+  "caption": "Senso unico: a sinistra sì, lascia 3 m",
+  "lines": [
+   "Via di città a senso unico",
+   "Auto in sosta sul margine sinistro",
+   "Almeno 3 m liberi"
+  ]
+ },
+ "q23721": {
+  "short": "Nel parcheggio segnali e strisce dicono come parcheggiare. Devi seguirli.",
+  "rule": "Nelle strade urbane a senso unico puoi sostare a sinistra se restano almeno 3 m. Nelle zone segnate stai in un solo stallo e paga il parchimetro, anche per poco.",
+  "trap": "«nel modo prescritto dalla segnaletica»: non scegli tu.",
+  "caption": "Nel parcheggio segui la segnaletica",
+  "lines": [
+   "Parcheggio con stalli dipinti",
+   "Le strisce dicono come sostare",
+   "Segui la segnaletica"
+  ]
+ },
+ "q23722": {
+  "short": "Con gli stalli dipinti l'auto sta dentro uno stallo e non entra in quelli vicini.",
+  "rule": "Nelle strade urbane a senso unico puoi sostare a sinistra se restano almeno 3 m. Nelle zone segnate stai in un solo stallo e paga il parchimetro, anche per poco.",
+  "trap": "Qui «sempre» è giusto: sempre dentro uno stallo.",
+  "caption": "Dentro uno stallo, non sulle strisce",
+  "lines": [
+   "Parcheggio con stalli dipinti",
+   "Auto dentro uno stallo",
+   "Non su quelli vicini"
+  ]
+ },
+ "q23723": {
+  "short": "A sinistra nel senso unico puoi sostare solo se restano almeno 3 metri, non sempre.",
+  "rule": "Nelle strade urbane a senso unico puoi sostare a sinistra se restano almeno 3 m. Nelle zone segnate stai in un solo stallo e paga il parchimetro, anche per poco.",
+  "trap": "«sempre» è la trappola: c'è una condizione, 3 metri liberi.",
+  "caption": "A sinistra solo se restano 3 m",
+  "lines": [
+   "Via di città a senso unico",
+   "Sosta sul margine sinistro",
+   "Solo se restano 3 m"
+  ]
+ },
+ "q23724": {
+  "short": "La sosta non è vietata solo perché mancano le strisce. Dove nulla la vieta, puoi sostare seguendo le regole.",
+  "rule": "Nelle strade urbane a senso unico puoi sostare a sinistra se restano almeno 3 m. Nelle zone segnate stai in un solo stallo e paga il parchimetro, anche per poco.",
+  "trap": "«quando non esistano le apposite strisce»: niente strisce non vuol dire niente sosta.",
+  "caption": "Niente strisce non vuol dire divieto",
+  "lines": [
+   "Via di città senza strisce di sosta",
+   "Nessun segnale la vieta",
+   "La sosta è consentita"
+  ]
+ },
+ "q23725": {
+  "short": "Con gli stalli dipinti devi sostare dentro uno stallo, anche per poco tempo.",
+  "rule": "Nelle strade urbane a senso unico puoi sostare a sinistra se restano almeno 3 m. Nelle zone segnate stai in un solo stallo e paga il parchimetro, anche per poco.",
+  "trap": "«a condizione che la sosta sia di brevissima durata» non è una scusa.",
+  "caption": "Fuori dallo stallo no, anche per poco",
+  "lines": [
+   "Parcheggio con stalli dipinti",
+   "Auto in sosta fuori dallo stallo",
+   "Sbagliato, anche per poco"
+  ]
+ },
+ "q23726": {
+  "short": "Dove c'è il parchimetro devi pagare, anche per una sosta breve.",
+  "rule": "Nelle strade urbane a senso unico puoi sostare a sinistra se restano almeno 3 m. Nelle zone segnate stai in un solo stallo e paga il parchimetro, anche per poco.",
+  "trap": "«non occorre utilizzarlo se la sosta è di breve durata» è sbagliato.",
+  "caption": "Parchimetro: paga anche per poco",
+  "lines": [
+   "Zona di sosta con parchimetro",
+   "Sosta breve senza pagare",
+   "Non consentito: paga sempre"
+  ]
+ },
+ "q23727": {
+  "short": "Un'auto in sosta sul passaggio a livello o vicino blocca la strada e copre la vista. Per questo è vietato.",
+  "rule": "La sosta è vietata sui passaggi a livello e vicino, sui binari o vicino, in galleria, nei sottovia, sotto fornici e portici (salvo diversa segnalazione), sui dossi (anche vicino fuori città).",
+  "trap": "«in corrispondenza o in prossimità» vuol dire SOPRA e VICINO.",
+  "caption": "Niente sosta su o vicino al passaggio a livello",
+  "lines": [
+   "Passaggio a livello con binari",
+   "Sosta sopra o vicino",
+   "Vietata"
+  ]
+ },
+ "q23728": {
+  "short": "Il treno e il tram non possono girare intorno a un'auto. Non sostare sui binari o così vicino da bloccarli.",
+  "rule": "La sosta è vietata sui passaggi a livello e vicino, sui binari o vicino, in galleria, nei sottovia, sotto fornici e portici (salvo diversa segnalazione), sui dossi (anche vicino fuori città).",
+  "trap": "Vale per i binari «ferroviarie» e anche «tranviarie».",
+  "caption": "Binari liberi: treno e tram",
+  "lines": [
+   "Linea del tram lungo la via",
+   "Auto in sosta sui binari o vicino",
+   "Vietato: blocca il tram"
+  ]
+ },
+ "q23729": {
+  "short": "In galleria un'auto in sosta è un grande pericolo: poca luce e poco spazio per passare.",
+  "rule": "La sosta è vietata sui passaggi a livello e vicino, sui binari o vicino, in galleria, nei sottovia, sotto fornici e portici (salvo diversa segnalazione), sui dossi (anche vicino fuori città).",
+  "trap": "«salvo diversa segnalazione»: solo un segnale può permetterlo.",
+  "caption": "Niente sosta in galleria, salvo segnale",
+  "lines": [
+   "Galleria stradale",
+   "Auto in sosta dentro",
+   "Vietato, salvo segnale"
+  ]
+ },
+ "q23730": {
+  "short": "Questi posti sono bui e stretti, e un'auto in sosta si vede tardi. Per questo la sosta è vietata.",
+  "rule": "La sosta è vietata sui passaggi a livello e vicino, sui binari o vicino, in galleria, nei sottovia, sotto fornici e portici (salvo diversa segnalazione), sui dossi (anche vicino fuori città).",
+  "trap": "«salvo diversa segnalazione»: un segnale può permetterlo.",
+  "caption": "Niente sosta sotto ponti, fornici, portici",
+  "lines": [
+   "Sottovia, sovrapassaggio o fornici",
+   "Auto in sosta sotto",
+   "Vietato, salvo segnale"
+  ]
+ },
+ "q23731": {
+  "short": "Sul dosso chi sale non vede in tempo un'auto in sosta. Per questo la sosta è vietata.",
+  "rule": "La sosta è vietata sui passaggi a livello e vicino, sui binari o vicino, in galleria, nei sottovia, sotto fornici e portici (salvo diversa segnalazione), sui dossi (anche vicino fuori città).",
+  "trap": "«dossi» qui vuol dire la cima di una salita, dove non vedi lontano.",
+  "caption": "Niente sosta sul dosso",
+  "lines": [
+   "Cima di una salita (dosso)",
+   "Chi sale non ti vede",
+   "Sosta qui: vietata"
+  ]
+ },
+ "q23732": {
+  "short": "Dove si va veloci, un'auto in sosta anche VICINO al dosso si vede tardi. Per questo è vietato.",
+  "rule": "La sosta è vietata sui passaggi a livello e vicino, sui binari o vicino, in galleria, nei sottovia, sotto fornici e portici (salvo diversa segnalazione), sui dossi (anche vicino fuori città).",
+  "trap": "«in prossimità» vale fuori città e sulle «strade urbane di scorrimento».",
+  "caption": "Strade veloci: niente sosta vicino al dosso",
+  "lines": [
+   "Strada fuori città con un dosso",
+   "Auto in sosta vicino alla cima",
+   "Vietato: si vede tardi"
+  ]
+ },
+ "q23733": {
+  "short": "La sosta è vietata SUL passaggio a livello e anche VICINO.",
+  "rule": "La sosta è vietata sui passaggi a livello e vicino, sui binari o vicino, in galleria, nei sottovia, sotto fornici e portici (salvo diversa segnalazione), sui dossi (anche vicino fuori città).",
+  "trap": "«ma non in loro prossimità» è sbagliato.",
+  "caption": "Anche vicino al passaggio a livello è vietato",
+  "lines": [
+   "Passaggio a livello con binari",
+   "Auto in sosta vicino",
+   "Vietato anche qui"
+  ]
+ },
+ "q23734": {
+  "short": "Anche i binari del tram sono vietati: il tram non può girare intorno a un'auto.",
+  "rule": "La sosta è vietata sui passaggi a livello e vicino, sui binari o vicino, in galleria, nei sottovia, sotto fornici e portici (salvo diversa segnalazione), sui dossi (anche vicino fuori città).",
+  "trap": "«ma non di quelle tranviarie» è sbagliato.",
+  "caption": "Anche i binari del tram: mai in sosta",
+  "lines": [
+   "Linea del tram lungo la via",
+   "Auto in sosta sui binari del tram",
+   "Vietato anche qui"
+  ]
+ },
+ "q23735": {
+  "short": "La luce non cambia la regola: in galleria la sosta è vietata, salvo segnale.",
+  "rule": "La sosta è vietata sui passaggi a livello e vicino, sui binari o vicino, in galleria, nei sottovia, sotto fornici e portici (salvo diversa segnalazione), sui dossi (anche vicino fuori città).",
+  "trap": "«illuminate» è la trappola: la luce non permette la sosta.",
+  "caption": "Illuminata o no, in galleria niente sosta",
+  "lines": [
+   "Galleria illuminata",
+   "Auto in sosta dentro",
+   "Comunque vietato"
+  ]
+ },
+ "q23736": {
+  "short": "In questi posti è vietata anche la fermata, non solo la sosta.",
+  "rule": "La sosta è vietata sui passaggi a livello e vicino, sui binari o vicino, in galleria, nei sottovia, sotto fornici e portici (salvo diversa segnalazione), sui dossi (anche vicino fuori città).",
+  "trap": "«ma non la fermata» è sbagliato: sono vietate tutte e due.",
+  "caption": "Sotto i fornici: niente fermata e niente sosta",
+  "lines": [
+   "Sottovia, sovrapassaggio o fornici",
+   "Fermata breve sotto",
+   "Vietata anche lei"
+  ]
+ },
+ "q23737": {
+  "short": "Su queste strade veloci la sosta vicino al dosso è vietata: chi arriva ti vede tardi.",
+  "rule": "La sosta è vietata sui passaggi a livello e vicino, sui binari o vicino, in galleria, nei sottovia, sotto fornici e portici (salvo diversa segnalazione), sui dossi (anche vicino fuori città).",
+  "trap": "«è consentita» è sbagliato: vicino ai dossi è vietata.",
+  "caption": "Vicino al dosso su strade veloci: vietato",
+  "lines": [
+   "Strada fuori città con un dosso",
+   "Auto in sosta vicino alla cima",
+   "Vietato: si vede tardi"
+  ]
+ }
+}
