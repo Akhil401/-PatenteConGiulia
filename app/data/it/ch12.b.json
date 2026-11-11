@@ -1,0 +1,739 @@
+{
+ "q22594": {
+  "short": "50 km/h diviso 3,6 fa circa 14 metri al secondo. In un secondo di reazione percorri circa 14 m.",
+  "rule": "Dividi i km/h per 3,6: 50 = 14 m, 100 = 28 m, 130 = 36 m, 150 = 42 m in un secondo.",
+  "trap": "Controlla la coppia «m 14» e «50 km/h»: qui sono giuste (km/h diviso 3,6).",
+  "caption": "50 km/h = circa 14 m al secondo",
+  "lines": [
+   "Velocità: 50 km/h",
+   "Dividi per 3,6",
+   "Circa 14 m ogni secondo"
+  ]
+ },
+ "q22595": {
+  "short": "100 km/h diviso 3,6 fa circa 28 metri al secondo. In un secondo di reazione percorri circa 28 m.",
+  "rule": "Dividi i km/h per 3,6: 50 = 14 m, 100 = 28 m, 130 = 36 m, 150 = 42 m in un secondo.",
+  "trap": "Controlla la coppia «m 28» e «100 km/h»: qui sono giuste (km/h diviso 3,6).",
+  "caption": "100 km/h = circa 28 m al secondo",
+  "lines": [
+   "Velocità: 100 km/h",
+   "Dividi per 3,6",
+   "Circa 28 m ogni secondo"
+  ]
+ },
+ "q22596": {
+  "short": "130 km/h diviso 3,6 fa circa 36 metri al secondo. In un secondo di reazione percorri circa 36 m.",
+  "rule": "Dividi i km/h per 3,6: 50 = 14 m, 100 = 28 m, 130 = 36 m, 150 = 42 m in un secondo.",
+  "trap": "Controlla la coppia «m 36» e «130 km/h»: qui sono giuste (km/h diviso 3,6).",
+  "caption": "130 km/h = circa 36 m al secondo",
+  "lines": [
+   "Velocità: 130 km/h",
+   "Dividi per 3,6",
+   "Circa 36 m ogni secondo"
+  ]
+ },
+ "q22597": {
+  "short": "150 km/h diviso 3,6 fa circa 42 metri al secondo. In un secondo di reazione percorri circa 42 m.",
+  "rule": "Dividi i km/h per 3,6: 50 = 14 m, 100 = 28 m, 130 = 36 m, 150 = 42 m in un secondo.",
+  "trap": "Controlla la coppia «m 42» e «150 km/h»: qui sono giuste (km/h diviso 3,6).",
+  "caption": "150 km/h = circa 42 m al secondo",
+  "lines": [
+   "Velocità: 150 km/h",
+   "Dividi per 3,6",
+   "Circa 42 m ogni secondo"
+  ]
+ },
+ "q22598": {
+  "short": "150 km/h diviso 3,6 fa circa 42 metri al secondo, non 20 m. Il numero è sbagliato.",
+  "rule": "Dividi i km/h per 3,6: 50 = 14 m, 100 = 28 m, 130 = 36 m, 150 = 42 m in un secondo.",
+  "trap": "«m 20» è sbagliato per 150 km/h: il valore giusto è circa 42 m.",
+  "caption": "150 km/h = circa 42 m al secondo, non 20",
+  "lines": [
+   "Velocità: 150 km/h",
+   "Dividi per 3,6: circa 42 m/s",
+   "Non 20 m in un secondo"
+  ]
+ },
+ "q22599": {
+  "short": "50 km/h diviso 3,6 fa circa 14 metri al secondo, non 4 m. Il numero è sbagliato.",
+  "rule": "Dividi i km/h per 3,6: 50 = 14 m, 100 = 28 m, 130 = 36 m, 150 = 42 m in un secondo.",
+  "trap": "«m 4» è sbagliato per 50 km/h: il valore giusto è circa 14 m.",
+  "caption": "50 km/h = circa 14 m al secondo, non 4",
+  "lines": [
+   "Velocità: 50 km/h",
+   "Dividi per 3,6: circa 14 m/s",
+   "Non 4 m in un secondo"
+  ]
+ },
+ "q22600": {
+  "short": "100 km/h diviso 3,6 fa circa 28 metri al secondo, non 10 m. Il numero è sbagliato.",
+  "rule": "Dividi i km/h per 3,6: 50 = 14 m, 100 = 28 m, 130 = 36 m, 150 = 42 m in un secondo.",
+  "trap": "«m 10» è sbagliato per 100 km/h: il valore giusto è circa 28 m.",
+  "caption": "100 km/h = circa 28 m al secondo, non 10",
+  "lines": [
+   "Velocità: 100 km/h",
+   "Dividi per 3,6: circa 28 m/s",
+   "Non 10 m in un secondo"
+  ]
+ },
+ "q22601": {
+  "short": "130 km/h diviso 3,6 fa circa 36 metri al secondo, non 15 m. Il numero è sbagliato.",
+  "rule": "Dividi i km/h per 3,6: 50 = 14 m, 100 = 28 m, 130 = 36 m, 150 = 42 m in un secondo.",
+  "trap": "«m 15» è sbagliato per 130 km/h: il valore giusto è circa 36 m.",
+  "caption": "130 km/h = circa 36 m al secondo, non 15",
+  "lines": [
+   "Velocità: 130 km/h",
+   "Dividi per 3,6: circa 36 m/s",
+   "Non 15 m in un secondo"
+  ]
+ },
+ "q22602": {
+  "short": "È la definizione: la frenata inizia quando i freni lavorano e finisce quando l'auto è ferma.",
+  "rule": "Lo spazio di frenatura cresce con il quadrato della velocità: 2 volte = 4, 3 volte = 9, 4 volte = 16.",
+  "trap": "Non confonderlo con lo spazio di reazione, che viene PRIMA de «l'inizio della frenata».",
+  "caption": "Frenatura: dal freno all'arresto",
+  "lines": [
+   "Il conducente frena",
+   "L'auto rallenta",
+   "L'auto si ferma: fine frenatura"
+  ]
+ },
+ "q22603": {
+  "short": "Lo spazio di frenatura cresce con il quadrato della velocità. 2 x 2 = 4: velocità doppia, spazio quattro volte.",
+  "rule": "Lo spazio di frenatura cresce con il quadrato della velocità: 2 volte = 4, 3 volte = 9, 4 volte = 16.",
+  "trap": "«si quadruplica» è giusto: molti pensano che raddoppi soltanto.",
+  "caption": "Velocità doppia = frenatura 4 volte",
+  "lines": [
+   "Velocità x2",
+   "Spazio di frenatura x4",
+   "Quadrato: 2 x 2 = 4"
+  ]
+ },
+ "q22604": {
+  "short": "Lo spazio di frenatura cresce con il quadrato della velocità. 3 x 3 = 9: velocità tripla, spazio nove volte.",
+  "rule": "Lo spazio di frenatura cresce con il quadrato della velocità: 2 volte = 4, 3 volte = 9, 4 volte = 16.",
+  "trap": "«nove volte», non tre volte: la velocità va al quadrato.",
+  "caption": "Velocità tripla = frenatura 9 volte",
+  "lines": [
+   "Velocità x3",
+   "Spazio di frenatura x9",
+   "Quadrato: 3 x 3 = 9"
+  ]
+ },
+ "q22605": {
+  "short": "Lo spazio di frenatura cresce con il quadrato della velocità. 4 x 4 = 16.",
+  "rule": "Lo spazio di frenatura cresce con il quadrato della velocità: 2 volte = 4, 3 volte = 9, 4 volte = 16.",
+  "trap": "«sedici volte», non quattro volte: la velocità va al quadrato.",
+  "caption": "Velocità x4 = frenatura 16 volte",
+  "lines": [
+   "Velocità x4",
+   "Spazio di frenatura x16",
+   "Quadrato: 4 x 4 = 16"
+  ]
+ },
+ "q22606": {
+  "short": "La velocità è il fattore più importante. Più vai veloce, più spazio serve per fermarti.",
+  "rule": "Lo spazio di frenatura cresce con il quadrato della velocità: 2 volte = 4, 3 volte = 9, 4 volte = 16.",
+  "trap": "«indipendente» è la parola falsa: dipende molto dalla velocità.",
+  "caption": "Più velocità = frenatura molto più lunga",
+  "lines": [
+   "Più velocità",
+   "Frenatura molto più lunga",
+   "Dipende dalla velocità"
+  ]
+ },
+ "q22607": {
+  "short": "Se la velocità raddoppia, lo spazio di frenatura diventa QUATTRO volte, non due.",
+  "rule": "Lo spazio di frenatura cresce con il quadrato della velocità: 2 volte = 4, 3 volte = 9, 4 volte = 16.",
+  "trap": "«si raddoppia» è troppo poco: giusto è «si quadruplica».",
+  "caption": "Velocità doppia = 4 volte, non 2",
+  "lines": [
+   "Velocità x2",
+   "Frenatura x4, non x2",
+   "Quadrato: 2 x 2 = 4"
+  ]
+ },
+ "q22608": {
+  "short": "Con poca aderenza le gomme scivolano: servono più metri per fermarsi.",
+  "rule": "Spazio di frenatura: più lungo con poca aderenza, in discesa o ruote bloccate; più corto in salita.",
+  "trap": "«aderenza bassa» vuol dire strada scivolosa: frenata più lunga.",
+  "caption": "Poca aderenza: l'auto scivola di più",
+  "lines": [
+   "Poca aderenza gomma-asfalto",
+   "Le gomme scivolano",
+   "Frenatura più lunga"
+  ]
+ },
+ "q22609": {
+  "short": "La neve dà pochissima aderenza. Le gomme scivolano e servono molti più metri.",
+  "rule": "Spazio di frenatura: più lungo con poca aderenza, in discesa o ruote bloccate; più corto in salita.",
+  "trap": "«innevata» vuol dire poca aderenza: la frenata è più lunga.",
+  "caption": "Strada innevata: frenata molto più lunga",
+  "lines": [
+   "Neve sulla strada",
+   "Pochissima aderenza",
+   "Frenatura più lunga"
+  ]
+ },
+ "q22610": {
+  "short": "L'acqua tra gomma e asfalto riduce l'aderenza: servono più metri per fermarsi.",
+  "rule": "Spazio di frenatura: più lungo con poca aderenza, in discesa o ruote bloccate; più corto in salita.",
+  "trap": "«bagnata» vuol dire meno aderenza: la frenata è più lunga.",
+  "caption": "Strada bagnata: frenata più lunga",
+  "lines": [
+   "Strada bagnata",
+   "Meno aderenza",
+   "Frenatura più lunga"
+  ]
+ },
+ "q22611": {
+  "short": "In discesa il peso dell'auto la spinge avanti mentre freni: servono più metri.",
+  "rule": "Spazio di frenatura: più lungo con poca aderenza, in discesa o ruote bloccate; più corto in salita.",
+  "trap": "«in discesa» = frenata più lunga; «in salita» = più corta.",
+  "caption": "Discesa: il peso spinge, frenata più lunga",
+  "lines": [
+   "Strada in discesa",
+   "Il peso spinge avanti",
+   "Frenatura più lunga"
+  ]
+ },
+ "q22612": {
+  "short": "In salita la gravità aiuta a rallentare: l'auto si ferma in meno metri.",
+  "rule": "Spazio di frenatura: più lungo con poca aderenza, in discesa o ruote bloccate; più corto in salita.",
+  "trap": "«in salita» = frenata più corta; non confonderla con «in discesa».",
+  "caption": "Salita: la gravità aiuta, frenata più corta",
+  "lines": [
+   "Strada in salita",
+   "La gravità aiuta a rallentare",
+   "Frenatura più corta"
+  ]
+ },
+ "q22613": {
+  "short": "Riflessi pronti ti fanno frenare PRIMA: accorciano lo spazio di reazione. Lo spazio di frenatura non cambia.",
+  "rule": "Spazio di frenatura: più lungo con poca aderenza, in discesa o ruote bloccate; più corto in salita.",
+  "trap": "I «riflessi» riguardano lo spazio di reazione, non lo spazio di frenatura.",
+  "caption": "I riflessi cambiano la reazione, non la frenatura",
+  "lines": [
+   "Riflessi pronti: reazione più corta",
+   "Spazio di frenatura: uguale",
+   "Dipende da velocità, strada, gomme"
+  ]
+ },
+ "q22614": {
+  "short": "Le ruote bloccate strisciano e perdono aderenza. L'auto si ferma in PIÙ metri e non sterza.",
+  "rule": "Spazio di frenatura: più lungo con poca aderenza, in discesa o ruote bloccate; più corto in salita.",
+  "trap": "«si bloccano» sembra una frenata forte, ma una ruota che striscia frena peggio.",
+  "caption": "Ruote bloccate: frenata più lunga",
+  "lines": [
+   "Ruote bloccate, strisciano",
+   "Niente aderenza, niente sterzo",
+   "Frenatura più lunga"
+  ]
+ },
+ "q22615": {
+  "short": "Dopo la cima del dosso la strada scende. In discesa la frenata è più lunga, non più corta.",
+  "rule": "Spazio di frenatura: più lungo con poca aderenza, in discesa o ruote bloccate; più corto in salita.",
+  "trap": "«in discesa» vuol dire sempre frenata più lunga, anche dopo un «dosso».",
+  "caption": "Discesa dopo un dosso: frenata più lunga",
+  "lines": [
+   "Dopo il dosso la strada scende",
+   "Il peso spinge l'auto",
+   "Frenatura più lunga"
+  ]
+ },
+ "q22616": {
+  "short": "In salita la gravità aiuta a rallentare: lo spazio di frenatura DIMINUISCE.",
+  "rule": "Spazio di frenatura: più lungo con poca aderenza, in discesa o ruote bloccate; più corto in salita.",
+  "trap": "«aumenta» è sbagliato con «in salita»: in salita diminuisce.",
+  "caption": "In salita la frenata è più corta",
+  "lines": [
+   "Strada in salita",
+   "La gravità aiuta a rallentare",
+   "Frenatura più corta"
+  ]
+ },
+ "q22617": {
+  "short": "In discesa il peso spinge l'auto avanti: lo spazio di frenatura AUMENTA.",
+  "rule": "Spazio di frenatura: più lungo con poca aderenza, in discesa o ruote bloccate; più corto in salita.",
+  "trap": "«diminuisce» è sbagliato con «in discesa»: in discesa aumenta.",
+  "caption": "In discesa la frenata è più lunga",
+  "lines": [
+   "Strada in discesa",
+   "Il peso spinge avanti",
+   "Frenatura più lunga"
+  ]
+ },
+ "q22618": {
+  "short": "Prima vedi il pericolo e reagisci (spazio di reazione), poi l'auto frena (spazio di frenatura). Insieme fanno l'arresto.",
+  "rule": "Spazio di arresto = reazione + frenatura; dipende da velocità, pneumatici e strada.",
+  "trap": "«più»: il totale vuole ENTRAMBE le parti, non una sola.",
+  "caption": "Arresto = reazione + frenatura",
+  "lines": [
+   "Vedi il pericolo: reazione",
+   "Premi il freno: frenatura",
+   "Somma: spazio totale di arresto"
+  ]
+ },
+ "q22619": {
+  "short": "Più vai veloce, più metri percorri mentre reagisci e mentre freni.",
+  "rule": "Spazio di arresto = reazione + frenatura; dipende da velocità, pneumatici e strada.",
+  "trap": "«dipende» è giusto: la velocità cambia entrambe le parti dell'arresto.",
+  "caption": "Più velocità = arresto più lungo",
+  "lines": [
+   "Più velocità",
+   "Reazione e frenatura più lunghe",
+   "Arresto più lungo"
+  ]
+ },
+ "q22620": {
+  "short": "Le gomme usurate fanno meno presa: la frenata e l'arresto si allungano.",
+  "rule": "Spazio di arresto = reazione + frenatura; dipende da velocità, pneumatici e strada.",
+  "trap": "L'«usura» dei pneumatici conta: gomme usurate = meno aderenza.",
+  "caption": "Gomme usurate: arresto più lungo",
+  "lines": [
+   "Pneumatici usurati",
+   "Meno aderenza",
+   "Arresto più lungo"
+  ]
+ },
+ "q22621": {
+  "short": "Asfalto bagnato, ghiacciato o sporco fa meno presa: servono più metri per fermarsi.",
+  "rule": "Spazio di arresto = reazione + frenatura; dipende da velocità, pneumatici e strada.",
+  "trap": "Le «condizioni dell'asfalto» cambiano l'aderenza, quindi contano.",
+  "caption": "L'asfalto cambia lo spazio di arresto",
+  "lines": [
+   "Asfalto bagnato o sporco",
+   "Meno aderenza",
+   "Arresto più lungo"
+  ]
+ },
+ "q22622": {
+  "short": "Le gomme usurate fanno meno presa e allungano la frenata: l'arresto DIPENDE da loro.",
+  "rule": "Spazio di arresto = reazione + frenatura; dipende da velocità, pneumatici e strada.",
+  "trap": "«indipendente» è la parola falsa: l'usura conta.",
+  "caption": "Le gomme usurate allungano l'arresto",
+  "lines": [
+   "Pneumatici usurati",
+   "Meno aderenza",
+   "Arresto più lungo"
+  ]
+ },
+ "q22623": {
+  "short": "Asfalto bagnato o ghiacciato fa meno presa e allunga l'arresto: l'asfalto CONTA.",
+  "rule": "Spazio di arresto = reazione + frenatura; dipende da velocità, pneumatici e strada.",
+  "trap": "«indipendente» è la parola falsa: l'asfalto conta.",
+  "caption": "L'asfalto cambia lo spazio di arresto",
+  "lines": [
+   "Asfalto bagnato o ghiacciato",
+   "Meno aderenza",
+   "Arresto più lungo"
+  ]
+ },
+ "q22624": {
+  "short": "Lo spazio di reazione è solo la prima parte. Bisogna aggiungere lo spazio di frenatura.",
+  "rule": "Spazio di arresto = reazione + frenatura; dipende da velocità, pneumatici e strada.",
+  "trap": "Manca la frenata: il totale è reazione PIÙ frenatura.",
+  "caption": "La sola reazione non è l'arresto totale",
+  "lines": [
+   "Spazio di reazione: parte 1",
+   "Spazio di frenatura: parte 2",
+   "Totale = le due insieme"
+  ]
+ },
+ "q22625": {
+  "short": "Lo spazio di frenatura è solo la seconda parte. Prima percorri metri mentre reagisci.",
+  "rule": "Spazio di arresto = reazione + frenatura; dipende da velocità, pneumatici e strada.",
+  "trap": "Manca la reazione: lo «spazio totale» è reazione PIÙ frenatura.",
+  "caption": "La sola frenata non è l'arresto totale",
+  "lines": [
+   "Spazio di reazione: parte 1",
+   "Spazio di frenatura: parte 2",
+   "Totale = le due insieme"
+  ]
+ },
+ "q22626": {
+  "short": "La velocità allunga sia la reazione sia la frenata. È il fattore più importante.",
+  "rule": "Spazio di arresto = reazione + frenatura; dipende da velocità, pneumatici e strada.",
+  "trap": "«non dipende» è falso: la velocità è il fattore principale.",
+  "caption": "La velocità cambia lo spazio di arresto",
+  "lines": [
+   "Più velocità",
+   "Reazione e frenatura più lunghe",
+   "Arresto più lungo"
+  ]
+ },
+ "q22627": {
+  "short": "A velocità più alta percorri più metri mentre reagisci e freni: serve più spazio.",
+  "rule": "L'arresto è più lungo con più velocità, neve, fango o pneumatici usurati.",
+  "trap": "«aumenta la velocità» = arresto più lungo; mai il contrario.",
+  "caption": "Più velocità = arresto più lungo",
+  "lines": [
+   "La velocità sale",
+   "Più metri per reagire e frenare",
+   "Arresto più lungo"
+  ]
+ },
+ "q22628": {
+  "short": "La neve dà pochissima aderenza: la frenata e l'arresto si allungano.",
+  "rule": "L'arresto è più lungo con più velocità, neve, fango o pneumatici usurati.",
+  "trap": "«innevata» = poca aderenza = arresto più lungo.",
+  "caption": "Strada innevata: arresto più lungo",
+  "lines": [
+   "Neve sulla strada",
+   "Pochissima aderenza",
+   "Arresto più lungo"
+  ]
+ },
+ "q22629": {
+  "short": "Il fango è scivoloso e riduce l'aderenza: servono più metri per fermarsi.",
+  "rule": "L'arresto è più lungo con più velocità, neve, fango o pneumatici usurati.",
+  "trap": "Il «fango» rende la strada scivolosa, come acqua o neve.",
+  "caption": "Strada con fango: arresto più lungo",
+  "lines": [
+   "Fango sulla strada",
+   "Scivolosa, poca aderenza",
+   "Arresto più lungo"
+  ]
+ },
+ "q22630": {
+  "short": "Le gomme usurate fanno meno presa, soprattutto sul bagnato: la frenata si allunga.",
+  "rule": "L'arresto è più lungo con più velocità, neve, fango o pneumatici usurati.",
+  "trap": "Pneumatici «usurati» = meno aderenza = arresto più lungo.",
+  "caption": "Gomme usurate: arresto più lungo",
+  "lines": [
+   "Pneumatici usurati",
+   "Meno aderenza",
+   "Arresto più lungo"
+  ]
+ },
+ "q22631": {
+  "short": "Gomme non usurate fanno buona presa. Non allungano l'arresto; lo allungano quelle usurate.",
+  "rule": "L'arresto è più lungo con più velocità, neve, fango o pneumatici usurati.",
+  "trap": "Attento al «non» in «non sono usurati»: le gomme buone aiutano a fermarsi.",
+  "caption": "Gomme buone non allungano l'arresto",
+  "lines": [
+   "Pneumatici in buono stato",
+   "Buona aderenza",
+   "Arresto non più lungo"
+  ]
+ },
+ "q22632": {
+  "short": "A velocità più bassa servono MENO metri per reagire e frenare: l'arresto si accorcia.",
+  "rule": "L'arresto è più lungo con più velocità, neve, fango o pneumatici usurati.",
+  "trap": "«diminuisce»: meno velocità = arresto più corto, non più lungo.",
+  "caption": "Meno velocità = arresto più corto",
+  "lines": [
+   "La velocità scende",
+   "Meno metri per reagire e frenare",
+   "Arresto più corto"
+  ]
+ },
+ "q22633": {
+  "short": "L'asfalto ruvido fa buona presa: l'auto si ferma prima. È quello liscio o bagnato che allunga l'arresto.",
+  "rule": "L'arresto è più lungo con più velocità, neve, fango o pneumatici usurati.",
+  "trap": "«ruvido» vuol dire buona aderenza, non strada scivolosa.",
+  "caption": "Asfalto ruvido fa presa: arresto non più lungo",
+  "lines": [
+   "Asfalto ruvido e asciutto",
+   "Buona aderenza",
+   "Arresto non più lungo"
+  ]
+ },
+ "q22634": {
+  "short": "Un conducente poco concentrato reagisce tardi: percorre più metri prima di frenare.",
+  "rule": "La distanza di sicurezza dipende da velocità, attenzione, carico e pneumatici.",
+  "trap": "La «concentrazione» cambia il tempo di reazione, quindi conta.",
+  "caption": "Meno attenzione = reazione lenta = più distanza",
+  "lines": [
+   "Conducente poco concentrato",
+   "Reagisce più tardi",
+   "Tieni più distanza"
+  ]
+ },
+ "q22635": {
+  "short": "Più vai veloce, più metri servono per reagire e frenare: la distanza deve crescere.",
+  "rule": "La distanza di sicurezza dipende da velocità, attenzione, carico e pneumatici.",
+  "trap": "La «velocità» è il fattore principale: più velocità, più distanza.",
+  "caption": "Più velocità = più distanza",
+  "lines": [
+   "Velocità più alta",
+   "Arresto più lungo",
+   "Tieni più distanza"
+  ]
+ },
+ "q22636": {
+  "short": "Un veicolo molto carico è più pesante e frena in più metri: serve più distanza.",
+  "rule": "La distanza di sicurezza dipende da velocità, attenzione, carico e pneumatici.",
+  "trap": "«carico» è il carico del TUO veicolo: più peso, frenata più lunga.",
+  "caption": "Carico pesante = frenata lunga = più distanza",
+  "lines": [
+   "Il tuo veicolo è carico",
+   "Frena in più metri",
+   "Tieni più distanza"
+  ]
+ },
+ "q22637": {
+  "short": "Poca aderenza o gomme usurate allungano la frenata: serve più distanza.",
+  "rule": "La distanza di sicurezza dipende da velocità, attenzione, carico e pneumatici.",
+  "trap": "«aderenza» e «condizioni» dei pneumatici cambiano lo spazio di frenatura.",
+  "caption": "Poca aderenza o gomme usurate = più distanza",
+  "lines": [
+   "Poca aderenza o gomme usurate",
+   "Frenata più lunga",
+   "Tieni più distanza"
+  ]
+ },
+ "q22639": {
+  "short": "Il numero di corsie non cambia la reazione né la frenata. Conta velocità, strada, gomme, conducente.",
+  "rule": "La distanza di sicurezza dipende da velocità, attenzione, carico e pneumatici.",
+  "trap": "Il «numero di corsie» non c'entra con il fermarsi in tempo.",
+  "caption": "Il numero di corsie non cambia la distanza",
+  "lines": [
+   "Una corsia o tre corsie",
+   "Stessa reazione e frenata",
+   "Conta velocità, strada, gomme"
+  ]
+ },
+ "q22640": {
+  "short": "Per il quiz la distanza dipende dal TUO veicolo e dalla TUA guida: velocità, attenzione, carico, gomme, strada.",
+  "rule": "La distanza di sicurezza dipende da velocità, attenzione, carico e pneumatici.",
+  "trap": "La «dimensione» del veicolo davanti non conta per il quiz; conta solo un carico a rischio.",
+  "caption": "La grandezza del veicolo davanti non conta",
+  "lines": [
+   "Auto piccola o camion davanti",
+   "Conta la TUA frenata",
+   "Grandezza di chi precede: no"
+  ]
+ },
+ "q22641": {
+  "short": "Il numero di marce non cambia la reazione né la frenata. Non c'entra con la distanza.",
+  "rule": "La distanza di sicurezza dipende da velocità, attenzione, carico e pneumatici.",
+  "trap": "Il «numero di marce» è un tranello: non cambia l'arresto.",
+  "caption": "Il numero di marce non cambia la distanza",
+  "lines": [
+   "5 o 6 marce",
+   "Stessa reazione e frenata",
+   "Nessun effetto sulla distanza"
+  ]
+ },
+ "q22642": {
+  "short": "Il numero di ruote non conta. Contano velocità, attenzione, carico, stato delle gomme e strada.",
+  "rule": "La distanza di sicurezza dipende da velocità, attenzione, carico e pneumatici.",
+  "trap": "Il «numero di ruote» è un tranello: conta lo STATO delle gomme, non quante sono.",
+  "caption": "Il numero di ruote non cambia la distanza",
+  "lines": [
+   "2, 4 o 6 ruote",
+   "Contano velocità e aderenza",
+   "Numero di ruote: nessun effetto"
+  ]
+ },
+ "q22643": {
+  "short": "Il servosterzo rende solo più facile girare il volante. Non cambia reazione né frenata.",
+  "rule": "La distanza di sicurezza dipende da velocità, attenzione, carico e pneumatici.",
+  "trap": "Il «servosterzo» riguarda lo sterzo, non la frenata.",
+  "caption": "Il servosterzo non cambia la distanza",
+  "lines": [
+   "Servosterzo: sterzo più facile",
+   "La frenata non cambia",
+   "Nessun effetto sulla distanza"
+  ]
+ },
+ "q22644": {
+  "short": "Benzina, gasolio o GPL non cambiano reazione né frenata. Il carburante non conta.",
+  "rule": "La distanza dipende da salute e attenzione del conducente, non dal carburante.",
+  "trap": "Qui «non dipende» è giusto: l'«alimentazione» non è un fattore.",
+  "caption": "Il carburante non cambia la distanza",
+  "lines": [
+   "Benzina, gasolio o GPL",
+   "Stessa reazione e frenata",
+   "Carburante: nessun effetto"
+  ]
+ },
+ "q22645": {
+  "short": "Un conducente che sta male reagisce più lentamente: percorre più metri prima di frenare.",
+  "rule": "La distanza dipende da salute e attenzione del conducente, non dal carburante.",
+  "trap": "Le «condizioni di salute» cambiano il tempo di reazione, quindi contano.",
+  "caption": "Chi sta male reagisce tardi: più distanza",
+  "lines": [
+   "Conducente malato o stanco",
+   "Reazione più lenta",
+   "Tieni più distanza"
+  ]
+ },
+ "q22646": {
+  "short": "Un conducente distratto vede il pericolo tardi e frena tardi: serve più distanza.",
+  "rule": "La distanza dipende da salute e attenzione del conducente, non dal carburante.",
+  "trap": "«attenzione e concentrazione» cambiano il tempo di reazione.",
+  "caption": "Chi è distratto reagisce tardi: più distanza",
+  "lines": [
+   "Conducente distratto",
+   "Vede il pericolo tardi",
+   "Tieni più distanza"
+  ]
+ },
+ "q22647": {
+  "short": "In colonna, se la prima auto frena, tutti devono frenare. Più distanza dà tempo ed evita i tamponamenti.",
+  "rule": "La distanza dipende da salute e attenzione del conducente, non dal carburante.",
+  "trap": "I «tamponamenti a catena» succedono quando tutti stanno troppo vicini.",
+  "caption": "In colonna: più distanza, niente tamponamenti",
+  "lines": [
+   "Si marcia in colonna",
+   "La prima auto frena",
+   "Più distanza: niente tamponamenti"
+  ]
+ },
+ "q22648": {
+  "short": "La potenza dell'auto davanti non cambia la TUA reazione e frenata. Non conta.",
+  "rule": "La distanza dipende da salute e attenzione del conducente, non dal carburante.",
+  "trap": "La «potenza» del veicolo davanti è un tranello.",
+  "caption": "La potenza di chi precede non conta",
+  "lines": [
+   "Auto potente davanti",
+   "La tua frenata non cambia",
+   "Potenza: nessun effetto"
+  ]
+ },
+ "q22649": {
+  "short": "In marcia ti fermi con il freno a pedale. Il freno a mano serve per la sosta, non conta.",
+  "rule": "La distanza dipende da salute e attenzione del conducente, non dal carburante.",
+  "trap": "Il «freno a mano» serve per la sosta, non per fermarsi in marcia.",
+  "caption": "Il freno a mano non decide la distanza",
+  "lines": [
+   "Ti fermi con il freno a pedale",
+   "Freno a mano: per la sosta",
+   "Nessun effetto sulla distanza"
+  ]
+ },
+ "q22650": {
+  "short": "La distanza di sicurezza è verso il veicolo DAVANTI. Chi ti segue non la cambia.",
+  "rule": "La distanza dipende da salute e attenzione del conducente, non dal carburante.",
+  "trap": "I «veicoli che seguono» non c'entrano con la distanza davanti.",
+  "caption": "Chi ti segue non cambia la distanza",
+  "lines": [
+   "Distanza dal veicolo DAVANTI",
+   "Chi segue: non conta",
+   "Tieni comunque la distanza"
+  ]
+ },
+ "q22651": {
+  "short": "TUTTI i veicoli devono tenere la distanza: auto, moto, camion e quadricicli.",
+  "rule": "La distanza dipende da salute e attenzione del conducente, non dal carburante.",
+  "trap": "«solo» è la parola falsa: la regola vale per tutti.",
+  "caption": "Tutti devono tenere la distanza",
+  "lines": [
+   "Auto, moto, camion",
+   "Anche i quadricicli",
+   "Tutti tengono la distanza"
+  ]
+ },
+ "q22652": {
+  "short": "Prima del sorpasso non devi avvicinarti troppo. Se l'auto davanti frena, devi poterti fermare.",
+  "rule": "Mantienila sempre, per fermarti in tempo: almeno lo spazio di reazione.",
+  "trap": "«anche prima di iniziare un sorpasso»: nessuna eccezione al «sempre».",
+  "caption": "Distanza anche prima di sorpassare",
+  "lines": [
+   "Auto davanti, vuoi sorpassare",
+   "Non stare troppo vicino",
+   "Tieni la distanza, poi sorpassa"
+  ]
+ },
+ "q22653": {
+  "short": "Se chi precede guida in modo incerto, può frenare o girare di colpo. Più distanza dà tempo.",
+  "rule": "Mantienila sempre, per fermarti in tempo: almeno lo spazio di reazione.",
+  "trap": "«difficile valutare» vuol dire imprevedibile: tieni PIÙ distanza.",
+  "caption": "Chi precede è imprevedibile: più distanza",
+  "lines": [
+   "Chi precede è imprevedibile",
+   "Può frenare di colpo",
+   "Tieni più distanza"
+  ]
+ },
+ "q22654": {
+  "short": "È lo scopo della distanza: avere spazio per fermarti in tempo senza urtare chi precede.",
+  "rule": "Mantienila sempre, per fermarti in tempo: almeno lo spazio di reazione.",
+  "trap": "«fermare in tempo» è proprio lo scopo della distanza di sicurezza.",
+  "caption": "Distanza = spazio per fermarsi in tempo",
+  "lines": [
+   "Pericolo davanti",
+   "Reagisci e freni",
+   "Ti fermi in tempo"
+  ]
+ },
+ "q22655": {
+  "short": "Anche chi precede ha bisogno di spazio per frenare: il minimo è lo spazio percorso mentre reagisci (circa 1 secondo).",
+  "rule": "Mantienila sempre, per fermarti in tempo: almeno lo spazio di reazione.",
+  "trap": "«almeno»: lo spazio di reazione è il minimo, di più è meglio.",
+  "caption": "Minimo = metri percorsi nel tempo di reazione",
+  "lines": [
+   "L'auto davanti frena",
+   "Reagisci in circa 1 secondo",
+   "Distanza almeno così"
+  ]
+ },
+ "q22656": {
+  "short": "La distanza non è una copia fissa dello spazio di frenatura. È almeno lo spazio di reazione e cresce con velocità e strada.",
+  "rule": "Mantienila sempre, per fermarti in tempo: almeno lo spazio di reazione.",
+  "trap": "«sempre uguale» è il tranello: la distanza non è legata solo alla frenata.",
+  "caption": "Non è «sempre uguale» alla frenata",
+  "lines": [
+   "Almeno lo spazio di reazione",
+   "Cresce con velocità e strada",
+   "Non sempre = frenatura"
+  ]
+ },
+ "q22657": {
+  "short": "Un carico sporgente o instabile può cadere in strada. Stai più indietro per fermarti o evitarlo.",
+  "rule": "Aumentala per carichi a rischio; non ridurla in galleria, in autostrada o dietro un camion.",
+  "trap": "«sporgente, poco stabile» è un pericolo: tieni PIÙ distanza.",
+  "caption": "Carico instabile davanti: stai più indietro",
+  "lines": [
+   "Camion con carico instabile",
+   "Il carico può cadere",
+   "Tieni più distanza"
+  ]
+ },
+ "q22658": {
+  "short": "La legge non dà un numero fisso per la pioggia. La distanza deve bastare per fermarti, e con pioggia è più grande.",
+  "rule": "Aumentala per carichi a rischio; non ridurla in galleria, in autostrada o dietro un camion.",
+  "trap": "«almeno 100 metri» è un numero fisso inventato.",
+  "caption": "Niente 100 m fissi: basta fermarsi in tempo",
+  "lines": [
+   "Forte pioggia: meno aderenza",
+   "Più distanza del solito",
+   "Nessuna regola dei 100 m"
+  ]
+ },
+ "q22659": {
+  "short": "In galleria luce e visibilità cambiano e un incidente è molto pericoloso. Non ridurre mai la distanza.",
+  "rule": "Aumentala per carichi a rischio; non ridurla in galleria, in autostrada o dietro un camion.",
+  "trap": "«può essere diminuita» è falso: non ridurla mai, tanto meno in galleria.",
+  "caption": "In galleria non ridurre la distanza",
+  "lines": [
+   "Entri in galleria",
+   "Meno luce, incidente grave",
+   "Tieni tutta la distanza"
+  ]
+ },
+ "q22660": {
+  "short": "In autostrada la velocità è alta e l'arresto è lungo. Una frenata improvvisa può sempre succedere.",
+  "rule": "Aumentala per carichi a rischio; non ridurla in galleria, in autostrada o dietro un camion.",
+  "trap": "«non ci si aspetta una frenata improvvisa» è una scusa falsa.",
+  "caption": "Autostrada: velocità alta, più distanza",
+  "lines": [
+   "Autostrada: velocità alta",
+   "Frenate improvvise possibili",
+   "Tieni molta distanza"
+  ]
+ },
+ "q22661": {
+  "short": "Dietro un camion non devi mai ridurre la distanza. Se stai vicino, non vedi la strada davanti.",
+  "rule": "Aumentala per carichi a rischio; non ridurla in galleria, in autostrada o dietro un camion.",
+  "trap": "«si deve diminuire» è la parte falsa, e il motivo non lo permette.",
+  "caption": "Dietro un camion: non ridurre la distanza",
+  "lines": [
+   "Camion davanti",
+   "Troppo vicino: non vedi nulla",
+   "Non ridurre mai la distanza"
+  ]
+ }
+}

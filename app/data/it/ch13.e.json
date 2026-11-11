@@ -1,0 +1,844 @@
+{
+ "q22963": {
+  "short": "Le auto della polizia possono mostrare messaggi luminosi. Sono ordini o avvisi veri: devi rispettarli.",
+  "rule": "Le scritte luminose sulle auto della polizia sono ordini o avvisi. ACCOSTARE / ALT POLIZIA = fermati; INCIDENTE e RALLENTARE = rallenta.",
+  "trap": "«devono attenersi» vuol dire che sono obbligatori, non semplici consigli.",
+  "caption": "Le scritte della polizia vanno rispettate",
+  "lines": [
+   "Auto della polizia con display",
+   "Il messaggio è un ordine",
+   "Rispettalo"
+  ]
+ },
+ "q22964": {
+  "short": "ACCOSTARE vuol dire: vai al bordo della strada e fermati.",
+  "rule": "Le scritte luminose sulle auto della polizia sono ordini o avvisi. ACCOSTARE / ALT POLIZIA = fermati; INCIDENTE e RALLENTARE = rallenta.",
+  "trap": "«arrestarvi» vuol dire fermarsi del tutto, non solo rallentare.",
+  "caption": "ACCOSTARE: vai al bordo e fermati",
+  "lines": [
+   "La polizia sorpassa e si mette davanti",
+   "Display: ACCOSTARE",
+   "Accosta a destra e fermati"
+  ]
+ },
+ "q22965": {
+  "short": "L'auto della polizia si è messa proprio davanti a te: l'ordine è per te. Gli altri continuano con prudenza.",
+  "rule": "Le scritte luminose sulle auto della polizia sono ordini o avvisi. ACCOSTARE / ALT POLIZIA = fermati; INCIDENTE e RALLENTARE = rallenta.",
+  "trap": "«solo voi» sembra un trucco, ma qui è giusto: l'ordine è per il veicolo davanti a cui si mette la polizia.",
+  "caption": "ALT POLIZIA davanti a te: devi fermarti",
+  "lines": [
+   "La polizia si mette davanti a te",
+   "Display: ALT POLIZIA",
+   "L'ordine è per te: fermati"
+  ]
+ },
+ "q22966": {
+  "short": "INCIDENTE avvisa che più avanti c'è stato un incidente. Rallenta e preparati a fermarti.",
+  "rule": "Le scritte luminose sulle auto della polizia sono ordini o avvisi. ACCOSTARE / ALT POLIZIA = fermati; INCIDENTE e RALLENTARE = rallenta.",
+  "trap": "«diminuire la velocità» è proprio quello che chiede l'avviso.",
+  "caption": "INCIDENTE: incidente più avanti, rallenta",
+  "lines": [
+   "Display della polizia: INCIDENTE",
+   "Incidente più avanti",
+   "Rallenta, pronto a fermarti"
+  ]
+ },
+ "q22967": {
+  "short": "INCIDENTE vuol dire che più avanti c'è stato davvero un incidente. Non è un avviso generico su una zona pericolosa.",
+  "rule": "Le scritte luminose sulle auto della polizia sono ordini o avvisi. ACCOSTARE / ALT POLIZIA = fermati; INCIDENTE e RALLENTARE = rallenta.",
+  "trap": "«zona ad alto rischio» è il significato sbagliato: il messaggio parla di un incidente vero, adesso.",
+  "caption": "INCIDENTE = incidente vero, non zona a rischio",
+  "lines": [
+   "Display: INCIDENTE",
+   "Un incidente vero, più avanti",
+   "Non è «zona ad alto rischio»"
+  ]
+ },
+ "q22968": {
+  "short": "ACCOSTARE vuol dire andare al bordo della strada e fermarsi. Non vuol dire svoltare in un'altra strada.",
+  "rule": "Le scritte luminose sulle auto della polizia sono ordini o avvisi. ACCOSTARE / ALT POLIZIA = fermati; INCIDENTE e RALLENTARE = rallenta.",
+  "trap": "«svoltare» è il significato sbagliato: «accostare» è spostarsi al lato e fermarsi.",
+  "caption": "ACCOSTARE = accosta e fermati, non svoltare",
+  "lines": [
+   "Display: ACCOSTARE",
+   "Vai al bordo e fermati",
+   "Non svoltare in un'altra strada"
+  ]
+ },
+ "q22969": {
+  "short": "RALLENTARE vale per tutti i veicoli che lo vedono: auto, moto e camion. Non solo per i mezzi pesanti.",
+  "rule": "Le scritte luminose sulle auto della polizia sono ordini o avvisi. ACCOSTARE / ALT POLIZIA = fermati; INCIDENTE e RALLENTARE = rallenta.",
+  "trap": "«ai soli veicoli pesanti» è il trucco: l'ordine vale per tutti.",
+  "caption": "RALLENTARE vale per tutti i veicoli",
+  "lines": [
+   "Display: RALLENTARE",
+   "Auto, moto, camion",
+   "Tutti rallentano"
+  ]
+ },
+ "q22970": {
+  "short": "Prima di immetterti controlli che la tua manovra non metta nessuno in pericolo e non costringa gli altri a frenare.",
+  "rule": "Quando ti immetti nella circolazione, chi è già sulla strada passa prima. Controlla, metti la freccia in anticipo e parti solo senza pericolo o intralcio.",
+  "trap": "«senza creare pericolo o intralcio» è la regola base di ogni manovra.",
+  "caption": "Immettiti solo senza pericolo o intralcio",
+  "lines": [
+   "Auto parcheggiata vuole partire",
+   "Controlla la strada intorno",
+   "Parti solo se nessuno deve frenare"
+  ]
+ },
+ "q22971": {
+  "short": "Devi capire dove sono gli altri, quanto sono lontani e dove vanno. Solo così ti immetti in sicurezza.",
+  "rule": "Quando ti immetti nella circolazione, chi è già sulla strada passa prima. Controlla, metti la freccia in anticipo e parti solo senza pericolo o intralcio.",
+  "trap": "«posizione, distanza, direzione» sono proprio le tre cose da controllare.",
+  "caption": "Guarda posizione, distanza e direzione degli altri",
+  "lines": [
+   "Dove sono gli altri?",
+   "Quanto sono lontani?",
+   "In che direzione vanno?"
+  ]
+ },
+ "q22972": {
+  "short": "La freccia dice agli altri cosa stai per fare. La accendi presto, prima di partire.",
+  "rule": "Quando ti immetti nella circolazione, chi è già sulla strada passa prima. Controlla, metti la freccia in anticipo e parti solo senza pericolo o intralcio.",
+  "trap": "«con sufficiente anticipo» vuol dire prima della manovra, non all'ultimo momento.",
+  "caption": "Freccia accesa in anticipo prima di immettersi",
+  "lines": [
+   "Prima la freccia",
+   "Aspetta, controlla ancora",
+   "Poi immettiti"
+  ]
+ },
+ "q22973": {
+  "short": "I veicoli che già viaggiano sulla strada passano prima. Aspetti uno spazio sicuro e poi ti immetti.",
+  "rule": "Quando ti immetti nella circolazione, chi è già sulla strada passa prima. Controlla, metti la freccia in anticipo e parti solo senza pericolo o intralcio.",
+  "trap": "«dare la precedenza» ai «veicoli in transito» è il cuore della regola.",
+  "caption": "Chi è già sulla strada passa prima",
+  "lines": [
+   "Un'auto passa sulla strada",
+   "Tu aspetti al bordo",
+   "Ti immetti dopo, con spazio"
+  ]
+ },
+ "q22974": {
+  "short": "Quando ti immetti metti sempre la freccia. Potrebbe esserci qualcuno che non hai visto.",
+  "rule": "Quando ti immetti nella circolazione, chi è già sulla strada passa prima. Controlla, metti la freccia in anticipo e parti solo senza pericolo o intralcio.",
+  "trap": "«può evitare» con «se non sopraggiungono» è il trucco: la freccia serve sempre.",
+  "caption": "Freccia sempre, anche con la strada vuota",
+  "lines": [
+   "La strada sembra vuota",
+   "Metti la freccia lo stesso",
+   "Qualcuno può esserci"
+  ]
+ },
+ "q22975": {
+  "short": "Quando ti immetti dai sempre la precedenza, lo dice la legge. Non serve un segnale.",
+  "rule": "Quando ti immetti nella circolazione, chi è già sulla strada passa prima. Controlla, metti la freccia in anticipo e parti solo senza pericolo o intralcio.",
+  "trap": "«solo in presenza di apposito segnale» è il trucco: l'obbligo c'è sempre.",
+  "caption": "Precedenza quando ti immetti: sempre",
+  "lines": [
+   "Nessun segnale al parcheggio",
+   "Dai la precedenza lo stesso",
+   "La regola vale sempre"
+  ]
+ },
+ "q22976": {
+  "short": "Anche le biciclette sono veicoli. Quando ti immetti dai la precedenza anche a loro.",
+  "rule": "Quando ti immetti nella circolazione, chi è già sulla strada passa prima. Controlla, metti la freccia in anticipo e parti solo senza pericolo o intralcio.",
+  "trap": "«ad eccezione delle biciclette» è il trucco: non c'è nessuna eccezione.",
+  "caption": "Precedenza anche alle biciclette",
+  "lines": [
+   "Arriva una bicicletta",
+   "Passa prima lei",
+   "Nessuna eccezione per le bici"
+  ]
+ },
+ "q22977": {
+  "short": "In moto il casco deve essere indossato e allacciato dal primo metro. Lo metti prima di partire.",
+  "rule": "Cintura o casco PRIMA di partire; la moto ha l'anabbagliante acceso. Poi controlla la strada, anche negli specchietti.",
+  "trap": "«indossare ed allacciare»: indossarlo slacciato non basta.",
+  "caption": "Casco indossato e allacciato prima di partire",
+  "lines": [
+   "Moto al margine della strada",
+   "Casco indossato e allacciato",
+   "Poi parti"
+  ]
+ },
+ "q22978": {
+  "short": "La cintura si allaccia prima di muovere l'auto. Solo chi è esentato per legge non la usa.",
+  "rule": "Cintura o casco PRIMA di partire; la moto ha l'anabbagliante acceso. Poi controlla la strada, anche negli specchietti.",
+  "trap": "«salvo che non sia esentato» rende giusta la frase: poche persone sono esentate.",
+  "caption": "Cintura allacciata prima di partire",
+  "lines": [
+   "Auto ferma al margine",
+   "Allaccia la cintura",
+   "Poi immettiti"
+  ]
+ },
+ "q22979": {
+  "short": "Le moto devono circolare con l'anabbagliante acceso, di giorno e di notte, per essere viste.",
+  "rule": "Cintura o casco PRIMA di partire; la moto ha l'anabbagliante acceso. Poi controlla la strada, anche negli specchietti.",
+  "trap": "«proiettore anabbagliante» è obbligatorio per le moto anche di giorno.",
+  "caption": "Moto: anabbagliante acceso, anche di giorno",
+  "lines": [
+   "Moto pronta a partire",
+   "Anabbagliante acceso",
+   "Gli altri ti vedono meglio"
+  ]
+ },
+ "q22980": {
+  "short": "Il traffico può arrivare da dietro: guardi negli specchietti e anche davanti prima di partire.",
+  "rule": "Cintura o casco PRIMA di partire; la moto ha l'anabbagliante acceso. Poi controlla la strada, anche negli specchietti.",
+  "trap": "«guardando anche negli specchietti» fa parte del controllo corretto.",
+  "caption": "Controlla la strada, anche negli specchietti",
+  "lines": [
+   "Guarda avanti",
+   "Guarda negli specchietti",
+   "Strada libera: parti"
+  ]
+ },
+ "q22981": {
+  "short": "La cintura va allacciata prima di muovere l'auto. Allacciarla dopo è tardi e distrae.",
+  "rule": "Cintura o casco PRIMA di partire; la moto ha l'anabbagliante acceso. Poi controlla la strada, anche negli specchietti.",
+  "trap": "«dopo avere concluso tale manovra» è il trucco: la cintura si allaccia prima.",
+  "caption": "Cintura PRIMA di partire, non dopo",
+  "lines": [
+   "Prima la cintura",
+   "Poi parti",
+   "Non durante la manovra"
+  ]
+ },
+ "q22982": {
+  "short": "Il casco va indossato e allacciato prima di muovere la moto. Si può cadere già nei primi metri.",
+  "rule": "Cintura o casco PRIMA di partire; la moto ha l'anabbagliante acceso. Poi controlla la strada, anche negli specchietti.",
+  "trap": "«dopo avere concluso tale manovra» è il trucco: il casco si mette prima.",
+  "caption": "Casco PRIMA di partire, non dopo",
+  "lines": [
+   "Prima il casco",
+   "Poi parti",
+   "Non dopo la manovra"
+  ]
+ },
+ "q22983": {
+  "short": "La retromarcia è rischiosa perché dietro vedi poco. Controlla che la strada sia libera e vai piano.",
+  "rule": "Uscire in retromarcia: strada libera, piano, freccia accesa, attenzione ai pedoni dietro, precedenza a tutti i veicoli dai due lati.",
+  "trap": "«con prudenza» serve sempre in retromarcia.",
+  "caption": "Retromarcia: strada libera, piano",
+  "lines": [
+   "S esce in retromarcia",
+   "Strada libera? Allora piano"
+  ]
+ },
+ "q22984": {
+  "short": "Anche E si immette nel traffico: deve segnalarlo con la freccia, come chi esce da un parcheggio.",
+  "rule": "Uscire in retromarcia: strada libera, piano, freccia accesa, attenzione ai pedoni dietro, precedenza a tutti i veicoli dai due lati.",
+  "trap": "Qui la domanda parla del veicolo «E», non di S: la regola vale per ogni auto che si immette.",
+  "caption": "Immettersi: freccia accesa",
+  "lines": [
+   "Anche E esce in retromarcia",
+   "Freccia accesa per segnalarlo"
+  ]
+ },
+ "q22985": {
+  "short": "S entra nella strada: chi è già sulla strada passa prima, da tutte e due le direzioni.",
+  "rule": "Uscire in retromarcia: strada libera, piano, freccia accesa, attenzione ai pedoni dietro, precedenza a tutti i veicoli dai due lati.",
+  "trap": "«a tutti» e «sia da destra sia da sinistra» qui sono giusti.",
+  "caption": "Precedenza a tutti, da destra e da sinistra",
+  "lines": [
+   "Traffico da destra e da sinistra",
+   "S aspetta tutti"
+  ]
+ },
+ "q22986": {
+  "short": "I pedoni possono passare dietro le auto parcheggiate, dove li vedi male. Guarda bene prima e durante la manovra.",
+  "rule": "Uscire in retromarcia: strada libera, piano, freccia accesa, attenzione ai pedoni dietro, precedenza a tutti i veicoli dai due lati.",
+  "trap": "«pedoni in transito dietro» sono un pericolo vero in retromarcia.",
+  "caption": "Attenzione ai pedoni dietro di te",
+  "lines": [
+   "Dietro S possono esserci pedoni",
+   "Guarda dietro prima e durante"
+  ]
+ },
+ "q22987": {
+  "short": "Le quattro frecce servono per un veicolo fermo che è un pericolo, non per immettersi. S usa la freccia normale.",
+  "rule": "Uscire in retromarcia: strada libera, piano, freccia accesa, attenzione ai pedoni dietro, precedenza a tutti i veicoli dai due lati.",
+  "trap": "«segnalazione luminosa di pericolo» è il segnale sbagliato qui.",
+  "caption": "Niente quattro frecce: usa la freccia",
+  "lines": [
+   "Quattro frecce: non qui",
+   "Usa la freccia normale"
+  ]
+ },
+ "q22988": {
+  "short": "Nessuna regola chiede di suonare in retromarcia. Guardi bene e vai piano.",
+  "rule": "Uscire in retromarcia: strada libera, piano, freccia accesa, attenzione ai pedoni dietro, precedenza a tutti i veicoli dai due lati.",
+  "trap": "«suonare il clacson durante l'intera manovra» è inventato.",
+  "caption": "Niente clacson: guarda e vai piano",
+  "lines": [
+   "Niente clacson nella manovra",
+   "Guarda e vai piano"
+  ]
+ },
+ "q22989": {
+  "short": "Anche le biciclette sono veicoli. S dà la precedenza anche a loro.",
+  "rule": "Uscire in retromarcia: strada libera, piano, freccia accesa, attenzione ai pedoni dietro, precedenza a tutti i veicoli dai due lati.",
+  "trap": "«ad eccezione delle biciclette» è il trucco: non c'è nessuna eccezione.",
+  "caption": "Precedenza anche alle biciclette",
+  "lines": [
+   "Arriva una bicicletta",
+   "S dà la precedenza anche a lei"
+  ]
+ },
+ "q22990": {
+  "short": "Fermarsi è una manovra come le altre: non deve mettere in pericolo o bloccare nessuno.",
+  "rule": "Per fermarti a destra: freccia destra in anticipo, controlla gli altri, frena dolcemente, nessun pericolo per le due ruote.",
+  "trap": "«senza creare pericolo o intralcio» è la regola base di ogni manovra.",
+  "caption": "Fermati al bordo senza pericolo o intralcio",
+  "lines": [
+   "Vuoi fermarti a destra",
+   "Nessuno deve frenare o sterzare",
+   "Poi accosta e fermati"
+  ]
+ },
+ "q22991": {
+  "short": "Prima di fermarti controlli chi c'è dietro e a fianco, quanto è vicino e dove va.",
+  "rule": "Per fermarti a destra: freccia destra in anticipo, controlla gli altri, frena dolcemente, nessun pericolo per le due ruote.",
+  "trap": "«posizione, distanza, direzione» sono proprio le tre cose da controllare.",
+  "caption": "Guarda posizione, distanza e direzione degli altri",
+  "lines": [
+   "Chi c'è dietro o a fianco?",
+   "Quanto è vicino?",
+   "In che direzione va?"
+  ]
+ },
+ "q22992": {
+  "short": "Bici e moto possono arrivare sulla tua destra. Guarda lo specchio destro e dietro prima di accostare.",
+  "rule": "Per fermarti a destra: freccia destra in anticipo, controlla gli altri, frena dolcemente, nessun pericolo per le due ruote.",
+  "trap": "«veicoli a due ruote sopraggiungenti» sono i più a rischio in questa manovra.",
+  "caption": "Attenzione a bici e moto sulla destra",
+  "lines": [
+   "Vai verso il bordo destro",
+   "Può arrivare una bici a destra",
+   "Controlla prima di accostare"
+  ]
+ },
+ "q22993": {
+  "short": "Chi è dietro deve sapere presto che rallenti e ti fermi. Metti la freccia destra in tempo.",
+  "rule": "Per fermarti a destra: freccia destra in anticipo, controlla gli altri, frena dolcemente, nessun pericolo per le due ruote.",
+  "trap": "«con sufficiente anticipo» vuol dire prima di rallentare, non all'ultimo momento.",
+  "caption": "Freccia destra in anticipo prima di fermarti",
+  "lines": [
+   "Freccia destra presto",
+   "Rallenta dolcemente",
+   "Fermati sul bordo destro"
+  ]
+ },
+ "q22994": {
+  "short": "Una frenata brusca può far tamponare chi è dietro. Rallenta dolcemente, a poco a poco.",
+  "rule": "Per fermarti a destra: freccia destra in anticipo, controlla gli altri, frena dolcemente, nessun pericolo per le due ruote.",
+  "trap": "«evitare brusche frenate» protegge chi ti segue.",
+  "caption": "Frena dolcemente, niente frenate brusche",
+  "lines": [
+   "Un'auto dietro di te",
+   "Frena piano, a poco a poco",
+   "Niente fermata di colpo"
+  ]
+ },
+ "q22995": {
+  "short": "La fermata si segnala con la freccia destra. Lampeggiare con i fari non è il segnale giusto.",
+  "rule": "Per fermarti a destra: freccia destra in anticipo, controlla gli altri, frena dolcemente, nessun pericolo per le due ruote.",
+  "trap": "«lampeggiando ripetutamente» è il segnale sbagliato: usa la freccia.",
+  "caption": "Freccia destra, non lampeggi con i fari",
+  "lines": [
+   "Lampeggi dei fari: no",
+   "Freccia destra: sì",
+   "Poi fermati piano"
+  ]
+ },
+ "q22996": {
+  "short": "La fermata si segnala con la freccia destra. Le quattro frecce sono per un veicolo fermo che è un pericolo.",
+  "rule": "Per fermarti a destra: freccia destra in anticipo, controlla gli altri, frena dolcemente, nessun pericolo per le due ruote.",
+  "trap": "«segnalazione luminosa di pericolo» è il segnale sbagliato qui.",
+  "caption": "Freccia destra, non quattro frecce",
+  "lines": [
+   "Quattro frecce: non qui",
+   "Freccia destra in anticipo",
+   "Poi fermati al bordo"
+  ]
+ },
+ "q22997": {
+  "short": "La fermata si segnala sempre, anche con poco traffico. Dietro può esserci qualcuno che non hai visto.",
+  "rule": "Per fermarti a destra: freccia destra in anticipo, controlla gli altri, frena dolcemente, nessun pericolo per le due ruote.",
+  "trap": "«se il traffico è scarso» è il trucco: segnalare serve sempre.",
+  "caption": "Segnala sempre, anche con poco traffico",
+  "lines": [
+   "Poco traffico intorno",
+   "Metti la freccia lo stesso",
+   "Dietro può esserci qualcuno"
+  ]
+ },
+ "q22998": {
+  "short": "Queste manovre sono pericolose: chi sbaglia paga una multa e perde anche punti.",
+  "rule": "Non rispettare le regole per immettersi porta multa e perdita di punti; i 4 punti per la fermata senza segnalare sono sbagliati.",
+  "trap": "«tra l'altro» vuol dire che i punti si perdono in più rispetto alla multa.",
+  "caption": "Multa e punti dalla patente",
+  "lines": [
+   "Immissione sbagliata",
+   "Multa da pagare",
+   "Punti tolti dalla patente"
+  ]
+ },
+ "q22999": {
+  "short": "Chi non rispetta queste regole paga una multa E perde punti. Non è solo una multa.",
+  "rule": "Non rispettare le regole per immettersi porta multa e perdita di punti; i 4 punti per la fermata senza segnalare sono sbagliati.",
+  "trap": "«non comporta la sottrazione di punti» è il trucco: anche i punti si perdono.",
+  "caption": "Non solo multa: si perdono anche punti",
+  "lines": [
+   "Multa: sì",
+   "Punti tolti: sì, anche",
+   "Non «solo multa»"
+  ]
+ },
+ "q23000": {
+  "short": "Fermarsi senza segnalare è punito, ma non si tolgono 4 punti. Il numero nella frase è sbagliato.",
+  "rule": "Non rispettare le regole per immettersi porta multa e perdita di punti; i 4 punti per la fermata senza segnalare sono sbagliati.",
+  "trap": "«4 punti» è il trucco: il quiz usa un numero sbagliato.",
+  "caption": "Numero sbagliato: non 4 punti",
+  "lines": [
+   "Fermata senza segnalare",
+   "È un'infrazione",
+   "Ma non 4 punti"
+  ]
+ },
+ "q23001": {
+  "short": "Insieme agli sguardi diretti, gli specchi ti fanno vedere cosa succede dietro e a fianco.",
+  "rule": "Gli specchi aiutano a vedere dietro e a fianco, insieme agli sguardi diretti. Non mostrano tutto: restano angoli ciechi.",
+  "trap": "«contribuiscono» è la parola chiave: aiutano, non mostrano tutto.",
+  "caption": "Gli specchi aiutano a vedere intorno",
+  "lines": [
+   "Guardi avanti dal parabrezza",
+   "Gli specchi mostrano dietro e lati",
+   "Insieme: visione ampia"
+  ]
+ },
+ "q23002": {
+  "short": "Lo specchio centrale serve a vedere la strada dietro attraverso il lunotto: regolalo per vederla bene.",
+  "rule": "Regola gli specchi a veicolo fermo, dopo il sedile. Lo specchio centrale deve stare nel tuo campo visivo e mostrare tutto il lunotto.",
+  "trap": "«buona visione posteriore» è proprio lo scopo dello specchio centrale.",
+  "caption": "Specchio centrale: buona vista dietro",
+  "lines": [
+   "Specchio centrale",
+   "Mostra la strada dietro",
+   "Regolalo per vedere bene"
+  ]
+ },
+ "q23003": {
+  "short": "Gli specchi dipendono da dove sono i tuoi occhi. Se sposti il sedile dopo, gli specchi non vanno più bene.",
+  "rule": "Regola gli specchi a veicolo fermo, dopo il sedile. Lo specchio centrale deve stare nel tuo campo visivo e mostrare tutto il lunotto.",
+  "trap": "«dopo»: prima il sedile, poi gli specchi.",
+  "caption": "Prima il sedile, poi gli specchi",
+  "lines": [
+   "1. Regola il sedile",
+   "2. Poi regola gli specchi",
+   "Occhi nella posizione giusta"
+  ]
+ },
+ "q23004": {
+  "short": "Se lo specchio centrale inquadra tutto il lunotto, vedi la strada dietro nel modo più ampio.",
+  "rule": "Regola gli specchi a veicolo fermo, dopo il sedile. Lo specchio centrale deve stare nel tuo campo visivo e mostrare tutto il lunotto.",
+  "trap": "«l'intero lunotto» è il modo giusto per regolarlo.",
+  "caption": "Lo specchio centrale mostra tutto il lunotto",
+  "lines": [
+   "Specchio centrale",
+   "Inquadra tutto il lunotto",
+   "Vista più ampia dietro"
+  ]
+ },
+ "q23005": {
+  "short": "Devi vedere lo specchio centrale con un rapido sguardo, senza girare molto la testa.",
+  "rule": "Regola gli specchi a veicolo fermo, dopo il sedile. Lo specchio centrale deve stare nel tuo campo visivo e mostrare tutto il lunotto.",
+  "trap": "«campo visivo»: lo specchio deve stare dove arrivano subito gli occhi.",
+  "caption": "Specchio centrale nel tuo campo visivo",
+  "lines": [
+   "Specchio centrale",
+   "Nel tuo campo visivo",
+   "Basta un rapido sguardo"
+  ]
+ },
+ "q23006": {
+  "short": "Lo specchio centrale di solito è piano: le auto dietro sembrano lontane quasi quanto sono davvero.",
+  "rule": "Regola gli specchi a veicolo fermo, dopo il sedile. Lo specchio centrale deve stare nel tuo campo visivo e mostrare tutto il lunotto.",
+  "trap": "«in genere» e «ridurre al minimo» rendono giusta la frase.",
+  "caption": "Specchio centrale: piano, poca distorsione",
+  "lines": [
+   "Lo specchio centrale è piano",
+   "Distanza quasi reale",
+   "Gli specchi laterali deformano di più"
+  ]
+ },
+ "q23007": {
+  "short": "Prima di una svolta qualcuno può sorpassarti o arrivare vicino. Lo specchio te lo mostra.",
+  "rule": "Guarda negli specchi prima di ogni manovra: partenza, svolta, cambio corsia, sorpasso, fermata e retromarcia.",
+  "trap": "«prima di svoltare» è uno dei momenti in cui gli specchi sono obbligatori.",
+  "caption": "Specchi prima di ogni svolta",
+  "lines": [
+   "Vuoi svoltare all'incrocio",
+   "Prima guarda negli specchi",
+   "Poi freccia e svolta"
+  ]
+ },
+ "q23008": {
+  "short": "Una levetta inclina lo specchio centrale. Di notte così le luci dietro non ti abbagliano.",
+  "rule": "La posizione antiriflesso dello specchio centrale serve di notte, su ogni strada, contro i fari di chi segue.",
+  "trap": "«antiriflesso» e «ore notturne» vanno insieme.",
+  "caption": "Posizione antiriflesso: per la notte",
+  "lines": [
+   "Notte, fari dietro di te",
+   "Inclina lo specchio centrale",
+   "Niente più abbagliamento"
+  ]
+ },
+ "q23009": {
+  "short": "I fari di chi segue si riflettono nello specchio e ti abbagliano. La posizione antiriflesso li rende più deboli.",
+  "rule": "La posizione antiriflesso dello specchio centrale serve di notte, su ogni strada, contro i fari di chi segue.",
+  "trap": "«veicoli che seguono» è giusto: il problema sono le luci da dietro, non da davanti.",
+  "caption": "Antiriflesso: meno luce da dietro",
+  "lines": [
+   "Fari dietro di te",
+   "Forte riflesso nello specchio",
+   "Antiriflesso: meno fastidio"
+  ]
+ },
+ "q23010": {
+  "short": "Prima della retromarcia devi sapere cosa c'è dietro: auto, bici o pedoni. Gli specchi ti aiutano.",
+  "rule": "Guarda negli specchi prima di ogni manovra: partenza, svolta, cambio corsia, sorpasso, fermata e retromarcia.",
+  "trap": "«prima di iniziare» una retromarcia il controllo negli specchi è obbligatorio.",
+  "caption": "Specchi prima di parcheggiare in retromarcia",
+  "lines": [
+   "Parcheggio in retromarcia",
+   "Guarda gli specchi prima",
+   "Guarda anche dietro"
+  ]
+ },
+ "q23011": {
+  "short": "Prima di sorpassare controlli che nessuno dietro ti stia già sorpassando o arrivi veloce.",
+  "rule": "Guarda negli specchi prima di ogni manovra: partenza, svolta, cambio corsia, sorpasso, fermata e retromarcia.",
+  "trap": "«prima di iniziare una manovra di sorpasso» è un momento classico per gli specchi.",
+  "caption": "Specchi prima di sorpassare"
+ },
+ "q23012": {
+  "short": "Alla fine del sorpasso guardi nello specchio il veicolo sorpassato, poi rientri a destra con spazio.",
+  "rule": "Guarda negli specchi prima di ogni manovra: partenza, svolta, cambio corsia, sorpasso, fermata e retromarcia.",
+  "trap": "«completare in sicurezza»: gli specchi servono anche alla fine del sorpasso.",
+  "caption": "Specchio per rientrare a destra sicuri"
+ },
+ "q23013": {
+  "short": "Si usa proprio di notte, contro il riflesso dei fari di chi segue.",
+  "rule": "La posizione antiriflesso dello specchio centrale serve di notte, su ogni strada, contro i fari di chi segue.",
+  "trap": "«non deve essere utilizzata di notte» capovolge la regola vera.",
+  "caption": "L'antiriflesso si usa di notte",
+  "lines": [
+   "Guida di notte",
+   "Le luci dietro abbagliano",
+   "Usa la posizione antiriflesso"
+  ]
+ },
+ "q23014": {
+  "short": "Nessuna regola la vieta in autostrada. Puoi usarla su ogni strada quando le luci dietro ti abbagliano.",
+  "rule": "La posizione antiriflesso dello specchio centrale serve di notte, su ogni strada, contro i fari di chi segue.",
+  "trap": "«non può essere utilizzata... su autostrada» è inventato.",
+  "caption": "Antiriflesso ammesso anche in autostrada",
+  "lines": [
+   "Autostrada di notte",
+   "Le luci dietro abbagliano",
+   "Antiriflesso: ammesso"
+  ]
+ },
+ "q23015": {
+  "short": "Andare diritto non cambia la tua posizione sulla strada. Gli specchi servono per svoltare, cambiare corsia o sorpassare.",
+  "rule": "Guarda negli specchi prima di ogni manovra: partenza, svolta, cambio corsia, sorpasso, fermata e retromarcia.",
+  "trap": "«ogni volta che... proseguire diritto» è il trucco: non è un momento obbligatorio.",
+  "caption": "Diritto: nessun controllo obbligatorio",
+  "lines": [
+   "Incrocio davanti",
+   "Prosegui diritto",
+   "Specchi obbligatori per le svolte"
+  ]
+ },
+ "q23016": {
+  "short": "Gli specchi non hanno una luce che si accende con le luci di posizione. La frase è inventata.",
+  "rule": "Gli specchi retrovisori sono obbligatori e di tipo approvato. Non si tolgono, non si cambiano con altri tipi e non si circola senza.",
+  "trap": "«illuminazione interna dello specchio» legata alle «luci di posizione» è inventata.",
+  "caption": "Nessuna luce dello specchio con le luci di posizione",
+  "lines": [
+   "Luci di posizione accese",
+   "Lo specchio non si illumina",
+   "Regola inventata"
+  ]
+ },
+ "q23017": {
+  "short": "La misura degli specchi dipende dal tipo e dalla grandezza del veicolo, non dal motore.",
+  "rule": "Gli specchi retrovisori sono obbligatori e di tipo approvato. Non si tolgono, non si cambiano con altri tipi e non si circola senza.",
+  "trap": "«cilindrata» è un legame falso usato per ingannarti.",
+  "caption": "La misura degli specchi non dipende dalla cilindrata",
+  "lines": [
+   "Motore piccolo, motore grande",
+   "Misura specchi: nessun legame",
+   "La cilindrata è un falso indizio"
+  ]
+ },
+ "q23018": {
+  "short": "Gli specchi sono dotazioni obbligatorie. Il sinistro non sostituisce il centrale: ognuno mostra una zona diversa.",
+  "rule": "Gli specchi retrovisori sono obbligatori e di tipo approvato. Non si tolgono, non si cambiano con altri tipi e non si circola senza.",
+  "trap": "«può essere rimosso» è il trucco: uno specchio obbligatorio non si toglie.",
+  "caption": "Lo specchio centrale non si toglie",
+  "lines": [
+   "Specchio centrale: obbligatorio",
+   "Sinistro: obbligatorio anche lui",
+   "Uno non sostituisce l'altro"
+  ]
+ },
+ "q23019": {
+  "short": "I sensori di parcheggio aiutano soltanto. Possono non vedere oggetti bassi o persone che si muovono: usa anche gli specchi.",
+  "rule": "Guarda negli specchi prima di ogni manovra: partenza, svolta, cambio corsia, sorpasso, fermata e retromarcia.",
+  "trap": "«non è necessario... se il veicolo è dotato di sensori» è il trucco: i sensori non sostituiscono gli specchi.",
+  "caption": "I sensori aiutano, gli specchi servono",
+  "lines": [
+   "Retromarcia con i sensori",
+   "I sensori possono sbagliare",
+   "Usa anche gli specchi"
+  ]
+ },
+ "q23020": {
+  "short": "Anche con tutti gli specchi ci sono angoli ciechi che nessuno specchio mostra. Devi anche girare la testa.",
+  "rule": "Lo specchio sinistro è convesso: mostra soprattutto la strada a fianco, falsa distanza e velocità e ha un grande angolo cieco. Aggiungi uno sguardo diretto.",
+  "trap": "«l'intera area» è il trucco: gli angoli ciechi restano sempre.",
+  "caption": "Gli specchi lasciano angoli ciechi",
+  "lines": [
+   "Tutti gli specchi insieme",
+   "Restano angoli ciechi",
+   "Gira la testa per controllare"
+  ]
+ },
+ "q23021": {
+  "short": "Ogni autoveicolo, anche l'autocaravan, deve avere i suoi specchi. Essere larghi non è una scusa.",
+  "rule": "Gli specchi retrovisori sono obbligatori e di tipo approvato. Non si tolgono, non si cambiano con altri tipi e non si circola senza.",
+  "trap": "«possono non essere dotati» è il trucco: gli specchi sono sempre obbligatori.",
+  "caption": "Anche gli autocaravan devono avere gli specchi",
+  "lines": [
+   "Autocaravan: veicolo largo",
+   "Specchi comunque obbligatori",
+   "Nessuna eccezione per la larghezza"
+  ]
+ },
+ "q23022": {
+  "short": "Gli specchi si regolano prima di partire, a veicolo fermo. Farlo guidando ti toglie gli occhi dalla strada.",
+  "rule": "Regola gli specchi a veicolo fermo, dopo il sedile. Lo specchio centrale deve stare nel tuo campo visivo e mostrare tutto il lunotto.",
+  "trap": "«con il veicolo in marcia» è il trucco: si regolano a veicolo fermo.",
+  "caption": "Regola gli specchi a veicolo fermo",
+  "lines": [
+   "Auto ferma",
+   "Regola sedile, poi specchi",
+   "Poi parti"
+  ]
+ },
+ "q23023": {
+  "short": "Gli specchi devono essere di tipo approvato per quel veicolo. Non li cambi con un altro tipo solo perché è più grande.",
+  "rule": "Gli specchi retrovisori sono obbligatori e di tipo approvato. Non si tolgono, non si cambiano con altri tipi e non si circola senza.",
+  "trap": "«purché di superficie maggiore» sembra sicuro, ma non è un motivo valido.",
+  "caption": "Gli specchi non si cambiano con altri tipi",
+  "lines": [
+   "Specchi: tipo approvato",
+   "Più grande non basta",
+   "Niente cambio con tipi diversi"
+  ]
+ },
+ "q23024": {
+  "short": "Senza gli specchi obbligatori non puoi circolare. Andare piano e accendere le quattro frecce non basta.",
+  "rule": "Gli specchi retrovisori sono obbligatori e di tipo approvato. Non si tolgono, non si cambiano con altri tipi e non si circola senza.",
+  "trap": "«purché a velocità non superiore a 50 km/h» è una condizione inventata.",
+  "caption": "Senza specchi non si circola, a nessuna velocità",
+  "lines": [
+   "Specchi mancanti",
+   "50 km/h e quattro frecce?",
+   "No: non puoi circolare"
+  ]
+ },
+ "q23025": {
+  "short": "Un piccolo pezzo della tua auto nello specchio fa da riferimento. Il resto mostra la strada a fianco.",
+  "rule": "Lo specchio sinistro è convesso: mostra soprattutto la strada a fianco, falsa distanza e velocità e ha un grande angolo cieco. Aggiungi uno sguardo diretto.",
+  "trap": "«nel suo terzo di destra»: solo una piccola parte deve mostrare la tua auto.",
+  "caption": "La coda dell'auto nel terzo destro dello specchio",
+  "lines": [
+   "Specchio sinistro",
+   "Coda dell'auto nel terzo destro",
+   "Il resto: la strada a fianco"
+  ]
+ },
+ "q23026": {
+  "short": "Lo specchio sinistro serve per la strada a fianco e dietro a sinistra, da dove arriva chi sorpassa.",
+  "rule": "Lo specchio sinistro è convesso: mostra soprattutto la strada a fianco, falsa distanza e velocità e ha un grande angolo cieco. Aggiungi uno sguardo diretto.",
+  "trap": "«prevalentemente» è la parola chiave: soprattutto strada, poca auto.",
+  "caption": "Specchio sinistro: soprattutto la strada a fianco",
+  "lines": [
+   "Specchio sinistro",
+   "Soprattutto la strada a sinistra",
+   "Da lì arriva chi sorpassa"
+  ]
+ },
+ "q23027": {
+  "short": "Lo specchio sinistro è curvo (convesso) per mostrare più strada. Così le auto sembrano più lontane e più lente.",
+  "rule": "Lo specchio sinistro è convesso: mostra soprattutto la strada a fianco, falsa distanza e velocità e ha un grande angolo cieco. Aggiungi uno sguardo diretto.",
+  "trap": "«falsa la percezione» è giusto: non fidarti ciecamente.",
+  "caption": "Lo specchio sinistro falsa distanza e velocità",
+  "lines": [
+   "Specchio sinistro curvo",
+   "Auto più lontane e lente",
+   "Attenzione nel giudicare"
+  ]
+ },
+ "q23028": {
+  "short": "Nella corsia a sinistra può arrivare un'auto. Guarda lo specchio sinistro prima di spostarti.",
+  "rule": "Guarda negli specchi prima di ogni manovra: partenza, svolta, cambio corsia, sorpasso, fermata e retromarcia.",
+  "trap": "«cambio corsia verso sinistra» è un momento classico per lo specchio sinistro.",
+  "caption": "Specchio sinistro prima di andare a sinistra",
+  "lines": [
+   "Vuoi la corsia di sinistra",
+   "Guarda lo specchio sinistro",
+   "Freccia, poi spostati"
+  ]
+ },
+ "q23029": {
+  "short": "Sorpassi a sinistra: quindi guardi lo specchio sinistro per le auto che stanno già arrivando.",
+  "rule": "Guarda negli specchi prima di ogni manovra: partenza, svolta, cambio corsia, sorpasso, fermata e retromarcia.",
+  "trap": "«prima di iniziare una manovra di sorpasso» è un controllo obbligatorio.",
+  "caption": "Specchio sinistro prima del sorpasso"
+ },
+ "q23030": {
+  "short": "Prima di svoltare a sinistra qualcuno può sorpassarti a sinistra. Lo specchio sinistro te lo mostra.",
+  "rule": "Guarda negli specchi prima di ogni manovra: partenza, svolta, cambio corsia, sorpasso, fermata e retromarcia.",
+  "trap": "«svolta a sinistra» è un momento in cui lo specchio sinistro è obbligatorio.",
+  "caption": "Specchio sinistro prima di svoltare a sinistra",
+  "lines": [
+   "Incrocio: svolti a sinistra",
+   "Guarda lo specchio sinistro",
+   "Freccia, vicino al centro"
+  ]
+ },
+ "q23031": {
+  "short": "C'è una zona a fianco e un po' dietro che lo specchio sinistro non mostra. Un'auto può nascondersi lì.",
+  "rule": "Lo specchio sinistro è convesso: mostra soprattutto la strada a fianco, falsa distanza e velocità e ha un grande angolo cieco. Aggiungi uno sguardo diretto.",
+  "trap": "«angolo cieco molto ampio» è vero: per questo guardi anche girando la testa.",
+  "caption": "Specchio sinistro: grande angolo cieco",
+  "lines": [
+   "Specchio sinistro",
+   "Un'auto nascosta a fianco",
+   "Gira la testa e guarda"
+  ]
+ },
+ "q23032": {
+  "short": "Per l'angolo cieco lo specchio da solo non basta. Un rapido sguardo di lato mostra l'auto nascosta.",
+  "rule": "Lo specchio sinistro è convesso: mostra soprattutto la strada a fianco, falsa distanza e velocità e ha un grande angolo cieco. Aggiungi uno sguardo diretto.",
+  "trap": "«integrato con un rapido controllo visivo» è giusto: specchio più sguardo.",
+  "caption": "Specchio più un rapido sguardo di lato"
+ },
+ "q23033": {
+  "short": "Lo specchio mostra quasi tutta la strada ma non l'angolo cieco. Uno sguardo diretto completa il controllo.",
+  "rule": "Lo specchio sinistro è convesso: mostra soprattutto la strada a fianco, falsa distanza e velocità e ha un grande angolo cieco. Aggiungi uno sguardo diretto.",
+  "trap": "«nonché» vuol dire «e anche»: servono tutti e due i controlli.",
+  "caption": "Immettersi: specchio e sguardo diretto",
+  "lines": [
+   "Fermo, pronto a immetterti",
+   "Guarda lo specchio sinistro",
+   "Poi uno sguardo diretto dietro"
+  ]
+ },
+ "q23034": {
+  "short": "Lo specchio sinistro serve per la strada a fianco e dietro, non per l'interno. Guardare i bambini ti distrae.",
+  "rule": "Guarda negli specchi prima di ogni manovra: partenza, svolta, cambio corsia, sorpasso, fermata e retromarcia.",
+  "trap": "«bambini seduti nella parte posteriore» è lo scopo sbagliato.",
+  "caption": "Lo specchio sinistro è per la strada, non per i bambini",
+  "lines": [
+   "Specchio sinistro",
+   "Mostra la strada fuori",
+   "Non i bambini dentro"
+  ]
+ },
+ "q23035": {
+  "short": "Sulle strade strette lo specchio sinistro serve ancora di più. Chiuderlo nasconde il traffico intorno.",
+  "rule": "Guarda negli specchi prima di ogni manovra: partenza, svolta, cambio corsia, sorpasso, fermata e retromarcia.",
+  "trap": "«deve essere chiuso» è il trucco: nessuna regola lo chiede.",
+  "caption": "Specchio aperto anche in montagna",
+  "lines": [
+   "Strada stretta di montagna",
+   "Specchio sinistro aperto",
+   "Ti serve per vedere"
+  ]
+ },
+ "q23036": {
+  "short": "In città ci sono bici, moto e molti cambi di corsia. Gli specchi servono anche lì.",
+  "rule": "Guarda negli specchi prima di ogni manovra: partenza, svolta, cambio corsia, sorpasso, fermata e retromarcia.",
+  "trap": "«non è necessario» è il trucco: gli specchi servono dappertutto.",
+  "caption": "Gli specchi servono anche in città",
+  "lines": [
+   "Traffico di città",
+   "Bici e scooter intorno",
+   "Usa gli specchi"
+  ]
+ },
+ "q23037": {
+  "short": "Lo sguardo diretto fa parte della guida sicura: copre l'angolo cieco. Devi fare tutti e due.",
+  "rule": "Lo specchio sinistro è convesso: mostra soprattutto la strada a fianco, falsa distanza e velocità e ha un grande angolo cieco. Aggiungi uno sguardo diretto.",
+  "trap": "«è bene non controllare anche» è il trucco: lo sguardo diretto serve.",
+  "caption": "Specchio E sguardo diretto, non solo specchio",
+  "lines": [
+   "Immettersi nel traffico",
+   "Controllo nello specchio",
+   "Anche sguardo diretto"
+  ]
+ },
+ "q23038": {
+  "short": "Gli specchi delle moto si regolano, e vanno regolati per chi guida. Le vibrazioni sono un motivo per controllarli.",
+  "rule": "Regola gli specchi a veicolo fermo, dopo il sedile. Lo specchio centrale deve stare nel tuo campo visivo e mostrare tutto il lunotto.",
+  "trap": "«fissi e senza possibilità di regolazione» è inventato.",
+  "caption": "Gli specchi delle moto si regolano",
+  "lines": [
+   "Specchi della moto",
+   "Si possono regolare",
+   "Regolali per chi guida"
+  ]
+ },
+ "q23039": {
+  "short": "Controlli gli specchi ogni volta che sali in auto, prima di partire. I chilometri non c'entrano.",
+  "rule": "Regola gli specchi a veicolo fermo, dopo il sedile. Lo specchio centrale deve stare nel tuo campo visivo e mostrare tutto il lunotto.",
+  "trap": "«ogni mille chilometri» è un intervallo inventato.",
+  "caption": "Controlla gli specchi ogni volta, non ogni 1000 km",
+  "lines": [
+   "Sali in auto",
+   "Controlla e regola gli specchi",
+   "Ogni volta, non ogni 1000 km"
+  ]
+ },
+ "q23040": {
+  "short": "Le auto con poggiatesta dietro hanno comunque lo specchio centrale. Si guarda tra gli spazi ed è obbligatorio.",
+  "rule": "Gli specchi retrovisori sono obbligatori e di tipo approvato. Non si tolgono, non si cambiano con altri tipi e non si circola senza.",
+  "trap": "«non sono muniti» è il trucco: i poggiatesta non eliminano lo specchio centrale.",
+  "caption": "Poggiatesta dietro: lo specchio centrale c'è",
+  "lines": [
+   "Poggiatesta posteriori",
+   "Specchio centrale presente",
+   "Utile e obbligatorio"
+  ]
+ },
+ "q23041": {
+  "short": "Lo specchio centrale serve a vedere dietro. Usarlo come schermo del navigatore nasconde la strada.",
+  "rule": "Gli specchi retrovisori sono obbligatori e di tipo approvato. Non si tolgono, non si cambiano con altri tipi e non si circola senza.",
+  "trap": "«schermo per il navigatore» è l'uso sbagliato dello specchio.",
+  "caption": "Lo specchio centrale non è uno schermo",
+  "lines": [
+   "Specchio centrale",
+   "Solo per vedere dietro",
+   "Non è uno schermo navigatore"
+  ]
+ }
+}

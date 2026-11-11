@@ -1,0 +1,380 @@
+{
+ "q22070": {
+  "short": "Il pannello A ha una freccia in su: sotto un divieto indica dove il divieto comincia.",
+  "rule": "Pannello bianco con UNA freccia: verso l'alto (o verso sinistra, se è orizzontale). Indica l'INIZIO della regola del segnale sopra. Da qui la regola vale.",
+  "trap": "«punto d'inizio» è giusto: una freccia in su vuol dire inizio.",
+  "caption": "Freccia in su: il divieto inizia qui"
+ },
+ "q22071": {
+  "short": "Il divieto di sosta ha sotto una freccia in su: il divieto comincia proprio qui.",
+  "rule": "Pannello bianco con UNA freccia: verso l'alto (o verso sinistra, se è orizzontale). Indica l'INIZIO della regola del segnale sopra. Da qui la regola vale.",
+  "trap": "«ha inizio in quel punto» corrisponde alla freccia in su.",
+  "caption": "Divieto di sosta da questo punto in poi"
+ },
+ "q22072": {
+  "short": "Il segnale P con una freccia in su indica dove comincia l'area di parcheggio.",
+  "rule": "Pannello bianco con UNA freccia: verso l'alto (o verso sinistra, se è orizzontale). Indica l'INIZIO della regola del segnale sopra. Da qui la regola vale.",
+  "trap": "«inizio» è giusto: sotto il segnale P, la freccia in su indica l'inizio.",
+  "caption": "Qui inizia l'area di parcheggio"
+ },
+ "q22073": {
+  "short": "Il segnale con la X rossa (divieto di fermata) ha una freccia in su: il divieto comincia qui.",
+  "rule": "Pannello bianco con UNA freccia: verso l'alto (o verso sinistra, se è orizzontale). Indica l'INIZIO della regola del segnale sopra. Da qui la regola vale.",
+  "trap": "«divieto di fermata» è giusto: è la X rossa, non il divieto di sosta.",
+  "caption": "Divieto di fermata da questo punto in poi"
+ },
+ "q22074": {
+  "short": "Il segnale blu con il pedone indica un viale pedonale; la freccia in su indica dove comincia.",
+  "rule": "Pannello bianco con UNA freccia: verso l'alto (o verso sinistra, se è orizzontale). Indica l'INIZIO della regola del segnale sopra. Da qui la regola vale.",
+  "trap": "«punto d'inizio» è giusto: una freccia in su vuol dire inizio.",
+  "caption": "Qui inizia il viale pedonale"
+ },
+ "q22075": {
+  "short": "Il pannello A non parla di salite: la freccia in su indica l'inizio della regola del segnale sopra.",
+  "rule": "Pannello bianco con UNA freccia: verso l'alto (o verso sinistra, se è orizzontale). Indica l'INIZIO della regola del segnale sopra. Da qui la regola vale.",
+  "trap": "«strada in salita» è sbagliato: la freccia indica l'inizio, non una salita.",
+  "caption": "Non è una salita: la freccia indica l'inizio"
+ },
+ "q22076": {
+  "short": "Il pannello A non obbliga ad andare diritto: indica solo dove inizia la regola del segnale sopra.",
+  "rule": "Pannello bianco con UNA freccia: verso l'alto (o verso sinistra, se è orizzontale). Indica l'INIZIO della regola del segnale sopra. Da qui la regola vale.",
+  "trap": "«obbligo di proseguire diritto» è sbagliato: gli obblighi sono segnali rotondi blu.",
+  "caption": "Non è «diritto»: indica l'inizio di una regola"
+ },
+ "q22077": {
+  "short": "Il pannello A ha una freccia in su: indica un INIZIO, non una fine, e non parla di sensi unici.",
+  "rule": "Pannello bianco con UNA freccia: verso l'alto (o verso sinistra, se è orizzontale). Indica l'INIZIO della regola del segnale sopra. Da qui la regola vale.",
+  "trap": "«fine» è sbagliato: il pannello di fine ha la freccia in giù.",
+  "caption": "Freccia in su = inizio, non fine di un senso unico"
+ },
+ "q22078": {
+  "short": "Il pannello B è la versione orizzontale dell'inizio: la freccia a sinistra indica dove comincia la regola.",
+  "rule": "Pannello bianco con UNA freccia: verso l'alto (o verso sinistra, se è orizzontale). Indica l'INIZIO della regola del segnale sopra. Da qui la regola vale.",
+  "trap": "«corsia riservata agli autobus» è sbagliato: la corsia bus ha un segnale con l'autobus.",
+  "caption": "Non è corsia bus: pannello di inizio orizzontale"
+ },
+ "q22079": {
+  "short": "Sotto la P c'è un pannello orizzontale con freccia a sinistra: è l'INIZIO del parcheggio, non la fine.",
+  "rule": "Pannello bianco con UNA freccia: verso l'alto (o verso sinistra, se è orizzontale). Indica l'INIZIO della regola del segnale sopra. Da qui la regola vale.",
+  "trap": "«finisce» è sbagliato: nel pannello orizzontale la fine è la freccia a destra.",
+  "caption": "Freccia a sinistra = inizio, non fine"
+ },
+ "q22080": {
+  "short": "Il pannello A ha una freccia in su: indica un INIZIO. La fine si indica con la freccia in giù.",
+  "rule": "Pannello bianco con UNA freccia: verso l'alto (o verso sinistra, se è orizzontale). Indica l'INIZIO della regola del segnale sopra. Da qui la regola vale.",
+  "trap": "«finisce» è sbagliato: freccia in su = inizio, freccia in giù = fine.",
+  "caption": "Freccia in su = inizio, non fine del pericolo"
+ },
+ "q22081": {
+  "short": "Il divieto di sosta ha sotto una doppia freccia (su e giù): il divieto continua.",
+  "rule": "Pannello bianco con DOPPIA freccia (su e giù, o sinistra e destra): CONTINUAZIONE. La regola del segnale sopra vale prima e dopo questo punto.",
+  "trap": "«continua» è giusto: la doppia freccia vuol dire continuazione.",
+  "caption": "Il divieto di sosta continua"
+ },
+ "q22082": {
+  "short": "Il divieto di sorpasso ha sotto una doppia freccia: ricorda che il divieto vale ancora.",
+  "rule": "Pannello bianco con DOPPIA freccia (su e giù, o sinistra e destra): CONTINUAZIONE. La regola del segnale sopra vale prima e dopo questo punto.",
+  "trap": "«conferma la continuazione» è giusto: doppia freccia = continuazione.",
+  "caption": "Il divieto di sorpasso continua"
+ },
+ "q22083": {
+  "short": "Il limite di 80 km/h ha sotto una doppia freccia: il limite vale ancora.",
+  "rule": "Pannello bianco con DOPPIA freccia (su e giù, o sinistra e destra): CONTINUAZIONE. La regola del segnale sopra vale prima e dopo questo punto.",
+  "trap": "«continuazione» è giusto: doppia freccia = la regola continua.",
+  "caption": "Il limite di 80 vale ancora"
+ },
+ "q22084": {
+  "short": "La strada sdrucciolevole ha sotto un pannello con frecce a sinistra e a destra: il pericolo continua.",
+  "rule": "Pannello bianco con DOPPIA freccia (su e giù, o sinistra e destra): CONTINUAZIONE. La regola del segnale sopra vale prima e dopo questo punto.",
+  "trap": "«continuazione» è giusto: anche la doppia freccia orizzontale vuol dire continuazione.",
+  "caption": "Strada scivolosa ancora: andare piano"
+ },
+ "q22085": {
+  "short": "Il divieto di fermata ha la doppia freccia: il divieto vale prima e dopo questo punto.",
+  "rule": "Pannello bianco con DOPPIA freccia (su e giù, o sinistra e destra): CONTINUAZIONE. La regola del segnale sopra vale prima e dopo questo punto.",
+  "trap": "«sia prima che dopo» è giusto: è proprio la continuazione.",
+  "caption": "Fermata vietata prima e dopo il segnale"
+ },
+ "q22086": {
+  "short": "Il pannello A ha una doppia freccia: sotto un pericolo vuol dire che il pericolo continua.",
+  "rule": "Pannello bianco con DOPPIA freccia (su e giù, o sinistra e destra): CONTINUAZIONE. La regola del segnale sopra vale prima e dopo questo punto.",
+  "trap": "«continuazione» è giusto: doppia freccia = continua.",
+  "caption": "Doppia freccia: il pericolo continua"
+ },
+ "q22087": {
+  "short": "Il pannello A non dice di tornare indietro: la doppia freccia vuol dire che la regola continua.",
+  "rule": "Pannello bianco con DOPPIA freccia (su e giù, o sinistra e destra): CONTINUAZIONE. La regola del segnale sopra vale prima e dopo questo punto.",
+  "trap": "«tornare indietro» è sbagliato: la freccia in giù fa parte della doppia freccia.",
+  "caption": "Non «tornare indietro»: la regola continua"
+ },
+ "q22088": {
+  "short": "Sotto la P il pannello ha frecce a sinistra e a destra: il parcheggio continua, non finisce.",
+  "rule": "Pannello bianco con DOPPIA freccia (su e giù, o sinistra e destra): CONTINUAZIONE. La regola del segnale sopra vale prima e dopo questo punto.",
+  "trap": "«fine» è sbagliato: frecce dai due lati vogliono dire continuazione.",
+  "caption": "Frecce dai due lati: il parcheggio continua"
+ },
+ "q22089": {
+  "short": "Il pannello A non parla di senso unico alternato: la doppia freccia vuol dire che la regola continua.",
+  "rule": "Pannello bianco con DOPPIA freccia (su e giù, o sinistra e destra): CONTINUAZIONE. La regola del segnale sopra vale prima e dopo questo punto.",
+  "trap": "«senso unico alternato» è sbagliato: si regola con semafori o segnali di precedenza.",
+  "caption": "Non è senso unico alternato: la regola continua"
+ },
+ "q22090": {
+  "short": "Il pannello A ha la doppia freccia: il pericolo CONTINUA. La fine è una sola freccia in giù.",
+  "rule": "Pannello bianco con DOPPIA freccia (su e giù, o sinistra e destra): CONTINUAZIONE. La regola del segnale sopra vale prima e dopo questo punto.",
+  "trap": "«fine» è sbagliato: doppia freccia = continua, freccia in giù = fine.",
+  "caption": "Doppia freccia = continua, non fine"
+ },
+ "q22091": {
+  "short": "Il pannello A non indica direzioni: la doppia freccia vuol dire che la regola continua.",
+  "rule": "Pannello bianco con DOPPIA freccia (su e giù, o sinistra e destra): CONTINUAZIONE. La regola del segnale sopra vale prima e dopo questo punto.",
+  "trap": "«due direzioni consentite» è sbagliato: quelle sono segnali rotondi blu.",
+  "caption": "Non sono due direzioni: la regola continua"
+ },
+ "q22092": {
+  "short": "Il pannello A non indica il doppio senso: la doppia freccia vuol dire che la regola continua.",
+  "rule": "Pannello bianco con DOPPIA freccia (su e giù, o sinistra e destra): CONTINUAZIONE. La regola del segnale sopra vale prima e dopo questo punto.",
+  "trap": "«doppio senso di circolazione» è sbagliato: è un triangolo rosso con due frecce.",
+  "caption": "Non è doppio senso: la regola continua"
+ },
+ "q22093": {
+  "short": "Il divieto di sosta ha sotto una freccia in giù: il divieto finisce qui.",
+  "rule": "Pannello bianco con UNA freccia verso il BASSO (o verso destra, se è orizzontale): indica la FINE della regola del segnale sopra. Dopo, la regola non vale più.",
+  "trap": "«termina» è giusto: freccia in giù = fine.",
+  "caption": "Qui finisce il divieto di sosta"
+ },
+ "q22094": {
+  "short": "Il divieto di fermata ha sotto un pannello con freccia a destra: il divieto finisce qui.",
+  "rule": "Pannello bianco con UNA freccia verso il BASSO (o verso destra, se è orizzontale): indica la FINE della regola del segnale sopra. Dopo, la regola non vale più.",
+  "trap": "«termina» è giusto: nel pannello orizzontale la freccia a destra vuol dire fine.",
+  "caption": "Qui finisce il divieto di fermata"
+ },
+ "q22095": {
+  "short": "Il segnale lavori ha sotto una freccia in giù: il cantiere finisce qui.",
+  "rule": "Pannello bianco con UNA freccia verso il BASSO (o verso destra, se è orizzontale): indica la FINE della regola del segnale sopra. Dopo, la regola non vale più.",
+  "trap": "«fine» è giusto: freccia in giù = fine.",
+  "caption": "Qui finiscono i lavori"
+ },
+ "q22096": {
+  "short": "Sotto la P c'è un pannello con freccia a destra: l'area di parcheggio finisce qui.",
+  "rule": "Pannello bianco con UNA freccia verso il BASSO (o verso destra, se è orizzontale): indica la FINE della regola del segnale sopra. Dopo, la regola non vale più.",
+  "trap": "«fine» è giusto: freccia a destra nel pannello orizzontale = fine.",
+  "caption": "Qui finisce l'area di parcheggio"
+ },
+ "q22097": {
+  "short": "Il segnale strada deformata ha sotto una freccia in giù: il tratto con buche finisce qui.",
+  "rule": "Pannello bianco con UNA freccia verso il BASSO (o verso destra, se è orizzontale): indica la FINE della regola del segnale sopra. Dopo, la regola non vale più.",
+  "trap": "«fine» è giusto: freccia in giù = fine.",
+  "caption": "Qui finisce la strada deformata"
+ },
+ "q22098": {
+  "short": "La strada sdrucciolevole ha sotto un pannello con freccia a destra: il tratto scivoloso finisce qui.",
+  "rule": "Pannello bianco con UNA freccia verso il BASSO (o verso destra, se è orizzontale): indica la FINE della regola del segnale sopra. Dopo, la regola non vale più.",
+  "trap": "«fine» è giusto: freccia a destra nel pannello orizzontale = fine.",
+  "caption": "Qui finisce la strada scivolosa"
+ },
+ "q22099": {
+  "short": "Il pannello A non parla di discese: la freccia in giù indica la FINE della regola del segnale sopra.",
+  "rule": "Pannello bianco con UNA freccia verso il BASSO (o verso destra, se è orizzontale): indica la FINE della regola del segnale sopra. Dopo, la regola non vale più.",
+  "trap": "«strada in discesa» è sbagliato: la freccia in giù vuol dire fine.",
+  "caption": "Non è discesa: freccia in giù = fine"
+ },
+ "q22100": {
+  "short": "Il pannello B ha la freccia a destra: sotto la P indica la FINE del parcheggio, non l'inizio.",
+  "rule": "Pannello bianco con UNA freccia verso il BASSO (o verso destra, se è orizzontale): indica la FINE della regola del segnale sopra. Dopo, la regola non vale più.",
+  "trap": "«inizio» è sbagliato: nel pannello orizzontale l'inizio è la freccia a sinistra.",
+  "caption": "Freccia a destra = fine, non inizio"
+ },
+ "q22101": {
+  "short": "Il pannello A ha una freccia in giù: indica la FINE del divieto, non l'inizio.",
+  "rule": "Pannello bianco con UNA freccia verso il BASSO (o verso destra, se è orizzontale): indica la FINE della regola del segnale sopra. Dopo, la regola non vale più.",
+  "trap": "«inizio» è sbagliato: il pannello di inizio ha la freccia in su.",
+  "caption": "Freccia in giù = fine del divieto"
+ },
+ "q22102": {
+  "short": "Il pannello A non chiude la strada: la freccia in giù indica solo la fine della regola sopra.",
+  "rule": "Pannello bianco con UNA freccia verso il BASSO (o verso destra, se è orizzontale): indica la FINE della regola del segnale sopra. Dopo, la regola non vale più.",
+  "trap": "«strada chiusa al traffico» è sbagliato: un pannello non crea una regola nuova.",
+  "caption": "Non è strada chiusa: freccia in giù = fine"
+ },
+ "q22103": {
+  "short": "È il segnale FINE del divieto di sorpasso: disco bianco con auto grigie e barra nera. Da qui si può sorpassare.",
+  "rule": "Un segnale con una barra nera obliqua indica la FINE di un divieto. La continuazione si indica con un pannello a doppia freccia sotto il divieto.",
+  "trap": "«continuazione» è sbagliato: la barra nera vuol dire fine.",
+  "caption": "Fine del divieto di sorpasso, non continuazione"
+ },
+ "q22104": {
+  "short": "Il pannello A non indica una direzione obbligatoria: la freccia in giù indica la fine della regola sopra.",
+  "rule": "Pannello bianco con UNA freccia verso il BASSO (o verso destra, se è orizzontale): indica la FINE della regola del segnale sopra. Dopo, la regola non vale più.",
+  "trap": "«unica direzione consentita» è sbagliato: le direzioni obbligatorie sono segnali rotondi blu.",
+  "caption": "Non è una direzione: freccia in giù = fine"
+ },
+ "q22105": {
+  "short": "Il pennello che dipinge vuol dire che per ora le strisce non ci sono, perché le stanno rifacendo.",
+  "rule": "Pannello quadrato con un pennello che dipinge una striscia: la segnaletica orizzontale (le strisce dipinte) manca per un po', perché la stanno rifacendo. Si mette sotto il segnale ALTRI PERICOLI.",
+  "trap": "«temporaneamente manca» è giusto: le strisce poi tornano.",
+  "caption": "Strisce mancanti per ora"
+ },
+ "q22106": {
+  "short": "Il pannello col pennello indica un tratto dove per un po' mancano le strisce.",
+  "rule": "Pannello quadrato con un pennello che dipinge una striscia: la segnaletica orizzontale (le strisce dipinte) manca per un po', perché la stanno rifacendo. Si mette sotto il segnale ALTRI PERICOLI.",
+  "trap": "«non è temporaneamente presente» è giusto.",
+  "caption": "In questo tratto mancano le strisce"
+ },
+ "q22107": {
+  "short": "Il pennello che dipinge dice proprio questo: stanno rifacendo le strisce.",
+  "rule": "Pannello quadrato con un pennello che dipinge una striscia: la segnaletica orizzontale (le strisce dipinte) manca per un po', perché la stanno rifacendo. Si mette sotto il segnale ALTRI PERICOLI.",
+  "trap": "«rifare» è giusto: le strisce mancano perché le ridipingono.",
+  "caption": "Stanno rifacendo le strisce"
+ },
+ "q22108": {
+  "short": "Come altri pannelli di pericolo, si mette sotto il triangolo col punto esclamativo (ALTRI PERICOLI).",
+  "rule": "Pannello quadrato con un pennello che dipinge una striscia: la segnaletica orizzontale (le strisce dipinte) manca per un po', perché la stanno rifacendo. Si mette sotto il segnale ALTRI PERICOLI.",
+  "trap": "«ALTRI PERICOLI» è giusto: il pannello spiega quale pericolo c'è.",
+  "caption": "Sotto il triangolo con «!»: mancano le strisce"
+ },
+ "q22109": {
+  "short": "La strada è aperta: il pannello col pennello avvisa solo che mancano le strisce.",
+  "rule": "Pannello quadrato con un pennello che dipinge una striscia: la segnaletica orizzontale (le strisce dipinte) manca per un po', perché la stanno rifacendo. Si mette sotto il segnale ALTRI PERICOLI.",
+  "trap": "«strada chiusa» è sbagliato: si passa, con prudenza.",
+  "caption": "Non è chiusa: mancano le strisce"
+ },
+ "q22110": {
+  "short": "Il disegno è un pennello, non neve: avvisa che stanno rifacendo le strisce.",
+  "rule": "Pannello quadrato con un pennello che dipinge una striscia: la segnaletica orizzontale (le strisce dipinte) manca per un po', perché la stanno rifacendo. Si mette sotto il segnale ALTRI PERICOLI.",
+  "trap": "«innevata» è sbagliato: la striscia bianca è vernice, non neve.",
+  "caption": "Non è neve: rifanno le strisce"
+ },
+ "q22111": {
+  "short": "Sul pannello non c'è un pedone: il pennello vuol dire che rifanno le strisce.",
+  "rule": "Pannello quadrato con un pennello che dipinge una striscia: la segnaletica orizzontale (le strisce dipinte) manca per un po', perché la stanno rifacendo. Si mette sotto il segnale ALTRI PERICOLI.",
+  "trap": "«attraversamento pedonale» è sbagliato: la striscia non sono le zebre.",
+  "caption": "Nessun passaggio pedonale: rifanno le strisce"
+ },
+ "q22112": {
+  "short": "Il pannello col pennello non parla di sensi di marcia: avvisa che mancano le strisce.",
+  "rule": "Pannello quadrato con un pennello che dipinge una striscia: la segnaletica orizzontale (le strisce dipinte) manca per un po', perché la stanno rifacendo. Si mette sotto il segnale ALTRI PERICOLI.",
+  "trap": "«senso unico» è sbagliato: il senso unico ha segnali blu suoi.",
+  "caption": "Non è senso unico: mancano le strisce"
+ },
+ "q22113": {
+  "short": "Il pannello non è un divieto: avvisa che mancano le strisce, quindi forse non c'è nessuna linea.",
+  "rule": "Pannello quadrato con un pennello che dipinge una striscia: la segnaletica orizzontale (le strisce dipinte) manca per un po', perché la stanno rifacendo. Si mette sotto il segnale ALTRI PERICOLI.",
+  "trap": "«non è consentito superare la linea continua» è sbagliato: parla di strisce mancanti.",
+  "caption": "Nessun divieto: mancano le strisce"
+ },
+ "q22114": {
+  "short": "Il pannello rosso con due auto scontrate avvisa di un incidente: bisogna rallentare.",
+  "rule": "Pannello quadrato rosso con due auto scontrate: c'è un incidente più avanti, veicoli incidentati sulla carreggiata. Bisogna rallentare. Si usa su ogni strada, non solo in autostrada.",
+  "trap": "«rallentare» è giusto: ci possono essere auto e persone sulla strada.",
+  "caption": "Incidente più avanti: rallenta"
+ },
+ "q22115": {
+  "short": "Le due auto scontrate vogliono dire veicoli incidentati sulla strada più avanti.",
+  "rule": "Pannello quadrato rosso con due auto scontrate: c'è un incidente più avanti, veicoli incidentati sulla carreggiata. Bisogna rallentare. Si usa su ogni strada, non solo in autostrada.",
+  "trap": "«veicoli incidentati» è giusto: è proprio il disegno.",
+  "caption": "Auto incidentate sulla strada"
+ },
+ "q22116": {
+  "short": "Il pannello rosso avvisa che auto incidentate occupano una parte della strada.",
+  "rule": "Pannello quadrato rosso con due auto scontrate: c'è un incidente più avanti, veicoli incidentati sulla carreggiata. Bisogna rallentare. Si usa su ogni strada, non solo in autostrada.",
+  "trap": "«occupata» è giusto: le auto incidentate bloccano parte della carreggiata.",
+  "caption": "Strada occupata da auto incidentate"
+ },
+ "q22117": {
+  "short": "Il pannello rosso con auto scontrate avvisa di un incidente: bisogna diminuire la velocità.",
+  "rule": "Pannello quadrato rosso con due auto scontrate: c'è un incidente più avanti, veicoli incidentati sulla carreggiata. Bisogna rallentare. Si usa su ogni strada, non solo in autostrada.",
+  "trap": "«diminuire la velocità» è giusto: essere pronti a fermarsi.",
+  "caption": "Incidente: diminuisci la velocità"
+ },
+ "q22118": {
+  "short": "Il disegno mostra due auto scontrate: avvisa di un incidente, non di strada scivolosa.",
+  "rule": "Pannello quadrato rosso con due auto scontrate: c'è un incidente più avanti, veicoli incidentati sulla carreggiata. Bisogna rallentare. Si usa su ogni strada, non solo in autostrada.",
+  "trap": "«sdrucciolevole» è sbagliato: è un triangolo con l'auto che sbanda.",
+  "caption": "Non è scivolosa: c'è un incidente"
+ },
+ "q22119": {
+  "short": "Il pannello incidente non obbliga a fermarsi: avvisa di auto incidentate, quindi si rallenta.",
+  "rule": "Pannello quadrato rosso con due auto scontrate: c'è un incidente più avanti, veicoli incidentati sulla carreggiata. Bisogna rallentare. Si usa su ogni strada, non solo in autostrada.",
+  "trap": "«fermarsi e dare la precedenza» è sbagliato: è il segnale STOP.",
+  "caption": "Non è uno STOP: incidente, rallenta"
+ },
+ "q22120": {
+  "short": "Gli incidenti capitano su ogni strada: questo pannello si usa ovunque, non solo in autostrada.",
+  "rule": "Pannello quadrato rosso con due auto scontrate: c'è un incidente più avanti, veicoli incidentati sulla carreggiata. Bisogna rallentare. Si usa su ogni strada, non solo in autostrada.",
+  "trap": "«solo» è sbagliato: non vale solo in autostrada.",
+  "caption": "Su ogni strada, non solo in autostrada"
+ },
+ "q22121": {
+  "short": "Il pannello rosso con auto scontrate avvisa di un incidente, non vieta la sosta.",
+  "rule": "Pannello quadrato rosso con due auto scontrate: c'è un incidente più avanti, veicoli incidentati sulla carreggiata. Bisogna rallentare. Si usa su ogni strada, non solo in autostrada.",
+  "trap": "«divieto di sosta» è sbagliato: è un disco blu con bordo e barra rossi.",
+  "caption": "Non è divieto di sosta: c'è un incidente"
+ },
+ "q22122": {
+  "short": "Il pannello avvisa di un incidente sulla strada, non di un'officina.",
+  "rule": "Pannello quadrato rosso con due auto scontrate: c'è un incidente più avanti, veicoli incidentati sulla carreggiata. Bisogna rallentare. Si usa su ogni strada, non solo in autostrada.",
+  "trap": "«garage» è sbagliato: le auto incidentate sono sulla strada.",
+  "caption": "Non è un garage: auto incidentate sulla strada"
+ },
+ "q22123": {
+  "short": "Il pannello non chiede le luci: avvisa che c'è già un incidente, quindi si rallenta.",
+  "rule": "Pannello quadrato rosso con due auto scontrate: c'è un incidente più avanti, veicoli incidentati sulla carreggiata. Bisogna rallentare. Si usa su ogni strada, non solo in autostrada.",
+  "trap": "«accendere le luci» è sbagliato: bisogna rallentare per l'incidente.",
+  "caption": "Non «accendi le luci»: incidente, rallenta"
+ },
+ "q22124": {
+  "short": "Le due locomotive sul pannello avvisano di binari di manovra che attraversano la strada.",
+  "rule": "Pannello bianco con due locomotive, sotto ALTRI PERICOLI: avvisa di binari di manovra o di raccordo che attraversano la strada vicino agli scali merci. Rallentare. Vale per chi guida su strada, non per i treni.",
+  "trap": "«binari di manovra» è giusto: qui i treni si spostano piano, vicino agli scali merci.",
+  "caption": "Binari di manovra sulla strada"
+ },
+ "q22125": {
+  "short": "Il triangolo con «!» e il pannello con due locomotive avvisano di binari di manovra che attraversano la strada.",
+  "rule": "Pannello bianco con due locomotive, sotto ALTRI PERICOLI: avvisa di binari di manovra o di raccordo che attraversano la strada vicino agli scali merci. Rallentare. Vale per chi guida su strada, non per i treni.",
+  "trap": "«attraversamento» è giusto: i binari passano sulla strada.",
+  "caption": "Binari di manovra attraversano la strada"
+ },
+ "q22126": {
+  "short": "È proprio il significato del pannello: binari per spostare i treni vicino agli scali merci attraversano la strada.",
+  "rule": "Pannello bianco con due locomotive, sotto ALTRI PERICOLI: avvisa di binari di manovra o di raccordo che attraversano la strada vicino agli scali merci. Rallentare. Vale per chi guida su strada, non per i treni.",
+  "trap": "«binari di manovra o di raccordo» e «scali merci» sono giusti.",
+  "caption": "Binari vicino a uno scalo merci: rallenta"
+ },
+ "q22127": {
+  "short": "È un segnale di pericolo: binari di manovra attraversano la strada, quindi bisogna rallentare.",
+  "rule": "Pannello bianco con due locomotive, sotto ALTRI PERICOLI: avvisa di binari di manovra o di raccordo che attraversano la strada vicino agli scali merci. Rallentare. Vale per chi guida su strada, non per i treni.",
+  "trap": "«diminuire la velocità» è giusto: ogni pericolo chiede più attenzione e meno velocità.",
+  "caption": "Pericolo: diminuisci la velocità"
+ },
+ "q22128": {
+  "short": "Il pannello con due locomotive si mette sotto il triangolo con «!» (ALTRI PERICOLI).",
+  "rule": "Pannello bianco con due locomotive, sotto ALTRI PERICOLI: avvisa di binari di manovra o di raccordo che attraversano la strada vicino agli scali merci. Rallentare. Vale per chi guida su strada, non per i treni.",
+  "trap": "«abbinato» è giusto: il pannello spiega il pericolo generico.",
+  "caption": "Il pannello va sotto il triangolo con «!»"
+ },
+ "q22129": {
+  "short": "Le locomotive sono treni veri, non giocattoli: il pannello avvisa di binari di manovra.",
+  "rule": "Pannello bianco con due locomotive, sotto ALTRI PERICOLI: avvisa di binari di manovra o di raccordo che attraversano la strada vicino agli scali merci. Rallentare. Vale per chi guida su strada, non per i treni.",
+  "trap": "«gare di modellismo» è sbagliato: è un avviso di pericolo per binari veri.",
+  "caption": "Non giocattoli: binari di manovra veri"
+ },
+ "q22130": {
+  "short": "Il pannello mostra locomotive, cioè treni su binari di manovra, non tram.",
+  "rule": "Pannello bianco con due locomotive, sotto ALTRI PERICOLI: avvisa di binari di manovra o di raccordo che attraversano la strada vicino agli scali merci. Rallentare. Vale per chi guida su strada, non per i treni.",
+  "trap": "«tram» è sbagliato: per i tram c'è un segnale con il tram disegnato.",
+  "caption": "Treni di manovra, non tram"
+ },
+ "q22131": {
+  "short": "I segnali stradali sono per chi guida su strada: il pannello avvisa che possono passare treni di manovra.",
+  "rule": "Pannello bianco con due locomotive, sotto ALTRI PERICOLI: avvisa di binari di manovra o di raccordo che attraversano la strada vicino agli scali merci. Rallentare. Vale per chi guida su strada, non per i treni.",
+  "trap": "«conducenti dei treni» è sbagliato: i treni hanno segnali ferroviari.",
+  "caption": "Per chi guida su strada, non per i treni"
+ },
+ "q22132": {
+  "short": "Due locomotive non vogliono dire due binari: il pannello avvisa di binari di manovra, non di un passaggio a livello.",
+  "rule": "Pannello bianco con due locomotive, sotto ALTRI PERICOLI: avvisa di binari di manovra o di raccordo che attraversano la strada vicino agli scali merci. Rallentare. Vale per chi guida su strada, non per i treni.",
+  "trap": "«passaggio a livello con due binari» è sbagliato: i passaggi a livello hanno segnali propri.",
+  "caption": "Non è un passaggio a livello: binari di manovra"
+ }
+}

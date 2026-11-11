@@ -1,0 +1,2140 @@
+{
+ "q22397": {
+  "en": "Where a special sign says so, the maximum speed limit can be 150 km/h on stretches of motorway with special features.",
+  "explain": {
+   "short": "On motorway stretches built for it (for example 3 lanes plus an emergency lane), the road owner can raise the limit to 150 km/h, but only with signs.",
+   "rule": "Unless signs say otherwise: motorways 130 km/h (110 in rain or snow), main out-of-town roads 110 km/h (90 in rain or snow), other out-of-town roads 90 km/h, towns 50 km/h. Signs can allow 150 km/h on some motorways and 70 km/h on some town roads.",
+   "trap": "'In presenza di apposito segnale' (where a special sign is present): 150 km/h is never the normal limit.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "150 km/h only where signs allow it",
+    "it": "apposito segnale",
+    "lines": [
+     "Motorway: 130 km/h",
+     "Special stretch with signs: 150 km/h"
+    ],
+    "icons": [
+     "road",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "apposito segnale",
+    "en": "a special sign"
+   },
+   {
+    "it": "tratti di autostrade",
+    "en": "stretches of motorway"
+   },
+   {
+    "it": "particolari caratteristiche",
+    "en": "special features"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22398": {
+  "en": "Unless signs say otherwise, the maximum speed limit on motorways is 130 km/h.",
+  "explain": {
+   "short": "130 km/h is the normal maximum on Italian motorways when no sign gives a different limit.",
+   "rule": "Unless signs say otherwise: motorways 130 km/h (110 in rain or snow), main out-of-town roads 110 km/h (90 in rain or snow), other out-of-town roads 90 km/h, towns 50 km/h. Signs can allow 150 km/h on some motorways and 70 km/h on some town roads.",
+   "trap": "'Salvo diversa segnalazione' (unless signs say otherwise): 130 km/h is the default; signs can change it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorway: 130 km/h",
+    "it": "autostrade",
+    "lines": [
+     "Motorway: 130 km/h",
+     "Rain or snow: 110 km/h"
+    ],
+    "icons": [
+     "road",
+     "rain"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Salvo diversa segnalazione",
+    "en": "unless signs say otherwise"
+   },
+   {
+    "it": "limite massimo di velocità",
+    "en": "maximum speed limit"
+   },
+   {
+    "it": "autostrade",
+    "en": "motorways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22399": {
+  "en": "Unless signs say otherwise, the maximum speed limit in built-up areas is 50 km/h.",
+  "explain": {
+   "short": "Inside a town (centro abitato, built-up area) the normal maximum is 50 km/h.",
+   "rule": "Unless signs say otherwise: motorways 130 km/h (110 in rain or snow), main out-of-town roads 110 km/h (90 in rain or snow), other out-of-town roads 90 km/h, towns 50 km/h. Signs can allow 150 km/h on some motorways and 70 km/h on some town roads.",
+   "trap": "'Salvo diversa segnalazione' (unless signs say otherwise): signs may set a different limit, but the default is 50 km/h.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Town: 50 km/h",
+    "it": "centri abitati",
+    "lines": [
+     "Town: 50 km/h",
+     "Special town roads with signs: 70 km/h"
+    ],
+    "icons": [
+     "road",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Salvo diversa segnalazione",
+    "en": "unless signs say otherwise"
+   },
+   {
+    "it": "centri abitati",
+    "en": "built-up areas, towns"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22400": {
+  "en": "Unless signs say otherwise, the maximum speed limit for mopeds is 45 km/h.",
+  "explain": {
+   "short": "A moped (ciclomotore) may never go faster than 45 km/h, on any road.",
+   "rule": "Unless signs say otherwise: motorways 130 km/h (110 in rain or snow), main out-of-town roads 110 km/h (90 in rain or snow), other out-of-town roads 90 km/h, towns 50 km/h. Signs can allow 150 km/h on some motorways and 70 km/h on some town roads.",
+   "trap": "'ciclomotori' (mopeds) have their own limit, lower than cars: 45 km/h.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mopeds: 45 km/h on every road",
+    "it": "ciclomotori",
+    "lines": [
+     "Moped: 45 km/h",
+     "On every type of road"
+    ],
+    "icons": [
+     "moto",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Salvo diversa segnalazione",
+    "en": "unless signs say otherwise"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22401": {
+  "en": "Unless signs say otherwise, the maximum speed limit for farm machines and work machines with pneumatic tyres is 40 km/h.",
+  "explain": {
+   "short": "Farm machines (macchine agricole) and work machines (macchine operatrici) are slow vehicles: with rubber tyres their limit is 40 km/h.",
+   "rule": "Unless signs say otherwise: motorways 130 km/h (110 in rain or snow), main out-of-town roads 110 km/h (90 in rain or snow), other out-of-town roads 90 km/h, towns 50 km/h. Signs can allow 150 km/h on some motorways and 70 km/h on some town roads.",
+   "trap": "'con pneumatici' (with rubber tyres): with tyres the limit is 40 km/h; machines without tyres go even slower.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Farm and work machines with tyres: 40 km/h",
+    "it": "macchine agricole",
+    "lines": [
+     "Farm machine with tyres: 40 km/h",
+     "Slow vehicle: keep right"
+    ],
+    "icons": [
+     "truck",
+     "tyre"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "macchine agricole",
+    "en": "farm machines"
+   },
+   {
+    "it": "macchine operatrici",
+    "en": "work machines (e.g. diggers)"
+   },
+   {
+    "it": "pneumatici",
+    "en": "rubber tyres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22402": {
+  "en": "Unless signs say otherwise, the maximum speed limit on motorways is 110 km/h in rain.",
+  "explain": {
+   "short": "Rain makes braking longer, so the motorway limit drops from 130 km/h to 110 km/h.",
+   "rule": "Unless signs say otherwise: motorways 130 km/h (110 in rain or snow), main out-of-town roads 110 km/h (90 in rain or snow), other out-of-town roads 90 km/h, towns 50 km/h. Signs can allow 150 km/h on some motorways and 70 km/h on some town roads.",
+   "trap": "'in caso di pioggia' (in rain): the lower limit applies in any rain, snow or hail.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorway in rain: 110 km/h",
+    "it": "pioggia",
+    "lines": [
+     "Motorway, dry: 130 km/h",
+     "Motorway, rain: 110 km/h"
+    ],
+    "icons": [
+     "road",
+     "rain"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autostrade",
+    "en": "motorways"
+   },
+   {
+    "it": "in caso di pioggia",
+    "en": "in rain"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22403": {
+  "en": "Unless signs say otherwise, the maximum speed limit on main out-of-town roads is 90 km/h in hail.",
+  "explain": {
+   "short": "Hail is a kind of precipitation (rain, snow, hail), so on main out-of-town roads the limit drops from 110 km/h to 90 km/h.",
+   "rule": "Unless signs say otherwise: motorways 130 km/h (110 in rain or snow), main out-of-town roads 110 km/h (90 in rain or snow), other out-of-town roads 90 km/h, towns 50 km/h. Signs can allow 150 km/h on some motorways and 70 km/h on some town roads.",
+   "trap": "'grandine' (hail) counts like rain or snow: the lower limit applies.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Main road in hail: 90 km/h",
+    "it": "grandine",
+    "lines": [
+     "Main out-of-town road: 110 km/h",
+     "Rain, snow or hail: 90 km/h"
+    ],
+    "icons": [
+     "road",
+     "snow"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane principali",
+    "en": "main out-of-town roads"
+   },
+   {
+    "it": "in caso di grandine",
+    "en": "in hail"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22404": {
+  "en": "Where special signs say so, the maximum speed limit in built-up areas on roads with special features is 70 km/h.",
+  "explain": {
+   "short": "Some town roads are wide and safe (for example with separate carriageways); there signs can allow up to 70 km/h.",
+   "rule": "Unless signs say otherwise: motorways 130 km/h (110 in rain or snow), main out-of-town roads 110 km/h (90 in rain or snow), other out-of-town roads 90 km/h, towns 50 km/h. Signs can allow 150 km/h on some motorways and 70 km/h on some town roads.",
+   "trap": "'In presenza di appositi segnali' (where special signs are present): 70 km/h only with signs, normally it is 50 km/h.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Special town roads: 70 km/h only with signs",
+    "it": "appositi segnali",
+    "lines": [
+     "Town: 50 km/h",
+     "Special road with signs: 70 km/h"
+    ],
+    "icons": [
+     "road",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "appositi segnali",
+    "en": "special signs"
+   },
+   {
+    "it": "centri abitati",
+    "en": "built-up areas, towns"
+   },
+   {
+    "it": "particolari caratteristiche",
+    "en": "special features"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22405": {
+  "en": "Unless signs say otherwise, the maximum speed limit on main out-of-town roads is 110 km/h.",
+  "explain": {
+   "short": "A main out-of-town road (strada extraurbana principale, separate carriageways, blue signs) has a normal limit of 110 km/h.",
+   "rule": "Unless signs say otherwise: motorways 130 km/h (110 in rain or snow), main out-of-town roads 110 km/h (90 in rain or snow), other out-of-town roads 90 km/h, towns 50 km/h. Signs can allow 150 km/h on some motorways and 70 km/h on some town roads.",
+   "trap": "'strade extraurbane principali' (main out-of-town roads): 110 km/h; do not mix it up with 90 km/h of secondary roads.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Main out-of-town road: 110 km/h",
+    "it": "extraurbane principali",
+    "lines": [
+     "Main out-of-town road: 110 km/h",
+     "Rain or snow: 90 km/h"
+    ],
+    "icons": [
+     "road",
+     "rain"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Salvo diversa segnalazione",
+    "en": "unless signs say otherwise"
+   },
+   {
+    "it": "strade extraurbane principali",
+    "en": "main out-of-town roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22406": {
+  "en": "Unless signs say otherwise, the maximum speed limit on urban roads is 80 km/h.",
+  "explain": {
+   "short": "On town roads the normal limit is 50 km/h; even with special signs it can go only up to 70 km/h, never 80 km/h.",
+   "rule": "Unless signs say otherwise: motorways 130 km/h (110 in rain or snow), main out-of-town roads 110 km/h (90 in rain or snow), other out-of-town roads 90 km/h, towns 50 km/h. Signs can allow 150 km/h on some motorways and 70 km/h on some town roads.",
+   "trap": "'80 km/h' is the wrong number: towns are 50 km/h.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Town roads: 50 km/h, not 80",
+    "it": "strade urbane",
+    "lines": [
+     "Town road: 50 km/h",
+     "Max with special signs: 70 km/h"
+    ],
+    "icons": [
+     "road",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Salvo diversa segnalazione",
+    "en": "unless signs say otherwise"
+   },
+   {
+    "it": "strade urbane",
+    "en": "town roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22407": {
+  "en": "Unless signs say otherwise, the maximum speed limit for heavy quadricycles is 70 km/h.",
+  "explain": {
+   "short": "Heavy quadricycles (quadricicli non leggeri, small four-wheel vehicles) have their own limit out of town: 80 km/h, not 70 km/h.",
+   "rule": "Unless signs say otherwise: motorways 130 km/h (110 in rain or snow), main out-of-town roads 110 km/h (90 in rain or snow), other out-of-town roads 90 km/h, towns 50 km/h. Signs can allow 150 km/h on some motorways and 70 km/h on some town roads.",
+   "trap": "'70 km/h' is the wrong number: the quadricycle limit is 80 km/h.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Heavy quadricycles: 80 km/h, not 70",
+    "it": "quadricicli non leggeri",
+    "lines": [
+     "Heavy quadricycle out of town: 80 km/h",
+     "In towns: 50 km/h"
+    ],
+    "icons": [
+     "car",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "quadricicli non leggeri",
+    "en": "heavy quadricycles (small 4-wheel vehicles)"
+   },
+   {
+    "it": "Salvo diversa segnalazione",
+    "en": "unless signs say otherwise"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22408": {
+  "en": "The maximum speed limit on any motorway is 150 km/h.",
+  "explain": {
+   "short": "The normal motorway limit is 130 km/h. 150 km/h is allowed only on some special stretches, and only with signs.",
+   "rule": "Unless signs say otherwise: motorways 130 km/h (110 in rain or snow), main out-of-town roads 110 km/h (90 in rain or snow), other out-of-town roads 90 km/h, towns 50 km/h. Signs can allow 150 km/h on some motorways and 70 km/h on some town roads.",
+   "trap": "'qualsiasi' (any): 150 km/h is not for every motorway.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorway: 130 km/h; 150 only with signs",
+    "it": "qualsiasi autostrada",
+    "lines": [
+     "Any motorway: 130 km/h",
+     "Only special stretches with signs: 150 km/h"
+    ],
+    "icons": [
+     "road",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "qualsiasi autostrada",
+    "en": "any motorway"
+   },
+   {
+    "it": "limite massimo di velocità",
+    "en": "maximum speed limit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22409": {
+  "en": "On main out-of-town roads the maximum speed limit for cars is 110 km/h.",
+  "explain": {
+   "short": "Cars (autovetture) follow the normal limit of the road: 110 km/h on a main out-of-town road.",
+   "rule": "On a main out-of-town road (strada extraurbana principale) cars, motorcycles, campers and vans up to 3.5 t may go 110 km/h, also with a small luggage trailer (carrello appendice). A car with a trailer or caravan, and a road train, may go only 70 km/h.",
+   "trap": "'per le autovetture' (for cars): cars use the road's full limit.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Car on a main road: 110 km/h",
+    "it": "autovetture",
+    "lines": [
+     "Car: 110 km/h",
+     "Car with trailer: 70 km/h"
+    ],
+    "icons": [
+     "car",
+     "truck"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane principali",
+    "en": "main out-of-town roads"
+   },
+   {
+    "it": "autovetture",
+    "en": "cars"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22410": {
+  "en": "On main out-of-town roads the maximum speed limit is 70 km/h for a car towing a 900 kg caravan.",
+  "explain": {
+   "short": "A car towing a caravan or trailer is longer and less stable, so outside towns its limit is 70 km/h (80 km/h only on motorways).",
+   "rule": "On a main out-of-town road (strada extraurbana principale) cars, motorcycles, campers and vans up to 3.5 t may go 110 km/h, also with a small luggage trailer (carrello appendice). A car with a trailer or caravan, and a road train, may go only 70 km/h.",
+   "trap": "'che traina caravan' (towing a caravan): the trailer, not the road, sets the limit.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Car with caravan: 70 km/h",
+    "it": "traina caravan",
+    "lines": [
+     "Car alone: 110 km/h",
+     "Car towing a caravan: 70 km/h"
+    ],
+    "icons": [
+     "car",
+     "truck"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane principali",
+    "en": "main out-of-town roads"
+   },
+   {
+    "it": "traina caravan",
+    "en": "tows a caravan"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22411": {
+  "en": "On main out-of-town roads the maximum speed limit is 110 km/h for motor vehicles up to 3.5 t.",
+  "explain": {
+   "short": "Motor vehicles up to 3.5 t (cars, vans, campers) follow the normal limit of the road: 110 km/h.",
+   "rule": "On a main out-of-town road (strada extraurbana principale) cars, motorcycles, campers and vans up to 3.5 t may go 110 km/h, also with a small luggage trailer (carrello appendice). A car with a trailer or caravan, and a road train, may go only 70 km/h.",
+   "trap": "'fino a 3,5t' (up to 3.5 t): light vehicles use the full limit; only heavier ones have lower limits.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Vehicles up to 3.5 t: 110 km/h",
+    "it": "fino a 3,5t",
+    "lines": [
+     "Up to 3.5 t: 110 km/h",
+     "Over 3.5 t: lower limits"
+    ],
+    "icons": [
+     "car",
+     "truck"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autoveicoli",
+    "en": "motor vehicles"
+   },
+   {
+    "it": "fino a 3,5t",
+    "en": "up to 3.5 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22412": {
+  "en": "On main out-of-town roads the maximum speed limit for road trains is 70 km/h.",
+  "explain": {
+   "short": "A road train (autotreno, a truck pulling a trailer) is very long and heavy: outside towns its limit is 70 km/h.",
+   "rule": "On a main out-of-town road (strada extraurbana principale) cars, motorcycles, campers and vans up to 3.5 t may go 110 km/h, also with a small luggage trailer (carrello appendice). A car with a trailer or caravan, and a road train, may go only 70 km/h.",
+   "trap": "'autotreni' (road trains): heavy vehicles with a trailer have the low limit of 70 km/h.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road train: 70 km/h",
+    "it": "autotreni",
+    "lines": [
+     "Car: 110 km/h",
+     "Road train: 70 km/h"
+    ],
+    "icons": [
+     "car",
+     "truck"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane principali",
+    "en": "main out-of-town roads"
+   },
+   {
+    "it": "autotreni",
+    "en": "road trains (truck + trailer)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22413": {
+  "en": "On main out-of-town roads the maximum speed limit is 100 km/h for trucks with a total mass up to 3.5 t.",
+  "explain": {
+   "short": "Trucks (autocarri) up to 3.5 t are light vehicles: they may go 110 km/h like cars, not 100 km/h.",
+   "rule": "On a main out-of-town road (strada extraurbana principale) cars, motorcycles, campers and vans up to 3.5 t may go 110 km/h, also with a small luggage trailer (carrello appendice). A car with a trailer or caravan, and a road train, may go only 70 km/h.",
+   "trap": "'100 km/h' is the wrong number: up to 3.5 t the limit is 110 km/h.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Light truck up to 3.5 t: 110 km/h, not 100",
+    "it": "fino a 3,5 t",
+    "lines": [
+     "Truck up to 3.5 t: 110 km/h",
+     "Same limit as a car"
+    ],
+    "icons": [
+     "truck",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarri",
+    "en": "trucks, vans"
+   },
+   {
+    "it": "massa complessiva",
+    "en": "total mass"
+   },
+   {
+    "it": "fino a 3,5 t",
+    "en": "up to 3.5 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22414": {
+  "en": "On main out-of-town roads the maximum speed limit is 100 km/h for campers with a total mass up to 3.5 t.",
+  "explain": {
+   "short": "A camper (autocaravan) up to 3.5 t has the same limit as a car: 110 km/h, not 100 km/h.",
+   "rule": "On a main out-of-town road (strada extraurbana principale) cars, motorcycles, campers and vans up to 3.5 t may go 110 km/h, also with a small luggage trailer (carrello appendice). A car with a trailer or caravan, and a road train, may go only 70 km/h.",
+   "trap": "'100 km/h' is the wrong number: a camper up to 3.5 t uses 110 km/h.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Camper up to 3.5 t: 110 km/h, not 100",
+    "it": "autocaravan",
+    "lines": [
+     "Camper up to 3.5 t: 110 km/h",
+     "Same limit as a car"
+    ],
+    "icons": [
+     "bus",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocaravan",
+    "en": "camper, motorhome"
+   },
+   {
+    "it": "massa complessiva",
+    "en": "total mass"
+   },
+   {
+    "it": "fino a 3,5 t",
+    "en": "up to 3.5 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22415": {
+  "en": "On main out-of-town roads the maximum speed limit is 80 km/h for cars with a light trailer.",
+  "explain": {
+   "short": "Any car with a trailer, even a light one (rimorchio leggero), may go only 70 km/h outside towns; 80 km/h is the motorway limit.",
+   "rule": "On a main out-of-town road (strada extraurbana principale) cars, motorcycles, campers and vans up to 3.5 t may go 110 km/h, also with a small luggage trailer (carrello appendice). A car with a trailer or caravan, and a road train, may go only 70 km/h.",
+   "trap": "'80 km/h' is the wrong number: with a trailer the limit here is 70 km/h.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Car with light trailer: 70 km/h, not 80",
+    "it": "rimorchio leggero",
+    "lines": [
+     "Car with trailer: 70 km/h",
+     "80 km/h only on motorways"
+    ],
+    "icons": [
+     "truck",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autovetture",
+    "en": "cars"
+   },
+   {
+    "it": "rimorchio leggero",
+    "en": "light trailer"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22416": {
+  "en": "On main out-of-town roads the maximum speed limit for motorcycles is 100 km/h.",
+  "explain": {
+   "short": "Motorcycles (motocicli) have the same limit as cars: 110 km/h on a main out-of-town road, not 100 km/h.",
+   "rule": "On a main out-of-town road (strada extraurbana principale) cars, motorcycles, campers and vans up to 3.5 t may go 110 km/h, also with a small luggage trailer (carrello appendice). A car with a trailer or caravan, and a road train, may go only 70 km/h.",
+   "trap": "'100 km/h' is the wrong number: motorcycles use 110 km/h.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorcycle: 110 km/h, not 100",
+    "it": "motocicli",
+    "lines": [
+     "Motorcycle: 110 km/h",
+     "Same limit as a car"
+    ],
+    "icons": [
+     "moto",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane principali",
+    "en": "main out-of-town roads"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22417": {
+  "en": "On main out-of-town roads the maximum speed limit for cars with a luggage trailer is 100 km/h.",
+  "explain": {
+   "short": "A small luggage trailer (carrello appendice) does not count as a real trailer: the car keeps its limit of 110 km/h, not 100 km/h.",
+   "rule": "On a main out-of-town road (strada extraurbana principale) cars, motorcycles, campers and vans up to 3.5 t may go 110 km/h, also with a small luggage trailer (carrello appendice). A car with a trailer or caravan, and a road train, may go only 70 km/h.",
+   "trap": "'carrello appendice' (small luggage trailer) changes nothing: the limit is 110 km/h.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Car with carrello appendice: 110 km/h",
+    "it": "carrello appendice",
+    "lines": [
+     "Car + carrello appendice: 110 km/h",
+     "Car + real trailer: 70 km/h"
+    ],
+    "icons": [
+     "car",
+     "truck"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autovetture",
+    "en": "cars"
+   },
+   {
+    "it": "carrello appendice",
+    "en": "small luggage trailer"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22418": {
+  "en": "The maximum speed limit on secondary out-of-town roads is 90 km/h for motorcycles.",
+  "explain": {
+   "short": "Motorcycles have the same limit as cars: 90 km/h on a secondary out-of-town road.",
+   "rule": "On a secondary out-of-town road (strada extraurbana secondaria) cars, motorcycles, campers and vans up to 3.5 t may go 90 km/h, also with a carrello appendice. A car with a trailer or caravan, and a road train: 70 km/h. Mopeds: 45 km/h. Heavy quadricycles: 80 km/h.",
+   "trap": "'motocicli' (motorcycles): no special lower limit, they use the road's limit.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorcycle on a secondary road: 90 km/h",
+    "it": "motocicli",
+    "lines": [
+     "Motorcycle: 90 km/h",
+     "Same limit as a car"
+    ],
+    "icons": [
+     "moto",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane secondarie",
+    "en": "secondary out-of-town roads"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22419": {
+  "en": "The maximum speed limit on secondary out-of-town roads is 90 km/h for cars with a luggage trailer.",
+  "explain": {
+   "short": "A small luggage trailer (carrello appendice) is not a real trailer: the car keeps the normal limit of 90 km/h.",
+   "rule": "On a secondary out-of-town road (strada extraurbana secondaria) cars, motorcycles, campers and vans up to 3.5 t may go 90 km/h, also with a carrello appendice. A car with a trailer or caravan, and a road train: 70 km/h. Mopeds: 45 km/h. Heavy quadricycles: 80 km/h.",
+   "trap": "'carrello appendice' (small luggage trailer) does not lower the limit.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Car with carrello appendice: 90 km/h",
+    "it": "carrello appendice",
+    "lines": [
+     "Car + carrello appendice: 90 km/h",
+     "Car + real trailer: 70 km/h"
+    ],
+    "icons": [
+     "car",
+     "truck"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autovetture",
+    "en": "cars"
+   },
+   {
+    "it": "carrello appendice",
+    "en": "small luggage trailer"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22420": {
+  "en": "The maximum speed limit on secondary out-of-town roads is 70 km/h for cars with a trailer for carrying boats or similar.",
+  "explain": {
+   "short": "A boat trailer is a real trailer: a car towing it may go only 70 km/h outside towns.",
+   "rule": "On a secondary out-of-town road (strada extraurbana secondaria) cars, motorcycles, campers and vans up to 3.5 t may go 90 km/h, also with a carrello appendice. A car with a trailer or caravan, and a road train: 70 km/h. Mopeds: 45 km/h. Heavy quadricycles: 80 km/h.",
+   "trap": "'rimorchio' (trailer): any real trailer brings the car down to 70 km/h.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Car with boat trailer: 70 km/h",
+    "it": "rimorchio",
+    "lines": [
+     "Car alone: 90 km/h",
+     "Car with boat trailer: 70 km/h"
+    ],
+    "icons": [
+     "car",
+     "truck"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autovetture con rimorchio",
+    "en": "cars with a trailer"
+   },
+   {
+    "it": "trasporto di imbarcazioni",
+    "en": "carrying boats"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22421": {
+  "en": "The maximum speed limit on secondary out-of-town roads is 90 km/h for campers with a total mass up to 3.5 t.",
+  "explain": {
+   "short": "A camper (autocaravan) up to 3.5 t has the same limit as a car: 90 km/h here.",
+   "rule": "On a secondary out-of-town road (strada extraurbana secondaria) cars, motorcycles, campers and vans up to 3.5 t may go 90 km/h, also with a carrello appendice. A car with a trailer or caravan, and a road train: 70 km/h. Mopeds: 45 km/h. Heavy quadricycles: 80 km/h.",
+   "trap": "'fino a 3,5t' (up to 3.5 t): light campers use the full limit of the road.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Camper up to 3.5 t: 90 km/h",
+    "it": "autocaravan",
+    "lines": [
+     "Camper up to 3.5 t: 90 km/h",
+     "Same limit as a car"
+    ],
+    "icons": [
+     "bus",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocaravan",
+    "en": "camper, motorhome"
+   },
+   {
+    "it": "massa complessiva",
+    "en": "total mass"
+   },
+   {
+    "it": "fino a 3,5t",
+    "en": "up to 3.5 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22422": {
+  "en": "The maximum speed limit on secondary out-of-town roads is 90 km/h for trucks with a total mass up to 3.5 t.",
+  "explain": {
+   "short": "Trucks (autocarri) up to 3.5 t are light vehicles: same limit as a car, 90 km/h here.",
+   "rule": "On a secondary out-of-town road (strada extraurbana secondaria) cars, motorcycles, campers and vans up to 3.5 t may go 90 km/h, also with a carrello appendice. A car with a trailer or caravan, and a road train: 70 km/h. Mopeds: 45 km/h. Heavy quadricycles: 80 km/h.",
+   "trap": "'fino a 3,5t' (up to 3.5 t): only heavier trucks have lower limits.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Truck up to 3.5 t: 90 km/h",
+    "it": "autocarri",
+    "lines": [
+     "Truck up to 3.5 t: 90 km/h",
+     "Same limit as a car"
+    ],
+    "icons": [
+     "truck",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarri",
+    "en": "trucks, vans"
+   },
+   {
+    "it": "massa complessiva",
+    "en": "total mass"
+   },
+   {
+    "it": "fino a 3,5t",
+    "en": "up to 3.5 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22423": {
+  "en": "The maximum speed limit on secondary out-of-town roads is 70 km/h for road trains.",
+  "explain": {
+   "short": "A road train (autotreno, truck with trailer) is long and heavy: outside towns its limit is 70 km/h.",
+   "rule": "On a secondary out-of-town road (strada extraurbana secondaria) cars, motorcycles, campers and vans up to 3.5 t may go 90 km/h, also with a carrello appendice. A car with a trailer or caravan, and a road train: 70 km/h. Mopeds: 45 km/h. Heavy quadricycles: 80 km/h.",
+   "trap": "'autotreni' (road trains): heavy vehicles with a trailer have the low limit of 70 km/h.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road train: 70 km/h",
+    "it": "autotreni",
+    "lines": [
+     "Car: 90 km/h",
+     "Road train: 70 km/h"
+    ],
+    "icons": [
+     "car",
+     "truck"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane secondarie",
+    "en": "secondary out-of-town roads"
+   },
+   {
+    "it": "autotreni",
+    "en": "road trains (truck + trailer)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22424": {
+  "en": "The maximum speed limit on secondary out-of-town roads is 70 km/h for mopeds.",
+  "explain": {
+   "short": "A moped (ciclomotore) may never go faster than 45 km/h, on any road; 70 km/h is wrong.",
+   "rule": "On a secondary out-of-town road (strada extraurbana secondaria) cars, motorcycles, campers and vans up to 3.5 t may go 90 km/h, also with a carrello appendice. A car with a trailer or caravan, and a road train: 70 km/h. Mopeds: 45 km/h. Heavy quadricycles: 80 km/h.",
+   "trap": "'70 km/h' is the wrong number: mopeds are always 45 km/h.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Moped: 45 km/h, not 70",
+    "it": "ciclomotori",
+    "lines": [
+     "Moped: 45 km/h",
+     "On every type of road"
+    ],
+    "icons": [
+     "moto",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane secondarie",
+    "en": "secondary out-of-town roads"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22425": {
+  "en": "The maximum speed limit on secondary out-of-town roads is 90 km/h for heavy quadricycles.",
+  "explain": {
+   "short": "Heavy quadricycles (quadricicli non leggeri, small four-wheel vehicles) have their own lower limit out of town: 80 km/h, not 90 km/h.",
+   "rule": "On a secondary out-of-town road (strada extraurbana secondaria) cars, motorcycles, campers and vans up to 3.5 t may go 90 km/h, also with a carrello appendice. A car with a trailer or caravan, and a road train: 70 km/h. Mopeds: 45 km/h. Heavy quadricycles: 80 km/h.",
+   "trap": "'90 km/h' is the car limit; quadricycles have their own limit of 80 km/h.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Heavy quadricycle: 80 km/h, not 90",
+    "it": "quadricicli non leggeri",
+    "lines": [
+     "Car: 90 km/h",
+     "Heavy quadricycle: 80 km/h"
+    ],
+    "icons": [
+     "car",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane secondarie",
+    "en": "secondary out-of-town roads"
+   },
+   {
+    "it": "quadricicli non leggeri",
+    "en": "heavy quadricycles (small 4-wheel vehicles)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22426": {
+  "en": "The maximum speed limit on secondary out-of-town roads is 80 km/h for motorcycles.",
+  "explain": {
+   "short": "Motorcycles have the same limit as cars: 90 km/h on a secondary out-of-town road, not 80 km/h.",
+   "rule": "On a secondary out-of-town road (strada extraurbana secondaria) cars, motorcycles, campers and vans up to 3.5 t may go 90 km/h, also with a carrello appendice. A car with a trailer or caravan, and a road train: 70 km/h. Mopeds: 45 km/h. Heavy quadricycles: 80 km/h.",
+   "trap": "'80 km/h' is the wrong number: motorcycles use 90 km/h here.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorcycle: 90 km/h, not 80",
+    "it": "motocicli",
+    "lines": [
+     "Motorcycle: 90 km/h",
+     "Same limit as a car"
+    ],
+    "icons": [
+     "moto",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane secondarie",
+    "en": "secondary out-of-town roads"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22427": {
+  "en": "The maximum speed limit on secondary out-of-town roads is 100 km/h for cars.",
+  "explain": {
+   "short": "On a secondary out-of-town road cars may go 90 km/h, not 100 km/h.",
+   "rule": "On a secondary out-of-town road (strada extraurbana secondaria) cars, motorcycles, campers and vans up to 3.5 t may go 90 km/h, also with a carrello appendice. A car with a trailer or caravan, and a road train: 70 km/h. Mopeds: 45 km/h. Heavy quadricycles: 80 km/h.",
+   "trap": "'100 km/h' is the wrong number: secondary roads are 90 km/h.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Car on a secondary road: 90 km/h, not 100",
+    "it": "autovetture",
+    "lines": [
+     "Secondary road, car: 90 km/h",
+     "Main road, car: 110 km/h"
+    ],
+    "icons": [
+     "car",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane secondarie",
+    "en": "secondary out-of-town roads"
+   },
+   {
+    "it": "autovetture",
+    "en": "cars"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22428": {
+  "en": "The maximum speed limit on secondary out-of-town roads is 80 km/h for a car towing a 750 kg caravan.",
+  "explain": {
+   "short": "A car towing any caravan or trailer, even a light one, may go only 70 km/h outside towns; 80 km/h is the motorway limit.",
+   "rule": "On a secondary out-of-town road (strada extraurbana secondaria) cars, motorcycles, campers and vans up to 3.5 t may go 90 km/h, also with a carrello appendice. A car with a trailer or caravan, and a road train: 70 km/h. Mopeds: 45 km/h. Heavy quadricycles: 80 km/h.",
+   "trap": "'80 km/h' is the wrong number: with a caravan the limit here is 70 km/h.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Car with caravan: 70 km/h, not 80",
+    "it": "traina caravan",
+    "lines": [
+     "Car with caravan: 70 km/h",
+     "80 km/h only on motorways"
+    ],
+    "icons": [
+     "truck",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autovettura",
+    "en": "car"
+   },
+   {
+    "it": "traina caravan",
+    "en": "tows a caravan"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22429": {
+  "en": "The maximum speed limit on secondary out-of-town roads is 100 km/h for motor vehicles up to 3.5 tonnes.",
+  "explain": {
+   "short": "Vehicles up to 3.5 t follow the road's limit, and on a secondary out-of-town road that is 90 km/h, not 100 km/h.",
+   "rule": "On a secondary out-of-town road (strada extraurbana secondaria) cars, motorcycles, campers and vans up to 3.5 t may go 90 km/h, also with a carrello appendice. A car with a trailer or caravan, and a road train: 70 km/h. Mopeds: 45 km/h. Heavy quadricycles: 80 km/h.",
+   "trap": "'100 km/h' is the wrong number: secondary roads are 90 km/h.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Up to 3.5 t on a secondary road: 90 km/h",
+    "it": "fino a 3,5 tonnellate",
+    "lines": [
+     "Up to 3.5 t: 90 km/h",
+     "Secondary road limit"
+    ],
+    "icons": [
+     "car",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autoveicoli",
+    "en": "motor vehicles"
+   },
+   {
+    "it": "fino a 3,5 tonnellate",
+    "en": "up to 3.5 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22430": {
+  "en": "On secondary out-of-town roads the maximum speed limit for cars with a luggage trailer is 80 km/h.",
+  "explain": {
+   "short": "A small luggage trailer (carrello appendice) is not a real trailer: the car keeps 90 km/h, not 80 km/h.",
+   "rule": "On a secondary out-of-town road (strada extraurbana secondaria) cars, motorcycles, campers and vans up to 3.5 t may go 90 km/h, also with a carrello appendice. A car with a trailer or caravan, and a road train: 70 km/h. Mopeds: 45 km/h. Heavy quadricycles: 80 km/h.",
+   "trap": "'80 km/h' is the wrong number: with a carrello appendice it is still 90 km/h.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Car with carrello appendice: 90 km/h, not 80",
+    "it": "carrello appendice",
+    "lines": [
+     "Car + carrello appendice: 90 km/h",
+     "Car + real trailer: 70 km/h"
+    ],
+    "icons": [
+     "car",
+     "truck"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autovetture",
+    "en": "cars"
+   },
+   {
+    "it": "carrello appendice",
+    "en": "small luggage trailer"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22431": {
+  "en": "The stickers shown in the picture are put on the back of some categories of vehicles.",
+  "explain": {
+   "short": "These round speed stickers go on the back, so drivers behind can see how fast that vehicle may go.",
+   "rule": "Round stickers with numbers (60, 80, 100) on the back of a vehicle show its own top speeds. They go on heavy vehicles: trucks over 3.5 t, buses, road trains, trailers. Never on cars, campers or vans up to 3.5 t, or on motorcycles.",
+   "trap": "'alcune categorie' (some categories): only some heavy vehicles carry them, not all vehicles.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stickers on the back of some vehicles",
+    "it": "parte posteriore",
+    "lines": [
+     "Stuck on the back of the vehicle",
+     "Only on some heavy vehicles"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "contrassegni",
+    "en": "stickers, marks"
+   },
+   {
+    "it": "parte posteriore",
+    "en": "back"
+   },
+   {
+    "it": "alcune categorie di veicoli",
+    "en": "some types of vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22432": {
+  "en": "The stickers shown in the picture show the maximum speeds allowed for the vehicle they are put on.",
+  "explain": {
+   "short": "The numbers (60, 80, 100) are that vehicle's own top speeds on the different types of road.",
+   "rule": "Round stickers with numbers (60, 80, 100) on the back of a vehicle show its own top speeds. They go on heavy vehicles: trucks over 3.5 t, buses, road trains, trailers. Never on cars, campers or vans up to 3.5 t, or on motorcycles.",
+   "trap": "'al veicolo sul quale sono applicati' (for the vehicle that carries them): they are not limits for you.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The vehicle's own top speeds",
+    "it": "velocità massime",
+    "lines": [
+     "60, 80, 100: its own top speeds",
+     "One number per type of road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "contrassegni",
+    "en": "stickers, marks"
+   },
+   {
+    "it": "velocità massime consentite",
+    "en": "maximum speeds allowed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22433": {
+  "en": "The stickers shown in the picture are put on some buses.",
+  "explain": {
+   "short": "Buses are heavy vehicles with their own lower limits, so they carry these speed stickers on the back.",
+   "rule": "Round stickers with numbers (60, 80, 100) on the back of a vehicle show its own top speeds. They go on heavy vehicles: trucks over 3.5 t, buses, road trains, trailers. Never on cars, campers or vans up to 3.5 t, or on motorcycles.",
+   "trap": "'alcuni autobus' (some buses): buses are among the vehicles that need the stickers.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Buses carry speed stickers",
+    "it": "autobus",
+    "lines": [
+     "Buses: yes",
+     "Also heavy trucks and trailers"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "contrassegni",
+    "en": "stickers, marks"
+   },
+   {
+    "it": "autobus",
+    "en": "buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22436": {
+  "en": "The stickers shown in the picture are put on trucks with a total mass up to 3.5 tonnes.",
+  "explain": {
+   "short": "Trucks up to 3.5 t have the same limits as cars, so they need no speed stickers; only heavier ones carry them.",
+   "rule": "Round stickers with numbers (60, 80, 100) on the back of a vehicle show its own top speeds. They go on heavy vehicles: trucks over 3.5 t, buses, road trains, trailers. Never on cars, campers or vans up to 3.5 t, or on motorcycles.",
+   "trap": "'fino a 3,5 tonnellate' (up to 3.5 tonnes): light trucks do not carry the stickers.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not on trucks up to 3.5 t",
+    "it": "fino a 3,5 tonnellate",
+    "lines": [
+     "Truck up to 3.5 t: no stickers",
+     "Truck over 3.5 t: yes"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarri",
+    "en": "trucks, vans"
+   },
+   {
+    "it": "massa complessiva",
+    "en": "total mass"
+   },
+   {
+    "it": "fino a 3,5 tonnellate",
+    "en": "up to 3.5 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22437": {
+  "en": "The stickers shown in the picture are put on campers with a total mass up to 3.5 tonnes.",
+  "explain": {
+   "short": "Campers up to 3.5 t have the same limits as cars, so they do not carry speed stickers.",
+   "rule": "Round stickers with numbers (60, 80, 100) on the back of a vehicle show its own top speeds. They go on heavy vehicles: trucks over 3.5 t, buses, road trains, trailers. Never on cars, campers or vans up to 3.5 t, or on motorcycles.",
+   "trap": "'fino a 3,5 tonnellate' (up to 3.5 tonnes): light campers have no stickers.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not on campers up to 3.5 t",
+    "it": "autocaravan",
+    "lines": [
+     "Camper up to 3.5 t: no stickers",
+     "Same limits as a car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocaravan",
+    "en": "camper, motorhome"
+   },
+   {
+    "it": "fino a 3,5 tonnellate",
+    "en": "up to 3.5 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22438": {
+  "en": "The stickers shown in the picture are put on motorcycles with an engine over 150 cc.",
+  "explain": {
+   "short": "Motorcycles have the same limits as cars, so they never carry speed stickers.",
+   "rule": "Round stickers with numbers (60, 80, 100) on the back of a vehicle show its own top speeds. They go on heavy vehicles: trucks over 3.5 t, buses, road trains, trailers. Never on cars, campers or vans up to 3.5 t, or on motorcycles.",
+   "trap": "'motocicli' (motorcycles): the engine size does not matter, motorcycles have no stickers.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not on motorcycles",
+    "it": "motocicli",
+    "lines": [
+     "Motorcycles: no stickers",
+     "Only some heavy vehicles"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   },
+   {
+    "it": "cilindrata",
+    "en": "engine size"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22434": {
+  "en": "Speed must be reduced in mixed traffic (slow and fast vehicles, or animals and pedestrians, using the road).",
+  "explain": {
+   "short": "When slow vehicles, animals or people share the road with fast traffic, surprises are more likely, so you must slow down.",
+   "rule": "Your speed must always fit the road, the traffic, the visibility and the weather. Slow down where danger is likely: junctions, narrow points, bends, hills, pedestrians on the road, a slippery or bad road surface, wind, glare.",
+   "trap": "'traffico misto' (mixed traffic): different speeds on the same road mean more danger.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mixed traffic: slow down",
+    "it": "traffico misto",
+    "lines": [
+     "Slow vehicles, animals, pedestrians",
+     "Lower your speed"
+    ],
+    "icons": [
+     "pedestrian",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "traffico misto",
+    "en": "mixed traffic"
+   },
+   {
+    "it": "veicoli lenti e veloci",
+    "en": "slow and fast vehicles"
+   },
+   {
+    "it": "animali e pedoni",
+    "en": "animals and pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22435": {
+  "en": "You must adjust your speed to the condition of the road surface (holes, uneven surface, wet leaves).",
+  "explain": {
+   "short": "Holes, bumps and wet leaves reduce grip and control, so speed must fit the state of the road surface.",
+   "rule": "Your speed must always fit the road, the traffic, the visibility and the weather. Slow down where danger is likely: junctions, narrow points, bends, hills, pedestrians on the road, a slippery or bad road surface, wind, glare.",
+   "trap": "'fondo stradale' (road surface): a bad surface needs a lower speed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bad road surface: adapt your speed",
+    "it": "fondo stradale",
+    "lines": [
+     "Holes, bumps, wet leaves",
+     "Adapt your speed"
+    ],
+    "icons": [
+     "road",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "fondo stradale",
+    "en": "road surface"
+   },
+   {
+    "it": "fogliame bagnato",
+    "en": "wet leaves"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22439": {
+  "en": "Speed must be especially low near a junction.",
+  "explain": {
+   "short": "At a junction other vehicles and pedestrians can cross your path, so you arrive slowly, ready to stop.",
+   "rule": "Your speed must always fit the road, the traffic, the visibility and the weather. Slow down where danger is likely: junctions, narrow points, bends, hills, pedestrians on the road, a slippery or bad road surface, wind, glare.",
+   "trap": "'in prossimità' (near, coming up to): slow down before the junction.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Near a junction: go slowly",
+    "it": "incrocio",
+    "lines": [
+     "Junction ahead",
+     "Slow down, be ready to stop"
+    ],
+    "icons": [
+     "warning",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "particolarmente moderata",
+    "en": "especially low"
+   },
+   {
+    "it": "in prossimità di un incrocio",
+    "en": "near a junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22440": {
+  "en": "Speed must be especially low in narrow passages.",
+  "explain": {
+   "short": "Where the road gets narrow (strettoia) there is little space to pass or avoid things, so you go slowly.",
+   "rule": "Your speed must always fit the road, the traffic, the visibility and the weather. Slow down where danger is likely: junctions, narrow points, bends, hills, pedestrians on the road, a slippery or bad road surface, wind, glare.",
+   "trap": "'strettoie' (narrow passages) are on the list of places that need extra care.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Narrow passage: go slowly",
+    "it": "strettoie",
+    "lines": [
+     "Road gets narrow",
+     "Little space: slow down"
+    ],
+    "icons": [
+     "road",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "particolarmente moderata",
+    "en": "especially low"
+   },
+   {
+    "it": "strettoie",
+    "en": "narrow passages"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22441": {
+  "en": "Speed must be especially low when it is difficult to pass oncoming vehicles.",
+  "explain": {
+   "short": "Here 'incrocio' means meeting an oncoming vehicle. If the road is too tight for both, go slowly so you can stop or move aside.",
+   "rule": "Your speed must always fit the road, the traffic, the visibility and the weather. Slow down where danger is likely: junctions, narrow points, bends, hills, pedestrians on the road, a slippery or bad road surface, wind, glare.",
+   "trap": "'incrocio con altri veicoli' (meeting other vehicles) means passing oncoming traffic, not a junction.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hard to pass oncoming cars: go slowly",
+    "it": "incrocio con altri veicoli",
+    "lines": [
+     "Oncoming car, little space",
+     "Slow down, keep right"
+    ],
+    "icons": [
+     "car",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "particolarmente moderata",
+    "en": "especially low"
+   },
+   {
+    "it": "difficoltoso",
+    "en": "difficult"
+   },
+   {
+    "it": "incrocio con altri veicoli",
+    "en": "meeting oncoming vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22442": {
+  "en": "Speed must be especially low on stretches of road with poor visibility (bends, hill tops).",
+  "explain": {
+   "short": "If you cannot see far ahead, you must be able to stop within the distance you can see, so you go slowly.",
+   "rule": "Your speed must always fit the road, the traffic, the visibility and the weather. Slow down where danger is likely: junctions, narrow points, bends, hills, pedestrians on the road, a slippery or bad road surface, wind, glare.",
+   "trap": "'manca la visibilità' (no visibility): bends and hill tops (dossi) hide what is coming.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bends and hill tops: go slowly",
+    "it": "visibilità",
+    "lines": [
+     "Bend or hill top: you cannot see",
+     "Slow down"
+    ],
+    "icons": [
+     "curve",
+     "hill"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "particolarmente moderata",
+    "en": "especially low"
+   },
+   {
+    "it": "manca la visibilità",
+    "en": "visibility is poor"
+   },
+   {
+    "it": "dossi",
+    "en": "hill tops, crests"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22443": {
+  "en": "Speed must be especially low when, because there are no pavements, pedestrians are on the carriageway.",
+  "explain": {
+   "short": "Without a pavement (marciapiede) people walk on the road itself, so you must go slowly and keep a wide distance.",
+   "rule": "Your speed must always fit the road, the traffic, the visibility and the weather. Slow down where danger is likely: junctions, narrow points, bends, hills, pedestrians on the road, a slippery or bad road surface, wind, glare.",
+   "trap": "'i pedoni occupano la carreggiata' (pedestrians are on the road): they are very exposed, so slow down.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pedestrians on the road: go slowly",
+    "it": "pedoni",
+    "lines": [
+     "No pavement: people on the road",
+     "Slow down, keep distance"
+    ],
+    "icons": [
+     "pedestrian",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in mancanza di marciapiedi",
+    "en": "when there are no pavements"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway (the road for vehicles)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22444": {
+  "en": "You must reduce speed when the road is slippery because of water, snow, ice, leaves or mud.",
+  "explain": {
+   "short": "On a slippery road (strada viscida) tyres grip less and braking takes longer, so you must slow down.",
+   "rule": "Your speed must always fit the road, the traffic, the visibility and the weather. Slow down where danger is likely: junctions, narrow points, bends, hills, pedestrians on the road, a slippery or bad road surface, wind, glare.",
+   "trap": "'viscida' (slippery): any cause, water, snow, ice, leaves or mud, means slow down.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slippery road: slow down",
+    "it": "viscida",
+    "lines": [
+     "Water, snow, ice, leaves, mud",
+     "Less grip: slow down"
+    ],
+    "icons": [
+     "rain",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "diminuire la velocità",
+    "en": "reduce speed"
+   },
+   {
+    "it": "viscida",
+    "en": "slippery"
+   },
+   {
+    "it": "fango",
+    "en": "mud"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22445": {
+  "en": "Speed must be especially low just after sunset.",
+  "explain": {
+   "short": "Sunset by itself is not one of the places or situations that call for extra-low speed; you turn on your lights and drive as the road and visibility allow.",
+   "rule": "Your speed must always fit the road, the traffic, the visibility and the weather. Slow down where danger is likely: junctions, narrow points, bends, hills, pedestrians on the road, a slippery or bad road surface, wind, glare.",
+   "trap": "'subito dopo il tramonto' (just after sunset) is not on the list; the list is about junctions, narrow points, bends, pedestrians.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Sunset alone: no special slow speed",
+    "it": "tramonto",
+    "lines": [
+     "After sunset: lights on",
+     "Speed fits road and visibility"
+    ],
+    "icons": [
+     "night",
+     "light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "particolarmente moderata",
+    "en": "especially low"
+   },
+   {
+    "it": "tramonto del sole",
+    "en": "sunset"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22446": {
+  "en": "Speed must be especially low just after a junction.",
+  "explain": {
+   "short": "The danger is before and inside the junction. Once you have passed it, you may go back to normal speed.",
+   "rule": "Your speed must always fit the road, the traffic, the visibility and the weather. Slow down where danger is likely: junctions, narrow points, bends, hills, pedestrians on the road, a slippery or bad road surface, wind, glare.",
+   "trap": "'dopo' (after) is the trap: the rule says near, before the junction.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow BEFORE the junction, not after",
+    "it": "subito dopo",
+    "lines": [
+     "Before the junction: slow down",
+     "After it: normal speed again"
+    ],
+    "icons": [
+     "brake",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "particolarmente moderata",
+    "en": "especially low"
+   },
+   {
+    "it": "subito dopo un incrocio",
+    "en": "just after a junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22447": {
+  "en": "You must adjust your speed according to how much of a hurry the driver is in.",
+  "explain": {
+   "short": "Speed depends on the road, the traffic, visibility and weather, never on being late.",
+   "rule": "Your speed must always fit the road, the traffic, the visibility and the weather. Slow down where danger is likely: junctions, narrow points, bends, hills, pedestrians on the road, a slippery or bad road surface, wind, glare.",
+   "trap": "'fretta del conducente' (the driver's hurry) is never a reason for speed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Being in a hurry is not a reason",
+    "it": "fretta",
+    "lines": [
+     "Speed fits road, traffic, weather",
+     "Your hurry does not count"
+    ],
+    "icons": [
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "fretta del conducente",
+    "en": "the driver's hurry"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22448": {
+  "en": "You must keep a speed suited only to your own state of health.",
+  "explain": {
+   "short": "Your health matters, but speed must also fit the road, traffic, visibility, weather and the vehicle.",
+   "rule": "Your speed must always fit the road, the traffic, the visibility and the weather. Slow down where danger is likely: junctions, narrow points, bends, hills, pedestrians on the road, a slippery or bad road surface, wind, glare.",
+   "trap": "'solo' (only): health is one factor among many, not the only one.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not only health: road, traffic, weather too",
+    "it": "solo",
+    "lines": [
+     "Your health: yes",
+     "Also road, traffic, weather"
+    ],
+    "icons": [
+     "firstaid",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "velocità adeguata",
+    "en": "suitable speed"
+   },
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "condizioni di salute",
+    "en": "state of health"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22449": {
+  "en": "You must always keep a speed above 30 km/h.",
+  "explain": {
+   "short": "There is no general minimum speed of 30 km/h; sometimes you must go slower or even stop.",
+   "rule": "Your speed must always fit the road, the traffic, the visibility and the weather. Slow down where danger is likely: junctions, narrow points, bends, hills, pedestrians on the road, a slippery or bad road surface, wind, glare.",
+   "trap": "'sempre' (always): a fixed minimum on every road does not exist.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No general minimum of 30 km/h",
+    "it": "sempre superiore",
+    "lines": [
+     "No fixed minimum of 30 km/h",
+     "Sometimes slower, or stop"
+    ],
+    "icons": [
+     "speed",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "velocità",
+    "en": "speed"
+   },
+   {
+    "it": "sempre superiore a 30 km/h",
+    "en": "always above 30 km/h"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22450": {
+  "en": "You must reduce speed when you are followed by a scheduled bus.",
+  "explain": {
+   "short": "A bus behind you is not a danger in itself; slowing down for no reason could even cause a crash.",
+   "rule": "Your speed must always fit the road, the traffic, the visibility and the weather. Slow down where danger is likely: junctions, narrow points, bends, hills, pedestrians on the road, a slippery or bad road surface, wind, glare.",
+   "trap": "'seguiti da un autobus' (followed by a bus) is no reason to slow down.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bus behind you: no need to slow down",
+    "it": "autobus di linea",
+    "lines": [
+     "Bus behind you",
+     "No reason to slow down"
+    ],
+    "icons": [
+     "bus",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "diminuire la velocità",
+    "en": "reduce speed"
+   },
+   {
+    "it": "autobus di linea",
+    "en": "scheduled bus, public bus"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22451": {
+  "en": "You must adjust your speed to the state of maintenance and cleanliness of the road.",
+  "explain": {
+   "short": "A badly kept or dirty road (holes, gravel, oil) gives less grip, so speed must fit its state.",
+   "rule": "Your speed must always fit the road, the traffic, the visibility and the weather. Slow down where danger is likely: junctions, narrow points, bends, hills, pedestrians on the road, a slippery or bad road surface, wind, glare.",
+   "trap": "'manutenzione e pulizia' (maintenance and cleanliness): the state of the road is part of choosing speed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road state counts: adapt speed",
+    "it": "manutenzione",
+    "lines": [
+     "Holes, gravel, dirt on the road",
+     "Adapt your speed"
+    ],
+    "icons": [
+     "road",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "stato di manutenzione",
+    "en": "state of maintenance"
+   },
+   {
+    "it": "pulizia",
+    "en": "cleanliness"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22452": {
+  "en": "Speed must be reduced in strong side wind.",
+  "explain": {
+   "short": "A strong side wind can push the car out of its lane, especially at high speed, so you slow down.",
+   "rule": "Your speed must always fit the road, the traffic, the visibility and the weather. Slow down where danger is likely: junctions, narrow points, bends, hills, pedestrians on the road, a slippery or bad road surface, wind, glare.",
+   "trap": "'forte vento laterale' (strong side wind) is a real danger: slow down.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Strong side wind: slow down",
+    "it": "vento laterale",
+    "lines": [
+     "Strong side wind",
+     "Slow down, hold the wheel firmly"
+    ],
+    "icons": [
+     "wind",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "diminuita",
+    "en": "reduced"
+   },
+   {
+    "it": "forte vento laterale",
+    "en": "strong side wind"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22453": {
+  "en": "Speed must be reduced when you are dazzled by the sun.",
+  "explain": {
+   "short": "When the sun is in your eyes you see much less, so you must slow down.",
+   "rule": "Your speed must always fit the road, the traffic, the visibility and the weather. Slow down where danger is likely: junctions, narrow points, bends, hills, pedestrians on the road, a slippery or bad road surface, wind, glare.",
+   "trap": "'abbagliamento' (being dazzled): less visibility means less speed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Sun in your eyes: slow down",
+    "it": "abbagliamento",
+    "lines": [
+     "Sun in your eyes: you see less",
+     "Slow down"
+    ],
+    "icons": [
+     "eye",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "diminuita",
+    "en": "reduced"
+   },
+   {
+    "it": "abbagliamento",
+    "en": "dazzle, glare"
+   },
+   {
+    "it": "sole",
+    "en": "sun"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22454": {
+  "en": "On motorways and main out-of-town roads, in thick fog with visibility under 100 m, temporary maximum speed limits of no more than 50 km/h can be imposed.",
+  "explain": {
+   "short": "In thick fog you can see very little, so on fast roads the authorities can set a temporary limit of 50 km/h or less.",
+   "rule": "On motorways and main out-of-town roads, when thick fog cuts visibility under 100 m, a temporary limit of at most 50 km/h can be set. Normal limits are 130 km/h and 110 km/h.",
+   "trap": "'possono essere imposti' (can be imposed): it is a temporary limit set with signs, not more than 50 km/h.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Thick fog: temporary limit up to 50 km/h",
+    "it": "nebbia fitta",
+    "lines": [
+     "Fog, visibility under 100 m",
+     "Temporary limit: 50 km/h"
+    ],
+    "icons": [
+     "fog",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "nebbia fitta",
+    "en": "thick fog"
+   },
+   {
+    "it": "visibilità inferiore a 100 m",
+    "en": "visibility under 100 m"
+   },
+   {
+    "it": "limiti massimi temporanei",
+    "en": "temporary maximum limits"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22455": {
+  "en": "Unless signs say otherwise, the maximum speed limit on main out-of-town roads is 100 km/h.",
+  "explain": {
+   "short": "The normal limit on a main out-of-town road is 110 km/h, not 100 km/h.",
+   "rule": "Unless signs say otherwise: motorways 130 km/h (110 in rain or snow), main out-of-town roads 110 km/h (90 in rain or snow), other out-of-town roads 90 km/h, towns 50 km/h. Signs can allow 150 km/h on some motorways and 70 km/h on some town roads.",
+   "trap": "'100 km/h' is the wrong number: main out-of-town roads are 110 km/h.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Main out-of-town road: 110 km/h, not 100",
+    "it": "extraurbane principali",
+    "lines": [
+     "Main out-of-town road: 110 km/h",
+     "Rain or snow: 90 km/h"
+    ],
+    "icons": [
+     "road",
+     "rain"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "Salvo diversa segnalazione",
+    "en": "unless signs say otherwise"
+   },
+   {
+    "it": "strade extraurbane principali",
+    "en": "main out-of-town roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22456": {
+  "en": "Unless signs say otherwise, the maximum speed limit in built-up areas is 60 km/h, valid up to one kilometre after leaving the town.",
+  "explain": {
+   "short": "Towns have a 50 km/h limit, and it ends at the end-of-town sign, not 1 km later. Both parts are wrong.",
+   "rule": "Unless signs say otherwise: motorways 130 km/h (110 in rain or snow), main out-of-town roads 110 km/h (90 in rain or snow), other out-of-town roads 90 km/h, towns 50 km/h. Signs can allow 150 km/h on some motorways and 70 km/h on some town roads.",
+   "trap": "'60 km/h' and 'fino ad un chilometro dopo' (up to 1 km after) are both invented.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Town: 50 km/h, ends at the town-end sign",
+    "it": "centri abitati",
+    "lines": [
+     "Town: 50 km/h",
+     "Ends at the end-of-town sign"
+    ],
+    "icons": [
+     "road",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "centri abitati",
+    "en": "built-up areas, towns"
+   },
+   {
+    "it": "un chilometro dopo",
+    "en": "one kilometre after"
+   },
+   {
+    "it": "uscita del paese",
+    "en": "leaving the town"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22457": {
+  "en": "You must reduce speed every time you meet an information road sign.",
+  "explain": {
+   "short": "Information signs (segnali di indicazione) only give directions or information; they are not a reason to slow down.",
+   "rule": "Your speed must always fit the road, the traffic, the visibility and the weather. Slow down where danger is likely: junctions, narrow points, bends, hills, pedestrians on the road, a slippery or bad road surface, wind, glare.",
+   "trap": "'ogni qualvolta' (every time) and 'di indicazione' (information): information signs give no order to slow down.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Information sign: no need to slow down",
+    "it": "segnale di indicazione",
+    "lines": [
+     "Information sign: only information",
+     "No order to slow down"
+    ],
+    "icons": [
+     "sign",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "diminuire la velocità",
+    "en": "reduce speed"
+   },
+   {
+    "it": "ogni qualvolta",
+    "en": "every time"
+   },
+   {
+    "it": "segnale stradale di indicazione",
+    "en": "information road sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

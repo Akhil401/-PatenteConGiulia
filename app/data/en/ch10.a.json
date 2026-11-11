@@ -1,0 +1,1822 @@
+{
+ "q22007": {
+  "en": "The supplementary panel shown, placed under a danger sign, gives the distance between the sign and the point where the danger begins.",
+  "explain": {
+   "short": "A number alone (no arrows) under a danger sign tells you how far ahead the danger starts.",
+   "rule": "A white panel with only a number in m or km (no arrows) is a DISTANCE panel: it tells how far ahead the danger, the rule or the place shown by the sign begins.",
+   "trap": "'distanza' (distance) is right here; with arrows the panel would give a length instead.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The danger starts 320 m after the sign",
+    "it": "distanza",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "320 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello integrativo",
+    "en": "supplementary panel"
+   },
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   },
+   {
+    "it": "punto d'inizio del pericolo",
+    "en": "point where the danger begins"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22008": {
+  "en": "The supplementary panel shown can be placed under signs to complete their meaning.",
+  "explain": {
+   "short": "That is exactly the job of every supplementary panel: it adds a detail (here a distance) to the sign above it.",
+   "rule": "Supplementary panels (pannelli integrativi) are small white plates under a sign. They complete or limit its meaning: distance, length, hours, days, vehicles. This one gives a distance.",
+   "trap": "'completarne il significato' (complete its meaning): the panel adds information, it never makes a rule on its own.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A panel completes the sign above it",
+    "it": "pannello integrativo",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello integrativo",
+    "en": "supplementary panel"
+   },
+   {
+    "it": "completarne il significato",
+    "en": "complete their meaning"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22009": {
+  "en": "The supplementary panel shown, placed under an information sign, gives the distance still to go to reach the place shown by the sign.",
+  "explain": {
+   "short": "Under an information sign (e.g. a petrol station or a car park) the number tells you how far away that place is.",
+   "rule": "A white panel with only a number in m or km (no arrows) is a DISTANCE panel: it tells how far ahead the danger, the rule or the place shown by the sign begins.",
+   "trap": "'distanza che manca' (distance still to go): it counts forward, not the road already done.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The place on the sign is 320 m ahead",
+    "it": "distanza",
+    "action": "info",
+    "distance": "320 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di indicazione",
+    "en": "information sign"
+   },
+   {
+    "it": "la distanza che manca",
+    "en": "the distance still to go"
+   },
+   {
+    "it": "punto indicato",
+    "en": "place shown"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22010": {
+  "en": "The supplementary panel shown, placed under a mandatory or prohibition sign, gives the distance from which the rule starts.",
+  "explain": {
+   "short": "Under a ban or an order, the number tells you how far ahead the rule begins to apply.",
+   "rule": "A white panel with only a number in m or km (no arrows) is a DISTANCE panel: it tells how far ahead the danger, the rule or the place shown by the sign begins.",
+   "trap": "'distanza dalla quale inizia' (distance from which it starts): it is a distance, not the length of the stretch.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The rule starts 320 m ahead",
+    "it": "prescrizione",
+    "action": "info",
+    "distance": "320 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di obbligo o divieto",
+    "en": "mandatory or prohibition sign"
+   },
+   {
+    "it": "la distanza dalla quale inizia",
+    "en": "the distance from which it starts"
+   },
+   {
+    "it": "prescrizione",
+    "en": "rule (order or ban)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22011": {
+  "en": "The supplementary panel shown in figure A shows the metres of road already travelled.",
+  "explain": {
+   "short": "The number looks forward: it is the distance to something ahead, not the road you have already done.",
+   "rule": "A white panel with only a number in m or km (no arrows) is a DISTANCE panel: it tells how far ahead the danger, the rule or the place shown by the sign begins.",
+   "trap": "'già fatta' (already done) is the trick: the panel never counts road behind you.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Distance AHEAD, not road already done",
+    "it": "distanza",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "320 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello integrativo",
+    "en": "supplementary panel"
+   },
+   {
+    "it": "metri di strada già fatta",
+    "en": "metres of road already travelled"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22012": {
+  "en": "The supplementary panel shown indicates the gradient of a road.",
+  "explain": {
+   "short": "A gradient is written in percent (%) on the steep-hill sign. This panel shows metres or kilometres: a distance.",
+   "rule": "A white panel with only a number in m or km (no arrows) is a DISTANCE panel: it tells how far ahead the danger, the rule or the place shown by the sign begins.",
+   "trap": "'pendenza' (gradient, slope) is the wrong idea: m and km are distances, a slope is in %.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A distance in m/km, not a slope in %",
+    "it": "distanza",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "320 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello integrativo",
+    "en": "supplementary panel"
+   },
+   {
+    "it": "la pendenza",
+    "en": "the gradient (slope)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22013": {
+  "en": "The supplementary panel shown in figure A indicates the safety distance to keep from the vehicle in front.",
+  "explain": {
+   "short": "The panel tells where the danger or rule of the sign begins. It says nothing about the gap to the car ahead.",
+   "rule": "A white panel with only a number in m or km (no arrows) is a DISTANCE panel: it tells how far ahead the danger, the rule or the place shown by the sign begins.",
+   "trap": "'distanza di sicurezza' (safety distance) sounds right because of 'distance', but it is a different idea.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Distance to the danger, not a safety gap",
+    "it": "distanza",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "320 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza di sicurezza",
+    "en": "safety distance"
+   },
+   {
+    "it": "veicolo che sta davanti",
+    "en": "vehicle in front"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22014": {
+  "en": "The supplementary panel shown indicates the width of a road.",
+  "explain": {
+   "short": "The number is a distance along the road to the danger or rule. Road width is never shown on this panel.",
+   "rule": "A white panel with only a number in m or km (no arrows) is a DISTANCE panel: it tells how far ahead the danger, the rule or the place shown by the sign begins.",
+   "trap": "'larghezza' (width) is invented: the panel measures how far ahead, not how wide.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Distance ahead, not road width",
+    "it": "distanza",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "320 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello integrativo",
+    "en": "supplementary panel"
+   },
+   {
+    "it": "la larghezza",
+    "en": "the width"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22015": {
+  "en": "The supplementary panel shown, placed under the danger sign, indicates the length of the dangerous stretch of road.",
+  "explain": {
+   "short": "Without arrows the number is a distance (where the danger starts). The length is shown by the panel with up arrows on both sides.",
+   "rule": "A white panel with only a number in m or km (no arrows) is a DISTANCE panel: it tells how far ahead the danger, the rule or the place shown by the sign begins.",
+   "trap": "'lunghezza' (length) is the trap: no arrows = distance, arrows = length.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No arrows: distance to the start, not length",
+    "it": "distanza",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "320 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   },
+   {
+    "it": "la lunghezza del tratto",
+    "en": "the length of the stretch"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22016": {
+  "en": "The supplementary panel shown, placed under a danger sign, indicates the length of the dangerous stretch of road.",
+  "explain": {
+   "short": "The two up arrows mean 'for this long': the danger lasts for the stretch written on the panel.",
+   "rule": "A white panel with a number between two up arrows is an EXTENSION panel: it tells how LONG the stretch is where the danger or the rule of the sign lasts.",
+   "trap": "'lunghezza' (length) is right here because of the arrows; without arrows it would be a distance.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Danger for the next 380 m",
+    "it": "estesa",
+    "action": "slow",
+    "hazard": "⚠️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   },
+   {
+    "it": "la lunghezza del tratto",
+    "en": "the length of the stretch"
+   },
+   {
+    "it": "pericoloso",
+    "en": "dangerous"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22017": {
+  "en": "The supplementary panel shown, placed under a mandatory sign, indicates the length of the stretch of road where the sign's rule applies.",
+  "explain": {
+   "short": "Under an order sign, the arrows panel tells for how many metres the order lasts.",
+   "rule": "A white panel with a number between two up arrows is an EXTENSION panel: it tells how LONG the stretch is where the danger or the rule of the sign lasts.",
+   "trap": "'lunghezza del tratto' (length of the stretch) matches the arrows: it is not where the rule starts.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The order lasts for 380 m",
+    "it": "estesa",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di obbligo",
+    "en": "mandatory sign"
+   },
+   {
+    "it": "la lunghezza del tratto stradale",
+    "en": "the length of the stretch of road"
+   },
+   {
+    "it": "prescrizione",
+    "en": "rule"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22018": {
+  "en": "The supplementary panel shown can be placed under a prohibition sign.",
+  "explain": {
+   "short": "Yes: under a ban (for example no overtaking) it tells how long the ban lasts.",
+   "rule": "A white panel with a number between two up arrows is an EXTENSION panel: it tells how LONG the stretch is where the danger or the rule of the sign lasts.",
+   "trap": "'può' (can): the panel can go under danger, mandatory AND prohibition signs.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Under a ban: the ban lasts for 380 m",
+    "it": "divieto",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello integrativo",
+    "en": "supplementary panel"
+   },
+   {
+    "it": "segnale di divieto",
+    "en": "prohibition sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22019": {
+  "en": "The supplementary panel shown in figure B, placed under a danger sign, indicates, in kilometres, the length of the dangerous stretch of road.",
+  "explain": {
+   "short": "Panel B has arrows and '2,8 km': the danger lasts for 2.8 kilometres.",
+   "rule": "A white panel with a number between two up arrows is an EXTENSION panel: it tells how LONG the stretch is where the danger or the rule of the sign lasts.",
+   "trap": "'in chilometri' (in kilometres): panel B says km, panel A says m; both with arrows are lengths.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Danger for the next 2.8 km",
+    "it": "chilometri",
+    "action": "slow",
+    "hazard": "⚠️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in figura B",
+    "en": "in figure B"
+   },
+   {
+    "it": "in chilometri",
+    "en": "in kilometres"
+   },
+   {
+    "it": "la lunghezza del tratto",
+    "en": "the length of the stretch"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22020": {
+  "en": "The sign shown indicates the length of a stretch of road with dangerous bends one after the other.",
+  "explain": {
+   "short": "The triangle warns of a series of dangerous bends; the arrows panel says they go on for 380 m.",
+   "rule": "A white panel with a number between two up arrows is an EXTENSION panel: it tells how LONG the stretch is where the danger or the rule of the sign lasts.",
+   "trap": "'lunghezza' (length) is right because the panel has arrows; 'in successione' (one after the other) matches the double bend.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dangerous bends for 380 m",
+    "it": "curve pericolose",
+    "action": "slow",
+    "hazard": "↪️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "la lunghezza",
+    "en": "the length"
+   },
+   {
+    "it": "curve pericolose",
+    "en": "dangerous bends"
+   },
+   {
+    "it": "in successione",
+    "en": "one after the other"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22021": {
+  "en": "The supplementary panel shown in figure A requires you to go straight on for 380 metres.",
+  "explain": {
+   "short": "The arrows do not mean 'go straight': they only show that the sign above is valid for the next 380 m.",
+   "rule": "A white panel with a number between two up arrows is an EXTENSION panel: it tells how LONG the stretch is where the danger or the rule of the sign lasts.",
+   "trap": "'obbliga' (requires): a panel never creates an order by itself; the arrows show length, not direction.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrows show length, not 'go straight'",
+    "it": "estesa",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in figura A",
+    "en": "in figure A"
+   },
+   {
+    "it": "obbliga a proseguire diritto",
+    "en": "requires you to go straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22022": {
+  "en": "The supplementary panel shown in figure A indicates the safety distance to keep when it rains.",
+  "explain": {
+   "short": "The panel tells how long the stretch of the sign above is. It has nothing to do with rain or safety distance.",
+   "rule": "A white panel with a number between two up arrows is an EXTENSION panel: it tells how LONG the stretch is where the danger or the rule of the sign lasts.",
+   "trap": "'distanza di sicurezza in caso di pioggia' is invented: the panel shows a length, not a following gap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Length of the stretch, not a rain gap",
+    "it": "estesa",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza di sicurezza",
+    "en": "safety distance"
+   },
+   {
+    "it": "in caso di pioggia",
+    "en": "when it rains"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22023": {
+  "en": "The supplementary panel shown indicates the distance between the sign and the point where the danger begins.",
+  "explain": {
+   "short": "With arrows on both sides the number is the LENGTH of the dangerous stretch. The distance panel has no arrows.",
+   "rule": "A white panel with a number between two up arrows is an EXTENSION panel: it tells how LONG the stretch is where the danger or the rule of the sign lasts.",
+   "trap": "'distanza' (distance) is the trap: arrows = length, no arrows = distance.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrows: length of the danger, not distance",
+    "it": "estesa",
+    "action": "slow",
+    "hazard": "⚠️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello integrativo",
+    "en": "supplementary panel"
+   },
+   {
+    "it": "la distanza",
+    "en": "the distance"
+   },
+   {
+    "it": "punto d'inizio del pericolo",
+    "en": "point where the danger begins"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22024": {
+  "en": "The sign shown indicates the distance between the sign and the start of the road in bad condition.",
+  "explain": {
+   "short": "The triangle warns of an uneven road; the arrows panel says the bad road lasts for 380 m. It starts right at the sign.",
+   "rule": "A white panel with a number between two up arrows is an EXTENSION panel: it tells how LONG the stretch is where the danger or the rule of the sign lasts.",
+   "trap": "'distanza' (distance) is wrong: with arrows the 380 m is the length of the bad stretch.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Uneven road FOR 380 m, starting here",
+    "it": "strada deformata",
+    "action": "slow",
+    "hazard": "⚠️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "la distanza",
+    "en": "the distance"
+   },
+   {
+    "it": "strada in cattivo stato",
+    "en": "road in bad condition"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22025": {
+  "en": "The supplementary panel shown in figure A indicates the height of a viaduct.",
+  "explain": {
+   "short": "The panel gives the length of a stretch of road, not the height of anything.",
+   "rule": "A white panel with a number between two up arrows is an EXTENSION panel: it tells how LONG the stretch is where the danger or the rule of the sign lasts.",
+   "trap": "'altezza' (height) is invented: a height limit has its own round sign in metres.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Length of a stretch, not a height",
+    "it": "estesa",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in figura A",
+    "en": "in figure A"
+   },
+   {
+    "it": "l'altezza di un viadotto",
+    "en": "the height of a viaduct"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22026": {
+  "en": "The sign shown forbids parking from 7.30 to 19.00.",
+  "explain": {
+   "short": "No-parking sign plus an hours panel: parking is banned only between 7.30 and 19.00.",
+   "rule": "A white panel with only hours (e.g. 7.30-19.00) limits the sign above it to those hours, every day. Outside those hours the sign does not apply.",
+   "trap": "'dalle ore 7.30 alle ore 19.00' matches the panel; outside those hours parking is allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No parking 7.30-19.00",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "dalle ore 7.30 alle ore 19.00",
+    "en": "from 7.30 to 19.00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22027": {
+  "en": "The sign shown forbids transit from 7.30 to 19.00.",
+  "explain": {
+   "short": "The plain red ring is 'no vehicles'; the panel limits the ban to 7.30-19.00.",
+   "rule": "A white panel with only hours (e.g. 7.30-19.00) limits the sign above it to those hours, every day. Outside those hours the sign does not apply.",
+   "trap": "'vieta il transito' is right: the panel does not change the ban, it only sets its hours.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No vehicles 7.30-19.00",
+    "it": "divieto di transito",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "forbids transit"
+   },
+   {
+    "it": "dalle ore 7.30 alle 19.00",
+    "en": "from 7.30 to 19.00"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22028": {
+  "en": "The supplementary panel (A), placed under the sign (B), forbids pedestrians to pass only in the hours shown.",
+  "explain": {
+   "short": "Sign B bans pedestrians; panel A limits that ban to 7.30-19.00. Outside those hours pedestrians may pass.",
+   "rule": "A white panel with only hours (e.g. 7.30-19.00) limits the sign above it to those hours, every day. Outside those hours the sign does not apply.",
+   "trap": "'nelle sole ore indicate' (only in the hours shown) is the panel's job: it limits the sign above.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No pedestrians, only 7.30-19.00",
+    "it": "transito vietato ai pedoni",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "posto sotto il segnale (B)",
+    "en": "placed under the sign (B)"
+   },
+   {
+    "it": "vieta il transito ai pedoni",
+    "en": "forbids pedestrians to pass"
+   },
+   {
+    "it": "nelle sole ore indicate",
+    "en": "only in the hours shown"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22029": {
+  "en": "The supplementary panel shown in figure B indicates the hours of every day in which the sign applies.",
+  "explain": {
+   "short": "Panel B shows only hours, with no day symbol, so the sign applies every day in those hours.",
+   "rule": "An hours-only panel limits the sign above it to those hours, every day. Panel A '0-24' means the sign applies all day and night.",
+   "trap": "'tutti i giorni' (every day) is right: no cross and no hammers means no day limit.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Every day, 7.30-19.00",
+    "it": "orario",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in figura B",
+    "en": "in figure B"
+   },
+   {
+    "it": "le ore di tutti i giorni",
+    "en": "the hours of every day"
+   },
+   {
+    "it": "vale il segnale",
+    "en": "the sign applies"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22030": {
+  "en": "The sign shown allows motorcycles to pass only in the hours shown.",
+  "explain": {
+   "short": "The sign BANS motorcycles; the panel says the ban applies 7.30-19.00. So motorcycles may pass only OUTSIDE those hours.",
+   "rule": "A white panel with only hours (e.g. 7.30-19.00) limits the sign above it to those hours, every day. Outside those hours the sign does not apply.",
+   "trap": "'consente' (allows) flips the meaning: in the hours shown motorcycles are forbidden.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorcycles BANNED 7.30-19.00",
+    "it": "transito vietato ai motocicli",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows passing"
+   },
+   {
+    "it": "ai motocicli",
+    "en": "to motorcycles"
+   },
+   {
+    "it": "nelle sole ore indicate",
+    "en": "only in the hours shown"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22031": {
+  "en": "The sign shown indicates that the horn may be used from 7.30 to 19.00.",
+  "explain": {
+   "short": "The crossed-out horn means 'no horn'; the panel says the ban applies from 7.30 to 19.00.",
+   "rule": "An hours panel limits the sign above it to those hours. Here the crossed-out horn (no horn) applies only from 7.30 to 19.00.",
+   "trap": "'può essere usato' (may be used) is the opposite: in those hours the horn is forbidden.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Horn BANNED 7.30-19.00",
+    "it": "divieto di segnalazioni acustiche",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "il clacson",
+    "en": "the horn"
+   },
+   {
+    "it": "può essere usato",
+    "en": "may be used"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22032": {
+  "en": "The sign shown indicates the opening hours of a limited traffic zone.",
+  "explain": {
+   "short": "The blue sign with a pedestrian is a pedestrian path; the panel (cross = holidays) says it is for pedestrians only on holidays, 8.00-20.00.",
+   "rule": "A panel only limits the sign above it. Here the pedestrian-path sign applies on holidays (cross) from 8.00 to 20.00.",
+   "trap": "'zona a traffico limitato' (restricted traffic zone, ZTL) has its own sign; this is a pedestrian path with a time limit.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pedestrian path on holidays 8-20, not a ZTL",
+    "it": "percorso pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "orario di apertura",
+    "en": "opening hours"
+   },
+   {
+    "it": "zona a traffico limitato",
+    "en": "limited traffic zone (ZTL)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22033": {
+  "en": "The supplementary panel shown in figure B indicates the hours in which you may drive with your lights off.",
+  "explain": {
+   "short": "Panel B only gives the hours in which the sign above applies. It has nothing to do with headlights.",
+   "rule": "A white panel with only hours (e.g. 7.30-19.00) limits the sign above it to those hours, every day. Outside those hours the sign does not apply.",
+   "trap": "'fari spenti' (lights off) is invented: a panel never creates a rule on its own.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hours of the sign, not 'lights off'",
+    "it": "orario",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in figura B",
+    "en": "in figure B"
+   },
+   {
+    "it": "a fari spenti",
+    "en": "with lights off"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22034": {
+  "en": "The supplementary panel shown in figure B indicates the time slots in which odd/even number plate driving applies.",
+  "explain": {
+   "short": "Panel B only gives the hours in which the sign above applies. Alternate number plates are a separate local order.",
+   "rule": "A white panel with only hours (e.g. 7.30-19.00) limits the sign above it to those hours, every day. Outside those hours the sign does not apply.",
+   "trap": "'targhe alterne' (odd/even plates) is invented: the panel only sets the hours of its sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hours of the sign, not odd/even plates",
+    "it": "orario",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fasce orarie",
+    "en": "time slots"
+   },
+   {
+    "it": "a targhe alterne",
+    "en": "with odd/even number plates"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22035": {
+  "en": "The supplementary panel shown limits the validity of the sign it is under to holidays and to the time slot shown.",
+  "explain": {
+   "short": "The small cross means holidays: the sign above applies only on holidays, from 8.00 to 20.00.",
+   "rule": "A panel with a small cross and hours means HOLIDAYS (giorni festivi, Sundays and public holidays): the sign above applies only on holidays, in those hours.",
+   "trap": "'limita la validità' (limits the validity) is exactly what a panel does.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Holidays only, 8.00-20.00",
+    "it": "giorni festivi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "limita la validità",
+    "en": "limits the validity"
+   },
+   {
+    "it": "ai giorni festivi",
+    "en": "to holidays"
+   },
+   {
+    "it": "fascia oraria",
+    "en": "time slot"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22036": {
+  "en": "The supplementary panel shown, placed under a regulatory sign, states that the sign applies only on holidays and in the time slots shown.",
+  "explain": {
+   "short": "Under a ban or an order, the cross panel limits it to holidays and to the hours written.",
+   "rule": "A panel with a small cross and hours means HOLIDAYS (giorni festivi, Sundays and public holidays): the sign above applies only on holidays, in those hours.",
+   "trap": "'solo nei giorni festivi' (only on holidays) is right: on working days the sign does not apply.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The sign applies on holidays, 8-20",
+    "it": "giorni festivi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di prescrizione",
+    "en": "regulatory sign"
+   },
+   {
+    "it": "solo nei giorni festivi",
+    "en": "only on holidays"
+   },
+   {
+    "it": "fasce orarie",
+    "en": "time slots"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22037": {
+  "en": "The sign shown allows only pedestrians to pass on holidays in the time slots shown.",
+  "explain": {
+   "short": "The blue pedestrian sign is a pedestrian path: only pedestrians may use it. The cross panel limits this to holidays, 8.00-20.00.",
+   "rule": "A panel with a small cross and hours means HOLIDAYS (giorni festivi, Sundays and public holidays): the sign above applies only on holidays, in those hours.",
+   "trap": "'ai soli pedoni' (only pedestrians) is right for the pedestrian path; the panel only adds when.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pedestrians only, holidays 8.00-20.00",
+    "it": "percorso pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows passing"
+   },
+   {
+    "it": "nei giorni festivi",
+    "en": "on holidays"
+   },
+   {
+    "it": "ai soli pedoni",
+    "en": "only to pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22038": {
+  "en": "The sign shown forbids parking in the time slot shown, on holidays.",
+  "explain": {
+   "short": "No-parking sign plus cross panel: no parking on holidays from 8.00 to 20.00.",
+   "rule": "A panel with a small cross and hours means HOLIDAYS (giorni festivi, Sundays and public holidays): the sign above applies only on holidays, in those hours.",
+   "trap": "'dei giorni festivi' (on holidays) matches the cross; on working days parking is not banned by this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No parking on holidays, 8.00-20.00",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "fascia oraria",
+    "en": "time slot"
+   },
+   {
+    "it": "dei giorni festivi",
+    "en": "on holidays"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22039": {
+  "en": "The sign shown allows only cyclists to pass from 8.00 to 20.00 on holidays.",
+  "explain": {
+   "short": "The blue bicycle sign is a cycle path: only bicycles may use it. The cross panel limits this to holidays, 8.00-20.00.",
+   "rule": "A panel with a small cross and hours means HOLIDAYS (giorni festivi, Sundays and public holidays): the sign above applies only on holidays, in those hours.",
+   "trap": "'ai soli ciclisti' (only cyclists) is right; the panel says it applies on holidays in those hours.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bicycles only, holidays 8.00-20.00",
+    "it": "pista ciclabile",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows passing"
+   },
+   {
+    "it": "dei giorni festivi",
+    "en": "on holidays"
+   },
+   {
+    "it": "ai soli ciclisti",
+    "en": "only to cyclists"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22040": {
+  "en": "The sign shown forbids transit from 8.00 to 20.00 on holidays.",
+  "explain": {
+   "short": "No-vehicles sign plus cross panel: no vehicles on holidays from 8.00 to 20.00.",
+   "rule": "A panel with a small cross and hours means HOLIDAYS (giorni festivi, Sundays and public holidays): the sign above applies only on holidays, in those hours.",
+   "trap": "'dei giorni festivi' (on holidays) matches the small cross on the panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No vehicles on holidays, 8.00-20.00",
+    "it": "divieto di transito",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "forbids transit"
+   },
+   {
+    "it": "dei giorni festivi",
+    "en": "on holidays"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22041": {
+  "en": "The supplementary panel shown indicates the entry hours of the cemetery.",
+  "explain": {
+   "short": "The cross is the symbol for holidays, not a cemetery. The panel limits the sign above it to holidays, 8.00-20.00.",
+   "rule": "A panel with a small cross and hours means HOLIDAYS (giorni festivi, Sundays and public holidays): the sign above applies only on holidays, in those hours.",
+   "trap": "'cimitero' (cemetery) plays on the cross: it means holidays (giorni festivi).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cross = holidays, not a cemetery",
+    "it": "giorni festivi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "orario d'ingresso",
+    "en": "entry hours"
+   },
+   {
+    "it": "nel cimitero",
+    "en": "into the cemetery"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22042": {
+  "en": "The supplementary panel shown indicates the opening hours of churches.",
+  "explain": {
+   "short": "The cross is the symbol for holidays, not a church. The panel limits the sign above it to holidays, 8.00-20.00.",
+   "rule": "A panel with a small cross and hours means HOLIDAYS (giorni festivi, Sundays and public holidays): the sign above applies only on holidays, in those hours.",
+   "trap": "'chiese' (churches) plays on the cross: it means holidays (giorni festivi).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cross = holidays, not churches",
+    "it": "giorni festivi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "orario di apertura",
+    "en": "opening hours"
+   },
+   {
+    "it": "delle chiese",
+    "en": "of churches"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22043": {
+  "en": "The supplementary panel shown indicates the times of religious services.",
+  "explain": {
+   "short": "The cross is the symbol for holidays. The panel only says when the sign above applies: holidays, 8.00-20.00.",
+   "rule": "A panel with a small cross and hours means HOLIDAYS (giorni festivi, Sundays and public holidays): the sign above applies only on holidays, in those hours.",
+   "trap": "'funzioni religiose' (religious services) plays on the cross: it means holidays (giorni festivi).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cross = holidays, not church services",
+    "it": "giorni festivi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "orario di celebrazione",
+    "en": "times of celebration"
+   },
+   {
+    "it": "funzioni religiose",
+    "en": "religious services"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22044": {
+  "en": "The sign shown indicates that you may park every day in the time slot shown.",
+  "explain": {
+   "short": "The car park is valid only on holidays (cross), from 8.00 to 20.00, not every day.",
+   "rule": "A panel with a small cross and hours means HOLIDAYS (giorni festivi, Sundays and public holidays): the sign above applies only on holidays, in those hours.",
+   "trap": "'tutti i giorni' (every day) is wrong: the cross limits it to holidays.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking only on holidays, 8.00-20.00",
+    "it": "parcheggio",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si può parcheggiare",
+    "en": "you may park"
+   },
+   {
+    "it": "tutti i giorni",
+    "en": "every day"
+   },
+   {
+    "it": "fascia oraria",
+    "en": "time slot"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22045": {
+  "en": "The supplementary panel shown applies on working days.",
+  "explain": {
+   "short": "The cross means holidays. Working days are shown by a different symbol: two crossed hammers.",
+   "rule": "A panel with a small cross and hours means HOLIDAYS (giorni festivi, Sundays and public holidays): the sign above applies only on holidays, in those hours.",
+   "trap": "'giorni lavorativi' (working days) is the opposite: cross = holidays, hammers = working days.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cross = holidays, not working days",
+    "it": "giorni festivi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello integrativo",
+    "en": "supplementary panel"
+   },
+   {
+    "it": "giorni lavorativi",
+    "en": "working days"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22046": {
+  "en": "The sign shown allows motorcycles to pass on Sundays from 8.00 to 20.00.",
+  "explain": {
+   "short": "The sign BANS motorcycles; the cross panel says the ban applies on holidays (Sundays too) from 8.00 to 20.00.",
+   "rule": "A panel with a small cross and hours means HOLIDAYS (giorni festivi, Sundays and public holidays): the sign above applies only on holidays, in those hours.",
+   "trap": "'consente' (allows) flips the meaning: in that time motorcycles are forbidden.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorcycles BANNED on holidays 8-20",
+    "it": "transito vietato ai motocicli",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito dei motocicli",
+    "en": "allows motorcycles to pass"
+   },
+   {
+    "it": "la domenica",
+    "en": "on Sundays"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22047": {
+  "en": "The supplementary panel shown, placed under a sign, limits its validity to working days and to the time slots shown.",
+  "explain": {
+   "short": "The crossed hammers mean working days: the sign above applies only on working days, 8.00-20.00.",
+   "rule": "A panel with crossed hammers and hours means WORKING DAYS (giorni lavorativi, Monday to Saturday except holidays): the sign above applies only on working days, in those hours.",
+   "trap": "'giorni lavorativi' (working days) matches the hammers; a cross would mean holidays.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Working days only, 8.00-20.00",
+    "it": "giorni lavorativi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ne limita la validità",
+    "en": "limits its validity"
+   },
+   {
+    "it": "giorni lavorativi",
+    "en": "working days"
+   },
+   {
+    "it": "fasce orarie",
+    "en": "time slots"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22048": {
+  "en": "The sign shown forbids transit in the time slot shown, on working days.",
+  "explain": {
+   "short": "No-vehicles sign plus hammers panel: no vehicles on working days from 8.00 to 20.00.",
+   "rule": "A panel with crossed hammers and hours means WORKING DAYS (giorni lavorativi, Monday to Saturday except holidays): the sign above applies only on working days, in those hours.",
+   "trap": "'dei giorni lavorativi' (on working days) matches the hammers.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No vehicles on working days, 8-20",
+    "it": "divieto di transito",
+    "action": "noEntry"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "forbids transit"
+   },
+   {
+    "it": "fascia oraria",
+    "en": "time slot"
+   },
+   {
+    "it": "dei giorni lavorativi",
+    "en": "on working days"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22049": {
+  "en": "The supplementary panel shown indicates the time slot on working days during which the rule of the sign it is under applies.",
+  "explain": {
+   "short": "Hammers mean working days; the hours say when, on those days, the sign above applies.",
+   "rule": "A panel with crossed hammers and hours means WORKING DAYS (giorni lavorativi, Monday to Saturday except holidays): the sign above applies only on working days, in those hours.",
+   "trap": "'giorni lavorativi' (working days) is right for the hammers symbol.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Working days, 8.00-20.00",
+    "it": "giorni lavorativi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fascia oraria",
+    "en": "time slot"
+   },
+   {
+    "it": "dei giorni lavorativi",
+    "en": "of working days"
+   },
+   {
+    "it": "prescrizione",
+    "en": "rule"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22050": {
+  "en": "The sign shown forbids parking in the time slot shown on working days.",
+  "explain": {
+   "short": "No-parking sign plus hammers panel: no parking on working days from 8.00 to 20.00.",
+   "rule": "A panel with crossed hammers and hours means WORKING DAYS (giorni lavorativi, Monday to Saturday except holidays): the sign above applies only on working days, in those hours.",
+   "trap": "'dei giorni lavorativi' (on working days) matches the hammers; on holidays this sign does not apply.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No parking on working days, 8-20",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "dei giorni lavorativi",
+    "en": "on working days"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22051": {
+  "en": "The supplementary panel shown, placed under a mandatory sign, indicates that it applies from 8.00 to 20.00 on working days.",
+  "explain": {
+   "short": "Under an order sign, the hammers panel limits the order to working days, 8.00-20.00.",
+   "rule": "A panel with crossed hammers and hours means WORKING DAYS (giorni lavorativi, Monday to Saturday except holidays): the sign above applies only on working days, in those hours.",
+   "trap": "'dei giorni lavorativi' (on working days) matches the hammers; the panel works under orders too.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The order applies on working days, 8-20",
+    "it": "giorni lavorativi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di obbligo",
+    "en": "mandatory sign"
+   },
+   {
+    "it": "dei giorni lavorativi",
+    "en": "on working days"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22052": {
+  "en": "The sign shown forbids transit to lorries with a total mass over 3.5 t in the hours shown, on working days.",
+  "explain": {
+   "short": "The red ring with a lorry bans lorries over 3.5 t; the hammers panel limits the ban to working days, 8.00-20.00.",
+   "rule": "A panel with crossed hammers and hours means WORKING DAYS (giorni lavorativi, Monday to Saturday except holidays): the sign above applies only on working days, in those hours.",
+   "trap": "'dei giorni lavorativi' (on working days) matches the hammers; on holidays these lorries may pass.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lorries over 3.5 t banned, working days 8-20",
+    "it": "transito vietato agli autocarri",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "forbids transit"
+   },
+   {
+    "it": "autocarri",
+    "en": "lorries"
+   },
+   {
+    "it": "massa complessiva",
+    "en": "total mass"
+   },
+   {
+    "it": "dei giorni lavorativi",
+    "en": "on working days"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22053": {
+  "en": "The supplementary panel shown indicates that the sign it is paired with applies every day, but only in the hours shown.",
+  "explain": {
+   "short": "The crossed hammers limit the sign to working days only, not every day.",
+   "rule": "A panel with crossed hammers and hours means WORKING DAYS (giorni lavorativi, Monday to Saturday except holidays): the sign above applies only on working days, in those hours.",
+   "trap": "'tutti i giorni' (every day) is wrong: the hammers mean working days only.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Working days only, not every day",
+    "it": "giorni lavorativi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "abbinato",
+    "en": "paired with"
+   },
+   {
+    "it": "tutti i giorni",
+    "en": "every day"
+   },
+   {
+    "it": "solo nelle ore indicate",
+    "en": "only in the hours shown"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22054": {
+  "en": "The supplementary panel shown indicates the opening hours of a museum of work tools.",
+  "explain": {
+   "short": "The hammers are the symbol for working days, not tools in a museum. The panel limits the sign above it.",
+   "rule": "A panel with crossed hammers and hours means WORKING DAYS (giorni lavorativi, Monday to Saturday except holidays): the sign above applies only on working days, in those hours.",
+   "trap": "'museo di attrezzi da lavoro' plays on the hammers: they mean working days (giorni lavorativi).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hammers = working days, not a museum",
+    "it": "giorni lavorativi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "orari di apertura",
+    "en": "opening hours"
+   },
+   {
+    "it": "museo di attrezzi da lavoro",
+    "en": "museum of work tools"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22055": {
+  "en": "The supplementary panel shown indicates the opening hours of roadside recovery workshops.",
+  "explain": {
+   "short": "The hammers are the symbol for working days, not a workshop. The panel limits the sign above it to working days, 8.00-20.00.",
+   "rule": "A panel with crossed hammers and hours means WORKING DAYS (giorni lavorativi, Monday to Saturday except holidays): the sign above applies only on working days, in those hours.",
+   "trap": "'officine di soccorso stradale' plays on the hammers: they mean working days (giorni lavorativi).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hammers = working days, not a workshop",
+    "it": "giorni lavorativi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fascia oraria di apertura",
+    "en": "opening time slot"
+   },
+   {
+    "it": "officine di soccorso stradale",
+    "en": "roadside recovery workshops"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22056": {
+  "en": "The sign shown is reserved for roadside recovery vehicles.",
+  "explain": {
+   "short": "It is a normal car park for everyone; the hammers panel only limits it to working days, 8.00-20.00.",
+   "rule": "A panel with crossed hammers and hours means WORKING DAYS (giorni lavorativi, Monday to Saturday except holidays): the sign above applies only on working days, in those hours.",
+   "trap": "'soccorso stradale' (roadside recovery) plays on the hammers: they mean working days.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Car park on working days 8-20, for all",
+    "it": "parcheggio",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è riservato",
+    "en": "is reserved"
+   },
+   {
+    "it": "veicoli per il soccorso stradale",
+    "en": "roadside recovery vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22057": {
+  "en": "The supplementary panel shown indicates that the sign it is paired with applies on holidays.",
+  "explain": {
+   "short": "The crossed hammers mean working days. Holidays are shown by a small cross instead.",
+   "rule": "A panel with crossed hammers and hours means WORKING DAYS (giorni lavorativi, Monday to Saturday except holidays): the sign above applies only on working days, in those hours.",
+   "trap": "'giorni festivi' (holidays) is the opposite: hammers = working days, cross = holidays.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hammers = working days, not holidays",
+    "it": "giorni lavorativi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "abbinato",
+    "en": "paired with"
+   },
+   {
+    "it": "giorni festivi",
+    "en": "holidays"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22058": {
+  "en": "The supplementary panel shown, placed under the PARKING sign, indicates that you may park on holidays from 8.00 to 20.00.",
+  "explain": {
+   "short": "Under a parking sign, the hammers panel means the car park is valid on working days 8.00-20.00, not on holidays.",
+   "rule": "A panel with crossed hammers and hours means WORKING DAYS (giorni lavorativi, Monday to Saturday except holidays): the sign above applies only on working days, in those hours.",
+   "trap": "'giorni festivi' (holidays) is wrong: the hammers mean working days.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking on working days, not holidays",
+    "it": "giorni lavorativi",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale PARCHEGGIO",
+    "en": "PARKING sign"
+   },
+   {
+    "it": "si può parcheggiare",
+    "en": "you may park"
+   },
+   {
+    "it": "nei giorni festivi",
+    "en": "on holidays"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22059": {
+  "en": "The sign shown forbids transit only to the vehicles shown.",
+  "explain": {
+   "short": "The no-vehicles sign is limited by the panel to articulated lorries: only they are banned.",
+   "rule": "A panel with a vehicle drawing limits the sign above it to that kind of vehicle only. Here it is an articulated lorry (autoarticolato: tractor unit + semi-trailer).",
+   "trap": "'ai soli veicoli indicati' (only to the vehicles shown) is right: the panel narrows the ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only articulated lorries banned",
+    "it": "autoarticolati",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "forbids transit"
+   },
+   {
+    "it": "ai soli veicoli indicati",
+    "en": "only to the vehicles shown"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22060": {
+  "en": "The sign shown forbids parking to the vehicles shown.",
+  "explain": {
+   "short": "The sign is 'no stopping' (red X), limited to articulated lorries. No stopping also means no parking for them.",
+   "rule": "A vehicle panel limits the sign above it to those vehicles. Here 'no stopping' (divieto di fermata) applies only to articulated lorries; it includes no parking.",
+   "trap": "'vieta la sosta' (forbids parking) is right even though the sign bans stopping: no stopping includes no parking.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No stopping (so no parking) for these lorries",
+    "it": "divieto di fermata",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "ai veicoli indicati",
+    "en": "to the vehicles shown"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22061": {
+  "en": "The sign shown forbids articulated lorries to park.",
+  "explain": {
+   "short": "No-parking sign plus a panel with an articulated lorry: the parking ban is only for those vehicles.",
+   "rule": "A panel with a vehicle drawing limits the sign above it to that kind of vehicle only. Here it is an articulated lorry (autoarticolato: tractor unit + semi-trailer).",
+   "trap": "'agli autoarticolati' (to articulated lorries) is right: that is the vehicle drawn on the panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No parking for articulated lorries",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "agli autoarticolati",
+    "en": "to articulated lorries"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22062": {
+  "en": "The supplementary panel shown indicates that the sign it is paired with applies only to the vehicles shown.",
+  "explain": {
+   "short": "A vehicle panel narrows the sign above it: the rule is only for the vehicle drawn.",
+   "rule": "A panel with a vehicle drawing limits the sign above it to that kind of vehicle only. Here it is an articulated lorry (autoarticolato: tractor unit + semi-trailer).",
+   "trap": "'solo per i veicoli rappresentati' (only for the vehicles shown) is exactly the job of this panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The sign applies only to these vehicles",
+    "it": "autoarticolati",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "abbinato",
+    "en": "paired with"
+   },
+   {
+    "it": "solo per i veicoli rappresentati",
+    "en": "only for the vehicles shown"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22063": {
+  "en": "The supplementary panel shown can be paired with a mandatory sign.",
+  "explain": {
+   "short": "Yes: a vehicle panel can go under an order sign, so the order applies only to those vehicles.",
+   "rule": "A panel with a vehicle drawing limits the sign above it to that kind of vehicle only. Here it is an articulated lorry (autoarticolato: tractor unit + semi-trailer).",
+   "trap": "'può' (can): vehicle panels go under orders and bans alike.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Under an order: only for these vehicles",
+    "it": "segnale di obbligo",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "può essere abbinato",
+    "en": "can be paired"
+   },
+   {
+    "it": "segnale di obbligo",
+    "en": "mandatory sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22064": {
+  "en": "The supplementary panel shown can be paired with a prohibition sign.",
+  "explain": {
+   "short": "Yes: under a ban (for example no parking or no vehicles) it limits the ban to those vehicles.",
+   "rule": "A panel with a vehicle drawing limits the sign above it to that kind of vehicle only. Here it is an articulated lorry (autoarticolato: tractor unit + semi-trailer).",
+   "trap": "'può' (can): vehicle panels go under bans and orders alike.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Under a ban: only for these vehicles",
+    "it": "segnale di divieto",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "può essere abbinato",
+    "en": "can be paired"
+   },
+   {
+    "it": "segnale di divieto",
+    "en": "prohibition sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22065": {
+  "en": "The supplementary panel shown indicates a mechanic's workshop for lorries with trailers.",
+  "explain": {
+   "short": "The panel is not a service sign: it only says which vehicles the sign above applies to.",
+   "rule": "A panel with a vehicle drawing limits the sign above it to that kind of vehicle only. Here it is an articulated lorry (autoarticolato: tractor unit + semi-trailer).",
+   "trap": "'officina meccanica' (workshop) is invented: the panel only names the vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Names vehicles, not a workshop",
+    "it": "autoarticolati",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "officina meccanica",
+    "en": "mechanic's workshop"
+   },
+   {
+    "it": "autotreni",
+    "en": "lorries with trailers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22066": {
+  "en": "The supplementary panel shown indicates a filling station for heavy vehicles only.",
+  "explain": {
+   "short": "The panel is not a service sign: it only says which vehicles the sign above applies to.",
+   "rule": "A panel with a vehicle drawing limits the sign above it to that kind of vehicle only. Here it is an articulated lorry (autoarticolato: tractor unit + semi-trailer).",
+   "trap": "'stazione di rifornimento' (filling station) is invented: the panel only names the vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Names vehicles, not a filling station",
+    "it": "autoarticolati",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "stazione di rifornimento",
+    "en": "filling station"
+   },
+   {
+    "it": "per soli mezzi pesanti",
+    "en": "for heavy vehicles only"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22067": {
+  "en": "The sign shown allows articulated lorries to park.",
+  "explain": {
+   "short": "It is a no-parking sign: the panel says the BAN is for articulated lorries. They may not park.",
+   "rule": "A panel with a vehicle drawing limits the sign above it to that kind of vehicle only. Here it is an articulated lorry (autoarticolato: tractor unit + semi-trailer).",
+   "trap": "'consente' (allows) flips the meaning: the panel limits a ban, it does not grant permission.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Articulated lorries may NOT park",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente la sosta",
+    "en": "allows parking"
+   },
+   {
+    "it": "agli autoarticolati",
+    "en": "to articulated lorries"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22068": {
+  "en": "The sign shown says that articulated lorries may pass.",
+  "explain": {
+   "short": "It is a no-vehicles sign limited to articulated lorries: they are the ones that may NOT pass.",
+   "rule": "A panel with a vehicle drawing limits the sign above it to that kind of vehicle only. Here it is an articulated lorry (autoarticolato: tractor unit + semi-trailer).",
+   "trap": "'possono transitare' (may pass) is the opposite: the vehicles on the panel are banned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Articulated lorries may NOT pass",
+    "it": "transito vietato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "prescrive",
+    "en": "says (orders)"
+   },
+   {
+    "it": "possono transitare",
+    "en": "may pass"
+   },
+   {
+    "it": "gli autoarticolati",
+    "en": "articulated lorries"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22069": {
+  "en": "The supplementary panel shown, placed under the PARKING sign, indicates that all heavy vehicles may park.",
+  "explain": {
+   "short": "Under a parking sign the panel reserves the car park for the vehicle drawn: articulated lorries only, not all heavy vehicles.",
+   "rule": "A panel with a vehicle drawing limits the sign above it to that kind of vehicle only. Here it is an articulated lorry (autoarticolato: tractor unit + semi-trailer).",
+   "trap": "'tutti i veicoli pesanti' (all heavy vehicles) is too wide: only the vehicle drawn counts.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking only for articulated lorries",
+    "it": "autoarticolati",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale PARCHEGGIO",
+    "en": "PARKING sign"
+   },
+   {
+    "it": "tutti i veicoli pesanti",
+    "en": "all heavy vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

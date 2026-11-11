@@ -1,0 +1,2676 @@
+{
+ "q22458": {
+  "en": "On motorways, the maximum speed limit is 80 km/h for cars towing a trailer that carries horses.",
+  "explain": {
+   "short": "A car with a trailer must go slower than a normal car. On the motorway its limit is 80 km/h, also with a horse trailer.",
+   "rule": "A car towing a trailer may go at most 80 km/h on motorways and 70 km/h on out-of-town roads, whatever the trailer carries.",
+   "trap": "'per il trasporto di cavalli' (for carrying horses) does not change anything: every trailer gives the same limit.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Car with trailer on motorway: max 80 km/h",
+    "it": "rimorchio",
+    "lines": [
+     "Car alone on motorway: 130 km/h",
+     "Car with trailer: 80 km/h"
+    ],
+    "icons": [
+     "car",
+     "truck"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autostrade",
+    "en": "motorways"
+   },
+   {
+    "it": "trainano un rimorchio",
+    "en": "tow a trailer"
+   },
+   {
+    "it": "cavalli",
+    "en": "horses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22459": {
+  "en": "The maximum speed limit on secondary out-of-town roads is 70 km/h for cars towing a trailer that carries motorbikes.",
+  "explain": {
+   "short": "On out-of-town roads a car with a trailer may go at most 70 km/h. What the trailer carries does not matter.",
+   "rule": "A car towing a trailer may go at most 80 km/h on motorways and 70 km/h on out-of-town roads, whatever the trailer carries.",
+   "trap": "'per il trasporto di motocicli' (for carrying motorbikes) is just a detail: the limit is for any trailer.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Car with trailer, secondary road: max 70 km/h",
+    "it": "rimorchio",
+    "lines": [
+     "Car alone, secondary road: 90 km/h",
+     "Car with trailer: 70 km/h"
+    ],
+    "icons": [
+     "car",
+     "truck"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane secondarie",
+    "en": "secondary out-of-town roads"
+   },
+   {
+    "it": "trainano un rimorchio",
+    "en": "tow a trailer"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorbikes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22460": {
+  "en": "In particular, you must adjust your speed when there are road works.",
+  "explain": {
+   "short": "Road works mean workers, machines and a narrower road. You must slow down and drive with care.",
+   "rule": "Always fit your speed to the road and the traffic. Slow down especially near road works or a warning triangle.",
+   "trap": "'in particolare' (in particular) means this is one of the key cases where you must adapt your speed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road works ahead: slow down",
+    "it": "lavori in corso",
+    "lines": [
+     "Road works ahead",
+     "Slow down, watch for workers"
+    ],
+    "icons": [
+     "warning",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust your speed"
+   },
+   {
+    "it": "lavori in corso",
+    "en": "road works"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22461": {
+  "en": "In particular, you must adjust your speed if you find the stopped-vehicle sign (portable warning triangle) on the road.",
+  "explain": {
+   "short": "A warning triangle means a vehicle is stopped ahead, maybe broken down or after a crash. Slow down and be ready to stop.",
+   "rule": "Always fit your speed to the road and the traffic. Slow down especially near road works or a warning triangle.",
+   "trap": "'triangolo mobile di pericolo' is the red warning triangle a driver puts behind a stopped vehicle.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Warning triangle: a stopped car ahead, slow down",
+    "it": "triangolo",
+    "lines": [
+     "Warning triangle on the road",
+     "Stopped car ahead: slow down"
+    ],
+    "icons": [
+     "warning",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust your speed"
+   },
+   {
+    "it": "veicolo fermo",
+    "en": "stopped vehicle"
+   },
+   {
+    "it": "triangolo mobile di pericolo",
+    "en": "portable warning triangle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22462": {
+  "en": "When traffic moves in parallel lines, it is possible that traffic in the right lane moves faster than in the left lane.",
+  "explain": {
+   "short": "In dense traffic each lane moves on its own. So the right lane can be faster than the left one, and that is allowed.",
+   "rule": "When traffic moves in parallel lines or in channel lanes, the right lane may go faster than the left one. This is not overtaking on the right.",
+   "trap": "'è possibile' (it is possible): it is not a rule that the right lane goes faster, only that it may happen.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right lane faster than left: allowed here",
+    "it": "file parallele",
+    "lines": [
+     "Lanes move side by side",
+     "Right lane may go faster"
+    ],
+    "icons": [
+     "road",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "file parallele",
+    "en": "parallel lines (of traffic)"
+   },
+   {
+    "it": "corsia di destra",
+    "en": "right lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22463": {
+  "en": "Along channel lanes, it is possible that traffic in the right lane moves faster than in the left lane.",
+  "explain": {
+   "short": "In dense traffic each lane moves on its own. So the right lane can be faster than the left one, and that is allowed.",
+   "rule": "When traffic moves in parallel lines or in channel lanes, the right lane may go faster than the left one. This is not overtaking on the right.",
+   "trap": "'è possibile' (it is possible): it is not a rule that the right lane goes faster, only that it may happen.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right lane faster than left: allowed here",
+    "it": "canalizzazione",
+    "lines": [
+     "Lanes move side by side",
+     "Right lane may go faster"
+    ],
+    "icons": [
+     "road",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsie di canalizzazione",
+    "en": "channel lanes (lanes leading to different directions)"
+   },
+   {
+    "it": "corsia di destra",
+    "en": "right lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22464": {
+  "en": "When traffic is channelled, it is possible that traffic in the right lane moves faster than in the left lane.",
+  "explain": {
+   "short": "In dense traffic each lane moves on its own. So the right lane can be faster than the left one, and that is allowed.",
+   "rule": "When traffic moves in parallel lines or in channel lanes, the right lane may go faster than the left one. This is not overtaking on the right.",
+   "trap": "'è possibile' (it is possible): it is not a rule that the right lane goes faster, only that it may happen.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right lane faster than left: allowed here",
+    "it": "canalizzato",
+    "lines": [
+     "Lanes move side by side",
+     "Right lane may go faster"
+    ],
+    "icons": [
+     "road",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "traffico risulta canalizzato",
+    "en": "traffic is channelled"
+   },
+   {
+    "it": "corsia di destra",
+    "en": "right lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22465": {
+  "en": "On four-lane motorways you are allowed to drive up to 170 km/h.",
+  "explain": {
+   "short": "No road in Italy allows 170 km/h. The usual motorway limit is 130 km/h, and only some motorways with signs allow up to 150 km/h.",
+   "rule": "Car limits: motorways 130 km/h, main out-of-town roads 110 km/h. Night, high beams, the overtaking lane or a downhill road never raise them.",
+   "trap": "'fino a 170 km/h' (up to 170 km/h) is an invented limit; the number of lanes does not allow it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No 170 km/h: motorway limit is 130 km/h",
+    "it": "autostrade",
+    "lines": [
+     "Motorway: 130 km/h",
+     "Some signed motorways: 150 km/h",
+     "Never 170 km/h"
+    ],
+    "icons": [
+     "road",
+     "sign",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autostrade",
+    "en": "motorways"
+   },
+   {
+    "it": "quattro corsie",
+    "en": "four lanes"
+   },
+   {
+    "it": "fino a 170 km/h",
+    "en": "up to 170 km/h"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22466": {
+  "en": "On motorways you may go faster than 130 km/h at night, as long as you use high-beam headlights.",
+  "explain": {
+   "short": "The 130 km/h limit is the same day and night. High beams help you see, but they never let you go faster.",
+   "rule": "Car limits: motorways 130 km/h, main out-of-town roads 110 km/h. Night, high beams, the overtaking lane or a downhill road never raise them.",
+   "trap": "'purché si usino i proiettori a luce abbagliante' (as long as you use high beams) is a made-up condition.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "High beams do not raise the 130 km/h limit",
+    "it": "abbaglianti",
+    "lines": [
+     "Motorway: 130 km/h",
+     "Same limit day and night",
+     "High beams: no extra speed"
+    ],
+    "icons": [
+     "road",
+     "night",
+     "highbeam"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ore notturne",
+    "en": "night hours"
+   },
+   {
+    "it": "proiettori a luce abbagliante",
+    "en": "high-beam headlights"
+   },
+   {
+    "it": "purché",
+    "en": "as long as"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22467": {
+  "en": "On the motorway, in the lane reserved for overtaking, you may not go faster than 110 km/h.",
+  "explain": {
+   "short": "The overtaking lane has the same limit as the rest of the motorway: 130 km/h for cars, not 110 km/h.",
+   "rule": "Car limits: motorways 130 km/h, main out-of-town roads 110 km/h. Night, high beams, the overtaking lane or a downhill road never raise them.",
+   "trap": "'110 km/h' is the limit for main out-of-town roads, not a special limit for the overtaking lane.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Overtaking lane: same 130 km/h limit",
+    "it": "corsia di sorpasso",
+    "lines": [
+     "Motorway: 130 km/h",
+     "Overtaking lane: same limit"
+    ],
+    "icons": [
+     "road",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia riservata al sorpasso",
+    "en": "lane reserved for overtaking"
+   },
+   {
+    "it": "autostrada",
+    "en": "motorway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22468": {
+  "en": "On motorways, the maximum speed limit is 150 km/h in the daytime and 130 km/h at night.",
+  "explain": {
+   "short": "The motorway limit does not change between day and night. As a rule it is 130 km/h at all hours.",
+   "rule": "Car limits: motorways 130 km/h, main out-of-town roads 110 km/h. Night, high beams, the overtaking lane or a downhill road never raise them.",
+   "trap": "'nelle ore diurne' / 'notturne' (day / night hours): the limit has no day and night versions.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No day/night limits: motorway is 130 km/h",
+    "it": "autostrade",
+    "lines": [
+     "Motorway: 130 km/h",
+     "Day or night: same limit"
+    ],
+    "icons": [
+     "road",
+     "night"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ore diurne",
+    "en": "daytime hours"
+   },
+   {
+    "it": "quelle notturne",
+    "en": "those at night"
+   },
+   {
+    "it": "limite massimo di velocità",
+    "en": "maximum speed limit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22469": {
+  "en": "On main out-of-town roads with special construction and safety features, the maximum speed limit may be 130 km/h.",
+  "explain": {
+   "short": "Main out-of-town roads have a top limit of 110 km/h. 130 km/h is only for motorways, whatever the road is like.",
+   "rule": "Car limits: motorways 130 km/h, main out-of-town roads 110 km/h. Night, high beams, the overtaking lane or a downhill road never raise them.",
+   "trap": "'particolari caratteristiche' (special features) cannot turn this road into a motorway: 110 km/h is the top.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Main out-of-town road: top limit 110 km/h",
+    "it": "extraurbane principali",
+    "lines": [
+     "Main out-of-town road: 110 km/h",
+     "130 km/h only on motorways"
+    ],
+    "icons": [
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane principali",
+    "en": "main out-of-town roads"
+   },
+   {
+    "it": "caratteristiche costruttive e di sicurezza",
+    "en": "construction and safety features"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22470": {
+  "en": "On main out-of-town roads you may go faster than 110 km/h, but only on downhill stretches.",
+  "explain": {
+   "short": "The 110 km/h limit is valid on the whole road. Going downhill makes stopping harder, so it is a reason to go slower, not faster.",
+   "rule": "Car limits: motorways 130 km/h, main out-of-town roads 110 km/h. Night, high beams, the overtaking lane or a downhill road never raise them.",
+   "trap": "'ma solo nei tratti di strada in discesa' (but only downhill) is a fake exception.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Downhill: still max 110 km/h",
+    "it": "discesa",
+    "lines": [
+     "Main out-of-town road: 110 km/h",
+     "Downhill: no exception",
+     "Downhill = longer braking"
+    ],
+    "icons": [
+     "road",
+     "hill",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane principali",
+    "en": "main out-of-town roads"
+   },
+   {
+    "it": "superare la velocità",
+    "en": "exceed the speed"
+   },
+   {
+    "it": "in discesa",
+    "en": "downhill"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22471": {
+  "en": "The maximum speed limit on secondary out-of-town roads is 90 km/h for cars towing a trailer that carries dinghies or gliders.",
+  "explain": {
+   "short": "90 km/h is the limit for a car alone. With any trailer, also for boats or gliders, the limit there is 70 km/h.",
+   "rule": "A car towing a trailer may go at most 80 km/h on motorways and 70 km/h on out-of-town roads, whatever the trailer carries.",
+   "trap": "'90 km/h' belongs to a car without trailer; the load 'gommoni o alianti' changes nothing.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "With a trailer the limit is 70 km/h, not 90",
+    "it": "rimorchio",
+    "lines": [
+     "Car alone, secondary road: 90 km/h",
+     "Car with trailer: 70 km/h"
+    ],
+    "icons": [
+     "car",
+     "truck"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane secondarie",
+    "en": "secondary out-of-town roads"
+   },
+   {
+    "it": "trainano un rimorchio",
+    "en": "tow a trailer"
+   },
+   {
+    "it": "gommoni o alianti",
+    "en": "dinghies or gliders"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22472": {
+  "en": "On secondary out-of-town roads, the maximum speed limit for farm machines and work machines is 70 km/h if their flashing yellow light is on.",
+  "explain": {
+   "short": "Farm and work machines are slow and have a much lower limit than 70 km/h. The yellow flashing light only warns other drivers.",
+   "rule": "Farm machines and work machines are slow vehicles with a much lower limit. A flashing yellow light only warns others; it never raises the limit.",
+   "trap": "'se hanno in funzione il dispositivo a luce gialla' (if the yellow light is on) does not give them a higher limit.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Yellow light does not raise a farm machine's limit",
+    "it": "macchine agricole",
+    "lines": [
+     "Farm machine: slow vehicle",
+     "Yellow light = warning only"
+    ],
+    "icons": [
+     "truck",
+     "light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "macchine agricole",
+    "en": "farm machines"
+   },
+   {
+    "it": "macchine operatrici",
+    "en": "work machines (e.g. snow ploughs, diggers)"
+   },
+   {
+    "it": "luce gialla lampeggiante",
+    "en": "flashing yellow light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22473": {
+  "en": "If you cross a junction at high speed while having right of way, in case of a crash you cannot rule out shared blame.",
+  "explain": {
+   "short": "Even with right of way you must cross a junction carefully. If you were too fast, part of the blame can be yours.",
+   "rule": "Right of way does not allow you to speed. Near a junction you must still slow down; if you crash at high speed, you can share the blame.",
+   "trap": "'concorso di colpa' (shared blame) means both drivers can be partly responsible.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Too fast with priority: you can share the blame",
+    "it": "concorso di colpa",
+    "lines": [
+     "Right of way: still slow down",
+     "Too fast: shared blame"
+    ],
+    "icons": [
+     "speed",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "alta velocità",
+    "en": "high speed"
+   },
+   {
+    "it": "diritto di precedenza",
+    "en": "right of way"
+   },
+   {
+    "it": "concorso di colpa",
+    "en": "shared blame"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22474": {
+  "en": "The maximum speed limits in force on motorways and out-of-town roads are not the same in all European countries.",
+  "explain": {
+   "short": "Each European country sets its own limits. A limit you know from Italy can be different abroad.",
+   "rule": "Every country sets its own speed limits. Abroad, check the local limits for motorways and out-of-town roads.",
+   "trap": "'non sono identici' (are not identical): the negative makes this statement right.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Speed limits differ from country to country",
+    "it": "limiti massimi",
+    "lines": [
+     "Each country: own limits",
+     "Abroad: check local signs"
+    ],
+    "icons": [
+     "sign",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "limiti massimi di velocità",
+    "en": "maximum speed limits"
+   },
+   {
+    "it": "non sono identici",
+    "en": "are not identical"
+   },
+   {
+    "it": "stati d'Europa",
+    "en": "European countries"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22475": {
+  "en": "If you cross a junction at high speed while having right of way, in case of a crash you are completely free of any responsibility.",
+  "explain": {
+   "short": "Right of way does not protect you if you were too fast. A judge can give you part of the blame.",
+   "rule": "Right of way does not allow you to speed. Near a junction you must still slow down; if you crash at high speed, you can share the blame.",
+   "trap": "'completamente privi di responsabilità' (completely free of responsibility) is too absolute.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Priority does not cancel your blame for speeding",
+    "it": "responsabilità",
+    "lines": [
+     "Right of way: still slow down",
+     "Too fast: shared blame"
+    ],
+    "icons": [
+     "speed",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "forte velocità",
+    "en": "high speed"
+   },
+   {
+    "it": "diritto di precedenza",
+    "en": "right of way"
+   },
+   {
+    "it": "privi di responsabilità",
+    "en": "free of responsibility"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22476": {
+  "en": "If you cross a junction at high speed where you have priority, in case of a crash only the driver coming from the road without right of way is responsible.",
+  "explain": {
+   "short": "The other driver may be to blame for not giving way, but your high speed can also count. The blame can be shared.",
+   "rule": "Right of way does not allow you to speed. Near a junction you must still slow down; if you crash at high speed, you can share the blame.",
+   "trap": "'solo' (only) is the trap: the blame is not always only the other driver's.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Not only the other driver: speed counts too",
+    "it": "responsabilità",
+    "lines": [
+     "Other driver: did not give way",
+     "You: too fast",
+     "Blame can be shared"
+    ],
+    "icons": [
+     "car",
+     "speed",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "alta velocità",
+    "en": "high speed"
+   },
+   {
+    "it": "precedenza",
+    "en": "priority"
+   },
+   {
+    "it": "solo",
+    "en": "only"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22477": {
+  "en": "If you cross a junction with right of way, you have no duty to slow down.",
+  "explain": {
+   "short": "Near a junction you must always moderate your speed, even with right of way. Someone may not give way to you.",
+   "rule": "Right of way does not allow you to speed. Near a junction you must still slow down; if you crash at high speed, you can share the blame.",
+   "trap": "'non si ha alcun obbligo' (you have no duty at all): you still have to slow down near junctions.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Junction with priority: still slow down",
+    "it": "rallentare",
+    "lines": [
+     "Junction ahead: slow down",
+     "Even with right of way"
+    ],
+    "icons": [
+     "speed",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "incrocio",
+    "en": "junction"
+   },
+   {
+    "it": "diritto di precedenza",
+    "en": "right of way"
+   },
+   {
+    "it": "rallentare",
+    "en": "slow down"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22478": {
+  "en": "If you cross a junction with priority at high speed, in case of a crash the driver who entered the junction first is responsible.",
+  "explain": {
+   "short": "Blame does not go to whoever entered first. It depends on who broke the rules, and your high speed can count against you.",
+   "rule": "Right of way does not allow you to speed. Near a junction you must still slow down; if you crash at high speed, you can share the blame.",
+   "trap": "'per primo' (first): being first in the junction does not decide who is to blame.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Entering first does not decide the blame",
+    "it": "responsabilità",
+    "lines": [
+     "First in: not the rule",
+     "Who broke rules is to blame",
+     "Too fast: shared blame"
+    ],
+    "icons": [
+     "car",
+     "book",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "alta velocità",
+    "en": "high speed"
+   },
+   {
+    "it": "impegnato per primo",
+    "en": "entered first"
+   },
+   {
+    "it": "responsabilità",
+    "en": "responsibility"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22479": {
+  "en": "If a vehicle is forced to stop on the tracks of a level crossing, you must move it, pushing it off the tracks as soon as possible.",
+  "explain": {
+   "short": "A train cannot stop quickly. The vehicle must leave the rails at once, even by pushing it.",
+   "rule": "If your vehicle stops on the rails, push it off at once. If you cannot, get everyone out and warn the station, so trains are warned in time.",
+   "trap": "'quanto prima' (as soon as possible): there is no time to wait for help.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stuck on the rails: push the car off at once",
+    "it": "binari",
+    "lines": [
+     "Car stuck on the rails",
+     "Push it off at once"
+    ],
+    "icons": [
+     "train",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "arresto forzato",
+    "en": "forced stop"
+   },
+   {
+    "it": "binari",
+    "en": "rails, tracks"
+   },
+   {
+    "it": "passaggio a livello",
+    "en": "level crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22480": {
+  "en": "If a vehicle is forced to stop on the tracks of a level crossing and cannot be moved off at once, everyone on board must get out immediately, and the railway station must be warned.",
+  "explain": {
+   "short": "If the vehicle stays on the rails, people inside are in great danger. Get them out, then warn the station so trains can be stopped.",
+   "rule": "If your vehicle stops on the rails, push it off at once. If you cannot, get everyone out and warn the station, so trains are warned in time.",
+   "trap": "'se non è possibile spostarlo subito' (if it cannot be moved at once) is the case where people come first.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Can't move it: everyone out, warn the station",
+    "it": "stazione ferroviaria",
+    "lines": [
+     "Car can't be moved",
+     "Everyone out at once",
+     "Warn the railway station"
+    ],
+    "icons": [
+     "car",
+     "pedestrian",
+     "train"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "far scendere",
+    "en": "make (people) get out"
+   },
+   {
+    "it": "a bordo",
+    "en": "on board"
+   },
+   {
+    "it": "stazione ferroviaria",
+    "en": "railway station"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22481": {
+  "en": "If the vehicle is forced to stop on the railway tracks of a level crossing, you must make sure that the drivers of rail vehicles are warned of the danger in time.",
+  "explain": {
+   "short": "A train needs a very long distance to stop. The train driver must be warned early, for example through the station.",
+   "rule": "If your vehicle stops on the rails, push it off at once. If you cannot, get everyone out and warn the station, so trains are warned in time.",
+   "trap": "'veicoli su rotaie' (rail vehicles) means trains and trams; 'in tempo utile' means early enough to stop.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Warn the train drivers in time",
+    "it": "in tempo utile",
+    "lines": [
+     "Car stuck on the rails",
+     "Warn trains in time"
+    ],
+    "icons": [
+     "car",
+     "train"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "binari ferroviari",
+    "en": "railway tracks"
+   },
+   {
+    "it": "veicoli su rotaie",
+    "en": "rail vehicles"
+   },
+   {
+    "it": "in tempo utile",
+    "en": "in time"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22482": {
+  "en": "If you go down a long slope in neutral with the engine off, steering becomes hard if the vehicle has power steering.",
+  "explain": {
+   "short": "Power steering (servosterzo) works thanks to the engine. With the engine off, it stops helping and the wheel feels heavy.",
+   "rule": "Never go down a slope in neutral with the engine off: the brake servo and power steering stop helping, so braking and steering get much harder.",
+   "trap": "'servosterzo' (power steering) needs the running engine to help you.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Engine off: power steering stops helping",
+    "it": "servosterzo",
+    "lines": [
+     "Downhill, engine off",
+     "Power steering stops",
+     "Heavy steering wheel"
+    ],
+    "icons": [
+     "hill",
+     "engine",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in folle",
+    "en": "in neutral"
+   },
+   {
+    "it": "motore spento",
+    "en": "engine off"
+   },
+   {
+    "it": "servosterzo",
+    "en": "power steering"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22483": {
+  "en": "If you go down a long slope in neutral with the engine off, braking becomes hard if the vehicle has a brake servo.",
+  "explain": {
+   "short": "The brake servo (servofreno) uses the engine to make braking easy. With the engine off you must push the pedal much harder.",
+   "rule": "Never go down a slope in neutral with the engine off: the brake servo and power steering stop helping, so braking and steering get much harder.",
+   "trap": "'servofreno' (brake servo) loses its help when the engine is off.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Engine off: brake servo stops helping",
+    "it": "servofreno",
+    "lines": [
+     "Neutral + engine off downhill",
+     "Servo stops helping",
+     "Braking and steering get hard"
+    ],
+    "icons": [
+     "hill",
+     "engine",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in folle",
+    "en": "in neutral"
+   },
+   {
+    "it": "motore spento",
+    "en": "engine off"
+   },
+   {
+    "it": "servofreno",
+    "en": "brake servo"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22484": {
+  "en": "In vehicles with a brake servo, if you go down a long slope in neutral with the engine off, the risk of causing crashes increases.",
+  "explain": {
+   "short": "Without the engine the brakes work badly and you may not stop in time. So the risk of a crash grows.",
+   "rule": "Never go down a slope in neutral with the engine off: the brake servo and power steering stop helping, so braking and steering get much harder.",
+   "trap": "'aumenta il rischio' (the risk increases) is correct: coasting is dangerous, not safe.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Coasting with engine off: more crashes",
+    "it": "rischio",
+    "lines": [
+     "Neutral + engine off downhill",
+     "Servo stops helping",
+     "Braking and steering get hard"
+    ],
+    "icons": [
+     "hill",
+     "engine",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "servofreno",
+    "en": "brake servo"
+   },
+   {
+    "it": "motore spento",
+    "en": "engine off"
+   },
+   {
+    "it": "rischio di provocare incidenti",
+    "en": "risk of causing crashes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22485": {
+  "en": "In vehicles with power steering, if you go down a long slope in neutral with the engine off, it becomes hard to turn the wheel quickly to avoid an obstacle.",
+  "explain": {
+   "short": "With the engine off, power steering does not help, so the wheel is heavy. A quick move to avoid something becomes hard.",
+   "rule": "Never go down a slope in neutral with the engine off: the brake servo and power steering stop helping, so braking and steering get much harder.",
+   "trap": "'girare rapidamente lo sterzo' (turn the wheel quickly) is exactly what heavy steering prevents.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Heavy steering: hard to dodge an obstacle",
+    "it": "servosterzo",
+    "lines": [
+     "Downhill, engine off",
+     "Power steering stops",
+     "Hard to dodge obstacles"
+    ],
+    "icons": [
+     "hill",
+     "engine",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "servosterzo",
+    "en": "power steering"
+   },
+   {
+    "it": "motore spento",
+    "en": "engine off"
+   },
+   {
+    "it": "schivare un ostacolo",
+    "en": "avoid an obstacle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22486": {
+  "en": "In vehicles with a brake servo, if you go down a long slope in neutral with the engine off, the braking distance increases dangerously.",
+  "explain": {
+   "short": "The brakes get weaker without the engine, and downhill the car speeds up. So you need much more space to stop.",
+   "rule": "Never go down a slope in neutral with the engine off: the brake servo and power steering stop helping, so braking and steering get much harder.",
+   "trap": "'spazio di frenatura' (braking distance) grows, it does not stay the same.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Engine off downhill: much longer braking",
+    "it": "spazio di frenatura",
+    "lines": [
+     "Neutral + engine off downhill",
+     "Servo stops helping",
+     "Braking and steering get hard"
+    ],
+    "icons": [
+     "hill",
+     "engine",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "servofreno",
+    "en": "brake servo"
+   },
+   {
+    "it": "motore spento",
+    "en": "engine off"
+   },
+   {
+    "it": "spazio di frenatura",
+    "en": "braking distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22487": {
+  "en": "In vehicles with a brake servo, if you go down a long slope in neutral with the engine off, it becomes harder and harder to stop the vehicle.",
+  "explain": {
+   "short": "Each time you brake, the brake servo loses more help, and on a long slope the car keeps gaining speed. Stopping gets harder and harder.",
+   "rule": "Never go down a slope in neutral with the engine off: the brake servo and power steering stop helping, so braking and steering get much harder.",
+   "trap": "'sempre più difficoltoso' (harder and harder): the problem gets worse during the slope.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Long slope, engine off: stopping gets harder",
+    "it": "arrestare",
+    "lines": [
+     "Neutral + engine off downhill",
+     "Servo stops helping",
+     "Braking and steering get hard"
+    ],
+    "icons": [
+     "hill",
+     "engine",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "servofreno",
+    "en": "brake servo"
+   },
+   {
+    "it": "lunga discesa",
+    "en": "long slope"
+   },
+   {
+    "it": "arrestare il veicolo",
+    "en": "stop the vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22488": {
+  "en": "If you go down a long slope in neutral with the engine off, you get an overload of electric current.",
+  "explain": {
+   "short": "Coasting with the engine off does not overload the electrics. The real danger is weak brakes and heavy steering.",
+   "rule": "Never go down a slope in neutral with the engine off: the brake servo and power steering stop helping, so braking and steering get much harder.",
+   "trap": "'sovraccarico di corrente elettrica' (electrical overload) is an invented effect.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Real danger: brakes and steering, not electrics",
+    "it": "folle",
+    "lines": [
+     "Neutral + engine off downhill",
+     "Servo stops helping",
+     "Braking and steering get hard"
+    ],
+    "icons": [
+     "hill",
+     "engine",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in folle",
+    "en": "in neutral"
+   },
+   {
+    "it": "motore spento",
+    "en": "engine off"
+   },
+   {
+    "it": "sovraccarico di corrente elettrica",
+    "en": "electrical overload"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22489": {
+  "en": "If you go down a long slope in neutral with the engine off, you may get a fault in the differential.",
+  "explain": {
+   "short": "The differential is not the problem here. Coasting with the engine off is dangerous because brakes and steering lose their help.",
+   "rule": "Never go down a slope in neutral with the engine off: the brake servo and power steering stop helping, so braking and steering get much harder.",
+   "trap": "'anomalia al differenziale' (differential fault) is not the risk the quiz is about.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Real danger: brakes and steering, not the differential",
+    "it": "folle",
+    "lines": [
+     "Neutral + engine off downhill",
+     "Servo stops helping",
+     "Braking and steering get hard"
+    ],
+    "icons": [
+     "hill",
+     "engine",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in folle",
+    "en": "in neutral"
+   },
+   {
+    "it": "motore spento",
+    "en": "engine off"
+   },
+   {
+    "it": "differenziale",
+    "en": "differential (gear between the wheels)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22490": {
+  "en": "For greater safety, it is wise to drive down long slopes in neutral with the engine off, also saving fuel this way.",
+  "explain": {
+   "short": "This is less safe, not more: the brakes and steering lose help. Downhill you should use a low gear with the engine on.",
+   "rule": "Never go down a slope in neutral with the engine off: the brake servo and power steering stop helping, so braking and steering get much harder.",
+   "trap": "'per una maggiore sicurezza' (for greater safety) is the opposite of the truth.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Downhill: low gear, engine on",
+    "it": "folle",
+    "lines": [
+     "Neutral + engine off: dangerous",
+     "Downhill: use a low gear",
+     "Keep the engine on"
+    ],
+    "icons": [
+     "cross",
+     "hill",
+     "engine"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "maggiore sicurezza",
+    "en": "greater safety"
+   },
+   {
+    "it": "in folle",
+    "en": "in neutral"
+   },
+   {
+    "it": "risparmiando",
+    "en": "saving"
+   },
+   {
+    "it": "carburante",
+    "en": "fuel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22491": {
+  "en": "If you go down a long slope in neutral with the engine off, it is wise to take out the ignition key.",
+  "explain": {
+   "short": "You should never coast with the engine off. Taking out the key can also lock the steering wheel, which is very dangerous.",
+   "rule": "Never go down a slope in neutral with the engine off: the brake servo and power steering stop helping, so braking and steering get much harder.",
+   "trap": "'conviene estrarre la chiave' (it is wise to remove the key): this can lock the steering.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never pull the key while moving",
+    "it": "chiave di accensione",
+    "lines": [
+     "Downhill: engine on",
+     "Key out: steering may lock"
+    ],
+    "icons": [
+     "engine",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in folle",
+    "en": "in neutral"
+   },
+   {
+    "it": "estrarre la chiave di accensione",
+    "en": "take out the ignition key"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22492": {
+  "en": "In vehicles with a vacuum brake servo, if you go down a long slope in neutral with the engine off, you get the same braking force as with the engine on.",
+  "explain": {
+   "short": "A vacuum brake servo gets its help from the running engine. With the engine off, the braking force is much lower.",
+   "rule": "Never go down a slope in neutral with the engine off: the brake servo and power steering stop helping, so braking and steering get much harder.",
+   "trap": "'la stessa forza frenante' (the same braking force) is wrong: without the engine it drops.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Engine off: much less braking force",
+    "it": "servofreno",
+    "lines": [
+     "Neutral + engine off downhill",
+     "Servo stops helping",
+     "Braking and steering get hard"
+    ],
+    "icons": [
+     "hill",
+     "engine",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "servofreno a depressione",
+    "en": "vacuum brake servo"
+   },
+   {
+    "it": "forza frenante",
+    "en": "braking force"
+   },
+   {
+    "it": "motore acceso",
+    "en": "engine on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22493": {
+  "en": "If, at a level crossing, you are still on the tracks with your vehicle when the barriers start to close, you must stay calm and clear the railway in any way.",
+  "explain": {
+   "short": "Panic makes mistakes. Stay calm and drive off the rails at once, in any way you can.",
+   "rule": "At a level crossing (passaggio a livello) slow down and take great care. If you are on the rails when the barriers close, stay calm and clear the tracks in any way, even through the barriers.",
+   "trap": "'in qualunque modo' (in any way): getting off the rails is all that matters.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Barriers closing: stay calm, clear the tracks",
+    "it": "sgomberare",
+    "lines": [
+     "Barriers closing, you on the rails",
+     "Stay calm",
+     "Clear the tracks any way"
+    ],
+    "icons": [
+     "train",
+     "check",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "barriere",
+    "en": "barriers"
+   },
+   {
+    "it": "mantenere la calma",
+    "en": "stay calm"
+   },
+   {
+    "it": "sede ferroviaria",
+    "en": "railway (track area)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22494": {
+  "en": "If, at a level crossing, you are still on the tracks with your vehicle when the barriers start to close, you must clear the railway in any way, if necessary even by breaking through the barriers.",
+  "explain": {
+   "short": "A damaged barrier is nothing compared with a train crash. Barriers are built to break if a car pushes through.",
+   "rule": "At a level crossing (passaggio a livello) slow down and take great care. If you are on the rails when the barriers close, stay calm and clear the tracks in any way, even through the barriers.",
+   "trap": "'anche sfondando le barriere' (even breaking the barriers) sounds wrong, but it is allowed in this emergency.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Break the barrier if needed to leave the rails",
+    "it": "sfondando le barriere",
+    "lines": [
+     "Barriers closing, you on the rails",
+     "Drive off the tracks",
+     "Break the barrier if needed"
+    ],
+    "icons": [
+     "train",
+     "car",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sgomberare",
+    "en": "clear, leave free"
+   },
+   {
+    "it": "sede ferroviaria",
+    "en": "railway (track area)"
+   },
+   {
+    "it": "sfondando le barriere",
+    "en": "breaking through the barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22495": {
+  "en": "If, because of a vehicle breakdown, you are stuck on the railway at a level crossing, you must try to remove the vehicle as soon as possible, for example by getting other road users to tow it.",
+  "explain": {
+   "short": "The vehicle must leave the rails fast. Any help is good, for example another vehicle that tows you off.",
+   "rule": "If a vehicle is stuck on the rails, the first job is to get it off the tracks and to warn any train in time. Nothing else comes first.",
+   "trap": "'ad esempio' (for example): towing is just one possible way to move the vehicle.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Broken down on the rails: get towed off fast",
+    "it": "trainare",
+    "lines": [
+     "Stuck on the rails",
+     "Move the vehicle off fast",
+     "Warn trains in time"
+    ],
+    "icons": [
+     "train",
+     "car",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "guasto",
+    "en": "breakdown"
+   },
+   {
+    "it": "sede ferroviaria",
+    "en": "railway (track area)"
+   },
+   {
+    "it": "facendosi trainare",
+    "en": "getting towed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22496": {
+  "en": "If, because your car breaks down, you are stuck on the railway at a level crossing, you must try to remove the vehicle as soon as possible, for example by getting other road users to help push it off the railway line.",
+  "explain": {
+   "short": "The car must leave the rails fast. Asking others to help push is a good way to do it.",
+   "rule": "If a vehicle is stuck on the rails, the first job is to get it off the tracks and to warn any train in time. Nothing else comes first.",
+   "trap": "'ad esempio' (for example): pushing with help is one good way to clear the line.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Broken down on the rails: push it off with help",
+    "it": "spingere",
+    "lines": [
+     "Stuck on the rails",
+     "Move the vehicle off fast",
+     "Warn trains in time"
+    ],
+    "icons": [
+     "train",
+     "car",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "guasto",
+    "en": "breakdown"
+   },
+   {
+    "it": "spingere il veicolo",
+    "en": "push the vehicle"
+   },
+   {
+    "it": "linea ferroviaria",
+    "en": "railway line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22497": {
+  "en": "At level crossings you must take the greatest care and moderate your speed, to avoid dangerous situations that cause damage to the equipment.",
+  "explain": {
+   "short": "A fast approach can end with your car hitting the barriers or the crossing systems. Slow down to avoid damage and danger.",
+   "rule": "At a level crossing (passaggio a livello) slow down and take great care. If you are on the rails when the barriers close, stay calm and clear the tracks in any way, even through the barriers.",
+   "trap": "'attrezzature' (equipment) means barriers, lights and other crossing systems.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Level crossing: slow down, take care",
+    "it": "passaggi a livello",
+    "lines": [
+     "Level crossing ahead",
+     "Slow down, take care"
+    ],
+    "icons": [
+     "train",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passaggi a livello",
+    "en": "level crossings"
+   },
+   {
+    "it": "massima prudenza",
+    "en": "greatest care"
+   },
+   {
+    "it": "danneggiamento delle attrezzature",
+    "en": "damage to the equipment"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22498": {
+  "en": "At level crossings you must take the greatest care and moderate your speed, to avoid dangerous situations that lead to hitting the barriers of the crossing.",
+  "explain": {
+   "short": "If you arrive too fast, you may not stop before the barriers. Slow down so you never hit them.",
+   "rule": "At a level crossing (passaggio a livello) slow down and take great care. If you are on the rails when the barriers close, stay calm and clear the tracks in any way, even through the barriers.",
+   "trap": "'collisione con le barriere' (hitting the barriers) is a real risk if you arrive too fast.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Level crossing: slow down, take care",
+    "it": "passaggi a livello",
+    "lines": [
+     "Level crossing ahead",
+     "Slow down, take care"
+    ],
+    "icons": [
+     "train",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passaggi a livello",
+    "en": "level crossings"
+   },
+   {
+    "it": "moderare la velocità",
+    "en": "moderate your speed"
+   },
+   {
+    "it": "collisione con le barriere",
+    "en": "hitting the barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22499": {
+  "en": "Crossing a level crossing without following all the rules can endanger the safety of many people travelling on a passing train.",
+  "explain": {
+   "short": "A crash with a train can derail it. Many passengers can be hurt, not only you.",
+   "rule": "Breaking level-crossing rules endangers many people, including the passengers of a train, at any time of day.",
+   "trap": "'molte persone' (many people): the danger goes far beyond the driver.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Breaking the rules endangers train passengers",
+    "it": "incolumità",
+    "lines": [
+     "Train: many passengers",
+     "Risky crossing = danger for all"
+    ],
+    "icons": [
+     "train",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "senza rispettare tutte le norme",
+    "en": "without following all the rules"
+   },
+   {
+    "it": "incolumità",
+    "en": "safety, physical safety"
+   },
+   {
+    "it": "treno in transito",
+    "en": "passing train"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22500": {
+  "en": "Crossing a level crossing with a risky move to save time can be a danger for many people, not only for the driver.",
+  "explain": {
+   "short": "A risky move at a level crossing can cause a crash with the train. Many people can be hurt.",
+   "rule": "Breaking level-crossing rules endangers many people, including the passengers of a train, at any time of day.",
+   "trap": "'oltre che per il conducente' (as well as for the driver): others are in danger too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Risky crossing: danger for many people",
+    "it": "manovra azzardata",
+    "lines": [
+     "Train: many passengers",
+     "Risky crossing = danger for all"
+    ],
+    "icons": [
+     "train",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "manovra azzardata",
+    "en": "risky move"
+   },
+   {
+    "it": "guadagnare tempo",
+    "en": "save time"
+   },
+   {
+    "it": "molti individui",
+    "en": "many people"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22501": {
+  "en": "If a vehicle stays stuck between the closed barriers of the level crossing, you must do everything possible to warn any passing trains of the danger in advance.",
+  "explain": {
+   "short": "A train cannot stop quickly, so it must be warned early. Use every way you can, for example calling the station.",
+   "rule": "If a vehicle is stuck on the rails, the first job is to get it off the tracks and to warn any train in time. Nothing else comes first.",
+   "trap": "'presegnalare' (warn in advance) means warning before the train arrives.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stuck between barriers: warn trains early",
+    "it": "presegnalare",
+    "lines": [
+     "Stuck on the rails",
+     "Move the vehicle off fast",
+     "Warn trains in time"
+    ],
+    "icons": [
+     "train",
+     "car",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "barriere chiuse",
+    "en": "closed barriers"
+   },
+   {
+    "it": "presegnalare il pericolo",
+    "en": "warn of the danger in advance"
+   },
+   {
+    "it": "treni in transito",
+    "en": "passing trains"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22502": {
+  "en": "If, at a level crossing, you are still on the tracks with your vehicle when the barriers start to close, you must get out and quickly leave the vehicle to save yourself.",
+  "explain": {
+   "short": "If the barriers are just closing, the car can still move. The right action is to drive it off the rails, not to leave it there.",
+   "rule": "At a level crossing (passaggio a livello) slow down and take great care. If you are on the rails when the barriers close, stay calm and clear the tracks in any way, even through the barriers.",
+   "trap": "'abbandonare rapidamente il veicolo' (quickly leave the vehicle) leaves it on the tracks for the train.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Don't abandon it: drive off the rails",
+    "it": "abbandonare",
+    "lines": [
+     "Barriers closing, you on the rails",
+     "Stay calm",
+     "Clear the tracks any way"
+    ],
+    "icons": [
+     "train",
+     "check",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "barriere",
+    "en": "barriers"
+   },
+   {
+    "it": "abbandonare",
+    "en": "leave, abandon"
+   },
+   {
+    "it": "mettersi in salvo",
+    "en": "save yourself"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22503": {
+  "en": "If, at a level crossing, you are still on the tracks with your vehicle when the barriers start to close and you are towing a trailer, you must quickly unhitch it and leave it on the tracks to save at least the towing vehicle.",
+  "explain": {
+   "short": "A trailer left on the rails can still cause a train crash. You must clear the tracks completely, trailer included.",
+   "rule": "At a level crossing (passaggio a livello) slow down and take great care. If you are on the rails when the barriers close, stay calm and clear the tracks in any way, even through the barriers.",
+   "trap": "'abbandonarlo sui binari' (leave it on the tracks) still leaves a danger for the train.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never leave the trailer on the rails",
+    "it": "rimorchio",
+    "lines": [
+     "Barriers closing, you on the rails",
+     "Stay calm",
+     "Clear the tracks any way"
+    ],
+    "icons": [
+     "train",
+     "check",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rimorchio",
+    "en": "trailer"
+   },
+   {
+    "it": "sganciarlo",
+    "en": "unhitch it"
+   },
+   {
+    "it": "sui binari",
+    "en": "on the tracks"
+   },
+   {
+    "it": "motrice",
+    "en": "towing vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22504": {
+  "en": "If, because of a vehicle breakdown, you are stuck on the railway at a level crossing, you must quickly unload the vehicle to save at least the load.",
+  "explain": {
+   "short": "The load does not matter. People must be safe, the vehicle must leave the rails, and trains must be warned.",
+   "rule": "If a vehicle is stuck on the rails, the first job is to get it off the tracks and to warn any train in time. Nothing else comes first.",
+   "trap": "'salvare almeno il carico' (save at least the load) puts things before safety.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Not the load: move the vehicle, warn trains",
+    "it": "carico",
+    "lines": [
+     "Stuck on the rails",
+     "Move the vehicle off fast",
+     "Warn trains in time"
+    ],
+    "icons": [
+     "train",
+     "car",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "guasto",
+    "en": "breakdown"
+   },
+   {
+    "it": "scaricare",
+    "en": "unload"
+   },
+   {
+    "it": "carico",
+    "en": "load"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22505": {
+  "en": "If, because your car breaks down, you are stuck on the railway at a level crossing, you must quickly empty the fuel tank to avoid fire in case of a collision with the train.",
+  "explain": {
+   "short": "Emptying the tank wastes time and spills fuel. You must move the car off the rails and warn the trains.",
+   "rule": "If a vehicle is stuck on the rails, the first job is to get it off the tracks and to warn any train in time. Nothing else comes first.",
+   "trap": "'svuotare rapidamente il serbatoio' (quickly empty the tank) is not a duty and adds danger.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Not the tank: move the car, warn trains",
+    "it": "serbatoio",
+    "lines": [
+     "Stuck on the rails",
+     "Move the vehicle off fast",
+     "Warn trains in time"
+    ],
+    "icons": [
+     "train",
+     "car",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "guasto",
+    "en": "breakdown"
+   },
+   {
+    "it": "svuotare",
+    "en": "empty"
+   },
+   {
+    "it": "serbatoio",
+    "en": "fuel tank"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22506": {
+  "en": "Level crossings must be approached at very high speed to avoid getting stuck on the railway line.",
+  "explain": {
+   "short": "At level crossings you must slow down, never speed up. At high speed you cannot stop if the barriers close.",
+   "rule": "At a level crossing (passaggio a livello) slow down and take great care. If you are on the rails when the barriers close, stay calm and clear the tracks in any way, even through the barriers.",
+   "trap": "'velocità molto elevata' (very high speed) is the opposite of the rule.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Level crossing: slow down, never speed",
+    "it": "velocità",
+    "lines": [
+     "Level crossing ahead",
+     "Slow down, take care"
+    ],
+    "icons": [
+     "train",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passaggi a livello",
+    "en": "level crossings"
+   },
+   {
+    "it": "velocità molto elevata",
+    "en": "very high speed"
+   },
+   {
+    "it": "linea ferroviaria",
+    "en": "railway line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22507": {
+  "en": "Level crossings must be approached at very high speed so that you can break through the barriers if you cannot stop in time when they are down.",
+  "explain": {
+   "short": "You must arrive slowly so you can always stop before lowered barriers. Breaking barriers is never a plan.",
+   "rule": "At a level crossing (passaggio a livello) slow down and take great care. If you are on the rails when the barriers close, stay calm and clear the tracks in any way, even through the barriers.",
+   "trap": "'sfondare le barriere' is only for leaving the rails in an emergency, never a reason to go fast.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Arrive slowly: always stop at lowered barriers",
+    "it": "velocità",
+    "lines": [
+     "Level crossing ahead",
+     "Slow down, take care"
+    ],
+    "icons": [
+     "train",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "velocità molto elevata",
+    "en": "very high speed"
+   },
+   {
+    "it": "sfondare le barriere",
+    "en": "break through the barriers"
+   },
+   {
+    "it": "barriere abbassate",
+    "en": "lowered barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22508": {
+  "en": "Crossing a level crossing without following all the rules only brings a small administrative fine, because it brings no real danger to other road users.",
+  "explain": {
+   "short": "Breaking level-crossing rules is very dangerous for many people, also for train passengers. It is a serious offence.",
+   "rule": "Breaking level-crossing rules endangers many people, including the passengers of a train, at any time of day.",
+   "trap": "'esclusivamente' (only) and 'non comporta reali pericoli' (no real danger) are both wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Not a small thing: real danger for many",
+    "it": "sanzione",
+    "lines": [
+     "Train: many passengers",
+     "Risky crossing = danger for all"
+    ],
+    "icons": [
+     "train",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "esclusivamente",
+    "en": "only"
+   },
+   {
+    "it": "lieve sanzione amministrativa",
+    "en": "small administrative fine"
+   },
+   {
+    "it": "reali pericoli",
+    "en": "real dangers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22509": {
+  "en": "Crossing a level crossing with a risky move to save time can be dangerous only at night.",
+  "explain": {
+   "short": "A risky move at a level crossing is dangerous at any time, day or night. Trains run at all hours.",
+   "rule": "Breaking level-crossing rules endangers many people, including the passengers of a train, at any time of day.",
+   "trap": "'solo nelle ore notturne' (only at night) is the trap: the danger is always there.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Risky crossing: dangerous day and night",
+    "it": "ore notturne",
+    "lines": [
+     "Train: many passengers",
+     "Risky crossing = danger for all"
+    ],
+    "icons": [
+     "train",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "manovra azzardata",
+    "en": "risky move"
+   },
+   {
+    "it": "guadagnare tempo",
+    "en": "save time"
+   },
+   {
+    "it": "solo nelle ore notturne",
+    "en": "only at night"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22510": {
+  "en": "If a vehicle stays stuck between the closed barriers of the level crossing, the driver's only duty is to switch off the engine and ask any passengers to get out of the vehicle.",
+  "explain": {
+   "short": "Getting people out is not enough. The driver must also try to move the vehicle and warn the trains in time.",
+   "rule": "If a vehicle is stuck on the rails, the first job is to get it off the tracks and to warn any train in time. Nothing else comes first.",
+   "trap": "'unico obbligo' (only duty) is the trap: there are more duties.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Not the only duty: also move it and warn trains",
+    "it": "unico obbligo",
+    "lines": [
+     "Stuck on the rails",
+     "Move the vehicle off fast",
+     "Warn trains in time"
+    ],
+    "icons": [
+     "train",
+     "car",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "barriere chiuse",
+    "en": "closed barriers"
+   },
+   {
+    "it": "unico obbligo",
+    "en": "only duty"
+   },
+   {
+    "it": "spegnere il motore",
+    "en": "switch off the engine"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22511": {
+  "en": "If a vehicle stays stuck between the closed barriers of the level crossing, you must move at least one hundred metres away as soon as possible.",
+  "explain": {
+   "short": "Running away does not help. You must try to move the vehicle off the rails and warn the trains in time.",
+   "rule": "If a vehicle is stuck on the rails, the first job is to get it off the tracks and to warn any train in time. Nothing else comes first.",
+   "trap": "'allontanarsi di almeno cento metri' (move 100 m away) is an invented rule.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Don't run away: move it and warn trains",
+    "it": "allontanarsi",
+    "lines": [
+     "Stuck on the rails",
+     "Move the vehicle off fast",
+     "Warn trains in time"
+    ],
+    "icons": [
+     "train",
+     "car",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "barriere chiuse",
+    "en": "closed barriers"
+   },
+   {
+    "it": "allontanarsi",
+    "en": "move away"
+   },
+   {
+    "it": "cento metri",
+    "en": "one hundred metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22512": {
+  "en": "In a rear-end crash between vehicles at a level crossing, the vehicles must not be moved off the tracks if there are injured people.",
+  "explain": {
+   "short": "Normally after a crash with injured people you leave the vehicles in place. On the rails it is different: they must be moved, or a train can hit them.",
+   "rule": "If a vehicle is stuck on the rails, the first job is to get it off the tracks and to warn any train in time. Nothing else comes first.",
+   "trap": "'non si devono spostare' (must not be moved): on a level crossing the tracks must be cleared anyway.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "On the rails: clear the tracks even with injured",
+    "it": "tamponamento",
+    "lines": [
+     "Stuck on the rails",
+     "Move the vehicle off fast",
+     "Warn trains in time"
+    ],
+    "icons": [
+     "train",
+     "car",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tamponamento",
+    "en": "rear-end crash"
+   },
+   {
+    "it": "dai binari",
+    "en": "off the tracks"
+   },
+   {
+    "it": "feriti",
+    "en": "injured people"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22513": {
+  "en": "In a built-up area, if you see a ball rolling onto the road, you must reduce your speed at once.",
+  "explain": {
+   "short": "A ball on the road often means a child is running after it. Slow down straight away.",
+   "rule": "A ball on the road means a child may run after it. Slow down gradually and be ready to stop; do not swerve sharply or move into the other lane.",
+   "trap": "'subito' (at once) is right: you start slowing down immediately, but smoothly.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Ball on the road: slow down at once",
+    "it": "pallone",
+    "lines": [
+     "Ball on the road",
+     "A child may follow",
+     "Slow down gradually"
+    ],
+    "icons": [
+     "warning",
+     "child",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "centro abitato",
+    "en": "built-up area"
+   },
+   {
+    "it": "pallone",
+    "en": "ball"
+   },
+   {
+    "it": "diminuire subito la velocità",
+    "en": "reduce speed at once"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22514": {
+  "en": "In a built-up area, if you see a ball rolling onto the road, you must slow down so that you can stop if necessary.",
+  "explain": {
+   "short": "A child may run out behind the ball. Go slow enough to stop in time.",
+   "rule": "A ball on the road means a child may run after it. Slow down gradually and be ready to stop; do not swerve sharply or move into the other lane.",
+   "trap": "'per potersi fermare' (so you can stop): the goal is to be ready to stop.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Ball on the road: be ready to stop",
+    "it": "fermare",
+    "lines": [
+     "Ball on the road",
+     "A child may follow",
+     "Slow down gradually"
+    ],
+    "icons": [
+     "warning",
+     "child",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pallone",
+    "en": "ball"
+   },
+   {
+    "it": "rallentare",
+    "en": "slow down"
+   },
+   {
+    "it": "se necessario",
+    "en": "if necessary"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22515": {
+  "en": "In a built-up area, if you see a ball rolling onto the road, you must also expect that a child may cross the road.",
+  "explain": {
+   "short": "Children play with balls and often run after them without looking. Expect a child to appear.",
+   "rule": "A ball on the road means a child may run after it. Slow down gradually and be ready to stop; do not swerve sharply or move into the other lane.",
+   "trap": "'prevedere' (expect, foresee) means thinking ahead about what may happen.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Ball on the road: expect a child",
+    "it": "bambino",
+    "lines": [
+     "Ball on the road",
+     "A child may follow",
+     "Slow down gradually"
+    ],
+    "icons": [
+     "warning",
+     "child",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pallone",
+    "en": "ball"
+   },
+   {
+    "it": "prevedere",
+    "en": "expect, foresee"
+   },
+   {
+    "it": "bambino",
+    "en": "child"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22516": {
+  "en": "In a built-up area, if you see a ball rolling onto the road, you must slow down gradually, to avoid being hit from behind by the vehicle following you.",
+  "explain": {
+   "short": "You must slow down, but smoothly. A sudden stop could make the car behind crash into you.",
+   "rule": "A ball on the road means a child may run after it. Slow down gradually and be ready to stop; do not swerve sharply or move into the other lane.",
+   "trap": "'progressivamente' (gradually) is the key: slow down, but not with a sudden brake.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down gradually: the car behind needs time",
+    "it": "progressivamente",
+    "lines": [
+     "Ball on the road",
+     "Slow down gradually",
+     "Car behind needs time"
+    ],
+    "icons": [
+     "warning",
+     "speed",
+     "mirror"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rallentare progressivamente",
+    "en": "slow down gradually"
+   },
+   {
+    "it": "tamponati",
+    "en": "hit from behind"
+   },
+   {
+    "it": "veicolo che segue",
+    "en": "vehicle behind"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22517": {
+  "en": "In a built-up area, if you see a ball rolling onto the road, you must steer sharply.",
+  "explain": {
+   "short": "A sharp swerve can make you lose control or hit someone. You should slow down and be ready to stop instead.",
+   "rule": "A ball on the road means a child may run after it. Slow down gradually and be ready to stop; do not swerve sharply or move into the other lane.",
+   "trap": "'sterzare bruscamente' (steer sharply) is a dangerous reaction, not the rule.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No sharp swerve: slow down instead",
+    "it": "sterzare",
+    "lines": [
+     "Ball on the road",
+     "No sharp swerve",
+     "Slow down, ready to stop"
+    ],
+    "icons": [
+     "warning",
+     "cross",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pallone",
+    "en": "ball"
+   },
+   {
+    "it": "sterzare bruscamente",
+    "en": "steer sharply"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22518": {
+  "en": "On a two-way road, if you see a ball rolling onto the road, you must avoid it, even moving into the opposite lane.",
+  "explain": {
+   "short": "Moving into the opposite lane can cause a head-on crash. Slow down and stop if needed, staying in your lane.",
+   "rule": "A ball on the road means a child may run after it. Slow down gradually and be ready to stop; do not swerve sharply or move into the other lane.",
+   "trap": "'anche invadendo la corsia opposta' (even moving into the opposite lane) creates a new danger.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Stay in your lane: slow down instead",
+    "it": "corsia opposta",
+    "lines": [
+     "Ball on the road",
+     "Do not invade other lane",
+     "Slow down, ready to stop"
+    ],
+    "icons": [
+     "warning",
+     "cross",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "doppio senso di circolazione",
+    "en": "two-way traffic"
+   },
+   {
+    "it": "scansarlo",
+    "en": "avoid it, dodge it"
+   },
+   {
+    "it": "corsia opposta",
+    "en": "opposite lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22519": {
+  "en": "In a built-up area, if you see a ball rolling onto the road, you need not slow down, to avoid being hit from behind by the vehicle following you.",
+  "explain": {
+   "short": "You must slow down because a child may follow the ball. Do it gradually so the car behind can slow down too.",
+   "rule": "A ball on the road means a child may run after it. Slow down gradually and be ready to stop; do not swerve sharply or move into the other lane.",
+   "trap": "'non occorre rallentare' (no need to slow down) is wrong: slow down, just do it smoothly.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "You must slow down, just gradually",
+    "it": "rallentare",
+    "lines": [
+     "Ball on the road",
+     "A child may follow",
+     "Slow down gradually"
+    ],
+    "icons": [
+     "warning",
+     "child",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non occorre rallentare",
+    "en": "no need to slow down"
+   },
+   {
+    "it": "tamponati",
+    "en": "hit from behind"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22520": {
+  "en": "In a built-up area, if you see a ball rolling onto the road, you must switch on the hazard warning lights immediately.",
+  "explain": {
+   "short": "The hazard lights are not required here. What you must do is slow down and be ready to stop.",
+   "rule": "A ball on the road means a child may run after it. Slow down gradually and be ready to stop; do not swerve sharply or move into the other lane.",
+   "trap": "'segnalazione luminosa di pericolo' (hazard lights) is not the right reaction.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No hazard lights needed: just slow down",
+    "it": "segnalazione luminosa",
+    "lines": [
+     "Ball on the road",
+     "A child may follow",
+     "Slow down gradually"
+    ],
+    "icons": [
+     "warning",
+     "child",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pallone",
+    "en": "ball"
+   },
+   {
+    "it": "segnalazione luminosa di pericolo",
+    "en": "hazard warning lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22521": {
+  "en": "Passing very close to a parked car with people still inside can be dangerous, because a door may be opened carelessly.",
+  "explain": {
+   "short": "Someone inside may open the door without looking. If you pass too close, you can hit it.",
+   "rule": "Keep a good space from parked cars: a door can open suddenly, and parked cars can hide people about to cross. The danger exists at any speed.",
+   "trap": "'apertura imprudente delle portiere' (careless opening of the doors) is the real danger here.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "People inside: a door may open suddenly",
+    "it": "portiere",
+    "lines": [
+     "Parked car, people inside",
+     "A door may open",
+     "Keep a wide gap"
+    ],
+    "icons": [
+     "car",
+     "warning",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "auto parcheggiata",
+    "en": "parked car"
+   },
+   {
+    "it": "a bordo",
+    "en": "on board, inside"
+   },
+   {
+    "it": "apertura imprudente delle portiere",
+    "en": "careless opening of the doors"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22522": {
+  "en": "It can be dangerous to drive too close to parked cars, because they may hide a disabled person in a wheelchair or a pedestrian pushing a pram who is about to cross.",
+  "explain": {
+   "short": "Parked cars block your view. A person in a wheelchair or with a pram may come out from between them.",
+   "rule": "Keep a good space from parked cars: a door can open suddenly, and parked cars can hide people about to cross. The danger exists at any speed.",
+   "trap": "'impedire la vista' (block the view): you may not see people about to cross.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parked cars can hide people about to cross",
+    "it": "auto parcheggiate",
+    "lines": [
+     "Parked cars block the view",
+     "Wheelchair or pram may appear",
+     "Keep a wide gap"
+    ],
+    "icons": [
+     "car",
+     "pedestrian",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "auto parcheggiate",
+    "en": "parked cars"
+   },
+   {
+    "it": "impedire la vista",
+    "en": "block the view"
+   },
+   {
+    "it": "in procinto di attraversare",
+    "en": "about to cross"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22523": {
+  "en": "Passing very close to a parked car with people still inside is not a serious danger if done at low speed.",
+  "explain": {
+   "short": "Even at low speed, a door that opens suddenly can be hit, or can knock down a cyclist. Keep a good gap.",
+   "rule": "Keep a good space from parked cars: a door can open suddenly, and parked cars can hide people about to cross. The danger exists at any speed.",
+   "trap": "'a bassa velocità' (at low speed) does not remove the danger of an opening door.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Low speed is not enough: keep a gap",
+    "it": "bassa velocità",
+    "lines": [
+     "Parked car, people inside",
+     "A door may open",
+     "Keep a wide gap"
+    ],
+    "icons": [
+     "car",
+     "warning",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "auto parcheggiata",
+    "en": "parked car"
+   },
+   {
+    "it": "grave pericolo",
+    "en": "serious danger"
+   },
+   {
+    "it": "bassa velocità",
+    "en": "low speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22524": {
+  "en": "Passing very close to a parked car with people still inside is dangerous only if one of the doors is already open.",
+  "explain": {
+   "short": "The danger is a door that opens suddenly, before you can react. A closed door can open at any moment.",
+   "rule": "Keep a good space from parked cars: a door can open suddenly, and parked cars can hide people about to cross. The danger exists at any speed.",
+   "trap": "'solo se ... già aperta' (only if already open) is too narrow.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A closed door can open at any moment",
+    "it": "portiere",
+    "lines": [
+     "Parked car, people inside",
+     "A door may open",
+     "Keep a wide gap"
+    ],
+    "icons": [
+     "car",
+     "warning",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "auto parcheggiata",
+    "en": "parked car"
+   },
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "già aperta",
+    "en": "already open"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22525": {
+  "en": "Passing very close to a parked car with people still inside is dangerous only if the driver and some passengers have already got out.",
+  "explain": {
+   "short": "If people are still inside, they may open a door at any moment. That is exactly the danger.",
+   "rule": "Keep a good space from parked cars: a door can open suddenly, and parked cars can hide people about to cross. The danger exists at any speed.",
+   "trap": "'solo se ... già scesi' (only if already out) misses the point: people inside open doors.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "People inside may open a door at any time",
+    "it": "portiere",
+    "lines": [
+     "Parked car, people inside",
+     "A door may open",
+     "Keep a wide gap"
+    ],
+    "icons": [
+     "car",
+     "warning",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "auto parcheggiata",
+    "en": "parked car"
+   },
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "già scesi",
+    "en": "already got out"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22526": {
+  "en": "Passing very close to a parked car with people still inside can be dangerous only if you are travelling at high speed.",
+  "explain": {
+   "short": "A door that opens suddenly is a danger at any speed. Keep a good gap from parked cars.",
+   "rule": "Keep a good space from parked cars: a door can open suddenly, and parked cars can hide people about to cross. The danger exists at any speed.",
+   "trap": "'solo se si viaggia ad alta velocità' (only at high speed): 'solo' makes it wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Dangerous at any speed: keep a gap",
+    "it": "alta velocità",
+    "lines": [
+     "Parked car, people inside",
+     "A door may open",
+     "Keep a wide gap"
+    ],
+    "icons": [
+     "car",
+     "warning",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "auto parcheggiata",
+    "en": "parked car"
+   },
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "alta velocità",
+    "en": "high speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

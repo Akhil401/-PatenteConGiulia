@@ -1,0 +1,2292 @@
+{
+ "q22527": {
+  "en": "Keeping the safe distance prevents a collision with the vehicle in front.",
+  "explain": {
+   "short": "If the car ahead brakes suddenly, the gap gives you time to react and stop. That is the whole point of the safe distance.",
+   "rule": "You keep the safe distance to avoid a rear-end crash (tamponamento) with the vehicle in front. It is not about head-on or side crashes.",
+   "trap": "'evita la collisione' (avoids the collision) is exactly the purpose, so nothing is wrong here.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Enough gap: you stop before the car ahead",
+    "it": "distanza di sicurezza",
+    "lines": [
+     "Car ahead brakes suddenly",
+     "Your gap gives time to stop",
+     "No crash into the car ahead"
+    ],
+    "icons": [
+     "car",
+     "distance",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza di sicurezza",
+    "en": "safe following distance"
+   },
+   {
+    "it": "evita la collisione",
+    "en": "avoids the collision"
+   },
+   {
+    "it": "veicolo che precede",
+    "en": "vehicle in front"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22528": {
+  "en": "The driver must judge the safe distance also on the basis of the speed of the vehicle they are driving.",
+  "explain": {
+   "short": "The faster you go, the more road you cover while you react and brake. So the gap must grow with your speed.",
+   "rule": "The safe distance (distanza di sicurezza) must let you stop without hitting the vehicle ahead. It grows with speed, slow reflexes, traffic, bad weather, hills and bends, the type and state of your vehicle, brakes, tyres and load.",
+   "trap": "'anche' (also) means speed is one of several factors; it does count.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Faster car: bigger gap needed",
+    "it": "velocità",
+    "lines": [
+     "Slow: shorter gap",
+     "Fast: much longer gap"
+    ],
+    "icons": [
+     "speed",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "valutare",
+    "en": "to judge"
+   },
+   {
+    "it": "velocità",
+    "en": "speed"
+   },
+   {
+    "it": "di cui è alla guida",
+    "en": "that they are driving"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22529": {
+  "en": "The driver must adjust the safe distance also according to their own reflexes.",
+  "explain": {
+   "short": "Slow reflexes mean a longer reaction time, so you travel further before braking. A slower driver needs a bigger gap.",
+   "rule": "The safe distance (distanza di sicurezza) must let you stop without hitting the vehicle ahead. It grows with speed, slow reflexes, traffic, bad weather, hills and bends, the type and state of your vehicle, brakes, tyres and load.",
+   "trap": "'prontezza di riflessi' (quickness of reflexes) is about the driver, and the driver counts.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slower reflexes: keep a bigger gap",
+    "it": "prontezza di riflessi",
+    "lines": [
+     "Quick reflexes: react sooner",
+     "Slow reflexes: need more gap"
+    ],
+    "icons": [
+     "eye",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "commisurare",
+    "en": "to adjust, to size"
+   },
+   {
+    "it": "prontezza di riflessi",
+    "en": "quickness of reflexes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22530": {
+  "en": "The safe distance must be set also according to the traffic conditions.",
+  "explain": {
+   "short": "In heavy or irregular traffic the cars ahead may brake often and suddenly. You must leave a gap that fits the traffic.",
+   "rule": "The safe distance (distanza di sicurezza) must let you stop without hitting the vehicle ahead. It grows with speed, slow reflexes, traffic, bad weather, hills and bends, the type and state of your vehicle, brakes, tyres and load.",
+   "trap": "'condizioni del traffico' (traffic conditions) is one of the real factors.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Busy, stop-and-go traffic: keep a safe gap",
+    "it": "condizioni del traffico",
+    "lines": [
+     "Heavy traffic: sudden braking",
+     "Adapt your gap to the traffic"
+    ],
+    "icons": [
+     "car",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "valore",
+    "en": "value, amount"
+   },
+   {
+    "it": "condizioni del traffico",
+    "en": "traffic conditions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22531": {
+  "en": "The safe distance must be set also according to the road's layout (bends, uphill and downhill stretches).",
+  "explain": {
+   "short": "Downhill you need more road to stop, and on bends you see less. So the shape and slope of the road matter.",
+   "rule": "The safe distance (distanza di sicurezza) must let you stop without hitting the vehicle ahead. It grows with speed, slow reflexes, traffic, bad weather, hills and bends, the type and state of your vehicle, brakes, tyres and load.",
+   "trap": "'andamento planoaltimetrico' is a hard word: it just means the bends and the ups and downs of the road.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Downhill and bends: you need a bigger gap",
+    "it": "andamento planoaltimetrico",
+    "lines": [
+     "Downhill: longer to stop",
+     "Bends: you see less",
+     "Keep a bigger gap"
+    ],
+    "icons": [
+     "hill",
+     "curve",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "andamento planoaltimetrico",
+    "en": "road layout: bends, ups and downs"
+   },
+   {
+    "it": "stabilito",
+    "en": "set, decided"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22532": {
+  "en": "The safe distance must be set also according to the weather conditions.",
+  "explain": {
+   "short": "Rain, ice, snow or fog make braking longer or let you see less. In bad weather the gap must be bigger.",
+   "rule": "The safe distance (distanza di sicurezza) must let you stop without hitting the vehicle ahead. It grows with speed, slow reflexes, traffic, bad weather, hills and bends, the type and state of your vehicle, brakes, tyres and load.",
+   "trap": "'condizioni atmosferiche' (weather conditions) is a real factor.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Rain or fog: increase the gap",
+    "it": "condizioni atmosferiche",
+    "lines": [
+     "Rain: longer braking",
+     "Fog: you see less",
+     "Keep a bigger gap"
+    ],
+    "icons": [
+     "rain",
+     "fog",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "condizioni atmosferiche",
+    "en": "weather conditions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22533": {
+  "en": "The safe distance must be set also according to the type of vehicle you are driving.",
+  "explain": {
+   "short": "A heavy truck or a bus needs more road to stop than a small car. Your type of vehicle changes the braking distance.",
+   "rule": "The safe distance (distanza di sicurezza) must let you stop without hitting the vehicle ahead. It grows with speed, slow reflexes, traffic, bad weather, hills and bends, the type and state of your vehicle, brakes, tyres and load.",
+   "trap": "'tipo di veicolo di cui si è alla guida' means YOUR vehicle, and your vehicle counts.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A heavy vehicle needs a longer gap",
+    "it": "tipo di veicolo",
+    "lines": [
+     "Car: shorter braking",
+     "Truck: longer braking"
+    ],
+    "icons": [
+     "car",
+     "truck"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tipo di veicolo",
+    "en": "type of vehicle"
+   },
+   {
+    "it": "di cui si è alla guida",
+    "en": "that you are driving"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22534": {
+  "en": "The safe distance must be set also according to how efficient (in good working order) the vehicle is.",
+  "explain": {
+   "short": "A vehicle in poor condition brakes worse and reacts worse. The gap must take this into account.",
+   "rule": "The safe distance (distanza di sicurezza) must let you stop without hitting the vehicle ahead. It grows with speed, slow reflexes, traffic, bad weather, hills and bends, the type and state of your vehicle, brakes, tyres and load.",
+   "trap": "'stato di efficienza' (working condition) of the vehicle is a real factor.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Vehicle in poor shape: keep a bigger gap",
+    "it": "stato di efficienza",
+    "lines": [
+     "Vehicle in good order: brakes well",
+     "Poor condition: needs more gap"
+    ],
+    "icons": [
+     "check",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "stato di efficienza",
+    "en": "working condition"
+   },
+   {
+    "it": "veicolo",
+    "en": "vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22535": {
+  "en": "The safe distance must be set also according to the amount of the load.",
+  "explain": {
+   "short": "A heavily loaded vehicle is heavier and needs more road to stop. More load means a bigger gap.",
+   "rule": "The safe distance (distanza di sicurezza) must let you stop without hitting the vehicle ahead. It grows with speed, slow reflexes, traffic, bad weather, hills and bends, the type and state of your vehicle, brakes, tyres and load.",
+   "trap": "'entità del carico' (size of the load) really matters for braking.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Heavy load: longer stop, bigger gap",
+    "it": "entità del carico",
+    "lines": [
+     "Heavy load: more weight",
+     "More weight: longer braking"
+    ],
+    "icons": [
+     "truck",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "entità del carico",
+    "en": "amount of the load"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22536": {
+  "en": "The safe distance to keep from a snow plough at work is 20 metres.",
+  "explain": {
+   "short": "A snow plough at work throws snow and moves slowly and unpredictably. The law says to stay at least 20 m behind it.",
+   "rule": "The safe distance is usually not a fixed number. The law fixes only a few minimums: at least 20 m from a snow plough or salt spreader at work, and at least 100 m between goods vehicles over 3.5 t that may not overtake, on an out-of-town road with one lane each way.",
+   "trap": "The number '20 metri' is the right one; quizzes also offer 10 m, which is wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Snow plough at work: stay at least 20 m back",
+    "it": "sgombraneve",
+    "lines": [
+     "Snow plough at work ahead",
+     "Stay at least 20 m behind"
+    ],
+    "icons": [
+     "snow",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "macchina sgombraneve",
+    "en": "snow plough"
+   },
+   {
+    "it": "in azione",
+    "en": "at work"
+   },
+   {
+    "it": "20 metri",
+    "en": "20 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22537": {
+  "en": "The safe distance to keep from a salt spreader at work is 20 metres.",
+  "explain": {
+   "short": "A salt spreader throws salt and grit onto the road behind it. The law says to stay at least 20 m behind it, like a snow plough.",
+   "rule": "The safe distance is usually not a fixed number. The law fixes only a few minimums: at least 20 m from a snow plough or salt spreader at work, and at least 100 m between goods vehicles over 3.5 t that may not overtake, on an out-of-town road with one lane each way.",
+   "trap": "'20 metri' is right; the quiz may say 15 m, which is wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Salt spreader at work: stay at least 20 m back",
+    "it": "spanditrice di sale",
+    "lines": [
+     "Salt spreader at work ahead",
+     "Stay at least 20 m behind"
+    ],
+    "icons": [
+     "truck",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "macchina spanditrice di sale",
+    "en": "salt spreader"
+   },
+   {
+    "it": "in azione",
+    "en": "at work"
+   },
+   {
+    "it": "20 metri",
+    "en": "20 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22538": {
+  "en": "The driver must judge the safe distance also with reference to the speed of the vehicle in front.",
+  "explain": {
+   "short": "If the vehicle ahead is fast, it can also stop suddenly from high speed. You must look at its speed and your own.",
+   "rule": "The safe distance (distanza di sicurezza) must let you stop without hitting the vehicle ahead. It grows with speed, slow reflexes, traffic, bad weather, hills and bends, the type and state of your vehicle, brakes, tyres and load.",
+   "trap": "'veicolo che lo precede' (the vehicle in front) – its speed also counts, not only yours.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Watch the speed of the car ahead too",
+    "it": "veicolo che lo precede",
+    "lines": [
+     "Watch the car ahead",
+     "Its speed matters too"
+    ],
+    "icons": [
+     "eye",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicolo che lo precede",
+    "en": "vehicle in front of them"
+   },
+   {
+    "it": "con riferimento",
+    "en": "with reference to"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22539": {
+  "en": "The safe distance must be set also according to how efficient the brakes are.",
+  "explain": {
+   "short": "Weak or worn brakes need more road to stop the car. So the gap must be bigger.",
+   "rule": "The safe distance (distanza di sicurezza) must let you stop without hitting the vehicle ahead. It grows with speed, slow reflexes, traffic, bad weather, hills and bends, the type and state of your vehicle, brakes, tyres and load.",
+   "trap": "'efficienza dei freni' (brake efficiency) directly changes the braking distance.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Weak brakes: longer stop, bigger gap",
+    "it": "efficienza dei freni",
+    "lines": [
+     "Good brakes: short stop",
+     "Worn brakes: long stop"
+    ],
+    "icons": [
+     "brake",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "efficienza dei freni",
+    "en": "efficiency of the brakes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22540": {
+  "en": "The safe distance must be set also according to the condition of the tyres.",
+  "explain": {
+   "short": "Worn tyres grip the road less, so the car slides more when braking. A bigger gap is needed.",
+   "rule": "The safe distance (distanza di sicurezza) must let you stop without hitting the vehicle ahead. It grows with speed, slow reflexes, traffic, bad weather, hills and bends, the type and state of your vehicle, brakes, tyres and load.",
+   "trap": "'condizione dei pneumatici' (tyre condition) really changes the braking distance.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Worn tyres: less grip, bigger gap",
+    "it": "pneumatici",
+    "lines": [
+     "Good tyres: good grip",
+     "Worn tyres: longer braking"
+    ],
+    "icons": [
+     "tyre",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "condizione dei pneumatici",
+    "en": "condition of the tyres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22541": {
+  "en": "On an out-of-town road with one lane in each direction, goods vehicles with a total mass over 3.5 tonnes that are banned from overtaking must keep at least 100 metres between them.",
+  "explain": {
+   "short": "Trucks that may not overtake each other must keep 100 m apart. This leaves room for other cars to overtake them one at a time.",
+   "rule": "The safe distance is usually not a fixed number. The law fixes only a few minimums: at least 20 m from a snow plough or salt spreader at work, and at least 100 m between goods vehicles over 3.5 t that may not overtake, on an out-of-town road with one lane each way.",
+   "trap": "The numbers are right: 'superiore a 3,5 tonnellate' and 'almeno 100 metri' (at least 100 m).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Trucks with no-overtaking: at least 100 m apart",
+    "it": "almeno 100 metri",
+    "lines": [
+     "Trucks over 3.5 t, no overtaking",
+     "One lane each way, outside towns",
+     "At least 100 m between them"
+    ],
+    "icons": [
+     "truck",
+     "road",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada extraurbana",
+    "en": "out-of-town road"
+   },
+   {
+    "it": "massa complessiva",
+    "en": "total mass"
+   },
+   {
+    "it": "divieto di sorpasso",
+    "en": "overtaking ban"
+   },
+   {
+    "it": "almeno 100 metri",
+    "en": "at least 100 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22542": {
+  "en": "The safe distance must be set also according to the type of fuel the engine uses.",
+  "explain": {
+   "short": "Petrol, diesel or gas does not change how fast you react or brake. Fuel type has nothing to do with the safe distance.",
+   "rule": "Only things that change how fast you react or stop count. Fuel type, engine size, engine power, the gear, the width of the road or of a vehicle, and the vehicle behind you do not count.",
+   "trap": "'tipo di alimentazione' (fuel type) sounds technical, but it does not affect stopping.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Fuel type does not change the safe distance",
+    "it": "alimentazione",
+    "lines": [
+     "Petrol, diesel, gas: same",
+     "Fuel does not change the gap"
+    ],
+    "icons": [
+     "fuel",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tipo di alimentazione",
+    "en": "type of fuel"
+   },
+   {
+    "it": "motore",
+    "en": "engine"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22543": {
+  "en": "The safe distance must be set also according to the vehicle's engine size.",
+  "explain": {
+   "short": "Engine size (cilindrata) is about the engine, not about stopping. It does not change the safe distance.",
+   "rule": "Only things that change how fast you react or stop count. Fuel type, engine size, engine power, the gear, the width of the road or of a vehicle, and the vehicle behind you do not count.",
+   "trap": "'cilindrata' (engine size) is a false factor; the quiz uses it to trick you.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Engine size does not change the safe distance",
+    "it": "cilindrata",
+    "lines": [
+     "Small or big engine",
+     "Engine size: not a factor"
+    ],
+    "icons": [
+     "engine",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cilindrata",
+    "en": "engine size (cc)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22544": {
+  "en": "The safe distance must be set also according to the engine power.",
+  "explain": {
+   "short": "Engine power helps you speed up, not stop. It does not change the safe distance.",
+   "rule": "Only things that change how fast you react or stop count. Fuel type, engine size, engine power, the gear, the width of the road or of a vehicle, and the vehicle behind you do not count.",
+   "trap": "'potenza del motore' (engine power) is a false factor.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Engine power does not change the safe distance",
+    "it": "potenza del motore",
+    "lines": [
+     "Power helps you speed up",
+     "Power: not a factor for the gap"
+    ],
+    "icons": [
+     "engine",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "potenza del motore",
+    "en": "engine power"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22545": {
+  "en": "The safe distance must be set also according to the width of the carriageway.",
+  "explain": {
+   "short": "The safe distance is the gap in front of you. A wide or narrow road does not change how far you need to stop.",
+   "rule": "Only things that change how fast you react or stop count. Fuel type, engine size, engine power, the gear, the width of the road or of a vehicle, and the vehicle behind you do not count.",
+   "trap": "'ampiezza della carreggiata' (width of the carriageway) is a false factor.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Road width does not change the safe distance",
+    "it": "ampiezza della carreggiata",
+    "lines": [
+     "Wide or narrow road",
+     "Same gap needed to stop"
+    ],
+    "icons": [
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ampiezza",
+    "en": "width"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway (the part of the road for vehicles)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22546": {
+  "en": "The driver must set the safe distance also according to the width of the vehicle they are driving.",
+  "explain": {
+   "short": "Width is about the sides of the vehicle, not about stopping. It does not change the gap in front.",
+   "rule": "Only things that change how fast you react or stop count. Fuel type, engine size, engine power, the gear, the width of the road or of a vehicle, and the vehicle behind you do not count.",
+   "trap": "'larghezza' (width) is a false factor; the TYPE of vehicle counts, its width does not.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Vehicle width does not change the safe distance",
+    "it": "larghezza del veicolo",
+    "lines": [
+     "Wide or narrow car",
+     "Width: not a factor"
+    ],
+    "icons": [
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "larghezza",
+    "en": "width"
+   },
+   {
+    "it": "di cui è alla guida",
+    "en": "that they are driving"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22547": {
+  "en": "The driver must check that the vehicle behind them keeps the safe distance.",
+  "explain": {
+   "short": "Each driver keeps the safe distance from the vehicle IN FRONT. Keeping the gap is the job of the driver behind, not yours.",
+   "rule": "Only things that change how fast you react or stop count. Fuel type, engine size, engine power, the gear, the width of the road or of a vehicle, and the vehicle behind you do not count.",
+   "trap": "'il veicolo che lo segue' (the vehicle behind) is the trick: your duty is the vehicle ahead.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "You keep your gap; the driver behind keeps theirs",
+    "it": "veicolo che lo segue",
+    "lines": [
+     "Your gap: to the car ahead",
+     "Car behind: its own duty"
+    ],
+    "icons": [
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ha l'obbligo",
+    "en": "must, has the duty"
+   },
+   {
+    "it": "veicolo che lo segue",
+    "en": "vehicle behind them"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22548": {
+  "en": "The safe distance to keep from a snow plough at work is 10 metres.",
+  "explain": {
+   "short": "The law says at least 20 m from a snow plough at work, not 10 m.",
+   "rule": "The safe distance is usually not a fixed number. The law fixes only a few minimums: at least 20 m from a snow plough or salt spreader at work, and at least 100 m between goods vehicles over 3.5 t that may not overtake, on an out-of-town road with one lane each way.",
+   "trap": "'10 metri' is the wrong number; the right one is 20 m.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Snow plough: 20 m, not 10 m",
+    "it": "sgombraneve",
+    "lines": [
+     "Snow plough at work: 20 m",
+     "10 m: too close"
+    ],
+    "icons": [
+     "snow",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "macchina sgombraneve",
+    "en": "snow plough"
+   },
+   {
+    "it": "in azione",
+    "en": "at work"
+   },
+   {
+    "it": "10 metri",
+    "en": "10 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22549": {
+  "en": "The safe distance to keep from a salt spreader at work is 15 metres.",
+  "explain": {
+   "short": "The law says at least 20 m from a salt spreader at work, not 15 m.",
+   "rule": "The safe distance is usually not a fixed number. The law fixes only a few minimums: at least 20 m from a snow plough or salt spreader at work, and at least 100 m between goods vehicles over 3.5 t that may not overtake, on an out-of-town road with one lane each way.",
+   "trap": "'15 metri' is the wrong number; the right one is 20 m.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Salt spreader: 20 m, not 15 m",
+    "it": "spanditrice di sale",
+    "lines": [
+     "Salt spreader at work: 20 m",
+     "15 m: too close"
+    ],
+    "icons": [
+     "truck",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "macchina spanditrice di sale",
+    "en": "salt spreader"
+   },
+   {
+    "it": "15 metri",
+    "en": "15 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22550": {
+  "en": "The distance between lorries with trailers, where there are signs banning them from overtaking each other, must be at least 10 metres.",
+  "explain": {
+   "short": "Where heavy trucks may not overtake each other, they must keep at least 100 m apart. 10 m is far too little.",
+   "rule": "The safe distance is usually not a fixed number. The law fixes only a few minimums: at least 20 m from a snow plough or salt spreader at work, and at least 100 m between goods vehicles over 3.5 t that may not overtake, on an out-of-town road with one lane each way.",
+   "trap": "'10 metri' is wrong: the minimum in this case is 100 m.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Trucks that may not overtake: 100 m, not 10 m",
+    "it": "almeno 10 metri",
+    "lines": [
+     "Trucks, no overtaking each other",
+     "At least 100 m, not 10 m"
+    ],
+    "icons": [
+     "truck",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autotreni",
+    "en": "lorries with trailers"
+   },
+   {
+    "it": "divieto di sorpasso",
+    "en": "overtaking ban"
+   },
+   {
+    "it": "almeno 10 metri",
+    "en": "at least 10 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22551": {
+  "en": "On out-of-town roads, the safe distance is always 70 metres.",
+  "explain": {
+   "short": "The safe distance is not a fixed number. It changes with speed, road, weather and vehicle.",
+   "rule": "You must always keep a safe distance, at every speed and on every road. It is not a fixed number: it changes with the situation.",
+   "trap": "'sempre pari a 70 metri' (always 70 metres): a fixed number is the trap.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No fixed number: the gap depends on the situation",
+    "it": "sempre",
+    "lines": [
+     "Safe distance: not fixed",
+     "It depends on speed, road, weather"
+    ],
+    "icons": [
+     "distance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane",
+    "en": "out-of-town roads"
+   },
+   {
+    "it": "sempre pari a 70 metri",
+    "en": "always equal to 70 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22552": {
+  "en": "The safe distance must be at least equal to the braking distance.",
+  "explain": {
+   "short": "The car ahead also brakes, so you do not need your whole braking distance. The minimum is the distance you cover while reacting.",
+   "rule": "Reaction distance (spazio percorso nel tempo di reazione) is the road you cover from seeing a danger until you start braking, about 1 second. The safe distance must be at least this long, and it can be longer.",
+   "trap": "'distanza di frenatura' (braking distance) is the trap; the minimum is linked to the reaction distance.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Minimum gap = reaction distance, not braking",
+    "it": "distanza di frenatura",
+    "lines": [
+     "Car ahead brakes too",
+     "Minimum gap: reaction distance",
+     "Not the whole braking distance"
+    ],
+    "icons": [
+     "brake",
+     "eye",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "almeno pari",
+    "en": "at least equal"
+   },
+   {
+    "it": "distanza di frenatura",
+    "en": "braking distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22553": {
+  "en": "The safe distance must be at least equal to the visibility distance.",
+  "explain": {
+   "short": "Visibility distance is how far you can see. It is not the gap to the car ahead, which depends on your reaction distance.",
+   "rule": "Reaction distance (spazio percorso nel tempo di reazione) is the road you cover from seeing a danger until you start braking, about 1 second. The safe distance must be at least this long, and it can be longer.",
+   "trap": "'distanza di visibilità' (how far you can see) is mixed up on purpose with the safe distance.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Safe distance is not how far you can see",
+    "it": "distanza di visibilità",
+    "lines": [
+     "How far you see: visibility",
+     "Gap to the car ahead: different"
+    ],
+    "icons": [
+     "eye",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "almeno pari",
+    "en": "at least equal"
+   },
+   {
+    "it": "distanza di visibilità",
+    "en": "visibility distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22554": {
+  "en": "The safe distance does not have to be kept at speeds below 50 km/h.",
+  "explain": {
+   "short": "You must keep a safe distance at every speed. In town at 30-50 km/h, rear-end crashes are very common.",
+   "rule": "You must always keep a safe distance, at every speed and on every road. It is not a fixed number: it changes with the situation.",
+   "trap": "'non deve essere rispettata' (does not have to be kept) is the trap: there is no speed without this duty.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Keep a safe gap at every speed",
+    "it": "non deve essere rispettata",
+    "lines": [
+     "Below 50 km/h: still needed",
+     "Every speed: keep the gap"
+    ],
+    "icons": [
+     "speed",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non deve essere rispettata",
+    "en": "does not have to be kept"
+   },
+   {
+    "it": "inferiori ai 50 km/h",
+    "en": "below 50 km/h"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22555": {
+  "en": "The safe distance must be set also according to the gear engaged.",
+  "explain": {
+   "short": "The gear you are in does not decide how fast you react or how far you need to stop. Speed matters, not the gear.",
+   "rule": "Only things that change how fast you react or stop count. Fuel type, engine size, engine power, the gear, the width of the road or of a vehicle, and the vehicle behind you do not count.",
+   "trap": "'marcia innestata' (gear engaged) is a false factor; do not confuse it with speed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The gear does not change the safe distance",
+    "it": "marcia innestata",
+    "lines": [
+     "2nd or 5th gear: not the point",
+     "Speed matters, not the gear"
+    ],
+    "icons": [
+     "engine",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "marcia innestata",
+    "en": "gear engaged"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22556": {
+  "en": "The safe distance is sized also according to the driver's physical and mental condition.",
+  "explain": {
+   "short": "Tiredness, illness, alcohol or stress slow your reactions. Then you need a bigger gap.",
+   "rule": "The safe distance (distanza di sicurezza) must let you stop without hitting the vehicle ahead. It grows with speed, slow reflexes, traffic, bad weather, hills and bends, the type and state of your vehicle, brakes, tyres and load.",
+   "trap": "'condizioni psicofisiche' means body and mind (tired, ill, drunk): they count.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tired or unwell: keep a bigger gap",
+    "it": "condizioni psicofisiche",
+    "lines": [
+     "Tired, ill, alcohol: slow reactions",
+     "Slow reactions: bigger gap"
+    ],
+    "icons": [
+     "alcohol",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "commisurata",
+    "en": "sized, adjusted"
+   },
+   {
+    "it": "condizioni psicofisiche",
+    "en": "physical and mental condition"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22557": {
+  "en": "The safe distance must be kept so as not to crash into the back of the vehicle in front.",
+  "explain": {
+   "short": "The safe distance exists to avoid a rear-end crash. If the car ahead stops, you can stop too.",
+   "rule": "You keep the safe distance to avoid a rear-end crash (tamponamento) with the vehicle in front. It is not about head-on or side crashes.",
+   "trap": "'tamponare' means to hit the back of the car ahead: exactly what the gap prevents.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Keep the gap so you never hit the car ahead",
+    "it": "tamponare",
+    "lines": [
+     "Car ahead stops",
+     "Your gap: time to stop",
+     "No rear-end crash"
+    ],
+    "icons": [
+     "car",
+     "distance",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "va rispettata",
+    "en": "must be kept"
+   },
+   {
+    "it": "tamponare",
+    "en": "to crash into the back of"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22558": {
+  "en": "The safe distance must be decided according to the width of the vehicle in front.",
+  "explain": {
+   "short": "How wide the vehicle ahead is does not change how far you need to stop. Width is not a factor.",
+   "rule": "Only things that change how fast you react or stop count. Fuel type, engine size, engine power, the gear, the width of the road or of a vehicle, and the vehicle behind you do not count.",
+   "trap": "'larghezza' (width) is a false factor.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Width of the car ahead does not matter",
+    "it": "larghezza",
+    "lines": [
+     "Wide or narrow vehicle ahead",
+     "Width: not a factor"
+    ],
+    "icons": [
+     "truck",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "larghezza",
+    "en": "width"
+   },
+   {
+    "it": "veicolo che precede",
+    "en": "vehicle in front"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22559": {
+  "en": "The safe distance is sized also according to the number of lanes on the road.",
+  "explain": {
+   "short": "Two lanes or four, you still need the same room to stop behind the car ahead. The number of lanes does not count.",
+   "rule": "Only things that change how fast you react or stop count. Fuel type, engine size, engine power, the gear, the width of the road or of a vehicle, and the vehicle behind you do not count.",
+   "trap": "'numero di corsie' (number of lanes) is a false factor.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Number of lanes does not change the gap",
+    "it": "numero di corsie",
+    "lines": [
+     "One lane or many",
+     "Same gap needed"
+    ],
+    "icons": [
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "numero di corsie",
+    "en": "number of lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22560": {
+  "en": "The safe distance is sized also according to whether the car has power steering.",
+  "explain": {
+   "short": "Power steering (servosterzo) makes turning the wheel easier. It does not help you stop, so it does not count.",
+   "rule": "Only things that change how fast you react or stop count. Fuel type, engine size, engine power, the gear, the width of the road or of a vehicle, and the vehicle behind you do not count.",
+   "trap": "'servosterzo' (power steering) is about steering, not braking.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Power steering does not change the gap",
+    "it": "servosterzo",
+    "lines": [
+     "Power steering: easier steering",
+     "Not braking: not a factor"
+    ],
+    "icons": [
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "servosterzo",
+    "en": "power steering"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22561": {
+  "en": "The safe distance is sized also according to the type of vehicle behind.",
+  "explain": {
+   "short": "Your gap is to the vehicle ahead. The vehicle behind you does not change it.",
+   "rule": "Only things that change how fast you react or stop count. Fuel type, engine size, engine power, the gear, the width of the road or of a vehicle, and the vehicle behind you do not count.",
+   "trap": "'veicolo che segue' (vehicle behind) is the trap: only your own vehicle and the one ahead matter.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The vehicle behind does not change your gap",
+    "it": "veicolo che segue",
+    "lines": [
+     "Your gap: to the vehicle ahead",
+     "Vehicle behind: not a factor"
+    ],
+    "icons": [
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tipo di veicolo",
+    "en": "type of vehicle"
+   },
+   {
+    "it": "che segue",
+    "en": "that follows, behind"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22562": {
+  "en": "The safe distance is sized also according to the speed limit shown on the back of the vehicle in front.",
+  "explain": {
+   "short": "The plate on the back shows that vehicle's maximum speed, not its real speed. You judge the real speed of the vehicle ahead.",
+   "rule": "Only things that change how fast you react or stop count. Fuel type, engine size, engine power, the gear, the width of the road or of a vehicle, and the vehicle behind you do not count.",
+   "trap": "'limite di velocità riportato sul retro' (the limit plate on the back) is not its actual speed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Judge real speed, not the plate on the back",
+    "it": "riportato sul retro",
+    "lines": [
+     "Plate on the back: max limit",
+     "Look at real speed, not the plate"
+    ],
+    "icons": [
+     "sign",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "limite di velocità",
+    "en": "speed limit"
+   },
+   {
+    "it": "riportato sul retro",
+    "en": "shown on the back"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22563": {
+  "en": "The safe distance is a fixed distance.",
+  "explain": {
+   "short": "The safe distance changes with speed, weather, road, vehicle and driver. It is never one fixed number.",
+   "rule": "You must always keep a safe distance, at every speed and on every road. It is not a fixed number: it changes with the situation.",
+   "trap": "'fissa' (fixed) is the trap word.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The safe distance changes: never fixed",
+    "it": "fissa",
+    "lines": [
+     "Speed, weather, road, driver",
+     "Gap changes: not fixed"
+    ],
+    "icons": [
+     "distance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza fissa",
+    "en": "fixed distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22564": {
+  "en": "The safe distance must be kept only above a certain speed.",
+  "explain": {
+   "short": "You must keep a safe distance at every speed, slow or fast.",
+   "rule": "You must always keep a safe distance, at every speed and on every road. It is not a fixed number: it changes with the situation.",
+   "trap": "'al di sopra di una certa velocità' (above a certain speed) is wrong: there is no minimum speed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Keep a safe gap at every speed",
+    "it": "al di sopra",
+    "lines": [
+     "Slow or fast",
+     "Always keep the gap"
+    ],
+    "icons": [
+     "speed",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "si deve rispettare",
+    "en": "must be kept"
+   },
+   {
+    "it": "al di sopra di una certa velocità",
+    "en": "above a certain speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22565": {
+  "en": "The safe distance is sized also according to the grip of the tyres.",
+  "explain": {
+   "short": "Less grip (wet road, worn tyres) means a longer braking distance. Then the gap must be bigger.",
+   "rule": "The safe distance (distanza di sicurezza) must let you stop without hitting the vehicle ahead. It grows with speed, slow reflexes, traffic, bad weather, hills and bends, the type and state of your vehicle, brakes, tyres and load.",
+   "trap": "'aderenza' (grip on the road) really changes braking.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Less grip: longer braking, bigger gap",
+    "it": "aderenza",
+    "lines": [
+     "Good grip: short braking",
+     "Poor grip: long braking"
+    ],
+    "icons": [
+     "tyre",
+     "rain"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aderenza",
+    "en": "grip"
+   },
+   {
+    "it": "pneumatici",
+    "en": "tyres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22566": {
+  "en": "The safe distance depends on the distance covered during the reaction time.",
+  "explain": {
+   "short": "In the reaction time (about 1 second) you keep moving before you brake. The safe distance must cover at least that.",
+   "rule": "Reaction distance (spazio percorso nel tempo di reazione) is the road you cover from seeing a danger until you start braking, about 1 second. The safe distance must be at least this long, and it can be longer.",
+   "trap": "'spazio percorso nel tempo di reazione' (reaction distance) is the base of the safe distance.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Gap must cover your reaction distance",
+    "it": "tempo di reazione",
+    "lines": [
+     "See danger: about 1 second",
+     "Car still moving: reaction distance",
+     "Gap at least that long"
+    ],
+    "icons": [
+     "eye",
+     "speed",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dipende",
+    "en": "depends"
+   },
+   {
+    "it": "spazio percorso",
+    "en": "distance covered"
+   },
+   {
+    "it": "tempo di reazione",
+    "en": "reaction time"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22567": {
+  "en": "The safe distance must be at least 100 metres on steep downhill roads.",
+  "explain": {
+   "short": "On steep descents you need a bigger gap, but the law sets no 100 m figure. The gap depends on the situation.",
+   "rule": "You must always keep a safe distance, at every speed and on every road. It is not a fixed number: it changes with the situation.",
+   "trap": "'almeno 100 metri' (at least 100 metres) is an invented fixed number; 100 m is only for trucks with an overtaking ban.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Downhill: more gap, but no fixed 100 m",
+    "it": "almeno 100 metri",
+    "lines": [
+     "Steep descent: bigger gap",
+     "No fixed 100 m rule"
+    ],
+    "icons": [
+     "hill",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "almeno 100 metri",
+    "en": "at least 100 metres"
+   },
+   {
+    "it": "forti discese",
+    "en": "steep descents"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22568": {
+  "en": "The safe distance must be at least 100 metres while it is snowing.",
+  "explain": {
+   "short": "In snow you need a much bigger gap, but there is no fixed 100 m rule. The gap depends on speed and grip.",
+   "rule": "You must always keep a safe distance, at every speed and on every road. It is not a fixed number: it changes with the situation.",
+   "trap": "'almeno 100 metri' is an invented fixed number for snow.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Snow: more gap, but no fixed 100 m",
+    "it": "nevicata in atto",
+    "lines": [
+     "Snowing: much bigger gap",
+     "No fixed 100 m rule"
+    ],
+    "icons": [
+     "snow",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "almeno 100 metri",
+    "en": "at least 100 metres"
+   },
+   {
+    "it": "nevicata in atto",
+    "en": "snowfall in progress"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22569": {
+  "en": "The safe distance depends on how efficient the parking brake is.",
+  "explain": {
+   "short": "The parking brake (freno di stazionamento) holds a parked car still. You brake while driving with the service brake (foot brake).",
+   "rule": "Only things that change how fast you react or stop count. Fuel type, engine size, engine power, the gear, the width of the road or of a vehicle, and the vehicle behind you do not count.",
+   "trap": "'freno di stazionamento' (parking brake) is the trap: it is not used to stop while driving.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Parking brake is not for stopping while driving",
+    "it": "freno di stazionamento",
+    "lines": [
+     "Foot brake: stops the moving car",
+     "Parking brake: holds a parked car"
+    ],
+    "icons": [
+     "brake",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "freno di stazionamento",
+    "en": "parking brake"
+   },
+   {
+    "it": "efficienza",
+    "en": "efficiency"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22570": {
+  "en": "The safe distance must be greater if you drive in the emergency lane.",
+  "explain": {
+   "short": "You must not drive in the emergency lane (corsia d'emergenza) at all, except in an emergency. So this rule makes no sense.",
+   "rule": "Only things that change how fast you react or stop count. Fuel type, engine size, engine power, the gear, the width of the road or of a vehicle, and the vehicle behind you do not count.",
+   "trap": "'se si percorre la corsia d'emergenza' (if you drive in the emergency lane): normal driving there is forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Driving in the emergency lane is not allowed",
+    "it": "corsia d'emergenza",
+    "lines": [
+     "Emergency lane: only for emergencies",
+     "No normal driving there"
+    ],
+    "icons": [
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "maggiore",
+    "en": "greater"
+   },
+   {
+    "it": "corsia d'emergenza",
+    "en": "emergency lane (hard shoulder)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22571": {
+  "en": "The safe distance must equal the braking distance plus 20 metres.",
+  "explain": {
+   "short": "There is no such formula. The minimum safe distance is linked to the reaction distance, and it changes with the situation.",
+   "rule": "Reaction distance (spazio percorso nel tempo di reazione) is the road you cover from seeing a danger until you start braking, about 1 second. The safe distance must be at least this long, and it can be longer.",
+   "trap": "'spazio di frenatura aumentato di 20 metri' (braking distance plus 20 m) is an invented formula.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No 'braking + 20 m' formula exists",
+    "it": "aumentato di 20 metri",
+    "lines": [
+     "Braking + 20 m: invented",
+     "Minimum: reaction distance"
+    ],
+    "icons": [
+     "cross",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "spazio di frenatura",
+    "en": "braking distance"
+   },
+   {
+    "it": "aumentato di 20 metri",
+    "en": "increased by 20 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22572": {
+  "en": "The distance covered during the reaction time is the one covered from the moment you notice a danger to the moment you start braking.",
+  "explain": {
+   "short": "This is the definition of reaction distance: from seeing the danger to pressing the brake. The car keeps moving at full speed.",
+   "rule": "Reaction distance (spazio percorso nel tempo di reazione) is the road you cover from seeing a danger until you start braking, about 1 second. The safe distance must be at least this long, and it can be longer.",
+   "trap": "'dal momento della percezione ... a quello di inizio della frenata' is the exact definition.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Reaction distance: see danger -> start braking",
+    "it": "tempo di reazione",
+    "lines": [
+     "You see the danger",
+     "About 1 s: car still moving",
+     "You start braking"
+    ],
+    "icons": [
+     "eye",
+     "speed",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tempo di reazione",
+    "en": "reaction time"
+   },
+   {
+    "it": "percezione",
+    "en": "noticing, perception"
+   },
+   {
+    "it": "inizio della frenata",
+    "en": "start of braking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22573": {
+  "en": "The safe distance must be kept to avoid a rear-end crash.",
+  "explain": {
+   "short": "The safe distance protects you from hitting the vehicle ahead from behind (tamponamento).",
+   "rule": "You keep the safe distance to avoid a rear-end crash (tamponamento) with the vehicle in front. It is not about head-on or side crashes.",
+   "trap": "'tamponamento' (rear-end crash) is the correct purpose.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Safe gap: no rear-end crash",
+    "it": "tamponamento",
+    "lines": [
+     "Car ahead brakes",
+     "Gap lets you stop",
+     "No rear-end crash"
+    ],
+    "icons": [
+     "car",
+     "distance",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tamponamento",
+    "en": "rear-end crash"
+   },
+   {
+    "it": "mantenuta",
+    "en": "kept"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22574": {
+  "en": "The safe distance can be greater than the distance covered during the reaction time.",
+  "explain": {
+   "short": "The reaction distance is the minimum. In rain, fog or with worn brakes the safe distance should be longer.",
+   "rule": "Reaction distance (spazio percorso nel tempo di reazione) is the road you cover from seeing a danger until you start braking, about 1 second. The safe distance must be at least this long, and it can be longer.",
+   "trap": "'può essere maggiore' (can be greater) is correct: the reaction distance is only the minimum.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Reaction distance is the minimum; more is fine",
+    "it": "maggiore",
+    "lines": [
+     "Minimum: reaction distance",
+     "Bad conditions: even more"
+    ],
+    "icons": [
+     "eye",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "può essere maggiore",
+    "en": "can be greater"
+   },
+   {
+    "it": "tempo di reazione",
+    "en": "reaction time"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22575": {
+  "en": "The safe distance must be kept to avoid a head-on collision.",
+  "explain": {
+   "short": "The safe distance is about the vehicle in front going your way. A head-on crash is with oncoming traffic, a different problem.",
+   "rule": "You keep the safe distance to avoid a rear-end crash (tamponamento) with the vehicle in front. It is not about head-on or side crashes.",
+   "trap": "'scontro frontale' (head-on crash) is the wrong purpose; the right one is 'tamponamento' (rear-end crash).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Safe distance prevents rear-end, not head-on",
+    "it": "scontro frontale",
+    "lines": [
+     "Safe gap: car ahead, same way",
+     "Head-on: oncoming car, other topic"
+    ],
+    "icons": [
+     "distance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "scontro frontale",
+    "en": "head-on collision"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22576": {
+  "en": "The safe distance must be kept to avoid a side collision.",
+  "explain": {
+   "short": "Side collisions happen at junctions or when changing lane. The safe distance is the gap in front of you, against rear-end crashes.",
+   "rule": "You keep the safe distance to avoid a rear-end crash (tamponamento) with the vehicle in front. It is not about head-on or side crashes.",
+   "trap": "'scontro laterale' (side crash) is the wrong purpose.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Safe distance prevents rear-end, not side crashes",
+    "it": "scontro laterale",
+    "lines": [
+     "Safe gap: in front of you",
+     "Side crash: other topic"
+    ],
+    "icons": [
+     "distance",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "scontro laterale",
+    "en": "side collision"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22577": {
+  "en": "The safe distance can be shorter than the distance covered during the reaction time.",
+  "explain": {
+   "short": "If the gap is shorter than your reaction distance, you hit the car ahead before you even start braking. It must be at least that long.",
+   "rule": "Reaction distance (spazio percorso nel tempo di reazione) is the road you cover from seeing a danger until you start braking, about 1 second. The safe distance must be at least this long, and it can be longer.",
+   "trap": "'può essere inferiore' (can be shorter) is the trap: the reaction distance is the minimum.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never shorter than your reaction distance",
+    "it": "inferiore",
+    "lines": [
+     "Gap shorter than reaction",
+     "Crash before you brake"
+    ],
+    "icons": [
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "può essere inferiore",
+    "en": "can be shorter"
+   },
+   {
+    "it": "tempo di reazione",
+    "en": "reaction time"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22578": {
+  "en": "The minimum safe distance at 30 km/h is about 9 metres.",
+  "explain": {
+   "short": "In about 1 second of reaction at 30 km/h you travel about 9 m. That is the minimum gap.",
+   "rule": "The minimum safe distance is about the road covered in 1 second of reaction (roughly speed in km/h divided by 3.6). Quiz values: 30 km/h ≈ 9 m, 50 ≈ 14 m, 100 ≈ 28 m, 130 ≈ 36 m, 150 ≈ 42 m.",
+   "trap": "'circa 9 metri' is the official value for 30 km/h; smaller numbers are the trap.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "30 km/h: minimum gap about 9 m",
+    "it": "distanza minima",
+    "lines": [
+     "30 km/h",
+     "1 s of reaction ≈ 9 m"
+    ],
+    "icons": [
+     "speed",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza minima di sicurezza",
+    "en": "minimum safe distance"
+   },
+   {
+    "it": "circa 9 metri",
+    "en": "about 9 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22579": {
+  "en": "The minimum safe distance at 50 km/h must be about 14 metres.",
+  "explain": {
+   "short": "In about 1 second of reaction at 50 km/h you travel about 14 m. That is the minimum gap.",
+   "rule": "The minimum safe distance is about the road covered in 1 second of reaction (roughly speed in km/h divided by 3.6). Quiz values: 30 km/h ≈ 9 m, 50 ≈ 14 m, 100 ≈ 28 m, 130 ≈ 36 m, 150 ≈ 42 m.",
+   "trap": "'circa 14 metri' is the official value for 50 km/h; smaller numbers are the trap.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "50 km/h: minimum gap about 14 m",
+    "it": "distanza minima",
+    "lines": [
+     "50 km/h",
+     "1 s of reaction ≈ 14 m"
+    ],
+    "icons": [
+     "speed",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza minima di sicurezza",
+    "en": "minimum safe distance"
+   },
+   {
+    "it": "circa 14 metri",
+    "en": "about 14 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22580": {
+  "en": "The minimum safe distance at 100 km/h must be about 28 metres.",
+  "explain": {
+   "short": "In about 1 second of reaction at 100 km/h you travel about 28 m. That is the minimum gap.",
+   "rule": "The minimum safe distance is about the road covered in 1 second of reaction (roughly speed in km/h divided by 3.6). Quiz values: 30 km/h ≈ 9 m, 50 ≈ 14 m, 100 ≈ 28 m, 130 ≈ 36 m, 150 ≈ 42 m.",
+   "trap": "'circa 28 metri' is the official value for 100 km/h; smaller numbers are the trap.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "100 km/h: minimum gap about 28 m",
+    "it": "distanza minima",
+    "lines": [
+     "100 km/h",
+     "1 s of reaction ≈ 28 m"
+    ],
+    "icons": [
+     "speed",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza minima di sicurezza",
+    "en": "minimum safe distance"
+   },
+   {
+    "it": "circa 28 metri",
+    "en": "about 28 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22581": {
+  "en": "The minimum safe distance at 150 km/h must be about 42 metres.",
+  "explain": {
+   "short": "In about 1 second of reaction at 150 km/h you travel about 42 m. That is the minimum gap.",
+   "rule": "The minimum safe distance is about the road covered in 1 second of reaction (roughly speed in km/h divided by 3.6). Quiz values: 30 km/h ≈ 9 m, 50 ≈ 14 m, 100 ≈ 28 m, 130 ≈ 36 m, 150 ≈ 42 m.",
+   "trap": "'circa 42 metri' is the official value for 150 km/h; smaller numbers are the trap.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "150 km/h: minimum gap about 42 m",
+    "it": "distanza minima",
+    "lines": [
+     "150 km/h",
+     "1 s of reaction ≈ 42 m"
+    ],
+    "icons": [
+     "speed",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza minima di sicurezza",
+    "en": "minimum safe distance"
+   },
+   {
+    "it": "circa 42 metri",
+    "en": "about 42 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22582": {
+  "en": "The minimum safe distance at 130 km/h must be about 36 metres.",
+  "explain": {
+   "short": "In about 1 second of reaction at 130 km/h you travel about 36 m. That is the minimum gap.",
+   "rule": "The minimum safe distance is about the road covered in 1 second of reaction (roughly speed in km/h divided by 3.6). Quiz values: 30 km/h ≈ 9 m, 50 ≈ 14 m, 100 ≈ 28 m, 130 ≈ 36 m, 150 ≈ 42 m.",
+   "trap": "'circa 36 metri' is the official value for 130 km/h; smaller numbers are the trap.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "130 km/h: minimum gap about 36 m",
+    "it": "distanza minima",
+    "lines": [
+     "130 km/h",
+     "1 s of reaction ≈ 36 m"
+    ],
+    "icons": [
+     "speed",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza minima di sicurezza",
+    "en": "minimum safe distance"
+   },
+   {
+    "it": "circa 36 metri",
+    "en": "about 36 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22583": {
+  "en": "The minimum safe distance at 30 km/h must be about 2 metres.",
+  "explain": {
+   "short": "At 30 km/h you travel about 9 m in 1 second of reaction, so 2 m is far too short.",
+   "rule": "The minimum safe distance is about the road covered in 1 second of reaction (roughly speed in km/h divided by 3.6). Quiz values: 30 km/h ≈ 9 m, 50 ≈ 14 m, 100 ≈ 28 m, 130 ≈ 36 m, 150 ≈ 42 m.",
+   "trap": "'circa 2 metri' is too small: the right value is about 9 m.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "30 km/h: about 9 m, not 2 m",
+    "it": "distanza minima",
+    "lines": [
+     "30 km/h: about 9 m",
+     "2 m: far too close"
+    ],
+    "icons": [
+     "speed",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza minima di sicurezza",
+    "en": "minimum safe distance"
+   },
+   {
+    "it": "circa 2 metri",
+    "en": "about 2 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22584": {
+  "en": "The minimum safe distance at 50 km/h must be about 5 metres.",
+  "explain": {
+   "short": "At 50 km/h you travel about 14 m in 1 second of reaction, so 5 m is far too short.",
+   "rule": "The minimum safe distance is about the road covered in 1 second of reaction (roughly speed in km/h divided by 3.6). Quiz values: 30 km/h ≈ 9 m, 50 ≈ 14 m, 100 ≈ 28 m, 130 ≈ 36 m, 150 ≈ 42 m.",
+   "trap": "'circa 5 metri' is too small: the right value is about 14 m.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "50 km/h: about 14 m, not 5 m",
+    "it": "distanza minima",
+    "lines": [
+     "50 km/h: about 14 m",
+     "5 m: far too close"
+    ],
+    "icons": [
+     "speed",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza minima di sicurezza",
+    "en": "minimum safe distance"
+   },
+   {
+    "it": "circa 5 metri",
+    "en": "about 5 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22585": {
+  "en": "The minimum safe distance at 100 km/h must be about 15 metres.",
+  "explain": {
+   "short": "At 100 km/h you travel about 28 m in 1 second of reaction, so 15 m is far too short.",
+   "rule": "The minimum safe distance is about the road covered in 1 second of reaction (roughly speed in km/h divided by 3.6). Quiz values: 30 km/h ≈ 9 m, 50 ≈ 14 m, 100 ≈ 28 m, 130 ≈ 36 m, 150 ≈ 42 m.",
+   "trap": "'circa 15 metri' is too small: the right value is about 28 m.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "100 km/h: about 28 m, not 15 m",
+    "it": "distanza minima",
+    "lines": [
+     "100 km/h: about 28 m",
+     "15 m: far too close"
+    ],
+    "icons": [
+     "speed",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza minima di sicurezza",
+    "en": "minimum safe distance"
+   },
+   {
+    "it": "circa 15 metri",
+    "en": "about 15 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22586": {
+  "en": "The minimum safe distance at 130 km/h must be about 20 metres.",
+  "explain": {
+   "short": "At 130 km/h you travel about 36 m in 1 second of reaction, so 20 m is far too short.",
+   "rule": "The minimum safe distance is about the road covered in 1 second of reaction (roughly speed in km/h divided by 3.6). Quiz values: 30 km/h ≈ 9 m, 50 ≈ 14 m, 100 ≈ 28 m, 130 ≈ 36 m, 150 ≈ 42 m.",
+   "trap": "'circa 20 metri' is too small: the right value is about 36 m.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "130 km/h: about 36 m, not 20 m",
+    "it": "distanza minima",
+    "lines": [
+     "130 km/h: about 36 m",
+     "20 m: far too close"
+    ],
+    "icons": [
+     "speed",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza minima di sicurezza",
+    "en": "minimum safe distance"
+   },
+   {
+    "it": "circa 20 metri",
+    "en": "about 20 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22587": {
+  "en": "The minimum safe distance at 150 km/h must be about 25 metres.",
+  "explain": {
+   "short": "At 150 km/h you travel about 42 m in 1 second of reaction, so 25 m is far too short.",
+   "rule": "The minimum safe distance is about the road covered in 1 second of reaction (roughly speed in km/h divided by 3.6). Quiz values: 30 km/h ≈ 9 m, 50 ≈ 14 m, 100 ≈ 28 m, 130 ≈ 36 m, 150 ≈ 42 m.",
+   "trap": "'circa 25 metri' is too small: the right value is about 42 m.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "150 km/h: about 42 m, not 25 m",
+    "it": "distanza minima",
+    "lines": [
+     "150 km/h: about 42 m",
+     "25 m: far too close"
+    ],
+    "icons": [
+     "speed",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza minima di sicurezza",
+    "en": "minimum safe distance"
+   },
+   {
+    "it": "circa 25 metri",
+    "en": "about 25 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22588": {
+  "en": "Driver distraction can cause accidents.",
+  "explain": {
+   "short": "When you are distracted you see dangers late and react late. That can easily lead to a crash.",
+   "rule": "Distraction causes accidents. The phone, lighting a cigarette, looking for radio or device controls all take your eyes and mind off the road, and even a few seconds are dangerous.",
+   "trap": "'può essere causa' (can be a cause) is simply true.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Distracted driver: late reaction, crash risk",
+    "it": "distrazione",
+    "lines": [
+     "Eyes off the road",
+     "Late reaction",
+     "Crash risk"
+    ],
+    "icons": [
+     "eye",
+     "warning",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "distrazione",
+    "en": "distraction"
+   },
+   {
+    "it": "causa di incidenti",
+    "en": "cause of accidents"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22589": {
+  "en": "Driver distraction can be caused by switching on the mobile phone.",
+  "explain": {
+   "short": "Switching on or using the phone takes your eyes and mind off the road. It is a typical distraction.",
+   "rule": "Distraction causes accidents. The phone, lighting a cigarette, looking for radio or device controls all take your eyes and mind off the road, and even a few seconds are dangerous.",
+   "trap": "'accensione del cellulare' (switching on the phone) is a real distraction.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Phone in hand: eyes off the road",
+    "it": "cellulare",
+    "lines": [
+     "Switching on the phone",
+     "Eyes off the road"
+    ],
+    "icons": [
+     "warning",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "accensione",
+    "en": "switching on"
+   },
+   {
+    "it": "cellulare",
+    "en": "mobile phone"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22590": {
+  "en": "Driver distraction can be caused by lighting a cigarette.",
+  "explain": {
+   "short": "Lighting a cigarette uses your hands and eyes. For those seconds you are not watching the road.",
+   "rule": "Distraction causes accidents. The phone, lighting a cigarette, looking for radio or device controls all take your eyes and mind off the road, and even a few seconds are dangerous.",
+   "trap": "'accensione di una sigaretta' (lighting a cigarette) is a real distraction.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lighting a cigarette: hands and eyes busy",
+    "it": "sigaretta",
+    "lines": [
+     "Lighting a cigarette",
+     "Hands and eyes busy"
+    ],
+    "icons": [
+     "warning",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "accensione",
+    "en": "lighting"
+   },
+   {
+    "it": "sigaretta",
+    "en": "cigarette"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22591": {
+  "en": "Driver distraction can be caused by looking for the controls of the radio or other electronic devices.",
+  "explain": {
+   "short": "Looking for buttons on the radio, navigator or other devices takes your eyes off the road.",
+   "rule": "Distraction causes accidents. The phone, lighting a cigarette, looking for radio or device controls all take your eyes and mind off the road, and even a few seconds are dangerous.",
+   "trap": "'ricerca dei comandi' (looking for the controls) is a real distraction.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Searching for radio buttons: eyes off the road",
+    "it": "ricerca dei comandi",
+    "lines": [
+     "Looking for radio buttons",
+     "Eyes off the road"
+    ],
+    "icons": [
+     "warning",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ricerca dei comandi",
+    "en": "looking for the controls"
+   },
+   {
+    "it": "apparecchi elettronici",
+    "en": "electronic devices"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22592": {
+  "en": "Driver distraction is not caused by using the \"mobile phone\".",
+  "explain": {
+   "short": "Using the phone is one of the main causes of distraction. The statement says the opposite.",
+   "rule": "Distraction causes accidents. The phone, lighting a cigarette, looking for radio or device controls all take your eyes and mind off the road, and even a few seconds are dangerous.",
+   "trap": "'non è determinata' (is not caused) turns a true fact into a false one.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The phone IS a big distraction",
+    "it": "cellulare",
+    "lines": [
+     "Using the phone",
+     "Main cause of distraction"
+    ],
+    "icons": [
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è determinata",
+    "en": "is not caused"
+   },
+   {
+    "it": "cellulare",
+    "en": "mobile phone"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22593": {
+  "en": "Driver distraction is not a danger if it lasts only a few seconds.",
+  "explain": {
+   "short": "In a few seconds a car covers many metres: at 50 km/h about 14 m every second. Even a short distraction is dangerous.",
+   "rule": "Distraction causes accidents. The phone, lighting a cigarette, looking for radio or device controls all take your eyes and mind off the road, and even a few seconds are dangerous.",
+   "trap": "'pochi secondi' (a few seconds) sounds harmless, but it is not.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Even a few seconds blind is dangerous",
+    "it": "pochi secondi",
+    "lines": [
+     "50 km/h: about 14 m every second",
+     "A few seconds: many metres blind"
+    ],
+    "icons": [
+     "speed",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non rappresenta un pericolo",
+    "en": "is not a danger"
+   },
+   {
+    "it": "pochi secondi",
+    "en": "a few seconds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

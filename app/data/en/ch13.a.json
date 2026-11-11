@@ -1,0 +1,2625 @@
+{
+ "q22662": {
+  "en": "Vehicle S, reversing to join the traffic, must give way to vehicles coming from both the right and the left.",
+  "explain": {
+   "short": "S is leaving a parking space in reverse, which is a difficult move. It must let traffic from both directions pass first.",
+   "rule": "Reversing out of a parking space to join traffic is a risky move: check the road is clear, use the indicator, give way to ALL vehicles from both sides and to pedestrians behind you, and move slowly.",
+   "trap": "'sia da destra che da sinistra' (both from right and from left) is correct: S gives way to everyone.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "S gives way to traffic from both sides",
+    "it": "dare la precedenza",
+    "lines": [
+     "S reverses out of the parking space",
+     "Give way: traffic from right and left"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "retromarcia",
+    "en": "reverse gear"
+   },
+   {
+    "it": "immettersi nella circolazione",
+    "en": "join the traffic"
+   },
+   {
+    "it": "sia da destra che da sinistra",
+    "en": "both from the right and from the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22663": {
+  "en": "Vehicle S, reversing to join the traffic, must use the direction indicators.",
+  "explain": {
+   "short": "S is joining the traffic, so it must tell the others with the indicator, as for any move into the flow.",
+   "rule": "Reversing out of a parking space to join traffic is a risky move: check the road is clear, use the indicator, give way to ALL vehicles from both sides and to pedestrians behind you, and move slowly.",
+   "trap": "'indicatori di direzione' are the indicators (frecce), not the hazard lights.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "S signals with the indicator",
+    "it": "indicatori di direzione",
+    "lines": [
+     "S reverses out to join traffic",
+     "Indicator on before moving out"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "retromarcia",
+    "en": "reverse gear"
+   },
+   {
+    "it": "indicatori di direzione",
+    "en": "direction indicators"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22664": {
+  "en": "Vehicle S, reversing to join the traffic, must watch out for pedestrians passing behind it and give way to them.",
+  "explain": {
+   "short": "When you reverse, people may walk behind the car where you see badly. You must look and let them pass.",
+   "rule": "Reversing out of a parking space to join traffic is a risky move: check the road is clear, use the indicator, give way to ALL vehicles from both sides and to pedestrians behind you, and move slowly.",
+   "trap": "'pedoni in transito dietro di esso' (pedestrians walking behind it) must get priority.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pedestrians behind S go first",
+    "it": "pedoni",
+    "lines": [
+     "S reverses out of the parking space",
+     "Pedestrian behind: S waits"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   },
+   {
+    "it": "dietro di esso",
+    "en": "behind it"
+   },
+   {
+    "it": "dar loro la precedenza",
+    "en": "give way to them"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22665": {
+  "en": "Vehicle S, reversing to join the traffic, must give way to all vehicles passing by.",
+  "explain": {
+   "short": "A vehicle joining the traffic from a parking space has no priority. All passing vehicles go first.",
+   "rule": "Reversing out of a parking space to join traffic is a risky move: check the road is clear, use the indicator, give way to ALL vehicles from both sides and to pedestrians behind you, and move slowly.",
+   "trap": "'tutti i veicoli' (all vehicles) is right here: nobody must wait for S.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "All passing vehicles go first",
+    "it": "tutti i veicoli",
+    "lines": [
+     "S reverses out to join traffic",
+     "Every passing vehicle goes first"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "tutti i veicoli in transito",
+    "en": "all vehicles passing by"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22666": {
+  "en": "Vehicle S, reversing to join the traffic, must make sure the road is clear and do the manoeuvre with special care.",
+  "explain": {
+   "short": "Reversing into traffic is risky because you see less. S starts only when the road is free and moves slowly.",
+   "rule": "Reversing out of a parking space to join traffic is a risky move: check the road is clear, use the indicator, give way to ALL vehicles from both sides and to pedestrians behind you, and move slowly.",
+   "trap": "'particolare prudenza' (special care) is exactly what a reverse manoeuvre needs.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road clear, slow and careful",
+    "it": "particolare prudenza",
+    "lines": [
+     "S reverses out of the parking space",
+     "Check the road is clear, go slowly"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada sia libera",
+    "en": "road is clear"
+   },
+   {
+    "it": "particolare prudenza",
+    "en": "special care"
+   },
+   {
+    "it": "manovra",
+    "en": "manoeuvre"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22667": {
+  "en": "Vehicle S, reversing to join the traffic, must switch on the hazard warning lights.",
+  "explain": {
+   "short": "Hazard lights are for a stopped vehicle that is a danger, not for joining traffic. S uses the indicator.",
+   "rule": "Reversing out of a parking space to join traffic is a risky move: check the road is clear, use the indicator, give way to ALL vehicles from both sides and to pedestrians behind you, and move slowly.",
+   "trap": "'segnalazione luminosa di pericolo' means the hazard lights (all indicators flashing): wrong signal here.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Use the indicator, not the hazard lights",
+    "it": "segnalazione di pericolo",
+    "lines": [
+     "S reverses out to join traffic",
+     "Hazard lights: wrong signal",
+     "Use the indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnalazione luminosa di pericolo",
+    "en": "hazard warning lights"
+   },
+   {
+    "it": "azionare",
+    "en": "switch on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22668": {
+  "en": "Vehicle S, reversing to join the traffic, must switch on the rear fog light.",
+  "explain": {
+   "short": "The rear fog light is only for fog or very poor visibility. It has nothing to do with reversing.",
+   "rule": "Reversing out of a parking space to join traffic is a risky move: check the road is clear, use the indicator, give way to ALL vehicles from both sides and to pedestrians behind you, and move slowly.",
+   "trap": "'luce posteriore per nebbia' (rear fog light) is only for low visibility.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Rear fog light: only in fog",
+    "it": "luce posteriore per nebbia",
+    "lines": [
+     "S reverses out to join traffic",
+     "Rear fog light: only for fog",
+     "Use the indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce posteriore per nebbia",
+    "en": "rear fog light"
+   },
+   {
+    "it": "accendere",
+    "en": "switch on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22669": {
+  "en": "Vehicle S, reversing to join the traffic, must give way only to vehicles travelling in its own direction.",
+  "explain": {
+   "short": "S must give way to vehicles from BOTH directions, not only to those going its way.",
+   "rule": "Reversing out of a parking space to join traffic is a risky move: check the road is clear, use the indicator, give way to ALL vehicles from both sides and to pedestrians behind you, and move slowly.",
+   "trap": "'solo' (only) makes it false: S gives way to everyone.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Give way to both directions, not only one",
+    "it": "solo",
+    "lines": [
+     "S reverses out to join traffic",
+     "Not only one direction",
+     "Give way to traffic from both sides"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "nel suo senso di marcia",
+    "en": "in its own direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22670": {
+  "en": "Vehicle S, reversing to join the traffic, must manoeuvre quickly to free the parking space.",
+  "explain": {
+   "short": "Reversing into traffic must be done slowly and carefully. Hurrying makes it dangerous.",
+   "rule": "Reversing out of a parking space to join traffic is a risky move: check the road is clear, use the indicator, give way to ALL vehicles from both sides and to pedestrians behind you, and move slowly.",
+   "trap": "'velocemente' (quickly) is wrong: this move needs 'prudenza', not speed.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Reverse slowly, never in a hurry",
+    "it": "velocemente",
+    "lines": [
+     "S reverses out to join traffic",
+     "Hurrying: dangerous",
+     "Move slowly and carefully"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "velocemente",
+    "en": "quickly"
+   },
+   {
+    "it": "liberare il posteggio",
+    "en": "free the parking space"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22671": {
+  "en": "Vehicle S, reversing to join the traffic, must sound the horn repeatedly during the manoeuvre.",
+  "explain": {
+   "short": "The horn is only for immediate danger and must be short. Honking all the time is not the way to join traffic.",
+   "rule": "Reversing out of a parking space to join traffic is a risky move: check the road is clear, use the indicator, give way to ALL vehicles from both sides and to pedestrians behind you, and move slowly.",
+   "trap": "'suonare ripetutamente il clacson' (honk again and again) is never required.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No repeated horn: indicator and care",
+    "it": "clacson",
+    "lines": [
+     "S reverses out to join traffic",
+     "Repeated horn: not allowed",
+     "Indicator and care instead"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "suonare ripetutamente",
+    "en": "sound repeatedly"
+   },
+   {
+    "it": "clacson",
+    "en": "horn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22672": {
+  "en": "It is forbidden, because it is a danger or obstacle to traffic, to keep to the left edge of the carriageway to turn into a road on the right.",
+  "explain": {
+   "short": "To turn right you keep close to the RIGHT edge. Staying on the left and then cutting across blocks and endangers others.",
+   "rule": "It is forbidden to do things that are a danger or an obstacle (intralcio) to traffic: wrong position before a turn, stopping on tram rails, turning without signalling in time, racing, driving too slowly for no reason.",
+   "trap": "'margine sinistro' (left edge) with 'svoltare a destra' (turn right): the wrong side.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "To turn right, keep to the right edge",
+    "it": "margine sinistro",
+    "lines": [
+     "Turning right at a junction",
+     "From the left edge: forbidden",
+     "Keep close to the right edge"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "margine sinistro",
+    "en": "left edge"
+   },
+   {
+    "it": "svoltare in una strada a destra",
+    "en": "turn into a road on the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22673": {
+  "en": "It is forbidden, because it is a danger or obstacle to traffic, to park on tram rails.",
+  "explain": {
+   "short": "A car standing on the rails blocks the tram, which cannot steer around it. So it is forbidden.",
+   "rule": "It is forbidden to do things that are a danger or an obstacle (intralcio) to traffic: wrong position before a turn, stopping on tram rails, turning without signalling in time, racing, driving too slowly for no reason.",
+   "trap": "'sostare sui binari tramviari' (parking on tram rails) blocks the tram.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never stand on tram rails",
+    "it": "binari tramviari",
+    "lines": [
+     "Car parked on tram rails",
+     "The tram cannot go around it",
+     "Forbidden: keep the rails free"
+    ],
+    "icons": [
+     "tram",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sostare",
+    "en": "park, stand"
+   },
+   {
+    "it": "binari tramviari",
+    "en": "tram rails"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22674": {
+  "en": "It is forbidden, because it is a danger or obstacle to traffic, to change direction without signalling the manoeuvre in good time.",
+  "explain": {
+   "short": "Others must know in advance what you will do. A turn signalled late or not at all surprises them.",
+   "rule": "It is forbidden to do things that are a danger or an obstacle (intralcio) to traffic: wrong position before a turn, stopping on tram rails, turning without signalling in time, racing, driving too slowly for no reason.",
+   "trap": "'con sufficiente anticipo' (in good time): signalling at the last moment is not enough.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Signal in good time before turning",
+    "it": "con sufficiente anticipo",
+    "lines": [
+     "Turning at a junction",
+     "No signal or too late: forbidden",
+     "Indicator on in good time"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cambiamento di direzione",
+    "en": "change of direction"
+   },
+   {
+    "it": "senza segnalare",
+    "en": "without signalling"
+   },
+   {
+    "it": "con sufficiente anticipo",
+    "en": "in good time"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22675": {
+  "en": "It is forbidden, because it is a danger or obstacle to traffic, to race.",
+  "explain": {
+   "short": "Racing on public roads puts everyone in danger. It is forbidden.",
+   "rule": "It is forbidden to do things that are a danger or an obstacle (intralcio) to traffic: wrong position before a turn, stopping on tram rails, turning without signalling in time, racing, driving too slowly for no reason.",
+   "trap": "'gareggiare in velocità' means racing against other vehicles.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No racing on public roads",
+    "it": "gareggiare",
+    "lines": [
+     "Two cars racing on the road",
+     "Danger for everyone",
+     "Forbidden"
+    ],
+    "icons": [
+     "speed",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "gareggiare in velocità",
+    "en": "race"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22676": {
+  "en": "It is forbidden, because it is a danger or obstacle to traffic, to drive too slowly without a good reason.",
+  "explain": {
+   "short": "Driving very slowly for no reason creates queues and risky overtakes. It is an obstacle to traffic.",
+   "rule": "It is forbidden to do things that are a danger or an obstacle (intralcio) to traffic: wrong position before a turn, stopping on tram rails, turning without signalling in time, racing, driving too slowly for no reason.",
+   "trap": "'senza giustificato motivo' (without good reason): slow is fine only with a reason.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Too slow for no reason blocks traffic",
+    "it": "velocità troppo bassa",
+    "lines": [
+     "Car very slow, queue behind",
+     "No reason: forbidden",
+     "Slow only with a good reason"
+    ],
+    "icons": [
+     "speed",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "velocità troppo bassa",
+    "en": "too low a speed"
+   },
+   {
+    "it": "senza giustificato motivo",
+    "en": "without good reason"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22677": {
+  "en": "It is forbidden, because it is a danger or obstacle to traffic, to join the flow of traffic coming from side roads.",
+  "explain": {
+   "short": "Joining traffic from a side road is normal and allowed. You just give way and signal.",
+   "rule": "It is forbidden to do things that are a danger or an obstacle (intralcio) to traffic: wrong position before a turn, stopping on tram rails, turning without signalling in time, racing, driving too slowly for no reason.",
+   "trap": "'immettersi nel flusso' (join the flow) is a normal move, not a forbidden one.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Joining from a side road is allowed",
+    "it": "immettersi",
+    "lines": [
+     "Car comes from a side road",
+     "Give way and signal",
+     "Then join the traffic: allowed"
+    ],
+    "icons": [
+     "road",
+     "indicator",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "immettersi nel flusso della circolazione",
+    "en": "join the flow of traffic"
+   },
+   {
+    "it": "strade laterali",
+    "en": "side roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22678": {
+  "en": "It is forbidden, because it is a danger or obstacle to traffic, to adjust your speed to the features and conditions of the roads.",
+  "explain": {
+   "short": "Adjusting speed to the road is a duty, not a danger. It is what every driver must do.",
+   "rule": "It is forbidden to do things that are a danger or an obstacle (intralcio) to traffic: wrong position before a turn, stopping on tram rails, turning without signalling in time, racing, driving too slowly for no reason.",
+   "trap": "'regolare la velocità' (adjust speed) to the road is required, so it cannot be forbidden.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Adjusting speed to the road is a duty",
+    "it": "regolare la velocità",
+    "lines": [
+     "Road with bends and wet surface",
+     "Adjust your speed",
+     "This is a duty, not forbidden"
+    ],
+    "icons": [
+     "road",
+     "speed",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "condizioni delle strade",
+    "en": "conditions of the roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22679": {
+  "en": "It is forbidden, because it is a danger or obstacle to traffic, to stop a vehicle briefly along the right edge of a one-way carriageway.",
+  "explain": {
+   "short": "A short stop at the right edge is the normal place to stop. It is allowed if no sign forbids it.",
+   "rule": "It is forbidden to do things that are a danger or an obstacle (intralcio) to traffic: wrong position before a turn, stopping on tram rails, turning without signalling in time, racing, driving too slowly for no reason.",
+   "trap": "'fermare momentaneamente' (stop briefly) at the 'margine destro' (right edge) is the correct way.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A brief stop at the right edge is allowed",
+    "it": "fermare momentaneamente",
+    "lines": [
+     "One-way road",
+     "Brief stop at the right edge",
+     "Allowed: normal place to stop"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermare momentaneamente",
+    "en": "stop briefly"
+   },
+   {
+    "it": "margine destro",
+    "en": "right edge"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22680": {
+  "en": "A driver, even of a high-performance vehicle, must never exceed the speed limits set by law.",
+  "explain": {
+   "short": "Speed limits are the same for everyone. A powerful car does not give you any extra right.",
+   "rule": "Every driver, even with a powerful car, must respect speed limits, give way to the right as a rule, keep to the right, check the mirror before signalling a lane change and not be a danger to others.",
+   "trap": "'anche se ad elevate prestazioni' (even if high-performance) changes nothing.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Powerful car, same speed limits",
+    "it": "limiti di velocità",
+    "lines": [
+     "High-performance car",
+     "Same speed limits as everyone"
+    ],
+    "icons": [
+     "car",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "elevate prestazioni",
+    "en": "high performance"
+   },
+   {
+    "it": "limiti di velocità",
+    "en": "speed limits"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22681": {
+  "en": "A driver, even of a high-performance vehicle, must as a rule give way at crossroads to all vehicles coming from the right.",
+  "explain": {
+   "short": "The basic rule at a junction without signs is: give way to the right. It applies to everyone.",
+   "rule": "Every driver, even with a powerful car, must respect speed limits, give way to the right as a rule, keep to the right, check the mirror before signalling a lane change and not be a danger to others.",
+   "trap": "'di norma' (as a rule) is correct: signs or lights can change it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At a junction: give way to the right",
+    "it": "di norma",
+    "lines": [
+     "Junction without signs",
+     "Car coming from the right goes first"
+    ],
+    "icons": [
+     "road",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "crocevia",
+    "en": "crossroads"
+   },
+   {
+    "it": "provengono da destra",
+    "en": "come from the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22682": {
+  "en": "A driver, even of a high-performance vehicle, must avoid being a danger to other road users.",
+  "explain": {
+   "short": "Every driver must drive so as not to put others at risk. This is the basic rule of the road.",
+   "rule": "Every driver, even with a powerful car, must respect speed limits, give way to the right as a rule, keep to the right, check the mirror before signalling a lane change and not be a danger to others.",
+   "trap": "'evitare di costituire pericolo' (avoid being a danger) is a duty for all.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Never be a danger to others",
+    "it": "pericolo",
+    "lines": [
+     "Car among other road users",
+     "Drive without danger to them"
+    ],
+    "icons": [
+     "car",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "costituire pericolo",
+    "en": "be a danger"
+   },
+   {
+    "it": "altri utenti della strada",
+    "en": "other road users"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22683": {
+  "en": "A driver, even of a high-performance vehicle, must look in the rear-view mirror before signalling the intention to change lane.",
+  "explain": {
+   "short": "First look in the mirror, then use the indicator, then change lane. The mirror comes first.",
+   "rule": "Every driver, even with a powerful car, must respect speed limits, give way to the right as a rule, keep to the right, check the mirror before signalling a lane change and not be a danger to others.",
+   "trap": "'prima di segnalare' (before signalling): mirror first, indicator second.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mirror first, then the indicator",
+    "it": "specchietto retrovisore",
+    "lines": [
+     "Changing lane",
+     "1. Look in the mirror",
+     "2. Then the indicator"
+    ],
+    "icons": [
+     "road",
+     "mirror",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "specchietto retrovisore",
+    "en": "rear-view mirror"
+   },
+   {
+    "it": "prima di segnalare",
+    "en": "before signalling"
+   },
+   {
+    "it": "cambiare corsia",
+    "en": "change lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22684": {
+  "en": "A driver, even of a high-performance vehicle, must keep as close as possible to the right edge of the carriageway when turning right.",
+  "explain": {
+   "short": "To turn right you stay close to the right edge, so others can pass on your left and you take a tight turn.",
+   "rule": "Every driver, even with a powerful car, must respect speed limits, give way to the right as a rule, keep to the right, check the mirror before signalling a lane change and not be a danger to others.",
+   "trap": "'margine destro' (right edge) with 'svolta a destra' (right turn): the correct side.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Turning right: keep close to the right edge",
+    "it": "margine destro",
+    "lines": [
+     "Turning right at a junction",
+     "Keep close to the right edge"
+    ],
+    "icons": [
+     "road",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "il più vicino possibile",
+    "en": "as close as possible"
+   },
+   {
+    "it": "margine destro",
+    "en": "right edge"
+   },
+   {
+    "it": "svolta a destra",
+    "en": "right turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22685": {
+  "en": "A driver must always drive in the middle of the road, but without crossing the lane line.",
+  "explain": {
+   "short": "In Italy you keep to the RIGHT side of the road, not the middle.",
+   "rule": "Every driver, even with a powerful car, must respect speed limits, give way to the right as a rule, keep to the right, check the mirror before signalling a lane change and not be a danger to others.",
+   "trap": "'sempre al centro della strada' (always in the middle) is wrong: keep right.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Keep to the right, not the middle",
+    "it": "al centro",
+    "lines": [
+     "Two-way road",
+     "Middle of the road: wrong",
+     "Keep to the right"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sempre",
+    "en": "always"
+   },
+   {
+    "it": "al centro della strada",
+    "en": "in the middle of the road"
+   },
+   {
+    "it": "striscia di corsia",
+    "en": "lane line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22686": {
+  "en": "A driver must keep the high beams on during the day, even in town.",
+  "explain": {
+   "short": "High beams dazzle others and are not for daytime in town. By day you use dipped beams (on many roads they are compulsory).",
+   "rule": "Every driver, even with a powerful car, must respect speed limits, give way to the right as a rule, keep to the right, check the mirror before signalling a lane change and not be a danger to others.",
+   "trap": "'abbaglianti' (high beams) are not for day or town traffic.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No high beams by day in town",
+    "it": "abbaglianti",
+    "lines": [
+     "Driving in town by day",
+     "High beams: no, they dazzle",
+     "Dipped beams are enough"
+    ],
+    "icons": [
+     "highbeam",
+     "cross",
+     "light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "abbaglianti",
+    "en": "high beams"
+   },
+   {
+    "it": "di giorno",
+    "en": "by day"
+   },
+   {
+    "it": "in città",
+    "en": "in town"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22687": {
+  "en": "A driver may overtake in any traffic condition, as long as there is no no-overtaking sign.",
+  "explain": {
+   "short": "Even without a sign, you may overtake only when it is safe: good view, free road, nobody overtaking you.",
+   "rule": "Every driver, even with a powerful car, must respect speed limits, give way to the right as a rule, keep to the right, check the mirror before signalling a lane change and not be a danger to others.",
+   "trap": "'in ogni condizione di traffico' (in any traffic condition) is wrong: traffic can make it unsafe.",
+   "scene": "overtake.blocked",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No sign, but oncoming traffic: no overtaking",
+    "it": "sorpassare",
+    "hazard": "oncoming"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in ogni condizione di traffico",
+    "en": "in any traffic condition"
+   },
+   {
+    "it": "segnale di divieto",
+    "en": "prohibition sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22688": {
+  "en": "A driver must use the horn in towns every time they approach a cycle crossing.",
+  "explain": {
+   "short": "In towns the horn is allowed only in case of immediate danger. At a cycle crossing you slow down and look.",
+   "rule": "Every driver, even with a powerful car, must respect speed limits, give way to the right as a rule, keep to the right, check the mirror before signalling a lane change and not be a danger to others.",
+   "trap": "'ogni qualvolta' (every time) is wrong: the horn is only for real danger.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "At cycle crossings: slow down, no horn",
+    "it": "clacson",
+    "lines": [
+     "Cycle crossing in town",
+     "Horn every time: wrong",
+     "Slow down and look"
+    ],
+    "icons": [
+     "bike",
+     "horn",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "clacson",
+    "en": "horn"
+   },
+   {
+    "it": "centri abitati",
+    "en": "built-up areas, towns"
+   },
+   {
+    "it": "ogni qualvolta",
+    "en": "every time"
+   },
+   {
+    "it": "attraversamento ciclabile",
+    "en": "cycle crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22689": {
+  "en": "A driver may fit two-tone horns to be heard more easily, but use them only outside towns.",
+  "explain": {
+   "short": "Two-tone horns are for emergency vehicles like ambulances and police. Private cars may not fit them.",
+   "rule": "Every driver, even with a powerful car, must respect speed limits, give way to the right as a rule, keep to the right, check the mirror before signalling a lane change and not be a danger to others.",
+   "trap": "'trombe bitonali' (two-tone horns) are forbidden on normal cars, in or out of town.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Two-tone horns: only emergency vehicles",
+    "it": "trombe bitonali",
+    "lines": [
+     "Two-tone horn on a private car",
+     "Not allowed anywhere",
+     "Only for emergency vehicles"
+    ],
+    "icons": [
+     "horn",
+     "cross",
+     "ambulance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "trombe bitonali",
+    "en": "two-tone horns"
+   },
+   {
+    "it": "fuori dei centri abitati",
+    "en": "outside towns"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22690": {
+  "en": "On motorcycles you may carry animals if they are kept in a suitable cage.",
+  "explain": {
+   "short": "A motorcycle may carry an animal only inside a proper cage or box, so it cannot move or fall.",
+   "rule": "Load on a car must not block your view or your movements, must not fall, must not exceed the payload and may stick out only at the back, up to 3/10 of the vehicle length, marked with a red-and-white striped panel. On motorcycles: max 50 cm to the side, animals only in a cage, load well secured.",
+   "trap": "'se custoditi in apposita gabbia' (if kept in a suitable cage) is the condition.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Animals on a motorcycle: only in a cage",
+    "it": "gabbia",
+    "lines": [
+     "Motorcycle carrying an animal",
+     "Only inside a proper cage"
+    ],
+    "icons": [
+     "moto",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   },
+   {
+    "it": "animali",
+    "en": "animals"
+   },
+   {
+    "it": "apposita gabbia",
+    "en": "suitable cage"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22691": {
+  "en": "On motorcycles the load must be placed so that it does not stick out more than 50 cm to the side.",
+  "explain": {
+   "short": "On a motorcycle a load may stick out sideways, but not more than 50 cm, so it stays balanced and does not hit others.",
+   "rule": "Load on a car must not block your view or your movements, must not fall, must not exceed the payload and may stick out only at the back, up to 3/10 of the vehicle length, marked with a red-and-white striped panel. On motorcycles: max 50 cm to the side, animals only in a cage, load well secured.",
+   "trap": "'oltre 50 cm' (more than 50 cm) is the real limit for motorcycles.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorcycle load: max 50 cm to the side",
+    "it": "50 cm",
+    "lines": [
+     "Motorcycle with a load",
+     "Side overhang: max 50 cm"
+    ],
+    "icons": [
+     "moto",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sporgere lateralmente",
+    "en": "stick out sideways"
+   },
+   {
+    "it": "50 cm",
+    "en": "50 centimetres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22692": {
+  "en": "On cars the load must be placed so that it does not reduce the driver's view.",
+  "explain": {
+   "short": "If the load blocks the windows or mirrors, you cannot see the road and traffic. That is dangerous.",
+   "rule": "Load on a car must not block your view or your movements, must not fall, must not exceed the payload and may stick out only at the back, up to 3/10 of the vehicle length, marked with a red-and-white striped panel. On motorcycles: max 50 cm to the side, animals only in a cage, load well secured.",
+   "trap": "'visibilità del conducente' (driver's view) must stay free.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Load must not block your view",
+    "it": "visibilità",
+    "lines": [
+     "Car loaded with boxes",
+     "Windows and mirrors stay free"
+    ],
+    "icons": [
+     "car",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carico",
+    "en": "load"
+   },
+   {
+    "it": "visibilità del conducente",
+    "en": "driver's view"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22693": {
+  "en": "On cars the load must be placed so that it does not limit freedom of movement while driving.",
+  "explain": {
+   "short": "You must be able to steer, brake and change gear freely. The load must not get in the way.",
+   "rule": "Load on a car must not block your view or your movements, must not fall, must not exceed the payload and may stick out only at the back, up to 3/10 of the vehicle length, marked with a red-and-white striped panel. On motorcycles: max 50 cm to the side, animals only in a cage, load well secured.",
+   "trap": "'libertà di movimenti' (freedom of movement) for driving must be kept.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Load must not block your movements",
+    "it": "libertà di movimenti",
+    "lines": [
+     "Car with a load inside",
+     "Steering and pedals stay free"
+    ],
+    "icons": [
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "libertà di movimenti",
+    "en": "freedom of movement"
+   },
+   {
+    "it": "guida",
+    "en": "driving"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22694": {
+  "en": "On cars the load must be placed so that it cannot fall.",
+  "explain": {
+   "short": "A falling load is a big danger for the vehicles behind. It must be tied and secured.",
+   "rule": "Load on a car must not block your view or your movements, must not fall, must not exceed the payload and may stick out only at the back, up to 3/10 of the vehicle length, marked with a red-and-white striped panel. On motorcycles: max 50 cm to the side, animals only in a cage, load well secured.",
+   "trap": "'evitarne la caduta' (prevent it from falling) is a basic duty.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Secure the load so it cannot fall",
+    "it": "caduta",
+    "lines": [
+     "Car with a load on the roof",
+     "Tie it so it cannot fall"
+    ],
+    "icons": [
+     "car",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carico",
+    "en": "load"
+   },
+   {
+    "it": "evitarne la caduta",
+    "en": "prevent it from falling"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22695": {
+  "en": "On cars the load must be placed so that it does not stick out at the back by more than three tenths of the vehicle's length.",
+  "explain": {
+   "short": "At the back a load may stick out, but at most 3/10 of the vehicle length.",
+   "rule": "Load on a car must not block your view or your movements, must not fall, must not exceed the payload and may stick out only at the back, up to 3/10 of the vehicle length, marked with a red-and-white striped panel. On motorcycles: max 50 cm to the side, animals only in a cage, load well secured.",
+   "trap": "'parte posteriore' (back) and 'tre decimi' (3/10): this is the real rear limit.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Rear overhang: max 3/10 of the length",
+    "it": "tre decimi",
+    "lines": [
+     "Car with a long load",
+     "Only at the back, max 3/10 length"
+    ],
+    "icons": [
+     "car",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "parte posteriore",
+    "en": "back, rear"
+   },
+   {
+    "it": "tre decimi della lunghezza",
+    "en": "three tenths of the length"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22696": {
+  "en": "The load on cars must not exceed the payload shown in the registration document.",
+  "explain": {
+   "short": "The registration document (carta di circolazione) states the maximum load. You must not go over it.",
+   "rule": "Load on a car must not block your view or your movements, must not fall, must not exceed the payload and may stick out only at the back, up to 3/10 of the vehicle length, marked with a red-and-white striped panel. On motorcycles: max 50 cm to the side, animals only in a cage, load well secured.",
+   "trap": "'portata' (payload) is the maximum weight the vehicle may carry.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Never over the payload in the document",
+    "it": "portata",
+    "lines": [
+     "Loaded car",
+     "Weight within the payload in the document"
+    ],
+    "icons": [
+     "car",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "portata",
+    "en": "payload"
+   },
+   {
+    "it": "carta di circolazione",
+    "en": "registration document"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22697": {
+  "en": "On cars the load must be placed so that it does not stick out sideways by more than three tenths of the vehicle's length.",
+  "explain": {
+   "short": "The 3/10 rule is for the BACK. At the sides the load must not stick out beyond the vehicle.",
+   "rule": "Load on a car must not block your view or your movements, must not fall, must not exceed the payload and may stick out only at the back, up to 3/10 of the vehicle length, marked with a red-and-white striped panel. On motorcycles: max 50 cm to the side, animals only in a cage, load well secured.",
+   "trap": "'sporgenza laterale' (sideways) is the trap: 3/10 is only for the rear.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "3/10 is for the back, not the sides",
+    "it": "sporgenza laterale",
+    "lines": [
+     "Car with a wide load",
+     "Sideways 3/10: wrong",
+     "3/10 only at the back"
+    ],
+    "icons": [
+     "car",
+     "cross",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sporgenza laterale",
+    "en": "side overhang"
+   },
+   {
+    "it": "tre decimi",
+    "en": "three tenths"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22698": {
+  "en": "On cars the load must be placed so that it is not more than 10% above the maximum height in the registration document, but within 4 metres.",
+  "explain": {
+   "short": "There is no '10% extra' for height. The load must stay within the allowed height (normally 4 m).",
+   "rule": "Load on a car must not block your view or your movements, must not fall, must not exceed the payload and may stick out only at the back, up to 3/10 of the vehicle length, marked with a red-and-white striped panel. On motorcycles: max 50 cm to the side, animals only in a cage, load well secured.",
+   "trap": "'oltre il 10%' (more than 10%) is invented: no extra percentage is allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No 10% extra height allowed",
+    "it": "10%",
+    "lines": [
+     "Car with a tall load",
+     "10% extra height: invented",
+     "Stay within the allowed height"
+    ],
+    "icons": [
+     "car",
+     "cross",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "10%",
+    "en": "10 percent"
+   },
+   {
+    "it": "altezza massima",
+    "en": "maximum height"
+   },
+   {
+    "it": "4 metri",
+    "en": "4 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22699": {
+  "en": "On cars the load must be placed so that it is not more than 10% above the payload shown in the registration document.",
+  "explain": {
+   "short": "You may not exceed the payload at all. There is no 10% margin.",
+   "rule": "Load on a car must not block your view or your movements, must not fall, must not exceed the payload and may stick out only at the back, up to 3/10 of the vehicle length, marked with a red-and-white striped panel. On motorcycles: max 50 cm to the side, animals only in a cage, load well secured.",
+   "trap": "'oltre il 10%' (more than 10%) suggests a margin that does not exist.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No 10% extra weight: stay within payload",
+    "it": "portata utile",
+    "lines": [
+     "Heavily loaded car",
+     "10% over payload: wrong",
+     "Never over the payload"
+    ],
+    "icons": [
+     "car",
+     "cross",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "10%",
+    "en": "10 percent"
+   },
+   {
+    "it": "portata utile",
+    "en": "payload"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22700": {
+  "en": "On cars the load must be placed so that it sticks out at the front of the vehicle by more than three tenths of its length.",
+  "explain": {
+   "short": "The load must not stick out at the front. Only the back allows up to 3/10.",
+   "rule": "Load on a car must not block your view or your movements, must not fall, must not exceed the payload and may stick out only at the back, up to 3/10 of the vehicle length, marked with a red-and-white striped panel. On motorcycles: max 50 cm to the side, animals only in a cage, load well secured.",
+   "trap": "'parte anteriore' (front) is the trap: 3/10 is for the back.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Front overhang: not allowed",
+    "it": "parte anteriore",
+    "lines": [
+     "Load sticking out at the front",
+     "Not allowed",
+     "Only at the back, max 3/10"
+    ],
+    "icons": [
+     "car",
+     "cross",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "parte anteriore",
+    "en": "front"
+   },
+   {
+    "it": "tre decimi",
+    "en": "three tenths"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22701": {
+  "en": "By day, a load sticking out at the back must be marked with a red cloth.",
+  "explain": {
+   "short": "A rear overhang is marked with a special square reflective panel with red and white stripes, not a red cloth.",
+   "rule": "Load on a car must not block your view or your movements, must not fall, must not exceed the payload and may stick out only at the back, up to 3/10 of the vehicle length, marked with a red-and-white striped panel. On motorcycles: max 50 cm to the side, animals only in a cage, load well secured.",
+   "trap": "'panno rosso' (red cloth) is not the legal signal.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Use the red-white striped panel, not a cloth",
+    "it": "panno rosso",
+    "lines": [
+     "Load sticking out at the back",
+     "Red cloth: not valid",
+     "Red-and-white striped panel"
+    ],
+    "icons": [
+     "car",
+     "cross",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "panno rosso",
+    "en": "red cloth"
+   },
+   {
+    "it": "di giorno",
+    "en": "by day"
+   },
+   {
+    "it": "parte posteriore",
+    "en": "back"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22702": {
+  "en": "A rear overhang of the load must be marked with a reflective panel with yellow and red stripes.",
+  "explain": {
+   "short": "The panel for a rear overhang has red and WHITE stripes, not yellow and red.",
+   "rule": "Load on a car must not block your view or your movements, must not fall, must not exceed the payload and may stick out only at the back, up to 3/10 of the vehicle length, marked with a red-and-white striped panel. On motorcycles: max 50 cm to the side, animals only in a cage, load well secured.",
+   "trap": "'strisce gialle e rosse' (yellow and red stripes) is the wrong colour.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "The panel is red and white, not yellow",
+    "it": "strisce gialle e rosse",
+    "lines": [
+     "Load sticking out at the back",
+     "Yellow-red panel: wrong",
+     "Red-and-white striped panel"
+    ],
+    "icons": [
+     "car",
+     "cross",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sporgenza posteriore",
+    "en": "rear overhang"
+   },
+   {
+    "it": "pannello retroriflettente",
+    "en": "reflective panel"
+   },
+   {
+    "it": "strisce gialle e rosse",
+    "en": "yellow and red stripes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22703": {
+  "en": "On motorcycles you may never carry a load.",
+  "explain": {
+   "short": "Motorcycles may carry a load if it is well secured and within the limits (e.g. max 50 cm to the side).",
+   "rule": "Load on a car must not block your view or your movements, must not fall, must not exceed the payload and may stick out only at the back, up to 3/10 of the vehicle length, marked with a red-and-white striped panel. On motorcycles: max 50 cm to the side, animals only in a cage, load well secured.",
+   "trap": "'in nessun caso' (in no case) is too absolute.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Motorcycles may carry a secured load",
+    "it": "in nessun caso",
+    "lines": [
+     "Motorcycle with a small load",
+     "Allowed if secured",
+     "Max 50 cm to the side"
+    ],
+    "icons": [
+     "moto",
+     "check",
+     "distance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in nessun caso",
+    "en": "in no case, never"
+   },
+   {
+    "it": "trasportare un carico",
+    "en": "carry a load"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22704": {
+  "en": "On motorcycles you may carry shopping bags even if they are not firmly secured.",
+  "explain": {
+   "short": "Any load on a motorcycle must be well secured. Loose bags can fall or upset your balance.",
+   "rule": "Load on a car must not block your view or your movements, must not fall, must not exceed the payload and may stick out only at the back, up to 3/10 of the vehicle length, marked with a red-and-white striped panel. On motorcycles: max 50 cm to the side, animals only in a cage, load well secured.",
+   "trap": "'anche se non saldamente assicurati' (even if not firmly secured) makes it false.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Bags on a motorcycle must be secured",
+    "it": "saldamente assicurati",
+    "lines": [
+     "Motorcycle with shopping bags",
+     "Loose bags: not allowed",
+     "Tie every load firmly"
+    ],
+    "icons": [
+     "moto",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sacchetti con la spesa",
+    "en": "shopping bags"
+   },
+   {
+    "it": "saldamente assicurati",
+    "en": "firmly secured"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22705": {
+  "en": "Correct use of the road means vehicles move at a speed suited to the road and traffic conditions.",
+  "explain": {
+   "short": "Your speed must fit the road, the weather and the traffic, not only the speed limit.",
+   "rule": "Correct use of the road means: speed suited to road and traffic, prudence, give way to pedestrians on crossings, right lights for the situation, mirrors before the indicator. It does not mean 'always', 'in every case' or 'as fast as possible'.",
+   "trap": "'velocità adeguata' (suitable speed) is the key idea.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Speed suited to road and traffic",
+    "it": "velocità adeguata",
+    "lines": [
+     "Road with traffic ahead",
+     "Speed suited to road and traffic"
+    ],
+    "icons": [
+     "road",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "velocità adeguata",
+    "en": "suitable speed"
+   },
+   {
+    "it": "condizioni della strada e del traffico",
+    "en": "road and traffic conditions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22706": {
+  "en": "Correct use of the road means following the rules of behaviour and those of common prudence.",
+  "explain": {
+   "short": "You follow the traffic rules and also use common sense and care in every situation.",
+   "rule": "Correct use of the road means: speed suited to road and traffic, prudence, give way to pedestrians on crossings, right lights for the situation, mirrors before the indicator. It does not mean 'always', 'in every case' or 'as fast as possible'.",
+   "trap": "'comune prudenza' (common prudence) is part of the rules too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Rules plus common sense",
+    "it": "comune prudenza",
+    "lines": [
+     "Driving on the road",
+     "Follow the rules",
+     "Use common prudence"
+    ],
+    "icons": [
+     "road",
+     "book",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "norme di comportamento",
+    "en": "rules of behaviour"
+   },
+   {
+    "it": "comune prudenza",
+    "en": "common prudence"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22707": {
+  "en": "Correct use of the road means hurrying to clear the junction when the traffic light shows a steady yellow and you cannot stop safely before the stop line.",
+  "explain": {
+   "short": "Steady yellow means stop, unless you are too close to stop safely. Then you clear the junction quickly.",
+   "rule": "Correct use of the road means: speed suited to road and traffic, prudence, give way to pedestrians on crossings, right lights for the situation, mirrors before the indicator. It does not mean 'always', 'in every case' or 'as fast as possible'.",
+   "trap": "'non si è in grado di arrestare il veicolo in sicurezza' (cannot stop safely) is the key condition.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Too close to stop on yellow: clear the junction",
+    "it": "luce gialla fissa",
+    "lines": [
+     "Junction with traffic light",
+     "Steady yellow, too close to stop",
+     "Clear the junction"
+    ],
+    "icons": [
+     "light",
+     "warning",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce gialla fissa",
+    "en": "steady yellow light"
+   },
+   {
+    "it": "sgombrare l'incrocio",
+    "en": "clear the junction"
+   },
+   {
+    "it": "striscia di arresto",
+    "en": "stop line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22708": {
+  "en": "Correct use of the road means giving way to pedestrians crossing on pedestrian crossings.",
+  "explain": {
+   "short": "On a zebra crossing pedestrians have priority. You stop and let them cross.",
+   "rule": "Correct use of the road means: speed suited to road and traffic, prudence, give way to pedestrians on crossings, right lights for the situation, mirrors before the indicator. It does not mean 'always', 'in every case' or 'as fast as possible'.",
+   "trap": "'attraversamenti pedonali' (pedestrian crossings): pedestrians on them go first.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pedestrians on the crossing go first",
+    "it": "attraversamenti pedonali",
+    "lines": [
+     "Pedestrian on the zebra crossing",
+     "Give way: let them cross"
+    ],
+    "icons": [
+     "pedestrian",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   },
+   {
+    "it": "attraversamenti pedonali",
+    "en": "pedestrian crossings"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22709": {
+  "en": "Correct use of the road means using dipped headlights in built-up areas at night.",
+  "explain": {
+   "short": "In towns at night the streets are lit and there is traffic. Dipped beams light the road without dazzling others.",
+   "rule": "Correct use of the road means: speed suited to road and traffic, prudence, give way to pedestrians on crossings, right lights for the situation, mirrors before the indicator. It does not mean 'always', 'in every case' or 'as fast as possible'.",
+   "trap": "'anabbaglianti' (dipped beams), not 'abbaglianti' (high beams).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At night in town: dipped beams",
+    "it": "anabbaglianti",
+    "lines": [
+     "Town street at night",
+     "Dipped beams on"
+    ],
+    "icons": [
+     "night",
+     "light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "anabbaglianti",
+    "en": "dipped headlights"
+   },
+   {
+    "it": "centri abitati",
+    "en": "built-up areas"
+   },
+   {
+    "it": "ore notturne",
+    "en": "night hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22710": {
+  "en": "Correct use of the road means looking in the rear-view mirrors before switching on the indicator to change lane.",
+  "explain": {
+   "short": "Before signalling a lane change you check the mirrors, to see who is coming behind.",
+   "rule": "Correct use of the road means: speed suited to road and traffic, prudence, give way to pedestrians on crossings, right lights for the situation, mirrors before the indicator. It does not mean 'always', 'in every case' or 'as fast as possible'.",
+   "trap": "'prima di azionare l'indicatore' (before switching on the indicator): mirror first.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mirrors first, then the indicator",
+    "it": "specchi retrovisori",
+    "lines": [
+     "Changing lane",
+     "1. Check the mirrors",
+     "2. Then the indicator"
+    ],
+    "icons": [
+     "road",
+     "mirror",
+     "indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "specchi retrovisori",
+    "en": "rear-view mirrors"
+   },
+   {
+    "it": "prima di azionare",
+    "en": "before switching on"
+   },
+   {
+    "it": "cambiare corsia",
+    "en": "change lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22711": {
+  "en": "Correct use of the road means vehicles always enter the carriageway as quickly as possible.",
+  "explain": {
+   "short": "You enter the road when it is safe, giving way and with care, not as fast as possible.",
+   "rule": "Correct use of the road means: speed suited to road and traffic, prudence, give way to pedestrians on crossings, right lights for the situation, mirrors before the indicator. It does not mean 'always', 'in every case' or 'as fast as possible'.",
+   "trap": "'sempre' and 'il più rapidamente possibile' (always, as fast as possible) make it false.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Join when safe, not as fast as possible",
+    "it": "il più rapidamente possibile",
+    "lines": [
+     "Car joining the road",
+     "As fast as possible: wrong",
+     "Give way, join when safe"
+    ],
+    "icons": [
+     "car",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sempre",
+    "en": "always"
+   },
+   {
+    "it": "il più rapidamente possibile",
+    "en": "as quickly as possible"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22712": {
+  "en": "Correct use of the road means always stopping at pedestrian crossings and moving off only if no pedestrians are coming.",
+  "explain": {
+   "short": "You give way to pedestrians who are crossing or about to cross. With nobody there, you do not have to stop.",
+   "rule": "Correct use of the road means: speed suited to road and traffic, prudence, give way to pedestrians on crossings, right lights for the situation, mirrors before the indicator. It does not mean 'always', 'in every case' or 'as fast as possible'.",
+   "trap": "'sempre' (always) is too much: you stop only when pedestrians need to cross.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Stop only if pedestrians are crossing",
+    "it": "sempre",
+    "lines": [
+     "Empty pedestrian crossing",
+     "No need to stop every time",
+     "Give way when someone crosses"
+    ],
+    "icons": [
+     "pedestrian",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sempre",
+    "en": "always"
+   },
+   {
+    "it": "passaggi pedonali",
+    "en": "pedestrian crossings"
+   },
+   {
+    "it": "non sopraggiungono pedoni",
+    "en": "no pedestrians are coming"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22713": {
+  "en": "Correct use of the road means using high beams in every case.",
+  "explain": {
+   "short": "High beams dazzle others. You use them only outside towns at night when nobody is coming.",
+   "rule": "Correct use of the road means: speed suited to road and traffic, prudence, give way to pedestrians on crossings, right lights for the situation, mirrors before the indicator. It does not mean 'always', 'in every case' or 'as fast as possible'.",
+   "trap": "'in ogni caso' (in every case) makes it false.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "High beams only when nobody is dazzled",
+    "it": "in ogni caso",
+    "lines": [
+     "Oncoming car at night",
+     "High beams in every case: wrong",
+     "Switch to dipped beams"
+    ],
+    "icons": [
+     "highbeam",
+     "cross",
+     "light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in ogni caso",
+    "en": "in every case"
+   },
+   {
+    "it": "luce abbagliante",
+    "en": "high beam"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22714": {
+  "en": "Correct use of the road means always stopping when you see the sign in the picture.",
+  "explain": {
+   "short": "The sign is GIVE WAY (dare precedenza). You slow down and stop only if traffic is coming.",
+   "rule": "Correct use of the road means: speed suited to road and traffic, prudence, give way to pedestrians on crossings, right lights for the situation, mirrors before the indicator. It does not mean 'always', 'in every case' or 'as fast as possible'.",
+   "trap": "'in ogni caso' (in every case) is for STOP, not for this give-way triangle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Give way: slow down, stop only if needed",
+    "it": "dare precedenza",
+    "action": "giveWay"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in ogni caso",
+    "en": "in every case"
+   },
+   {
+    "it": "segnale in figura",
+    "en": "sign in the picture"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22715": {
+  "en": "Correct use of the road means driving at high speed so as not to get in the way.",
+  "explain": {
+   "short": "Speed must suit the road and traffic. Driving fast to avoid being in the way is dangerous.",
+   "rule": "Correct use of the road means: speed suited to road and traffic, prudence, give way to pedestrians on crossings, right lights for the situation, mirrors before the indicator. It does not mean 'always', 'in every case' or 'as fast as possible'.",
+   "trap": "'velocità elevata' (high speed) is never the rule.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Drive at a suitable speed, not fast",
+    "it": "velocità elevata",
+    "lines": [
+     "Car on a busy road",
+     "High speed: wrong",
+     "Speed suited to road and traffic"
+    ],
+    "icons": [
+     "speed",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "velocità elevata",
+    "en": "high speed"
+   },
+   {
+    "it": "intralcio",
+    "en": "obstacle, getting in the way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22716": {
+  "en": "When, near a junction, we notice we are in the wrong turning lane, we must follow the direction allowed by any road markings.",
+  "explain": {
+   "short": "Your lane's arrows tell you where to go. Follow them, even if it is not the way you wanted.",
+   "rule": "If you are in the wrong turning lane (corsia di preselezione) near a junction, do not change lane, do not stop or reverse: go in the direction your lane allows, giving way as required, and find another way later.",
+   "trap": "'segnaletica orizzontale' (road markings) are the arrows on the road: follow them.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Follow your lane's arrows",
+    "it": "segnaletica orizzontale",
+    "lines": [
+     "Junction with turning lanes",
+     "You are in the wrong lane",
+     "Follow your lane's arrows"
+    ],
+    "icons": [
+     "road",
+     "warning",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di preselezione",
+    "en": "turning lane"
+   },
+   {
+    "it": "segnaletica orizzontale",
+    "en": "road markings"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22717": {
+  "en": "When, near a junction, we notice we are in the wrong turning lane, we must not change lane, also so as not to obstruct the vehicles behind.",
+  "explain": {
+   "short": "Changing lane at the last moment surprises and blocks others. Stay in your lane.",
+   "rule": "If you are in the wrong turning lane (corsia di preselezione) near a junction, do not change lane, do not stop or reverse: go in the direction your lane allows, giving way as required, and find another way later.",
+   "trap": "'non dobbiamo effettuare cambiamenti di corsia' (we must not change lane) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Do not change lane at the last moment",
+    "it": "cambiamenti di corsia",
+    "lines": [
+     "Junction with turning lanes",
+     "Wrong lane: do not switch",
+     "Stay in your lane"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non dobbiamo",
+    "en": "we must not"
+   },
+   {
+    "it": "cambiamenti di corsia",
+    "en": "lane changes"
+   },
+   {
+    "it": "intralciare",
+    "en": "obstruct"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22718": {
+  "en": "When, near a junction, we notice we are in the wrong turning lane, we must not stop suddenly, to avoid rear-end crashes and confusion in traffic.",
+  "explain": {
+   "short": "Braking hard can make the car behind crash into you. Keep moving normally in your lane.",
+   "rule": "If you are in the wrong turning lane (corsia di preselezione) near a junction, do not change lane, do not stop or reverse: go in the direction your lane allows, giving way as required, and find another way later.",
+   "trap": "'arrestare bruscamente' (stop suddenly) is what you must NOT do.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Do not brake suddenly",
+    "it": "bruscamente",
+    "lines": [
+     "Junction with turning lanes",
+     "Wrong lane: no sudden braking",
+     "Keep going in your lane"
+    ],
+    "icons": [
+     "road",
+     "brake",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "arrestare bruscamente",
+    "en": "stop suddenly"
+   },
+   {
+    "it": "tamponamenti",
+    "en": "rear-end crashes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22719": {
+  "en": "When, near a junction, we notice we are in the wrong turning lane, we must not stop to ask for information, so as not to hold up the traffic flow.",
+  "explain": {
+   "short": "Stopping in the lane to ask the way blocks everyone behind. Go on and ask later.",
+   "rule": "If you are in the wrong turning lane (corsia di preselezione) near a junction, do not change lane, do not stop or reverse: go in the direction your lane allows, giving way as required, and find another way later.",
+   "trap": "'non ci dobbiamo fermare' (we must not stop) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Do not stop to ask the way",
+    "it": "chiedere informazioni",
+    "lines": [
+     "Junction with turning lanes",
+     "Stopping to ask: blocks traffic",
+     "Keep going in your lane"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non ci dobbiamo fermare",
+    "en": "we must not stop"
+   },
+   {
+    "it": "chiedere informazioni",
+    "en": "ask for information"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22720": {
+  "en": "When, near a junction, we notice we are in the wrong turning lane, we must go in the direction required by the signs, giving way as required.",
+  "explain": {
+   "short": "You go where the signs and markings of your lane say, and give way to whoever has priority.",
+   "rule": "If you are in the wrong turning lane (corsia di preselezione) near a junction, do not change lane, do not stop or reverse: go in the direction your lane allows, giving way as required, and find another way later.",
+   "trap": "'nel senso voluto dalla segnaletica' (the direction required by the signs) is the right choice.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Go where the signs say, giving way",
+    "it": "senso voluto dalla segnaletica",
+    "lines": [
+     "Junction with turning lanes",
+     "Go where your lane's signs say",
+     "Give way as required"
+    ],
+    "icons": [
+     "road",
+     "sign",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "senso voluto dalla segnaletica",
+    "en": "direction required by the signs"
+   },
+   {
+    "it": "dovute precedenze",
+    "en": "required right of way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22721": {
+  "en": "Coming to a junction, if you cannot understand at once who has priority, you must go on with prudence and care.",
+  "explain": {
+   "short": "If the situation is not clear, slow down, look well and go on carefully.",
+   "rule": "If you are in the wrong turning lane (corsia di preselezione) near a junction, do not change lane, do not stop or reverse: go in the direction your lane allows, giving way as required, and find another way later.",
+   "trap": "'con prudenza e accortezza' (with prudence and care) is the safe answer.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Priority unclear: slow down, go carefully",
+    "it": "prudenza",
+    "lines": [
+     "Junction, priority not clear",
+     "Slow down and look",
+     "Go on with care"
+    ],
+    "icons": [
+     "road",
+     "eye",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "chi ha la precedenza",
+    "en": "who has priority"
+   },
+   {
+    "it": "prudenza e accortezza",
+    "en": "prudence and care"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22722": {
+  "en": "Coming to a junction, if you cannot understand at once who has priority, you may go on without slowing down if you choose to go straight on.",
+  "explain": {
+   "short": "Going straight does not give you priority. If it is unclear, you must slow down.",
+   "rule": "If you are in the wrong turning lane (corsia di preselezione) near a junction, do not change lane, do not stop or reverse: go in the direction your lane allows, giving way as required, and find another way later.",
+   "trap": "'senza rallentare' (without slowing down) is wrong in an unclear situation.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Going straight: still slow down",
+    "it": "senza rallentare",
+    "lines": [
+     "Junction, priority not clear",
+     "Straight on without slowing: no",
+     "Slow down and look"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "senza rallentare",
+    "en": "without slowing down"
+   },
+   {
+    "it": "andare diritto",
+    "en": "go straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22723": {
+  "en": "When, near a junction, we notice we are in the wrong turning lane, we must make the turn we intended, but giving way to all vehicles.",
+  "explain": {
+   "short": "You must follow your lane's direction, not the turn you wanted. Turning from the wrong lane cuts across others.",
+   "rule": "If you are in the wrong turning lane (corsia di preselezione) near a junction, do not change lane, do not stop or reverse: go in the direction your lane allows, giving way as required, and find another way later.",
+   "trap": "'la manovra di svolta che intendevamo fare' (the turn we intended) is the wrong choice.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Do not turn from the wrong lane",
+    "it": "che intendevamo fare",
+    "lines": [
+     "Junction with turning lanes",
+     "Turning from the wrong lane: no",
+     "Follow your lane's arrows"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "svolta che intendevamo fare",
+    "en": "turn we intended"
+   },
+   {
+    "it": "precedenza a tutti i veicoli",
+    "en": "give way to all vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22724": {
+  "en": "When, near a junction, we notice we are in the wrong turning lane, we must ask the traffic police for advice.",
+  "explain": {
+   "short": "Stopping to ask the police blocks traffic. Just follow your lane's direction.",
+   "rule": "If you are in the wrong turning lane (corsia di preselezione) near a junction, do not change lane, do not stop or reverse: go in the direction your lane allows, giving way as required, and find another way later.",
+   "trap": "'chiedere consiglio' (ask for advice) means stopping: not required, and it blocks others.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No need to ask the police: follow the lane",
+    "it": "chiedere consiglio",
+    "lines": [
+     "Junction with turning lanes",
+     "Stopping to ask police: no",
+     "Follow your lane's arrows"
+    ],
+    "icons": [
+     "road",
+     "police",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "chiedere consiglio",
+    "en": "ask for advice"
+   },
+   {
+    "it": "agenti del traffico",
+    "en": "traffic police"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22725": {
+  "en": "When, near a junction, we notice we are in the wrong turning lane, we must switch on all the indicators at once as a danger signal.",
+  "explain": {
+   "short": "Being in the wrong lane is not an emergency. Hazard lights are not used; you just follow your lane.",
+   "rule": "If you are in the wrong turning lane (corsia di preselezione) near a junction, do not change lane, do not stop or reverse: go in the direction your lane allows, giving way as required, and find another way later.",
+   "trap": "'accensione simultanea di tutti gli indicatori' means hazard lights: wrong here.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No hazard lights: just follow your lane",
+    "it": "segnale di pericolo",
+    "lines": [
+     "Junction with turning lanes",
+     "Hazard lights: wrong",
+     "Follow your lane's arrows"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "accensione simultanea di tutti gli indicatori",
+    "en": "all indicators on at once"
+   },
+   {
+    "it": "segnale di pericolo",
+    "en": "danger signal"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22726": {
+  "en": "When, near a junction, we notice we are in the wrong turning lane, we must pull over to the right and stop until the line of vehicles behind has passed.",
+  "explain": {
+   "short": "Stopping blocks the traffic and is dangerous. You simply go where your lane goes.",
+   "rule": "If you are in the wrong turning lane (corsia di preselezione) near a junction, do not change lane, do not stop or reverse: go in the direction your lane allows, giving way as required, and find another way later.",
+   "trap": "'fermarci finché non sia passata la colonna' (stop until the queue passes) is wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Do not stop: go where your lane goes",
+    "it": "fermarci",
+    "lines": [
+     "Junction with a queue behind",
+     "Pulling over to wait: no",
+     "Follow your lane's arrows"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "accostarci sulla destra",
+    "en": "pull over to the right"
+   },
+   {
+    "it": "fermarci",
+    "en": "stop"
+   },
+   {
+    "it": "colonna dei veicoli",
+    "en": "line of vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22727": {
+  "en": "When, near a junction, we notice we are in the wrong turning lane, we try to reverse carefully to the point where the solid lane lines end.",
+  "explain": {
+   "short": "Reversing in traffic near a junction is very dangerous and not allowed here. Go on in your lane.",
+   "rule": "If you are in the wrong turning lane (corsia di preselezione) near a junction, do not change lane, do not stop or reverse: go in the direction your lane allows, giving way as required, and find another way later.",
+   "trap": "'retrocedere' (go backwards) is never the solution, even 'con prudenza'.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never reverse in a turning lane",
+    "it": "retrocedere",
+    "lines": [
+     "Junction with turning lanes",
+     "Reversing back: dangerous, no",
+     "Follow your lane's arrows"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "retrocedere",
+    "en": "reverse, go backwards"
+   },
+   {
+    "it": "strisce continue di corsia",
+    "en": "solid lane lines"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22728": {
+  "en": "When, near a junction, we notice we are in the wrong turning lane, we must get to the traffic light and wait for the light to let us change lane.",
+  "explain": {
+   "short": "No traffic light lets you change lane at the junction. You go where your lane goes.",
+   "rule": "If you are in the wrong turning lane (corsia di preselezione) near a junction, do not change lane, do not stop or reverse: go in the direction your lane allows, giving way as required, and find another way later.",
+   "trap": "'cambio di corsia' at the light is still a forbidden lane change.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No lane change at the light either",
+    "it": "cambio di corsia",
+    "lines": [
+     "Junction with traffic light",
+     "Changing lane at the light: no",
+     "Follow your lane's arrows"
+    ],
+    "icons": [
+     "light",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "semaforo",
+    "en": "traffic light"
+   },
+   {
+    "it": "cambio di corsia",
+    "en": "lane change"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22729": {
+  "en": "In a built-up area, when a pedestrian outside the zebra crossing does not seem to give way to us, we must reduce speed and, if needed, stop so as not to hit them.",
+  "explain": {
+   "short": "Even outside the crossing, the pedestrian's safety comes first. Slow down and stop if needed.",
+   "rule": "In a town, if a pedestrian crossing outside the zebra crossing does not give way to you, slow down and stop if needed. Use a short horn only for immediate danger. Never just carry on.",
+   "trap": "'ridurre la velocità e, occorrendo, fermarsi' (slow down and, if needed, stop) is correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down, stop if needed",
+    "it": "fermarsi",
+    "lines": [
+     "Pedestrian crossing outside the stripes",
+     "Slow down",
+     "Stop if needed"
+    ],
+    "icons": [
+     "pedestrian",
+     "speed",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fuori delle strisce",
+    "en": "outside the stripes"
+   },
+   {
+    "it": "ridurre la velocità",
+    "en": "reduce speed"
+   },
+   {
+    "it": "fermarsi",
+    "en": "stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22730": {
+  "en": "In a built-up area, when a pedestrian outside the zebra crossing does not seem to give way to us, it is advisable to slow down and warn them with a short horn, in case of immediate danger.",
+  "explain": {
+   "short": "In towns a short horn is allowed for immediate danger. Together with slowing down, it can warn the pedestrian.",
+   "rule": "In a town, if a pedestrian crossing outside the zebra crossing does not give way to you, slow down and stop if needed. Use a short horn only for immediate danger. Never just carry on.",
+   "trap": "'breve colpo di clacson, in caso di pericolo immediato' (short horn only for immediate danger) is the legal use.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down; short horn only for real danger",
+    "it": "breve colpo di clacson",
+    "lines": [
+     "Pedestrian crossing outside the stripes",
+     "Slow down",
+     "Short horn only if danger is immediate"
+    ],
+    "icons": [
+     "pedestrian",
+     "speed",
+     "horn"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rallentare",
+    "en": "slow down"
+   },
+   {
+    "it": "breve colpo di clacson",
+    "en": "short horn"
+   },
+   {
+    "it": "pericolo immediato",
+    "en": "immediate danger"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22731": {
+  "en": "In a built-up area, when a pedestrian outside the zebra crossing does not seem to give way to us, we must reduce speed until we stop in time, if needed.",
+  "explain": {
+   "short": "You slow down and, if the pedestrian keeps crossing, you stop in time.",
+   "rule": "In a town, if a pedestrian crossing outside the zebra crossing does not give way to you, slow down and stop if needed. Use a short horn only for immediate danger. Never just carry on.",
+   "trap": "'fermarsi tempestivamente' (stop in time) is the right reaction.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down and stop in time",
+    "it": "tempestivamente",
+    "lines": [
+     "Pedestrian crossing outside the stripes",
+     "Reduce speed",
+     "Stop in time if needed"
+    ],
+    "icons": [
+     "pedestrian",
+     "speed",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ridurre la velocità",
+    "en": "reduce speed"
+   },
+   {
+    "it": "fermarsi tempestivamente",
+    "en": "stop in time"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22732": {
+  "en": "In a built-up area, when a pedestrian outside the zebra crossing does not seem to give way to us, it is advisable at night to drive with high beams on so that they notice us.",
+  "explain": {
+   "short": "High beams dazzle the pedestrian, who may then see even less. You slow down instead.",
+   "rule": "In a town, if a pedestrian crossing outside the zebra crossing does not give way to you, slow down and stop if needed. Use a short horn only for immediate danger. Never just carry on.",
+   "trap": "'abbaglianti accesi' (high beams on) dazzle: wrong in town with a pedestrian.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No high beams: they dazzle the pedestrian",
+    "it": "abbaglianti",
+    "lines": [
+     "Pedestrian crossing at night in town",
+     "High beams: dazzle, no",
+     "Slow down, stop if needed"
+    ],
+    "icons": [
+     "pedestrian",
+     "highbeam",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ore notturne",
+    "en": "night hours"
+   },
+   {
+    "it": "abbaglianti accesi",
+    "en": "high beams on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22733": {
+  "en": "In a built-up area, when a pedestrian outside the zebra crossing does not seem to give way to us, it is advisable to try to get their attention by any means so that they give way to us.",
+  "explain": {
+   "short": "The goal is not to make the pedestrian give way. You slow down and let them cross safely.",
+   "rule": "In a town, if a pedestrian crossing outside the zebra crossing does not give way to you, slow down and stop if needed. Use a short horn only for immediate danger. Never just carry on.",
+   "trap": "'con qualsiasi mezzo' (by any means) and 'perché ci dia la precedenza' (so they give way) are both wrong.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Do not force them: slow down instead",
+    "it": "con qualsiasi mezzo",
+    "lines": [
+     "Pedestrian crossing outside the stripes",
+     "Calling 'by any means': no",
+     "Slow down, stop if needed"
+    ],
+    "icons": [
+     "pedestrian",
+     "cross",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "con qualsiasi mezzo",
+    "en": "by any means"
+   },
+   {
+    "it": "perché ci dia la precedenza",
+    "en": "so that they give way to us"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22734": {
+  "en": "In a built-up area, when a pedestrian outside the zebra crossing does not seem to give way to us, we must carry on without caring about them, because we have priority.",
+  "explain": {
+   "short": "Even if you have priority, you must never hit a pedestrian. Slow down and stop if needed.",
+   "rule": "In a town, if a pedestrian crossing outside the zebra crossing does not give way to you, slow down and stop if needed. Use a short horn only for immediate danger. Never just carry on.",
+   "trap": "'senza curarci di lui' (without caring about him) is never allowed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never ignore a pedestrian, even with priority",
+    "it": "senza curarci di lui",
+    "lines": [
+     "Pedestrian crossing outside the stripes",
+     "Carrying on: never",
+     "Slow down, stop if needed"
+    ],
+    "icons": [
+     "pedestrian",
+     "cross",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "proseguire",
+    "en": "carry on"
+   },
+   {
+    "it": "senza curarci di lui",
+    "en": "without caring about him"
+   },
+   {
+    "it": "abbiamo la precedenza",
+    "en": "we have priority"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

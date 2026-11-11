@@ -1,7 +1,7 @@
 // Maps the 2D scene coordinates (0..360 x 0..420, cars drive "up") onto a 3D road that can bend and climb.
 import * as THREE from 'three'
 
-export type RoadKind = 'twoWay' | 'oneWay' | 'dual' | 'twoLanesEach' | 'motorway' | 'motorway3' | 'space' | 'threeLanesEach' | 'threeCarriageways'
+export type RoadKind = 'twoWay' | 'oneWay' | 'dual' | 'twoLanesEach' | 'motorway' | 'motorway3' | 'space' | 'threeLanesEach' | 'threeCarriageways' | 'threeLane'
 export interface Prop { type: string; [k: string]: any }
 export interface World3D {
   road?: RoadKind; line?: 'dashed' | 'solid' | 'double' | 'mixed' | 'mixedSolidMine'; feature?: 'hill' | 'hillDown' | 'curve' | 'fog' | null
@@ -30,6 +30,8 @@ export function layout(road: RoadKind = 'twoWay', line: World3D['line'] = 'dashe
     // official figures: one carriageway with 3 lanes each way / 3 carriageways with 8 lanes
     case 'threeLanesEach': L.asphalt.push([20, 340]); L.solids.push(23, 337, 176.5, 183.5); L.dashes.push(72, 124, 236, 288); L.shoulders.push([8, 20], [340, 352]); break
     case 'threeCarriageways': L.asphalt.push([10, 90], [106, 254], [270, 350]); L.medians.push([90, 106], [254, 270]); L.solids.push(13, 87, 109, 251, 273, 347, 176.5, 183.5); L.dashes.push(50, 143, 217, 310); L.shoulders.push([0, 10], [350, 360]); break
+    // one carriageway, 3 lanes, two-way: the centre lane is shared (overtaking / turning left)
+    case 'threeLane': L.asphalt.push([70, 290]); L.solids.push(73, 287); L.dashes.push(143.3, 216.6); L.shoulders.push([58, 70], [290, 302]); break
     default: L.asphalt.push([110, 250]); L.shoulders.push([98, 110], [250, 262]); L.solids.push(113, 247); centre(180)
   }
   return L

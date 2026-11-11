@@ -1,0 +1,404 @@
+{
+ "q22201": {
+  "short": "Il pannello mostra un autocarro in salita: qui puoi trovare autocarri lenti.",
+  "rule": "Il pannello avvisa di una salita dove gli autocarri vanno piano. Modera la velocità e aspettati un autocarro lento.",
+  "trap": "«probabile presenza» vuol dire che gli autocarri forse ci sono: stai pronto.",
+  "caption": "Salita: probabili autocarri lenti"
+ },
+ "q22202": {
+  "short": "La salita ripida del pannello fa andare piano gli autocarri.",
+  "rule": "Il pannello avvisa di una salita dove gli autocarri vanno piano. Modera la velocità e aspettati un autocarro lento.",
+  "trap": "«ripida salita» vuol dire salita forte: per questo gli autocarri rallentano.",
+  "caption": "Salita ripida: autocarri lenti"
+ },
+ "q22203": {
+  "short": "Qui gli autocarri salgono piano, quindi devi fare attenzione.",
+  "rule": "Il pannello avvisa di una salita dove gli autocarri vanno piano. Modera la velocità e aspettati un autocarro lento.",
+  "trap": "«veicoli pesanti» sono gli autocarri del disegno.",
+  "caption": "Attenzione: veicoli pesanti lenti"
+ },
+ "q22204": {
+  "short": "Salita ripida più pannello autocarri: rallenta, davanti può esserci un autocarro lento.",
+  "rule": "Il pannello avvisa di una salita dove gli autocarri vanno piano. Modera la velocità e aspettati un autocarro lento.",
+  "trap": "«moderare la velocità» vuol dire andare più piano.",
+  "caption": "Salita 10%: rallenta per gli autocarri"
+ },
+ "q22205": {
+  "short": "In salita può esserci un autocarro lento davanti: tieni una velocità prudente.",
+  "rule": "Il pannello avvisa di una salita dove gli autocarri vanno piano. Modera la velocità e aspettati un autocarro lento.",
+  "trap": "«velocità prudenziale» vuol dire velocità bassa, per fermarsi in tempo.",
+  "caption": "Velocità prudente: autocarro davanti"
+ },
+ "q22206": {
+  "short": "Il disegno mostra un autocarro lento in salita, non un incidente; la strada è aperta.",
+  "rule": "Il pannello avvisa di una salita dove gli autocarri vanno piano. Modera la velocità e aspettati un autocarro lento.",
+  "trap": "«tamponamento»: l'auto non urta l'autocarro, lo segue.",
+  "caption": "Non incidente: autocarri lenti in salita"
+ },
+ "q22207": {
+  "short": "Il pannello avvisa solo di autocarri lenti; non crea un divieto di sorpasso.",
+  "rule": "Il pannello avvisa di una salita dove gli autocarri vanno piano. Modera la velocità e aspettati un autocarro lento.",
+  "trap": "«vietato sorpassare»: un pannello bianco da solo non crea un divieto.",
+  "caption": "Nessun divieto di sorpasso"
+ },
+ "q22208": {
+  "short": "Il pannello sta sulle salite della strada, non sui pontili dei traghetti.",
+  "rule": "Il pannello avvisa di una salita dove gli autocarri vanno piano. Modera la velocità e aspettati un autocarro lento.",
+  "trap": "«pontili d'imbarco»: la pendenza del disegno è una salita, non una rampa per la nave.",
+  "caption": "Salite su strada, non traghetti"
+ },
+ "q22209": {
+  "short": "Con autocarri lenti davanti serve PIÙ spazio, mai meno.",
+  "rule": "Il pannello avvisa di una salita dove gli autocarri vanno piano. Modera la velocità e aspettati un autocarro lento.",
+  "trap": "«diminuire» vuol dire ridurre: il contrario di ciò che è sicuro.",
+  "caption": "Tieni distanza dagli autocarri lenti"
+ },
+ "q22210": {
+  "short": "Il pannello avvisa di autocarri lenti in salita; non parla di luci.",
+  "rule": "Il pannello avvisa di una salita dove gli autocarri vanno piano. Modera la velocità e aspettati un autocarro lento.",
+  "trap": "«luci accese»: nel disegno non c'è niente sulle luci.",
+  "caption": "Autocarri lenti, non luci"
+ },
+ "q22211": {
+  "short": "Il pannello chiede di rallentare, non di suonare il clacson.",
+  "rule": "Il pannello avvisa di una salita dove gli autocarri vanno piano. Modera la velocità e aspettati un autocarro lento.",
+  "trap": "«ogni qualvolta» + «clacson»: un obbligo inventato.",
+  "caption": "Rallenta; il clacson non serve"
+ },
+ "q22212": {
+  "short": "L'auto segue l'autocarro, non è agganciata. Il pannello parla di autocarri lenti.",
+  "rule": "Il pannello avvisa di una salita dove gli autocarri vanno piano. Modera la velocità e aspettati un autocarro lento.",
+  "trap": "«trainati»: l'auto è dietro l'autocarro, non attaccata.",
+  "caption": "Non traino: autocarri lenti in salita"
+ },
+ "q22213": {
+  "short": "Il carro attrezzi indica «zona rimozione»: l'auto in sosta può essere portata via.",
+  "rule": "«Zona rimozione»: l'auto in divieto può essere portata via o bloccata con ganasce. Le auto con contrassegno disabili no.",
+  "trap": "«carro-attrezzi»: è il mezzo che porta via l'auto.",
+  "caption": "Zona rimozione: le auto vengono rimosse"
+ },
+ "q22214": {
+  "short": "Divieto di sosta più pannello rimozione: l'auto può finire in depositeria.",
+  "rule": "«Zona rimozione»: l'auto in divieto può essere portata via o bloccata con ganasce. Le auto con contrassegno disabili no.",
+  "trap": "«depositeria comunale» è dove portano le auto rimosse.",
+  "caption": "Le auto rimosse vanno in depositeria"
+ },
+ "q22215": {
+  "short": "Rimozione e ganasce non si applicano alle auto per disabili con il contrassegno.",
+  "rule": "«Zona rimozione»: l'auto in divieto può essere portata via o bloccata con ganasce. Le auto con contrassegno disabili no.",
+  "trap": "«non possono»: l'eccezione protegge chi ha il contrassegno.",
+  "caption": "Contrassegno disabili: niente rimozione"
+ },
+ "q22216": {
+  "short": "È il pannello «zona rimozione»: sosta vietata e auto rimosse.",
+  "rule": "«Zona rimozione»: l'auto in divieto può essere portata via o bloccata con ganasce. Le auto con contrassegno disabili no.",
+  "trap": "«con rimozione»: l'auto non prende solo la multa, viene portata via.",
+  "caption": "Divieto di sosta con rimozione"
+ },
+ "q22217": {
+  "short": "In zona rimozione l'auto può essere portata via o bloccata con ganasce.",
+  "rule": "«Zona rimozione»: l'auto in divieto può essere portata via o bloccata con ganasce. Le auto con contrassegno disabili no.",
+  "trap": "«ganasce»: blocco di metallo sulla ruota.",
+  "caption": "Rimozione o ganasce"
+ },
+ "q22218": {
+  "short": "Il carro attrezzi qui porta via le auto in divieto; non è un servizio.",
+  "rule": "«Zona rimozione»: l'auto in divieto può essere portata via o bloccata con ganasce. Le auto con contrassegno disabili no.",
+  "trap": "«officine»: il pannello è una regola di sosta, non un servizio.",
+  "caption": "Zona rimozione, non officina"
+ },
+ "q22219": {
+  "short": "Il pannello mostra un carro attrezzi: le auto in sosta vengono rimosse.",
+  "rule": "«Zona rimozione»: l'auto in divieto può essere portata via o bloccata con ganasce. Le auto con contrassegno disabili no.",
+  "trap": "«treni merce»: nel disegno non c'è nessun treno.",
+  "caption": "Zona rimozione, non treni"
+ },
+ "q22220": {
+  "short": "Il pannello con carro attrezzi è una regola di sosta: le auto vengono rimosse.",
+  "rule": "«Zona rimozione»: l'auto in divieto può essere portata via o bloccata con ganasce. Le auto con contrassegno disabili no.",
+  "trap": "«cambio d'olio»: non c'entra niente.",
+  "caption": "Zona rimozione, non officina"
+ },
+ "q22221": {
+  "short": "Il pannello non permette di sostare; avvisa che le auto in sosta sono rimosse.",
+  "rule": "«Zona rimozione»: l'auto in divieto può essere portata via o bloccata con ganasce. Le auto con contrassegno disabili no.",
+  "trap": "«possono sostare»: il pannello parla di rimozione, non dà permessi.",
+  "caption": "Nessuno può sostare: rimozione"
+ },
+ "q22222": {
+  "short": "Non c'è attesa: l'auto in divieto può essere rimossa subito.",
+  "rule": "«Zona rimozione»: l'auto in divieto può essere portata via o bloccata con ganasce. Le auto con contrassegno disabili no.",
+  "trap": "«dopo tre ore»: un tempo inventato.",
+  "caption": "La rimozione può essere immediata"
+ },
+ "q22223": {
+  "short": "Il pannello con carro attrezzi indica zona rimozione; la strada è aperta.",
+  "rule": "«Zona rimozione»: l'auto in divieto può essere portata via o bloccata con ganasce. Le auto con contrassegno disabili no.",
+  "trap": "«chiusa per incidente»: il carro solleva un'auto in sosta, non incidentata.",
+  "caption": "Zona rimozione, non incidente"
+ },
+ "q22224": {
+  "short": "Sopra la strada, la freccia in giù indica la corsia per la località scritta.",
+  "rule": "La freccia verso il basso, sopra la strada, lega il segnale alla sola corsia sotto la freccia.",
+  "trap": "«posto in alto»: la freccia punta in giù su una corsia.",
+  "caption": "Questa corsia porta alla località"
+ },
+ "q22225": {
+  "short": "La freccia in giù dice per quale corsia vale il segnale.",
+  "rule": "La freccia verso il basso, sopra la strada, lega il segnale alla sola corsia sotto la freccia.",
+  "trap": "«a quale corsia»: la freccia risponde a questo.",
+  "caption": "La freccia sceglie la corsia"
+ },
+ "q22226": {
+  "short": "Il segnale sopra vale solo per la corsia sotto la freccia.",
+  "rule": "La freccia verso il basso, sopra la strada, lega il segnale alla sola corsia sotto la freccia.",
+  "trap": "«sola corsia»: le altre corsie non c'entrano.",
+  "caption": "Vale solo per la corsia indicata"
+ },
+ "q22227": {
+  "short": "La freccia in giù lega un segnale a una corsia; non è una fermata.",
+  "rule": "La freccia verso il basso, sopra la strada, lega il segnale alla sola corsia sotto la freccia.",
+  "trap": "«fermata degli autobus»: nel disegno non c'è un autobus.",
+  "caption": "Freccia di corsia, non fermata"
+ },
+ "q22228": {
+  "short": "La freccia indica solo una corsia; non parla di precedenza.",
+  "rule": "La freccia verso il basso, sopra la strada, lega il segnale alla sola corsia sotto la freccia.",
+  "trap": "«precedenza»: sarebbe un segnale di strettoia, non questa freccia.",
+  "caption": "Freccia di corsia, non precedenza"
+ },
+ "q22229": {
+  "short": "La freccia dice dove vale un segnale, non dove finisce una regola.",
+  "rule": "La freccia verso il basso, sopra la strada, lega il segnale alla sola corsia sotto la freccia.",
+  "trap": "«fine»: la fine si indica con altri segnali.",
+  "caption": "Freccia di corsia, non fine"
+ },
+ "q22230": {
+  "short": "La fine del limite è un altro segnale; la freccia sceglie solo una corsia.",
+  "rule": "La freccia verso il basso, sopra la strada, lega il segnale alla sola corsia sotto la freccia.",
+  "trap": "«fine del segnale»: la freccia non fa finire niente.",
+  "caption": "Freccia di corsia, non fine limite"
+ },
+ "q22231": {
+  "short": "«Tornante» vuol dire curva molto stretta, vicina.",
+  "rule": "Il «tornante» è una curva molto stretta e pericolosa. Il numero sul pannello B dice quanti tornanti ci sono.",
+  "trap": "«curve strette»: il tornante è la curva più stretta.",
+  "caption": "Tornante vicino: rallenta"
+ },
+ "q22232": {
+  "short": "Tutti e due i pannelli avvisano di tornanti, curve strette.",
+  "rule": "Il «tornante» è una curva molto stretta e pericolosa. Il numero sul pannello B dice quanti tornanti ci sono.",
+  "trap": "«uno dei due»: A e B indicano entrambi tornanti.",
+  "caption": "Tutti e due: tornanti vicini"
+ },
+ "q22233": {
+  "short": "«3 tornanti» avvisa di tre tornanti: curve molto pericolose.",
+  "rule": "Il «tornante» è una curva molto stretta e pericolosa. Il numero sul pannello B dice quanti tornanti ci sono.",
+  "trap": "«particolarmente pericolose»: i tornanti lo sono.",
+  "caption": "3 tornanti: molto pericolosi"
+ },
+ "q22234": {
+  "short": "Con «tornante» o «3 tornanti», il pannello avvisa di tornanti pericolosi.",
+  "rule": "Il «tornante» è una curva molto stretta e pericolosa. Il numero sul pannello B dice quanti tornanti ci sono.",
+  "trap": "«uno dei due»: i due pannelli hanno lo stesso senso.",
+  "caption": "Tutti e due: tornanti pericolosi"
+ },
+ "q22236": {
+  "short": "Il pannello A indica un tornante, il B tre: uno o più tornanti.",
+  "rule": "Il «tornante» è una curva molto stretta e pericolosa. Il numero sul pannello B dice quanti tornanti ci sono.",
+  "trap": "«uno o più tornanti»: A ne indica uno, B dà il numero.",
+  "caption": "Un tornante (A) o più (B)"
+ },
+ "q22238": {
+  "short": "Il «3» conta i tornanti, non le corsie.",
+  "rule": "Il «tornante» è una curva molto stretta e pericolosa. Il numero sul pannello B dice quanti tornanti ci sono.",
+  "trap": "«numero di corsie»: il numero va con «tornanti».",
+  "caption": "3 = tornanti, non corsie"
+ },
+ "q22239": {
+  "short": "Il «3» dice quanti tornanti ci sono, non quanti veicoli.",
+  "rule": "Il «tornante» è una curva molto stretta e pericolosa. Il numero sul pannello B dice quanti tornanti ci sono.",
+  "trap": "«quanti veicoli»: il numero riguarda le curve.",
+  "caption": "3 = tornanti, non veicoli"
+ },
+ "q22240": {
+  "short": "Il «3» è il numero di tornanti, non di chilometri.",
+  "rule": "Il «tornante» è una curva molto stretta e pericolosa. Il numero sul pannello B dice quanti tornanti ci sono.",
+  "trap": "«quanti chilometri»: sul pannello non c'è «km».",
+  "caption": "3 = tornanti, non chilometri"
+ },
+ "q22241": {
+  "short": "I «tornanti» sono curve strette di montagna, non svincoli.",
+  "rule": "Il «tornante» è una curva molto stretta e pericolosa. Il numero sul pannello B dice quanti tornanti ci sono.",
+  "trap": "«svincoli autostradali»: non c'entrano con i tornanti.",
+  "caption": "3 = tornanti, non svincoli"
+ },
+ "q22242": {
+  "short": "I due pannelli avvisano di tornanti, non di incroci o autocarri.",
+  "rule": "Il «tornante» è una curva molto stretta e pericolosa. Il numero sul pannello B dice quanti tornanti ci sono.",
+  "trap": "«discarica»: «tornante» è una curva, non una strada per autocarri.",
+  "caption": "Tornanti, non incrocio"
+ },
+ "q22243": {
+  "short": "Il pannello limita il divieto a lunedì-venerdì, dalle 21 alle 4.",
+  "rule": "Giorni e ore sul pannello sotto il DIVIETO DI SOSTA limitano il divieto a quel tempo: quando passano le autospazzatrici.",
+  "trap": "«solo in determinate ore»: fuori da quelle ore puoi sostare.",
+  "caption": "Divieto lun-ven, solo 21-4"
+ },
+ "q22244": {
+  "short": "Il disegno è un'autospazzatrice: il pannello segna strade pulite con queste macchine.",
+  "rule": "Giorni e ore sul pannello sotto il DIVIETO DI SOSTA limitano il divieto a quel tempo: quando passano le autospazzatrici.",
+  "trap": "«autospazzatrici»: il veicolo del disegno.",
+  "caption": "Strada pulita con autospazzatrici"
+ },
+ "q22245": {
+  "short": "«lun - ven 21.00 - 4.00» indica giorni e ore della pulizia.",
+  "rule": "Giorni e ore sul pannello sotto il DIVIETO DI SOSTA limitano il divieto a quel tempo: quando passano le autospazzatrici.",
+  "trap": "«giorni e le ore»: sono scritti sul pannello.",
+  "caption": "Pulizia: lun-ven, 21-4"
+ },
+ "q22246": {
+  "short": "La sosta è vietata solo lun-ven, dalle 21 alle 4, per la pulizia.",
+  "rule": "Giorni e ore sul pannello sotto il DIVIETO DI SOSTA limitano il divieto a quel tempo: quando passano le autospazzatrici.",
+  "trap": "«solo in alcune ore»: non tutto il giorno.",
+  "caption": "Divieto solo nelle ore di pulizia"
+ },
+ "q22247": {
+  "short": "Gli orari sono per le autospazzatrici, quando non puoi sostare.",
+  "rule": "Giorni e ore sul pannello sotto il DIVIETO DI SOSTA limitano il divieto a quel tempo: quando passano le autospazzatrici.",
+  "trap": "«deposito della spazzatura»: l'autospazzatrice pulisce la strada, non raccoglie i sacchetti.",
+  "caption": "Orari di pulizia, non spazzatura"
+ },
+ "q22248": {
+  "short": "Il pannello mostra un'autospazzatrice e gli orari di pulizia, non un autolavaggio.",
+  "rule": "Giorni e ore sul pannello sotto il DIVIETO DI SOSTA limitano il divieto a quel tempo: quando passano le autospazzatrici.",
+  "trap": "«autolavaggi»: si pulisce la strada, non l'auto.",
+  "caption": "Pulizia strade, non autolavaggio"
+ },
+ "q22249": {
+  "short": "Il pannello riguarda la sosta durante la pulizia, non la precedenza.",
+  "rule": "Giorni e ore sul pannello sotto il DIVIETO DI SOSTA limitano il divieto a quel tempo: quando passano le autospazzatrici.",
+  "trap": "«precedenza»: un pannello da solo non crea un obbligo di precedenza.",
+  "caption": "Orari di sosta, non precedenza"
+ },
+ "q22250": {
+  "short": "L'autospazzatrice spiega il motivo; il divieto vale per TUTTI i veicoli in quelle ore.",
+  "rule": "Giorni e ore sul pannello sotto il DIVIETO DI SOSTA limitano il divieto a quel tempo: quando passano le autospazzatrici.",
+  "trap": "«i veicoli rappresentati»: il disegno spiega il motivo, non sceglie i veicoli.",
+  "caption": "Divieto per tutti durante la pulizia"
+ },
+ "q22251": {
+  "short": "Mostrano la forma dell'incrocio e stanno sotto i segnali di precedenza.",
+  "rule": "Linea grossa = strada principale con precedenza; linee sottili = strade secondarie. Il pannello mostra l'andamento della strada principale.",
+  "trap": "«diritto di precedenza»: la linea grossa è la strada con precedenza.",
+  "caption": "Sotto i segnali di precedenza"
+ },
+ "q22252": {
+  "short": "Linea grossa = strada principale, linee sottili = secondarie.",
+  "rule": "Linea grossa = strada principale con precedenza; linee sottili = strade secondarie. Il pannello mostra l'andamento della strada principale.",
+  "trap": "«distinguendo»: linee grosse e sottili fanno la differenza.",
+  "caption": "Grossa = principale, sottile = secondaria"
+ },
+ "q22253": {
+  "short": "La linea grossa mostra dove va la strada principale: dritta o in curva.",
+  "rule": "Linea grossa = strada principale con precedenza; linee sottili = strade secondarie. Il pannello mostra l'andamento della strada principale.",
+  "trap": "«andamento»: il percorso della strada principale.",
+  "caption": "La linea grossa è la principale"
+ },
+ "q22254": {
+  "short": "Questo segnale avvisa di un incrocio con precedenza; il pannello ne dà la forma.",
+  "rule": "Linea grossa = strada principale con precedenza; linee sottili = strade secondarie. Il pannello mostra l'andamento della strada principale.",
+  "trap": "«possono trovarsi»: è uno dei segnali che accompagnano.",
+  "caption": "Sotto «intersezione con precedenza»"
+ },
+ "q22255": {
+  "short": "B e C mostrano un incrocio dove la principale gira; non sono una curva pericolosa.",
+  "rule": "Linea grossa = strada principale con precedenza; linee sottili = strade secondarie. Il pannello mostra l'andamento della strada principale.",
+  "trap": "«curva pericolosa»: le linee sottili sono strade laterali, quindi è un incrocio.",
+  "caption": "Forma dell'incrocio, non curva"
+ },
+ "q22256": {
+  "short": "Le linee sono strade di un incrocio, non posti di sosta.",
+  "rule": "Linea grossa = strada principale con precedenza; linee sottili = strade secondarie. Il pannello mostra l'andamento della strada principale.",
+  "trap": "«lasciare il veicolo in sosta»: i pannelli riguardano la precedenza.",
+  "caption": "Forma dell'incrocio, non sosta"
+ },
+ "q22257": {
+  "short": "In autostrada non ci sono incroci a raso, quindi questi pannelli non servono.",
+  "rule": "Linea grossa = strada principale con precedenza; linee sottili = strade secondarie. Il pannello mostra l'andamento della strada principale.",
+  "trap": "«anche sulle autostrade»: in autostrada ci sono svincoli, non incroci.",
+  "caption": "Non si usano in autostrada"
+ },
+ "q22258": {
+  "short": "Le linee sottili sono strade laterali dell'incrocio, non vicoli ciechi.",
+  "rule": "Linea grossa = strada principale con precedenza; linee sottili = strade secondarie. Il pannello mostra l'andamento della strada principale.",
+  "trap": "«senza uscita»: è un altro segnale.",
+  "caption": "Strade laterali, non senza uscita"
+ },
+ "q22259": {
+  "short": "Le strade si incontrano allo stesso livello; nessun sottopassaggio.",
+  "rule": "Linea grossa = strada principale con precedenza; linee sottili = strade secondarie. Il pannello mostra l'andamento della strada principale.",
+  "trap": "«sottopassaggi»: le linee si incrociano, non passano sotto.",
+  "caption": "Incrocio, non sottopassaggi"
+ },
+ "q22260": {
+  "short": "Le strade sono aperte; il pannello mostra solo la strada principale.",
+  "rule": "Linea grossa = strada principale con precedenza; linee sottili = strade secondarie. Il pannello mostra l'andamento della strada principale.",
+  "trap": "«momentaneamente interrotte»: niente è chiuso.",
+  "caption": "Strade aperte: si vede la principale"
+ },
+ "q22261": {
+  "short": "Senso vietato «eccetto» autobus: vietato a tutti tranne gli autobus.",
+  "rule": "«Eccetto» + autobus = il segnale sopra non vale per gli autobus. Il pannello non sta mai da solo.",
+  "trap": "«eccetto»: l'autobus è l'eccezione al divieto.",
+  "caption": "Senso vietato tranne autobus"
+ },
+ "q22262": {
+  "short": "Il senso vietato vale per tutti tranne gli autobus.",
+  "rule": "«Eccetto» + autobus = il segnale sopra non vale per gli autobus. Il pannello non sta mai da solo.",
+  "trap": "«eccetto»: toglie il divieto solo agli autobus.",
+  "caption": "Solo gli autobus passano"
+ },
+ "q22263": {
+  "short": "Parcheggio con «eccetto» autobus: possono sostare tutti tranne gli autobus.",
+  "rule": "«Eccetto» + autobus = il segnale sopra non vale per gli autobus. Il pannello non sta mai da solo.",
+  "trap": "«tranne» = «eccetto»: gli autobus sono esclusi.",
+  "caption": "Parcheggio per tutti tranne autobus"
+ },
+ "q22264": {
+  "short": "Il pannello «eccetto» può togliere agli autobus anche un obbligo (es. direzione obbligatoria).",
+  "rule": "«Eccetto» + autobus = il segnale sopra non vale per gli autobus. Il pannello non sta mai da solo.",
+  "trap": "«abbinato»: il pannello lavora sempre insieme a un segnale.",
+  "caption": "Può stare sotto un obbligo"
+ },
+ "q22265": {
+  "short": "Sotto un divieto, come il senso vietato, «eccetto» autobus fa passare gli autobus.",
+  "rule": "«Eccetto» + autobus = il segnale sopra non vale per gli autobus. Il pannello non sta mai da solo.",
+  "trap": "«divieto»: è l'uso più comune di «eccetto».",
+  "caption": "Può stare sotto un divieto"
+ },
+ "q22266": {
+  "short": "È il contrario: gli autobus sono gli unici che possono entrare.",
+  "rule": "«Eccetto» + autobus = il segnale sopra non vale per gli autobus. Il pannello non sta mai da solo.",
+  "trap": "«eccetto»: gli autobus sono esclusi dal divieto.",
+  "caption": "Gli autobus possono entrare"
+ },
+ "q22267": {
+  "short": "«Eccetto» autobus: il divieto non vale per gli autobus.",
+  "rule": "«Eccetto» + autobus = il segnale sopra non vale per gli autobus. Il pannello non sta mai da solo.",
+  "trap": "«eccetto»: leggilo come «non per gli autobus».",
+  "caption": "Gli autobus passano, gli altri no"
+ },
+ "q22268": {
+  "short": "Il pannello cambia solo il segnale sopra; da solo non vale.",
+  "rule": "«Eccetto» + autobus = il segnale sopra non vale per gli autobus. Il pannello non sta mai da solo.",
+  "trap": "«da solo»: un pannello sta sempre sotto un segnale.",
+  "caption": "Mai da solo: sempre sotto un segnale"
+ },
+ "q22269": {
+  "short": "Il pannello vale per tutti gli autobus, non solo urbani.",
+  "rule": "«Eccetto» + autobus = il segnale sopra non vale per gli autobus. Il pannello non sta mai da solo.",
+  "trap": "«solo» + «urbani»: il pannello non dice «urbani».",
+  "caption": "Vale per tutti gli autobus"
+ }
+}

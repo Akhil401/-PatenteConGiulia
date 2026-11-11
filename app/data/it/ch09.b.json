@@ -1,0 +1,398 @@
+{
+ "q21884": {
+  "short": "La linea rossa chiude la corsia di sinistra e il triangolo indica lavori: cantiere mobile con strettoia a sinistra.",
+  "rule": "Pannello giallo (segnale temporaneo): preavviso di cantiere mobile. Da tre corsie si passa a due: chiude la corsia di sinistra (linea rossa). Può stare su un veicolo e avere luci gialle lampeggianti.",
+  "trap": "«strettoia a sinistra» corrisponde alla linea rossa a SINISTRA.",
+  "caption": "Cantiere mobile: chiude la corsia di sinistra"
+ },
+ "q21885": {
+  "short": "Per i lavori che si spostano, questo pannello sta spesso su un veicolo dietro gli operai.",
+  "rule": "Pannello giallo (segnale temporaneo): preavviso di cantiere mobile. Da tre corsie si passa a due: chiude la corsia di sinistra (linea rossa). Può stare su un veicolo e avere luci gialle lampeggianti.",
+  "trap": "«può essere installato su un veicolo» è giusto: il cantiere si muove, il segnale anche.",
+  "caption": "Questo pannello può stare su un veicolo"
+ },
+ "q21886": {
+  "short": "Le frecce nere sono le corsie aperte; la linea rossa è la corsia che chiude.",
+  "rule": "Pannello giallo (segnale temporaneo): preavviso di cantiere mobile. Da tre corsie si passa a due: chiude la corsia di sinistra (linea rossa). Può stare su un veicolo e avere luci gialle lampeggianti.",
+  "trap": "«corsie disponibili» = le frecce nere.",
+  "caption": "Frecce nere = corsie ancora aperte"
+ },
+ "q21887": {
+  "short": "Sul pannello ci sono tre corsie: quella di sinistra (rossa) finisce, due frecce nere continuano.",
+  "rule": "Pannello giallo (segnale temporaneo): preavviso di cantiere mobile. Da tre corsie si passa a due: chiude la corsia di sinistra (linea rossa). Può stare su un veicolo e avere luci gialle lampeggianti.",
+  "trap": "Conta le corsie: tre in basso, due in alto («da tre a due»).",
+  "caption": "Tre corsie diventano due"
+ },
+ "q21888": {
+  "short": "Le due luci tonde in alto sono luci gialle lampeggianti: il segnale si vede da lontano.",
+  "rule": "Pannello giallo (segnale temporaneo): preavviso di cantiere mobile. Da tre corsie si passa a due: chiude la corsia di sinistra (linea rossa). Può stare su un veicolo e avere luci gialle lampeggianti.",
+  "trap": "Guarda le due luci in alto: le «luci gialle lampeggianti» sono previste.",
+  "caption": "Luci gialle lampeggianti per farsi vedere"
+ },
+ "q21889": {
+  "short": "Le frecce sono corsie, non veicoli: il segnale non dà un numero di veicoli.",
+  "rule": "Pannello giallo (segnale temporaneo): preavviso di cantiere mobile. Da tre corsie si passa a due: chiude la corsia di sinistra (linea rossa). Può stare su un veicolo e avere luci gialle lampeggianti.",
+  "trap": "«quanti veicoli» è sbagliato: le frecce indicano corsie.",
+  "caption": "Frecce = corsie aperte, non numero di auto"
+ },
+ "q21890": {
+  "short": "La linea rossa a sinistra è una corsia chiusa per lavori, non un posto per fermarsi.",
+  "rule": "Pannello giallo (segnale temporaneo): preavviso di cantiere mobile. Da tre corsie si passa a due: chiude la corsia di sinistra (linea rossa). Può stare su un veicolo e avere luci gialle lampeggianti.",
+  "trap": "«piazzola di sosta» è sbagliato: rosso = corsia chiusa.",
+  "caption": "Corsia sinistra chiusa, non una piazzola"
+ },
+ "q21891": {
+  "short": "Il divieto 7 t è sulla freccia diritta per Lucca: i veicoli più pesanti devono fare un'altra strada.",
+  "rule": "Pannello giallo di direzione (segnale temporaneo di cantiere) prima di un incrocio. I veicoli oltre 7 t diretti a Lucca NON vanno diritto (divieto 7 t sulla freccia): cambiano strada. Gli altri possono andare diritto.",
+  "trap": "«massa effettiva» oltre 7 t: solo questi veicoli cambiano strada.",
+  "caption": "Oltre 7 t per Lucca: prendere la deviazione"
+ },
+ "q21892": {
+  "short": "Il divieto vale solo oltre 7 t. Un camion sotto 7 t anche carico può andare diritto.",
+  "rule": "Pannello giallo di direzione (segnale temporaneo di cantiere) prima di un incrocio. I veicoli oltre 7 t diretti a Lucca NON vanno diritto (divieto 7 t sulla freccia): cambiano strada. Gli altri possono andare diritto.",
+  "trap": "«inferiore a 7 tonnellate»: il divieto non vale per questi camion.",
+  "caption": "Sotto 7 t: si può andare diritto per Lucca"
+ },
+ "q21893": {
+  "short": "Il cerchio con il divieto 7 t è proprio sulla freccia diritta per Lucca.",
+  "rule": "Pannello giallo di direzione (segnale temporaneo di cantiere) prima di un incrocio. I veicoli oltre 7 t diretti a Lucca NON vanno diritto (divieto 7 t sulla freccia): cambiano strada. Gli altri possono andare diritto.",
+  "trap": "«non consente ... di proseguire diritto»: giusto, ma solo per i veicoli pesanti.",
+  "caption": "Oltre 7 t: niente diritto per Lucca"
+ },
+ "q21894": {
+  "short": "La strada diritta è chiusa solo ai veicoli oltre 7 t, per esempio per i lavori.",
+  "rule": "Pannello giallo di direzione (segnale temporaneo di cantiere) prima di un incrocio. I veicoli oltre 7 t diretti a Lucca NON vanno diritto (divieto 7 t sulla freccia): cambiano strada. Gli altri possono andare diritto.",
+  "trap": "«limitazione di transito»: limita solo i veicoli pesanti.",
+  "caption": "Tratto vietato ai veicoli oltre 7 t"
+ },
+ "q21895": {
+  "short": "È un pannello giallo di direzione: sta prima dell'incrocio dove i veicoli pesanti cambiano strada.",
+  "rule": "Pannello giallo di direzione (segnale temporaneo di cantiere) prima di un incrocio. I veicoli oltre 7 t diretti a Lucca NON vanno diritto (divieto 7 t sulla freccia): cambiano strada. Gli altri possono andare diritto.",
+  "trap": "«in vicinanza di un incrocio» è giusto: per cambiare strada serve un incrocio.",
+  "caption": "Prima dell'incrocio, prima del cantiere"
+ },
+ "q21896": {
+  "short": "Lo sfondo giallo dice che è un segnale temporaneo per i lavori.",
+  "rule": "Pannello giallo di direzione (segnale temporaneo di cantiere) prima di un incrocio. I veicoli oltre 7 t diretti a Lucca NON vanno diritto (divieto 7 t sulla freccia): cambiano strada. Gli altri possono andare diritto.",
+  "trap": "Sfondo giallo = segnale temporaneo («segnali temporanei»).",
+  "caption": "Sfondo giallo = segnale temporaneo di cantiere"
+ },
+ "q21897": {
+  "short": "Solo i veicoli oltre 7 t non vanno diritto. Gli altri vanno diritto a Lucca.",
+  "rule": "Pannello giallo di direzione (segnale temporaneo di cantiere) prima di un incrocio. I veicoli oltre 7 t diretti a Lucca NON vanno diritto (divieto 7 t sulla freccia): cambiano strada. Gli altri possono andare diritto.",
+  "trap": "«a tutti i veicoli» è sbagliato: il divieto è solo oltre 7 t.",
+  "caption": "Solo oltre 7 t cambiano strada, non tutti"
+ },
+ "q21898": {
+  "short": "Nessuno è obbligato a girare: solo i veicoli oltre 7 t cambiano strada per Lucca.",
+  "rule": "Pannello giallo di direzione (segnale temporaneo di cantiere) prima di un incrocio. I veicoli oltre 7 t diretti a Lucca NON vanno diritto (divieto 7 t sulla freccia): cambiano strada. Gli altri possono andare diritto.",
+  "trap": "«obbliga tutti i veicoli» è sbagliato: vale solo oltre 7 t.",
+  "caption": "Non tutti girano: solo oltre 7 t"
+ },
+ "q21899": {
+  "short": "Parla della strada da prendere, non del sorpasso: i veicoli pesanti non vanno diritto per Lucca.",
+  "rule": "Pannello giallo di direzione (segnale temporaneo di cantiere) prima di un incrocio. I veicoli oltre 7 t diretti a Lucca NON vanno diritto (divieto 7 t sulla freccia): cambiano strada. Gli altri possono andare diritto.",
+  "trap": "«vieta il sorpasso» è sbagliato: è un divieto di transito su una strada.",
+  "caption": "Divieto di transito oltre 7 t, non di sorpasso"
+ },
+ "q21900": {
+  "short": "Nel cerchio c'è «7 t»: tonnellate di massa, non metri di lunghezza.",
+  "rule": "Pannello giallo di direzione (segnale temporaneo di cantiere) prima di un incrocio. I veicoli oltre 7 t diretti a Lucca NON vanno diritto (divieto 7 t sulla freccia): cambiano strada. Gli altri possono andare diritto.",
+  "trap": "«7 metri di lunghezza» è sbagliato: «t» vuol dire tonnellate.",
+  "caption": "7 t = 7 tonnellate, non 7 metri"
+ },
+ "q21901": {
+  "short": "La linea rossa è a destra e la freccia di destra piega a sinistra: chiude la corsia di destra.",
+  "rule": "Pannello giallo (segnale temporaneo di cantiere): la corsia di DESTRA chiude (linea rossa) per lavori. Da due corsie a una: la carreggiata si stringe. Ci si sposta a sinistra. Si può aggiungere un pannello con la distanza.",
+  "trap": "«corsia di destra»: guarda dove è la linea rossa, qui a DESTRA.",
+  "caption": "Corsia di destra chiusa: spostati a sinistra"
+ },
+ "q21902": {
+  "short": "In basso due corsie, dopo la linea rossa ne resta una.",
+  "rule": "Pannello giallo (segnale temporaneo di cantiere): la corsia di DESTRA chiude (linea rossa) per lavori. Da due corsie a una: la carreggiata si stringe. Ci si sposta a sinistra. Si può aggiungere un pannello con la distanza.",
+  "trap": "Conta: due corsie, poi una («da due a una»).",
+  "caption": "Due corsie diventano una"
+ },
+ "q21903": {
+  "short": "È un segnale giallo temporaneo, usato dove i lavori chiudono una corsia.",
+  "rule": "Pannello giallo (segnale temporaneo di cantiere): la corsia di DESTRA chiude (linea rossa) per lavori. Da due corsie a una: la carreggiata si stringe. Ci si sposta a sinistra. Si può aggiungere un pannello con la distanza.",
+  "trap": "Giallo = segnale di cantiere, quindi «cantiere stradale» è giusto.",
+  "caption": "Segnale giallo = vicino a un cantiere"
+ },
+ "q21904": {
+  "short": "Sotto si può mettere un pannello con i metri che mancano alla chiusura della corsia.",
+  "rule": "Pannello giallo (segnale temporaneo di cantiere): la corsia di DESTRA chiude (linea rossa) per lavori. Da due corsie a una: la carreggiata si stringe. Ci si sposta a sinistra. Si può aggiungere un pannello con la distanza.",
+  "trap": "«può essere completato»: un pannello con la distanza è permesso.",
+  "caption": "Un pannello può dare la distanza"
+ },
+ "q21905": {
+  "short": "Con una corsia chiusa, la carreggiata (la parte per i veicoli) diventa più stretta.",
+  "rule": "Pannello giallo (segnale temporaneo di cantiere): la corsia di DESTRA chiude (linea rossa) per lavori. Da due corsie a una: la carreggiata si stringe. Ci si sposta a sinistra. Si può aggiungere un pannello con la distanza.",
+  "trap": "«restringimento»: meno corsie = strada più stretta.",
+  "caption": "Corsia chiusa = carreggiata più stretta"
+ },
+ "q21906": {
+  "short": "La corsia di destra è chiusa: lì non si passa, tanto meno si sorpassa.",
+  "rule": "Pannello giallo (segnale temporaneo di cantiere): la corsia di DESTRA chiude (linea rossa) per lavori. Da due corsie a una: la carreggiata si stringe. Ci si sposta a sinistra. Si può aggiungere un pannello con la distanza.",
+  "trap": "«sorpassare a destra» è sbagliato: chiude proprio la corsia di destra.",
+  "caption": "Chiude la destra: niente sorpasso a destra"
+ },
+ "q21907": {
+  "short": "La freccia che piega vuol dire che la corsia finisce: non è un'uscita per tornare indietro.",
+  "rule": "Pannello giallo (segnale temporaneo di cantiere): la corsia di DESTRA chiude (linea rossa) per lavori. Da due corsie a una: la carreggiata si stringe. Ci si sposta a sinistra. Si può aggiungere un pannello con la distanza.",
+  "trap": "«inversione di marcia» è sbagliato: la freccia passa solo nell'altra corsia.",
+  "caption": "Corsia che chiude, non inversione di marcia"
+ },
+ "q21908": {
+  "short": "Sta vicino a un cantiere dove una corsia chiude, non vicino a un incrocio.",
+  "rule": "Pannello giallo (segnale temporaneo di cantiere): la corsia di DESTRA chiude (linea rossa) per lavori. Da due corsie a una: la carreggiata si stringe. Ci si sposta a sinistra. Si può aggiungere un pannello con la distanza.",
+  "trap": "«incrocio» è sbagliato: il posto è un cantiere.",
+  "caption": "Sta prima dei lavori, non di un incrocio"
+ },
+ "q21909": {
+  "short": "La linea rossa è una corsia chiusa per lavori, non una fermata per autobus.",
+  "rule": "Pannello giallo (segnale temporaneo di cantiere): la corsia di DESTRA chiude (linea rossa) per lavori. Da due corsie a una: la carreggiata si stringe. Ci si sposta a sinistra. Si può aggiungere un pannello con la distanza.",
+  "trap": "«fermata degli autobus» è sbagliato: il segnale non parla di autobus.",
+  "caption": "Corsia chiusa, non fermata dell'autobus"
+ },
+ "q21910": {
+  "short": "Chiude la normale corsia di destra per lavori. Non parla della corsia per veicoli lenti.",
+  "rule": "Pannello giallo (segnale temporaneo di cantiere): la corsia di DESTRA chiude (linea rossa) per lavori. Da due corsie a una: la carreggiata si stringe. Ci si sposta a sinistra. Si può aggiungere un pannello con la distanza.",
+  "trap": "«corsia per i veicoli lenti» (corsia speciale in salita) è sbagliato.",
+  "caption": "Chiude la destra per lavori, non la corsia lenta"
+ },
+ "q21911": {
+  "short": "Non è un segnale di precedenza: mostra solo che la corsia di destra chiude.",
+  "rule": "Pannello giallo (segnale temporaneo di cantiere): la corsia di DESTRA chiude (linea rossa) per lavori. Da due corsie a una: la carreggiata si stringe. Ci si sposta a sinistra. Si può aggiungere un pannello con la distanza.",
+  "trap": "«dare la precedenza» è sbagliato: il segnale parla di corsie.",
+  "caption": "Parla di corsie, non di precedenza"
+ },
+ "q21912": {
+  "short": "Le auto sono sotto le due frecce, il camion solo sotto quella di destra.",
+  "rule": "Pannello giallo (segnale temporaneo di cantiere) sull'uso delle corsie: le auto usano le due corsie, gli autocarri oltre 3,5 t solo la corsia di destra.",
+  "trap": "«categorie di veicoli»: auto e camion hanno corsie diverse.",
+  "caption": "Auto: due corsie. Camion: solo destra"
+ },
+ "q21913": {
+  "short": "Ogni freccia è una corsia; i simboli sotto dicono chi la può usare.",
+  "rule": "Pannello giallo (segnale temporaneo di cantiere) sull'uso delle corsie: le auto usano le due corsie, gli autocarri oltre 3,5 t solo la corsia di destra.",
+  "trap": "«uso delle corsie» è proprio il suo compito.",
+  "caption": "Segnale di uso delle corsie nei lavori"
+ },
+ "q21914": {
+  "short": "I camion devono usare la corsia di destra; le auto possono usare le due corsie.",
+  "rule": "Pannello giallo (segnale temporaneo di cantiere) sull'uso delle corsie: le auto usano le due corsie, gli autocarri oltre 3,5 t solo la corsia di destra.",
+  "trap": "«debbono circolare»: è un obbligo, non un consiglio.",
+  "caption": "Ogni veicolo deve stare nelle sue corsie"
+ },
+ "q21915": {
+  "short": "Il simbolo del camion è solo sotto la freccia di destra: è la loro corsia.",
+  "rule": "Pannello giallo (segnale temporaneo di cantiere) sull'uso delle corsie: le auto usano le due corsie, gli autocarri oltre 3,5 t solo la corsia di destra.",
+  "trap": "«autocarri»: il simbolo del camion indica questi veicoli oltre 3,5 t.",
+  "caption": "Camion oltre 3,5 t: corsia di destra"
+ },
+ "q21916": {
+  "short": "Il camion è disegnato solo sotto la freccia di destra: può usare solo quella corsia.",
+  "rule": "Pannello giallo (segnale temporaneo di cantiere) sull'uso delle corsie: le auto usano le due corsie, gli autocarri oltre 3,5 t solo la corsia di destra.",
+  "trap": "«solo la corsia di destra»: qui «solo» è giusto.",
+  "caption": "Camion: solo corsia di destra"
+ },
+ "q21917": {
+  "short": "Mostra le corsie per auto e camion durante i lavori; non parla di caselli.",
+  "rule": "Pannello giallo (segnale temporaneo di cantiere) sull'uso delle corsie: le auto usano le due corsie, gli autocarri oltre 3,5 t solo la corsia di destra.",
+  "trap": "«casello autostradale» è sbagliato: non c'è il simbolo del casello.",
+  "caption": "Uso delle corsie, non casello"
+ },
+ "q21918": {
+  "short": "I camion hanno UNA sola corsia (quella di destra): non possono andare affiancati.",
+  "rule": "Pannello giallo (segnale temporaneo di cantiere) sull'uso delle corsie: le auto usano le due corsie, gli autocarri oltre 3,5 t solo la corsia di destra.",
+  "trap": "«file parallele» è sbagliato: i camion hanno una sola corsia.",
+  "caption": "Camion: una sola corsia, niente file parallele"
+ },
+ "q21919": {
+  "short": "I camion devono stare nella corsia di destra; il segnale non parla di sorpasso a destra.",
+  "rule": "Pannello giallo (segnale temporaneo di cantiere) sull'uso delle corsie: le auto usano le due corsie, gli autocarri oltre 3,5 t solo la corsia di destra.",
+  "trap": "«sorpassare a destra» è sbagliato: parla di corsie, non di sorpasso.",
+  "caption": "Camion a destra, niente sorpasso a destra"
+ },
+ "q21920": {
+  "short": "Solo i camion sono limitati alla destra; le moto non sono sul segnale.",
+  "rule": "Pannello giallo (segnale temporaneo di cantiere) sull'uso delle corsie: le auto usano le due corsie, gli autocarri oltre 3,5 t solo la corsia di destra.",
+  "trap": "«motocicli» è sbagliato: il segnale mostra auto e camion.",
+  "caption": "Limitati solo i camion, non le moto"
+ },
+ "q21921": {
+  "short": "Catarifrangenti gialli: delineatori per strade a senso unico, ai due lati.",
+  "rule": "Delineatori (paletti al margine della strada) con catarifrangenti GIALLI: ai margini di strade o carreggiate a senso unico. Sono segnali complementari: mostrano l'andamento della strada, di giorno e soprattutto al buio.",
+  "trap": "«senso unico» va con i catarifrangenti GIALLI.",
+  "caption": "Gialli = margini di strada a senso unico"
+ },
+ "q21922": {
+  "short": "I delineatori sono segnali complementari: aiutano a vedere com'è la strada.",
+  "rule": "Delineatori (paletti al margine della strada) con catarifrangenti GIALLI: ai margini di strade o carreggiate a senso unico. Sono segnali complementari: mostrano l'andamento della strada, di giorno e soprattutto al buio.",
+  "trap": "«segnali complementari» è la famiglia giusta.",
+  "caption": "I delineatori sono segnali complementari"
+ },
+ "q21923": {
+  "short": "I delineatori gialli stanno ai margini di una strada o carreggiata a senso unico.",
+  "rule": "Delineatori (paletti al margine della strada) con catarifrangenti GIALLI: ai margini di strade o carreggiate a senso unico. Sono segnali complementari: mostrano l'andamento della strada, di giorno e soprattutto al buio.",
+  "trap": "«ai margini» e «senso unico»: tutti e due giusti.",
+  "caption": "Ai margini di una strada a senso unico"
+ },
+ "q21924": {
+  "short": "Una fila di paletti al margine mostra dove va la strada, soprattutto in curva e al buio.",
+  "rule": "Delineatori (paletti al margine della strada) con catarifrangenti GIALLI: ai margini di strade o carreggiate a senso unico. Sono segnali complementari: mostrano l'andamento della strada, di giorno e soprattutto al buio.",
+  "trap": "«andamento della strada»: è il loro compito principale.",
+  "caption": "I paletti mostrano dove va la strada"
+ },
+ "q21925": {
+  "short": "I catarifrangenti gialli sono per il senso unico; nel doppio senso sono bianchi e rossi.",
+  "rule": "Delineatori (paletti al margine della strada) con catarifrangenti GIALLI: ai margini di strade o carreggiate a senso unico. Sono segnali complementari: mostrano l'andamento della strada, di giorno e soprattutto al buio.",
+  "trap": "«doppio senso» è sbagliato per i delineatori GIALLI.",
+  "caption": "Giallo = senso unico, non doppio senso"
+ },
+ "q21926": {
+  "short": "I delineatori stanno lungo i margini; non annunciano attraversamenti pedonali.",
+  "rule": "Delineatori (paletti al margine della strada) con catarifrangenti GIALLI: ai margini di strade o carreggiate a senso unico. Sono segnali complementari: mostrano l'andamento della strada, di giorno e soprattutto al buio.",
+  "trap": "«attraversamento pedonale» è sbagliato: segnano il margine.",
+  "caption": "Segnano i margini, non le strisce"
+ },
+ "q21927": {
+  "short": "I delineatori stanno ai margini della strada, mai al centro.",
+  "rule": "Delineatori (paletti al margine della strada) con catarifrangenti GIALLI: ai margini di strade o carreggiate a senso unico. Sono segnali complementari: mostrano l'andamento della strada, di giorno e soprattutto al buio.",
+  "trap": "«al centro» è sbagliato: stanno «ai margini».",
+  "caption": "Ai margini, non al centro"
+ },
+ "q21928": {
+  "short": "Le corsie si dividono con le strisce; i delineatori segnano solo i margini.",
+  "rule": "Delineatori (paletti al margine della strada) con catarifrangenti GIALLI: ai margini di strade o carreggiate a senso unico. Sono segnali complementari: mostrano l'andamento della strada, di giorno e soprattutto al buio.",
+  "trap": "«dividono in corsie» è sbagliato: lo fanno le strisce.",
+  "caption": "Le strisce fanno le corsie, i paletti i margini"
+ },
+ "q21929": {
+  "short": "Mostrano i margini di una strada a senso unico, non un parcheggio.",
+  "rule": "Delineatori (paletti al margine della strada) con catarifrangenti GIALLI: ai margini di strade o carreggiate a senso unico. Sono segnali complementari: mostrano l'andamento della strada, di giorno e soprattutto al buio.",
+  "trap": "«area di sosta riservata» è sbagliato.",
+  "caption": "Margini della strada, non parcheggio"
+ },
+ "q21930": {
+  "short": "I paletti si vedono anche di giorno; di notte i catarifrangenti brillano con i fari.",
+  "rule": "Delineatori (paletti al margine della strada) con catarifrangenti GIALLI: ai margini di strade o carreggiate a senso unico. Sono segnali complementari: mostrano l'andamento della strada, di giorno e soprattutto al buio.",
+  "trap": "«solo di notte» è sbagliato: giorno e notte.",
+  "caption": "Si vedono di giorno e di notte"
+ },
+ "q21931": {
+  "short": "Di notte, con nebbia o pioggia i catarifrangenti mostrano il margine della strada.",
+  "rule": "Paletti bianchi con fascia nera: delineatori normali per strade a DOPPIO senso. Catarifrangente rosso sul margine destro, bianco sul sinistro. Sono segnali complementari ai margini: mostrano l'andamento della strada, utili soprattutto con poca visibilità.",
+  "trap": "«soprattutto» è giusto: non dice «solo».",
+  "caption": "Utili soprattutto di notte e con nebbia"
+ },
+ "q21932": {
+  "short": "I delineatori sono segnali complementari: aiutano a vedere com'è la strada.",
+  "rule": "Paletti bianchi con fascia nera: delineatori normali per strade a DOPPIO senso. Catarifrangente rosso sul margine destro, bianco sul sinistro. Sono segnali complementari ai margini: mostrano l'andamento della strada, utili soprattutto con poca visibilità.",
+  "trap": "«segnali complementari» è la famiglia giusta.",
+  "caption": "I delineatori sono segnali complementari"
+ },
+ "q21933": {
+  "short": "Catarifrangenti bianchi e rossi: delineatori per strade a doppio senso, ai due margini.",
+  "rule": "Paletti bianchi con fascia nera: delineatori normali per strade a DOPPIO senso. Catarifrangente rosso sul margine destro, bianco sul sinistro. Sono segnali complementari ai margini: mostrano l'andamento della strada, utili soprattutto con poca visibilità.",
+  "trap": "«doppio senso» va con i catarifrangenti bianchi e rossi.",
+  "caption": "Bianco/rosso = margini del doppio senso"
+ },
+ "q21934": {
+  "short": "Una fila di paletti al margine mostra dove va la strada, soprattutto in curva e al buio.",
+  "rule": "Paletti bianchi con fascia nera: delineatori normali per strade a DOPPIO senso. Catarifrangente rosso sul margine destro, bianco sul sinistro. Sono segnali complementari ai margini: mostrano l'andamento della strada, utili soprattutto con poca visibilità.",
+  "trap": "«andamento della strada»: è il loro compito principale.",
+  "caption": "I paletti mostrano dove va la strada"
+ },
+ "q21935": {
+  "short": "Aiutano anche di giorno e con nebbia o pioggia, ogni volta che si vede poco.",
+  "rule": "Paletti bianchi con fascia nera: delineatori normali per strade a DOPPIO senso. Catarifrangente rosso sul margine destro, bianco sul sinistro. Sono segnali complementari ai margini: mostrano l'andamento della strada, utili soprattutto con poca visibilità.",
+  "trap": "«solo» è sbagliato: anche con nebbia, pioggia e di giorno.",
+  "caption": "Non solo di notte: anche nebbia e pioggia"
+ },
+ "q21936": {
+  "short": "Stanno a brevi intervalli regolari, così si vede una fila; in curva sono ancora più vicini.",
+  "rule": "Paletti bianchi con fascia nera: delineatori normali per strade a DOPPIO senso. Catarifrangente rosso sul margine destro, bianco sul sinistro. Sono segnali complementari ai margini: mostrano l'andamento della strada, utili soprattutto con poca visibilità.",
+  "trap": "«almeno 100 metri» è sbagliato: sono più vicini.",
+  "caption": "Vicini tra loro, non a 100 m"
+ },
+ "q21937": {
+  "short": "I delineatori stanno ai margini della strada, mai al centro.",
+  "rule": "Paletti bianchi con fascia nera: delineatori normali per strade a DOPPIO senso. Catarifrangente rosso sul margine destro, bianco sul sinistro. Sono segnali complementari ai margini: mostrano l'andamento della strada, utili soprattutto con poca visibilità.",
+  "trap": "«al centro» è sbagliato: stanno «ai margini».",
+  "caption": "Ai margini, non al centro"
+ },
+ "q21938": {
+  "short": "Le corsie si dividono con le strisce; i delineatori segnano solo i margini.",
+  "rule": "Paletti bianchi con fascia nera: delineatori normali per strade a DOPPIO senso. Catarifrangente rosso sul margine destro, bianco sul sinistro. Sono segnali complementari ai margini: mostrano l'andamento della strada, utili soprattutto con poca visibilità.",
+  "trap": "«dividono in corsie» è sbagliato: lo fanno le strisce.",
+  "caption": "Le strisce fanno le corsie, i paletti i margini"
+ },
+ "q21939": {
+  "short": "Catarifrangenti bianchi e rossi: doppio senso. Per il senso unico sono gialli.",
+  "rule": "Paletti bianchi con fascia nera: delineatori normali per strade a DOPPIO senso. Catarifrangente rosso sul margine destro, bianco sul sinistro. Sono segnali complementari ai margini: mostrano l'andamento della strada, utili soprattutto con poca visibilità.",
+  "trap": "«senso unico» qui è sbagliato: quelli del senso unico sono GIALLI.",
+  "caption": "Il senso unico usa delineatori gialli"
+ },
+ "q21940": {
+  "short": "Questo pannello giallo sta lungo le pareti delle gallerie a senso unico.",
+  "rule": "Pannello tutto giallo su un paletto: delineatore per gallerie, ai lati delle gallerie a SENSO UNICO. È un segnale complementare, può segnalare anche deviazioni o strettoie. È rifrangente, non ha luce propria.",
+  "trap": "«gallerie a senso unico» è giusto.",
+  "caption": "Pannelli gialli nelle gallerie a senso unico"
+ },
+ "q21941": {
+  "short": "È un segnale complementare e si mette nelle gallerie a senso unico.",
+  "rule": "Pannello tutto giallo su un paletto: delineatore per gallerie, ai lati delle gallerie a SENSO UNICO. È un segnale complementare, può segnalare anche deviazioni o strettoie. È rifrangente, non ha luce propria.",
+  "trap": "Tutte e due le parti sono giuste: «segnale complementare» e «gallerie a senso unico».",
+  "caption": "Segnale complementare per gallerie a senso unico"
+ },
+ "q21942": {
+  "short": "Oltre alle gallerie, lo stesso pannello giallo può segnalare una deviazione o una strettoia.",
+  "rule": "Pannello tutto giallo su un paletto: delineatore per gallerie, ai lati delle gallerie a SENSO UNICO. È un segnale complementare, può segnalare anche deviazioni o strettoie. È rifrangente, non ha luce propria.",
+  "trap": "«anche»: le gallerie sono l'uso principale, ma non l'unico.",
+  "caption": "Anche per deviazioni e strettoie"
+ },
+ "q21943": {
+  "short": "I delineatori, come questo per gallerie, sono segnali complementari.",
+  "rule": "Pannello tutto giallo su un paletto: delineatore per gallerie, ai lati delle gallerie a SENSO UNICO. È un segnale complementare, può segnalare anche deviazioni o strettoie. È rifrangente, non ha luce propria.",
+  "trap": "«segnale complementare» è la famiglia giusta.",
+  "caption": "Delineatore per gallerie = segnale complementare"
+ },
+ "q21944": {
+  "short": "Sta ai lati delle gallerie a senso unico; non segnala un incrocio.",
+  "rule": "Pannello tutto giallo su un paletto: delineatore per gallerie, ai lati delle gallerie a SENSO UNICO. È un segnale complementare, può segnalare anche deviazioni o strettoie. È rifrangente, non ha luce propria.",
+  "trap": "«incrocio» è sbagliato: gallerie, non incroci.",
+  "caption": "Lati della galleria, non incrocio"
+ },
+ "q21945": {
+  "short": "Mostra il margine della strada in galleria; si continua a passare.",
+  "rule": "Pannello tutto giallo su un paletto: delineatore per gallerie, ai lati delle gallerie a SENSO UNICO. È un segnale complementare, può segnalare anche deviazioni o strettoie. È rifrangente, non ha luce propria.",
+  "trap": "«strada chiusa» è sbagliato: segna solo il margine.",
+  "caption": "Segna il margine, la strada è aperta"
+ },
+ "q21946": {
+  "short": "Sta ai lati della galleria, non al centro della strada per un ostacolo.",
+  "rule": "Pannello tutto giallo su un paletto: delineatore per gallerie, ai lati delle gallerie a SENSO UNICO. È un segnale complementare, può segnalare anche deviazioni o strettoie. È rifrangente, non ha luce propria.",
+  "trap": "«al centro» è sbagliato: sta «ai lati».",
+  "caption": "Ai lati, non al centro"
+ },
+ "q21947": {
+  "short": "Le corsie si dividono con le strisce; questo delineatore segna il lato della galleria.",
+  "rule": "Pannello tutto giallo su un paletto: delineatore per gallerie, ai lati delle gallerie a SENSO UNICO. È un segnale complementare, può segnalare anche deviazioni o strettoie. È rifrangente, non ha luce propria.",
+  "trap": "«divide in corsie» è sbagliato: lo fanno le strisce.",
+  "caption": "Le strisce fanno le corsie, il pannello il lato"
+ },
+ "q21948": {
+  "short": "I pannelli distanziometrici del passaggio a livello hanno barre rosse; questo è un delineatore per gallerie.",
+  "rule": "Pannello tutto giallo su un paletto: delineatore per gallerie, ai lati delle gallerie a SENSO UNICO. È un segnale complementare, può segnalare anche deviazioni o strettoie. È rifrangente, non ha luce propria.",
+  "trap": "«pannello distanziometrico» è sbagliato: quelli hanno barre rosse.",
+  "caption": "Delineatore per gallerie, non passaggio a livello"
+ },
+ "q21949": {
+  "short": "Non ha una lampada: è rifrangente e brilla con la luce dei fari.",
+  "rule": "Pannello tutto giallo su un paletto: delineatore per gallerie, ai lati delle gallerie a SENSO UNICO. È un segnale complementare, può segnalare anche deviazioni o strettoie. È rifrangente, non ha luce propria.",
+  "trap": "«luce propria» è sbagliato: riflette solo la luce.",
+  "caption": "Riflette la luce dei fari, non ha luce propria"
+ }
+}

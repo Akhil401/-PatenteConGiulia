@@ -1,0 +1,2086 @@
+{
+ "q22270": {
+  "en": "The driver must adjust their speed according to the features of the vehicle.",
+  "explain": {
+   "short": "A truck, a small car and a sports car do not brake or turn in the same way. Your speed must fit the vehicle you drive.",
+   "rule": "Adjust your speed to the vehicle (its features, condition and load), the road (its features and condition), the traffic and the weather. You must stay within the speed limits and never be a danger to people or things, or cause disorder in traffic.",
+   "trap": "'caratteristiche del veicolo' (features of the vehicle) is one of the factors in the law.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Speed fits the vehicle you drive",
+    "it": "caratteristiche del veicolo",
+    "lines": [
+     "Truck: brakes slowly",
+     "Small car: different limits",
+     "Speed fits your vehicle"
+    ],
+    "icons": [
+     "truck",
+     "car",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "caratteristiche del veicolo",
+    "en": "features of the vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22271": {
+  "en": "The driver must adjust their speed according to the condition of the vehicle.",
+  "explain": {
+   "short": "Worn brakes or tyres make stopping longer. If the vehicle is not in perfect condition, you must go slower.",
+   "rule": "Adjust your speed to the vehicle (its features, condition and load), the road (its features and condition), the traffic and the weather. You must stay within the speed limits and never be a danger to people or things, or cause disorder in traffic.",
+   "trap": "'stato del veicolo' (condition of the vehicle) means how worn or efficient it is: it counts.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Worn brakes or tyres: go slower",
+    "it": "stato del veicolo",
+    "lines": [
+     "Worn brakes: longer stop",
+     "Worn tyres: less grip",
+     "So: lower speed"
+    ],
+    "icons": [
+     "brake",
+     "tyre",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "stato del veicolo",
+    "en": "condition of the vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22272": {
+  "en": "The driver must adjust their speed according to the load of the vehicle.",
+  "explain": {
+   "short": "A heavy load makes the vehicle slower to brake and less stable in bends. So you must reduce speed.",
+   "rule": "Adjust your speed to the vehicle (its features, condition and load), the road (its features and condition), the traffic and the weather. You must stay within the speed limits and never be a danger to people or things, or cause disorder in traffic.",
+   "trap": "'carico del veicolo' (load of the vehicle) is one of the factors in the law.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Heavy load: brake earlier, go slower",
+    "it": "carico del veicolo",
+    "lines": [
+     "Heavy load",
+     "Longer braking, less stable",
+     "Lower speed"
+    ],
+    "icons": [
+     "truck",
+     "brake",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "carico del veicolo",
+    "en": "load of the vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22273": {
+  "en": "The driver must adjust their speed according to the features of the road.",
+  "explain": {
+   "short": "A narrow, winding mountain road needs a lower speed than a wide straight road. Speed must fit the road.",
+   "rule": "Adjust your speed to the vehicle (its features, condition and load), the road (its features and condition), the traffic and the weather. You must stay within the speed limits and never be a danger to people or things, or cause disorder in traffic.",
+   "trap": "'caratteristiche della strada' (features of the road: width, bends, slopes) is a factor in the law.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Narrow, winding road: lower speed",
+    "it": "caratteristiche della strada",
+    "lines": [
+     "Narrow road, many bends",
+     "Wide straight road",
+     "Speed fits the road"
+    ],
+    "icons": [
+     "curve",
+     "road",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "caratteristiche della strada",
+    "en": "features of the road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22274": {
+  "en": "The driver must adjust their speed according to the conditions of the road.",
+  "explain": {
+   "short": "A wet, icy or damaged road surface gives less grip. You must slow down to stay safe.",
+   "rule": "Adjust your speed to the vehicle (its features, condition and load), the road (its features and condition), the traffic and the weather. You must stay within the speed limits and never be a danger to people or things, or cause disorder in traffic.",
+   "trap": "'condizioni della strada' (state of the surface: wet, icy, potholes) is a factor in the law.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wet or icy surface: slow down",
+    "it": "condizioni della strada",
+    "lines": [
+     "Wet surface",
+     "Ice or snow",
+     "Less grip: slow down"
+    ],
+    "icons": [
+     "rain",
+     "snow",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "condizioni della strada",
+    "en": "conditions of the road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22275": {
+  "en": "The driver must adjust their speed according to the traffic conditions.",
+  "explain": {
+   "short": "In heavy traffic things happen fast around you. A lower speed gives you time to react.",
+   "rule": "Adjust your speed to the vehicle (its features, condition and load), the road (its features and condition), the traffic and the weather. You must stay within the speed limits and never be a danger to people or things, or cause disorder in traffic.",
+   "trap": "'condizioni del traffico' (traffic conditions) is a factor in the law.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Heavy traffic: lower speed",
+    "it": "condizioni del traffico",
+    "lines": [
+     "Many vehicles around",
+     "Less time to react",
+     "Lower speed"
+    ],
+    "icons": [
+     "car",
+     "warning",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "condizioni del traffico",
+    "en": "traffic conditions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22276": {
+  "en": "The driver must adjust their speed so as not to be a danger of damage to things.",
+  "explain": {
+   "short": "Your speed must never put property at risk, like parked cars, fences or buildings. This is one aim of the speed rule.",
+   "rule": "Adjust your speed to the vehicle (its features, condition and load), the road (its features and condition), the traffic and the weather. You must stay within the speed limits and never be a danger to people or things, or cause disorder in traffic.",
+   "trap": "'pericolo di danno alle cose' (danger of damage to things) is one of the aims of the law.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No danger to things around you",
+    "it": "danno alle cose",
+    "lines": [
+     "Parked cars, fences, walls",
+     "Speed must not risk damage",
+     "Stay in control"
+    ],
+    "icons": [
+     "car",
+     "warning",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "pericolo di danno alle cose",
+    "en": "danger of damage to things"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22277": {
+  "en": "The driver must adjust their speed so as not to be a danger to people.",
+  "explain": {
+   "short": "The main aim of the speed rule is safety. Your speed must never put people at risk.",
+   "rule": "Adjust your speed to the vehicle (its features, condition and load), the road (its features and condition), the traffic and the weather. You must stay within the speed limits and never be a danger to people or things, or cause disorder in traffic.",
+   "trap": "'pericolo per le persone' (danger to people) is the main aim of the law.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No danger to people",
+    "it": "pericolo per le persone",
+    "lines": [
+     "People on and near the road",
+     "Speed must not risk them",
+     "Slow down when needed"
+    ],
+    "icons": [
+     "pedestrian",
+     "warning",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "pericolo per le persone",
+    "en": "danger to people"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22278": {
+  "en": "The driver must adjust their speed so as not to cause disorder in traffic.",
+  "explain": {
+   "short": "Going too fast, or much too slowly, upsets the flow of traffic. Your speed must keep traffic smooth and orderly.",
+   "rule": "Adjust your speed to the vehicle (its features, condition and load), the road (its features and condition), the traffic and the weather. You must stay within the speed limits and never be a danger to people or things, or cause disorder in traffic.",
+   "trap": "'disordine per la circolazione' (disorder in traffic) is one of the things the law wants to avoid.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Smooth flow, no disorder in traffic",
+    "it": "disordine",
+    "lines": [
+     "Too fast: danger",
+     "Too slow: blocks others",
+     "Keep traffic smooth"
+    ],
+    "icons": [
+     "speed",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "disordine per la circolazione",
+    "en": "disorder in traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22279": {
+  "en": "The driver must adjust their speed within the maximum limits allowed.",
+  "explain": {
+   "short": "You must never go over the maximum speed limit. Inside that limit, you then adapt to the real conditions.",
+   "rule": "Adjust your speed to the vehicle (its features, condition and load), the road (its features and condition), the traffic and the weather. You must stay within the speed limits and never be a danger to people or things, or cause disorder in traffic.",
+   "trap": "'entro i limiti massimi' (within the maximum limits): you must stay under them, true.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Never above the maximum limit",
+    "it": "limiti massimi",
+    "lines": [
+     "Town: 50 km/h",
+     "Motorway: 130 km/h",
+     "Never go over the limit"
+    ],
+    "icons": [
+     "sign",
+     "road",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "entro i limiti massimi consentiti",
+    "en": "within the maximum limits allowed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22280": {
+  "en": "The driver must adjust their speed so as to respect the restrictions imposed.",
+  "explain": {
+   "short": "Signs can set lower limits, for example near road works. You must obey every limit that is imposed.",
+   "rule": "Adjust your speed to the vehicle (its features, condition and load), the road (its features and condition), the traffic and the weather. You must stay within the speed limits and never be a danger to people or things, or cause disorder in traffic.",
+   "trap": "'limitazioni imposte' (restrictions imposed) means limits set by signs or rules: you must respect them.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Obey every speed limit set by signs",
+    "it": "limitazioni imposte",
+    "lines": [
+     "Sign shows a lower limit",
+     "For example: 30 km/h",
+     "You must obey it"
+    ],
+    "icons": [
+     "sign",
+     "speed",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "limitazioni imposte",
+    "en": "restrictions imposed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22281": {
+  "en": "The driver must adjust their speed according to the weather conditions.",
+  "explain": {
+   "short": "Rain, fog, snow or strong wind reduce grip and visibility. You must slow down.",
+   "rule": "Adjust your speed to the vehicle (its features, condition and load), the road (its features and condition), the traffic and the weather. You must stay within the speed limits and never be a danger to people or things, or cause disorder in traffic.",
+   "trap": "'condizioni atmosferiche' (weather conditions) is a factor in the law.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bad weather: slow down",
+    "it": "condizioni atmosferiche",
+    "lines": [
+     "Rain",
+     "Fog",
+     "Snow: slow down more"
+    ],
+    "icons": [
+     "rain",
+     "fog",
+     "snow"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "condizioni atmosferiche",
+    "en": "weather conditions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22282": {
+  "en": "The driver must adjust their speed taking into account only the maximum limits.",
+  "explain": {
+   "short": "The limit is only the top speed allowed. You must also think about road, traffic, vehicle and weather, and often go slower.",
+   "rule": "Adjust your speed to the vehicle (its features, condition and load), the road (its features and condition), the traffic and the weather. You must stay within the speed limits and never be a danger to people or things, or cause disorder in traffic.",
+   "trap": "'esclusivamente' (only): the limits are not the only thing that counts.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not only the limit: also road, traffic, weather",
+    "it": "esclusivamente",
+    "lines": [
+     "Limit: the top speed",
+     "Fog or traffic: go slower",
+     "Limit is not the only rule"
+    ],
+    "icons": [
+     "sign",
+     "fog",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "esclusivamente",
+    "en": "only, exclusively"
+   },
+   {
+    "it": "limiti massimi",
+    "en": "maximum limits"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22283": {
+  "en": "The driver must adjust their speed according to their own driving skill.",
+  "explain": {
+   "short": "The law lists the vehicle, road, traffic and weather, not your skill. Being a good driver does not let you go faster.",
+   "rule": "Adjust your speed to the vehicle (its features, condition and load), the road (its features and condition), the traffic and the weather. You must stay within the speed limits and never be a danger to people or things, or cause disorder in traffic.",
+   "trap": "'propria abilità alla guida' (your own driving skill) is not one of the factors in the law.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Skill is not a reason to go faster",
+    "it": "abilità alla guida",
+    "lines": [
+     "Law: vehicle, road, traffic",
+     "And the weather",
+     "Your skill: not a factor"
+    ],
+    "icons": [
+     "car",
+     "rain",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "abilità alla guida",
+    "en": "driving skill"
+   },
+   {
+    "it": "propria",
+    "en": "own"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22284": {
+  "en": "The driver must adjust their speed according to the brand of the tyres.",
+  "explain": {
+   "short": "The brand of the tyres does not matter. What matters is their condition (wear, pressure) and the road.",
+   "rule": "Adjust your speed to the vehicle (its features, condition and load), the road (its features and condition), the traffic and the weather. You must stay within the speed limits and never be a danger to people or things, or cause disorder in traffic.",
+   "trap": "'marca dei pneumatici' (brand of the tyres): the brand is not a factor, the condition is.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tyre brand does not matter",
+    "it": "marca dei pneumatici",
+    "lines": [
+     "Tyre wear: counts",
+     "Tyre brand: does not count",
+     "Look at condition, not name"
+    ],
+    "icons": [
+     "tyre",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "marca dei pneumatici",
+    "en": "brand of the tyres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22285": {
+  "en": "The driver must adjust their speed according to the distance of the place to reach.",
+  "explain": {
+   "short": "How far you need to go is not a reason to drive faster. Speed depends on safety, not on your trip.",
+   "rule": "Adjust your speed to the vehicle (its features, condition and load), the road (its features and condition), the traffic and the weather. You must stay within the speed limits and never be a danger to people or things, or cause disorder in traffic.",
+   "trap": "'distanza del luogo da raggiungere' (how far you are going) has nothing to do with safe speed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A long trip is no reason to speed",
+    "it": "luogo da raggiungere",
+    "lines": [
+     "Long trip ahead",
+     "No reason to go faster",
+     "Safety decides speed"
+    ],
+    "icons": [
+     "road",
+     "cross",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza del luogo da raggiungere",
+    "en": "distance of the place to reach"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22286": {
+  "en": "The driver must always keep control of the vehicle.",
+  "explain": {
+   "short": "Whatever happens, you must stay in control of your vehicle. This is the base of the speed rule.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'sempre' (always) is right here: control of the vehicle is never optional.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Always in control of the vehicle",
+    "it": "controllo del veicolo",
+    "lines": [
+     "Hands on the wheel",
+     "Speed you can handle",
+     "Always in control"
+    ],
+    "icons": [
+     "car",
+     "speed",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sempre",
+    "en": "always"
+   },
+   {
+    "it": "controllo del veicolo",
+    "en": "control of the vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22287": {
+  "en": "The driver must always be able to stop the vehicle safely.",
+  "explain": {
+   "short": "Your speed must always let you stop safely if something appears in front of you.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'sempre' (always) is right: you must always be able to stop in safety.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Always able to stop safely",
+    "it": "arrestare il veicolo",
+    "lines": [
+     "Obstacle appears",
+     "You can still stop",
+     "Stop safely"
+    ],
+    "icons": [
+     "warning",
+     "brake",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sempre",
+    "en": "always"
+   },
+   {
+    "it": "arrestare il veicolo",
+    "en": "stop the vehicle"
+   },
+   {
+    "it": "in condizioni di sicurezza",
+    "en": "safely"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22288": {
+  "en": "The driver must be able to stop the vehicle within the field of view and safely.",
+  "explain": {
+   "short": "You must be able to stop within the stretch of road you can see. If you see less (bend, fog), go slower.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'nel campo di visibilità' (within the field of view): stop within what you can see.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stop within the road you can see",
+    "it": "campo di visibilità",
+    "lines": [
+     "You see 50 m of road",
+     "You must stop within 50 m",
+     "See less: go slower"
+    ],
+    "icons": [
+     "eye",
+     "brake",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "arrestare il veicolo",
+    "en": "stop the vehicle"
+   },
+   {
+    "it": "campo di visibilità",
+    "en": "field of view"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22289": {
+  "en": "It is compulsory to adjust your speed on bends.",
+  "explain": {
+   "short": "On a bend you see less of the road and the car can slide out. You must slow down before it.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'nelle curve' (on bends) is one of the places listed by the law.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down before the bend",
+    "it": "curve",
+    "lines": [
+     "Bend ahead",
+     "You see less, car can slide",
+     "Slow down before it"
+    ],
+    "icons": [
+     "curve",
+     "eye",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "nelle curve",
+    "en": "on bends"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22290": {
+  "en": "It is compulsory to adjust your speed on stretches of road with limited visibility.",
+  "explain": {
+   "short": "If you cannot see far, a danger may appear late. Slow down so you can stop in time.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'visibilità limitata' (limited visibility) is one of the cases listed by the law.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Limited view: slow down",
+    "it": "visibilità limitata",
+    "lines": [
+     "Limited view ahead",
+     "Danger may appear late",
+     "Slow down"
+    ],
+    "icons": [
+     "eye",
+     "warning",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "visibilità limitata",
+    "en": "limited visibility"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22291": {
+  "en": "It is compulsory to adjust your speed near junctions.",
+  "explain": {
+   "short": "At a junction other vehicles can cross your path. Slow down so you can give way or stop.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'in prossimità delle intersezioni' (near junctions) is one of the places listed by the law.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Junction ahead: slow down",
+    "it": "intersezioni",
+    "lines": [
+     "Junction ahead",
+     "Cars may cross",
+     "Slow down, ready to stop"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "intersezioni",
+    "en": "junctions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22292": {
+  "en": "It is compulsory to adjust your speed near schools.",
+  "explain": {
+   "short": "Near schools children may run into the road suddenly. Slow down and be ready to stop.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'in prossimità delle scuole' (near schools) is one of the places listed by the law.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "School nearby: slow down",
+    "it": "scuole",
+    "lines": [
+     "School nearby",
+     "Children may cross suddenly",
+     "Slow down"
+    ],
+    "icons": [
+     "child",
+     "pedestrian",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "scuole",
+    "en": "schools"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22293": {
+  "en": "It is compulsory to adjust your speed near places frequented by children.",
+  "explain": {
+   "short": "Children can act suddenly and are hard to see. Near parks, playgrounds and similar places, slow down.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'luoghi frequentati dai bambini' (places where children go) is one of the cases listed by the law.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Children around: slow down",
+    "it": "bambini",
+    "lines": [
+     "Park or playground",
+     "Children act suddenly",
+     "Slow down"
+    ],
+    "icons": [
+     "child",
+     "warning",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "luoghi frequentati dai bambini",
+    "en": "places frequented by children"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22294": {
+  "en": "It is compulsory to adjust your speed on steep descents.",
+  "explain": {
+   "short": "Going downhill the vehicle speeds up by itself and needs more space to stop. Keep the speed low.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'forti discese' (steep descents) is one of the cases listed; note it says downhill, not uphill.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Steep descent: keep speed low",
+    "it": "forti discese",
+    "lines": [
+     "Steep road downhill",
+     "Car speeds up by itself",
+     "Low gear, low speed"
+    ],
+    "icons": [
+     "hill",
+     "speed",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "forti discese",
+    "en": "steep descents"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22295": {
+  "en": "It is compulsory to adjust your speed in narrow passages.",
+  "explain": {
+   "short": "In a narrow passage there is little space for mistakes or for passing other vehicles. Slow down.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'passaggi stretti' (narrow passages) is one of the cases listed by the law.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Narrow passage: slow down",
+    "it": "passaggi stretti",
+    "lines": [
+     "Road gets narrow",
+     "Little space to pass",
+     "Slow down"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "passaggi stretti",
+    "en": "narrow passages"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22296": {
+  "en": "It is compulsory to adjust your speed in obstructed passages.",
+  "explain": {
+   "short": "If something partly blocks the road (works, a broken-down car, material), you must slow down to pass safely.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'passaggi ingombrati' (obstructed passages, partly blocked) is one of the cases listed by the law.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road partly blocked: slow down",
+    "it": "passaggi ingombrati",
+    "lines": [
+     "Obstacle on the road",
+     "Less space to pass",
+     "Slow down"
+    ],
+    "icons": [
+     "warning",
+     "road",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "passaggi ingombrati",
+    "en": "obstructed passages"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22297": {
+  "en": "It is compulsory to adjust your speed at night.",
+  "explain": {
+   "short": "At night you see less, only as far as your lights reach. Slow down so you can stop in that space.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'ore notturne' (night hours) is one of the cases listed by the law.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Night: you see less, go slower",
+    "it": "ore notturne",
+    "lines": [
+     "Night: dark road",
+     "You see only your lights",
+     "Slow down"
+    ],
+    "icons": [
+     "night",
+     "eye",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "ore notturne",
+    "en": "night hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22298": {
+  "en": "It is compulsory to adjust your speed when going through built-up areas.",
+  "explain": {
+   "short": "In towns and villages there are people, crossings and side roads. Slow down; the usual limit is 50 km/h.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'attraversamento di abitati' (going through built-up areas) is one of the cases listed by the law.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Through a town: slow down",
+    "it": "attraversamento di abitati",
+    "lines": [
+     "Entering a town",
+     "People and side roads",
+     "Town limit: 50 km/h"
+    ],
+    "icons": [
+     "road",
+     "pedestrian",
+     "sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "attraversamento di abitati",
+    "en": "going through built-up areas"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22299": {
+  "en": "It is compulsory to adjust your speed on stretches of road lined with buildings.",
+  "explain": {
+   "short": "Next to buildings, people and cars can come out of doors and gates without warning. Slow down.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'fiancheggiati da edifici' (lined with buildings) is one of the cases listed by the law.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Buildings along the road: slow down",
+    "it": "fiancheggiati da edifici",
+    "lines": [
+     "Buildings along the road",
+     "People may step out",
+     "Slow down"
+    ],
+    "icons": [
+     "road",
+     "pedestrian",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "fiancheggiati da edifici",
+    "en": "lined with buildings"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22300": {
+  "en": "It is compulsory to reduce your speed when it is difficult to pass vehicles coming the other way.",
+  "explain": {
+   "short": "If the road is too narrow to pass an oncoming vehicle easily, you must slow down, and stop if needed.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'incrocio' here means meeting an oncoming vehicle, not a junction.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hard to pass oncoming car: slow down",
+    "it": "incrocio con altri veicoli",
+    "lines": [
+     "Narrow road",
+     "Oncoming vehicle",
+     "Slow down, stop if needed"
+    ],
+    "icons": [
+     "road",
+     "truck",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ridurre la velocità",
+    "en": "reduce the speed"
+   },
+   {
+    "it": "difficoltoso",
+    "en": "difficult"
+   },
+   {
+    "it": "incrocio con altri veicoli",
+    "en": "meeting other vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22301": {
+  "en": "It is compulsory to adjust your speed in fog or mist.",
+  "explain": {
+   "short": "Fog and mist hide the road ahead. You must slow down so you can stop within what you see.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'nebbia o foschia' (fog or mist) means poor visibility because of the weather: a listed case.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fog: slow down",
+    "it": "nebbia o foschia",
+    "lines": [
+     "Fog or mist",
+     "You see very little",
+     "Slow down"
+    ],
+    "icons": [
+     "fog",
+     "eye",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "nebbia",
+    "en": "fog"
+   },
+   {
+    "it": "foschia",
+    "en": "mist"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22302": {
+  "en": "It is compulsory to adjust your speed on stretches of road covered with snow.",
+  "explain": {
+   "short": "Snow gives very little grip, so braking takes much longer. Drive slowly and gently.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'coperti da neve' (covered with snow): bad road conditions, so you must adjust speed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Snow on the road: drive slowly",
+    "it": "neve",
+    "lines": [
+     "Snow on the road",
+     "Very little grip",
+     "Drive slowly"
+    ],
+    "icons": [
+     "snow",
+     "tyre",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "coperti da neve",
+    "en": "covered with snow"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22303": {
+  "en": "It is compulsory to adjust your speed on stretches of road covered with ice.",
+  "explain": {
+   "short": "Ice is the most slippery surface. The car can slide even at low speed, so go very slowly.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'coperti da ghiaccio' (covered with ice): very bad road conditions, so you must adjust speed.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Ice on the road: go very slowly",
+    "it": "ghiaccio",
+    "lines": [
+     "Ice on the road",
+     "Car can slide easily",
+     "Go very slowly"
+    ],
+    "icons": [
+     "snow",
+     "warning",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare la velocità",
+    "en": "adjust the speed"
+   },
+   {
+    "it": "coperti da ghiaccio",
+    "en": "covered with ice"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22304": {
+  "en": "It is compulsory to reduce your speed on a one-way road.",
+  "explain": {
+   "short": "A one-way road is not a danger in itself. There is no rule that forces you to slow down just because it is one-way.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'senso unico' (one-way road) is not on the list of places where you must slow down.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One-way road alone: no duty to slow",
+    "it": "senso unico",
+    "lines": [
+     "One-way road",
+     "Not a danger by itself",
+     "No special duty to slow"
+    ],
+    "icons": [
+     "road",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ridurre la velocità",
+    "en": "reduce the speed"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22305": {
+  "en": "It is compulsory to reduce your speed outside built-up areas.",
+  "explain": {
+   "short": "Outside towns the limits are actually higher (90 or 110 km/h). There is no general duty to slow down there.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'fuori dai centri abitati' (outside towns): the duty to slow down is for going THROUGH towns, not outside.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Outside towns: no general duty to slow",
+    "it": "fuori dai centri abitati",
+    "lines": [
+     "Through towns: slow down",
+     "Outside towns: 90 km/h",
+     "No general duty to slow"
+    ],
+    "icons": [
+     "pedestrian",
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ridurre la velocità",
+    "en": "reduce the speed"
+   },
+   {
+    "it": "fuori dai centri abitati",
+    "en": "outside built-up areas"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22306": {
+  "en": "It is compulsory to reduce your speed on provincial roads.",
+  "explain": {
+   "short": "A provincial road is just a road managed by the province. That name alone does not force you to slow down.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'strade provinciali' (provincial roads) tells who manages the road, not a danger.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Provincial road: no special duty",
+    "it": "strade provinciali",
+    "lines": [
+     "Provincial road",
+     "Just who manages it",
+     "No special duty to slow"
+    ],
+    "icons": [
+     "road",
+     "book",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ridurre la velocità",
+    "en": "reduce the speed"
+   },
+   {
+    "it": "strade provinciali",
+    "en": "provincial roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22307": {
+  "en": "It is compulsory to adjust your speed during the day but not at night.",
+  "explain": {
+   "short": "It is the opposite: at night you see less, so you must adjust your speed even more.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'ma non in quelle notturne' (but not at night) is wrong: night is one of the listed cases.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At night too: you must adjust speed",
+    "it": "non in quelle notturne",
+    "lines": [
+     "Day: adjust speed",
+     "Night: adjust speed too",
+     "Night is a listed case"
+    ],
+    "icons": [
+     "eye",
+     "night",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ore diurne",
+    "en": "daytime hours"
+   },
+   {
+    "it": "non in quelle notturne",
+    "en": "not at night"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22308": {
+  "en": "It is compulsory to adjust your speed on straight roads and not on bends.",
+  "explain": {
+   "short": "It is the opposite: bends are one of the places where you must slow down.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'e non in curva' (and not on bends) is wrong: bends are a listed case.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bends: you must adjust speed",
+    "it": "non in curva",
+    "lines": [
+     "Straight road",
+     "Bend: slow down",
+     "Bends are a listed case"
+    ],
+    "icons": [
+     "road",
+     "curve",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rettilinei",
+    "en": "straight roads"
+   },
+   {
+    "it": "non in curva",
+    "en": "not on bends"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22309": {
+  "en": "It is compulsory to reduce your speed on uphill roads.",
+  "explain": {
+   "short": "Going uphill the vehicle slows down by itself. The law lists steep DESCENTS, not climbs.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'in salita' (uphill): the danger case in the law is 'forti discese' (steep descents).",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Uphill is not the listed case: downhill is",
+    "it": "salita",
+    "lines": [
+     "Uphill: car slows by itself",
+     "Steep downhill: slow down",
+     "Law lists descents"
+    ],
+    "icons": [
+     "hill",
+     "brake",
+     "book"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ridurre la velocità",
+    "en": "reduce the speed"
+   },
+   {
+    "it": "strade in salita",
+    "en": "uphill roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22310": {
+  "en": "It is compulsory to reduce your speed whenever there is any road sign.",
+  "explain": {
+   "short": "Many signs only give information or directions. You slow down only when a sign or situation asks for it.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'qualunque' (any): not every sign means slow down, for example a direction sign.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not every sign means slow down",
+    "it": "qualunque segnale stradale",
+    "lines": [
+     "Direction sign: just info",
+     "Danger sign: slow down",
+     "Not ANY sign"
+    ],
+    "icons": [
+     "sign",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ridurre la velocità",
+    "en": "reduce the speed"
+   },
+   {
+    "it": "qualunque segnale stradale",
+    "en": "any road sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22311": {
+  "en": "It is compulsory to reduce your speed only when traffic police are present.",
+  "explain": {
+   "short": "Speed rules are for safety, not for the police. You must slow down in danger situations, with or without police.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'solo' (only): the duty does not depend on the police being there.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Police or not, the rule is the same",
+    "it": "solo in presenza degli agenti",
+    "lines": [
+     "Danger ahead",
+     "Police or no police",
+     "You slow down anyway"
+    ],
+    "icons": [
+     "warning",
+     "police",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ridurre la velocità",
+    "en": "reduce the speed"
+   },
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "agenti del traffico",
+    "en": "traffic police"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22313": {
+  "en": "It is compulsory to adjust your speed on secondary extra-urban roads, but not on main ones.",
+  "explain": {
+   "short": "You must adjust your speed on every road. Main out-of-town roads have a 110 km/h limit, but conditions still count.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'ma non in quelle principali' (but not on main ones) is wrong: the rule is for all roads.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Every road: adjust your speed",
+    "it": "ma non in quelle principali",
+    "lines": [
+     "Secondary road: 90 km/h",
+     "Main road: 110 km/h",
+     "Adjust speed on both"
+    ],
+    "icons": [
+     "road",
+     "road",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane secondarie",
+    "en": "secondary out-of-town roads"
+   },
+   {
+    "it": "ma non in quelle principali",
+    "en": "but not on main ones"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22314": {
+  "en": "It is compulsory to reduce your speed only if the car is empty.",
+  "explain": {
+   "short": "It is the opposite: a loaded car brakes worse, so the load is a reason to go slower, not faster.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'solo se ... è scarica' (only if empty) is wrong: the load is a reason to slow down.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Loaded car: needs more care, not less",
+    "it": "solo se l'autovettura è scarica",
+    "lines": [
+     "Empty car",
+     "Loaded car: longer braking",
+     "Load is a reason to slow"
+    ],
+    "icons": [
+     "car",
+     "brake",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ridurre la velocità",
+    "en": "reduce the speed"
+   },
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "scarica",
+    "en": "empty, unloaded"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22315": {
+  "en": "It is compulsory to reduce your speed near speed cameras.",
+  "explain": {
+   "short": "You must always respect the limit, camera or not. A speed camera is not a danger that the law lists.",
+   "rule": "You must always keep control and be able to stop safely within the distance you can see. Slow down where danger is likely: bends, poor visibility, junctions, schools and places with children, steep descents, narrow or blocked passages, night, fog, snow, ice, built-up areas and roads lined with buildings.",
+   "trap": "'autovelox' (speed camera): you keep the limit everywhere, not only near cameras.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Camera or not: always respect the limit",
+    "it": "autovelox",
+    "lines": [
+     "Speed camera ahead",
+     "Same limit as before",
+     "Respect it always"
+    ],
+    "icons": [
+     "sign",
+     "speed",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ridurre la velocità",
+    "en": "reduce the speed"
+   },
+   {
+    "it": "autovelox",
+    "en": "speed cameras"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22316": {
+  "en": "It is compulsory to reduce your speed, and stop if needed, when it is hard to pass other vehicles coming the other way.",
+  "explain": {
+   "short": "On a narrow road two vehicles may not fit side by side. Slow down, and stop to let the other one pass if needed.",
+   "rule": "You must slow down, and stop if needed, when passing other vehicles is difficult, near pedestrian crossings, when pedestrians on your way are slow to move or look unsure, when animals on the road look scared, and when you are dazzled.",
+   "trap": "'malagevole l'incrocio' means it is hard to meet and pass an oncoming vehicle, not a junction.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Narrow road: slow down, stop if needed",
+    "it": "incrocio con altri veicoli",
+    "lines": [
+     "Narrow road",
+     "Oncoming truck",
+     "Slow down, stop if needed"
+    ],
+    "icons": [
+     "road",
+     "truck",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'occorrenza fermarsi",
+    "en": "stop if needed"
+   },
+   {
+    "it": "malagevole",
+    "en": "difficult"
+   },
+   {
+    "it": "incrocio con altri veicoli",
+    "en": "meeting other vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22317": {
+  "en": "It is compulsory to reduce your speed, and stop if needed, near pedestrian crossings.",
+  "explain": {
+   "short": "Pedestrians on a zebra crossing have priority. Slow down as you get near, and stop to let them cross.",
+   "rule": "You must slow down, and stop if needed, when passing other vehicles is difficult, near pedestrian crossings, when pedestrians on your way are slow to move or look unsure, when animals on the road look scared, and when you are dazzled.",
+   "trap": "'attraversamenti pedonali' (pedestrian crossings, zebra crossings) is a listed case.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Zebra crossing: slow down, let people cross",
+    "it": "attraversamenti pedonali",
+    "lines": [
+     "Zebra crossing ahead",
+     "Pedestrian wants to cross",
+     "Slow down and stop"
+    ],
+    "icons": [
+     "pedestrian",
+     "warning",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'occorrenza fermarsi",
+    "en": "stop if needed"
+   },
+   {
+    "it": "attraversamenti pedonali",
+    "en": "pedestrian crossings"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22318": {
+  "en": "It is compulsory to reduce your speed, and stop if needed, when pedestrians on your way are slow to move aside.",
+  "explain": {
+   "short": "If people on the road do not move away in time, you must slow down and stop rather than push through.",
+   "rule": "You must slow down, and stop if needed, when passing other vehicles is difficult, near pedestrian crossings, when pedestrians on your way are slow to move or look unsure, when animals on the road look scared, and when you are dazzled.",
+   "trap": "'tardano a scansarsi' (are slow to move aside): you wait, you do not force your way.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "People slow to move: slow down or stop",
+    "it": "tardano a scansarsi",
+    "lines": [
+     "People on your path",
+     "They move away slowly",
+     "Slow down, stop if needed"
+    ],
+    "icons": [
+     "pedestrian",
+     "warning",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'occorrenza fermarsi",
+    "en": "stop if needed"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   },
+   {
+    "it": "tardano a scansarsi",
+    "en": "are slow to move aside"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22319": {
+  "en": "It is compulsory to reduce your speed, and stop if needed, when pedestrians on your way show signs of uncertainty.",
+  "explain": {
+   "short": "A pedestrian who hesitates may step forward or back suddenly. Slow down and be ready to stop.",
+   "rule": "You must slow down, and stop if needed, when passing other vehicles is difficult, near pedestrian crossings, when pedestrians on your way are slow to move or look unsure, when animals on the road look scared, and when you are dazzled.",
+   "trap": "'segni d'incertezza' (signs of uncertainty): an unsure pedestrian is unpredictable.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Unsure pedestrian: slow down, ready to stop",
+    "it": "segni d'incertezza",
+    "lines": [
+     "Pedestrian hesitates",
+     "May step out suddenly",
+     "Slow down, ready to stop"
+    ],
+    "icons": [
+     "pedestrian",
+     "warning",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'occorrenza fermarsi",
+    "en": "stop if needed"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   },
+   {
+    "it": "segni d'incertezza",
+    "en": "signs of uncertainty"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22320": {
+  "en": "It is compulsory to reduce your speed, and stop if needed, when animals on the road show signs of fear.",
+  "explain": {
+   "short": "A scared animal can jump into your path. Slow down, and stop if needed, until it calms down or moves away.",
+   "rule": "You must slow down, and stop if needed, when passing other vehicles is difficult, near pedestrian crossings, when pedestrians on your way are slow to move or look unsure, when animals on the road look scared, and when you are dazzled.",
+   "trap": "'danno segni di spavento' (show signs of fear): scared animals move suddenly.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Scared animal: slow down, stop if needed",
+    "it": "segni di spavento",
+    "lines": [
+     "Animal on the road",
+     "It looks scared",
+     "Slow down, stop if needed"
+    ],
+    "icons": [
+     "warning",
+     "eye",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'occorrenza fermarsi",
+    "en": "stop if needed"
+   },
+   {
+    "it": "animali",
+    "en": "animals"
+   },
+   {
+    "it": "segni di spavento",
+    "en": "signs of fear"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22321": {
+  "en": "It is compulsory to reduce your speed, and stop if needed, when you are dazzled.",
+  "explain": {
+   "short": "When strong lights blind you, you cannot see the road. Slow down, and stop if needed, until you see again.",
+   "rule": "You must slow down, and stop if needed, when passing other vehicles is difficult, near pedestrian crossings, when pedestrians on your way are slow to move or look unsure, when animals on the road look scared, and when you are dazzled.",
+   "trap": "'si rimane abbagliati' (you are dazzled, blinded by lights): you cannot see, so you slow down.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dazzled: slow down, stop if needed",
+    "it": "abbagliati",
+    "lines": [
+     "Strong lights in your eyes",
+     "You cannot see the road",
+     "Slow down, stop if needed"
+    ],
+    "icons": [
+     "highbeam",
+     "eye",
+     "brake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'occorrenza fermarsi",
+    "en": "stop if needed"
+   },
+   {
+    "it": "abbagliati",
+    "en": "dazzled"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22322": {
+  "en": "It is compulsory to reduce your speed, and stop if needed, at driveways.",
+  "explain": {
+   "short": "A driveway (gate for vehicles) is not on the list. You do not have to slow down or stop at every driveway.",
+   "rule": "You must slow down, and stop if needed, when passing other vehicles is difficult, near pedestrian crossings, when pedestrians on your way are slow to move or look unsure, when animals on the road look scared, and when you are dazzled.",
+   "trap": "'passi carrabili' (driveways for vehicles) are not a case where the law says slow down and stop.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Driveway: no duty to slow and stop",
+    "it": "passi carrabili",
+    "lines": [
+     "Driveway (passo carrabile)",
+     "Not on the list",
+     "No duty to stop"
+    ],
+    "icons": [
+     "road",
+     "book",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'occorrenza fermarsi",
+    "en": "stop if needed"
+   },
+   {
+    "it": "passi carrabili",
+    "en": "driveways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22323": {
+  "en": "It is compulsory to reduce your speed, and stop if needed, near bus stops.",
+  "explain": {
+   "short": "A bus stop is not on the list of places where you must slow down and stop. Just stay careful.",
+   "rule": "You must slow down, and stop if needed, when passing other vehicles is difficult, near pedestrian crossings, when pedestrians on your way are slow to move or look unsure, when animals on the road look scared, and when you are dazzled.",
+   "trap": "'fermate degli autobus' (bus stops) are not one of the listed cases.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bus stop: not a listed case",
+    "it": "fermate degli autobus",
+    "lines": [
+     "Bus stop",
+     "Not on the list",
+     "No duty to stop"
+    ],
+    "icons": [
+     "bus",
+     "book",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'occorrenza fermarsi",
+    "en": "stop if needed"
+   },
+   {
+    "it": "fermate degli autobus",
+    "en": "bus stops"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22324": {
+  "en": "It is compulsory to reduce your speed, and stop if needed, every time you drive over an overpass.",
+  "explain": {
+   "short": "An overpass (bridge over another road) is not a danger in itself. There is no duty to slow down or stop on it.",
+   "rule": "You must slow down, and stop if needed, when passing other vehicles is difficult, near pedestrian crossings, when pedestrians on your way are slow to move or look unsure, when animals on the road look scared, and when you are dazzled.",
+   "trap": "'ogni volta' (every time) and 'cavalcavia' (overpass): not a listed case.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Overpass: no duty to slow and stop",
+    "it": "cavalcavia",
+    "lines": [
+     "Overpass (cavalcavia)",
+     "Not a danger by itself",
+     "No duty to stop"
+    ],
+    "icons": [
+     "road",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'occorrenza fermarsi",
+    "en": "stop if needed"
+   },
+   {
+    "it": "ogni volta",
+    "en": "every time"
+   },
+   {
+    "it": "cavalcavia",
+    "en": "overpass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22325": {
+  "en": "It is compulsory to reduce your speed, and stop if needed, near speed cameras.",
+  "explain": {
+   "short": "A speed camera only checks your speed. You keep within the limit everywhere, but you never need to stop for it.",
+   "rule": "You must slow down, and stop if needed, when passing other vehicles is difficult, near pedestrian crossings, when pedestrians on your way are slow to move or look unsure, when animals on the road look scared, and when you are dazzled.",
+   "trap": "'autovelox' (speed camera) is not a danger; stopping for it makes no sense.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Speed camera: just respect the limit",
+    "it": "autovelox",
+    "lines": [
+     "Speed camera",
+     "Respect the limit",
+     "No need to stop"
+    ],
+    "icons": [
+     "sign",
+     "speed",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'occorrenza fermarsi",
+    "en": "stop if needed"
+   },
+   {
+    "it": "autovelox",
+    "en": "speed cameras"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22326": {
+  "en": "It is compulsory to reduce your speed, and stop if needed, at any road sign.",
+  "explain": {
+   "short": "Most signs give information, directions or limits. You do not slow down and stop at every sign.",
+   "rule": "You must slow down, and stop if needed, when passing other vehicles is difficult, near pedestrian crossings, when pedestrians on your way are slow to move or look unsure, when animals on the road look scared, and when you are dazzled.",
+   "trap": "'qualunque' (any): only some signs, like STOP, ask you to stop.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not every sign means slow down and stop",
+    "it": "qualunque segnale stradale",
+    "lines": [
+     "Direction sign: just info",
+     "STOP sign: stop",
+     "Not ANY sign"
+    ],
+    "icons": [
+     "sign",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'occorrenza fermarsi",
+    "en": "stop if needed"
+   },
+   {
+    "it": "qualunque segnale stradale",
+    "en": "any road sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22327": {
+  "en": "It is compulsory to reduce your speed, and stop if needed, when leaving built-up areas.",
+  "explain": {
+   "short": "When you leave a town the limit usually goes up, from 50 to 90 km/h on secondary roads. There is no duty to stop.",
+   "rule": "You must slow down, and stop if needed, when passing other vehicles is difficult, near pedestrian crossings, when pedestrians on your way are slow to move or look unsure, when animals on the road look scared, and when you are dazzled.",
+   "trap": "'all'uscita' (when leaving): slowing down is for going THROUGH towns, not for leaving them.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Leaving town: no duty to slow and stop",
+    "it": "uscita dei centri abitati",
+    "lines": [
+     "Town: 50 km/h",
+     "Leaving town: 90 km/h",
+     "No duty to stop"
+    ],
+    "icons": [
+     "sign",
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'occorrenza fermarsi",
+    "en": "stop if needed"
+   },
+   {
+    "it": "uscita dei centri abitati",
+    "en": "exit of built-up areas"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

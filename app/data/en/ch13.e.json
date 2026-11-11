@@ -1,0 +1,2940 @@
+{
+ "q22963": {
+  "en": "Drivers must follow the danger warnings or orders that appear, in lit-up writing, on police vehicles.",
+  "explain": {
+   "short": "Police cars can show messages on a lit-up display. These are real orders or warnings, so you must follow them.",
+   "rule": "Lit-up messages on police cars are orders or warnings for drivers. ACCOSTARE / ALT POLIZIA = stop; INCIDENTE and RALLENTARE = slow down.",
+   "trap": "'devono attenersi' (must follow): these messages are binding, not just advice.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Police display messages must be obeyed",
+    "it": "scritte luminose",
+    "lines": [
+     "Police car with a lit-up display",
+     "The message is an order",
+     "Follow it"
+    ],
+    "icons": [
+     "police",
+     "sign",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "devono attenersi",
+    "en": "must follow"
+   },
+   {
+    "it": "prescrizioni",
+    "en": "orders, rules"
+   },
+   {
+    "it": "scritte luminose",
+    "en": "lit-up writing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22964": {
+  "en": "If a police car with its siren on overtakes you, gets in front of you and has a lit-up roof display saying \"ACCOSTARE\" (pull over), you must stop.",
+  "explain": {
+   "short": "ACCOSTARE means pull over. You move to the edge of the road and stop there.",
+   "rule": "Lit-up messages on police cars are orders or warnings for drivers. ACCOSTARE / ALT POLIZIA = stop; INCIDENTE and RALLENTARE = slow down.",
+   "trap": "'arrestarvi' (stop): pulling over means stopping at the side, not just slowing down.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "ACCOSTARE: pull over to the side and stop",
+    "it": "accostare",
+    "lines": [
+     "Police car overtakes, gets in front",
+     "Display: ACCOSTARE",
+     "Pull over to the right and stop"
+    ],
+    "icons": [
+     "police",
+     "sign",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "accostare",
+    "en": "pull over"
+   },
+   {
+    "it": "arrestarvi",
+    "en": "to stop (yourselves)"
+   },
+   {
+    "it": "sirena in funzione",
+    "en": "siren on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22965": {
+  "en": "If a police car with its siren on overtakes you, gets in front of you and has a lit-up roof display saying \"ALT POLIZIA\" (police stop), only you must stop.",
+  "explain": {
+   "short": "The police car put itself right in front of you, so the order is for you. The other drivers just carry on carefully.",
+   "rule": "Lit-up messages on police cars are orders or warnings for drivers. ACCOSTARE / ALT POLIZIA = stop; INCIDENTE and RALLENTARE = slow down.",
+   "trap": "'solo voi' (only you) sounds like a trick, but here it is right: the order is for the car the police got in front of.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "ALT POLIZIA in front of you: you must stop",
+    "it": "alt polizia",
+    "lines": [
+     "Police car gets in front of you",
+     "Display: ALT POLIZIA",
+     "The order is for you: stop"
+    ],
+    "icons": [
+     "police",
+     "sign",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ALT POLIZIA",
+    "en": "police stop"
+   },
+   {
+    "it": "solo voi",
+    "en": "only you"
+   },
+   {
+    "it": "ponendosi davanti",
+    "en": "getting in front"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22966": {
+  "en": "When you see a lit-up display saying \"INCIDENTE\" (accident) on the roof of the police car, you must slow down.",
+  "explain": {
+   "short": "INCIDENTE warns that an accident has happened ahead. Slow down and be ready to stop.",
+   "rule": "Lit-up messages on police cars are orders or warnings for drivers. ACCOSTARE / ALT POLIZIA = stop; INCIDENTE and RALLENTARE = slow down.",
+   "trap": "'diminuire la velocità' (slow down) is exactly what the warning asks for.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "INCIDENTE: accident ahead, slow down",
+    "it": "incidente",
+    "lines": [
+     "Police display: INCIDENTE",
+     "Accident ahead",
+     "Slow down, be ready to stop"
+    ],
+    "icons": [
+     "police",
+     "warning",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "incidente",
+    "en": "accident"
+   },
+   {
+    "it": "diminuire la velocità",
+    "en": "slow down"
+   },
+   {
+    "it": "tetto",
+    "en": "roof"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22967": {
+  "en": "When you see a lit-up display saying \"INCIDENTE\" (accident) on the roof of a police car, it means that area has a high risk of accidents.",
+  "explain": {
+   "short": "INCIDENTE means an accident has really happened ahead, right now. It is not a general warning about a dangerous area.",
+   "rule": "Lit-up messages on police cars are orders or warnings for drivers. ACCOSTARE / ALT POLIZIA = stop; INCIDENTE and RALLENTARE = slow down.",
+   "trap": "'zona ad alto rischio' (high-risk area) is the wrong meaning: the message is about a real accident now.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "INCIDENTE = a real accident ahead, not a risky area",
+    "it": "incidente",
+    "lines": [
+     "Display: INCIDENTE",
+     "A real accident ahead now",
+     "Not a 'high-risk area' warning"
+    ],
+    "icons": [
+     "police",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "incidente",
+    "en": "accident"
+   },
+   {
+    "it": "alto rischio",
+    "en": "high risk"
+   },
+   {
+    "it": "zona",
+    "en": "area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22968": {
+  "en": "If a police car with its siren on overtakes you, gets in front of you and has a lit-up roof display saying \"ACCOSTARE\" (pull over), it means you must turn.",
+  "explain": {
+   "short": "ACCOSTARE means pull over to the edge of the road and stop. It does not mean turn into another road.",
+   "rule": "Lit-up messages on police cars are orders or warnings for drivers. ACCOSTARE / ALT POLIZIA = stop; INCIDENTE and RALLENTARE = slow down.",
+   "trap": "'svoltare' (turn) is the wrong meaning: 'accostare' means move to the side and stop.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "ACCOSTARE = pull over and stop, not turn",
+    "it": "accostare",
+    "lines": [
+     "Display: ACCOSTARE",
+     "Pull over to the edge and stop",
+     "Do not turn into another road"
+    ],
+    "icons": [
+     "police",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "accostare",
+    "en": "pull over"
+   },
+   {
+    "it": "svoltare",
+    "en": "to turn"
+   },
+   {
+    "it": "avete l'obbligo",
+    "en": "you must"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22969": {
+  "en": "If a police car has a lit-up roof display saying \"RALLENTARE\" (slow down), the order is only for heavy vehicles.",
+  "explain": {
+   "short": "RALLENTARE is for every vehicle that sees it: cars, motorbikes and trucks. It is not only for heavy vehicles.",
+   "rule": "Lit-up messages on police cars are orders or warnings for drivers. ACCOSTARE / ALT POLIZIA = stop; INCIDENTE and RALLENTARE = slow down.",
+   "trap": "'ai soli veicoli pesanti' (only heavy vehicles) is the trick: the order is for everyone.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "RALLENTARE is for all vehicles",
+    "it": "rallentare",
+    "lines": [
+     "Display: RALLENTARE",
+     "Cars, motorbikes, trucks",
+     "Everyone slows down"
+    ],
+    "icons": [
+     "police",
+     "car",
+     "speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rallentare",
+    "en": "slow down"
+   },
+   {
+    "it": "ai soli veicoli pesanti",
+    "en": "only heavy vehicles"
+   },
+   {
+    "it": "l'obbligo",
+    "en": "the obligation"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22970": {
+  "en": "A driver who wants to join the flow of traffic must make sure they can do the manoeuvre without creating danger or obstruction for other road users.",
+  "explain": {
+   "short": "Before joining traffic you check that your move will not put anyone in danger or force them to brake or swerve.",
+   "rule": "When you join traffic, the vehicles already on the road go first. Check, signal in good time with the indicator, and move only if you create no danger or obstruction.",
+   "trap": "'senza creare pericolo o intralcio' (without danger or obstruction) is the basic rule of every manoeuvre.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Join traffic only without danger or obstruction",
+    "it": "immettersi",
+    "lines": [
+     "Parked car wants to join traffic",
+     "Check the road around you",
+     "Go only if nobody must brake"
+    ],
+    "icons": [
+     "car",
+     "eye",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "immettersi nel flusso della circolazione",
+    "en": "join the flow of traffic"
+   },
+   {
+    "it": "intralcio",
+    "en": "obstruction, getting in the way"
+   },
+   {
+    "it": "assicurarsi",
+    "en": "make sure"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22971": {
+  "en": "A driver who wants to join the flow of traffic must take into account the position, distance and direction of the other road users.",
+  "explain": {
+   "short": "You must judge where the others are, how far away they are and where they are going. Only then can you join safely.",
+   "rule": "When you join traffic, the vehicles already on the road go first. Check, signal in good time with the indicator, and move only if you create no danger or obstruction.",
+   "trap": "'posizione, distanza, direzione' are exactly the three things to check.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Check position, distance and direction of others",
+    "it": "posizione, distanza",
+    "lines": [
+     "Where are the others?",
+     "How far away are they?",
+     "Which way are they going?"
+    ],
+    "icons": [
+     "eye",
+     "distance",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tenere conto",
+    "en": "take into account"
+   },
+   {
+    "it": "posizione, distanza, direzione",
+    "en": "position, distance, direction"
+   },
+   {
+    "it": "utenti della strada",
+    "en": "road users"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22972": {
+  "en": "A driver who wants to join the flow of traffic must use the indicator to signal well in advance the intention to do this manoeuvre.",
+  "explain": {
+   "short": "The indicator tells the others what you are going to do. You switch it on early, before you start moving.",
+   "rule": "When you join traffic, the vehicles already on the road go first. Check, signal in good time with the indicator, and move only if you create no danger or obstruction.",
+   "trap": "'con sufficiente anticipo' (well in advance) means before the manoeuvre, not at the last moment.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Indicator on in good time before joining",
+    "it": "indicatore di direzione",
+    "lines": [
+     "Indicator on first",
+     "Wait a moment, check again",
+     "Then join the traffic"
+    ],
+    "icons": [
+     "indicator",
+     "mirror",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "indicatore di direzione",
+    "en": "indicator (turn signal)"
+   },
+   {
+    "it": "con sufficiente anticipo",
+    "en": "well in advance"
+   },
+   {
+    "it": "segnalare",
+    "en": "to signal"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22973": {
+  "en": "A driver who wants to join the flow of traffic must give way to the vehicles passing by.",
+  "explain": {
+   "short": "The vehicles already moving on the road go first. You wait for a safe gap and then join.",
+   "rule": "When you join traffic, the vehicles already on the road go first. Check, signal in good time with the indicator, and move only if you create no danger or obstruction.",
+   "trap": "'dare la precedenza' (give way) to 'veicoli in transito' (vehicles passing) is the core rule here.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Vehicles already on the road go first",
+    "it": "dare la precedenza",
+    "lines": [
+     "Car on the road comes past",
+     "You wait at the edge",
+     "Join after it, in a safe gap"
+    ],
+    "icons": [
+     "car",
+     "distance",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "veicoli in transito",
+    "en": "vehicles passing by"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22974": {
+  "en": "A driver who wants to join the flow of traffic can avoid using the indicator if no other vehicles are coming.",
+  "explain": {
+   "short": "You always signal when you join traffic. A car, bike or pedestrian you have not seen may be there.",
+   "rule": "When you join traffic, the vehicles already on the road go first. Check, signal in good time with the indicator, and move only if you create no danger or obstruction.",
+   "trap": "'può evitare' (can avoid) with 'se non sopraggiungono' (if nobody is coming) is the trap: the indicator is always required.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Indicator always, even with an empty road",
+    "it": "indicatore di direzione",
+    "lines": [
+     "Road looks empty",
+     "Indicator on anyway",
+     "Someone may be there unseen"
+    ],
+    "icons": [
+     "road",
+     "indicator",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "può evitare",
+    "en": "can avoid"
+   },
+   {
+    "it": "indicatore di direzione",
+    "en": "indicator"
+   },
+   {
+    "it": "se non sopraggiungono altri veicoli",
+    "en": "if no other vehicles are coming"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22975": {
+  "en": "A driver who wants to join the flow of traffic must give way to the vehicles passing by only when there is a specific sign.",
+  "explain": {
+   "short": "You give way when you join traffic in every case, by law. No sign is needed for this.",
+   "rule": "When you join traffic, the vehicles already on the road go first. Check, signal in good time with the indicator, and move only if you create no danger or obstruction.",
+   "trap": "'solo in presenza di apposito segnale' (only with a specific sign) is the trap: the duty exists always.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Give way when joining: always, no sign needed",
+    "it": "dare la precedenza",
+    "lines": [
+     "No sign at the parking space",
+     "You still give way",
+     "The rule is always valid"
+    ],
+    "icons": [
+     "sign",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo in presenza di apposito segnale",
+    "en": "only when there is a specific sign"
+   },
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22976": {
+  "en": "A driver who joins the flow of traffic must give way to the vehicles passing by, except bicycles.",
+  "explain": {
+   "short": "Bicycles are vehicles too. When you join traffic you give way to them like to any other vehicle.",
+   "rule": "When you join traffic, the vehicles already on the road go first. Check, signal in good time with the indicator, and move only if you create no danger or obstruction.",
+   "trap": "'ad eccezione delle biciclette' (except bicycles) is the trap: there is no exception.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Give way to bicycles too",
+    "it": "biciclette",
+    "lines": [
+     "Bicycle comes along the road",
+     "It goes first",
+     "No exception for bikes"
+    ],
+    "icons": [
+     "bike",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ad eccezione delle biciclette",
+    "en": "except bicycles"
+   },
+   {
+    "it": "veicoli in transito",
+    "en": "vehicles passing by"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22977": {
+  "en": "The rider of a motorcycle who moves off from the edge of the road and joins the flow of traffic must put on and fasten the helmet.",
+  "explain": {
+   "short": "On a motorcycle the helmet must be on and fastened from the very first metre. You put it on before you move.",
+   "rule": "Belt or helmet go on BEFORE you move; a motorcycle has its dipped headlight on. Then check the road, also in the mirrors.",
+   "trap": "'indossare ed allacciare' (put on and fasten): wearing it unfastened is not enough.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Helmet on and fastened before moving off",
+    "it": "casco",
+    "lines": [
+     "Motorcycle at the edge of the road",
+     "Helmet on and fastened",
+     "Then move off"
+    ],
+    "icons": [
+     "moto",
+     "check",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "casco",
+    "en": "helmet"
+   },
+   {
+    "it": "indossare ed allacciare",
+    "en": "put on and fasten"
+   },
+   {
+    "it": "margine della carreggiata",
+    "en": "edge of the road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22978": {
+  "en": "The driver of a motor vehicle who moves off from the edge of the road and joins the flow of traffic must fasten the seat belt, unless exempt.",
+  "explain": {
+   "short": "The seat belt goes on before the car moves. Only people the law exempts (esentato) do not need it.",
+   "rule": "Belt or helmet go on BEFORE you move; a motorcycle has its dipped headlight on. Then check the road, also in the mirrors.",
+   "trap": "'salvo che non sia esentato' (unless exempt) makes the statement correct: a few people are exempt.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Seat belt on before moving off",
+    "it": "cintura di sicurezza",
+    "lines": [
+     "Car parked at the edge",
+     "Fasten the seat belt",
+     "Then join the traffic"
+    ],
+    "icons": [
+     "car",
+     "seatbelt",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cintura di sicurezza",
+    "en": "seat belt"
+   },
+   {
+    "it": "salvo che non sia esentato",
+    "en": "unless exempt"
+   },
+   {
+    "it": "autoveicolo",
+    "en": "motor vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22979": {
+  "en": "The rider of a motorcycle who moves off from the edge of the road and joins the flow of traffic must switch on the dipped headlight.",
+  "explain": {
+   "short": "Motorcycles must ride with the dipped headlight (anabbagliante) on, day and night, so others see them.",
+   "rule": "Belt or helmet go on BEFORE you move; a motorcycle has its dipped headlight on. Then check the road, also in the mirrors.",
+   "trap": "'proiettore anabbagliante' (dipped headlight) is required for motorcycles even in daylight.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorcycle: dipped headlight on, also by day",
+    "it": "anabbagliante",
+    "lines": [
+     "Motorcycle ready to move off",
+     "Dipped headlight on",
+     "Others see you better"
+    ],
+    "icons": [
+     "moto",
+     "light",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "proiettore anabbagliante",
+    "en": "dipped headlight"
+   },
+   {
+    "it": "motociclo",
+    "en": "motorcycle"
+   },
+   {
+    "it": "accendere",
+    "en": "switch on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22980": {
+  "en": "A driver who moves off from the edge of the road and joins the flow of traffic must make sure the road is clear, also by looking in the rear-view mirrors.",
+  "explain": {
+   "short": "Traffic may come from behind, so you look in the mirrors as well as ahead before moving off.",
+   "rule": "Belt or helmet go on BEFORE you move; a motorcycle has its dipped headlight on. Then check the road, also in the mirrors.",
+   "trap": "'guardando anche negli specchietti' (also looking in the mirrors) is part of the correct check.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Check the road, mirrors included, before moving off",
+    "it": "specchietti",
+    "lines": [
+     "Look ahead",
+     "Look in the mirrors",
+     "Road clear: move off"
+    ],
+    "icons": [
+     "eye",
+     "mirror",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "accertarsi che la strada sia libera",
+    "en": "make sure the road is clear"
+   },
+   {
+    "it": "specchietti retrovisori",
+    "en": "rear-view mirrors"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22981": {
+  "en": "A driver who moves off from the edge of the road and joins the flow of traffic may fasten the seat belt after finishing the manoeuvre.",
+  "explain": {
+   "short": "The belt must be fastened before the car moves. Fastening it while driving is late and distracting.",
+   "rule": "Belt or helmet go on BEFORE you move; a motorcycle has its dipped headlight on. Then check the road, also in the mirrors.",
+   "trap": "'dopo avere concluso tale manovra' (after finishing the manoeuvre) is the trap: the belt goes on first.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Belt BEFORE moving off, not after",
+    "it": "cintura di sicurezza",
+    "lines": [
+     "Belt first",
+     "Then move off",
+     "Not while joining traffic"
+    ],
+    "icons": [
+     "seatbelt",
+     "car",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dopo avere concluso tale manovra",
+    "en": "after finishing this manoeuvre"
+   },
+   {
+    "it": "cintura di sicurezza",
+    "en": "seat belt"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22982": {
+  "en": "A motorcyclist who moves off from the edge of the road and joins the flow of traffic may put on the helmet after finishing the manoeuvre.",
+  "explain": {
+   "short": "The helmet must be on and fastened before the motorcycle moves. A fall can happen in the first metres.",
+   "rule": "Belt or helmet go on BEFORE you move; a motorcycle has its dipped headlight on. Then check the road, also in the mirrors.",
+   "trap": "'dopo avere concluso tale manovra' (after finishing the manoeuvre) is the trap: the helmet goes on first.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Helmet BEFORE moving off, not after",
+    "it": "casco",
+    "lines": [
+     "Helmet first",
+     "Then move off",
+     "Not after joining traffic"
+    ],
+    "icons": [
+     "moto",
+     "check",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dopo avere concluso tale manovra",
+    "en": "after finishing this manoeuvre"
+   },
+   {
+    "it": "casco",
+    "en": "helmet"
+   },
+   {
+    "it": "motociclista",
+    "en": "motorcyclist"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22983": {
+  "en": "The driver of vehicle S in the picture, reversing to join traffic, must make sure the road is clear and do the manoeuvre carefully.",
+  "explain": {
+   "short": "Reversing is risky because you see less behind you. Check the road is clear and move slowly.",
+   "rule": "Reversing out to join traffic: road clear, go slowly, indicator on, watch pedestrians behind, give way to all vehicles from both sides.",
+   "trap": "'con prudenza' (carefully) is always required when reversing.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Reversing out: road clear, slowly",
+    "it": "retromarcia",
+    "lines": [
+     "S reverses out of the space",
+     "Road clear? Then slowly"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "retromarcia",
+    "en": "reverse gear, reversing"
+   },
+   {
+    "it": "con prudenza",
+    "en": "carefully"
+   },
+   {
+    "it": "strada sia libera",
+    "en": "road is clear"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22984": {
+  "en": "The driver of vehicle E in the picture, reversing to join traffic, must switch on the indicators.",
+  "explain": {
+   "short": "E is joining traffic too, so it must signal with the indicator, like any car leaving a parking space.",
+   "rule": "Reversing out to join traffic: road clear, go slowly, indicator on, watch pedestrians behind, give way to all vehicles from both sides.",
+   "trap": "Here the question names vehicle 'E', not S: the same rule applies to every car joining traffic.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Joining traffic: indicator on",
+    "it": "indicatori di direzione",
+    "lines": [
+     "E also reverses into traffic",
+     "Indicator on to show it"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "indicatori di direzione",
+    "en": "indicators"
+   },
+   {
+    "it": "veicolo E",
+    "en": "vehicle E"
+   },
+   {
+    "it": "immettersi nella circolazione",
+    "en": "join traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22985": {
+  "en": "The driver of vehicle S in the picture, reversing to join traffic, must give way to all vehicles coming both from the right and from the left.",
+  "explain": {
+   "short": "S is joining the road, so everyone already on it goes first, from both directions.",
+   "rule": "Reversing out to join traffic: road clear, go slowly, indicator on, watch pedestrians behind, give way to all vehicles from both sides.",
+   "trap": "'a tutti' (to all) and 'sia da destra sia da sinistra' (both right and left) are correct here.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Give way to everyone, right and left",
+    "it": "dare la precedenza",
+    "lines": [
+     "Traffic from right and left",
+     "S waits for all of it"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "sia da destra sia da sinistra",
+    "en": "both from the right and from the left"
+   },
+   {
+    "it": "a tutti i veicoli",
+    "en": "to all vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22986": {
+  "en": "The driver of vehicle S in the picture, reversing to join traffic, must watch out for any pedestrians walking behind it.",
+  "explain": {
+   "short": "Pedestrians may walk behind parked cars, where you see them badly. Look carefully before and while reversing.",
+   "rule": "Reversing out to join traffic: road clear, go slowly, indicator on, watch pedestrians behind, give way to all vehicles from both sides.",
+   "trap": "'pedoni in transito dietro' (pedestrians passing behind) is a real danger when reversing.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Watch for pedestrians behind you",
+    "it": "pedoni",
+    "lines": [
+     "Pedestrians may be behind S",
+     "Look back before and while moving"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pedoni in transito",
+    "en": "pedestrians passing"
+   },
+   {
+    "it": "dietro di esso",
+    "en": "behind it"
+   },
+   {
+    "it": "fare attenzione",
+    "en": "watch out"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22987": {
+  "en": "The driver of vehicle S in the picture, reversing to join traffic, must switch on the hazard lights (all four indicators flashing at the same time).",
+  "explain": {
+   "short": "Hazard lights are for a stopped vehicle that is a danger, not for joining traffic. S uses the normal indicator.",
+   "rule": "Reversing out to join traffic: road clear, go slowly, indicator on, watch pedestrians behind, give way to all vehicles from both sides.",
+   "trap": "'segnalazione luminosa di pericolo' (hazard lights) is the wrong signal here.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No hazard lights: use the indicator",
+    "it": "quattro frecce",
+    "lines": [
+     "Hazard lights: not for this",
+     "Use the normal indicator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnalazione luminosa di pericolo",
+    "en": "hazard warning lights"
+   },
+   {
+    "it": "quattro frecce",
+    "en": "four indicators (hazard lights)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22988": {
+  "en": "The driver of vehicle S in the picture, reversing to join traffic, must sound the horn during the whole manoeuvre.",
+  "explain": {
+   "short": "No rule asks you to honk while reversing. You look carefully and move slowly instead.",
+   "rule": "Reversing out to join traffic: road clear, go slowly, indicator on, watch pedestrians behind, give way to all vehicles from both sides.",
+   "trap": "'suonare il clacson durante l'intera manovra' (horn during the whole manoeuvre) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No horn needed: look and go slowly",
+    "it": "clacson",
+    "lines": [
+     "No horn during the manoeuvre",
+     "Look and reverse slowly"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "suonare il clacson",
+    "en": "sound the horn"
+   },
+   {
+    "it": "durante l'intera manovra",
+    "en": "during the whole manoeuvre"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22989": {
+  "en": "The driver of vehicle S in the picture, reversing to join traffic, must give way to the vehicles travelling in its direction, except bicycles.",
+  "explain": {
+   "short": "Bicycles are vehicles too. S gives way to them like to every other vehicle.",
+   "rule": "Reversing out to join traffic: road clear, go slowly, indicator on, watch pedestrians behind, give way to all vehicles from both sides.",
+   "trap": "'ad eccezione delle biciclette' (except bicycles) is the trap: there is no exception.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Give way to bicycles too",
+    "it": "biciclette",
+    "lines": [
+     "A bicycle comes along",
+     "S gives way to it too"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ad eccezione delle biciclette",
+    "en": "except bicycles"
+   },
+   {
+    "it": "senso di marcia",
+    "en": "direction of travel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22990": {
+  "en": "A driver who wants to stop at the right edge of the road must do the manoeuvre without creating danger or obstruction for other road users.",
+  "explain": {
+   "short": "Stopping is a manoeuvre like any other: it must not put anyone in danger or block them.",
+   "rule": "To stop at the right edge: right indicator in good time, check the others, brake gently, no danger to two-wheelers.",
+   "trap": "'senza creare pericolo o intralcio' (without danger or obstruction) is the basic rule of every manoeuvre.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stop at the edge without danger or obstruction",
+    "it": "fermarsi",
+    "lines": [
+     "You want to stop on the right",
+     "Nobody must brake or swerve",
+     "Then pull in and stop"
+    ],
+    "icons": [
+     "car",
+     "check",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermarsi sul margine destro",
+    "en": "stop at the right edge"
+   },
+   {
+    "it": "intralcio",
+    "en": "obstruction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22991": {
+  "en": "A driver who wants to stop at the right edge of the road must take into account the position, distance and direction of the other road users.",
+  "explain": {
+   "short": "Before stopping you check who is behind and beside you, how close they are and where they are going.",
+   "rule": "To stop at the right edge: right indicator in good time, check the others, brake gently, no danger to two-wheelers.",
+   "trap": "'posizione, distanza, direzione' are exactly the three things to check.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Check position, distance and direction of others",
+    "it": "posizione, distanza",
+    "lines": [
+     "Who is behind or beside you?",
+     "How close are they?",
+     "Which way are they going?"
+    ],
+    "icons": [
+     "mirror",
+     "distance",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tenere conto",
+    "en": "take into account"
+   },
+   {
+    "it": "posizione, distanza, direzione",
+    "en": "position, distance, direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22992": {
+  "en": "A driver who wants to stop at the right edge of the road must avoid endangering riders of two-wheeled vehicles coming up.",
+  "explain": {
+   "short": "Bikes and motorbikes may come up on your right side. Check the right mirror and over your shoulder before you pull in.",
+   "rule": "To stop at the right edge: right indicator in good time, check the others, brake gently, no danger to two-wheelers.",
+   "trap": "'veicoli a due ruote sopraggiungenti' (two-wheelers coming up) are the ones most at risk here.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Watch for bikes and motorbikes on your right",
+    "it": "due ruote",
+    "lines": [
+     "You move to the right edge",
+     "A bike may come up on the right",
+     "Check before you pull in"
+    ],
+    "icons": [
+     "car",
+     "bike",
+     "mirror"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicoli a due ruote",
+    "en": "two-wheeled vehicles"
+   },
+   {
+    "it": "sopraggiungenti",
+    "en": "coming up (from behind)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22993": {
+  "en": "A driver who wants to stop at the right edge of the road must signal the intention to do this manoeuvre well in advance.",
+  "explain": {
+   "short": "The drivers behind must know early that you will slow down and stop. Switch on the right indicator in good time.",
+   "rule": "To stop at the right edge: right indicator in good time, check the others, brake gently, no danger to two-wheelers.",
+   "trap": "'con sufficiente anticipo' (well in advance) means before you slow down, not at the last moment.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right indicator in good time before stopping",
+    "it": "sufficiente anticipo",
+    "lines": [
+     "Right indicator on early",
+     "Slow down gently",
+     "Stop at the right edge"
+    ],
+    "icons": [
+     "indicator",
+     "speed",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnalare",
+    "en": "to signal"
+   },
+   {
+    "it": "con sufficiente anticipo",
+    "en": "well in advance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22994": {
+  "en": "A driver who wants to stop at the right edge of the road must avoid sudden braking, for the safety of other road users.",
+  "explain": {
+   "short": "A sudden stop can make the car behind crash into you. Slow down gently and step by step.",
+   "rule": "To stop at the right edge: right indicator in good time, check the others, brake gently, no danger to two-wheelers.",
+   "trap": "'evitare brusche frenate' (avoid sudden braking) protects the driver behind you.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Brake gently, no sudden stops",
+    "it": "brusche frenate",
+    "lines": [
+     "Car behind you",
+     "Brake gently, little by little",
+     "No sudden stop"
+    ],
+    "icons": [
+     "car",
+     "brake",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "brusche frenate",
+    "en": "sudden braking"
+   },
+   {
+    "it": "sicurezza",
+    "en": "safety"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22995": {
+  "en": "A driver who wants to stop at the right edge of the road must do the manoeuvre while flashing the headlights repeatedly.",
+  "explain": {
+   "short": "You signal a stop with the right indicator. Flashing the headlights is not the signal for this.",
+   "rule": "To stop at the right edge: right indicator in good time, check the others, brake gently, no danger to two-wheelers.",
+   "trap": "'lampeggiando ripetutamente' (flashing repeatedly) is the wrong signal: use the indicator.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Use the right indicator, not headlight flashes",
+    "it": "lampeggiando",
+    "lines": [
+     "Flashing headlights: no",
+     "Right indicator: yes",
+     "Then stop gently"
+    ],
+    "icons": [
+     "highbeam",
+     "indicator",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "lampeggiando ripetutamente",
+    "en": "flashing (the headlights) repeatedly"
+   },
+   {
+    "it": "eseguire la manovra",
+    "en": "do the manoeuvre"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22996": {
+  "en": "A driver who wants to stop at the right edge of the road must signal well in advance by switching on the hazard lights (all four indicators flashing at the same time).",
+  "explain": {
+   "short": "You signal a stop with the right indicator. Hazard lights are for a stopped vehicle that is a danger, not for announcing a stop.",
+   "rule": "To stop at the right edge: right indicator in good time, check the others, brake gently, no danger to two-wheelers.",
+   "trap": "'segnalazione luminosa di pericolo' (hazard lights) is the wrong signal here.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Right indicator, not hazard lights",
+    "it": "quattro frecce",
+    "lines": [
+     "Hazard lights: not for this",
+     "Right indicator in good time",
+     "Then stop at the edge"
+    ],
+    "icons": [
+     "warning",
+     "indicator",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnalazione luminosa di pericolo",
+    "en": "hazard warning lights"
+   },
+   {
+    "it": "quattro frecce",
+    "en": "four indicators (hazard lights)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22997": {
+  "en": "A driver who wants to stop at the right edge of the road can avoid signalling the intention to do this manoeuvre if traffic is light.",
+  "explain": {
+   "short": "You always signal a stop, also with little traffic. Someone you have not seen may be right behind you.",
+   "rule": "To stop at the right edge: right indicator in good time, check the others, brake gently, no danger to two-wheelers.",
+   "trap": "'se il traffico è scarso' (if traffic is light) is the trap: signalling is always required.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Signal always, even in light traffic",
+    "it": "traffico è scarso",
+    "lines": [
+     "Little traffic around",
+     "Indicator on anyway",
+     "Someone may be behind you"
+    ],
+    "icons": [
+     "road",
+     "indicator",
+     "mirror"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "può evitare di segnalare",
+    "en": "can avoid signalling"
+   },
+   {
+    "it": "se il traffico è scarso",
+    "en": "if traffic is light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22998": {
+  "en": "Not following the rules for joining the flow of traffic leads, among other things, to the loss of points from the driving licence.",
+  "explain": {
+   "short": "These manoeuvres are dangerous, so breaking the rules costs licence points as well as a fine.",
+   "rule": "Breaking the rules for joining traffic means a fine and loss of licence points; the quiz's figure of 4 points for stopping without signalling is wrong.",
+   "trap": "'tra l'altro' (among other things) means points are lost in addition to the fine.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fine and licence points",
+    "it": "perdita di punti",
+    "lines": [
+     "Joining traffic the wrong way",
+     "Fine to pay",
+     "Points off the licence"
+    ],
+    "icons": [
+     "car",
+     "money",
+     "points"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "mancato rispetto",
+    "en": "not following"
+   },
+   {
+    "it": "perdita di punti",
+    "en": "loss of points"
+   },
+   {
+    "it": "tra l'altro",
+    "en": "among other things"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22999": {
+  "en": "Not following the rules for joining the flow of traffic does not lead to points being taken off the licence, only to a fine.",
+  "explain": {
+   "short": "Breaking these rules gives a fine AND takes points off the licence. It is not only a fine.",
+   "rule": "Breaking the rules for joining traffic means a fine and loss of licence points; the quiz's figure of 4 points for stopping without signalling is wrong.",
+   "trap": "'non comporta la sottrazione di punti' (no points taken off) is the trap: points are lost too.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Not only a fine: points are lost too",
+    "it": "sottrazione di punti",
+    "lines": [
+     "Fine: yes",
+     "Points off the licence: yes too",
+     "Not 'only a fine'"
+    ],
+    "icons": [
+     "money",
+     "points",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sottrazione di punti",
+    "en": "points taken off"
+   },
+   {
+    "it": "sanzione pecuniaria",
+    "en": "fine (money penalty)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23000": {
+  "en": "If you stop at the right edge of the road without signalling the intention to do so well in advance, 4 points are taken off the driver's licence.",
+  "explain": {
+   "short": "Stopping without signalling is punished, but the deduction is not 4 points. The number in the statement is wrong.",
+   "rule": "Breaking the rules for joining traffic means a fine and loss of licence points; the quiz's figure of 4 points for stopping without signalling is wrong.",
+   "trap": "'4 punti' (4 points) is the trap: the quiz uses a wrong number.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Wrong number: not 4 points",
+    "it": "4 punti",
+    "lines": [
+     "Stop without signalling",
+     "It is an offence",
+     "But not 4 points"
+    ],
+    "icons": [
+     "indicator",
+     "money",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sottrazione di 4 punti",
+    "en": "taking off 4 points"
+   },
+   {
+    "it": "senza segnalare",
+    "en": "without signalling"
+   },
+   {
+    "it": "fermata",
+    "en": "stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23001": {
+  "en": "Rear-view mirrors help to give the driver an all-round view.",
+  "explain": {
+   "short": "Together with direct looks, mirrors let you see what happens behind and beside the car.",
+   "rule": "Mirrors help you see behind and beside the car, together with direct looks. They never show everything: blind spots remain.",
+   "trap": "'contribuiscono' (help to give) is the key: they help, they do not show everything.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mirrors help you see all around",
+    "it": "visione panoramica",
+    "lines": [
+     "Look ahead through the windscreen",
+     "Mirrors show behind and beside",
+     "Together: a wide view"
+    ],
+    "icons": [
+     "eye",
+     "mirror",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "specchi retrovisori",
+    "en": "rear-view mirrors"
+   },
+   {
+    "it": "visione panoramica",
+    "en": "all-round view"
+   },
+   {
+    "it": "contribuiscono",
+    "en": "help, contribute"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23002": {
+  "en": "The central rear-view mirror of a motor vehicle must be adjusted so as to give a good view behind.",
+  "explain": {
+   "short": "The central mirror is for seeing the road behind you through the rear window, so adjust it to see that well.",
+   "rule": "Adjust the mirrors with the car stopped, after the seat. The central mirror must be in your view and show the whole rear window.",
+   "trap": "'buona visione posteriore' (good rear view) is exactly the purpose of the central mirror.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Central mirror: a good view behind",
+    "it": "specchio centrale",
+    "lines": [
+     "Central mirror",
+     "Shows the road behind",
+     "Adjust it for a clear view"
+    ],
+    "icons": [
+     "mirror",
+     "road",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "specchio retrovisore centrale",
+    "en": "central rear-view mirror"
+   },
+   {
+    "it": "visione posteriore",
+    "en": "rear view"
+   },
+   {
+    "it": "regolato",
+    "en": "adjusted"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23003": {
+  "en": "The central and side rear-view mirrors of a motor vehicle must be adjusted after the driving seat position has been adjusted.",
+  "explain": {
+   "short": "The mirrors depend on where your eyes are. If you move the seat after, the mirrors are wrong again.",
+   "rule": "Adjust the mirrors with the car stopped, after the seat. The central mirror must be in your view and show the whole rear window.",
+   "trap": "'dopo' (after): first the seat, then the mirrors.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "First the seat, then the mirrors",
+    "it": "dopo",
+    "lines": [
+     "1. Adjust the seat",
+     "2. Then adjust the mirrors",
+     "Eyes in the right place"
+    ],
+    "icons": [
+     "car",
+     "mirror",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolati",
+    "en": "adjusted"
+   },
+   {
+    "it": "dopo",
+    "en": "after"
+   },
+   {
+    "it": "sedile di guida",
+    "en": "driving seat"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23004": {
+  "en": "The central rear-view mirror of a motor vehicle must be adjusted so as to see the whole rear window.",
+  "explain": {
+   "short": "When the central mirror frames the whole rear window, you get the widest view of the road behind.",
+   "rule": "Adjust the mirrors with the car stopped, after the seat. The central mirror must be in your view and show the whole rear window.",
+   "trap": "'l'intero lunotto' (the whole rear window) is the correct way to set it.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Central mirror shows the whole rear window",
+    "it": "lunotto",
+    "lines": [
+     "Central mirror",
+     "Frame the whole rear window",
+     "Widest view behind"
+    ],
+    "icons": [
+     "mirror",
+     "car",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "lunotto posteriore",
+    "en": "rear window"
+   },
+   {
+    "it": "intero",
+    "en": "whole"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23005": {
+  "en": "The central rear-view mirror of a motor vehicle must be placed so that it is within the driver's field of view.",
+  "explain": {
+   "short": "You must see the central mirror with a quick look of the eyes, without moving your head much.",
+   "rule": "Adjust the mirrors with the car stopped, after the seat. The central mirror must be in your view and show the whole rear window.",
+   "trap": "'campo visivo' (field of view): the mirror must be where your eyes can reach it quickly.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Central mirror within your field of view",
+    "it": "campo visivo",
+    "lines": [
+     "Central mirror",
+     "In your field of view",
+     "A quick look is enough"
+    ],
+    "icons": [
+     "mirror",
+     "eye",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "campo visivo",
+    "en": "field of view"
+   },
+   {
+    "it": "posizionato",
+    "en": "placed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23006": {
+  "en": "The central rear-view mirror of a motor vehicle is usually made so as to keep the distortion of the distance of following vehicles to a minimum.",
+  "explain": {
+   "short": "The central mirror is usually flat, so cars behind look about as far away as they really are.",
+   "rule": "Adjust the mirrors with the car stopped, after the seat. The central mirror must be in your view and show the whole rear window.",
+   "trap": "'in genere' (usually) and 'ridurre al minimo' (keep to a minimum) make the statement correct.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Central mirror: flat, little distortion",
+    "it": "distorsione",
+    "lines": [
+     "Central mirror is flat",
+     "Distance looks about real",
+     "Side mirrors distort more"
+    ],
+    "icons": [
+     "mirror",
+     "distance",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "distorsione della distanza",
+    "en": "distortion of distance"
+   },
+   {
+    "it": "in genere",
+    "en": "usually"
+   },
+   {
+    "it": "ridurre al minimo",
+    "en": "keep to a minimum"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23007": {
+  "en": "The driver must use the rear-view mirrors to check, before turning, that no vehicles are coming up from behind.",
+  "explain": {
+   "short": "Before a turn someone may be overtaking you or coming close. A mirror check shows it.",
+   "rule": "Check the mirrors before every manoeuvre: moving off, turning, changing lane, overtaking, stopping and reversing.",
+   "trap": "'prima di svoltare' (before turning) is one of the moments when mirrors are a must.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mirrors before every turn",
+    "it": "prima di svoltare",
+    "lines": [
+     "You want to turn at a junction",
+     "Check the mirrors first",
+     "Then indicator and turn"
+    ],
+    "icons": [
+     "mirror",
+     "indicator",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "prima di svoltare",
+    "en": "before turning"
+   },
+   {
+    "it": "sopraggiungano",
+    "en": "are coming up"
+   },
+   {
+    "it": "da dietro",
+    "en": "from behind"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23008": {
+  "en": "The central rear-view mirror of a motor vehicle has an anti-dazzle position to use at night.",
+  "explain": {
+   "short": "A small lever tilts the central mirror. At night this stops the lights behind you from dazzling you.",
+   "rule": "The anti-dazzle position of the central mirror is for night driving, on any road, against the glare of headlights behind you.",
+   "trap": "'antiriflesso' (anti-dazzle) and 'ore notturne' (night) belong together.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Anti-dazzle position: for night driving",
+    "it": "antiriflesso",
+    "lines": [
+     "Night, headlights behind you",
+     "Tilt the central mirror",
+     "No more dazzle"
+    ],
+    "icons": [
+     "night",
+     "mirror",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "posizione antiriflesso",
+    "en": "anti-dazzle position"
+   },
+   {
+    "it": "ore notturne",
+    "en": "night hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23009": {
+  "en": "The anti-dazzle position of the central rear-view mirror of a motor vehicle serves to reduce eye discomfort caused by the headlights of following vehicles.",
+  "explain": {
+   "short": "The headlights of cars behind reflect in the mirror into your eyes. The anti-dazzle position makes them much weaker.",
+   "rule": "The anti-dazzle position of the central mirror is for night driving, on any road, against the glare of headlights behind you.",
+   "trap": "'veicoli che seguono' (vehicles behind) is right: the problem is the lights from behind, not from the front.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Anti-dazzle: weaker lights from behind",
+    "it": "antiriflesso",
+    "lines": [
+     "Headlights behind you",
+     "Strong glare in the mirror",
+     "Anti-dazzle: glare reduced"
+    ],
+    "icons": [
+     "highbeam",
+     "mirror",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "posizione antiriflesso",
+    "en": "anti-dazzle position"
+   },
+   {
+    "it": "fastidio agli occhi",
+    "en": "eye discomfort"
+   },
+   {
+    "it": "veicoli che seguono",
+    "en": "following vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23010": {
+  "en": "The rear-view mirrors must be used to check the road behind the vehicle before starting to reverse into a parking space.",
+  "explain": {
+   "short": "Before reversing you must know what is behind: cars, bikes or pedestrians. The mirrors help you check.",
+   "rule": "Check the mirrors before every manoeuvre: moving off, turning, changing lane, overtaking, stopping and reversing.",
+   "trap": "'prima di iniziare' (before starting) a reverse parking manoeuvre, the mirror check is a must.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mirrors before reversing to park",
+    "it": "retromarcia",
+    "lines": [
+     "Reverse parking",
+     "Check mirrors before you start",
+     "Look back too"
+    ],
+    "icons": [
+     "mirror",
+     "car",
+     "pedestrian"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "parcheggio in retromarcia",
+    "en": "reverse parking"
+   },
+   {
+    "it": "controllo della strada dietro",
+    "en": "check of the road behind"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23011": {
+  "en": "The rear-view mirrors must be used to check the road behind the vehicle before starting to overtake.",
+  "explain": {
+   "short": "Before overtaking you check that nobody behind is already overtaking you or coming fast.",
+   "rule": "Check the mirrors before every manoeuvre: moving off, turning, changing lane, overtaking, stopping and reversing.",
+   "trap": "'prima di iniziare una manovra di sorpasso' (before overtaking) is a classic mirror moment.",
+   "scene": "overtake.basic",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mirrors before overtaking",
+    "it": "sorpasso",
+    "focus": "mirror"
+   }
+  },
+  "keywords": [
+   {
+    "it": "manovra di sorpasso",
+    "en": "overtaking manoeuvre"
+   },
+   {
+    "it": "controllo della strada dietro",
+    "en": "check of the road behind"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23012": {
+  "en": "Checking the rear-view mirrors lets you finish the overtaking manoeuvre safely.",
+  "explain": {
+   "short": "At the end of an overtake you look in the mirror to see the overtaken car, then go back right with enough space.",
+   "rule": "Check the mirrors before every manoeuvre: moving off, turning, changing lane, overtaking, stopping and reversing.",
+   "trap": "'completare in sicurezza' (finish safely): mirrors matter at the end of the overtake too.",
+   "scene": "overtake.basic",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mirror check to return right safely",
+    "it": "sorpasso",
+    "focus": "return"
+   }
+  },
+  "keywords": [
+   {
+    "it": "completare in sicurezza",
+    "en": "finish safely"
+   },
+   {
+    "it": "manovra di sorpasso",
+    "en": "overtaking manoeuvre"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23013": {
+  "en": "The anti-dazzle position of the central rear-view mirror of a motor vehicle must not be used at night.",
+  "explain": {
+   "short": "Night is exactly when you use it, against the glare of headlights behind you.",
+   "rule": "The anti-dazzle position of the central mirror is for night driving, on any road, against the glare of headlights behind you.",
+   "trap": "'non deve essere utilizzata di notte' (must not be used at night) turns the real rule upside down.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Anti-dazzle IS for night use",
+    "it": "antiriflesso",
+    "lines": [
+     "Night driving",
+     "Lights behind dazzle you",
+     "Use the anti-dazzle position"
+    ],
+    "icons": [
+     "night",
+     "highbeam",
+     "mirror"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "posizione antiriflesso",
+    "en": "anti-dazzle position"
+   },
+   {
+    "it": "di notte",
+    "en": "at night"
+   },
+   {
+    "it": "non deve",
+    "en": "must not"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23014": {
+  "en": "The anti-dazzle position of the central rear-view mirror of a motor vehicle cannot be used when driving on a motorway.",
+  "explain": {
+   "short": "No rule forbids it on the motorway. You can use it on any road when lights behind dazzle you.",
+   "rule": "The anti-dazzle position of the central mirror is for night driving, on any road, against the glare of headlights behind you.",
+   "trap": "'non può essere utilizzata... su autostrada' (cannot be used on a motorway) is invented.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Anti-dazzle allowed on motorways too",
+    "it": "autostrada",
+    "lines": [
+     "Motorway at night",
+     "Lights behind dazzle you",
+     "Anti-dazzle: allowed"
+    ],
+    "icons": [
+     "road",
+     "night",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non può essere utilizzata",
+    "en": "cannot be used"
+   },
+   {
+    "it": "autostrada",
+    "en": "motorway"
+   },
+   {
+    "it": "posizione antiriflesso",
+    "en": "anti-dazzle position"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23015": {
+  "en": "The rear-view mirrors must be used to check the road behind the vehicle every time you intend to go straight on at a junction.",
+  "explain": {
+   "short": "Going straight on is not a manoeuvre that changes your position. You need the mirrors for turning, changing lane or overtaking.",
+   "rule": "Check the mirrors before every manoeuvre: moving off, turning, changing lane, overtaking, stopping and reversing.",
+   "trap": "'ogni volta che... proseguire diritto' (every time you go straight on) is the trap: it is not a required moment.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Going straight: no required mirror check",
+    "it": "proseguire diritto",
+    "lines": [
+     "Junction ahead",
+     "Going straight on",
+     "Mirrors are a must for turns"
+    ],
+    "icons": [
+     "road",
+     "car",
+     "mirror"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "proseguire diritto",
+    "en": "go straight on"
+   },
+   {
+    "it": "incrocio",
+    "en": "junction"
+   },
+   {
+    "it": "ogni volta",
+    "en": "every time"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23016": {
+  "en": "The interior light of the rear-view mirror comes on when the vehicle's side lights are switched on.",
+  "explain": {
+   "short": "Mirrors have no light that switches on with the side lights. This statement is made up.",
+   "rule": "Rear-view mirrors are compulsory equipment of an approved type. You may not remove them, swap them for other types or drive without them.",
+   "trap": "'illuminazione interna dello specchio' (mirror interior light) linked to 'luci di posizione' (side lights) is invented.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No such mirror light with side lights",
+    "it": "luci di posizione",
+    "lines": [
+     "Side lights on",
+     "The mirror does not light up",
+     "This rule is invented"
+    ],
+    "icons": [
+     "light",
+     "mirror",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "illuminazione interna",
+    "en": "interior lighting"
+   },
+   {
+    "it": "luci di posizione",
+    "en": "side lights (parking lights)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23017": {
+  "en": "The size of the rear-view mirrors is proportional to the engine size of the vehicle.",
+  "explain": {
+   "short": "Mirror size depends on the vehicle's type and size, not on the engine. Engine size (cilindrata) has nothing to do with it.",
+   "rule": "Rear-view mirrors are compulsory equipment of an approved type. You may not remove them, swap them for other types or drive without them.",
+   "trap": "'cilindrata' (engine size) is a false link the quiz uses to trick you.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Mirror size has nothing to do with engine size",
+    "it": "cilindrata",
+    "lines": [
+     "Small engine, big engine",
+     "Mirror size: not linked",
+     "Engine size is a false clue"
+    ],
+    "icons": [
+     "engine",
+     "mirror",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cilindrata",
+    "en": "engine size"
+   },
+   {
+    "it": "proporzionali",
+    "en": "proportional"
+   },
+   {
+    "it": "dimensioni",
+    "en": "size"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23018": {
+  "en": "The central rear-view mirror of a motor vehicle can be removed if the vehicle has a left side mirror.",
+  "explain": {
+   "short": "The mirrors are compulsory equipment. The left mirror does not replace the central one: each shows a different area.",
+   "rule": "Rear-view mirrors are compulsory equipment of an approved type. You may not remove them, swap them for other types or drive without them.",
+   "trap": "'può essere rimosso' (can be removed) is the trap: you may not take away a compulsory mirror.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Do not remove the central mirror",
+    "it": "rimosso",
+    "lines": [
+     "Central mirror: compulsory",
+     "Left mirror: compulsory too",
+     "One does not replace the other"
+    ],
+    "icons": [
+     "mirror",
+     "mirror",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "può essere rimosso",
+    "en": "can be removed"
+   },
+   {
+    "it": "specchio laterale sinistro",
+    "en": "left side mirror"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23019": {
+  "en": "When reversing into a parking space, you do not need to use the rear-view mirrors if the vehicle has parking sensors.",
+  "explain": {
+   "short": "Parking sensors only help. They can miss low or thin objects and moving people, so you still use the mirrors.",
+   "rule": "Check the mirrors before every manoeuvre: moving off, turning, changing lane, overtaking, stopping and reversing.",
+   "trap": "'non è necessario... se il veicolo è dotato di sensori' (not needed with sensors) is the trap: sensors do not replace mirrors.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Sensors help, mirrors still needed",
+    "it": "sensori di parcheggio",
+    "lines": [
+     "Reverse parking with sensors",
+     "Sensors can miss things",
+     "Use the mirrors too"
+    ],
+    "icons": [
+     "car",
+     "warning",
+     "mirror"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sensori di parcheggio",
+    "en": "parking sensors"
+   },
+   {
+    "it": "non è necessario",
+    "en": "it is not necessary"
+   },
+   {
+    "it": "retromarcia",
+    "en": "reverse"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23020": {
+  "en": "The rear-view mirrors, taken all together, let the driver see the whole area of road behind and around the vehicle.",
+  "explain": {
+   "short": "Even with all mirrors there are blind spots that no mirror shows. You must also turn your head and look.",
+   "rule": "The left mirror is convex: it shows mainly the road beside you, distorts distance and speed and has a large blind spot. Add a quick direct look.",
+   "trap": "'l'intera area' (the whole area) is the trap: blind spots always remain.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Mirrors leave blind spots",
+    "it": "intera area",
+    "lines": [
+     "All mirrors together",
+     "Blind spots remain",
+     "Turn your head to check"
+    ],
+    "icons": [
+     "mirror",
+     "warning",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "l'intera area",
+    "en": "the whole area"
+   },
+   {
+    "it": "nel loro complesso",
+    "en": "all together"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23021": {
+  "en": "Motor caravans may be without rear-view mirrors if the mirrors make them too wide.",
+  "explain": {
+   "short": "Every motor vehicle, motor caravans included, must have its rear-view mirrors. Being wide is no excuse.",
+   "rule": "Rear-view mirrors are compulsory equipment of an approved type. You may not remove them, swap them for other types or drive without them.",
+   "trap": "'possono non essere dotati' (may be without) is the trap: mirrors are always compulsory.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Motor caravans must have mirrors too",
+    "it": "autocaravan",
+    "lines": [
+     "Motor caravan: wide vehicle",
+     "Mirrors still compulsory",
+     "No exception for width"
+    ],
+    "icons": [
+     "truck",
+     "mirror",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocaravan",
+    "en": "motor caravan (camper)"
+   },
+   {
+    "it": "possono non essere dotati",
+    "en": "may be without"
+   },
+   {
+    "it": "ingombranti in larghezza",
+    "en": "too wide"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23022": {
+  "en": "The rear-view mirrors should, as a rule, be adjusted while the vehicle is moving.",
+  "explain": {
+   "short": "You adjust the mirrors before leaving, with the car stopped. Doing it while driving takes your eyes off the road.",
+   "rule": "Adjust the mirrors with the car stopped, after the seat. The central mirror must be in your view and show the whole rear window.",
+   "trap": "'con il veicolo in marcia' (while moving) is the trap: adjust them with the car stopped.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Adjust mirrors with the car stopped",
+    "it": "in marcia",
+    "lines": [
+     "Car stopped",
+     "Adjust seat, then mirrors",
+     "Then drive off"
+    ],
+    "icons": [
+     "car",
+     "mirror",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "veicolo in marcia",
+    "en": "vehicle moving"
+   },
+   {
+    "it": "regolazione",
+    "en": "adjustment"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23023": {
+  "en": "The outside rear-view mirrors of motor vehicles can be replaced with different types, as long as they have a larger surface.",
+  "explain": {
+   "short": "Mirrors must be of an approved type for that vehicle. You cannot change them to another type just because it is bigger.",
+   "rule": "Rear-view mirrors are compulsory equipment of an approved type. You may not remove them, swap them for other types or drive without them.",
+   "trap": "'purché di superficie maggiore' (as long as larger) sounds safe, but it is not a valid reason.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No swapping mirrors for other types",
+    "it": "tipo differente",
+    "lines": [
+     "Mirrors: approved type",
+     "Bigger is not a reason",
+     "No swap to a different type"
+    ],
+    "icons": [
+     "mirror",
+     "book",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sostituiti",
+    "en": "replaced"
+   },
+   {
+    "it": "tipo differente",
+    "en": "different type"
+   },
+   {
+    "it": "superficie maggiore",
+    "en": "larger surface"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23024": {
+  "en": "You can drive a motor vehicle that is temporarily missing its rear-view mirrors, as long as you go no faster than 50 km/h and keep the hazard lights on.",
+  "explain": {
+   "short": "Without the compulsory mirrors you cannot drive at all. A low speed and hazard lights do not make it legal.",
+   "rule": "Rear-view mirrors are compulsory equipment of an approved type. You may not remove them, swap them for other types or drive without them.",
+   "trap": "'purché a velocità non superiore a 50 km/h' (as long as max 50 km/h) is an invented condition.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No driving without mirrors, at any speed",
+    "it": "mancano",
+    "lines": [
+     "Mirrors missing",
+     "50 km/h and hazard lights?",
+     "No: you cannot drive"
+    ],
+    "icons": [
+     "mirror",
+     "warning",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "mancano temporaneamente",
+    "en": "are temporarily missing"
+   },
+   {
+    "it": "segnalazione luminosa di pericolo",
+    "en": "hazard lights"
+   },
+   {
+    "it": "purché",
+    "en": "as long as"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23025": {
+  "en": "The left side mirror must be adjusted so that you can see the tail of the vehicle in its right third.",
+  "explain": {
+   "short": "A small part of your own car in the mirror is a reference point. The rest of the mirror shows the road beside you.",
+   "rule": "The left mirror is convex: it shows mainly the road beside you, distorts distance and speed and has a large blind spot. Add a quick direct look.",
+   "trap": "'nel suo terzo di destra' (in its right third): only a small strip should show your car.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Your car's tail in the right third of the mirror",
+    "it": "terzo di destra",
+    "lines": [
+     "Left mirror",
+     "Car's tail in the right third",
+     "The rest: the road beside you"
+    ],
+    "icons": [
+     "mirror",
+     "car",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "terzo di destra",
+    "en": "right third"
+   },
+   {
+    "it": "coda del veicolo",
+    "en": "tail of the vehicle"
+   },
+   {
+    "it": "scorgere",
+    "en": "to see, glimpse"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23026": {
+  "en": "The left side mirror must be adjusted so that you can mainly see the part of the road beside the vehicle.",
+  "explain": {
+   "short": "The left mirror is for the road beside and behind you on the left, where overtaking cars come.",
+   "rule": "The left mirror is convex: it shows mainly the road beside you, distorts distance and speed and has a large blind spot. Add a quick direct look.",
+   "trap": "'prevalentemente' (mainly) is the key: mostly road, only a little of your car.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left mirror: mainly the road beside you",
+    "it": "prevalentemente",
+    "lines": [
+     "Left mirror",
+     "Mostly the road on your left",
+     "Where overtaking cars come"
+    ],
+    "icons": [
+     "mirror",
+     "road",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "prevalentemente",
+    "en": "mainly"
+   },
+   {
+    "it": "porzione di strada",
+    "en": "part of the road"
+   },
+   {
+    "it": "a fianco",
+    "en": "beside"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23027": {
+  "en": "The left side mirror distorts the perception of the distance and speed of vehicles coming up.",
+  "explain": {
+   "short": "The left mirror is curved (convex) to show more road. That makes cars look further away and slower than they are.",
+   "rule": "The left mirror is convex: it shows mainly the road beside you, distorts distance and speed and has a large blind spot. Add a quick direct look.",
+   "trap": "'falsa la percezione' (distorts the perception) is right: do not trust it blindly.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left mirror distorts distance and speed",
+    "it": "falsa la percezione",
+    "lines": [
+     "Curved left mirror",
+     "Cars look further and slower",
+     "Be careful when judging"
+    ],
+    "icons": [
+     "mirror",
+     "distance",
+     "warning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "falsa la percezione",
+    "en": "distorts the perception"
+   },
+   {
+    "it": "sopraggiungenti",
+    "en": "coming up from behind"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23028": {
+  "en": "The left side mirror must be used before starting to change lane to the left.",
+  "explain": {
+   "short": "A car may be coming in the left lane. Check the left mirror before you move across.",
+   "rule": "Check the mirrors before every manoeuvre: moving off, turning, changing lane, overtaking, stopping and reversing.",
+   "trap": "'cambio corsia verso sinistra' (lane change to the left) is a classic moment for the left mirror.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left mirror before moving to the left lane",
+    "it": "cambio corsia",
+    "lines": [
+     "You want the left lane",
+     "Check the left mirror",
+     "Indicator, then move"
+    ],
+    "icons": [
+     "mirror",
+     "indicator",
+     "car"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cambio corsia",
+    "en": "lane change"
+   },
+   {
+    "it": "verso sinistra",
+    "en": "to the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23029": {
+  "en": "The left side mirror must be used before starting to overtake.",
+  "explain": {
+   "short": "You overtake on the left, so you check the left mirror for cars already coming past you.",
+   "rule": "Check the mirrors before every manoeuvre: moving off, turning, changing lane, overtaking, stopping and reversing.",
+   "trap": "'prima di iniziare una manovra di sorpasso' (before overtaking) is a must-check moment.",
+   "scene": "overtake.basic",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left mirror before overtaking",
+    "it": "sorpasso",
+    "focus": "mirror"
+   }
+  },
+  "keywords": [
+   {
+    "it": "manovra di sorpasso",
+    "en": "overtaking manoeuvre"
+   },
+   {
+    "it": "specchio retrovisore laterale sinistro",
+    "en": "left side mirror"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23030": {
+  "en": "The left side mirror must be used before starting to turn left.",
+  "explain": {
+   "short": "Before turning left someone may be overtaking you on the left. The left mirror shows it.",
+   "rule": "Check the mirrors before every manoeuvre: moving off, turning, changing lane, overtaking, stopping and reversing.",
+   "trap": "'svolta a sinistra' (left turn) is a moment when the left mirror is a must.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left mirror before turning left",
+    "it": "svolta a sinistra",
+    "lines": [
+     "Junction: you turn left",
+     "Check the left mirror",
+     "Indicator, keep near the centre"
+    ],
+    "icons": [
+     "mirror",
+     "indicator",
+     "road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "svolta a sinistra",
+    "en": "left turn"
+   },
+   {
+    "it": "deve essere utilizzato",
+    "en": "must be used"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23031": {
+  "en": "The left side mirror has a very large blind spot.",
+  "explain": {
+   "short": "There is an area beside and slightly behind you that the left mirror does not show. A car can hide there.",
+   "rule": "The left mirror is convex: it shows mainly the road beside you, distorts distance and speed and has a large blind spot. Add a quick direct look.",
+   "trap": "'angolo cieco molto ampio' (very large blind spot) is true, so you also look over your shoulder.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left mirror: big blind spot",
+    "it": "angolo cieco",
+    "lines": [
+     "Left mirror",
+     "A car hides beside you",
+     "Look over your shoulder"
+    ],
+    "icons": [
+     "mirror",
+     "car",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "angolo cieco",
+    "en": "blind spot"
+   },
+   {
+    "it": "molto ampio",
+    "en": "very large"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23032": {
+  "en": "Before starting to overtake, checking the left side mirror must be completed with a quick direct look to the side.",
+  "explain": {
+   "short": "Because of the blind spot, the mirror alone is not enough. A quick glance over your shoulder shows the hidden car.",
+   "rule": "The left mirror is convex: it shows mainly the road beside you, distorts distance and speed and has a large blind spot. Add a quick direct look.",
+   "trap": "'integrato con un rapido controllo visivo' (completed with a quick look) is right: mirror plus glance.",
+   "scene": "overtake.basic",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mirror plus a quick look over the shoulder",
+    "it": "controllo visivo",
+    "focus": "checks"
+   }
+  },
+  "keywords": [
+   {
+    "it": "rapido controllo visivo laterale diretto",
+    "en": "quick direct look to the side"
+   },
+   {
+    "it": "integrato",
+    "en": "completed, combined"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23033": {
+  "en": "Before moving the vehicle into the flow of traffic, you must check the left side mirror and also check with a direct look that the road is clear enough behind and beside the vehicle.",
+  "explain": {
+   "short": "The mirror shows most of the road but not the blind spot. A direct look completes the check before you join traffic.",
+   "rule": "The left mirror is convex: it shows mainly the road beside you, distorts distance and speed and has a large blind spot. Add a quick direct look.",
+   "trap": "'nonché' (and also): both checks are needed, mirror and direct look.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Join traffic: mirror and direct look",
+    "it": "controllo visivo diretto",
+    "lines": [
+     "Parked, ready to join traffic",
+     "Check the left mirror",
+     "Then a direct look back"
+    ],
+    "icons": [
+     "car",
+     "mirror",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "immettere il veicolo nel flusso della circolazione",
+    "en": "move the vehicle into traffic"
+   },
+   {
+    "it": "controllo visivo diretto",
+    "en": "direct look"
+   },
+   {
+    "it": "nonché",
+    "en": "and also"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23034": {
+  "en": "The left side mirror must be adjusted so that you can watch any children sitting in the back of the vehicle.",
+  "explain": {
+   "short": "The left mirror is for the road beside and behind the car, not for the inside. Watching the back seat takes your eyes off the road.",
+   "rule": "Check the mirrors before every manoeuvre: moving off, turning, changing lane, overtaking, stopping and reversing.",
+   "trap": "'bambini seduti nella parte posteriore' (children in the back) is the wrong purpose.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Left mirror is for the road, not the back seat",
+    "it": "bambini",
+    "lines": [
+     "Left mirror",
+     "Shows the road outside",
+     "Not the children inside"
+    ],
+    "icons": [
+     "mirror",
+     "road",
+     "child"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "bambini",
+    "en": "children"
+   },
+   {
+    "it": "parte posteriore del veicolo",
+    "en": "back of the vehicle"
+   },
+   {
+    "it": "controllare il comportamento",
+    "en": "watch the behaviour"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23035": {
+  "en": "The left side mirror must be folded in when driving on narrow mountain roads.",
+  "explain": {
+   "short": "You need the left mirror most on narrow roads. Folding it would hide the traffic beside and behind you.",
+   "rule": "Check the mirrors before every manoeuvre: moving off, turning, changing lane, overtaking, stopping and reversing.",
+   "trap": "'deve essere chiuso' (must be folded) is the trap: no rule asks this.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Keep the mirror open on mountain roads",
+    "it": "strade strette di montagna",
+    "lines": [
+     "Narrow mountain road",
+     "Left mirror stays open",
+     "You need it to see"
+    ],
+    "icons": [
+     "curve",
+     "mirror",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "deve essere chiuso",
+    "en": "must be folded in"
+   },
+   {
+    "it": "strade strette di montagna",
+    "en": "narrow mountain roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23036": {
+  "en": "In built-up areas it is not necessary to use the rear-view mirrors.",
+  "explain": {
+   "short": "In towns there are bikes, motorbikes and many lane changes. You need the mirrors there too.",
+   "rule": "Check the mirrors before every manoeuvre: moving off, turning, changing lane, overtaking, stopping and reversing.",
+   "trap": "'non è necessario' (it is not necessary) is the trap: mirrors are needed everywhere.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Mirrors are needed in towns too",
+    "it": "centri abitati",
+    "lines": [
+     "Town traffic",
+     "Bikes and scooters around you",
+     "Use the mirrors"
+    ],
+    "icons": [
+     "bike",
+     "moto",
+     "mirror"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "centri abitati",
+    "en": "built-up areas, towns"
+   },
+   {
+    "it": "non è necessario",
+    "en": "it is not necessary"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23037": {
+  "en": "If you use the rear-view mirror while joining traffic, it is better not to also check with a direct look, so as not to take your attention away from driving.",
+  "explain": {
+   "short": "The direct look is part of driving safely: it covers the blind spot. You should do both.",
+   "rule": "The left mirror is convex: it shows mainly the road beside you, distorts distance and speed and has a large blind spot. Add a quick direct look.",
+   "trap": "'è bene non controllare anche' (better not to also check) is the trap: the direct look is required.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Mirror AND a direct look, not only the mirror",
+    "it": "sguardo diretto",
+    "lines": [
+     "Joining traffic",
+     "Mirror check",
+     "Direct look too"
+    ],
+    "icons": [
+     "car",
+     "mirror",
+     "eye"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sguardo diretto",
+    "en": "direct look"
+   },
+   {
+    "it": "è bene non controllare",
+    "en": "it is better not to check"
+   },
+   {
+    "it": "inserimento nella circolazione",
+    "en": "joining traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23038": {
+  "en": "The rear-view mirrors of two-wheeled vehicles are fixed and cannot be adjusted, because the vibrations of the vehicle tend to move them from their original position.",
+  "explain": {
+   "short": "Motorbike mirrors can be adjusted, and must be, for each rider. Vibrations are a reason to check them, not to fix them.",
+   "rule": "Adjust the mirrors with the car stopped, after the seat. The central mirror must be in your view and show the whole rear window.",
+   "trap": "'fissi e senza possibilità di regolazione' (fixed, cannot be adjusted) is invented.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Motorbike mirrors can be adjusted",
+    "it": "regolazione",
+    "lines": [
+     "Motorbike mirrors",
+     "They can be adjusted",
+     "Set them for the rider"
+    ],
+    "icons": [
+     "moto",
+     "mirror",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicoli a due ruote",
+    "en": "two-wheeled vehicles"
+   },
+   {
+    "it": "fissi",
+    "en": "fixed"
+   },
+   {
+    "it": "senza possibilità di regolazione",
+    "en": "with no way to adjust them"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23039": {
+  "en": "The rear-view mirrors should be adjusted, on average, about every thousand kilometres.",
+  "explain": {
+   "short": "You check the mirrors every time you get in, before driving. Kilometres have nothing to do with it.",
+   "rule": "Adjust the mirrors with the car stopped, after the seat. The central mirror must be in your view and show the whole rear window.",
+   "trap": "'ogni mille chilometri' (every thousand km) is an invented interval.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Check mirrors each time, not every 1000 km",
+    "it": "mille chilometri",
+    "lines": [
+     "Get into the car",
+     "Check and adjust the mirrors",
+     "Every time, not every 1000 km"
+    ],
+    "icons": [
+     "car",
+     "mirror",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ogni mille chilometri",
+    "en": "every thousand kilometres"
+   },
+   {
+    "it": "di media",
+    "en": "on average"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23040": {
+  "en": "Motor vehicles with rear headrests do not have a central rear-view mirror, because it would be useless.",
+  "explain": {
+   "short": "Cars with rear headrests still have a central mirror. You look through the gaps, and it stays compulsory equipment.",
+   "rule": "Rear-view mirrors are compulsory equipment of an approved type. You may not remove them, swap them for other types or drive without them.",
+   "trap": "'non sono muniti' (do not have) is the trap: rear headrests do not remove the central mirror.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Rear headrests: central mirror still there",
+    "it": "poggiatesta",
+    "lines": [
+     "Rear headrests",
+     "Central mirror still fitted",
+     "Still useful and compulsory"
+    ],
+    "icons": [
+     "car",
+     "mirror",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "poggiatesta posteriori",
+    "en": "rear headrests"
+   },
+   {
+    "it": "non sono muniti",
+    "en": "are not fitted"
+   },
+   {
+    "it": "inutilizzabile",
+    "en": "useless"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q23041": {
+  "en": "The central rear-view mirror can be used as a screen for the satellite navigator.",
+  "explain": {
+   "short": "The central mirror is for seeing behind you. Covering it with a sat-nav screen hides the road behind.",
+   "rule": "Rear-view mirrors are compulsory equipment of an approved type. You may not remove them, swap them for other types or drive without them.",
+   "trap": "'schermo per il navigatore' (sat-nav screen) is the wrong use of the mirror.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Central mirror is not a sat-nav screen",
+    "it": "navigatore",
+    "lines": [
+     "Central mirror",
+     "Only for seeing behind",
+     "Not a sat-nav screen"
+    ],
+    "icons": [
+     "mirror",
+     "road",
+     "cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "navigatore satellitare",
+    "en": "sat-nav"
+   },
+   {
+    "it": "schermo",
+    "en": "screen"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

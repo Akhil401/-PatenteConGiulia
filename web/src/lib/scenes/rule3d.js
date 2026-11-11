@@ -1,3 +1,4 @@
+import { T } from "./engine.js";
 // A 3D "set" for a rule card: the road, the vehicles and the people the rule talks about,
 // chosen from the words of the question and its explanation. The rule cards stay on top.
 
@@ -60,7 +61,9 @@ export function ruleWorld(P, q, lines, dur, per, start) {
   // ---- places on the road ----
   const rails = has(text, /level crossing|passaggio a livello|railway|rails|\btrain/) || icons.includes("train");
   const people = has(text, /pedestrian|pedon|blind|elderly|anzian|pregnant|child|bambin|school|zebra|crossing the carriageway|white stick/) || icons.includes("pedestrian") || icons.includes("child");
-  const junction = !rails && has(text, /junction|intersection|crossroad|incroc|right of way|precedenza/);
+  // junctions from the ENGLISH wording only: in Italian "incrocio" also means meeting an oncoming vehicle
+  const textEn = [q && q.en, P.caption, ...(lines || [])].filter(Boolean).join(" ").toLowerCase();
+  const junction = !rails && has(textEn, /junction|intersection|crossroad|right of way|roundabout/);
   const lights = has(text, /traffic light|semafor|red light|yellow light|lights/) && !rails;
   const island = has(text, /island|isola|salvagente/);
   const busStop = has(text, /bus stop|fermata/);
@@ -112,5 +115,15 @@ export function ruleWorld(P, q, lines, dur, per, start) {
     actors.push({ id: "p1", kind: "ped", color: kids ? "#ec4899" : "#22c55e", small: kids, keys: [{ t: 0, x: 76, y: zy + 10 }, { t: 1300, x: 76, y: zy + 10 }, { t: dur, x: 250, y: zy + 10 }] });
   }
 
+  // following distance: two vehicles in your lane with the gap between them labelled
+  const gapRule = has(text, /distanza di sicurezza|safe distance|following distance|stopping distance|braking distance|reaction distance|spazio di (frenatura|arresto)|tempo di reazione|distanza minima/);
+  if (gapRule && !people && !rails) {
+    const x = lanes.up[0], heavy = has(text, /lorr|truck|autocarr|camion|heavy|pesante|ingombrant/);
+    const lead = { id: "lead", kind: heavy ? "truck" : "car", color: "#f59e0b", keys: [{ t: 0, x, y: 160 }, { t: dur, x, y: 40 }] };
+    const you = { id: "you", kind: "you", keys: [{ t: 0, x, y: 400 }, { t: dur, x, y: 280 }] };
+    const others = actors.filter(a => !a.id.startsWith("h"));
+    return { road, line, feature, props, actors: [...others, lead, you], cam: "orbit", focusY: 230, orbitR: 17, orbitH: 15,
+      gap: { a: "lead", b: "you", text: T("safe distance", "distanza di sicurezza"), t0: start + 600 } };
+  }
   return { road, line, feature, props, actors, cam: "orbit", focusY: stopY != null ? stopY - 40 : 180 };
 }

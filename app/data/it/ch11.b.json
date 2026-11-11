@@ -1,0 +1,704 @@
+{
+ "q22328": {
+  "short": "In autostrada il limite normale per le auto è 130 km/h. Segnali, pioggia o neve possono cambiarlo.",
+  "rule": "Limiti per l'auto: autostrada 130 km/h, extraurbana principale 110 km/h, extraurbana secondaria 90 km/h, centro abitato 50 km/h. Veicoli fino a 3,5 t e moto hanno gli stessi limiti; i segnali possono cambiarli.",
+  "trap": "«ordinariamente» vuol dire «di regola»: ammette eccezioni, quindi la frase è giusta.",
+  "caption": "Autostrada, limite normale: 130 km/h",
+  "lines": [
+   "Auto in autostrada",
+   "Limite normale: 130 km/h"
+  ]
+ },
+ "q22329": {
+  "short": "Sulle strade extraurbane principali le auto possono andare di regola a 110 km/h.",
+  "rule": "Limiti per l'auto: autostrada 130 km/h, extraurbana principale 110 km/h, extraurbana secondaria 90 km/h, centro abitato 50 km/h. Veicoli fino a 3,5 t e moto hanno gli stessi limiti; i segnali possono cambiarli.",
+  "trap": "«ordinariamente» (di regola) ammette eccezioni: pioggia, neopatentati, segnali.",
+  "caption": "Extraurbana principale: 110 km/h",
+  "lines": [
+   "Strada extraurbana principale",
+   "Limite normale: 110 km/h"
+  ]
+ },
+ "q22330": {
+  "short": "Sulle strade extraurbane secondarie il limite per le auto è 90 km/h.",
+  "rule": "Limiti per l'auto: autostrada 130 km/h, extraurbana principale 110 km/h, extraurbana secondaria 90 km/h, centro abitato 50 km/h. Veicoli fino a 3,5 t e moto hanno gli stessi limiti; i segnali possono cambiarli.",
+  "trap": "Non confondere «principali» (110 km/h) e «secondarie» (90 km/h).",
+  "caption": "Extraurbana secondaria: 90 km/h",
+  "lines": [
+   "Strada secondaria fuori città",
+   "Limite: 90 km/h"
+  ]
+ },
+ "q22331": {
+  "short": "Nei centri abitati il limite normale è 50 km/h. I segnali possono alzarlo fino a 70 km/h o abbassarlo.",
+  "rule": "Limiti per l'auto: autostrada 130 km/h, extraurbana principale 110 km/h, extraurbana secondaria 90 km/h, centro abitato 50 km/h. Veicoli fino a 3,5 t e moto hanno gli stessi limiti; i segnali possono cambiarli.",
+  "trap": "«ordinariamente» rende la frase giusta; con «sempre» sarebbe sbagliata.",
+  "caption": "In città, limite normale: 50 km/h",
+  "lines": [
+   "Centro abitato",
+   "Limite normale: 50 km/h"
+  ]
+ },
+ "q22332": {
+  "short": "I veicoli fino a 3,5 tonnellate hanno lo stesso limite delle auto in autostrada: 130 km/h.",
+  "rule": "Limiti per l'auto: autostrada 130 km/h, extraurbana principale 110 km/h, extraurbana secondaria 90 km/h, centro abitato 50 km/h. Veicoli fino a 3,5 t e moto hanno gli stessi limiti; i segnali possono cambiarli.",
+  "trap": "«fino a 3,5 tonnellate» indica un veicolo leggero: segue i limiti delle auto.",
+  "caption": "Fino a 3,5 t in autostrada: 130 km/h",
+  "lines": [
+   "Veicolo fino a 3,5 tonnellate",
+   "Autostrada: 130 km/h"
+  ]
+ },
+ "q22333": {
+  "short": "Un autocarro fino a 3,5 tonnellate segue i limiti delle auto: 110 km/h sulle extraurbane principali.",
+  "rule": "Limiti per l'auto: autostrada 130 km/h, extraurbana principale 110 km/h, extraurbana secondaria 90 km/h, centro abitato 50 km/h. Veicoli fino a 3,5 t e moto hanno gli stessi limiti; i segnali possono cambiarli.",
+  "trap": "«autocarro» sembra un camion pesante, ma «fino a 3,5 tonnellate» lo rende leggero.",
+  "caption": "Autocarro leggero, extraurbana principale: 110",
+  "lines": [
+   "Autocarro fino a 3,5 tonnellate",
+   "Extraurbana principale: 110 km/h"
+  ]
+ },
+ "q22334": {
+  "short": "I veicoli fino a 3,5 tonnellate sulle extraurbane secondarie hanno il limite delle auto: 90 km/h.",
+  "rule": "Limiti per l'auto: autostrada 130 km/h, extraurbana principale 110 km/h, extraurbana secondaria 90 km/h, centro abitato 50 km/h. Veicoli fino a 3,5 t e moto hanno gli stessi limiti; i segnali possono cambiarli.",
+  "trap": "«secondarie» sono le strade a 90 km/h, non quelle a 110 km/h.",
+  "caption": "Fino a 3,5 t, strada secondaria: 90 km/h",
+  "lines": [
+   "Veicolo fino a 3,5 tonnellate",
+   "Strada secondaria: 90 km/h"
+  ]
+ },
+ "q22335": {
+  "short": "In città il limite normale è 50 km/h per tutti, anche per le moto.",
+  "rule": "Limiti per l'auto: autostrada 130 km/h, extraurbana principale 110 km/h, extraurbana secondaria 90 km/h, centro abitato 50 km/h. Veicoli fino a 3,5 t e moto hanno gli stessi limiti; i segnali possono cambiarli.",
+  "trap": "«ordinariamente» (di regola) ammette segnali che cambiano il limite.",
+  "caption": "Moto in città: 50 km/h",
+  "lines": [
+   "Moto in città",
+   "Limite normale: 50 km/h"
+  ]
+ },
+ "q22336": {
+  "short": "Su alcuni tratti di autostrada moderni il gestore può mettere segnali che permettono fino a 150 km/h.",
+  "rule": "I segnali possono alzare il limite: fino a 150 km/h su alcune autostrade e fino a 70 km/h su alcune strade urbane. Senza segnali: 130 km/h in autostrada, 50 km/h in città.",
+  "trap": "Conta «in presenza di apposito segnale»: senza segnale il limite resta 130 km/h.",
+  "caption": "Solo con apposito segnale: 150 km/h",
+  "lines": [
+   "Autostrada con caratteristiche speciali",
+   "Con il segnale: 150 km/h",
+   "Senza segnale: 130 km/h"
+  ]
+ },
+ "q22337": {
+  "short": "Alcune strade urbane sono larghe e sicure. Con i segnali il limite può arrivare a 70 km/h.",
+  "rule": "I segnali possono alzare il limite: fino a 150 km/h su alcune autostrade e fino a 70 km/h su alcune strade urbane. Senza segnali: 130 km/h in autostrada, 50 km/h in città.",
+  "trap": "Conta «in presenza di segnali»: senza segnali il limite è 50 km/h.",
+  "caption": "Strada urbana con segnali: fino a 70 km/h",
+  "lines": [
+   "Strada urbana speciale",
+   "Con segnali: 70 km/h",
+   "Senza segnali: 50 km/h"
+  ]
+ },
+ "q22338": {
+  "short": "Con pioggia o neve la strada è scivolosa e si vede meno: in autostrada il limite scende da 130 a 110 km/h.",
+  "rule": "Con pioggia o neve (precipitazioni) il limite per le auto scende: 110 km/h in autostrada e 90 km/h sulle extraurbane principali.",
+  "trap": "«precipitazioni atmosferiche» vuol dire pioggia o neve: il limite in autostrada scende a 110 km/h.",
+  "caption": "Autostrada con pioggia o neve: 110 km/h",
+  "lines": [
+   "Pioggia o neve",
+   "Autostrada: 110 km/h"
+  ]
+ },
+ "q22339": {
+  "short": "Con pioggia o neve il limite sulle extraurbane principali scende da 110 a 90 km/h.",
+  "rule": "Con pioggia o neve (precipitazioni) il limite per le auto scende: 110 km/h in autostrada e 90 km/h sulle extraurbane principali.",
+  "trap": "«precipitazioni atmosferiche» (pioggia o neve) abbassa il limite a 90 km/h.",
+  "caption": "Extraurbana principale con pioggia: 90 km/h",
+  "lines": [
+   "Pioggia o neve",
+   "Extraurbana principale: 90 km/h"
+  ]
+ },
+ "q22340": {
+  "short": "I ciclomotori sono costruiti per non superare 45 km/h, e questo è anche il loro limite su ogni strada.",
+  "rule": "I veicoli lenti hanno limiti propri: ciclomotori 45 km/h, quadricicli non leggeri 80 km/h fuori città, macchine agricole e operatrici gommate 40 km/h.",
+  "trap": "I «ciclomotori» non sono moto: il loro limite è 45 km/h.",
+  "caption": "Ciclomotori: 45 km/h",
+  "lines": [
+   "Ciclomotore",
+   "Limite: 45 km/h"
+  ]
+ },
+ "q22341": {
+  "short": "I quadricicli non leggeri (piccole auto a quattro ruote) fuori città possono andare fino a 80 km/h.",
+  "rule": "I veicoli lenti hanno limiti propri: ciclomotori 45 km/h, quadricicli non leggeri 80 km/h fuori città, macchine agricole e operatrici gommate 40 km/h.",
+  "trap": "Contano «non leggeri» e «fuori dai centri urbani»: il numero è 80 km/h.",
+  "caption": "Quadriciclo fuori città: 80 km/h",
+  "lines": [
+   "Quadriciclo non leggero",
+   "Fuori città: 80 km/h"
+  ]
+ },
+ "q22342": {
+  "short": "150 km/h vale solo su tratti speciali con apposito segnale. Su un'autostrada normale il limite è 130 km/h.",
+  "rule": "I segnali possono alzare il limite: fino a 150 km/h su alcune autostrade e fino a 70 km/h su alcune strade urbane. Senza segnali: 130 km/h in autostrada, 50 km/h in città.",
+  "trap": "«qualsiasi» rende la frase falsa: 150 km/h vale solo su alcuni tratti con segnali.",
+  "caption": "150 km/h solo con segnali, non ovunque",
+  "lines": [
+   "Autostrada normale: 130 km/h",
+   "150 km/h: solo con segnali speciali"
+  ]
+ },
+ "q22343": {
+  "short": "Il limite normale per le auto sulle extraurbane principali è 110 km/h. 90 vale solo con pioggia o per i neopatentati.",
+  "rule": "Limiti per l'auto: autostrada 130 km/h, extraurbana principale 110 km/h, extraurbana secondaria 90 km/h, centro abitato 50 km/h. Veicoli fino a 3,5 t e moto hanno gli stessi limiti; i segnali possono cambiarli.",
+  "trap": "90 è il limite con pioggia o per i neopatentati, non quello normale.",
+  "caption": "Extraurbana principale: 110 km/h, non 90",
+  "lines": [
+   "Extraurbana principale: 110 km/h",
+   "Più basso solo con pioggia o neopatentati"
+  ]
+ },
+ "q22344": {
+  "short": "Il limite per le auto sulle extraurbane secondarie è 90 km/h. 70 vale per le auto con rimorchio.",
+  "rule": "Limiti per l'auto: autostrada 130 km/h, extraurbana principale 110 km/h, extraurbana secondaria 90 km/h, centro abitato 50 km/h. Veicoli fino a 3,5 t e moto hanno gli stessi limiti; i segnali possono cambiarli.",
+  "trap": "Il numero è sbagliato: le extraurbane secondarie hanno 90 km/h.",
+  "caption": "Extraurbana secondaria: 90 km/h, non 70",
+  "lines": [
+   "Strada extraurbana secondaria",
+   "Limite auto: 90 km/h"
+  ]
+ },
+ "q22345": {
+  "short": "In città il limite normale è 50 km/h. Solo alcune strade con segnali permettono 70 km/h.",
+  "rule": "I segnali possono alzare il limite: fino a 150 km/h su alcune autostrade e fino a 70 km/h su alcune strade urbane. Senza segnali: 130 km/h in autostrada, 50 km/h in città.",
+  "trap": "«sempre» è la trappola: 70 km/h vale solo su alcune strade con segnali.",
+  "caption": "Città: 50 km/h; 70 solo con segnali",
+  "lines": [
+   "Città, limite normale: 50 km/h",
+   "70 km/h: solo strade con segnali"
+  ]
+ },
+ "q22346": {
+  "short": "50 km/h è il limite normale in città, ma non sempre: i segnali possono alzarlo fino a 70 o abbassarlo.",
+  "rule": "I segnali possono alzare il limite: fino a 150 km/h su alcune autostrade e fino a 70 km/h su alcune strade urbane. Senza segnali: 130 km/h in autostrada, 50 km/h in città.",
+  "trap": "«sempre» è la trappola; la parola giusta sarebbe «ordinariamente».",
+  "caption": "Città: 50 km/h di regola, non sempre",
+  "lines": [
+   "Città: 50 km/h di regola",
+   "Con segnali fino a 70 km/h"
+  ]
+ },
+ "q22347": {
+  "short": "Fuori città i quadricicli non leggeri possono arrivare a 80 km/h, non a 70.",
+  "rule": "I veicoli lenti hanno limiti propri: ciclomotori 45 km/h, quadricicli non leggeri 80 km/h fuori città, macchine agricole e operatrici gommate 40 km/h.",
+  "trap": "Il numero è sbagliato: i quadricicli fuori città hanno 80 km/h.",
+  "caption": "Quadricicli fuori città: 80 km/h, non 70",
+  "lines": [
+   "Quadriciclo fuori città",
+   "Limite: 80 km/h"
+  ]
+ },
+ "q22348": {
+  "short": "In città il limite normale è 50 km/h per tutti, anche per gli autocarri. Non c'è un limite di 40.",
+  "rule": "Limiti per l'auto: autostrada 130 km/h, extraurbana principale 110 km/h, extraurbana secondaria 90 km/h, centro abitato 50 km/h. Veicoli fino a 3,5 t e moto hanno gli stessi limiti; i segnali possono cambiarli.",
+  "trap": "Il numero è sbagliato: in città il limite generale è 50 km/h.",
+  "caption": "Autocarri in città: 50 km/h, non 40",
+  "lines": [
+   "Autocarro in città",
+   "Limite normale: 50 km/h"
+  ]
+ },
+ "q22349": {
+  "short": "Un autocarro fino a 3,5 tonnellate segue i limiti delle auto: 130 km/h in autostrada, non 120.",
+  "rule": "Limiti per l'auto: autostrada 130 km/h, extraurbana principale 110 km/h, extraurbana secondaria 90 km/h, centro abitato 50 km/h. Veicoli fino a 3,5 t e moto hanno gli stessi limiti; i segnali possono cambiarli.",
+  "trap": "«fino a 3,5 tonnellate» vuol dire limiti delle auto; 120 non è un limite normale.",
+  "caption": "Autocarro fino a 3,5 t, autostrada: 130 km/h",
+  "lines": [
+   "Autocarro fino a 3,5 tonnellate",
+   "Autostrada: 130 km/h"
+  ]
+ },
+ "q22350": {
+  "short": "I veicoli fino a 3,5 tonnellate seguono i limiti delle auto: 110 km/h sulle extraurbane principali, non 80.",
+  "rule": "Limiti per l'auto: autostrada 130 km/h, extraurbana principale 110 km/h, extraurbana secondaria 90 km/h, centro abitato 50 km/h. Veicoli fino a 3,5 t e moto hanno gli stessi limiti; i segnali possono cambiarli.",
+  "trap": "Il numero è sbagliato: i veicoli leggeri qui hanno 110 km/h.",
+  "caption": "Fino a 3,5 t, extraurbana principale: 110",
+  "lines": [
+   "Veicolo fino a 3,5 tonnellate",
+   "Extraurbana principale: 110 km/h"
+  ]
+ },
+ "q22351": {
+  "short": "In città i veicoli leggeri hanno il limite normale di 50 km/h, non 40.",
+  "rule": "Limiti per l'auto: autostrada 130 km/h, extraurbana principale 110 km/h, extraurbana secondaria 90 km/h, centro abitato 50 km/h. Veicoli fino a 3,5 t e moto hanno gli stessi limiti; i segnali possono cambiarli.",
+  "trap": "Il numero è sbagliato: in città il limite generale è 50 km/h.",
+  "caption": "Fino a 3,5 t in città: 50 km/h, non 40",
+  "lines": [
+   "Veicolo fino a 3,5 tonnellate",
+   "In città: 50 km/h"
+  ]
+ },
+ "q22352": {
+  "short": "Il limite generale in città è 50 km/h, non 60. Solo alcune strade con segnali arrivano a 70.",
+  "rule": "I segnali possono alzare il limite: fino a 150 km/h su alcune autostrade e fino a 70 km/h su alcune strade urbane. Senza segnali: 130 km/h in autostrada, 50 km/h in città.",
+  "trap": "60 km/h non è un limite urbano; quello generale è 50 km/h.",
+  "caption": "Limite in città: 50 km/h, non 60",
+  "lines": [
+   "Ogni veicolo in città",
+   "Limite generale: 50 km/h"
+  ]
+ },
+ "q22353": {
+  "short": "Le macchine agricole con pneumatici sono lente e pesanti: il limite è 40 km/h, non 50.",
+  "rule": "I veicoli lenti hanno limiti propri: ciclomotori 45 km/h, quadricicli non leggeri 80 km/h fuori città, macchine agricole e operatrici gommate 40 km/h.",
+  "trap": "«con pneumatici» è come «gommata»: il limite è 40 km/h.",
+  "caption": "Macchina agricola gommata: 40 km/h, non 50",
+  "lines": [
+   "Macchina agricola con pneumatici",
+   "Limite: 40 km/h"
+  ]
+ },
+ "q22354": {
+  "short": "Le macchine operatrici gommate (es. mezzi per lavori stradali) hanno limite 40 km/h, non 50.",
+  "rule": "I veicoli lenti hanno limiti propri: ciclomotori 45 km/h, quadricicli non leggeri 80 km/h fuori città, macchine agricole e operatrici gommate 40 km/h.",
+  "trap": "Il numero è sbagliato: le macchine operatrici gommate hanno 40 km/h.",
+  "caption": "Macchina operatrice gommata: 40 km/h, non 50",
+  "lines": [
+   "Macchina operatrice gommata",
+   "Limite: 40 km/h"
+  ]
+ },
+ "q22355": {
+  "short": "Le macchine agricole gommate sono lente e pesanti: il loro limite è 40 km/h.",
+  "rule": "I veicoli lenti hanno limiti propri: ciclomotori 45 km/h, quadricicli non leggeri 80 km/h fuori città, macchine agricole e operatrici gommate 40 km/h.",
+  "trap": "«gommata» vuol dire con ruote di gomma (non cingoli): il limite è 40 km/h.",
+  "caption": "Macchina agricola gommata: 40 km/h",
+  "lines": [
+   "Macchina agricola gommata",
+   "Limite: 40 km/h"
+  ]
+ },
+ "q22356": {
+  "short": "Le macchine operatrici gommate hanno lo stesso limite delle macchine agricole: 40 km/h.",
+  "rule": "I veicoli lenti hanno limiti propri: ciclomotori 45 km/h, quadricicli non leggeri 80 km/h fuori città, macchine agricole e operatrici gommate 40 km/h.",
+  "trap": "Macchina «operatrice» e «agricola» gommate hanno lo stesso limite: 40 km/h.",
+  "caption": "Macchina operatrice gommata: 40 km/h",
+  "lines": [
+   "Macchina operatrice gommata",
+   "Limite: 40 km/h"
+  ]
+ },
+ "q22357": {
+  "short": "I neopatentati (patente da meno di 3 anni) hanno limiti più bassi: 100 km/h in autostrada invece di 130.",
+  "rule": "Nei primi 3 anni di patente il limite è 100 km/h in autostrada e 90 km/h sulle extraurbane principali.",
+  "trap": "«da meno di 3 anni» vuol dire neopatentato: 100 km/h in autostrada.",
+  "caption": "Neopatentato in autostrada: 100 km/h",
+  "lines": [
+   "Patente da meno di 3 anni",
+   "Autostrada: 100 km/h"
+  ]
+ },
+ "q22358": {
+  "short": "Sulle extraurbane principali i neopatentati possono andare solo fino a 90 km/h, invece di 110.",
+  "rule": "Nei primi 3 anni di patente il limite è 100 km/h in autostrada e 90 km/h sulle extraurbane principali.",
+  "trap": "Non confondere i due numeri: 100 km/h autostrada, 90 km/h extraurbana principale.",
+  "caption": "Neopatentato, extraurbana principale: 90 km/h",
+  "lines": [
+   "Patente da meno di 3 anni",
+   "Extraurbana principale: 90 km/h"
+  ]
+ },
+ "q22359": {
+  "short": "Più vai veloce, più aria il motore deve spingere. Consuma più carburante e inquina di più.",
+  "rule": "Alta velocità e cambi bruschi di velocità consumano più carburante e inquinano di più. Guida fluida e moderata fa risparmiare.",
+  "trap": "«incide» vuol dire «ha effetto»: l'alta velocità ha effetto.",
+  "caption": "Alta velocità: più carburante, più inquinamento",
+  "lines": [
+   "Alta velocità",
+   "Più carburante consumato",
+   "Più inquinamento"
+  ]
+ },
+ "q22360": {
+  "short": "Ogni accelerazione forte consuma carburante in più e la frenata brusca spreca quell'energia. Guida fluida = meno consumi.",
+  "rule": "Alta velocità e cambi bruschi di velocità consumano più carburante e inquinano di più. Guida fluida e moderata fa risparmiare.",
+  "trap": "«brusche variazioni» sono cambi improvvisi: accelerare e frenare forte.",
+  "caption": "Cambi bruschi di velocità: più carburante",
+  "lines": [
+   "Accelerare e frenare forte",
+   "Più carburante consumato"
+  ]
+ },
+ "q22361": {
+  "short": "In curva le gomme devono impedire all'auto di scivolare fuori. Più velocità vuol dire meno aderenza.",
+  "rule": "In curva le gomme devono tenere l'auto sulla traiettoria. Più vai veloce, più forte è la spinta verso l'esterno: l'auto può sbandare o ribaltarsi.",
+  "trap": "«tenuta di strada» è l'aderenza: la velocità in curva la cambia.",
+  "caption": "La velocità in curva cambia la tenuta",
+  "lines": [
+   "Curva in vista",
+   "Più velocità = meno tenuta"
+  ]
+ },
+ "q22362": {
+  "short": "Troppo veloce in curva, la spinta verso l'esterno può far sbandare o ribaltare l'auto.",
+  "rule": "In curva le gomme devono tenere l'auto sulla traiettoria. Più vai veloce, più forte è la spinta verso l'esterno: l'auto può sbandare o ribaltarsi.",
+  "trap": "«può determinare» vuol dire «può causare»: è un rischio reale.",
+  "caption": "Troppo veloce in curva: rischio ribaltamento",
+  "lines": [
+   "Troppo veloce in curva",
+   "Sbandata o ribaltamento"
+  ]
+ },
+ "q22363": {
+  "short": "Con la frizione premuta il motore non è collegato alle ruote: perdi freno motore e controllo. In curva resta in marcia.",
+  "rule": "In curva le gomme devono tenere l'auto sulla traiettoria. Più vai veloce, più forte è la spinta verso l'esterno: l'auto può sbandare o ribaltarsi.",
+  "trap": "«frizione abbassata» sembra dolce, ma vuol dire meno controllo.",
+  "caption": "Frizione premuta in curva: sbagliato",
+  "lines": [
+   "In curva: resta in marcia",
+   "Frizione premuta = meno controllo"
+  ]
+ },
+ "q22364": {
+  "short": "I neopatentati in autostrada hanno 100 km/h, non 110.",
+  "rule": "Nei primi 3 anni di patente il limite è 100 km/h in autostrada e 90 km/h sulle extraurbane principali.",
+  "trap": "110 km/h è il limite con pioggia per tutti in autostrada, non quello dei neopatentati.",
+  "caption": "Neopatentato in autostrada: 100 km/h, non 110",
+  "lines": [
+   "Patente da meno di 3 anni",
+   "Autostrada: 100 km/h"
+  ]
+ },
+ "q22365": {
+  "short": "110 km/h è il limite normale. I neopatentati sulle extraurbane principali hanno 90 km/h.",
+  "rule": "Nei primi 3 anni di patente il limite è 100 km/h in autostrada e 90 km/h sulle extraurbane principali.",
+  "trap": "110 km/h è il limite normale, non quello dei neopatentati.",
+  "caption": "Neopatentato, extraurbana principale: 90, non 110",
+  "lines": [
+   "Patente da meno di 3 anni",
+   "Extraurbana principale: 90 km/h"
+  ]
+ },
+ "q22366": {
+  "short": "Il carrello appendice (piccolo carrello per bagagli) non è un vero rimorchio: l'auto resta a 130 km/h.",
+  "rule": "Il carrello appendice non cambia i limiti dell'auto. Con un rimorchio o un caravan: 80 km/h in autostrada, 70 km/h sulle altre strade fuori città.",
+  "trap": "«carrello appendice» NON è un «rimorchio»: i limiti dell'auto non cambiano.",
+  "caption": "Auto con carrello appendice: 130 km/h",
+  "lines": [
+   "Auto + carrello appendice",
+   "Autostrada: 130 km/h"
+  ]
+ },
+ "q22367": {
+  "short": "Un'auto con rimorchio è più lunga, pesante e meno stabile: in autostrada il limite è 80 km/h.",
+  "rule": "Il carrello appendice non cambia i limiti dell'auto. Con un rimorchio o un caravan: 80 km/h in autostrada, 70 km/h sulle altre strade fuori città.",
+  "trap": "«rimorchio» è un vero rimorchio, diverso dal «carrello appendice».",
+  "caption": "Auto con rimorchio, autostrada: 80 km/h",
+  "lines": [
+   "Auto + rimorchio",
+   "Autostrada: 80 km/h"
+  ]
+ },
+ "q22368": {
+  "short": "Le moto hanno lo stesso limite delle auto in autostrada: 130 km/h.",
+  "rule": "Moto e autocaravan fino a 3,5 t hanno gli stessi limiti delle auto: 130 km/h autostrada, 110 km/h extraurbana principale, 90 km/h secondaria.",
+  "trap": "I «motocicli» non sono «ciclomotori» (45 km/h).",
+  "caption": "Moto in autostrada: 130 km/h",
+  "lines": [
+   "Moto",
+   "Autostrada: 130 km/h"
+  ]
+ },
+ "q22369": {
+  "short": "Un autocaravan fino a 3,5 tonnellate è un veicolo leggero e ha il limite delle auto: 130 km/h.",
+  "rule": "Moto e autocaravan fino a 3,5 t hanno gli stessi limiti delle auto: 130 km/h autostrada, 110 km/h extraurbana principale, 90 km/h secondaria.",
+  "trap": "Conta «fino a 3,5 tonnellate»: gli autocaravan leggeri seguono i limiti delle auto.",
+  "caption": "Autocaravan fino a 3,5 t: 130 km/h",
+  "lines": [
+   "Autocaravan fino a 3,5 tonnellate",
+   "Autostrada: 130 km/h"
+  ]
+ },
+ "q22370": {
+  "short": "Il caravan è un rimorchio: l'auto che lo traina ha il limite dei rimorchi, 80 km/h in autostrada.",
+  "rule": "Il carrello appendice non cambia i limiti dell'auto. Con un rimorchio o un caravan: 80 km/h in autostrada, 70 km/h sulle altre strade fuori città.",
+  "trap": "«traina un caravan» vuol dire rimorchio: 80 km/h in autostrada.",
+  "caption": "Auto con caravan, autostrada: 80 km/h",
+  "lines": [
+   "Auto che traina un caravan",
+   "Autostrada: 80 km/h"
+  ]
+ },
+ "q22371": {
+  "short": "Le moto sulle extraurbane principali hanno il limite delle auto: 110 km/h.",
+  "rule": "Moto e autocaravan fino a 3,5 t hanno gli stessi limiti delle auto: 130 km/h autostrada, 110 km/h extraurbana principale, 90 km/h secondaria.",
+  "trap": "Per legge le moto non sono più lente: 110 km/h come le auto.",
+  "caption": "Moto, extraurbana principale: 110 km/h",
+  "lines": [
+   "Moto",
+   "Extraurbana principale: 110 km/h"
+  ]
+ },
+ "q22372": {
+  "short": "Il carrello appendice non cambia i limiti dell'auto: sulle extraurbane principali resta 110 km/h.",
+  "rule": "Il carrello appendice non cambia i limiti dell'auto. Con un rimorchio o un caravan: 80 km/h in autostrada, 70 km/h sulle altre strade fuori città.",
+  "trap": "Il «carrello appendice» non è un «rimorchio»: nessun limite più basso.",
+  "caption": "Auto + carrello, extraurbana principale: 110",
+  "lines": [
+   "Auto + carrello appendice",
+   "Extraurbana principale: 110 km/h"
+  ]
+ },
+ "q22373": {
+  "short": "Il carrello per barche è un rimorchio. Fuori dall'autostrada un'auto con rimorchio può andare al massimo a 70 km/h.",
+  "rule": "Il carrello appendice non cambia i limiti dell'auto. Con un rimorchio o un caravan: 80 km/h in autostrada, 70 km/h sulle altre strade fuori città.",
+  "trap": "«rimorchio per trasporto imbarcazioni» è un rimorchio: 70 km/h fuori città, tranne autostrada.",
+  "caption": "Auto + rimorchio barca, extraurbana: 70",
+  "lines": [
+   "Auto + rimorchio per barche",
+   "Extraurbana principale: 70 km/h"
+  ]
+ },
+ "q22374": {
+  "short": "Le moto sulle extraurbane secondarie hanno il limite delle auto: 90 km/h.",
+  "rule": "Moto e autocaravan fino a 3,5 t hanno gli stessi limiti delle auto: 130 km/h autostrada, 110 km/h extraurbana principale, 90 km/h secondaria.",
+  "trap": "Stesso numero delle auto: 90 km/h sulle «secondarie».",
+  "caption": "Moto, strada secondaria: 90 km/h",
+  "lines": [
+   "Moto",
+   "Strada secondaria: 90 km/h"
+  ]
+ },
+ "q22375": {
+  "short": "Il caravan è un rimorchio, qualunque sia il peso: fuori dall'autostrada l'auto può andare fino a 70 km/h.",
+  "rule": "Il carrello appendice non cambia i limiti dell'auto. Con un rimorchio o un caravan: 80 km/h in autostrada, 70 km/h sulle altre strade fuori città.",
+  "trap": "Il dettaglio «900 chilogrammi» non conta: il caravan è sempre un rimorchio.",
+  "caption": "Auto + caravan, strada secondaria: 70 km/h",
+  "lines": [
+   "Auto che traina un caravan",
+   "Strada secondaria: 70 km/h"
+  ]
+ },
+ "q22376": {
+  "short": "130 km/h vale per l'auto sola o con carrello appendice. Con un rimorchio in autostrada il limite è 80 km/h.",
+  "rule": "Il carrello appendice non cambia i limiti dell'auto. Con un rimorchio o un caravan: 80 km/h in autostrada, 70 km/h sulle altre strade fuori città.",
+  "trap": "Il «rimorchio» cambia tutto: 80 km/h, non 130.",
+  "caption": "Auto con rimorchio, autostrada: 80, non 130",
+  "lines": [
+   "Auto + rimorchio",
+   "Autostrada: 80 km/h"
+  ]
+ },
+ "q22377": {
+  "short": "Le moto in autostrada hanno il limite delle auto: 130 km/h, non 90.",
+  "rule": "Moto e autocaravan fino a 3,5 t hanno gli stessi limiti delle auto: 130 km/h autostrada, 110 km/h extraurbana principale, 90 km/h secondaria.",
+  "trap": "Il numero è sbagliato: le moto in autostrada non hanno 90 km/h.",
+  "caption": "Moto in autostrada: 130 km/h, non 90",
+  "lines": [
+   "Moto",
+   "Autostrada: 130 km/h"
+  ]
+ },
+ "q22378": {
+  "short": "Gli autocaravan fino a 3,5 tonnellate in autostrada hanno il limite delle auto: 130 km/h. 90 non è il loro limite.",
+  "rule": "Moto e autocaravan fino a 3,5 t hanno gli stessi limiti delle auto: 130 km/h autostrada, 110 km/h extraurbana principale, 90 km/h secondaria.",
+  "trap": "Il numero è sbagliato: gli autocaravan leggeri hanno 130 km/h in autostrada.",
+  "caption": "Autocaravan in autostrada: non 90 km/h",
+  "lines": [
+   "Autocaravan fino a 3,5 tonnellate",
+   "Autostrada: 130 km/h"
+  ]
+ },
+ "q22379": {
+  "short": "In autostrada l'auto con caravan può andare fino a 80 km/h. 70 è il limite sulle altre strade fuori città.",
+  "rule": "Il carrello appendice non cambia i limiti dell'auto. Con un rimorchio o un caravan: 80 km/h in autostrada, 70 km/h sulle altre strade fuori città.",
+  "trap": "70 km/h vale sulle altre strade; in autostrada sono 80 km/h.",
+  "caption": "Auto + caravan in autostrada: 80, non 70",
+  "lines": [
+   "Auto che traina un caravan",
+   "Autostrada: 80 km/h",
+   "Altre strade fuori città: 70 km/h"
+  ]
+ },
+ "q22380": {
+  "short": "Con il carrello appendice valgono i limiti dell'auto; con la pioggia in autostrada il limite è 110 km/h, non 120.",
+  "rule": "Con pioggia o neve (precipitazioni) il limite per le auto scende: 110 km/h in autostrada e 90 km/h sulle extraurbane principali.",
+  "trap": "120 non è un limite di legge qui: con la pioggia è 110 km/h.",
+  "caption": "Pioggia in autostrada: 110 km/h, non 120",
+  "lines": [
+   "Auto + carrello appendice, pioggia",
+   "Autostrada: 110 km/h"
+  ]
+ },
+ "q22381": {
+  "short": "Le moto sulle extraurbane principali hanno il limite delle auto: 110 km/h, non 100.",
+  "rule": "Moto e autocaravan fino a 3,5 t hanno gli stessi limiti delle auto: 130 km/h autostrada, 110 km/h extraurbana principale, 90 km/h secondaria.",
+  "trap": "Il numero è sbagliato: le moto qui hanno 110 km/h.",
+  "caption": "Moto, extraurbana principale: 110, non 100",
+  "lines": [
+   "Moto",
+   "Extraurbana principale: 110 km/h"
+  ]
+ },
+ "q22382": {
+  "short": "80 km/h è il limite con rimorchio solo in autostrada. Sulle extraurbane principali è 70 km/h.",
+  "rule": "Il carrello appendice non cambia i limiti dell'auto. Con un rimorchio o un caravan: 80 km/h in autostrada, 70 km/h sulle altre strade fuori città.",
+  "trap": "80 km/h vale in autostrada; sulle altre strade fuori città con rimorchio è 70 km/h.",
+  "caption": "Rimorchio barca, extraurbana: 70, non 80",
+  "lines": [
+   "Auto + rimorchio per barche",
+   "Extraurbana principale: 70 km/h",
+   "Solo autostrada: 80 km/h"
+  ]
+ },
+ "q22383": {
+  "short": "Le moto sulle extraurbane secondarie hanno il limite delle auto: 90 km/h, non 70.",
+  "rule": "Moto e autocaravan fino a 3,5 t hanno gli stessi limiti delle auto: 130 km/h autostrada, 110 km/h extraurbana principale, 90 km/h secondaria.",
+  "trap": "Il numero è sbagliato: 70 km/h è per chi ha un rimorchio, non per le moto.",
+  "caption": "Moto, strada secondaria: 90 km/h, non 70",
+  "lines": [
+   "Moto",
+   "Strada secondaria: 90 km/h"
+  ]
+ },
+ "q22384": {
+  "short": "Andare molto più piano del necessario, senza motivo, blocca chi ti segue. La velocità deve far scorrere il traffico.",
+  "rule": "Scegli una velocità che non blocca il traffico e ti permette di rallentare o fermarti per dare la precedenza. Dipende da strada, traffico, visibilità e meteo.",
+  "trap": "«intralcio» vuol dire ostacolo: anche andare troppo piano può essere vietato.",
+  "caption": "Non intralciare andando troppo piano",
+  "lines": [
+   "Troppo lento senza motivo",
+   "Le auto dietro restano bloccate",
+   "Fai scorrere il traffico"
+  ]
+ },
+ "q22385": {
+  "short": "All'incrocio devi rallentare e, se serve, fermarti per dare la precedenza a chi ce l'ha.",
+  "rule": "Scegli una velocità che non blocca il traffico e ti permette di rallentare o fermarti per dare la precedenza. Dipende da strada, traffico, visibilità e meteo.",
+  "trap": "«all'occorrenza» vuol dire «se serve»: ti fermi solo quando un altro ha la precedenza.",
+  "caption": "Rallenta, fermati se serve, dai precedenza",
+  "lines": [
+   "Incrocio in vista",
+   "Rallenta, fermati se serve",
+   "Dai precedenza a chi ce l'ha"
+  ]
+ },
+ "q22386": {
+  "short": "Quella fascia oraria è quando devi accendere le luci, non quando devi rallentare o fermarti.",
+  "rule": "Scegli una velocità che non blocca il traffico e ti permette di rallentare o fermarti per dare la precedenza. Dipende da strada, traffico, visibilità e meteo.",
+  "trap": "«mezz'ora prima del tramonto» è la regola delle LUCI, non della velocità.",
+  "caption": "Tramonto/alba: regola delle luci, non velocità",
+  "lines": [
+   "Mezz'ora dopo il tramonto...",
+   "Regola per le luci accese",
+   "Non obbligo di fermarsi"
+  ]
+ },
+ "q22387": {
+  "short": "Benzina, gasolio, gas o elettrico non cambiano la sicurezza. Il carburante non c'entra con la velocità.",
+  "rule": "La velocità dipende da strada, traffico, visibilità, meteo, carico e dal tuo stato. NON dipende dal carburante, dal tipo di cambio o da chi ti segue.",
+  "trap": "«tipo di alimentazione» sembra tecnico ma non conta.",
+  "caption": "Il carburante non decide la velocità",
+  "lines": [
+   "Benzina, gasolio, gas: uguale",
+   "Il carburante non conta"
+  ]
+ },
+ "q22388": {
+  "short": "Scegli la velocità guardando strada e traffico davanti, non chi ti segue. Se è più veloce, può sorpassare.",
+  "rule": "La velocità dipende da strada, traffico, visibilità, meteo, carico e dal tuo stato. NON dipende dal carburante, dal tipo di cambio o da chi ti segue.",
+  "trap": "I «veicoli che seguono» non decidono la tua velocità.",
+  "caption": "Chi ti segue non decide la tua velocità",
+  "lines": [
+   "Auto vicina dietro",
+   "Non accelerare per lei",
+   "Tieni una velocità sicura"
+  ]
+ },
+ "q22389": {
+  "short": "Cambio manuale o automatico non cambia la velocità sicura.",
+  "rule": "La velocità dipende da strada, traffico, visibilità, meteo, carico e dal tuo stato. NON dipende dal carburante, dal tipo di cambio o da chi ti segue.",
+  "trap": "«tipo di cambio di velocità» è un falso fattore.",
+  "caption": "Il tipo di cambio non decide la velocità",
+  "lines": [
+   "Manuale o automatico: uguale",
+   "Il cambio non conta"
+  ]
+ },
+ "q22390": {
+  "short": "Se non vedi lontano (curva, dosso, nebbia) un pericolo può apparire all'improvviso. Devi andare piano per fermarti in tempo.",
+  "rule": "La velocità deve essere sempre sicura: più bassa dove non vedi lontano, in città e vicino ai pericoli, adatta al carico e al tuo stato fisico. La fretta non è mai un motivo.",
+  "trap": "«a visuale non libera» vuol dire «dove non si vede bene avanti».",
+  "caption": "Non vedi lontano: rallenta",
+  "lines": [
+   "Vista bloccata davanti",
+   "Rallenta",
+   "Fermati in tempo"
+  ]
+ },
+ "q22391": {
+  "short": "È la regola base: qualunque sia il limite, la tua velocità non deve mai creare pericolo.",
+  "rule": "La velocità deve essere sempre sicura: più bassa dove non vedi lontano, in città e vicino ai pericoli, adatta al carico e al tuo stato fisico. La fretta non è mai un motivo.",
+  "trap": "Nessuna trappola: è la regola generale di sicurezza.",
+  "caption": "La velocità non deve creare pericolo",
+  "lines": [
+   "Rispetta il limite",
+   "E guida sicuro per tutti"
+  ]
+ },
+ "q22392": {
+  "short": "Un bambino, un animale o un'auto possono apparire all'improvviso. La velocità deve lasciarti tempo per frenare.",
+  "rule": "La velocità deve essere sempre sicura: più bassa dove non vedi lontano, in città e vicino ai pericoli, adatta al carico e al tuo stato fisico. La fretta non è mai un motivo.",
+  "trap": "«imprevisti» sono fatti inattesi: devi essere sempre pronto.",
+  "caption": "Lasciati spazio per gli imprevisti",
+  "lines": [
+   "Qualcosa appare all'improvviso",
+   "Riesci ancora a frenare"
+  ]
+ },
+ "q22393": {
+  "short": "Se sei stanco, malato o stressato reagisci più lentamente: devi andare più piano.",
+  "rule": "La velocità deve essere sempre sicura: più bassa dove non vedi lontano, in città e vicino ai pericoli, adatta al carico e al tuo stato fisico. La fretta non è mai un motivo.",
+  "trap": "«condizioni psicofisiche» è lo stato del corpo e della mente: anche la stanchezza conta.",
+  "caption": "Stanco o non bene: vai più piano",
+  "lines": [
+   "Stanco o non bene",
+   "Reazioni più lente",
+   "Vai più piano"
+  ]
+ },
+ "q22394": {
+  "short": "Un carico pesante allunga la frenata e rende il veicolo meno stabile in curva: adatta la velocità.",
+  "rule": "La velocità deve essere sempre sicura: più bassa dove non vedi lontano, in città e vicino ai pericoli, adatta al carico e al tuo stato fisico. La fretta non è mai un motivo.",
+  "trap": "Il «carico» conta davvero: cambia frenata e stabilità.",
+  "caption": "Carico pesante: adatta la velocità",
+  "lines": [
+   "Carico pesante",
+   "Frenata lunga, meno stabile",
+   "Rallenta"
+  ]
+ },
+ "q22395": {
+  "short": "Essere in ritardo non è mai un motivo per andare più veloce. La velocità dipende dalla sicurezza.",
+  "rule": "La velocità deve essere sempre sicura: più bassa dove non vedi lontano, in città e vicino ai pericoli, adatta al carico e al tuo stato fisico. La fretta non è mai un motivo.",
+  "trap": "«tempo che abbiamo a disposizione» è quanto tempo hai: la fretta non conta.",
+  "caption": "La fretta non è un motivo",
+  "lines": [
+   "Hai fretta?",
+   "Conta la sicurezza, non il tempo"
+  ]
+ },
+ "q22396": {
+  "short": "La legge chiede velocità moderata in città e vicino ai pericoli, non in generale fuori città.",
+  "rule": "La velocità deve essere sempre sicura: più bassa dove non vedi lontano, in città e vicino ai pericoli, adatta al carico e al tuo stato fisico. La fretta non è mai un motivo.",
+  "trap": "«fuori dai centri abitati» è scambiato: la velocità moderata si chiede in città.",
+  "caption": "Velocità moderata: in città, non fuori",
+  "lines": [
+   "In città: velocità moderata",
+   "Fuori città: limiti più alti"
+  ]
+ }
+}

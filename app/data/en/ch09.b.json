@@ -1,0 +1,1876 @@
+{
+ "q21884": {
+  "en": "The sign shown gives advance warning of a mobile worksite with a narrowing on the left.",
+  "explain": {
+   "short": "The red line shows the left lane closing and the triangle shows works ahead: a mobile worksite with a narrowing on the left.",
+   "rule": "This yellow panel (temporary sign) warns of a mobile worksite (cantiere mobile): of three lanes, the left one closes (red line) and two stay open (black arrows). It can be mounted on a works vehicle and fitted with flashing yellow lights.",
+   "trap": "'strettoia a sinistra' (narrowing on the left) matches the red line on the LEFT.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mobile works: left lane closes in 500 m",
+    "it": "cantiere mobile",
+    "action": "keepRight",
+    "hazard": "🚧",
+    "distance": "500 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "gives advance warning"
+   },
+   {
+    "it": "cantiere mobile",
+    "en": "mobile worksite"
+   },
+   {
+    "it": "strettoia a sinistra",
+    "en": "narrowing on the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21885": {
+  "en": "The sign shown can be mounted on a vehicle to give advance warning of roadworks.",
+  "explain": {
+   "short": "For moving works, this panel is often carried by a vehicle that drives behind the workers to warn traffic.",
+   "rule": "This yellow panel (temporary sign) warns of a mobile worksite (cantiere mobile): of three lanes, the left one closes (red line) and two stay open (black arrows). It can be mounted on a works vehicle and fitted with flashing yellow lights.",
+   "trap": "'può essere installato su un veicolo' is right: a mobile worksite moves, so its sign moves too.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "This panel can ride on a works vehicle",
+    "it": "cantiere mobile",
+    "action": "keepRight",
+    "hazard": "🚧",
+    "distance": "500 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "installato su un veicolo",
+    "en": "mounted on a vehicle"
+   },
+   {
+    "it": "cantiere stradale",
+    "en": "roadworks site"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21886": {
+  "en": "The sign shown indicates the lanes available for traffic.",
+  "explain": {
+   "short": "The black arrows show the lanes that stay open; the red line shows the lane that closes.",
+   "rule": "This yellow panel (temporary sign) warns of a mobile worksite (cantiere mobile): of three lanes, the left one closes (red line) and two stay open (black arrows). It can be mounted on a works vehicle and fitted with flashing yellow lights.",
+   "trap": "'corsie disponibili' (available lanes) = the black arrows.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Black arrows = lanes still open",
+    "it": "cantiere mobile",
+    "action": "keepRight",
+    "hazard": "🚧",
+    "distance": "500 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsie disponibili",
+    "en": "available lanes"
+   },
+   {
+    "it": "circolazione",
+    "en": "traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21887": {
+  "en": "The sign shown indicates a reduction from three lanes to two.",
+  "explain": {
+   "short": "The panel has three lanes: the left one (red) ends and two black arrows continue.",
+   "rule": "This yellow panel (temporary sign) warns of a mobile worksite (cantiere mobile): of three lanes, the left one closes (red line) and two stay open (black arrows). It can be mounted on a works vehicle and fitted with flashing yellow lights.",
+   "trap": "Count the lanes: three at the bottom, two at the top ('da tre a due').",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Three lanes become two",
+    "it": "cantiere mobile",
+    "action": "keepRight",
+    "hazard": "🚧",
+    "distance": "500 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "diminuzione",
+    "en": "reduction"
+   },
+   {
+    "it": "da tre a due corsie",
+    "en": "from three to two lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21888": {
+  "en": "The sign shown can be fitted with flashing yellow lights.",
+  "explain": {
+   "short": "The two round lamps on top of the panel are flashing yellow lights, so drivers see it from far away.",
+   "rule": "This yellow panel (temporary sign) warns of a mobile worksite (cantiere mobile): of three lanes, the left one closes (red line) and two stay open (black arrows). It can be mounted on a works vehicle and fitted with flashing yellow lights.",
+   "trap": "Look at the two round lamps at the top: 'luci gialle lampeggianti' are allowed and common.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Flashing yellow lights make it visible",
+    "it": "cantiere mobile",
+    "action": "keepRight",
+    "hazard": "🚧",
+    "distance": "500 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "completato",
+    "en": "fitted, completed"
+   },
+   {
+    "it": "luci gialle lampeggianti",
+    "en": "flashing yellow lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21889": {
+  "en": "The sign shown indicates how many vehicles may pass at the same time.",
+  "explain": {
+   "short": "The arrows are lanes, not vehicles: the sign shows which lanes are open, not a number of vehicles.",
+   "rule": "This yellow panel (temporary sign) warns of a mobile worksite (cantiere mobile): of three lanes, the left one closes (red line) and two stay open (black arrows). It can be mounted on a works vehicle and fitted with flashing yellow lights.",
+   "trap": "'quanti veicoli' (how many vehicles) is wrong: arrows show lanes, not a vehicle count.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrows = open lanes, not number of cars",
+    "it": "cantiere mobile",
+    "action": "keepRight",
+    "hazard": "🚧",
+    "distance": "500 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "quanti veicoli",
+    "en": "how many vehicles"
+   },
+   {
+    "it": "contemporaneamente",
+    "en": "at the same time"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21890": {
+  "en": "The sign shown indicates a lay-by on the left side.",
+  "explain": {
+   "short": "The red line on the left is a lane closed for works, not a place to stop.",
+   "rule": "This yellow panel (temporary sign) warns of a mobile worksite (cantiere mobile): of three lanes, the left one closes (red line) and two stay open (black arrows). It can be mounted on a works vehicle and fitted with flashing yellow lights.",
+   "trap": "'piazzola di sosta' (lay-by) is wrong: red = lane closed, not parking.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left lane closed for works, not a lay-by",
+    "it": "cantiere mobile",
+    "action": "keepRight",
+    "hazard": "🚧",
+    "distance": "500 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "piazzola di sosta",
+    "en": "lay-by"
+   },
+   {
+    "it": "lato sinistro",
+    "en": "left side"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21891": {
+  "en": "The sign shown tells vehicles with an actual mass over 7 tonnes heading to Lucca to change route.",
+  "explain": {
+   "short": "The 7 t ban sits on the straight arrow to Lucca, so heavier vehicles going to Lucca must take another road.",
+   "rule": "This yellow direction panel (temporary roadworks sign) stands before a junction. Vehicles with an actual mass over 7 t going to Lucca may NOT go straight on (the 7 t ban is on the straight arrow) and must change route; lighter vehicles may go straight.",
+   "trap": "'massa effettiva' (actual mass) over 7 t: only these vehicles must change route.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Over 7 t to Lucca: take the detour",
+    "it": "deviazione",
+    "action": "info",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "massa effettiva",
+    "en": "actual mass (real weight now)"
+   },
+   {
+    "it": "superiore a 7 tonnellate",
+    "en": "over 7 tonnes"
+   },
+   {
+    "it": "cambiare strada",
+    "en": "change route"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21892": {
+  "en": "The sign shown allows lorries with a fully laden mass under 7 tonnes to continue straight on.",
+  "explain": {
+   "short": "The ban covers only vehicles over 7 t; a lorry under 7 t even when fully loaded is never over 7 t, so it may go straight.",
+   "rule": "This yellow direction panel (temporary roadworks sign) stands before a junction. Vehicles with an actual mass over 7 t going to Lucca may NOT go straight on (the 7 t ban is on the straight arrow) and must change route; lighter vehicles may go straight.",
+   "trap": "'inferiore a 7 tonnellate' (under 7 t): the ban does not touch these lorries.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Under 7 t: straight on to Lucca is fine",
+    "it": "deviazione",
+    "action": "info",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarri",
+    "en": "lorries"
+   },
+   {
+    "it": "massa a pieno carico",
+    "en": "fully laden mass"
+   },
+   {
+    "it": "inferiore a 7 tonnellate",
+    "en": "under 7 tonnes"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "continue straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21893": {
+  "en": "The sign shown does not allow vehicles with an actual mass over 7 tonnes heading to Lucca to continue straight on.",
+  "explain": {
+   "short": "The 7 t ban circle is right on the straight arrow to Lucca.",
+   "rule": "This yellow direction panel (temporary roadworks sign) stands before a junction. Vehicles with an actual mass over 7 t going to Lucca may NOT go straight on (the 7 t ban is on the straight arrow) and must change route; lighter vehicles may go straight.",
+   "trap": "'non consente ... di proseguire diritto' is correct, but only for the heavy vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Over 7 t: no straight on to Lucca",
+    "it": "deviazione",
+    "action": "info",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non consente",
+    "en": "does not allow"
+   },
+   {
+    "it": "massa effettiva",
+    "en": "actual mass"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "continue straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21894": {
+  "en": "The sign shown indicates a traffic restriction on a stretch of road for vehicles with an actual mass over 7 tonnes.",
+  "explain": {
+   "short": "The road straight ahead is closed only to vehicles over 7 t, for example because of the works.",
+   "rule": "This yellow direction panel (temporary roadworks sign) stands before a junction. Vehicles with an actual mass over 7 t going to Lucca may NOT go straight on (the 7 t ban is on the straight arrow) and must change route; lighter vehicles may go straight.",
+   "trap": "'limitazione di transito' (traffic restriction): it limits only the heavy vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stretch ahead closed to vehicles over 7 t",
+    "it": "deviazione",
+    "action": "info",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "limitazione di transito",
+    "en": "traffic restriction"
+   },
+   {
+    "it": "tratto di strada",
+    "en": "stretch of road"
+   },
+   {
+    "it": "superiore a 7 tonnellate",
+    "en": "over 7 tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21895": {
+  "en": "The sign shown is placed near a junction that comes before a roadworks site.",
+  "explain": {
+   "short": "It is a yellow direction panel: it stands before the junction where heavy vehicles must leave the route closed by the works.",
+   "rule": "This yellow direction panel (temporary roadworks sign) stands before a junction. Vehicles with an actual mass over 7 t going to Lucca may NOT go straight on (the 7 t ban is on the straight arrow) and must change route; lighter vehicles may go straight.",
+   "trap": "'in vicinanza di un incrocio' (near a junction) is right: you need a junction to change route.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Placed before the junction, ahead of the works",
+    "it": "deviazione",
+    "action": "info",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in vicinanza di un incrocio",
+    "en": "near a junction"
+   },
+   {
+    "it": "cantiere stradale",
+    "en": "roadworks site"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21896": {
+  "en": "The sign shown is one of the temporary signs for roadworks sites.",
+  "explain": {
+   "short": "Its yellow background tells you it is a temporary sign used for roadworks.",
+   "rule": "This yellow direction panel (temporary roadworks sign) stands before a junction. Vehicles with an actual mass over 7 t going to Lucca may NOT go straight on (the 7 t ban is on the straight arrow) and must change route; lighter vehicles may go straight.",
+   "trap": "Yellow background = temporary ('segnali temporanei').",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow background = temporary works sign",
+    "it": "deviazione",
+    "action": "info",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnali temporanei",
+    "en": "temporary signs"
+   },
+   {
+    "it": "cantieri di lavoro",
+    "en": "worksites"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21897": {
+  "en": "The sign shown tells all vehicles that they cannot continue straight on to Lucca.",
+  "explain": {
+   "short": "Only vehicles over 7 t are stopped; all others may go straight on to Lucca.",
+   "rule": "This yellow direction panel (temporary roadworks sign) stands before a junction. Vehicles with an actual mass over 7 t going to Lucca may NOT go straight on (the 7 t ban is on the straight arrow) and must change route; lighter vehicles may go straight.",
+   "trap": "'a tutti i veicoli' (to all vehicles) is wrong: the ban is only for vehicles over 7 t.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only over 7 t must change route, not everyone",
+    "it": "deviazione",
+    "action": "info",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "a tutti i veicoli",
+    "en": "to all vehicles"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "continue straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21898": {
+  "en": "The sign shown requires all vehicles to turn right at the next fork.",
+  "explain": {
+   "short": "Nobody is forced to turn: only vehicles over 7 t must leave the straight route to Lucca.",
+   "rule": "This yellow direction panel (temporary roadworks sign) stands before a junction. Vehicles with an actual mass over 7 t going to Lucca may NOT go straight on (the 7 t ban is on the straight arrow) and must change route; lighter vehicles may go straight.",
+   "trap": "'obbliga tutti i veicoli' (requires all vehicles) is wrong: it concerns only vehicles over 7 t.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not all must turn: only over 7 t change route",
+    "it": "deviazione",
+    "action": "info",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga tutti i veicoli",
+    "en": "requires all vehicles"
+   },
+   {
+    "it": "svoltare a destra",
+    "en": "turn right"
+   },
+   {
+    "it": "bivio",
+    "en": "fork"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21899": {
+  "en": "The sign shown forbids overtaking for motor vehicles with a total mass over 7 tonnes.",
+  "explain": {
+   "short": "It is about which road to take, not about overtaking: heavy vehicles may not go straight on to Lucca.",
+   "rule": "This yellow direction panel (temporary roadworks sign) stands before a junction. Vehicles with an actual mass over 7 t going to Lucca may NOT go straight on (the 7 t ban is on the straight arrow) and must change route; lighter vehicles may go straight.",
+   "trap": "'vieta il sorpasso' (no overtaking) is wrong: it is a transit ban on one route.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Route ban for over 7 t, not an overtaking ban",
+    "it": "deviazione",
+    "action": "info",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il sorpasso",
+    "en": "forbids overtaking"
+   },
+   {
+    "it": "massa totale",
+    "en": "total mass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21900": {
+  "en": "The sign shown forbids access to vehicles longer than 7 metres.",
+  "explain": {
+   "short": "The circle says '7 t': tonnes of mass, not metres of length.",
+   "rule": "This yellow direction panel (temporary roadworks sign) stands before a junction. Vehicles with an actual mass over 7 t going to Lucca may NOT go straight on (the 7 t ban is on the straight arrow) and must change route; lighter vehicles may go straight.",
+   "trap": "'7 metri di lunghezza' (7 metres long) is wrong: 't' means tonnes.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "7 t = 7 tonnes, not 7 metres",
+    "it": "deviazione",
+    "action": "info",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "forbids access"
+   },
+   {
+    "it": "7 metri di lunghezza",
+    "en": "7 metres long"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21901": {
+  "en": "The sign shown indicates the closure of the right lane because of roadworks.",
+  "explain": {
+   "short": "The red line is on the right and the right arrow bends left: the right lane closes for works.",
+   "rule": "This yellow panel (temporary roadworks sign) shows that the RIGHT lane closes (red line) for works: two lanes become one and the carriageway narrows, so you move into the left lane. A panel with the distance to the closure can be added.",
+   "trap": "'corsia di destra' (right lane): check the side of the red line, here the RIGHT.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right lane closed: move to the left lane",
+    "it": "chiusura corsia",
+    "action": "keepLeft",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "chiusura della corsia di destra",
+    "en": "closure of the right lane"
+   },
+   {
+    "it": "lavori in corso",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21902": {
+  "en": "The sign shown indicates a reduction from two lanes to one.",
+  "explain": {
+   "short": "Two lanes at the bottom, only one after the red line: two lanes become one.",
+   "rule": "This yellow panel (temporary roadworks sign) shows that the RIGHT lane closes (red line) for works: two lanes become one and the carriageway narrows, so you move into the left lane. A panel with the distance to the closure can be added.",
+   "trap": "Count the lanes: two, then one ('da due a una').",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Two lanes become one",
+    "it": "chiusura corsia",
+    "action": "keepLeft",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "diminuzione",
+    "en": "reduction"
+   },
+   {
+    "it": "da due a una corsia",
+    "en": "from two lanes to one"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21903": {
+  "en": "The sign shown is placed near a roadworks site.",
+  "explain": {
+   "short": "It is a yellow temporary sign, used where works close a lane.",
+   "rule": "This yellow panel (temporary roadworks sign) shows that the RIGHT lane closes (red line) for works: two lanes become one and the carriageway narrows, so you move into the left lane. A panel with the distance to the closure can be added.",
+   "trap": "Yellow = temporary works sign, so 'cantiere stradale' (roadworks site) is right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow sign = near roadworks",
+    "it": "chiusura corsia",
+    "action": "keepLeft",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in vicinanza",
+    "en": "near"
+   },
+   {
+    "it": "cantiere stradale",
+    "en": "roadworks site"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21904": {
+  "en": "The sign shown can be completed with a panel showing the distance to the point where the lane closes.",
+  "explain": {
+   "short": "A small panel underneath can tell you how many metres away the lane closure is.",
+   "rule": "This yellow panel (temporary roadworks sign) shows that the RIGHT lane closes (red line) for works: two lanes become one and the carriageway narrows, so you move into the left lane. A panel with the distance to the closure can be added.",
+   "trap": "'può essere completato' (can be completed): an extra distance panel is allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A panel can show the distance to the closure",
+    "it": "chiusura corsia",
+    "action": "keepLeft",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "completato con pannello",
+    "en": "completed with a panel"
+   },
+   {
+    "it": "distanza",
+    "en": "distance"
+   },
+   {
+    "it": "punto di chiusura",
+    "en": "closing point"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21905": {
+  "en": "The sign shown indicates a narrowing of the carriageway because of roadworks.",
+  "explain": {
+   "short": "With one lane closed, the carriageway (the part of the road for vehicles) gets narrower.",
+   "rule": "This yellow panel (temporary roadworks sign) shows that the RIGHT lane closes (red line) for works: two lanes become one and the carriageway narrows, so you move into the left lane. A panel with the distance to the closure can be added.",
+   "trap": "'restringimento' (narrowing): fewer lanes = narrower road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lane closed = narrower carriageway",
+    "it": "chiusura corsia",
+    "action": "keepLeft",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "restringimento della carreggiata",
+    "en": "narrowing of the carriageway"
+   },
+   {
+    "it": "lavori in corso",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21906": {
+  "en": "The sign shown indicates that you may overtake on the right.",
+  "explain": {
+   "short": "The right lane is closed: you cannot drive there at all, so you cannot overtake there either.",
+   "rule": "This yellow panel (temporary roadworks sign) shows that the RIGHT lane closes (red line) for works: two lanes become one and the carriageway narrows, so you move into the left lane. A panel with the distance to the closure can be added.",
+   "trap": "'sorpassare a destra' (overtake on the right) is wrong: the right lane is the one that closes.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right lane closes: no overtaking there",
+    "it": "chiusura corsia",
+    "action": "keepLeft",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "possibilità",
+    "en": "possibility"
+   },
+   {
+    "it": "sorpassare a destra",
+    "en": "overtake on the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21907": {
+  "en": "The sign shown announces an interchange where you can make a U-turn.",
+  "explain": {
+   "short": "The bending arrow means the lane ends and you merge left, not an exit for turning back.",
+   "rule": "This yellow panel (temporary roadworks sign) shows that the RIGHT lane closes (red line) for works: two lanes become one and the carriageway narrows, so you move into the left lane. A panel with the distance to the closure can be added.",
+   "trap": "'inversione di marcia' (U-turn) is wrong: the arrow just moves into the next lane.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lane merge for works, not a U-turn exit",
+    "it": "chiusura corsia",
+    "action": "keepLeft",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "svincolo",
+    "en": "interchange, exit"
+   },
+   {
+    "it": "inversione di marcia",
+    "en": "U-turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21908": {
+  "en": "The sign shown is found near a junction.",
+  "explain": {
+   "short": "It is placed near a worksite where a lane closes, not because of a junction.",
+   "rule": "This yellow panel (temporary roadworks sign) shows that the RIGHT lane closes (red line) for works: two lanes become one and the carriageway narrows, so you move into the left lane. A panel with the distance to the closure can be added.",
+   "trap": "'incrocio' (junction) is wrong: the place is a roadworks site.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Placed before works, not a junction",
+    "it": "chiusura corsia",
+    "action": "keepLeft",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si trova",
+    "en": "is found"
+   },
+   {
+    "it": "in vicinanza di un incrocio",
+    "en": "near a junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21909": {
+  "en": "The sign shown indicates a bus stop lay-by.",
+  "explain": {
+   "short": "The red line is a lane closed for works, not a stopping place for buses.",
+   "rule": "This yellow panel (temporary roadworks sign) shows that the RIGHT lane closes (red line) for works: two lanes become one and the carriageway narrows, so you move into the left lane. A panel with the distance to the closure can be added.",
+   "trap": "'fermata degli autobus' (bus stop) is wrong: nothing on the sign is about buses.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lane closed for works, not a bus stop",
+    "it": "chiusura corsia",
+    "action": "keepLeft",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "piazzola",
+    "en": "lay-by"
+   },
+   {
+    "it": "fermata degli autobus",
+    "en": "bus stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21910": {
+  "en": "The sign shown indicates the closure of the lane for slow vehicles.",
+  "explain": {
+   "short": "It closes the normal right lane for works; it says nothing about a special lane for slow vehicles.",
+   "rule": "This yellow panel (temporary roadworks sign) shows that the RIGHT lane closes (red line) for works: two lanes become one and the carriageway narrows, so you move into the left lane. A panel with the distance to the closure can be added.",
+   "trap": "'corsia per i veicoli lenti' (slow-vehicle lane, an extra lane on climbs) is wrong.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right lane closed for works, not a slow lane",
+    "it": "chiusura corsia",
+    "action": "keepLeft",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "chiusura della corsia",
+    "en": "lane closure"
+   },
+   {
+    "it": "veicoli lenti",
+    "en": "slow vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21911": {
+  "en": "The sign shown requires you to give way to vehicles coming from the right.",
+  "explain": {
+   "short": "It is not a priority sign: it only shows that the right lane closes and the road narrows.",
+   "rule": "This yellow panel (temporary roadworks sign) shows that the RIGHT lane closes (red line) for works: two lanes become one and the carriageway narrows, so you move into the left lane. A panel with the distance to the closure can be added.",
+   "trap": "'dare la precedenza' (give way) is wrong: the sign is about lanes.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "About lanes, not about giving way",
+    "it": "chiusura corsia",
+    "action": "keepLeft",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "provenienti da destra",
+    "en": "coming from the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21912": {
+  "en": "The sign shown, placed where there are roadworks, tells each category of vehicle which lanes it may use.",
+  "explain": {
+   "short": "Cars are under both arrows, the lorry only under the right one: each category gets its lanes.",
+   "rule": "This yellow panel (temporary roadworks sign) shows lane use: cars may use both lanes, while lorries (autocarri) over 3.5 t must use only the right lane.",
+   "trap": "'categorie di veicoli' (vehicle categories): cars and lorries get different lanes.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cars: both lanes. Lorries: right lane only",
+    "it": "uso delle corsie",
+    "action": "info",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in presenza di lavori stradali",
+    "en": "where there are roadworks"
+   },
+   {
+    "it": "categorie di veicoli",
+    "en": "vehicle categories"
+   },
+   {
+    "it": "quali corsie",
+    "en": "which lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21913": {
+  "en": "The sign shown is used to indicate how the lanes are used.",
+  "explain": {
+   "short": "Each arrow is a lane, and the symbols under it show who may use it.",
+   "rule": "This yellow panel (temporary roadworks sign) shows lane use: cars may use both lanes, while lorries (autocarri) over 3.5 t must use only the right lane.",
+   "trap": "'uso delle corsie' (lane use) is exactly what this sign is about.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lane use sign for roadworks",
+    "it": "uso delle corsie",
+    "action": "info",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "utilizzato",
+    "en": "used"
+   },
+   {
+    "it": "uso delle corsie",
+    "en": "lane use"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21914": {
+  "en": "The sign shown tells vehicles which lanes they must drive in.",
+  "explain": {
+   "short": "Lorries must use the right lane; cars may use both lanes.",
+   "rule": "This yellow panel (temporary roadworks sign) shows lane use: cars may use both lanes, while lorries (autocarri) over 3.5 t must use only the right lane.",
+   "trap": "'debbono circolare' (must drive): it is an obligation, not advice.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Each vehicle must keep to its lanes",
+    "it": "uso delle corsie",
+    "action": "info",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "su quali corsie",
+    "en": "in which lanes"
+   },
+   {
+    "it": "debbono circolare",
+    "en": "must drive"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21915": {
+  "en": "The sign shown tells lorries with a gross mass over 3.5 tonnes which lane they must use.",
+  "explain": {
+   "short": "The lorry symbol stands only under the right arrow: that is their lane.",
+   "rule": "This yellow panel (temporary roadworks sign) shows lane use: cars may use both lanes, while lorries (autocarri) over 3.5 t must use only the right lane.",
+   "trap": "'autocarri' (lorries): the lorry symbol means these heavy goods vehicles over 3.5 t.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lorries over 3.5 t: right lane",
+    "it": "uso delle corsie",
+    "action": "info",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarri",
+    "en": "lorries"
+   },
+   {
+    "it": "massa complessiva",
+    "en": "gross mass"
+   },
+   {
+    "it": "quale corsia",
+    "en": "which lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21916": {
+  "en": "The sign shown indicates that lorries with a gross mass over 3.5 tonnes may only use the right lane.",
+  "explain": {
+   "short": "The lorry is drawn only under the right arrow, so lorries may use only that lane.",
+   "rule": "This yellow panel (temporary roadworks sign) shows lane use: cars may use both lanes, while lorries (autocarri) over 3.5 t must use only the right lane.",
+   "trap": "'solo la corsia di destra' (only the right lane): here the 'solo' is correct.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lorries: right lane only",
+    "it": "uso delle corsie",
+    "action": "info",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarri",
+    "en": "lorries"
+   },
+   {
+    "it": "solo la corsia di destra",
+    "en": "only the right lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21917": {
+  "en": "The sign shown indicates that you are approaching a motorway toll booth.",
+  "explain": {
+   "short": "It shows lanes for cars and lorries during works; it says nothing about a toll booth.",
+   "rule": "This yellow panel (temporary roadworks sign) shows lane use: cars may use both lanes, while lorries (autocarri) over 3.5 t must use only the right lane.",
+   "trap": "'casello autostradale' (toll booth) is wrong: there is no toll symbol here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lane use during works, not a toll booth",
+    "it": "uso delle corsie",
+    "action": "info",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "avvicinarsi",
+    "en": "approaching"
+   },
+   {
+    "it": "casello autostradale",
+    "en": "motorway toll booth"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21918": {
+  "en": "The sign shown requires lorries to drive in parallel rows.",
+  "explain": {
+   "short": "Lorries get only ONE lane (the right one), so they cannot drive side by side in parallel rows.",
+   "rule": "This yellow panel (temporary roadworks sign) shows lane use: cars may use both lanes, while lorries (autocarri) over 3.5 t must use only the right lane.",
+   "trap": "'file parallele' (parallel rows, side by side) is wrong: lorries have a single lane.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lorries: one lane only, no parallel rows",
+    "it": "uso delle corsie",
+    "action": "info",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autocarri",
+    "en": "lorries"
+   },
+   {
+    "it": "file parallele",
+    "en": "parallel rows"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21919": {
+  "en": "The sign shown indicates that lorries must only overtake on the right.",
+  "explain": {
+   "short": "Lorries must stay in the right lane; the sign does not tell them to overtake on the right.",
+   "rule": "This yellow panel (temporary roadworks sign) shows lane use: cars may use both lanes, while lorries (autocarri) over 3.5 t must use only the right lane.",
+   "trap": "'sorpassare a destra' (overtake on the right) is wrong: the sign is about lanes, not overtaking.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lorries stay right; no overtaking on the right",
+    "it": "uso delle corsie",
+    "action": "info",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "debbono solo",
+    "en": "must only"
+   },
+   {
+    "it": "sorpassare a destra",
+    "en": "overtake on the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21920": {
+  "en": "The sign shown forbids motorcycles from using the left lane.",
+  "explain": {
+   "short": "Only lorries are limited to the right lane; motorcycles are not on the sign.",
+   "rule": "This yellow panel (temporary roadworks sign) shows lane use: cars may use both lanes, while lorries (autocarri) over 3.5 t must use only the right lane.",
+   "trap": "'motocicli' (motorcycles) is wrong: the sign shows cars and a lorry.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only lorries are limited, not motorcycles",
+    "it": "uso delle corsie",
+    "action": "info",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   },
+   {
+    "it": "corsia di sinistra",
+    "en": "left lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21921": {
+  "en": "The delineators shown are used at the sides of the carriageway on one-way roads.",
+  "explain": {
+   "short": "Yellow reflectors mark the delineators for one-way roads, placed on both edges.",
+   "rule": "Delineators (delineatori: posts along the road edge) with YELLOW reflectors are used at the edges of one-way roads or one-way carriageways. They are complementary signs that show the course of the road, by day and especially in the dark.",
+   "trap": "'senso unico' (one-way) matches the YELLOW reflectors.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow reflectors = one-way road edges",
+    "it": "delineatori",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "delineatori",
+    "en": "delineators (edge posts)"
+   },
+   {
+    "it": "ai lati della carreggiata",
+    "en": "at the sides of the carriageway"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21922": {
+  "en": "The delineators shown are complementary signs.",
+  "explain": {
+   "short": "Delineators belong to the complementary signs (segnali complementari), which help you see the road layout.",
+   "rule": "Delineators (delineatori: posts along the road edge) with YELLOW reflectors are used at the edges of one-way roads or one-way carriageways. They are complementary signs that show the course of the road, by day and especially in the dark.",
+   "trap": "'segnali complementari' (complementary signs) is the right family for delineators.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Delineators are complementary signs",
+    "it": "delineatori",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "delineatori",
+    "en": "delineators"
+   },
+   {
+    "it": "segnali complementari",
+    "en": "complementary signs"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21923": {
+  "en": "The delineators shown are placed at the edges of a one-way road or carriageway.",
+  "explain": {
+   "short": "Yellow delineators stand on the edges of a one-way road, or of one carriageway of a dual road.",
+   "rule": "Delineators (delineatori: posts along the road edge) with YELLOW reflectors are used at the edges of one-way roads or one-way carriageways. They are complementary signs that show the course of the road, by day and especially in the dark.",
+   "trap": "'ai margini' (at the edges) and 'senso unico' (one-way): both are right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "On the edges of a one-way road",
+    "it": "delineatori",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ai margini",
+    "en": "at the edges"
+   },
+   {
+    "it": "carreggiata a senso unico",
+    "en": "one-way carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21924": {
+  "en": "The delineators shown help you see the course of the road better.",
+  "explain": {
+   "short": "A row of posts along the edge shows where the road goes, especially on bends and in the dark.",
+   "rule": "Delineators (delineatori: posts along the road edge) with YELLOW reflectors are used at the edges of one-way roads or one-way carriageways. They are complementary signs that show the course of the road, by day and especially in the dark.",
+   "trap": "'andamento della strada' (course of the road): this is their main job.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Posts show where the road goes",
+    "it": "delineatori",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "visualizzare meglio",
+    "en": "see better"
+   },
+   {
+    "it": "andamento della strada",
+    "en": "course of the road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21925": {
+  "en": "The delineators shown are placed on two-way roads.",
+  "explain": {
+   "short": "Yellow reflectors are for one-way roads; two-way roads use white and red reflectors.",
+   "rule": "Delineators (delineatori: posts along the road edge) with YELLOW reflectors are used at the edges of one-way roads or one-way carriageways. They are complementary signs that show the course of the road, by day and especially in the dark.",
+   "trap": "'doppio senso' (two-way) is wrong for YELLOW delineators.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow = one-way, not two-way",
+    "it": "delineatori",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sono posti",
+    "en": "are placed"
+   },
+   {
+    "it": "doppio senso",
+    "en": "two-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21926": {
+  "en": "The delineators shown are found before a pedestrian crossing.",
+  "explain": {
+   "short": "Delineators run along the road edges; they do not announce pedestrian crossings.",
+   "rule": "Delineators (delineatori: posts along the road edge) with YELLOW reflectors are used at the edges of one-way roads or one-way carriageways. They are complementary signs that show the course of the road, by day and especially in the dark.",
+   "trap": "'attraversamento pedonale' (pedestrian crossing) is wrong: they mark the road edge.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "They mark road edges, not crossings",
+    "it": "delineatori",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si trovano",
+    "en": "are found"
+   },
+   {
+    "it": "attraversamento pedonale",
+    "en": "pedestrian crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21927": {
+  "en": "The delineators shown are placed in the middle of the carriageway.",
+  "explain": {
+   "short": "Delineators stand at the edges of the road, never in the middle.",
+   "rule": "Delineators (delineatori: posts along the road edge) with YELLOW reflectors are used at the edges of one-way roads or one-way carriageways. They are complementary signs that show the course of the road, by day and especially in the dark.",
+   "trap": "'al centro' (in the middle) is wrong: they are at the edges ('ai margini').",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At the edges, not in the middle",
+    "it": "delineatori",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sono posti",
+    "en": "are placed"
+   },
+   {
+    "it": "al centro della carreggiata",
+    "en": "in the middle of the carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21928": {
+  "en": "The delineators shown divide the carriageway into lanes.",
+  "explain": {
+   "short": "Lanes are divided by painted lines; delineators only mark the road edges.",
+   "rule": "Delineators (delineatori: posts along the road edge) with YELLOW reflectors are used at the edges of one-way roads or one-way carriageways. They are complementary signs that show the course of the road, by day and especially in the dark.",
+   "trap": "'dividono ... in corsie' (divide into lanes) is wrong: that is the job of road markings.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lines make lanes; posts mark edges",
+    "it": "delineatori",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "dividono la carreggiata",
+    "en": "divide the carriageway"
+   },
+   {
+    "it": "corsie",
+    "en": "lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21929": {
+  "en": "The delineators shown are placed to mark a reserved parking area.",
+  "explain": {
+   "short": "They show the edges of a one-way road, not a parking area.",
+   "rule": "Delineators (delineatori: posts along the road edge) with YELLOW reflectors are used at the edges of one-way roads or one-way carriageways. They are complementary signs that show the course of the road, by day and especially in the dark.",
+   "trap": "'area di sosta riservata' (reserved parking area) is wrong.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road edges, not a parking area",
+    "it": "delineatori",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sono posti per indicare",
+    "en": "are placed to mark"
+   },
+   {
+    "it": "area di sosta riservata",
+    "en": "reserved parking area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21930": {
+  "en": "The delineators shown are visible only at night.",
+  "explain": {
+   "short": "You see the posts by day too; at night their reflectors shine in your headlights.",
+   "rule": "Delineators (delineatori: posts along the road edge) with YELLOW reflectors are used at the edges of one-way roads or one-way carriageways. They are complementary signs that show the course of the road, by day and especially in the dark.",
+   "trap": "'solo di notte' (only at night) is wrong: day and night.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Visible by day and by night",
+    "it": "delineatori",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "visibili",
+    "en": "visible"
+   },
+   {
+    "it": "solo di notte",
+    "en": "only at night"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21931": {
+  "en": "The delineators shown are useful above all when visibility is poor.",
+  "explain": {
+   "short": "At night, in fog or rain their reflectors show you where the road edge is.",
+   "rule": "These white posts with a black band are normal delineators (delineatori) for TWO-WAY roads: red reflector on the right edge, white on the left edge. They are complementary signs at the road edges that show its course, useful above all in poor visibility.",
+   "trap": "'soprattutto' (above all) is right: it does not say 'only'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Most useful at night and in fog",
+    "it": "delineatori",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "soprattutto",
+    "en": "above all"
+   },
+   {
+    "it": "scarsa visibilità",
+    "en": "poor visibility"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21932": {
+  "en": "The delineators shown are complementary signs.",
+  "explain": {
+   "short": "Delineators belong to the complementary signs (segnali complementari), which help you see the road layout.",
+   "rule": "These white posts with a black band are normal delineators (delineatori) for TWO-WAY roads: red reflector on the right edge, white on the left edge. They are complementary signs at the road edges that show its course, useful above all in poor visibility.",
+   "trap": "'segnali complementari' (complementary signs) is the right family for delineators.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Delineators are complementary signs",
+    "it": "delineatori",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "delineatori",
+    "en": "delineators"
+   },
+   {
+    "it": "segnali complementari",
+    "en": "complementary signs"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21933": {
+  "en": "The delineators shown are placed at the edges of a two-way road.",
+  "explain": {
+   "short": "White and red reflectors are on the delineators for two-way roads, on both edges.",
+   "rule": "These white posts with a black band are normal delineators (delineatori) for TWO-WAY roads: red reflector on the right edge, white on the left edge. They are complementary signs at the road edges that show its course, useful above all in poor visibility.",
+   "trap": "'doppio senso' (two-way) matches the white and red reflectors.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "White/red = edges of a two-way road",
+    "it": "delineatori",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ai margini",
+    "en": "at the edges"
+   },
+   {
+    "it": "doppio senso",
+    "en": "two-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21934": {
+  "en": "The delineators shown help you see the course of the road better.",
+  "explain": {
+   "short": "A row of posts along the edge shows where the road goes, especially on bends and in the dark.",
+   "rule": "These white posts with a black band are normal delineators (delineatori) for TWO-WAY roads: red reflector on the right edge, white on the left edge. They are complementary signs at the road edges that show its course, useful above all in poor visibility.",
+   "trap": "'andamento della strada' (course of the road): this is their main job.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Posts show where the road goes",
+    "it": "delineatori",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "visualizzare meglio",
+    "en": "see better"
+   },
+   {
+    "it": "andamento della strada",
+    "en": "course of the road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21935": {
+  "en": "The delineators shown are useful only at night.",
+  "explain": {
+   "short": "They also help by day and in fog or rain, any time visibility is poor.",
+   "rule": "These white posts with a black band are normal delineators (delineatori) for TWO-WAY roads: red reflector on the right edge, white on the left edge. They are complementary signs at the road edges that show its course, useful above all in poor visibility.",
+   "trap": "'solo' (only) is wrong: also in fog, rain and by day.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not only at night: fog and rain too",
+    "it": "delineatori",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "ore notturne",
+    "en": "night hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21936": {
+  "en": "The delineators shown are placed at least 100 metres from one another.",
+  "explain": {
+   "short": "Delineators stand at short, regular intervals so you see a row of them; on bends they are even closer.",
+   "rule": "These white posts with a black band are normal delineators (delineatori) for TWO-WAY roads: red reflector on the right edge, white on the left edge. They are complementary signs at the road edges that show its course, useful above all in poor visibility.",
+   "trap": "'almeno 100 metri' (at least 100 metres) is wrong: they are closer together.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Close together, not 100 m apart",
+    "it": "delineatori",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vengono posti",
+    "en": "are placed"
+   },
+   {
+    "it": "a distanza di almeno 100 metri",
+    "en": "at least 100 metres apart"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21937": {
+  "en": "The delineators shown are placed in the middle of the carriageway.",
+  "explain": {
+   "short": "Delineators stand at the edges of the road, never in the middle.",
+   "rule": "These white posts with a black band are normal delineators (delineatori) for TWO-WAY roads: red reflector on the right edge, white on the left edge. They are complementary signs at the road edges that show its course, useful above all in poor visibility.",
+   "trap": "'al centro' (in the middle) is wrong: they are at the edges ('ai margini').",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At the edges, not in the middle",
+    "it": "delineatori",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sono posti",
+    "en": "are placed"
+   },
+   {
+    "it": "al centro della carreggiata",
+    "en": "in the middle of the carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21938": {
+  "en": "The delineators shown divide the carriageway into lanes.",
+  "explain": {
+   "short": "Lanes are divided by painted lines; delineators only mark the road edges.",
+   "rule": "These white posts with a black band are normal delineators (delineatori) for TWO-WAY roads: red reflector on the right edge, white on the left edge. They are complementary signs at the road edges that show its course, useful above all in poor visibility.",
+   "trap": "'dividono ... in corsie' (divide into lanes) is wrong: that is the job of road markings.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lines make lanes; posts mark edges",
+    "it": "delineatori",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "dividono la carreggiata",
+    "en": "divide the carriageway"
+   },
+   {
+    "it": "corsie",
+    "en": "lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21939": {
+  "en": "The delineators shown are placed at the sides of the carriageway on one-way roads.",
+  "explain": {
+   "short": "White and red reflectors are for two-way roads; one-way roads use yellow reflectors.",
+   "rule": "These white posts with a black band are normal delineators (delineatori) for TWO-WAY roads: red reflector on the right edge, white on the left edge. They are complementary signs at the road edges that show its course, useful above all in poor visibility.",
+   "trap": "'senso unico' (one-way) is wrong here: one-way delineators are YELLOW.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One-way roads use yellow delineators",
+    "it": "delineatori",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ai lati della carreggiata",
+    "en": "at the sides of the carriageway"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21940": {
+  "en": "The delineator shown is placed at the sides of one-way tunnels.",
+  "explain": {
+   "short": "This yellow panel lines the walls of one-way tunnels so you can see the tunnel's shape.",
+   "rule": "This all-yellow panel on a post is the tunnel delineator: it is placed along the sides of ONE-WAY tunnels. It is a complementary sign, can also highlight detours or narrowings, and is reflective (no light of its own).",
+   "trap": "'gallerie a senso unico' (one-way tunnels) is right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow panels line one-way tunnels",
+    "it": "delineatore per gallerie",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "delineatore",
+    "en": "delineator"
+   },
+   {
+    "it": "gallerie a senso unico",
+    "en": "one-way tunnels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21941": {
+  "en": "The delineator shown is a complementary sign placed in one-way tunnels.",
+  "explain": {
+   "short": "It is a complementary sign, and its place is in one-way tunnels.",
+   "rule": "This all-yellow panel on a post is the tunnel delineator: it is placed along the sides of ONE-WAY tunnels. It is a complementary sign, can also highlight detours or narrowings, and is reflective (no light of its own).",
+   "trap": "Both parts are right: 'segnale complementare' and 'gallerie a senso unico'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Complementary sign for one-way tunnels",
+    "it": "delineatore per gallerie",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale complementare",
+    "en": "complementary sign"
+   },
+   {
+    "it": "gallerie a senso unico",
+    "en": "one-way tunnels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21942": {
+  "en": "The delineator shown can also be found highlighting detours or narrowings of the carriageway.",
+  "explain": {
+   "short": "Besides tunnels, the same yellow panel can highlight a detour or a narrowing of the road.",
+   "rule": "This all-yellow panel on a post is the tunnel delineator: it is placed along the sides of ONE-WAY tunnels. It is a complementary sign, can also highlight detours or narrowings, and is reflective (no light of its own).",
+   "trap": "'anche' (also): tunnels are its main use, but not the only one.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Also used at detours and narrowings",
+    "it": "delineatore per gallerie",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "anche",
+    "en": "also"
+   },
+   {
+    "it": "deviazioni",
+    "en": "detours"
+   },
+   {
+    "it": "strettoie",
+    "en": "narrowings"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21943": {
+  "en": "The delineator shown is a complementary sign.",
+  "explain": {
+   "short": "Delineators, like this tunnel one, belong to the complementary signs (segnali complementari).",
+   "rule": "This all-yellow panel on a post is the tunnel delineator: it is placed along the sides of ONE-WAY tunnels. It is a complementary sign, can also highlight detours or narrowings, and is reflective (no light of its own).",
+   "trap": "'segnale complementare' (complementary sign) is the right family.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tunnel delineator = complementary sign",
+    "it": "delineatore per gallerie",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "delineatore",
+    "en": "delineator"
+   },
+   {
+    "it": "segnale complementare",
+    "en": "complementary sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21944": {
+  "en": "The delineator shown is used to mark a one-way junction.",
+  "explain": {
+   "short": "It lines the sides of one-way tunnels; it does not mark a junction.",
+   "rule": "This all-yellow panel on a post is the tunnel delineator: it is placed along the sides of ONE-WAY tunnels. It is a complementary sign, can also highlight detours or narrowings, and is reflective (no light of its own).",
+   "trap": "'incrocio' (junction) is wrong: tunnels, not junctions.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tunnel sides, not a junction",
+    "it": "delineatore per gallerie",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è usato",
+    "en": "is used"
+   },
+   {
+    "it": "incrocio a senso unico",
+    "en": "one-way junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21945": {
+  "en": "The delineator shown indicates a closed road.",
+  "explain": {
+   "short": "It shows the edge of the road in a tunnel; traffic carries on.",
+   "rule": "This all-yellow panel on a post is the tunnel delineator: it is placed along the sides of ONE-WAY tunnels. It is a complementary sign, can also highlight detours or narrowings, and is reflective (no light of its own).",
+   "trap": "'strada chiusa' (closed road) is wrong: it only marks the edge.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Marks the edge; the road is open",
+    "it": "delineatore per gallerie",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "indica",
+    "en": "indicates"
+   },
+   {
+    "it": "strada chiusa",
+    "en": "closed road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21946": {
+  "en": "The delineator shown is placed in the middle of the carriageway to mark an obstacle.",
+  "explain": {
+   "short": "It stands at the sides of the tunnel, not in the middle of the road as an obstacle marker.",
+   "rule": "This all-yellow panel on a post is the tunnel delineator: it is placed along the sides of ONE-WAY tunnels. It is a complementary sign, can also highlight detours or narrowings, and is reflective (no light of its own).",
+   "trap": "'al centro' (in the middle) is wrong: it is at the sides ('ai lati').",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At the sides, not in the middle",
+    "it": "delineatore per gallerie",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "al centro della carreggiata",
+    "en": "in the middle of the carriageway"
+   },
+   {
+    "it": "ostacolo",
+    "en": "obstacle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21947": {
+  "en": "The delineator shown divides the carriageway into lanes.",
+  "explain": {
+   "short": "Lanes are divided by painted lines; this delineator marks the tunnel side.",
+   "rule": "This all-yellow panel on a post is the tunnel delineator: it is placed along the sides of ONE-WAY tunnels. It is a complementary sign, can also highlight detours or narrowings, and is reflective (no light of its own).",
+   "trap": "'divide ... in corsie' (divides into lanes) is wrong: that is the job of road markings.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lines make lanes; this panel marks the side",
+    "it": "delineatore per gallerie",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divide la carreggiata",
+    "en": "divides the carriageway"
+   },
+   {
+    "it": "corsie",
+    "en": "lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21948": {
+  "en": "The delineator shown is a distance panel placed near a level crossing.",
+  "explain": {
+   "short": "Level-crossing distance panels have red diagonal bars; this plain yellow panel is a tunnel delineator.",
+   "rule": "This all-yellow panel on a post is the tunnel delineator: it is placed along the sides of ONE-WAY tunnels. It is a complementary sign, can also highlight detours or narrowings, and is reflective (no light of its own).",
+   "trap": "'pannello distanziometrico' (distance panel) is wrong: those have red bars.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tunnel delineator, not a level-crossing panel",
+    "it": "delineatore per gallerie",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello distanziometrico",
+    "en": "distance panel"
+   },
+   {
+    "it": "passaggio a livello",
+    "en": "level crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21949": {
+  "en": "The delineator shown has its own light.",
+  "explain": {
+   "short": "It has no lamp: it is reflective and shines when your headlights hit it.",
+   "rule": "This all-yellow panel on a post is the tunnel delineator: it is placed along the sides of ONE-WAY tunnels. It is a complementary sign, can also highlight detours or narrowings, and is reflective (no light of its own).",
+   "trap": "'luce propria' (its own light) is wrong: it only reflects light.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Reflects your headlights, no own light",
+    "it": "delineatore per gallerie",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ha",
+    "en": "has"
+   },
+   {
+    "it": "luce propria",
+    "en": "its own light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

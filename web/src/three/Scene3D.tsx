@@ -235,7 +235,8 @@ function Gap({ gap, actors, world, clock }: { gap: { a: string; b: string; text:
     if (!A || !B || !m.current) return
     const t = clock().time, on = t >= gap.t0
     const a = sample(A, t), b = sample(B, t)
-    const pa = world.to3(a.x, a.y + 70), pb = world.to3(b.x, b.y - 40)       // rear of the truck, front of your car
+    const half = (k: string) => (k === 'truck' ? 70 : k === 'bus' || k === 'tram' ? 95 : 38)   // half length in scene px
+    const pa = world.to3(a.x, a.y + half(A.kind)), pb = world.to3(b.x, b.y - half(B.kind))   // rear of the vehicle ahead, front of yours
     const mid = pa.clone().lerp(pb, .5), len = Math.max(.1, pa.distanceTo(pb))
     m.current.position.set(mid.x, mid.y + .04, mid.z); m.current.scale.set(1, len, 1); m.current.visible = on
     lab.pos.current.copy(mid).add(new THREE.Vector3(0, 1.2, 0))

@@ -224,6 +224,7 @@ function figureModel(img, dur) {
   if (has("be0079414cd4")) return truck({ img, crop: [.04, .34, .96, .66], mode: "pair", w: .95, h: .33 });  // trailers > 3.5 t
   if (has("37cb85177810")) return truck({ img, crop: [.1, .2, .9, .8], mode: "single", w: .8, h: .6 });      // dangerous goods
   if (has("cebd5604de2f")) return truck({ img, crop: [.15, .15, .85, .85], mode: "load", w: .6, h: .6 });    // load sticking out
+  if (has("061decd67e69")) return truck({ img, mode: "single", w: 1.15, h: 1.15 });                     // speed-limit stickers (ch11)
   // sign A, then sign B further on
   if (has("8c3ca9b5032f") || has("2a0caaad4dff")) return { road: "twoWay", line: "dashed",
     props: [{ type: "sign", x: 268, y: 150, img, crop: CROP_A, t0: 200 }, lbl(300, 150, "A", 400),
@@ -338,6 +339,42 @@ function markingModel(img, dur) {
   if (has("913d1c94c874") || has("8255d00faa2a")) return { road: "twoWay", ...close, focusY: 150,
     props: [{ type: "junction", y: 70, h: 60 }, { type: "stopLine", y: 150 }, tag(215, 175, "stop line: stop here", "linea di arresto: fermati qui", 2600)],
     actors: [stopAt(150, dur, dur * .8)] };
+  // ---- chapter 13: reversing out of an angled parking space (vehicles B, E, S) ----
+  if (has("40d3c6c83dd9")) return { road: "twoWay", ...close, focusY: 190, orbitR: 19, orbitH: 11,
+    props: [{ type: "patch", x: 252, y: 90, w: 56, h: 190, color: "#4b5262" }, tag(290, 238, "B", "B", 400), tag(290, 178, "E", "E", 500), tag(290, 128, "S", "S", 600),
+      tag(215, 90, "reversing out: give way to traffic", "in retromarcia: dai la precedenza", 2400)],
+    actors: [{ id: "B", kind: "car", color: "#2563eb", keys: [{ t: 0, x: 280, y: 240, r: -35 }] }, { id: "E", kind: "car", color: "#dc2626", keys: [{ t: 0, x: 280, y: 180, r: -35 }] },
+      { id: "S", kind: "car", color: "#16a34a", keys: [{ t: 0, x: 280, y: 130, r: -35, blink: "L" }, { t: dur * .55, x: 280, y: 130, r: -35, blink: "L" }, { t: dur * .85, x: 238, y: 160, r: -12, blink: "L" }, { t: dur, x: 226, y: 168, r: -5, blink: "L" }] },
+      { id: "c", kind: "car", color: "#f59e0b", keys: [{ t: 0, x: R, y: 480 }, { t: dur * .5, x: R, y: 40 }, { t: dur, x: R, y: -300 }] }] };
+  // ---- chapter 13: one carriageway with 3 lanes, two-way (A yours, B shared centre, C oncoming) ----
+  if (has("dff3b1affd47")) return { road: "threeLane", ...close, focusY: 180, orbitR: 22, orbitH: 12,
+    props: [tag(253, 230, "A", "A", 600), tag(180, 230, "B", "B", 800), tag(106, 230, "C", "C", 1000), tag(180, 120, "centre lane B: shared, for overtaking", "corsia centrale B: comune, per il sorpasso", 2200)],
+    actors: [{ id: "trk", kind: "truck", color: "#0f766e", keys: [{ t: 0, x: 253, y: 230 }, { t: dur, x: 253, y: -40 }] },
+      youCar([{ t: 0, x: 253, y: 470 }, { t: 1600, x: 253, y: 360 }, { t: 3000, x: 180, y: 250 }, { t: 5200, x: 180, y: 40 }, { t: 6400, x: 253, y: -60 }, { t: dur, x: 253, y: -200 }]),
+      { id: "o", kind: "car", color: "#e11d48", keys: [{ t: 0, x: 106, y: -300 }, { t: dur, x: 106, y: 520 }] }] };
+  // ---- chapter 13: more road diagrams ----
+  if (has("e00e36976523") || has("a688b13a965a")) return { road: "dual", cam: "orbit", focusY: 170, orbitR: 26, orbitH: 15,
+    props: has("a688b13a965a") ? [tag(297, 210, "A", "A", 600), tag(225, 210, "B", "B", 800), tag(63, 150, "A", "A", 600), tag(135, 150, "B", "B", 800)]
+      : [tag(260, 120, "keep to the carriageway on your right", "percorri la carreggiata alla tua destra", 1800)],
+    actors: [youCar([{ t: 0, x: 297, y: 470 }, { t: dur, x: 297, y: -80 }]), { id: "c1", kind: "car", color: "#f59e0b", keys: [{ t: 0, x: 225, y: 300 }, { t: dur, x: 225, y: -260 }] },
+      { id: "o1", kind: "car", color: "#e11d48", keys: [{ t: 0, x: 63, y: -300 }, { t: dur, x: 63, y: 520 }] }] };
+  if (has("7bdda2428f96") || has("8cb18c0726c0") || has("fc3a97abfe3d")) {
+    const round = has("fc3a97abfe3d");   // with roundabout signs you go round the centre of the junction
+    return { road: "twoWay", cam: "orbit", focusY: 110, orbitR: 16, orbitH: 13,
+      props: [{ type: "junction", y: 70, h: 60 }, { type: "patch", x: 176, y: 96, w: 8, h: 8, color: "#f8fafc" },
+        tag(180, 60, round ? "roundabout signs: go round the centre" : "left turn: keep the centre on your right", round ? "segnali di rotatoria: gira intorno al centro" : "svolta a sinistra: centro dell'incrocio alla tua destra", 2000)],
+      actors: [youCar(round
+        ? [{ t: 0, x: R, y: 470, r: 0 }, { t: dur * .4, x: R, y: 150, r: 0, blink: "L" }, { t: dur * .6, x: 200, y: 78, r: -40, blink: "L" }, { t: dur * .8, x: 140, y: 90, r: -100 }, { t: dur, x: -60, y: 112, r: -90, blink: null }]
+        : [{ t: 0, x: R, y: 470, r: 0 }, { t: dur * .45, x: R, y: 150, r: 0, blink: "L" }, { t: dur * .7, x: 172, y: 116, r: -60, blink: "L" }, { t: dur, x: -60, y: 112, r: -90, blink: null }])] };
+  }
+  if (has("5da3cff18ce4")) return { road: "twoWay", feature: "hill", line: "mixed", props: [tag(R, 120, "on a hump: keep to the right", "sul dosso: tieniti a destra", 1800)],
+    actors: [youCar([{ t: 0, x: R, y: 470 }, { t: dur, x: R, y: -120 }]), { id: "o", kind: "car", color: "#e11d48", keys: [{ t: 0, x: L, y: -320 }, { t: dur, x: L, y: 480 }] }] };
+  if (has("a95b434389fb")) return { road: "twoLanesEach", cam: "orbit", focusY: 180, orbitR: 24, orbitH: 13,
+    props: [{ type: "patch", x: 18, y: -320, w: 14, h: 880, color: "#facc15" }, { type: "patch", x: 328, y: -320, w: 14, h: 880, color: "#facc15" }, tag(320, 150, "cycle lane: bicycles only", "pista ciclabile: solo biciclette", 1800)],
+    actors: [{ id: "bk", kind: "bike", keys: [{ t: 0, x: 336, y: 360 }, { t: dur, x: 336, y: 120 }] }, youCar([{ t: 0, x: 292, y: 470 }, { t: dur, x: 292, y: -60 }])] };
+  if (has("ace26137a49a") || has("f4ce89521572")) return { road: "threeLanesEach", ...close, focusY: 170, orbitR: 24, orbitH: 13,
+    props: [{ type: "junction", y: -40, h: 60 }, { type: "stopLine", y: 22 }, tag(262, 120, "solid lane lines: no lane change here", "strisce continue: qui non si cambia corsia", 1800)],
+    actors: [youCar([{ t: 0, x: 262, y: 480 }, { t: dur, x: 262, y: 60, brake: true }])] };
   // ---- chapter 7: traffic lights ----
   if (has("9ce1d0d0b1d2")) return { road: "twoWay", ...close, focusY: 150,
     props: [{ type: "junction", y: 70, h: 60 }, { type: "stopLine", y: 150 }, { type: "light", x: 262, y: 150, cycle: [["green", 0], ["amber", 2200], ["red", 3500]], scale: 1.3 },

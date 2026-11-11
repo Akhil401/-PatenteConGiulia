@@ -1,0 +1,776 @@
+{
+ "q22662": {
+  "short": "S esce in retromarcia dal parcheggio, una manovra difficile. Deve lasciar passare il traffico dei due sensi.",
+  "rule": "Uscire in retromarcia da un parcheggio per entrare nel traffico è rischioso: controlla che la strada sia libera, usa la freccia, dai la precedenza a TUTTI i veicoli dai due lati e ai pedoni dietro, vai piano.",
+  "trap": "«sia da destra che da sinistra» è giusto: S dà la precedenza a tutti.",
+  "caption": "S dà la precedenza da entrambi i lati",
+  "lines": [
+   "S esce in retromarcia dal posto",
+   "Precedenza: da destra e da sinistra"
+  ]
+ },
+ "q22663": {
+  "short": "S entra nel traffico, quindi deve avvisare gli altri con la freccia, come in ogni immissione.",
+  "rule": "Uscire in retromarcia da un parcheggio per entrare nel traffico è rischioso: controlla che la strada sia libera, usa la freccia, dai la precedenza a TUTTI i veicoli dai due lati e ai pedoni dietro, vai piano.",
+  "trap": "«indicatori di direzione» sono le frecce, non le luci di emergenza.",
+  "caption": "S mette la freccia",
+  "lines": [
+   "S esce in retromarcia nel traffico",
+   "Freccia accesa prima di uscire"
+  ]
+ },
+ "q22664": {
+  "short": "In retromarcia dietro l'auto possono passare pedoni che vedi poco. Devi guardare e lasciarli passare.",
+  "rule": "Uscire in retromarcia da un parcheggio per entrare nel traffico è rischioso: controlla che la strada sia libera, usa la freccia, dai la precedenza a TUTTI i veicoli dai due lati e ai pedoni dietro, vai piano.",
+  "trap": "«pedoni in transito dietro di esso» hanno la precedenza.",
+  "caption": "I pedoni dietro S passano prima",
+  "lines": [
+   "S esce in retromarcia dal posto",
+   "Pedone dietro: S aspetta"
+  ]
+ },
+ "q22665": {
+  "short": "Chi esce da un parcheggio per entrare nel traffico non ha precedenza. Tutti i veicoli passano prima.",
+  "rule": "Uscire in retromarcia da un parcheggio per entrare nel traffico è rischioso: controlla che la strada sia libera, usa la freccia, dai la precedenza a TUTTI i veicoli dai due lati e ai pedoni dietro, vai piano.",
+  "trap": "«tutti i veicoli» è giusto: nessuno deve aspettare S.",
+  "caption": "Tutti i veicoli in transito passano prima",
+  "lines": [
+   "S esce in retromarcia nel traffico",
+   "Ogni veicolo in transito passa prima"
+  ]
+ },
+ "q22666": {
+  "short": "Entrare nel traffico in retromarcia è rischioso perché vedi meno. S parte solo con strada libera e va piano.",
+  "rule": "Uscire in retromarcia da un parcheggio per entrare nel traffico è rischioso: controlla che la strada sia libera, usa la freccia, dai la precedenza a TUTTI i veicoli dai due lati e ai pedoni dietro, vai piano.",
+  "trap": "«particolare prudenza» è proprio quello che serve in retromarcia.",
+  "caption": "Strada libera, piano e con prudenza",
+  "lines": [
+   "S esce in retromarcia dal posto",
+   "Strada libera? Vai piano"
+  ]
+ },
+ "q22667": {
+  "short": "Le luci di emergenza servono per un veicolo fermo che è un pericolo, non per entrare nel traffico. S usa la freccia.",
+  "rule": "Uscire in retromarcia da un parcheggio per entrare nel traffico è rischioso: controlla che la strada sia libera, usa la freccia, dai la precedenza a TUTTI i veicoli dai due lati e ai pedoni dietro, vai piano.",
+  "trap": "«segnalazione luminosa di pericolo» sono le quattro frecce: segnale sbagliato qui.",
+  "caption": "Si usa la freccia, non le quattro frecce",
+  "lines": [
+   "S esce in retromarcia nel traffico",
+   "Quattro frecce: segnale sbagliato",
+   "Si usa la freccia"
+  ]
+ },
+ "q22668": {
+  "short": "Il retronebbia serve solo con nebbia o visibilità molto scarsa. Non c'entra con la retromarcia.",
+  "rule": "Uscire in retromarcia da un parcheggio per entrare nel traffico è rischioso: controlla che la strada sia libera, usa la freccia, dai la precedenza a TUTTI i veicoli dai due lati e ai pedoni dietro, vai piano.",
+  "trap": "«luce posteriore per nebbia» è il retronebbia: solo con poca visibilità.",
+  "caption": "Retronebbia: solo con la nebbia",
+  "lines": [
+   "S esce in retromarcia nel traffico",
+   "Retronebbia: solo con nebbia",
+   "Si usa la freccia"
+  ]
+ },
+ "q22669": {
+  "short": "S deve dare la precedenza ai veicoli dei DUE sensi, non solo a quelli del suo senso.",
+  "rule": "Uscire in retromarcia da un parcheggio per entrare nel traffico è rischioso: controlla che la strada sia libera, usa la freccia, dai la precedenza a TUTTI i veicoli dai due lati e ai pedoni dietro, vai piano.",
+  "trap": "«solo» rende falsa la frase: S dà la precedenza a tutti.",
+  "caption": "Precedenza ai due sensi, non a uno solo",
+  "lines": [
+   "S esce in retromarcia nel traffico",
+   "Non solo un senso",
+   "Precedenza da tutti e due i lati"
+  ]
+ },
+ "q22670": {
+  "short": "La retromarcia nel traffico va fatta piano e con prudenza. La fretta la rende pericolosa.",
+  "rule": "Uscire in retromarcia da un parcheggio per entrare nel traffico è rischioso: controlla che la strada sia libera, usa la freccia, dai la precedenza a TUTTI i veicoli dai due lati e ai pedoni dietro, vai piano.",
+  "trap": "«velocemente» è sbagliato: serve prudenza, non velocità.",
+  "caption": "Retromarcia piano, mai di fretta",
+  "lines": [
+   "S esce in retromarcia nel traffico",
+   "Fretta: pericoloso",
+   "Muoviti piano e con prudenza"
+  ]
+ },
+ "q22671": {
+  "short": "Il clacson serve solo per un pericolo immediato e va usato poco. Suonare sempre non serve per entrare nel traffico.",
+  "rule": "Uscire in retromarcia da un parcheggio per entrare nel traffico è rischioso: controlla che la strada sia libera, usa la freccia, dai la precedenza a TUTTI i veicoli dai due lati e ai pedoni dietro, vai piano.",
+  "trap": "«suonare ripetutamente il clacson» non è mai obbligatorio.",
+  "caption": "Niente clacson continuo: freccia e prudenza",
+  "lines": [
+   "S esce in retromarcia nel traffico",
+   "Clacson ripetuto: no",
+   "Freccia e prudenza"
+  ]
+ },
+ "q22672": {
+  "short": "Per svoltare a destra stai vicino al margine DESTRO. Stare a sinistra e poi tagliare è un pericolo.",
+  "rule": "È vietato fare cose che sono un pericolo o un intralcio per il traffico: posizione sbagliata prima di svoltare, sosta sui binari del tram, svolta senza freccia in anticipo, gare, velocità troppo bassa senza motivo.",
+  "trap": "«margine sinistro» con «svoltare a destra»: il lato sbagliato.",
+  "caption": "Per svoltare a destra stai sul margine destro",
+  "lines": [
+   "Svolta a destra all'incrocio",
+   "Dal margine sinistro: vietato",
+   "Stai vicino al margine destro"
+  ]
+ },
+ "q22673": {
+  "short": "Un'auto ferma sui binari blocca il tram, che non può girarci intorno. Per questo è vietato.",
+  "rule": "È vietato fare cose che sono un pericolo o un intralcio per il traffico: posizione sbagliata prima di svoltare, sosta sui binari del tram, svolta senza freccia in anticipo, gare, velocità troppo bassa senza motivo.",
+  "trap": "«sostare sui binari tramviari» blocca il tram.",
+  "caption": "Mai fermi sui binari del tram",
+  "lines": [
+   "Auto in sosta sui binari del tram",
+   "Il tram non può girarle intorno",
+   "Vietato: binari liberi"
+  ]
+ },
+ "q22674": {
+  "short": "Gli altri devono sapere prima cosa farai. Una svolta segnalata tardi o mai li sorprende.",
+  "rule": "È vietato fare cose che sono un pericolo o un intralcio per il traffico: posizione sbagliata prima di svoltare, sosta sui binari del tram, svolta senza freccia in anticipo, gare, velocità troppo bassa senza motivo.",
+  "trap": "«con sufficiente anticipo»: la freccia all'ultimo momento non basta.",
+  "caption": "Freccia in anticipo prima di svoltare",
+  "lines": [
+   "Svolta all'incrocio",
+   "Senza freccia o tardi: vietato",
+   "Freccia accesa in anticipo"
+  ]
+ },
+ "q22675": {
+  "short": "Le gare di velocità in strada mettono tutti in pericolo. Sono vietate.",
+  "rule": "È vietato fare cose che sono un pericolo o un intralcio per il traffico: posizione sbagliata prima di svoltare, sosta sui binari del tram, svolta senza freccia in anticipo, gare, velocità troppo bassa senza motivo.",
+  "trap": "«gareggiare in velocità» vuol dire fare una gara con altri veicoli.",
+  "caption": "Niente gare in strada",
+  "lines": [
+   "Due auto in gara sulla strada",
+   "Pericolo per tutti",
+   "Vietato"
+  ]
+ },
+ "q22676": {
+  "short": "Andare molto piano senza motivo crea code e sorpassi rischiosi. È un intralcio.",
+  "rule": "È vietato fare cose che sono un pericolo o un intralcio per il traffico: posizione sbagliata prima di svoltare, sosta sui binari del tram, svolta senza freccia in anticipo, gare, velocità troppo bassa senza motivo.",
+  "trap": "«senza giustificato motivo»: andare piano va bene solo se c'è un motivo.",
+  "caption": "Troppo piano senza motivo è intralcio",
+  "lines": [
+   "Auto lentissima, coda dietro",
+   "Senza motivo: vietato",
+   "Piano solo con un buon motivo"
+  ]
+ },
+ "q22677": {
+  "short": "Entrare nel traffico da una strada laterale è normale e permesso. Dai la precedenza e metti la freccia.",
+  "rule": "È vietato fare cose che sono un pericolo o un intralcio per il traffico: posizione sbagliata prima di svoltare, sosta sui binari del tram, svolta senza freccia in anticipo, gare, velocità troppo bassa senza motivo.",
+  "trap": "«immettersi nel flusso» è una manovra normale, non vietata.",
+  "caption": "Entrare da una strada laterale è permesso",
+  "lines": [
+   "Auto da una strada laterale",
+   "Precedenza e freccia",
+   "Poi entra nel traffico: permesso"
+  ]
+ },
+ "q22678": {
+  "short": "Regolare la velocità secondo la strada è un obbligo, non un pericolo. Lo fa ogni conducente.",
+  "rule": "È vietato fare cose che sono un pericolo o un intralcio per il traffico: posizione sbagliata prima di svoltare, sosta sui binari del tram, svolta senza freccia in anticipo, gare, velocità troppo bassa senza motivo.",
+  "trap": "«regolare la velocità» secondo la strada è obbligatorio, non vietato.",
+  "caption": "Regolare la velocità è un obbligo",
+  "lines": [
+   "Strada con curve e bagnata",
+   "Regola la velocità",
+   "È un obbligo, non un divieto"
+  ]
+ },
+ "q22679": {
+  "short": "Una breve fermata sul margine destro è il modo normale di fermarsi. È permessa se un segnale non la vieta.",
+  "rule": "È vietato fare cose che sono un pericolo o un intralcio per il traffico: posizione sbagliata prima di svoltare, sosta sui binari del tram, svolta senza freccia in anticipo, gare, velocità troppo bassa senza motivo.",
+  "trap": "«fermare momentaneamente» sul «margine destro» è il modo giusto.",
+  "caption": "Fermata breve sul margine destro: permessa",
+  "lines": [
+   "Strada a senso unico",
+   "Fermata breve sul margine destro",
+   "Permesso: è il posto giusto"
+  ]
+ },
+ "q22680": {
+  "short": "I limiti di velocità sono uguali per tutti. Un'auto potente non dà diritti in più.",
+  "rule": "Ogni conducente, anche con un'auto potente, rispetta i limiti di velocità, dà di norma la precedenza a destra, sta a destra, guarda lo specchietto prima della freccia e non è un pericolo per gli altri.",
+  "trap": "«anche se ad elevate prestazioni» non cambia niente.",
+  "caption": "Auto potente, stessi limiti",
+  "lines": [
+   "Auto ad alte prestazioni",
+   "Stessi limiti di tutti"
+  ]
+ },
+ "q22681": {
+  "short": "All'incrocio senza segnali la regola base è: precedenza a destra. Vale per tutti.",
+  "rule": "Ogni conducente, anche con un'auto potente, rispetta i limiti di velocità, dà di norma la precedenza a destra, sta a destra, guarda lo specchietto prima della freccia e non è un pericolo per gli altri.",
+  "trap": "«di norma» è giusto: segnali o semafori possono cambiarla.",
+  "caption": "All'incrocio: precedenza a destra",
+  "lines": [
+   "Incrocio senza segnali",
+   "Chi viene da destra passa prima"
+  ]
+ },
+ "q22682": {
+  "short": "Ogni conducente deve guidare senza mettere a rischio gli altri. È la regola base.",
+  "rule": "Ogni conducente, anche con un'auto potente, rispetta i limiti di velocità, dà di norma la precedenza a destra, sta a destra, guarda lo specchietto prima della freccia e non è un pericolo per gli altri.",
+  "trap": "«evitare di costituire pericolo» è un dovere di tutti.",
+  "caption": "Mai essere un pericolo per gli altri",
+  "lines": [
+   "Auto tra altri utenti",
+   "Guida senza pericolo per loro"
+  ]
+ },
+ "q22683": {
+  "short": "Prima guardi lo specchietto, poi metti la freccia, poi cambi corsia. Lo specchietto viene prima.",
+  "rule": "Ogni conducente, anche con un'auto potente, rispetta i limiti di velocità, dà di norma la precedenza a destra, sta a destra, guarda lo specchietto prima della freccia e non è un pericolo per gli altri.",
+  "trap": "«prima di segnalare»: prima specchietto, poi freccia.",
+  "caption": "Prima lo specchietto, poi la freccia",
+  "lines": [
+   "Cambio di corsia",
+   "1. Guarda lo specchietto",
+   "2. Poi la freccia"
+  ]
+ },
+ "q22684": {
+  "short": "Per svoltare a destra stai vicino al margine destro: gli altri passano a sinistra e la curva è stretta.",
+  "rule": "Ogni conducente, anche con un'auto potente, rispetta i limiti di velocità, dà di norma la precedenza a destra, sta a destra, guarda lo specchietto prima della freccia e non è un pericolo per gli altri.",
+  "trap": "«margine destro» con «svolta a destra»: il lato giusto.",
+  "caption": "Svolta a destra: vicino al margine destro",
+  "lines": [
+   "Svolta a destra all'incrocio",
+   "Stai vicino al margine destro"
+  ]
+ },
+ "q22685": {
+  "short": "In Italia si sta sul lato DESTRO della strada, non al centro.",
+  "rule": "Ogni conducente, anche con un'auto potente, rispetta i limiti di velocità, dà di norma la precedenza a destra, sta a destra, guarda lo specchietto prima della freccia e non è un pericolo per gli altri.",
+  "trap": "«sempre al centro della strada» è sbagliato: si sta a destra.",
+  "caption": "Stai a destra, non al centro",
+  "lines": [
+   "Strada a doppio senso",
+   "Al centro: sbagliato",
+   "Stai a destra"
+  ]
+ },
+ "q22686": {
+  "short": "Gli abbaglianti abbagliano gli altri e non servono di giorno in città. Di giorno si usano gli anabbaglianti.",
+  "rule": "Ogni conducente, anche con un'auto potente, rispetta i limiti di velocità, dà di norma la precedenza a destra, sta a destra, guarda lo specchietto prima della freccia e non è un pericolo per gli altri.",
+  "trap": "«abbaglianti» non si usano di giorno né nel traffico di città.",
+  "caption": "Niente abbaglianti di giorno in città",
+  "lines": [
+   "Guida in città di giorno",
+   "Abbaglianti: no, abbagliano",
+   "Bastano gli anabbaglianti"
+  ]
+ },
+ "q22687": {
+  "short": "Anche senza segnale si sorpassa solo se è sicuro: buona visibilità, strada libera, nessuno che ti sorpassa.",
+  "rule": "Ogni conducente, anche con un'auto potente, rispetta i limiti di velocità, dà di norma la precedenza a destra, sta a destra, guarda lo specchietto prima della freccia e non è un pericolo per gli altri.",
+  "trap": "«in ogni condizione di traffico» è sbagliato: il traffico può rendere il sorpasso pericoloso.",
+  "caption": "Niente segnale, ma traffico di fronte: no"
+ },
+ "q22688": {
+  "short": "In città il clacson è permesso solo per un pericolo immediato. Al passaggio ciclabile rallenti e guardi.",
+  "rule": "Ogni conducente, anche con un'auto potente, rispetta i limiti di velocità, dà di norma la precedenza a destra, sta a destra, guarda lo specchietto prima della freccia e non è un pericolo per gli altri.",
+  "trap": "«ogni qualvolta» è sbagliato: il clacson è solo per un vero pericolo.",
+  "caption": "Passaggio ciclabile: rallenta, niente clacson",
+  "lines": [
+   "Passaggio ciclabile in città",
+   "Clacson ogni volta: sbagliato",
+   "Rallenta e guarda"
+  ]
+ },
+ "q22689": {
+  "short": "Le trombe bitonali sono per i veicoli di soccorso, come ambulanze e polizia. Le auto private non possono montarle.",
+  "rule": "Ogni conducente, anche con un'auto potente, rispetta i limiti di velocità, dà di norma la precedenza a destra, sta a destra, guarda lo specchietto prima della freccia e non è un pericolo per gli altri.",
+  "trap": "«trombe bitonali» sono vietate sulle auto normali, in città e fuori.",
+  "caption": "Trombe bitonali: solo veicoli di soccorso",
+  "lines": [
+   "Tromba bitonale su auto privata",
+   "Non permessa da nessuna parte",
+   "Solo per veicoli di soccorso"
+  ]
+ },
+ "q22690": {
+  "short": "Sulla moto puoi portare un animale solo in una gabbia adatta, così non si muove e non cade.",
+  "rule": "Il carico sull'auto non deve togliere visibilità né libertà di movimento, non deve cadere, non deve superare la portata e può sporgere solo dietro, fino a 3/10 della lunghezza, con pannello a strisce bianche e rosse. Sulla moto: massimo 50 cm di lato, animali solo in gabbia, carico ben fissato.",
+  "trap": "«se custoditi in apposita gabbia» è la condizione.",
+  "caption": "Animali sulla moto: solo in gabbia",
+  "lines": [
+   "Moto che porta un animale",
+   "Solo dentro una gabbia adatta"
+  ]
+ },
+ "q22691": {
+  "short": "Sulla moto il carico può sporgere di lato, ma non oltre 50 cm, così resta in equilibrio.",
+  "rule": "Il carico sull'auto non deve togliere visibilità né libertà di movimento, non deve cadere, non deve superare la portata e può sporgere solo dietro, fino a 3/10 della lunghezza, con pannello a strisce bianche e rosse. Sulla moto: massimo 50 cm di lato, animali solo in gabbia, carico ben fissato.",
+  "trap": "«oltre 50 cm» è il vero limite per le moto.",
+  "caption": "Carico moto: massimo 50 cm di lato",
+  "lines": [
+   "Moto con carico",
+   "Sporgenza laterale: massimo 50 cm"
+  ]
+ },
+ "q22692": {
+  "short": "Se il carico copre i vetri o gli specchietti, non vedi la strada e il traffico. È pericoloso.",
+  "rule": "Il carico sull'auto non deve togliere visibilità né libertà di movimento, non deve cadere, non deve superare la portata e può sporgere solo dietro, fino a 3/10 della lunghezza, con pannello a strisce bianche e rosse. Sulla moto: massimo 50 cm di lato, animali solo in gabbia, carico ben fissato.",
+  "trap": "«visibilità del conducente» deve restare libera.",
+  "caption": "Il carico non deve togliere visibilità",
+  "lines": [
+   "Auto carica di scatole",
+   "Vetri e specchietti liberi"
+  ]
+ },
+ "q22693": {
+  "short": "Devi poter sterzare, frenare e cambiare marcia liberamente. Il carico non deve dare fastidio.",
+  "rule": "Il carico sull'auto non deve togliere visibilità né libertà di movimento, non deve cadere, non deve superare la portata e può sporgere solo dietro, fino a 3/10 della lunghezza, con pannello a strisce bianche e rosse. Sulla moto: massimo 50 cm di lato, animali solo in gabbia, carico ben fissato.",
+  "trap": "«libertà di movimenti» nella guida deve restare.",
+  "caption": "Il carico non deve bloccare i movimenti",
+  "lines": [
+   "Auto con carico dentro",
+   "Volante e pedali liberi"
+  ]
+ },
+ "q22694": {
+  "short": "Un carico che cade è un grande pericolo per chi segue. Va legato e fissato.",
+  "rule": "Il carico sull'auto non deve togliere visibilità né libertà di movimento, non deve cadere, non deve superare la portata e può sporgere solo dietro, fino a 3/10 della lunghezza, con pannello a strisce bianche e rosse. Sulla moto: massimo 50 cm di lato, animali solo in gabbia, carico ben fissato.",
+  "trap": "«evitarne la caduta» è un obbligo base.",
+  "caption": "Fissa il carico perché non cada",
+  "lines": [
+   "Auto con carico sul tetto",
+   "Legalo perché non cada"
+  ]
+ },
+ "q22695": {
+  "short": "Dietro il carico può sporgere, ma al massimo 3/10 della lunghezza del veicolo.",
+  "rule": "Il carico sull'auto non deve togliere visibilità né libertà di movimento, non deve cadere, non deve superare la portata e può sporgere solo dietro, fino a 3/10 della lunghezza, con pannello a strisce bianche e rosse. Sulla moto: massimo 50 cm di lato, animali solo in gabbia, carico ben fissato.",
+  "trap": "«parte posteriore» e «tre decimi»: è il vero limite dietro.",
+  "caption": "Sporgenza dietro: massimo 3/10",
+  "lines": [
+   "Auto con carico lungo",
+   "Solo dietro, massimo 3/10"
+  ]
+ },
+ "q22696": {
+  "short": "La carta di circolazione indica il carico massimo. Non devi superarlo.",
+  "rule": "Il carico sull'auto non deve togliere visibilità né libertà di movimento, non deve cadere, non deve superare la portata e può sporgere solo dietro, fino a 3/10 della lunghezza, con pannello a strisce bianche e rosse. Sulla moto: massimo 50 cm di lato, animali solo in gabbia, carico ben fissato.",
+  "trap": "«portata» è il peso massimo che il veicolo può portare.",
+  "caption": "Mai oltre la portata del documento",
+  "lines": [
+   "Auto carica",
+   "Peso entro la portata del documento"
+  ]
+ },
+ "q22697": {
+  "short": "La regola dei 3/10 vale DIETRO. Di lato il carico non deve sporgere dal veicolo.",
+  "rule": "Il carico sull'auto non deve togliere visibilità né libertà di movimento, non deve cadere, non deve superare la portata e può sporgere solo dietro, fino a 3/10 della lunghezza, con pannello a strisce bianche e rosse. Sulla moto: massimo 50 cm di lato, animali solo in gabbia, carico ben fissato.",
+  "trap": "«sporgenza laterale» è il trucco: i 3/10 valgono solo dietro.",
+  "caption": "3/10 vale dietro, non di lato",
+  "lines": [
+   "Auto con carico largo",
+   "Di lato 3/10: sbagliato",
+   "3/10 solo dietro"
+  ]
+ },
+ "q22698": {
+  "short": "Non esiste un «10% in più» per l'altezza. Il carico resta entro l'altezza permessa (di norma 4 m).",
+  "rule": "Il carico sull'auto non deve togliere visibilità né libertà di movimento, non deve cadere, non deve superare la portata e può sporgere solo dietro, fino a 3/10 della lunghezza, con pannello a strisce bianche e rosse. Sulla moto: massimo 50 cm di lato, animali solo in gabbia, carico ben fissato.",
+  "trap": "«oltre il 10%» è inventato: non c'è nessuna percentuale in più.",
+  "caption": "Niente 10% in più di altezza",
+  "lines": [
+   "Auto con carico alto",
+   "10% in più: inventato",
+   "Resta entro l'altezza permessa"
+  ]
+ },
+ "q22699": {
+  "short": "Non puoi superare la portata per niente. Non c'è un margine del 10%.",
+  "rule": "Il carico sull'auto non deve togliere visibilità né libertà di movimento, non deve cadere, non deve superare la portata e può sporgere solo dietro, fino a 3/10 della lunghezza, con pannello a strisce bianche e rosse. Sulla moto: massimo 50 cm di lato, animali solo in gabbia, carico ben fissato.",
+  "trap": "«oltre il 10%» fa pensare a un margine che non esiste.",
+  "caption": "Niente 10% in più: entro la portata",
+  "lines": [
+   "Auto molto carica",
+   "10% oltre la portata: sbagliato",
+   "Mai oltre la portata"
+  ]
+ },
+ "q22700": {
+  "short": "Il carico non deve sporgere davanti. Solo dietro si può arrivare a 3/10.",
+  "rule": "Il carico sull'auto non deve togliere visibilità né libertà di movimento, non deve cadere, non deve superare la portata e può sporgere solo dietro, fino a 3/10 della lunghezza, con pannello a strisce bianche e rosse. Sulla moto: massimo 50 cm di lato, animali solo in gabbia, carico ben fissato.",
+  "trap": "«parte anteriore» è il trucco: i 3/10 valgono dietro.",
+  "caption": "Sporgenza davanti: non permessa",
+  "lines": [
+   "Carico che sporge davanti",
+   "Non permesso",
+   "Solo dietro, massimo 3/10"
+  ]
+ },
+ "q22701": {
+  "short": "La sporgenza dietro si segnala con un pannello quadrato riflettente a strisce bianche e rosse, non con un panno.",
+  "rule": "Il carico sull'auto non deve togliere visibilità né libertà di movimento, non deve cadere, non deve superare la portata e può sporgere solo dietro, fino a 3/10 della lunghezza, con pannello a strisce bianche e rosse. Sulla moto: massimo 50 cm di lato, animali solo in gabbia, carico ben fissato.",
+  "trap": "«panno rosso» non è il segnale previsto dalla legge.",
+  "caption": "Pannello a strisce bianche e rosse, non panno",
+  "lines": [
+   "Carico che sporge dietro",
+   "Panno rosso: non valido",
+   "Pannello a strisce bianche e rosse"
+  ]
+ },
+ "q22702": {
+  "short": "Il pannello per la sporgenza dietro ha strisce rosse e BIANCHE, non gialle e rosse.",
+  "rule": "Il carico sull'auto non deve togliere visibilità né libertà di movimento, non deve cadere, non deve superare la portata e può sporgere solo dietro, fino a 3/10 della lunghezza, con pannello a strisce bianche e rosse. Sulla moto: massimo 50 cm di lato, animali solo in gabbia, carico ben fissato.",
+  "trap": "«strisce gialle e rosse» è il colore sbagliato.",
+  "caption": "Il pannello è bianco e rosso, non giallo",
+  "lines": [
+   "Carico che sporge dietro",
+   "Pannello giallo e rosso: sbagliato",
+   "Pannello a strisce bianche e rosse"
+  ]
+ },
+ "q22703": {
+  "short": "La moto può portare un carico se è ben fissato e nei limiti (per esempio massimo 50 cm di lato).",
+  "rule": "Il carico sull'auto non deve togliere visibilità né libertà di movimento, non deve cadere, non deve superare la portata e può sporgere solo dietro, fino a 3/10 della lunghezza, con pannello a strisce bianche e rosse. Sulla moto: massimo 50 cm di lato, animali solo in gabbia, carico ben fissato.",
+  "trap": "«in nessun caso» è troppo assoluto.",
+  "caption": "La moto può portare un carico fissato",
+  "lines": [
+   "Moto con un piccolo carico",
+   "Permesso se fissato",
+   "Massimo 50 cm di lato"
+  ]
+ },
+ "q22704": {
+  "short": "Ogni carico sulla moto deve essere ben fissato. Sacchetti liberi possono cadere o farti perdere l'equilibrio.",
+  "rule": "Il carico sull'auto non deve togliere visibilità né libertà di movimento, non deve cadere, non deve superare la portata e può sporgere solo dietro, fino a 3/10 della lunghezza, con pannello a strisce bianche e rosse. Sulla moto: massimo 50 cm di lato, animali solo in gabbia, carico ben fissato.",
+  "trap": "«anche se non saldamente assicurati» rende falsa la frase.",
+  "caption": "Sacchetti sulla moto: vanno fissati",
+  "lines": [
+   "Moto con sacchetti della spesa",
+   "Sacchetti liberi: no",
+   "Fissa bene ogni carico"
+  ]
+ },
+ "q22705": {
+  "short": "La velocità deve essere adatta a strada, tempo e traffico, non solo al limite.",
+  "rule": "Usare bene la strada vuol dire: velocità adatta a strada e traffico, prudenza, precedenza ai pedoni sulle strisce, luci giuste, specchietti prima della freccia. Non vuol dire «sempre», «in ogni caso» o «il più veloce possibile».",
+  "trap": "«velocità adeguata» è l'idea chiave.",
+  "caption": "Velocità adatta a strada e traffico",
+  "lines": [
+   "Strada con traffico davanti",
+   "Velocità adatta a strada e traffico"
+  ]
+ },
+ "q22706": {
+  "short": "Rispetti le regole e usi anche buon senso e attenzione in ogni situazione.",
+  "rule": "Usare bene la strada vuol dire: velocità adatta a strada e traffico, prudenza, precedenza ai pedoni sulle strisce, luci giuste, specchietti prima della freccia. Non vuol dire «sempre», «in ogni caso» o «il più veloce possibile».",
+  "trap": "«comune prudenza» fa parte delle regole.",
+  "caption": "Regole più buon senso",
+  "lines": [
+   "Guida su strada",
+   "Rispetta le regole",
+   "Usa la comune prudenza"
+  ]
+ },
+ "q22707": {
+  "short": "Giallo fisso vuol dire fermati, se non sei troppo vicino. Se non puoi fermarti sicuro, liberi presto l'incrocio.",
+  "rule": "Usare bene la strada vuol dire: velocità adatta a strada e traffico, prudenza, precedenza ai pedoni sulle strisce, luci giuste, specchietti prima della freccia. Non vuol dire «sempre», «in ogni caso» o «il più veloce possibile».",
+  "trap": "«non si è in grado di arrestare il veicolo in sicurezza» è la condizione chiave.",
+  "caption": "Troppo vicino col giallo: libera l'incrocio",
+  "lines": [
+   "Incrocio con semaforo",
+   "Giallo fisso, troppo vicino",
+   "Libera l'incrocio"
+  ]
+ },
+ "q22708": {
+  "short": "Sulle strisce pedonali i pedoni hanno la precedenza. Ti fermi e li lasci passare.",
+  "rule": "Usare bene la strada vuol dire: velocità adatta a strada e traffico, prudenza, precedenza ai pedoni sulle strisce, luci giuste, specchietti prima della freccia. Non vuol dire «sempre», «in ogni caso» o «il più veloce possibile».",
+  "trap": "«attraversamenti pedonali»: i pedoni sulle strisce passano prima.",
+  "caption": "I pedoni sulle strisce passano prima",
+  "lines": [
+   "Pedone sulle strisce",
+   "Precedenza: lascialo passare"
+  ]
+ },
+ "q22709": {
+  "short": "In città di notte le strade sono illuminate e c'è traffico. Gli anabbaglianti fanno luce senza abbagliare.",
+  "rule": "Usare bene la strada vuol dire: velocità adatta a strada e traffico, prudenza, precedenza ai pedoni sulle strisce, luci giuste, specchietti prima della freccia. Non vuol dire «sempre», «in ogni caso» o «il più veloce possibile».",
+  "trap": "«anabbaglianti», non «abbaglianti».",
+  "caption": "Di notte in città: anabbaglianti",
+  "lines": [
+   "Strada di città di notte",
+   "Anabbaglianti accesi"
+  ]
+ },
+ "q22710": {
+  "short": "Prima di mettere la freccia per cambiare corsia guardi gli specchietti, per vedere chi arriva.",
+  "rule": "Usare bene la strada vuol dire: velocità adatta a strada e traffico, prudenza, precedenza ai pedoni sulle strisce, luci giuste, specchietti prima della freccia. Non vuol dire «sempre», «in ogni caso» o «il più veloce possibile».",
+  "trap": "«prima di azionare l'indicatore»: prima gli specchietti.",
+  "caption": "Prima gli specchietti, poi la freccia",
+  "lines": [
+   "Cambio di corsia",
+   "1. Guarda gli specchietti",
+   "2. Poi la freccia"
+  ]
+ },
+ "q22711": {
+  "short": "Entri in strada quando è sicuro, dando la precedenza e con prudenza, non il più veloce possibile.",
+  "rule": "Usare bene la strada vuol dire: velocità adatta a strada e traffico, prudenza, precedenza ai pedoni sulle strisce, luci giuste, specchietti prima della freccia. Non vuol dire «sempre», «in ogni caso» o «il più veloce possibile».",
+  "trap": "«sempre» e «il più rapidamente possibile» rendono falsa la frase.",
+  "caption": "Entra quando è sicuro, non di corsa",
+  "lines": [
+   "Auto che entra in strada",
+   "Il più veloce possibile: no",
+   "Precedenza, entra quando è sicuro"
+  ]
+ },
+ "q22712": {
+  "short": "Dai la precedenza ai pedoni che attraversano o stanno per farlo. Se non c'è nessuno, non devi fermarti.",
+  "rule": "Usare bene la strada vuol dire: velocità adatta a strada e traffico, prudenza, precedenza ai pedoni sulle strisce, luci giuste, specchietti prima della freccia. Non vuol dire «sempre», «in ogni caso» o «il più veloce possibile».",
+  "trap": "«sempre» è troppo: ti fermi solo se i pedoni devono passare.",
+  "caption": "Fermati solo se i pedoni attraversano",
+  "lines": [
+   "Strisce pedonali vuote",
+   "Non serve fermarsi sempre",
+   "Precedenza se qualcuno attraversa"
+  ]
+ },
+ "q22713": {
+  "short": "Gli abbaglianti abbagliano gli altri. Si usano solo fuori città di notte, se non arriva nessuno.",
+  "rule": "Usare bene la strada vuol dire: velocità adatta a strada e traffico, prudenza, precedenza ai pedoni sulle strisce, luci giuste, specchietti prima della freccia. Non vuol dire «sempre», «in ogni caso» o «il più veloce possibile».",
+  "trap": "«in ogni caso» rende falsa la frase.",
+  "caption": "Abbaglianti solo se non abbagli nessuno",
+  "lines": [
+   "Auto di fronte di notte",
+   "Abbaglianti sempre: sbagliato",
+   "Passa agli anabbaglianti"
+  ]
+ },
+ "q22714": {
+  "short": "Il segnale è DARE PRECEDENZA. Rallenti e ti fermi solo se arriva qualcuno.",
+  "rule": "Usare bene la strada vuol dire: velocità adatta a strada e traffico, prudenza, precedenza ai pedoni sulle strisce, luci giuste, specchietti prima della freccia. Non vuol dire «sempre», «in ogni caso» o «il più veloce possibile».",
+  "trap": "«in ogni caso» vale per lo STOP, non per questo triangolo.",
+  "caption": "Dare precedenza: rallenta, fermati se serve"
+ },
+ "q22715": {
+  "short": "La velocità deve essere adatta a strada e traffico. Andare veloce per non intralciare è pericoloso.",
+  "rule": "Usare bene la strada vuol dire: velocità adatta a strada e traffico, prudenza, precedenza ai pedoni sulle strisce, luci giuste, specchietti prima della freccia. Non vuol dire «sempre», «in ogni caso» o «il più veloce possibile».",
+  "trap": "«velocità elevata» non è mai la regola.",
+  "caption": "Velocità adatta, non alta",
+  "lines": [
+   "Auto su strada trafficata",
+   "Velocità alta: sbagliato",
+   "Velocità adatta a strada e traffico"
+  ]
+ },
+ "q22716": {
+  "short": "Le frecce della tua corsia dicono dove andare. Seguile, anche se non è la strada che volevi.",
+  "rule": "Se sei nella corsia di preselezione sbagliata vicino a un incrocio, non cambiare corsia, non fermarti e non fare retromarcia: vai nella direzione della tua corsia, dando le precedenze, e poi trovi un'altra strada.",
+  "trap": "«segnaletica orizzontale» sono le frecce a terra: seguile.",
+  "caption": "Segui le frecce della tua corsia",
+  "lines": [
+   "Incrocio con corsie di preselezione",
+   "Sei nella corsia sbagliata",
+   "Segui le frecce della corsia"
+  ]
+ },
+ "q22717": {
+  "short": "Cambiare corsia all'ultimo momento sorprende e blocca gli altri. Resta nella tua corsia.",
+  "rule": "Se sei nella corsia di preselezione sbagliata vicino a un incrocio, non cambiare corsia, non fermarti e non fare retromarcia: vai nella direzione della tua corsia, dando le precedenze, e poi trovi un'altra strada.",
+  "trap": "«non dobbiamo effettuare cambiamenti di corsia» è giusto.",
+  "caption": "Non cambiare corsia all'ultimo momento",
+  "lines": [
+   "Incrocio con corsie di preselezione",
+   "Corsia sbagliata: non cambiare",
+   "Resta nella tua corsia"
+  ]
+ },
+ "q22718": {
+  "short": "Una frenata brusca può far tamponare chi segue. Continua normale nella tua corsia.",
+  "rule": "Se sei nella corsia di preselezione sbagliata vicino a un incrocio, non cambiare corsia, non fermarti e non fare retromarcia: vai nella direzione della tua corsia, dando le precedenze, e poi trovi un'altra strada.",
+  "trap": "«arrestare bruscamente» è quello che NON devi fare.",
+  "caption": "Non frenare di colpo",
+  "lines": [
+   "Incrocio con corsie di preselezione",
+   "Corsia sbagliata: niente frenate",
+   "Continua nella tua corsia"
+  ]
+ },
+ "q22719": {
+  "short": "Fermarsi nella corsia per chiedere la strada blocca chi segue. Vai avanti e chiedi dopo.",
+  "rule": "Se sei nella corsia di preselezione sbagliata vicino a un incrocio, non cambiare corsia, non fermarti e non fare retromarcia: vai nella direzione della tua corsia, dando le precedenze, e poi trovi un'altra strada.",
+  "trap": "«non ci dobbiamo fermare» è giusto.",
+  "caption": "Non fermarti a chiedere la strada",
+  "lines": [
+   "Incrocio con corsie di preselezione",
+   "Fermarsi a chiedere: blocca",
+   "Continua nella tua corsia"
+  ]
+ },
+ "q22720": {
+  "short": "Vai dove dicono i segnali della tua corsia e dai la precedenza a chi ce l'ha.",
+  "rule": "Se sei nella corsia di preselezione sbagliata vicino a un incrocio, non cambiare corsia, non fermarti e non fare retromarcia: vai nella direzione della tua corsia, dando le precedenze, e poi trovi un'altra strada.",
+  "trap": "«nel senso voluto dalla segnaletica» è la scelta giusta.",
+  "caption": "Vai dove dicono i segnali, con le precedenze",
+  "lines": [
+   "Incrocio con corsie di preselezione",
+   "Vai dove dice la segnaletica",
+   "Dai le precedenze dovute"
+  ]
+ },
+ "q22721": {
+  "short": "Se la situazione non è chiara, rallenta, guarda bene e prosegui con prudenza.",
+  "rule": "Se sei nella corsia di preselezione sbagliata vicino a un incrocio, non cambiare corsia, non fermarti e non fare retromarcia: vai nella direzione della tua corsia, dando le precedenze, e poi trovi un'altra strada.",
+  "trap": "«con prudenza e accortezza» è la risposta sicura.",
+  "caption": "Precedenza poco chiara: piano e con prudenza",
+  "lines": [
+   "Incrocio, precedenza poco chiara",
+   "Rallenta e guarda",
+   "Prosegui con prudenza"
+  ]
+ },
+ "q22722": {
+  "short": "Andare dritto non ti dà la precedenza. Se non è chiaro, devi rallentare.",
+  "rule": "Se sei nella corsia di preselezione sbagliata vicino a un incrocio, non cambiare corsia, non fermarti e non fare retromarcia: vai nella direzione della tua corsia, dando le precedenze, e poi trovi un'altra strada.",
+  "trap": "«senza rallentare» è sbagliato quando la situazione non è chiara.",
+  "caption": "Anche dritto: rallenta",
+  "lines": [
+   "Incrocio, precedenza poco chiara",
+   "Dritto senza rallentare: no",
+   "Rallenta e guarda"
+  ]
+ },
+ "q22723": {
+  "short": "Devi seguire la direzione della tua corsia, non la svolta che volevi. Svoltare dalla corsia sbagliata taglia la strada agli altri.",
+  "rule": "Se sei nella corsia di preselezione sbagliata vicino a un incrocio, non cambiare corsia, non fermarti e non fare retromarcia: vai nella direzione della tua corsia, dando le precedenze, e poi trovi un'altra strada.",
+  "trap": "«la manovra di svolta che intendevamo fare» è la scelta sbagliata.",
+  "caption": "Non svoltare dalla corsia sbagliata",
+  "lines": [
+   "Incrocio con corsie di preselezione",
+   "Svolta dalla corsia sbagliata: no",
+   "Segui le frecce della corsia"
+  ]
+ },
+ "q22724": {
+  "short": "Fermarsi a chiedere alla polizia blocca il traffico. Segui la direzione della tua corsia.",
+  "rule": "Se sei nella corsia di preselezione sbagliata vicino a un incrocio, non cambiare corsia, non fermarti e non fare retromarcia: vai nella direzione della tua corsia, dando le precedenze, e poi trovi un'altra strada.",
+  "trap": "«chiedere consiglio» vuol dire fermarsi: non serve e blocca gli altri.",
+  "caption": "Non chiedere ai vigili: segui la corsia",
+  "lines": [
+   "Incrocio con corsie di preselezione",
+   "Fermarsi a chiedere ai vigili: no",
+   "Segui le frecce della corsia"
+  ]
+ },
+ "q22725": {
+  "short": "Essere nella corsia sbagliata non è un'emergenza. Niente quattro frecce: segui la tua corsia.",
+  "rule": "Se sei nella corsia di preselezione sbagliata vicino a un incrocio, non cambiare corsia, non fermarti e non fare retromarcia: vai nella direzione della tua corsia, dando le precedenze, e poi trovi un'altra strada.",
+  "trap": "«accensione simultanea di tutti gli indicatori» sono le quattro frecce: sbagliato qui.",
+  "caption": "Niente quattro frecce: segui la corsia",
+  "lines": [
+   "Incrocio con corsie di preselezione",
+   "Quattro frecce: sbagliato",
+   "Segui le frecce della corsia"
+  ]
+ },
+ "q22726": {
+  "short": "Fermarsi blocca il traffico ed è pericoloso. Vai semplicemente dove va la tua corsia.",
+  "rule": "Se sei nella corsia di preselezione sbagliata vicino a un incrocio, non cambiare corsia, non fermarti e non fare retromarcia: vai nella direzione della tua corsia, dando le precedenze, e poi trovi un'altra strada.",
+  "trap": "«fermarci finché non sia passata la colonna» è sbagliato.",
+  "caption": "Non fermarti: vai dove va la corsia",
+  "lines": [
+   "Incrocio con coda dietro",
+   "Accostare e aspettare: no",
+   "Segui le frecce della corsia"
+  ]
+ },
+ "q22727": {
+  "short": "La retromarcia nel traffico vicino a un incrocio è molto pericolosa. Prosegui nella tua corsia.",
+  "rule": "Se sei nella corsia di preselezione sbagliata vicino a un incrocio, non cambiare corsia, non fermarti e non fare retromarcia: vai nella direzione della tua corsia, dando le precedenze, e poi trovi un'altra strada.",
+  "trap": "«retrocedere» non è mai la soluzione, anche «con prudenza».",
+  "caption": "Mai retromarcia nella corsia di preselezione",
+  "lines": [
+   "Incrocio con corsie di preselezione",
+   "Retromarcia: pericolosa, no",
+   "Segui le frecce della corsia"
+  ]
+ },
+ "q22728": {
+  "short": "Nessun semaforo ti permette di cambiare corsia all'incrocio. Vai dove va la tua corsia.",
+  "rule": "Se sei nella corsia di preselezione sbagliata vicino a un incrocio, non cambiare corsia, non fermarti e non fare retromarcia: vai nella direzione della tua corsia, dando le precedenze, e poi trovi un'altra strada.",
+  "trap": "«cambio di corsia» al semaforo resta un cambio vietato.",
+  "caption": "Nemmeno al semaforo si cambia corsia",
+  "lines": [
+   "Incrocio con semaforo",
+   "Cambio corsia al semaforo: no",
+   "Segui le frecce della corsia"
+  ]
+ },
+ "q22729": {
+  "short": "Anche fuori dalle strisce la sicurezza del pedone viene prima. Rallenta e fermati se serve.",
+  "rule": "In città, se un pedone attraversa fuori dalle strisce e non ti dà la precedenza, rallenta e fermati se serve. Un breve colpo di clacson solo per pericolo immediato. Non proseguire mai senza curarti di lui.",
+  "trap": "«ridurre la velocità e, occorrendo, fermarsi» è giusto.",
+  "caption": "Rallenta, fermati se serve",
+  "lines": [
+   "Pedone che attraversa fuori dalle strisce",
+   "Rallenta",
+   "Fermati se serve"
+  ]
+ },
+ "q22730": {
+  "short": "In città un breve colpo di clacson è permesso per pericolo immediato. Insieme al rallentare, avvisa il pedone.",
+  "rule": "In città, se un pedone attraversa fuori dalle strisce e non ti dà la precedenza, rallenta e fermati se serve. Un breve colpo di clacson solo per pericolo immediato. Non proseguire mai senza curarti di lui.",
+  "trap": "«breve colpo di clacson, in caso di pericolo immediato» è l'uso permesso.",
+  "caption": "Rallenta; clacson breve solo per pericolo",
+  "lines": [
+   "Pedone che attraversa fuori dalle strisce",
+   "Rallenta",
+   "Clacson breve solo se pericolo immediato"
+  ]
+ },
+ "q22731": {
+  "short": "Rallenti e, se il pedone continua ad attraversare, ti fermi in tempo.",
+  "rule": "In città, se un pedone attraversa fuori dalle strisce e non ti dà la precedenza, rallenta e fermati se serve. Un breve colpo di clacson solo per pericolo immediato. Non proseguire mai senza curarti di lui.",
+  "trap": "«fermarsi tempestivamente» è la reazione giusta.",
+  "caption": "Rallenta e fermati in tempo",
+  "lines": [
+   "Pedone che attraversa fuori dalle strisce",
+   "Riduci la velocità",
+   "Fermati in tempo se serve"
+  ]
+ },
+ "q22732": {
+  "short": "Gli abbaglianti abbagliano il pedone, che vede ancora meno. Invece devi rallentare.",
+  "rule": "In città, se un pedone attraversa fuori dalle strisce e non ti dà la precedenza, rallenta e fermati se serve. Un breve colpo di clacson solo per pericolo immediato. Non proseguire mai senza curarti di lui.",
+  "trap": "«abbaglianti accesi» abbagliano: sbagliato in città con un pedone.",
+  "caption": "Niente abbaglianti: abbagliano il pedone",
+  "lines": [
+   "Pedone che attraversa di notte in città",
+   "Abbaglianti: abbagliano, no",
+   "Rallenta, fermati se serve"
+  ]
+ },
+ "q22733": {
+  "short": "Lo scopo non è far dare la precedenza al pedone. Rallenti e lo lasci attraversare sicuro.",
+  "rule": "In città, se un pedone attraversa fuori dalle strisce e non ti dà la precedenza, rallenta e fermati se serve. Un breve colpo di clacson solo per pericolo immediato. Non proseguire mai senza curarti di lui.",
+  "trap": "«con qualsiasi mezzo» e «perché ci dia la precedenza» sono sbagliati.",
+  "caption": "Non forzarlo: rallenta",
+  "lines": [
+   "Pedone che attraversa fuori dalle strisce",
+   "Richiamarlo «con ogni mezzo»: no",
+   "Rallenta, fermati se serve"
+  ]
+ },
+ "q22734": {
+  "short": "Anche se hai la precedenza, non devi mai investire un pedone. Rallenta e fermati se serve.",
+  "rule": "In città, se un pedone attraversa fuori dalle strisce e non ti dà la precedenza, rallenta e fermati se serve. Un breve colpo di clacson solo per pericolo immediato. Non proseguire mai senza curarti di lui.",
+  "trap": "«senza curarci di lui» non è mai permesso.",
+  "caption": "Mai ignorare un pedone, anche con precedenza",
+  "lines": [
+   "Pedone che attraversa fuori dalle strisce",
+   "Proseguire: mai",
+   "Rallenta, fermati se serve"
+  ]
+ }
+}

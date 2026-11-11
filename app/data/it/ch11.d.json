@@ -1,0 +1,734 @@
+{
+ "q22458": {
+  "short": "Un'auto con rimorchio va più piano di un'auto normale. In autostrada il suo limite è 80 km/h, anche con i cavalli.",
+  "rule": "Un'auto con rimorchio va al massimo a 80 km/h in autostrada e a 70 km/h sulle strade extraurbane, qualunque cosa porti.",
+  "trap": "«per il trasporto di cavalli» non cambia niente: ogni rimorchio ha lo stesso limite.",
+  "caption": "Auto con rimorchio in autostrada: max 80 km/h",
+  "lines": [
+   "Auto sola in autostrada: 130 km/h",
+   "Auto con rimorchio: 80 km/h"
+  ]
+ },
+ "q22459": {
+  "short": "Sulle strade extraurbane un'auto con rimorchio va al massimo a 70 km/h. Il carico non conta.",
+  "rule": "Un'auto con rimorchio va al massimo a 80 km/h in autostrada e a 70 km/h sulle strade extraurbane, qualunque cosa porti.",
+  "trap": "«per il trasporto di motocicli» è solo un dettaglio: il limite vale per ogni rimorchio.",
+  "caption": "Auto con rimorchio, extraurbana secondaria: max 70 km/h",
+  "lines": [
+   "Auto sola, extraurbana secondaria: 90 km/h",
+   "Auto con rimorchio: 70 km/h"
+  ]
+ },
+ "q22460": {
+  "short": "Con i lavori ci sono operai, macchine e una strada più stretta. Devi rallentare e guidare con cura.",
+  "rule": "Adatta sempre la velocità alla strada e al traffico. Rallenta soprattutto con lavori in corso o con il triangolo.",
+  "trap": "«in particolare» vuol dire che questo è un caso tipico in cui devi adattare la velocità.",
+  "caption": "Lavori in corso: rallenta",
+  "lines": [
+   "Lavori in corso",
+   "Rallenta, attento agli operai"
+  ]
+ },
+ "q22461": {
+  "short": "Il triangolo indica un veicolo fermo più avanti, forse guasto o dopo un incidente. Rallenta e preparati a fermarti.",
+  "rule": "Adatta sempre la velocità alla strada e al traffico. Rallenta soprattutto con lavori in corso o con il triangolo.",
+  "trap": "«triangolo mobile di pericolo» è il triangolo rosso messo dietro un veicolo fermo.",
+  "caption": "Triangolo: auto ferma avanti, rallenta",
+  "lines": [
+   "Triangolo sulla strada",
+   "Auto ferma avanti: rallenta"
+  ]
+ },
+ "q22462": {
+  "short": "Nel traffico intenso ogni corsia va per conto suo. Quindi la destra può andare più veloce della sinistra, ed è permesso.",
+  "rule": "Con file parallele o corsie canalizzate, la corsia di destra può andare più veloce della sinistra. Non è un sorpasso a destra.",
+  "trap": "«è possibile»: non è obbligatorio che la destra vada più veloce, ma può succedere.",
+  "caption": "Destra più veloce della sinistra: permesso qui",
+  "lines": [
+   "Corsie affiancate",
+   "La destra può andare più veloce"
+  ]
+ },
+ "q22463": {
+  "short": "Nel traffico intenso ogni corsia va per conto suo. Quindi la destra può andare più veloce della sinistra, ed è permesso.",
+  "rule": "Con file parallele o corsie canalizzate, la corsia di destra può andare più veloce della sinistra. Non è un sorpasso a destra.",
+  "trap": "«è possibile»: non è obbligatorio che la destra vada più veloce, ma può succedere.",
+  "caption": "Destra più veloce della sinistra: permesso qui",
+  "lines": [
+   "Corsie affiancate",
+   "La destra può andare più veloce"
+  ]
+ },
+ "q22464": {
+  "short": "Nel traffico intenso ogni corsia va per conto suo. Quindi la destra può andare più veloce della sinistra, ed è permesso.",
+  "rule": "Con file parallele o corsie canalizzate, la corsia di destra può andare più veloce della sinistra. Non è un sorpasso a destra.",
+  "trap": "«è possibile»: non è obbligatorio che la destra vada più veloce, ma può succedere.",
+  "caption": "Destra più veloce della sinistra: permesso qui",
+  "lines": [
+   "Corsie affiancate",
+   "La destra può andare più veloce"
+  ]
+ },
+ "q22465": {
+  "short": "Nessuna strada in Italia permette 170 km/h. In autostrada il limite è 130 km/h; solo alcune, con cartelli, arrivano a 150 km/h.",
+  "rule": "Limiti per le auto: autostrade 130 km/h, extraurbane principali 110 km/h. Notte, abbaglianti, corsia di sorpasso o discesa non li alzano.",
+  "trap": "«fino a 170 km/h» è un limite inventato; il numero di corsie non lo permette.",
+  "caption": "Niente 170 km/h: in autostrada il limite è 130 km/h",
+  "lines": [
+   "Autostrada: 130 km/h",
+   "Alcune, con cartelli: 150 km/h",
+   "Mai 170 km/h"
+  ]
+ },
+ "q22466": {
+  "short": "Il limite di 130 km/h è uguale di giorno e di notte. Gli abbaglianti aiutano a vedere, ma non permettono di andare più veloce.",
+  "rule": "Limiti per le auto: autostrade 130 km/h, extraurbane principali 110 km/h. Notte, abbaglianti, corsia di sorpasso o discesa non li alzano.",
+  "trap": "«purché si usino i proiettori a luce abbagliante» è una condizione inventata.",
+  "caption": "Gli abbaglianti non alzano il limite di 130 km/h",
+  "lines": [
+   "Autostrada: 130 km/h",
+   "Stesso limite giorno e notte",
+   "Abbaglianti: niente velocità in più"
+  ]
+ },
+ "q22467": {
+  "short": "La corsia di sorpasso ha lo stesso limite del resto dell'autostrada: 130 km/h per le auto, non 110 km/h.",
+  "rule": "Limiti per le auto: autostrade 130 km/h, extraurbane principali 110 km/h. Notte, abbaglianti, corsia di sorpasso o discesa non li alzano.",
+  "trap": "«110 km/h» è il limite delle extraurbane principali, non un limite della corsia di sorpasso.",
+  "caption": "Corsia di sorpasso: stesso limite di 130 km/h",
+  "lines": [
+   "Autostrada: 130 km/h",
+   "Corsia di sorpasso: stesso limite"
+  ]
+ },
+ "q22468": {
+  "short": "Il limite in autostrada non cambia tra giorno e notte. Di regola è 130 km/h a ogni ora.",
+  "rule": "Limiti per le auto: autostrade 130 km/h, extraurbane principali 110 km/h. Notte, abbaglianti, corsia di sorpasso o discesa non li alzano.",
+  "trap": "«nelle ore diurne» / «notturne»: il limite non ha una versione di giorno e una di notte.",
+  "caption": "Niente limiti giorno/notte: autostrada 130 km/h",
+  "lines": [
+   "Autostrada: 130 km/h",
+   "Giorno o notte: stesso limite"
+  ]
+ },
+ "q22469": {
+  "short": "Sulle extraurbane principali il limite massimo è 110 km/h. 130 km/h vale solo in autostrada.",
+  "rule": "Limiti per le auto: autostrade 130 km/h, extraurbane principali 110 km/h. Notte, abbaglianti, corsia di sorpasso o discesa non li alzano.",
+  "trap": "«particolari caratteristiche» non trasformano la strada in autostrada: il massimo è 110 km/h.",
+  "caption": "Extraurbana principale: massimo 110 km/h",
+  "lines": [
+   "Extraurbana principale: 110 km/h",
+   "130 km/h solo in autostrada"
+  ]
+ },
+ "q22470": {
+  "short": "Il limite di 110 km/h vale su tutta la strada. In discesa frenare è più difficile: è un motivo per andare più piano.",
+  "rule": "Limiti per le auto: autostrade 130 km/h, extraurbane principali 110 km/h. Notte, abbaglianti, corsia di sorpasso o discesa non li alzano.",
+  "trap": "«ma solo nei tratti di strada in discesa» è un'eccezione inventata.",
+  "caption": "In discesa: sempre massimo 110 km/h",
+  "lines": [
+   "Extraurbana principale: 110 km/h",
+   "Discesa: nessuna eccezione",
+   "Discesa = frenata più lunga"
+  ]
+ },
+ "q22471": {
+  "short": "90 km/h è il limite per l'auto da sola. Con qualunque rimorchio, anche per gommoni o alianti, il limite è 70 km/h.",
+  "rule": "Un'auto con rimorchio va al massimo a 80 km/h in autostrada e a 70 km/h sulle strade extraurbane, qualunque cosa porti.",
+  "trap": "«90 km/h» è il limite senza rimorchio; il carico «gommoni o alianti» non cambia niente.",
+  "caption": "Con rimorchio il limite è 70 km/h, non 90",
+  "lines": [
+   "Auto sola, extraurbana secondaria: 90 km/h",
+   "Auto con rimorchio: 70 km/h"
+  ]
+ },
+ "q22472": {
+  "short": "Macchine agricole e operatrici sono lente e hanno un limite molto più basso di 70 km/h. La luce gialla avvisa soltanto.",
+  "rule": "Macchine agricole e operatrici sono veicoli lenti con un limite molto più basso. La luce gialla lampeggiante avvisa soltanto; non alza il limite.",
+  "trap": "«se hanno in funzione il dispositivo a luce gialla» non dà un limite più alto.",
+  "caption": "La luce gialla non alza il limite delle macchine agricole",
+  "lines": [
+   "Macchina agricola: veicolo lento",
+   "Luce gialla = solo avviso"
+  ]
+ },
+ "q22473": {
+  "short": "Anche con la precedenza devi attraversare l'incrocio con prudenza. Se andavi troppo forte, una parte di colpa può essere tua.",
+  "rule": "La precedenza non ti permette di correre. Vicino all'incrocio devi rallentare; se fai un incidente ad alta velocità, puoi avere parte della colpa.",
+  "trap": "«concorso di colpa» vuol dire che tutti e due i conducenti possono avere parte della colpa.",
+  "caption": "Troppo veloce con precedenza: colpa condivisa",
+  "lines": [
+   "Precedenza: rallenta comunque",
+   "Troppo veloce: colpa condivisa"
+  ]
+ },
+ "q22474": {
+  "short": "Ogni Stato europeo decide i suoi limiti. Un limite italiano all'estero può essere diverso.",
+  "rule": "Ogni Stato decide i suoi limiti di velocità. All'estero controlla i limiti per autostrade e strade extraurbane.",
+  "trap": "«non sono identici»: la negazione rende giusta la frase.",
+  "caption": "I limiti cambiano da Stato a Stato",
+  "lines": [
+   "Ogni Stato: suoi limiti",
+   "All'estero: guarda i cartelli"
+  ]
+ },
+ "q22475": {
+  "short": "La precedenza non ti protegge se andavi troppo forte. Il giudice può darti una parte di colpa.",
+  "rule": "La precedenza non ti permette di correre. Vicino all'incrocio devi rallentare; se fai un incidente ad alta velocità, puoi avere parte della colpa.",
+  "trap": "«completamente privi di responsabilità» è troppo assoluto.",
+  "caption": "La precedenza non cancella la colpa della velocità",
+  "lines": [
+   "Precedenza: rallenta comunque",
+   "Troppo veloce: colpa condivisa"
+  ]
+ },
+ "q22476": {
+  "short": "L'altro conducente può avere colpa perché non ha dato precedenza, ma conta anche la tua velocità. La colpa può essere divisa.",
+  "rule": "La precedenza non ti permette di correre. Vicino all'incrocio devi rallentare; se fai un incidente ad alta velocità, puoi avere parte della colpa.",
+  "trap": "«solo» è la trappola: la colpa non è sempre solo dell'altro.",
+  "caption": "Non solo l'altro: conta anche la velocità",
+  "lines": [
+   "L'altro: non ha dato precedenza",
+   "Tu: troppo veloce",
+   "Colpa divisa"
+  ]
+ },
+ "q22477": {
+  "short": "Vicino a un incrocio devi sempre moderare la velocità, anche con la precedenza. Qualcuno può non dartela.",
+  "rule": "La precedenza non ti permette di correre. Vicino all'incrocio devi rallentare; se fai un incidente ad alta velocità, puoi avere parte della colpa.",
+  "trap": "«non si ha alcun obbligo»: devi comunque rallentare vicino agli incroci.",
+  "caption": "Incrocio con precedenza: rallenta comunque",
+  "lines": [
+   "Incrocio: rallenta",
+   "Anche con la precedenza"
+  ]
+ },
+ "q22478": {
+  "short": "La colpa non va a chi entra per primo. Dipende da chi non rispetta le regole, e la tua velocità conta.",
+  "rule": "La precedenza non ti permette di correre. Vicino all'incrocio devi rallentare; se fai un incidente ad alta velocità, puoi avere parte della colpa.",
+  "trap": "«per primo»: entrare per primo nell'incrocio non decide la colpa.",
+  "caption": "Entrare per primo non decide la colpa",
+  "lines": [
+   "Primo a entrare: non conta",
+   "Colpa a chi viola le regole",
+   "Troppo veloce: colpa divisa"
+  ]
+ },
+ "q22479": {
+  "short": "Un treno non può fermarsi in fretta. Il veicolo deve lasciare subito i binari, anche spingendolo.",
+  "rule": "Se il veicolo si ferma sui binari, spingilo subito fuori. Se non puoi, fai scendere tutti e avvisa la stazione, così i treni sono avvisati in tempo.",
+  "trap": "«quanto prima»: non c'è tempo per aspettare aiuto.",
+  "caption": "Bloccato sui binari: spingi via l'auto subito",
+  "lines": [
+   "Auto bloccata sui binari",
+   "Spingila fuori subito"
+  ]
+ },
+ "q22480": {
+  "short": "Se il veicolo resta sui binari, chi è dentro è in grande pericolo. Fai scendere tutti e avvisa la stazione, così fermano i treni.",
+  "rule": "Se il veicolo si ferma sui binari, spingilo subito fuori. Se non puoi, fai scendere tutti e avvisa la stazione, così i treni sono avvisati in tempo.",
+  "trap": "«se non è possibile spostarlo subito» è il caso in cui le persone vengono prima.",
+  "caption": "Non si sposta: tutti fuori, avvisa la stazione",
+  "lines": [
+   "L'auto non si sposta",
+   "Tutti fuori subito",
+   "Avvisa la stazione"
+  ]
+ },
+ "q22481": {
+  "short": "Un treno ha bisogno di molto spazio per fermarsi. Il macchinista va avvisato presto, per esempio tramite la stazione.",
+  "rule": "Se il veicolo si ferma sui binari, spingilo subito fuori. Se non puoi, fai scendere tutti e avvisa la stazione, così i treni sono avvisati in tempo.",
+  "trap": "«veicoli su rotaie» sono treni e tram; «in tempo utile» vuol dire abbastanza presto per fermarsi.",
+  "caption": "Avvisa in tempo i treni",
+  "lines": [
+   "Auto bloccata sui binari",
+   "Avvisa i treni in tempo"
+  ]
+ },
+ "q22482": {
+  "short": "Il servosterzo funziona grazie al motore. A motore spento non aiuta più e il volante diventa pesante.",
+  "rule": "Mai in discesa in folle e a motore spento: servofreno e servosterzo non aiutano più, quindi frenare e sterzare diventa molto più difficile.",
+  "trap": "«servosterzo» ha bisogno del motore acceso per aiutarti.",
+  "caption": "Motore spento: il servosterzo non aiuta",
+  "lines": [
+   "In discesa, motore spento",
+   "Il servosterzo si ferma",
+   "Volante pesante"
+  ]
+ },
+ "q22483": {
+  "short": "Il servofreno usa il motore per rendere facile la frenata. A motore spento devi spingere il pedale molto di più.",
+  "rule": "Mai in discesa in folle e a motore spento: servofreno e servosterzo non aiutano più, quindi frenare e sterzare diventa molto più difficile.",
+  "trap": "«servofreno» non aiuta più quando il motore è spento.",
+  "caption": "Motore spento: il servofreno non aiuta",
+  "lines": [
+   "In discesa in folle a motore spento",
+   "Il servo non aiuta più",
+   "Frenare e sterzare è difficile"
+  ]
+ },
+ "q22484": {
+  "short": "Senza motore i freni funzionano male e puoi non fermarti in tempo. Quindi il rischio di incidente cresce.",
+  "rule": "Mai in discesa in folle e a motore spento: servofreno e servosterzo non aiutano più, quindi frenare e sterzare diventa molto più difficile.",
+  "trap": "«aumenta il rischio» è giusto: andare in folle è pericoloso, non sicuro.",
+  "caption": "In folle a motore spento: più incidenti",
+  "lines": [
+   "In discesa in folle a motore spento",
+   "Il servo non aiuta più",
+   "Frenare e sterzare è difficile"
+  ]
+ },
+ "q22485": {
+  "short": "A motore spento il servosterzo non aiuta e il volante è pesante. Una manovra veloce per evitare un ostacolo diventa difficile.",
+  "rule": "Mai in discesa in folle e a motore spento: servofreno e servosterzo non aiutano più, quindi frenare e sterzare diventa molto più difficile.",
+  "trap": "«girare rapidamente lo sterzo» è proprio quello che il volante pesante impedisce.",
+  "caption": "Volante pesante: difficile evitare un ostacolo",
+  "lines": [
+   "In discesa, motore spento",
+   "Il servosterzo si ferma",
+   "Difficile evitare ostacoli"
+  ]
+ },
+ "q22486": {
+  "short": "Senza motore i freni sono più deboli e in discesa l'auto accelera. Serve molto più spazio per fermarsi.",
+  "rule": "Mai in discesa in folle e a motore spento: servofreno e servosterzo non aiutano più, quindi frenare e sterzare diventa molto più difficile.",
+  "trap": "«spazio di frenatura» aumenta, non resta uguale.",
+  "caption": "Motore spento in discesa: frenata molto più lunga",
+  "lines": [
+   "In discesa in folle a motore spento",
+   "Il servo non aiuta più",
+   "Frenare e sterzare è difficile"
+  ]
+ },
+ "q22487": {
+  "short": "Ogni frenata toglie aiuto al servofreno e in una lunga discesa l'auto prende velocità. Fermarsi è sempre più difficile.",
+  "rule": "Mai in discesa in folle e a motore spento: servofreno e servosterzo non aiutano più, quindi frenare e sterzare diventa molto più difficile.",
+  "trap": "«sempre più difficoltoso»: il problema peggiora durante la discesa.",
+  "caption": "Lunga discesa a motore spento: fermarsi è più difficile",
+  "lines": [
+   "In discesa in folle a motore spento",
+   "Il servo non aiuta più",
+   "Frenare e sterzare è difficile"
+  ]
+ },
+ "q22488": {
+  "short": "Andare in folle a motore spento non sovraccarica l'impianto elettrico. Il vero pericolo sono freni deboli e volante pesante.",
+  "rule": "Mai in discesa in folle e a motore spento: servofreno e servosterzo non aiutano più, quindi frenare e sterzare diventa molto più difficile.",
+  "trap": "«sovraccarico di corrente elettrica» è un effetto inventato.",
+  "caption": "Vero pericolo: freni e sterzo, non la corrente",
+  "lines": [
+   "In discesa in folle a motore spento",
+   "Il servo non aiuta più",
+   "Frenare e sterzare è difficile"
+  ]
+ },
+ "q22489": {
+  "short": "Il differenziale non è il problema. In folle a motore spento è pericoloso perché freni e sterzo non hanno più aiuto.",
+  "rule": "Mai in discesa in folle e a motore spento: servofreno e servosterzo non aiutano più, quindi frenare e sterzare diventa molto più difficile.",
+  "trap": "«anomalia al differenziale» non è il rischio di cui parla il quiz.",
+  "caption": "Vero pericolo: freni e sterzo, non il differenziale",
+  "lines": [
+   "In discesa in folle a motore spento",
+   "Il servo non aiuta più",
+   "Frenare e sterzare è difficile"
+  ]
+ },
+ "q22490": {
+  "short": "Così è meno sicuro, non di più: freni e sterzo perdono aiuto. In discesa usa una marcia bassa con il motore acceso.",
+  "rule": "Mai in discesa in folle e a motore spento: servofreno e servosterzo non aiutano più, quindi frenare e sterzare diventa molto più difficile.",
+  "trap": "«per una maggiore sicurezza» è il contrario della verità.",
+  "caption": "In discesa: marcia bassa, motore acceso",
+  "lines": [
+   "Folle + motore spento: pericoloso",
+   "In discesa: marcia bassa",
+   "Motore sempre acceso"
+  ]
+ },
+ "q22491": {
+  "short": "Non devi mai andare in folle a motore spento. Togliere la chiave può anche bloccare il volante: è molto pericoloso.",
+  "rule": "Mai in discesa in folle e a motore spento: servofreno e servosterzo non aiutano più, quindi frenare e sterzare diventa molto più difficile.",
+  "trap": "«conviene estrarre la chiave»: così il volante può bloccarsi.",
+  "caption": "Mai togliere la chiave in movimento",
+  "lines": [
+   "In discesa: motore acceso",
+   "Chiave tolta: volante bloccato"
+  ]
+ },
+ "q22492": {
+  "short": "Il servofreno a depressione prende aiuto dal motore acceso. A motore spento la forza frenante è molto più bassa.",
+  "rule": "Mai in discesa in folle e a motore spento: servofreno e servosterzo non aiutano più, quindi frenare e sterzare diventa molto più difficile.",
+  "trap": "«la stessa forza frenante» è sbagliato: senza motore diminuisce.",
+  "caption": "Motore spento: forza frenante molto più bassa",
+  "lines": [
+   "In discesa in folle a motore spento",
+   "Il servo non aiuta più",
+   "Frenare e sterzare è difficile"
+  ]
+ },
+ "q22493": {
+  "short": "Il panico fa sbagliare. Stai calmo e lascia subito i binari, in qualunque modo.",
+  "rule": "Al passaggio a livello rallenta e fai molta attenzione. Se sei sui binari quando le barriere si chiudono, stai calmo e libera i binari in ogni modo, anche sfondando le barriere.",
+  "trap": "«in qualunque modo»: conta solo uscire dai binari.",
+  "caption": "Barriere che si chiudono: calma, libera i binari",
+  "lines": [
+   "Barriere che si chiudono, tu sui binari",
+   "Stai calmo",
+   "Libera i binari in ogni modo"
+  ]
+ },
+ "q22494": {
+  "short": "Una barriera rotta non è niente rispetto a uno scontro con il treno. Le barriere si rompono se l'auto spinge.",
+  "rule": "Al passaggio a livello rallenta e fai molta attenzione. Se sei sui binari quando le barriere si chiudono, stai calmo e libera i binari in ogni modo, anche sfondando le barriere.",
+  "trap": "«anche sfondando le barriere» sembra sbagliato, ma in questa emergenza è permesso.",
+  "caption": "Se serve, sfonda la barriera per uscire",
+  "lines": [
+   "Barriere che si chiudono, tu sui binari",
+   "Esci dai binari",
+   "Se serve, sfonda la barriera"
+  ]
+ },
+ "q22495": {
+  "short": "Il veicolo deve lasciare i binari in fretta. Ogni aiuto va bene, per esempio un altro veicolo che ti traina.",
+  "rule": "Se un veicolo è bloccato sui binari, prima di tutto va tolto dai binari e i treni vanno avvisati in tempo. Niente viene prima.",
+  "trap": "«ad esempio»: farsi trainare è solo un modo per spostare il veicolo.",
+  "caption": "Guasto sui binari: fatti trainare via subito",
+  "lines": [
+   "Bloccato sui binari",
+   "Togli subito il veicolo",
+   "Avvisa i treni in tempo"
+  ]
+ },
+ "q22496": {
+  "short": "L'auto deve lasciare i binari in fretta. Chiedere ad altri di aiutarti a spingere è un buon modo.",
+  "rule": "Se un veicolo è bloccato sui binari, prima di tutto va tolto dai binari e i treni vanno avvisati in tempo. Niente viene prima.",
+  "trap": "«ad esempio»: spingere con aiuto è un buon modo per liberare la linea.",
+  "caption": "Guasto sui binari: spingi via l'auto con aiuto",
+  "lines": [
+   "Bloccato sui binari",
+   "Togli subito il veicolo",
+   "Avvisa i treni in tempo"
+  ]
+ },
+ "q22497": {
+  "short": "Arrivare veloce può far urtare l'auto contro barriere o impianti. Rallenta per evitare danni e pericoli.",
+  "rule": "Al passaggio a livello rallenta e fai molta attenzione. Se sei sui binari quando le barriere si chiudono, stai calmo e libera i binari in ogni modo, anche sfondando le barriere.",
+  "trap": "«attrezzature» sono barriere, luci e altri impianti del passaggio.",
+  "caption": "Passaggio a livello: rallenta, fai attenzione",
+  "lines": [
+   "Passaggio a livello",
+   "Rallenta, fai attenzione"
+  ]
+ },
+ "q22498": {
+  "short": "Se arrivi troppo veloce, puoi non fermarti prima delle barriere. Rallenta per non urtarle mai.",
+  "rule": "Al passaggio a livello rallenta e fai molta attenzione. Se sei sui binari quando le barriere si chiudono, stai calmo e libera i binari in ogni modo, anche sfondando le barriere.",
+  "trap": "«collisione con le barriere» è un rischio vero se arrivi troppo veloce.",
+  "caption": "Passaggio a livello: rallenta, fai attenzione",
+  "lines": [
+   "Passaggio a livello",
+   "Rallenta, fai attenzione"
+  ]
+ },
+ "q22499": {
+  "short": "Uno scontro con il treno può farlo deragliare. Molti passeggeri possono farsi male, non solo tu.",
+  "rule": "Non rispettare le regole del passaggio a livello mette in pericolo molte persone, anche i passeggeri del treno, a ogni ora.",
+  "trap": "«molte persone»: il pericolo va molto oltre il conducente.",
+  "caption": "Violare le regole mette in pericolo i passeggeri",
+  "lines": [
+   "Treno: tanti passeggeri",
+   "Manovra rischiosa = pericolo per tutti"
+  ]
+ },
+ "q22500": {
+  "short": "Una manovra azzardata al passaggio a livello può causare uno scontro con il treno. Molte persone possono farsi male.",
+  "rule": "Non rispettare le regole del passaggio a livello mette in pericolo molte persone, anche i passeggeri del treno, a ogni ora.",
+  "trap": "«oltre che per il conducente»: anche gli altri sono in pericolo.",
+  "caption": "Manovra azzardata: pericolo per molti",
+  "lines": [
+   "Treno: tanti passeggeri",
+   "Manovra rischiosa = pericolo per tutti"
+  ]
+ },
+ "q22501": {
+  "short": "Un treno non si ferma in fretta, quindi va avvisato presto. Usa ogni modo, per esempio chiama la stazione.",
+  "rule": "Se un veicolo è bloccato sui binari, prima di tutto va tolto dai binari e i treni vanno avvisati in tempo. Niente viene prima.",
+  "trap": "«presegnalare» vuol dire avvisare prima che arrivi il treno.",
+  "caption": "Bloccato tra le barriere: avvisa presto i treni",
+  "lines": [
+   "Bloccato sui binari",
+   "Togli subito il veicolo",
+   "Avvisa i treni in tempo"
+  ]
+ },
+ "q22502": {
+  "short": "Se le barriere si stanno chiudendo, l'auto può ancora muoversi. Devi portarla fuori dai binari, non lasciarla lì.",
+  "rule": "Al passaggio a livello rallenta e fai molta attenzione. Se sei sui binari quando le barriere si chiudono, stai calmo e libera i binari in ogni modo, anche sfondando le barriere.",
+  "trap": "«abbandonare rapidamente il veicolo» lo lascia sui binari davanti al treno.",
+  "caption": "Non abbandonarla: esci dai binari",
+  "lines": [
+   "Barriere che si chiudono, tu sui binari",
+   "Stai calmo",
+   "Libera i binari in ogni modo"
+  ]
+ },
+ "q22503": {
+  "short": "Un rimorchio lasciato sui binari può ancora causare un incidente con il treno. Devi liberare tutto, anche il rimorchio.",
+  "rule": "Al passaggio a livello rallenta e fai molta attenzione. Se sei sui binari quando le barriere si chiudono, stai calmo e libera i binari in ogni modo, anche sfondando le barriere.",
+  "trap": "«abbandonarlo sui binari» lascia comunque un pericolo per il treno.",
+  "caption": "Mai lasciare il rimorchio sui binari",
+  "lines": [
+   "Barriere che si chiudono, tu sui binari",
+   "Stai calmo",
+   "Libera i binari in ogni modo"
+  ]
+ },
+ "q22504": {
+  "short": "Il carico non conta. Le persone devono essere salve, il veicolo deve lasciare i binari e i treni vanno avvisati.",
+  "rule": "Se un veicolo è bloccato sui binari, prima di tutto va tolto dai binari e i treni vanno avvisati in tempo. Niente viene prima.",
+  "trap": "«salvare almeno il carico» mette le cose prima della sicurezza.",
+  "caption": "Non il carico: sposta il veicolo, avvisa i treni",
+  "lines": [
+   "Bloccato sui binari",
+   "Togli subito il veicolo",
+   "Avvisa i treni in tempo"
+  ]
+ },
+ "q22505": {
+  "short": "Svuotare il serbatoio fa perdere tempo e sparge carburante. Devi togliere l'auto dai binari e avvisare i treni.",
+  "rule": "Se un veicolo è bloccato sui binari, prima di tutto va tolto dai binari e i treni vanno avvisati in tempo. Niente viene prima.",
+  "trap": "«svuotare rapidamente il serbatoio» non è un obbligo e aggiunge pericolo.",
+  "caption": "Non il serbatoio: sposta l'auto, avvisa i treni",
+  "lines": [
+   "Bloccato sui binari",
+   "Togli subito il veicolo",
+   "Avvisa i treni in tempo"
+  ]
+ },
+ "q22506": {
+  "short": "Al passaggio a livello devi rallentare, mai accelerare. Ad alta velocità non ti fermi se le barriere si chiudono.",
+  "rule": "Al passaggio a livello rallenta e fai molta attenzione. Se sei sui binari quando le barriere si chiudono, stai calmo e libera i binari in ogni modo, anche sfondando le barriere.",
+  "trap": "«velocità molto elevata» è il contrario della regola.",
+  "caption": "Passaggio a livello: rallenta, mai correre",
+  "lines": [
+   "Passaggio a livello",
+   "Rallenta, fai attenzione"
+  ]
+ },
+ "q22507": {
+  "short": "Devi arrivare piano per fermarti sempre prima delle barriere abbassate. Sfondare le barriere non è mai un piano.",
+  "rule": "Al passaggio a livello rallenta e fai molta attenzione. Se sei sui binari quando le barriere si chiudono, stai calmo e libera i binari in ogni modo, anche sfondando le barriere.",
+  "trap": "«sfondare le barriere» si fa solo per uscire dai binari in emergenza, mai come motivo per correre.",
+  "caption": "Arriva piano: fermati alle barriere abbassate",
+  "lines": [
+   "Passaggio a livello",
+   "Rallenta, fai attenzione"
+  ]
+ },
+ "q22508": {
+  "short": "Non rispettare le regole del passaggio a livello è molto pericoloso per molte persone, anche per i passeggeri del treno.",
+  "rule": "Non rispettare le regole del passaggio a livello mette in pericolo molte persone, anche i passeggeri del treno, a ogni ora.",
+  "trap": "«esclusivamente» e «non comporta reali pericoli» sono tutti e due sbagliati.",
+  "caption": "Non è poco: pericolo vero per molti",
+  "lines": [
+   "Treno: tanti passeggeri",
+   "Manovra rischiosa = pericolo per tutti"
+  ]
+ },
+ "q22509": {
+  "short": "Una manovra azzardata al passaggio a livello è pericolosa sempre, di giorno e di notte. I treni passano a ogni ora.",
+  "rule": "Non rispettare le regole del passaggio a livello mette in pericolo molte persone, anche i passeggeri del treno, a ogni ora.",
+  "trap": "«solo nelle ore notturne» è la trappola: il pericolo c'è sempre.",
+  "caption": "Manovra azzardata: pericolo giorno e notte",
+  "lines": [
+   "Treno: tanti passeggeri",
+   "Manovra rischiosa = pericolo per tutti"
+  ]
+ },
+ "q22510": {
+  "short": "Far scendere le persone non basta. Il conducente deve anche provare a spostare il veicolo e avvisare i treni.",
+  "rule": "Se un veicolo è bloccato sui binari, prima di tutto va tolto dai binari e i treni vanno avvisati in tempo. Niente viene prima.",
+  "trap": "«unico obbligo» è la trappola: gli obblighi sono di più.",
+  "caption": "Non è l'unico obbligo: spostalo e avvisa i treni",
+  "lines": [
+   "Bloccato sui binari",
+   "Togli subito il veicolo",
+   "Avvisa i treni in tempo"
+  ]
+ },
+ "q22511": {
+  "short": "Scappare non aiuta. Devi provare a togliere il veicolo dai binari e avvisare i treni in tempo.",
+  "rule": "Se un veicolo è bloccato sui binari, prima di tutto va tolto dai binari e i treni vanno avvisati in tempo. Niente viene prima.",
+  "trap": "«allontanarsi di almeno cento metri» è una regola inventata.",
+  "caption": "Non scappare: spostalo e avvisa i treni",
+  "lines": [
+   "Bloccato sui binari",
+   "Togli subito il veicolo",
+   "Avvisa i treni in tempo"
+  ]
+ },
+ "q22512": {
+  "short": "Di solito dopo un incidente con feriti non si spostano i veicoli. Sui binari è diverso: vanno spostati, o il treno li colpisce.",
+  "rule": "Se un veicolo è bloccato sui binari, prima di tutto va tolto dai binari e i treni vanno avvisati in tempo. Niente viene prima.",
+  "trap": "«non si devono spostare»: al passaggio a livello i binari vanno liberati comunque.",
+  "caption": "Sui binari: liberali anche se ci sono feriti",
+  "lines": [
+   "Bloccato sui binari",
+   "Togli subito il veicolo",
+   "Avvisa i treni in tempo"
+  ]
+ },
+ "q22513": {
+  "short": "Un pallone in strada spesso vuol dire che un bambino gli corre dietro. Rallenta subito.",
+  "rule": "Un pallone in strada vuol dire che un bambino può corrergli dietro. Rallenta piano e preparati a fermarti; non sterzare di colpo e non invadere l'altra corsia.",
+  "trap": "«subito» è giusto: cominci a rallentare subito, ma con dolcezza.",
+  "caption": "Pallone in strada: rallenta subito",
+  "lines": [
+   "Pallone in strada",
+   "Può seguire un bambino",
+   "Rallenta piano"
+  ]
+ },
+ "q22514": {
+  "short": "Un bambino può correre fuori dietro il pallone. Vai abbastanza piano da fermarti in tempo.",
+  "rule": "Un pallone in strada vuol dire che un bambino può corrergli dietro. Rallenta piano e preparati a fermarti; non sterzare di colpo e non invadere l'altra corsia.",
+  "trap": "«per potersi fermare»: lo scopo è essere pronti a fermarsi.",
+  "caption": "Pallone in strada: pronto a fermarti",
+  "lines": [
+   "Pallone in strada",
+   "Può seguire un bambino",
+   "Rallenta piano"
+  ]
+ },
+ "q22515": {
+  "short": "I bambini giocano a pallone e spesso gli corrono dietro senza guardare. Aspettati un bambino.",
+  "rule": "Un pallone in strada vuol dire che un bambino può corrergli dietro. Rallenta piano e preparati a fermarti; non sterzare di colpo e non invadere l'altra corsia.",
+  "trap": "«prevedere» vuol dire pensare prima a cosa può succedere.",
+  "caption": "Pallone in strada: aspettati un bambino",
+  "lines": [
+   "Pallone in strada",
+   "Può seguire un bambino",
+   "Rallenta piano"
+  ]
+ },
+ "q22516": {
+  "short": "Devi rallentare, ma con dolcezza. Una frenata improvvisa può far tamponare chi ti segue.",
+  "rule": "Un pallone in strada vuol dire che un bambino può corrergli dietro. Rallenta piano e preparati a fermarti; non sterzare di colpo e non invadere l'altra corsia.",
+  "trap": "«progressivamente» è la chiave: rallenta, ma senza frenare di colpo.",
+  "caption": "Rallenta piano: chi è dietro ha bisogno di tempo",
+  "lines": [
+   "Pallone in strada",
+   "Rallenta piano",
+   "Chi è dietro ha bisogno di tempo"
+  ]
+ },
+ "q22517": {
+  "short": "Una sterzata brusca può farti perdere il controllo o colpire qualcuno. Devi invece rallentare ed essere pronto a fermarti.",
+  "rule": "Un pallone in strada vuol dire che un bambino può corrergli dietro. Rallenta piano e preparati a fermarti; non sterzare di colpo e non invadere l'altra corsia.",
+  "trap": "«sterzare bruscamente» è una reazione pericolosa, non la regola.",
+  "caption": "Niente sterzate: rallenta",
+  "lines": [
+   "Pallone in strada",
+   "Niente sterzate brusche",
+   "Rallenta, pronto a fermarti"
+  ]
+ },
+ "q22518": {
+  "short": "Invadere la corsia opposta può causare uno scontro frontale. Rallenta e fermati se serve, nella tua corsia.",
+  "rule": "Un pallone in strada vuol dire che un bambino può corrergli dietro. Rallenta piano e preparati a fermarti; non sterzare di colpo e non invadere l'altra corsia.",
+  "trap": "«anche invadendo la corsia opposta» crea un nuovo pericolo.",
+  "caption": "Resta nella tua corsia: rallenta",
+  "lines": [
+   "Pallone in strada",
+   "Non invadere l'altra corsia",
+   "Rallenta, pronto a fermarti"
+  ]
+ },
+ "q22519": {
+  "short": "Devi rallentare perché un bambino può seguire il pallone. Fallo piano, così anche chi è dietro può rallentare.",
+  "rule": "Un pallone in strada vuol dire che un bambino può corrergli dietro. Rallenta piano e preparati a fermarti; non sterzare di colpo e non invadere l'altra corsia.",
+  "trap": "«non occorre rallentare» è sbagliato: rallenta, ma con dolcezza.",
+  "caption": "Devi rallentare, ma piano",
+  "lines": [
+   "Pallone in strada",
+   "Può seguire un bambino",
+   "Rallenta piano"
+  ]
+ },
+ "q22520": {
+  "short": "Le quattro frecce non sono obbligatorie qui. Devi rallentare ed essere pronto a fermarti.",
+  "rule": "Un pallone in strada vuol dire che un bambino può corrergli dietro. Rallenta piano e preparati a fermarti; non sterzare di colpo e non invadere l'altra corsia.",
+  "trap": "«segnalazione luminosa di pericolo» non è la reazione giusta.",
+  "caption": "Niente quattro frecce: rallenta",
+  "lines": [
+   "Pallone in strada",
+   "Può seguire un bambino",
+   "Rallenta piano"
+  ]
+ },
+ "q22521": {
+  "short": "Chi è dentro può aprire la portiera senza guardare. Se passi troppo vicino, puoi colpirla.",
+  "rule": "Tieni spazio dalle auto parcheggiate: una portiera può aprirsi all'improvviso e le auto possono nascondere chi attraversa. Il pericolo c'è a ogni velocità.",
+  "trap": "«apertura imprudente delle portiere» è il vero pericolo.",
+  "caption": "Persone a bordo: una portiera può aprirsi",
+  "lines": [
+   "Auto parcheggiata con persone",
+   "Una portiera può aprirsi",
+   "Tieni spazio"
+  ]
+ },
+ "q22522": {
+  "short": "Le auto parcheggiate coprono la vista. Una persona in carrozzella o con un passeggino può uscire da lì.",
+  "rule": "Tieni spazio dalle auto parcheggiate: una portiera può aprirsi all'improvviso e le auto possono nascondere chi attraversa. Il pericolo c'è a ogni velocità.",
+  "trap": "«impedire la vista»: puoi non vedere chi sta per attraversare.",
+  "caption": "Le auto parcheggiate nascondono i pedoni",
+  "lines": [
+   "Le auto coprono la vista",
+   "Può uscire carrozzella o passeggino",
+   "Tieni spazio"
+  ]
+ },
+ "q22523": {
+  "short": "Anche a bassa velocità una portiera che si apre di colpo può essere colpita. Tieni una buona distanza.",
+  "rule": "Tieni spazio dalle auto parcheggiate: una portiera può aprirsi all'improvviso e le auto possono nascondere chi attraversa. Il pericolo c'è a ogni velocità.",
+  "trap": "«a bassa velocità» non elimina il pericolo della portiera.",
+  "caption": "Andare piano non basta: tieni spazio",
+  "lines": [
+   "Auto parcheggiata con persone",
+   "Una portiera può aprirsi",
+   "Tieni spazio"
+  ]
+ },
+ "q22524": {
+  "short": "Il pericolo è una portiera che si apre all'improvviso. Una portiera chiusa può aprirsi in ogni momento.",
+  "rule": "Tieni spazio dalle auto parcheggiate: una portiera può aprirsi all'improvviso e le auto possono nascondere chi attraversa. Il pericolo c'è a ogni velocità.",
+  "trap": "«solo se ... già aperta» è troppo limitato.",
+  "caption": "Una portiera chiusa può aprirsi in ogni momento",
+  "lines": [
+   "Auto parcheggiata con persone",
+   "Una portiera può aprirsi",
+   "Tieni spazio"
+  ]
+ },
+ "q22525": {
+  "short": "Se le persone sono ancora dentro, possono aprire una portiera in ogni momento. Il pericolo è proprio questo.",
+  "rule": "Tieni spazio dalle auto parcheggiate: una portiera può aprirsi all'improvviso e le auto possono nascondere chi attraversa. Il pericolo c'è a ogni velocità.",
+  "trap": "«solo se ... già scesi» sbaglia: chi è dentro apre le portiere.",
+  "caption": "Chi è dentro può aprire la portiera",
+  "lines": [
+   "Auto parcheggiata con persone",
+   "Una portiera può aprirsi",
+   "Tieni spazio"
+  ]
+ },
+ "q22526": {
+  "short": "Una portiera che si apre di colpo è un pericolo a ogni velocità. Tieni una buona distanza dalle auto parcheggiate.",
+  "rule": "Tieni spazio dalle auto parcheggiate: una portiera può aprirsi all'improvviso e le auto possono nascondere chi attraversa. Il pericolo c'è a ogni velocità.",
+  "trap": "«solo se si viaggia ad alta velocità»: «solo» rende la frase sbagliata.",
+  "caption": "Pericoloso a ogni velocità: tieni spazio",
+  "lines": [
+   "Auto parcheggiata con persone",
+   "Una portiera può aprirsi",
+   "Tieni spazio"
+  ]
+ }
+}

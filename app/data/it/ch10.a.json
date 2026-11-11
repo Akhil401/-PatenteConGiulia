@@ -1,0 +1,380 @@
+{
+ "q22007": {
+  "short": "Un numero da solo, senza frecce, sotto un segnale di pericolo dice a che distanza inizia il pericolo.",
+  "rule": "Pannello bianco con solo un numero in m o km (senza frecce): indica la DISTANZA da dove inizia il pericolo, l'obbligo o il luogo del segnale.",
+  "trap": "«distanza» è giusto; con le frecce sarebbe una lunghezza.",
+  "caption": "Il pericolo inizia 320 m dopo il segnale"
+ },
+ "q22008": {
+  "short": "È proprio il compito di ogni pannello integrativo: aggiunge un dettaglio (qui una distanza) al segnale sopra.",
+  "rule": "I pannelli integrativi sono piccole targhe bianche sotto un segnale. Ne completano o limitano il significato: distanza, lunghezza, orari, giorni, veicoli. Questo dà una distanza.",
+  "trap": "«completarne il significato»: il pannello aggiunge informazioni, non crea una regola da solo.",
+  "caption": "Il pannello completa il segnale sopra"
+ },
+ "q22009": {
+  "short": "Sotto un segnale di indicazione (per esempio un distributore o un parcheggio) il numero dice quanto manca a quel luogo.",
+  "rule": "Pannello bianco con solo un numero in m o km (senza frecce): indica la DISTANZA da dove inizia il pericolo, l'obbligo o il luogo del segnale.",
+  "trap": "«distanza che manca»: conta in avanti, non la strada già fatta.",
+  "caption": "Il luogo del segnale è a 320 m"
+ },
+ "q22010": {
+  "short": "Sotto un divieto o un obbligo, il numero dice a che distanza la regola comincia a valere.",
+  "rule": "Pannello bianco con solo un numero in m o km (senza frecce): indica la DISTANZA da dove inizia il pericolo, l'obbligo o il luogo del segnale.",
+  "trap": "«distanza dalla quale inizia»: è una distanza, non la lunghezza del tratto.",
+  "caption": "La regola inizia tra 320 m"
+ },
+ "q22011": {
+  "short": "Il numero guarda avanti: è la distanza da qualcosa davanti, non la strada già fatta.",
+  "rule": "Pannello bianco con solo un numero in m o km (senza frecce): indica la DISTANZA da dove inizia il pericolo, l'obbligo o il luogo del segnale.",
+  "trap": "«già fatta» è il trucco: il pannello non conta la strada dietro di te.",
+  "caption": "Distanza davanti, non strada già fatta"
+ },
+ "q22012": {
+  "short": "La pendenza si scrive in percento (%) sul segnale di discesa o salita. Questo pannello mostra metri o chilometri: una distanza.",
+  "rule": "Pannello bianco con solo un numero in m o km (senza frecce): indica la DISTANZA da dove inizia il pericolo, l'obbligo o il luogo del segnale.",
+  "trap": "«pendenza» è l'idea sbagliata: m e km sono distanze, la pendenza è in %.",
+  "caption": "Distanza in m/km, non pendenza in %"
+ },
+ "q22013": {
+  "short": "Il pannello dice dove inizia il pericolo o la regola del segnale. Non parla dello spazio dal veicolo davanti.",
+  "rule": "Pannello bianco con solo un numero in m o km (senza frecce): indica la DISTANZA da dove inizia il pericolo, l'obbligo o il luogo del segnale.",
+  "trap": "«distanza di sicurezza» sembra giusto per la parola «distanza», ma è un'altra cosa.",
+  "caption": "Distanza dal pericolo, non di sicurezza"
+ },
+ "q22014": {
+  "short": "Il numero è una distanza lungo la strada fino al pericolo o alla regola. La larghezza non c'è mai.",
+  "rule": "Pannello bianco con solo un numero in m o km (senza frecce): indica la DISTANZA da dove inizia il pericolo, l'obbligo o il luogo del segnale.",
+  "trap": "«larghezza» è inventata: il pannello misura quanto manca, non quanto è larga.",
+  "caption": "Distanza davanti, non larghezza"
+ },
+ "q22015": {
+  "short": "Senza frecce il numero è una distanza (dove inizia il pericolo). La lunghezza si indica con il pannello con le frecce.",
+  "rule": "Pannello bianco con solo un numero in m o km (senza frecce): indica la DISTANZA da dove inizia il pericolo, l'obbligo o il luogo del segnale.",
+  "trap": "«lunghezza» è il trucco: senza frecce = distanza, con frecce = lunghezza.",
+  "caption": "Senza frecce: distanza, non lunghezza"
+ },
+ "q22016": {
+  "short": "Le due frecce in su vogliono dire «per tanti metri»: il pericolo dura per il tratto scritto.",
+  "rule": "Pannello con un numero tra due frecce in su: indica la LUNGHEZZA del tratto dove vale il pericolo o la regola del segnale.",
+  "trap": "«lunghezza» è giusto per via delle frecce; senza frecce sarebbe una distanza.",
+  "caption": "Pericolo per i prossimi 380 m"
+ },
+ "q22017": {
+  "short": "Sotto un segnale di obbligo, il pannello con le frecce dice per quanti metri vale l'obbligo.",
+  "rule": "Pannello con un numero tra due frecce in su: indica la LUNGHEZZA del tratto dove vale il pericolo o la regola del segnale.",
+  "trap": "«lunghezza del tratto» va bene con le frecce: non è dove inizia la regola.",
+  "caption": "L'obbligo vale per 380 m"
+ },
+ "q22018": {
+  "short": "Sì: sotto un divieto (per esempio di sorpasso) dice per quanto dura il divieto.",
+  "rule": "Pannello con un numero tra due frecce in su: indica la LUNGHEZZA del tratto dove vale il pericolo o la regola del segnale.",
+  "trap": "«può»: il pannello va sotto segnali di pericolo, di obbligo E di divieto.",
+  "caption": "Sotto un divieto: vale per 380 m"
+ },
+ "q22019": {
+  "short": "Il pannello B ha le frecce e «2,8 km»: il pericolo dura per 2,8 chilometri.",
+  "rule": "Pannello con un numero tra due frecce in su: indica la LUNGHEZZA del tratto dove vale il pericolo o la regola del segnale.",
+  "trap": "«in chilometri»: B dice km, A dice m; con le frecce sono lunghezze.",
+  "caption": "Pericolo per i prossimi 2,8 km"
+ },
+ "q22020": {
+  "short": "Il triangolo avvisa di curve pericolose in successione; il pannello con le frecce dice che durano 380 m.",
+  "rule": "Pannello con un numero tra due frecce in su: indica la LUNGHEZZA del tratto dove vale il pericolo o la regola del segnale.",
+  "trap": "«lunghezza» è giusto per le frecce; «in successione» va con le curve doppie.",
+  "caption": "Curve pericolose per 380 m"
+ },
+ "q22021": {
+  "short": "Le frecce non vogliono dire «vai dritto»: mostrano solo che il segnale sopra vale per i prossimi 380 m.",
+  "rule": "Pannello con un numero tra due frecce in su: indica la LUNGHEZZA del tratto dove vale il pericolo o la regola del segnale.",
+  "trap": "«obbliga»: un pannello non crea mai un obbligo da solo; le frecce sono lunghezza, non direzione.",
+  "caption": "Frecce = lunghezza, non «vai dritto»"
+ },
+ "q22022": {
+  "short": "Il pannello dice quanto è lungo il tratto del segnale sopra. Non c'entra la pioggia né la distanza di sicurezza.",
+  "rule": "Pannello con un numero tra due frecce in su: indica la LUNGHEZZA del tratto dove vale il pericolo o la regola del segnale.",
+  "trap": "«distanza di sicurezza in caso di pioggia» è inventato: è una lunghezza.",
+  "caption": "Lunghezza del tratto, non distanza pioggia"
+ },
+ "q22023": {
+  "short": "Con le frecce ai lati il numero è la LUNGHEZZA del tratto pericoloso. Il pannello di distanza non ha frecce.",
+  "rule": "Pannello con un numero tra due frecce in su: indica la LUNGHEZZA del tratto dove vale il pericolo o la regola del segnale.",
+  "trap": "«distanza» è il trucco: con frecce = lunghezza, senza frecce = distanza.",
+  "caption": "Frecce: lunghezza, non distanza"
+ },
+ "q22024": {
+  "short": "Il triangolo avvisa di strada deformata; il pannello con frecce dice che dura 380 m. Inizia subito al segnale.",
+  "rule": "Pannello con un numero tra due frecce in su: indica la LUNGHEZZA del tratto dove vale il pericolo o la regola del segnale.",
+  "trap": "«distanza» è sbagliato: con le frecce 380 m è la lunghezza del tratto.",
+  "caption": "Strada deformata PER 380 m, da qui"
+ },
+ "q22025": {
+  "short": "Il pannello dà la lunghezza di un tratto di strada, non l'altezza di qualcosa.",
+  "rule": "Pannello con un numero tra due frecce in su: indica la LUNGHEZZA del tratto dove vale il pericolo o la regola del segnale.",
+  "trap": "«altezza» è inventata: il limite di altezza ha un suo segnale rotondo.",
+  "caption": "Lunghezza di un tratto, non altezza"
+ },
+ "q22026": {
+  "short": "Divieto di sosta più pannello orario: non si parcheggia solo tra le 7.30 e le 19.00.",
+  "rule": "Pannello con solo un orario (es. 7.30-19.00): il segnale sopra vale solo in quelle ore, tutti i giorni. Fuori orario non vale.",
+  "trap": "«dalle ore 7.30 alle ore 19.00» è l'orario del pannello; fuori orario si può sostare.",
+  "caption": "Divieto di sosta 7.30-19.00"
+ },
+ "q22027": {
+  "short": "Il cerchio rosso vuoto è «divieto di transito»; il pannello lo limita alle 7.30-19.00.",
+  "rule": "Pannello con solo un orario (es. 7.30-19.00): il segnale sopra vale solo in quelle ore, tutti i giorni. Fuori orario non vale.",
+  "trap": "«vieta il transito» è giusto: il pannello non cambia il divieto, ne fissa le ore.",
+  "caption": "Divieto di transito 7.30-19.00"
+ },
+ "q22028": {
+  "short": "Il segnale B vieta il passaggio ai pedoni; il pannello A lo limita alle 7.30-19.00. Fuori orario i pedoni passano.",
+  "rule": "Pannello con solo un orario (es. 7.30-19.00): il segnale sopra vale solo in quelle ore, tutti i giorni. Fuori orario non vale.",
+  "trap": "«nelle sole ore indicate»: è il compito del pannello, limitare il segnale sopra.",
+  "caption": "Pedoni vietati solo 7.30-19.00"
+ },
+ "q22029": {
+  "short": "Il pannello B ha solo un orario, senza simboli di giorni: il segnale vale tutti i giorni in quelle ore.",
+  "rule": "Un pannello con solo un orario limita il segnale sopra a quelle ore, tutti i giorni. Il pannello A «0-24» vuol dire giorno e notte.",
+  "trap": "«tutti i giorni» è giusto: niente croce e niente martelli = nessun limite di giorni.",
+  "caption": "Tutti i giorni, 7.30-19.00"
+ },
+ "q22030": {
+  "short": "Il segnale VIETA le moto; il pannello dice che il divieto vale 7.30-19.00. Le moto passano solo FUORI da quelle ore.",
+  "rule": "Pannello con solo un orario (es. 7.30-19.00): il segnale sopra vale solo in quelle ore, tutti i giorni. Fuori orario non vale.",
+  "trap": "«consente» capovolge il senso: in quelle ore le moto sono vietate.",
+  "caption": "Moto VIETATE 7.30-19.00"
+ },
+ "q22031": {
+  "short": "Il clacson barrato vuol dire «vietato suonare»; il pannello dice che il divieto vale dalle 7.30 alle 19.00.",
+  "rule": "Un pannello orario limita il segnale sopra a quelle ore. Qui il divieto di usare il clacson vale dalle 7.30 alle 19.00.",
+  "trap": "«può essere usato» è il contrario: in quelle ore il clacson è vietato.",
+  "caption": "Clacson VIETATO 7.30-19.00"
+ },
+ "q22032": {
+  "short": "Il segnale blu con il pedone è un percorso pedonale; il pannello (croce = festivi) dice: solo pedoni nei festivi, 8.00-20.00.",
+  "rule": "Il pannello limita solo il segnale sopra. Qui il percorso pedonale vale nei festivi (croce) dalle 8.00 alle 20.00.",
+  "trap": "«zona a traffico limitato» ha un suo segnale; qui c'è un percorso pedonale con orario.",
+  "caption": "Percorso pedonale festivo, non ZTL"
+ },
+ "q22033": {
+  "short": "Il pannello B dà solo le ore in cui vale il segnale sopra. Non c'entrano i fari.",
+  "rule": "Pannello con solo un orario (es. 7.30-19.00): il segnale sopra vale solo in quelle ore, tutti i giorni. Fuori orario non vale.",
+  "trap": "«fari spenti» è inventato: un pannello non crea mai una regola da solo.",
+  "caption": "Orario del segnale, non «fari spenti»"
+ },
+ "q22034": {
+  "short": "Il pannello B dà solo le ore in cui vale il segnale sopra. Le targhe alterne sono un'altra cosa.",
+  "rule": "Pannello con solo un orario (es. 7.30-19.00): il segnale sopra vale solo in quelle ore, tutti i giorni. Fuori orario non vale.",
+  "trap": "«targhe alterne» è inventato: il pannello fissa solo l'orario del segnale.",
+  "caption": "Orario del segnale, non targhe alterne"
+ },
+ "q22035": {
+  "short": "La piccola croce vuol dire festivi: il segnale sopra vale solo nei festivi, dalle 8.00 alle 20.00.",
+  "rule": "Pannello con una piccola croce e un orario: GIORNI FESTIVI. Il segnale sopra vale solo nei festivi, in quelle ore.",
+  "trap": "«limita la validità» è proprio il compito del pannello.",
+  "caption": "Solo festivi, 8.00-20.00"
+ },
+ "q22036": {
+  "short": "Sotto un divieto o un obbligo, il pannello con la croce lo limita ai festivi e all'orario scritto.",
+  "rule": "Pannello con una piccola croce e un orario: GIORNI FESTIVI. Il segnale sopra vale solo nei festivi, in quelle ore.",
+  "trap": "«solo nei giorni festivi» è giusto: nei giorni lavorativi il segnale non vale.",
+  "caption": "Il segnale vale nei festivi, 8-20"
+ },
+ "q22037": {
+  "short": "Il segnale blu con il pedone è un percorso pedonale: solo pedoni. Il pannello con la croce lo limita ai festivi, 8.00-20.00.",
+  "rule": "Pannello con una piccola croce e un orario: GIORNI FESTIVI. Il segnale sopra vale solo nei festivi, in quelle ore.",
+  "trap": "«ai soli pedoni» è giusto per il percorso pedonale; il pannello dice solo quando.",
+  "caption": "Solo pedoni, festivi 8.00-20.00"
+ },
+ "q22038": {
+  "short": "Divieto di sosta più pannello con la croce: non si parcheggia nei festivi dalle 8.00 alle 20.00.",
+  "rule": "Pannello con una piccola croce e un orario: GIORNI FESTIVI. Il segnale sopra vale solo nei festivi, in quelle ore.",
+  "trap": "«dei giorni festivi» va con la croce; nei giorni lavorativi questo segnale non vieta.",
+  "caption": "Divieto di sosta festivi 8.00-20.00"
+ },
+ "q22039": {
+  "short": "Il segnale blu con la bici è una pista ciclabile: solo biciclette. Il pannello con la croce la limita ai festivi, 8.00-20.00.",
+  "rule": "Pannello con una piccola croce e un orario: GIORNI FESTIVI. Il segnale sopra vale solo nei festivi, in quelle ore.",
+  "trap": "«ai soli ciclisti» è giusto; il pannello dice che vale nei festivi in quelle ore.",
+  "caption": "Solo bici, festivi 8.00-20.00"
+ },
+ "q22040": {
+  "short": "Divieto di transito più pannello con la croce: niente veicoli nei festivi dalle 8.00 alle 20.00.",
+  "rule": "Pannello con una piccola croce e un orario: GIORNI FESTIVI. Il segnale sopra vale solo nei festivi, in quelle ore.",
+  "trap": "«dei giorni festivi» va con la piccola croce del pannello.",
+  "caption": "Divieto di transito festivi 8.00-20.00"
+ },
+ "q22041": {
+  "short": "La croce è il simbolo dei giorni festivi, non di un cimitero. Il pannello limita il segnale sopra ai festivi, 8.00-20.00.",
+  "rule": "Pannello con una piccola croce e un orario: GIORNI FESTIVI. Il segnale sopra vale solo nei festivi, in quelle ore.",
+  "trap": "«cimitero» gioca sulla croce: vuol dire giorni festivi.",
+  "caption": "Croce = festivi, non cimitero"
+ },
+ "q22042": {
+  "short": "La croce è il simbolo dei giorni festivi, non di una chiesa. Il pannello limita il segnale sopra ai festivi, 8.00-20.00.",
+  "rule": "Pannello con una piccola croce e un orario: GIORNI FESTIVI. Il segnale sopra vale solo nei festivi, in quelle ore.",
+  "trap": "«chiese» gioca sulla croce: vuol dire giorni festivi.",
+  "caption": "Croce = festivi, non chiese"
+ },
+ "q22043": {
+  "short": "La croce è il simbolo dei giorni festivi. Il pannello dice solo quando vale il segnale sopra: festivi, 8.00-20.00.",
+  "rule": "Pannello con una piccola croce e un orario: GIORNI FESTIVI. Il segnale sopra vale solo nei festivi, in quelle ore.",
+  "trap": "«funzioni religiose» gioca sulla croce: vuol dire giorni festivi.",
+  "caption": "Croce = festivi, non funzioni religiose"
+ },
+ "q22044": {
+  "short": "Il parcheggio vale solo nei festivi (croce), dalle 8.00 alle 20.00, non tutti i giorni.",
+  "rule": "Pannello con una piccola croce e un orario: GIORNI FESTIVI. Il segnale sopra vale solo nei festivi, in quelle ore.",
+  "trap": "«tutti i giorni» è sbagliato: la croce limita ai festivi.",
+  "caption": "Parcheggio solo festivi, 8.00-20.00"
+ },
+ "q22045": {
+  "short": "La croce vuol dire festivi. I giorni lavorativi hanno un altro simbolo: due martelli incrociati.",
+  "rule": "Pannello con una piccola croce e un orario: GIORNI FESTIVI. Il segnale sopra vale solo nei festivi, in quelle ore.",
+  "trap": "«giorni lavorativi» è il contrario: croce = festivi, martelli = lavorativi.",
+  "caption": "Croce = festivi, non lavorativi"
+ },
+ "q22046": {
+  "short": "Il segnale VIETA le moto; il pannello con la croce dice che il divieto vale nei festivi (anche la domenica) dalle 8.00 alle 20.00.",
+  "rule": "Pannello con una piccola croce e un orario: GIORNI FESTIVI. Il segnale sopra vale solo nei festivi, in quelle ore.",
+  "trap": "«consente» capovolge il senso: in quell'orario le moto sono vietate.",
+  "caption": "Moto VIETATE festivi 8-20"
+ },
+ "q22047": {
+  "short": "I martelli incrociati vogliono dire giorni lavorativi: il segnale sopra vale solo nei lavorativi, 8.00-20.00.",
+  "rule": "Pannello con due martelli incrociati e un orario: GIORNI LAVORATIVI. Il segnale sopra vale solo in quei giorni, in quelle ore.",
+  "trap": "«giorni lavorativi» va con i martelli; la croce vorrebbe dire festivi.",
+  "caption": "Solo lavorativi, 8.00-20.00"
+ },
+ "q22048": {
+  "short": "Divieto di transito più pannello con i martelli: niente veicoli nei giorni lavorativi dalle 8.00 alle 20.00.",
+  "rule": "Pannello con due martelli incrociati e un orario: GIORNI LAVORATIVI. Il segnale sopra vale solo in quei giorni, in quelle ore.",
+  "trap": "«dei giorni lavorativi» va con i martelli.",
+  "caption": "Divieto di transito lavorativi 8-20"
+ },
+ "q22049": {
+  "short": "I martelli vogliono dire giorni lavorativi; l'orario dice quando, in quei giorni, vale il segnale sopra.",
+  "rule": "Pannello con due martelli incrociati e un orario: GIORNI LAVORATIVI. Il segnale sopra vale solo in quei giorni, in quelle ore.",
+  "trap": "«giorni lavorativi» è giusto per il simbolo dei martelli.",
+  "caption": "Giorni lavorativi, 8.00-20.00"
+ },
+ "q22050": {
+  "short": "Divieto di sosta più pannello con i martelli: non si parcheggia nei lavorativi dalle 8.00 alle 20.00.",
+  "rule": "Pannello con due martelli incrociati e un orario: GIORNI LAVORATIVI. Il segnale sopra vale solo in quei giorni, in quelle ore.",
+  "trap": "«dei giorni lavorativi» va con i martelli; nei festivi questo segnale non vale.",
+  "caption": "Divieto di sosta lavorativi 8-20"
+ },
+ "q22051": {
+  "short": "Sotto un segnale di obbligo, il pannello con i martelli limita l'obbligo ai lavorativi, 8.00-20.00.",
+  "rule": "Pannello con due martelli incrociati e un orario: GIORNI LAVORATIVI. Il segnale sopra vale solo in quei giorni, in quelle ore.",
+  "trap": "«dei giorni lavorativi» va con i martelli; il pannello vale anche sotto gli obblighi.",
+  "caption": "Obbligo nei lavorativi, 8-20"
+ },
+ "q22052": {
+  "short": "Il cerchio rosso con il camion vieta gli autocarri oltre 3,5 t; il pannello con i martelli limita il divieto ai lavorativi, 8.00-20.00.",
+  "rule": "Pannello con due martelli incrociati e un orario: GIORNI LAVORATIVI. Il segnale sopra vale solo in quei giorni, in quelle ore.",
+  "trap": "«dei giorni lavorativi» va con i martelli; nei festivi questi autocarri passano.",
+  "caption": "Autocarri oltre 3,5 t vietati, lavorativi"
+ },
+ "q22053": {
+  "short": "I martelli incrociati limitano il segnale ai soli giorni lavorativi, non a tutti i giorni.",
+  "rule": "Pannello con due martelli incrociati e un orario: GIORNI LAVORATIVI. Il segnale sopra vale solo in quei giorni, in quelle ore.",
+  "trap": "«tutti i giorni» è sbagliato: i martelli vogliono dire solo lavorativi.",
+  "caption": "Solo lavorativi, non tutti i giorni"
+ },
+ "q22054": {
+  "short": "I martelli sono il simbolo dei giorni lavorativi, non attrezzi di un museo. Il pannello limita il segnale sopra.",
+  "rule": "Pannello con due martelli incrociati e un orario: GIORNI LAVORATIVI. Il segnale sopra vale solo in quei giorni, in quelle ore.",
+  "trap": "«museo di attrezzi da lavoro» gioca sui martelli: vogliono dire giorni lavorativi.",
+  "caption": "Martelli = lavorativi, non museo"
+ },
+ "q22055": {
+  "short": "I martelli sono il simbolo dei giorni lavorativi, non di un'officina. Il pannello limita il segnale sopra ai lavorativi.",
+  "rule": "Pannello con due martelli incrociati e un orario: GIORNI LAVORATIVI. Il segnale sopra vale solo in quei giorni, in quelle ore.",
+  "trap": "«officine di soccorso stradale» gioca sui martelli: vogliono dire giorni lavorativi.",
+  "caption": "Martelli = lavorativi, non officine"
+ },
+ "q22056": {
+  "short": "È un parcheggio normale per tutti; il pannello con i martelli lo limita ai lavorativi, 8.00-20.00.",
+  "rule": "Pannello con due martelli incrociati e un orario: GIORNI LAVORATIVI. Il segnale sopra vale solo in quei giorni, in quelle ore.",
+  "trap": "«soccorso stradale» gioca sui martelli: vogliono dire giorni lavorativi.",
+  "caption": "Parcheggio lavorativi 8-20, per tutti"
+ },
+ "q22057": {
+  "short": "I martelli incrociati vogliono dire giorni lavorativi. I festivi hanno invece una piccola croce.",
+  "rule": "Pannello con due martelli incrociati e un orario: GIORNI LAVORATIVI. Il segnale sopra vale solo in quei giorni, in quelle ore.",
+  "trap": "«giorni festivi» è il contrario: martelli = lavorativi, croce = festivi.",
+  "caption": "Martelli = lavorativi, non festivi"
+ },
+ "q22058": {
+  "short": "Sotto il segnale di parcheggio, il pannello con i martelli dice: parcheggio nei lavorativi 8.00-20.00, non nei festivi.",
+  "rule": "Pannello con due martelli incrociati e un orario: GIORNI LAVORATIVI. Il segnale sopra vale solo in quei giorni, in quelle ore.",
+  "trap": "«giorni festivi» è sbagliato: i martelli vogliono dire lavorativi.",
+  "caption": "Parcheggio nei lavorativi, non festivi"
+ },
+ "q22059": {
+  "short": "Il divieto di transito è limitato dal pannello agli autoarticolati: solo loro sono vietati.",
+  "rule": "Pannello con il disegno di un veicolo: il segnale sopra vale solo per quei veicoli. Qui sono gli autoarticolati (trattore + semirimorchio).",
+  "trap": "«ai soli veicoli indicati» è giusto: il pannello restringe il divieto.",
+  "caption": "Vietato solo agli autoarticolati"
+ },
+ "q22060": {
+  "short": "Il segnale è «divieto di fermata» (X rossa), limitato agli autoarticolati. Se non puoi fermarti, non puoi neanche sostare.",
+  "rule": "Il pannello con il veicolo limita il segnale sopra a quei veicoli. Qui il divieto di fermata vale solo per gli autoarticolati; comprende la sosta.",
+  "trap": "«vieta la sosta» è giusto anche se il segnale vieta la fermata: chi non può fermarsi non può sostare.",
+  "caption": "Divieto di fermata (e di sosta) per questi"
+ },
+ "q22061": {
+  "short": "Divieto di sosta più pannello con un autoarticolato: il divieto vale solo per quei veicoli.",
+  "rule": "Pannello con il disegno di un veicolo: il segnale sopra vale solo per quei veicoli. Qui sono gli autoarticolati (trattore + semirimorchio).",
+  "trap": "«agli autoarticolati» è giusto: è il veicolo disegnato sul pannello.",
+  "caption": "Divieto di sosta per autoarticolati"
+ },
+ "q22062": {
+  "short": "Il pannello con il veicolo restringe il segnale sopra: la regola vale solo per il veicolo disegnato.",
+  "rule": "Pannello con il disegno di un veicolo: il segnale sopra vale solo per quei veicoli. Qui sono gli autoarticolati (trattore + semirimorchio).",
+  "trap": "«solo per i veicoli rappresentati» è proprio il compito di questo pannello.",
+  "caption": "Il segnale vale solo per questi veicoli"
+ },
+ "q22063": {
+  "short": "Sì: il pannello con il veicolo può stare sotto un obbligo, che allora vale solo per quei veicoli.",
+  "rule": "Pannello con il disegno di un veicolo: il segnale sopra vale solo per quei veicoli. Qui sono gli autoarticolati (trattore + semirimorchio).",
+  "trap": "«può»: questo pannello va sotto obblighi e divieti.",
+  "caption": "Sotto un obbligo: solo per questi veicoli"
+ },
+ "q22064": {
+  "short": "Sì: sotto un divieto (per esempio di sosta o di transito) limita il divieto a quei veicoli.",
+  "rule": "Pannello con il disegno di un veicolo: il segnale sopra vale solo per quei veicoli. Qui sono gli autoarticolati (trattore + semirimorchio).",
+  "trap": "«può»: questo pannello va sotto divieti e obblighi.",
+  "caption": "Sotto un divieto: solo per questi veicoli"
+ },
+ "q22065": {
+  "short": "Il pannello non è un segnale di servizio: dice solo a quali veicoli vale il segnale sopra.",
+  "rule": "Pannello con il disegno di un veicolo: il segnale sopra vale solo per quei veicoli. Qui sono gli autoarticolati (trattore + semirimorchio).",
+  "trap": "«officina meccanica» è inventata: il pannello indica solo i veicoli.",
+  "caption": "Indica i veicoli, non un'officina"
+ },
+ "q22066": {
+  "short": "Il pannello non è un segnale di servizio: dice solo a quali veicoli vale il segnale sopra.",
+  "rule": "Pannello con il disegno di un veicolo: il segnale sopra vale solo per quei veicoli. Qui sono gli autoarticolati (trattore + semirimorchio).",
+  "trap": "«stazione di rifornimento» è inventata: il pannello indica solo i veicoli.",
+  "caption": "Indica i veicoli, non un distributore"
+ },
+ "q22067": {
+  "short": "È un divieto di sosta: il pannello dice che il DIVIETO è per gli autoarticolati. Non possono sostare.",
+  "rule": "Pannello con il disegno di un veicolo: il segnale sopra vale solo per quei veicoli. Qui sono gli autoarticolati (trattore + semirimorchio).",
+  "trap": "«consente» capovolge il senso: il pannello limita un divieto, non dà un permesso.",
+  "caption": "Autoarticolati: sosta VIETATA"
+ },
+ "q22068": {
+  "short": "È un divieto di transito limitato agli autoarticolati: sono proprio loro che NON possono passare.",
+  "rule": "Pannello con il disegno di un veicolo: il segnale sopra vale solo per quei veicoli. Qui sono gli autoarticolati (trattore + semirimorchio).",
+  "trap": "«possono transitare» è il contrario: i veicoli del pannello sono vietati.",
+  "caption": "Autoarticolati: transito VIETATO"
+ },
+ "q22069": {
+  "short": "Sotto il segnale di parcheggio il pannello lo riserva al veicolo disegnato: solo autoarticolati, non tutti i mezzi pesanti.",
+  "rule": "Pannello con il disegno di un veicolo: il segnale sopra vale solo per quei veicoli. Qui sono gli autoarticolati (trattore + semirimorchio).",
+  "trap": "«tutti i veicoli pesanti» è troppo largo: conta solo il veicolo disegnato.",
+  "caption": "Parcheggio solo per autoarticolati"
+ }
+}

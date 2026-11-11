@@ -1,0 +1,1833 @@
+{
+ "q22070": {
+  "en": "The supplementary panel (A), placed under a prohibition sign, shows the point where the rule starts.",
+  "explain": {
+   "short": "Panel A has one arrow pointing up: under a prohibition sign it marks the point where the ban begins.",
+   "rule": "A white panel with ONE arrow marks the START of the rule of the sign above: a tall panel with the arrow pointing up, or a wide panel with the arrow pointing left. The rule applies from here on.",
+   "trap": "'punto d'inizio' (starting point) is right: one arrow up means start.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrow up: the ban starts here",
+    "it": "inizio",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello integrativo",
+    "en": "supplementary panel"
+   },
+   {
+    "it": "segnale di divieto",
+    "en": "prohibition sign"
+   },
+   {
+    "it": "punto d'inizio",
+    "en": "starting point"
+   },
+   {
+    "it": "prescrizione",
+    "en": "rule"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22071": {
+  "en": "The sign shown indicates that the parking ban starts at that point.",
+  "explain": {
+   "short": "The no-parking sign has a panel with one arrow up: the parking ban begins exactly here.",
+   "rule": "A white panel with ONE arrow marks the START of the rule of the sign above: a tall panel with the arrow pointing up, or a wide panel with the arrow pointing left. The rule applies from here on.",
+   "trap": "'ha inizio in quel punto' (starts at that point) matches the single arrow up.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No parking from this point on",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto di sosta",
+    "en": "parking ban"
+   },
+   {
+    "it": "ha inizio",
+    "en": "starts"
+   },
+   {
+    "it": "in quel punto",
+    "en": "at that point"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22072": {
+  "en": "The sign shown marks the start of the area where you can park.",
+  "explain": {
+   "short": "The blue P sign with one arrow up shows where the parking area begins.",
+   "rule": "A white panel with ONE arrow marks the START of the rule of the sign above: a tall panel with the arrow pointing up, or a wide panel with the arrow pointing left. The rule applies from here on.",
+   "trap": "'inizio' (start) is right: under a P sign the single arrow up marks where parking begins.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking area starts here",
+    "it": "parcheggio",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "inizio dell'area",
+    "en": "start of the area"
+   },
+   {
+    "it": "è possibile parcheggiare",
+    "en": "you can park"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22073": {
+  "en": "The sign shown marks the point where the stopping ban starts.",
+  "explain": {
+   "short": "The red X sign (no stopping) has a panel with one arrow up: the stopping ban begins here.",
+   "rule": "A white panel with ONE arrow marks the START of the rule of the sign above: a tall panel with the arrow pointing up, or a wide panel with the arrow pointing left. The rule applies from here on.",
+   "trap": "'divieto di fermata' (no stopping, the red X) is right here, not 'divieto di sosta' (no parking).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No stopping from this point on",
+    "it": "divieto di fermata",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "punto d'inizio",
+    "en": "starting point"
+   },
+   {
+    "it": "divieto di fermata",
+    "en": "stopping ban"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22074": {
+  "en": "The sign shown marks the starting point of the pedestrian path.",
+  "explain": {
+   "short": "The blue round sign with a walking person is a pedestrian path (viale pedonale); the arrow up shows where it begins.",
+   "rule": "A white panel with ONE arrow marks the START of the rule of the sign above: a tall panel with the arrow pointing up, or a wide panel with the arrow pointing left. The rule applies from here on.",
+   "trap": "'punto d'inizio' (starting point) is right: one arrow up means start.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pedestrian path starts here",
+    "it": "viale pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "punto d'inizio",
+    "en": "starting point"
+   },
+   {
+    "it": "viale pedonale",
+    "en": "pedestrian path"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22075": {
+  "en": "The panel shown (A) indicates an uphill road.",
+  "explain": {
+   "short": "Panel A is not a slope sign: its single arrow up marks the start of the rule of the sign above it.",
+   "rule": "A white panel with ONE arrow marks the START of the rule of the sign above: a tall panel with the arrow pointing up, or a wide panel with the arrow pointing left. The rule applies from here on.",
+   "trap": "'strada in salita' (uphill road) is wrong: the arrow points to the start, not up a hill.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a hill: the arrow marks a start point",
+    "it": "inizio",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello raffigurato",
+    "en": "panel shown"
+   },
+   {
+    "it": "strada in salita",
+    "en": "uphill road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22076": {
+  "en": "The panel shown (A) indicates that you must go straight on.",
+  "explain": {
+   "short": "Panel A gives no order to go straight: it only marks where the rule of the sign above begins.",
+   "rule": "A white panel with ONE arrow marks the START of the rule of the sign above: a tall panel with the arrow pointing up, or a wide panel with the arrow pointing left. The rule applies from here on.",
+   "trap": "'obbligo di proseguire diritto' (must go straight) is wrong: compulsory directions are blue round signs.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not 'go straight': it marks where a rule starts",
+    "it": "inizio",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello raffigurato",
+    "en": "panel shown"
+   },
+   {
+    "it": "obbligo",
+    "en": "obligation"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "go straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22077": {
+  "en": "The panel shown (A) indicates the end of a one-way road.",
+  "explain": {
+   "short": "Panel A has one arrow up: it marks a START, not an end, and it has nothing to do with one-way roads.",
+   "rule": "A white panel with ONE arrow marks the START of the rule of the sign above: a tall panel with the arrow pointing up, or a wide panel with the arrow pointing left. The rule applies from here on.",
+   "trap": "'fine' (end) is wrong: the end panel has the arrow pointing down.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrow up = start, not end of a one-way road",
+    "it": "inizio",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello raffigurato",
+    "en": "panel shown"
+   },
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22078": {
+  "en": "The panel shown (B) indicates the lane reserved for city buses.",
+  "explain": {
+   "short": "Panel B is the wide version of the start panel: its arrow to the left marks where the rule of the sign above begins.",
+   "rule": "A white panel with ONE arrow marks the START of the rule of the sign above: a tall panel with the arrow pointing up, or a wide panel with the arrow pointing left. The rule applies from here on.",
+   "trap": "'corsia riservata agli autobus' (bus lane) is wrong: a bus lane has its own sign with a bus on it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a bus lane: wide panel, start of the rule",
+    "it": "inizio",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello raffigurato",
+    "en": "panel shown"
+   },
+   {
+    "it": "corsia riservata",
+    "en": "reserved lane"
+   },
+   {
+    "it": "autobus urbani",
+    "en": "city buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22079": {
+  "en": "The sign shown marks the point where the area for parking ends.",
+  "explain": {
+   "short": "Under the P sign there is a wide panel with an arrow to the left: that is the START of the parking area, not the end.",
+   "rule": "A white panel with ONE arrow marks the START of the rule of the sign above: a tall panel with the arrow pointing up, or a wide panel with the arrow pointing left. The rule applies from here on.",
+   "trap": "'finisce' (ends) is wrong: on a wide panel the end is the arrow to the right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrow left = parking starts, not ends",
+    "it": "parcheggio",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "finisce",
+    "en": "ends"
+   },
+   {
+    "it": "area destinata al parcheggio",
+    "en": "area for parking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22080": {
+  "en": "The panel shown (A), placed under a danger sign, marks the point where the danger ends.",
+  "explain": {
+   "short": "Panel A has one arrow pointing up: it marks a START. The end of a danger is shown by an arrow pointing down.",
+   "rule": "A white panel with ONE arrow marks the START of the rule of the sign above: a tall panel with the arrow pointing up, or a wide panel with the arrow pointing left. The rule applies from here on.",
+   "trap": "'finisce' (ends) is wrong: arrow up = start, arrow down = end.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrow up = start, not end of the danger",
+    "it": "inizio",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   },
+   {
+    "it": "finisce il pericolo",
+    "en": "the danger ends"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22081": {
+  "en": "The sign shown indicates that the parking ban continues.",
+  "explain": {
+   "short": "The no-parking sign has a panel with a double arrow (up and down): the ban continues here.",
+   "rule": "A white panel with a DOUBLE arrow (up and down, or left and right) means CONTINUATION: the rule of the sign above is valid before and after this point.",
+   "trap": "'continua' (continues) is right: the double arrow means continuation.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking ban continues here",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto di sosta",
+    "en": "parking ban"
+   },
+   {
+    "it": "continua",
+    "en": "continues"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22082": {
+  "en": "The sign shown confirms that the no-overtaking rule continues.",
+  "explain": {
+   "short": "The no-overtaking sign has a double arrow panel: it reminds you that the ban is still valid here.",
+   "rule": "A white panel with a DOUBLE arrow (up and down, or left and right) means CONTINUATION: the rule of the sign above is valid before and after this point.",
+   "trap": "'conferma la continuazione' (confirms it continues) is right: double arrow = continuation.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No overtaking continues here",
+    "it": "divieto di sorpasso",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "conferma",
+    "en": "confirms"
+   },
+   {
+    "it": "continuazione",
+    "en": "continuation"
+   },
+   {
+    "it": "divieto di sorpasso",
+    "en": "no-overtaking rule"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22083": {
+  "en": "The sign shown indicates that the maximum speed limit continues.",
+  "explain": {
+   "short": "The 80 km/h limit sign has a double arrow panel: the limit is still valid here.",
+   "rule": "A white panel with a DOUBLE arrow (up and down, or left and right) means CONTINUATION: the rule of the sign above is valid before and after this point.",
+   "trap": "'continuazione' (continuation) is right: double arrow = the rule goes on.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The 80 limit is still valid",
+    "it": "limite di velocità",
+    "action": "speedLimit",
+    "value": 80
+   }
+  },
+  "keywords": [
+   {
+    "it": "continuazione",
+    "en": "continuation"
+   },
+   {
+    "it": "limite massimo di velocità",
+    "en": "maximum speed limit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22084": {
+  "en": "The sign shown indicates that the slippery stretch of road continues.",
+  "explain": {
+   "short": "The slippery road sign has a wide panel with arrows left and right: the danger continues here.",
+   "rule": "A white panel with a DOUBLE arrow (up and down, or left and right) means CONTINUATION: the rule of the sign above is valid before and after this point.",
+   "trap": "'continuazione' (continuation) is right: the double arrow, also in its wide version, means continuation.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slippery road continues: keep slow",
+    "it": "strada sdrucciolevole",
+    "action": "slow",
+    "hazard": "❄️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "continuazione",
+    "en": "continuation"
+   },
+   {
+    "it": "tratto di strada",
+    "en": "stretch of road"
+   },
+   {
+    "it": "sdrucciolevole",
+    "en": "slippery"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22085": {
+  "en": "The sign shown indicates that stopping is forbidden both before and after the sign.",
+  "explain": {
+   "short": "The no-stopping sign has a double arrow: the ban continues, so it is valid before and after this point.",
+   "rule": "A white panel with a DOUBLE arrow (up and down, or left and right) means CONTINUATION: the rule of the sign above is valid before and after this point.",
+   "trap": "'sia prima che dopo' (both before and after) is right: that is what continuation means.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No stopping before and after the sign",
+    "it": "divieto di fermata",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata è vietata",
+    "en": "stopping is forbidden"
+   },
+   {
+    "it": "sia prima che dopo",
+    "en": "both before and after"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22086": {
+  "en": "The supplementary panel shown (A), placed under a danger sign, indicates its continuation.",
+  "explain": {
+   "short": "Panel A has a double arrow (up and down): under a danger sign it means the danger continues.",
+   "rule": "A white panel with a DOUBLE arrow (up and down, or left and right) means CONTINUATION: the rule of the sign above is valid before and after this point.",
+   "trap": "'continuazione' (continuation) is right: double arrow = continues.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Double arrow: the danger continues",
+    "it": "continuazione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello integrativo",
+    "en": "supplementary panel"
+   },
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   },
+   {
+    "it": "continuazione",
+    "en": "continuation"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22087": {
+  "en": "The supplementary panel shown (A) tells you to turn back.",
+  "explain": {
+   "short": "Panel A does not order you to turn back: its double arrow means the rule of the sign above continues.",
+   "rule": "A white panel with a DOUBLE arrow (up and down, or left and right) means CONTINUATION: the rule of the sign above is valid before and after this point.",
+   "trap": "'tornare indietro' (turn back) is wrong: the arrow down is part of the double arrow, not a U-turn.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not 'turn back': the rule continues",
+    "it": "continuazione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello integrativo",
+    "en": "supplementary panel"
+   },
+   {
+    "it": "tornare indietro",
+    "en": "turn back"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22088": {
+  "en": "The sign shown indicates the end of the parking zone.",
+  "explain": {
+   "short": "Under the P sign the wide panel has arrows left and right: parking continues, it does not end here.",
+   "rule": "A white panel with a DOUBLE arrow (up and down, or left and right) means CONTINUATION: the rule of the sign above is valid before and after this point.",
+   "trap": "'fine' (end) is wrong: arrows on both sides mean continuation.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrows both ways: parking continues",
+    "it": "parcheggio",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "zona destinata al parcheggio",
+    "en": "parking zone"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22089": {
+  "en": "The supplementary panel shown (A) indicates alternating one-way traffic.",
+  "explain": {
+   "short": "Panel A has nothing to do with alternating traffic: its double arrow means the rule of the sign above continues.",
+   "rule": "A white panel with a DOUBLE arrow (up and down, or left and right) means CONTINUATION: the rule of the sign above is valid before and after this point.",
+   "trap": "'senso unico alternato' (alternating one-way traffic, e.g. at roadworks) is wrong: that uses traffic lights or priority signs.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not alternating traffic: the rule continues",
+    "it": "continuazione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello integrativo",
+    "en": "supplementary panel"
+   },
+   {
+    "it": "senso unico alternato",
+    "en": "alternating one-way traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22090": {
+  "en": "The supplementary panel shown (A), placed under a danger sign, indicates its end.",
+  "explain": {
+   "short": "Panel A has a double arrow: the danger CONTINUES. The end would be one arrow pointing down.",
+   "rule": "A white panel with a DOUBLE arrow (up and down, or left and right) means CONTINUATION: the rule of the sign above is valid before and after this point.",
+   "trap": "'fine' (end) is wrong: double arrow = continuation, single arrow down = end.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Double arrow = continues, not end",
+    "it": "continuazione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   },
+   {
+    "it": "ne indica la fine",
+    "en": "indicates its end"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22091": {
+  "en": "The supplementary panel shown (A) indicates the two directions allowed.",
+  "explain": {
+   "short": "Panel A does not show allowed directions: its double arrow means the rule of the sign above continues.",
+   "rule": "A white panel with a DOUBLE arrow (up and down, or left and right) means CONTINUATION: the rule of the sign above is valid before and after this point.",
+   "trap": "'due direzioni consentite' (two allowed directions) is wrong: those are blue round signs.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not two directions: the rule continues",
+    "it": "continuazione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello integrativo",
+    "en": "supplementary panel"
+   },
+   {
+    "it": "due direzioni consentite",
+    "en": "two directions allowed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22092": {
+  "en": "The supplementary panel shown (A) indicates a road with two-way traffic.",
+  "explain": {
+   "short": "Panel A is not a two-way traffic sign: its double arrow means the rule of the sign above continues.",
+   "rule": "A white panel with a DOUBLE arrow (up and down, or left and right) means CONTINUATION: the rule of the sign above is valid before and after this point.",
+   "trap": "'doppio senso di circolazione' (two-way traffic) is wrong: that is a red triangle with two arrows.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not two-way traffic: the rule continues",
+    "it": "continuazione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello integrativo",
+    "en": "supplementary panel"
+   },
+   {
+    "it": "doppio senso di circolazione",
+    "en": "two-way traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22093": {
+  "en": "The sign shown indicates the point where the parking ban ends.",
+  "explain": {
+   "short": "The no-parking sign has a panel with one arrow pointing down: the ban ends here.",
+   "rule": "A white panel with ONE arrow pointing DOWN (or pointing right, if the panel is wide) marks the END of the rule of the sign above. After this point the rule stops.",
+   "trap": "'termina' (ends) is right: arrow down = end.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking ban ends here",
+    "it": "divieto di sosta",
+    "action": "noParking"
+   }
+  },
+  "keywords": [
+   {
+    "it": "punto",
+    "en": "point"
+   },
+   {
+    "it": "termina",
+    "en": "ends"
+   },
+   {
+    "it": "divieto di sosta",
+    "en": "parking ban"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22094": {
+  "en": "The sign shown indicates the point where the stopping ban ends.",
+  "explain": {
+   "short": "The no-stopping sign (red X) has a wide panel with an arrow to the right: the ban ends here.",
+   "rule": "A white panel with ONE arrow pointing DOWN (or pointing right, if the panel is wide) marks the END of the rule of the sign above. After this point the rule stops.",
+   "trap": "'termina' (ends) is right: on a wide panel the arrow to the right means end.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No-stopping zone ends here",
+    "it": "divieto di fermata",
+    "action": "noStopping"
+   }
+  },
+  "keywords": [
+   {
+    "it": "termina",
+    "en": "ends"
+   },
+   {
+    "it": "divieto di fermata",
+    "en": "stopping ban"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22095": {
+  "en": "The sign shown indicates the end of the roadworks.",
+  "explain": {
+   "short": "The roadworks sign has a panel with one arrow down: the works area ends here.",
+   "rule": "A white panel with ONE arrow pointing DOWN (or pointing right, if the panel is wide) marks the END of the rule of the sign above. After this point the rule stops.",
+   "trap": "'fine' (end) is right: arrow down = end.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Roadworks end here",
+    "it": "fine del cantiere",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "cantiere stradale",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22096": {
+  "en": "The sign shown indicates the end of the parking area.",
+  "explain": {
+   "short": "Under the P sign the wide panel has an arrow to the right: the parking area ends here.",
+   "rule": "A white panel with ONE arrow pointing DOWN (or pointing right, if the panel is wide) marks the END of the rule of the sign above. After this point the rule stops.",
+   "trap": "'fine' (end) is right: arrow to the right on a wide panel = end.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking area ends here",
+    "it": "parcheggio",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "area destinata al parcheggio",
+    "en": "parking area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22097": {
+  "en": "The sign shown indicates the end of the uneven road.",
+  "explain": {
+   "short": "The uneven road sign (strada deformata, bumpy road) has a panel with one arrow down: the bumpy stretch ends here.",
+   "rule": "A white panel with ONE arrow pointing DOWN (or pointing right, if the panel is wide) marks the END of the rule of the sign above. After this point the rule stops.",
+   "trap": "'fine' (end) is right: arrow down = end.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bumpy road ends here",
+    "it": "strada deformata",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "strada deformata",
+    "en": "uneven road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22098": {
+  "en": "The sign shown indicates the end of the slippery road.",
+  "explain": {
+   "short": "The slippery road sign has a wide panel with an arrow to the right: the slippery stretch ends here.",
+   "rule": "A white panel with ONE arrow pointing DOWN (or pointing right, if the panel is wide) marks the END of the rule of the sign above. After this point the rule stops.",
+   "trap": "'fine' (end) is right: arrow to the right on a wide panel = end.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slippery road ends here",
+    "it": "strada sdrucciolevole",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "strada sdrucciolevole",
+    "en": "slippery road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22099": {
+  "en": "The supplementary panel shown (A) indicates a downhill road.",
+  "explain": {
+   "short": "Panel A is not a slope sign: its arrow down marks the END of the rule of the sign above.",
+   "rule": "A white panel with ONE arrow pointing DOWN (or pointing right, if the panel is wide) marks the END of the rule of the sign above. After this point the rule stops.",
+   "trap": "'strada in discesa' (downhill road) is wrong: the arrow down means end, not a slope.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not downhill: arrow down = end of the rule",
+    "it": "fine",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello integrativo",
+    "en": "supplementary panel"
+   },
+   {
+    "it": "strada in discesa",
+    "en": "downhill road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22100": {
+  "en": "The supplementary panel shown (B), placed under the PARKING sign, indicates the start of the parking zone.",
+  "explain": {
+   "short": "Panel B has an arrow to the right: under the P sign it marks the END of the parking zone, not the start.",
+   "rule": "A white panel with ONE arrow pointing DOWN (or pointing right, if the panel is wide) marks the END of the rule of the sign above. After this point the rule stops.",
+   "trap": "'inizio' (start) is wrong: on a wide panel the start is the arrow to the left.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrow right = parking ends, not starts",
+    "it": "parcheggio",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale PARCHEGGIO",
+    "en": "PARKING sign"
+   },
+   {
+    "it": "inizio",
+    "en": "start"
+   },
+   {
+    "it": "zona destinata al parcheggio",
+    "en": "parking zone"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22101": {
+  "en": "The supplementary panel shown (A), placed under a prohibition sign, indicates the start of the prohibition.",
+  "explain": {
+   "short": "Panel A has one arrow pointing down: it marks the END of the ban, not the start.",
+   "rule": "A white panel with ONE arrow pointing DOWN (or pointing right, if the panel is wide) marks the END of the rule of the sign above. After this point the rule stops.",
+   "trap": "'inizio' (start) is wrong: the start panel has the arrow pointing up.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrow down = the ban ends, not starts",
+    "it": "fine",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di divieto",
+    "en": "prohibition sign"
+   },
+   {
+    "it": "inizio del divieto",
+    "en": "start of the prohibition"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22102": {
+  "en": "The supplementary panel shown (A) indicates a road closed to traffic.",
+  "explain": {
+   "short": "Panel A does not close any road: its arrow down only marks the end of the rule of the sign above.",
+   "rule": "A white panel with ONE arrow pointing DOWN (or pointing right, if the panel is wide) marks the END of the rule of the sign above. After this point the rule stops.",
+   "trap": "'strada chiusa al traffico' (road closed) is wrong: a white panel never creates a new rule.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a closed road: arrow down = end",
+    "it": "fine",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello integrativo",
+    "en": "supplementary panel"
+   },
+   {
+    "it": "strada chiusa al traffico",
+    "en": "road closed to traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22103": {
+  "en": "The sign shown indicates that the no-overtaking rule continues.",
+  "explain": {
+   "short": "This is the END of no overtaking sign: white disc with grey cars and a black bar. From here overtaking is allowed again.",
+   "rule": "A sign crossed by a black diagonal bar means the END of a ban. Continuation is shown only by a white panel with a double arrow under the ban sign.",
+   "trap": "'continuazione' (continuation) is wrong: the black diagonal bar means end; continuation would be a double arrow panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of no overtaking, not continuation",
+    "it": "fine divieto di sorpasso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "continuazione",
+    "en": "continuation"
+   },
+   {
+    "it": "divieto di sorpasso",
+    "en": "no-overtaking rule"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22104": {
+  "en": "The supplementary panel shown (A) indicates the only direction allowed.",
+  "explain": {
+   "short": "Panel A is not a compulsory direction sign: its arrow down marks the end of the rule of the sign above.",
+   "rule": "A white panel with ONE arrow pointing DOWN (or pointing right, if the panel is wide) marks the END of the rule of the sign above. After this point the rule stops.",
+   "trap": "'unica direzione consentita' (only direction allowed) is wrong: compulsory directions are blue round signs.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a direction: arrow down = end",
+    "it": "fine",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello integrativo",
+    "en": "supplementary panel"
+   },
+   {
+    "it": "unica direzione consentita",
+    "en": "only direction allowed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22105": {
+  "en": "The supplementary panel shown warns that the road markings on the carriageway are temporarily missing.",
+  "explain": {
+   "short": "The brush painting a strip means the painted lines are not there for now, because they are being redone.",
+   "rule": "The square panel with a paint brush painting a white strip means the road markings (segnaletica orizzontale, the painted lines) are missing for a while, because they are being redone. It goes under the ALTRI PERICOLI sign (other dangers, triangle with !).",
+   "trap": "'temporaneamente manca' (is temporarily missing) is right: the lines will come back.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Painted lines missing for now",
+    "it": "segnaletica orizzontale",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "warns in advance"
+   },
+   {
+    "it": "temporaneamente",
+    "en": "temporarily"
+   },
+   {
+    "it": "segnaletica orizzontale",
+    "en": "road markings"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22106": {
+  "en": "The supplementary panel shown indicates a stretch of road where the road markings are temporarily not present.",
+  "explain": {
+   "short": "The brush panel marks a stretch where the painted lines are missing for a while.",
+   "rule": "The square panel with a paint brush painting a white strip means the road markings (segnaletica orizzontale, the painted lines) are missing for a while, because they are being redone. It goes under the ALTRI PERICOLI sign (other dangers, triangle with !).",
+   "trap": "'non è temporaneamente presente' (is temporarily not present) is right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No painted lines on this stretch for now",
+    "it": "segnaletica orizzontale",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tratto di strada",
+    "en": "stretch of road"
+   },
+   {
+    "it": "temporaneamente",
+    "en": "temporarily"
+   },
+   {
+    "it": "segnaletica orizzontale",
+    "en": "road markings"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22107": {
+  "en": "The supplementary panel shown indicates that work is being done to repaint the road markings.",
+  "explain": {
+   "short": "The brush painting a strip shows exactly this: workers are redoing the painted lines.",
+   "rule": "The square panel with a paint brush painting a white strip means the road markings (segnaletica orizzontale, the painted lines) are missing for a while, because they are being redone. It goes under the ALTRI PERICOLI sign (other dangers, triangle with !).",
+   "trap": "'rifare' (redo) is right: the lines are missing because they are being repainted.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lines being repainted: drive carefully",
+    "it": "segnaletica orizzontale",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "lavori",
+    "en": "work"
+   },
+   {
+    "it": "rifare",
+    "en": "redo"
+   },
+   {
+    "it": "segnaletica orizzontale",
+    "en": "road markings"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22108": {
+  "en": "The supplementary panel shown is placed under the OTHER DANGERS sign.",
+  "explain": {
+   "short": "Like other danger panels, it goes under the triangle with the exclamation mark (ALTRI PERICOLI) to say what the danger is.",
+   "rule": "The square panel with a paint brush painting a white strip means the road markings (segnaletica orizzontale, the painted lines) are missing for a while, because they are being redone. It goes under the ALTRI PERICOLI sign (other dangers, triangle with !).",
+   "trap": "'ALTRI PERICOLI' (other dangers) is right: the panel explains which danger the triangle means.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Under the triangle with !: lines missing",
+    "it": "altri pericoli",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "viene posto sotto",
+    "en": "is placed under"
+   },
+   {
+    "it": "ALTRI PERICOLI",
+    "en": "OTHER DANGERS"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22109": {
+  "en": "The sign shown indicates a closed road.",
+  "explain": {
+   "short": "The road is open: the brush panel only warns that the painted lines are missing because they are being redone.",
+   "rule": "The square panel with a paint brush painting a white strip means the road markings (segnaletica orizzontale, the painted lines) are missing for a while, because they are being redone. It goes under the ALTRI PERICOLI sign (other dangers, triangle with !).",
+   "trap": "'strada chiusa' (closed road) is wrong: you can drive here, just carefully.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not closed: the painted lines are missing",
+    "it": "segnaletica orizzontale",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale raffigurato",
+    "en": "sign shown"
+   },
+   {
+    "it": "strada chiusa",
+    "en": "closed road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22110": {
+  "en": "The supplementary panel shown indicates a snow-covered road.",
+  "explain": {
+   "short": "The picture is a paint brush, not snow: it warns that the road markings are being redone.",
+   "rule": "The square panel with a paint brush painting a white strip means the road markings (segnaletica orizzontale, the painted lines) are missing for a while, because they are being redone. It goes under the ALTRI PERICOLI sign (other dangers, triangle with !).",
+   "trap": "'innevata' (snow-covered) is wrong: the white strip is fresh paint, not snow.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not snow: road lines being repainted",
+    "it": "segnaletica orizzontale",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello integrativo",
+    "en": "supplementary panel"
+   },
+   {
+    "it": "strada innevata",
+    "en": "snow-covered road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22111": {
+  "en": "The supplementary panel shown indicates that a pedestrian crossing is near.",
+  "explain": {
+   "short": "There is no pedestrian on the panel: the brush means the road markings are missing and being redone.",
+   "rule": "The square panel with a paint brush painting a white strip means the road markings (segnaletica orizzontale, the painted lines) are missing for a while, because they are being redone. It goes under the ALTRI PERICOLI sign (other dangers, triangle with !).",
+   "trap": "'attraversamento pedonale' (pedestrian crossing) is wrong: the white strip is not zebra stripes.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No crossing: road lines being repainted",
+    "it": "segnaletica orizzontale",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vicinanza",
+    "en": "nearness"
+   },
+   {
+    "it": "attraversamento pedonale",
+    "en": "pedestrian crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22112": {
+  "en": "The supplementary panel shown warns of the start of a one-way stretch of road.",
+  "explain": {
+   "short": "The brush panel says nothing about traffic direction: it warns that the painted lines are missing.",
+   "rule": "The square panel with a paint brush painting a white strip means the road markings (segnaletica orizzontale, the painted lines) are missing for a while, because they are being redone. It goes under the ALTRI PERICOLI sign (other dangers, triangle with !).",
+   "trap": "'senso unico' (one-way) is wrong: one-way roads have their own blue signs.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not one-way: road lines missing",
+    "it": "segnaletica orizzontale",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "warns in advance"
+   },
+   {
+    "it": "inizio",
+    "en": "start"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22113": {
+  "en": "The supplementary panel shown indicates that you may not cross the solid line.",
+  "explain": {
+   "short": "The panel gives no ban: it warns that the painted lines are missing, so there may be no lines at all.",
+   "rule": "The square panel with a paint brush painting a white strip means the road markings (segnaletica orizzontale, the painted lines) are missing for a while, because they are being redone. It goes under the ALTRI PERICOLI sign (other dangers, triangle with !).",
+   "trap": "'non è consentito superare la linea continua' (no crossing the solid line) is wrong: the panel is about missing markings.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No ban: the lines are missing for now",
+    "it": "segnaletica orizzontale",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è consentito",
+    "en": "it is not allowed"
+   },
+   {
+    "it": "superare",
+    "en": "cross"
+   },
+   {
+    "it": "linea continua",
+    "en": "solid line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22114": {
+  "en": "The supplementary panel shown asks you to slow down because of an accident.",
+  "explain": {
+   "short": "The red panel with two crashed cars warns of an accident ahead, so you must slow down.",
+   "rule": "The red square panel with two crashed cars warns of an accident ahead: crashed vehicles block part of the carriageway (carreggiata, the part of the road for vehicles). Slow down. It is used on any road, not only motorways.",
+   "trap": "'rallentare' (slow down) is right: crashed cars and people may be on the road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Accident ahead: slow down",
+    "it": "incidente",
+    "action": "slow",
+    "hazard": "💥"
+   }
+  },
+  "keywords": [
+   {
+    "it": "invita a rallentare",
+    "en": "asks you to slow down"
+   },
+   {
+    "it": "a causa di",
+    "en": "because of"
+   },
+   {
+    "it": "incidente",
+    "en": "accident"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22115": {
+  "en": "The supplementary panel shown indicates crashed vehicles on the carriageway.",
+  "explain": {
+   "short": "The two crashed cars on the red panel mean there are vehicles involved in an accident on the road ahead.",
+   "rule": "The red square panel with two crashed cars warns of an accident ahead: crashed vehicles block part of the carriageway (carreggiata, the part of the road for vehicles). Slow down. It is used on any road, not only motorways.",
+   "trap": "'veicoli incidentati' (crashed vehicles) is right: that is exactly the picture.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Crashed cars on the road ahead",
+    "it": "veicoli incidentati",
+    "action": "slow",
+    "hazard": "💥"
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicoli incidentati",
+    "en": "crashed vehicles"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22116": {
+  "en": "The supplementary panel shown signals that the carriageway is occupied by crashed vehicles.",
+  "explain": {
+   "short": "The red accident panel warns that crashed vehicles take up part of the road ahead.",
+   "rule": "The red square panel with two crashed cars warns of an accident ahead: crashed vehicles block part of the carriageway (carreggiata, the part of the road for vehicles). Slow down. It is used on any road, not only motorways.",
+   "trap": "'occupata' (occupied) is right: the crashed cars block part of the carriageway.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road blocked by crashed cars: slow down",
+    "it": "veicoli incidentati",
+    "action": "slow",
+    "hazard": "💥"
+   }
+  },
+  "keywords": [
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   },
+   {
+    "it": "occupata",
+    "en": "occupied"
+   },
+   {
+    "it": "veicoli incidentati",
+    "en": "crashed vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22117": {
+  "en": "The supplementary panel shown signals a road accident, so you need to reduce your speed.",
+  "explain": {
+   "short": "The red panel with crashed cars warns of an accident ahead, and you must reduce speed.",
+   "rule": "The red square panel with two crashed cars warns of an accident ahead: crashed vehicles block part of the carriageway (carreggiata, the part of the road for vehicles). Slow down. It is used on any road, not only motorways.",
+   "trap": "'diminuire la velocità' (reduce speed) is right: be ready to stop.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Accident: reduce speed",
+    "it": "incidente stradale",
+    "action": "slow",
+    "hazard": "💥"
+   }
+  },
+  "keywords": [
+   {
+    "it": "incidente stradale",
+    "en": "road accident"
+   },
+   {
+    "it": "occorre",
+    "en": "you need to"
+   },
+   {
+    "it": "diminuire la velocità",
+    "en": "reduce speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22118": {
+  "en": "The supplementary panel shown indicates a slippery road.",
+  "explain": {
+   "short": "The picture shows two cars that crashed into each other: it warns of an accident, not of a slippery road.",
+   "rule": "The red square panel with two crashed cars warns of an accident ahead: crashed vehicles block part of the carriageway (carreggiata, the part of the road for vehicles). Slow down. It is used on any road, not only motorways.",
+   "trap": "'sdrucciolevole' (slippery) is wrong: slippery road is a triangle with a skidding car.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not slippery: an accident ahead",
+    "it": "incidente",
+    "action": "slow",
+    "hazard": "💥"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello integrativo",
+    "en": "supplementary panel"
+   },
+   {
+    "it": "strada sdrucciolevole",
+    "en": "slippery road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22119": {
+  "en": "The supplementary panel shown tells you to stop and give way to the right.",
+  "explain": {
+   "short": "The accident panel does not order you to stop or give way: it warns of crashed cars, so you slow down.",
+   "rule": "The red square panel with two crashed cars warns of an accident ahead: crashed vehicles block part of the carriageway (carreggiata, the part of the road for vehicles). Slow down. It is used on any road, not only motorways.",
+   "trap": "'fermarsi e dare la precedenza' (stop and give way) is wrong: that is the STOP sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No STOP rule: accident ahead, slow down",
+    "it": "incidente",
+    "action": "slow",
+    "hazard": "💥"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermarsi",
+    "en": "stop"
+   },
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "a destra",
+    "en": "to the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22120": {
+  "en": "The supplementary panel shown is found only if the accident happened on a motorway.",
+  "explain": {
+   "short": "Accidents happen on every kind of road, so this panel can be used on any road, not only on motorways.",
+   "rule": "The red square panel with two crashed cars warns of an accident ahead: crashed vehicles block part of the carriageway (carreggiata, the part of the road for vehicles). Slow down. It is used on any road, not only motorways.",
+   "trap": "'solo' (only) is wrong: the panel is not limited to motorways.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Any road, not only motorways",
+    "it": "incidente",
+    "action": "slow",
+    "hazard": "💥"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si trova solo",
+    "en": "is found only"
+   },
+   {
+    "it": "incidente",
+    "en": "accident"
+   },
+   {
+    "it": "autostrada",
+    "en": "motorway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22121": {
+  "en": "The supplementary panel shown indicates a parking ban.",
+  "explain": {
+   "short": "The red panel with crashed cars is a warning of an accident, not a parking ban.",
+   "rule": "The red square panel with two crashed cars warns of an accident ahead: crashed vehicles block part of the carriageway (carreggiata, the part of the road for vehicles). Slow down. It is used on any road, not only motorways.",
+   "trap": "'divieto di sosta' (parking ban) is wrong: that is a blue disc with a red ring and one red bar.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not no parking: an accident ahead",
+    "it": "incidente",
+    "action": "slow",
+    "hazard": "💥"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello integrativo",
+    "en": "supplementary panel"
+   },
+   {
+    "it": "divieto di sosta",
+    "en": "parking ban"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22122": {
+  "en": "The supplementary panel shown warns that there is a garage for crashed vehicles.",
+  "explain": {
+   "short": "The panel warns of an accident on the road ahead, not of a repair garage.",
+   "rule": "The red square panel with two crashed cars warns of an accident ahead: crashed vehicles block part of the carriageway (carreggiata, the part of the road for vehicles). Slow down. It is used on any road, not only motorways.",
+   "trap": "'garage' is wrong: the crashed cars are on the road, the panel is a danger warning.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a garage: crashed cars on the road",
+    "it": "incidente",
+    "action": "slow",
+    "hazard": "💥"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "warns in advance"
+   },
+   {
+    "it": "garage",
+    "en": "garage"
+   },
+   {
+    "it": "veicoli incidentati",
+    "en": "crashed vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22123": {
+  "en": "The supplementary panel shown tells you to turn on your lights to avoid accidents.",
+  "explain": {
+   "short": "The panel does not ask for lights: it warns that an accident has already happened ahead, so you slow down.",
+   "rule": "The red square panel with two crashed cars warns of an accident ahead: crashed vehicles block part of the carriageway (carreggiata, the part of the road for vehicles). Slow down. It is used on any road, not only motorways.",
+   "trap": "'accendere le luci' (turn on the lights) is wrong: the panel is about slowing down for a crash.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not 'lights on': accident ahead, slow down",
+    "it": "incidente",
+    "action": "slow",
+    "hazard": "💥"
+   }
+  },
+  "keywords": [
+   {
+    "it": "accendere le luci",
+    "en": "turn on the lights"
+   },
+   {
+    "it": "evitare incidenti",
+    "en": "avoid accidents"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22124": {
+  "en": "The supplementary panel shown indicates the presence of shunting tracks.",
+  "explain": {
+   "short": "The two steam engines on the white panel warn of shunting tracks (binari di manovra) crossing the road.",
+   "rule": "The white panel with two steam engines goes under ALTRI PERICOLI (triangle with !). It warns of shunting tracks (binari di manovra o di raccordo) that cross the road near goods yards (scali merci). Slow down; it is for road users, not for train drivers.",
+   "trap": "'binari di manovra' (shunting tracks) is right: trains move slowly here, near goods yards.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Shunting tracks cross the road",
+    "it": "binari di manovra",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "presenza",
+    "en": "presence"
+   },
+   {
+    "it": "binari di manovra",
+    "en": "shunting tracks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22125": {
+  "en": "The sign shown indicates that shunting tracks cross the road.",
+  "explain": {
+   "short": "The triangle with ! and the panel with two engines warn that shunting tracks cross the road ahead.",
+   "rule": "The white panel with two steam engines goes under ALTRI PERICOLI (triangle with !). It warns of shunting tracks (binari di manovra o di raccordo) that cross the road near goods yards (scali merci). Slow down; it is for road users, not for train drivers.",
+   "trap": "'attraversamento' (crossing) is right: the tracks go across the road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Shunting tracks cross the road ahead",
+    "it": "binari di manovra",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "attraversamento",
+    "en": "crossing"
+   },
+   {
+    "it": "binari di manovra",
+    "en": "shunting tracks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22126": {
+  "en": "The supplementary panel shown warns of shunting or connecting tracks near goods yards.",
+  "explain": {
+   "short": "This is exactly the meaning of the panel: tracks used to move trains in and out of goods yards cross the road.",
+   "rule": "The white panel with two steam engines goes under ALTRI PERICOLI (triangle with !). It warns of shunting tracks (binari di manovra o di raccordo) that cross the road near goods yards (scali merci). Slow down; it is for road users, not for train drivers.",
+   "trap": "'binari di manovra o di raccordo' (shunting or connecting tracks) and 'scali merci' (goods yards) are both right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tracks near a goods yard: slow down",
+    "it": "binari di manovra",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "warns in advance"
+   },
+   {
+    "it": "binari di manovra o di raccordo",
+    "en": "shunting or connecting tracks"
+   },
+   {
+    "it": "scali merci",
+    "en": "goods yards"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22127": {
+  "en": "The sign shown asks you to reduce your speed.",
+  "explain": {
+   "short": "It is a danger warning: shunting tracks cross the road, so you must slow down and be ready to stop.",
+   "rule": "The white panel with two steam engines goes under ALTRI PERICOLI (triangle with !). It warns of shunting tracks (binari di manovra o di raccordo) that cross the road near goods yards (scali merci). Slow down; it is for road users, not for train drivers.",
+   "trap": "'diminuire la velocità' (reduce speed) is right: every danger sign asks for more care and less speed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Danger ahead: reduce speed",
+    "it": "binari di manovra",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "invita",
+    "en": "asks"
+   },
+   {
+    "it": "diminuire la velocità",
+    "en": "reduce speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22128": {
+  "en": "The supplementary panel is combined with the OTHER DANGERS sign.",
+  "explain": {
+   "short": "The two-engine panel goes under the triangle with ! (ALTRI PERICOLI) to say which danger it means.",
+   "rule": "The white panel with two steam engines goes under ALTRI PERICOLI (triangle with !). It warns of shunting tracks (binari di manovra o di raccordo) that cross the road near goods yards (scali merci). Slow down; it is for road users, not for train drivers.",
+   "trap": "'abbinato' (combined with) is right: the panel explains the general danger triangle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Panel goes under the triangle with !",
+    "it": "altri pericoli",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "abbinato",
+    "en": "combined with"
+   },
+   {
+    "it": "ALTRI PERICOLI",
+    "en": "OTHER DANGERS"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22129": {
+  "en": "The supplementary panel indicates an area equipped for model-making races.",
+  "explain": {
+   "short": "The engines are real trains, not toys: the panel warns of shunting tracks crossing the road.",
+   "rule": "The white panel with two steam engines goes under ALTRI PERICOLI (triangle with !). It warns of shunting tracks (binari di manovra o di raccordo) that cross the road near goods yards (scali merci). Slow down; it is for road users, not for train drivers.",
+   "trap": "'gare di modellismo' (model races) is wrong: it is a danger warning about real tracks.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not toys: real shunting tracks",
+    "it": "binari di manovra",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area attrezzata",
+    "en": "equipped area"
+   },
+   {
+    "it": "gare di modellismo",
+    "en": "model-making races"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22130": {
+  "en": "The supplementary panel shown tells you to be careful because trams may cross the road.",
+  "explain": {
+   "short": "The panel shows steam engines, i.e. trains on shunting tracks, not trams.",
+   "rule": "The white panel with two steam engines goes under ALTRI PERICOLI (triangle with !). It warns of shunting tracks (binari di manovra o di raccordo) that cross the road near goods yards (scali merci). Slow down; it is for road users, not for train drivers.",
+   "trap": "'tram' is wrong: trams have their own danger sign with a tram drawn on it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Trains on shunting tracks, not trams",
+    "it": "binari di manovra",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fare attenzione",
+    "en": "be careful"
+   },
+   {
+    "it": "attraversata",
+    "en": "crossed"
+   },
+   {
+    "it": "tram",
+    "en": "trams"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22131": {
+  "en": "The supplementary panel shown must be obeyed by train drivers.",
+  "explain": {
+   "short": "Road signs are for road users: the panel warns drivers on the road that shunting trains may cross.",
+   "rule": "The white panel with two steam engines goes under ALTRI PERICOLI (triangle with !). It warns of shunting tracks (binari di manovra o di raccordo) that cross the road near goods yards (scali merci). Slow down; it is for road users, not for train drivers.",
+   "trap": "'conducenti dei treni' (train drivers) is wrong: they have railway signals, not road signs.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "For road drivers, not train drivers",
+    "it": "binari di manovra",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "va rispettato",
+    "en": "must be obeyed"
+   },
+   {
+    "it": "conducenti dei treni",
+    "en": "train drivers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q22132": {
+  "en": "The supplementary panel shown indicates a level crossing with two tracks.",
+  "explain": {
+   "short": "Two engines do not mean two tracks: the panel warns of shunting tracks near goods yards, not a level crossing.",
+   "rule": "The white panel with two steam engines goes under ALTRI PERICOLI (triangle with !). It warns of shunting tracks (binari di manovra o di raccordo) that cross the road near goods yards (scali merci). Slow down; it is for road users, not for train drivers.",
+   "trap": "'passaggio a livello con due binari' (level crossing with two tracks) is wrong: level crossings have their own signs.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a level crossing: shunting tracks",
+    "it": "binari di manovra",
+    "action": "slow",
+    "hazard": "🚂"
+   }
+  },
+  "keywords": [
+   {
+    "it": "passaggio a livello",
+    "en": "level crossing"
+   },
+   {
+    "it": "due binari",
+    "en": "two tracks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}
