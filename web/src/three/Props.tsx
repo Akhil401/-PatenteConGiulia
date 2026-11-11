@@ -73,16 +73,125 @@ function Zebra({ world, y, x0 = 110, w = 140 }: { world: World; y: number; x0?: 
   return <group>{stripes.map((g, i) => <mesh key={i} geometry={g} receiveShadow>{WHITE}</mesh>)}</group>
 }
 
-function TrafficLight({ world, x, y, color }: { world: World; x: number; y: number; color: string }) {
+const LAMP: Record<string, string> = { red: '#ff3b30', amber: '#ffb020', green: '#22c55e', white: '#f8fafc' }
+/**
+ * Traffic light. kind: "vehicle" (red/amber/green), "ped" (red/green), "pair" (two red lamps side by side, level crossing),
+ * "amber" (one flashing amber lamp). color = fixed lamp; cycle = [[color, fromMs], ...] changes over time; flash = blinking.
+ */
+function TrafficLight({ world, x, y, color, cycle, flash, kind = 'vehicle', clock, scale = 1 }: { world: World; x: number; y: number; color?: string; cycle?: [string, number][]; flash?: boolean; kind?: string; clock: Clock; scale?: number }) {
   const p = world.to3(x, y)
-  const on = (c: string) => (c === color ? { red: '#ff3b30', amber: '#ffb020', green: '#22c55e' }[c]! : '#1f2937')
+  const lamps = kind === 'pair' ? ['red', 'red'] : kind === 'ped' ? ['red', 'green'] : kind === 'amber' ? ['amber'] : ['red', 'amber', 'green']
+  const mats = useRef<(THREE.MeshStandardMaterial | null)[]>([])
+  useFrame(() => {
+    const t = clock().time
+    let cur = color || 'red'
+    if (cycle) for (const [c, t0] of cycle) if (t >= t0) cur = c
+    const blink = Math.floor(performance.now() / 450) % 2
+    lamps.forEach((c, i) => {
+      const m = mats.current[i]; if (!m) return
+      let lit = c === cur
+      if (flash && lit) lit = kind === 'pair' ? blink === i : blink === 0
+      m.color.set(lit ? LAMP[c] : '#1f2937'); m.emissive.set(lit ? LAMP[c] : '#000000'); m.emissiveIntensity = lit ? 5 : 0
+    })
+  })
+  const h = kind === 'pair' ? .55 : lamps.length * .4 + .1
   return (
-    <group position={p}>
+    <group position={p} scale={scale}>
       <mesh position={[0, 1.6, 0]} castShadow><cylinderGeometry args={[.07, .07, 3.2, 10]} /><meshStandardMaterial color="#334155" metalness={.5} /></mesh>
-      <RoundedBox args={[.5, 1.3, .4]} radius={.08} position={[0, 3.4, 0]} castShadow><meshStandardMaterial color="#111827" /></RoundedBox>
-      {(['red', 'amber', 'green'] as const).map((c, i) => <mesh key={c} position={[0, 3.8 - i * .4, .21]}><sphereGeometry args={[.14, 16, 12]} /><meshStandardMaterial color={on(c)} emissive={on(c)} emissiveIntensity={c === color ? 5 : 0} toneMapped={false} /></mesh>)}
+      <RoundedBox args={[kind === 'pair' ? 1 : .5, h, .4]} radius={.08} position={[0, 3.3 + h / 2 - .2, 0]} castShadow><meshStandardMaterial color="#111827" /></RoundedBox>
+      {lamps.map((_c, i) => <mesh key={i} position={kind === 'pair' ? [i ? .24 : -.24, 3.38, .21] : [0, 3.3 + h - .45 - i * .4, .21]}>
+        <sphereGeometry args={[.14, 16, 12]} /><meshStandardMaterial ref={m => { mats.current[i] = m }} color="#1f2937" toneMapped={false} /></mesh>)}
     </group>
   )
+}
+
+/** Traffic police officer. pose: "front" (arms open, facing you), "profile" (arms open, side to you), "raised" (one arm up), "angle". */
+function Officer({ world, x, y, pose = 'front' }: { world: World; x: number; y: number; pose?: string }) {
+  const p = world.to3(x, y)
+  const navy = <meshStandardMaterial color="#1e3a8a" roughness={.7} />, white = <meshStandardMaterial color="#f8fafc" roughness={.5} />
+  const arm = (side: number, rot: [number, number, number]) => (
+    <group position={[side * .27, 1.55, 0]} rotation={rot}>
+      <mesh position={[side * .32, 0, 0]} castShadow><boxGeometry args={[.62, .13, .13]} />{navy}</mesh>
+      <mesh position={[side * .66, 0, 0]}><sphereGeometry args={[.08, 10, 8]} />{white}</mesh>
+    </group>
+  )
+  const arms = pose === 'raised' ? [arm(1, [0, 0, Math.PI / 2]), arm(-1, [0, 0, -Math.PI / 2.4])]
+    : pose === 'angle' ? [arm(1, [0, 0, 0]), arm(-1, [0, -Math.PI / 2, 0])]
+    : [arm(1, [0, 0, 0]), arm(-1, [0, 0, 0])]
+  return (
+    <group position={p} rotation-y={pose === 'profile' ? Math.PI / 2 : 0} scale={1.35}>
+      <mesh position={[0, .12, 0]} receiveShadow><cylinderGeometry args={[.7, .75, .24, 28]} /><meshStandardMaterial color="#e2e8f0" /></mesh>
+      <mesh position={[0, 1.0, 0]} castShadow><capsuleGeometry args={[.26, .9, 6, 12]} />{navy}</mesh>
+      <mesh position={[0, 1.15, 0]}><cylinderGeometry args={[.27, .27, .08, 16]} />{white}</mesh>
+      <mesh position={[0, 1.82, 0]} castShadow><sphereGeometry args={[.19, 16, 12]} /><meshStandardMaterial color="#e8b48f" /></mesh>
+      <mesh position={[0, 1.98, 0]} castShadow><sphereGeometry args={[.21, 16, 10, 0, Math.PI * 2, 0, Math.PI / 2]} />{white}</mesh>
+      {arms.map((a, i) => <group key={i}>{a}</group>)}
+    </group>
+  )
+}
+
+/** A white arrow painted in a lane, pointing up the road. dir: straight | left | right | straightLeft | straightRight | leftRight */
+function RoadArrow({ world, x, y, dir = 'straight' }: { world: World; x: number; y: number; dir?: string }) {
+  const geo = useMemo(() => {
+    const shapes: THREE.Shape[] = []
+    const straight = () => { const s = new THREE.Shape(); s.moveTo(-.12, 0); s.lineTo(.12, 0); s.lineTo(.12, 1.6); s.lineTo(.32, 1.6); s.lineTo(0, 2.15); s.lineTo(-.32, 1.6); s.lineTo(-.12, 1.6); s.lineTo(-.12, 0); return s }
+    // a shaft that bends to one side and ends in a head pointing sideways
+    const turn = (side: number) => {
+      const s = new THREE.Shape(), k = side
+      s.moveTo(-.12 * k, 0); s.lineTo(.12 * k, 0); s.lineTo(.12 * k, 1.0); s.lineTo(.55 * k, 1.0); s.lineTo(.55 * k, .78); s.lineTo(1.05 * k, 1.12); s.lineTo(.55 * k, 1.46); s.lineTo(.55 * k, 1.24); s.lineTo(-.12 * k, 1.24); s.lineTo(-.12 * k, 0)
+      return s
+    }
+    if (dir === 'straight' || dir === 'straightLeft' || dir === 'straightRight') shapes.push(straight())
+    if (dir === 'left' || dir === 'straightLeft' || dir === 'leftRight') shapes.push(turn(-1))
+    if (dir === 'right' || dir === 'straightRight' || dir === 'leftRight') shapes.push(turn(1))
+    const g = new THREE.ShapeGeometry(shapes); g.rotateX(-Math.PI / 2); g.scale(1.2, 1, 1.2); return g
+  }, [dir])
+  return <mesh geometry={geo} position={world.to3(x, y, .03)}><meshStandardMaterial color="#f8fafc" roughness={.6} side={THREE.DoubleSide} /></mesh>
+}
+
+/** Hatched traffic island painted on the road: a white border with diagonal stripes inside. */
+function Hatch({ world, x, y, w, h }: { world: World; x: number; y: number; w: number; h: number }) {
+  const parts = useMemo(() => {
+    const out: THREE.BufferGeometry[] = []
+    const e = 3
+    out.push(quad(world, x, y, x + w, y + e, .03), quad(world, x, y + h - e, x + w, y + h, .03), quad(world, x, y, x + e, y + h, .03), quad(world, x + w - e, y, x + w, y + h, .03))
+    // 45° stripes, clipped to the rectangle
+    for (let c = x - h; c < x + w; c += 14) {
+      const seg = (off: number) => {
+        const pts: [number, number][] = []
+        for (const [px, py] of [[c + off, y], [c + off + h, y + h]] as [number, number][]) pts.push([px, py])
+        let [ax, ay] = pts[0], [bx, by] = pts[1]
+        if (ax < x) { ay += x - ax; ax = x } if (bx > x + w) { by -= bx - (x + w); bx = x + w }
+        return [[ax, ay], [bx, by]] as [number, number][]
+      }
+      const [[a0x, a0y], [b0x, b0y]] = seg(0), [[a1x, a1y], [b1x, b1y]] = seg(5)
+      if (b0x - a0x < 2 || b1x - a1x < 2) continue
+      const pos: number[] = []
+      const P = (px: number, py: number) => { const v = world.to3(px, py, .03); pos.push(v.x, v.y, v.z) }
+      P(a0x, a0y); P(b0x, b0y); P(b1x, b1y); P(a0x, a0y); P(b1x, b1y); P(a1x, a1y)
+      const g = new THREE.BufferGeometry(); g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3)); g.computeVertexNormals(); out.push(g)
+    }
+    return out
+  }, [world, x, y, w, h])
+  return <group>{parts.map((g, i) => <mesh key={i} geometry={g}><meshStandardMaterial color="#f8fafc" roughness={.6} side={THREE.DoubleSide} /></mesh>)}</group>
+}
+
+/** Raised kerb along the road edge, painted in alternating yellow and black (no parking). */
+function Kerb({ world, x, y0 = -300, y1 = 520 }: { world: World; x: number; y0?: number; y1?: number }) {
+  const segs = useMemo(() => { const out: { p: THREE.Vector3; yellow: boolean }[] = []; let i = 0; for (let y = y0; y < y1; y += 18) out.push({ p: world.to3(x, y + 9, .09), yellow: i++ % 2 === 0 }); return out }, [world, x, y0, y1])
+  return <group>{segs.map((s, i) => <mesh key={i} position={s.p} castShadow><boxGeometry args={[.32, .18, 18 * .06]} /><meshStandardMaterial color={s.yellow ? '#facc15' : '#111827'} roughness={.6} /></mesh>)}</group>
+}
+
+/** Letters or numbers painted on the road (e.g. "50", "BUS"), stretched along the road like real road writing. */
+function RoadText({ world, x, y, text, color = '#f8fafc', size = 2.6 }: { world: World; x: number; y: number; text: string; color?: string; size?: number }) {
+  const tex = useMemo(() => {
+    const c = document.createElement('canvas'); c.width = 256; c.height = 512
+    const g = c.getContext('2d')!; g.fillStyle = color; g.textAlign = 'center'; g.textBaseline = 'middle'
+    g.font = `900 ${text.length > 3 ? 110 : 170}px Arial, sans-serif`
+    g.save(); g.translate(128, 256); g.scale(1, 1.9); g.fillText(text, 0, 0); g.restore()
+    const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return t
+  }, [text, color])
+  return <mesh position={world.to3(x, y, .03)} rotation-x={-Math.PI / 2}><planeGeometry args={[size, size * 2]} /><meshStandardMaterial map={tex} transparent roughness={.6} /></mesh>
 }
 
 /** A picture from the PDF on a plane, optionally cropped to [u0, v0, u1, v1] (fractions, v from the top). */
@@ -252,7 +361,12 @@ export function Props({ world, clock }: { world: World; clock: Clock }) {
           case 'sideRoad': return <CrossRoad key={i} world={world} y={p.y} h={p.h ?? 60} x0={p.x0 ?? -520} x1={p.x1 ?? 112} />
           case 'rails': return <Rails key={i} world={world} y={p.y} />
           case 'zebra': return <Zebra key={i} world={world} y={p.y} x0={p.x0} w={p.w} />
-          case 'light': return <TrafficLight key={i} world={world} x={p.x} y={p.y} color={p.color} />
+          case 'light': return <TrafficLight key={i} world={world} x={p.x} y={p.y} color={p.color} cycle={p.cycle} flash={p.flash} kind={p.kind} clock={clock} scale={p.scale} />
+          case 'officer': return <Officer key={i} world={world} x={p.x} y={p.y} pose={p.pose} />
+          case 'arrow': return <RoadArrow key={i} world={world} x={p.x} y={p.y} dir={p.dir} />
+          case 'hatch': return <Hatch key={i} world={world} x={p.x} y={p.y} w={p.w} h={p.h} />
+          case 'kerb': return <Kerb key={i} world={world} x={p.x} y0={p.y0} y1={p.y1} />
+          case 'roadText': return <RoadText key={i} world={world} x={p.x} y={p.y} text={p.text} color={p.color} size={p.size} />
           case 'sign': return p.img ? <SignPost key={i} world={world} x={p.x} y={p.y} img={p.img} clock={clock} t0={p.t0} crop={p.crop} /> : null
           case 'stopLine': return <Line2D key={i} world={world} x0={182} x1={248} y={p.y} dashed={p.dashed} />
           case 'island': return <Island key={i} world={world} x={p.x} y={p.y} w={p.w} h={p.h} />

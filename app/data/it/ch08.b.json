@@ -1,0 +1,470 @@
+{
+ "q21302": {
+  "short": "La parte verde dice PIACENZA 4: l'uscita per Piacenza è tra 4 km.",
+  "rule": "Verde = autostrada. Riquadro bianco: km 54 dall'inizio dell'autostrada (distanza progressiva). A destra: uscita per Piacenza tra 4 km.",
+  "trap": "«svincolo d'uscita» è l'uscita: la sua distanza è il numero a destra, 4.",
+  "caption": "Uscita per Piacenza tra 4 km"
+ },
+ "q21303": {
+  "short": "Il verde è il colore dei segnali di autostrada: il segnale sta lungo un'autostrada.",
+  "rule": "Verde = autostrada. Riquadro bianco: km 54 dall'inizio dell'autostrada (distanza progressiva). A destra: uscita per Piacenza tra 4 km.",
+  "trap": "«autostrada»: lo dice il fondo verde.",
+  "caption": "Fondo verde = autostrada"
+ },
+ "q21304": {
+  "short": "Il riquadro bianco a sinistra è il km 54; la parte verde a destra è la distanza dall'uscita per Piacenza.",
+  "rule": "Verde = autostrada. Riquadro bianco: km 54 dall'inizio dell'autostrada (distanza progressiva). A destra: uscita per Piacenza tra 4 km.",
+  "trap": "«casello d'uscita» è l'uscita dove lasci l'autostrada.",
+  "caption": "Sinistra: km 54. Destra: uscita Piacenza tra 4 km"
+ },
+ "q21305": {
+  "short": "54 vuol dire che sei a 54 km dal punto dove comincia l'autostrada.",
+  "rule": "Verde = autostrada. Riquadro bianco: km 54 dall'inizio dell'autostrada (distanza progressiva). A destra: uscita per Piacenza tra 4 km.",
+  "trap": "«luogo di origine» è l'inizio dell'autostrada, dove c'è il km 0.",
+  "caption": "Km 54 dall'inizio dell'autostrada"
+ },
+ "q21306": {
+  "short": "PIACENZA 4 vuol dire: ancora 4 km all'uscita per Piacenza.",
+  "rule": "Verde = autostrada. Riquadro bianco: km 54 dall'inizio dell'autostrada (distanza progressiva). A destra: uscita per Piacenza tra 4 km.",
+  "trap": "«mancano» vuol dire che sono ancora da fare: 4 km davanti a te.",
+  "caption": "Mancano 4 km all'uscita per Piacenza"
+ },
+ "q21307": {
+  "short": "Dà informazioni (km e uscite); non dà ordini e non avvisa di pericoli.",
+  "rule": "Verde = autostrada. Riquadro bianco: km 54 dall'inizio dell'autostrada (distanza progressiva). A destra: uscita per Piacenza tra 4 km.",
+  "trap": "«segnali di indicazione» danno solo informazioni: niente pericolo, niente obbligo.",
+  "caption": "Un segnale di indicazione"
+ },
+ "q21308": {
+  "short": "54 è il chilometro progressivo; l'uscita per Piacenza è a soli 4 km.",
+  "rule": "Verde = autostrada. Riquadro bianco: km 54 dall'inizio dell'autostrada (distanza progressiva). A destra: uscita per Piacenza tra 4 km.",
+  "trap": "«54» sta nel riquadro bianco (chilometro), non vicino a PIACENZA.",
+  "caption": "54 = chilometro; Piacenza è a 4 km"
+ },
+ "q21309": {
+  "short": "54 è una distanza in km dall'inizio dell'autostrada, non il suo numero.",
+  "rule": "Verde = autostrada. Riquadro bianco: km 54 dall'inizio dell'autostrada (distanza progressiva). A destra: uscita per Piacenza tra 4 km.",
+  "trap": "«autostrada n. 54»: i numeri delle autostrade iniziano con A (come A1); qui 54 sono km.",
+  "caption": "54 sono km, non il numero dell'autostrada"
+ },
+ "q21310": {
+  "short": "Il numero a sinistra è il chilometro progressivo, non una velocità.",
+  "rule": "Verde = autostrada. Riquadro bianco: km 54 dall'inizio dell'autostrada (distanza progressiva). A destra: uscita per Piacenza tra 4 km.",
+  "trap": "«velocità consigliata» ha un suo segnale quadrato blu; qui 54 sono km.",
+  "caption": "Numero a sinistra = km, non velocità"
+ },
+ "q21311": {
+  "short": "I 4 km sono ancora davanti: l'uscita per Piacenza deve ancora arrivare.",
+  "rule": "Verde = autostrada. Riquadro bianco: km 54 dall'inizio dell'autostrada (distanza progressiva). A destra: uscita per Piacenza tra 4 km.",
+  "trap": "«già percorsi» è sbagliato: i 4 km sono ancora da fare.",
+  "caption": "4 km PER Piacenza, non DA Piacenza"
+ },
+ "q21312": {
+  "short": "L'inizio di un paese è un segnale bianco con il nome; questo segnale verde è di autostrada.",
+  "rule": "Verde = autostrada. Riquadro bianco: km 54 dall'inizio dell'autostrada (distanza progressiva). A destra: uscita per Piacenza tra 4 km.",
+  "trap": "«inizio di un centro abitato»: no, questo segnale sta in autostrada.",
+  "caption": "Distanza in autostrada, non un paese"
+ },
+ "q21313": {
+  "short": "Indica il posto dove i taxi che lavorano si fermano e aspettano i clienti.",
+  "rule": "Il segnale TAXI indica un'area di sosta solo per i taxi in servizio. Gli altri veicoli non possono sostare lì.",
+  "trap": "«in servizio» vuol dire taxi che stanno lavorando.",
+  "caption": "Posteggio taxi: solo taxi in servizio"
+ },
+ "q21314": {
+  "short": "Lì possono sostare solo i taxi in servizio; le altre auto no.",
+  "rule": "Il segnale TAXI indica un'area di sosta solo per i taxi in servizio. Gli altri veicoli non possono sostare lì.",
+  "trap": "«ad uso esclusivo» vuol dire solo per loro.",
+  "caption": "Qui sostano solo i taxi in servizio"
+ },
+ "q21315": {
+  "short": "«Parcheggio riservato» è un altro modo per dire: solo per i taxi in servizio.",
+  "rule": "Il segnale TAXI indica un'area di sosta solo per i taxi in servizio. Gli altri veicoli non possono sostare lì.",
+  "trap": "«riservato» vuol dire che gli altri veicoli non lo possono usare.",
+  "caption": "Parcheggio riservato ai taxi"
+ },
+ "q21316": {
+  "short": "A terra l'area dei taxi ha strisce gialle e la scritta TAXI.",
+  "rule": "Il segnale TAXI indica un'area di sosta solo per i taxi in servizio. Gli altri veicoli non possono sostare lì.",
+  "trap": "«strisce gialle» segnano i posti riservati, come quelli dei taxi.",
+  "caption": "Strisce gialle e TAXI a terra"
+ },
+ "q21317": {
+  "short": "Indica un posto di sosta per taxi; non parla di sorpasso.",
+  "rule": "Il segnale TAXI indica un'area di sosta solo per i taxi in servizio. Gli altri veicoli non possono sostare lì.",
+  "trap": "«divieto di sorpasso» è un segnale rotondo rosso con due auto.",
+  "caption": "Sosta taxi, non divieto di sorpasso"
+ },
+ "q21318": {
+  "short": "Indica dove i taxi POSSONO sostare; non chiude la strada ai taxi.",
+  "rule": "Il segnale TAXI indica un'area di sosta solo per i taxi in servizio. Gli altri veicoli non possono sostare lì.",
+  "trap": "«strada vietata» sarebbe un segnale rotondo rosso.",
+  "caption": "Qui i taxi sostano, la strada non è vietata"
+ },
+ "q21319": {
+  "short": "Indica un'area di sosta per taxi, non un telefono per chiamarli.",
+  "rule": "Il segnale TAXI indica un'area di sosta solo per i taxi in servizio. Gli altri veicoli non possono sostare lì.",
+  "trap": "«apparecchio per chiamare»: sul segnale non c'è nessun telefono.",
+  "caption": "Sosta taxi, non telefono per taxi"
+ },
+ "q21320": {
+  "short": "Indica solo un'area di sosta per taxi; non parla di radio.",
+  "rule": "Il segnale TAXI indica un'area di sosta solo per i taxi in servizio. Gli altri veicoli non possono sostare lì.",
+  "trap": "«stazione radio» non c'entra con questo segnale.",
+  "caption": "Sosta taxi, non stazione radio"
+ },
+ "q21321": {
+  "short": "È un segnale normale, dipinto; non si accende da solo.",
+  "rule": "Il segnale TAXI indica un'area di sosta solo per i taxi in servizio. Gli altri veicoli non possono sostare lì.",
+  "trap": "«luce propria»: questo segnale non ha una lampada dentro.",
+  "caption": "Segnale normale, senza luce propria"
+ },
+ "q21322": {
+  "short": "Indica un'area di sosta sulla strada, non un garage (un edificio chiuso).",
+  "rule": "Il segnale TAXI indica un'area di sosta solo per i taxi in servizio. Gli altri veicoli non possono sostare lì.",
+  "trap": "«garage» è un edificio; l'area taxi è sulla strada.",
+  "caption": "Area taxi in strada, non un garage"
+ },
+ "q21323": {
+  "short": "La cornetta dice che c'è un telefono pubblico vicino.",
+  "rule": "Segnale blu con la cornetta: c'è un telefono pubblico vicino. È solo un'informazione.",
+  "trap": "«posto di telefono pubblico» è un posto con un telefono pubblico.",
+  "caption": "Telefono pubblico vicino"
+ },
+ "q21324": {
+  "short": "Il segnale dice che sei vicino a un telefono pubblico.",
+  "rule": "Segnale blu con la cornetta: c'è un telefono pubblico vicino. È solo un'informazione.",
+  "trap": "«apparecchio telefonico» vuol dire semplicemente telefono.",
+  "caption": "Telefono pubblico vicino"
+ },
+ "q21325": {
+  "short": "Poco più avanti c'è un telefono pubblico: lì puoi telefonare.",
+  "rule": "Segnale blu con la cornetta: c'è un telefono pubblico vicino. È solo un'informazione.",
+  "trap": "«a breve distanza» vuol dire vicino.",
+  "caption": "Più avanti puoi telefonare da un telefono pubblico"
+ },
+ "q21326": {
+  "short": "Questo segnale blu di servizio si usa sulle strade fuori città.",
+  "rule": "Segnale blu con la cornetta: c'è un telefono pubblico vicino. È solo un'informazione.",
+  "trap": "«strade extraurbane» sono le strade fuori dai centri abitati; il segnale si usa lì.",
+  "caption": "Telefono pubblico su strada extraurbana"
+ },
+ "q21327": {
+  "short": "Indica un telefono pubblico, non un negozio di cellulari.",
+  "rule": "Segnale blu con la cornetta: c'è un telefono pubblico vicino. È solo un'informazione.",
+  "trap": "«negozio di telefonia mobile»: i segnali stradali non indicano negozi.",
+  "caption": "Telefono pubblico, non negozio"
+ },
+ "q21328": {
+  "short": "Il pronto soccorso ha un suo segnale con la croce rossa; questo è solo un telefono.",
+  "rule": "Segnale blu con la cornetta: c'è un telefono pubblico vicino. È solo un'informazione.",
+  "trap": "«pronto soccorso» qui non c'è.",
+  "caption": "Telefono pubblico, non pronto soccorso"
+ },
+ "q21329": {
+  "short": "Indica un telefono pubblico; non parla di ricarica dei cellulari.",
+  "rule": "Segnale blu con la cornetta: c'è un telefono pubblico vicino. È solo un'informazione.",
+  "trap": "«ricaricare»: su questo segnale non si parla di ricarica.",
+  "caption": "Telefono pubblico, non ricarica"
+ },
+ "q21330": {
+  "short": "È un segnale di indicazione: non vieta niente. Un divieto è rotondo e rosso.",
+  "rule": "Segnale blu con la cornetta: c'è un telefono pubblico vicino. È solo un'informazione.",
+  "trap": "«vietato»: i segnali quadrati blu informano, non vietano.",
+  "caption": "Informazione, non divieto di cellulari"
+ },
+ "q21331": {
+  "short": "Parla di un telefono pubblico, non della rete del cellulare.",
+  "rule": "Segnale blu con la cornetta: c'è un telefono pubblico vicino. È solo un'informazione.",
+  "trap": "«coperta dal segnale»: il segnale non parla della rete del cellulare.",
+  "caption": "Telefono pubblico, non copertura cellulare"
+ },
+ "q21332": {
+  "short": "Non dà regole sui cellulari; indica solo un telefono pubblico.",
+  "rule": "Segnale blu con la cornetta: c'è un telefono pubblico vicino. È solo un'informazione.",
+  "trap": "«solo» e «viva voce»: il segnale non parla di cellulari.",
+  "caption": "Telefono pubblico, nessuna regola sui cellulari"
+ },
+ "q21333": {
+  "short": "La pompa indica un posto dove fare carburante.",
+  "rule": "Segnale blu con la pompa: a breve distanza puoi fare rifornimento. Solo informazione.",
+  "trap": "«rifornimento» vuol dire fare il pieno.",
+  "caption": "Distributore a breve distanza"
+ },
+ "q21334": {
+  "short": "La pompa dice che c'è un distributore vicino.",
+  "rule": "Segnale blu con la pompa: a breve distanza puoi fare rifornimento. Solo informazione.",
+  "trap": "«nelle vicinanze» vuol dire vicino.",
+  "caption": "Distributore a breve distanza"
+ },
+ "q21335": {
+  "short": "Poco più avanti c'è un distributore dove fare carburante.",
+  "rule": "Segnale blu con la pompa: a breve distanza puoi fare rifornimento. Solo informazione.",
+  "trap": "«a breve distanza» vuol dire poco lontano.",
+  "caption": "Distributore a breve distanza"
+ },
+ "q21336": {
+  "short": "La pompa vuol dire un distributore poco più avanti.",
+  "rule": "Segnale blu con la pompa: a breve distanza puoi fare rifornimento. Solo informazione.",
+  "trap": "«stazione di rifornimento» è un altro nome del distributore.",
+  "caption": "Distributore a breve distanza"
+ },
+ "q21337": {
+  "short": "Su questa strada, poco più avanti, c'è un distributore.",
+  "rule": "Segnale blu con la pompa: a breve distanza puoi fare rifornimento. Solo informazione.",
+  "trap": "«distributore di carburante» è la stazione di servizio.",
+  "caption": "Distributore a breve distanza"
+ },
+ "q21338": {
+  "short": "L'officina ha un suo segnale con la chiave inglese; la pompa vuol dire carburante.",
+  "rule": "Segnale blu con la pompa: a breve distanza puoi fare rifornimento. Solo informazione.",
+  "trap": "«officina»: la pompa vuol dire carburante, non riparazioni.",
+  "caption": "Distributore, non officina"
+ },
+ "q21339": {
+  "short": "Il segnale del telefono ha la cornetta; questo ha una pompa di carburante.",
+  "rule": "Segnale blu con la pompa: a breve distanza puoi fare rifornimento. Solo informazione.",
+  "trap": "«posto telefonico»: il simbolo è una pompa, non una cornetta.",
+  "caption": "Pompa di carburante, non telefono"
+ },
+ "q21340": {
+  "short": "Il parcheggio ha la P; questo segnale ha una pompa di carburante.",
+  "rule": "Segnale blu con la pompa: a breve distanza puoi fare rifornimento. Solo informazione.",
+  "trap": "«area di sosta» ha il segnale con la P, non la pompa.",
+  "caption": "Distributore, non parcheggio"
+ },
+ "q21341": {
+  "short": "È un distributore normale per tutti; sul segnale non c'è scritto GPL.",
+  "rule": "Segnale blu con la pompa: a breve distanza puoi fare rifornimento. Solo informazione.",
+  "trap": "«solo»: il segnale non parla di GPL.",
+  "caption": "Carburante per tutti, non solo GPL"
+ },
+ "q21342": {
+  "short": "La raffineria è una fabbrica che produce carburante; il segnale indica dove comprarlo.",
+  "rule": "Segnale blu con la pompa: a breve distanza puoi fare rifornimento. Solo informazione.",
+  "trap": "«raffineria» è una fabbrica, non un distributore.",
+  "caption": "Distributore, non raffineria"
+ },
+ "q21343": {
+  "short": "Non vieta niente: è un'informazione. I divieti sono rotondi e rossi.",
+  "rule": "Segnale blu con la pompa: a breve distanza puoi fare rifornimento. Solo informazione.",
+  "trap": "«vieta il transito»: i segnali quadrati blu non vietano.",
+  "caption": "Solo informazione, non vieta niente"
+ },
+ "q21344": {
+  "short": "Giallo vuol dire temporaneo: avvisa di una deviazione più avanti.",
+  "rule": "Giallo = segnale temporaneo per lavori. Preavvisa una deviazione; il pannello in basso (2 km) è la lunghezza della deviazione.",
+  "trap": "«temporanea»: i segnali gialli sono per i lavori e restano poco tempo.",
+  "caption": "Deviazione più avanti per lavori"
+ },
+ "q21345": {
+  "short": "La strada è chiusa per lavori (il triangolo sulla freccia): il traffico gira intorno.",
+  "rule": "Giallo = segnale temporaneo per lavori. Preavvisa una deviazione; il pannello in basso (2 km) è la lunghezza della deviazione.",
+  "trap": "«interruzione»: la strada dritta è chiusa, la deviazione gira intorno.",
+  "caption": "Strada chiusa per lavori: deviazione"
+ },
+ "q21346": {
+  "short": "Il fondo giallo vuol dire segnale temporaneo per lavori.",
+  "rule": "Giallo = segnale temporaneo per lavori. Preavvisa una deviazione; il pannello in basso (2 km) è la lunghezza della deviazione.",
+  "trap": "«segnali temporanei» hanno il fondo giallo.",
+  "caption": "Giallo = segnale temporaneo per lavori"
+ },
+ "q21347": {
+  "short": "Il pannello in basso «2 km», con le frecce ai lati, dice quanto è lunga la deviazione.",
+  "rule": "Giallo = segnale temporaneo per lavori. Preavvisa una deviazione; il pannello in basso (2 km) è la lunghezza della deviazione.",
+  "trap": "«lunghezza»: 2 km è quanto è lunga la deviazione, non quanto è lontana.",
+  "caption": "Deviazione lunga 2 km"
+ },
+ "q21348": {
+  "short": "Novara si raggiunge: la deviazione gira intorno ai lavori e torna sulla strada.",
+  "rule": "Giallo = segnale temporaneo per lavori. Preavvisa una deviazione; il pannello in basso (2 km) è la lunghezza della deviazione.",
+  "trap": "«assolutamente» è una parola estrema; la freccia arriva a Novara.",
+  "caption": "Si arriva a Novara con la deviazione"
+ },
+ "q21349": {
+  "short": "Si gira intorno ai lavori, non si torna indietro.",
+  "rule": "Giallo = segnale temporaneo per lavori. Preavvisa una deviazione; il pannello in basso (2 km) è la lunghezza della deviazione.",
+  "trap": "«tornare indietro»: la freccia va avanti, intorno ai lavori.",
+  "caption": "Si gira intorno ai lavori, non indietro"
+ },
+ "q21350": {
+  "short": "Avvisa di una deviazione per lavori; non indica un posto per fermarsi.",
+  "rule": "Giallo = segnale temporaneo per lavori. Preavvisa una deviazione; il pannello in basso (2 km) è la lunghezza della deviazione.",
+  "trap": "«piazzola di sosta» qui non c'è.",
+  "caption": "Deviazione per lavori, non piazzola"
+ },
+ "q21351": {
+  "short": "I 2 km sono la lunghezza della deviazione; non c'è un'area di servizio.",
+  "rule": "Giallo = segnale temporaneo per lavori. Preavvisa una deviazione; il pannello in basso (2 km) è la lunghezza della deviazione.",
+  "trap": "«area di servizio» non c'è su questo segnale.",
+  "caption": "2 km = lunghezza deviazione, niente area di servizio"
+ },
+ "q21352": {
+  "short": "I 2 km sono la lunghezza della deviazione, non del cantiere.",
+  "rule": "Giallo = segnale temporaneo per lavori. Preavvisa una deviazione; il pannello in basso (2 km) è la lunghezza della deviazione.",
+  "trap": "«cantiere»: i 2 km sono della deviazione, non dei lavori.",
+  "caption": "2 km = deviazione, non cantiere"
+ },
+ "q21353": {
+  "short": "Il pannello 2 km è la lunghezza della deviazione, non dove sta il segnale.",
+  "rule": "Giallo = segnale temporaneo per lavori. Preavvisa una deviazione; il pannello in basso (2 km) è la lunghezza della deviazione.",
+  "trap": "«posto a 2 chilometri»: 2 km è una lunghezza, non una posizione.",
+  "caption": "2 km = lunghezza, non posizione del segnale"
+ },
+ "q21354": {
+  "short": "Il pannello con le frecce ai lati dà la lunghezza della deviazione, non la distanza.",
+  "rule": "Giallo = segnale temporaneo per lavori. Preavvisa una deviazione; il pannello in basso (2 km) è la lunghezza della deviazione.",
+  "trap": "«a 2 chilometri di distanza»: il pannello dà una lunghezza, non una distanza.",
+  "caption": "Lunga 2 km, non a 2 km"
+ },
+ "q21355": {
+  "short": "Il fondo bianco vuol dire strade urbane; le frecce mostrano un incrocio più avanti.",
+  "rule": "Bianco = segnale urbano di direzione. Incrocio più avanti: diritto Sora e Napoli, a destra centro e stazione.",
+  "trap": "«incrocio urbano»: il fondo bianco vuol dire in città.",
+  "caption": "Incrocio urbano più avanti"
+ },
+ "q21356": {
+  "short": "Sora, Napoli, centro e stazione sono i luoghi che raggiungi da quell'incrocio.",
+  "rule": "Bianco = segnale urbano di direzione. Incrocio più avanti: diritto Sora e Napoli, a destra centro e stazione.",
+  "trap": "«raggiungibili» vuol dire che si possono raggiungere.",
+  "caption": "Luoghi raggiungibili dall'incrocio"
+ },
+ "q21357": {
+  "short": "«stazione» con il trenino sta sulla freccia a destra.",
+  "rule": "Bianco = segnale urbano di direzione. Incrocio più avanti: diritto Sora e Napoli, a destra centro e stazione.",
+  "trap": "«stazione ferroviaria»: il piccolo trenino la indica.",
+  "caption": "A destra per la stazione"
+ },
+ "q21358": {
+  "short": "«centro» con il suo simbolo tondo sta sulla freccia a destra.",
+  "rule": "Bianco = segnale urbano di direzione. Incrocio più avanti: diritto Sora e Napoli, a destra centro e stazione.",
+  "trap": "«centro della città»: scritto «centro» con un simbolo tondo.",
+  "caption": "A destra per il centro"
+ },
+ "q21359": {
+  "short": "Sora è nel pannello blu in cima alla freccia diritta.",
+  "rule": "Bianco = segnale urbano di direzione. Incrocio più avanti: diritto Sora e Napoli, a destra centro e stazione.",
+  "trap": "«proseguire diritto» vuol dire andare dritto.",
+  "caption": "Diritto per Sora"
+ },
+ "q21360": {
+  "short": "Napoli è nel pannello blu in cima alla freccia diritta.",
+  "rule": "Bianco = segnale urbano di direzione. Incrocio più avanti: diritto Sora e Napoli, a destra centro e stazione.",
+  "trap": "«proseguire diritto» vuol dire andare dritto.",
+  "caption": "Diritto per Napoli"
+ },
+ "q21361": {
+  "short": "Il fondo bianco è per le strade urbane; fuori città i segnali di direzione sono blu.",
+  "rule": "Bianco = segnale urbano di direzione. Incrocio più avanti: diritto Sora e Napoli, a destra centro e stazione.",
+  "trap": "«strade extraurbane»: il fondo bianco vuol dire in città.",
+  "caption": "Bianco = in città, non fuori"
+ },
+ "q21362": {
+  "short": "A destra si va al centro e alla stazione, che sono in città.",
+  "rule": "Bianco = segnale urbano di direzione. Incrocio più avanti: diritto Sora e Napoli, a destra centro e stazione.",
+  "trap": "«uscire dal centro abitato»: a destra si va al centro.",
+  "caption": "A destra si va al centro, non fuori"
+ },
+ "q21363": {
+  "short": "Il centro è a destra; nessuna freccia va indietro.",
+  "rule": "Bianco = segnale urbano di direzione. Incrocio più avanti: diritto Sora e Napoli, a destra centro e stazione.",
+  "trap": "«tornare indietro»: nessuna freccia del segnale va indietro.",
+  "caption": "Il centro è a destra, non indietro"
+ },
+ "q21364": {
+  "short": "A destra ci sono il centro e la stazione, non un'area di sosta.",
+  "rule": "Bianco = segnale urbano di direzione. Incrocio più avanti: diritto Sora e Napoli, a destra centro e stazione.",
+  "trap": "«area di sosta» avrebbe una P; qui: centro e stazione.",
+  "caption": "A destra: centro e stazione, niente sosta"
+ },
+ "q21365": {
+  "short": "Il trenino vicino a «stazione» indica la stazione, non un passaggio a livello.",
+  "rule": "Bianco = segnale urbano di direzione. Incrocio più avanti: diritto Sora e Napoli, a destra centro e stazione.",
+  "trap": "«passaggio a livello» è un segnale di pericolo; qui il treno vuol dire stazione.",
+  "caption": "Trenino = stazione, non passaggio a livello"
+ },
+ "q21366": {
+  "short": "La freccia incrocia due strade: due incroci uno dopo l'altro.",
+  "rule": "Due incroci vicini. 1°: sinistra vietato, destra via Gemona. 2°: sinistra Austria e ospedale, destra Trieste e centro.",
+  "trap": "«due incroci vicini»: conta gli incroci sulla freccia.",
+  "caption": "Due incroci vicini"
+ },
+ "q21367": {
+  "short": "Al primo incrocio (in basso) a sinistra c'è il disco rosso di senso vietato.",
+  "rule": "Due incroci vicini. 1°: sinistra vietato, destra via Gemona. 2°: sinistra Austria e ospedale, destra Trieste e centro.",
+  "trap": "«primo incrocio» è quello in basso, con il disco rosso.",
+  "caption": "1° incrocio: a sinistra no"
+ },
+ "q21368": {
+  "short": "«ospedale» è a sinistra al secondo incrocio (in alto).",
+  "rule": "Due incroci vicini. 1°: sinistra vietato, destra via Gemona. 2°: sinistra Austria e ospedale, destra Trieste e centro.",
+  "trap": "«secondo incrocio» è quello in alto.",
+  "caption": "2° incrocio: a sinistra ospedale"
+ },
+ "q21369": {
+  "short": "«via Gemona» è a destra al primo incrocio (in basso).",
+  "rule": "Due incroci vicini. 1°: sinistra vietato, destra via Gemona. 2°: sinistra Austria e ospedale, destra Trieste e centro.",
+  "trap": "«via Gemona» è il nome di una via, scritto vicino al primo incrocio.",
+  "caption": "1° incrocio: a destra via Gemona"
+ },
+ "q21370": {
+  "short": "«centro» è a destra al secondo incrocio (in alto).",
+  "rule": "Due incroci vicini. 1°: sinistra vietato, destra via Gemona. 2°: sinistra Austria e ospedale, destra Trieste e centro.",
+  "trap": "«secondo incrocio» è quello in alto.",
+  "caption": "2° incrocio: a destra centro"
+ },
+ "q21371": {
+  "short": "Trieste è nel pannello blu a destra, al secondo incrocio.",
+  "rule": "Due incroci vicini. 1°: sinistra vietato, destra via Gemona. 2°: sinistra Austria e ospedale, destra Trieste e centro.",
+  "trap": "«in direzione» vuol dire verso.",
+  "caption": "2° incrocio: a destra Trieste"
+ },
+ "q21372": {
+  "short": "Austria è nel pannello blu a sinistra, al secondo incrocio.",
+  "rule": "Due incroci vicini. 1°: sinistra vietato, destra via Gemona. 2°: sinistra Austria e ospedale, destra Trieste e centro.",
+  "trap": "«secondo incrocio»: la prima a sinistra è senso vietato.",
+  "caption": "2° incrocio: a sinistra Austria"
+ },
+ "q21373": {
+  "short": "Il fondo bianco vuol dire strada urbana, e ci sono due incroci.",
+  "rule": "Due incroci vicini. 1°: sinistra vietato, destra via Gemona. 2°: sinistra Austria e ospedale, destra Trieste e centro.",
+  "trap": "«strada urbana»: lo dice il fondo bianco.",
+  "caption": "Due incroci su strada urbana"
+ },
+ "q21374": {
+  "short": "Il fondo bianco è per le strade urbane; fuori città i segnali di direzione sono blu.",
+  "rule": "Due incroci vicini. 1°: sinistra vietato, destra via Gemona. 2°: sinistra Austria e ospedale, destra Trieste e centro.",
+  "trap": "«strade extraurbane»: il fondo bianco vuol dire in città.",
+  "caption": "Bianco = in città, non fuori"
+ },
+ "q21375": {
+  "short": "Mostra le direzioni a due incroci, niente sulla sosta.",
+  "rule": "Due incroci vicini. 1°: sinistra vietato, destra via Gemona. 2°: sinistra Austria e ospedale, destra Trieste e centro.",
+  "trap": "«lasciare in sosta»: il segnale parla di direzioni, non di sosta.",
+  "caption": "Direzioni, non sosta"
+ },
+ "q21376": {
+  "short": "Per l'Austria giri a sinistra al secondo incrocio; nessuna freccia va indietro.",
+  "rule": "Due incroci vicini. 1°: sinistra vietato, destra via Gemona. 2°: sinistra Austria e ospedale, destra Trieste e centro.",
+  "trap": "«tornare indietro»: l'Austria è alla seconda a sinistra.",
+  "caption": "Austria: a sinistra al 2° incrocio"
+ },
+ "q21377": {
+  "short": "Il disco rosso di senso vietato sulla prima a sinistra vuol dire: lì NON si gira.",
+  "rule": "Due incroci vicini. 1°: sinistra vietato, destra via Gemona. 2°: sinistra Austria e ospedale, destra Trieste e centro.",
+  "trap": "«consente»: il senso vietato vieta quella svolta.",
+  "caption": "1° incrocio: a sinistra senso vietato"
+ },
+ "q21378": {
+  "short": "Dà direzioni stradali in città; «centro» qui è il centro della città.",
+  "rule": "Due incroci vicini. 1°: sinistra vietato, destra via Gemona. 2°: sinistra Austria e ospedale, destra Trieste e centro.",
+  "trap": "«centro commerciale»: «centro» sul segnale è il centro città.",
+  "caption": "Direzioni in città, non centro commerciale"
+ },
+ "q21379": {
+  "short": "Le direzioni per l'autostrada sono su pannelli verdi; qui sono blu e bianchi.",
+  "rule": "Due incroci vicini. 1°: sinistra vietato, destra via Gemona. 2°: sinistra Austria e ospedale, destra Trieste e centro.",
+  "trap": "«autostrada»: su questo segnale non c'è verde.",
+  "caption": "Niente verde: niente autostrada"
+ }
+}

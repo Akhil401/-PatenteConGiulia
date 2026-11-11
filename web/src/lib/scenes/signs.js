@@ -28,6 +28,7 @@ const hazardIcon = (emoji, x = R, y = 70) => emoji ? `<g data-focus="${x},${y}" 
 /**
  * sign: the question's sign + what your car must do.
  * P.action: slow | stop | giveWay | priority | noEntry | noOvertake | turnLeft | turnRight | straight | keepRight | keepLeft |
+ *           straightOrRight | straightOrLeft | leftOrRight | eitherSide | narrowGiveWay | narrowPriority |
  *           noTurnLeft | noTurnRight | noUTurn | speedLimit | endLimit | park | noParking | noStopping | info
  * P.hazard: emoji shown ahead (danger signs), P.distance: e.g. "150 m", P.value: number for speed limits
  */
@@ -35,11 +36,15 @@ export function sign(P, q) {
   const a = P.action || "info";
   const img = q && q.image;
   const dur = 8800;
-  const crossing = ["stop", "giveWay", "priority", "turnLeft", "turnRight", "straight", "noTurnLeft", "noTurnRight", "noUTurn", "noEntry"].includes(a);
+  const TWO = { straightOrRight: ["straight", "right"], straightOrLeft: ["straight", "left"], leftOrRight: ["left", "right"] };
+  const crossing = ["stop", "giveWay", "priority", "turnLeft", "turnRight", "straight", "noTurnLeft", "noTurnRight", "noUTurn", "noEntry", ...Object.keys(TWO)].includes(a);
+  const narrow = a === "narrowGiveWay" || a === "narrowPriority";
   let bg = road2(a === "noOvertake" ? "dashed" : "dashed");
   if (crossing) bg += junction(100, 60);
   if (a === "stop") bg += stopLine(168, false) + label(R, 186, "STOP", { size: 13 });
   if (a === "giveWay") bg += stopLine(168, true) + `<path d="M196 182 L204 196 L212 182 Z M218 182 L226 196 L234 182 Z" fill="#fff"/>`;
+  if (narrow) bg += `<rect x="104" y="100" width="42" height="100" rx="8" fill="#94a3b8" stroke="#fff" stroke-width="2"/><rect x="214" y="100" width="42" height="100" rx="8" fill="#94a3b8" stroke="#fff" stroke-width="2"/>`;
+  if (a === "eitherSide") bg += `<rect x="168" y="90" width="24" height="90" rx="12" fill="#cbd5e1" stroke="#fff" stroke-width="2"/>`;
   if (a === "keepRight" || a === "keepLeft") bg += `<rect x="168" y="90" width="24" height="90" rx="12" fill="#cbd5e1" stroke="#fff" stroke-width="2"/>`;
   if (a === "park" || a === "noParking" || a === "noStopping") bg += `<rect x="250" y="40" width="40" height="300" fill="#4b5262"/>` + Array.from({ length: 5 }, (_, i) => `<line x1="250" y1="${50 + i * 60}" x2="290" y2="${50 + i * 60}" stroke="#fff" stroke-width="2"/>`).join("");
   const shows = [{ t: 200, svg: `<g data-focus="${SIGN.x},${SIGN.y}">${signPost(img)}</g>` }];
@@ -94,6 +99,32 @@ export function sign(P, q) {
       shows.push({ t: 1800, t1: 3600, svg: ghost([[R, 240], [a === "keepRight" ? 150 : 232, 140]], false) });
       say = a === "keepRight" ? T("Pass on the RIGHT of the obstacle.", "Passa a DESTRA dell'ostacolo.") : T("Pass on the LEFT of the obstacle.", "Passa a SINISTRA dell'ostacolo."); break;
     }
+    case "straightOrRight": case "straightOrLeft": case "leftOrRight": {
+      // the two allowed exits in green, the forbidden one in red; your car takes the first allowed one
+      const path = { straight: [[R, 200], [R, 120], [R, 20]], right: [[R, 200], [R, 160], [330, 145]], left: [[R, 200], [R, 140], [40, 115]] };
+      const allowed = TWO[a], banned = ["straight", "left", "right"].find(d => !allowed.includes(d));
+      shows.push({ t: 1800, t1: 5200, svg: allowed.map(d => ghost(path[d], true)).join("") + ghost(path[banned], false) });
+      const d = allowed[0], rot = d === "left" ? -90 : d === "right" ? 90 : 0;
+      you = [{ t: 0, x: R, y: 470, r: 0 }, { t: 2600, x: R, y: 230, r: 0, blink: d === "left" ? "L" : d === "right" ? "R" : null },
+        { t: 4200, x: d === "left" ? 170 : d === "right" ? 235 : R, y: 140, r: rot * .6 }, { t: dur, x: d === "left" ? -60 : d === "right" ? 420 : R, y: d === "straight" ? -60 : d === "left" ? 115 : 145, r: rot, blink: null }];
+      const name = { straight: T("straight on", "dritto"), left: T("left", "a sinistra"), right: T("right", "a destra") };
+      say = T(`You may go ${name[allowed[0]]} or ${name[allowed[1]]}, nothing else.`, `Puoi andare ${name[allowed[0]]} o ${name[allowed[1]]}, non altrove.`); break;
+    }
+    case "eitherSide":
+      shows.push({ t: 1800, t1: 5200, svg: ghost([[R, 240], [228, 140], [R, 40]], true) + ghost([[R, 240], [132, 140], [R, 40]], true) });
+      you = [{ t: 0, x: R, y: 470 }, { t: 2200, x: R, y: 260 }, { t: 3600, x: 228, y: 150 }, { t: 5200, x: R, y: 40 }, { t: dur, x: R, y: -60 }];
+      say = T("You may pass the obstacle on either side.", "Puoi passare l'ostacolo da tutti e due i lati."); break;
+    case "narrowGiveWay":
+      // the road narrows: the oncoming car goes through first, you wait before the narrow part
+      actors.push({ id: "o", kind: "car", color: "#ef4444", keys: [{ t: 0, x: 180, y: -80 }, { t: 2600, x: 180, y: 60 }, { t: 5000, x: 180, y: 300 }, { t: dur, x: L, y: 520 }] });
+      you = [{ t: 0, x: R, y: 470 }, { t: 2400, x: R, y: 240, brake: true }, { t: 5200, x: R, y: 236, brake: false }, { t: 6400, x: 180, y: 120 }, { t: dur, x: R, y: -60 }];
+      shows.push({ t: 2600, svg: bubble(R - 70, 250, T("wait", "aspetta"), "#ef4444") });
+      say = T("Narrow passage: let the oncoming car through first.", "Strettoia: lascia passare prima chi arriva di fronte."); break;
+    case "narrowPriority":
+      // the road narrows: you go first, the oncoming car waits
+      actors.push({ id: "o", kind: "car", color: "#94a3b8", keys: [{ t: 0, x: L, y: -60 }, { t: 2400, x: L, y: 70, brake: true }, { t: 5600, x: L, y: 74, brake: false }, { t: dur, x: L, y: 420 }] });
+      you = [{ t: 0, x: R, y: 470 }, { t: 2600, x: R, y: 240 }, { t: 4200, x: 180, y: 150 }, { t: 5400, x: R, y: 40 }, { t: dur, x: R, y: -60 }];
+      say = T("Narrow passage: you go first, the oncoming car waits.", "Strettoia: passi prima tu, chi arriva di fronte aspetta."); break;
     case "speedLimit": case "endLimit":
       you = [{ t: 0, x: R, y: 470 }, { t: 2400, x: R, y: 280, brake: a === "speedLimit" }, { t: 3400, x: R, y: 240, brake: false }, { t: dur, x: R, y: -20 }];
       shows.push({ t: 2600, svg: bubble(R - 78, 210, a === "speedLimit" ? `≤ ${P.value || "?"} km/h` : T("limit ends", "fine limite"), a === "speedLimit" ? "#ef4444" : "#22c55e") });
@@ -120,11 +151,13 @@ export function sign(P, q) {
   if (crossing) props.push({ type: "junction", y: 100, h: 60 });
   if (a === "stop") props.push({ type: "stopLine", y: 168 });
   if (a === "giveWay") props.push({ type: "stopLine", y: 168, dashed: true });
-  if (a === "keepRight" || a === "keepLeft") props.push({ type: "island", x: 168, y: 90, w: 24, h: 90 });
+  if (a === "keepRight" || a === "keepLeft" || a === "eitherSide") props.push({ type: "island", x: 168, y: 90, w: 24, h: 90 });
+  if (narrow) props.push({ type: "island", x: 104, y: 100, w: 42, h: 100 }, { type: "island", x: 214, y: 100, w: 42, h: 100 });
   if (a === "park" || a === "noParking" || a === "noStopping") props.push({ type: "patch", x: 250, y: 40, w: 40, h: 300, color: "#4b5262" });
   if ((a === "slow" || a === "info") && P.hazard) props.push({ type: "hazard", x: R, y: 70, emoji: P.hazard, t0: 2400 });
   if (P.distance) props.push({ type: "label", x: 270, y: 150, text: P.distance, t0: 2600 });
-  return { duration: dur, bg, actors, shows, steps, verdict: { ok }, world3d: { road: "twoWay", props } };
+  const model = img && markingModel(img, dur);
+  return { duration: dur, bg, actors, shows, steps, verdict: { ok }, world3d: model ? { ...model, inset: img } : { road: "twoWay", props } };
 }
 
 /** figure: the official picture of the question, big on the board, with the rule appearing line by line. */
@@ -197,14 +230,153 @@ function figureModel(img, dur) {
       { type: "sign", x: 268, y: -70, img, crop: CROP_B, t0: 1800 }, lbl(300, -70, "B", 2000)],
     actors: [{ id: "you", kind: "you", keys: [{ t: 0, x: 215, y: 470 }, { t: dur, x: 215, y: -40 }] },
       { id: "onc", kind: "car", color: "#e11d48", keys: [{ t: 0, x: 145, y: -320 }, { t: dur, x: 145, y: 380 }] }] };
+  // roundabout: warning triangle (B) first, then the blue roundabout disc (A) - ch04 q20287
+  if (has("a546518b46a8")) return { road: "twoWay", line: "dashed",
+    props: [{ type: "sign", x: 268, y: 150, img, crop: [.248, .534, .774, .964], t0: 200 }, lbl(300, 150, "B", 400),
+      { type: "sign", x: 268, y: -70, img, crop: [.242, .109, .726, .505], t0: 1800 }, lbl(300, -70, "A", 2000)],
+    actors: [{ id: "you", kind: "you", keys: [{ t: 0, x: 215, y: 470 }, { t: dur, x: 215, y: -40 }] },
+      { id: "onc", kind: "car", color: "#e11d48", keys: [{ t: 0, x: 145, y: -320 }, { t: dur, x: 145, y: 380 }] }] };
   // keep at least 70 m from the vehicle ahead
   if (has("1be58ec74bcd")) return { road: "twoWay", line: "dashed",
     props: [{ type: "sign", x: 268, y: 60, img, t0: 200 }],
     gap: { a: "lead", b: "you", text: "≥ 70 m", t0: 2400 },
     actors: [{ id: "lead", kind: "truck", color: "#f59e0b", keys: [{ t: 0, x: 215, y: 130 }, { t: dur, x: 215, y: -420 }] },
       { id: "you", kind: "you", keys: [{ t: 0, x: 215, y: 420 }, { t: dur, x: 215, y: -130 }] }] };
+  return markingModel(img, dur);
+}
+
+/* ---------- 3D models for road markings (chapter 6), traffic lights and police officers (chapter 7) ----------
+   Facts only: the labels say what the marking / light / gesture IS, never whether a quiz statement is true. */
+const youCar = (keys) => ({ id: "you", kind: "you", keys });
+const slowTruck = (dur) => ({ id: "trk", kind: "truck", color: "#0f766e", keys: [{ t: 0, x: R, y: 230 }, { t: dur, x: R, y: -60 }] });
+const tag = (x, y, en, it, t0 = 1600, big) => ({ type: "label", x, y, text: T(en, it), t0, big });
+// you behind a slow truck: overtake (crossing the centre line) or stay behind
+const passTruck = (dur) => youCar([{ t: 0, x: R, y: 470 }, { t: 1500, x: R, y: 330 }, { t: 2800, x: L, y: 230 }, { t: 4600, x: L, y: 40 }, { t: 6000, x: R, y: -60 }, { t: dur, x: R, y: -200 }]);
+const followTruck = (dur) => youCar([{ t: 0, x: R, y: 470 }, { t: dur, x: R, y: 330 }]);
+// you drive up to a line at y and stop there
+const stopAt = (y, dur, go) => youCar(go ? [{ t: 0, x: R, y: 470 }, { t: dur * .4, x: R, y: y + 40, brake: true }, { t: go, x: R, y: y + 36, brake: true }, { t: dur, x: R, y: -60 }]
+  : [{ t: 0, x: R, y: 470 }, { t: dur * .45, x: R, y: y + 40, brake: true }, { t: dur, x: R, y: y + 36, brake: true }]);
+const close = { cam: "orbit", orbitR: 17, orbitH: 8 };
+
+function markingModel(img, dur) {
+  const has = h => img.includes(h);
+  // ---- chapter 6: lines ----
+  if (has("f9768f4e7a23")) return { road: "twoWay", line: "dashed", actors: [slowTruck(dur), passTruck(dur)],
+    props: [tag(175, 150, "dashed line: you may cross it", "striscia discontinua: si può superare", 2600)] };
+  if (has("9452b305a54d")) return { road: "twoWay", line: "double", actors: [slowTruck(dur), followTruck(dur)],
+    props: [tag(180, 160, "double solid line: never cross it", "doppia striscia continua: mai superarla")] };
+  if (has("b43758bb9d85")) return { road: "twoWay", line: "solid", actors: [slowTruck(dur), followTruck(dur)],
+    props: [tag(180, 160, "solid line: do not cross it", "striscia continua: non superarla")] };
+  // mixed centre line: which line is on YOUR side decides (official figures, groups 4216 and 4217)
+  if (has("2a8cb20b2ed1")) return { road: "twoWay", line: "mixedSolidMine", actors: [slowTruck(dur), followTruck(dur)],
+    props: [tag(180, 170, "solid line on your side: you may not cross", "striscia continua dal tuo lato: non puoi superarla")] };
+  if (has("baa788372c1b")) return { road: "twoWay", line: "mixed", actors: [slowTruck(dur), passTruck(dur)],
+    props: [tag(175, 150, "dashed line on your side: you may cross both", "striscia discontinua dal tuo lato: puoi superarle", 2600)] };
+  // markings before a level crossing: painted X and a solid centre line (group 4237)
+  if (has("fc0562d273c7")) return { road: "twoWay", line: "solid", ...close, focusY: 150,
+    props: [{ type: "rails", y: 60 }, { type: "roadText", x: R, y: 190, text: "X", size: 2.4 }, tag(180, 110, "level crossing ahead", "passaggio a livello più avanti", 1600)],
+    actors: [stopAt(110, dur)] };
+  if (has("4bd471ec7c86") || has("d12587ece8be")) return { road: "twoWay", props: [{ type: "junction", y: 70, h: 60 },
+    tag(180, 100, "guide lines lead you through the junction", "strisce di guida: ti guidano nell'incrocio")], actors: [youCar([{ t: 0, x: R, y: 470 }, { t: dur, x: R, y: -100 }])], ...close, focusY: 120 };
+  if (has("2b001af183ef")) return { road: "threeLanesEach", ...close, focusY: 170, orbitR: 24, orbitH: 12,
+    props: [{ type: "junction", y: -40, h: 60 }, ...[[210, "left"], [262, "straight"], [312, "straightRight"]].flatMap(([x, d]) => [{ type: "arrow", x, y: 260, dir: d }, { type: "arrow", x, y: 120, dir: d }]),
+      tag(262, 40, "arrows: choose your lane before the junction", "frecce: scegli la corsia prima dell'incrocio", 1400)],
+    actors: [youCar([{ t: 0, x: 262, y: 480 }, { t: dur, x: 262, y: 10 }])] };
+  if (has("475560f5610d") || has("327707c84ac3") || has("05769e683b8d")) {
+    // lanes A, B, C before a junction; arrows as painted in the official figure (none in 475560f5610d)
+    const dirs = has("327707c84ac3") ? ["left", "leftRight", "right"] : has("05769e683b8d") ? ["left", "straightLeft", "straightRight"] : null;
+    const arrows = dirs ? [210, 262, 312].flatMap((x, i) => [{ type: "arrow", x, y: 250, dir: dirs[i] }, { type: "arrow", x, y: 120, dir: dirs[i] }]) : [];
+    return { road: "threeLanesEach", ...close, focusY: 170, orbitR: 24, orbitH: 12,
+    props: [{ type: "junction", y: -40, h: 60 }, ...arrows, tag(210, 200, "A", "A", 800), tag(262, 200, "B", "B", 1000), tag(312, 200, "C", "C", 1200)],
+    actors: [youCar([{ t: 0, x: 262, y: 480 }, { t: dur, x: 262, y: 120 }])] };
+  }
+  // ---- chapter 6: areas, kerbs, writing ----
+  if (has("80f7af983ab4")) return { road: "twoWay", ...close, focusY: 150,
+    props: [{ type: "junction", y: 70, h: 60 }, { type: "hatch", x: 150, y: 132, w: 60, h: 40 }, tag(180, 150, "traffic island: do not drive or stop on it", "isola di traffico: non passarci e non sostare", 1800)],
+    actors: [youCar([{ t: 0, x: R, y: 470 }, { t: dur * .6, x: R, y: 200 }, { t: dur, x: 420, y: 115, r: 90 }])] };
+  if (has("af2602d8031b")) return { road: "twoWay", props: [{ type: "kerb", x: 252 }, tag(262, 170, "yellow and black kerb: no parking", "cordolo giallo e nero: divieto di sosta", 1800)],
+    actors: [youCar([{ t: 0, x: R, y: 470 }, { t: dur, x: R, y: -100 }])], ...close, focusY: 170 };
+  if (has("f7a805a7af03")) return { road: "twoWay", ...close, focusY: 220,
+    props: [{ type: "patch", x: 250, y: 180, w: 40, h: 110, color: "#facc15" }, { type: "patch", x: 254, y: 184, w: 32, h: 102 }, { type: "roadText", x: 270, y: 235, text: "BUS", color: "#facc15", size: 1.6 }, { type: "busStop", x: 300, y: 235 },
+      tag(270, 160, "bus stop: keep it free", "fermata bus: lasciala libera", 1800)],
+    actors: [{ id: "bus", kind: "bus", keys: [{ t: 0, x: R, y: 520 }, { t: dur * .55, x: 270, y: 240, brake: true }, { t: dur, x: 270, y: 236, brake: true }] }] };
+  if (has("eb927982dff8")) return { road: "twoWay", ...close, focusY: 170,
+    props: [{ type: "zebra", y: 140 }, tag(180, 120, "pedestrian crossing: let people cross", "attraversamento pedonale: lascia passare i pedoni", 1800)],
+    actors: [stopAt(174, dur, dur * .8), { id: "p0", kind: "ped", keys: [{ t: 0, x: 92, y: 157 }, { t: 900, x: 92, y: 157 }, { t: dur * .75, x: 268, y: 157 }] }] };
+  if (has("af4cddba8bbf")) return { road: "twoWay", ...close, focusY: 150,
+    props: [{ type: "junction", y: 70, h: 60 }, { type: "stopLine", y: 150 }, { type: "light", x: 262, y: 150, cycle: [["green", 0], ["amber", 1800], ["red", 3000]] }, tag(215, 175, "stop line: stop here", "linea di arresto: fermati qui", 3000)],
+    actors: [stopAt(150, dur)] };
+  if (has("235cb5fa6b81")) return { road: "twoWay", ...close, focusY: 190, props: [{ type: "roadText", x: R, y: 200, text: "50" }],
+    actors: [youCar([{ t: 0, x: R, y: 480 }, { t: dur, x: R, y: -80 }])] };
+  if (has("567251f9cff6")) return { road: "twoWay", ...close, focusY: 170,
+    props: [{ type: "patch", x: 250, y: 90, w: 50, h: 150 }, tag(280, 120, "lay-by (piazzola)", "piazzola di sosta", 1600)],
+    actors: [youCar([{ t: 0, x: R, y: 470 }, { t: dur * .6, x: 272, y: 170, brake: true, blink: "R" }, { t: dur, x: 272, y: 166, brake: true }])] };
+  if (has("94f7f145ac94")) return { road: "motorway", props: [tag(296, 180, "A · emergency lane", "A · corsia di emergenza", 1400)],
+    actors: [youCar([{ t: 0, x: 243, y: 470 }, { t: dur, x: 243, y: -100 }]), { id: "c1", kind: "car", color: "#e11d48", keys: [{ t: 0, x: 180, y: 300 }, { t: dur, x: 180, y: -300 }] }] };
+  // ---- chapter 6: single pictures inside larger groups ----
+  if (has("e21cc580f432")) return { road: "twoWay", ...close, focusY: 170,
+    props: [120, 145, 170, 195, 220].map(y => ({ type: "stopLine", y })).concat([tag(215, 100, "slow-down stripes: moderate your speed", "strisce rallentatrici: modera la velocità", 1600)]),
+    actors: [youCar([{ t: 0, x: R, y: 470 }, { t: dur * .4, x: R, y: 250, brake: true }, { t: dur, x: R, y: -60 }])] };
+  if (has("fd5851d40abd")) return { road: "twoWay", ...close, focusY: 170,
+    props: [{ type: "zebra", y: 120 }, { type: "patch", x: 248, y: 160, w: 6, h: 120, color: "#facc15" }, tag(180, 100, "pedestrian crossing ahead", "attraversamento pedonale più avanti", 1600)],
+    actors: [stopAt(154, dur, dur * .8), { id: "p0", kind: "ped", keys: [{ t: 0, x: 92, y: 137 }, { t: 900, x: 92, y: 137 }, { t: dur * .75, x: 268, y: 137 }] }] };
+  if (has("bcc89d4b3f24")) return { road: "twoWay", ...close, focusY: 170,
+    props: Array.from({ length: 7 }, (_, i) => ({ type: "patch", x: 110 + i * 20, y: 150, w: 20, h: 14, color: i % 2 ? "#111827" : "#facc15" })).concat([tag(180, 120, "speed bump: slow down", "dosso artificiale: rallenta", 1600)]),
+    actors: [youCar([{ t: 0, x: R, y: 470 }, { t: dur * .45, x: R, y: 200, brake: true }, { t: dur, x: R, y: -60 }])] };
+  if (has("3c4dace65cc3")) return { road: "twoWay", ...close, focusY: 190,
+    props: [{ type: "patch", x: 252, y: 140, w: 48, h: 110, color: "#facc15" }, { type: "patch", x: 256, y: 144, w: 40, h: 102 }, { type: "hatch", x: 256, y: 144, w: 40, h: 40 }, tag(276, 120, "yellow lines: a reserved area", "strisce gialle: area riservata", 1600)],
+    actors: [youCar([{ t: 0, x: R, y: 470 }, { t: dur, x: R, y: -60 }])] };
+  if (has("5069a289ee1d") || has("6922a0846a7e") || has("387f648b42cd")) {
+    const what = has("5069a289ee1d") ? T("dashed edge line: a driveway beside the road", "striscia laterale discontinua: passo carrabile")
+      : has("6922a0846a7e") ? T("dashed edge line: a lane beside the road", "striscia laterale discontinua: corsia a lato")
+      : T("dashed edge line at the side of the road", "striscia laterale discontinua sul bordo");
+    return { road: "twoWay", ...close, focusY: 180, props: [{ type: "patch", x: 250, y: 120, w: 46, h: 130 }, { type: "label", x: 272, y: 150, text: what, t0: 1600 }],
+      actors: [youCar([{ t: 0, x: R, y: 470 }, { t: dur, x: R, y: -60 }])] };
+  }
+  if (has("5a7b8a62df93")) return { road: "twoWay", props: [{ type: "junction", y: 70, h: 60 },
+    tag(180, 100, "guide lines lead you through the junction", "strisce di guida: ti guidano nell'incrocio")], actors: [youCar([{ t: 0, x: R, y: 470 }, { t: dur, x: R, y: -100 }])], ...close, focusY: 120 };
+  if (has("913d1c94c874") || has("8255d00faa2a")) return { road: "twoWay", ...close, focusY: 150,
+    props: [{ type: "junction", y: 70, h: 60 }, { type: "stopLine", y: 150 }, tag(215, 175, "stop line: stop here", "linea di arresto: fermati qui", 2600)],
+    actors: [stopAt(150, dur, dur * .8)] };
+  // ---- chapter 7: traffic lights ----
+  if (has("9ce1d0d0b1d2")) return { road: "twoWay", ...close, focusY: 150,
+    props: [{ type: "junction", y: 70, h: 60 }, { type: "stopLine", y: 150 }, { type: "light", x: 262, y: 150, cycle: [["green", 0], ["amber", 2200], ["red", 3500]], scale: 1.3 },
+      tag(215, 175, "red: stop at the line", "rosso: fermati alla linea", 3500)],
+    actors: [stopAt(150, dur), { id: "x", kind: "car", color: "#e11d48", keys: [{ t: 0, x: -60, y: 115, r: 90 }, { t: 4200, x: -60, y: 115, r: 90 }, { t: dur, x: 420, y: 115, r: 90 }] }] };
+  if (has("e1cf603fd1bc") || has("db2b7fa24f44") || has("80179c5962ca")) return { road: "twoWay", ...close, focusY: 150,
+    props: [{ type: "junction", y: 70, h: 60 }, { type: "light", x: 262, y: 150, color: "green", scale: 1.3 },
+      tag(180, 175, has("db2b7fa24f44") ? "green wave: keep the speed shown" : has("80179c5962ca") ? "lights for reversible lanes" : "lane lights with arrows", has("db2b7fa24f44") ? "onda verde: tieni la velocità indicata" : has("80179c5962ca") ? "semafori per corsie reversibili" : "semafori di corsia con frecce", 1600)],
+    actors: [youCar([{ t: 0, x: R, y: 470 }, { t: dur, x: R, y: -80 }])] };
+  if (has("af67ba8e23b2")) return { road: "twoWay", ...close, focusY: 160,
+    props: [{ type: "rails", y: 110 }, { type: "light", x: 262, y: 160, kind: "pair", color: "red", flash: true, scale: 1.3 }, tag(215, 190, "flashing red: stop, a train is coming", "rosso lampeggiante: fermati, arriva il treno", 2600)],
+    actors: [stopAt(160, dur)] };
+  if (has("f826d5e22eba")) return { road: "twoWay", ...close, focusY: 150,
+    props: [{ type: "junction", y: 70, h: 60 }, { type: "light", x: 262, y: 150, color: "green", scale: 1.3 }, tag(180, 175, "a light for buses and trams", "semaforo per bus e tram", 1600)],
+    actors: [{ id: "bus", kind: "bus", keys: [{ t: 0, x: R, y: 520 }, { t: dur, x: R, y: -120 }] }] };
+  if (has("2129f648b286")) return { road: "twoWay", ...close, focusY: 170,
+    props: [{ type: "zebra", y: 140 }, { type: "light", x: 98, y: 130, kind: "ped", cycle: [["red", 0], ["green", 2000]], scale: 1.1 }, tag(180, 120, "a light for pedestrians", "semaforo pedonale", 1600)],
+    actors: [stopAt(174, dur), { id: "p0", kind: "ped", keys: [{ t: 0, x: 88, y: 157 }, { t: 2200, x: 88, y: 157 }, { t: dur, x: 268, y: 157 }] }, { id: "p1", kind: "ped", color: "#22c55e", keys: [{ t: 0, x: 76, y: 165 }, { t: 2600, x: 76, y: 165 }, { t: dur, x: 250, y: 165 }] }] };
+  if (has("c3c957780ed4")) return { road: "twoWay", ...close, focusY: 170,
+    props: [{ type: "patch", x: 110, y: 140, w: 140, h: 34, color: "#b91c1c" }, { type: "light", x: 98, y: 130, kind: "ped", cycle: [["red", 0], ["green", 2000]], scale: 1.1 }, tag(180, 120, "a light for cyclists", "semaforo per biciclette", 1600)],
+    actors: [stopAt(178, dur), { id: "b0", kind: "bike", keys: [{ t: 0, x: 80, y: 157, r: 90 }, { t: 2200, x: 80, y: 157, r: 90 }, { t: dur, x: 300, y: 157, r: 90 }] }] };
+  if (has("72f9b60b915b")) return { road: "twoWay", ...close, focusY: 150,
+    props: [{ type: "junction", y: 70, h: 60 }, { type: "light", x: 262, y: 150, kind: "amber", color: "amber", flash: true, scale: 1.3 }, tag(180, 175, "flashing yellow: slow down, take care", "giallo lampeggiante: rallenta, fai attenzione", 1600)],
+    actors: [youCar([{ t: 0, x: R, y: 470 }, { t: dur * .45, x: R, y: 220, brake: true }, { t: dur, x: R, y: -60 }])] };
+  // ---- chapter 7: police officer ----
+  const pose = has("5dec4c1e652c") ? "front" : has("1f358b9293d9") ? "profile" : has("125f03bc48cb") ? "raised" : has("d610e27fa096") ? "angle" : null;
+  if (pose) {
+    const go = pose === "profile";
+    const text = { front: T("arms open, facing you: STOP (like red)", "braccia aperte verso di te: ALT (come il rosso)"),
+      profile: T("side view, arms open: you may GO (like green)", "di profilo, braccia aperte: puoi PASSARE (come il verde)"),
+      raised: T("one arm raised: like yellow, clear the junction", "un braccio alzato: come il giallo, libera l'incrocio"),
+      angle: T("the officer directs the traffic", "il vigile dirige il traffico") }[pose];
+    return { road: "twoWay", cam: "orbit", orbitR: 14, orbitH: 6, focusY: 120,
+      props: [{ type: "junction", y: 70, h: 60 }, { type: "officer", x: 180, y: 100, pose }, { type: "label", x: 180, y: 60, text, t0: 1800 }],
+      actors: [go ? youCar([{ t: 0, x: R, y: 470 }, { t: dur, x: R, y: -80 }]) : stopAt(150, dur)] };
+  }
   return null;
 }
+
 
 /** roadparts: a road drawing; the named part lights up. */
 const PARTS = {

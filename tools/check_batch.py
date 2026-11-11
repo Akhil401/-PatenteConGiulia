@@ -12,7 +12,8 @@ APP = os.path.join(ROOT, "app")
 SCENES = {"overtake.basic", "overtake.blocked", "overtake.allowed", "overtake.right", "overtake.space",
           "overtake.beingOvertaken", "overtake.motorway", "rulecard", "sign", "figure", "roadparts"}
 ACTIONS = {"slow", "stop", "giveWay", "priority", "noEntry", "noOvertake", "turnLeft", "turnRight", "straight", "keepRight", "keepLeft",
-           "noTurnLeft", "noTurnRight", "noUTurn", "speedLimit", "endLimit", "park", "noParking", "noStopping", "info"}
+           "noTurnLeft", "noTurnRight", "noUTurn", "speedLimit", "endLimit", "park", "noParking", "noStopping", "info",
+           "straightOrRight", "straightOrLeft", "leftOrRight", "eitherSide", "narrowGiveWay", "narrowPriority"}
 PARTS = {"carreggiata", "corsia", "banchina", "marciapiede", "pistaCiclabile", "spartitraffico", "passaggioPedonale", "intersezione", "corsiaEmergenza"}
 ICONS = set("car truck bus tram moto bike pedestrian police ambulance eye mirror indicator horn highbeam speed distance warning check cross road curve hill fog rain snow night wind train light sign book money points alcohol seatbelt child firstaid fuel leaf tyre brake engine".split())
 

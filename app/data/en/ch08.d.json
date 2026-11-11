@@ -1,0 +1,1686 @@
+{
+ "q21452": {
+  "en": "The sign shown indicates that to reach Milan you must continue straight on.",
+  "explain": {
+   "short": "The arrow under MILANO goes straight up, so for Milan you keep straight on.",
+   "rule": "A white sign with arrows announces a junction in town: Milano is straight on, the town centre is to the right.",
+   "trap": "'proseguire diritto' (continue straight on) matches the straight arrow.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Milano: straight on",
+    "it": "preavviso di intersezione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "raggiungere Milano",
+    "en": "reach Milan"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "continue straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21453": {
+  "en": "The sign shown indicates two specific destinations.",
+  "explain": {
+   "short": "It names two places: Milano (straight on) and the town centre (to the right).",
+   "rule": "A white sign with arrows announces a junction in town: Milano is straight on, the town centre is to the right.",
+   "trap": "'due determinate destinazioni' (two specific destinations): count them, Milano and centro.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Two destinations: Milano and centro",
+    "it": "preavviso di intersezione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "due determinate destinazioni",
+    "en": "two specific destinations"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21454": {
+  "en": "The sign shown gives advance warning of a junction with a right turn for the town centre.",
+  "explain": {
+   "short": "The arrow for 'centro' bends to the right, so at the junction ahead you turn right for the centre.",
+   "rule": "A white sign with arrows announces a junction in town: Milano is straight on, the town centre is to the right.",
+   "trap": "'centro cittadino' (town centre) is the word 'centro' with the target symbol.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Centro: turn right at the junction",
+    "it": "preavviso di intersezione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa un incrocio",
+    "en": "warns in advance of a junction"
+   },
+   {
+    "it": "centro cittadino",
+    "en": "town centre"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21455": {
+  "en": "The sign shown can be found on urban roads.",
+  "explain": {
+   "short": "The white background is used for direction signs on urban roads (inside towns).",
+   "rule": "A white sign with arrows announces a junction in town: Milano is straight on, the town centre is to the right.",
+   "trap": "'si può trovare' (can be found) only says it is possible, and white means urban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "White background = urban road",
+    "it": "preavviso di intersezione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade urbane",
+    "en": "urban roads"
+   },
+   {
+    "it": "si può trovare",
+    "en": "can be found"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21456": {
+  "en": "The sign shown gives advance warning of a junction where you must continue straight on to go to Milan.",
+  "explain": {
+   "short": "It stands before a junction, and the straight arrow shows the way to Milano.",
+   "rule": "A white sign with arrows announces a junction in town: Milano is straight on, the town centre is to the right.",
+   "trap": "'preavvisa' (warns in advance): the junction is a little further ahead.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Junction ahead: Milano straight on",
+    "it": "preavviso di intersezione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa un incrocio",
+    "en": "warns in advance of a junction"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "continue straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21457": {
+  "en": "The sign shown is found only on one-way roads.",
+  "explain": {
+   "short": "This direction sign can stand on any urban road, one-way or two-way.",
+   "rule": "A white sign with arrows announces a junction in town: Milano is straight on, the town centre is to the right.",
+   "trap": "'solo' (only) is the trap: nothing on the sign talks about one-way traffic.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not only one-way roads: any town road",
+    "it": "preavviso di intersezione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21458": {
+  "en": "The sign shown gives advance warning of a junction for the shooting range.",
+  "explain": {
+   "short": "The target symbol next to 'centro' means the town centre, not a shooting range.",
+   "rule": "A white sign with arrows announces a junction in town: Milano is straight on, the town centre is to the right.",
+   "trap": "The round 'target' symbol is the town-centre symbol, not 'poligono di tiro a segno' (shooting range).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Target symbol = town centre, not shooting",
+    "it": "preavviso di intersezione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "poligono di tiro a segno",
+    "en": "shooting range"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21459": {
+  "en": "The sign shown indicates that by turning right you meet a secondary road.",
+  "explain": {
+   "short": "Turning right takes you to the town centre; the sign says nothing about a secondary road.",
+   "rule": "A white sign with arrows announces a junction in town: Milano is straight on, the town centre is to the right.",
+   "trap": "'strada secondaria' (secondary road) is invented: the right arrow leads to 'centro'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right = town centre, not a side road",
+    "it": "preavviso di intersezione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "svoltando a destra",
+    "en": "turning right"
+   },
+   {
+    "it": "strada secondaria",
+    "en": "secondary road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21460": {
+  "en": "The sign shown gives advance warning of the end of two-way traffic and the start of one-way traffic.",
+  "explain": {
+   "short": "It is a direction sign with place names; it says nothing about one-way or two-way traffic.",
+   "rule": "A white sign with arrows announces a junction in town: Milano is straight on, the town centre is to the right.",
+   "trap": "'fine del doppio senso' (end of two-way traffic) has nothing to do with arrows to places.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Directions to places, not one-way traffic",
+    "it": "preavviso di intersezione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "doppio senso di circolazione",
+    "en": "two-way traffic"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21461": {
+  "en": "The sign shown tells you to turn right to reach a shopping centre.",
+  "explain": {
+   "short": "'centro' with the target symbol is the town centre, not a shopping centre.",
+   "rule": "A white sign with arrows announces a junction in town: Milano is straight on, the town centre is to the right.",
+   "trap": "'centro commerciale' (shopping centre) is a trap on the word 'centro'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Centro = town centre, not shopping centre",
+    "it": "preavviso di intersezione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "svoltare a destra",
+    "en": "turn right"
+   },
+   {
+    "it": "centro commerciale",
+    "en": "shopping centre"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21462": {
+  "en": "The sign shown is found on main extra-urban roads.",
+  "explain": {
+   "short": "Exit signs on a blue background are used on main extra-urban roads (dual carriageways outside towns).",
+   "rule": "Blue sign 'uscita': the exit to Frosinone is 500 m ahead; it lists the places you reach from that exit, brown = tourist places.",
+   "trap": "'extraurbane principali' (main extra-urban roads) = blue; motorways would be green.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Blue exit sign = main extra-urban road",
+    "it": "preavviso di uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane principali",
+    "en": "main extra-urban roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21463": {
+  "en": "The sign shown indicates that the exit junction for Frosinone is 500 metres away.",
+  "explain": {
+   "short": "The top says 'uscita FROSINONE' and the bottom says '500 m': the exit is 500 m ahead.",
+   "rule": "Blue sign 'uscita': the exit to Frosinone is 500 m ahead; it lists the places you reach from that exit, brown = tourist places.",
+   "trap": "'svincolo di uscita' (exit junction) is what is 500 m away, not the town.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Exit Frosinone in 500 m",
+    "it": "preavviso di uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "svincolo di uscita",
+    "en": "exit junction"
+   },
+   {
+    "it": "500 metri",
+    "en": "500 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21464": {
+  "en": "The sign shown gives the names of the places you can reach by leaving the main extra-urban road.",
+  "explain": {
+   "short": "The middle part lists places (Ceccano, Priverno, Terracina...) reached by taking this exit.",
+   "rule": "Blue sign 'uscita': the exit to Frosinone is 500 m ahead; it lists the places you reach from that exit, brown = tourist places.",
+   "trap": "'uscendo' (by leaving): these places are reached after the exit.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Places reached from this exit",
+    "it": "preavviso di uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "località raggiungibili",
+    "en": "places you can reach"
+   },
+   {
+    "it": "uscendo",
+    "en": "by leaving"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21465": {
+  "en": "The sign shown indicates the tourist places with the writing on a brown background.",
+  "explain": {
+   "short": "Circeo and Campocatino are written on brown boxes: brown marks tourist places.",
+   "rule": "Blue sign 'uscita': the exit to Frosinone is 500 m ahead; it lists the places you reach from that exit, brown = tourist places.",
+   "trap": "'fondo marrone' (brown background) is the tourist colour.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Brown boxes = tourist places",
+    "it": "preavviso di uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fondo marrone",
+    "en": "brown background"
+   },
+   {
+    "it": "località turistiche",
+    "en": "tourist places"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21466": {
+  "en": "The sign shown indicates the distance between the sign and the next exit junction.",
+  "explain": {
+   "short": "The '500 m' at the bottom is how far it is from the sign to the exit.",
+   "rule": "Blue sign 'uscita': the exit to Frosinone is 500 m ahead; it lists the places you reach from that exit, brown = tourist places.",
+   "trap": "'distanza ... prossimo svincolo' (distance to the next exit) = the 500 m.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "500 m from the sign to the exit",
+    "it": "preavviso di uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "la distanza",
+    "en": "the distance"
+   },
+   {
+    "it": "prossimo svincolo d'uscita",
+    "en": "next exit junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21467": {
+  "en": "The sign shown is found when leaving the town of Frosinone.",
+  "explain": {
+   "short": "It stands on the main road before the exit for Frosinone, not where you leave the town.",
+   "rule": "Blue sign 'uscita': the exit to Frosinone is 500 m ahead; it lists the places you reach from that exit, brown = tourist places.",
+   "trap": "'uscendo dal comune' (leaving the town) mixes up 'uscita' (road exit) with leaving a town.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Before the road exit, not leaving the town",
+    "it": "preavviso di uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "uscendo dal comune",
+    "en": "leaving the town"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21468": {
+  "en": "The sign shown indicates that in 500 metres you arrive at the town of Frosinone.",
+  "explain": {
+   "short": "In 500 m you reach the EXIT named Frosinone, not the town itself.",
+   "rule": "Blue sign 'uscita': the exit to Frosinone is 500 m ahead; it lists the places you reach from that exit, brown = tourist places.",
+   "trap": "'si arriva al comune' (you arrive at the town) is wrong: 500 m is to the exit.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "500 m to the exit, not to the town",
+    "it": "preavviso di uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si arriva al comune",
+    "en": "you arrive at the town"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21469": {
+  "en": "The sign shown indicates that all the places on the sign are 500 metres away.",
+  "explain": {
+   "short": "Only the exit is 500 m away; the places are further on, after the exit.",
+   "rule": "Blue sign 'uscita': the exit to Frosinone is 500 m ahead; it lists the places you reach from that exit, brown = tourist places.",
+   "trap": "'tutte le località' (all the places) is the trap: 500 m is the exit only.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only the exit is 500 m away",
+    "it": "preavviso di uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tutte le località",
+    "en": "all the places"
+   },
+   {
+    "it": "500 metri",
+    "en": "500 metres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21470": {
+  "en": "The sign shown indicates that the road can no longer be used and that the last exit is Frosinone.",
+  "explain": {
+   "short": "It only announces the next exit; the road goes on after it.",
+   "rule": "Blue sign 'uscita': the exit to Frosinone is 500 m ahead; it lists the places you reach from that exit, brown = tourist places.",
+   "trap": "'non è più percorribile' (can no longer be used) and 'ultima uscita' (last exit) are invented.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Next exit, road continues",
+    "it": "preavviso di uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è più percorribile",
+    "en": "can no longer be used"
+   },
+   {
+    "it": "ultima uscita",
+    "en": "last exit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21471": {
+  "en": "The sign shown indicates the start of a built-up area.",
+  "explain": {
+   "short": "A town's start is a white sign with the town name; this is a blue exit sign.",
+   "rule": "Blue sign 'uscita': the exit to Frosinone is 500 m ahead; it lists the places you reach from that exit, brown = tourist places.",
+   "trap": "'inizio di un centro abitato' (start of a built-up area) has a different, white sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Exit sign, not the start of a town",
+    "it": "preavviso di uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "inizio di un centro abitato",
+    "en": "start of a built-up area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21472": {
+  "en": "The sign shown indicates the end of the built-up area.",
+  "explain": {
+   "short": "The town name crossed by a red bar means you are leaving the town.",
+   "rule": "Red bar on the name = end of the town; the blue panel lists the next places with their distance in km.",
+   "trap": "'fine' (end): the red bar across the name always means end.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red bar on the name = end of town",
+    "it": "fine centro abitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine del centro abitato",
+    "en": "end of the built-up area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21473": {
+  "en": "The sign shown, in the first line at the top of the blue panel, indicates the next built-up area.",
+  "explain": {
+   "short": "The places are listed from nearest to furthest, so S. Cesareo (7 km) on top is the next town.",
+   "rule": "Red bar on the name = end of the town; the blue panel lists the next places with their distance in km.",
+   "trap": "'prima riga in alto' (first line at the top) = the nearest place.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Top line = next town (S. Cesareo)",
+    "it": "fine centro abitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "prima riga in alto",
+    "en": "first line at the top"
+   },
+   {
+    "it": "prossimo centro abitato",
+    "en": "next built-up area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21474": {
+  "en": "The sign shown indicates the end of the built-up area and the places that follow.",
+  "explain": {
+   "short": "The top part says the town ends; the blue panel shows the next places.",
+   "rule": "Red bar on the name = end of the town; the blue panel lists the next places with their distance in km.",
+   "trap": "'e le località successive' (and the next places) is the blue panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of town + next places",
+    "it": "fine centro abitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine del centro abitato",
+    "en": "end of the built-up area"
+   },
+   {
+    "it": "località successive",
+    "en": "next places"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21475": {
+  "en": "The sign shown, in the blue panel, indicates for each place its distance in kilometres.",
+  "explain": {
+   "short": "The number next to each name (7, 63, 190) is its distance in km.",
+   "rule": "Red bar on the name = end of the town; the blue panel lists the next places with their distance in km.",
+   "trap": "'distanza chilometrica' (distance in km): the numbers are km, not road numbers.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Numbers = distance in km",
+    "it": "fine centro abitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza chilometrica",
+    "en": "distance in kilometres"
+   },
+   {
+    "it": "per ogni località",
+    "en": "for each place"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21476": {
+  "en": "The sign shown indicates that Naples is 190 kilometres away.",
+  "explain": {
+   "short": "Next to NAPOLI is 190: Naples is 190 km away.",
+   "rule": "Red bar on the name = end of the town; the blue panel lists the next places with their distance in km.",
+   "trap": "'mancano' (are left): 190 is the km still to drive.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Napoli: 190 km to go",
+    "it": "fine centro abitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "mancano 190 chilometri",
+    "en": "190 km to go"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21477": {
+  "en": "The sign shown indicates that S. Cesareo is 7 kilometres away.",
+  "explain": {
+   "short": "Next to S. CESAREO is 7: it is 7 km away.",
+   "rule": "Red bar on the name = end of the town; the blue panel lists the next places with their distance in km.",
+   "trap": "'mancano 7 chilometri' (7 km to go) matches the number.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "S. Cesareo: 7 km to go",
+    "it": "fine centro abitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "mancano 7 chilometri",
+    "en": "7 km to go"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21478": {
+  "en": "The sign shown indicates the start of an uphill stretch of road to reach Montecompatri.",
+  "explain": {
+   "short": "The red bar means the end of the town Montecompatri; it says nothing about a slope.",
+   "rule": "Red bar on the name = end of the town; the blue panel lists the next places with their distance in km.",
+   "trap": "'in salita' (uphill) is invented: a slope has its own red-triangle danger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of town, not an uphill road",
+    "it": "fine centro abitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in salita",
+    "en": "uphill"
+   },
+   {
+    "it": "Montecompatri",
+    "en": "Montecompatri"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21479": {
+  "en": "The sign shown indicates that it is not possible to reach Montecompatri.",
+  "explain": {
+   "short": "You are just leaving Montecompatri; the red bar is not a ban.",
+   "rule": "Red bar on the name = end of the town; the blue panel lists the next places with their distance in km.",
+   "trap": "'non è possibile raggiungere' (cannot be reached): the red bar means end of town, not 'closed'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Leaving Montecompatri, not a ban",
+    "it": "fine centro abitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è possibile raggiungere",
+    "en": "it is not possible to reach"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21480": {
+  "en": "The sign shown indicates that to reach Naples you must drive along state road no. 190.",
+  "explain": {
+   "short": "190 is the distance in km to Napoli, not the number of a road.",
+   "rule": "Red bar on the name = end of the town; the blue panel lists the next places with their distance in km.",
+   "trap": "'strada statale n. 190' (state road no. 190) is the trap: road numbers are not shown here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "190 = km to Napoli, not a road number",
+    "it": "fine centro abitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada statale n. 190",
+    "en": "state road no. 190"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21481": {
+  "en": "The sign shown indicates a road closed to traffic.",
+  "explain": {
+   "short": "It shows the end of a town and the next places; the road is open.",
+   "rule": "Red bar on the name = end of the town; the blue panel lists the next places with their distance in km.",
+   "trap": "'chiusa al traffico' (closed to traffic): the red bar is not a 'no entry' sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of town, road is open",
+    "it": "fine centro abitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "chiusa al traffico",
+    "en": "closed to traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21482": {
+  "en": "The sign shown is found on main extra-urban roads.",
+  "explain": {
+   "short": "It stands where an ordinary road leaves a town; main extra-urban roads do not cross towns.",
+   "rule": "Red bar on the name = end of the town; the blue panel lists the next places with their distance in km.",
+   "trap": "'extraurbane principali' (main extra-urban roads) have no town-end signs on them.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "On a road leaving a town, not a main road",
+    "it": "fine centro abitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane principali",
+    "en": "main extra-urban roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21483": {
+  "en": "The sign shown indicates the start of the built-up area.",
+  "explain": {
+   "short": "The red bar across the name means the END of the town, not the start.",
+   "rule": "Red bar on the name = end of the town; the blue panel lists the next places with their distance in km.",
+   "trap": "'inizio' (start) vs 'fine' (end): the red bar always means end.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red bar = end, not start",
+    "it": "fine centro abitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "inizio del centro abitato",
+    "en": "start of the built-up area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21484": {
+  "en": "The sign shown indicates the start of a pedestrian area.",
+  "explain": {
+   "short": "It says 'area pedonale' with a pedestrian symbol: here the pedestrian area begins.",
+   "rule": "'area pedonale' = start of a pedestrian area; the 'eccetto' panel lists the vehicles still allowed in.",
+   "trap": "'area pedonale' (pedestrian area) is written on the sign itself.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Start of a pedestrian area",
+    "it": "area pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area pedonale",
+    "en": "pedestrian area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21485": {
+  "en": "The sign shown indicates, in the extra panel, the vehicles that may enter.",
+  "explain": {
+   "short": "The lower panel starts with 'eccetto' (except) and lists the vehicles allowed in.",
+   "rule": "'area pedonale' = start of a pedestrian area; the 'eccetto' panel lists the vehicles still allowed in.",
+   "trap": "'pannello aggiuntivo' (extra panel) is the lower part with the list.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Panel 'eccetto' = vehicles allowed in",
+    "it": "area pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannello aggiuntivo",
+    "en": "extra panel"
+   },
+   {
+    "it": "possono entrare",
+    "en": "may enter"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21486": {
+  "en": "The sign shown allows vehicles to drive in for loading and unloading goods.",
+  "explain": {
+   "short": "The panel lets authorised goods vehicles in, at the hours shown, to load and unload.",
+   "rule": "'area pedonale' = start of a pedestrian area; the 'eccetto' panel lists the vehicles still allowed in.",
+   "trap": "'carico e scarico merci' (loading and unloading goods) is one of the exceptions on the panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Goods vehicles may enter at set hours",
+    "it": "area pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "carico e lo scarico merci",
+    "en": "loading and unloading goods"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21487": {
+  "en": "The sign shown allows vehicles for disabled people to drive in.",
+  "explain": {
+   "short": "The panel shows the wheelchair symbol: vehicles serving disabled people may enter.",
+   "rule": "'area pedonale' = start of a pedestrian area; the 'eccetto' panel lists the vehicles still allowed in.",
+   "trap": "'persone diversamente abili' (disabled people) = the wheelchair symbol in the panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Vehicles for disabled people may enter",
+    "it": "area pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "persone diversamente abili",
+    "en": "disabled people"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21488": {
+  "en": "The sign shown indicates a police station.",
+  "explain": {
+   "short": "It marks a pedestrian area; police vehicles are only one of the exceptions.",
+   "rule": "'area pedonale' = start of a pedestrian area; the 'eccetto' panel lists the vehicles still allowed in.",
+   "trap": "'stazione di polizia' (police station): the police symbol is just in the list of exceptions.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pedestrian area, not a police station",
+    "it": "area pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "stazione di polizia",
+    "en": "police station"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21489": {
+  "en": "The sign shown indicates an area reserved only for disabled people.",
+  "explain": {
+   "short": "It is an area for pedestrians; disabled people's vehicles are one exception among several.",
+   "rule": "'area pedonale' = start of a pedestrian area; the 'eccetto' panel lists the vehicles still allowed in.",
+   "trap": "'solo' (only) is the trap: the panel lists other vehicles too.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "For pedestrians, not only disabled people",
+    "it": "area pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "persone diversamente abili",
+    "en": "disabled people"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21490": {
+  "en": "The sign shown indicates police on foot.",
+  "explain": {
+   "short": "The walking person is a pedestrian: it is a pedestrian area.",
+   "rule": "'area pedonale' = start of a pedestrian area; the 'eccetto' panel lists the vehicles still allowed in.",
+   "trap": "'polizia a piedi' (police on foot): the figure is any pedestrian, not an officer.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pedestrian figure, not police on foot",
+    "it": "area pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "polizia a piedi",
+    "en": "police on foot"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21491": {
+  "en": "The sign shown indicates street sellers.",
+  "explain": {
+   "short": "It marks a pedestrian area; it says nothing about street sellers.",
+   "rule": "'area pedonale' = start of a pedestrian area; the 'eccetto' panel lists the vehicles still allowed in.",
+   "trap": "'venditori ambulanti' (street sellers) is invented.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pedestrian area, not street sellers",
+    "it": "area pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "venditori ambulanti",
+    "en": "street sellers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21492": {
+  "en": "The sign shown indicates the start of a limited traffic zone.",
+  "explain": {
+   "short": "The sign reads 'zona traffico limitato': the ZTL starts here.",
+   "rule": "'zona traffico limitato' = start of a ZTL: only the vehicle categories listed on the panel may enter.",
+   "trap": "'zona a traffico limitato' (limited traffic zone) is written on the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Start of a limited traffic zone (ZTL)",
+    "it": "zona a traffico limitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "zona a traffico limitato",
+    "en": "limited traffic zone"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21493": {
+  "en": "The sign shown indicates the start of the area where traffic is allowed only for some categories of vehicles.",
+  "explain": {
+   "short": "In a ZTL only the vehicles listed on the panel may drive in.",
+   "rule": "'zona traffico limitato' = start of a ZTL: only the vehicle categories listed on the panel may enter.",
+   "trap": "'solo ad alcune categorie' (only for some categories) is exactly what 'limited' means.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only some vehicle categories may enter",
+    "it": "zona a traffico limitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo ad alcune categorie di veicoli",
+    "en": "only for some categories of vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21494": {
+  "en": "The sign shown states which vehicles may enter.",
+  "explain": {
+   "short": "After 'eccetto' (except) the panel lists the vehicles allowed in.",
+   "rule": "'zona traffico limitato' = start of a ZTL: only the vehicle categories listed on the panel may enter.",
+   "trap": "'possono entrare' (may enter) = the list after 'eccetto'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Panel 'eccetto' = vehicles allowed in",
+    "it": "zona a traffico limitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "possono entrare",
+    "en": "may enter"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21495": {
+  "en": "The sign shown states the categories of vehicles allowed through.",
+  "explain": {
+   "short": "The panel names the categories admitted: disabled people's vehicles, emergency vehicles, goods vehicles.",
+   "rule": "'zona traffico limitato' = start of a ZTL: only the vehicle categories listed on the panel may enter.",
+   "trap": "'ammessi al transito' (allowed through) = the exceptions on the panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Panel lists the admitted categories",
+    "it": "zona a traffico limitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "categorie di veicoli ammessi",
+    "en": "categories of vehicles allowed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21496": {
+  "en": "The sign shown indicates a one-way road.",
+  "explain": {
+   "short": "It marks a limited traffic zone; one-way has a different blue sign with a white arrow.",
+   "rule": "'zona traffico limitato' = start of a ZTL: only the vehicle categories listed on the panel may enter.",
+   "trap": "'senso unico' (one-way) has nothing to do with the red-ringed disc.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "ZTL, not a one-way road",
+    "it": "zona a traffico limitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21497": {
+  "en": "The sign shown bans all vehicles from driving through.",
+  "explain": {
+   "short": "The ban has exceptions: the vehicles listed after 'eccetto' may enter.",
+   "rule": "'zona traffico limitato' = start of a ZTL: only the vehicle categories listed on the panel may enter.",
+   "trap": "'tutti' (all) is the trap: some categories are admitted.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not all vehicles banned: exceptions apply",
+    "it": "zona a traffico limitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tutti i veicoli",
+    "en": "all vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21498": {
+  "en": "The sign shown indicates a military zone.",
+  "explain": {
+   "short": "It marks a limited traffic zone in a town, not a military area.",
+   "rule": "'zona traffico limitato' = start of a ZTL: only the vehicle categories listed on the panel may enter.",
+   "trap": "'zona militare' (military zone): 'zona' here is 'zona traffico limitato'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Limited traffic zone, not military",
+    "it": "zona a traffico limitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "zona militare",
+    "en": "military zone"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21499": {
+  "en": "The sign shown indicates that the road is closed because of heavy traffic.",
+  "explain": {
+   "short": "Access is limited to some vehicles by rule, not because of heavy traffic.",
+   "rule": "'zona traffico limitato' = start of a ZTL: only the vehicle categories listed on the panel may enter.",
+   "trap": "'intenso traffico' (heavy traffic) is a trap on the word 'traffico'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Limited access, not closed for traffic",
+    "it": "zona a traffico limitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "intenso traffico",
+    "en": "heavy traffic"
+   },
+   {
+    "it": "strada è chiusa",
+    "en": "road is closed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21500": {
+  "en": "The sign shown allows only residents to drive through.",
+  "explain": {
+   "short": "The panel admits categories like disabled people's vehicles, emergency and goods vehicles, not 'residents only'.",
+   "rule": "'zona traffico limitato' = start of a ZTL: only the vehicle categories listed on the panel may enter.",
+   "trap": "'solo ai residenti' (only residents) is the trap: the panel does not say that.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not residents only: listed categories",
+    "it": "zona a traffico limitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo ai residenti",
+    "en": "only residents"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21501": {
+  "en": "The sign shown indicates the start of a pedestrian area.",
+  "explain": {
+   "short": "It reads 'zona traffico limitato' with a red-ringed disc; a pedestrian area has a pedestrian symbol.",
+   "rule": "'zona traffico limitato' = start of a ZTL: only the vehicle categories listed on the panel may enter.",
+   "trap": "'area pedonale' (pedestrian area) is a different sign, with the walking person.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "ZTL, not a pedestrian area",
+    "it": "zona a traffico limitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area pedonale",
+    "en": "pedestrian area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21502": {
+  "en": "The sign shown lets you know the transit conditions of the Stelvio pass.",
+  "explain": {
+   "short": "It tells you whether the Stelvio pass is open or closed and what equipment you need.",
+   "rule": "Mountain sign: Stelvio pass is open, but only for vehicles with snow chains or winter tyres.",
+   "trap": "'condizioni di transitabilità' (transit conditions) is the name of this type of sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stelvio pass: transit conditions",
+    "it": "transitabilità",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "condizioni di transitabilità",
+    "en": "transit conditions"
+   },
+   {
+    "it": "passo dello Stelvio",
+    "en": "Stelvio pass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21503": {
+  "en": "The sign shown indicates that you must drive only with chains or winter tyres.",
+  "explain": {
+   "short": "The tyre-with-chains symbol under 'aperto' means chains or winter tyres are needed.",
+   "rule": "Mountain sign: Stelvio pass is open, but only for vehicles with snow chains or winter tyres.",
+   "trap": "'necessario' (necessary) and 'solo' (only): here it is a requirement, not advice.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only with chains or winter tyres",
+    "it": "transitabilità",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "catene o pneumatici invernali",
+    "en": "chains or winter tyres"
+   },
+   {
+    "it": "è necessario",
+    "en": "it is necessary"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21504": {
+  "en": "The sign shown indicates that the road is open, but only to vehicles equipped with chains or winter tyres.",
+  "explain": {
+   "short": "'aperto' says the road is open; the symbol limits it to vehicles with chains or winter tyres.",
+   "rule": "Mountain sign: Stelvio pass is open, but only for vehicles with snow chains or winter tyres.",
+   "trap": "'aperta, ma solo' (open, but only): both parts are on the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Open, but only with chains/winter tyres",
+    "it": "transitabilità",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "la strada è aperta",
+    "en": "the road is open"
+   },
+   {
+    "it": "catene o pneumatici invernali",
+    "en": "chains or winter tyres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21505": {
+  "en": "The sign shown is placed on mountain roads.",
+  "explain": {
+   "short": "It gives the conditions of a mountain pass, so it stands on mountain roads.",
+   "rule": "Mountain sign: Stelvio pass is open, but only for vehicles with snow chains or winter tyres.",
+   "trap": "'strade di montagna' (mountain roads): Stelvio is a high mountain pass.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Placed on mountain roads",
+    "it": "transitabilità",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade di montagna",
+    "en": "mountain roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21506": {
+  "en": "The sign shown indicates that it is possible to reach the Stelvio pass.",
+  "explain": {
+   "short": "The pass is 'aperto' (open), so you can reach it (with chains or winter tyres).",
+   "rule": "Mountain sign: Stelvio pass is open, but only for vehicles with snow chains or winter tyres.",
+   "trap": "'aperto' (open) = it is possible to reach the pass.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pass open: you can reach it",
+    "it": "transitabilità",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è possibile raggiungere",
+    "en": "it is possible to reach"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21507": {
+  "en": "The sign shown indicates the road is open only to vehicles with new tyres.",
+  "explain": {
+   "short": "It asks for chains or winter tyres, not new tyres.",
+   "rule": "Mountain sign: Stelvio pass is open, but only for vehicles with snow chains or winter tyres.",
+   "trap": "'pneumatici nuovi' (new tyres) is the trap: the symbol means chains or winter tyres.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Chains or winter tyres, not new tyres",
+    "it": "transitabilità",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pneumatici nuovi",
+    "en": "new tyres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21508": {
+  "en": "The sign shown advises fitting the chains.",
+  "explain": {
+   "short": "Here chains or winter tyres are required, not just advised.",
+   "rule": "Mountain sign: Stelvio pass is open, but only for vehicles with snow chains or winter tyres.",
+   "trap": "'consiglia' (advises) is too weak: it is a requirement.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Required, not just advised",
+    "it": "transitabilità",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consiglia",
+    "en": "advises"
+   },
+   {
+    "it": "montare le catene",
+    "en": "fit the chains"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21509": {
+  "en": "The sign shown requires fitting chains on all four wheels.",
+  "explain": {
+   "short": "It asks for chains OR winter tyres, and says nothing about all four wheels.",
+   "rule": "Mountain sign: Stelvio pass is open, but only for vehicles with snow chains or winter tyres.",
+   "trap": "'su tutte le quattro ruote' (on all four wheels) is invented.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Chains or winter tyres, not four wheels",
+    "it": "transitabilità",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tutte le quattro ruote",
+    "en": "all four wheels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21510": {
+  "en": "The sign shown requires removing the chains so as not to damage the road surface.",
+  "explain": {
+   "short": "It is the opposite: you need chains or winter tyres to go on.",
+   "rule": "Mountain sign: Stelvio pass is open, but only for vehicles with snow chains or winter tyres.",
+   "trap": "'togliere le catene' (remove the chains) is the opposite of the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Opposite: chains or winter tyres needed",
+    "it": "transitabilità",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "togliere le catene",
+    "en": "remove the chains"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21511": {
+  "en": "The sign shown indicates the opening of a ski lift.",
+  "explain": {
+   "short": "'aperto' refers to the Stelvio pass road, not to a ski facility.",
+   "rule": "Mountain sign: Stelvio pass is open, but only for vehicles with snow chains or winter tyres.",
+   "trap": "'impianto sciistico' (ski lift): 'aperto' is about the road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road open, not a ski lift",
+    "it": "transitabilità",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "impianto sciistico",
+    "en": "ski lift"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21512": {
+  "en": "The sign shown advises proceeding with special care and attention.",
+  "explain": {
+   "short": "The pass is closed and the road to Trafoi may have snow, so you drive carefully.",
+   "rule": "Mountain sign: Stelvio pass closed; you can drive up to Trafoi, with chains or winter tyres recommended.",
+   "trap": "'consiglia ... prudenza' (advises care) fits a sign about snow and a closed pass.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Snow ahead: drive with care",
+    "it": "chiuso",
+    "action": "slow",
+    "hazard": "❄️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "particolare prudenza",
+    "en": "special care"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21513": {
+  "en": "The sign shown indicates that the Stelvio pass cannot be reached.",
+  "explain": {
+   "short": "The red panel says 'chiuso' (closed): the pass cannot be reached.",
+   "rule": "Mountain sign: Stelvio pass closed; you can drive up to Trafoi, with chains or winter tyres recommended.",
+   "trap": "'non è raggiungibile' (cannot be reached) = 'chiuso' in red.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stelvio closed: cannot be reached",
+    "it": "chiuso",
+    "action": "slow",
+    "hazard": "❄️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è raggiungibile",
+    "en": "cannot be reached"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21514": {
+  "en": "The sign shown recommends using chains or winter tyres as far as Trafoi.",
+  "explain": {
+   "short": "The chains symbols with 'fino a TRAFOI' show that up to Trafoi chains or winter tyres are recommended.",
+   "rule": "Mountain sign: Stelvio pass closed; you can drive up to Trafoi, with chains or winter tyres recommended.",
+   "trap": "'raccomanda' (recommends) and 'fino a' (as far as) both come from the lower panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Chains/winter tyres up to Trafoi",
+    "it": "chiuso",
+    "action": "slow",
+    "hazard": "❄️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "raccomanda",
+    "en": "recommends"
+   },
+   {
+    "it": "fino a Trafoi",
+    "en": "as far as Trafoi"
+   }
+  ],
+  "review": true,
+  "reviewNote": "Official answer treats the chains symbol here as advice; the transitability sign rule (and group 4294) treats it as compulsory. Check."
+ },
+ "q21515": {
+  "en": "The sign shown indicates that it is possible to go as far as Trafoi.",
+  "explain": {
+   "short": "'fino a TRAFOI' (as far as Trafoi): the road is open up to Trafoi.",
+   "rule": "Mountain sign: Stelvio pass closed; you can drive up to Trafoi, with chains or winter tyres recommended.",
+   "trap": "'fino a' (as far as) marks how far you can go.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Open as far as Trafoi",
+    "it": "chiuso",
+    "action": "slow",
+    "hazard": "❄️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "arrivare fino a Trafoi",
+    "en": "go as far as Trafoi"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21516": {
+  "en": "The sign shown indicates that the service stations are closed.",
+  "explain": {
+   "short": "'chiuso' refers to the Stelvio pass, not to petrol stations.",
+   "rule": "Mountain sign: Stelvio pass closed; you can drive up to Trafoi, with chains or winter tyres recommended.",
+   "trap": "'stazioni di servizio' (service stations) are not on this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pass closed, not service stations",
+    "it": "chiuso",
+    "action": "slow",
+    "hazard": "❄️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "stazioni di servizio",
+    "en": "service stations"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21517": {
+  "en": "The sign shown indicates that fitting winter tyres is compulsory.",
+  "explain": {
+   "short": "For the quiz, chains or winter tyres are only recommended up to Trafoi, not compulsory.",
+   "rule": "Mountain sign: Stelvio pass closed; you can drive up to Trafoi, with chains or winter tyres recommended.",
+   "trap": "'obbligatorio' (compulsory) is the trap: the quiz reads this sign as a recommendation.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Recommended, not compulsory (quiz)",
+    "it": "chiuso",
+    "action": "slow",
+    "hazard": "❄️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligatorio",
+    "en": "compulsory"
+   },
+   {
+    "it": "pneumatici invernali",
+    "en": "winter tyres"
+   }
+  ],
+  "review": true,
+  "reviewNote": "Official answer treats the chains symbol here as advice; the transitability sign rule (and group 4294) treats it as compulsory. Check."
+ },
+ "q21518": {
+  "en": "The sign shown bans vehicles without snow chains from driving through.",
+  "explain": {
+   "short": "It does not ban anyone: it closes the pass and recommends chains up to Trafoi.",
+   "rule": "Mountain sign: Stelvio pass closed; you can drive up to Trafoi, with chains or winter tyres recommended.",
+   "trap": "'vieta' (bans) is too strong: there is no ban sign here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No ban: chains only recommended",
+    "it": "chiuso",
+    "action": "slow",
+    "hazard": "❄️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans driving through"
+   },
+   {
+    "it": "catene da neve",
+    "en": "snow chains"
+   }
+  ],
+  "review": true,
+  "reviewNote": "Official answer treats the chains symbol here as advice; the transitability sign rule (and group 4294) treats it as compulsory. Check."
+ },
+ "q21519": {
+  "en": "The sign shown indicates that, to drive through, vehicles must carry chains on board.",
+  "explain": {
+   "short": "For the quiz the sign recommends chains or winter tyres; it does not make carrying chains a condition.",
+   "rule": "Mountain sign: Stelvio pass closed; you can drive up to Trafoi, with chains or winter tyres recommended.",
+   "trap": "'debbono avere a bordo' (must carry on board) turns a recommendation into an obligation.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No obligation to carry chains (quiz)",
+    "it": "chiuso",
+    "action": "slow",
+    "hazard": "❄️"
+   }
+  },
+  "keywords": [
+   {
+    "it": "debbono avere a bordo",
+    "en": "must carry on board"
+   }
+  ],
+  "review": true,
+  "reviewNote": "Official answer treats the chains symbol here as advice; the transitability sign rule (and group 4294) treats it as compulsory. Check."
+ }
+}

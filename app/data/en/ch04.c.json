@@ -1,0 +1,2222 @@
+{
+ "q20194": {
+  "en": "The sign shown means that turning left is not allowed.",
+  "explain": {
+   "short": "The arrows show only straight on and right, so a left turn is not allowed.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn right, you choose. Turning left is not allowed.",
+   "trap": "'non è consentito' (is not allowed) is correct: left is missing from the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only straight or right: no left turn",
+    "it": "svoltare a sinistra",
+    "action": "straightOrRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è consentito",
+    "en": "is not allowed"
+   },
+   {
+    "it": "svoltare a sinistra",
+    "en": "to turn left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20195": {
+  "en": "The sign shown means that turning right is allowed.",
+  "explain": {
+   "short": "One of the two arrows points right, so turning right is allowed.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn right, you choose. Turning left is not allowed.",
+   "trap": "'è consentito' (is allowed) does not mean 'is compulsory': right is one of two choices.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Turning right is allowed",
+    "it": "svoltare a destra",
+    "action": "straightOrRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito",
+    "en": "is allowed"
+   },
+   {
+    "it": "svoltare a destra",
+    "en": "to turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20196": {
+  "en": "The sign shown means that going straight on is allowed.",
+  "explain": {
+   "short": "One of the two arrows points straight up, so going straight on is allowed.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn right, you choose. Turning left is not allowed.",
+   "trap": "'è consentito' (is allowed): straight on is one of the two allowed choices.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Going straight on is allowed",
+    "it": "proseguire diritto",
+    "action": "straightOrRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito",
+    "en": "is allowed"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "to go straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20197": {
+  "en": "The sign shown means that you can choose between the two allowed directions.",
+  "explain": {
+   "short": "The sign shows two arrows: you may pick straight on or right.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn right, you choose. Turning left is not allowed.",
+   "trap": "'si può scegliere' (you can choose): two arrows mean two free choices.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "You choose: straight on or right",
+    "it": "direzioni consentite",
+    "action": "straightOrRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si può scegliere",
+    "en": "you can choose"
+   },
+   {
+    "it": "direzioni consentite",
+    "en": "allowed directions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20198": {
+  "en": "The sign shown means that you must turn only to the right.",
+  "explain": {
+   "short": "Straight on is also allowed, so right is not the only choice.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn right, you choose. Turning left is not allowed.",
+   "trap": "'unicamente' (only) is the trap: there are two arrows, not one.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: straight on is also allowed",
+    "it": "unicamente",
+    "action": "straightOrRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligatorio",
+    "en": "compulsory"
+   },
+   {
+    "it": "unicamente a destra",
+    "en": "only to the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20199": {
+  "en": "The sign shown means that you must go only straight on.",
+  "explain": {
+   "short": "Turning right is also allowed, so straight on is not the only choice.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn right, you choose. Turning left is not allowed.",
+   "trap": "'solo' (only) is the trap: the right arrow is there too.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: turning right is also allowed",
+    "it": "solo diritto",
+    "action": "straightOrRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligatorio",
+    "en": "compulsory"
+   },
+   {
+    "it": "solo diritto",
+    "en": "only straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20200": {
+  "en": "The sign shown means that you must give way to the left.",
+  "explain": {
+   "short": "This sign shows allowed directions; it says nothing about giving way.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn right, you choose. Turning left is not allowed.",
+   "trap": "'dare la precedenza' (give way) belongs to other signs, like the upside-down triangle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it shows directions, not give way",
+    "it": "precedenza",
+    "action": "straightOrRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligatorio",
+    "en": "compulsory"
+   },
+   {
+    "it": "dare la precedenza",
+    "en": "to give way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20201": {
+  "en": "The sign shown means that in every case you must keep as close as possible to the right edge of the carriageway.",
+  "explain": {
+   "short": "The sign only says which directions you may take; it does not tell you to keep to the right edge.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn right, you choose. Turning left is not allowed.",
+   "trap": "'in ogni caso' (in every case) and 'margine destro' (right edge) are not on this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it only shows the allowed directions",
+    "it": "margine destro",
+    "action": "straightOrRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in ogni caso",
+    "en": "in every case"
+   },
+   {
+    "it": "margine destro",
+    "en": "right edge"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20202": {
+  "en": "The sign shown means that a dangerous fork is near.",
+  "explain": {
+   "short": "A blue disc gives an obligation; a danger warning would be a red triangle.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn right, you choose. Turning left is not allowed.",
+   "trap": "'biforcazione pericolosa' (dangerous fork) would need a triangle danger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: obligation sign, not a danger sign",
+    "it": "obbligo",
+    "action": "straightOrRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è prossima",
+    "en": "is near"
+   },
+   {
+    "it": "biforcazione pericolosa",
+    "en": "dangerous fork"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20203": {
+  "en": "The sign shown only allows you to go straight on or turn left.",
+  "explain": {
+   "short": "The two arrows show straight on and left; nothing else is allowed.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn left, you choose. Turning right is not allowed.",
+   "trap": "'solo' (only) is right here: only these two directions.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only straight on or left",
+    "it": "direzioni consentite",
+    "action": "straightOrLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente solo",
+    "en": "only allows"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "go straight on"
+   },
+   {
+    "it": "svoltare a sinistra",
+    "en": "turn left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20204": {
+  "en": "The sign shown does not allow a right turn.",
+  "explain": {
+   "short": "There is no right arrow, so turning right is not allowed.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn left, you choose. Turning right is not allowed.",
+   "trap": "'non consente' (does not allow): right is missing from the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No right turn: only straight or left",
+    "it": "svolta a destra",
+    "action": "straightOrLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non consente",
+    "en": "does not allow"
+   },
+   {
+    "it": "svolta a destra",
+    "en": "right turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20205": {
+  "en": "The sign shown requires you to turn left or go straight on.",
+  "explain": {
+   "short": "It is an obligation sign: you must take one of the two arrows, left or straight on.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn left, you choose. Turning right is not allowed.",
+   "trap": "'obbliga' (requires) fits: you must follow one of the two arrows.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "You must go left or straight on",
+    "it": "obbligo",
+    "action": "straightOrLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga",
+    "en": "requires"
+   },
+   {
+    "it": "svoltare a sinistra",
+    "en": "turn left"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "go straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20206": {
+  "en": "The sign shown means that you must not turn right.",
+  "explain": {
+   "short": "Only straight on and left are shown, so you must not turn right.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn left, you choose. Turning right is not allowed.",
+   "trap": "'non si deve' (you must not): right is not one of the arrows.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Do not turn right here",
+    "it": "svoltare a destra",
+    "action": "straightOrLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non si deve",
+    "en": "you must not"
+   },
+   {
+    "it": "svoltare a destra",
+    "en": "turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20207": {
+  "en": "The sign shown is a prescription (regulatory) sign.",
+  "explain": {
+   "short": "Obligation signs belong to the prescription signs, together with prohibition and priority signs.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn left, you choose. Turning right is not allowed.",
+   "trap": "'prescrizione' (prescription): rules you must obey, which includes obligation signs.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Obligation signs are prescription signs",
+    "it": "segnale di prescrizione",
+    "action": "straightOrLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di prescrizione",
+    "en": "prescription sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20208": {
+  "en": "The sign shown is also found outside built-up areas.",
+  "explain": {
+   "short": "Junctions exist everywhere, so this sign is used both in towns and outside towns.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn left, you choose. Turning right is not allowed.",
+   "trap": "'anche' (also): in towns and outside towns.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Used in towns and outside towns",
+    "it": "fuori dei centri abitati",
+    "action": "straightOrLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si trova anche",
+    "en": "is also found"
+   },
+   {
+    "it": "fuori dei centri abitati",
+    "en": "outside built-up areas"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20209": {
+  "en": "The sign shown only allows you to go straight on.",
+  "explain": {
+   "short": "Turning left is also allowed, so straight on is not the only choice.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn left, you choose. Turning right is not allowed.",
+   "trap": "'solo' (only) is the trap: the left arrow is there too.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: turning left is also allowed",
+    "it": "solo",
+    "action": "straightOrLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente solo",
+    "en": "only allows"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "go straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20210": {
+  "en": "The sign shown means that only turning left is allowed.",
+  "explain": {
+   "short": "Going straight on is also allowed, so left is not the only choice.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn left, you choose. Turning right is not allowed.",
+   "trap": "'soltanto' (only) is the trap: the straight arrow is there too.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: straight on is also allowed",
+    "it": "soltanto",
+    "action": "straightOrLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito soltanto",
+    "en": "only ... is allowed"
+   },
+   {
+    "it": "svoltare a sinistra",
+    "en": "turn left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20211": {
+  "en": "The sign shown requires you to pass on the left of roadworks.",
+  "explain": {
+   "short": "The arrows show directions at a junction; passing an obstacle on the left has a different sign (one arrow pointing down-left).",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn left, you choose. Turning right is not allowed.",
+   "trap": "'passare a sinistra di un cantiere' (pass left of roadworks) belongs to the keep-left sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: directions at a junction, not an obstacle",
+    "it": "cantiere stradale",
+    "action": "straightOrLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga a passare a sinistra",
+    "en": "requires you to pass on the left"
+   },
+   {
+    "it": "cantiere stradale",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20212": {
+  "en": "The sign shown allows you to pass the traffic divider on its left.",
+  "explain": {
+   "short": "The arrows show directions at a junction; they say nothing about a traffic divider.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn left, you choose. Turning right is not allowed.",
+   "trap": "'spartitraffico' (traffic divider) is about keep-left / keep-right signs, not this one.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it gives directions, not divider passing",
+    "it": "spartitraffico",
+    "action": "straightOrLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente di sorpassare",
+    "en": "allows you to pass"
+   },
+   {
+    "it": "spartitraffico",
+    "en": "traffic divider"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20213": {
+  "en": "The sign shown is an information sign.",
+  "explain": {
+   "short": "A blue disc is an obligation sign: it gives an order, not just information.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn left, you choose. Turning right is not allowed.",
+   "trap": "'indicazione' (information) signs are usually rectangles; round blue signs are obligations.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it is an obligation sign",
+    "it": "segnale di indicazione",
+    "action": "straightOrLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di indicazione",
+    "en": "information sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20214": {
+  "en": "The sign shown is a danger sign.",
+  "explain": {
+   "short": "Danger signs are red triangles; this blue disc is an obligation sign.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn left, you choose. Turning right is not allowed.",
+   "trap": "'pericolo' (danger) signs are triangles, not blue discs.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: obligation sign, not a danger sign",
+    "it": "segnale di pericolo",
+    "action": "straightOrLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20215": {
+  "en": "The sign shown means that going straight on is allowed.",
+  "explain": {
+   "short": "One of the two arrows points straight up, so going straight on is allowed.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn left, you choose. Turning right is not allowed.",
+   "trap": "'è consentito' (is allowed): straight on is one of the two choices.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Going straight on is allowed",
+    "it": "proseguire diritto",
+    "action": "straightOrLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito",
+    "en": "is allowed"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "to go straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20216": {
+  "en": "The sign shown means that turning left is allowed.",
+  "explain": {
+   "short": "One of the two arrows points left, so turning left is allowed.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn left, you choose. Turning right is not allowed.",
+   "trap": "'è consentito' (is allowed) does not mean 'only': left is one of two choices.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Turning left is allowed",
+    "it": "svoltare a sinistra",
+    "action": "straightOrLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito",
+    "en": "is allowed"
+   },
+   {
+    "it": "svoltare a sinistra",
+    "en": "to turn left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20217": {
+  "en": "The sign shown means that you can choose between the two allowed directions.",
+  "explain": {
+   "short": "The sign shows two arrows: you may pick straight on or left.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn left, you choose. Turning right is not allowed.",
+   "trap": "'si può scegliere' (you can choose): two arrows mean two free choices.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "You choose: straight on or left",
+    "it": "direzioni consentite",
+    "action": "straightOrLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si può scegliere",
+    "en": "you can choose"
+   },
+   {
+    "it": "direzioni consentite",
+    "en": "allowed directions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20218": {
+  "en": "The sign shown means that you must give way to the right.",
+  "explain": {
+   "short": "This sign shows allowed directions; it says nothing about giving way.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn left, you choose. Turning right is not allowed.",
+   "trap": "'dare la precedenza' (give way) belongs to other signs, like the upside-down triangle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it shows directions, not give way",
+    "it": "precedenza",
+    "action": "straightOrLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si deve",
+    "en": "you must"
+   },
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20219": {
+  "en": "The sign shown means that you must go only straight on.",
+  "explain": {
+   "short": "Turning left is also allowed, so straight on is not the only choice.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn left, you choose. Turning right is not allowed.",
+   "trap": "'solo' (only) is the trap: the left arrow is there too.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: turning left is also allowed",
+    "it": "solo diritto",
+    "action": "straightOrLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligatorio",
+    "en": "compulsory"
+   },
+   {
+    "it": "solo diritto",
+    "en": "only straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20220": {
+  "en": "The sign shown means that you must turn only to the left.",
+  "explain": {
+   "short": "Going straight on is also allowed, so left is not the only choice.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn left, you choose. Turning right is not allowed.",
+   "trap": "'unicamente' (only) is the trap: there are two arrows, not one.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: straight on is also allowed",
+    "it": "unicamente",
+    "action": "straightOrLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligatorio",
+    "en": "compulsory"
+   },
+   {
+    "it": "unicamente a sinistra",
+    "en": "only to the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20221": {
+  "en": "The sign shown means that you are crossing a dangerous fork.",
+  "explain": {
+   "short": "A blue disc gives an obligation; a danger warning would be a red triangle.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn left, you choose. Turning right is not allowed.",
+   "trap": "'biforcazione pericolosa' (dangerous fork) would need a triangle danger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: obligation sign, not a danger sign",
+    "it": "biforcazione",
+    "action": "straightOrLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si sta incrociando",
+    "en": "you are crossing"
+   },
+   {
+    "it": "biforcazione pericolosa",
+    "en": "dangerous fork"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20222": {
+  "en": "The sign shown means that in every case you must get as close as possible to the centre line of the carriageway.",
+  "explain": {
+   "short": "The sign only says which directions you may take; it does not tell you to move to the centre in every case.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn left, you choose. Turning right is not allowed.",
+   "trap": "'in ogni caso' (in every case) is the trap: if you go straight on you stay in your normal position.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it only shows the allowed directions",
+    "it": "asse della carreggiata",
+    "action": "straightOrLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in ogni caso",
+    "en": "in every case"
+   },
+   {
+    "it": "asse della carreggiata",
+    "en": "centre line of the carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20223": {
+  "en": "The sign shown means that the available lanes become two.",
+  "explain": {
+   "short": "The arrows show directions you may take, not the number of lanes.",
+   "rule": "Mandatory directions (blue disc): you must go straight on OR turn left, you choose. Turning right is not allowed.",
+   "trap": "'le corsie diventano due' (lanes become two) is a different sign about lanes.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: directions, not number of lanes",
+    "it": "corsie",
+    "action": "straightOrLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsie disponibili",
+    "en": "available lanes"
+   },
+   {
+    "it": "diventano due",
+    "en": "become two"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20224": {
+  "en": "The sign shown requires drivers to pass on the left of an obstacle.",
+  "explain": {
+   "short": "The arrow points down to the left: drivers must go past the obstacle on its left side.",
+   "rule": "'Passaggio obbligatorio a sinistra' (keep left): pass on the LEFT of the obstacle, so the obstacle stays on your right. It is not a turn.",
+   "trap": "'passare a sinistra' (pass on the left): you go on the left, the obstacle stays on your right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pass on the left of the obstacle",
+    "it": "passaggio a sinistra",
+    "action": "keepLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga i conducenti",
+    "en": "requires drivers"
+   },
+   {
+    "it": "passare a sinistra",
+    "en": "to pass on the left"
+   },
+   {
+    "it": "ostacolo",
+    "en": "obstacle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20225": {
+  "en": "The sign shown requires drivers to pass on the left of a traffic island.",
+  "explain": {
+   "short": "The arrow points down to the left: drivers must go past the traffic island on its left side.",
+   "rule": "'Passaggio obbligatorio a sinistra' (keep left): pass on the LEFT of the obstacle, so the obstacle stays on your right. It is not a turn.",
+   "trap": "'passare a sinistra' (pass on the left): you go on the left, the obstacle stays on your right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pass on the left of the traffic island",
+    "it": "passaggio a sinistra",
+    "action": "keepLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga i conducenti",
+    "en": "requires drivers"
+   },
+   {
+    "it": "passare a sinistra",
+    "en": "to pass on the left"
+   },
+   {
+    "it": "isola di traffico",
+    "en": "traffic island"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20226": {
+  "en": "The sign shown requires drivers to pass on the left of a passenger island.",
+  "explain": {
+   "short": "The arrow points down to the left: drivers must go past the passenger island on its left side.",
+   "rule": "'Passaggio obbligatorio a sinistra' (keep left): pass on the LEFT of the obstacle, so the obstacle stays on your right. It is not a turn.",
+   "trap": "'passare a sinistra' (pass on the left): you go on the left, the obstacle stays on your right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pass on the left of the passenger island",
+    "it": "passaggio a sinistra",
+    "action": "keepLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga i conducenti",
+    "en": "requires drivers"
+   },
+   {
+    "it": "passare a sinistra",
+    "en": "to pass on the left"
+   },
+   {
+    "it": "salvagente",
+    "en": "passenger island (raised stop for tram/bus passengers)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20227": {
+  "en": "The sign shown requires drivers to pass on the left of roadworks.",
+  "explain": {
+   "short": "The arrow points down to the left: drivers must go past the roadworks on its left side.",
+   "rule": "'Passaggio obbligatorio a sinistra' (keep left): pass on the LEFT of the obstacle, so the obstacle stays on your right. It is not a turn.",
+   "trap": "'passare a sinistra' (pass on the left): you go on the left, the obstacle stays on your right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pass on the left of the roadworks",
+    "it": "passaggio a sinistra",
+    "action": "keepLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga i conducenti",
+    "en": "requires drivers"
+   },
+   {
+    "it": "passare a sinistra",
+    "en": "to pass on the left"
+   },
+   {
+    "it": "cantiere stradale",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20228": {
+  "en": "The sign shown requires drivers to pass on the left of a traffic divider.",
+  "explain": {
+   "short": "The arrow points down to the left: drivers must go past the traffic divider on its left side.",
+   "rule": "'Passaggio obbligatorio a sinistra' (keep left): pass on the LEFT of the obstacle, so the obstacle stays on your right. It is not a turn.",
+   "trap": "'passare a sinistra' (pass on the left): you go on the left, the obstacle stays on your right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pass on the left of the traffic divider",
+    "it": "passaggio a sinistra",
+    "action": "keepLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga i conducenti",
+    "en": "requires drivers"
+   },
+   {
+    "it": "passare a sinistra",
+    "en": "to pass on the left"
+   },
+   {
+    "it": "spartitraffico",
+    "en": "traffic divider"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20229": {
+  "en": "The sign shown can be preceded by the ROUNDABOUT sign.",
+  "explain": {
+   "short": "This sign is placed right at an obstacle; it is not linked to a roundabout warning.",
+   "rule": "'Passaggio obbligatorio a sinistra' (keep left): pass on the LEFT of the obstacle, so the obstacle stays on your right. It is not a turn.",
+   "trap": "'ROTATORIA' (roundabout) has its own signs; this one is about passing an obstacle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it marks an obstacle, not a roundabout",
+    "it": "rotatoria",
+    "action": "keepLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "può essere preceduto",
+    "en": "can be preceded"
+   },
+   {
+    "it": "ROTATORIA",
+    "en": "roundabout"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20230": {
+  "en": "The sign shown means a dangerous descent on the left.",
+  "explain": {
+   "short": "A blue disc is an obligation: pass on the left. A steep descent is a red triangle danger sign.",
+   "rule": "'Passaggio obbligatorio a sinistra' (keep left): pass on the LEFT of the obstacle, so the obstacle stays on your right. It is not a turn.",
+   "trap": "'discesa pericolosa' (dangerous descent) would be a triangle danger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it means pass on the left",
+    "it": "discesa pericolosa",
+    "action": "keepLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "discesa pericolosa",
+    "en": "dangerous descent"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20231": {
+  "en": "The sign shown requires drivers to turn left.",
+  "explain": {
+   "short": "The arrow points down-left: you pass the obstacle on the left and keep going, you do not turn.",
+   "rule": "'Passaggio obbligatorio a sinistra' (keep left): pass on the LEFT of the obstacle, so the obstacle stays on your right. It is not a turn.",
+   "trap": "'svoltare' (turn) is the trap: it is 'passare' (pass by), not a turn.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: pass on the left, not turn left",
+    "it": "svoltare",
+    "action": "keepLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga i conducenti",
+    "en": "requires drivers"
+   },
+   {
+    "it": "svoltare a sinistra",
+    "en": "to turn left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20232": {
+  "en": "The sign shown announces an obligation to turn left ahead.",
+  "explain": {
+   "short": "The sign is placed at the obstacle and means pass on the left now; it does not announce a turn.",
+   "rule": "'Passaggio obbligatorio a sinistra' (keep left): pass on the LEFT of the obstacle, so the obstacle stays on your right. It is not a turn.",
+   "trap": "'preannuncia' (announces ahead) and 'svoltare' (turn) are both wrong here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: pass on the left here, not a turn",
+    "it": "preannuncia",
+    "action": "keepLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "announces ahead"
+   },
+   {
+    "it": "obbligo di svoltare",
+    "en": "obligation to turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20233": {
+  "en": "The sign shown means that you must turn right.",
+  "explain": {
+   "short": "The arrow points down to the left: you pass the obstacle on the left; there is no right turn.",
+   "rule": "'Passaggio obbligatorio a sinistra' (keep left): pass on the LEFT of the obstacle, so the obstacle stays on your right. It is not a turn.",
+   "trap": "'destra' (right) is the wrong side, and 'svoltare' (turn) is the wrong action.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: pass on the left, no right turn",
+    "it": "svoltare a destra",
+    "action": "keepLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligatorio",
+    "en": "compulsory"
+   },
+   {
+    "it": "svoltare a destra",
+    "en": "to turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20234": {
+  "en": "The sign shown is an information sign.",
+  "explain": {
+   "short": "A blue disc is an obligation sign: it gives an order, not just information.",
+   "rule": "'Passaggio obbligatorio a sinistra' (keep left): pass on the LEFT of the obstacle, so the obstacle stays on your right. It is not a turn.",
+   "trap": "'indicazione' (information) signs are usually rectangles; round blue signs are obligations.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it is an obligation sign",
+    "it": "segnale di indicazione",
+    "action": "keepLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di indicazione",
+    "en": "information sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20235": {
+  "en": "The sign shown means compulsory passing on the left.",
+  "explain": {
+   "short": "This is exactly the name of the sign: 'passaggio obbligatorio a sinistra'.",
+   "rule": "'Passaggio obbligatorio a sinistra' (keep left): pass on the LEFT of the obstacle, so the obstacle stays on your right. It is not a turn.",
+   "trap": "'passaggio' (passing by) is not 'svolta' (turn).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Compulsory passing on the left",
+    "it": "passaggio obbligatorio",
+    "action": "keepLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "passaggio obbligatorio",
+    "en": "compulsory passing"
+   },
+   {
+    "it": "a sinistra",
+    "en": "on the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20236": {
+  "en": "The sign shown orders you not to pass the obstacle on the right.",
+  "explain": {
+   "short": "You must pass on the left, so passing the obstacle on its right side is forbidden.",
+   "rule": "'Passaggio obbligatorio a sinistra' (keep left): pass on the LEFT of the obstacle, so the obstacle stays on your right. It is not a turn.",
+   "trap": "'non superare a destra' (do not pass on the right) is the same rule said the other way round.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pass on the left, never on the right",
+    "it": "ostacolo",
+    "action": "keepLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "prescrive",
+    "en": "orders"
+   },
+   {
+    "it": "non superare",
+    "en": "not to pass"
+   },
+   {
+    "it": "ostacolo",
+    "en": "obstacle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20237": {
+  "en": "The sign shown means you must pass roadworks on the left side.",
+  "explain": {
+   "short": "Roadworks are one of the obstacles this sign is used for: you pass them on the left.",
+   "rule": "'Passaggio obbligatorio a sinistra' (keep left): pass on the LEFT of the obstacle, so the obstacle stays on your right. It is not a turn.",
+   "trap": "'superare' (go past) here means passing by the obstacle, not overtaking a vehicle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pass the roadworks on the left",
+    "it": "cantiere stradale",
+    "action": "keepLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo di superare",
+    "en": "obligation to go past"
+   },
+   {
+    "it": "cantiere stradale",
+    "en": "roadworks"
+   },
+   {
+    "it": "parte sinistra",
+    "en": "left side"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20238": {
+  "en": "The sign shown means you must leave the obstacle on your right.",
+  "explain": {
+   "short": "When you pass on the left of something, that thing stays on your right.",
+   "rule": "'Passaggio obbligatorio a sinistra' (keep left): pass on the LEFT of the obstacle, so the obstacle stays on your right. It is not a turn.",
+   "trap": "'lasciare a destra' (leave on your right) = you pass on its left.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Obstacle on your right = you pass on the left",
+    "it": "lasciare l'ostacolo a destra",
+    "action": "keepLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo",
+    "en": "obligation"
+   },
+   {
+    "it": "lasciare l'ostacolo a destra",
+    "en": "leave the obstacle on your right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20239": {
+  "en": "The sign shown means an obligation to turn left.",
+  "explain": {
+   "short": "The arrow points down-left: you pass an obstacle on the left; you do not turn.",
+   "rule": "'Passaggio obbligatorio a sinistra' (keep left): pass on the LEFT of the obstacle, so the obstacle stays on your right. It is not a turn.",
+   "trap": "'svoltare' (turn) is the trap: the turn-left sign has an arrow that bends left.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: pass on the left, not turn left",
+    "it": "svoltare",
+    "action": "keepLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo",
+    "en": "obligation"
+   },
+   {
+    "it": "svoltare a sinistra",
+    "en": "to turn left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20240": {
+  "en": "The sign shown means you must go past the passenger island leaving it on your left.",
+  "explain": {
+   "short": "You pass on the left of the island, so the island stays on your RIGHT, not on your left.",
+   "rule": "'Passaggio obbligatorio a sinistra' (keep left): pass on the LEFT of the obstacle, so the obstacle stays on your right. It is not a turn.",
+   "trap": "'lasciandolo alla propria sinistra' (leaving it on your left) is the opposite side.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: the island stays on your right",
+    "it": "salvagente",
+    "action": "keepLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "salvagente",
+    "en": "passenger island"
+   },
+   {
+    "it": "alla propria sinistra",
+    "en": "on your left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20241": {
+  "en": "The sign shown means compulsory direction to the left.",
+  "explain": {
+   "short": "'Direzione obbligatoria' is a turn sign; this one means compulsory passing on the left of an obstacle.",
+   "rule": "'Passaggio obbligatorio a sinistra' (keep left): pass on the LEFT of the obstacle, so the obstacle stays on your right. It is not a turn.",
+   "trap": "'direzione' (direction) is the trap: the correct word is 'passaggio' (passing).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: compulsory passing, not direction",
+    "it": "direzione obbligatoria",
+    "action": "keepLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "direzione obbligatoria",
+    "en": "compulsory direction"
+   },
+   {
+    "it": "a sinistra",
+    "en": "to the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20242": {
+  "en": "The sign shown means that we are near a junction.",
+  "explain": {
+   "short": "The sign is placed at an obstacle in the road, not to warn of a junction.",
+   "rule": "'Passaggio obbligatorio a sinistra' (keep left): pass on the LEFT of the obstacle, so the obstacle stays on your right. It is not a turn.",
+   "trap": "'incrocio' (junction) is warned by a red triangle danger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it marks an obstacle, not a junction",
+    "it": "incrocio",
+    "action": "keepLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in prossimità",
+    "en": "near"
+   },
+   {
+    "it": "incrocio",
+    "en": "junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20243": {
+  "en": "The sign shown means that it is not possible to continue along that road.",
+  "explain": {
+   "short": "You do continue: you just pass the obstacle on the left.",
+   "rule": "'Passaggio obbligatorio a sinistra' (keep left): pass on the LEFT of the obstacle, so the obstacle stays on your right. It is not a turn.",
+   "trap": "'non è possibile proseguire' (you cannot continue) would be a no-entry sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: you continue, passing on the left",
+    "it": "proseguire",
+    "action": "keepLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è possibile",
+    "en": "it is not possible"
+   },
+   {
+    "it": "proseguire",
+    "en": "continue"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20244": {
+  "en": "The sign shown requires drivers to pass on the right of an obstacle.",
+  "explain": {
+   "short": "The arrow points down to the right: drivers must go past the obstacle on its right side.",
+   "rule": "'Passaggio obbligatorio a destra' (keep right): pass on the RIGHT of the obstacle, so the obstacle stays on your left. It is not a turn.",
+   "trap": "'passare a destra' (pass on the right): you go on the right, the obstacle stays on your left.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pass on the right of the obstacle",
+    "it": "passaggio a destra",
+    "action": "keepRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga i conducenti",
+    "en": "requires drivers"
+   },
+   {
+    "it": "passare a destra",
+    "en": "to pass on the right"
+   },
+   {
+    "it": "ostacolo",
+    "en": "obstacle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20245": {
+  "en": "The sign shown, placed at a traffic island, requires drivers to pass on the right.",
+  "explain": {
+   "short": "The arrow points down to the right: drivers must go past the traffic island on its right side.",
+   "rule": "'Passaggio obbligatorio a destra' (keep right): pass on the RIGHT of the obstacle, so the obstacle stays on your left. It is not a turn.",
+   "trap": "'passare a destra' (pass on the right): you go on the right, the obstacle stays on your left.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pass on the right of the traffic island",
+    "it": "passaggio a destra",
+    "action": "keepRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in presenza di",
+    "en": "at / where there is"
+   },
+   {
+    "it": "isola di traffico",
+    "en": "traffic island"
+   },
+   {
+    "it": "passare a destra",
+    "en": "to pass on the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20246": {
+  "en": "The sign shown, placed at a passenger island, requires drivers to pass on the right.",
+  "explain": {
+   "short": "The arrow points down to the right: drivers must go past the passenger island on its right side.",
+   "rule": "'Passaggio obbligatorio a destra' (keep right): pass on the RIGHT of the obstacle, so the obstacle stays on your left. It is not a turn.",
+   "trap": "'passare a destra' (pass on the right): you go on the right, the obstacle stays on your left.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pass on the right of the passenger island",
+    "it": "passaggio a destra",
+    "action": "keepRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in presenza di",
+    "en": "at / where there is"
+   },
+   {
+    "it": "salvagente",
+    "en": "passenger island (raised stop for tram/bus passengers)"
+   },
+   {
+    "it": "passare a destra",
+    "en": "to pass on the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20247": {
+  "en": "The sign shown, placed at roadworks, requires drivers to pass on the right.",
+  "explain": {
+   "short": "The arrow points down to the right: drivers must go past the roadworks on its right side.",
+   "rule": "'Passaggio obbligatorio a destra' (keep right): pass on the RIGHT of the obstacle, so the obstacle stays on your left. It is not a turn.",
+   "trap": "'passare a destra' (pass on the right): you go on the right, the obstacle stays on your left.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pass on the right of the roadworks",
+    "it": "passaggio a destra",
+    "action": "keepRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in presenza di",
+    "en": "at / where there is"
+   },
+   {
+    "it": "cantiere stradale",
+    "en": "roadworks"
+   },
+   {
+    "it": "passare a destra",
+    "en": "to pass on the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20248": {
+  "en": "The sign shown requires drivers to pass on the right of a traffic divider.",
+  "explain": {
+   "short": "The arrow points down to the right: drivers must go past the traffic divider on its right side.",
+   "rule": "'Passaggio obbligatorio a destra' (keep right): pass on the RIGHT of the obstacle, so the obstacle stays on your left. It is not a turn.",
+   "trap": "'passare a destra' (pass on the right): you go on the right, the obstacle stays on your left.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pass on the right of the traffic divider",
+    "it": "passaggio a destra",
+    "action": "keepRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga i conducenti",
+    "en": "requires drivers"
+   },
+   {
+    "it": "passare a destra",
+    "en": "to pass on the right"
+   },
+   {
+    "it": "spartitraffico",
+    "en": "traffic divider"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20249": {
+  "en": "The sign shown gives advance warning of a dangerous bend to the right.",
+  "explain": {
+   "short": "A blue disc is an obligation: pass on the right. A dangerous bend is a red triangle danger sign.",
+   "rule": "'Passaggio obbligatorio a destra' (keep right): pass on the RIGHT of the obstacle, so the obstacle stays on your left. It is not a turn.",
+   "trap": "'curva pericolosa' (dangerous bend) would be a triangle danger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it means pass on the right",
+    "it": "curva pericolosa",
+    "action": "keepRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "presegnala",
+    "en": "warns in advance of"
+   },
+   {
+    "it": "curva pericolosa",
+    "en": "dangerous bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20250": {
+  "en": "The sign shown means an uneven road on the right.",
+  "explain": {
+   "short": "A blue disc is an obligation: pass on the right. An uneven road is a red triangle danger sign.",
+   "rule": "'Passaggio obbligatorio a destra' (keep right): pass on the RIGHT of the obstacle, so the obstacle stays on your left. It is not a turn.",
+   "trap": "'strada deformata' (uneven road) would be a triangle danger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it means pass on the right",
+    "it": "strada deformata",
+    "action": "keepRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada deformata",
+    "en": "uneven road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20251": {
+  "en": "The sign shown requires drivers to turn right.",
+  "explain": {
+   "short": "The arrow points down-right: you pass the obstacle on the right and keep going, you do not turn.",
+   "rule": "'Passaggio obbligatorio a destra' (keep right): pass on the RIGHT of the obstacle, so the obstacle stays on your left. It is not a turn.",
+   "trap": "'svoltare' (turn) is the trap: it is 'passare' (pass by), not a turn.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: pass on the right, not turn right",
+    "it": "svoltare",
+    "action": "keepRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga i conducenti",
+    "en": "requires drivers"
+   },
+   {
+    "it": "svoltare a destra",
+    "en": "to turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20252": {
+  "en": "The sign shown announces an obligation to turn right ahead.",
+  "explain": {
+   "short": "The sign is placed at the obstacle and means pass on the right now; it does not announce a turn.",
+   "rule": "'Passaggio obbligatorio a destra' (keep right): pass on the RIGHT of the obstacle, so the obstacle stays on your left. It is not a turn.",
+   "trap": "'preannuncia' (announces ahead) and 'svoltare' (turn) are both wrong here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: pass on the right here, not a turn",
+    "it": "preannuncia",
+    "action": "keepRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "announces ahead"
+   },
+   {
+    "it": "obbligo di svoltare",
+    "en": "obligation to turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20253": {
+  "en": "The sign shown means compulsory passing on the right.",
+  "explain": {
+   "short": "This is exactly the name of the sign: 'passaggio obbligatorio a destra'.",
+   "rule": "'Passaggio obbligatorio a destra' (keep right): pass on the RIGHT of the obstacle, so the obstacle stays on your left. It is not a turn.",
+   "trap": "'passaggio' (passing by) is not 'svolta' (turn).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Compulsory passing on the right",
+    "it": "passaggio obbligatorio",
+    "action": "keepRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "passaggio obbligatorio",
+    "en": "compulsory passing"
+   },
+   {
+    "it": "a destra",
+    "en": "on the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20254": {
+  "en": "The sign shown means that you may not pass the obstacle on the left.",
+  "explain": {
+   "short": "You must pass on the right, so passing the obstacle on its left side is forbidden.",
+   "rule": "'Passaggio obbligatorio a destra' (keep right): pass on the RIGHT of the obstacle, so the obstacle stays on your left. It is not a turn.",
+   "trap": "'non è consentito superare a sinistra' (not allowed on the left) is the same rule said the other way round.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pass on the right, never on the left",
+    "it": "ostacolo",
+    "action": "keepRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è consentito",
+    "en": "is not allowed"
+   },
+   {
+    "it": "superare l'ostacolo",
+    "en": "to pass the obstacle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20255": {
+  "en": "The sign shown means you must pass the traffic divider on the right side.",
+  "explain": {
+   "short": "A traffic divider is one of the obstacles this sign is used for: you pass it on the right.",
+   "rule": "'Passaggio obbligatorio a destra' (keep right): pass on the RIGHT of the obstacle, so the obstacle stays on your left. It is not a turn.",
+   "trap": "'superare' (go past) here means passing by the divider, not overtaking a vehicle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pass the divider on the right",
+    "it": "spartitraffico",
+    "action": "keepRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo di superare",
+    "en": "obligation to go past"
+   },
+   {
+    "it": "spartitraffico",
+    "en": "traffic divider"
+   },
+   {
+    "it": "parte destra",
+    "en": "right side"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20256": {
+  "en": "The sign shown means you must leave a passenger island on your left.",
+  "explain": {
+   "short": "When you pass on the right of the island, the island stays on your left.",
+   "rule": "'Passaggio obbligatorio a destra' (keep right): pass on the RIGHT of the obstacle, so the obstacle stays on your left. It is not a turn.",
+   "trap": "'lasciare a sinistra' (leave on your left) = you pass on its right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Island on your left = you pass on the right",
+    "it": "isola salvagente",
+    "action": "keepRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "lasciare",
+    "en": "leave"
+   },
+   {
+    "it": "isola salvagente",
+    "en": "passenger island"
+   },
+   {
+    "it": "a sinistra",
+    "en": "on the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20257": {
+  "en": "The sign shown means you must pass on the right of roadworks.",
+  "explain": {
+   "short": "Roadworks are one of the obstacles this sign is used for: you pass them on the right.",
+   "rule": "'Passaggio obbligatorio a destra' (keep right): pass on the RIGHT of the obstacle, so the obstacle stays on your left. It is not a turn.",
+   "trap": "'passare a destra' (pass on the right) matches the arrow down to the right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pass the roadworks on the right",
+    "it": "cantiere stradale",
+    "action": "keepRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo di passare a destra",
+    "en": "obligation to pass on the right"
+   },
+   {
+    "it": "cantiere stradale",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20258": {
+  "en": "The sign shown means an obligation to turn right.",
+  "explain": {
+   "short": "The arrow points down-right: you pass an obstacle on the right; you do not turn.",
+   "rule": "'Passaggio obbligatorio a destra' (keep right): pass on the RIGHT of the obstacle, so the obstacle stays on your left. It is not a turn.",
+   "trap": "'svoltare' (turn) is the trap: the turn-right sign has an arrow that bends right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: pass on the right, not turn right",
+    "it": "svoltare",
+    "action": "keepRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo",
+    "en": "obligation"
+   },
+   {
+    "it": "svoltare a destra",
+    "en": "to turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20259": {
+  "en": "The sign shown means you must go past the obstacle leaving it on your right.",
+  "explain": {
+   "short": "You pass on the right of the obstacle, so it stays on your LEFT, not on your right.",
+   "rule": "'Passaggio obbligatorio a destra' (keep right): pass on the RIGHT of the obstacle, so the obstacle stays on your left. It is not a turn.",
+   "trap": "'lasciandolo alla propria destra' (leaving it on your right) is the opposite side.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: the obstacle stays on your left",
+    "it": "ostacolo",
+    "action": "keepRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "superare l'ostacolo",
+    "en": "go past the obstacle"
+   },
+   {
+    "it": "alla propria destra",
+    "en": "on your right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20260": {
+  "en": "The sign shown means compulsory direction to the right.",
+  "explain": {
+   "short": "'Direzione obbligatoria' is a turn sign; this one means compulsory passing on the right of an obstacle.",
+   "rule": "'Passaggio obbligatorio a destra' (keep right): pass on the RIGHT of the obstacle, so the obstacle stays on your left. It is not a turn.",
+   "trap": "'direzione' (direction) is the trap: the correct word is 'passaggio' (passing).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: compulsory passing, not direction",
+    "it": "direzione obbligatoria",
+    "action": "keepRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "direzione obbligatoria",
+    "en": "compulsory direction"
+   },
+   {
+    "it": "a destra",
+    "en": "to the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20261": {
+  "en": "The sign shown means that we are near a junction.",
+  "explain": {
+   "short": "The sign is placed at an obstacle in the road, not to warn of a junction.",
+   "rule": "'Passaggio obbligatorio a destra' (keep right): pass on the RIGHT of the obstacle, so the obstacle stays on your left. It is not a turn.",
+   "trap": "'incrocio' (junction) is warned by a red triangle danger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it marks an obstacle, not a junction",
+    "it": "incrocio",
+    "action": "keepRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in prossimità",
+    "en": "near"
+   },
+   {
+    "it": "incrocio",
+    "en": "junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20262": {
+  "en": "The sign shown means that it is not possible to continue along that road.",
+  "explain": {
+   "short": "You do continue: you just pass the obstacle on the right.",
+   "rule": "'Passaggio obbligatorio a destra' (keep right): pass on the RIGHT of the obstacle, so the obstacle stays on your left. It is not a turn.",
+   "trap": "'non è possibile proseguire' (you cannot continue) would be a no-entry sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: you continue, passing on the right",
+    "it": "proseguire",
+    "action": "keepRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è possibile",
+    "en": "it is not possible"
+   },
+   {
+    "it": "proseguire",
+    "en": "continue"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20263": {
+  "en": "The sign shown tells the driver the only passages allowed.",
+  "explain": {
+   "short": "This sign is called 'passaggi consentiti': it shows the only ways you may pass, left or right of the obstacle.",
+   "rule": "'Passaggi consentiti' (pass either side): you may pass the obstacle on the right OR on the left. These are the only passages allowed.",
+   "trap": "'unici' (only) is right: you may pass only where the arrows point.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The arrows show the only ways through",
+    "it": "passaggi consentiti",
+    "action": "eitherSide"
+   }
+  },
+  "keywords": [
+   {
+    "it": "unici passaggi",
+    "en": "only passages"
+   },
+   {
+    "it": "consentiti",
+    "en": "allowed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20264": {
+  "en": "The sign shown indicates the passages allowed on the right and on the left of a traffic island.",
+  "explain": {
+   "short": "The two arrows point down-left and down-right: you may pass the traffic island on either side.",
+   "rule": "'Passaggi consentiti' (pass either side): you may pass the obstacle on the right OR on the left. These are the only passages allowed.",
+   "trap": "'a destra e a sinistra' (right and left): both sides are allowed, you choose.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Either side of the traffic island is allowed",
+    "it": "passaggi consentiti",
+    "action": "eitherSide"
+   }
+  },
+  "keywords": [
+   {
+    "it": "passaggi consentiti",
+    "en": "allowed passages"
+   },
+   {
+    "it": "a destra e a sinistra",
+    "en": "on the right and on the left"
+   },
+   {
+    "it": "isola di traffico",
+    "en": "traffic island"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20265": {
+  "en": "The sign shown allows drivers to pass both on the right and on the left of a passenger island.",
+  "explain": {
+   "short": "The two arrows point down-left and down-right: you may pass the passenger island on either side.",
+   "rule": "'Passaggi consentiti' (pass either side): you may pass the obstacle on the right OR on the left. These are the only passages allowed.",
+   "trap": "'a destra e a sinistra' (right and left): both sides are allowed, you choose.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Either side of the passenger island is allowed",
+    "it": "passaggi consentiti",
+    "action": "eitherSide"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente",
+    "en": "allows"
+   },
+   {
+    "it": "sia a destra che a sinistra",
+    "en": "both on the right and on the left"
+   },
+   {
+    "it": "salvagente",
+    "en": "passenger island"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20266": {
+  "en": "The sign shown allows passing on the right and on the left of roadworks.",
+  "explain": {
+   "short": "The two arrows point down-left and down-right: you may pass the roadworks on either side.",
+   "rule": "'Passaggi consentiti' (pass either side): you may pass the obstacle on the right OR on the left. These are the only passages allowed.",
+   "trap": "'a destra e a sinistra' (right and left): both sides are allowed, you choose.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Either side of the roadworks is allowed",
+    "it": "passaggi consentiti",
+    "action": "eitherSide"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il passaggio",
+    "en": "allows passing"
+   },
+   {
+    "it": "a destra e a sinistra",
+    "en": "on the right and on the left"
+   },
+   {
+    "it": "cantiere stradale",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20267": {
+  "en": "The sign shown means that you can drive on the right and on the left of a traffic divider.",
+  "explain": {
+   "short": "The two arrows point down-left and down-right: you may pass the traffic divider on either side.",
+   "rule": "'Passaggi consentiti' (pass either side): you may pass the obstacle on the right OR on the left. These are the only passages allowed.",
+   "trap": "'a destra e a sinistra' (right and left): both sides are allowed, you choose.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Either side of the traffic divider is allowed",
+    "it": "passaggi consentiti",
+    "action": "eitherSide"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si può transitare",
+    "en": "you can drive through"
+   },
+   {
+    "it": "a destra e a sinistra",
+    "en": "on the right and on the left"
+   },
+   {
+    "it": "spartitraffico",
+    "en": "traffic divider"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20268": {
+  "en": "The sign shown allows passing on both sides of the obstacle.",
+  "explain": {
+   "short": "The two arrows point down-left and down-right: you may pass the obstacle on either side.",
+   "rule": "'Passaggi consentiti' (pass either side): you may pass the obstacle on the right OR on the left. These are the only passages allowed.",
+   "trap": "'a destra e a sinistra' (right and left): both sides are allowed, you choose.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Either side of the obstacle is allowed",
+    "it": "passaggi consentiti",
+    "action": "eitherSide"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il passaggio",
+    "en": "allows passing"
+   },
+   {
+    "it": "ambedue i lati",
+    "en": "both sides"
+   },
+   {
+    "it": "ostacolo",
+    "en": "obstacle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20269": {
+  "en": "The sign shown requires you to turn left or right at the junction.",
+  "explain": {
+   "short": "The arrows point down to the sides of an obstacle: you pass it, you do not turn at a junction.",
+   "rule": "'Passaggi consentiti' (pass either side): you may pass the obstacle on the right OR on the left. These are the only passages allowed.",
+   "trap": "'svoltare all'incrocio' (turn at the junction) is wrong: it is about passing an obstacle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: pass the obstacle, no turn at a junction",
+    "it": "incrocio",
+    "action": "eitherSide"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga a svoltare",
+    "en": "requires you to turn"
+   },
+   {
+    "it": "all'incrocio",
+    "en": "at the junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20270": {
+  "en": "The sign shown forbids you to continue along that road.",
+  "explain": {
+   "short": "You do continue: you pass the obstacle on the left or on the right.",
+   "rule": "'Passaggi consentiti' (pass either side): you may pass the obstacle on the right OR on the left. These are the only passages allowed.",
+   "trap": "'vieta' (forbids) is the trap: this blue sign allows passages, it does not close the road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: you continue on either side",
+    "it": "vieta",
+    "action": "eitherSide"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "forbids"
+   },
+   {
+    "it": "proseguire",
+    "en": "continue"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20271": {
+  "en": "The sign shown is, as a rule, preceded by the ROUNDABOUT sign.",
+  "explain": {
+   "short": "This sign stands at an obstacle in the road; it is not normally announced by the roundabout sign.",
+   "rule": "'Passaggi consentiti' (pass either side): you may pass the obstacle on the right OR on the left. These are the only passages allowed.",
+   "trap": "'di norma' (as a rule) is the trap: there is no such rule.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: no roundabout sign before it",
+    "it": "rotatoria",
+    "action": "eitherSide"
+   }
+  },
+  "keywords": [
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "preceduto",
+    "en": "preceded"
+   },
+   {
+    "it": "ROTATORIA",
+    "en": "roundabout"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20272": {
+  "en": "The sign shown is an information sign.",
+  "explain": {
+   "short": "A blue disc is an obligation sign: it gives an order, not just information.",
+   "rule": "'Passaggi consentiti' (pass either side): you may pass the obstacle on the right OR on the left. These are the only passages allowed.",
+   "trap": "'indicazione' (information) signs are usually rectangles; round blue signs are obligations.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it is an obligation sign",
+    "it": "segnale di indicazione",
+    "action": "eitherSide"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di indicazione",
+    "en": "information sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20273": {
+  "en": "The sign shown is a prohibition sign.",
+  "explain": {
+   "short": "Prohibition signs have a red ring; this blue disc is an obligation sign.",
+   "rule": "'Passaggi consentiti' (pass either side): you may pass the obstacle on the right OR on the left. These are the only passages allowed.",
+   "trap": "'divieto' (prohibition) signs are red circles, not blue discs.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: blue = obligation, not prohibition",
+    "it": "segnale di divieto",
+    "action": "eitherSide"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di divieto",
+    "en": "prohibition sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

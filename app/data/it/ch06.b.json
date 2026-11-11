@@ -1,0 +1,645 @@
+{
+ "q20771": {
+  "short": "Tu vedi lontano perché la curva è finita. Chi viene di fronte è ancora in curva e non vede.",
+  "rule": "Con la striscia mista puoi superarla solo dal lato tratteggiato. Il lato continuo non può.",
+  "trap": "«subito dopo una curva»: dopo, non prima.",
+  "caption": "Striscia mista: subito dopo una curva",
+  "lines": [
+   "Tratteggio dal tuo lato: puoi passare",
+   "Continua dall'altro lato",
+   "Si trova subito dopo una curva"
+  ]
+ },
+ "q20772": {
+  "short": "La striscia vicino a te è tratteggiata, quindi puoi superarla. Per sorpassare superi anche la continua accanto.",
+  "rule": "Con la striscia mista puoi superarla solo dal lato tratteggiato. Il lato continuo non può.",
+  "trap": "«tutte e due le strisce»: puoi superarle, se parti dal lato tratteggiato.",
+  "caption": "Dal lato tratteggiato puoi superare tutte e due",
+  "lines": [
+   "Tratteggio dal tuo lato: puoi passare",
+   "Per sorpassare superi tutte e due"
+  ]
+ },
+ "q20773": {
+  "short": "Dopo il passaggio a livello vedi di nuovo la strada. Il lato che si allontana ha il tratteggio.",
+  "rule": "Con la striscia mista puoi superarla solo dal lato tratteggiato. Il lato continuo non può.",
+  "trap": "«dopo un passaggio a livello»: dopo, quindi il tuo lato può passare.",
+  "caption": "Striscia mista: dopo un passaggio a livello",
+  "lines": [
+   "Tratteggio dal tuo lato: puoi passare",
+   "Si trova dopo un passaggio a livello"
+  ]
+ },
+ "q20774": {
+  "short": "In discesa dopo il dosso vedi la strada. Chi sale non vede: per lui c'è la continua.",
+  "rule": "Con la striscia mista puoi superarla solo dal lato tratteggiato. Il lato continuo non può.",
+  "trap": "«in discesa»: in discesa vedi, quindi tratteggio per te.",
+  "caption": "Striscia mista: tratteggio per chi scende",
+  "lines": [
+   "In discesa vedi lontano: tratteggio",
+   "In salita non vedi: continua"
+  ]
+ },
+ "q20775": {
+  "short": "Chi viene di fronte ha la striscia continua dal suo lato. La continua non si supera.",
+  "rule": "Con la striscia mista puoi superarla solo dal lato tratteggiato. Il lato continuo non può.",
+  "trap": "«anche al veicolo che viene di fronte»: no, dal suo lato è continua.",
+  "caption": "Solo il lato tratteggiato passa, non chi viene di fronte",
+  "lines": [
+   "Tuo lato: tratteggio, puoi passare",
+   "Lato di fronte: continua, vietato"
+  ]
+ },
+ "q20776": {
+  "short": "La striscia mista divide due sensi opposti. Si usa sulle strade a doppio senso.",
+  "rule": "Con la striscia mista puoi superarla solo dal lato tratteggiato. Il lato continuo non può.",
+  "trap": "«a senso unico»: no, la striscia mista è per il doppio senso.",
+  "caption": "La striscia mista è per il doppio senso",
+  "lines": [
+   "Striscia mista: due sensi",
+   "Si usa sulle strade a doppio senso"
+  ]
+ },
+ "q20777": {
+  "short": "In salita verso il dosso non vedi chi arriva. Per chi sale c'è la continua.",
+  "rule": "Con la striscia mista puoi superarla solo dal lato tratteggiato. Il lato continuo non può.",
+  "trap": "«in salita»: in salita non vedi, quindi continua.",
+  "caption": "In salita non vedi: continua, non tratteggio",
+  "lines": [
+   "In salita non vedi: continua",
+   "Il tratteggio è per chi scende"
+  ]
+ },
+ "q20778": {
+  "short": "Prima di un incrocio sorpassare è pericoloso. Chi ci va incontro non ha il tratteggio.",
+  "rule": "Con la striscia mista puoi superarla solo dal lato tratteggiato. Il lato continuo non può.",
+  "trap": "«subito prima di un incrocio»: prima c'è pericolo, niente tratteggio.",
+  "caption": "Non si trova subito prima di un incrocio",
+  "lines": [
+   "Tratteggio: dove vedi lontano",
+   "Non subito prima di un incrocio"
+  ]
+ },
+ "q20779": {
+  "short": "Prima di una curva non vedi dietro la curva. Dal tuo lato ci sarebbe la continua.",
+  "rule": "Con la striscia mista puoi superarla solo dal lato tratteggiato. Il lato continuo non può.",
+  "trap": "«prima di una curva»: il tratteggio viene dopo la curva, non prima.",
+  "caption": "Il tratteggio è dopo la curva, non prima",
+  "lines": [
+   "Prima della curva non vedi: continua",
+   "Tratteggio: subito dopo la curva"
+  ]
+ },
+ "q20780": {
+  "short": "Le strisce gialle e nere sul marciapiede indicano il divieto di sosta su quel lato.",
+  "rule": "Marciapiede giallo e nero = divieto di sosta su quel lato; la fermata è permessa.",
+  "trap": "«divieto di sosta»: vieta la sosta, non la fermata.",
+  "caption": "Marciapiede giallo e nero: divieto di sosta",
+  "lines": [
+   "Marciapiede giallo e nero",
+   "Divieto di sosta su questo lato"
+  ]
+ },
+ "q20781": {
+  "short": "Le strisce sono dipinte sul lato verticale del marciapiede, quello che vede chi guida.",
+  "rule": "Marciapiede giallo e nero = divieto di sosta su quel lato; la fermata è permessa.",
+  "trap": "«parte verticale»: il lato del marciapiede, non la parte sopra.",
+  "caption": "Dipinte sul lato verticale del marciapiede",
+  "lines": [
+   "Dipinte sul lato verticale del marciapiede",
+   "Significato: divieto di sosta"
+  ]
+ },
+ "q20782": {
+  "short": "Le strisce vietano la sosta lungo quel lato. È lo stesso del divieto di sosta.",
+  "rule": "Marciapiede giallo e nero = divieto di sosta su quel lato; la fermata è permessa.",
+  "trap": "«non è possibile sostare» = divieto di sosta.",
+  "caption": "Divieto di sosta su questo lato della strada",
+  "lines": [
+   "Marciapiede giallo e nero",
+   "Divieto di sosta su questo lato"
+  ]
+ },
+ "q20783": {
+  "short": "Queste strisce vietano solo la sosta. La fermata breve, per far scendere qualcuno, è permessa.",
+  "rule": "Marciapiede giallo e nero = divieto di sosta su quel lato; la fermata è permessa.",
+  "trap": "«consentono la fermata»: sì, è vietata solo la sosta.",
+  "caption": "Fermata permessa, sosta vietata",
+  "lines": [
+   "Sosta vietata",
+   "Fermata breve: permessa"
+  ]
+ },
+ "q20784": {
+  "short": "Le strisce vietano la sosta a tutti. Non riservano lo spazio agli autobus.",
+  "rule": "Marciapiede giallo e nero = divieto di sosta su quel lato; la fermata è permessa.",
+  "trap": "«solo agli autobus»: no, il divieto vale per tutti.",
+  "caption": "Sosta vietata a tutti, non spazio per bus",
+  "lines": [
+   "Sosta vietata a tutti i veicoli",
+   "Non è uno spazio per autobus"
+  ]
+ },
+ "q20785": {
+  "short": "Le strisce sono sul marciapiede, al lato della strada. Indicano divieto di sosta, non un ostacolo.",
+  "rule": "Marciapiede giallo e nero = divieto di sosta su quel lato; la fermata è permessa.",
+  "trap": "«ostacolo al centro»: significato sbagliato.",
+  "caption": "Divieto di sosta, non un ostacolo",
+  "lines": [
+   "Sul marciapiede, al lato",
+   "Significato: divieto di sosta"
+  ]
+ },
+ "q20786": {
+  "short": "Le strisce sono per chi guida, non per i pedoni. Indicano divieto di sosta.",
+  "rule": "Marciapiede giallo e nero = divieto di sosta su quel lato; la fermata è permessa.",
+  "trap": "«avvertono i pedoni»: no, parlano a chi guida.",
+  "caption": "Per chi guida: divieto di sosta, non gradino",
+  "lines": [
+   "Messaggio per chi guida",
+   "Significato: divieto di sosta"
+  ]
+ },
+ "q20787": {
+  "short": "Le strisce vietano solo la sosta. La fermata breve è permessa.",
+  "rule": "Marciapiede giallo e nero = divieto di sosta su quel lato; la fermata è permessa.",
+  "trap": "«anche la fermata»: no, è vietata solo la sosta.",
+  "caption": "Solo sosta vietata; la fermata è permessa",
+  "lines": [
+   "Sosta vietata",
+   "Fermata breve: permessa"
+  ]
+ },
+ "q20788": {
+  "short": "L'area gialla con lo zig zag alle estremità è la fermata degli autobus di linea.",
+  "rule": "La fermata gialla è per gli autobus di linea. Gli altri non possono sostare, ma possono fermarsi e passare.",
+  "trap": "«in servizio pubblico di linea»: autobus di linea, regolari.",
+  "caption": "Area gialla a zig zag: fermata bus",
+  "lines": [
+   "Area gialla a zig zag",
+   "Fermata degli autobus di linea"
+  ]
+ },
+ "q20789": {
+  "short": "La fermata è per autobus e anche per filobus di linea.",
+  "rule": "La fermata gialla è per gli autobus di linea. Gli altri non possono sostare, ma possono fermarsi e passare.",
+  "trap": "«autobus e filobus»: tutti e due usano questa fermata.",
+  "caption": "Fermata per autobus e filobus",
+  "lines": [
+   "Area gialla a zig zag",
+   "Per autobus e filobus"
+  ]
+ },
+ "q20790": {
+  "short": "L'autobus è lungo. Lo zig zag alle estremità gli dà spazio per accostare e ripartire.",
+  "rule": "La fermata gialla è per gli autobus di linea. Gli altri non possono sostare, ma possono fermarsi e passare.",
+  "trap": "«accostamento» e «ripartire»: è il compito dello zig zag.",
+  "caption": "Zig zag: spazio per accostare e ripartire",
+  "lines": [
+   "Zig zag alle estremità",
+   "Spazio per accostare e ripartire"
+  ]
+ },
+ "q20791": {
+  "short": "Nell'area della fermata gli altri veicoli non possono sostare. La fermata breve è permessa, anche sullo zig zag.",
+  "rule": "La fermata gialla è per gli autobus di linea. Gli altri non possono sostare, ma possono fermarsi e passare.",
+  "trap": "«anche nelle parti con striscia gialla a zig zag»: vale la stessa regola.",
+  "caption": "Fermata bus: sosta vietata, fermata permessa",
+  "lines": [
+   "Sosta vietata in tutta l'area",
+   "Fermata breve permessa, anche sullo zig zag"
+  ]
+ },
+ "q20792": {
+  "short": "Gli autosnodati di linea sono autobus lunghi. Usano la stessa fermata.",
+  "rule": "La fermata gialla è per gli autobus di linea. Gli altri non possono sostare, ma possono fermarsi e passare.",
+  "trap": "«autosnodati»: autobus lunghi, sempre autobus.",
+  "caption": "Anche gli autosnodati usano questa fermata",
+  "lines": [
+   "Area gialla a zig zag",
+   "Anche per gli autosnodati"
+  ]
+ },
+ "q20793": {
+  "short": "Lo spazio è per la fermata degli autobus di linea. I taxi non sono autobus di linea.",
+  "rule": "La fermata gialla è per gli autobus di linea. Gli altri non possono sostare, ma possono fermarsi e passare.",
+  "trap": "«anche dei taxi»: i taxi hanno spazi propri.",
+  "caption": "Fermata bus: non per i taxi",
+  "lines": [
+   "Spazio per autobus di linea",
+   "Non per i taxi"
+  ]
+ },
+ "q20794": {
+  "short": "La segnaletica vieta la sosta, non il passaggio. Le auto possono passare nell'area.",
+  "rule": "La fermata gialla è per gli autobus di linea. Gli altri non possono sostare, ma possono fermarsi e passare.",
+  "trap": "«non consente di circolare»: falso, è vietata solo la sosta.",
+  "caption": "Le auto possono passare nell'area",
+  "lines": [
+   "Sosta vietata nell'area",
+   "Passare: permesso"
+  ]
+ },
+ "q20795": {
+  "short": "Il divieto di sosta vale solo nell'area segnata, zig zag compreso. Non 20 metri prima.",
+  "rule": "La fermata gialla è per gli autobus di linea. Gli altri non possono sostare, ma possono fermarsi e passare.",
+  "trap": "«20 metri prima»: distanza inventata.",
+  "caption": "Divieto solo nell'area, non 20 m prima",
+  "lines": [
+   "Sosta vietata nell'area segnata",
+   "Niente divieto 20 m prima"
+  ]
+ },
+ "q20796": {
+  "short": "La segnaletica vieta la sosta, non il passaggio. Anche gli autocarri possono passare.",
+  "rule": "La fermata gialla è per gli autobus di linea. Gli altri non possono sostare, ma possono fermarsi e passare.",
+  "trap": "«vieta agli autocarri di circolare»: no, vieta solo la sosta.",
+  "caption": "Anche gli autocarri possono passare",
+  "lines": [
+   "Sosta vietata nell'area",
+   "Gli autocarri possono passare"
+  ]
+ },
+ "q20797": {
+  "short": "La segnaletica della fermata degli autobus è sempre gialla.",
+  "rule": "La fermata gialla è per gli autobus di linea. Gli altri non possono sostare, ma possono fermarsi e passare.",
+  "trap": "«di colore bianco»: no, le fermate bus sono gialle.",
+  "caption": "La fermata bus è sempre gialla",
+  "lines": [
+   "Fermata bus: sempre gialla",
+   "Mai bianca"
+  ]
+ },
+ "q20798": {
+  "short": "La segnaletica non ha orari. La sosta nella fermata è sempre vietata.",
+  "rule": "La fermata gialla è per gli autobus di linea. Gli altri non possono sostare, ma possono fermarsi e passare.",
+  "trap": "«dalle ore 20.00 alle ore 8.00»: orario inventato.",
+  "caption": "Sosta sempre vietata nella fermata",
+  "lines": [
+   "Sosta vietata a ogni ora",
+   "Nessuna eccezione di notte"
+  ]
+ },
+ "q20799": {
+  "short": "L'isola porta la corsia di C nella strada laterale a destra. C non può superare l'isola.",
+  "rule": "L'isola di traffico non si può superare. Qui ogni veicolo ha una sola direzione: A diritto, B e C a destra.",
+  "trap": "«deve»: C ha una sola direzione, a destra.",
+  "caption": "C: una sola direzione, a destra",
+  "lines": [
+   "L'isola non si supera",
+   "C deve svoltare a destra"
+  ]
+ },
+ "q20800": {
+  "short": "B arriva dalla strada laterale. L'isola gli impedisce di svoltare a sinistra.",
+  "rule": "L'isola di traffico non si può superare. Qui ogni veicolo ha una sola direzione: A diritto, B e C a destra.",
+  "trap": "«deve»: B non può svoltare a sinistra, c'è l'isola.",
+  "caption": "B: deve svoltare a destra",
+  "lines": [
+   "L'isola blocca la svolta a sinistra",
+   "B deve svoltare a destra"
+  ]
+ },
+ "q20801": {
+  "short": "Per svoltare a sinistra A dovrebbe superare l'isola e la continua. È vietato.",
+  "rule": "L'isola di traffico non si può superare. Qui ogni veicolo ha una sola direzione: A diritto, B e C a destra.",
+  "trap": "«deve andare diritto»: A non può svoltare a sinistra.",
+  "caption": "A: deve andare diritto",
+  "lines": [
+   "Isola e continua bloccano A",
+   "A deve andare diritto"
+  ]
+ },
+ "q20802": {
+  "short": "L'isola porta C nella strada laterale. C ha una sola direzione: a destra.",
+  "rule": "L'isola di traffico non si può superare. Qui ogni veicolo ha una sola direzione: A diritto, B e C a destra.",
+  "trap": "«qualsiasi direzione»: no, solo a destra.",
+  "caption": "C non va dove vuole: solo a destra",
+  "lines": [
+   "L'isola non si supera",
+   "C: solo a destra"
+  ]
+ },
+ "q20803": {
+  "short": "B non può svoltare a sinistra: c'è l'isola. Dare la precedenza non cambia nulla.",
+  "rule": "L'isola di traffico non si può superare. Qui ogni veicolo ha una sola direzione: A diritto, B e C a destra.",
+  "trap": "«dando la precedenza»: sembra corretto, ma la svolta resta vietata.",
+  "caption": "B non svolta a sinistra, neanche dando precedenza",
+  "lines": [
+   "L'isola blocca la svolta a sinistra",
+   "B: solo a destra"
+  ]
+ },
+ "q20804": {
+  "short": "Per svoltare a sinistra A supererebbe l'isola e la continua. È vietato.",
+  "rule": "L'isola di traffico non si può superare. Qui ogni veicolo ha una sola direzione: A diritto, B e C a destra.",
+  "trap": "«dando la precedenza»: la svolta è vietata comunque.",
+  "caption": "A non svolta a sinistra, neanche dando precedenza",
+  "lines": [
+   "Isola e continua bloccano A",
+   "A: solo diritto"
+  ]
+ },
+ "q20805": {
+  "short": "Le strisce di guida sono tratteggiate: guidano ma non obbligano. C può andare diritto.",
+  "rule": "Le strisce di guida tratteggiate guidano soltanto; non obbligano una direzione. Valgono le normali regole di precedenza.",
+  "trap": "«può»: C è libero, non deve svoltare.",
+  "caption": "Strisce di guida: C può andare diritto",
+  "lines": [
+   "Strisce tratteggiate: nessun obbligo",
+   "C può andare diritto"
+  ]
+ },
+ "q20806": {
+  "short": "Niente blocca la svolta di B. Ma svoltando a sinistra taglia la strada ad A: dà la precedenza.",
+  "rule": "Le strisce di guida tratteggiate guidano soltanto; non obbligano una direzione. Valgono le normali regole di precedenza.",
+  "trap": "«dando però la precedenza»: qui la svolta è permessa e la precedenza è dovuta.",
+  "caption": "B svolta a sinistra, precedenza ad A",
+  "lines": [
+   "B può svoltare a sinistra",
+   "B dà la precedenza ad A"
+  ]
+ },
+ "q20807": {
+  "short": "Non ci sono isole né strisce continue. A può andare diritto o svoltare a sinistra.",
+  "rule": "Le strisce di guida tratteggiate guidano soltanto; non obbligano una direzione. Valgono le normali regole di precedenza.",
+  "trap": "«qualsiasi direzione»: qui è vero, le strisce sono tratteggiate.",
+  "caption": "A può andare dove vuole",
+  "lines": [
+   "Niente isola, niente continua",
+   "A va in qualsiasi direzione"
+  ]
+ },
+ "q20808": {
+  "short": "Le strisce di guida non obbligano. C può svoltare a destra o andare diritto.",
+  "rule": "Le strisce di guida tratteggiate guidano soltanto; non obbligano una direzione. Valgono le normali regole di precedenza.",
+  "trap": "«deve»: C può svoltare, ma non è obbligato.",
+  "caption": "C non è obbligato a svoltare",
+  "lines": [
+   "Strisce tratteggiate: nessun obbligo",
+   "C può anche andare diritto"
+  ]
+ },
+ "q20809": {
+  "short": "Qui niente blocca la svolta a sinistra di B. B può andare a destra o a sinistra.",
+  "rule": "Le strisce di guida tratteggiate guidano soltanto; non obbligano una direzione. Valgono le normali regole di precedenza.",
+  "trap": "«deve»: B può svoltare anche a sinistra.",
+  "caption": "B non deve per forza andare a destra",
+  "lines": [
+   "Niente isola: B può andare a sinistra",
+   "A sinistra: precedenza ad A"
+  ]
+ },
+ "q20810": {
+  "short": "Nessuna isola blocca A. A può andare diritto o svoltare a sinistra.",
+  "rule": "Le strisce di guida tratteggiate guidano soltanto; non obbligano una direzione. Valgono le normali regole di precedenza.",
+  "trap": "«deve andare diritto»: A può anche svoltare a sinistra.",
+  "caption": "A non deve per forza andare diritto",
+  "lines": [
+   "Niente isola: A è libero",
+   "A va diritto o a sinistra"
+  ]
+ },
+ "q20811": {
+  "short": "Ogni corsia permette di andare diritto. Sinistra: diritto o sinistra; mezzo: diritto; destra: diritto o destra.",
+  "rule": "Prima dell'incrocio: sinistra = diritto o sinistra, mezzo = solo diritto, destra = diritto o destra. Cambi corsia solo sul tratteggio.",
+  "trap": "«Tutte e tre»: sì, in ogni corsia si va diritto.",
+  "caption": "Diritto permesso in tutte e tre le corsie",
+  "lines": [
+   "Sinistra: diritto o sinistra",
+   "Mezzo: solo diritto",
+   "Destra: diritto o destra"
+  ]
+ },
+ "q20812": {
+  "short": "La corsia di sinistra è per chi va diritto o svolta a sinistra.",
+  "rule": "Prima dell'incrocio: sinistra = diritto o sinistra, mezzo = solo diritto, destra = diritto o destra. Cambi corsia solo sul tratteggio.",
+  "trap": "«dritto o svoltare a sinistra»: tutte e due permesse.",
+  "caption": "Corsia di sinistra: diritto o sinistra",
+  "lines": [
+   "Corsia di sinistra: diritto o sinistra"
+  ]
+ },
+ "q20813": {
+  "short": "La corsia di mezzo è tra le due corsie di svolta. Da lì si va solo diritto.",
+  "rule": "Prima dell'incrocio: sinistra = diritto o sinistra, mezzo = solo diritto, destra = diritto o destra. Cambi corsia solo sul tratteggio.",
+  "trap": "«solo»: qui è giusto, la corsia di mezzo è solo diritto.",
+  "caption": "Corsia di mezzo: solo diritto",
+  "lines": [
+   "Corsia di mezzo: solo diritto"
+  ]
+ },
+ "q20814": {
+  "short": "La corsia di destra è per chi va diritto o svolta a destra.",
+  "rule": "Prima dell'incrocio: sinistra = diritto o sinistra, mezzo = solo diritto, destra = diritto o destra. Cambi corsia solo sul tratteggio.",
+  "trap": "«diritto o svoltare a destra»: tutte e due permesse.",
+  "caption": "Corsia di destra: diritto o destra",
+  "lines": [
+   "Corsia di destra: diritto o destra"
+  ]
+ },
+ "q20815": {
+  "short": "Le strisce tratteggiate si possono superare: lì puoi cambiare corsia. Sulla continua resti nella tua corsia.",
+  "rule": "Prima dell'incrocio: sinistra = diritto o sinistra, mezzo = solo diritto, destra = diritto o destra. Cambi corsia solo sul tratteggio.",
+  "trap": "«finché»: solo mentre le strisce sono tratteggiate.",
+  "caption": "Cambi corsia solo sul tratteggio",
+  "lines": [
+   "Tratteggio: puoi cambiare corsia",
+   "Continua: resti nella corsia"
+  ]
+ },
+ "q20816": {
+  "short": "L'auto è nella corsia di sinistra. Questa corsia permette la svolta a sinistra.",
+  "rule": "Prima dell'incrocio: sinistra = diritto o sinistra, mezzo = solo diritto, destra = diritto o destra. Cambi corsia solo sul tratteggio.",
+  "trap": "«rimanendo nella stessa corsia»: è già nella corsia di sinistra.",
+  "caption": "Auto nella corsia di sinistra: può svoltare",
+  "lines": [
+   "L'auto è nella corsia di sinistra",
+   "Sinistra: diritto o sinistra"
+  ]
+ },
+ "q20817": {
+  "short": "La corsia di sinistra permette la svolta a sinistra, ma anche di andare diritto.",
+  "rule": "Prima dell'incrocio: sinistra = diritto o sinistra, mezzo = solo diritto, destra = diritto o destra. Cambi corsia solo sul tratteggio.",
+  "trap": "«solo»: sbagliato, si va anche diritto.",
+  "caption": "Corsia di sinistra: anche diritto",
+  "lines": [
+   "Corsia di sinistra: diritto o sinistra",
+   "Non solo a sinistra"
+  ]
+ },
+ "q20818": {
+  "short": "Qui le corsie si scelgono per direzione, non per velocità. A destra: diritto o destra.",
+  "rule": "Prima dell'incrocio: sinistra = diritto o sinistra, mezzo = solo diritto, destra = diritto o destra. Cambi corsia solo sul tratteggio.",
+  "trap": "«riservata ai veicoli lenti»: inventato, conta la direzione.",
+  "caption": "Corsia di destra: diritto o destra, non lenti",
+  "lines": [
+   "Corsie scelte per direzione",
+   "Destra: diritto o destra"
+  ]
+ },
+ "q20819": {
+  "short": "La corsia di destra permette la svolta a destra, ma anche di andare diritto.",
+  "rule": "Prima dell'incrocio: sinistra = diritto o sinistra, mezzo = solo diritto, destra = diritto o destra. Cambi corsia solo sul tratteggio.",
+  "trap": "«solo»: sbagliato, si va anche diritto.",
+  "caption": "Corsia di destra: anche diritto",
+  "lines": [
+   "Corsia di destra: diritto o destra",
+   "Non solo a destra"
+  ]
+ },
+ "q20820": {
+  "short": "La striscia continua non si supera mai. Cambi corsia solo dove le strisce sono tratteggiate.",
+  "rule": "Prima dell'incrocio: sinistra = diritto o sinistra, mezzo = solo diritto, destra = diritto o destra. Cambi corsia solo sul tratteggio.",
+  "trap": "«anche superando la striscia continua»: mai permesso.",
+  "caption": "Mai superare la continua per cambiare corsia",
+  "lines": [
+   "Tratteggio: puoi cambiare corsia",
+   "Continua: mai superarla"
+  ]
+ },
+ "q20821": {
+  "short": "Nessuna corsia ha la freccia diritta. A a sinistra, B a sinistra o destra, C a destra.",
+  "rule": "Le frecce nella corsia sono un obbligo: segui la direzione della tua corsia. Cambi corsia solo sul tratteggio.",
+  "trap": "«non consentono»: giusto, non c'è freccia diritta.",
+  "caption": "Nessuna freccia diritta",
+  "lines": [
+   "A: solo sinistra",
+   "B: sinistra o destra",
+   "C: solo destra"
+  ]
+ },
+ "q20822": {
+  "short": "La corsia A ha solo frecce a sinistra. Da A si svolta solo a sinistra.",
+  "rule": "Le frecce nella corsia sono un obbligo: segui la direzione della tua corsia. Cambi corsia solo sul tratteggio.",
+  "trap": "«solo a sinistra»: sì, A ha solo frecce a sinistra.",
+  "caption": "Corsia A: solo a sinistra",
+  "lines": [
+   "Frecce della corsia A: solo sinistra"
+  ]
+ },
+ "q20823": {
+  "short": "Le strisce tratteggiate si possono superare. Dove diventano continue resti nella corsia.",
+  "rule": "Le frecce nella corsia sono un obbligo: segui la direzione della tua corsia. Cambi corsia solo sul tratteggio.",
+  "trap": "«ancora discontinue»: solo lì.",
+  "caption": "Cambi corsia solo sul tratteggio",
+  "lines": [
+   "Tratteggio: puoi cambiare corsia",
+   "Continua: resti nella corsia"
+  ]
+ },
+ "q20824": {
+  "short": "Tutte le frecce vanno verso l'incrocio. Le tre corsie hanno un solo senso.",
+  "rule": "Le frecce nella corsia sono un obbligo: segui la direzione della tua corsia. Cambi corsia solo sul tratteggio.",
+  "trap": "«doppio senso»: no, tutte vanno nello stesso senso.",
+  "caption": "Le tre corsie vanno nello stesso senso",
+  "lines": [
+   "Frecce tutte verso l'incrocio",
+   "Un solo senso"
+  ]
+ },
+ "q20825": {
+  "short": "Nessuna corsia permette di andare diritto. A solo sinistra, B sinistra o destra, C solo destra.",
+  "rule": "Le frecce nella corsia sono un obbligo: segui la direzione della tua corsia. Cambi corsia solo sul tratteggio.",
+  "trap": "«tutte le direzioni»: manca il diritto.",
+  "caption": "Non tutte le direzioni: niente diritto",
+  "lines": [
+   "A: solo sinistra",
+   "B: sinistra o destra",
+   "C: solo destra"
+  ]
+ },
+ "q20826": {
+  "short": "Le frecce della corsia B vanno solo a sinistra e a destra. Niente diritto.",
+  "rule": "Le frecce nella corsia sono un obbligo: segui la direzione della tua corsia. Cambi corsia solo sul tratteggio.",
+  "trap": "«e di proseguire diritto»: B non ha freccia diritta.",
+  "caption": "Corsia B: sinistra o destra, non diritto",
+  "lines": [
+   "Frecce della corsia B: sinistra o destra",
+   "Niente diritto"
+  ]
+ },
+ "q20827": {
+  "short": "La corsia A ha solo frecce a sinistra. Da A si svolta solo a sinistra.",
+  "rule": "Ogni corsia va solo dove indicano le frecce: A sinistra, B diritto o sinistra, C diritto o destra.",
+  "trap": "«solo»: qui è giusto, A è solo sinistra.",
+  "caption": "Corsia A: solo a sinistra",
+  "lines": [
+   "A: solo sinistra",
+   "B: diritto o sinistra",
+   "C: diritto o destra"
+  ]
+ },
+ "q20828": {
+  "short": "Le frecce della corsia B indicano diritto e sinistra. Tutte e due permesse.",
+  "rule": "Ogni corsia va solo dove indicano le frecce: A sinistra, B diritto o sinistra, C diritto o destra.",
+  "trap": "«diritto e di svoltare a sinistra»: ci sono tutte e due le frecce.",
+  "caption": "Corsia B: diritto o sinistra",
+  "lines": [
+   "Frecce della corsia B: diritto o sinistra"
+  ]
+ },
+ "q20829": {
+  "short": "Solo la corsia C ha la freccia a destra. A va a sinistra, B diritto o sinistra.",
+  "rule": "Ogni corsia va solo dove indicano le frecce: A sinistra, B diritto o sinistra, C diritto o destra.",
+  "trap": "«l'unica»: sì, solo C ha la freccia a destra.",
+  "caption": "Solo la corsia C svolta a destra",
+  "lines": [
+   "A: solo sinistra",
+   "B: diritto o sinistra",
+   "C: diritto o destra"
+  ]
+ },
+ "q20830": {
+  "short": "Le strisce tratteggiate si possono superare. Dove diventano continue resti nella corsia.",
+  "rule": "Ogni corsia va solo dove indicano le frecce: A sinistra, B diritto o sinistra, C diritto o destra.",
+  "trap": "«fino a che»: solo mentre le strisce sono tratteggiate.",
+  "caption": "Cambi corsia solo sul tratteggio",
+  "lines": [
+   "Tratteggio: puoi cambiare corsia",
+   "Continua: resti nella corsia"
+  ]
+ },
+ "q20831": {
+  "short": "La corsia A ha solo frecce a sinistra. Solo B e C permettono di andare diritto.",
+  "rule": "Ogni corsia va solo dove indicano le frecce: A sinistra, B diritto o sinistra, C diritto o destra.",
+  "trap": "«Tutte e tre»: A non permette di andare diritto.",
+  "caption": "Corsia A: solo sinistra, non diritto",
+  "lines": [
+   "A: solo sinistra",
+   "B: diritto o sinistra",
+   "C: diritto o destra"
+  ]
+ },
+ "q20832": {
+  "short": "Anche la corsia B ha la freccia a sinistra. Quindi A e B permettono di svoltare a sinistra.",
+  "rule": "Ogni corsia va solo dove indicano le frecce: A sinistra, B diritto o sinistra, C diritto o destra.",
+  "trap": "«l'unica»: no, anche B svolta a sinistra.",
+  "caption": "A sinistra da A e anche da B",
+  "lines": [
+   "A: solo sinistra",
+   "B: diritto o sinistra",
+   "C: diritto o destra"
+  ]
+ },
+ "q20833": {
+  "short": "Le frecce della corsia B indicano diritto e sinistra. Da B puoi anche svoltare a sinistra.",
+  "rule": "Ogni corsia va solo dove indicano le frecce: A sinistra, B diritto o sinistra, C diritto o destra.",
+  "trap": "«solo»: sbagliato, B svolta anche a sinistra.",
+  "caption": "Corsia B: diritto o sinistra",
+  "lines": [
+   "Frecce della corsia B: diritto o sinistra",
+   "Non solo diritto"
+  ]
+ },
+ "q20834": {
+  "short": "Le frecce della corsia C indicano diritto e destra. Da C puoi anche andare diritto.",
+  "rule": "Ogni corsia va solo dove indicano le frecce: A sinistra, B diritto o sinistra, C diritto o destra.",
+  "trap": "«solo»: sbagliato, C va anche diritto.",
+  "caption": "Corsia C: diritto o destra",
+  "lines": [
+   "Frecce della corsia C: diritto o destra",
+   "Non solo destra"
+  ]
+ }
+}

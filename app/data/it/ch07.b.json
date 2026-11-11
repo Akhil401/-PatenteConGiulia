@@ -1,0 +1,599 @@
+{
+ "q21035": {
+  "short": "Il verde vuol dire che puoi passare, se la strada è libera.",
+  "rule": "Semaforo per veicoli: verde = passa. Giallo fisso = fermati, se non sei troppo vicino. Rosso = fermati prima della linea. Giallo lampeggiante, semaforo spento o guasto = passa piano e con prudenza, rispettando le precedenze.",
+  "trap": "Nessun trucco: la «luce verde» è il via normale.",
+  "caption": "Luce verde: puoi passare",
+  "lines": [
+   "Verde: puoi passare"
+  ]
+ },
+ "q21036": {
+  "short": "Il giallo fisso vuol dire fermati. Passi solo se sei troppo vicino per frenare in sicurezza.",
+  "rule": "Semaforo per veicoli: verde = passa. Giallo fisso = fermati, se non sei troppo vicino. Rosso = fermati prima della linea. Giallo lampeggiante, semaforo spento o guasto = passa piano e con prudenza, rispettando le precedenze.",
+  "trap": "«solo se non ci si può arrestare» è l'eccezione giusta.",
+  "caption": "Giallo fisso: passi solo se non puoi fermarti",
+  "lines": [
+   "Giallo fisso: fermati",
+   "Troppo vicino per fermarti? Passa"
+  ]
+ },
+ "q21037": {
+  "short": "Il giallo lampeggiante non ti ferma: ti avvisa. Rallenta, guarda e rispetta le precedenze.",
+  "rule": "Semaforo per veicoli: verde = passa. Giallo fisso = fermati, se non sei troppo vicino. Rosso = fermati prima della linea. Giallo lampeggiante, semaforo spento o guasto = passa piano e con prudenza, rispettando le precedenze.",
+  "trap": "«lampeggiante» non è «fissa»: col giallo lampeggiante passi con prudenza.",
+  "caption": "Giallo lampeggiante: passa piano, con prudenza",
+  "lines": [
+   "Giallo lampeggiante: passa con prudenza",
+   "Rallenta, rispetta le precedenze"
+  ]
+ },
+ "q21038": {
+  "short": "Un semaforo spento non dà ordini. Puoi passare, piano, con le normali regole di precedenza.",
+  "rule": "Semaforo per veicoli: verde = passa. Giallo fisso = fermati, se non sei troppo vicino. Rosso = fermati prima della linea. Giallo lampeggiante, semaforo spento o guasto = passa piano e con prudenza, rispettando le precedenze.",
+  "trap": "«spento» non vuol dire fermati: passi con la massima prudenza.",
+  "caption": "Semaforo spento: passa con la massima prudenza",
+  "lines": [
+   "Spento: il semaforo non dà ordini",
+   "Passa con prudenza, con le precedenze"
+  ]
+ },
+ "q21039": {
+  "short": "Un semaforo guasto non regola il traffico. Puoi passare, piano, rispettando le precedenze.",
+  "rule": "Semaforo per veicoli: verde = passa. Giallo fisso = fermati, se non sei troppo vicino. Rosso = fermati prima della linea. Giallo lampeggiante, semaforo spento o guasto = passa piano e con prudenza, rispettando le precedenze.",
+  "trap": "«guasto» vale come spento: passi con prudenza.",
+  "caption": "Semaforo guasto: passa con la massima prudenza",
+  "lines": [
+   "Guasto: passa con molta prudenza"
+  ]
+ },
+ "q21040": {
+  "short": "Finché il tuo semaforo è rosso, aspetti. Parti solo quando il tuo è verde.",
+  "rule": "Semaforo per veicoli: verde = passa. Giallo fisso = fermati, se non sei troppo vicino. Rosso = fermati prima della linea. Giallo lampeggiante, semaforo spento o guasto = passa piano e con prudenza, rispettando le precedenze.",
+  "trap": "«poco prima che si accenda la luce verde»: per te è ancora rosso, aspetti.",
+  "caption": "Mai prima del tuo verde: il rosso ti ferma",
+  "lines": [
+   "Il tuo è ancora rosso: aspetta",
+   "Parti solo col TUO verde"
+  ]
+ },
+ "q21041": {
+  "short": "Il rosso vuol dire sempre fermati prima della linea. La prudenza non lo rende permesso.",
+  "rule": "Semaforo per veicoli: verde = passa. Giallo fisso = fermati, se non sei troppo vicino. Rosso = fermati prima della linea. Giallo lampeggiante, semaforo spento o guasto = passa piano e con prudenza, rispettando le precedenze.",
+  "trap": "«usando la massima prudenza» non annulla il rosso.",
+  "caption": "Rosso: fermati. La prudenza non basta",
+  "lines": [
+   "Rosso: fermati prima della linea",
+   "La prudenza non cambia nulla"
+  ]
+ },
+ "q21042": {
+  "short": "Il rosso vuol dire fermati anche se l'incrocio sembra vuoto. Aspetti il verde.",
+  "rule": "Semaforo per veicoli: verde = passa. Giallo fisso = fermati, se non sei troppo vicino. Rosso = fermati prima della linea. Giallo lampeggiante, semaforo spento o guasto = passa piano e con prudenza, rispettando le precedenze.",
+  "trap": "«pur essendo accesa la luce rossa»: la strada vuota non cambia la regola.",
+  "caption": "Rosso: fermati anche se non arriva nessuno",
+  "lines": [
+   "Rosso: fermati",
+   "Anche se l'incrocio è vuoto"
+  ]
+ },
+ "q21043": {
+  "short": "Le luci rosse lampeggianti stanno ai passaggi a livello con semibarriere: avvisano che le barriere scendono.",
+  "rule": "Due luci rosse che lampeggiano alternate stanno ai passaggi a livello con semibarriere o senza barriere, di norma a destra. Si accendono poco prima del treno e prima che le semibarriere scendano, con un suono. Restano accese finché il treno passa. Quando lampeggiano, veicoli e pedoni si fermano.",
+  "trap": "«semibarriere» è giusto: queste luci vanno con loro.",
+  "caption": "Ai passaggi a livello con semibarriere",
+  "lines": [
+   "Passaggio a livello con semibarriere",
+   "Rosso lampeggiante: fermati"
+  ]
+ },
+ "q21044": {
+  "short": "Dove non ci sono barriere, queste luci rosse alternate avvisano che arriva il treno.",
+  "rule": "Due luci rosse che lampeggiano alternate stanno ai passaggi a livello con semibarriere o senza barriere, di norma a destra. Si accendono poco prima del treno e prima che le semibarriere scendano, con un suono. Restano accese finché il treno passa. Quando lampeggiano, veicoli e pedoni si fermano.",
+  "trap": "«alternativamente» è giusto: lampeggiano una e poi l'altra.",
+  "caption": "Senza barriere: le luci avvisano del treno",
+  "lines": [
+   "Senza barriere: le luci avvisano del treno",
+   "Lampeggiano una, poi l'altra..."
+  ]
+ },
+ "q21045": {
+  "short": "Quando queste luci rosse lampeggiano, nessuno attraversa i binari: né auto né pedoni.",
+  "rule": "Due luci rosse che lampeggiano alternate stanno ai passaggi a livello con semibarriere o senza barriere, di norma a destra. Si accendono poco prima del treno e prima che le semibarriere scendano, con un suono. Restano accese finché il treno passa. Quando lampeggiano, veicoli e pedoni si fermano.",
+  "trap": "«veicoli e pedoni»: l'alt vale per tutti.",
+  "caption": "Luci accese: veicoli e pedoni si fermano",
+  "lines": [
+   "Luci accese: nessuno passa",
+   "Veicoli E pedoni"
+  ]
+ },
+ "q21046": {
+  "short": "Come quasi tutti i segnali, queste luci di norma stanno a destra della strada.",
+  "rule": "Due luci rosse che lampeggiano alternate stanno ai passaggi a livello con semibarriere o senza barriere, di norma a destra. Si accendono poco prima del treno e prima che le semibarriere scendano, con un suono. Restano accese finché il treno passa. Quando lampeggiano, veicoli e pedoni si fermano.",
+  "trap": "«di norma»: di solito a destra, a volte ripetute altrove.",
+  "caption": "Di norma: sul lato destro della strada",
+  "lines": [
+   "Di norma a destra della strada"
+  ]
+ },
+ "q21047": {
+  "short": "Le luci si accendono poco prima del treno e si spengono solo quando il treno è passato.",
+  "rule": "Due luci rosse che lampeggiano alternate stanno ai passaggi a livello con semibarriere o senza barriere, di norma a destra. Si accendono poco prima del treno e prima che le semibarriere scendano, con un suono. Restano accese finché il treno passa. Quando lampeggiano, veicoli e pedoni si fermano.",
+  "trap": "«fino alla fine del suo passaggio»: non si spengono prima.",
+  "caption": "Accese prima del treno, spente dopo",
+  "lines": [
+   "Accese: poco prima del treno",
+   "Spente: solo dopo il passaggio"
+  ]
+ },
+ "q21048": {
+  "short": "Prima le luci rosse lampeggiano, poi le semibarriere scendono. Le luci ti avvisano in tempo.",
+  "rule": "Due luci rosse che lampeggiano alternate stanno ai passaggi a livello con semibarriere o senza barriere, di norma a destra. Si accendono poco prima del treno e prima che le semibarriere scendano, con un suono. Restano accese finché il treno passa. Quando lampeggiano, veicoli e pedoni si fermano.",
+  "trap": "«subito prima» è giusto: prima le luci, poi le barriere.",
+  "caption": "Prima le luci, poi scendono le barriere",
+  "lines": [
+   "1. Le luci rosse lampeggiano",
+   "2. Le semibarriere scendono"
+  ]
+ },
+ "q21049": {
+  "short": "Con le luci lampeggianti c'è anche un suono, così noti il pericolo anche senza guardare.",
+  "rule": "Due luci rosse che lampeggiano alternate stanno ai passaggi a livello con semibarriere o senza barriere, di norma a destra. Si accendono poco prima del treno e prima che le semibarriere scendano, con un suono. Restano accese finché il treno passa. Quando lampeggiano, veicoli e pedoni si fermano.",
+  "trap": "«segnalazione acustica» è giusto: vedi E senti l'avviso.",
+  "caption": "Luci più un segnale sonoro",
+  "lines": [
+   "Luci lampeggianti + un suono"
+  ]
+ },
+ "q21050": {
+  "short": "Le luci lampeggianti vogliono dire che arriva il treno e la barriera sta per scendere. Rallenta e preparati a fermarti.",
+  "rule": "Due luci rosse che lampeggiano alternate stanno ai passaggi a livello con semibarriere o senza barriere, di norma a destra. Si accendono poco prima del treno e prima che le semibarriere scendano, con un suono. Restano accese finché il treno passa. Quando lampeggiano, veicoli e pedoni si fermano.",
+  "trap": "«ancora alzata»: la barriera aperta non vuol dire che puoi passare.",
+  "caption": "Barriera alzata ma luci accese: preparati a fermarti",
+  "lines": [
+   "Luci accese, barriera ancora alzata",
+   "Rallenta, preparati a fermarti"
+  ]
+ },
+ "q21051": {
+  "short": "Le luci rosse lampeggianti vogliono dire fermati, anche con la barriera alzata e senza vedere il treno. Il treno è veloce.",
+  "rule": "Due luci rosse che lampeggiano alternate stanno ai passaggi a livello con semibarriere o senza barriere, di norma a destra. Si accendono poco prima del treno e prima che le semibarriere scendano, con un suono. Restano accese finché il treno passa. Quando lampeggiano, veicoli e pedoni si fermano.",
+  "trap": "«se non si vede sopraggiungere alcun treno»: contano le luci, non i tuoi occhi.",
+  "caption": "Mai passare in fretta: rosso lampeggiante = fermati",
+  "lines": [
+   "Rosso lampeggiante: fermati",
+   "Anche se non vedi il treno"
+  ]
+ },
+ "q21052": {
+  "short": "Queste luci guardano la strada: sono per chi attraversa i binari, non per i macchinisti.",
+  "rule": "Due luci rosse che lampeggiano alternate stanno ai passaggi a livello con semibarriere o senza barriere, di norma a destra. Si accendono poco prima del treno e prima che le semibarriere scendano, con un suono. Restano accese finché il treno passa. Quando lampeggiano, veicoli e pedoni si fermano.",
+  "trap": "«per i conducenti dei treni» è sbagliato: sono per chi usa la strada.",
+  "caption": "Per chi usa la strada, non per i treni",
+  "lines": [
+   "Per auto e pedoni al passaggio",
+   "Non per i macchinisti"
+  ]
+ },
+ "q21053": {
+  "short": "Le luci rosse lampeggianti vogliono dire il contrario: fermati, non entrare nel passaggio.",
+  "rule": "Due luci rosse che lampeggiano alternate stanno ai passaggi a livello con semibarriere o senza barriere, di norma a destra. Si accendono poco prima del treno e prima che le semibarriere scendano, con un suono. Restano accese finché il treno passa. Quando lampeggiano, veicoli e pedoni si fermano.",
+  "trap": "«invitano a occupare rapidamente» è il contrario del vero significato.",
+  "caption": "Rosso lampeggiante: fermati, non correre",
+  "lines": [
+   "Rosso lampeggiante: fermati prima",
+   "Mai correre sui binari"
+  ]
+ },
+ "q21054": {
+  "short": "Queste luci stanno proprio al passaggio, non 150 m prima. A 150 m prima c'è un segnale di pericolo.",
+  "rule": "Due luci rosse che lampeggiano alternate stanno ai passaggi a livello con semibarriere o senza barriere, di norma a destra. Si accendono poco prima del treno e prima che le semibarriere scendano, con un suono. Restano accese finché il treno passa. Quando lampeggiano, veicoli e pedoni si fermano.",
+  "trap": "«150 metri prima» è sbagliato: le luci sono al passaggio.",
+  "caption": "Proprio al passaggio, non 150 m prima",
+  "lines": [
+   "Le luci sono AL passaggio",
+   "150 m prima: un cartello di pericolo"
+  ]
+ },
+ "q21055": {
+  "short": "I pannelli distanziometrici hanno strisce rosse, non luci. Le luci lampeggianti sono al passaggio.",
+  "rule": "Due luci rosse che lampeggiano alternate stanno ai passaggi a livello con semibarriere o senza barriere, di norma a destra. Si accendono poco prima del treno e prima che le semibarriere scendano, con un suono. Restano accese finché il treno passa. Quando lampeggiano, veicoli e pedoni si fermano.",
+  "trap": "«pannelli distanziometrici» sono cartelli a strisce prima del passaggio, senza luci.",
+  "caption": "Luci al passaggio, non sui pannelli",
+  "lines": [
+   "Pannelli: strisce rosse, niente luci",
+   "Le luci sono al passaggio"
+  ]
+ },
+ "q21056": {
+  "short": "Le luci si accendono prima che le semibarriere SCENDANO, non quando salgono. Quando salgono, il treno è passato.",
+  "rule": "Due luci rosse che lampeggiano alternate stanno ai passaggi a livello con semibarriere o senza barriere, di norma a destra. Si accendono poco prima del treno e prima che le semibarriere scendano, con un suono. Restano accese finché il treno passa. Quando lampeggiano, veicoli e pedoni si fermano.",
+  "trap": "«fase di apertura (sollevamento)» è sbagliato: si accendono prima dell'abbassamento.",
+  "caption": "Si accendono prima che le barriere SCENDANO",
+  "lines": [
+   "Luci accese: barriere che scendono",
+   "Barriere su: il treno è passato"
+  ]
+ },
+ "q21057": {
+  "short": "Luci sopra ogni corsia, con X rossa e frecce: regolano le corsie reversibili.",
+  "rule": "Semafori sopra le corsie reversibili (corsie che possono cambiare senso). X rossa = non puoi usare quella corsia. Freccia verde in basso = puoi usare quella corsia. Freccia gialla lampeggiante = spostati nella corsia indicata. Valgono per tutti i veicoli, anche biciclette, non per i pedoni.",
+  "trap": "«corsie reversibili» è giusto: corsie che possono cambiare senso.",
+  "caption": "Semafori per corsie reversibili",
+  "lines": [
+   "Una luce sopra ogni corsia",
+   "Il senso della corsia può cambiare"
+  ]
+ },
+ "q21058": {
+  "short": "Una X rossa sopra la corsia vuol dire che è chiusa per te: non usarla.",
+  "rule": "Semafori sopra le corsie reversibili (corsie che possono cambiare senso). X rossa = non puoi usare quella corsia. Freccia verde in basso = puoi usare quella corsia. Freccia gialla lampeggiante = spostati nella corsia indicata. Valgono per tutti i veicoli, anche biciclette, non per i pedoni.",
+  "trap": "«non consente» è giusto per la X rossa.",
+  "caption": "X rossa: non usare quella corsia",
+  "lines": [
+   "X rossa: corsia chiusa per te"
+  ]
+ },
+ "q21059": {
+  "short": "Una freccia verde in basso sopra una corsia vuol dire che puoi usarla.",
+  "rule": "Semafori sopra le corsie reversibili (corsie che possono cambiare senso). X rossa = non puoi usare quella corsia. Freccia verde in basso = puoi usare quella corsia. Freccia gialla lampeggiante = spostati nella corsia indicata. Valgono per tutti i veicoli, anche biciclette, non per i pedoni.",
+  "trap": "«impegnare» (entrare) è giusto con la freccia verde.",
+  "caption": "Freccia verde: puoi usare quella corsia",
+  "lines": [
+   "Freccia verde: corsia aperta"
+  ]
+ },
+ "q21060": {
+  "short": "La freccia gialla obliqua lampeggiante ti dice di lasciare la corsia e spostarti in quella indicata.",
+  "rule": "Semafori sopra le corsie reversibili (corsie che possono cambiare senso). X rossa = non puoi usare quella corsia. Freccia verde in basso = puoi usare quella corsia. Freccia gialla lampeggiante = spostati nella corsia indicata. Valgono per tutti i veicoli, anche biciclette, non per i pedoni.",
+  "trap": "«obbliga» è giusto: è un ordine di cambiare corsia.",
+  "caption": "Freccia gialla lampeggiante: spostati",
+  "lines": [
+   "Freccia gialla lampeggiante",
+   "Spostati nella corsia indicata"
+  ]
+ },
+ "q21061": {
+  "short": "Le frecce verdi vogliono dire il contrario: quelle corsie sono aperte.",
+  "rule": "Semafori sopra le corsie reversibili (corsie che possono cambiare senso). X rossa = non puoi usare quella corsia. Freccia verde in basso = puoi usare quella corsia. Freccia gialla lampeggiante = spostati nella corsia indicata. Valgono per tutti i veicoli, anche biciclette, non per i pedoni.",
+  "trap": "«non consente» è sbagliato col verde: solo la X rossa chiude.",
+  "caption": "Corsie con freccia verde: APERTE",
+  "lines": [
+   "Freccia verde: puoi usare la corsia",
+   "Solo la X rossa la chiude"
+  ]
+ },
+ "q21062": {
+  "short": "Queste luci stanno sopra le corsie: sono per i veicoli. I pedoni hanno i loro semafori.",
+  "rule": "Semafori sopra le corsie reversibili (corsie che possono cambiare senso). X rossa = non puoi usare quella corsia. Freccia verde in basso = puoi usare quella corsia. Freccia gialla lampeggiante = spostati nella corsia indicata. Valgono per tutti i veicoli, anche biciclette, non per i pedoni.",
+  "trap": "«anche per i pedoni» è sbagliato: solo veicoli.",
+  "caption": "Per i veicoli in corsia, non per i pedoni",
+  "lines": [
+   "Semafori di corsia: per i veicoli",
+   "I pedoni hanno i loro semafori"
+  ]
+ },
+ "q21063": {
+  "short": "La X rossa non vuol dire «fermati e aspetta»: vuol dire non usare quella corsia. Usa una corsia aperta.",
+  "rule": "Semafori sopra le corsie reversibili (corsie che possono cambiare senso). X rossa = non puoi usare quella corsia. Freccia verde in basso = puoi usare quella corsia. Freccia gialla lampeggiante = spostati nella corsia indicata. Valgono per tutti i veicoli, anche biciclette, non per i pedoni.",
+  "trap": "«arrestarsi ed attendere la luce gialla» è inventato.",
+  "caption": "X rossa: corsia chiusa, non «aspetta il giallo»",
+  "lines": [
+   "X rossa: non usare questa corsia",
+   "Usa una corsia con freccia verde"
+  ]
+ },
+ "q21064": {
+  "short": "Le biciclette sono veicoli: anche loro rispettano questi semafori.",
+  "rule": "Semafori sopra le corsie reversibili (corsie che possono cambiare senso). X rossa = non puoi usare quella corsia. Freccia verde in basso = puoi usare quella corsia. Freccia gialla lampeggiante = spostati nella corsia indicata. Valgono per tutti i veicoli, anche biciclette, non per i pedoni.",
+  "trap": "«non vale per le biciclette» è sbagliato: valgono anche per loro.",
+  "caption": "Anche le biciclette rispettano questi semafori",
+  "lines": [
+   "Le biciclette sono veicoli",
+   "Rispettano anche loro questi semafori"
+  ]
+ },
+ "q21065": {
+  "short": "È un semaforo pedonale: l'omino verde vuol dire che i pedoni possono attraversare.",
+  "rule": "La luce con un omino è un semaforo per pedoni. Verde: i pedoni possono scendere sulla strada e attraversare. Giallo: non iniziare ad attraversare. Rosso: non attraversare. I veicoli che svoltano danno la precedenza ai pedoni. Non c'entra con ascensori, scale mobili o scuole.",
+  "trap": "«pedoni» è giusto: la figura è una persona a piedi.",
+  "caption": "Verde pedonale: puoi attraversare",
+  "lines": [
+   "Omino verde: i pedoni attraversano"
+  ]
+ },
+ "q21066": {
+  "short": "Verde sul semaforo pedonale: chi va a piedi può attraversare la strada.",
+  "rule": "La luce con un omino è un semaforo per pedoni. Verde: i pedoni possono scendere sulla strada e attraversare. Giallo: non iniziare ad attraversare. Rosso: non attraversare. I veicoli che svoltano danno la precedenza ai pedoni. Non c'entra con ascensori, scale mobili o scuole.",
+  "trap": "«attraversare la strada» è giusto con l'omino verde.",
+  "caption": "Omino verde: attraversa la strada",
+  "lines": [
+   "Omino verde: attraversa la strada"
+  ]
+ },
+ "q21067": {
+  "short": "Con l'omino verde i pedoni possono entrare nella carreggiata (la parte per i veicoli) e attraversarla.",
+  "rule": "La luce con un omino è un semaforo per pedoni. Verde: i pedoni possono scendere sulla strada e attraversare. Giallo: non iniziare ad attraversare. Rosso: non attraversare. I veicoli che svoltano danno la precedenza ai pedoni. Non c'entra con ascensori, scale mobili o scuole.",
+  "trap": "«impegnare la carreggiata» è giusto: così si attraversa.",
+  "caption": "Omino verde: entra in strada e attraversa",
+  "lines": [
+   "Omino verde: entra nella carreggiata",
+   "Attraversa dall'altra parte"
+  ]
+ },
+ "q21068": {
+  "short": "L'omino indica un semaforo pedonale, non una scala mobile.",
+  "rule": "La luce con un omino è un semaforo per pedoni. Verde: i pedoni possono scendere sulla strada e attraversare. Giallo: non iniziare ad attraversare. Rosso: non attraversare. I veicoli che svoltano danno la precedenza ai pedoni. Non c'entra con ascensori, scale mobili o scuole.",
+  "trap": "«scala mobile» è un significato inventato.",
+  "caption": "Semaforo pedonale, non scala mobile",
+  "lines": [
+   "Semaforo pedonale, non scala mobile"
+  ]
+ },
+ "q21069": {
+  "short": "L'omino dice che è per i pedoni, non per i veicoli.",
+  "rule": "La luce con un omino è un semaforo per pedoni. Verde: i pedoni possono scendere sulla strada e attraversare. Giallo: non iniziare ad attraversare. Rosso: non attraversare. I veicoli che svoltano danno la precedenza ai pedoni. Non c'entra con ascensori, scale mobili o scuole.",
+  "trap": "«solo dei veicoli» è sbagliato: è per chi va a piedi.",
+  "caption": "Per i pedoni, non solo per i veicoli",
+  "lines": [
+   "Omino verde: per i pedoni"
+  ]
+ },
+ "q21070": {
+  "short": "È il contrario: i veicoli che svoltano danno la precedenza ai pedoni col verde.",
+  "rule": "La luce con un omino è un semaforo per pedoni. Verde: i pedoni possono scendere sulla strada e attraversare. Giallo: non iniziare ad attraversare. Rosso: non attraversare. I veicoli che svoltano danno la precedenza ai pedoni. Non c'entra con ascensori, scale mobili o scuole.",
+  "trap": "«obbliga i pedoni a dare la precedenza» inverte i ruoli.",
+  "caption": "Chi svolta dà precedenza ai pedoni",
+  "lines": [
+   "I pedoni attraversano col verde",
+   "Chi svolta dà loro la precedenza"
+  ]
+ },
+ "q21071": {
+  "short": "L'omino indica un semaforo pedonale, non un ascensore.",
+  "rule": "La luce con un omino è un semaforo per pedoni. Verde: i pedoni possono scendere sulla strada e attraversare. Giallo: non iniziare ad attraversare. Rosso: non attraversare. I veicoli che svoltano danno la precedenza ai pedoni. Non c'entra con ascensori, scale mobili o scuole.",
+  "trap": "«ascensore pubblico» è un significato inventato.",
+  "caption": "Semaforo pedonale, non ascensore",
+  "lines": [
+   "Semaforo pedonale, non ascensore"
+  ]
+ },
+ "q21072": {
+  "short": "Una scuola si indica con un triangolo di pericolo con bambini, non con questo semaforo.",
+  "rule": "La luce con un omino è un semaforo per pedoni. Verde: i pedoni possono scendere sulla strada e attraversare. Giallo: non iniziare ad attraversare. Rosso: non attraversare. I veicoli che svoltano danno la precedenza ai pedoni. Non c'entra con ascensori, scale mobili o scuole.",
+  "trap": "«scuola elementare» è sbagliato: è un semaforo pedonale.",
+  "caption": "Semaforo pedonale, non segnale di scuola",
+  "lines": [
+   "Semaforo pedonale, non scuola"
+  ]
+ },
+ "q21073": {
+  "short": "Il semaforo pedonale funziona a cicli normali. Non resta verde quando escono gli studenti.",
+  "rule": "La luce con un omino è un semaforo per pedoni. Verde: i pedoni possono scendere sulla strada e attraversare. Giallo: non iniziare ad attraversare. Rosso: non attraversare. I veicoli che svoltano danno la precedenza ai pedoni. Non c'entra con ascensori, scale mobili o scuole.",
+  "trap": "«sempre accesa» è inventato.",
+  "caption": "Ciclo normale, non sempre verde a scuola",
+  "lines": [
+   "Semaforo pedonale: ciclo normale",
+   "Nessun verde speciale per la scuola"
+  ]
+ },
+ "q21074": {
+  "short": "Tre luci tonde, rossa, gialla e verde, senza simboli: è il semaforo normale per i veicoli.",
+  "rule": "Il semaforo a tre luci (rosso, giallo, verde) vale per i veicoli, anche biciclette e autobus. Di norma sta in un incrocio e regola il passaggio. Giallo fisso: fermati, ma se sei già nell'incrocio, liberalo. Giallo lampeggiante: passa con prudenza.",
+  "trap": "«per i veicoli» è giusto: luci tonde semplici.",
+  "caption": "Semaforo normale per veicoli",
+  "lines": [
+   "Rosso, giallo, verde: per i veicoli"
+  ]
+ },
+ "q21075": {
+  "short": "I semafori di norma stanno agli incroci, dove si incontrano strade diverse.",
+  "rule": "Il semaforo a tre luci (rosso, giallo, verde) vale per i veicoli, anche biciclette e autobus. Di norma sta in un incrocio e regola il passaggio. Giallo fisso: fermati, ma se sei già nell'incrocio, liberalo. Giallo lampeggiante: passa con prudenza.",
+  "trap": "«di norma»: quasi sempre agli incroci, a volte anche alle strisce.",
+  "caption": "Di norma: in un incrocio",
+  "lines": [
+   "Di norma in un incrocio"
+  ]
+ },
+ "q21076": {
+  "short": "Il suo compito è decidere chi passa all'incrocio, a turno.",
+  "rule": "Il semaforo a tre luci (rosso, giallo, verde) vale per i veicoli, anche biciclette e autobus. Di norma sta in un incrocio e regola il passaggio. Giallo fisso: fermati, ma se sei già nell'incrocio, liberalo. Giallo lampeggiante: passa con prudenza.",
+  "trap": "«regolare il passaggio» è giusto.",
+  "caption": "Regola chi passa all'incrocio",
+  "lines": [
+   "Regola chi passa, a turno"
+  ]
+ },
+ "q21077": {
+  "short": "Se il giallo si accende quando sei già nell'incrocio, devi liberarlo: prosegui ed esci.",
+  "rule": "Il semaforo a tre luci (rosso, giallo, verde) vale per i veicoli, anche biciclette e autobus. Di norma sta in un incrocio e regola il passaggio. Giallo fisso: fermati, ma se sei già nell'incrocio, liberalo. Giallo lampeggiante: passa con prudenza.",
+  "trap": "«se lo si è già impegnato» è la condizione chiave.",
+  "caption": "Giallo ma sei già dentro: libera l'incrocio",
+  "lines": [
+   "Giallo fisso: fermati se puoi",
+   "Sei già nell'incrocio? Liberalo"
+  ]
+ },
+ "q21078": {
+  "short": "Anche gli autobus rispettano il semaforo normale. Solo in alcune corsie riservate hanno luci speciali.",
+  "rule": "Il semaforo a tre luci (rosso, giallo, verde) vale per i veicoli, anche biciclette e autobus. Di norma sta in un incrocio e regola il passaggio. Giallo fisso: fermati, ma se sei già nell'incrocio, liberalo. Giallo lampeggiante: passa con prudenza.",
+  "trap": "«non vale» è sbagliato: il semaforo normale vale per tutti i veicoli.",
+  "caption": "Anche gli autobus rispettano questo semaforo",
+  "lines": [
+   "Semaforo normale: per tutti i veicoli",
+   "Anche gli autobus"
+  ]
+ },
+ "q21079": {
+  "short": "Le biciclette sono veicoli: devono rispettare il semaforo normale.",
+  "rule": "Il semaforo a tre luci (rosso, giallo, verde) vale per i veicoli, anche biciclette e autobus. Di norma sta in un incrocio e regola il passaggio. Giallo fisso: fermati, ma se sei già nell'incrocio, liberalo. Giallo lampeggiante: passa con prudenza.",
+  "trap": "«non vale per le biciclette» è sbagliato.",
+  "caption": "Anche le biciclette rispettano il semaforo",
+  "lines": [
+   "Le biciclette sono veicoli",
+   "Anche loro si fermano col rosso"
+  ]
+ },
+ "q21080": {
+  "short": "Questo semaforo di norma sta agli incroci. Non tutti i caselli lo hanno.",
+  "rule": "Il semaforo a tre luci (rosso, giallo, verde) vale per i veicoli, anche biciclette e autobus. Di norma sta in un incrocio e regola il passaggio. Giallo fisso: fermati, ma se sei già nell'incrocio, liberalo. Giallo lampeggiante: passa con prudenza.",
+  "trap": "«tutti» è la parola trappola: non c'è questa regola.",
+  "caption": "Agli incroci, non in tutti i caselli",
+  "lines": [
+   "Di norma agli incroci",
+   "Non in tutti i caselli"
+  ]
+ },
+ "q21081": {
+  "short": "Vicino ai binari ci sono le due luci rosse lampeggianti, non questo semaforo a tre luci.",
+  "rule": "Il semaforo a tre luci (rosso, giallo, verde) vale per i veicoli, anche biciclette e autobus. Di norma sta in un incrocio e regola il passaggio. Giallo fisso: fermati, ma se sei già nell'incrocio, liberalo. Giallo lampeggiante: passa con prudenza.",
+  "trap": "«binari ferroviari» è sbagliato: questo semaforo è per gli incroci.",
+  "caption": "Per gli incroci, non per i binari",
+  "lines": [
+   "Semaforo d'incrocio, non ferroviario",
+   "Binari: due luci rosse lampeggianti"
+  ]
+ },
+ "q21082": {
+  "short": "Il giallo lampeggiante permette di passare, piano e con prudenza, rispettando le precedenze.",
+  "rule": "Il semaforo a tre luci (rosso, giallo, verde) vale per i veicoli, anche biciclette e autobus. Di norma sta in un incrocio e regola il passaggio. Giallo fisso: fermati, ma se sei già nell'incrocio, liberalo. Giallo lampeggiante: passa con prudenza.",
+  "trap": "«non consente il transito» è sbagliato: il giallo lampeggiante non è il rosso.",
+  "caption": "Giallo lampeggiante: passi con prudenza",
+  "lines": [
+   "Giallo lampeggiante: passa con prudenza"
+  ]
+ },
+ "q21083": {
+  "short": "Le luci con frecce sono semafori di corsia: ognuno vale per una direzione.",
+  "rule": "Le luci con frecce sono semafori di corsia. Ognuno vale per chi va nella direzione della sua freccia. Freccia verde = vai, solo da quella parte. Freccia gialla fissa = fermati, o libera subito l'incrocio se ci sei già. Freccia rossa = fermati. Spenti = passa con prudenza. Valgono anche per le biciclette.",
+  "trap": "«semafori di corsia» è giusto: frecce invece di luci tonde.",
+  "caption": "Luci con frecce = semafori di corsia",
+  "lines": [
+   "Frecce: un semaforo per direzione"
+  ]
+ },
+ "q21084": {
+  "short": "Ogni semaforo con freccia vale solo per chi va nella direzione indicata.",
+  "rule": "Le luci con frecce sono semafori di corsia. Ognuno vale per chi va nella direzione della sua freccia. Freccia verde = vai, solo da quella parte. Freccia gialla fissa = fermati, o libera subito l'incrocio se ci sei già. Freccia rossa = fermati. Spenti = passa con prudenza. Valgono anche per le biciclette.",
+  "trap": "«nella direzione della freccia» è giusto.",
+  "caption": "Ogni semaforo vale per la sua direzione",
+  "lines": [
+   "Freccia: solo per quella direzione"
+  ]
+ },
+ "q21085": {
+  "short": "La freccia verde ti fa andare solo dove indica, non in altre direzioni.",
+  "rule": "Le luci con frecce sono semafori di corsia. Ognuno vale per chi va nella direzione della sua freccia. Freccia verde = vai, solo da quella parte. Freccia gialla fissa = fermati, o libera subito l'incrocio se ci sei già. Freccia rossa = fermati. Spenti = passa con prudenza. Valgono anche per le biciclette.",
+  "trap": "«sola» è giusto: le altre direzioni seguono il loro semaforo.",
+  "caption": "Freccia verde: vai solo da quella parte",
+  "lines": [
+   "Freccia verde: solo da quella parte"
+  ]
+ },
+ "q21086": {
+  "short": "Semafori spenti non danno ordini: puoi passare con prudenza, rispettando le precedenze.",
+  "rule": "Le luci con frecce sono semafori di corsia. Ognuno vale per chi va nella direzione della sua freccia. Freccia verde = vai, solo da quella parte. Freccia gialla fissa = fermati, o libera subito l'incrocio se ci sei già. Freccia rossa = fermati. Spenti = passa con prudenza. Valgono anche per le biciclette.",
+  "trap": "«se spenti» non vuol dire fermati: passa con prudenza.",
+  "caption": "Spenti: passa con particolare prudenza",
+  "lines": [
+   "Spenti: passa con prudenza",
+   "Rispetta le precedenze"
+  ]
+ },
+ "q21087": {
+  "short": "La freccia rossa ferma solo chi va in quella direzione.",
+  "rule": "Le luci con frecce sono semafori di corsia. Ognuno vale per chi va nella direzione della sua freccia. Freccia verde = vai, solo da quella parte. Freccia gialla fissa = fermati, o libera subito l'incrocio se ci sei già. Freccia rossa = fermati. Spenti = passa con prudenza. Valgono anche per le biciclette.",
+  "trap": "«diretti nel senso della freccia»: solo loro si fermano.",
+  "caption": "Freccia rossa: fermati se vai di là",
+  "lines": [
+   "Freccia rossa: fermati",
+   "Solo se vai in quella direzione"
+  ]
+ },
+ "q21088": {
+  "short": "Freccia gialla fissa: se sei già nell'incrocio, esci subito per lasciarlo libero.",
+  "rule": "Le luci con frecce sono semafori di corsia. Ognuno vale per chi va nella direzione della sua freccia. Freccia verde = vai, solo da quella parte. Freccia gialla fissa = fermati, o libera subito l'incrocio se ci sei già. Freccia rossa = fermati. Spenti = passa con prudenza. Valgono anche per le biciclette.",
+  "trap": "«liberare immediatamente» è giusto se sei già dentro.",
+  "caption": "Freccia gialla, sei dentro: libera subito",
+  "lines": [
+   "Freccia gialla fissa",
+   "Sei dentro? Libera l'incrocio"
+  ]
+ },
+ "q21089": {
+  "short": "Le biciclette sono veicoli: rispettano anche i semafori di corsia.",
+  "rule": "Le luci con frecce sono semafori di corsia. Ognuno vale per chi va nella direzione della sua freccia. Freccia verde = vai, solo da quella parte. Freccia gialla fissa = fermati, o libera subito l'incrocio se ci sei già. Freccia rossa = fermati. Spenti = passa con prudenza. Valgono anche per le biciclette.",
+  "trap": "«anche» è giusto: le bici sono comprese.",
+  "caption": "Anche le bici rispettano questi semafori",
+  "lines": [
+   "Le bici sono veicoli: rispettano"
+  ]
+ },
+ "q21090": {
+  "short": "Le luci con frecce sono per tutti i veicoli in quella direzione, non solo per gli autobus.",
+  "rule": "Le luci con frecce sono semafori di corsia. Ognuno vale per chi va nella direzione della sua freccia. Freccia verde = vai, solo da quella parte. Freccia gialla fissa = fermati, o libera subito l'incrocio se ci sei già. Freccia rossa = fermati. Spenti = passa con prudenza. Valgono anche per le biciclette.",
+  "trap": "«in servizio di linea» è sbagliato: sono per tutti.",
+  "caption": "Per tutti i veicoli, non solo autobus",
+  "lines": [
+   "Frecce: per tutti i veicoli",
+   "Non un semaforo per autobus"
+  ]
+ },
+ "q21091": {
+  "short": "Tram e treni hanno luci speciali. Queste frecce colorate sono semafori di corsia per i veicoli.",
+  "rule": "Le luci con frecce sono semafori di corsia. Ognuno vale per chi va nella direzione della sua freccia. Freccia verde = vai, solo da quella parte. Freccia gialla fissa = fermati, o libera subito l'incrocio se ci sei già. Freccia rossa = fermati. Spenti = passa con prudenza. Valgono anche per le biciclette.",
+  "trap": "«veicoli su rotaie» è sbagliato.",
+  "caption": "Per i veicoli, non per tram o treni",
+  "lines": [
+   "Frecce colorate: veicoli stradali",
+   "Tram e treni hanno altre luci"
+  ]
+ },
+ "q21092": {
+  "short": "I semafori di corsia si usano agli incroci per ogni direzione, non all'ingresso delle gallerie.",
+  "rule": "Le luci con frecce sono semafori di corsia. Ognuno vale per chi va nella direzione della sua freccia. Freccia verde = vai, solo da quella parte. Freccia gialla fissa = fermati, o libera subito l'incrocio se ci sei già. Freccia rossa = fermati. Spenti = passa con prudenza. Valgono anche per le biciclette.",
+  "trap": "«galleria» è un posto sbagliato.",
+  "caption": "Agli incroci, non all'inizio di gallerie",
+  "lines": [
+   "Semafori di corsia: agli incroci"
+  ]
+ },
+ "q21093": {
+  "short": "I semafori di corsia regolano le direzioni agli incroci, non l'accesso ai ponti mobili.",
+  "rule": "Le luci con frecce sono semafori di corsia. Ognuno vale per chi va nella direzione della sua freccia. Freccia verde = vai, solo da quella parte. Freccia gialla fissa = fermati, o libera subito l'incrocio se ci sei già. Freccia rossa = fermati. Spenti = passa con prudenza. Valgono anche per le biciclette.",
+  "trap": "«ponti mobili» è un posto sbagliato.",
+  "caption": "Agli incroci, non ai ponti mobili",
+  "lines": [
+   "Semafori di corsia: agli incroci"
+  ]
+ },
+ "q21094": {
+  "short": "I semafori di corsia regolano le direzioni agli incroci, non l'imbarco sui traghetti.",
+  "rule": "Le luci con frecce sono semafori di corsia. Ognuno vale per chi va nella direzione della sua freccia. Freccia verde = vai, solo da quella parte. Freccia gialla fissa = fermati, o libera subito l'incrocio se ci sei già. Freccia rossa = fermati. Spenti = passa con prudenza. Valgono anche per le biciclette.",
+  "trap": "«navi traghetto» è un posto sbagliato.",
+  "caption": "Agli incroci, non ai traghetti",
+  "lines": [
+   "Semafori di corsia: agli incroci"
+  ]
+ },
+ "q21095": {
+  "short": "Ai passaggi a livello ci sono due luci rosse lampeggianti, non luci con frecce.",
+  "rule": "Le luci con frecce sono semafori di corsia. Ognuno vale per chi va nella direzione della sua freccia. Freccia verde = vai, solo da quella parte. Freccia gialla fissa = fermati, o libera subito l'incrocio se ci sei già. Freccia rossa = fermati. Spenti = passa con prudenza. Valgono anche per le biciclette.",
+  "trap": "«passaggio a livello» è sbagliato per le luci con frecce.",
+  "caption": "Passaggi a livello: luci rosse lampeggianti",
+  "lines": [
+   "Semafori di corsia: agli incroci",
+   "Passaggio a livello: due luci rosse"
+  ]
+ },
+ "q21096": {
+  "short": "I semafori per corsie reversibili stanno sopra le corsie, con X rossa e freccia verde in basso. Questi sono semafori di corsia.",
+  "rule": "Le luci con frecce sono semafori di corsia. Ognuno vale per chi va nella direzione della sua freccia. Freccia verde = vai, solo da quella parte. Freccia gialla fissa = fermati, o libera subito l'incrocio se ci sei già. Freccia rossa = fermati. Spenti = passa con prudenza. Valgono anche per le biciclette.",
+  "trap": "«corsie reversibili» è sbagliato: quelle luci hanno la X rossa.",
+  "caption": "Semafori di corsia, non per corsie reversibili",
+  "lines": [
+   "Frecce rosso/giallo/verde: di corsia",
+   "Reversibili: X rossa, freccia verde"
+  ]
+ }
+}

@@ -1,0 +1,2103 @@
+{
+ "q21302": {
+  "en": "The sign shown indicates the distance to the exit junction for the place shown.",
+  "explain": {
+   "short": "The green part says PIACENZA 4: the exit for Piacenza is 4 km ahead.",
+   "rule": "Green = motorway. Left white box: km 54 from the start of the motorway (progressive distance). Right: the Piacenza exit is 4 km ahead.",
+   "trap": "'svincolo d'uscita' means the exit junction: its distance is the number on the right, 4.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Exit for Piacenza in 4 km",
+    "it": "distanza progressiva",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "svincolo d'uscita",
+    "en": "exit junction"
+   },
+   {
+    "it": "località indicata",
+    "en": "place shown"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21303": {
+  "en": "The sign shown is placed along a motorway.",
+  "explain": {
+   "short": "Green is the colour of motorway signs, so this sign stands along a motorway.",
+   "rule": "Green = motorway. Left white box: km 54 from the start of the motorway (progressive distance). Right: the Piacenza exit is 4 km ahead.",
+   "trap": "'autostrada' (motorway): the green background tells you.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green background = motorway",
+    "it": "distanza progressiva",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è posto",
+    "en": "is placed"
+   },
+   {
+    "it": "lungo un'autostrada",
+    "en": "along a motorway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21304": {
+  "en": "The sign shown indicates on the left the progressive distance and on the right the distance to the exit toll booth for Piacenza.",
+  "explain": {
+   "short": "The white box on the left is km 54 of the motorway; the green part on the right is 4 km to the Piacenza exit.",
+   "rule": "Green = motorway. Left white box: km 54 from the start of the motorway (progressive distance). Right: the Piacenza exit is 4 km ahead.",
+   "trap": "'casello d'uscita' (exit toll booth) is the exit where you leave the motorway.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left: km 54. Right: Piacenza exit in 4 km",
+    "it": "distanza progressiva",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza progressiva",
+    "en": "progressive distance (km marker)"
+   },
+   {
+    "it": "casello d'uscita",
+    "en": "exit toll booth"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21305": {
+  "en": "The sign shown, in its left part, indicates the progressive distance from the starting point of the motorway.",
+  "explain": {
+   "short": "54 means you are 54 km from the point where the motorway begins.",
+   "rule": "Green = motorway. Left white box: km 54 from the start of the motorway (progressive distance). Right: the Piacenza exit is 4 km ahead.",
+   "trap": "'luogo di origine' means the starting point of the motorway, where km 0 is.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Km 54 from the start of the motorway",
+    "it": "distanza progressiva",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "nella parte sinistra",
+    "en": "in the left part"
+   },
+   {
+    "it": "luogo di origine",
+    "en": "starting point"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21306": {
+  "en": "The sign shown indicates that there are 4 kilometres to go to the exit toll booth for Piacenza.",
+  "explain": {
+   "short": "PIACENZA 4 means 4 more km to the Piacenza exit.",
+   "rule": "Green = motorway. Left white box: km 54 from the start of the motorway (progressive distance). Right: the Piacenza exit is 4 km ahead.",
+   "trap": "'mancano' means 'are left to go': 4 km still to drive, not 4 km done.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "4 km to the Piacenza exit",
+    "it": "distanza progressiva",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "mancano",
+    "en": "are left (to go)"
+   },
+   {
+    "it": "casello d'uscita",
+    "en": "exit toll booth"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21307": {
+  "en": "The sign shown is one of the information signs.",
+  "explain": {
+   "short": "It gives information (km and exits); it does not give an order or warn of danger.",
+   "rule": "Green = motorway. Left white box: km 54 from the start of the motorway (progressive distance). Right: the Piacenza exit is 4 km ahead.",
+   "trap": "'segnali di indicazione' means information signs: no danger, no obligation.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "An information sign",
+    "it": "distanza progressiva",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fa parte",
+    "en": "is part of"
+   },
+   {
+    "it": "segnali di indicazione",
+    "en": "information signs"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21308": {
+  "en": "The sign shown indicates that there are 54 kilometres to go to the exit junction for Piacenza.",
+  "explain": {
+   "short": "54 is the progressive km of the motorway; the Piacenza exit is only 4 km away.",
+   "rule": "Green = motorway. Left white box: km 54 from the start of the motorway (progressive distance). Right: the Piacenza exit is 4 km ahead.",
+   "trap": "'54' is in the white box (km marker), not next to PIACENZA. (The official text has a typo: 'cha' = 'che'.)",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "54 = km marker; Piacenza exit is 4 km away",
+    "it": "distanza progressiva",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "mancano 54 chilometri",
+    "en": "there are 54 km to go"
+   },
+   {
+    "it": "svincolo d'uscita",
+    "en": "exit junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21309": {
+  "en": "The sign shown indicates that you are travelling on motorway no. 54.",
+  "explain": {
+   "short": "54 is a distance in km from the start of the motorway, not the motorway's number.",
+   "rule": "Green = motorway. Left white box: km 54 from the start of the motorway (progressive distance). Right: the Piacenza exit is 4 km ahead.",
+   "trap": "'autostrada n. 54' (motorway no. 54): motorway numbers start with A (like A1); this 54 is kilometres.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "54 is km, not the motorway number",
+    "it": "distanza progressiva",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si sta percorrendo",
+    "en": "you are travelling on"
+   },
+   {
+    "it": "autostrada n. 54",
+    "en": "motorway no. 54"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21310": {
+  "en": "The sign shown indicates on the left the recommended speed.",
+  "explain": {
+   "short": "The left number is the progressive km, not a speed.",
+   "rule": "Green = motorway. Left white box: km 54 from the start of the motorway (progressive distance). Right: the Piacenza exit is 4 km ahead.",
+   "trap": "'velocità consigliata' (recommended speed) has its own square blue sign; this 54 is km.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left number = km, not a speed",
+    "it": "distanza progressiva",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "a sinistra",
+    "en": "on the left"
+   },
+   {
+    "it": "velocità consigliata",
+    "en": "recommended speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21311": {
+  "en": "The sign shown indicates that 4 kilometres have already been travelled from Piacenza.",
+  "explain": {
+   "short": "The 4 km are still ahead: the Piacenza exit is coming, you have not passed it.",
+   "rule": "Green = motorway. Left white box: km 54 from the start of the motorway (progressive distance). Right: the Piacenza exit is 4 km ahead.",
+   "trap": "'già percorsi' (already travelled) is wrong: the 4 km are still to go.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "4 km TO Piacenza, not from it",
+    "it": "distanza progressiva",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "già percorsi",
+    "en": "already travelled"
+   },
+   {
+    "it": "da Piacenza",
+    "en": "from Piacenza"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21312": {
+  "en": "The sign shown indicates the start of a built-up area.",
+  "explain": {
+   "short": "The start of a town is a white sign with the town's name; this green sign is a motorway distance sign.",
+   "rule": "Green = motorway. Left white box: km 54 from the start of the motorway (progressive distance). Right: the Piacenza exit is 4 km ahead.",
+   "trap": "'inizio di un centro abitato' (start of a town): no, this sign is on a motorway.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorway km sign, not a town sign",
+    "it": "distanza progressiva",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "inizio",
+    "en": "start"
+   },
+   {
+    "it": "centro abitato",
+    "en": "built-up area (town)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21313": {
+  "en": "The sign shown indicates a parking area for taxis on duty.",
+  "explain": {
+   "short": "It marks the place where working taxis stop and wait for customers.",
+   "rule": "The TAXI sign marks a parking area only for taxis on duty. Other vehicles may not park there.",
+   "trap": "'in servizio' means on duty, taxis that are working.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Taxi stand: taxis on duty only",
+    "it": "sosta taxi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area di sosta",
+    "en": "parking area"
+   },
+   {
+    "it": "taxi in servizio",
+    "en": "taxis on duty"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21314": {
+  "en": "The sign shown indicates a parking area for the exclusive use of taxis on duty.",
+  "explain": {
+   "short": "Only taxis on duty may park there; other cars may not.",
+   "rule": "The TAXI sign marks a parking area only for taxis on duty. Other vehicles may not park there.",
+   "trap": "'ad uso esclusivo' means only for them, nobody else.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only taxis on duty may park here",
+    "it": "sosta taxi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area di sosta",
+    "en": "parking area"
+   },
+   {
+    "it": "ad uso esclusivo",
+    "en": "for exclusive use"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21315": {
+  "en": "The sign shown indicates a parking place reserved for taxis on duty.",
+  "explain": {
+   "short": "'Parcheggio riservato' is another way to say the area is only for taxis on duty.",
+   "rule": "The TAXI sign marks a parking area only for taxis on duty. Other vehicles may not park there.",
+   "trap": "'riservato' (reserved) means other vehicles cannot use it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Parking reserved for taxis",
+    "it": "sosta taxi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "parcheggio",
+    "en": "parking place"
+   },
+   {
+    "it": "riservato ai taxi",
+    "en": "reserved for taxis"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21316": {
+  "en": "The sign shown indicates an area marked with yellow lines with the word TAXI.",
+  "explain": {
+   "short": "On the ground the taxi area is marked by yellow lines and the word TAXI.",
+   "rule": "The TAXI sign marks a parking area only for taxis on duty. Other vehicles may not park there.",
+   "trap": "'strisce gialle' (yellow lines) mark reserved spaces, like taxi spaces.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow lines and TAXI on the ground",
+    "it": "sosta taxi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "contrassegnata",
+    "en": "marked"
+   },
+   {
+    "it": "strisce gialle",
+    "en": "yellow lines"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21317": {
+  "en": "The sign shown indicates no overtaking for taxis.",
+  "explain": {
+   "short": "It is about a parking place for taxis; it says nothing about overtaking.",
+   "rule": "The TAXI sign marks a parking area only for taxis on duty. Other vehicles may not park there.",
+   "trap": "'divieto di sorpasso' (no overtaking) is a round red sign with two cars.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Taxi parking, not a no-overtaking sign",
+    "it": "sosta taxi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto di sorpasso",
+    "en": "no overtaking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21318": {
+  "en": "The sign shown indicates a road closed to taxis.",
+  "explain": {
+   "short": "It shows where taxis CAN park; it does not close a road to them.",
+   "rule": "The TAXI sign marks a parking area only for taxis on duty. Other vehicles may not park there.",
+   "trap": "'strada vietata' (road closed) would be a round red sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Taxis may park here, road not closed",
+    "it": "sosta taxi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada vietata",
+    "en": "road closed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21319": {
+  "en": "The sign shown indicates that there is a device nearby for calling a taxi.",
+  "explain": {
+   "short": "It marks a taxi parking area, not a phone or call box for taxis.",
+   "rule": "The TAXI sign marks a parking area only for taxis on duty. Other vehicles may not park there.",
+   "trap": "'apparecchio per chiamare' (a device to call): the sign shows no phone.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Taxi parking, not a taxi call box",
+    "it": "sosta taxi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "nelle vicinanze",
+    "en": "nearby"
+   },
+   {
+    "it": "apparecchio",
+    "en": "device"
+   },
+   {
+    "it": "chiamare un taxi",
+    "en": "call a taxi"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21320": {
+  "en": "The sign shown indicates that there is a taxi radio station.",
+  "explain": {
+   "short": "It only marks a taxi parking area; it says nothing about radio.",
+   "rule": "The TAXI sign marks a parking area only for taxis on duty. Other vehicles may not park there.",
+   "trap": "'stazione radio' (radio station) has nothing to do with this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Taxi parking, not a radio station",
+    "it": "sosta taxi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "stazione radio",
+    "en": "radio station"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21321": {
+  "en": "The sign shown has its own light.",
+  "explain": {
+   "short": "It is a normal painted sign; it does not light up by itself.",
+   "rule": "The TAXI sign marks a parking area only for taxis on duty. Other vehicles may not park there.",
+   "trap": "'luce propria' (its own light): this sign has no lamp inside.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A normal sign, no light of its own",
+    "it": "sosta taxi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è dotato",
+    "en": "is equipped"
+   },
+   {
+    "it": "luce propria",
+    "en": "its own light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21322": {
+  "en": "The sign shown indicates a garage reserved for taxis.",
+  "explain": {
+   "short": "It marks a parking area on the street, not a garage (a closed building).",
+   "rule": "The TAXI sign marks a parking area only for taxis on duty. Other vehicles may not park there.",
+   "trap": "'garage' is a building; the taxi area is on the road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Taxi area on the street, not a garage",
+    "it": "sosta taxi",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "garage",
+    "en": "garage (closed building)"
+   },
+   {
+    "it": "riservato ai taxi",
+    "en": "reserved for taxis"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21323": {
+  "en": "The sign shown indicates a public telephone point nearby.",
+  "explain": {
+   "short": "The handset symbol tells you there is a public phone close by.",
+   "rule": "Blue sign with a handset: a public telephone is close by. It is information only.",
+   "trap": "'posto di telefono pubblico' means a place with a public phone.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Public phone nearby",
+    "it": "telefono pubblico",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "telefono pubblico",
+    "en": "public telephone"
+   },
+   {
+    "it": "nelle vicinanze",
+    "en": "nearby"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21324": {
+  "en": "The sign shown indicates that we are near a public telephone.",
+  "explain": {
+   "short": "The sign tells you a public telephone is close to where you are.",
+   "rule": "Blue sign with a handset: a public telephone is close by. It is information only.",
+   "trap": "'apparecchio telefonico' simply means a telephone.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Public phone nearby",
+    "it": "telefono pubblico",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in vicinanza",
+    "en": "near"
+   },
+   {
+    "it": "apparecchio telefonico pubblico",
+    "en": "public telephone"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21325": {
+  "en": "The sign shown indicates that, a short distance away, you can phone from a public telephone.",
+  "explain": {
+   "short": "A public phone is just ahead, so you can make a call there.",
+   "rule": "Blue sign with a handset: a public telephone is close by. It is information only.",
+   "trap": "'a breve distanza' (a short distance away): the phone is close.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "You can call from a public phone ahead",
+    "it": "telefono pubblico",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "a breve distanza",
+    "en": "a short distance away"
+   },
+   {
+    "it": "telefono pubblico",
+    "en": "public telephone"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21326": {
+  "en": "The sign shown indicates a public telephone placed on roads outside towns.",
+  "explain": {
+   "short": "This blue service sign is used on roads outside towns, so it can mark a public phone there.",
+   "rule": "Blue sign with a handset: a public telephone is close by. It is information only.",
+   "trap": "'strade extraurbane' means roads outside towns; the sign is used there.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Public phone on a road outside town",
+    "it": "telefono pubblico",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "apparecchio telefonico pubblico",
+    "en": "public telephone"
+   },
+   {
+    "it": "strade extraurbane",
+    "en": "roads outside towns"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21327": {
+  "en": "The sign shown indicates that a mobile phone shop is nearby.",
+  "explain": {
+   "short": "It shows a public phone, not a shop that sells mobile phones.",
+   "rule": "Blue sign with a handset: a public telephone is close by. It is information only.",
+   "trap": "'negozio di telefonia mobile' (mobile phone shop): road signs do not show shops.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Public phone, not a phone shop",
+    "it": "telefono pubblico",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "negozio",
+    "en": "shop"
+   },
+   {
+    "it": "telefonia mobile",
+    "en": "mobile phones"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21328": {
+  "en": "The sign shown indicates a first aid post that can be reached by phone.",
+  "explain": {
+   "short": "First aid has its own sign with a red cross; this one is only a public phone.",
+   "rule": "Blue sign with a handset: a public telephone is close by. It is information only.",
+   "trap": "'pronto soccorso' (first aid) is not shown here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Public phone, not first aid",
+    "it": "telefono pubblico",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pronto soccorso",
+    "en": "first aid"
+   },
+   {
+    "it": "raggiungibile per telefono",
+    "en": "reachable by phone"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21329": {
+  "en": "The sign shown indicates that you can recharge mobile phones.",
+  "explain": {
+   "short": "It shows a public phone; it says nothing about charging phones.",
+   "rule": "Blue sign with a handset: a public telephone is close by. It is information only.",
+   "trap": "'ricaricare' (recharge): nothing about charging on this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Public phone, not phone charging",
+    "it": "telefono pubblico",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ricaricare",
+    "en": "recharge"
+   },
+   {
+    "it": "telefoni cellulari",
+    "en": "mobile phones"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21330": {
+  "en": "The sign shown indicates that using mobile phones is forbidden.",
+  "explain": {
+   "short": "It is an information sign, so it forbids nothing. A ban would be a round red sign.",
+   "rule": "Blue sign with a handset: a public telephone is close by. It is information only.",
+   "trap": "'vietato' (forbidden): square blue signs give information, they do not ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Information, not a ban on phones",
+    "it": "telefono pubblico",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietato",
+    "en": "forbidden"
+   },
+   {
+    "it": "telefoni cellulari",
+    "en": "mobile phones"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21331": {
+  "en": "The sign shown indicates an area with enough mobile phone signal.",
+  "explain": {
+   "short": "It is about a public phone, not about mobile network coverage.",
+   "rule": "Blue sign with a handset: a public telephone is close by. It is information only.",
+   "trap": "'coperta dal segnale' (covered by signal): the sign says nothing about mobile signal.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Public phone, not mobile coverage",
+    "it": "telefono pubblico",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "coperta dal segnale",
+    "en": "covered by signal"
+   },
+   {
+    "it": "telefonia mobile",
+    "en": "mobile phones"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21332": {
+  "en": "The sign shown indicates that you may phone only with hands-free mobile phones.",
+  "explain": {
+   "short": "It sets no rule for mobile phones; it just shows a public phone.",
+   "rule": "Blue sign with a handset: a public telephone is close by. It is information only.",
+   "trap": "'solo' (only) and 'viva voce' (hands-free): the sign says nothing about mobiles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Public phone, no rule about mobiles",
+    "it": "telefono pubblico",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "viva voce",
+    "en": "hands-free"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21333": {
+  "en": "The sign shown indicates a fuel filling point.",
+  "explain": {
+   "short": "The fuel pump symbol marks a place where you can buy fuel.",
+   "rule": "Blue sign with a fuel pump: you can get fuel a short distance ahead. Information only.",
+   "trap": "'rifornimento' means filling up (the tank).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fuel station a short way ahead",
+    "it": "distributore di carburante",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "posto di rifornimento",
+    "en": "filling point"
+   },
+   {
+    "it": "carburante",
+    "en": "fuel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21334": {
+  "en": "The sign shown indicates that there is a fuel supply point nearby.",
+  "explain": {
+   "short": "The pump tells you a fuel station is close by.",
+   "rule": "Blue sign with a fuel pump: you can get fuel a short distance ahead. Information only.",
+   "trap": "'nelle vicinanze' (nearby): the station is close.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fuel station a short way ahead",
+    "it": "distributore di carburante",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "nelle vicinanze",
+    "en": "nearby"
+   },
+   {
+    "it": "distribuzione carburante",
+    "en": "fuel supply"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21335": {
+  "en": "The sign shown indicates that you can get fuel a short distance away.",
+  "explain": {
+   "short": "A short way ahead there is a fuel station where you can fill up.",
+   "rule": "Blue sign with a fuel pump: you can get fuel a short distance ahead. Information only.",
+   "trap": "'a breve distanza' (a short distance away): the station is close.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fuel station a short way ahead",
+    "it": "distributore di carburante",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "rifornimento carburante",
+    "en": "refuelling"
+   },
+   {
+    "it": "a breve distanza",
+    "en": "a short distance away"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21336": {
+  "en": "The sign shown indicates that there is a fuel station a short distance away.",
+  "explain": {
+   "short": "The pump symbol means a fuel station a short way ahead.",
+   "rule": "Blue sign with a fuel pump: you can get fuel a short distance ahead. Information only.",
+   "trap": "'stazione di rifornimento' is another name for a fuel station.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fuel station a short way ahead",
+    "it": "distributore di carburante",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "a breve distanza",
+    "en": "a short distance away"
+   },
+   {
+    "it": "stazione di rifornimento",
+    "en": "fuel station"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21337": {
+  "en": "The sign shown indicates that along the road, a short distance away, there is a fuel pump station.",
+  "explain": {
+   "short": "A fuel station is on this road, a short way ahead.",
+   "rule": "Blue sign with a fuel pump: you can get fuel a short distance ahead. Information only.",
+   "trap": "'distributore di carburante' means fuel station.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fuel station a short way ahead",
+    "it": "distributore di carburante",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "lungo la strada",
+    "en": "along the road"
+   },
+   {
+    "it": "distributore di carburante",
+    "en": "fuel station"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21338": {
+  "en": "The sign shown indicates a mechanical repair workshop nearby.",
+  "explain": {
+   "short": "A repair workshop has its own sign with a spanner; this pump means fuel.",
+   "rule": "Blue sign with a fuel pump: you can get fuel a short distance ahead. Information only.",
+   "trap": "'officina' (repair workshop): the pump means fuel, not repairs.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fuel station, not a repair workshop",
+    "it": "distributore di carburante",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "officina",
+    "en": "workshop"
+   },
+   {
+    "it": "assistenza meccanica",
+    "en": "mechanical repair"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21339": {
+  "en": "The sign shown indicates a public telephone point nearby.",
+  "explain": {
+   "short": "The phone sign shows a handset; this one shows a fuel pump.",
+   "rule": "Blue sign with a fuel pump: you can get fuel a short distance ahead. Information only.",
+   "trap": "'posto telefonico' (phone point): the symbol is a pump, not a handset.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fuel pump, not a telephone",
+    "it": "distributore di carburante",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "posto telefonico pubblico",
+    "en": "public telephone point"
+   },
+   {
+    "it": "nelle vicinanze",
+    "en": "nearby"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21340": {
+  "en": "The sign shown indicates that there is a parking area for motor vehicles nearby.",
+  "explain": {
+   "short": "Parking is shown with a P; this sign shows a fuel pump.",
+   "rule": "Blue sign with a fuel pump: you can get fuel a short distance ahead. Information only.",
+   "trap": "'area di sosta' (parking area) has the P sign, not a pump.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fuel station, not parking",
+    "it": "distributore di carburante",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area di sosta",
+    "en": "parking area"
+   },
+   {
+    "it": "autoveicoli",
+    "en": "motor vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21341": {
+  "en": "The sign shown indicates a fuel station reserved only for vehicles running on LPG.",
+  "explain": {
+   "short": "It is a normal fuel station for all vehicles; nothing on it says GPL (LPG gas).",
+   "rule": "Blue sign with a fuel pump: you can get fuel a short distance ahead. Information only.",
+   "trap": "'solo' (only): nothing on the sign limits it to GPL.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fuel for all, not only GPL",
+    "it": "distributore di carburante",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "riservato solo",
+    "en": "reserved only"
+   },
+   {
+    "it": "GPL",
+    "en": "LPG (gas)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21342": {
+  "en": "The sign shown indicates a refinery.",
+  "explain": {
+   "short": "A refinery is a factory that makes fuel; this sign means a place to buy fuel.",
+   "rule": "Blue sign with a fuel pump: you can get fuel a short distance ahead. Information only.",
+   "trap": "'raffineria' (refinery, a fuel factory) is not a fuel station.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fuel station, not a refinery",
+    "it": "distributore di carburante",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "raffineria",
+    "en": "refinery"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21343": {
+  "en": "The sign shown bans vehicles carrying fuel from passing.",
+  "explain": {
+   "short": "It bans nothing; it is information. Bans are round red signs.",
+   "rule": "Blue sign with a fuel pump: you can get fuel a short distance ahead. Information only.",
+   "trap": "'vieta il transito' (bans traffic): square blue signs never ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Information only, it bans nothing",
+    "it": "distributore di carburante",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans traffic"
+   },
+   {
+    "it": "trasportano carburante",
+    "en": "carry fuel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21344": {
+  "en": "The sign shown is an advance warning of a temporary detour.",
+  "explain": {
+   "short": "Yellow means temporary: it warns of a detour you will meet ahead.",
+   "rule": "Yellow = temporary roadworks sign. It warns of a detour around closed road; the bottom panel (2 km) is the length of the detour.",
+   "trap": "'temporanea' (temporary): yellow signs are for roadworks and stay only for a while.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Detour ahead because of roadworks",
+    "it": "preavviso di deviazione",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavviso",
+    "en": "advance warning"
+   },
+   {
+    "it": "deviazione temporanea",
+    "en": "temporary detour"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21345": {
+  "en": "The sign shown warns in advance that a road is closed for roadworks.",
+  "explain": {
+   "short": "The road is blocked by works (the triangle on the arrow), so traffic is sent around it.",
+   "rule": "Yellow = temporary roadworks sign. It warns of a detour around closed road; the bottom panel (2 km) is the length of the detour.",
+   "trap": "'interruzione' (closure): the straight road is cut, the detour goes around.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road closed for works: detour",
+    "it": "preavviso di deviazione",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "warns in advance"
+   },
+   {
+    "it": "interruzione",
+    "en": "closure"
+   },
+   {
+    "it": "lavori in corso",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21346": {
+  "en": "The sign shown is one of the temporary signs for roadworks.",
+  "explain": {
+   "short": "A yellow background means a temporary sign for roadworks.",
+   "rule": "Yellow = temporary roadworks sign. It warns of a detour around closed road; the bottom panel (2 km) is the length of the detour.",
+   "trap": "'segnali temporanei' (temporary signs) have a yellow background.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow = temporary roadworks sign",
+    "it": "preavviso di deviazione",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnali temporanei",
+    "en": "temporary signs"
+   },
+   {
+    "it": "lavori sulla strada",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21347": {
+  "en": "The sign shown indicates in its bottom part the length of the detour.",
+  "explain": {
+   "short": "The bottom panel '2 km', with arrows at both ends, tells you how long the detour is.",
+   "rule": "Yellow = temporary roadworks sign. It warns of a detour around closed road; the bottom panel (2 km) is the length of the detour.",
+   "trap": "'lunghezza' (length): 2 km is how long the detour is, not how far away.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Detour is 2 km long",
+    "it": "preavviso di deviazione",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "parte inferiore",
+    "en": "bottom part"
+   },
+   {
+    "it": "lunghezza",
+    "en": "length"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21348": {
+  "en": "The sign shown indicates that it is absolutely impossible to reach Novara.",
+  "explain": {
+   "short": "Novara can still be reached: the detour goes around the works and back to the road.",
+   "rule": "Yellow = temporary roadworks sign. It warns of a detour around closed road; the bottom panel (2 km) is the length of the detour.",
+   "trap": "'assolutamente' (absolutely) is an extreme word; the arrow still arrives at Novara.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Novara is reached by the detour",
+    "it": "preavviso di deviazione",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "assolutamente",
+    "en": "absolutely"
+   },
+   {
+    "it": "raggiungere",
+    "en": "reach"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21349": {
+  "en": "The sign shown obliges you to turn back.",
+  "explain": {
+   "short": "You go around the works, not back the way you came.",
+   "rule": "Yellow = temporary roadworks sign. It warns of a detour around closed road; the bottom panel (2 km) is the length of the detour.",
+   "trap": "'tornare indietro' (turn back): the arrow goes forward, around the works.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Go around the works, not back",
+    "it": "preavviso di deviazione",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga",
+    "en": "obliges"
+   },
+   {
+    "it": "tornare indietro",
+    "en": "turn back"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21350": {
+  "en": "The sign shown indicates a lay-by.",
+  "explain": {
+   "short": "It warns of a detour for roadworks; there is no stopping place on it.",
+   "rule": "Yellow = temporary roadworks sign. It warns of a detour around closed road; the bottom panel (2 km) is the length of the detour.",
+   "trap": "'piazzola di sosta' (lay-by, a small place to stop) is not shown here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Detour for works, not a lay-by",
+    "it": "preavviso di deviazione",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "piazzola di sosta",
+    "en": "lay-by"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21351": {
+  "en": "The sign shown indicates the distance to a service area.",
+  "explain": {
+   "short": "The 2 km is the length of the detour; there is no service area on the sign.",
+   "rule": "Yellow = temporary roadworks sign. It warns of a detour around closed road; the bottom panel (2 km) is the length of the detour.",
+   "trap": "'area di servizio' (service area) is not on this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "2 km = detour length, no service area",
+    "it": "preavviso di deviazione",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza",
+    "en": "distance"
+   },
+   {
+    "it": "area di servizio",
+    "en": "service area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21352": {
+  "en": "The sign shown indicates a worksite 2 kilometres long.",
+  "explain": {
+   "short": "The 2 km is the length of the detour, not of the worksite.",
+   "rule": "Yellow = temporary roadworks sign. It warns of a detour around closed road; the bottom panel (2 km) is the length of the detour.",
+   "trap": "'cantiere' (worksite): the 2 km refers to the detour, not the works.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "2 km = detour length, not worksite",
+    "it": "preavviso di deviazione",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cantiere",
+    "en": "worksite"
+   },
+   {
+    "it": "lungo 2 chilometri",
+    "en": "2 km long"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21353": {
+  "en": "The sign shown is placed 2 kilometres from the roadworks sign.",
+  "explain": {
+   "short": "The 2 km panel gives the length of the detour, not where the sign stands.",
+   "rule": "Yellow = temporary roadworks sign. It warns of a detour around closed road; the bottom panel (2 km) is the length of the detour.",
+   "trap": "'posto a 2 chilometri' (placed 2 km away): 2 km is a length, not a position.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "2 km = detour length, not sign position",
+    "it": "preavviso di deviazione",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è posto",
+    "en": "is placed"
+   },
+   {
+    "it": "lavori in corso",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21354": {
+  "en": "The sign shown indicates that the detour is 2 kilometres away from the sign.",
+  "explain": {
+   "short": "The panel with arrows at both ends gives the length of the detour, not its distance.",
+   "rule": "Yellow = temporary roadworks sign. It warns of a detour around closed road; the bottom panel (2 km) is the length of the detour.",
+   "trap": "'a 2 chilometri di distanza' (2 km away): the panel gives a length, not a distance.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "2 km long, not 2 km away",
+    "it": "preavviso di deviazione",
+    "action": "slow",
+    "hazard": "🚧"
+   }
+  },
+  "keywords": [
+   {
+    "it": "deviazione",
+    "en": "detour"
+   },
+   {
+    "it": "di distanza",
+    "en": "away"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21355": {
+  "en": "The sign shown warns in advance of a junction in town.",
+  "explain": {
+   "short": "The white background means urban roads, and the arrows show a junction ahead.",
+   "rule": "White = urban direction sign. Junction ahead: straight for Sora and Napoli, right for the centre and the station.",
+   "trap": "'incrocio urbano' (junction in town): the white background means urban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Junction in town ahead",
+    "it": "preavviso di intersezione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "warns in advance"
+   },
+   {
+    "it": "incrocio urbano",
+    "en": "junction in town"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21356": {
+  "en": "The sign shown gives the names of the places that can be reached from the junction in town.",
+  "explain": {
+   "short": "Sora, Napoli, centre and station are the places you reach from that junction.",
+   "rule": "White = urban direction sign. Junction ahead: straight for Sora and Napoli, right for the centre and the station.",
+   "trap": "'raggiungibili' means 'that can be reached'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Places reached from the junction",
+    "it": "preavviso di intersezione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "nomi dei luoghi",
+    "en": "names of the places"
+   },
+   {
+    "it": "raggiungibili",
+    "en": "that can be reached"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21357": {
+  "en": "The sign shown warns in advance of the right turn to reach the railway station.",
+  "explain": {
+   "short": "'stazione' with a small train symbol is on the right arrow.",
+   "rule": "White = urban direction sign. Junction ahead: straight for Sora and Napoli, right for the centre and the station.",
+   "trap": "'stazione ferroviaria' (railway station): the small train symbol marks it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right for the railway station",
+    "it": "preavviso di intersezione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "svolta a destra",
+    "en": "right turn"
+   },
+   {
+    "it": "stazione ferroviaria",
+    "en": "railway station"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21358": {
+  "en": "The sign shown warns in advance of the right turn to reach the city centre.",
+  "explain": {
+   "short": "'centro' with its round symbol is on the right arrow.",
+   "rule": "White = urban direction sign. Junction ahead: straight for Sora and Napoli, right for the centre and the station.",
+   "trap": "'centro della città' (city centre): written 'centro' with a bullseye symbol.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right for the city centre",
+    "it": "preavviso di intersezione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "svolta a destra",
+    "en": "right turn"
+   },
+   {
+    "it": "centro della città",
+    "en": "city centre"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21359": {
+  "en": "The sign shown indicates to go straight on to reach Sora.",
+  "explain": {
+   "short": "Sora is on the blue panel at the top of the straight arrow.",
+   "rule": "White = urban direction sign. Junction ahead: straight for Sora and Napoli, right for the centre and the station.",
+   "trap": "'proseguire diritto' means continue straight on.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Straight on for Sora",
+    "it": "preavviso di intersezione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "proseguire diritto",
+    "en": "go straight on"
+   },
+   {
+    "it": "per raggiungere",
+    "en": "to reach"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21360": {
+  "en": "The sign shown warns in advance to go straight on to reach Napoli.",
+  "explain": {
+   "short": "Napoli is on the blue panel at the top of the straight arrow.",
+   "rule": "White = urban direction sign. Junction ahead: straight for Sora and Napoli, right for the centre and the station.",
+   "trap": "'proseguire diritto' means continue straight on.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Straight on for Napoli",
+    "it": "preavviso di intersezione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "warns in advance"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "go straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21361": {
+  "en": "The sign shown is found on roads outside towns.",
+  "explain": {
+   "short": "The white background is for urban roads; outside towns direction signs are blue.",
+   "rule": "White = urban direction sign. Junction ahead: straight for Sora and Napoli, right for the centre and the station.",
+   "trap": "'strade extraurbane' (roads outside towns): the white background means in town.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "White = in town, not outside",
+    "it": "preavviso di intersezione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si trova",
+    "en": "is found"
+   },
+   {
+    "it": "strade extraurbane",
+    "en": "roads outside towns"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21362": {
+  "en": "The sign shown indicates to turn right to leave the built-up area.",
+  "explain": {
+   "short": "Right leads to the centre and the station, which are inside the town.",
+   "rule": "White = urban direction sign. Junction ahead: straight for Sora and Napoli, right for the centre and the station.",
+   "trap": "'uscire dal centro abitato' (leave the town): right goes to the centre.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right goes to the centre, not out of town",
+    "it": "preavviso di intersezione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "svoltare a destra",
+    "en": "turn right"
+   },
+   {
+    "it": "uscire dal centro abitato",
+    "en": "leave the town"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21363": {
+  "en": "The sign shown indicates that to reach the city centre you must turn back.",
+  "explain": {
+   "short": "The centre is to the right; no arrow points back.",
+   "rule": "White = urban direction sign. Junction ahead: straight for Sora and Napoli, right for the centre and the station.",
+   "trap": "'tornare indietro' (turn back): no arrow on the sign points back.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Centre is to the right, not behind",
+    "it": "preavviso di intersezione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "centro della città",
+    "en": "city centre"
+   },
+   {
+    "it": "tornare indietro",
+    "en": "turn back"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21364": {
+  "en": "The sign shown warns in advance of a parking area on the right.",
+  "explain": {
+   "short": "On the right you find the centre and the station, not a parking area.",
+   "rule": "White = urban direction sign. Junction ahead: straight for Sora and Napoli, right for the centre and the station.",
+   "trap": "'area di sosta' (parking area) would show a P; here: centre and station.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right: centre and station, no parking",
+    "it": "preavviso di intersezione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "warns in advance"
+   },
+   {
+    "it": "area di sosta",
+    "en": "parking area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21365": {
+  "en": "The sign shown warns in advance of a level crossing without barriers on the right.",
+  "explain": {
+   "short": "The small train next to 'stazione' marks the railway station, not a level crossing.",
+   "rule": "White = urban direction sign. Junction ahead: straight for Sora and Napoli, right for the centre and the station.",
+   "trap": "'passaggio a livello' (level crossing) is a danger sign; the train here means the station.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Train symbol = station, not level crossing",
+    "it": "preavviso di intersezione",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "passaggio a livello",
+    "en": "level crossing"
+   },
+   {
+    "it": "senza barriere",
+    "en": "without barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21366": {
+  "en": "The sign shown warns in advance of two junctions close together.",
+  "explain": {
+   "short": "The arrow crosses two side roads: two junctions one after the other.",
+   "rule": "Two junctions close together. 1st: left no entry, right via Gemona. 2nd: left Austria and hospital, right Trieste and centre.",
+   "trap": "'due incroci vicini' (two close junctions): count the crossings on the arrow.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Two junctions close together",
+    "it": "due incroci",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "warns in advance"
+   },
+   {
+    "it": "due incroci vicini",
+    "en": "two close junctions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21367": {
+  "en": "The sign shown indicates that you cannot turn left at the first junction.",
+  "explain": {
+   "short": "At the first (lower) junction the left side has the red no-entry disc.",
+   "rule": "Two junctions close together. 1st: left no entry, right via Gemona. 2nd: left Austria and hospital, right Trieste and centre.",
+   "trap": "'primo incrocio' (first junction) is the lower one, with the no-entry disc.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "1st junction: no left turn",
+    "it": "due incroci",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "svoltare a sinistra",
+    "en": "turn left"
+   },
+   {
+    "it": "primo incrocio",
+    "en": "first junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21368": {
+  "en": "The sign shown warns in advance to turn left for the hospital at the second junction.",
+  "explain": {
+   "short": "'ospedale' is on the left at the second (upper) junction.",
+   "rule": "Two junctions close together. 1st: left no entry, right via Gemona. 2nd: left Austria and hospital, right Trieste and centre.",
+   "trap": "'secondo incrocio' (second junction) is the upper one.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "2nd junction: left for the hospital",
+    "it": "due incroci",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ospedale",
+    "en": "hospital"
+   },
+   {
+    "it": "secondo incrocio",
+    "en": "second junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21369": {
+  "en": "The sign shown warns in advance to turn right for via Gemona at the first junction.",
+  "explain": {
+   "short": "'via Gemona' is on the right at the first (lower) junction.",
+   "rule": "Two junctions close together. 1st: left no entry, right via Gemona. 2nd: left Austria and hospital, right Trieste and centre.",
+   "trap": "'via Gemona' is a street name, written small next to the first junction.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "1st junction: right for via Gemona",
+    "it": "due incroci",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "svoltare a destra",
+    "en": "turn right"
+   },
+   {
+    "it": "primo incrocio",
+    "en": "first junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21370": {
+  "en": "The sign shown warns in advance to turn right for the city centre at the second junction.",
+  "explain": {
+   "short": "'centro' is on the right at the second (upper) junction.",
+   "rule": "Two junctions close together. 1st: left no entry, right via Gemona. 2nd: left Austria and hospital, right Trieste and centre.",
+   "trap": "'secondo incrocio' (second junction) is the upper one.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "2nd junction: right for the centre",
+    "it": "due incroci",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "centro della città",
+    "en": "city centre"
+   },
+   {
+    "it": "secondo incrocio",
+    "en": "second junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21371": {
+  "en": "The sign shown warns in advance to turn right towards Trieste at the second junction.",
+  "explain": {
+   "short": "Trieste is on the blue panel on the right, at the second junction.",
+   "rule": "Two junctions close together. 1st: left no entry, right via Gemona. 2nd: left Austria and hospital, right Trieste and centre.",
+   "trap": "'in direzione' means towards.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "2nd junction: right for Trieste",
+    "it": "due incroci",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in direzione",
+    "en": "towards"
+   },
+   {
+    "it": "secondo incrocio",
+    "en": "second junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21372": {
+  "en": "The sign shown indicates that you must turn left at the second junction to reach Austria.",
+  "explain": {
+   "short": "Austria is on the blue panel on the left, at the second junction.",
+   "rule": "Two junctions close together. 1st: left no entry, right via Gemona. 2nd: left Austria and hospital, right Trieste and centre.",
+   "trap": "'secondo incrocio' (second junction): the first left is no entry.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "2nd junction: left for Austria",
+    "it": "due incroci",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "svoltare a sinistra",
+    "en": "turn left"
+   },
+   {
+    "it": "secondo incrocio",
+    "en": "second junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21373": {
+  "en": "The sign shown indicates two close junctions on an urban road.",
+  "explain": {
+   "short": "The white background means an urban road, and two junctions are drawn.",
+   "rule": "Two junctions close together. 1st: left no entry, right via Gemona. 2nd: left Austria and hospital, right Trieste and centre.",
+   "trap": "'strada urbana' (road in town): the white background tells you.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Two junctions on an urban road",
+    "it": "due incroci",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "due incroci vicini",
+    "en": "two close junctions"
+   },
+   {
+    "it": "strada urbana",
+    "en": "urban road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21374": {
+  "en": "The sign shown is found on roads outside towns.",
+  "explain": {
+   "short": "The white background is for urban roads; outside towns direction signs are blue.",
+   "rule": "Two junctions close together. 1st: left no entry, right via Gemona. 2nd: left Austria and hospital, right Trieste and centre.",
+   "trap": "'strade extraurbane' (roads outside towns): the white background means in town.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "White = in town, not outside",
+    "it": "due incroci",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si trova",
+    "en": "is found"
+   },
+   {
+    "it": "strade extraurbane",
+    "en": "roads outside towns"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21375": {
+  "en": "The sign shown indicates how to leave vehicles parked.",
+  "explain": {
+   "short": "It shows directions at two junctions, nothing about parking.",
+   "rule": "Two junctions close together. 1st: left no entry, right via Gemona. 2nd: left Austria and hospital, right Trieste and centre.",
+   "trap": "'lasciare in sosta' (leave parked): the sign is about directions, not parking.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Directions, not parking",
+    "it": "due incroci",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "lasciare in sosta",
+    "en": "leave parked"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21376": {
+  "en": "The sign shown tells vehicles going to Austria to turn back.",
+  "explain": {
+   "short": "For Austria you turn left at the second junction; no arrow points back.",
+   "rule": "Two junctions close together. 1st: left no entry, right via Gemona. 2nd: left Austria and hospital, right Trieste and centre.",
+   "trap": "'tornare indietro' (turn back): Austria is reached at the second left.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Austria: left at the 2nd junction",
+    "it": "due incroci",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "diretti in Austria",
+    "en": "going to Austria"
+   },
+   {
+    "it": "tornare indietro",
+    "en": "turn back"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21377": {
+  "en": "The sign shown allows you to turn left at the first junction.",
+  "explain": {
+   "short": "The red no-entry disc on the first left means you may NOT turn left there.",
+   "rule": "Two junctions close together. 1st: left no entry, right via Gemona. 2nd: left Austria and hospital, right Trieste and centre.",
+   "trap": "'consente' (allows): the no-entry disc forbids that turn.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "1st junction: left is NO ENTRY",
+    "it": "due incroci",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente",
+    "en": "allows"
+   },
+   {
+    "it": "primo incrocio",
+    "en": "first junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21378": {
+  "en": "The sign shown indicates how to exit a shopping centre.",
+  "explain": {
+   "short": "It gives road directions in town; 'centro' here means the city centre.",
+   "rule": "Two junctions close together. 1st: left no entry, right via Gemona. 2nd: left Austria and hospital, right Trieste and centre.",
+   "trap": "'centro commerciale' (shopping centre): 'centro' on the sign is the city centre.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Town directions, not a shopping centre",
+    "it": "due incroci",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "uscire",
+    "en": "exit"
+   },
+   {
+    "it": "centro commerciale",
+    "en": "shopping centre"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21379": {
+  "en": "The sign shown announces the directions for the motorway entrance.",
+  "explain": {
+   "short": "Motorway directions are on green panels; here the panels are blue and white.",
+   "rule": "Two junctions close together. 1st: left no entry, right via Gemona. 2nd: left Austria and hospital, right Trieste and centre.",
+   "trap": "'autostrada' (motorway): there is no green panel on this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No green panel: no motorway",
+    "it": "due incroci",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "announces"
+   },
+   {
+    "it": "ingresso in autostrada",
+    "en": "motorway entrance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

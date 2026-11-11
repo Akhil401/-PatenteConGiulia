@@ -1,0 +1,533 @@
+{
+ "q21097": {
+  "short": "Barre e triangolo al posto dei colori: questo semaforo è solo per autobus e tram di linea.",
+  "rule": "Questo semaforo vale solo per autobus e tram di linea. Barra orizzontale in alto = fermati; triangolo giallo = fermati se puoi; barra verticale in basso = vai.",
+  "trap": "«servizio di linea» vuol dire autobus e tram con percorso fisso: giusto.",
+  "caption": "Semaforo per autobus e tram di linea",
+  "lines": [
+   "Solo per autobus e tram di linea"
+  ]
+ },
+ "q21098": {
+  "short": "La barra bianca orizzontale in alto è come il rosso per autobus e tram: devono fermarsi.",
+  "rule": "Questo semaforo vale solo per autobus e tram di linea. Barra orizzontale in alto = fermati; triangolo giallo = fermati se puoi; barra verticale in basso = vai.",
+  "trap": "«barra bianca in alto» è la barra orizzontale: vuol dire fermati.",
+  "caption": "Barra orizzontale in alto = ALT",
+  "lines": [
+   "Barra orizzontale in alto = fermati"
+  ]
+ },
+ "q21099": {
+  "short": "La barra bianca verticale in basso è come il verde: autobus e tram possono proseguire.",
+  "rule": "Questo semaforo vale solo per autobus e tram di linea. Barra orizzontale in alto = fermati; triangolo giallo = fermati se puoi; barra verticale in basso = vai.",
+  "trap": "«in basso» è la barra verticale: vuol dire vai.",
+  "caption": "Barra verticale in basso = VAI",
+  "lines": [
+   "Barra verticale in basso = vai"
+  ]
+ },
+ "q21100": {
+  "short": "Vale per tutti i mezzi pubblici di linea, anche gli autobus, non solo per chi va su rotaie.",
+  "rule": "Questo semaforo vale solo per autobus e tram di linea. Barra orizzontale in alto = fermati; triangolo giallo = fermati se puoi; barra verticale in basso = vai.",
+  "trap": "«solo» è il trucco: lo usano anche gli autobus di linea.",
+  "caption": "Non solo tram: anche autobus di linea",
+  "lines": [
+   "Per autobus E tram di linea"
+  ]
+ },
+ "q21101": {
+  "short": "Il semaforo pedonale mostra un omino; questo ha barre e triangolo per autobus e tram.",
+  "rule": "Questo semaforo vale solo per autobus e tram di linea. Barra orizzontale in alto = fermati; triangolo giallo = fermati se puoi; barra verticale in basso = vai.",
+  "trap": "«pedoni» è sbagliato: qui non c'è nessun omino.",
+  "caption": "Per autobus e tram, non per pedoni",
+  "lines": [
+   "Nessun omino: non è per i pedoni"
+  ]
+ },
+ "q21102": {
+  "short": "Il passaggio a livello senza barriere ha luci rosse lampeggianti, non barre bianche e triangolo giallo.",
+  "rule": "Questo semaforo vale solo per autobus e tram di linea. Barra orizzontale in alto = fermati; triangolo giallo = fermati se puoi; barra verticale in basso = vai.",
+  "trap": "«passaggio a livello» è sbagliato: è un semaforo per mezzi pubblici.",
+  "caption": "Non è un passaggio a livello",
+  "lines": [
+   "Al passaggio a livello: luci rosse lampeggianti"
+  ]
+ },
+ "q21103": {
+  "short": "Non c'entra con i traghetti: dice ad autobus e tram quando fermarsi o andare.",
+  "rule": "Questo semaforo vale solo per autobus e tram di linea. Barra orizzontale in alto = fermati; triangolo giallo = fermati se puoi; barra verticale in basso = vai.",
+  "trap": "«pontili» e «navi traghetto» sono inventati.",
+  "caption": "Non per traghetti: per autobus e tram",
+  "lines": [
+   "Non è per l'imbarco sui traghetti"
+  ]
+ },
+ "q21104": {
+  "short": "Non annuncia una stazione: dice ad autobus e tram quando fermarsi o andare.",
+  "rule": "Questo semaforo vale solo per autobus e tram di linea. Barra orizzontale in alto = fermati; triangolo giallo = fermati se puoi; barra verticale in basso = vai.",
+  "trap": "«stazione ferroviaria» è inventata.",
+  "caption": "Non indica una stazione",
+  "lines": [
+   "Non avvisa di una stazione"
+  ]
+ },
+ "q21105": {
+  "short": "Il triangolo giallo è come il giallo: fermati, se non sei troppo vicino per farlo in sicurezza.",
+  "rule": "Questo semaforo vale solo per autobus e tram di linea. Barra orizzontale in alto = fermati; triangolo giallo = fermati se puoi; barra verticale in basso = vai.",
+  "trap": "«lavori in corso» è sbagliato: il triangolo è la fase gialla.",
+  "caption": "Triangolo = giallo, non lavori",
+  "lines": [
+   "Triangolo giallo = come la luce gialla"
+  ]
+ },
+ "q21106": {
+  "short": "Gli omini mostrano che il semaforo è per i pedoni che attraversano agli incroci.",
+  "rule": "Il semaforo con l'omino è per i pedoni. Verde = attraversa; giallo fisso = libera in fretta le strisce; rosso = non attraversare.",
+  "trap": "«pedoni negli incroci» è giusto.",
+  "caption": "Semaforo per i pedoni",
+  "lines": [
+   "Omino = semaforo pedonale"
+  ]
+ },
+ "q21107": {
+  "short": "Omini rosso, giallo e verde: è il semaforo pedonale.",
+  "rule": "Il semaforo con l'omino è per i pedoni. Verde = attraversa; giallo fisso = libera in fretta le strisce; rosso = non attraversare.",
+  "trap": "«segnale luminoso» è un altro nome per il semaforo: giusto.",
+  "caption": "Semaforo pedonale",
+  "lines": [
+   "Omino = semaforo pedonale"
+  ]
+ },
+ "q21108": {
+  "short": "Il giallo fisso dice a chi sta già attraversando di sbrigarsi a raggiungere l'altro lato.",
+  "rule": "Il semaforo con l'omino è per i pedoni. Verde = attraversa; giallo fisso = libera in fretta le strisce; rosso = non attraversare.",
+  "trap": "«luce gialla fissa» vale per chi è già sulle strisce: deve liberarle.",
+  "caption": "Giallo: libera in fretta le strisce",
+  "lines": [
+   "Giallo fisso = finisci in fretta"
+  ]
+ },
+ "q21109": {
+  "short": "Il rosso per i pedoni vale come per le auto: non si parte, non si attraversa.",
+  "rule": "Il semaforo con l'omino è per i pedoni. Verde = attraversa; giallo fisso = libera in fretta le strisce; rosso = non attraversare.",
+  "trap": "«luce rossa» vuol dire fermati: i pedoni aspettano.",
+  "caption": "Rosso: i pedoni non attraversano",
+  "lines": [
+   "Omino rosso = non attraversare"
+  ]
+ },
+ "q21110": {
+  "short": "È un semaforo pedonale: dice quando attraversare, non segnala una scuola.",
+  "rule": "Il semaforo con l'omino è per i pedoni. Verde = attraversa; giallo fisso = libera in fretta le strisce; rosso = non attraversare.",
+  "trap": "«scuola» è inventata: per le scuole c'è il segnale con i bambini.",
+  "caption": "Semaforo pedonale, non una scuola",
+  "lines": [
+   "Non segnala una scuola"
+  ]
+ },
+ "q21111": {
+  "short": "È un normale semaforo pedonale: non parla di gare.",
+  "rule": "Il semaforo con l'omino è per i pedoni. Verde = attraversa; giallo fisso = libera in fretta le strisce; rosso = non attraversare.",
+  "trap": "«gara podistica» è inventata.",
+  "caption": "Semaforo pedonale, non una gara",
+  "lines": [
+   "Non riguarda le gare di corsa"
+  ]
+ },
+ "q21112": {
+  "short": "È un semaforo per pedoni agli attraversamenti: non indica sottopassaggi.",
+  "rule": "Il semaforo con l'omino è per i pedoni. Verde = attraversa; giallo fisso = libera in fretta le strisce; rosso = non attraversare.",
+  "trap": "«sottopassaggi pedonali» è inventato.",
+  "caption": "Semaforo pedonale, non sottopassaggio",
+  "lines": [
+   "Non indica sottopassaggi"
+  ]
+ },
+ "q21113": {
+  "short": "È un semaforo pedonale agli attraversamenti, non un segnale della metropolitana.",
+  "rule": "Il semaforo con l'omino è per i pedoni. Verde = attraversa; giallo fisso = libera in fretta le strisce; rosso = non attraversare.",
+  "trap": "«metropolitana» è inventata.",
+  "caption": "Semaforo pedonale, non metropolitana",
+  "lines": [
+   "Non segna la metropolitana"
+  ]
+ },
+ "q21114": {
+  "short": "È un semaforo pedonale: non c'entra con porti e imbarchi.",
+  "rule": "Il semaforo con l'omino è per i pedoni. Verde = attraversa; giallo fisso = libera in fretta le strisce; rosso = non attraversare.",
+  "trap": "«cancelli di imbarco» è inventato.",
+  "caption": "Semaforo pedonale, non imbarco",
+  "lines": [
+   "Non indica imbarchi nei porti"
+  ]
+ },
+ "q21115": {
+  "short": "È un semaforo pedonale: non indica impianti sportivi.",
+  "rule": "Il semaforo con l'omino è per i pedoni. Verde = attraversa; giallo fisso = libera in fretta le strisce; rosso = non attraversare.",
+  "trap": "«struttura sportiva» è inventata.",
+  "caption": "Semaforo pedonale, non impianto sportivo",
+  "lines": [
+   "Non indica impianti sportivi"
+  ]
+ },
+ "q21116": {
+  "short": "Il semaforo per bici sta dove la pista ciclabile incontra la strada, per far attraversare i ciclisti.",
+  "rule": "Il semaforo con la bici vale solo per i ciclisti, spesso alla fine di una pista ciclabile. Verde = passa; giallo fisso = libera l'incrocio; rosso = fermati.",
+  "trap": "«uscita di una pista ciclabile» è giusto.",
+  "caption": "Semaforo bici alla fine della pista",
+  "lines": [
+   "All'uscita della pista ciclabile"
+  ]
+ },
+ "q21117": {
+  "short": "I simboli della bicicletta mostrano che il semaforo vale solo per i ciclisti.",
+  "rule": "Il semaforo con la bici vale solo per i ciclisti, spesso alla fine di una pista ciclabile. Verde = passa; giallo fisso = libera l'incrocio; rosso = fermati.",
+  "trap": "«riservato» è giusto: solo biciclette.",
+  "caption": "Semaforo riservato ai ciclisti",
+  "lines": [
+   "Bici = solo per i ciclisti"
+  ]
+ },
+ "q21118": {
+  "short": "Il rosso sul semaforo per bici vuol dire fermati, come per le auto.",
+  "rule": "Il semaforo con la bici vale solo per i ciclisti, spesso alla fine di una pista ciclabile. Verde = passa; giallo fisso = libera l'incrocio; rosso = fermati.",
+  "trap": "«luce rossa» = fermati: giusto.",
+  "caption": "Bici rossa = i ciclisti si fermano",
+  "lines": [
+   "Bici rossa = fermati"
+  ]
+ },
+ "q21119": {
+  "short": "Il giallo fisso dice ai ciclisti già nell'incrocio di uscirne in fretta; gli altri si fermano.",
+  "rule": "Il semaforo con la bici vale solo per i ciclisti, spesso alla fine di una pista ciclabile. Verde = passa; giallo fisso = libera l'incrocio; rosso = fermati.",
+  "trap": "«se lo hanno già impegnato» è la chiave: chi è dentro esce in fretta.",
+  "caption": "Bici gialla: libera l'incrocio in fretta",
+  "lines": [
+   "Giallo fisso = libera l'incrocio"
+  ]
+ },
+ "q21120": {
+  "short": "Il semaforo è riservato alle bici: il suo verde vale solo per i ciclisti.",
+  "rule": "Il semaforo con la bici vale solo per i ciclisti, spesso alla fine di una pista ciclabile. Verde = passa; giallo fisso = libera l'incrocio; rosso = fermati.",
+  "trap": "«soltanto» qui è giusto: il semaforo è solo per i ciclisti.",
+  "caption": "Bici verde: passano solo i ciclisti",
+  "lines": [
+   "Bici verde = i ciclisti passano"
+  ]
+ },
+ "q21121": {
+  "short": "È un semaforo solo per i ciclisti: non indica una corsia e non vale per i ciclomotori.",
+  "rule": "Il semaforo con la bici vale solo per i ciclisti, spesso alla fine di una pista ciclabile. Verde = passa; giallo fisso = libera l'incrocio; rosso = fermati.",
+  "trap": "«ciclomotori» è il trucco: il semaforo è solo per le bici.",
+  "caption": "Solo bici: non è una corsia",
+  "lines": [
+   "Non è una corsia e non per ciclomotori"
+  ]
+ },
+ "q21122": {
+  "short": "È un normale semaforo per ciclisti: non parla di gare.",
+  "rule": "Il semaforo con la bici vale solo per i ciclisti, spesso alla fine di una pista ciclabile. Verde = passa; giallo fisso = libera l'incrocio; rosso = fermati.",
+  "trap": "«gara ciclistica» è inventata.",
+  "caption": "Semaforo per bici, non una gara",
+  "lines": [
+   "Non riguarda le gare ciclistiche"
+  ]
+ },
+ "q21123": {
+  "short": "È un semaforo per ciclisti: per i lavori c'è un segnale di pericolo apposito.",
+  "rule": "Il semaforo con la bici vale solo per i ciclisti, spesso alla fine di una pista ciclabile. Verde = passa; giallo fisso = libera l'incrocio; rosso = fermati.",
+  "trap": "«lavori in corso» è inventato.",
+  "caption": "Semaforo per bici, non lavori",
+  "lines": [
+   "Non segnala lavori"
+  ]
+ },
+ "q21124": {
+  "short": "Il simbolo è una bicicletta, non una moto, ed è un semaforo, non una corsia.",
+  "rule": "Il semaforo con la bici vale solo per i ciclisti, spesso alla fine di una pista ciclabile. Verde = passa; giallo fisso = libera l'incrocio; rosso = fermati.",
+  "trap": "«motocicli» è sbagliato: è per le biciclette.",
+  "caption": "Biciclette, non motocicli",
+  "lines": [
+   "Bicicletta, non moto"
+  ]
+ },
+ "q21125": {
+  "short": "Non è un divieto: dice ai ciclisti quando fermarsi e quando andare.",
+  "rule": "Il semaforo con la bici vale solo per i ciclisti, spesso alla fine di una pista ciclabile. Verde = passa; giallo fisso = libera l'incrocio; rosso = fermati.",
+  "trap": "«divieto di transito» è sbagliato: il divieto è un cartello rotondo.",
+  "caption": "Non è un divieto per le bici",
+  "lines": [
+   "Non vieta le biciclette"
+  ]
+ },
+ "q21126": {
+  "short": "Vale solo per le bici: ciclomotori e moto seguono il semaforo normale.",
+  "rule": "Il semaforo con la bici vale solo per i ciclisti, spesso alla fine di una pista ciclabile. Verde = passa; giallo fisso = libera l'incrocio; rosso = fermati.",
+  "trap": "«tutti i veicoli a due ruote» è troppo: solo le biciclette.",
+  "caption": "Solo bici, non tutte le due ruote",
+  "lines": [
+   "Solo bici, non ciclomotori o moto"
+  ]
+ },
+ "q21127": {
+  "short": "B e C stanno accanto al semaforo normale dei veicoli, per avvisare chi svolta a destra.",
+  "rule": "Giallo lampeggiante = prudenza. B (omino) e C (bici) stanno accanto al semaforo: svoltando a destra, precedenza a pedoni (B) o ciclisti (C).",
+  "trap": "«affiancata» è giusto: accanto al semaforo dei veicoli.",
+  "caption": "B e C accanto al semaforo dei veicoli",
+  "lines": [
+   "B e C: accanto al semaforo veicolare"
+  ]
+ },
+ "q21128": {
+  "short": "C mostra una bici: se svolti a destra, dai precedenza ai ciclisti che attraversano.",
+  "rule": "Giallo lampeggiante = prudenza. B (omino) e C (bici) stanno accanto al semaforo: svoltando a destra, precedenza a pedoni (B) o ciclisti (C).",
+  "trap": "«tipo C» è la bicicletta: precedenza alle bici.",
+  "caption": "C: a destra, precedenza alle bici",
+  "lines": [
+   "C (bici): svolta a destra, precedenza"
+  ]
+ },
+ "q21129": {
+  "short": "B mostra un omino: se svolti a destra, dai precedenza ai pedoni che attraversano.",
+  "rule": "Giallo lampeggiante = prudenza. B (omino) e C (bici) stanno accanto al semaforo: svoltando a destra, precedenza a pedoni (B) o ciclisti (C).",
+  "trap": "«tipo B» è l'omino: precedenza ai pedoni.",
+  "caption": "B: a destra, precedenza ai pedoni",
+  "lines": [
+   "B (omino): svolta a destra, precedenza"
+  ]
+ },
+ "q21131": {
+  "short": "C è una luce di avviso: svoltando a destra, precedenza ai ciclisti. Non indica corsie.",
+  "rule": "Giallo lampeggiante = prudenza. B (omino) e C (bici) stanno accanto al semaforo: svoltando a destra, precedenza a pedoni (B) o ciclisti (C).",
+  "trap": "«corsia riservata» è sbagliato: le luci avvisano, non indicano corsie.",
+  "caption": "C avvisa dei ciclisti, non è una corsia",
+  "lines": [
+   "C = precedenza alle bici, non corsia"
+  ]
+ },
+ "q21132": {
+  "short": "B avvisa chi svolta a destra di dare precedenza ai pedoni: non indica un viale pedonale.",
+  "rule": "Giallo lampeggiante = prudenza. B (omino) e C (bici) stanno accanto al semaforo: svoltando a destra, precedenza a pedoni (B) o ciclisti (C).",
+  "trap": "«viale pedonale» è inventato.",
+  "caption": "B avvisa dei pedoni che attraversano",
+  "lines": [
+   "B = precedenza ai pedoni"
+  ]
+ },
+ "q21133": {
+  "short": "A è un giallo lampeggiante semplice: tutti proseguono con prudenza. Il semaforo dei bus ha barre bianche.",
+  "rule": "Giallo lampeggiante = prudenza. B (omino) e C (bici) stanno accanto al semaforo: svoltando a destra, precedenza a pedoni (B) o ciclisti (C).",
+  "trap": "«servizio di linea» è sbagliato per A: A è un avviso generale.",
+  "caption": "A = prudenza, non semaforo dei bus",
+  "lines": [
+   "A (semplice) = prudenza, precedenza"
+  ]
+ },
+ "q21134": {
+  "short": "C mostra una bici e avvisa di dare precedenza ai ciclisti: non è una corsia per ciclomotori.",
+  "rule": "Giallo lampeggiante = prudenza. B (omino) e C (bici) stanno accanto al semaforo: svoltando a destra, precedenza a pedoni (B) o ciclisti (C).",
+  "trap": "«ciclomotori» è sbagliato: il simbolo è una bicicletta.",
+  "caption": "C avvisa delle bici, non corsia ciclomotori",
+  "lines": [
+   "C = bici, non ciclomotori"
+  ]
+ },
+ "q21135": {
+  "short": "Numeri 50, 40, 30 nelle luci: è il semaforo di onda verde.",
+  "rule": "Il semaforo di onda verde mostra una velocità consigliata alla volta, per trovare il verde dopo. È solo un consiglio, su strade con semafori sincronizzati.",
+  "trap": "«onda verde» è il nome giusto.",
+  "caption": "Semaforo di onda verde",
+  "lines": [
+   "Numeri = onda verde"
+  ]
+ },
+ "q21136": {
+  "short": "Il numero acceso è la velocità per arrivare al semaforo dopo quando è verde.",
+  "rule": "Il semaforo di onda verde mostra una velocità consigliata alla volta, per trovare il verde dopo. È solo un consiglio, su strade con semafori sincronizzati.",
+  "trap": "«consiglia» è giusto: è un consiglio, non un obbligo.",
+  "caption": "Velocità consigliata per il verde dopo",
+  "lines": [
+   "Numero acceso = velocità consigliata"
+  ]
+ },
+ "q21137": {
+  "short": "L'onda verde funziona solo dove molti semafori di fila sono sincronizzati.",
+  "rule": "Il semaforo di onda verde mostra una velocità consigliata alla volta, per trovare il verde dopo. È solo un consiglio, su strade con semafori sincronizzati.",
+  "trap": "«sincronizzati» è giusto: i semafori sono a tempo, in sequenza.",
+  "caption": "Strade con molti semafori sincronizzati",
+  "lines": [
+   "Semafori sincronizzati in fila"
+  ]
+ },
+ "q21138": {
+  "short": "Il numero acceso è la velocità consigliata: se la tieni trovi verdi uno dopo l'altro.",
+  "rule": "Il semaforo di onda verde mostra una velocità consigliata alla volta, per trovare il verde dopo. È solo un consiglio, su strade con semafori sincronizzati.",
+  "trap": "«velocità consigliata» è giusto.",
+  "caption": "Velocità consigliata per l'onda verde",
+  "lines": [
+   "Numero acceso = velocità consigliata"
+  ]
+ },
+ "q21139": {
+  "short": "Si consiglia una sola velocità alla volta: si accende un solo numero.",
+  "rule": "Il semaforo di onda verde mostra una velocità consigliata alla volta, per trovare il verde dopo. È solo un consiglio, su strade con semafori sincronizzati.",
+  "trap": "«soltanto una» è giusto: un numero alla volta.",
+  "caption": "Un solo numero acceso alla volta",
+  "lines": [
+   "Un numero acceso, gli altri spenti"
+  ]
+ },
+ "q21140": {
+  "short": "La velocità dell'onda verde è solo un consiglio: non sei obbligato a tenerla.",
+  "rule": "Il semaforo di onda verde mostra una velocità consigliata alla volta, per trovare il verde dopo. È solo un consiglio, su strade con semafori sincronizzati.",
+  "trap": "«obbliga» è il trucco: è solo un consiglio.",
+  "caption": "Consiglio, non obbligo",
+  "lines": [
+   "Velocità consigliata, non obbligatoria"
+  ]
+ },
+ "q21141": {
+  "short": "Il numero è una velocità consigliata, non un limite: vale il limite normale della strada.",
+  "rule": "Il semaforo di onda verde mostra una velocità consigliata alla volta, per trovare il verde dopo. È solo un consiglio, su strade con semafori sincronizzati.",
+  "trap": "«non consente di superare» lo rende un limite: sbagliato.",
+  "caption": "Velocità consigliata, non un limite",
+  "lines": [
+   "Non è un limite di velocità"
+  ]
+ },
+ "q21142": {
+  "short": "I numeri sono velocità in km/h, non distanze, e sono solo un consiglio.",
+  "rule": "Il semaforo di onda verde mostra una velocità consigliata alla volta, per trovare il verde dopo. È solo un consiglio, su strade con semafori sincronizzati.",
+  "trap": "«distanza» è sbagliato: i numeri sono velocità.",
+  "caption": "Velocità, non distanze",
+  "lines": [
+   "Numeri = velocità, non metri"
+  ]
+ },
+ "q21143": {
+  "short": "Non avvisa di un pericolo: consiglia la velocità per trovare il verde dopo.",
+  "rule": "Il semaforo di onda verde mostra una velocità consigliata alla volta, per trovare il verde dopo. È solo un consiglio, su strade con semafori sincronizzati.",
+  "trap": "«procedere con prudenza» è il giallo lampeggiante, non questo semaforo.",
+  "caption": "Consiglia una velocità, non prudenza",
+  "lines": [
+   "Prudenza = giallo lampeggiante"
+  ]
+ },
+ "q21144": {
+  "short": "Un semaforo spento non dice niente, e anche acceso la velocità è solo consigliata.",
+  "rule": "Il semaforo di onda verde mostra una velocità consigliata alla volta, per trovare il verde dopo. È solo un consiglio, su strade con semafori sincronizzati.",
+  "trap": "«anche se spento» e «obbligatoria» sono tutti e due sbagliati.",
+  "caption": "Spento = niente; acceso = consiglio",
+  "lines": [
+   "Spento non indica niente"
+  ]
+ },
+ "q21145": {
+  "short": "In autostrada non ci sono semafori agli incroci: l'onda verde lì non serve.",
+  "rule": "Il semaforo di onda verde mostra una velocità consigliata alla volta, per trovare il verde dopo. È solo un consiglio, su strade con semafori sincronizzati.",
+  "trap": "«anche sulle autostrade» è il trucco: solo su strade con semafori sincronizzati.",
+  "caption": "Non in autostrada: lì non ci sono semafori",
+  "lines": [
+   "Non si usa in autostrada"
+  ]
+ },
+ "q21146": {
+  "short": "I numeri sono velocità consigliate per tutti, non limiti massimi per tipo di veicolo.",
+  "rule": "Il semaforo di onda verde mostra una velocità consigliata alla volta, per trovare il verde dopo. È solo un consiglio, su strade con semafori sincronizzati.",
+  "trap": "«limiti massimi» è sbagliato: è solo un consiglio.",
+  "caption": "Velocità consigliate, non limiti",
+  "lines": [
+   "Non limiti per auto, moto, camion"
+  ]
+ },
+ "q21147": {
+  "short": "La velocità è un consiglio per tutti: non è obbligatoria per nessuno.",
+  "rule": "Il semaforo di onda verde mostra una velocità consigliata alla volta, per trovare il verde dopo. È solo un consiglio, su strade con semafori sincronizzati.",
+  "trap": "«obbligatoriamente» è il trucco: non è mai obbligatoria.",
+  "caption": "Consiglio per tutti, obbligo per nessuno",
+  "lines": [
+   "Non è obbligatoria per nessuno"
+  ]
+ },
+ "q21148": {
+  "short": "Consiglia una velocità per trovare il verde: non c'entra con i lavori.",
+  "rule": "Il semaforo di onda verde mostra una velocità consigliata alla volta, per trovare il verde dopo. È solo un consiglio, su strade con semafori sincronizzati.",
+  "trap": "«lavori in corso» è inventato.",
+  "caption": "Onda verde, non lavori",
+  "lines": [
+   "Non è un semaforo per lavori"
+  ]
+ },
+ "q21149": {
+  "short": "I numeri sono velocità, non distanze, e l'onda verde non sta in autostrada.",
+  "rule": "Il semaforo di onda verde mostra una velocità consigliata alla volta, per trovare il verde dopo. È solo un consiglio, su strade con semafori sincronizzati.",
+  "trap": "«caselli autostradali» è inventato.",
+  "caption": "Velocità, non distanza dai caselli",
+  "lines": [
+   "Non indica la distanza dai caselli"
+  ]
+ },
+ "q21150": {
+  "short": "Le corsie reversibili servono almeno tre corsie, così quelle centrali cambiano senso.",
+  "rule": "Le luci delle corsie reversibili stanno sopra ogni corsia (almeno 3). Freccia verde = corsia aperta; X rossa = chiusa; freccia gialla lampeggiante = cambia corsia.",
+  "trap": "«almeno tre corsie» è giusto.",
+  "caption": "Almeno tre corsie",
+  "lines": [
+   "Carreggiata con 3 o più corsie"
+  ]
+ },
+ "q21151": {
+  "short": "La freccia verde in giù sopra una corsia vuol dire che la corsia è aperta per te.",
+  "rule": "Le luci delle corsie reversibili stanno sopra ogni corsia (almeno 3). Freccia verde = corsia aperta; X rossa = chiusa; freccia gialla lampeggiante = cambia corsia.",
+  "trap": "«freccia verde» = puoi usare quella corsia.",
+  "caption": "Freccia verde = corsia aperta",
+  "lines": [
+   "Freccia verde in giù = corsia aperta"
+  ]
+ },
+ "q21152": {
+  "short": "La freccia gialla lampeggiante dice che la corsia sta per chiudere: spostati dove indica.",
+  "rule": "Le luci delle corsie reversibili stanno sopra ogni corsia (almeno 3). Freccia verde = corsia aperta; X rossa = chiusa; freccia gialla lampeggiante = cambia corsia.",
+  "trap": "«freccia gialla lampeggiante» = cambia corsia.",
+  "caption": "Freccia gialla = spostati",
+  "lines": [
+   "Freccia gialla lampeggiante = cambia corsia"
+  ]
+ },
+ "q21153": {
+  "short": "Mostra quali corsie sono aperte o chiuse nel tuo senso: non riguarda i veicoli lenti.",
+  "rule": "Le luci delle corsie reversibili stanno sopra ogni corsia (almeno 3). Freccia verde = corsia aperta; X rossa = chiusa; freccia gialla lampeggiante = cambia corsia.",
+  "trap": "«veicoli lenti» è inventato.",
+  "caption": "Corsie aperte/chiuse, non corsia lenta",
+  "lines": [
+   "Non è la corsia dei lenti"
+  ]
+ },
+ "q21154": {
+  "short": "Dice in quali corsie puoi circolare: non indica una corsia di emergenza.",
+  "rule": "Le luci delle corsie reversibili stanno sopra ogni corsia (almeno 3). Freccia verde = corsia aperta; X rossa = chiusa; freccia gialla lampeggiante = cambia corsia.",
+  "trap": "«sosta di emergenza» è inventato.",
+  "caption": "Corsie aperte/chiuse, non emergenza",
+  "lines": [
+   "Non è per la sosta di emergenza"
+  ]
+ },
+ "q21155": {
+  "short": "Mostra quali corsie sono aperte nel tuo senso: non riserva una corsia al sorpasso.",
+  "rule": "Le luci delle corsie reversibili stanno sopra ogni corsia (almeno 3). Freccia verde = corsia aperta; X rossa = chiusa; freccia gialla lampeggiante = cambia corsia.",
+  "trap": "«riservata al sorpasso» è inventato.",
+  "caption": "Corsie aperte/chiuse, non sorpasso",
+  "lines": [
+   "Non è una corsia per il sorpasso"
+  ]
+ },
+ "q21156": {
+  "short": "Le corsie reversibili cambiano senso: si usano su strade a doppio senso, non solo a senso unico.",
+  "rule": "Le luci delle corsie reversibili stanno sopra ogni corsia (almeno 3). Freccia verde = corsia aperta; X rossa = chiusa; freccia gialla lampeggiante = cambia corsia.",
+  "trap": "«solo» e «senso unico» sono il trucco.",
+  "caption": "Strade a doppio senso, non solo senso unico",
+  "lines": [
+   "Le corsie cambiano senso: doppio senso"
+  ]
+ }
+}

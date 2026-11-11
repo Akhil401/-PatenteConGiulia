@@ -1,0 +1,476 @@
+{
+ "q21223": {
+  "short": "È verde e mostra città con le distanze: è il segnale di conferma dell'autostrada.",
+  "rule": "Il «segnale di conferma» VERDE sta in autostrada: elenca le città e i km che mancano. Sulle strade extraurbane lo stesso segnale è blu.",
+  "trap": "«di conferma»: conferma la direzione che stai già seguendo.",
+  "caption": "Conferma verde: autostrada"
+ },
+ "q21224": {
+  "short": "Ogni riga ha una città e un numero: il numero sono i km per quella città.",
+  "rule": "Il «segnale di conferma» VERDE sta in autostrada: elenca le città e i km che mancano. Sulle strade extraurbane lo stesso segnale è blu.",
+  "trap": "«relative distanze»: ogni numero è della città sulla stessa riga.",
+  "caption": "Ogni città con i suoi km"
+ },
+ "q21225": {
+  "short": "Lo stesso segnale esiste anche blu: il blu è per le strade extraurbane (fuori città).",
+  "rule": "Il «segnale di conferma» VERDE sta in autostrada: elenca le città e i km che mancano. Sulle strade extraurbane lo stesso segnale è blu.",
+  "trap": "«se di colore blu»: il colore dice il tipo di strada. Verde = autostrada, blu = extraurbana.",
+  "caption": "Versione blu = strada extraurbana"
+ },
+ "q21226": {
+  "short": "Lo sfondo verde vuol dire autostrada: questo segnale sta in autostrada.",
+  "rule": "Il «segnale di conferma» VERDE sta in autostrada: elenca le città e i km che mancano. Sulle strade extraurbane lo stesso segnale è blu.",
+  "trap": "«autostrada»: lo dice il colore verde.",
+  "caption": "Verde = in autostrada"
+ },
+ "q21227": {
+  "short": "Accanto a Firenze c'è 180: sono i km che mancano per arrivare a Firenze.",
+  "rule": "Il «segnale di conferma» VERDE sta in autostrada: elenca le città e i km che mancano. Sulle strade extraurbane lo stesso segnale è blu.",
+  "trap": "«mancano»: i km sono ancora da fare, non già fatti.",
+  "caption": "Mancano 180 km per Firenze"
+ },
+ "q21228": {
+  "short": "In autostrada mostra le città che puoi raggiungere e quanto sono lontane.",
+  "rule": "Il «segnale di conferma» VERDE sta in autostrada: elenca le città e i km che mancano. Sulle strade extraurbane lo stesso segnale è blu.",
+  "trap": "«raggiungibili»: le città sono avanti su questa strada.",
+  "caption": "Città avanti e la loro distanza"
+ },
+ "q21229": {
+  "short": "Il segnale dà solo le distanze in autostrada. Non dice che una sola uscita porta a tutte le città.",
+  "rule": "Il «segnale di conferma» VERDE sta in autostrada: elenca le città e i km che mancano. Sulle strade extraurbane lo stesso segnale è blu.",
+  "trap": "«primo casello»: il segnale non parla di uscite.",
+  "caption": "Solo km in autostrada, niente uscite"
+ },
+ "q21230": {
+  "short": "472 sono i km per Milano, non il numero di un'autostrada.",
+  "rule": "Il «segnale di conferma» VERDE sta in autostrada: elenca le città e i km che mancano. Sulle strade extraurbane lo stesso segnale è blu.",
+  "trap": "«autostrada n. 472»: il numero sono km, non un numero di strada.",
+  "caption": "472 = km per Milano, non una strada"
+ },
+ "q21231": {
+  "short": "180 km è la distanza dalla città di Firenze, non da un'area di servizio.",
+  "rule": "Il «segnale di conferma» VERDE sta in autostrada: elenca le città e i km che mancano. Sulle strade extraurbane lo stesso segnale è blu.",
+  "trap": "«area di servizio»: il segnale scrive città, non aree di servizio.",
+  "caption": "180 km per la città, non per un'area"
+ },
+ "q21232": {
+  "short": "I numeri accanto alle città sono km, non numeri di strada.",
+  "rule": "Il «segnale di conferma» VERDE sta in autostrada: elenca le città e i km che mancano. Sulle strade extraurbane lo stesso segnale è blu.",
+  "trap": "«numero della strada»: i numeri di strada hanno pannelli piccoli, come «E 55» o «SS 2».",
+  "caption": "I numeri sono km, non strade"
+ },
+ "q21233": {
+  "short": "I numeri sono i km che mancano a quelle città, non i km già fatti.",
+  "rule": "Il «segnale di conferma» VERDE sta in autostrada: elenca le città e i km che mancano. Sulle strade extraurbane lo stesso segnale è blu.",
+  "trap": "«già fatti»: i km sono ancora davanti a te.",
+  "caption": "Km che mancano, non già fatti"
+ },
+ "q21234": {
+  "short": "Questo segnale è verde, quindi sta in autostrada. Sulle extraurbane sarebbe blu.",
+  "rule": "Il «segnale di conferma» VERDE sta in autostrada: elenca le città e i km che mancano. Sulle strade extraurbane lo stesso segnale è blu.",
+  "trap": "«strade extraurbane»: lì si usa solo la versione BLU.",
+  "caption": "Verde = autostrada; blu = extraurbana"
+ },
+ "q21235": {
+  "short": "La lettera E con un numero indica una strada europea, che passa per vari Stati.",
+  "rule": "Pannello verde con «E» e un numero: itinerario internazionale. E 55 è l'itinerario internazionale n. 55.",
+  "trap": "«itinerario internazionale»: la E vuol dire Europa.",
+  "caption": "E 55 = itinerario internazionale"
+ },
+ "q21236": {
+  "short": "55 è il numero di questa strada nell'elenco internazionale delle strade.",
+  "rule": "Pannello verde con «E» e un numero: itinerario internazionale. E 55 è l'itinerario internazionale n. 55.",
+  "trap": "«classificazione internazionale»: 55 è un numero di strada, non km.",
+  "caption": "55 = numero internazionale della strada"
+ },
+ "q21237": {
+  "short": "Le strade E collegano Stati diversi: il segnale sta su strade di importanza internazionale.",
+  "rule": "Pannello verde con «E» e un numero: itinerario internazionale. E 55 è l'itinerario internazionale n. 55.",
+  "trap": "«importanza internazionale»: lo dice la E.",
+  "caption": "Su strade che collegano Stati"
+ },
+ "q21238": {
+  "short": "Il pannello dice E 55: itinerario internazionale numero 55.",
+  "rule": "Pannello verde con «E» e un numero: itinerario internazionale. E 55 è l'itinerario internazionale n. 55.",
+  "trap": "«n. 55»: il numero è il nome della strada.",
+  "caption": "Itinerario internazionale n. 55"
+ },
+ "q21239": {
+  "short": "I pannelli con il numero di strada stanno spesso dentro segnali più grandi, come il preavviso di bivio.",
+  "rule": "Pannello verde con «E» e un numero: itinerario internazionale. E 55 è l'itinerario internazionale n. 55.",
+  "trap": "«all'interno»: il pannello piccolo può far parte di un segnale grande.",
+  "caption": "Può stare dentro un preavviso di bivio"
+ },
+ "q21240": {
+  "short": "Non indica le strade extraurbane in generale: indica un itinerario europeo, la E 55.",
+  "rule": "Pannello verde con «E» e un numero: itinerario internazionale. E 55 è l'itinerario internazionale n. 55.",
+  "trap": "«strade extraurbane»: questo pannello dà il nome di un itinerario, non il tipo di strada.",
+  "caption": "Indica un itinerario E, non le extraurbane"
+ },
+ "q21241": {
+  "short": "55 è il numero dell'itinerario internazionale, non di un'uscita.",
+  "rule": "Pannello verde con «E» e un numero: itinerario internazionale. E 55 è l'itinerario internazionale n. 55.",
+  "trap": "«uscita autostradale»: la E vuol dire strada europea, non uscita.",
+  "caption": "E 55 è un itinerario, non un'uscita"
+ },
+ "q21242": {
+  "short": "Il numero è il nome della strada, non la distanza dal confine.",
+  "rule": "Pannello verde con «E» e un numero: itinerario internazionale. E 55 è l'itinerario internazionale n. 55.",
+  "trap": "«confine di Stato»: il segnale non dà nessuna distanza.",
+  "caption": "55 è un numero di strada, non km"
+ },
+ "q21243": {
+  "short": "I limiti di velocità sono in un cerchio rosso. Questo pannello verde è solo il numero della strada.",
+  "rule": "Pannello verde con «E» e un numero: itinerario internazionale. E 55 è l'itinerario internazionale n. 55.",
+  "trap": "«velocità massima»: niente cerchio rosso, niente limite.",
+  "caption": "Non è un limite: è un numero di strada"
+ },
+ "q21244": {
+  "short": "Dà il numero di una strada europea, non di un ponte o cavalcavia.",
+  "rule": "Pannello verde con «E» e un numero: itinerario internazionale. E 55 è l'itinerario internazionale n. 55.",
+  "trap": "«cavalcavia»: un ponte sopra la strada. Questo segnale non ne parla.",
+  "caption": "Numero di strada, non di cavalcavia"
+ },
+ "q21245": {
+  "short": "55 non è una distanza: è il numero dell'itinerario internazionale.",
+  "rule": "Pannello verde con «E» e un numero: itinerario internazionale. E 55 è l'itinerario internazionale n. 55.",
+  "trap": "«sono stati percorsi»: è il nome della strada, non un conto dei km.",
+  "caption": "55 = numero di strada, non km fatti"
+ },
+ "q21246": {
+  "short": "SS è il tipo di strada (statale) e 2 è il suo numero.",
+  "rule": "Pannello blu con «SS» e un numero: tipo e numero della strada. SS 2 = strada statale n. 2.",
+  "trap": "«tipo ed il numero»: le lettere sono il tipo, la cifra è il numero.",
+  "caption": "SS = tipo, 2 = numero"
+ },
+ "q21247": {
+  "short": "I pannelli con il numero di strada stanno spesso dentro segnali di direzione o di bivio.",
+  "rule": "Pannello blu con «SS» e un numero: tipo e numero della strada. SS 2 = strada statale n. 2.",
+  "trap": "«all'interno»: il pannello piccolo può far parte di un segnale grande.",
+  "caption": "Può stare dentro un segnale di direzione"
+ },
+ "q21248": {
+  "short": "SS vuol dire «strada statale».",
+  "rule": "Pannello blu con «SS» e un numero: tipo e numero della strada. SS 2 = strada statale n. 2.",
+  "trap": "«strada statale»: SS è la sua sigla.",
+  "caption": "SS = strada statale"
+ },
+ "q21249": {
+  "short": "Il pannello dice SS 2: strada statale numero 2.",
+  "rule": "Pannello blu con «SS» e un numero: tipo e numero della strada. SS 2 = strada statale n. 2.",
+  "trap": "«n. 2»: il numero è il nome della strada, non km.",
+  "caption": "Strada statale numero 2"
+ },
+ "q21250": {
+  "short": "2 è il numero della strada, non il numero di piazzole di sosta.",
+  "rule": "Pannello blu con «SS» e un numero: tipo e numero della strada. SS 2 = strada statale n. 2.",
+  "trap": "«piazzole di sosta»: non sono su questo segnale.",
+  "caption": "2 è la strada, non le piazzole"
+ },
+ "q21251": {
+  "short": "La strada sdrucciolevole ha un triangolo rosso di pericolo. Qui 2 è solo il numero della strada.",
+  "rule": "Pannello blu con «SS» e un numero: tipo e numero della strada. SS 2 = strada statale n. 2.",
+  "trap": "«sdrucciolevole»: i pericoli sono triangoli rossi, non pannelli blu.",
+  "caption": "Non è un pericolo: SS 2 è una strada"
+ },
+ "q21252": {
+  "short": "La strettoia ha un triangolo rosso di pericolo. Qui 2 è solo il numero della strada.",
+  "rule": "Pannello blu con «SS» e un numero: tipo e numero della strada. SS 2 = strada statale n. 2.",
+  "trap": "«strada stretta»: i pericoli sono triangoli rossi, non pannelli blu.",
+  "caption": "Non è una strettoia: SS 2 è una strada"
+ },
+ "q21253": {
+  "short": "La strada senza uscita ha un suo segnale. Qui 2 è il numero della strada statale.",
+  "rule": "Pannello blu con «SS» e un numero: tipo e numero della strada. SS 2 = strada statale n. 2.",
+  "trap": "«senza uscita»: SS 2 non ne parla.",
+  "caption": "Non è senza uscita: SS 2 è una strada"
+ },
+ "q21254": {
+  "short": "Il pannello dà solo tipo e numero della strada: 2 non è una distanza.",
+  "rule": "Pannello blu con «SS» e un numero: tipo e numero della strada. SS 2 = strada statale n. 2.",
+  "trap": "«senza segnaletica»: SS 2 non vuol dire questo.",
+  "caption": "SS 2 = statale n. 2, nient'altro"
+ },
+ "q21255": {
+  "short": "SS vuol dire strada statale, una strada importante, non una strada di terra.",
+  "rule": "Pannello blu con «SS» e un numero: tipo e numero della strada. SS 2 = strada statale n. 2.",
+  "trap": "«sterrata»: strada di terra. SS non vuol dire questo.",
+  "caption": "SS = statale, non sterrata"
+ },
+ "q21256": {
+  "short": "Dà il nome della strada comunale n. 19: può stare dove la strada comincia.",
+  "rule": "Pannello bianco con «SC» e un numero: strada comunale. SC 19 = strada comunale n. 19.",
+  "trap": "«si può trovare»: è un posto possibile, ed è giusto.",
+  "caption": "All'inizio della strada comunale 19"
+ },
+ "q21257": {
+  "short": "I pannelli con il numero si aggiungono ai segnali di direzione per dire quale strada porta lì.",
+  "rule": "Pannello bianco con «SC» e un numero: strada comunale. SC 19 = strada comunale n. 19.",
+  "trap": "«a completamento»: aggiunge informazioni ai segnali di direzione.",
+  "caption": "Si aggiunge ai segnali di direzione"
+ },
+ "q21258": {
+  "short": "SC vuol dire «strada comunale».",
+  "rule": "Pannello bianco con «SC» e un numero: strada comunale. SC 19 = strada comunale n. 19.",
+  "trap": "«strada comunale»: SC è la sua sigla.",
+  "caption": "SC = strada comunale"
+ },
+ "q21259": {
+  "short": "SC 19 è la strada comunale numero 19: il segnale può stare lungo quella strada.",
+  "rule": "Pannello bianco con «SC» e un numero: strada comunale. SC 19 = strada comunale n. 19.",
+  "trap": "«lungo»: il pannello può stare sulla strada stessa.",
+  "caption": "Lungo la strada comunale 19"
+ },
+ "q21260": {
+  "short": "19 è il numero della strada, non la distanza dai Carabinieri.",
+  "rule": "Pannello bianco con «SC» e un numero: strada comunale. SC 19 = strada comunale n. 19.",
+  "trap": "«diciannove chilometri»: il numero non sono km.",
+  "caption": "19 è un numero di strada, non km"
+ },
+ "q21261": {
+  "short": "SC vuol dire strada comunale, non strada di campagna.",
+  "rule": "Pannello bianco con «SC» e un numero: strada comunale. SC 19 = strada comunale n. 19.",
+  "trap": "«strada di campagna»: la C vuol dire «comunale».",
+  "caption": "SC = comunale, non di campagna"
+ },
+ "q21262": {
+  "short": "Le catene obbligatorie hanno un loro segnale rotondo blu. Questo pannello dà solo il nome della strada.",
+  "rule": "Pannello bianco con «SC» e un numero: strada comunale. SC 19 = strada comunale n. 19.",
+  "trap": "«catene da neve»: questo segnale non parla di neve.",
+  "caption": "Nome di strada, niente catene"
+ },
+ "q21263": {
+  "short": "19 è il numero della strada, non un orario.",
+  "rule": "Pannello bianco con «SC» e un numero: strada comunale. SC 19 = strada comunale n. 19.",
+  "trap": "«dopo le ore 19.00»: il numero non è un'ora.",
+  "caption": "19 è un numero di strada, non un'ora"
+ },
+ "q21264": {
+  "short": "Dà il numero di una strada comunale, non di un cavalcavia.",
+  "rule": "Pannello bianco con «SC» e un numero: strada comunale. SC 19 = strada comunale n. 19.",
+  "trap": "«cavalcavia»: un ponte sopra la strada. Il pannello dà il nome di una strada.",
+  "caption": "Numero di strada, non di cavalcavia"
+ },
+ "q21265": {
+  "short": "La tenda e la roulotte annunciano un campeggio vicino.",
+  "rule": "Tenda e roulotte sul segnale: vicino c'è un'area di campeggio. Lì si può campeggiare e sostare con caravan e autocaravan.",
+  "trap": "«vicinanza»: il campeggio è vicino.",
+  "caption": "Campeggio vicino"
+ },
+ "q21266": {
+  "short": "La tenda vuol dire campeggio, la roulotte vuol dire sosta per caravan e autocaravan.",
+  "rule": "Tenda e roulotte sul segnale: vicino c'è un'area di campeggio. Lì si può campeggiare e sostare con caravan e autocaravan.",
+  "trap": "«autocaravan»: il camper. Anche lui può sostare lì.",
+  "caption": "Tende e sosta per caravan e camper"
+ },
+ "q21267": {
+  "short": "Indica una zona pensata per caravan, autocaravan e campeggio.",
+  "rule": "Tenda e roulotte sul segnale: vicino c'è un'area di campeggio. Lì si può campeggiare e sostare con caravan e autocaravan.",
+  "trap": "«zona destinata»: la zona serve a questo.",
+  "caption": "Zona per caravan, camper e campeggio"
+ },
+ "q21268": {
+  "short": "Nell'area indicata si può campeggiare e sostare con caravan e autocaravan.",
+  "rule": "Tenda e roulotte sul segnale: vicino c'è un'area di campeggio. Lì si può campeggiare e sostare con caravan e autocaravan.",
+  "trap": "«è consentito»: è un permesso, non un divieto.",
+  "caption": "Campeggio e sosta caravan permessi"
+ },
+ "q21269": {
+  "short": "È il contrario: indica un posto dove i caravan possono sostare e si può campeggiare.",
+  "rule": "Tenda e roulotte sul segnale: vicino c'è un'area di campeggio. Lì si può campeggiare e sostare con caravan e autocaravan.",
+  "trap": "«divieto»: i divieti sono cerchi rossi; questo è un segnale di indicazione.",
+  "caption": "Non è un divieto: i caravan possono sostare"
+ },
+ "q21270": {
+  "short": "La tenda e la roulotte vogliono dire campeggio, non panorama.",
+  "rule": "Tenda e roulotte sul segnale: vicino c'è un'area di campeggio. Lì si può campeggiare e sostare con caravan e autocaravan.",
+  "trap": "«zona panoramica»: posto con una bella vista. I simboli mostrano un campeggio.",
+  "caption": "Campeggio, non zona panoramica"
+ },
+ "q21271": {
+  "short": "Il segnale indica un campeggio, non un posto dove si riparano i veicoli.",
+  "rule": "Tenda e roulotte sul segnale: vicino c'è un'area di campeggio. Lì si può campeggiare e sostare con caravan e autocaravan.",
+  "trap": "«officina di riparazione»: sul segnale non ci sono attrezzi.",
+  "caption": "Campeggio, non officina"
+ },
+ "q21272": {
+  "short": "Tenda e roulotte vogliono dire campeggio, non polizia.",
+  "rule": "Tenda e roulotte sul segnale: vicino c'è un'area di campeggio. Lì si può campeggiare e sostare con caravan e autocaravan.",
+  "trap": "«postazione mobile di Polizia»: il segnale non parla di polizia.",
+  "caption": "Campeggio, non polizia"
+ },
+ "q21273": {
+  "short": "Tenda e roulotte vogliono dire campeggio, non pronto soccorso.",
+  "rule": "Tenda e roulotte sul segnale: vicino c'è un'area di campeggio. Lì si può campeggiare e sostare con caravan e autocaravan.",
+  "trap": "«pronto soccorso»: ha un simbolo diverso.",
+  "caption": "Campeggio, non pronto soccorso"
+ },
+ "q21274": {
+  "short": "Il pannello ha le righe per località, indirizzo e telefoni della polizia stradale più vicina.",
+  "rule": "Il pannello «POLIZIA STRADALE» dà località, indirizzo e telefoni del comando di polizia stradale più vicino.",
+  "trap": "«più vicino»: è il comando di polizia stradale più vicino.",
+  "caption": "Indirizzo e telefoni della polizia"
+ },
+ "q21275": {
+  "short": "Il pannello ha la riga «località» e la riga «telefoni» del comando più vicino.",
+  "rule": "Il pannello «POLIZIA STRADALE» dà località, indirizzo e telefoni del comando di polizia stradale più vicino.",
+  "trap": "«località»: è scritto sul pannello.",
+  "caption": "Località e telefoni della polizia"
+ },
+ "q21276": {
+  "short": "Dice dove si trova il comando di polizia stradale più vicino e come telefonare.",
+  "rule": "Il pannello «POLIZIA STRADALE» dà località, indirizzo e telefoni del comando di polizia stradale più vicino.",
+  "trap": "«sede»: il posto dove si trova l'ufficio. Lo dicono località e indirizzo.",
+  "caption": "Dov'è la polizia e il suo telefono"
+ },
+ "q21277": {
+  "short": "Località, indirizzo (via) e telefoni sono proprio le tre righe del pannello.",
+  "rule": "Il pannello «POLIZIA STRADALE» dà località, indirizzo e telefoni del comando di polizia stradale più vicino.",
+  "trap": "«alcuni dati»: solo pochi dati, nient'altro.",
+  "caption": "Località, via, telefoni della polizia"
+ },
+ "q21278": {
+  "short": "Dà solo indirizzo e telefoni di un ufficio di polizia; non annuncia un posto di blocco.",
+  "rule": "Il pannello «POLIZIA STRADALE» dà località, indirizzo e telefoni del comando di polizia stradale più vicino.",
+  "trap": "«posto di blocco»: il pannello non lo dice.",
+  "caption": "Pannello informativo, non posto di blocco"
+ },
+ "q21279": {
+  "short": "Il pannello dà i recapiti della polizia; non parla di incidenti o strade chiuse.",
+  "rule": "Il pannello «POLIZIA STRADALE» dà località, indirizzo e telefoni del comando di polizia stradale più vicino.",
+  "trap": "«strada interrotta»: non è scritto sul pannello.",
+  "caption": "Pannello informativo, non strada chiusa"
+ },
+ "q21280": {
+  "short": "Il pannello dà indirizzo e telefoni di un ufficio di polizia, non un parcheggio.",
+  "rule": "Il pannello «POLIZIA STRADALE» dà località, indirizzo e telefoni del comando di polizia stradale più vicino.",
+  "trap": "«riservata al parcheggio»: non c'è il simbolo del parcheggio.",
+  "caption": "Pannello informativo, non parcheggio"
+ },
+ "q21281": {
+  "short": "Il pannello dà solo i recapiti della polizia; non avvisa di niente sulla strada.",
+  "rule": "Il pannello «POLIZIA STRADALE» dà località, indirizzo e telefoni del comando di polizia stradale più vicino.",
+  "trap": "«colonna»: fila di veicoli. Il pannello non ne parla.",
+  "caption": "Pannello informativo, non colonna"
+ },
+ "q21282": {
+  "short": "Il pannello dà i recapiti della polizia; non riserva la strada a nessuno.",
+  "rule": "Il pannello «POLIZIA STRADALE» dà località, indirizzo e telefoni del comando di polizia stradale più vicino.",
+  "trap": "«riservato»: nessuna strada riservata.",
+  "caption": "Pannello informativo, non strada riservata"
+ },
+ "q21283": {
+  "short": "Il quadrato blu con la freccia in alto dice che la strada davanti è a senso unico.",
+  "rule": "Il quadrato blu con freccia in alto («senso unico frontale») dice che la strada davanti è a senso unico nella tua direzione. Per questo l'inversione di marcia è vietata.",
+  "trap": "«frontale»: la strada a senso unico è quella davanti a te.",
+  "caption": "La strada davanti è a senso unico"
+ },
+ "q21284": {
+  "short": "Su quel tratto tutti i veicoli vanno nella stessa direzione, quella della freccia.",
+  "rule": "Il quadrato blu con freccia in alto («senso unico frontale») dice che la strada davanti è a senso unico nella tua direzione. Per questo l'inversione di marcia è vietata.",
+  "trap": "«senso unico»: una sola direzione di marcia.",
+  "caption": "Tutti vanno in un solo senso"
+ },
+ "q21285": {
+  "short": "Su un senso unico, girarsi ti mette contro il traffico: l'inversione di marcia è vietata.",
+  "rule": "Il quadrato blu con freccia in alto («senso unico frontale») dice che la strada davanti è a senso unico nella tua direzione. Per questo l'inversione di marcia è vietata.",
+  "trap": "«inversione di marcia»: non è disegnata, ma viene dal senso unico.",
+  "caption": "Senso unico: niente inversione"
+ },
+ "q21286": {
+  "short": "Sta dove comincia la strada a senso unico.",
+  "rule": "Il quadrato blu con freccia in alto («senso unico frontale») dice che la strada davanti è a senso unico nella tua direzione. Per questo l'inversione di marcia è vietata.",
+  "trap": "«inizio»: il segnale sta all'inizio del senso unico.",
+  "caption": "Inizio del senso unico"
+ },
+ "q21287": {
+  "short": "Dice solo che la strada è a senso unico. L'obbligo di andare diritto è un disco blu ROTONDO.",
+  "rule": "Il quadrato blu con freccia in alto («senso unico frontale») dice che la strada davanti è a senso unico nella tua direzione. Per questo l'inversione di marcia è vietata.",
+  "trap": "«obbligo»: il quadrato informa, il disco blu rotondo ordina.",
+  "caption": "Quadrato = informazione, non obbligo"
+ },
+ "q21288": {
+  "short": "Dice solo che la strada davanti è a senso unico; non vieta le svolte.",
+  "rule": "Il quadrato blu con freccia in alto («senso unico frontale») dice che la strada davanti è a senso unico nella tua direzione. Per questo l'inversione di marcia è vietata.",
+  "trap": "«divieto»: questo quadrato blu non vieta svolte.",
+  "caption": "Senso unico, svolte non vietate"
+ },
+ "q21289": {
+  "short": "Senso unico non vuol dire una corsia: un senso unico può avere più corsie.",
+  "rule": "Il quadrato blu con freccia in alto («senso unico frontale») dice che la strada davanti è a senso unico nella tua direzione. Per questo l'inversione di marcia è vietata.",
+  "trap": "«una sola corsia»: il senso unico parla di direzione, non di corsie.",
+  "caption": "Una direzione, non una corsia"
+ },
+ "q21290": {
+  "short": "La strettoia ha un triangolo rosso di pericolo. Questo quadrato blu vuol dire senso unico.",
+  "rule": "Il quadrato blu con freccia in alto («senso unico frontale») dice che la strada davanti è a senso unico nella tua direzione. Per questo l'inversione di marcia è vietata.",
+  "trap": "«restringimento»: i pericoli sono triangoli, non quadrati blu.",
+  "caption": "Senso unico, non strettoia"
+ },
+ "q21291": {
+  "short": "Le file parallele si formano con traffico intenso su più corsie; il segnale dice solo senso unico.",
+  "rule": "Il quadrato blu con freccia in alto («senso unico frontale») dice che la strada davanti è a senso unico nella tua direzione. Per questo l'inversione di marcia è vietata.",
+  "trap": "«file parallele»: la freccia non vuol dire questo.",
+  "caption": "Senso unico, non file parallele"
+ },
+ "q21292": {
+  "short": "Il segnale sta sulla strada di cui parla: quella strada è a senso unico nel verso della freccia.",
+  "rule": "Il rettangolo blu con freccia («senso unico parallelo») dice che la sua strada è a senso unico nel verso della freccia: niente veicoli contrari, niente inversione.",
+  "trap": "«su cui è posto»: il segnale è di quella strada.",
+  "caption": "Questa strada è a senso unico"
+ },
+ "q21293": {
+  "short": "Il segnale A punta a sinistra: la strada a sinistra è a senso unico in quel verso.",
+  "rule": "Il rettangolo blu con freccia («senso unico parallelo») dice che la sua strada è a senso unico nel verso della freccia: niente veicoli contrari, niente inversione.",
+  "trap": "«svoltando a sinistra»: la freccia di A va a sinistra.",
+  "caption": "Girando a sinistra: senso unico"
+ },
+ "q21294": {
+  "short": "La strada è a senso unico nel verso della freccia: nessuno ti viene incontro.",
+  "rule": "Il rettangolo blu con freccia («senso unico parallelo») dice che la sua strada è a senso unico nel verso della freccia: niente veicoli contrari, niente inversione.",
+  "trap": "«senso opposto»: su un senso unico non c'è.",
+  "caption": "Dopo la svolta niente veicoli contrari"
+ },
+ "q21295": {
+  "short": "Su un senso unico, girarsi ti mette contro il traffico: l'inversione è vietata.",
+  "rule": "Il rettangolo blu con freccia («senso unico parallelo») dice che la sua strada è a senso unico nel verso della freccia: niente veicoli contrari, niente inversione.",
+  "trap": "«inversione di marcia»: non è disegnata, ma viene dal senso unico.",
+  "caption": "Senso unico: niente inversione"
+ },
+ "q21296": {
+  "short": "Il segnale dà solo il verso del senso unico; non obbliga a sorpassare a destra.",
+  "rule": "Il rettangolo blu con freccia («senso unico parallelo») dice che la sua strada è a senso unico nel verso della freccia: niente veicoli contrari, niente inversione.",
+  "trap": "«si deve»: nessun segnale obbliga a sorpassare a destra.",
+  "caption": "Senso unico, niente sul sorpasso"
+ },
+ "q21297": {
+  "short": "Il segnale A dice solo che la strada a sinistra è a senso unico; non obbliga a girare.",
+  "rule": "Il rettangolo blu con freccia («senso unico parallelo») dice che la sua strada è a senso unico nel verso della freccia: niente veicoli contrari, niente inversione.",
+  "trap": "«obbligatorio»: le svolte obbligatorie usano dischi blu ROTONDI.",
+  "caption": "Solo informazione: non obbliga a girare"
+ },
+ "q21298": {
+  "short": "Dice solo che la strada laterale è a senso unico; non vieta di andare diritto.",
+  "rule": "Il rettangolo blu con freccia («senso unico parallelo») dice che la sua strada è a senso unico nel verso della freccia: niente veicoli contrari, niente inversione.",
+  "trap": "«è vietato»: questo segnale blu non vieta niente.",
+  "caption": "Solo informazione: diritto non vietato"
+ },
+ "q21299": {
+  "short": "Il segnale mostra solo il verso del senso unico; non parla di file.",
+  "rule": "Il rettangolo blu con freccia («senso unico parallelo») dice che la sua strada è a senso unico nel verso della freccia: niente veicoli contrari, niente inversione.",
+  "trap": "«file parallele»: la freccia non vuol dire questo.",
+  "caption": "Senso unico, non file parallele"
+ },
+ "q21300": {
+  "short": "Il segnale non parla di sosta. Sui sensi unici di solito si può sostare su entrambi i lati.",
+  "rule": "Il rettangolo blu con freccia («senso unico parallelo») dice che la sua strada è a senso unico nel verso della freccia: niente veicoli contrari, niente inversione.",
+  "trap": "«solo a sinistra»: la parola trappola è «solo».",
+  "caption": "Non parla del lato della sosta"
+ },
+ "q21301": {
+  "short": "La freccia indica il verso del senso unico, non un parcheggio.",
+  "rule": "Il rettangolo blu con freccia («senso unico parallelo») dice che la sua strada è a senso unico nel verso della freccia: niente veicoli contrari, niente inversione.",
+  "trap": "«parcheggio libero»: i segnali di parcheggio hanno la «P».",
+  "caption": "Freccia di senso unico, non parcheggio"
+ }
+}

@@ -1,0 +1,2025 @@
+{
+ "q20771": {
+  "en": "For the vehicle going in the direction of the arrow, the dashed line in the picture is just after a bend.",
+  "explain": {
+   "short": "Your side can cross because you can see far ahead. That is the case just after a bend: the other side, still in the bend, cannot see.",
+   "rule": "With a mixed line you may cross only from the dashed side. The solid side may not cross.",
+   "trap": "'subito dopo una curva' (just after a bend): after, not before.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mixed line: placed just after a bend",
+    "it": "striscia mista",
+    "lines": [
+     "Dashed on your side: you may cross",
+     "Solid on the other side",
+     "Placed just after a bend"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "striscia discontinua",
+    "en": "dashed line"
+   },
+   {
+    "it": "subito dopo una curva",
+    "en": "just after a bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20772": {
+  "en": "For the vehicle going in the direction of the arrow, the dashed line in the picture allows overtaking even by crossing both lines.",
+  "explain": {
+   "short": "The line next to you is dashed, so you may cross it. When you cross it, you also cross the solid line beside it to overtake.",
+   "rule": "With a mixed line you may cross only from the dashed side. The solid side may not cross.",
+   "trap": "'tutte e due le strisce' (both lines): crossing both is fine when you start from the dashed side.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "From the dashed side you may cross both lines",
+    "it": "sorpasso",
+    "lines": [
+     "Dashed on your side: you may cross",
+     "You may cross both lines to overtake"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "striscia discontinua",
+    "en": "dashed line"
+   },
+   {
+    "it": "sorpasso",
+    "en": "overtaking"
+   },
+   {
+    "it": "tutte e due le strisce",
+    "en": "both lines"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20773": {
+  "en": "For the vehicle going in the direction of the arrow, the dashed line in the picture is after a level crossing.",
+  "explain": {
+   "short": "After a level crossing (railway crossing) you can see the road ahead again. So the side leaving the crossing gets the dashed line.",
+   "rule": "With a mixed line you may cross only from the dashed side. The solid side may not cross.",
+   "trap": "'dopo un passaggio a livello' (after a level crossing): after, so your side can cross.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mixed line: placed after a level crossing",
+    "it": "passaggio a livello",
+    "lines": [
+     "Dashed on your side: you may cross",
+     "Placed after a level crossing"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "striscia discontinua",
+    "en": "dashed line"
+   },
+   {
+    "it": "passaggio a livello",
+    "en": "level crossing (railway crossing)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20774": {
+  "en": "For the vehicle going in the direction of the arrow, the dashed line in the picture can be on the downhill part of a hump.",
+  "explain": {
+   "short": "On the downhill part of a hump (crest of a hill) you see the road below. The uphill side cannot see, so it gets the solid line.",
+   "rule": "With a mixed line you may cross only from the dashed side. The solid side may not cross.",
+   "trap": "'nel tratto in discesa' (on the downhill part): downhill = you see, so dashed for you.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Mixed line: dashed on the downhill side",
+    "it": "dosso",
+    "lines": [
+     "Downhill side: you see far, dashed",
+     "Uphill side: blind, solid"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "striscia discontinua",
+    "en": "dashed line"
+   },
+   {
+    "it": "tratto in discesa",
+    "en": "downhill part"
+   },
+   {
+    "it": "dosso",
+    "en": "hump, crest of a hill"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20775": {
+  "en": "For the vehicle going in the direction of the arrow, the dashed line in the picture also lets the oncoming vehicle cross the lines.",
+  "explain": {
+   "short": "The oncoming vehicle has the solid line on its side. A solid line may not be crossed, so only you may cross.",
+   "rule": "With a mixed line you may cross only from the dashed side. The solid side may not cross.",
+   "trap": "'anche al veicolo che viene di fronte' (also the oncoming vehicle): no, its side is solid.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Only the dashed side may cross, not oncoming traffic",
+    "it": "striscia continua",
+    "lines": [
+     "Your side: dashed, you may cross",
+     "Oncoming side: solid, no crossing"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "striscia discontinua",
+    "en": "dashed line"
+   },
+   {
+    "it": "veicolo che viene di fronte",
+    "en": "oncoming vehicle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20776": {
+  "en": "For the vehicle going in the direction of the arrow, the dashed line in the picture is, as a rule, on one-way roads.",
+  "explain": {
+   "short": "A mixed line separates two opposite directions. It is used on two-way roads, not on one-way roads.",
+   "rule": "With a mixed line you may cross only from the dashed side. The solid side may not cross.",
+   "trap": "'di norma, su strade a senso unico' (as a rule, on one-way roads): it is for two-way roads.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Mixed line is for two-way roads, not one-way",
+    "it": "senso unico",
+    "lines": [
+     "Mixed line: two directions",
+     "Used on two-way roads"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "striscia discontinua",
+    "en": "dashed line"
+   },
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20777": {
+  "en": "For the vehicle going in the direction of the arrow, the dashed line in the picture is on the uphill part of a hump.",
+  "explain": {
+   "short": "Going uphill to a hump you cannot see what is coming. So the uphill side gets the solid line, not the dashed one.",
+   "rule": "With a mixed line you may cross only from the dashed side. The solid side may not cross.",
+   "trap": "'in salita' (uphill): uphill you are blind, so solid line.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Uphill to a hump you can't see: solid, not dashed",
+    "it": "dosso",
+    "lines": [
+     "Uphill side: blind, solid line",
+     "Dashed side is the downhill one"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "striscia discontinua",
+    "en": "dashed line"
+   },
+   {
+    "it": "tratto in salita",
+    "en": "uphill part"
+   },
+   {
+    "it": "dosso",
+    "en": "hump, crest of a hill"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20778": {
+  "en": "For the vehicle going in the direction of the arrow, the dashed line in the picture is just before a junction.",
+  "explain": {
+   "short": "Just before a junction overtaking is dangerous. The side going towards it does not get a dashed line to cross.",
+   "rule": "With a mixed line you may cross only from the dashed side. The solid side may not cross.",
+   "trap": "'subito prima di un incrocio' (just before a junction): before = danger ahead, no dashed side.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Not placed just before a junction",
+    "it": "incrocio",
+    "lines": [
+     "Dashed side: where you see far",
+     "Not just before a junction"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "striscia discontinua",
+    "en": "dashed line"
+   },
+   {
+    "it": "subito prima di un incrocio",
+    "en": "just before a junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20779": {
+  "en": "For the vehicle going in the direction of the arrow, the dashed line in the picture is before a bend.",
+  "explain": {
+   "short": "Before a bend you cannot see round it, so your side would get the solid line. The dashed side is the one just after the bend.",
+   "rule": "With a mixed line you may cross only from the dashed side. The solid side may not cross.",
+   "trap": "'prima di una curva' (before a bend): the dashed side comes after a bend, not before.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Dashed side is after a bend, not before",
+    "it": "curva",
+    "lines": [
+     "Before a bend: you can't see, solid",
+     "Dashed side: just after the bend"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "striscia discontinua",
+    "en": "dashed line"
+   },
+   {
+    "it": "prima di una curva",
+    "en": "before a bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20780": {
+  "en": "The yellow and black marks in the picture painted on the kerb edge mean no parking.",
+  "explain": {
+   "short": "Yellow and black stripes on the kerb are the marking for no parking (divieto di sosta) along that side.",
+   "rule": "Yellow-black kerb = no parking on that side; a short stop is allowed.",
+   "trap": "'divieto di sosta' (no parking): parking only, not stopping.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow-black kerb: no parking",
+    "it": "divieto di sosta",
+    "lines": [
+     "Yellow-black kerb",
+     "No parking on this side"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segni gialli e neri",
+    "en": "yellow and black marks"
+   },
+   {
+    "it": "marciapiede",
+    "en": "pavement, sidewalk"
+   },
+   {
+    "it": "divieto di sosta",
+    "en": "no parking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20781": {
+  "en": "The yellow and black marks in the picture are placed along the vertical part of the kerb.",
+  "explain": {
+   "short": "These stripes are painted on the upright side of the kerb, the part drivers see from the road.",
+   "rule": "Yellow-black kerb = no parking on that side; a short stop is allowed.",
+   "trap": "'parte verticale' (vertical part): the side of the kerb, not the flat top.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Painted on the upright side of the kerb",
+    "it": "marciapiede",
+    "lines": [
+     "Painted on the vertical side of the kerb",
+     "Meaning: no parking"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segni gialli e neri",
+    "en": "yellow and black marks"
+   },
+   {
+    "it": "parte verticale",
+    "en": "vertical part"
+   },
+   {
+    "it": "marciapiede",
+    "en": "pavement, sidewalk"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20782": {
+  "en": "The yellow and black marks in the picture painted on the kerb edge mean that you cannot park on that side of the road.",
+  "explain": {
+   "short": "The marks forbid parking (sosta) along that side. This is the same as a no-parking ban.",
+   "rule": "Yellow-black kerb = no parking on that side; a short stop is allowed.",
+   "trap": "'non è possibile sostare' (you cannot park) is the same as 'divieto di sosta'.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No parking on this side of the road",
+    "it": "sostare",
+    "lines": [
+     "Yellow-black kerb",
+     "No parking on this side"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segni gialli e neri",
+    "en": "yellow and black marks"
+   },
+   {
+    "it": "marciapiede",
+    "en": "pavement, sidewalk"
+   },
+   {
+    "it": "non è possibile sostare",
+    "en": "you cannot park"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20783": {
+  "en": "The yellow and black marks in the picture painted on the kerb edge allow stopping.",
+  "explain": {
+   "short": "These marks ban only parking. A short stop (fermata), for example to let someone get out, is still allowed.",
+   "rule": "Yellow-black kerb = no parking on that side; a short stop is allowed.",
+   "trap": "'consentono la fermata' (allow stopping): yes, only parking (sosta) is banned.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Short stop allowed, parking not",
+    "it": "fermata",
+    "lines": [
+     "No parking (sosta)",
+     "Short stop (fermata): allowed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segni gialli e neri",
+    "en": "yellow and black marks"
+   },
+   {
+    "it": "marciapiede",
+    "en": "pavement, sidewalk"
+   },
+   {
+    "it": "fermata",
+    "en": "short stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20784": {
+  "en": "The yellow and black marks in the picture painted on the kerb edge mean that only buses may park.",
+  "explain": {
+   "short": "The marks are a no-parking ban for everyone. They do not reserve the space for buses.",
+   "rule": "Yellow-black kerb = no parking on that side; a short stop is allowed.",
+   "trap": "'solo agli autobus' (only for buses): no, the ban is for all vehicles.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No parking for anyone, not a bus space",
+    "it": "autobus",
+    "lines": [
+     "No parking for all vehicles",
+     "Not a bus space"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segni gialli e neri",
+    "en": "yellow and black marks"
+   },
+   {
+    "it": "marciapiede",
+    "en": "pavement, sidewalk"
+   },
+   {
+    "it": "solo agli autobus",
+    "en": "only for buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20785": {
+  "en": "The yellow and black marks in the picture painted on the kerb edge warn of an obstacle in the middle of the carriageway.",
+  "explain": {
+   "short": "The marks are on the kerb at the side of the road. They mean no parking, not an obstacle in the middle.",
+   "rule": "Yellow-black kerb = no parking on that side; a short stop is allowed.",
+   "trap": "'ostacolo al centro della carreggiata' (obstacle in the middle of the road): wrong meaning.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Kerb marks mean no parking, not an obstacle",
+    "it": "ostacolo",
+    "lines": [
+     "On the kerb, at the side",
+     "Meaning: no parking"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segni gialli e neri",
+    "en": "yellow and black marks"
+   },
+   {
+    "it": "marciapiede",
+    "en": "pavement, sidewalk"
+   },
+   {
+    "it": "ostacolo",
+    "en": "obstacle"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway (the part for vehicles)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20786": {
+  "en": "The yellow and black marks in the picture painted on the kerb edge warn pedestrians to watch out for the step.",
+  "explain": {
+   "short": "The marks are for drivers, not pedestrians. They mean no parking on that side.",
+   "rule": "Yellow-black kerb = no parking on that side; a short stop is allowed.",
+   "trap": "'avvertono i pedoni' (warn pedestrians): no, they speak to drivers.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "For drivers: no parking, not a step warning",
+    "it": "pedoni",
+    "lines": [
+     "Message for drivers",
+     "Meaning: no parking"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segni gialli e neri",
+    "en": "yellow and black marks"
+   },
+   {
+    "it": "marciapiede",
+    "en": "pavement, sidewalk"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   },
+   {
+    "it": "gradino",
+    "en": "step"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20787": {
+  "en": "The yellow and black marks in the picture painted on the kerb edge mean that stopping is also forbidden.",
+  "explain": {
+   "short": "The marks ban only parking. A short stop (fermata) is still allowed.",
+   "rule": "Yellow-black kerb = no parking on that side; a short stop is allowed.",
+   "trap": "'anche la fermata' (stopping too): no, only parking is banned.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Only parking banned; a short stop is allowed",
+    "it": "fermata",
+    "lines": [
+     "No parking (sosta)",
+     "Short stop (fermata): allowed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segni gialli e neri",
+    "en": "yellow and black marks"
+   },
+   {
+    "it": "marciapiede",
+    "en": "pavement, sidewalk"
+   },
+   {
+    "it": "anche la fermata",
+    "en": "stopping too"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20788": {
+  "en": "The markings in the picture show an area for public line buses to stop.",
+  "explain": {
+   "short": "The yellow area with zig-zags at the ends is the bus stop for public line buses (autobus di linea).",
+   "rule": "A yellow bus stop is for public line buses. Other vehicles may not park there, but they may stop briefly and drive through.",
+   "trap": "'in servizio pubblico di linea' (public line service): city and regular buses.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow zig-zag area: public bus stop",
+    "it": "fermata autobus",
+    "lines": [
+     "Yellow zig-zag area",
+     "Stop for public line buses"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnaletica",
+    "en": "road markings"
+   },
+   {
+    "it": "fermata degli autobus",
+    "en": "bus stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20789": {
+  "en": "The markings in the picture show the space where public line buses and trolleybuses stop.",
+  "explain": {
+   "short": "The bus stop marking is for buses and also for trolleybuses (filobus, electric buses on overhead wires) on a public line.",
+   "rule": "A yellow bus stop is for public line buses. Other vehicles may not park there, but they may stop briefly and drive through.",
+   "trap": "'autobus e filobus' (buses and trolleybuses): both use this stop.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stop for buses and trolleybuses",
+    "it": "filobus",
+    "lines": [
+     "Yellow zig-zag area",
+     "For buses and trolleybuses"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnaletica",
+    "en": "road markings"
+   },
+   {
+    "it": "filobus",
+    "en": "trolleybus"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20790": {
+  "en": "The zig-zag line of the markings in the picture helps buses pull in and pull out again.",
+  "explain": {
+   "short": "A bus is long. The zig-zag spaces at each end give it room to move to the kerb and to leave again.",
+   "rule": "A yellow bus stop is for public line buses. Other vehicles may not park there, but they may stop briefly and drive through.",
+   "trap": "'accostamento' (pulling in to the kerb) and 'ripartire' (setting off): that is the job of the zig-zag.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Zig-zags: room to pull in and pull out",
+    "it": "zig zag",
+    "lines": [
+     "Zig-zag at each end",
+     "Room to pull in and pull out"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "striscia a zig zag",
+    "en": "zig-zag line"
+   },
+   {
+    "it": "accostamento",
+    "en": "pulling in to the kerb"
+   },
+   {
+    "it": "ripartire",
+    "en": "to set off again"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20791": {
+  "en": "The markings in the picture forbid parking but not stopping, even in the parts with the yellow zig-zag line.",
+  "explain": {
+   "short": "Other vehicles may not park (sosta) anywhere in the bus stop. A short stop (fermata) is allowed, zig-zags included, if you do not block the bus.",
+   "rule": "A yellow bus stop is for public line buses. Other vehicles may not park there, but they may stop briefly and drive through.",
+   "trap": "'anche nelle parti con striscia gialla a zig zag' (also on the zig-zag parts): the same rule there too.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bus stop: no parking, short stop allowed",
+    "it": "sosta",
+    "lines": [
+     "No parking in the whole area",
+     "Short stop allowed, zig-zags too"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnaletica",
+    "en": "road markings"
+   },
+   {
+    "it": "vieta la sosta",
+    "en": "forbids parking"
+   },
+   {
+    "it": "fermata",
+    "en": "short stop"
+   },
+   {
+    "it": "zig zag",
+    "en": "zig-zag"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20792": {
+  "en": "The markings in the picture show the space where public line articulated buses stop.",
+  "explain": {
+   "short": "Articulated buses (autosnodati, long bendy buses) on a public line are buses too. They use the same stop.",
+   "rule": "A yellow bus stop is for public line buses. Other vehicles may not park there, but they may stop briefly and drive through.",
+   "trap": "'autosnodati' (articulated buses): long buses, still buses.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Articulated line buses use this stop too",
+    "it": "autosnodati",
+    "lines": [
+     "Yellow zig-zag area",
+     "Also for articulated buses"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnaletica",
+    "en": "road markings"
+   },
+   {
+    "it": "autosnodati",
+    "en": "articulated (bendy) buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20793": {
+  "en": "The markings in the picture show the space reserved for parking, taxis included.",
+  "explain": {
+   "short": "The space is for public line buses to stop. Taxis are not line buses, and nobody may park there.",
+   "rule": "A yellow bus stop is for public line buses. Other vehicles may not park there, but they may stop briefly and drive through.",
+   "trap": "'anche dei taxi' (taxis too): taxis have their own spaces.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Bus stop: not for taxis, no parking",
+    "it": "taxi",
+    "lines": [
+     "Space for public line buses",
+     "Not for taxis"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnaletica",
+    "en": "road markings"
+   },
+   {
+    "it": "sosta",
+    "en": "parking"
+   },
+   {
+    "it": "taxi",
+    "en": "taxi"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20794": {
+  "en": "The markings in the picture do not allow cars to drive inside the marked area.",
+  "explain": {
+   "short": "The marking bans parking, not driving. Cars may drive through the area when no bus needs it.",
+   "rule": "A yellow bus stop is for public line buses. Other vehicles may not park there, but they may stop briefly and drive through.",
+   "trap": "'non consente ... di circolare' (does not allow driving): wrong, only parking is banned.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Cars may drive through the bus stop area",
+    "it": "circolare",
+    "lines": [
+     "No parking in the area",
+     "Driving through: allowed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnaletica",
+    "en": "road markings"
+   },
+   {
+    "it": "autovetture",
+    "en": "cars"
+   },
+   {
+    "it": "circolare",
+    "en": "to drive"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20795": {
+  "en": "The markings in the picture do not allow parking 20 metres before the yellow zig-zag line.",
+  "explain": {
+   "short": "The parking ban covers only the marked area, zig-zags included. The marking says nothing about 20 metres before it.",
+   "rule": "A yellow bus stop is for public line buses. Other vehicles may not park there, but they may stop briefly and drive through.",
+   "trap": "'20 metri prima' (20 metres before): an invented distance.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Ban only inside the marking, not 20 m before",
+    "it": "sosta",
+    "lines": [
+     "No parking inside the marking",
+     "No ban 20 m before it"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnaletica",
+    "en": "road markings"
+   },
+   {
+    "it": "sosta",
+    "en": "parking"
+   },
+   {
+    "it": "20 metri prima",
+    "en": "20 metres before"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20796": {
+  "en": "The markings in the picture forbid lorries to drive inside the marked area.",
+  "explain": {
+   "short": "The marking bans parking, not driving. Lorries, like cars, may drive through the area.",
+   "rule": "A yellow bus stop is for public line buses. Other vehicles may not park there, but they may stop briefly and drive through.",
+   "trap": "'vieta agli autocarri di circolare' (bans lorries from driving): no, only parking is banned.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Lorries may drive through too",
+    "it": "autocarri",
+    "lines": [
+     "No parking in the area",
+     "Lorries may drive through"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnaletica",
+    "en": "road markings"
+   },
+   {
+    "it": "autocarri",
+    "en": "lorries, trucks"
+   },
+   {
+    "it": "circolare",
+    "en": "to drive"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20797": {
+  "en": "The markings in the picture can also be made with white lines.",
+  "explain": {
+   "short": "Bus stop markings are always yellow. Yellow on the road marks spaces reserved for special uses.",
+   "rule": "A yellow bus stop is for public line buses. Other vehicles may not park there, but they may stop briefly and drive through.",
+   "trap": "'di colore bianco' (white): no, bus stops are yellow.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Bus stop markings are always yellow",
+    "it": "giallo",
+    "lines": [
+     "Bus stop: always yellow",
+     "Never white"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnaletica",
+    "en": "road markings"
+   },
+   {
+    "it": "colore bianco",
+    "en": "white colour"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20798": {
+  "en": "The markings in the picture allow cars to park from 8 p.m. to 8 a.m.",
+  "explain": {
+   "short": "The marking has no time limits. Parking in the bus stop is banned at all hours.",
+   "rule": "A yellow bus stop is for public line buses. Other vehicles may not park there, but they may stop briefly and drive through.",
+   "trap": "'dalle ore 20.00 alle ore 8.00' (from 8 p.m. to 8 a.m.): invented time window.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No parking at any hour in the bus stop",
+    "it": "sosta",
+    "lines": [
+     "No parking at all hours",
+     "No night exception"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnaletica",
+    "en": "road markings"
+   },
+   {
+    "it": "sosta",
+    "en": "parking"
+   },
+   {
+    "it": "autovetture",
+    "en": "cars"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20799": {
+  "en": "With the traffic island shown in the picture, vehicle C must turn right.",
+  "explain": {
+   "short": "C's lane is led by the island straight into the side road on its right. It cannot cross the island or the solid line.",
+   "rule": "A traffic island may not be crossed. Here it lets every vehicle go only one way: A straight, B and C right.",
+   "trap": "'deve' (must): C has only one way, to the right.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "C: only one way, right",
+    "it": "isola di traffico",
+    "lines": [
+     "Island: may not be crossed",
+     "C must turn right"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "isola di traffico",
+    "en": "traffic island"
+   },
+   {
+    "it": "deve svoltare a destra",
+    "en": "must turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20800": {
+  "en": "With the traffic island shown in the picture, vehicle B must turn right.",
+  "explain": {
+   "short": "B comes from the side road. The island stops it from turning left, so it must turn right.",
+   "rule": "A traffic island may not be crossed. Here it lets every vehicle go only one way: A straight, B and C right.",
+   "trap": "'deve' (must): B cannot turn left, the island is in the way.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "B: must turn right",
+    "it": "isola di traffico",
+    "lines": [
+     "Island blocks the left turn",
+     "B must turn right"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "isola di traffico",
+    "en": "traffic island"
+   },
+   {
+    "it": "deve svoltare a destra",
+    "en": "must turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20801": {
+  "en": "With the traffic island shown in the picture, vehicle A must go straight on.",
+  "explain": {
+   "short": "A would have to cross the island and the solid line to turn left. That is forbidden, so A must go straight.",
+   "rule": "A traffic island may not be crossed. Here it lets every vehicle go only one way: A straight, B and C right.",
+   "trap": "'deve andare diritto' (must go straight): no left turn for A.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A: must go straight",
+    "it": "diritto",
+    "lines": [
+     "Island and solid line block A's left",
+     "A must go straight"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "isola di traffico",
+    "en": "traffic island"
+   },
+   {
+    "it": "deve andare diritto",
+    "en": "must go straight"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20802": {
+  "en": "With the traffic island shown in the picture, vehicle C may go in any direction.",
+  "explain": {
+   "short": "The island channels C into the side road. C has only one way: to the right.",
+   "rule": "A traffic island may not be crossed. Here it lets every vehicle go only one way: A straight, B and C right.",
+   "trap": "'qualsiasi direzione' (any direction): no, only right.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "C may not go any way: right only",
+    "it": "isola di traffico",
+    "lines": [
+     "Island: may not be crossed",
+     "C: right only"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "isola di traffico",
+    "en": "traffic island"
+   },
+   {
+    "it": "qualsiasi direzione",
+    "en": "any direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20803": {
+  "en": "With the traffic island shown in the picture, vehicle B may turn left, giving way to vehicle A.",
+  "explain": {
+   "short": "B may not turn left at all: the island is in the way. Giving way does not change that.",
+   "rule": "A traffic island may not be crossed. Here it lets every vehicle go only one way: A straight, B and C right.",
+   "trap": "'dando la precedenza' (giving way): sounds polite, but the left turn is still forbidden.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "B may not turn left, even giving way",
+    "it": "svoltare a sinistra",
+    "lines": [
+     "Island blocks the left turn",
+     "B: right only"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "isola di traffico",
+    "en": "traffic island"
+   },
+   {
+    "it": "svoltare a sinistra",
+    "en": "turn left"
+   },
+   {
+    "it": "dando la precedenza",
+    "en": "giving way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20804": {
+  "en": "With the traffic island shown in the picture, vehicle A may turn left, giving way to vehicle C.",
+  "explain": {
+   "short": "To turn left A would cross the island and the solid line. That is forbidden, so A must go straight.",
+   "rule": "A traffic island may not be crossed. Here it lets every vehicle go only one way: A straight, B and C right.",
+   "trap": "'dando la precedenza' (giving way): the turn is forbidden anyway.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A may not turn left, even giving way",
+    "it": "svoltare a sinistra",
+    "lines": [
+     "Island and solid line block A",
+     "A: straight only"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "isola di traffico",
+    "en": "traffic island"
+   },
+   {
+    "it": "svoltare a sinistra",
+    "en": "turn left"
+   },
+   {
+    "it": "dando la precedenza",
+    "en": "giving way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20805": {
+  "en": "With the guide lines in the picture, vehicle C may go straight on.",
+  "explain": {
+   "short": "The guide lines are dashed: they guide but do not force a direction. C may go straight (or turn right).",
+   "rule": "Dashed guide lines only guide you; they do not force a direction. Normal give-way rules still apply.",
+   "trap": "'può' (may): C is free, not forced to turn.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dashed guide lines: C may go straight",
+    "it": "strisce di guida",
+    "lines": [
+     "Dashed guide lines: no obligation",
+     "C may go straight"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strisce di guida",
+    "en": "guide lines"
+   },
+   {
+    "it": "andare diritto",
+    "en": "go straight"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20806": {
+  "en": "With the guide lines in the picture, vehicle B may turn left, but must give way to vehicle A.",
+  "explain": {
+   "short": "Nothing blocks B's left turn. But when it turns left onto the main road it crosses A's path, so it gives way to A.",
+   "rule": "Dashed guide lines only guide you; they do not force a direction. Normal give-way rules still apply.",
+   "trap": "'dando però la precedenza' (but giving way): here the turn is allowed, and giving way is required.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "B may turn left, giving way to A",
+    "it": "precedenza",
+    "lines": [
+     "B may turn left",
+     "B gives way to A"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strisce di guida",
+    "en": "guide lines"
+   },
+   {
+    "it": "svoltare a sinistra",
+    "en": "turn left"
+   },
+   {
+    "it": "precedenza",
+    "en": "right of way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20807": {
+  "en": "With the guide lines in the picture, vehicle A may go in any direction.",
+  "explain": {
+   "short": "There is no island and no solid line in A's way. A may go straight or turn left into the side road.",
+   "rule": "Dashed guide lines only guide you; they do not force a direction. Normal give-way rules still apply.",
+   "trap": "'qualsiasi direzione' (any direction): true here, the lines are only dashed.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A may go any way: dashed lines only",
+    "it": "strisce di guida",
+    "lines": [
+     "No island, no solid line",
+     "A may go any way"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strisce di guida",
+    "en": "guide lines"
+   },
+   {
+    "it": "qualsiasi direzione",
+    "en": "any direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20808": {
+  "en": "With the guide lines in the picture, vehicle C must turn right.",
+  "explain": {
+   "short": "Dashed guide lines do not force a direction. C may turn right, but it may also go straight.",
+   "rule": "Dashed guide lines only guide you; they do not force a direction. Normal give-way rules still apply.",
+   "trap": "'deve' (must): C may turn, it is not forced to.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "C is not forced to turn right",
+    "it": "strisce di guida",
+    "lines": [
+     "Dashed guide lines: no obligation",
+     "C may also go straight"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strisce di guida",
+    "en": "guide lines"
+   },
+   {
+    "it": "deve svoltare a destra",
+    "en": "must turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20809": {
+  "en": "With the guide lines in the picture, vehicle B must turn right.",
+  "explain": {
+   "short": "Nothing blocks B's left turn here. B may turn right or left (giving way to A).",
+   "rule": "Dashed guide lines only guide you; they do not force a direction. Normal give-way rules still apply.",
+   "trap": "'deve' (must): B may also turn left.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "B is not forced right; left is allowed too",
+    "it": "strisce di guida",
+    "lines": [
+     "No island: B may turn left too",
+     "Left turn: give way to A"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strisce di guida",
+    "en": "guide lines"
+   },
+   {
+    "it": "deve svoltare a destra",
+    "en": "must turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20810": {
+  "en": "With the guide lines in the picture, vehicle A must go straight on.",
+  "explain": {
+   "short": "There is no island blocking A. A may go straight or turn left into the side road.",
+   "rule": "Dashed guide lines only guide you; they do not force a direction. Normal give-way rules still apply.",
+   "trap": "'deve andare diritto' (must go straight): A may also turn left.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "A is not forced straight; it may turn left",
+    "it": "strisce di guida",
+    "lines": [
+     "No island: A is free",
+     "A may go straight or left"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strisce di guida",
+    "en": "guide lines"
+   },
+   {
+    "it": "deve andare diritto",
+    "en": "must go straight"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20811": {
+  "en": "All three lanes shown in the picture let the driver go straight on.",
+  "explain": {
+   "short": "Each of the three lanes allows going straight. Left lane: straight or left; middle: straight; right: straight or right.",
+   "rule": "Before a junction: left lane = straight or left, middle = straight only, right = straight or right. Change lane only on dashed lines.",
+   "trap": "'Tutte e tre' (all three): yes, straight is allowed in each lane.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Straight is allowed in all three lanes",
+    "it": "corsie",
+    "lines": [
+     "Left: straight or left",
+     "Middle: straight only",
+     "Right: straight or right"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsie",
+    "en": "lanes"
+   },
+   {
+    "it": "proseguire dritto",
+    "en": "go straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20812": {
+  "en": "The left lane shown in the picture lets the driver go straight on or turn left.",
+  "explain": {
+   "short": "The left lane is for drivers going straight or turning left.",
+   "rule": "Before a junction: left lane = straight or left, middle = straight only, right = straight or right. Change lane only on dashed lines.",
+   "trap": "'dritto o svoltare a sinistra' (straight or left): both are allowed.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left lane: straight or left",
+    "it": "corsia di sinistra",
+    "lines": [
+     "Left lane: straight or left"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di sinistra",
+    "en": "left lane"
+   },
+   {
+    "it": "svoltare a sinistra",
+    "en": "turn left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20813": {
+  "en": "The middle lane shown in the picture lets the driver only go straight on.",
+  "explain": {
+   "short": "The middle lane is between the two turning lanes. From it you may only go straight.",
+   "rule": "Before a junction: left lane = straight or left, middle = straight only, right = straight or right. Change lane only on dashed lines.",
+   "trap": "'solo' (only): here it is right, the middle lane is straight only.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Middle lane: straight only",
+    "it": "corsia di mezzo",
+    "lines": [
+     "Middle lane: straight only"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di mezzo",
+    "en": "middle lane"
+   },
+   {
+    "it": "solo",
+    "en": "only"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20814": {
+  "en": "The right lane shown in the picture lets the driver go straight on or turn right.",
+  "explain": {
+   "short": "The right lane is for drivers going straight or turning right.",
+   "rule": "Before a junction: left lane = straight or left, middle = straight only, right = straight or right. Change lane only on dashed lines.",
+   "trap": "'diritto o svoltare a destra' (straight or right): both are allowed.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right lane: straight or right",
+    "it": "corsia di destra",
+    "lines": [
+     "Right lane: straight or right"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di destra",
+    "en": "right lane"
+   },
+   {
+    "it": "svoltare a destra",
+    "en": "turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20815": {
+  "en": "You may change lane as long as the lines are still broken (dashed).",
+  "explain": {
+   "short": "Dashed lines may be crossed, so you can change lane there. Once the lines become solid, you stay in your lane.",
+   "rule": "Before a junction: left lane = straight or left, middle = straight only, right = straight or right. Change lane only on dashed lines.",
+   "trap": "'finché' (as long as): only while the lines are dashed.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Change lane only while lines are dashed",
+    "it": "tratteggiate",
+    "lines": [
+     "Dashed: you may change lane",
+     "Solid: stay in your lane"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cambiare corsia",
+    "en": "change lane"
+   },
+   {
+    "it": "discontinue",
+    "en": "broken, dashed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20816": {
+  "en": "The vehicle shown in the picture may turn left while staying in the same lane.",
+  "explain": {
+   "short": "The car is in the left lane. The left lane allows a left turn, so it does not need to change lane.",
+   "rule": "Before a junction: left lane = straight or left, middle = straight only, right = straight or right. Change lane only on dashed lines.",
+   "trap": "'rimanendo nella stessa corsia' (staying in the same lane): it is already in the left lane.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Car in the left lane: may turn left",
+    "it": "svoltare a sinistra",
+    "lines": [
+     "Car is in the left lane",
+     "Left lane: straight or left"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "svoltare a sinistra",
+    "en": "turn left"
+   },
+   {
+    "it": "stessa corsia",
+    "en": "same lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20817": {
+  "en": "The left lane shown in the picture lets the driver only turn left.",
+  "explain": {
+   "short": "The left lane allows a left turn, but also going straight.",
+   "rule": "Before a junction: left lane = straight or left, middle = straight only, right = straight or right. Change lane only on dashed lines.",
+   "trap": "'solo' (only): wrong, straight is allowed too.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Left lane: straight too, not left only",
+    "it": "corsia di sinistra",
+    "lines": [
+     "Left lane: straight or left",
+     "Not left only"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di sinistra",
+    "en": "left lane"
+   },
+   {
+    "it": "solo",
+    "en": "only"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20818": {
+  "en": "The right lane shown in the picture is reserved for slow vehicles.",
+  "explain": {
+   "short": "The lanes here are chosen by direction, not by speed. The right lane is for straight or right.",
+   "rule": "Before a junction: left lane = straight or left, middle = straight only, right = straight or right. Change lane only on dashed lines.",
+   "trap": "'riservata ai veicoli lenti' (reserved for slow vehicles): invented, it is about direction.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Right lane is for straight or right, not slow traffic",
+    "it": "corsia di destra",
+    "lines": [
+     "Lanes chosen by direction",
+     "Right lane: straight or right"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di destra",
+    "en": "right lane"
+   },
+   {
+    "it": "veicoli lenti",
+    "en": "slow vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20819": {
+  "en": "The right lane shown in the picture lets the driver only turn right.",
+  "explain": {
+   "short": "The right lane allows a right turn, but also going straight.",
+   "rule": "Before a junction: left lane = straight or left, middle = straight only, right = straight or right. Change lane only on dashed lines.",
+   "trap": "'solo' (only): wrong, straight is allowed too.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Right lane: straight too, not right only",
+    "it": "corsia di destra",
+    "lines": [
+     "Right lane: straight or right",
+     "Not right only"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di destra",
+    "en": "right lane"
+   },
+   {
+    "it": "solo",
+    "en": "only"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20820": {
+  "en": "With the markings shown in the picture, the driver may change lane even by crossing the solid line.",
+  "explain": {
+   "short": "A solid line may never be crossed. You may change lane only where the lines are dashed.",
+   "rule": "Before a junction: left lane = straight or left, middle = straight only, right = straight or right. Change lane only on dashed lines.",
+   "trap": "'anche superando la striscia continua' (even crossing the solid line): never allowed.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never cross the solid line to change lane",
+    "it": "striscia continua",
+    "lines": [
+     "Dashed: you may change lane",
+     "Solid: never cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cambiare corsia",
+    "en": "change lane"
+   },
+   {
+    "it": "striscia continua",
+    "en": "solid line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20821": {
+  "en": "Lanes A, B and C shown in the picture do not let the driver go straight on.",
+  "explain": {
+   "short": "No lane has a straight arrow. A turns left, B turns left or right, C turns right.",
+   "rule": "Arrows in a lane are an order: follow the direction of your lane. Change lane only on dashed lines.",
+   "trap": "'non consentono' (do not allow): right, there is no straight arrow.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No straight arrow in any lane",
+    "it": "frecce",
+    "lines": [
+     "A: left only",
+     "B: left or right",
+     "C: right only"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsie",
+    "en": "lanes"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "go straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20822": {
+  "en": "Lane A shown in the picture lets the driver turn left only.",
+  "explain": {
+   "short": "Lane A has only left-turn arrows. From A you may only turn left.",
+   "rule": "Arrows in a lane are an order: follow the direction of your lane. Change lane only on dashed lines.",
+   "trap": "'solo a sinistra' (left only): yes, A has only left arrows.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lane A: left only",
+    "it": "corsia A",
+    "lines": [
+     "Lane A arrows: left only"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia A",
+    "en": "lane A"
+   },
+   {
+    "it": "solo a sinistra",
+    "en": "left only"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20823": {
+  "en": "With the markings in the picture, the driver may change lane where the lane lines are still broken (dashed).",
+  "explain": {
+   "short": "Dashed lane lines may be crossed. Where they become solid, near the junction, you stay in your lane.",
+   "rule": "Arrows in a lane are an order: follow the direction of your lane. Change lane only on dashed lines.",
+   "trap": "'ancora discontinue' (still dashed): only there.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Change lane only on the dashed part",
+    "it": "tratteggiate",
+    "lines": [
+     "Dashed: you may change lane",
+     "Solid: stay in your lane"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cambiare corsia",
+    "en": "change lane"
+   },
+   {
+    "it": "discontinue",
+    "en": "broken, dashed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20824": {
+  "en": "Lanes A, B and C shown in the picture are two-way.",
+  "explain": {
+   "short": "All the arrows point the same way, towards the junction. The three lanes go in one direction only.",
+   "rule": "Arrows in a lane are an order: follow the direction of your lane. Change lane only on dashed lines.",
+   "trap": "'doppio senso' (two-way): no, all lanes go the same way.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "All three lanes go the same way",
+    "it": "doppio senso",
+    "lines": [
+     "All arrows point to the junction",
+     "One direction only"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "doppio senso di circolazione",
+    "en": "two-way traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20825": {
+  "en": "Lanes A, B and C shown in the picture let the driver go in all directions.",
+  "explain": {
+   "short": "No lane allows going straight. A only left, B left or right, C only right.",
+   "rule": "Arrows in a lane are an order: follow the direction of your lane. Change lane only on dashed lines.",
+   "trap": "'tutte le direzioni' (all directions): straight is missing.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Not all directions: no straight",
+    "it": "frecce",
+    "lines": [
+     "A: left only",
+     "B: left or right",
+     "C: right only"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tutte le direzioni",
+    "en": "all directions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20826": {
+  "en": "Lane B shown in the picture lets the driver turn and go straight on.",
+  "explain": {
+   "short": "Lane B's arrows point left and right only. You may turn, but not go straight.",
+   "rule": "Arrows in a lane are an order: follow the direction of your lane. Change lane only on dashed lines.",
+   "trap": "'e di proseguire diritto' (and go straight): no straight arrow in B.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Lane B: left or right, not straight",
+    "it": "corsia B",
+    "lines": [
+     "Lane B arrows: left or right",
+     "No straight"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia B",
+    "en": "lane B"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "go straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20827": {
+  "en": "Lane A shown in the picture lets the driver only turn left.",
+  "explain": {
+   "short": "Lane A has only left-turn arrows. From A you may only turn left.",
+   "rule": "Each lane goes only where its arrows point: A left, B straight or left, C straight or right.",
+   "trap": "'solo' (only): right here, A is left only.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lane A: left only",
+    "it": "corsia A",
+    "lines": [
+     "A: left only",
+     "B: straight or left",
+     "C: straight or right"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia A",
+    "en": "lane A"
+   },
+   {
+    "it": "solo",
+    "en": "only"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20828": {
+  "en": "Lane B shown in the picture lets the driver go straight on and turn left.",
+  "explain": {
+   "short": "Lane B's arrows point straight and left. Both are allowed.",
+   "rule": "Each lane goes only where its arrows point: A left, B straight or left, C straight or right.",
+   "trap": "'diritto e di svoltare a sinistra' (straight and left): both arrows are there.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lane B: straight or left",
+    "it": "corsia B",
+    "lines": [
+     "Lane B arrows: straight or left"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia B",
+    "en": "lane B"
+   },
+   {
+    "it": "svoltare a sinistra",
+    "en": "turn left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20829": {
+  "en": "With the markings in the picture, lane C is the only one that lets you turn right.",
+  "explain": {
+   "short": "Only lane C has a right-turn arrow. A turns left, B goes straight or left.",
+   "rule": "Each lane goes only where its arrows point: A left, B straight or left, C straight or right.",
+   "trap": "'l'unica' (the only one): yes, only C has a right arrow.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only lane C turns right",
+    "it": "corsia C",
+    "lines": [
+     "A: left only",
+     "B: straight or left",
+     "C: straight or right"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia C",
+    "en": "lane C"
+   },
+   {
+    "it": "l'unica",
+    "en": "the only one"
+   },
+   {
+    "it": "svoltare a destra",
+    "en": "turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20830": {
+  "en": "With the markings in the picture, you may change lane as long as the lines are still broken (dashed).",
+  "explain": {
+   "short": "Dashed lines may be crossed. Where they become solid, near the junction, you stay in your lane.",
+   "rule": "Each lane goes only where its arrows point: A left, B straight or left, C straight or right.",
+   "trap": "'fino a che' (as long as): only while the lines are dashed.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Change lane only on the dashed part",
+    "it": "tratteggiate",
+    "lines": [
+     "Dashed: you may change lane",
+     "Solid: stay in your lane"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cambiare corsia",
+    "en": "change lane"
+   },
+   {
+    "it": "discontinue",
+    "en": "broken, dashed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20831": {
+  "en": "All three lanes shown in the picture let the driver go straight on.",
+  "explain": {
+   "short": "Lane A has only left arrows. Only B and C allow going straight.",
+   "rule": "Each lane goes only where its arrows point: A left, B straight or left, C straight or right.",
+   "trap": "'Tutte e tre' (all three): A does not allow straight.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Lane A: left only, not straight",
+    "it": "corsia A",
+    "lines": [
+     "A: left only",
+     "B: straight or left",
+     "C: straight or right"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsie",
+    "en": "lanes"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "go straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20832": {
+  "en": "With the markings in the picture, lane A is the only one that lets you turn left.",
+  "explain": {
+   "short": "Lane B also has a left arrow. So both A and B allow a left turn.",
+   "rule": "Each lane goes only where its arrows point: A left, B straight or left, C straight or right.",
+   "trap": "'l'unica' (the only one): no, B turns left too.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Left turn from A and also from B",
+    "it": "corsia A",
+    "lines": [
+     "A: left only",
+     "B: straight or left",
+     "C: straight or right"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia A",
+    "en": "lane A"
+   },
+   {
+    "it": "l'unica",
+    "en": "the only one"
+   },
+   {
+    "it": "svoltare a sinistra",
+    "en": "turn left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20833": {
+  "en": "Lane B shown in the picture lets the driver only go straight on.",
+  "explain": {
+   "short": "Lane B's arrows point straight and left. You may also turn left from B.",
+   "rule": "Each lane goes only where its arrows point: A left, B straight or left, C straight or right.",
+   "trap": "'solo' (only): wrong, B also turns left.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Lane B: straight or left, not straight only",
+    "it": "corsia B",
+    "lines": [
+     "Lane B arrows: straight or left",
+     "Not straight only"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia B",
+    "en": "lane B"
+   },
+   {
+    "it": "solo",
+    "en": "only"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20834": {
+  "en": "Lane C shown in the picture lets the driver only turn right.",
+  "explain": {
+   "short": "Lane C's arrows point straight and right. You may also go straight from C.",
+   "rule": "Each lane goes only where its arrows point: A left, B straight or left, C straight or right.",
+   "trap": "'solo' (only): wrong, C also goes straight.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Lane C: straight or right, not right only",
+    "it": "corsia C",
+    "lines": [
+     "Lane C arrows: straight or right",
+     "Not right only"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia C",
+    "en": "lane C"
+   },
+   {
+    "it": "solo",
+    "en": "only"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

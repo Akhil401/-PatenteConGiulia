@@ -1,0 +1,452 @@
+{
+ "q21598": {
+  "short": "SOS indica un apparecchio per chiedere aiuto sulla strada.",
+  "rule": "Quadrato rosso con «SOS» = colonnina per chiamare il soccorso stradale. È posto proprio sulla colonnina.",
+  "trap": "«richiesta di soccorso stradale» è proprio lo scopo dell'SOS.",
+  "caption": "SOS: colonnina per il soccorso stradale"
+ },
+ "q21599": {
+  "short": "Il segnale SOS è messo sulla colonnina, così la trovi subito.",
+  "rule": "Quadrato rosso con «SOS» = colonnina per chiamare il soccorso stradale. È posto proprio sulla colonnina.",
+  "trap": "«è posto su» è giusto: il segnale sta sull'apparecchio.",
+  "caption": "Il segnale SOS sta sulla colonnina"
+ },
+ "q21600": {
+  "short": "SOS = un apparecchio per chiamare il soccorso in caso di bisogno.",
+  "rule": "Quadrato rosso con «SOS» = colonnina per chiamare il soccorso stradale. È posto proprio sulla colonnina.",
+  "trap": "«apparecchio» è un'altra parola per dispositivo.",
+  "caption": "SOS: apparecchio per chiamare soccorso"
+ },
+ "q21601": {
+  "short": "SOS indica una colonnina di soccorso, non un ospedale. L'ospedale ha una H bianca su blu.",
+  "rule": "Quadrato rosso con «SOS» = colonnina per chiamare il soccorso stradale. È posto proprio sulla colonnina.",
+  "trap": "«zona ospedaliera» è un altro segnale.",
+  "caption": "SOS = colonnina, non zona ospedaliera"
+ },
+ "q21602": {
+  "short": "SOS serve solo per chiamare il soccorso stradale, non è un telefono pubblico.",
+  "rule": "Quadrato rosso con «SOS» = colonnina per chiamare il soccorso stradale. È posto proprio sulla colonnina.",
+  "trap": "il «telefono pubblico» ha un suo segnale.",
+  "caption": "SOS = soccorso, non telefono pubblico"
+ },
+ "q21603": {
+  "short": "SOS indica una colonnina di soccorso, non un posto per ambulanze.",
+  "rule": "Quadrato rosso con «SOS» = colonnina per chiamare il soccorso stradale. È posto proprio sulla colonnina.",
+  "trap": "«area di sosta per ambulanze»: il segnale non dice questo.",
+  "caption": "SOS = colonnina, non sosta ambulanze"
+ },
+ "q21604": {
+  "short": "SOS non riguarda le scuole: indica una colonnina di soccorso.",
+  "rule": "Quadrato rosso con «SOS» = colonnina per chiamare il soccorso stradale. È posto proprio sulla colonnina.",
+  "trap": "«scuola secondaria statale» è inventato.",
+  "caption": "SOS = colonnina, non una scuola"
+ },
+ "q21605": {
+  "short": "Il segnale è all'inizio della strada: sai subito che dovrai tornare indietro.",
+  "rule": "Quadrato blu, T bianca con la parte alta rossa = strada senza uscita per i veicoli. Informa e basta, non vieta niente.",
+  "trap": "«all'inizio» è giusto: lo vedi prima di entrare.",
+  "caption": "Senza uscita: all'inizio della strada"
+ },
+ "q21606": {
+  "short": "La strada non ha uscita per nessun veicolo, anche per le moto.",
+  "rule": "Quadrato blu, T bianca con la parte alta rossa = strada senza uscita per i veicoli. Informa e basta, non vieta niente.",
+  "trap": "«anche» è giusto: le moto sono veicoli.",
+  "caption": "Senza uscita anche per le moto"
+ },
+ "q21607": {
+  "short": "La barra rossa sopra la T mostra che la strada è chiusa in fondo.",
+  "rule": "Quadrato blu, T bianca con la parte alta rossa = strada senza uscita per i veicoli. Informa e basta, non vieta niente.",
+  "trap": "«senza sbocco» vuol dire «senza uscita».",
+  "caption": "Strada senza sbocco per i veicoli"
+ },
+ "q21608": {
+  "short": "È un segnale di indicazione: dice solo che la strada non ha uscita. Non vieta niente.",
+  "rule": "Quadrato blu, T bianca con la parte alta rossa = strada senza uscita per i veicoli. Informa e basta, non vieta niente.",
+  "trap": "«vieta la sosta»: il divieto di sosta è un altro segnale, rotondo.",
+  "caption": "Senza uscita: nessun divieto di sosta"
+ },
+ "q21609": {
+  "short": "La T indica una strada senza uscita. L'incrocio a T è un triangolo di pericolo.",
+  "rule": "Quadrato blu, T bianca con la parte alta rossa = strada senza uscita per i veicoli. Informa e basta, non vieta niente.",
+  "trap": "«incrocio a forma di T»: la parte rossa in alto vuol dire strada chiusa.",
+  "caption": "Non incrocio a T: strada senza uscita"
+ },
+ "q21610": {
+  "short": "La T bianca riguarda la strada, non una tabaccheria.",
+  "rule": "Quadrato blu, T bianca con la parte alta rossa = strada senza uscita per i veicoli. Informa e basta, non vieta niente.",
+  "trap": "«tabaccheria»: la T dei tabacchi non è un segnale stradale.",
+  "caption": "T = senza uscita, non tabaccheria"
+ },
+ "q21611": {
+  "short": "Il segnale vuol dire strada senza uscita. I lavori hanno un triangolo con un operaio.",
+  "rule": "Quadrato blu, T bianca con la parte alta rossa = strada senza uscita per i veicoli. Informa e basta, non vieta niente.",
+  "trap": "«lavori in corso» è un segnale di pericolo, non questo blu.",
+  "caption": "Senza uscita, non lavori in corso"
+ },
+ "q21612": {
+  "short": "Non vieta niente. In una strada senza uscita devi proprio tornare indietro.",
+  "rule": "Quadrato blu, T bianca con la parte alta rossa = strada senza uscita per i veicoli. Informa e basta, non vieta niente.",
+  "trap": "«vieta l'inversione di marcia»: è il contrario, dovrai girarti.",
+  "caption": "Senza uscita: nessun divieto di inversione"
+ },
+ "q21613": {
+  "short": "Non è un divieto e la strada è senza uscita solo per i veicoli. I pedoni spesso passano.",
+  "rule": "Quadrato blu, T bianca con la parte alta rossa = strada senza uscita per i veicoli. Informa e basta, non vieta niente.",
+  "trap": "«vieta di entrare anche ai pedoni»: non vieta niente a nessuno.",
+  "caption": "Senza uscita per veicoli; pedoni non vietati"
+ },
+ "q21614": {
+  "short": "Il ramo di destra finisce in rosso: quella strada non ha uscita per i veicoli.",
+  "rule": "La fine rossa del ramo a destra = la strada a destra è senza uscita per i veicoli. Puoi svoltare a destra o andare diritto.",
+  "trap": "«la strada di destra» è giusto: la parte rossa è sul ramo di destra.",
+  "caption": "La strada a destra è senza uscita"
+ },
+ "q21615": {
+  "short": "È solo un'informazione: puoi svoltare a destra, sai solo che la strada non ha uscita.",
+  "rule": "La fine rossa del ramo a destra = la strada a destra è senza uscita per i veicoli. Puoi svoltare a destra o andare diritto.",
+  "trap": "«consente» è giusto: un segnale di indicazione non vieta niente.",
+  "caption": "Svolta a destra permessa (strada chiusa)"
+ },
+ "q21616": {
+  "short": "La strada principale continua diritta; solo quella a destra è chiusa.",
+  "rule": "La fine rossa del ramo a destra = la strada a destra è senza uscita per i veicoli. Puoi svoltare a destra o andare diritto.",
+  "trap": "«proseguire diritto» è permesso: la strada diritta è aperta.",
+  "caption": "Puoi proseguire diritto"
+ },
+ "q21617": {
+  "short": "La strada a destra è senza uscita per tutti i veicoli, anche per le moto.",
+  "rule": "La fine rossa del ramo a destra = la strada a destra è senza uscita per i veicoli. Puoi svoltare a destra o andare diritto.",
+  "trap": "«anche» è giusto: le moto sono veicoli.",
+  "caption": "Vale anche per le moto"
+ },
+ "q21618": {
+  "short": "Un quadrato blu che ti informa sulla strada è un segnale di indicazione.",
+  "rule": "La fine rossa del ramo a destra = la strada a destra è senza uscita per i veicoli. Puoi svoltare a destra o andare diritto.",
+  "trap": "«segnali di indicazione» è giusto: informa, non comanda.",
+  "caption": "È un segnale di indicazione"
+ },
+ "q21619": {
+  "short": "È un segnale di indicazione: non vieta niente, nemmeno l'inversione.",
+  "rule": "La fine rossa del ramo a destra = la strada a destra è senza uscita per i veicoli. Puoi svoltare a destra o andare diritto.",
+  "trap": "«vieta»: i segnali di indicazione non vietano.",
+  "caption": "Nessun divieto: solo strada chiusa a destra"
+ },
+ "q21620": {
+  "short": "Puoi svoltare a destra: il segnale dice solo che la strada non ha uscita.",
+  "rule": "La fine rossa del ramo a destra = la strada a destra è senza uscita per i veicoli. Puoi svoltare a destra o andare diritto.",
+  "trap": "«vieta la svolta a destra» è un segnale rotondo rosso, non questo.",
+  "caption": "Svolta permessa: solo strada senza uscita"
+ },
+ "q21621": {
+  "short": "La parte rossa indica una strada chiusa, non una piazzola.",
+  "rule": "La fine rossa del ramo a destra = la strada a destra è senza uscita per i veicoli. Puoi svoltare a destra o andare diritto.",
+  "trap": "la «piazzola di sosta» ha un suo segnale con la P.",
+  "caption": "Strada chiusa a destra, non piazzola"
+ },
+ "q21622": {
+  "short": "Il parcheggio ha una P bianca su blu. Qui c'è una strada senza uscita.",
+  "rule": "La fine rossa del ramo a destra = la strada a destra è senza uscita per i veicoli. Puoi svoltare a destra o andare diritto.",
+  "trap": "«area di parcheggio»: sul segnale non c'è la P.",
+  "caption": "Strada chiusa a destra, non parcheggio"
+ },
+ "q21623": {
+  "short": "La strada a destra è chiusa per i veicoli; i pedoni spesso possono passare.",
+  "rule": "La fine rossa del ramo a destra = la strada a destra è senza uscita per i veicoli. Puoi svoltare a destra o andare diritto.",
+  "trap": "«anche per i pedoni»: il segnale riguarda solo i veicoli.",
+  "caption": "Senza uscita per veicoli, non pedoni"
+ },
+ "q21624": {
+  "short": "Un quadrato blu con un numero è una velocità consigliata: un consiglio, non un limite.",
+  "rule": "Quadrato blu con un numero = velocità consigliata. È solo un consiglio; vale sempre il limite di legge della strada.",
+  "trap": "«si consiglia» è la chiave: un consiglio, non un ordine.",
+  "caption": "Velocità consigliata: meglio non superare 60"
+ },
+ "q21625": {
+  "short": "50 è meno dei 60 consigliati, quindi va bene. Niente ti obbliga ad andare più veloce.",
+  "rule": "Quadrato blu con un numero = velocità consigliata. È solo un consiglio; vale sempre il limite di legge della strada.",
+  "trap": "«consente»: andare più piano del consiglio è sempre permesso.",
+  "caption": "50 km/h va bene: sotto i 60 consigliati"
+ },
+ "q21626": {
+  "short": "Un pannello sotto il segnale può dire quanto è lungo il tratto.",
+  "rule": "Quadrato blu con un numero = velocità consigliata. È solo un consiglio; vale sempre il limite di legge della strada.",
+  "trap": "«può essere abbinato» è giusto: il pannello di lunghezza è permesso.",
+  "caption": "Pannello: lunghezza del tratto"
+ },
+ "q21627": {
+  "short": "Con una barra rossa obliqua, lo stesso segnale dice che il consiglio finisce.",
+  "rule": "Quadrato blu con un numero = velocità consigliata. È solo un consiglio; vale sempre il limite di legge della strada.",
+  "trap": "«barrato da una striscia rossa» = fine del consiglio.",
+  "caption": "Barra rossa = fine velocità consigliata"
+ },
+ "q21628": {
+  "short": "È solo un consiglio. Fuori città il limite è 90 km/h, quindi 70 è permesso.",
+  "rule": "Quadrato blu con un numero = velocità consigliata. È solo un consiglio; vale sempre il limite di legge della strada.",
+  "trap": "«consente»: la velocità consigliata non è un limite.",
+  "caption": "Solo consiglio: 70 km/h permessi fuori città"
+ },
+ "q21629": {
+  "short": "Il numero è una velocità consigliata, non un peso. I limiti di peso sono rotondi rossi con la «t».",
+  "rule": "Quadrato blu con un numero = velocità consigliata. È solo un consiglio; vale sempre il limite di legge della strada.",
+  "trap": "«60 tonnellate»: non c'è la «t» e il segnale è blu.",
+  "caption": "60 = km/h consigliati, non tonnellate"
+ },
+ "q21630": {
+  "short": "Il limite minimo è un cerchio blu. Questo quadrato blu è solo una velocità consigliata.",
+  "rule": "Quadrato blu con un numero = velocità consigliata. È solo un consiglio; vale sempre il limite di legge della strada.",
+  "trap": "«limite minimo»: quadrato = consiglio, cerchio = obbligo.",
+  "caption": "Velocità consigliata, non limite minimo"
+ },
+ "q21631": {
+  "short": "Non vieta niente: dà solo un consiglio. Il limite è un cerchio con il bordo rosso.",
+  "rule": "Quadrato blu con un numero = velocità consigliata. È solo un consiglio; vale sempre il limite di legge della strada.",
+  "trap": "«vieta»: la velocità consigliata non vieta mai.",
+  "caption": "Solo consiglio: nessun divieto"
+ },
+ "q21632": {
+  "short": "Il numero è una velocità in km/h, non una distanza in metri.",
+  "rule": "Quadrato blu con un numero = velocità consigliata. È solo un consiglio; vale sempre il limite di legge della strada.",
+  "trap": "«distanza di sicurezza»: il segnale indica una velocità consigliata.",
+  "caption": "Velocità consigliata, non distanza"
+ },
+ "q21633": {
+  "short": "Puoi sempre andare più piano della velocità consigliata. Il limite minimo è un cerchio blu.",
+  "rule": "Quadrato blu con un numero = velocità consigliata. È solo un consiglio; vale sempre il limite di legge della strada.",
+  "trap": "«non è possibile viaggiare ad una velocità più bassa» descrive un limite minimo.",
+  "caption": "Andare più piano è permesso"
+ },
+ "q21634": {
+  "short": "I cippi chilometrici sono diversi. Questo quadrato blu è una velocità consigliata.",
+  "rule": "Quadrato blu con un numero = velocità consigliata. È solo un consiglio; vale sempre il limite di legge della strada.",
+  "trap": "«chilometri già fatti»: il numero è in km/h, non in km.",
+  "caption": "Velocità consigliata, non chilometri"
+ },
+ "q21635": {
+  "short": "L'auto bianca su blu indica una strada solo per veicoli con il motore.",
+  "rule": "Quadrato blu con l'auto bianca = strada solo per veicoli a motore. Vietata a biciclette e veicoli senza motore.",
+  "trap": "«soli veicoli a motore» è proprio il significato.",
+  "caption": "Strada solo per veicoli a motore"
+ },
+ "q21636": {
+  "short": "La bicicletta non ha motore, quindi non può usare questa strada.",
+  "rule": "Quadrato blu con l'auto bianca = strada solo per veicoli a motore. Vietata a biciclette e veicoli senza motore.",
+  "trap": "«vieta» qui è giusto: la bici non è un veicolo a motore.",
+  "caption": "Vietato alle biciclette"
+ },
+ "q21637": {
+  "short": "Lo vedi dove comincia la strada per veicoli a motore.",
+  "rule": "Quadrato blu con l'auto bianca = strada solo per veicoli a motore. Vietata a biciclette e veicoli senza motore.",
+  "trap": "«all'inizio» è giusto; con la barra rossa indica la fine.",
+  "caption": "Posto all'inizio della strada"
+ },
+ "q21638": {
+  "short": "Solo i veicoli a motore possono passare: quelli senza motore sono vietati.",
+  "rule": "Quadrato blu con l'auto bianca = strada solo per veicoli a motore. Vietata a biciclette e veicoli senza motore.",
+  "trap": "«senza motore»: bici, carri e simili non possono entrare.",
+  "caption": "Vietato ai veicoli senza motore"
+ },
+ "q21639": {
+  "short": "L'autobus ha il motore, quindi può usare la strada.",
+  "rule": "Quadrato blu con l'auto bianca = strada solo per veicoli a motore. Vietata a biciclette e veicoli senza motore.",
+  "trap": "«consente» è giusto: l'autobus è un veicolo a motore.",
+  "caption": "Autobus permessi"
+ },
+ "q21640": {
+  "short": "Con una barra rossa obliqua indica la fine della strada per veicoli a motore.",
+  "rule": "Quadrato blu con l'auto bianca = strada solo per veicoli a motore. Vietata a biciclette e veicoli senza motore.",
+  "trap": "«barrato da una striscia rossa» = fine.",
+  "caption": "Barra rossa = fine della strada"
+ },
+ "q21641": {
+  "short": "È per tutti i veicoli a motore, non solo per i taxi.",
+  "rule": "Quadrato blu con l'auto bianca = strada solo per veicoli a motore. Vietata a biciclette e veicoli senza motore.",
+  "trap": "«solo ai taxi» è troppo stretto: possono passare tutti i veicoli a motore.",
+  "caption": "Tutti i veicoli a motore, non solo taxi"
+ },
+ "q21642": {
+  "short": "Non c'è la P: indica una strada per veicoli a motore, non un parcheggio.",
+  "rule": "Quadrato blu con l'auto bianca = strada solo per veicoli a motore. Vietata a biciclette e veicoli senza motore.",
+  "trap": "«parcheggio»: il parcheggio ha la P bianca.",
+  "caption": "Una strada, non un parcheggio"
+ },
+ "q21643": {
+  "short": "La bicicletta non ha motore, quindi è vietata su questa strada.",
+  "rule": "Quadrato blu con l'auto bianca = strada solo per veicoli a motore. Vietata a biciclette e veicoli senza motore.",
+  "trap": "«consente ad una bicicletta»: è il contrario.",
+  "caption": "Le biciclette sono vietate"
+ },
+ "q21644": {
+  "short": "L'autocarro ha il motore, quindi può usare la strada.",
+  "rule": "Quadrato blu con l'auto bianca = strada solo per veicoli a motore. Vietata a biciclette e veicoli senza motore.",
+  "trap": "«autocarro» è un veicolo a motore: è permesso.",
+  "caption": "Autocarri permessi"
+ },
+ "q21645": {
+  "short": "Il segnale galleria è all'ingresso della galleria.",
+  "rule": "Quadrato verde con galleria = galleria autostradale. Non fermarti dentro; motore spento se fermo a lungo; volante saldo all'uscita.",
+  "trap": "«all'inizio di una galleria» è giusto.",
+  "caption": "Segnale galleria all'ingresso"
+ },
+ "q21646": {
+  "short": "Il fondo verde = autostrada, e il disegno è una galleria.",
+  "rule": "Quadrato verde con galleria = galleria autostradale. Non fermarti dentro; motore spento se fermo a lungo; volante saldo all'uscita.",
+  "trap": "«autostradale» viene dal colore verde.",
+  "caption": "Verde = galleria in autostrada"
+ },
+ "q21647": {
+  "short": "In galleria i gas di scarico si accumulano: se resti fermo a lungo spegni il motore.",
+  "rule": "Quadrato verde con galleria = galleria autostradale. Non fermarti dentro; motore spento se fermo a lungo; volante saldo all'uscita.",
+  "trap": "«arresto prolungato» è il caso giusto: motore spento.",
+  "caption": "Fermo a lungo in galleria: motore spento"
+ },
+ "q21648": {
+  "short": "Fermarsi in galleria è pericoloso: non si può, salvo diversa segnalazione.",
+  "rule": "Quadrato verde con galleria = galleria autostradale. Non fermarti dentro; motore spento se fermo a lungo; volante saldo all'uscita.",
+  "trap": "«salvo diversa segnalazione» rende la frase giusta.",
+  "caption": "In galleria: niente sosta né fermata"
+ },
+ "q21649": {
+  "short": "Quando esci dalla galleria il vento laterale può spingere l'auto: tieni bene il volante.",
+  "rule": "Quadrato verde con galleria = galleria autostradale. Non fermarti dentro; motore spento se fermo a lungo; volante saldo all'uscita.",
+  "trap": "«all'uscita della galleria» è dove arriva il vento.",
+  "caption": "Uscita galleria: volante saldo per il vento"
+ },
+ "q21650": {
+  "short": "Indica una galleria da attraversare, non una strada chiusa.",
+  "rule": "Quadrato verde con galleria = galleria autostradale. Non fermarti dentro; motore spento se fermo a lungo; volante saldo all'uscita.",
+  "trap": "«strada chiusa»: la galleria è aperta.",
+  "caption": "Galleria, non strada chiusa"
+ },
+ "q21651": {
+  "short": "Indica una galleria. I lavori hanno un triangolo con un operaio.",
+  "rule": "Quadrato verde con galleria = galleria autostradale. Non fermarti dentro; motore spento se fermo a lungo; volante saldo all'uscita.",
+  "trap": "«lavori in corso» è un segnale di pericolo, non questo verde.",
+  "caption": "Galleria, non lavori in corso"
+ },
+ "q21652": {
+  "short": "Il segnale dice solo «galleria»; non dice niente sulle luci.",
+  "rule": "Quadrato verde con galleria = galleria autostradale. Non fermarti dentro; motore spento se fermo a lungo; volante saldo all'uscita.",
+  "trap": "«non illuminata»: il nero è solo il disegno dell'ingresso.",
+  "caption": "Non dice niente sulle luci"
+ },
+ "q21653": {
+  "short": "Non c'è nessun numero: è un segnale che indica una galleria. Il limite di altezza è rotondo rosso.",
+  "rule": "Quadrato verde con galleria = galleria autostradale. Non fermarti dentro; motore spento se fermo a lungo; volante saldo all'uscita.",
+  "trap": "«3,5 metri di altezza»: sul segnale non c'è nessuna altezza.",
+  "caption": "Galleria, non limite di altezza"
+ },
+ "q21654": {
+  "short": "Il disegno è l'ingresso di una galleria. Il ponte ha una strada sopra un arco.",
+  "rule": "Quadrato verde con galleria = galleria autostradale. Non fermarti dentro; motore spento se fermo a lungo; volante saldo all'uscita.",
+  "trap": "«ponte» è un altro segnale verde.",
+  "caption": "Galleria, non ponte"
+ },
+ "q21655": {
+  "short": "È un segnale che informa su una galleria: non vieta niente.",
+  "rule": "Quadrato verde con galleria = galleria autostradale. Non fermarti dentro; motore spento se fermo a lungo; volante saldo all'uscita.",
+  "trap": "«vieta il sorpasso» è un segnale rotondo con due auto.",
+  "caption": "Galleria: nessun divieto di sorpasso"
+ },
+ "q21656": {
+  "short": "Il disegno è una strada sopra un arco: qui comincia un ponte, viadotto o cavalcavia.",
+  "rule": "Quadrato verde con il ponte = inizio di un ponte, viadotto o cavalcavia. Attenzione al vento laterale.",
+  "trap": "«ponte, viadotto, cavalcavia» sono tutte strade sopra qualcosa.",
+  "caption": "Inizio di ponte, viadotto o cavalcavia"
+ },
+ "q21657": {
+  "short": "Un pannello sotto il segnale può dire quanto è lungo il cavalcavia.",
+  "rule": "Quadrato verde con il ponte = inizio di un ponte, viadotto o cavalcavia. Attenzione al vento laterale.",
+  "trap": "«può essere abbinato» è giusto.",
+  "caption": "Pannello: lunghezza del cavalcavia"
+ },
+ "q21658": {
+  "short": "Sul ponte non c'è riparo: il vento forte colpisce l'auto.",
+  "rule": "Quadrato verde con il ponte = inizio di un ponte, viadotto o cavalcavia. Attenzione al vento laterale.",
+  "trap": "«forte vento» è un vero pericolo sui ponti.",
+  "caption": "Sul ponte: attenzione al vento forte"
+ },
+ "q21659": {
+  "short": "Sul ponte il vento laterale può spostarti: tieni bene il volante.",
+  "rule": "Quadrato verde con il ponte = inizio di un ponte, viadotto o cavalcavia. Attenzione al vento laterale.",
+  "trap": "«vento laterale» è il pericolo su un ponte aperto.",
+  "caption": "Volante saldo contro il vento laterale"
+ },
+ "q21660": {
+  "short": "È un segnale che informa su un ponte: non comanda niente.",
+  "rule": "Quadrato verde con il ponte = inizio di un ponte, viadotto o cavalcavia. Attenzione al vento laterale.",
+  "trap": "«prescrive il divieto di sorpasso» è un segnale rotondo rosso.",
+  "caption": "Ponte: nessun divieto di sorpasso"
+ },
+ "q21661": {
+  "short": "Il disegno è una strada sopra un arco (ponte). La galleria ha un'apertura nera.",
+  "rule": "Quadrato verde con il ponte = inizio di un ponte, viadotto o cavalcavia. Attenzione al vento laterale.",
+  "trap": "«galleria» è un altro segnale verde.",
+  "caption": "Ponte, non galleria"
+ },
+ "q21662": {
+  "short": "Guidi SOPRA il ponte (la strada bianca in alto), non sotto.",
+  "rule": "Quadrato verde con il ponte = inizio di un ponte, viadotto o cavalcavia. Attenzione al vento laterale.",
+  "trap": "«sotto un ponte»: la strada è disegnata sopra l'arco.",
+  "caption": "Passi sopra il ponte, non sotto"
+ },
+ "q21663": {
+  "short": "Il ciclista bianco su quadrato blu indica un punto dove le bici attraversano.",
+  "rule": "Quadrato blu con ciclista = attraversamento ciclabile. Dai la precedenza ai ciclisti sulle strisce.",
+  "trap": "«attraversamento ciclabile» è proprio il significato.",
+  "caption": "Attraversamento ciclabile"
+ },
+ "q21664": {
+  "short": "Il segnale è proprio dove sono dipinte le strisce.",
+  "rule": "Quadrato blu con ciclista = attraversamento ciclabile. Dai la precedenza ai ciclisti sulle strisce.",
+  "trap": "«in corrispondenza» è giusto: sulle strisce.",
+  "caption": "Posto sulle strisce ciclabili"
+ },
+ "q21665": {
+  "short": "I ciclisti sulle strisce passano prima: rallenta e lasciali attraversare.",
+  "rule": "Quadrato blu con ciclista = attraversamento ciclabile. Dai la precedenza ai ciclisti sulle strisce.",
+  "trap": "«dare la precedenza ai ciclisti» è giusto, se sono sulle strisce.",
+  "caption": "Precedenza ai ciclisti sulle strisce"
+ },
+ "q21666": {
+  "short": "Il segnale e le strisce dipinte insieme indicano l'attraversamento.",
+  "rule": "Quadrato blu con ciclista = attraversamento ciclabile. Dai la precedenza ai ciclisti sulle strisce.",
+  "trap": "«abbinato» è giusto: segnale più strisce.",
+  "caption": "Segnale + strisce = attraversamento"
+ },
+ "q21667": {
+  "short": "Qui possono attraversare dei ciclisti: rallenta e guarda bene.",
+  "rule": "Quadrato blu con ciclista = attraversamento ciclabile. Dai la precedenza ai ciclisti sulle strisce.",
+  "trap": "«usare prudenza» è giusto: possono arrivare bici.",
+  "caption": "Prudenza: possono attraversare ciclisti"
+ },
+ "q21668": {
+  "short": "Non vieta niente a nessuno: indica dove attraversano le bici.",
+  "rule": "Quadrato blu con ciclista = attraversamento ciclabile. Dai la precedenza ai ciclisti sulle strisce.",
+  "trap": "«vieta il transito»: questo segnale non vieta niente.",
+  "caption": "Attraversamento ciclabile: nessun divieto"
+ },
+ "q21669": {
+  "short": "È il contrario: indica dove attraversano i ciclisti. Il divieto per le bici è rotondo rosso.",
+  "rule": "Quadrato blu con ciclista = attraversamento ciclabile. Dai la precedenza ai ciclisti sulle strisce.",
+  "trap": "«vieta il transito ai ciclisti»: un quadrato blu non vieta.",
+  "caption": "Ciclisti non vietati: attraversano qui"
+ },
+ "q21670": {
+  "short": "La pista ciclabile è un cerchio blu. Questo quadrato è un attraversamento ciclabile.",
+  "rule": "Quadrato blu con ciclista = attraversamento ciclabile. Dai la precedenza ai ciclisti sulle strisce.",
+  "trap": "«pista ciclabile»: cerchio = pista, quadrato = attraversamento.",
+  "caption": "Attraversamento, non pista ciclabile"
+ },
+ "q21671": {
+  "short": "Non dà direzioni ai ciclisti: indica solo un attraversamento ciclabile.",
+  "rule": "Quadrato blu con ciclista = attraversamento ciclabile. Dai la precedenza ai ciclisti sulle strisce.",
+  "trap": "«svoltare a sinistra»: sul segnale non c'è nessuna freccia.",
+  "caption": "Nessuna direzione: solo attraversamento"
+ },
+ "q21672": {
+  "short": "È il contrario: chi guida dà la precedenza ai ciclisti sulle strisce.",
+  "rule": "Quadrato blu con ciclista = attraversamento ciclabile. Dai la precedenza ai ciclisti sulle strisce.",
+  "trap": "«obbliga i ciclisti a dare la precedenza»: è il contrario.",
+  "caption": "Precedenza ai ciclisti, non il contrario"
+ }
+}

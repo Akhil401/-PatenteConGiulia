@@ -1,0 +1,2150 @@
+{
+ "q21673": {
+  "en": "The sign shown indicates the route to take to reach the road on the left.",
+  "explain": {
+   "short": "The arrow shows the way: straight, right, around the block, then across to the road on the left.",
+   "rule": "This white town sign shows the route for drivers who want to go left. A direct left turn is not possible: go straight, turn right, loop around the block and cross.",
+   "trap": "'percorso' (route) is the key: the sign draws the path, it does not order you to turn.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Route around the block to the left road",
+    "it": "percorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "percorso",
+    "en": "route"
+   },
+   {
+    "it": "strada di sinistra",
+    "en": "road on the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21674": {
+  "en": "The sign shown indicates that you cannot turn left directly.",
+  "explain": {
+   "short": "A direct left turn is not possible at the junction, so the sign shows a longer way around the block.",
+   "rule": "This white town sign shows the route for drivers who want to go left. A direct left turn is not possible: go straight, turn right, loop around the block and cross.",
+   "trap": "'in modo diretto' (directly) is the key: you can still reach the left road, but only indirectly.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No direct left turn: go around the block",
+    "it": "percorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "svoltare a sinistra",
+    "en": "turn left"
+   },
+   {
+    "it": "in modo diretto",
+    "en": "directly"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21675": {
+  "en": "The sign shown allows you to continue straight on.",
+  "explain": {
+   "short": "The route itself starts by going straight on, so straight on is allowed.",
+   "rule": "This white town sign shows the route for drivers who want to go left. A direct left turn is not possible: go straight, turn right, loop around the block and cross.",
+   "trap": "'consente' (allows): this information sign gives no ban on going straight.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Straight on is allowed",
+    "it": "percorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente",
+    "en": "allows"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "continue straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21676": {
+  "en": "The sign shown allows a right turn.",
+  "explain": {
+   "short": "The route around the block uses right turns, so turning right is allowed.",
+   "rule": "This white town sign shows the route for drivers who want to go left. A direct left turn is not possible: go straight, turn right, loop around the block and cross.",
+   "trap": "'svolta a destra' (right turn) is part of the drawn route, not forbidden.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right turn allowed: it is part of the loop",
+    "it": "percorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente",
+    "en": "allows"
+   },
+   {
+    "it": "svolta a destra",
+    "en": "right turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21677": {
+  "en": "The sign shown concerns drivers who want to take the road on the left.",
+  "explain": {
+   "short": "The sign is useful only for drivers who want to go left: it shows them the way around.",
+   "rule": "This white town sign shows the route for drivers who want to go left. A direct left turn is not possible: go straight, turn right, loop around the block and cross.",
+   "trap": "'interessa' (concerns): drivers going straight or right do not need the route drawing.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "For drivers who want the left road",
+    "it": "percorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "interessa",
+    "en": "concerns"
+   },
+   {
+    "it": "intendono",
+    "en": "intend / want"
+   },
+   {
+    "it": "strada di sinistra",
+    "en": "road on the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21678": {
+  "en": "The sign shown obliges you to turn left at the next junction.",
+  "explain": {
+   "short": "It is an information sign, so it obliges nobody; and at the next junction a direct left turn is actually not possible.",
+   "rule": "This white town sign shows the route for drivers who want to go left. A direct left turn is not possible: go straight, turn right, loop around the block and cross.",
+   "trap": "'obbliga' (obliges) is wrong: a white rectangle informs, an obligation sign is a blue disc.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not an obligation: left only by going around",
+    "it": "percorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga",
+    "en": "obliges"
+   },
+   {
+    "it": "prossimo incrocio",
+    "en": "next junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21679": {
+  "en": "The sign shown indicates a car park on the left.",
+  "explain": {
+   "short": "The loop of the arrow only looks like a letter P: it is the route around the block, not a parking sign.",
+   "rule": "This white town sign shows the route for drivers who want to go left. A direct left turn is not possible: go straight, turn right, loop around the block and cross.",
+   "trap": "'parcheggio' (car park): the arrow's loop is a path, not the letter P.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not parking: the loop is a route",
+    "it": "percorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "parcheggio",
+    "en": "car park"
+   },
+   {
+    "it": "a sinistra",
+    "en": "on the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21680": {
+  "en": "The sign shown does not apply to bicycles and mopeds.",
+  "explain": {
+   "short": "The sign applies to all vehicles that want to go left, bicycles and mopeds too.",
+   "rule": "This white town sign shows the route for drivers who want to go left. A direct left turn is not possible: go straight, turn right, loop around the block and cross.",
+   "trap": "'non vale' (does not apply): the sign shows no exception for bikes or mopeds.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Valid for all vehicles, bikes and mopeds too",
+    "it": "percorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non vale",
+    "en": "does not apply"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21681": {
+  "en": "The sign shown prohibits turning right.",
+  "explain": {
+   "short": "Turning right is part of the drawn route, so it is allowed, not prohibited.",
+   "rule": "This white town sign shows the route for drivers who want to go left. A direct left turn is not possible: go straight, turn right, loop around the block and cross.",
+   "trap": "'vieta' (prohibits): the right turn is exactly how you go around the block.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right turn is allowed, not banned",
+    "it": "percorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "prohibits"
+   },
+   {
+    "it": "svolta a destra",
+    "en": "right turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21682": {
+  "en": "The sign shown indicates the route of buses that have stops nearby.",
+  "explain": {
+   "short": "The sign shows the way for all drivers who want to go left; it has nothing to do with buses or bus stops.",
+   "rule": "This white town sign shows the route for drivers who want to go left. A direct left turn is not possible: go straight, turn right, loop around the block and cross.",
+   "trap": "'autobus' (buses): there is no bus symbol; the route is for everyone.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Route for all drivers, not a bus route",
+    "it": "percorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "percorso",
+    "en": "route"
+   },
+   {
+    "it": "autobus",
+    "en": "buses"
+   },
+   {
+    "it": "fermate",
+    "en": "stops"
+   },
+   {
+    "it": "nelle vicinanze",
+    "en": "nearby"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21683": {
+  "en": "On roads with separate carriageways, the sign shown indicates an overpass for making a U-turn.",
+  "explain": {
+   "short": "On a road with a divider you cannot turn back on the spot, so the sign shows a bridge (cavalcavia) where you can go back.",
+   "rule": "On roads with separate carriageways you cannot U-turn on the spot. This sign shows an overpass or underpass where you can turn back (blue outside towns, green on motorways).",
+   "trap": "'cavalcavia' (overpass) is one of the two possible structures; the other is an underpass.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Overpass ahead to turn back",
+    "it": "inversione di marcia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "carreggiate separate",
+    "en": "separate carriageways"
+   },
+   {
+    "it": "cavalcavia",
+    "en": "overpass"
+   },
+   {
+    "it": "inversione di marcia",
+    "en": "U-turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21684": {
+  "en": "On roads with separate carriageways, the sign shown indicates an underpass for turning back.",
+  "explain": {
+   "short": "The structure for turning back can also be an underpass (sottopassaggio) that goes under the road.",
+   "rule": "On roads with separate carriageways you cannot U-turn on the spot. This sign shows an overpass or underpass where you can turn back (blue outside towns, green on motorways).",
+   "trap": "'sottopassaggio' (underpass) is correct too: the sign covers both overpass and underpass.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Underpass ahead to turn back",
+    "it": "inversione di marcia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sottopassaggio",
+    "en": "underpass"
+   },
+   {
+    "it": "invertire il senso di marcia",
+    "en": "turn back / U-turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21685": {
+  "en": "The sign shown is placed on a road with separate carriageways.",
+  "explain": {
+   "short": "The picture shows two roadways split by a divider, and that is the kind of road where it is placed.",
+   "rule": "On roads with separate carriageways you cannot U-turn on the spot. This sign shows an overpass or underpass where you can turn back (blue outside towns, green on motorways).",
+   "trap": "'carreggiate separate' (separate carriageways): each direction has its own roadway.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Placed on roads with a central divider",
+    "it": "inversione di marcia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è posto",
+    "en": "is placed"
+   },
+   {
+    "it": "carreggiate separate",
+    "en": "separate carriageways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21686": {
+  "en": "The sign shown indicates a structure (overpass or underpass) that lets you turn back.",
+  "explain": {
+   "short": "That is exactly its meaning: a bridge or an underpass to change direction.",
+   "rule": "On roads with separate carriageways you cannot U-turn on the spot. This sign shows an overpass or underpass where you can turn back (blue outside towns, green on motorways).",
+   "trap": "'tornare indietro' (go back) means U-turn; both overpass and underpass count.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Overpass or underpass to go back",
+    "it": "inversione di marcia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "struttura",
+    "en": "structure"
+   },
+   {
+    "it": "tornare indietro",
+    "en": "go back"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21687": {
+  "en": "If on a green background, the sign shown indicates, on a motorway, an overpass for making a U-turn.",
+  "explain": {
+   "short": "Green is the colour of motorway signs, so the green version shows the same structure on a motorway.",
+   "rule": "On roads with separate carriageways you cannot U-turn on the spot. This sign shows an overpass or underpass where you can turn back (blue outside towns, green on motorways).",
+   "trap": "'fondo verde' (green background) means motorway; blue means other roads outside towns.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green version: same meaning on motorways",
+    "it": "inversione di marcia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fondo verde",
+    "en": "green background"
+   },
+   {
+    "it": "autostrada",
+    "en": "motorway"
+   },
+   {
+    "it": "cavalcavia",
+    "en": "overpass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21688": {
+  "en": "The sign shown indicates that the road is closed because of roadworks.",
+  "explain": {
+   "short": "It shows a place to turn back, not a closed road; roadworks have a red triangle sign.",
+   "rule": "On roads with separate carriageways you cannot U-turn on the spot. This sign shows an overpass or underpass where you can turn back (blue outside towns, green on motorways).",
+   "trap": "'lavori in corso' (roadworks): the U-turn arrow is not about works.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not works: a place to turn back",
+    "it": "inversione di marcia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada è interrotta",
+    "en": "road is closed"
+   },
+   {
+    "it": "lavori in corso",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21689": {
+  "en": "The sign shown indicates the start of a long straight stretch of road.",
+  "explain": {
+   "short": "The straight lines are the two carriageways; the curved arrow shows a U-turn, not a long straight road.",
+   "rule": "On roads with separate carriageways you cannot U-turn on the spot. This sign shows an overpass or underpass where you can turn back (blue outside towns, green on motorways).",
+   "trap": "'rettilineo' (straight stretch): look at the curved arrow, that is the message.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a straight road: a U-turn place",
+    "it": "inversione di marcia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "inizio",
+    "en": "start"
+   },
+   {
+    "it": "lungo rettilineo",
+    "en": "long straight stretch"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21690": {
+  "en": "The sign shown indicates the start of a main road outside towns.",
+  "explain": {
+   "short": "The start of a main road outside towns has its own sign, with a car on the road; this one has a U-turn arrow.",
+   "rule": "On roads with separate carriageways you cannot U-turn on the spot. This sign shows an overpass or underpass where you can turn back (blue outside towns, green on motorways).",
+   "trap": "'inizio' (start): this sign shows a structure for turning back, not where a road type begins.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a road start: a place to turn back",
+    "it": "inversione di marcia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "inizio",
+    "en": "start"
+   },
+   {
+    "it": "strada extraurbana principale",
+    "en": "main road outside towns"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21691": {
+  "en": "The sign shown indicates a level junction nearby (at the same level as the road surface).",
+  "explain": {
+   "short": "The U-turn goes over or under the road, on a different level, never across at road level.",
+   "rule": "On roads with separate carriageways you cannot U-turn on the spot. This sign shows an overpass or underpass where you can turn back (blue outside towns, green on motorways).",
+   "trap": "'a raso' (at road level) is the opposite: overpass and underpass are on another level.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a level junction: over or under the road",
+    "it": "inversione di marcia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "incrocio a raso",
+    "en": "level junction"
+   },
+   {
+    "it": "stesso livello",
+    "en": "same level"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21692": {
+  "en": "The sign shown obliges you to turn back.",
+  "explain": {
+   "short": "It only tells you that turning back is possible; you can keep going straight.",
+   "rule": "On roads with separate carriageways you cannot U-turn on the spot. This sign shows an overpass or underpass where you can turn back (blue outside towns, green on motorways).",
+   "trap": "'obbliga' (obliges): a blue square informs, it does not order.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not an obligation: you may also go on",
+    "it": "inversione di marcia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga",
+    "en": "obliges"
+   },
+   {
+    "it": "invertire il senso di marcia",
+    "en": "turn back"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21693": {
+  "en": "The sign shown indicates a lay-by at the side of the roadway for making a stop.",
+  "explain": {
+   "short": "The drawing shows the road edge bending out into a small space: a lay-by where you can stop.",
+   "rule": "This blue sign shows a lay-by (piazzola): a small space beside the roadway for a short stop, on roads outside towns.",
+   "trap": "'fermata' (stop) is a short halt, which is what a lay-by is for.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lay-by at the roadside for a stop",
+    "it": "piazzola",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "piazzola",
+    "en": "lay-by"
+   },
+   {
+    "it": "a lato della carreggiata",
+    "en": "beside the roadway"
+   },
+   {
+    "it": "fermata",
+    "en": "stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21694": {
+  "en": "The sign shown is placed near a lay-by for making a stop.",
+  "explain": {
+   "short": "It stands near the lay-by so you can see it in time and slow down.",
+   "rule": "This blue sign shows a lay-by (piazzola): a small space beside the roadway for a short stop, on roads outside towns.",
+   "trap": "'in vicinanza' (near): the sign is placed close to the lay-by.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Placed near the lay-by",
+    "it": "piazzola",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in vicinanza",
+    "en": "near"
+   },
+   {
+    "it": "piazzola",
+    "en": "lay-by"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21695": {
+  "en": "The sign shown is found on roads outside towns.",
+  "explain": {
+   "short": "Lay-bys are typical of roads outside towns, and the sign is blue, the colour used on those roads.",
+   "rule": "This blue sign shows a lay-by (piazzola): a small space beside the roadway for a short stop, on roads outside towns.",
+   "trap": "'extraurbana' (outside towns) fits the blue colour of the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Found on roads outside towns",
+    "it": "piazzola",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si trova",
+    "en": "is found"
+   },
+   {
+    "it": "strada extraurbana",
+    "en": "road outside towns"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21696": {
+  "en": "The sign shown can be combined with a panel showing the distance between the sign and the lay-by.",
+  "explain": {
+   "short": "An extra panel under the sign can say how far away the lay-by is.",
+   "rule": "This blue sign shows a lay-by (piazzola): a small space beside the roadway for a short stop, on roads outside towns.",
+   "trap": "'può essere' (can be): the distance panel is possible, not required.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Panel can show distance to the lay-by",
+    "it": "piazzola",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "abbinato",
+    "en": "combined"
+   },
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "distanza",
+    "en": "distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21697": {
+  "en": "The sign shown gives advance warning of a widening of the roadway.",
+  "explain": {
+   "short": "The roadway does not get wider: only a small space opens beside it and then closes again.",
+   "rule": "This blue sign shows a lay-by (piazzola): a small space beside the roadway for a short stop, on roads outside towns.",
+   "trap": "'allargamento' (widening): the edge goes out and comes back, so it is a lay-by.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a wider road: a short lay-by",
+    "it": "piazzola",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "warns in advance"
+   },
+   {
+    "it": "allargamento della carreggiata",
+    "en": "widening of the roadway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21698": {
+  "en": "The sign shown indicates that parking is allowed only for 3 hours.",
+  "explain": {
+   "short": "The sign shows no time at all; a lay-by is for a short stop, not for parking.",
+   "rule": "This blue sign shows a lay-by (piazzola): a small space beside the roadway for a short stop, on roads outside towns.",
+   "trap": "'solo per 3 ore' (only for 3 hours): there is no number or time on the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No time limit shown: a lay-by for stopping",
+    "it": "piazzola",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta",
+    "en": "parking"
+   },
+   {
+    "it": "solo per 3 ore",
+    "en": "only for 3 hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21699": {
+  "en": "The sign shown indicates a camping area.",
+  "explain": {
+   "short": "A campsite has its own sign with a tent; this one shows a lay-by beside the road.",
+   "rule": "This blue sign shows a lay-by (piazzola): a small space beside the roadway for a short stop, on roads outside towns.",
+   "trap": "'campeggio' (campsite): there is no tent on the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a campsite: a lay-by",
+    "it": "piazzola",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "indica",
+    "en": "shows"
+   },
+   {
+    "it": "area di campeggio",
+    "en": "camping area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21700": {
+  "en": "The sign shown indicates a bus stop.",
+  "explain": {
+   "short": "A bus stop has its own sign with a bus; this sign only shows a lay-by for all vehicles.",
+   "rule": "This blue sign shows a lay-by (piazzola): a small space beside the roadway for a short stop, on roads outside towns.",
+   "trap": "'autobus' (bus): the word 'fermata' fits, but there is no bus on the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a bus stop: a lay-by for everyone",
+    "it": "piazzola",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fermata",
+    "en": "stop"
+   },
+   {
+    "it": "autobus",
+    "en": "bus"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21701": {
+  "en": "The sign shown indicates a parking area for caravans.",
+  "explain": {
+   "short": "There is no caravan symbol: it is a small lay-by for a short stop, open to all vehicles.",
+   "rule": "This blue sign shows a lay-by (piazzola): a small space beside the roadway for a short stop, on roads outside towns.",
+   "trap": "'caravan': no caravan is drawn, and a lay-by is not a parking area.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not caravan parking: a lay-by",
+    "it": "piazzola",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area di parcheggio",
+    "en": "parking area"
+   },
+   {
+    "it": "caravan",
+    "en": "caravan"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21702": {
+  "en": "The sign shown is placed only on motorways.",
+  "explain": {
+   "short": "This blue sign is used on roads outside towns, so it is not only for motorways.",
+   "rule": "This blue sign shows a lay-by (piazzola): a small space beside the roadway for a short stop, on roads outside towns.",
+   "trap": "'solo' (only) is the trap: blue means roads outside towns, not just motorways.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not only motorways: blue = roads outside towns",
+    "it": "piazzola",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "autostrade",
+    "en": "motorways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21703": {
+  "en": "The sign shown indicates how to use the lanes of a roadway.",
+  "explain": {
+   "short": "Each arrow is one lane, and the symbol on it says who may use that lane.",
+   "rule": "This blue lane-use sign is for roads outside towns. The no-trucks disc on the left arrow means trucks over 3.5 t may not use the left lane; all other vehicles may use both lanes.",
+   "trap": "'come utilizzare le corsie' (how to use the lanes) is exactly the job of this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Shows how to use each lane",
+    "it": "uso delle corsie",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "utilizzare",
+    "en": "use"
+   },
+   {
+    "it": "corsie",
+    "en": "lanes"
+   },
+   {
+    "it": "carreggiata",
+    "en": "roadway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21704": {
+  "en": "The sign shown allows motorcycles to drive in both lanes.",
+  "explain": {
+   "short": "Only heavy trucks are kept out of the left lane, so motorcycles may use both lanes.",
+   "rule": "This blue lane-use sign is for roads outside towns. The no-trucks disc on the left arrow means trucks over 3.5 t may not use the left lane; all other vehicles may use both lanes.",
+   "trap": "'tutte e due' (both): the ban is only for trucks over 3.5 t.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorbikes may use both lanes",
+    "it": "uso delle corsie",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   },
+   {
+    "it": "tutte e due le corsie",
+    "en": "both lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21705": {
+  "en": "The sign shown indicates that the left lane is forbidden to trucks with a maximum laden mass over 3.5 tonnes.",
+  "explain": {
+   "short": "The no-trucks disc sits on the left arrow, so trucks over 3.5 t may not use the left lane.",
+   "rule": "This blue lane-use sign is for roads outside towns. The no-trucks disc on the left arrow means trucks over 3.5 t may not use the left lane; all other vehicles may use both lanes.",
+   "trap": "'superano' (exceed): the ban is only for trucks heavier than 3.5 t, not all trucks.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left lane: no trucks over 3.5 t",
+    "it": "uso delle corsie",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di sinistra",
+    "en": "left lane"
+   },
+   {
+    "it": "autocarri",
+    "en": "trucks"
+   },
+   {
+    "it": "massa a pieno carico",
+    "en": "maximum laden mass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21706": {
+  "en": "The sign shown is installed on roads outside towns.",
+  "explain": {
+   "short": "The sign is blue, the colour of these signs on roads outside towns.",
+   "rule": "This blue lane-use sign is for roads outside towns. The no-trucks disc on the left arrow means trucks over 3.5 t may not use the left lane; all other vehicles may use both lanes.",
+   "trap": "'extraurbane' (outside towns): the blue background tells you the road type.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Blue: roads outside towns",
+    "it": "uso delle corsie",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è installato",
+    "en": "is installed"
+   },
+   {
+    "it": "strade extraurbane",
+    "en": "roads outside towns"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21707": {
+  "en": "The sign shown allows cars to drive in both lanes.",
+  "explain": {
+   "short": "Cars are not affected by the truck ban, so they may use both lanes.",
+   "rule": "This blue lane-use sign is for roads outside towns. The no-trucks disc on the left arrow means trucks over 3.5 t may not use the left lane; all other vehicles may use both lanes.",
+   "trap": "'autovetture' (cars): the disc on the left arrow is only for heavy trucks.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cars may use both lanes",
+    "it": "uso delle corsie",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autovetture",
+    "en": "cars"
+   },
+   {
+    "it": "tutte e due le corsie",
+    "en": "both lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21708": {
+  "en": "The sign shown allows all trucks to overtake on the right.",
+  "explain": {
+   "short": "The sign only keeps heavy trucks out of the left lane; it says nothing about overtaking on the right.",
+   "rule": "This blue lane-use sign is for roads outside towns. The no-trucks disc on the left arrow means trucks over 3.5 t may not use the left lane; all other vehicles may use both lanes.",
+   "trap": "'sorpassare a destra' (overtake on the right): this is not written anywhere on the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No permission to overtake on the right",
+    "it": "uso delle corsie",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tutti gli autocarri",
+    "en": "all trucks"
+   },
+   {
+    "it": "sorpassare a destra",
+    "en": "overtake on the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21709": {
+  "en": "The sign shown indicates that trucks over 3.5 tonnes may drive only in the left lane.",
+  "explain": {
+   "short": "It is the opposite: heavy trucks may NOT use the left lane, so they stay in the right lane.",
+   "rule": "This blue lane-use sign is for roads outside towns. The no-trucks disc on the left arrow means trucks over 3.5 t may not use the left lane; all other vehicles may use both lanes.",
+   "trap": "'solo sulla corsia di sinistra' (only in the left lane) reverses the meaning of the red disc.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Opposite: heavy trucks keep out of the left lane",
+    "it": "uso delle corsie",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "superano 3,5 tonnellate",
+    "en": "exceed 3.5 tonnes"
+   },
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "corsia di sinistra",
+    "en": "left lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21710": {
+  "en": "The sign shown forbids all trucks from driving in the left lane.",
+  "explain": {
+   "short": "Only trucks over 3.5 t are banned; lighter trucks may still use the left lane.",
+   "rule": "This blue lane-use sign is for roads outside towns. The no-trucks disc on the left arrow means trucks over 3.5 t may not use the left lane; all other vehicles may use both lanes.",
+   "trap": "'tutti' (all) is the trap: the ban is only above 3.5 t.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only trucks over 3.5 t, not all trucks",
+    "it": "uso delle corsie",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "forbids"
+   },
+   {
+    "it": "tutti gli autocarri",
+    "en": "all trucks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21711": {
+  "en": "The sign shown also forbids buses from passing.",
+  "explain": {
+   "short": "The red disc shows a truck, not a bus, so buses may use both lanes.",
+   "rule": "This blue lane-use sign is for roads outside towns. The no-trucks disc on the left arrow means trucks over 3.5 t may not use the left lane; all other vehicles may use both lanes.",
+   "trap": "'anche agli autobus' (buses too): the ban is only for heavy trucks.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Buses are not banned",
+    "it": "uso delle corsie",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "forbids passage"
+   },
+   {
+    "it": "anche",
+    "en": "also"
+   },
+   {
+    "it": "autobus",
+    "en": "buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21712": {
+  "en": "The sign shown is found only on two-way roads.",
+  "explain": {
+   "short": "Both arrows point the same way: the two lanes go in one direction, so this is not about two-way roads.",
+   "rule": "This blue lane-use sign is for roads outside towns. The no-trucks disc on the left arrow means trucks over 3.5 t may not use the left lane; all other vehicles may use both lanes.",
+   "trap": "'doppio senso' (two-way): both arrows point up, so no lane goes the other way.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Both lanes go the same way",
+    "it": "uso delle corsie",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "doppio senso di circolazione",
+    "en": "two-way traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21713": {
+  "en": "The sign shown indicates the compulsory minimum speeds to keep in the lanes shown.",
+  "explain": {
+   "short": "The blue discs with numbers are minimum speeds: to stay in that lane you must go at least that fast.",
+   "rule": "This green motorway sign gives compulsory minimum speeds per lane: at least 90 km/h on the left, at least 60 km/h in the middle, no minimum on the right.",
+   "trap": "'minime' (minimum): blue discs mean a minimum, red-ringed discs mean a maximum.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left: at least 90. Middle: at least 60",
+    "it": "velocità minima",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "velocità minime",
+    "en": "minimum speeds"
+   },
+   {
+    "it": "obbligatorie",
+    "en": "compulsory"
+   },
+   {
+    "it": "corsie",
+    "en": "lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21714": {
+  "en": "The sign shown is placed on motorways.",
+  "explain": {
+   "short": "The background is green, the colour of motorway signs.",
+   "rule": "This green motorway sign gives compulsory minimum speeds per lane: at least 90 km/h on the left, at least 60 km/h in the middle, no minimum on the right.",
+   "trap": "'autostrade' (motorways): the green colour tells you the road type.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green background = motorway",
+    "it": "velocità minima",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è posto",
+    "en": "is placed"
+   },
+   {
+    "it": "autostrade",
+    "en": "motorways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21715": {
+  "en": "The sign shown allows a vehicle travelling at 100 km/h to use the middle lane.",
+  "explain": {
+   "short": "The middle lane needs at least 60 km/h, and 100 is more than 60.",
+   "rule": "This green motorway sign gives compulsory minimum speeds per lane: at least 90 km/h on the left, at least 60 km/h in the middle, no minimum on the right.",
+   "trap": "'corsia di mezzo' (middle lane): its minimum is 60, so 100 is fine.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "100 km/h is above the middle lane's 60",
+    "it": "velocità minima",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "viaggia",
+    "en": "travels"
+   },
+   {
+    "it": "corsia di mezzo",
+    "en": "middle lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21716": {
+  "en": "The sign shown obliges vehicles travelling at 50 km/h to stay in the first lane on the right.",
+  "explain": {
+   "short": "At 50 km/h you are below both minimums (60 and 90), so only the right lane, with no minimum, is left.",
+   "rule": "This green motorway sign gives compulsory minimum speeds per lane: at least 90 km/h on the left, at least 60 km/h in the middle, no minimum on the right.",
+   "trap": "'50 km/h' is under 60, so the middle and left lanes are not allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At 50 km/h: right lane only",
+    "it": "velocità minima",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga",
+    "en": "obliges"
+   },
+   {
+    "it": "50 km/h",
+    "en": "50 km/h"
+   },
+   {
+    "it": "prima corsia di destra",
+    "en": "first lane on the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21717": {
+  "en": "The sign shown allows driving at 160 km/h in all three lanes.",
+  "explain": {
+   "short": "The numbers are minimum speeds, not maximums; the motorway speed limit still applies, and 160 km/h is above it.",
+   "rule": "This green motorway sign gives compulsory minimum speeds per lane: at least 90 km/h on the left, at least 60 km/h in the middle, no minimum on the right.",
+   "trap": "'160 km/h' is over the motorway limit; the sign gives minimums only.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Minimums only: 160 km/h is over the limit",
+    "it": "velocità minima",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente",
+    "en": "allows"
+   },
+   {
+    "it": "160 km/h",
+    "en": "160 km/h"
+   },
+   {
+    "it": "tutte e tre le corsie",
+    "en": "all three lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21718": {
+  "en": "The sign shown shows speeds that it is advised not to exceed.",
+  "explain": {
+   "short": "The numbers are compulsory minimum speeds, not advised maximum speeds.",
+   "rule": "This green motorway sign gives compulsory minimum speeds per lane: at least 90 km/h on the left, at least 60 km/h in the middle, no minimum on the right.",
+   "trap": "'non superare' (not exceed) is wrong: you must go at least that fast, not at most.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not maximums: compulsory minimums",
+    "it": "velocità minima",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si consiglia",
+    "en": "it is advised"
+   },
+   {
+    "it": "non superare",
+    "en": "not to exceed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21719": {
+  "en": "The sign shown allows a vehicle travelling at 80 km/h to stay in the left lane.",
+  "explain": {
+   "short": "The left lane needs at least 90 km/h, and 80 is less than 90.",
+   "rule": "This green motorway sign gives compulsory minimum speeds per lane: at least 90 km/h on the left, at least 60 km/h in the middle, no minimum on the right.",
+   "trap": "'80 km/h' is below the left lane's minimum of 90.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "80 km/h is below the left lane's 90",
+    "it": "velocità minima",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "80 km/h",
+    "en": "80 km/h"
+   },
+   {
+    "it": "corsia di sinistra",
+    "en": "left lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21720": {
+  "en": "The sign shown indicates a two-way road.",
+  "explain": {
+   "short": "All three arrows point the same way: three lanes in one direction of the motorway.",
+   "rule": "This green motorway sign gives compulsory minimum speeds per lane: at least 90 km/h on the left, at least 60 km/h in the middle, no minimum on the right.",
+   "trap": "'doppio senso' (two-way): no arrow points down.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "All three lanes go the same way",
+    "it": "velocità minima",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada",
+    "en": "road"
+   },
+   {
+    "it": "doppio senso di circolazione",
+    "en": "two-way traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21721": {
+  "en": "The sign shown indicates recommended speeds.",
+  "explain": {
+   "short": "These speeds are compulsory minimums, not recommendations.",
+   "rule": "This green motorway sign gives compulsory minimum speeds per lane: at least 90 km/h on the left, at least 60 km/h in the middle, no minimum on the right.",
+   "trap": "'consigliate' (recommended): the blue discs are obligations.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not recommended: compulsory minimums",
+    "it": "velocità minima",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "indica",
+    "en": "shows"
+   },
+   {
+    "it": "velocità consigliate",
+    "en": "recommended speeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21722": {
+  "en": "The sign shown indicates how the lanes must be used.",
+  "explain": {
+   "short": "Each arrow is a lane, and the bus disc says who may use the right one.",
+   "rule": "This white town sign shows how the lanes are used: the right lane, behind the yellow line, is reserved for urban public buses; the left lanes are for all vehicles.",
+   "trap": "'devono' (must): the lane use shown is compulsory.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Shows how each lane must be used",
+    "it": "corsia riservata",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "devono",
+    "en": "must"
+   },
+   {
+    "it": "utilizzate",
+    "en": "used"
+   },
+   {
+    "it": "corsie",
+    "en": "lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21723": {
+  "en": "The sign shown indicates that the right lane is reserved for urban public buses.",
+  "explain": {
+   "short": "The right lane is set apart by a yellow line and marked with the blue bus disc: it is a bus lane.",
+   "rule": "This white town sign shows how the lanes are used: the right lane, behind the yellow line, is reserved for urban public buses; the left lanes are for all vehicles.",
+   "trap": "'riservata' (reserved): only public buses may use that lane.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right lane: public buses only",
+    "it": "corsia riservata",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di destra",
+    "en": "right lane"
+   },
+   {
+    "it": "riservata",
+    "en": "reserved"
+   },
+   {
+    "it": "servizi pubblici urbani",
+    "en": "urban public services"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21724": {
+  "en": "The sign shown indicates that the left lanes are for normal traffic of all vehicles.",
+  "explain": {
+   "short": "The two black arrows on the left have no symbol, so everyone may use them.",
+   "rule": "This white town sign shows how the lanes are used: the right lane, behind the yellow line, is reserved for urban public buses; the left lanes are for all vehicles.",
+   "trap": "'tutti i veicoli' (all vehicles): no limit is shown on the left lanes.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left lanes: all vehicles",
+    "it": "corsia riservata",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsie di sinistra",
+    "en": "left lanes"
+   },
+   {
+    "it": "transito normale",
+    "en": "normal traffic"
+   },
+   {
+    "it": "tutti i veicoli",
+    "en": "all vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21725": {
+  "en": "The sign shown is placed on urban roads.",
+  "explain": {
+   "short": "The background is white, the colour of these signs on town roads, and city bus lanes are in towns.",
+   "rule": "This white town sign shows how the lanes are used: the right lane, behind the yellow line, is reserved for urban public buses; the left lanes are for all vehicles.",
+   "trap": "'urbane' (in towns): the white background tells you the road type.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "White background = town roads",
+    "it": "corsia riservata",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è posto",
+    "en": "is placed"
+   },
+   {
+    "it": "strade urbane",
+    "en": "urban roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21726": {
+  "en": "The sign shown allows taxis to stay in the right lane.",
+  "explain": {
+   "short": "The disc shows only a bus, so the right lane is reserved for public buses, not taxis.",
+   "rule": "This white town sign shows how the lanes are used: the right lane, behind the yellow line, is reserved for urban public buses; the left lanes are for all vehicles.",
+   "trap": "'taxi': the sign shows no taxi, only a bus.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right lane: buses only, not taxis",
+    "it": "corsia riservata",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "taxi",
+    "en": "taxis"
+   },
+   {
+    "it": "corsia di destra",
+    "en": "right lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21727": {
+  "en": "The sign shown indicates a cycle lane on the right.",
+  "explain": {
+   "short": "The disc on the right lane shows a bus, not a bicycle.",
+   "rule": "This white town sign shows how the lanes are used: the right lane, behind the yellow line, is reserved for urban public buses; the left lanes are for all vehicles.",
+   "trap": "'pista ciclabile' (cycle lane): a cycle lane sign shows a bicycle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a cycle lane: a bus lane",
+    "it": "corsia riservata",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pista ciclabile",
+    "en": "cycle lane"
+   },
+   {
+    "it": "sulla destra",
+    "en": "on the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21728": {
+  "en": "The sign shown can be found on motorways.",
+  "explain": {
+   "short": "It is white, the colour for town roads; motorway signs are green, and city bus lanes are not on motorways.",
+   "rule": "This white town sign shows how the lanes are used: the right lane, behind the yellow line, is reserved for urban public buses; the left lanes are for all vehicles.",
+   "trap": "'autostrade' (motorways): green would mean motorway, but this sign is white.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "White = town, not motorway",
+    "it": "corsia riservata",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si può trovare",
+    "en": "can be found"
+   },
+   {
+    "it": "autostrade",
+    "en": "motorways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21729": {
+  "en": "The sign shown indicates that buses may overtake on the right.",
+  "explain": {
+   "short": "The sign only reserves the right lane for buses; it gives no rule about overtaking.",
+   "rule": "This white town sign shows how the lanes are used: the right lane, behind the yellow line, is reserved for urban public buses; the left lanes are for all vehicles.",
+   "trap": "'sorpassare a destra' (overtake on the right) is not what the sign says.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bus lane, no rule about overtaking",
+    "it": "corsia riservata",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autobus",
+    "en": "buses"
+   },
+   {
+    "it": "sorpassare a destra",
+    "en": "overtake on the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21730": {
+  "en": "The sign shown indicates a change in the number of available lanes.",
+  "explain": {
+   "short": "One arrow splits into two lanes: the number of lanes changes.",
+   "rule": "This blue sign shows a change in the number of lanes: one lane becomes two, as a new lane opens on the right. It is used on roads outside towns.",
+   "trap": "'cambiamento' (change): here the change is an increase.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lanes change: from one to two",
+    "it": "aumento di corsia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cambiamento",
+    "en": "change"
+   },
+   {
+    "it": "numero di corsie",
+    "en": "number of lanes"
+   },
+   {
+    "it": "disponibili",
+    "en": "available"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21731": {
+  "en": "The sign shown indicates an increase from one to two lanes.",
+  "explain": {
+   "short": "The bent arrow shows a new lane opening on the right, so you go from one lane to two.",
+   "rule": "This blue sign shows a change in the number of lanes: one lane becomes two, as a new lane opens on the right. It is used on roads outside towns.",
+   "trap": "'aumento' (increase): one lane at the bottom, two at the top.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "From one lane to two",
+    "it": "aumento di corsia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "aumento",
+    "en": "increase"
+   },
+   {
+    "it": "da una a due corsie",
+    "en": "from one to two lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21732": {
+  "en": "The sign shown can be combined with a panel showing the distance to the point where the extra lane starts.",
+  "explain": {
+   "short": "A panel under the sign can say how far away the new lane begins.",
+   "rule": "This blue sign shows a change in the number of lanes: one lane becomes two, as a new lane opens on the right. It is used on roads outside towns.",
+   "trap": "'può essere' (can be): the distance panel is possible, not required.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Panel can show distance to the new lane",
+    "it": "aumento di corsia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "abbinato",
+    "en": "combined"
+   },
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "distanza",
+    "en": "distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21733": {
+  "en": "The sign shown is placed on roads outside towns.",
+  "explain": {
+   "short": "The background is blue, the colour of these signs on roads outside towns.",
+   "rule": "This blue sign shows a change in the number of lanes: one lane becomes two, as a new lane opens on the right. It is used on roads outside towns.",
+   "trap": "'extraurbane' (outside towns): the blue background tells you the road type.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Blue: roads outside towns",
+    "it": "aumento di corsia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è posto",
+    "en": "is placed"
+   },
+   {
+    "it": "strade extraurbane",
+    "en": "roads outside towns"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21734": {
+  "en": "The sign shown indicates that you are near an overpass that lets you turn back.",
+  "explain": {
+   "short": "There is no U-turn arrow: the arrows go forward and show a new lane.",
+   "rule": "This blue sign shows a change in the number of lanes: one lane becomes two, as a new lane opens on the right. It is used on roads outside towns.",
+   "trap": "'cavalcavia' (overpass): the U-turn sign has a curved arrow going back.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a U-turn: a lane is added",
+    "it": "aumento di corsia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cavalcavia",
+    "en": "overpass"
+   },
+   {
+    "it": "invertire il senso di marcia",
+    "en": "turn back"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21735": {
+  "en": "The sign shown gives advance warning of a compulsory right turn.",
+  "explain": {
+   "short": "It is a blue square information sign about lanes, not a blue disc obligation; the bent arrow just moves into the new lane.",
+   "rule": "This blue sign shows a change in the number of lanes: one lane becomes two, as a new lane opens on the right. It is used on roads outside towns.",
+   "trap": "'obbligo' (obligation): the bent arrow is a new lane, not a forced turn.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No obligation: a new lane opens",
+    "it": "aumento di corsia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "warns in advance"
+   },
+   {
+    "it": "obbligo",
+    "en": "obligation"
+   },
+   {
+    "it": "svolta a destra",
+    "en": "right turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21736": {
+  "en": "The sign shown indicates that you may pass an obstacle on the right or on the left.",
+  "explain": {
+   "short": "There is no obstacle: the two arrows show one lane becoming two.",
+   "rule": "This blue sign shows a change in the number of lanes: one lane becomes two, as a new lane opens on the right. It is used on roads outside towns.",
+   "trap": "'ostacolo' (obstacle): the 'pass on either side' sign is a blue disc, not this square.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not an obstacle: one lane becomes two",
+    "it": "aumento di corsia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "passare a destra o a sinistra",
+    "en": "pass on the right or left"
+   },
+   {
+    "it": "ostacolo",
+    "en": "obstacle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21737": {
+  "en": "The sign shown indicates that overtaking on the right is possible.",
+  "explain": {
+   "short": "The sign only tells you a lane is added; it gives no permission to overtake on the right.",
+   "rule": "This blue sign shows a change in the number of lanes: one lane becomes two, as a new lane opens on the right. It is used on roads outside towns.",
+   "trap": "'sorpassare a destra' (overtake on the right): the sign says nothing about overtaking.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lane added; overtake on the left as usual",
+    "it": "aumento di corsia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è possibile",
+    "en": "is possible"
+   },
+   {
+    "it": "sorpassare a destra",
+    "en": "overtake on the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21738": {
+  "en": "The sign shown gives advance warning of a pre-selection zone.",
+  "explain": {
+   "short": "A pre-selection zone has lanes with arrows to different directions before a junction; here both lanes go straight on.",
+   "rule": "This blue sign shows a change in the number of lanes: one lane becomes two, as a new lane opens on the right. It is used on roads outside towns.",
+   "trap": "'preselezione' (choosing your lane before a junction): both arrows here point forward.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not pre-selection: both lanes go ahead",
+    "it": "aumento di corsia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "announces in advance"
+   },
+   {
+    "it": "zona di preselezione",
+    "en": "pre-selection zone"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21739": {
+  "en": "The sign shown gives advance warning of a deceleration lane.",
+  "explain": {
+   "short": "A deceleration lane is for leaving the road; here the new lane continues straight on next to the other one.",
+   "rule": "This blue sign shows a change in the number of lanes: one lane becomes two, as a new lane opens on the right. It is used on roads outside towns.",
+   "trap": "'decelerazione' (slowing down to exit): the new lane goes forward, it does not leave the road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not an exit lane: an extra lane ahead",
+    "it": "aumento di corsia",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "announces in advance"
+   },
+   {
+    "it": "corsia di decelerazione",
+    "en": "deceleration lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21740": {
+  "en": "The sign shown indicates a decrease in the number of available lanes.",
+  "explain": {
+   "short": "The right lane bends into the middle one and ends, so there are fewer lanes.",
+   "rule": "This green motorway sign shows that three lanes become two: the right lane ends and merges into the middle one, so slow down.",
+   "trap": "'diminuzione' (decrease): three lanes become two.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Fewer lanes ahead: three become two",
+    "it": "riduzione di corsia",
+    "action": "slow"
+   }
+  },
+  "keywords": [
+   {
+    "it": "diminuzione",
+    "en": "decrease"
+   },
+   {
+    "it": "numero di corsie",
+    "en": "number of lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21741": {
+  "en": "The sign shown indicates a reduction from three to two lanes.",
+  "explain": {
+   "short": "Two arrows go straight and the third bends in and ends: three lanes become two.",
+   "rule": "This green motorway sign shows that three lanes become two: the right lane ends and merges into the middle one, so slow down.",
+   "trap": "'da tre a due' (from three to two): count the arrows at the bottom and at the top.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "From three lanes to two",
+    "it": "riduzione di corsia",
+    "action": "slow"
+   }
+  },
+  "keywords": [
+   {
+    "it": "riduzione",
+    "en": "reduction"
+   },
+   {
+    "it": "da tre a due corsie",
+    "en": "from three to two lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21742": {
+  "en": "The sign shown advises slowing down because the roadway narrows.",
+  "explain": {
+   "short": "With one lane less, cars must merge, so it is wise to slow down.",
+   "rule": "This green motorway sign shows that three lanes become two: the right lane ends and merges into the middle one, so slow down.",
+   "trap": "'consiglia' (advises): the sign informs, and slowing down is the right advice.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Slow down: the roadway narrows",
+    "it": "riduzione di corsia",
+    "action": "slow"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consiglia",
+    "en": "advises"
+   },
+   {
+    "it": "rallentare",
+    "en": "slow down"
+   },
+   {
+    "it": "restringimento",
+    "en": "narrowing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21743": {
+  "en": "The sign shown can be combined with a panel showing the distance to the lane narrowing.",
+  "explain": {
+   "short": "A panel under the sign can say how far away the lane ends.",
+   "rule": "This green motorway sign shows that three lanes become two: the right lane ends and merges into the middle one, so slow down.",
+   "trap": "'può essere' (can be): the distance panel is possible, not required.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Panel can show distance to the narrowing",
+    "it": "riduzione di corsia",
+    "action": "slow"
+   }
+  },
+  "keywords": [
+   {
+    "it": "abbinato",
+    "en": "combined"
+   },
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "restringimento di corsia",
+    "en": "lane narrowing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21744": {
+  "en": "The sign shown is installed on motorways.",
+  "explain": {
+   "short": "The background is green, the colour of motorway signs.",
+   "rule": "This green motorway sign shows that three lanes become two: the right lane ends and merges into the middle one, so slow down.",
+   "trap": "'autostrade' (motorways): the green colour tells you the road type.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green background = motorway",
+    "it": "riduzione di corsia",
+    "action": "slow"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è installato",
+    "en": "is installed"
+   },
+   {
+    "it": "autostrade",
+    "en": "motorways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21745": {
+  "en": "The sign shown indicates roadworks.",
+  "explain": {
+   "short": "Roadworks have a red triangle warning sign; this green sign only shows that a lane ends.",
+   "rule": "This green motorway sign shows that three lanes become two: the right lane ends and merges into the middle one, so slow down.",
+   "trap": "'lavori in corso' (roadworks): the green sign is about lanes, not works.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not roadworks: a lane ends",
+    "it": "riduzione di corsia",
+    "action": "slow"
+   }
+  },
+  "keywords": [
+   {
+    "it": "indica",
+    "en": "shows"
+   },
+   {
+    "it": "lavori in corso",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21746": {
+  "en": "The sign shown gives advance warning of a compulsory left turn.",
+  "explain": {
+   "short": "The bent arrow is the right lane merging, not a turn; and a green square informs, it does not oblige.",
+   "rule": "This green motorway sign shows that three lanes become two: the right lane ends and merges into the middle one, so slow down.",
+   "trap": "'obbligo' (obligation): the arrow means 'move into the next lane', not 'turn left'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No left turn: the right lane merges",
+    "it": "riduzione di corsia",
+    "action": "slow"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "warns in advance"
+   },
+   {
+    "it": "obbligo",
+    "en": "obligation"
+   },
+   {
+    "it": "svoltare a sinistra",
+    "en": "turn left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21747": {
+  "en": "The sign shown gives advance warning of an overpass that allows a U-turn.",
+  "explain": {
+   "short": "There is no U-turn arrow: all arrows go forward, and one lane ends.",
+   "rule": "This green motorway sign shows that three lanes become two: the right lane ends and merges into the middle one, so slow down.",
+   "trap": "'inversione di marcia' (U-turn): that sign has a curved arrow going back.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a U-turn: a lane ends",
+    "it": "riduzione di corsia",
+    "action": "slow"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cavalcavia",
+    "en": "overpass"
+   },
+   {
+    "it": "inversione di marcia",
+    "en": "U-turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21748": {
+  "en": "The sign shown indicates that you must give way to vehicles entering the motorway.",
+  "explain": {
+   "short": "The sign shows a lane that ends, not an entry ramp; it gives no give-way rule for traffic already on the motorway.",
+   "rule": "This green motorway sign shows that three lanes become two: the right lane ends and merges into the middle one, so slow down.",
+   "trap": "'entrano in autostrada' (entering the motorway): the bent arrow is a lane ending, not an entry.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not an entry: the right lane ends",
+    "it": "riduzione di corsia",
+    "action": "slow"
+   }
+  },
+  "keywords": [
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "entrano in autostrada",
+    "en": "enter the motorway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

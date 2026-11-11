@@ -1,0 +1,458 @@
+{
+ "q21673": {
+  "short": "La freccia mostra la strada: diritto, a destra, giro dell'isolato, poi a sinistra.",
+  "rule": "Cartello bianco di città: mostra il percorso per andare a sinistra. Non si gira subito: diritto, destra, giro dell'isolato.",
+  "trap": "«percorso» è la strada da seguire: il segnale non obbliga a girare.",
+  "caption": "Giro dell'isolato per la strada di sinistra"
+ },
+ "q21674": {
+  "short": "All'incrocio non si gira subito a sinistra: il segnale mostra il giro dell'isolato.",
+  "rule": "Cartello bianco di città: mostra il percorso per andare a sinistra. Non si gira subito: diritto, destra, giro dell'isolato.",
+  "trap": "«in modo diretto»: a sinistra ci arrivi, ma solo facendo il giro.",
+  "caption": "Niente sinistra diretta: giro dell'isolato"
+ },
+ "q21675": {
+  "short": "Il percorso disegnato parte andando diritto: diritto si può.",
+  "rule": "Cartello bianco di città: mostra il percorso per andare a sinistra. Non si gira subito: diritto, destra, giro dell'isolato.",
+  "trap": "«consente» vuol dire permette: il segnale non vieta il diritto.",
+  "caption": "Diritto è permesso"
+ },
+ "q21676": {
+  "short": "Il giro dell'isolato usa le svolte a destra: girare a destra si può.",
+  "rule": "Cartello bianco di città: mostra il percorso per andare a sinistra. Non si gira subito: diritto, destra, giro dell'isolato.",
+  "trap": "«svolta a destra» fa parte del percorso: non è vietata.",
+  "caption": "Destra permessa: fa parte del giro"
+ },
+ "q21677": {
+  "short": "Il segnale serve a chi vuole andare a sinistra: mostra il giro da fare.",
+  "rule": "Cartello bianco di città: mostra il percorso per andare a sinistra. Non si gira subito: diritto, destra, giro dell'isolato.",
+  "trap": "«interessa» vuol dire riguarda: chi va diritto o a destra non deve fare il giro.",
+  "caption": "Per chi vuole la strada di sinistra"
+ },
+ "q21678": {
+  "short": "È un segnale di indicazione: non obbliga. E al prossimo incrocio a sinistra non si gira subito.",
+  "rule": "Cartello bianco di città: mostra il percorso per andare a sinistra. Non si gira subito: diritto, destra, giro dell'isolato.",
+  "trap": "«obbliga» è sbagliato: l'obbligo è un disco blu, questo è un cartello bianco.",
+  "caption": "Non è un obbligo: a sinistra solo col giro"
+ },
+ "q21679": {
+  "short": "Il ricciolo della freccia sembra una P, ma è il giro dell'isolato, non un parcheggio.",
+  "rule": "Cartello bianco di città: mostra il percorso per andare a sinistra. Non si gira subito: diritto, destra, giro dell'isolato.",
+  "trap": "«parcheggio»: il ricciolo è un percorso, non la lettera P.",
+  "caption": "Non è un parcheggio: è un percorso"
+ },
+ "q21680": {
+  "short": "Il segnale vale per tutti i veicoli che vanno a sinistra, anche bici e ciclomotori.",
+  "rule": "Cartello bianco di città: mostra il percorso per andare a sinistra. Non si gira subito: diritto, destra, giro dell'isolato.",
+  "trap": "«non vale»: sul segnale non c'è nessuna eccezione per bici e ciclomotori.",
+  "caption": "Vale per tutti, anche bici e ciclomotori"
+ },
+ "q21681": {
+  "short": "La svolta a destra fa parte del percorso: è permessa, non vietata.",
+  "rule": "Cartello bianco di città: mostra il percorso per andare a sinistra. Non si gira subito: diritto, destra, giro dell'isolato.",
+  "trap": "«vieta»: si gira proprio a destra per fare il giro dell'isolato.",
+  "caption": "Destra permessa, non vietata"
+ },
+ "q21682": {
+  "short": "Il segnale mostra la strada a tutti quelli che vanno a sinistra, non agli autobus.",
+  "rule": "Cartello bianco di città: mostra il percorso per andare a sinistra. Non si gira subito: diritto, destra, giro dell'isolato.",
+  "trap": "«autobus»: sul segnale non c'è nessun autobus; il percorso è per tutti.",
+  "caption": "Percorso per tutti, non degli autobus"
+ },
+ "q21683": {
+  "short": "Con lo spartitraffico non si gira sul posto: il segnale indica un cavalcavia per tornare indietro.",
+  "rule": "Sulle strade a carreggiate separate non si gira sul posto. Il segnale indica un cavalcavia o un sottopassaggio per tornare indietro (blu fuori città, verde in autostrada).",
+  "trap": "«cavalcavia» è un ponte sopra la strada; l'altra possibilità è il sottopassaggio.",
+  "caption": "Cavalcavia per tornare indietro"
+ },
+ "q21684": {
+  "short": "Per tornare indietro ci può essere anche un sottopassaggio, sotto la strada.",
+  "rule": "Sulle strade a carreggiate separate non si gira sul posto. Il segnale indica un cavalcavia o un sottopassaggio per tornare indietro (blu fuori città, verde in autostrada).",
+  "trap": "«sottopassaggio» va bene: il segnale vale per cavalcavia e sottopassaggio.",
+  "caption": "Sottopassaggio per tornare indietro"
+ },
+ "q21685": {
+  "short": "Il disegno mostra due carreggiate divise: il segnale sta proprio su queste strade.",
+  "rule": "Sulle strade a carreggiate separate non si gira sul posto. Il segnale indica un cavalcavia o un sottopassaggio per tornare indietro (blu fuori città, verde in autostrada).",
+  "trap": "«carreggiate separate»: ogni senso di marcia ha la sua carreggiata.",
+  "caption": "Sta sulle strade con spartitraffico"
+ },
+ "q21686": {
+  "short": "È proprio il suo significato: un ponte o un sottopassaggio per cambiare direzione.",
+  "rule": "Sulle strade a carreggiate separate non si gira sul posto. Il segnale indica un cavalcavia o un sottopassaggio per tornare indietro (blu fuori città, verde in autostrada).",
+  "trap": "«tornare indietro» vuol dire invertire la marcia; vale per cavalcavia e sottopassaggio.",
+  "caption": "Cavalcavia o sottopassaggio per tornare"
+ },
+ "q21687": {
+  "short": "Il verde è il colore dell'autostrada: su fondo verde indica la stessa cosa in autostrada.",
+  "rule": "Sulle strade a carreggiate separate non si gira sul posto. Il segnale indica un cavalcavia o un sottopassaggio per tornare indietro (blu fuori città, verde in autostrada).",
+  "trap": "«fondo verde» = autostrada; fondo blu = strade extraurbane.",
+  "caption": "Su verde: stessa cosa in autostrada"
+ },
+ "q21688": {
+  "short": "Indica dove tornare indietro, non una strada chiusa. I lavori hanno un triangolo rosso.",
+  "rule": "Sulle strade a carreggiate separate non si gira sul posto. Il segnale indica un cavalcavia o un sottopassaggio per tornare indietro (blu fuori città, verde in autostrada).",
+  "trap": "«lavori in corso»: la freccia a U non parla di lavori.",
+  "caption": "Non sono lavori: si torna indietro"
+ },
+ "q21689": {
+  "short": "Le linee dritte sono le carreggiate; la freccia curva indica l'inversione, non un rettilineo.",
+  "rule": "Sulle strade a carreggiate separate non si gira sul posto. Il segnale indica un cavalcavia o un sottopassaggio per tornare indietro (blu fuori città, verde in autostrada).",
+  "trap": "«rettilineo»: guarda la freccia curva, il messaggio è quello.",
+  "caption": "Non è un rettilineo: si torna indietro"
+ },
+ "q21690": {
+  "short": "L'inizio della strada extraurbana principale ha un altro segnale, con un'auto. Questo ha la freccia a U.",
+  "rule": "Sulle strade a carreggiate separate non si gira sul posto. Il segnale indica un cavalcavia o un sottopassaggio per tornare indietro (blu fuori città, verde in autostrada).",
+  "trap": "«inizio»: il segnale indica dove tornare indietro, non l'inizio di una strada.",
+  "caption": "Non è un inizio strada: si torna indietro"
+ },
+ "q21691": {
+  "short": "L'inversione passa sopra o sotto la strada, mai allo stesso livello.",
+  "rule": "Sulle strade a carreggiate separate non si gira sul posto. Il segnale indica un cavalcavia o un sottopassaggio per tornare indietro (blu fuori città, verde in autostrada).",
+  "trap": "«a raso» è il contrario: cavalcavia e sottopassaggio sono su un altro livello.",
+  "caption": "Non è a raso: sopra o sotto la strada"
+ },
+ "q21692": {
+  "short": "Dice solo che si può tornare indietro; si può anche andare avanti.",
+  "rule": "Sulle strade a carreggiate separate non si gira sul posto. Il segnale indica un cavalcavia o un sottopassaggio per tornare indietro (blu fuori città, verde in autostrada).",
+  "trap": "«obbliga»: il quadrato blu informa, non dà ordini.",
+  "caption": "Non è un obbligo: si può proseguire"
+ },
+ "q21693": {
+  "short": "Il disegno mostra il bordo della strada che si allarga: una piazzola dove fermarsi.",
+  "rule": "Questo segnale blu indica una piazzola: un piccolo spazio a lato della strada per fermarsi, fuori città.",
+  "trap": "«fermata» è una sosta breve: la piazzola serve proprio a questo.",
+  "caption": "Piazzola a lato della strada per fermarsi"
+ },
+ "q21694": {
+  "short": "Sta vicino alla piazzola, così la vedi in tempo e rallenti.",
+  "rule": "Questo segnale blu indica una piazzola: un piccolo spazio a lato della strada per fermarsi, fuori città.",
+  "trap": "«in vicinanza» vuol dire vicino: il segnale sta vicino alla piazzola.",
+  "caption": "Messo vicino alla piazzola"
+ },
+ "q21695": {
+  "short": "Le piazzole sono tipiche delle strade fuori città, e il segnale è blu come quelle strade.",
+  "rule": "Questo segnale blu indica una piazzola: un piccolo spazio a lato della strada per fermarsi, fuori città.",
+  "trap": "«extraurbana» vuol dire fuori città: va bene con il colore blu.",
+  "caption": "Si trova fuori città"
+ },
+ "q21696": {
+  "short": "Sotto il segnale ci può essere un pannello con la distanza dalla piazzola.",
+  "rule": "Questo segnale blu indica una piazzola: un piccolo spazio a lato della strada per fermarsi, fuori città.",
+  "trap": "«può essere»: il pannello è possibile, non obbligatorio.",
+  "caption": "Pannello con la distanza dalla piazzola"
+ },
+ "q21697": {
+  "short": "La carreggiata non si allarga: c'è solo un piccolo spazio a lato, che poi finisce.",
+  "rule": "Questo segnale blu indica una piazzola: un piccolo spazio a lato della strada per fermarsi, fuori città.",
+  "trap": "«allargamento»: il bordo esce e poi rientra, quindi è una piazzola.",
+  "caption": "Non si allarga: è una piazzola"
+ },
+ "q21698": {
+  "short": "Sul segnale non c'è nessun orario. La piazzola serve per una fermata, non per la sosta.",
+  "rule": "Questo segnale blu indica una piazzola: un piccolo spazio a lato della strada per fermarsi, fuori città.",
+  "trap": "«solo per 3 ore»: sul segnale non ci sono numeri né orari.",
+  "caption": "Nessun orario: piazzola per fermarsi"
+ },
+ "q21699": {
+  "short": "Il campeggio ha un segnale con una tenda; questo indica una piazzola.",
+  "rule": "Questo segnale blu indica una piazzola: un piccolo spazio a lato della strada per fermarsi, fuori città.",
+  "trap": "«campeggio»: sul segnale non c'è una tenda.",
+  "caption": "Non è un campeggio: è una piazzola"
+ },
+ "q21700": {
+  "short": "La fermata dell'autobus ha un segnale con l'autobus; questo indica solo una piazzola.",
+  "rule": "Questo segnale blu indica una piazzola: un piccolo spazio a lato della strada per fermarsi, fuori città.",
+  "trap": "«autobus»: la parola «fermata» va bene, ma sul segnale non c'è un autobus.",
+  "caption": "Non è una fermata bus: è una piazzola"
+ },
+ "q21701": {
+  "short": "Non c'è nessun caravan: è una piccola piazzola per fermarsi, per tutti i veicoli.",
+  "rule": "Questo segnale blu indica una piazzola: un piccolo spazio a lato della strada per fermarsi, fuori città.",
+  "trap": "«caravan»: sul segnale non c'è, e la piazzola non è un parcheggio.",
+  "caption": "Non è parcheggio caravan: è una piazzola"
+ },
+ "q21702": {
+  "short": "Il segnale è blu: si usa sulle strade extraurbane, non solo in autostrada.",
+  "rule": "Questo segnale blu indica una piazzola: un piccolo spazio a lato della strada per fermarsi, fuori città.",
+  "trap": "«solo» è la trappola: blu vuol dire strade fuori città, non solo autostrade.",
+  "caption": "Non solo autostrade: blu = fuori città"
+ },
+ "q21703": {
+  "short": "Ogni freccia è una corsia, e il simbolo dice chi può usarla.",
+  "rule": "Segnale blu di uso delle corsie, fuori città. Il disco sulla freccia di sinistra: i camion oltre 3,5 t non usano quella corsia. Gli altri veicoli usano tutte e due.",
+  "trap": "«come utilizzare le corsie» è proprio il compito di questo segnale.",
+  "caption": "Dice come usare ogni corsia"
+ },
+ "q21704": {
+  "short": "Solo i camion pesanti non vanno a sinistra: le moto possono usare tutte e due le corsie.",
+  "rule": "Segnale blu di uso delle corsie, fuori città. Il disco sulla freccia di sinistra: i camion oltre 3,5 t non usano quella corsia. Gli altri veicoli usano tutte e due.",
+  "trap": "«tutte e due»: il divieto vale solo per i camion sopra 3,5 t.",
+  "caption": "Moto su tutte e due le corsie"
+ },
+ "q21705": {
+  "short": "Il divieto per i camion sta sulla freccia di sinistra: i camion oltre 3,5 t non usano quella corsia.",
+  "rule": "Segnale blu di uso delle corsie, fuori città. Il disco sulla freccia di sinistra: i camion oltre 3,5 t non usano quella corsia. Gli altri veicoli usano tutte e due.",
+  "trap": "«superano»: il divieto vale solo per i camion più pesanti di 3,5 t.",
+  "caption": "A sinistra niente camion oltre 3,5 t"
+ },
+ "q21706": {
+  "short": "Il segnale è blu, il colore delle strade extraurbane.",
+  "rule": "Segnale blu di uso delle corsie, fuori città. Il disco sulla freccia di sinistra: i camion oltre 3,5 t non usano quella corsia. Gli altri veicoli usano tutte e due.",
+  "trap": "«extraurbane» vuol dire fuori città: lo dice il fondo blu.",
+  "caption": "Blu: strade fuori città"
+ },
+ "q21707": {
+  "short": "Il divieto non riguarda le auto: possono usare tutte e due le corsie.",
+  "rule": "Segnale blu di uso delle corsie, fuori città. Il disco sulla freccia di sinistra: i camion oltre 3,5 t non usano quella corsia. Gli altri veicoli usano tutte e due.",
+  "trap": "«autovetture» vuol dire auto: il disco a sinistra è solo per i camion pesanti.",
+  "caption": "Auto su tutte e due le corsie"
+ },
+ "q21708": {
+  "short": "Il segnale tiene i camion pesanti fuori dalla corsia di sinistra; non parla di sorpasso a destra.",
+  "rule": "Segnale blu di uso delle corsie, fuori città. Il disco sulla freccia di sinistra: i camion oltre 3,5 t non usano quella corsia. Gli altri veicoli usano tutte e due.",
+  "trap": "«sorpassare a destra»: questo non c'è sul segnale.",
+  "caption": "Nessun permesso di sorpasso a destra"
+ },
+ "q21709": {
+  "short": "È il contrario: i camion pesanti NON possono usare la corsia di sinistra, vanno a destra.",
+  "rule": "Segnale blu di uso delle corsie, fuori città. Il disco sulla freccia di sinistra: i camion oltre 3,5 t non usano quella corsia. Gli altri veicoli usano tutte e due.",
+  "trap": "«solo sulla corsia di sinistra» rovescia il significato del disco rosso.",
+  "caption": "Il contrario: camion pesanti fuori da sinistra"
+ },
+ "q21710": {
+  "short": "Il divieto vale solo per i camion oltre 3,5 t; quelli più leggeri possono andare a sinistra.",
+  "rule": "Segnale blu di uso delle corsie, fuori città. Il disco sulla freccia di sinistra: i camion oltre 3,5 t non usano quella corsia. Gli altri veicoli usano tutte e due.",
+  "trap": "«tutti» è la trappola: il divieto vale solo sopra 3,5 t.",
+  "caption": "Solo camion oltre 3,5 t, non tutti"
+ },
+ "q21711": {
+  "short": "Nel disco rosso c'è un camion, non un autobus: gli autobus usano tutte e due le corsie.",
+  "rule": "Segnale blu di uso delle corsie, fuori città. Il disco sulla freccia di sinistra: i camion oltre 3,5 t non usano quella corsia. Gli altri veicoli usano tutte e due.",
+  "trap": "«anche agli autobus»: il divieto è solo per i camion pesanti.",
+  "caption": "Gli autobus non sono vietati"
+ },
+ "q21712": {
+  "short": "Le due frecce vanno nella stessa direzione: le corsie hanno lo stesso senso di marcia.",
+  "rule": "Segnale blu di uso delle corsie, fuori città. Il disco sulla freccia di sinistra: i camion oltre 3,5 t non usano quella corsia. Gli altri veicoli usano tutte e due.",
+  "trap": "«doppio senso»: tutte e due le frecce vanno in su, nessuna torna indietro.",
+  "caption": "Le due corsie vanno nello stesso senso"
+ },
+ "q21713": {
+  "short": "I dischi blu con i numeri sono velocità minime: in quella corsia devi andare almeno così.",
+  "rule": "Segnale verde di autostrada con le velocità minime obbligatorie: sinistra almeno 90, centro almeno 60, destra nessun minimo.",
+  "trap": "«minime»: disco blu = minimo; disco con bordo rosso = massimo.",
+  "caption": "Sinistra: almeno 90. Centro: almeno 60"
+ },
+ "q21714": {
+  "short": "Il fondo è verde, il colore dei segnali dell'autostrada.",
+  "rule": "Segnale verde di autostrada con le velocità minime obbligatorie: sinistra almeno 90, centro almeno 60, destra nessun minimo.",
+  "trap": "«autostrade»: il verde dice il tipo di strada.",
+  "caption": "Fondo verde = autostrada"
+ },
+ "q21715": {
+  "short": "Nella corsia di mezzo il minimo è 60, e 100 è più di 60.",
+  "rule": "Segnale verde di autostrada con le velocità minime obbligatorie: sinistra almeno 90, centro almeno 60, destra nessun minimo.",
+  "trap": "«corsia di mezzo»: il minimo è 60, quindi 100 va bene.",
+  "caption": "100 km/h è sopra il minimo di 60"
+ },
+ "q21716": {
+  "short": "A 50 km/h sei sotto tutti e due i minimi (60 e 90): resta solo la corsia di destra.",
+  "rule": "Segnale verde di autostrada con le velocità minime obbligatorie: sinistra almeno 90, centro almeno 60, destra nessun minimo.",
+  "trap": "«50 km/h» è meno di 60: corsia centrale e di sinistra non vanno bene.",
+  "caption": "A 50 km/h: solo corsia di destra"
+ },
+ "q21717": {
+  "short": "I numeri sono velocità minime, non massime. Il limite dell'autostrada resta, e 160 km/h è oltre.",
+  "rule": "Segnale verde di autostrada con le velocità minime obbligatorie: sinistra almeno 90, centro almeno 60, destra nessun minimo.",
+  "trap": "«160 km/h» supera il limite dell'autostrada; il segnale dà solo i minimi.",
+  "caption": "Solo minimi: 160 km/h supera il limite"
+ },
+ "q21718": {
+  "short": "I numeri sono velocità minime obbligatorie, non massime consigliate.",
+  "rule": "Segnale verde di autostrada con le velocità minime obbligatorie: sinistra almeno 90, centro almeno 60, destra nessun minimo.",
+  "trap": "«non superare» è sbagliato: devi andare almeno così, non al massimo.",
+  "caption": "Non sono massimi: sono minimi obbligatori"
+ },
+ "q21719": {
+  "short": "Nella corsia di sinistra il minimo è 90, e 80 è meno di 90.",
+  "rule": "Segnale verde di autostrada con le velocità minime obbligatorie: sinistra almeno 90, centro almeno 60, destra nessun minimo.",
+  "trap": "«80 km/h» è sotto il minimo di 90 della corsia di sinistra.",
+  "caption": "80 km/h è sotto il minimo di 90"
+ },
+ "q21720": {
+  "short": "Le tre frecce vanno nella stessa direzione: tre corsie dello stesso senso.",
+  "rule": "Segnale verde di autostrada con le velocità minime obbligatorie: sinistra almeno 90, centro almeno 60, destra nessun minimo.",
+  "trap": "«doppio senso»: nessuna freccia va in giù.",
+  "caption": "Tre corsie nello stesso senso"
+ },
+ "q21721": {
+  "short": "Queste velocità sono minimi obbligatori, non consigli.",
+  "rule": "Segnale verde di autostrada con le velocità minime obbligatorie: sinistra almeno 90, centro almeno 60, destra nessun minimo.",
+  "trap": "«consigliate»: i dischi blu sono obblighi.",
+  "caption": "Non consigliate: minimi obbligatori"
+ },
+ "q21722": {
+  "short": "Ogni freccia è una corsia, e il disco con l'autobus dice chi usa quella di destra.",
+  "rule": "Segnale bianco di città: la corsia di destra, dopo la linea gialla, è riservata ai bus pubblici; le corsie di sinistra sono per tutti.",
+  "trap": "«devono»: l'uso delle corsie indicato è obbligatorio.",
+  "caption": "Dice come usare ogni corsia"
+ },
+ "q21723": {
+  "short": "La corsia di destra è separata da una linea gialla e ha il disco con l'autobus: è per i bus.",
+  "rule": "Segnale bianco di città: la corsia di destra, dopo la linea gialla, è riservata ai bus pubblici; le corsie di sinistra sono per tutti.",
+  "trap": "«riservata»: solo gli autobus pubblici possono usarla.",
+  "caption": "Corsia di destra: solo bus pubblici"
+ },
+ "q21724": {
+  "short": "Le due frecce nere a sinistra non hanno simboli: le possono usare tutti.",
+  "rule": "Segnale bianco di città: la corsia di destra, dopo la linea gialla, è riservata ai bus pubblici; le corsie di sinistra sono per tutti.",
+  "trap": "«tutti i veicoli»: sulle corsie di sinistra non c'è nessun limite.",
+  "caption": "Corsie di sinistra: tutti i veicoli"
+ },
+ "q21725": {
+  "short": "Il fondo è bianco, il colore delle strade in città, dove ci sono le corsie dei bus.",
+  "rule": "Segnale bianco di città: la corsia di destra, dopo la linea gialla, è riservata ai bus pubblici; le corsie di sinistra sono per tutti.",
+  "trap": "«urbane» vuol dire in città: lo dice il fondo bianco.",
+  "caption": "Fondo bianco = strade in città"
+ },
+ "q21726": {
+  "short": "Nel disco c'è solo un autobus: la corsia di destra è per i bus pubblici, non per i taxi.",
+  "rule": "Segnale bianco di città: la corsia di destra, dopo la linea gialla, è riservata ai bus pubblici; le corsie di sinistra sono per tutti.",
+  "trap": "«taxi»: sul segnale non c'è un taxi, solo un autobus.",
+  "caption": "Corsia di destra: solo bus, non taxi"
+ },
+ "q21727": {
+  "short": "Il disco sulla corsia di destra ha un autobus, non una bicicletta.",
+  "rule": "Segnale bianco di città: la corsia di destra, dopo la linea gialla, è riservata ai bus pubblici; le corsie di sinistra sono per tutti.",
+  "trap": "«pista ciclabile»: il segnale della pista ciclabile ha una bicicletta.",
+  "caption": "Non è pista ciclabile: è corsia bus"
+ },
+ "q21728": {
+  "short": "È bianco, il colore delle strade in città; in autostrada i segnali sono verdi.",
+  "rule": "Segnale bianco di città: la corsia di destra, dopo la linea gialla, è riservata ai bus pubblici; le corsie di sinistra sono per tutti.",
+  "trap": "«autostrade»: verde vuol dire autostrada, ma questo segnale è bianco.",
+  "caption": "Bianco = città, non autostrada"
+ },
+ "q21729": {
+  "short": "Il segnale riserva solo la corsia di destra ai bus; non parla di sorpasso.",
+  "rule": "Segnale bianco di città: la corsia di destra, dopo la linea gialla, è riservata ai bus pubblici; le corsie di sinistra sono per tutti.",
+  "trap": "«sorpassare a destra»: il segnale non dice questo.",
+  "caption": "Corsia bus, niente sul sorpasso"
+ },
+ "q21730": {
+  "short": "Una corsia diventa due: il numero di corsie cambia.",
+  "rule": "Questo segnale blu indica un cambio del numero di corsie: una diventa due, con una nuova corsia a destra. Si usa fuori città.",
+  "trap": "«cambiamento»: qui il cambiamento è un aumento.",
+  "caption": "Le corsie cambiano: da una a due"
+ },
+ "q21731": {
+  "short": "La freccia piegata mostra una nuova corsia a destra: da una si passa a due.",
+  "rule": "Questo segnale blu indica un cambio del numero di corsie: una diventa due, con una nuova corsia a destra. Si usa fuori città.",
+  "trap": "«aumento»: in basso una corsia, in alto due.",
+  "caption": "Da una corsia a due"
+ },
+ "q21732": {
+  "short": "Sotto il segnale ci può essere un pannello con la distanza dalla nuova corsia.",
+  "rule": "Questo segnale blu indica un cambio del numero di corsie: una diventa due, con una nuova corsia a destra. Si usa fuori città.",
+  "trap": "«può essere»: il pannello è possibile, non obbligatorio.",
+  "caption": "Pannello con la distanza dalla nuova corsia"
+ },
+ "q21733": {
+  "short": "Il fondo è blu, il colore di questi segnali sulle strade extraurbane.",
+  "rule": "Questo segnale blu indica un cambio del numero di corsie: una diventa due, con una nuova corsia a destra. Si usa fuori città.",
+  "trap": "«extraurbane» vuol dire fuori città: lo dice il fondo blu.",
+  "caption": "Blu: strade fuori città"
+ },
+ "q21734": {
+  "short": "Non c'è una freccia a U: le frecce vanno avanti e mostrano una nuova corsia.",
+  "rule": "Questo segnale blu indica un cambio del numero di corsie: una diventa due, con una nuova corsia a destra. Si usa fuori città.",
+  "trap": "«cavalcavia»: il segnale di inversione ha una freccia curva che torna indietro.",
+  "caption": "Non è un'inversione: si aggiunge una corsia"
+ },
+ "q21735": {
+  "short": "È un quadrato blu che informa sulle corsie, non un disco d'obbligo. La freccia piegata è la nuova corsia.",
+  "rule": "Questo segnale blu indica un cambio del numero di corsie: una diventa due, con una nuova corsia a destra. Si usa fuori città.",
+  "trap": "«obbligo»: la freccia piegata è una nuova corsia, non una svolta obbligata.",
+  "caption": "Nessun obbligo: si apre una nuova corsia"
+ },
+ "q21736": {
+  "short": "Non c'è nessun ostacolo: le due frecce mostrano una corsia che diventa due.",
+  "rule": "Questo segnale blu indica un cambio del numero di corsie: una diventa due, con una nuova corsia a destra. Si usa fuori città.",
+  "trap": "«ostacolo»: il segnale del passaggio a destra o sinistra è un disco blu.",
+  "caption": "Non è un ostacolo: una corsia diventa due"
+ },
+ "q21737": {
+  "short": "Il segnale dice solo che c'è una corsia in più; non permette il sorpasso a destra.",
+  "rule": "Questo segnale blu indica un cambio del numero di corsie: una diventa due, con una nuova corsia a destra. Si usa fuori città.",
+  "trap": "«sorpassare a destra»: il segnale non parla di sorpasso.",
+  "caption": "Corsia in più; si sorpassa a sinistra"
+ },
+ "q21738": {
+  "short": "La preselezione ha corsie con frecce verso direzioni diverse prima di un incrocio; qui vanno tutte e due diritto.",
+  "rule": "Questo segnale blu indica un cambio del numero di corsie: una diventa due, con una nuova corsia a destra. Si usa fuori città.",
+  "trap": "«preselezione»: qui tutte e due le frecce vanno avanti.",
+  "caption": "Non è preselezione: le corsie vanno avanti"
+ },
+ "q21739": {
+  "short": "La corsia di decelerazione serve per uscire; qui la nuova corsia va avanti accanto all'altra.",
+  "rule": "Questo segnale blu indica un cambio del numero di corsie: una diventa due, con una nuova corsia a destra. Si usa fuori città.",
+  "trap": "«decelerazione»: la nuova corsia va avanti, non esce dalla strada.",
+  "caption": "Non è un'uscita: c'è una corsia in più"
+ },
+ "q21740": {
+  "short": "La corsia di destra rientra al centro e finisce: le corsie diminuiscono.",
+  "rule": "Segnale verde di autostrada: tre corsie diventano due. La corsia di destra finisce e rientra al centro: rallenta.",
+  "trap": "«diminuzione»: tre corsie diventano due.",
+  "caption": "Meno corsie: da tre a due"
+ },
+ "q21741": {
+  "short": "Due frecce vanno dritte e la terza rientra e finisce: da tre corsie si passa a due.",
+  "rule": "Segnale verde di autostrada: tre corsie diventano due. La corsia di destra finisce e rientra al centro: rallenta.",
+  "trap": "«da tre a due»: conta le frecce in basso e in alto.",
+  "caption": "Da tre corsie a due"
+ },
+ "q21742": {
+  "short": "Con una corsia in meno le auto si devono unire: conviene rallentare.",
+  "rule": "Segnale verde di autostrada: tre corsie diventano due. La corsia di destra finisce e rientra al centro: rallenta.",
+  "trap": "«consiglia»: il segnale informa, e rallentare è il consiglio giusto.",
+  "caption": "Rallenta: la carreggiata si stringe"
+ },
+ "q21743": {
+  "short": "Sotto il segnale ci può essere un pannello con la distanza dal restringimento.",
+  "rule": "Segnale verde di autostrada: tre corsie diventano due. La corsia di destra finisce e rientra al centro: rallenta.",
+  "trap": "«può essere»: il pannello è possibile, non obbligatorio.",
+  "caption": "Pannello con la distanza dal restringimento"
+ },
+ "q21744": {
+  "short": "Il fondo è verde, il colore dei segnali dell'autostrada.",
+  "rule": "Segnale verde di autostrada: tre corsie diventano due. La corsia di destra finisce e rientra al centro: rallenta.",
+  "trap": "«autostrade»: il verde dice il tipo di strada.",
+  "caption": "Fondo verde = autostrada"
+ },
+ "q21745": {
+  "short": "I lavori hanno un triangolo rosso; questo segnale verde dice solo che una corsia finisce.",
+  "rule": "Segnale verde di autostrada: tre corsie diventano due. La corsia di destra finisce e rientra al centro: rallenta.",
+  "trap": "«lavori in corso»: il segnale verde parla di corsie, non di lavori.",
+  "caption": "Non sono lavori: una corsia finisce"
+ },
+ "q21746": {
+  "short": "La freccia piegata è la corsia di destra che rientra, non una svolta. E il quadrato verde informa, non obbliga.",
+  "rule": "Segnale verde di autostrada: tre corsie diventano due. La corsia di destra finisce e rientra al centro: rallenta.",
+  "trap": "«obbligo»: la freccia vuol dire «spostati nella corsia accanto», non «gira a sinistra».",
+  "caption": "Niente svolta: la corsia di destra rientra"
+ },
+ "q21747": {
+  "short": "Non c'è una freccia a U: tutte le frecce vanno avanti e una corsia finisce.",
+  "rule": "Segnale verde di autostrada: tre corsie diventano due. La corsia di destra finisce e rientra al centro: rallenta.",
+  "trap": "«inversione di marcia»: quel segnale ha una freccia curva che torna indietro.",
+  "caption": "Non è un'inversione: una corsia finisce"
+ },
+ "q21748": {
+  "short": "Il segnale mostra una corsia che finisce, non un'entrata; non dà precedenza a chi entra.",
+  "rule": "Segnale verde di autostrada: tre corsie diventano due. La corsia di destra finisce e rientra al centro: rallenta.",
+  "trap": "«entrano in autostrada»: la freccia piegata è una corsia che finisce, non un'entrata.",
+  "caption": "Non è un'entrata: la corsia di destra finisce"
+ }
+}

@@ -1,0 +1,2077 @@
+{
+ "q21520": {
+  "en": "The sign shown indicates the start of a main road outside towns.",
+  "explain": {
+   "short": "The blue sign with the white road picture marks where a main road outside towns begins.",
+   "rule": "Blue sign with a white road and bridge = 'strada extraurbana principale' (main road outside towns). It stands at the start of that road; with a red bar it marks the end.",
+   "trap": "'inizio' (start) is right: without a red bar the sign marks the beginning.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Start of a main road outside towns",
+    "it": "strada extraurbana principale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "l'inizio",
+    "en": "the start"
+   },
+   {
+    "it": "strada extraurbana principale",
+    "en": "main road outside towns"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21521": {
+  "en": "The sign shown, if crossed by a red stripe, indicates the end of a main road outside towns.",
+  "explain": {
+   "short": "A red diagonal bar on a place or road sign means 'end'. Here it marks the end of the main road outside towns.",
+   "rule": "Blue sign with a white road and bridge = 'strada extraurbana principale' (main road outside towns). It stands at the start of that road; with a red bar it marks the end.",
+   "trap": "'barrato da una striscia rossa' (crossed by a red stripe) turns the start sign into the end sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "With a red bar: end of the main road",
+    "it": "strada extraurbana principale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "barrato",
+    "en": "crossed out"
+   },
+   {
+    "it": "striscia rossa",
+    "en": "red stripe"
+   },
+   {
+    "it": "la fine",
+    "en": "the end"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21522": {
+  "en": "The sign shown is placed at the start of a main road outside towns.",
+  "explain": {
+   "short": "This sign stands where a main road outside towns begins, to tell drivers its special rules start here.",
+   "rule": "Blue sign with a white road and bridge = 'strada extraurbana principale' (main road outside towns). It stands at the start of that road; with a red bar it marks the end.",
+   "trap": "'posto all'inizio' (placed at the start) is the correct position.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Placed where the main road begins",
+    "it": "strada extraurbana principale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "posto",
+    "en": "placed"
+   },
+   {
+    "it": "all'inizio",
+    "en": "at the start"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21523": {
+  "en": "The sign shown indicates a road with separate carriageways.",
+  "explain": {
+   "short": "A main road outside towns has separate carriageways (two roadways split by a central divider), so the sign tells you this.",
+   "rule": "Blue sign with a white road and bridge = 'strada extraurbana principale' (main road outside towns). It stands at the start of that road; with a red bar it marks the end.",
+   "trap": "'carreggiate separate' (separate carriageways) is a real feature of this road type.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Main road: carriageways kept apart",
+    "it": "strada extraurbana principale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "carreggiate separate",
+    "en": "separate carriageways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21524": {
+  "en": "The sign shown indicates an overpass that lets you make a U-turn.",
+  "explain": {
+   "short": "The bridge in the picture is only part of the road symbol. The sign shows a road type, not a place to turn around.",
+   "rule": "Blue sign with a white road and bridge = 'strada extraurbana principale' (main road outside towns). It stands at the start of that road; with a red bar it marks the end.",
+   "trap": "'cavalcavia' (overpass): the drawn bridge does not mean a real overpass for U-turns.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road type sign, not a U-turn overpass",
+    "it": "strada extraurbana principale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cavalcavia",
+    "en": "overpass"
+   },
+   {
+    "it": "inversione di marcia",
+    "en": "U-turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21525": {
+  "en": "The sign shown gives advance warning of an uphill stretch of road.",
+  "explain": {
+   "short": "The narrowing white lines show the road going into the distance, not a slope. Slopes are warned by red triangle signs.",
+   "rule": "Blue sign with a white road and bridge = 'strada extraurbana principale' (main road outside towns). It stands at the start of that road; with a red bar it marks the end.",
+   "trap": "'in salita' (uphill): the picture shows perspective, not a hill.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not an uphill warning: main road start",
+    "it": "strada extraurbana principale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "warns in advance"
+   },
+   {
+    "it": "in salita",
+    "en": "uphill"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21526": {
+  "en": "The sign shown indicates that an underpass for vehicles is near.",
+  "explain": {
+   "short": "The sign does not announce an underpass. It tells you that a main road outside towns starts here.",
+   "rule": "Blue sign with a white road and bridge = 'strada extraurbana principale' (main road outside towns). It stands at the start of that road; with a red bar it marks the end.",
+   "trap": "'sottopassaggio' (underpass): the bridge drawing is only a symbol.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not an underpass: main road start",
+    "it": "strada extraurbana principale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sottopassaggio",
+    "en": "underpass"
+   },
+   {
+    "it": "vicinanza",
+    "en": "nearness"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21527": {
+  "en": "The sign shown indicates that the road is closed.",
+  "explain": {
+   "short": "The road is not closed: the sign shows the start of a main road outside towns, where you can drive.",
+   "rule": "Blue sign with a white road and bridge = 'strada extraurbana principale' (main road outside towns). It stands at the start of that road; with a red bar it marks the end.",
+   "trap": "'interrotta' (closed, cut off) is wrong: this sign only gives road-type information.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road open: start of a main road",
+    "it": "strada extraurbana principale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "interrotta",
+    "en": "closed, cut off"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21528": {
+  "en": "The sign shown orders traffic to move in parallel lines.",
+  "explain": {
+   "short": "The sign is blue information, not an order. It does not tell you to drive in parallel lines.",
+   "rule": "Blue sign with a white road and bridge = 'strada extraurbana principale' (main road outside towns). It stands at the start of that road; with a red bar it marks the end.",
+   "trap": "'prescrive' (orders): this sign informs, it does not order anything.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Information only, no lane order",
+    "it": "strada extraurbana principale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "prescrive",
+    "en": "orders"
+   },
+   {
+    "it": "file parallele",
+    "en": "parallel lines"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21529": {
+  "en": "The sign shown gives advance warning of the start of a long straight road.",
+  "explain": {
+   "short": "The straight lines are just the road symbol. The sign tells you the road type, not that the road is straight.",
+   "rule": "Blue sign with a white road and bridge = 'strada extraurbana principale' (main road outside towns). It stands at the start of that road; with a red bar it marks the end.",
+   "trap": "'lungo rettilineo' (long straight road): the straight drawing does not mean a straight road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road type, not a long straight",
+    "it": "strada extraurbana principale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "warns in advance"
+   },
+   {
+    "it": "lungo rettilineo",
+    "en": "long straight road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21530": {
+  "en": "The sign shown is placed near the Italian border, visible to drivers coming from the foreign country.",
+  "explain": {
+   "short": "It tells drivers entering Italy which speed limits apply, so it stands near the border facing them.",
+   "rule": "Border sign 'ITALIA': maximum limits 50 in towns, 90 outside towns, 110 on main roads outside towns, 130 on motorways.",
+   "trap": "'frontiera' (border) is right: the sign is for people arriving from abroad.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At the border, for drivers entering Italy",
+    "it": "limiti generali di velocità",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "frontiera",
+    "en": "border"
+   },
+   {
+    "it": "Stato estero",
+    "en": "foreign country"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21531": {
+  "en": "The sign shown indicates the general maximum speed limits that apply in Italy.",
+  "explain": {
+   "short": "The four boxes list the general top speeds for each type of road in Italy.",
+   "rule": "Border sign 'ITALIA': maximum limits 50 in towns, 90 outside towns, 110 on main roads outside towns, 130 on motorways.",
+   "trap": "'limiti massimi' (maximum limits) is right: these are the highest speeds allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "General maximum limits in Italy",
+    "it": "limiti generali di velocità",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "limiti massimi",
+    "en": "maximum limits"
+   },
+   {
+    "it": "generali",
+    "en": "general"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21532": {
+  "en": "The sign shown indicates, in the first box at the top, the maximum speed limit in built-up areas.",
+  "explain": {
+   "short": "The top box shows 50 next to a town skyline: 50 km/h is the limit in built-up areas.",
+   "rule": "Border sign 'ITALIA': maximum limits 50 in towns, 90 outside towns, 110 on main roads outside towns, 130 on motorways.",
+   "trap": "'primo riquadro in alto' (first box at the top) goes with the town picture.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Top box: 50 km/h in towns",
+    "it": "limiti generali di velocità",
+    "action": "speedLimit",
+    "value": 50
+   }
+  },
+  "keywords": [
+   {
+    "it": "primo riquadro",
+    "en": "first box"
+   },
+   {
+    "it": "centri abitati",
+    "en": "built-up areas"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21533": {
+  "en": "The sign shown gives 90 km/h as the maximum speed limit on secondary roads outside towns.",
+  "explain": {
+   "short": "The second box shows 90 next to a crossed-out town: outside towns, on secondary roads, the limit is 90 km/h.",
+   "rule": "Border sign 'ITALIA': maximum limits 50 in towns, 90 outside towns, 110 on main roads outside towns, 130 on motorways.",
+   "trap": "'extraurbane secondarie' (secondary roads outside towns) is the right road for 90.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "90 km/h on secondary roads outside towns",
+    "it": "limiti generali di velocità",
+    "action": "speedLimit",
+    "value": 90
+   }
+  },
+  "keywords": [
+   {
+    "it": "90 km/h",
+    "en": "90 km/h"
+   },
+   {
+    "it": "extraurbane secondarie",
+    "en": "secondary roads outside towns"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21534": {
+  "en": "The sign shown gives 110 km/h as the maximum speed limit on main roads outside towns.",
+  "explain": {
+   "short": "The third box shows 110 next to the blue main-road symbol: 110 km/h on main roads outside towns.",
+   "rule": "Border sign 'ITALIA': maximum limits 50 in towns, 90 outside towns, 110 on main roads outside towns, 130 on motorways.",
+   "trap": "'extraurbane principali' (main roads outside towns) goes with 110, not 130.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "110 km/h on main roads outside towns",
+    "it": "limiti generali di velocità",
+    "action": "speedLimit",
+    "value": 110
+   }
+  },
+  "keywords": [
+   {
+    "it": "110 km /h",
+    "en": "110 km/h"
+   },
+   {
+    "it": "extraurbane principali",
+    "en": "main roads outside towns"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21535": {
+  "en": "The sign shown gives 130 km/h as the maximum speed limit on motorways.",
+  "explain": {
+   "short": "The bottom box shows 130 next to the green motorway symbol: 130 km/h on motorways.",
+   "rule": "Border sign 'ITALIA': maximum limits 50 in towns, 90 outside towns, 110 on main roads outside towns, 130 on motorways.",
+   "trap": "'autostrade' (motorways) go with 130 and the green symbol.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "130 km/h on motorways",
+    "it": "limiti generali di velocità",
+    "action": "speedLimit",
+    "value": 130
+   }
+  },
+  "keywords": [
+   {
+    "it": "130 km /h",
+    "en": "130 km/h"
+   },
+   {
+    "it": "autostrade",
+    "en": "motorways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21536": {
+  "en": "The sign shown gives 90 km/h as the maximum speed limit in built-up areas.",
+  "explain": {
+   "short": "In built-up areas the limit on the sign is 50 km/h. 90 km/h is for roads outside towns.",
+   "rule": "Border sign 'ITALIA': maximum limits 50 in towns, 90 outside towns, 110 on main roads outside towns, 130 on motorways.",
+   "trap": "'90 km/h ... centri abitati': 90 belongs to the crossed-out town, so outside towns.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Towns: 50 km/h, not 90",
+    "it": "limiti generali di velocità",
+    "action": "speedLimit",
+    "value": 50
+   }
+  },
+  "keywords": [
+   {
+    "it": "90 km /h",
+    "en": "90 km/h"
+   },
+   {
+    "it": "centri abitati",
+    "en": "built-up areas"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21537": {
+  "en": "The sign shown indicates the number of motorways in Italy you can use without paying a toll.",
+  "explain": {
+   "short": "The numbers are speed limits in km/h, not a count of toll-free motorways.",
+   "rule": "Border sign 'ITALIA': maximum limits 50 in towns, 90 outside towns, 110 on main roads outside towns, 130 on motorways.",
+   "trap": "'numero di autostrade' (number of motorways): the numbers are speeds.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Numbers are speed limits, not motorways",
+    "it": "limiti generali di velocità",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "numero di autostrade",
+    "en": "number of motorways"
+   },
+   {
+    "it": "pedaggio",
+    "en": "toll"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21538": {
+  "en": "The sign shown gives 130 km/h as the maximum speed limit on main roads outside towns.",
+  "explain": {
+   "short": "130 km/h is the motorway limit. On main roads outside towns the sign gives 110 km/h.",
+   "rule": "Border sign 'ITALIA': maximum limits 50 in towns, 90 outside towns, 110 on main roads outside towns, 130 on motorways.",
+   "trap": "'130 ... extraurbane principali': 130 belongs to motorways (green symbol).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Main roads: 110 km/h, not 130",
+    "it": "limiti generali di velocità",
+    "action": "speedLimit",
+    "value": 110
+   }
+  },
+  "keywords": [
+   {
+    "it": "130 km /h",
+    "en": "130 km/h"
+   },
+   {
+    "it": "extraurbane principali",
+    "en": "main roads outside towns"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21539": {
+  "en": "The sign shown is found at the entrance of every town.",
+  "explain": {
+   "short": "It is placed near the Italian border, not at every town. A town entrance has the white place-name sign.",
+   "rule": "Border sign 'ITALIA': maximum limits 50 in towns, 90 outside towns, 110 on main roads outside towns, 130 on motorways.",
+   "trap": "'ogni città' (every town) is wrong: this sign is at the border.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At the border, not at every town",
+    "it": "limiti generali di velocità",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ingresso",
+    "en": "entrance"
+   },
+   {
+    "it": "ogni città",
+    "en": "every town"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21540": {
+  "en": "The sign shown indicates the minimum speed limits that apply in Italy.",
+  "explain": {
+   "short": "The red circles are maximum limits: you must not go faster. They are not minimum speeds.",
+   "rule": "Border sign 'ITALIA': maximum limits 50 in towns, 90 outside towns, 110 on main roads outside towns, 130 on motorways.",
+   "trap": "'minimi' (minimum) is the trap: the sign shows maximum limits.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Maximum limits, not minimum",
+    "it": "limiti generali di velocità",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "limiti minimi",
+    "en": "minimum limits"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21541": {
+  "en": "The sign shown indicates the number of the motorway.",
+  "explain": {
+   "short": "'A' stands for autostrada (motorway) and 25 is its number.",
+   "rule": "Green shield 'A 25' = motorway number 25. Green means motorway; 'A' means autostrada.",
+   "trap": "'numero dell'autostrada' (motorway number) is exactly what the shield shows.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A 25 = motorway number 25",
+    "it": "numero dell'autostrada",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "numero dell'autostrada",
+    "en": "motorway number"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21542": {
+  "en": "The sign shown can be found inside an advance sign for a motorway junction.",
+  "explain": {
+   "short": "Advance signs for a motorway junction often include the motorway number shield, so you know which motorway you will join.",
+   "rule": "Green shield 'A 25' = motorway number 25. Green means motorway; 'A' means autostrada.",
+   "trap": "'all'interno' (inside): the shield can be part of a bigger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Shield can sit inside a junction sign",
+    "it": "numero dell'autostrada",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'interno",
+    "en": "inside"
+   },
+   {
+    "it": "preavviso di svincolo",
+    "en": "advance sign for a junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21543": {
+  "en": "The sign shown, combined with an arrow, indicates the direction to a motorway toll gate.",
+  "explain": {
+   "short": "With an arrow, the motorway shield shows which way to go to get onto that motorway, at its toll gate (casello).",
+   "rule": "Green shield 'A 25' = motorway number 25. Green means motorway; 'A' means autostrada.",
+   "trap": "'abbinato ad una freccia' (combined with an arrow) turns it into a direction sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "With an arrow: way to the motorway",
+    "it": "numero dell'autostrada",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "abbinato ad una freccia",
+    "en": "combined with an arrow"
+   },
+   {
+    "it": "casello",
+    "en": "toll gate"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21544": {
+  "en": "The sign shown identifies motorway no. 25.",
+  "explain": {
+   "short": "The shield says 'A 25', so it names motorway number 25.",
+   "rule": "Green shield 'A 25' = motorway number 25. Green means motorway; 'A' means autostrada.",
+   "trap": "'n. 25' (number 25) matches the text on the shield.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "This is motorway A25",
+    "it": "numero dell'autostrada",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "identifica",
+    "en": "identifies"
+   },
+   {
+    "it": "autostrada n. 25",
+    "en": "motorway no. 25"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21545": {
+  "en": "The sign shown is found at the border with Austria.",
+  "explain": {
+   "short": "The 'A' means autostrada (motorway), not Austria. The sign gives a motorway number.",
+   "rule": "Green shield 'A 25' = motorway number 25. Green means motorway; 'A' means autostrada.",
+   "trap": "'Austria': the letter 'A' is for autostrada, not for the country.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "'A' = autostrada, not Austria",
+    "it": "numero dell'autostrada",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "confine",
+    "en": "border"
+   },
+   {
+    "it": "Austria",
+    "en": "Austria"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21546": {
+  "en": "The sign shown indicates the number of the overpass.",
+  "explain": {
+   "short": "The number belongs to the motorway, not to an overpass.",
+   "rule": "Green shield 'A 25' = motorway number 25. Green means motorway; 'A' means autostrada.",
+   "trap": "'cavalcavia' (overpass) is wrong: 'A' tells you it is a motorway.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Motorway number, not overpass number",
+    "it": "numero dell'autostrada",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cavalcavia",
+    "en": "overpass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21547": {
+  "en": "The sign shown indicates the safety distance to keep from the vehicle in front.",
+  "explain": {
+   "short": "25 is not a distance in metres. It is the number of the motorway.",
+   "rule": "Green shield 'A 25' = motorway number 25. Green means motorway; 'A' means autostrada.",
+   "trap": "'distanza di sicurezza' (safety distance): the number is a motorway number.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "25 = motorway number, not a distance",
+    "it": "numero dell'autostrada",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza di sicurezza",
+    "en": "safety distance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21548": {
+  "en": "The sign shown indicates a service centre 25 kilometres away.",
+  "explain": {
+   "short": "There is no distance and no service symbol on this sign. 'A 25' is a motorway number.",
+   "rule": "Green shield 'A 25' = motorway number 25. Green means motorway; 'A' means autostrada.",
+   "trap": "'a 25 chilometri' (25 km away): 25 is not a distance.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No service centre: motorway A25",
+    "it": "numero dell'autostrada",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "centro di assistenza",
+    "en": "service centre"
+   },
+   {
+    "it": "25 chilometri",
+    "en": "25 kilometres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21549": {
+  "en": "The sign shown indicates that the next motorway junction is 25 kilometres away.",
+  "explain": {
+   "short": "The sign gives no distance. 25 is the number of the motorway.",
+   "rule": "Green shield 'A 25' = motorway number 25. Green means motorway; 'A' means autostrada.",
+   "trap": "'a 25 chilometri' (25 km away): the number names the motorway.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No distance: 25 is the motorway number",
+    "it": "numero dell'autostrada",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "svincolo autostradale",
+    "en": "motorway junction"
+   },
+   {
+    "it": "25 chilometri",
+    "en": "25 kilometres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21550": {
+  "en": "The sign shown indicates the recommended minimum speed that you should not exceed.",
+  "explain": {
+   "short": "This is not a speed sign at all. Speed signs are round; this green shield gives a motorway number.",
+   "rule": "Green shield 'A 25' = motorway number 25. Green means motorway; 'A' means autostrada.",
+   "trap": "'limite minimo di velocità' (minimum speed limit): 25 is not a speed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a speed: motorway number",
+    "it": "numero dell'autostrada",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "limite minimo di velocità",
+    "en": "minimum speed limit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21551": {
+  "en": "The sign shown indicates the start of a built-up area.",
+  "explain": {
+   "short": "A white rectangle with a town name marks the point where the town (built-up area) begins.",
+   "rule": "White sign with a town name = start of a built-up area. Placed on every road entering the town; with a red bar = end of the town.",
+   "trap": "'inizio di un centro abitato' (start of a built-up area) is the meaning of this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Start of the town of Taranto",
+    "it": "inizio centro abitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "inizio",
+    "en": "start"
+   },
+   {
+    "it": "centro abitato",
+    "en": "built-up area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21552": {
+  "en": "The sign shown identifies the place you have reached.",
+  "explain": {
+   "short": "The name on the sign tells you which town you are entering.",
+   "rule": "White sign with a town name = start of a built-up area. Placed on every road entering the town; with a red bar = end of the town.",
+   "trap": "'località raggiunta' (place reached): you are arriving in Taranto now.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "You have reached Taranto",
+    "it": "inizio centro abitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "identifica",
+    "en": "identifies"
+   },
+   {
+    "it": "località raggiunta",
+    "en": "place reached"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21553": {
+  "en": "The sign shown is placed at the start of the built-up area, on all roads entering the place named.",
+  "explain": {
+   "short": "Every road that enters the town has this sign at its start, so drivers always know when town rules begin.",
+   "rule": "White sign with a town name = start of a built-up area. Placed on every road entering the town; with a red bar = end of the town.",
+   "trap": "'su tutte le strade d'ingresso' (on all entry roads) is correct, even if 'tutte' sounds extreme.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "On every road into the town",
+    "it": "inizio centro abitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade d'ingresso",
+    "en": "entry roads"
+   },
+   {
+    "it": "su tutte",
+    "en": "on all"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21554": {
+  "en": "The sign shown, if crossed by a red stripe, indicates the end of the built-up area.",
+  "explain": {
+   "short": "The same name sign with a red diagonal bar marks where the town ends.",
+   "rule": "White sign with a town name = start of a built-up area. Placed on every road entering the town; with a red bar = end of the town.",
+   "trap": "'barrato da una striscia rossa' (crossed by a red stripe) means 'end'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "With a red bar: end of the town",
+    "it": "inizio centro abitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "barrato",
+    "en": "crossed out"
+   },
+   {
+    "it": "striscia rossa",
+    "en": "red stripe"
+   },
+   {
+    "it": "fine del centro abitato",
+    "en": "end of the built-up area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21555": {
+  "en": "The sign shown indicates a tourist place.",
+  "explain": {
+   "short": "Tourist places use BROWN signs. A white sign with a town name marks the start of a town.",
+   "rule": "White sign with a town name = start of a built-up area. Placed on every road entering the town; with a red bar = end of the town.",
+   "trap": "'località turistica' (tourist place): the colour is white, not brown.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "White = town start, brown = tourist",
+    "it": "inizio centro abitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "località turistica",
+    "en": "tourist place"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21556": {
+  "en": "The sign shown is placed to indicate the end of a province.",
+  "explain": {
+   "short": "It marks the start of a town, not the border of a province.",
+   "rule": "White sign with a town name = start of a built-up area. Placed on every road entering the town; with a red bar = end of the town.",
+   "trap": "'fine di una provincia' (end of a province): the sign is about a built-up area.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Town start, not end of a province",
+    "it": "inizio centro abitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine di una provincia",
+    "en": "end of a province"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21557": {
+  "en": "The sign shown indicates the direction to follow to reach Taranto.",
+  "explain": {
+   "short": "A direction sign has an arrow or a pointed end. This plain rectangle says you are already in Taranto.",
+   "rule": "White sign with a town name = start of a built-up area. Placed on every road entering the town; with a red bar = end of the town.",
+   "trap": "'direzione da seguire' (direction to follow): you have already arrived.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "You are in Taranto, not heading there",
+    "it": "inizio centro abitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "direzione da seguire",
+    "en": "direction to follow"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21558": {
+  "en": "The sign shown identifies a viaduct.",
+  "explain": {
+   "short": "The sign gives the name of a town, not of a viaduct (a long road bridge).",
+   "rule": "White sign with a town name = start of a built-up area. Placed on every road entering the town; with a red bar = end of the town.",
+   "trap": "'viadotto' (viaduct) is wrong: Taranto is a town.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A town name, not a viaduct",
+    "it": "inizio centro abitato",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "viadotto",
+    "en": "viaduct"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21559": {
+  "en": "The sign shown indicates the entrance of a medical first-aid centre.",
+  "explain": {
+   "short": "The red cross means first aid, and the arrow shows where its entrance is.",
+   "rule": "White sign, red cross, arrow = 'pronto soccorso' (first aid). It stands at the first-aid centre; the arrow shows the way in.",
+   "trap": "'ingresso' (entrance) is right: the arrow leads you into the first-aid centre.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Entrance to first aid this way",
+    "it": "pronto soccorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ingresso",
+    "en": "entrance"
+   },
+   {
+    "it": "pronto soccorso",
+    "en": "first aid"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21560": {
+  "en": "The sign shown indicates the direction to enter the first-aid centre.",
+  "explain": {
+   "short": "The arrow under the red cross shows which way to go to get into the first-aid centre.",
+   "rule": "White sign, red cross, arrow = 'pronto soccorso' (first aid). It stands at the first-aid centre; the arrow shows the way in.",
+   "trap": "'direzione' (direction) comes from the arrow.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrow: way into first aid",
+    "it": "pronto soccorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "direzione",
+    "en": "direction"
+   },
+   {
+    "it": "pronto soccorso",
+    "en": "first aid"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21561": {
+  "en": "The sign shown is placed at a first-aid centre.",
+  "explain": {
+   "short": "This sign stands right at the first-aid centre to show its entrance.",
+   "rule": "White sign, red cross, arrow = 'pronto soccorso' (first aid). It stands at the first-aid centre; the arrow shows the way in.",
+   "trap": "'in corrispondenza' (right at) is correct: it is at the place, not far before it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Placed at the first-aid centre",
+    "it": "pronto soccorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in corrispondenza",
+    "en": "right at"
+   },
+   {
+    "it": "pronto soccorso",
+    "en": "first aid"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21562": {
+  "en": "The sign shown indicates a border post with Switzerland.",
+  "explain": {
+   "short": "The Swiss flag is a white cross on red. This is a red cross on white: first aid.",
+   "rule": "White sign, red cross, arrow = 'pronto soccorso' (first aid). It stands at the first-aid centre; the arrow shows the way in.",
+   "trap": "'Svizzera' (Switzerland): the colours are swapped, it is the first-aid red cross.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red cross on white = first aid",
+    "it": "pronto soccorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "posto di confine",
+    "en": "border post"
+   },
+   {
+    "it": "Svizzera",
+    "en": "Switzerland"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21563": {
+  "en": "The sign shown indicates a pharmacy.",
+  "explain": {
+   "short": "The red cross here means emergency first aid, not a pharmacy (a shop for medicines).",
+   "rule": "White sign, red cross, arrow = 'pronto soccorso' (first aid). It stands at the first-aid centre; the arrow shows the way in.",
+   "trap": "'farmacia' (pharmacy) is wrong: the sign means first aid.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "First aid, not a pharmacy",
+    "it": "pronto soccorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "farmacia",
+    "en": "pharmacy"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21564": {
+  "en": "The sign shown indicates the road to follow to reach the cemetery.",
+  "explain": {
+   "short": "The cross is red, the sign of first aid. It has nothing to do with a cemetery.",
+   "rule": "White sign, red cross, arrow = 'pronto soccorso' (first aid). It stands at the first-aid centre; the arrow shows the way in.",
+   "trap": "'cimitero' (cemetery): a cross does not mean cemetery here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "First aid, not a cemetery",
+    "it": "pronto soccorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cimitero",
+    "en": "cemetery"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21565": {
+  "en": "The sign shown gives advance warning of a four-way crossroads.",
+  "explain": {
+   "short": "The cross is not a road drawing: it is the red cross of first aid. Crossroads are warned by red triangles.",
+   "rule": "White sign, red cross, arrow = 'pronto soccorso' (first aid). It stands at the first-aid centre; the arrow shows the way in.",
+   "trap": "'incrocio a quattro strade' (four-way crossroads): the cross shape is not roads.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red cross, not a crossroads",
+    "it": "pronto soccorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "warns in advance"
+   },
+   {
+    "it": "incrocio",
+    "en": "crossroads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21566": {
+  "en": "The sign shown indicates a car park reserved for doctors.",
+  "explain": {
+   "short": "There is no 'P' for parking on this sign. The red cross shows the first-aid centre.",
+   "rule": "White sign, red cross, arrow = 'pronto soccorso' (first aid). It stands at the first-aid centre; the arrow shows the way in.",
+   "trap": "'parcheggio' (car park): parking signs have a white 'P' on blue.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "First aid, not doctors' parking",
+    "it": "pronto soccorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "parcheggio",
+    "en": "car park"
+   },
+   {
+    "it": "medici",
+    "en": "doctors"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21567": {
+  "en": "The sign shown is found near a bridge that crosses the river Arno.",
+  "explain": {
+   "short": "The sign names the river, and it stands near the bridge where the road crosses it.",
+   "rule": "Waves plus 'fiume Arno' = the name of the river you cross on the bridge here. It is an information sign, not a danger sign.",
+   "trap": "'in vicinanza di un ponte' (near a bridge) is where river-name signs are placed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Near the bridge over the Arno",
+    "it": "fiume",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in vicinanza",
+    "en": "near"
+   },
+   {
+    "it": "ponte",
+    "en": "bridge"
+   },
+   {
+    "it": "fiume Arno",
+    "en": "river Arno"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21568": {
+  "en": "The sign shown indicates the name of the river near the bridge that crosses it.",
+  "explain": {
+   "short": "The words 'fiume Arno' tell you the name of the river you are about to cross.",
+   "rule": "Waves plus 'fiume Arno' = the name of the river you cross on the bridge here. It is an information sign, not a danger sign.",
+   "trap": "'nome del fiume' (name of the river) is exactly what the text shows.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Name of the river: Arno",
+    "it": "fiume",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "nome del fiume",
+    "en": "name of the river"
+   },
+   {
+    "it": "ponte",
+    "en": "bridge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21569": {
+  "en": "The sign shown is one of the information signs.",
+  "explain": {
+   "short": "It only gives information (a river name). It does not warn of danger or give an order.",
+   "rule": "Waves plus 'fiume Arno' = the name of the river you cross on the bridge here. It is an information sign, not a danger sign.",
+   "trap": "'segnali di indicazione' (information signs) is the right family.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Information sign: river name",
+    "it": "fiume",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnali di indicazione",
+    "en": "information signs"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21570": {
+  "en": "The sign shown is placed where the road may flood when it rains.",
+  "explain": {
+   "short": "The waves show a river name, not a flooding danger. Danger signs are red triangles.",
+   "rule": "Waves plus 'fiume Arno' = the name of the river you cross on the bridge here. It is an information sign, not a danger sign.",
+   "trap": "'allagare' (flood): the waves mean a river, not water on the road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "River name, not a flooding warning",
+    "it": "fiume",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pioggia",
+    "en": "rain"
+   },
+   {
+    "it": "allagare",
+    "en": "flood"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21571": {
+  "en": "The sign shown indicates the danger of storm waves from the sea.",
+  "explain": {
+   "short": "The sign is about a river (fiume), not the sea, and it gives no danger.",
+   "rule": "Waves plus 'fiume Arno' = the name of the river you cross on the bridge here. It is an information sign, not a danger sign.",
+   "trap": "'mareggiate' (sea storms): the text says 'fiume' (river).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "River name, not sea storms",
+    "it": "fiume",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pericolo",
+    "en": "danger"
+   },
+   {
+    "it": "mareggiate",
+    "en": "sea storms"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21572": {
+  "en": "The sign shown indicates that water-skiing is possible.",
+  "explain": {
+   "short": "The waves only stand for a river. The sign gives its name, not water sports.",
+   "rule": "Waves plus 'fiume Arno' = the name of the river you cross on the bridge here. It is an information sign, not a danger sign.",
+   "trap": "'sci nautico' (water-skiing) is invented: nothing on the sign shows it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "River name, not water-skiing",
+    "it": "fiume",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sci nautico",
+    "en": "water-skiing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21573": {
+  "en": "The sign shown indicates a road with a series of bends.",
+  "explain": {
+   "short": "The wavy lines are water, not a road. Bends are warned by red triangle signs.",
+   "rule": "Waves plus 'fiume Arno' = the name of the river you cross on the bridge here. It is an information sign, not a danger sign.",
+   "trap": "'curve in successione' (series of bends): the waves are not bends.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Waves = river, not bends",
+    "it": "fiume",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "curve in successione",
+    "en": "series of bends"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21574": {
+  "en": "The sign shown gives advance notice of a tourist and hotel information office.",
+  "explain": {
+   "short": "The 'i' means information and the bed means hotels; '150 m' shows it is ahead.",
+   "rule": "Brown sign, 'i' and bed, 150 m = tourist and hotel information office 150 m ahead.",
+   "trap": "'preavvisa' (announces ahead) fits the '150 m' panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tourist/hotel info office 150 m ahead",
+    "it": "informazioni turistico-alberghiere",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "announces ahead"
+   },
+   {
+    "it": "ufficio di informazioni",
+    "en": "information office"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21575": {
+  "en": "The sign shown indicates that you can get information about hotels and motels.",
+  "explain": {
+   "short": "The bed symbol with the 'i' means information on places to sleep: hotels and motels.",
+   "rule": "Brown sign, 'i' and bed, 150 m = tourist and hotel information office 150 m ahead.",
+   "trap": "'informazioni su alberghi e motel' (information on hotels and motels) matches the symbols.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Info on hotels and motels",
+    "it": "informazioni turistico-alberghiere",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "informazioni",
+    "en": "information"
+   },
+   {
+    "it": "alberghi",
+    "en": "hotels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21576": {
+  "en": "The sign shown indicates a place where you can ask for information about hotels.",
+  "explain": {
+   "short": "The office announced by the sign is where you can ask about hotels.",
+   "rule": "Brown sign, 'i' and bed, 150 m = tourist and hotel information office 150 m ahead.",
+   "trap": "'richiedere informazioni' (ask for information) is the purpose of the 'i'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Ask about hotels here",
+    "it": "informazioni turistico-alberghiere",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "richiedere informazioni",
+    "en": "ask for information"
+   },
+   {
+    "it": "alberghi",
+    "en": "hotels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21577": {
+  "en": "The sign shown indicates the number of hotels nearby.",
+  "explain": {
+   "short": "The only number is '150 m', a distance. The sign does not count hotels.",
+   "rule": "Brown sign, 'i' and bed, 150 m = tourist and hotel information office 150 m ahead.",
+   "trap": "'numero di alberghi' (number of hotels): 150 m is a distance.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "150 m is a distance, not a hotel count",
+    "it": "informazioni turistico-alberghiere",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "numero di alberghi",
+    "en": "number of hotels"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21578": {
+  "en": "The sign shown indicates the entrance of a hospital 150 metres ahead.",
+  "explain": {
+   "short": "A bed with an 'i' on brown means hotel information, not a hospital.",
+   "rule": "Brown sign, 'i' and bed, 150 m = tourist and hotel information office 150 m ahead.",
+   "trap": "'ospedale' (hospital): the bed here means a hotel, and brown means tourism.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hotel info, not a hospital",
+    "it": "informazioni turistico-alberghiere",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ingresso",
+    "en": "entrance"
+   },
+   {
+    "it": "ospedale",
+    "en": "hospital"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21579": {
+  "en": "The sign shown indicates the hospital admissions office.",
+  "explain": {
+   "short": "The sign is about tourist and hotel information, not a hospital office.",
+   "rule": "Brown sign, 'i' and bed, 150 m = tourist and hotel information office 150 m ahead.",
+   "trap": "'accettazione dell'ospedale' (hospital admissions) confuses the bed symbol.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hotel info, not hospital admissions",
+    "it": "informazioni turistico-alberghiere",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ufficio accettazione",
+    "en": "admissions office"
+   },
+   {
+    "it": "ospedale",
+    "en": "hospital"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21580": {
+  "en": "The sign shown indicates that 150 metres ahead there is a hotel with interpreter staff for foreign guests.",
+  "explain": {
+   "short": "The 'i' means information, not interpreters. The sign announces an information office, not a special hotel.",
+   "rule": "Brown sign, 'i' and bed, 150 m = tourist and hotel information office 150 m ahead.",
+   "trap": "'personale interprete' (interpreter staff): the 'i' is for information.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "'i' = information, not interpreters",
+    "it": "informazioni turistico-alberghiere",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "albergo",
+    "en": "hotel"
+   },
+   {
+    "it": "personale interprete",
+    "en": "interpreter staff"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21581": {
+  "en": "The sign shown indicates an unregulated pedestrian crossing.",
+  "explain": {
+   "short": "It marks a pedestrian crossing with no traffic lights or officer: pedestrians and drivers follow the normal rules.",
+   "rule": "Blue square with a walker on stripes = pedestrian crossing here, at the stripes. Stop for people crossing; never overtake a vehicle stopped for them.",
+   "trap": "'non regolato' (unregulated) means no traffic lights control it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pedestrian crossing, no traffic lights",
+    "it": "attraversamento pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "attraversamento pedonale",
+    "en": "pedestrian crossing"
+   },
+   {
+    "it": "non regolato",
+    "en": "unregulated"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21582": {
+  "en": "Outside built-up areas, the sign shown is found after the danger sign PEDESTRIAN CROSSING.",
+  "explain": {
+   "short": "Outside towns the red triangle warns first (about 150 m before); then this blue sign marks the crossing itself.",
+   "rule": "Blue square with a walker on stripes = pedestrian crossing here, at the stripes. Stop for people crossing; never overtake a vehicle stopped for them.",
+   "trap": "'dopo' (after) is right: the warning triangle comes before.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Outside towns: triangle first, then this",
+    "it": "attraversamento pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fuori dei centri abitati",
+    "en": "outside built-up areas"
+   },
+   {
+    "it": "dopo",
+    "en": "after"
+   },
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21583": {
+  "en": "The sign shown is found right at the stripes of the pedestrian crossing.",
+  "explain": {
+   "short": "This information sign is placed exactly where the crossing is, next to the stripes.",
+   "rule": "Blue square with a walker on stripes = pedestrian crossing here, at the stripes. Stop for people crossing; never overtake a vehicle stopped for them.",
+   "trap": "'direttamente in corrispondenza' (right at) is the correct place.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Placed right at the stripes",
+    "it": "attraversamento pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in corrispondenza",
+    "en": "right at"
+   },
+   {
+    "it": "strisce",
+    "en": "stripes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21584": {
+  "en": "The sign shown obliges drivers to stop when pedestrians are crossing on the pedestrian crossings.",
+  "explain": {
+   "short": "At a crossing, drivers must stop to let pedestrians who are crossing go first.",
+   "rule": "Blue square with a walker on stripes = pedestrian crossing here, at the stripes. Stop for people crossing; never overtake a vehicle stopped for them.",
+   "trap": "'obbliga ... a fermarsi' (obliges to stop) applies when pedestrians are on the crossing.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stop for people on the crossing",
+    "it": "attraversamento pedonale",
+    "action": "slow",
+    "hazard": "🚶"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga",
+    "en": "obliges"
+   },
+   {
+    "it": "fermarsi",
+    "en": "to stop"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21585": {
+  "en": "The sign shown indicates an underpass.",
+  "explain": {
+   "short": "The person walks on stripes on the road surface, so it is a crossing at road level, not an underpass.",
+   "rule": "Blue square with a walker on stripes = pedestrian crossing here, at the stripes. Stop for people crossing; never overtake a vehicle stopped for them.",
+   "trap": "'sottopassaggio' (underpass): the stripes show crossing on the road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Crossing on the road, not underpass",
+    "it": "attraversamento pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sottopassaggio",
+    "en": "underpass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21586": {
+  "en": "The sign shown is placed 150 metres before a pedestrian crossing.",
+  "explain": {
+   "short": "This blue sign is AT the crossing. The red danger triangle is the one placed about 150 m before.",
+   "rule": "Blue square with a walker on stripes = pedestrian crossing here, at the stripes. Stop for people crossing; never overtake a vehicle stopped for them.",
+   "trap": "'150 metri prima' (150 m before) belongs to the danger triangle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At the crossing, not 150 m before",
+    "it": "attraversamento pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "150 metri prima",
+    "en": "150 metres before"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21587": {
+  "en": "The sign shown, if green, is placed on motorways.",
+  "explain": {
+   "short": "Pedestrians may not walk on motorways, so there are no pedestrian crossings there and no green version.",
+   "rule": "Blue square with a walker on stripes = pedestrian crossing here, at the stripes. Stop for people crossing; never overtake a vehicle stopped for them.",
+   "trap": "'se di colore verde' (if green): green means motorway, where pedestrians are banned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No pedestrian crossings on motorways",
+    "it": "attraversamento pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "di colore verde",
+    "en": "green"
+   },
+   {
+    "it": "autostrada",
+    "en": "motorway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21588": {
+  "en": "The sign shown gives advance warning of a primary school.",
+  "explain": {
+   "short": "It shows an adult on a crossing, not children. Schools are warned by a red triangle with children.",
+   "rule": "Blue square with a walker on stripes = pedestrian crossing here, at the stripes. Stop for people crossing; never overtake a vehicle stopped for them.",
+   "trap": "'scuola elementare' (primary school): this is a crossing sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Crossing sign, not a school",
+    "it": "attraversamento pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "warns in advance"
+   },
+   {
+    "it": "scuola elementare",
+    "en": "primary school"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21589": {
+  "en": "The sign shown allows you to overtake a vehicle that has stopped to give way to pedestrians.",
+  "explain": {
+   "short": "Overtaking a vehicle that stopped for pedestrians is forbidden: it may hide a person crossing.",
+   "rule": "Blue square with a walker on stripes = pedestrian crossing here, at the stripes. Stop for people crossing; never overtake a vehicle stopped for them.",
+   "trap": "'consente di sorpassare' (allows overtaking) is the trap: it is forbidden.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Never overtake a car stopped for walkers",
+    "it": "attraversamento pedonale",
+    "action": "noOvertake"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente",
+    "en": "allows"
+   },
+   {
+    "it": "sorpassare",
+    "en": "overtake"
+   },
+   {
+    "it": "precedenza ai pedoni",
+    "en": "way to pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21590": {
+  "en": "The sign shown, if placed on the edge of the pavement, indicates a school bus stop.",
+  "explain": {
+   "short": "On the pavement edge the orange sign marks the place where the school bus stops.",
+   "rule": "Orange square with two schoolchildren = school bus (stop at the kerb, or on the bus itself). Be careful: children may suddenly cross.",
+   "trap": "'sul bordo del marciapiede' (on the pavement edge) makes it a bus stop sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "On the kerb: school bus stop",
+    "it": "scuolabus",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "bordo del marciapiede",
+    "en": "edge of the pavement"
+   },
+   {
+    "it": "fermata",
+    "en": "stop"
+   },
+   {
+    "it": "scuolabus",
+    "en": "school bus"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21591": {
+  "en": "The sign shown, if placed on the outside of a bus, signals that it carries schoolchildren.",
+  "explain": {
+   "short": "School buses carry this orange sign on the outside to warn other drivers that children are on board.",
+   "rule": "Orange square with two schoolchildren = school bus (stop at the kerb, or on the bus itself). Be careful: children may suddenly cross.",
+   "trap": "'all'esterno di un autobus' (outside a bus) means the bus carries pupils.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "On a bus: it carries schoolchildren",
+    "it": "scuolabus",
+    "action": "slow",
+    "hazard": "🚸"
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'esterno",
+    "en": "on the outside"
+   },
+   {
+    "it": "trasporta scolari",
+    "en": "carries schoolchildren"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21592": {
+  "en": "The sign shown can indicate the stop of a bus carrying schoolchildren.",
+  "explain": {
+   "short": "One use of this sign is to mark where the school bus stops.",
+   "rule": "Orange square with two schoolchildren = school bus (stop at the kerb, or on the bus itself). Be careful: children may suddenly cross.",
+   "trap": "'può indicare' (can indicate) is safe: a stop is one of its uses.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Can mark a school bus stop",
+    "it": "scuolabus",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "può indicare",
+    "en": "can indicate"
+   },
+   {
+    "it": "fermata",
+    "en": "stop"
+   },
+   {
+    "it": "trasporto scolari",
+    "en": "transport of schoolchildren"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21593": {
+  "en": "The sign shown asks you to watch out for children who may suddenly cross the road.",
+  "explain": {
+   "short": "Where a school bus stops, children may run across the road without looking, so drive carefully.",
+   "rule": "Orange square with two schoolchildren = school bus (stop at the kerb, or on the bus itself). Be careful: children may suddenly cross.",
+   "trap": "'invita a fare attenzione' (asks you to be careful) is the purpose of the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Watch out: children may cross",
+    "it": "scuolabus",
+    "action": "slow",
+    "hazard": "🚸"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fare attenzione",
+    "en": "be careful"
+   },
+   {
+    "it": "bambini",
+    "en": "children"
+   },
+   {
+    "it": "improvvisamente",
+    "en": "suddenly"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21594": {
+  "en": "The sign shown asks you to be careful because there may be children who got off the school bus and may suddenly cross the road.",
+  "explain": {
+   "short": "Children leaving the school bus may cross suddenly, often in front of or behind the bus.",
+   "rule": "Orange square with two schoolchildren = school bus (stop at the kerb, or on the bus itself). Be careful: children may suddenly cross.",
+   "trap": "'discesi dallo scuolabus' (got off the school bus) explains why you must be careful.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Children off the bus may run across",
+    "it": "scuolabus",
+    "action": "slow",
+    "hazard": "🚸"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fare attenzione",
+    "en": "be careful"
+   },
+   {
+    "it": "discesi dallo scuolabus",
+    "en": "got off the school bus"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21595": {
+  "en": "The sign shown forbids unaccompanied children from passing.",
+  "explain": {
+   "short": "The sign is not a ban. It asks drivers to watch out for children.",
+   "rule": "Orange square with two schoolchildren = school bus (stop at the kerb, or on the bus itself). Be careful: children may suddenly cross.",
+   "trap": "'vieta' (forbids): the orange sign forbids nothing.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a ban: watch out for children",
+    "it": "scuolabus",
+    "action": "slow",
+    "hazard": "🚸"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "forbids"
+   },
+   {
+    "it": "non accompagnati",
+    "en": "unaccompanied"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21596": {
+  "en": "The sign shown indicates public gardens.",
+  "explain": {
+   "short": "The children carry school bags: the sign is about the school bus, not a park.",
+   "rule": "Orange square with two schoolchildren = school bus (stop at the kerb, or on the bus itself). Be careful: children may suddenly cross.",
+   "trap": "'giardini pubblici' (public gardens): the school bags show it is about school.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "School bus, not public gardens",
+    "it": "scuolabus",
+    "action": "slow",
+    "hazard": "🚸"
+   }
+  },
+  "keywords": [
+   {
+    "it": "giardini pubblici",
+    "en": "public gardens"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21597": {
+  "en": "The sign shown indicates that you must compulsorily give way to children crossing.",
+  "explain": {
+   "short": "The sign asks for extra care; it does not create a special priority order like a give-way sign.",
+   "rule": "Orange square with two schoolchildren = school bus (stop at the kerb, or on the bus itself). Be careful: children may suddenly cross.",
+   "trap": "'obbligatoriamente' (compulsorily) is the trap: the sign is an invitation to be careful.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Care, not a special give-way order",
+    "it": "scuolabus",
+    "action": "slow",
+    "hazard": "🚸"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligatoriamente",
+    "en": "compulsorily"
+   },
+   {
+    "it": "dare precedenza",
+    "en": "give way"
+   }
+  ],
+  "review": true,
+  "reviewNote": "Official FALSE; drivers must still give way to pedestrians actually crossing (art. 191), so the wording is borderline."
+ }
+}

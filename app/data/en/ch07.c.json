@@ -1,0 +1,1701 @@
+{
+ "q21097": {
+  "en": "The traffic light shown applies to scheduled passenger transport vehicles.",
+  "explain": {
+   "short": "Bars and a triangle instead of colours: this light is only for buses and trams on public lines (veicoli in servizio di linea).",
+   "rule": "This light is only for public buses and trams. Top horizontal bar = stop; yellow triangle = stop if you safely can; bottom vertical bar = go.",
+   "trap": "'servizio di linea' (scheduled service) means buses and trams on fixed routes: correct.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Light for public buses and trams",
+    "it": "semaforo mezzi pubblici",
+    "lines": [
+     "For public buses and trams only"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicoli in servizio di linea",
+    "en": "scheduled-service vehicles"
+   },
+   {
+    "it": "trasporto di persone",
+    "en": "passenger transport"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21098": {
+  "en": "The traffic light shown makes scheduled passenger vehicles stop when the white bar at the top is lit.",
+  "explain": {
+   "short": "The horizontal white bar at the top works like a red light for buses and trams: they must stop.",
+   "rule": "This light is only for public buses and trams. Top horizontal bar = stop; yellow triangle = stop if you safely can; bottom vertical bar = go.",
+   "trap": "'barra bianca in alto' (white bar at the top) is the horizontal bar: it means stop.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Top horizontal bar = STOP",
+    "it": "semaforo mezzi pubblici",
+    "lines": [
+     "Top horizontal white bar = stop"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "impone l'arresto",
+    "en": "orders a stop"
+   },
+   {
+    "it": "barra bianca in alto",
+    "en": "white bar at the top"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21099": {
+  "en": "The traffic light shown lets public passenger transport vehicles go on when the white bar at the bottom is lit.",
+  "explain": {
+   "short": "The vertical white bar at the bottom works like green: buses and trams may go on.",
+   "rule": "This light is only for public buses and trams. Top horizontal bar = stop; yellow triangle = stop if you safely can; bottom vertical bar = go.",
+   "trap": "'in basso' (at the bottom) is the vertical bar: it means go.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bottom vertical bar = GO",
+    "it": "semaforo mezzi pubblici",
+    "lines": [
+     "Bottom vertical white bar = go"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "di proseguire",
+    "en": "to go on"
+   },
+   {
+    "it": "in basso",
+    "en": "at the bottom"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21100": {
+  "en": "The traffic light shown is valid only for vehicles running on rails (trams, trains).",
+  "explain": {
+   "short": "It is for all scheduled public transport, buses too, not only for vehicles on rails.",
+   "rule": "This light is only for public buses and trams. Top horizontal bar = stop; yellow triangle = stop if you safely can; bottom vertical bar = go.",
+   "trap": "'solo' (only) is the trap: buses on public lines use it too.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not only trams: public buses too",
+    "it": "semaforo mezzi pubblici",
+    "lines": [
+     "For buses AND trams of public lines"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "valido solo",
+    "en": "valid only"
+   },
+   {
+    "it": "marciano su rotaie",
+    "en": "run on rails"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21101": {
+  "en": "The traffic light shown controls the passage of pedestrians.",
+  "explain": {
+   "short": "A pedestrian light shows a little walking man; this one has bars and a triangle for buses and trams.",
+   "rule": "This light is only for public buses and trams. Top horizontal bar = stop; yellow triangle = stop if you safely can; bottom vertical bar = go.",
+   "trap": "'pedoni' (pedestrians) is wrong: there is no person symbol here.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "For buses and trams, not pedestrians",
+    "it": "semaforo mezzi pubblici",
+    "lines": [
+     "No walking man: not for pedestrians"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regola il transito",
+    "en": "controls the passage"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21102": {
+  "en": "The traffic light shown indicates a level crossing without barriers.",
+  "explain": {
+   "short": "A level crossing without barriers has flashing red lights, not white bars and a yellow triangle.",
+   "rule": "This light is only for public buses and trams. Top horizontal bar = stop; yellow triangle = stop if you safely can; bottom vertical bar = go.",
+   "trap": "'passaggio a livello' (level crossing) is wrong: this is a public transport light.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a level crossing: a bus/tram light",
+    "it": "semaforo mezzi pubblici",
+    "lines": [
+     "Level crossings use flashing red lights"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passaggio a livello",
+    "en": "level crossing"
+   },
+   {
+    "it": "senza barriere",
+    "en": "without barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21103": {
+  "en": "The traffic light shown controls the passage on piers for boarding ferries.",
+  "explain": {
+   "short": "It has nothing to do with ferries: it tells buses and trams when to stop or go.",
+   "rule": "This light is only for public buses and trams. Top horizontal bar = stop; yellow triangle = stop if you safely can; bottom vertical bar = go.",
+   "trap": "'pontili' (piers) and 'navi traghetto' (ferries) are invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not for ferries: for buses and trams",
+    "it": "semaforo mezzi pubblici",
+    "lines": [
+     "Not for boarding ferries"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pontili",
+    "en": "piers"
+   },
+   {
+    "it": "navi traghetto",
+    "en": "ferries"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21104": {
+  "en": "The traffic light shown indicates that a railway station is near.",
+  "explain": {
+   "short": "It does not announce a station; it tells buses and trams when to stop or go.",
+   "rule": "This light is only for public buses and trams. Top horizontal bar = stop; yellow triangle = stop if you safely can; bottom vertical bar = go.",
+   "trap": "'stazione ferroviaria' (railway station) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a station sign: a bus/tram light",
+    "it": "semaforo mezzi pubblici",
+    "lines": [
+     "It does not warn of a station"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "vicinanza",
+    "en": "nearness"
+   },
+   {
+    "it": "stazione ferroviaria",
+    "en": "railway station"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21105": {
+  "en": "The traffic light shown, with the yellow triangle lit, gives advance warning of roadworks.",
+  "explain": {
+   "short": "The yellow triangle works like a yellow light: stop, unless you are too close to stop safely.",
+   "rule": "This light is only for public buses and trams. Top horizontal bar = stop; yellow triangle = stop if you safely can; bottom vertical bar = go.",
+   "trap": "'lavori in corso' (roadworks) is wrong: the triangle is the 'yellow' phase.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Triangle = yellow phase, not roadworks",
+    "it": "semaforo mezzi pubblici",
+    "lines": [
+     "Yellow triangle = like a yellow light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "triangolo giallo",
+    "en": "yellow triangle"
+   },
+   {
+    "it": "lavori in corso",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21106": {
+  "en": "The traffic light shown controls pedestrians crossing at junctions.",
+  "explain": {
+   "short": "The walking-man symbols show that this light is for pedestrians crossing at junctions.",
+   "rule": "The walking-man light is for pedestrians. Green = cross; steady yellow = clear the crossing quickly; red = do not cross.",
+   "trap": "'pedoni negli incroci' (pedestrians at junctions) is right.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A light for pedestrians",
+    "it": "semaforo pedonale",
+    "lines": [
+     "Walking man = pedestrian light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regola il passaggio",
+    "en": "controls the passage"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21107": {
+  "en": "The light signal shown is a pedestrian traffic light.",
+  "explain": {
+   "short": "Red, yellow and green walking men: it is the pedestrian light.",
+   "rule": "The walking-man light is for pedestrians. Green = cross; steady yellow = clear the crossing quickly; red = do not cross.",
+   "trap": "'segnale luminoso' (light signal) is just another name for a traffic light: correct.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pedestrian traffic light",
+    "it": "semaforo pedonale",
+    "lines": [
+     "Walking man = pedestrian light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale luminoso",
+    "en": "light signal"
+   },
+   {
+    "it": "semaforo per i pedoni",
+    "en": "pedestrian light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21108": {
+  "en": "The traffic light shown, with the steady yellow light on, requires pedestrians already on the crossing to clear it quickly.",
+  "explain": {
+   "short": "Steady yellow tells pedestrians who are already crossing to hurry and reach the other side.",
+   "rule": "The walking-man light is for pedestrians. Green = cross; steady yellow = clear the crossing quickly; red = do not cross.",
+   "trap": "'luce gialla fissa' (steady yellow) is for those already on the crossing: they clear it.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow: clear the crossing quickly",
+    "it": "semaforo pedonale",
+    "lines": [
+     "Steady yellow = finish crossing fast"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce gialla fissa",
+    "en": "steady yellow light"
+   },
+   {
+    "it": "liberarlo rapidamente",
+    "en": "clear it quickly"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21109": {
+  "en": "The traffic light shown, with the red light on, requires pedestrians not to cross.",
+  "explain": {
+   "short": "Red for pedestrians means the same as for cars: do not go, do not start crossing.",
+   "rule": "The walking-man light is for pedestrians. Green = cross; steady yellow = clear the crossing quickly; red = do not cross.",
+   "trap": "'luce rossa' (red light) means stop: pedestrians must wait.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red: pedestrians must not cross",
+    "it": "semaforo pedonale",
+    "lines": [
+     "Red walking man = do not cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce rossa",
+    "en": "red light"
+   },
+   {
+    "it": "non attraversare",
+    "en": "not to cross"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21110": {
+  "en": "The light signal shown indicates that there is a school.",
+  "explain": {
+   "short": "It is a pedestrian traffic light: it tells pedestrians when to cross, it does not mark a school.",
+   "rule": "The walking-man light is for pedestrians. Green = cross; steady yellow = clear the crossing quickly; red = do not cross.",
+   "trap": "'scuola' (school) is invented: schools have a danger sign with children.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A pedestrian light, not a school sign",
+    "it": "semaforo pedonale",
+    "lines": [
+     "Not a school sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale luminoso",
+    "en": "light signal"
+   },
+   {
+    "it": "scuola",
+    "en": "school"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21111": {
+  "en": "The traffic light shown indicates that a running race is taking place.",
+  "explain": {
+   "short": "It is a normal pedestrian light; it says nothing about races.",
+   "rule": "The walking-man light is for pedestrians. Green = cross; steady yellow = clear the crossing quickly; red = do not cross.",
+   "trap": "'gara podistica' (running race) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A pedestrian light, not a race",
+    "it": "semaforo pedonale",
+    "lines": [
+     "Not about running races"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "gara podistica",
+    "en": "running race"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21112": {
+  "en": "In motorway service areas the traffic light shown indicates pedestrian underpasses.",
+  "explain": {
+   "short": "It is a pedestrian light for crossings and junctions; it does not point to underpasses.",
+   "rule": "The walking-man light is for pedestrians. Green = cross; steady yellow = clear the crossing quickly; red = do not cross.",
+   "trap": "'sottopassaggi pedonali' (pedestrian underpasses) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A pedestrian light, not an underpass",
+    "it": "semaforo pedonale",
+    "lines": [
+     "Not a sign for underpasses"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "aree di servizio autostradali",
+    "en": "motorway service areas"
+   },
+   {
+    "it": "sottopassaggi pedonali",
+    "en": "pedestrian underpasses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21113": {
+  "en": "The traffic light shown is at the entrance of the underground (metro).",
+  "explain": {
+   "short": "It is a pedestrian light at road crossings, not a sign for the metro.",
+   "rule": "The walking-man light is for pedestrians. Green = cross; steady yellow = clear the crossing quickly; red = do not cross.",
+   "trap": "'metropolitana' (underground) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A pedestrian light, not the metro",
+    "it": "semaforo pedonale",
+    "lines": [
+     "Not a metro entrance sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "si trova",
+    "en": "is located"
+   },
+   {
+    "it": "metropolitana",
+    "en": "underground"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21114": {
+  "en": "The traffic light shown indicates boarding gates in port areas.",
+  "explain": {
+   "short": "It is a pedestrian light; it has nothing to do with ports or boarding.",
+   "rule": "The walking-man light is for pedestrians. Green = cross; steady yellow = clear the crossing quickly; red = do not cross.",
+   "trap": "'cancelli di imbarco' (boarding gates) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A pedestrian light, not a port gate",
+    "it": "semaforo pedonale",
+    "lines": [
+     "Not for port boarding gates"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "cancelli di imbarco",
+    "en": "boarding gates"
+   },
+   {
+    "it": "aree portuali",
+    "en": "port areas"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21115": {
+  "en": "The traffic light shown indicates the entrance of a sports venue.",
+  "explain": {
+   "short": "It is a pedestrian light; it does not show where a sports venue is.",
+   "rule": "The walking-man light is for pedestrians. Green = cross; steady yellow = clear the crossing quickly; red = do not cross.",
+   "trap": "'struttura sportiva' (sports venue) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A pedestrian light, not a sports venue",
+    "it": "semaforo pedonale",
+    "lines": [
+     "Not a sports venue sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "entrata",
+    "en": "entrance"
+   },
+   {
+    "it": "struttura sportiva",
+    "en": "sports venue"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21116": {
+  "en": "The traffic light shown is at the end of a cycle path, to control crossing the road.",
+  "explain": {
+   "short": "Bicycle lights are typically placed where a cycle path (pista ciclabile) meets the road, so cyclists cross safely.",
+   "rule": "The bicycle light is only for cyclists, often at the end of a cycle path. Green = cross; steady yellow = clear the junction quickly; red = stop.",
+   "trap": "'uscita di una pista ciclabile' (end of a cycle path) is right.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bike light where the cycle path ends",
+    "it": "semaforo per biciclette",
+    "lines": [
+     "At the end of a cycle path"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "uscita di una pista ciclabile",
+    "en": "end of a cycle path"
+   },
+   {
+    "it": "attraversamento della strada",
+    "en": "crossing the road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21117": {
+  "en": "The light signal shown is a traffic light reserved for cyclists.",
+  "explain": {
+   "short": "The bicycle symbols show that only cyclists must follow this light.",
+   "rule": "The bicycle light is only for cyclists, often at the end of a cycle path. Green = cross; steady yellow = clear the junction quickly; red = stop.",
+   "trap": "'riservato' (reserved) is right: only bicycles.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Light reserved for cyclists",
+    "it": "semaforo per biciclette",
+    "lines": [
+     "Bicycle symbol = only for cyclists"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "riservato",
+    "en": "reserved"
+   },
+   {
+    "it": "conducenti di biciclette",
+    "en": "cyclists"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21118": {
+  "en": "The traffic light shown, with the red light on, makes bicycles stop.",
+  "explain": {
+   "short": "Red on a bike light means stop, just like red for cars.",
+   "rule": "The bicycle light is only for cyclists, often at the end of a cycle path. Green = cross; steady yellow = clear the junction quickly; red = stop.",
+   "trap": "'luce rossa' (red light) = stop: correct.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red bike = cyclists stop",
+    "it": "semaforo per biciclette",
+    "lines": [
+     "Red bicycle = stop"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce rossa",
+    "en": "red light"
+   },
+   {
+    "it": "impone l'arresto",
+    "en": "orders a stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21119": {
+  "en": "The traffic light shown, with the steady yellow light on, requires cyclists who have already entered the junction to clear it quickly.",
+  "explain": {
+   "short": "Steady yellow tells cyclists already in the junction to leave it quickly; the others stop.",
+   "rule": "The bicycle light is only for cyclists, often at the end of a cycle path. Green = cross; steady yellow = clear the junction quickly; red = stop.",
+   "trap": "'se lo hanno già impegnato' (if already in it) is the key: they clear it fast.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow bike: clear the junction fast",
+    "it": "semaforo per biciclette",
+    "lines": [
+     "Steady yellow = clear the junction"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce gialla fissa",
+    "en": "steady yellow light"
+   },
+   {
+    "it": "liberare velocemente",
+    "en": "clear quickly"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21120": {
+  "en": "The traffic light shown, with the green light on, lets only cyclists cross the junction.",
+  "explain": {
+   "short": "The light is reserved for bicycles, so its green is a go only for cyclists.",
+   "rule": "The bicycle light is only for cyclists, often at the end of a cycle path. Green = cross; steady yellow = clear the junction quickly; red = stop.",
+   "trap": "'soltanto' (only) is correct here: the light is for cyclists alone.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green bike: only cyclists go",
+    "it": "semaforo per biciclette",
+    "lines": [
+     "Green bicycle = cyclists may go"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce verde",
+    "en": "green light"
+   },
+   {
+    "it": "soltanto",
+    "en": "only"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21121": {
+  "en": "The traffic light shown indicates a lane reserved for bicycles and mopeds.",
+  "explain": {
+   "short": "It is a traffic light for cyclists only; it does not mark a lane, and mopeds do not follow it.",
+   "rule": "The bicycle light is only for cyclists, often at the end of a cycle path. Green = cross; steady yellow = clear the junction quickly; red = stop.",
+   "trap": "'ciclomotori' (mopeds) is the trap: the light is for bicycles only.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bikes only: not a lane, not mopeds",
+    "it": "semaforo per biciclette",
+    "lines": [
+     "Not a lane, and not for mopeds"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia riservata",
+    "en": "reserved lane"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21122": {
+  "en": "The traffic light shown indicates that a cycle race is taking place.",
+  "explain": {
+   "short": "It is a normal traffic light for cyclists; it says nothing about races.",
+   "rule": "The bicycle light is only for cyclists, often at the end of a cycle path. Green = cross; steady yellow = clear the junction quickly; red = stop.",
+   "trap": "'gara ciclistica' (cycle race) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A bike light, not a race",
+    "it": "semaforo per biciclette",
+    "lines": [
+     "Not about cycle races"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "gara ciclistica",
+    "en": "cycle race"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21123": {
+  "en": "The traffic light shown indicates that work to build a cycle path is in progress.",
+  "explain": {
+   "short": "It is a light for cyclists; roadworks have their own danger sign.",
+   "rule": "The bicycle light is only for cyclists, often at the end of a cycle path. Green = cross; steady yellow = clear the junction quickly; red = stop.",
+   "trap": "'lavori in corso' (works in progress) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A bike light, not roadworks",
+    "it": "semaforo per biciclette",
+    "lines": [
+     "Not a roadworks sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "lavori in corso",
+    "en": "works in progress"
+   },
+   {
+    "it": "pista ciclabile",
+    "en": "cycle path"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21124": {
+  "en": "The traffic light shown indicates a lane reserved for motorcycles.",
+  "explain": {
+   "short": "The symbol is a bicycle, not a motorbike, and it is a traffic light, not a lane sign.",
+   "rule": "The bicycle light is only for cyclists, often at the end of a cycle path. Green = cross; steady yellow = clear the junction quickly; red = stop.",
+   "trap": "'motocicli' (motorcycles) is wrong: it is for bicycles.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bicycles, not motorcycles",
+    "it": "semaforo per biciclette",
+    "lines": [
+     "Bicycle, not motorbike"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia riservata",
+    "en": "reserved lane"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21125": {
+  "en": "The traffic light shown indicates that bicycles are not allowed through.",
+  "explain": {
+   "short": "It is not a ban: it tells cyclists when to stop and when they may go.",
+   "rule": "The bicycle light is only for cyclists, often at the end of a cycle path. Green = cross; steady yellow = clear the junction quickly; red = stop.",
+   "trap": "'divieto di transito' (no entry) is wrong: a ban is a round sign, not a light.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a ban: tells cyclists when to go",
+    "it": "semaforo per biciclette",
+    "lines": [
+     "Not a ban on bicycles"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto di transito",
+    "en": "no-through-traffic ban"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21126": {
+  "en": "The traffic light shown applies to all two-wheeled vehicles.",
+  "explain": {
+   "short": "It is only for bicycles; mopeds and motorbikes follow the normal vehicle lights.",
+   "rule": "The bicycle light is only for cyclists, often at the end of a cycle path. Green = cross; steady yellow = clear the junction quickly; red = stop.",
+   "trap": "'tutti i veicoli a due ruote' (all two-wheelers) is too wide: only bicycles.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bicycles only, not all two-wheelers",
+    "it": "semaforo per biciclette",
+    "lines": [
+     "Only bicycles, not mopeds or motorbikes"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "vale per",
+    "en": "applies to"
+   },
+   {
+    "it": "tutti i veicoli a due ruote",
+    "en": "all two-wheeled vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21127": {
+  "en": "The flashing yellow light, of type B or C in the figure, is placed next to the vehicle traffic light.",
+  "explain": {
+   "short": "B and C sit beside the normal traffic light for vehicles, to warn drivers who turn right.",
+   "rule": "Flashing yellow = go with care. B (walking man) and C (bicycle) sit next to the car light: turning right, give way to pedestrians (B) or cyclists (C).",
+   "trap": "'affiancata' (placed beside) is right: next to the vehicle light.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "B and C sit beside the car traffic light",
+    "it": "luce gialla lampeggiante",
+    "lines": [
+     "B and C: next to the vehicle light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce gialla lampeggiante",
+    "en": "flashing yellow light"
+   },
+   {
+    "it": "affiancata",
+    "en": "placed beside"
+   },
+   {
+    "it": "semaforo veicolare",
+    "en": "vehicle traffic light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21128": {
+  "en": "The flashing yellow light, of type C in the figure, indicates that vehicles turning right must give way to bicycles.",
+  "explain": {
+   "short": "C shows a bicycle: when you turn right, give way to cyclists crossing the road you enter.",
+   "rule": "Flashing yellow = go with care. B (walking man) and C (bicycle) sit next to the car light: turning right, give way to pedestrians (B) or cyclists (C).",
+   "trap": "'tipo C' is the bicycle: give way to bikes.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "C: turning right, give way to bikes",
+    "it": "luce gialla lampeggiante",
+    "lines": [
+     "C (bicycle): turning right, give way"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tipo C",
+    "en": "type C"
+   },
+   {
+    "it": "svoltando a destra",
+    "en": "turning right"
+   },
+   {
+    "it": "dare la precedenza alle biciclette",
+    "en": "give way to bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21129": {
+  "en": "The flashing yellow light, of type B in the figure, indicates that when turning right vehicles must give way to pedestrians.",
+  "explain": {
+   "short": "B shows a walking man: when you turn right, give way to pedestrians crossing the road you enter.",
+   "rule": "Flashing yellow = go with care. B (walking man) and C (bicycle) sit next to the car light: turning right, give way to pedestrians (B) or cyclists (C).",
+   "trap": "'tipo B' is the walking man: give way to pedestrians.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "B: turning right, give way to pedestrians",
+    "it": "luce gialla lampeggiante",
+    "lines": [
+     "B (walking man): turning right, give way"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tipo B",
+    "en": "type B"
+   },
+   {
+    "it": "svoltare a destra",
+    "en": "turning right"
+   },
+   {
+    "it": "precedenza ai pedoni",
+    "en": "give way to pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21131": {
+  "en": "The flashing yellow light, of type C in the figure, indicates a lane reserved for all two-wheeled vehicles.",
+  "explain": {
+   "short": "C is a warning light: turning right, give way to cyclists. It does not mark any lane.",
+   "rule": "Flashing yellow = go with care. B (walking man) and C (bicycle) sit next to the car light: turning right, give way to pedestrians (B) or cyclists (C).",
+   "trap": "'corsia riservata' (reserved lane) is wrong: lights warn, they do not mark lanes.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "C warns of cyclists; it is not a lane",
+    "it": "luce gialla lampeggiante",
+    "lines": [
+     "C = give way to bikes, not a lane"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia riservata",
+    "en": "reserved lane"
+   },
+   {
+    "it": "veicoli a due ruote",
+    "en": "two-wheeled vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21132": {
+  "en": "The flashing yellow light, of type B in the figure, indicates a pedestrian avenue.",
+  "explain": {
+   "short": "B warns drivers turning right to give way to crossing pedestrians; it does not mark a pedestrian street.",
+   "rule": "Flashing yellow = go with care. B (walking man) and C (bicycle) sit next to the car light: turning right, give way to pedestrians (B) or cyclists (C).",
+   "trap": "'viale pedonale' (pedestrian avenue) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "B warns of pedestrians crossing",
+    "it": "luce gialla lampeggiante",
+    "lines": [
+     "B = give way to pedestrians"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tipo B",
+    "en": "type B"
+   },
+   {
+    "it": "viale pedonale",
+    "en": "pedestrian avenue"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21133": {
+  "en": "The flashing yellow light, of type A in the figure, is a traffic light for scheduled passenger transport vehicles.",
+  "explain": {
+   "short": "A is a plain flashing yellow: it tells all drivers to go on with care. The bus and tram light has white bars.",
+   "rule": "Flashing yellow = go with care. B (walking man) and C (bicycle) sit next to the car light: turning right, give way to pedestrians (B) or cyclists (C).",
+   "trap": "'servizio di linea' (scheduled transport) is wrong for A: A is a general warning.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A = go with care, not a bus light",
+    "it": "luce gialla lampeggiante",
+    "lines": [
+     "A (plain) = go with care, give way"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tipo A",
+    "en": "type A"
+   },
+   {
+    "it": "veicoli in servizio di linea",
+    "en": "scheduled-service vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21134": {
+  "en": "The flashing yellow light, of type C in the figure, indicates a lane reserved for mopeds.",
+  "explain": {
+   "short": "C shows a bicycle and warns to give way to cyclists when turning right; it marks no lane and is not about mopeds.",
+   "rule": "Flashing yellow = go with care. B (walking man) and C (bicycle) sit next to the car light: turning right, give way to pedestrians (B) or cyclists (C).",
+   "trap": "'ciclomotori' (mopeds) is wrong: the symbol is a bicycle.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "C warns of bicycles, not a moped lane",
+    "it": "luce gialla lampeggiante",
+    "lines": [
+     "C = bicycles, not mopeds"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia riservata",
+    "en": "reserved lane"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21135": {
+  "en": "The light signals shown are green-wave traffic lights.",
+  "explain": {
+   "short": "Numbers 50, 40, 30 inside the lights: this is the green-wave light (onda verde).",
+   "rule": "The green-wave light shows one advised speed at a time, to catch the next lights green. It is advice only, on roads with timed lights.",
+   "trap": "'onda verde' (green wave) is the right name.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green-wave light",
+    "it": "onda verde",
+    "lines": [
+     "Numbers = green-wave light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "semafori di onda verde",
+    "en": "green-wave traffic lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21136": {
+  "en": "The traffic light shown advises the speed to keep, so as to find the green light at the next traffic light.",
+  "explain": {
+   "short": "The lit number is the speed that lets you arrive at the next lights when they are green.",
+   "rule": "The green-wave light shows one advised speed at a time, to catch the next lights green. It is advice only, on roads with timed lights.",
+   "trap": "'consiglia' (advises) is right: it is advice, not an order.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Advised speed to catch the next green",
+    "it": "onda verde",
+    "lines": [
+     "Lit number = advised speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "consiglia",
+    "en": "advises"
+   },
+   {
+    "it": "luce verde",
+    "en": "green light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21137": {
+  "en": "The green-wave light shown is found on roads with several junctions where the traffic lights are synchronised (timed).",
+  "explain": {
+   "short": "A green wave only works where many traffic lights in a row are timed together.",
+   "rule": "The green-wave light shows one advised speed at a time, to catch the next lights green. It is advice only, on roads with timed lights.",
+   "trap": "'sincronizzati' (synchronised) is right: the lights are timed in sequence.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Roads with many timed traffic lights",
+    "it": "onda verde",
+    "lines": [
+     "Many synchronised lights in a row"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "più incroci",
+    "en": "several junctions"
+   },
+   {
+    "it": "semafori sincronizzati",
+    "en": "synchronised traffic lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21138": {
+  "en": "The traffic light shown signals the recommended speed for taking advantage of the green wave.",
+  "explain": {
+   "short": "The lit number is the recommended speed: keep it and you meet green lights one after another.",
+   "rule": "The green-wave light shows one advised speed at a time, to catch the next lights green. It is advice only, on roads with timed lights.",
+   "trap": "'velocità consigliata' (recommended speed) is right.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Recommended speed for the green wave",
+    "it": "onda verde",
+    "lines": [
+     "Lit number = recommended speed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "velocità consigliata",
+    "en": "recommended speed"
+   },
+   {
+    "it": "onda verde",
+    "en": "green wave"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21139": {
+  "en": "Of the three lights of the traffic light shown, only one comes on, while the others are off.",
+  "explain": {
+   "short": "Only one speed is advised at a time, so only one number is lit.",
+   "rule": "The green-wave light shows one advised speed at a time, to catch the next lights green. It is advice only, on roads with timed lights.",
+   "trap": "'soltanto una' (only one) is right: one number at a time.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only one number lit at a time",
+    "it": "onda verde",
+    "lines": [
+     "One number lit, the others off"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "soltanto una",
+    "en": "only one"
+   },
+   {
+    "it": "spente",
+    "en": "off"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21140": {
+  "en": "The traffic light shown obliges you to keep the speed indicated.",
+  "explain": {
+   "short": "The green-wave speed is only advice; you are not obliged to keep it.",
+   "rule": "The green-wave light shows one advised speed at a time, to catch the next lights green. It is advice only, on roads with timed lights.",
+   "trap": "'obbliga' (obliges) is the trap: it only advises.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Advice, not an obligation",
+    "it": "onda verde",
+    "lines": [
+     "Advised speed, not compulsory"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga",
+    "en": "obliges"
+   },
+   {
+    "it": "velocità indicata",
+    "en": "speed indicated"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21141": {
+  "en": "The traffic light shown does not allow you to exceed the speed indicated.",
+  "explain": {
+   "short": "The number is an advised speed, not a speed limit; the road's normal limit still applies.",
+   "rule": "The green-wave light shows one advised speed at a time, to catch the next lights green. It is advice only, on roads with timed lights.",
+   "trap": "'non consente di superare' (does not allow exceeding) makes it a limit: wrong.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Advised speed, not a speed limit",
+    "it": "onda verde",
+    "lines": [
+     "Not a speed limit"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non consente",
+    "en": "does not allow"
+   },
+   {
+    "it": "superare",
+    "en": "exceed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21142": {
+  "en": "The traffic light shown requires the driver to keep the distance indicated from the vehicle in front.",
+  "explain": {
+   "short": "The numbers are speeds in km/h, not distances, and they are only advice.",
+   "rule": "The green-wave light shows one advised speed at a time, to catch the next lights green. It is advice only, on roads with timed lights.",
+   "trap": "'distanza' (distance) is wrong: the numbers are speeds.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Speeds, not distances",
+    "it": "onda verde",
+    "lines": [
+     "Numbers are speeds, not metres"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza indicata",
+    "en": "distance indicated"
+   },
+   {
+    "it": "veicolo che lo precede",
+    "en": "vehicle in front"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21143": {
+  "en": "The traffic light shown tells you to go on with caution.",
+  "explain": {
+   "short": "It does not warn of danger: it advises the speed to catch the next green light.",
+   "rule": "The green-wave light shows one advised speed at a time, to catch the next lights green. It is advice only, on roads with timed lights.",
+   "trap": "'procedere con prudenza' (go with caution) is the meaning of flashing yellow, not of this light.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It advises a speed, not caution",
+    "it": "onda verde",
+    "lines": [
+     "Caution = flashing yellow, not this"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "procedere con prudenza",
+    "en": "go on with caution"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21144": {
+  "en": "The traffic light shown, even when off, indicates the compulsory speed.",
+  "explain": {
+   "short": "A switched-off light says nothing, and even when lit the speed is only advised.",
+   "rule": "The green-wave light shows one advised speed at a time, to catch the next lights green. It is advice only, on roads with timed lights.",
+   "trap": "'anche se spento' (even if off) and 'obbligatoria' (compulsory) are both wrong.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Off = no message; lit = advice only",
+    "it": "onda verde",
+    "lines": [
+     "When off, it says nothing"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "anche se spento",
+    "en": "even when off"
+   },
+   {
+    "it": "velocità obbligatoria",
+    "en": "compulsory speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21145": {
+  "en": "The green-wave light shown is also placed on motorways.",
+  "explain": {
+   "short": "Motorways have no traffic lights at junctions, so a green wave makes no sense there.",
+   "rule": "The green-wave light shows one advised speed at a time, to catch the next lights green. It is advice only, on roads with timed lights.",
+   "trap": "'anche sulle autostrade' (also on motorways) is the trap: only roads with timed lights.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not on motorways: no traffic lights there",
+    "it": "onda verde",
+    "lines": [
+     "Not used on motorways"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "anche sulle autostrade",
+    "en": "also on motorways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21146": {
+  "en": "The green-wave light shown gives the maximum speed limits for cars, motorcycles and lorries.",
+  "explain": {
+   "short": "The numbers are advised speeds for everyone, not maximum limits for each type of vehicle.",
+   "rule": "The green-wave light shows one advised speed at a time, to catch the next lights green. It is advice only, on roads with timed lights.",
+   "trap": "'limiti massimi' (maximum limits) is wrong: it only advises.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Advised speeds, not maximum limits",
+    "it": "onda verde",
+    "lines": [
+     "Not limits for cars, bikes, lorries"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "limiti massimi",
+    "en": "maximum limits"
+   },
+   {
+    "it": "autocarri",
+    "en": "lorries"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21147": {
+  "en": "The green-wave light shown indicates the speeds that some vehicles must compulsorily respect.",
+  "explain": {
+   "short": "The speed is advice for all drivers; it is compulsory for nobody.",
+   "rule": "The green-wave light shows one advised speed at a time, to catch the next lights green. It is advice only, on roads with timed lights.",
+   "trap": "'obbligatoriamente' (compulsorily) is the trap: never compulsory.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Advice for all, compulsory for none",
+    "it": "onda verde",
+    "lines": [
+     "Not compulsory for any vehicle"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "devono obbligatoriamente",
+    "en": "must compulsorily"
+   },
+   {
+    "it": "alcuni veicoli",
+    "en": "some vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21148": {
+  "en": "The green-wave light shown is a traffic light for roadworks.",
+  "explain": {
+   "short": "It advises a speed to catch green lights; it has nothing to do with roadworks.",
+   "rule": "The green-wave light shows one advised speed at a time, to catch the next lights green. It is advice only, on roads with timed lights.",
+   "trap": "'lavori in corso' (roadworks) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green wave, not roadworks",
+    "it": "onda verde",
+    "lines": [
+     "Not a roadworks light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "lavori in corso",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21149": {
+  "en": "The green-wave light shown indicates the distance from motorway toll booths.",
+  "explain": {
+   "short": "The numbers are speeds, not distances, and green waves are not on motorways.",
+   "rule": "The green-wave light shows one advised speed at a time, to catch the next lights green. It is advice only, on roads with timed lights.",
+   "trap": "'caselli autostradali' (motorway toll booths) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Speeds, not distance to toll booths",
+    "it": "onda verde",
+    "lines": [
+     "Not distance to toll booths"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza",
+    "en": "distance"
+   },
+   {
+    "it": "caselli autostradali",
+    "en": "motorway toll booths"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21150": {
+  "en": "The reversible-lane traffic light shown is placed on a carriageway with at least three lanes.",
+  "explain": {
+   "short": "Reversible lanes need at least three lanes, so the middle ones can change direction.",
+   "rule": "Reversible-lane lights hang over each lane (at least 3 lanes). Green arrow = lane open; red X = lane closed; flashing yellow arrow = move to the lane shown.",
+   "trap": "'almeno tre corsie' (at least three lanes) is right.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At least three lanes",
+    "it": "corsie reversibili",
+    "lines": [
+     "Carriageway with 3 or more lanes"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsie reversibili",
+    "en": "reversible lanes"
+   },
+   {
+    "it": "almeno tre corsie",
+    "en": "at least three lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21151": {
+  "en": "The reversible-lane traffic light shown allows traffic in the lane indicated by the green arrow.",
+  "explain": {
+   "short": "A green arrow pointing down over a lane means that lane is open to you.",
+   "rule": "Reversible-lane lights hang over each lane (at least 3 lanes). Green arrow = lane open; red X = lane closed; flashing yellow arrow = move to the lane shown.",
+   "trap": "'freccia verde' (green arrow) = you may drive in that lane.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green arrow = lane open",
+    "it": "corsie reversibili",
+    "lines": [
+     "Green arrow down = lane open"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows traffic"
+   },
+   {
+    "it": "freccia verde",
+    "en": "green arrow"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21152": {
+  "en": "The reversible-lane traffic light shown, with a flashing yellow arrow, requires the driver to leave that lane and move to the one indicated.",
+  "explain": {
+   "short": "The flashing yellow diagonal arrow tells you the lane is about to close: move to the lane it points to.",
+   "rule": "Reversible-lane lights hang over each lane (at least 3 lanes). Green arrow = lane open; red X = lane closed; flashing yellow arrow = move to the lane shown.",
+   "trap": "'freccia gialla lampeggiante' (flashing yellow arrow) = change lane.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Flashing yellow arrow = move over",
+    "it": "corsie reversibili",
+    "lines": [
+     "Flashing yellow arrow = change lane"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "freccia gialla lampeggiante",
+    "en": "flashing yellow arrow"
+   },
+   {
+    "it": "abbandonare quella corsia",
+    "en": "leave that lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21153": {
+  "en": "The reversible-lane traffic light shown indicates the lane for slow vehicles.",
+  "explain": {
+   "short": "It shows which lanes are open or closed in your direction; it is not about slow vehicles.",
+   "rule": "Reversible-lane lights hang over each lane (at least 3 lanes). Green arrow = lane open; red X = lane closed; flashing yellow arrow = move to the lane shown.",
+   "trap": "'veicoli lenti' (slow vehicles) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Open/closed lanes, not a slow lane",
+    "it": "corsie reversibili",
+    "lines": [
+     "Not a slow-vehicle lane"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsie reversibili",
+    "en": "reversible lanes"
+   },
+   {
+    "it": "veicoli lenti",
+    "en": "slow vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21154": {
+  "en": "The reversible-lane traffic light shown indicates the lane for emergency stops.",
+  "explain": {
+   "short": "It tells you which lanes you may drive in; it does not mark an emergency lane.",
+   "rule": "Reversible-lane lights hang over each lane (at least 3 lanes). Green arrow = lane open; red X = lane closed; flashing yellow arrow = move to the lane shown.",
+   "trap": "'sosta di emergenza' (emergency stop) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Open/closed lanes, not emergency stops",
+    "it": "corsie reversibili",
+    "lines": [
+     "Not an emergency-stop lane"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia",
+    "en": "lane"
+   },
+   {
+    "it": "sosta di emergenza",
+    "en": "emergency stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21155": {
+  "en": "The reversible-lane traffic light shown indicates the lane reserved for overtaking.",
+  "explain": {
+   "short": "It shows which lanes are open in your direction; it does not reserve a lane for overtaking.",
+   "rule": "Reversible-lane lights hang over each lane (at least 3 lanes). Green arrow = lane open; red X = lane closed; flashing yellow arrow = move to the lane shown.",
+   "trap": "'riservata al sorpasso' (reserved for overtaking) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Open/closed lanes, not an overtaking lane",
+    "it": "corsie reversibili",
+    "lines": [
+     "Not an overtaking lane"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia riservata",
+    "en": "reserved lane"
+   },
+   {
+    "it": "sorpasso",
+    "en": "overtaking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21156": {
+  "en": "The reversible-lane traffic light shown is placed only on one-way carriageways.",
+  "explain": {
+   "short": "Reversible lanes change direction, so they are used on two-way carriageways, not only one-way ones.",
+   "rule": "Reversible-lane lights hang over each lane (at least 3 lanes). Green arrow = lane open; red X = lane closed; flashing yellow arrow = move to the lane shown.",
+   "trap": "'solo' (only) and 'senso unico' (one-way) are the trap.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Used on two-way roads, not only one-way",
+    "it": "corsie reversibili",
+    "lines": [
+     "Lanes change direction: two-way roads"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

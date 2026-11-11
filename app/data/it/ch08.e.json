@@ -1,0 +1,470 @@
+{
+ "q21520": {
+  "short": "Il cartello blu con la strada bianca segna dove inizia una strada extraurbana principale.",
+  "rule": "Cartello blu con strada e ponte bianchi = «strada extraurbana principale». Sta all'inizio della strada; con barra rossa ne indica la fine.",
+  "trap": "«inizio» è giusto: senza barra rossa il cartello indica l'inizio.",
+  "caption": "Inizio di strada extraurbana principale"
+ },
+ "q21521": {
+  "short": "Una barra rossa sul cartello vuol dire «fine». Qui indica la fine della strada extraurbana principale.",
+  "rule": "Cartello blu con strada e ponte bianchi = «strada extraurbana principale». Sta all'inizio della strada; con barra rossa ne indica la fine.",
+  "trap": "«barrato da una striscia rossa» cambia il cartello di inizio in cartello di fine.",
+  "caption": "Con barra rossa: fine della strada"
+ },
+ "q21522": {
+  "short": "Il cartello sta dove comincia la strada extraurbana principale: da qui valgono le sue regole.",
+  "rule": "Cartello blu con strada e ponte bianchi = «strada extraurbana principale». Sta all'inizio della strada; con barra rossa ne indica la fine.",
+  "trap": "«posto all'inizio» è la posizione giusta.",
+  "caption": "Si trova dove inizia la strada"
+ },
+ "q21523": {
+  "short": "La strada extraurbana principale ha carreggiate separate (divise da uno spartitraffico).",
+  "rule": "Cartello blu con strada e ponte bianchi = «strada extraurbana principale». Sta all'inizio della strada; con barra rossa ne indica la fine.",
+  "trap": "«carreggiate separate» è una vera caratteristica di questa strada.",
+  "caption": "Strada con carreggiate separate"
+ },
+ "q21524": {
+  "short": "Il ponte disegnato fa parte del simbolo. Il cartello indica un tipo di strada, non un posto per girarsi.",
+  "rule": "Cartello blu con strada e ponte bianchi = «strada extraurbana principale». Sta all'inizio della strada; con barra rossa ne indica la fine.",
+  "trap": "«cavalcavia»: il ponte disegnato non indica un vero cavalcavia per l'inversione.",
+  "caption": "Tipo di strada, non cavalcavia"
+ },
+ "q21525": {
+  "short": "Le linee che si stringono mostrano la strada in lontananza, non una salita.",
+  "rule": "Cartello blu con strada e ponte bianchi = «strada extraurbana principale». Sta all'inizio della strada; con barra rossa ne indica la fine.",
+  "trap": "«in salita»: il disegno mostra la prospettiva, non una salita.",
+  "caption": "Non è una salita: inizio strada"
+ },
+ "q21526": {
+  "short": "Il cartello non annuncia un sottopassaggio. Dice che qui inizia una strada extraurbana principale.",
+  "rule": "Cartello blu con strada e ponte bianchi = «strada extraurbana principale». Sta all'inizio della strada; con barra rossa ne indica la fine.",
+  "trap": "«sottopassaggio»: il ponte disegnato è solo un simbolo.",
+  "caption": "Non è un sottopassaggio"
+ },
+ "q21527": {
+  "short": "La strada non è chiusa: il cartello indica l'inizio di una strada extraurbana principale.",
+  "rule": "Cartello blu con strada e ponte bianchi = «strada extraurbana principale». Sta all'inizio della strada; con barra rossa ne indica la fine.",
+  "trap": "«interrotta» è sbagliato: il cartello dà solo un'informazione sul tipo di strada.",
+  "caption": "Strada aperta: inizio strada principale"
+ },
+ "q21528": {
+  "short": "Il cartello blu dà un'informazione, non un ordine. Non obbliga a viaggiare per file parallele.",
+  "rule": "Cartello blu con strada e ponte bianchi = «strada extraurbana principale». Sta all'inizio della strada; con barra rossa ne indica la fine.",
+  "trap": "«prescrive» (ordina): questo cartello informa, non ordina.",
+  "caption": "Solo informazione, niente obbligo"
+ },
+ "q21529": {
+  "short": "Le linee dritte sono solo il simbolo. Il cartello indica il tipo di strada, non un rettilineo.",
+  "rule": "Cartello blu con strada e ponte bianchi = «strada extraurbana principale». Sta all'inizio della strada; con barra rossa ne indica la fine.",
+  "trap": "«lungo rettilineo»: il disegno dritto non vuol dire strada dritta.",
+  "caption": "Tipo di strada, non rettilineo"
+ },
+ "q21530": {
+  "short": "Dice a chi entra in Italia quali limiti valgono, quindi sta vicino alla frontiera.",
+  "rule": "Cartello di frontiera «ITALIA»: limiti massimi 50 in città, 90 fuori città, 110 extraurbane principali, 130 autostrade.",
+  "trap": "«frontiera» è giusto: il cartello è per chi arriva dall'estero.",
+  "caption": "Alla frontiera, per chi entra in Italia"
+ },
+ "q21531": {
+  "short": "I quattro riquadri danno le velocità massime generali per ogni tipo di strada in Italia.",
+  "rule": "Cartello di frontiera «ITALIA»: limiti massimi 50 in città, 90 fuori città, 110 extraurbane principali, 130 autostrade.",
+  "trap": "«limiti massimi» è giusto: sono le velocità più alte permesse.",
+  "caption": "Limiti massimi generali in Italia"
+ },
+ "q21532": {
+  "short": "Il primo riquadro mostra 50 vicino a una città: 50 km/h nei centri abitati.",
+  "rule": "Cartello di frontiera «ITALIA»: limiti massimi 50 in città, 90 fuori città, 110 extraurbane principali, 130 autostrade.",
+  "trap": "«primo riquadro in alto» va con il disegno della città.",
+  "caption": "In alto: 50 km/h in città"
+ },
+ "q21533": {
+  "short": "Il secondo riquadro mostra 90 con la città barrata: fuori città, sulle strade secondarie, 90 km/h.",
+  "rule": "Cartello di frontiera «ITALIA»: limiti massimi 50 in città, 90 fuori città, 110 extraurbane principali, 130 autostrade.",
+  "trap": "«extraurbane secondarie» è la strada giusta per i 90.",
+  "caption": "90 km/h sulle extraurbane secondarie"
+ },
+ "q21534": {
+  "short": "Il terzo riquadro mostra 110 con il simbolo blu: 110 km/h sulle extraurbane principali.",
+  "rule": "Cartello di frontiera «ITALIA»: limiti massimi 50 in città, 90 fuori città, 110 extraurbane principali, 130 autostrade.",
+  "trap": "«extraurbane principali» va con 110, non con 130.",
+  "caption": "110 km/h sulle extraurbane principali"
+ },
+ "q21535": {
+  "short": "L'ultimo riquadro mostra 130 con il simbolo verde: 130 km/h in autostrada.",
+  "rule": "Cartello di frontiera «ITALIA»: limiti massimi 50 in città, 90 fuori città, 110 extraurbane principali, 130 autostrade.",
+  "trap": "«autostrade» va con 130 e il simbolo verde.",
+  "caption": "130 km/h in autostrada"
+ },
+ "q21536": {
+  "short": "Nei centri abitati il limite è 50 km/h. 90 km/h vale fuori città.",
+  "rule": "Cartello di frontiera «ITALIA»: limiti massimi 50 in città, 90 fuori città, 110 extraurbane principali, 130 autostrade.",
+  "trap": "«90 km/h ... centri abitati»: il 90 va con la città barrata, cioè fuori città.",
+  "caption": "In città: 50 km/h, non 90"
+ },
+ "q21537": {
+  "short": "I numeri sono limiti di velocità in km/h, non il numero di autostrade gratuite.",
+  "rule": "Cartello di frontiera «ITALIA»: limiti massimi 50 in città, 90 fuori città, 110 extraurbane principali, 130 autostrade.",
+  "trap": "«numero di autostrade»: i numeri sono velocità.",
+  "caption": "I numeri sono limiti di velocità"
+ },
+ "q21538": {
+  "short": "130 km/h è il limite in autostrada. Sulle extraurbane principali è 110 km/h.",
+  "rule": "Cartello di frontiera «ITALIA»: limiti massimi 50 in città, 90 fuori città, 110 extraurbane principali, 130 autostrade.",
+  "trap": "«130 ... extraurbane principali»: il 130 va con l'autostrada (simbolo verde).",
+  "caption": "Extraurbane principali: 110, non 130"
+ },
+ "q21539": {
+  "short": "Sta vicino alla frontiera, non all'ingresso di ogni città.",
+  "rule": "Cartello di frontiera «ITALIA»: limiti massimi 50 in città, 90 fuori città, 110 extraurbane principali, 130 autostrade.",
+  "trap": "«ogni città» è sbagliato: questo cartello sta alla frontiera.",
+  "caption": "Alla frontiera, non in ogni città"
+ },
+ "q21540": {
+  "short": "I cerchi rossi sono limiti massimi: non si può andare più veloci. Non sono velocità minime.",
+  "rule": "Cartello di frontiera «ITALIA»: limiti massimi 50 in città, 90 fuori città, 110 extraurbane principali, 130 autostrade.",
+  "trap": "«minimi» è il trucco: il cartello mostra limiti massimi.",
+  "caption": "Limiti massimi, non minimi"
+ },
+ "q21541": {
+  "short": "«A» vuol dire autostrada e 25 è il suo numero.",
+  "rule": "Scudo verde «A 25» = autostrada numero 25. Verde vuol dire autostrada; «A» vuol dire autostrada.",
+  "trap": "«numero dell'autostrada» è proprio quello che mostra lo scudo.",
+  "caption": "A 25 = autostrada numero 25"
+ },
+ "q21542": {
+  "short": "I preavvisi di svincolo autostradale spesso contengono lo scudo con il numero dell'autostrada.",
+  "rule": "Scudo verde «A 25» = autostrada numero 25. Verde vuol dire autostrada; «A» vuol dire autostrada.",
+  "trap": "«all'interno»: lo scudo può far parte di un cartello più grande.",
+  "caption": "Lo scudo può stare nel preavviso"
+ },
+ "q21543": {
+  "short": "Con una freccia lo scudo indica la strada per entrare in quell'autostrada, al casello.",
+  "rule": "Scudo verde «A 25» = autostrada numero 25. Verde vuol dire autostrada; «A» vuol dire autostrada.",
+  "trap": "«abbinato ad una freccia»: diventa un cartello di direzione.",
+  "caption": "Con freccia: direzione per il casello"
+ },
+ "q21544": {
+  "short": "Lo scudo dice «A 25»: è l'autostrada numero 25.",
+  "rule": "Scudo verde «A 25» = autostrada numero 25. Verde vuol dire autostrada; «A» vuol dire autostrada.",
+  "trap": "«n. 25» corrisponde al testo sullo scudo.",
+  "caption": "Questa è l'autostrada A25"
+ },
+ "q21545": {
+  "short": "La «A» vuol dire autostrada, non Austria. Il cartello dà il numero dell'autostrada.",
+  "rule": "Scudo verde «A 25» = autostrada numero 25. Verde vuol dire autostrada; «A» vuol dire autostrada.",
+  "trap": "«Austria»: la lettera «A» sta per autostrada, non per il paese.",
+  "caption": "«A» = autostrada, non Austria"
+ },
+ "q21546": {
+  "short": "Il numero è dell'autostrada, non di un cavalcavia.",
+  "rule": "Scudo verde «A 25» = autostrada numero 25. Verde vuol dire autostrada; «A» vuol dire autostrada.",
+  "trap": "«cavalcavia» è sbagliato: la «A» dice che è un'autostrada.",
+  "caption": "Numero dell'autostrada, non del cavalcavia"
+ },
+ "q21547": {
+  "short": "25 non è una distanza in metri. È il numero dell'autostrada.",
+  "rule": "Scudo verde «A 25» = autostrada numero 25. Verde vuol dire autostrada; «A» vuol dire autostrada.",
+  "trap": "«distanza di sicurezza»: il numero è il numero dell'autostrada.",
+  "caption": "25 = numero, non distanza"
+ },
+ "q21548": {
+  "short": "Sul cartello non c'è una distanza né un simbolo di servizio. «A 25» è il numero dell'autostrada.",
+  "rule": "Scudo verde «A 25» = autostrada numero 25. Verde vuol dire autostrada; «A» vuol dire autostrada.",
+  "trap": "«a 25 chilometri»: 25 non è una distanza.",
+  "caption": "Niente centro di assistenza: A25"
+ },
+ "q21549": {
+  "short": "Il cartello non dà distanze. 25 è il numero dell'autostrada.",
+  "rule": "Scudo verde «A 25» = autostrada numero 25. Verde vuol dire autostrada; «A» vuol dire autostrada.",
+  "trap": "«a 25 chilometri»: il numero è il nome dell'autostrada.",
+  "caption": "Nessuna distanza: 25 è il numero"
+ },
+ "q21550": {
+  "short": "Non è un cartello di velocità. Questo scudo verde dà il numero dell'autostrada.",
+  "rule": "Scudo verde «A 25» = autostrada numero 25. Verde vuol dire autostrada; «A» vuol dire autostrada.",
+  "trap": "«limite minimo di velocità»: 25 non è una velocità.",
+  "caption": "Non è una velocità: numero autostrada"
+ },
+ "q21551": {
+  "short": "Il rettangolo bianco con il nome segna dove inizia il centro abitato.",
+  "rule": "Cartello bianco con il nome = inizio centro abitato. Sta su tutte le strade d'ingresso; con barra rossa = fine centro abitato.",
+  "trap": "«inizio di un centro abitato» è proprio il significato del cartello.",
+  "caption": "Inizio del centro abitato di Taranto"
+ },
+ "q21552": {
+  "short": "Il nome sul cartello dice in quale località stai entrando.",
+  "rule": "Cartello bianco con il nome = inizio centro abitato. Sta su tutte le strade d'ingresso; con barra rossa = fine centro abitato.",
+  "trap": "«località raggiunta»: stai arrivando a Taranto adesso.",
+  "caption": "Sei arrivato a Taranto"
+ },
+ "q21553": {
+  "short": "Ogni strada che entra nel paese ha questo cartello: così si sa sempre dove iniziano le regole urbane.",
+  "rule": "Cartello bianco con il nome = inizio centro abitato. Sta su tutte le strade d'ingresso; con barra rossa = fine centro abitato.",
+  "trap": "«su tutte le strade d'ingresso» è giusto, anche se «tutte» sembra troppo.",
+  "caption": "Su ogni strada d'ingresso"
+ },
+ "q21554": {
+  "short": "Lo stesso cartello con una barra rossa segna dove finisce il paese.",
+  "rule": "Cartello bianco con il nome = inizio centro abitato. Sta su tutte le strade d'ingresso; con barra rossa = fine centro abitato.",
+  "trap": "«barrato da una striscia rossa» vuol dire «fine».",
+  "caption": "Con barra rossa: fine centro abitato"
+ },
+ "q21555": {
+  "short": "Le località turistiche hanno cartelli MARRONI. Il cartello bianco con il nome indica l'inizio del paese.",
+  "rule": "Cartello bianco con il nome = inizio centro abitato. Sta su tutte le strade d'ingresso; con barra rossa = fine centro abitato.",
+  "trap": "«località turistica»: il colore è bianco, non marrone.",
+  "caption": "Bianco = inizio paese, non turistico"
+ },
+ "q21556": {
+  "short": "Indica l'inizio di un paese, non il confine di una provincia.",
+  "rule": "Cartello bianco con il nome = inizio centro abitato. Sta su tutte le strade d'ingresso; con barra rossa = fine centro abitato.",
+  "trap": "«fine di una provincia»: il cartello parla di un centro abitato.",
+  "caption": "Inizio paese, non fine provincia"
+ },
+ "q21557": {
+  "short": "Un cartello di direzione ha una freccia o una punta. Questo rettangolo dice che sei già a Taranto.",
+  "rule": "Cartello bianco con il nome = inizio centro abitato. Sta su tutte le strade d'ingresso; con barra rossa = fine centro abitato.",
+  "trap": "«direzione da seguire»: sei già arrivato.",
+  "caption": "Sei già a Taranto, non è direzione"
+ },
+ "q21558": {
+  "short": "Il cartello dà il nome di un paese, non di un viadotto (lungo ponte stradale).",
+  "rule": "Cartello bianco con il nome = inizio centro abitato. Sta su tutte le strade d'ingresso; con barra rossa = fine centro abitato.",
+  "trap": "«viadotto» è sbagliato: Taranto è una città.",
+  "caption": "Nome di città, non viadotto"
+ },
+ "q21559": {
+  "short": "La croce rossa vuol dire pronto soccorso e la freccia mostra l'ingresso.",
+  "rule": "Cartello bianco, croce rossa, freccia = pronto soccorso. Sta al pronto soccorso; la freccia mostra l'ingresso.",
+  "trap": "«ingresso» è giusto: la freccia porta dentro al pronto soccorso.",
+  "caption": "Ingresso del pronto soccorso"
+ },
+ "q21560": {
+  "short": "La freccia sotto la croce rossa mostra da che parte entrare nel pronto soccorso.",
+  "rule": "Cartello bianco, croce rossa, freccia = pronto soccorso. Sta al pronto soccorso; la freccia mostra l'ingresso.",
+  "trap": "«direzione» viene dalla freccia.",
+  "caption": "Freccia: direzione per il pronto soccorso"
+ },
+ "q21561": {
+  "short": "Il cartello sta proprio al pronto soccorso per mostrare l'ingresso.",
+  "rule": "Cartello bianco, croce rossa, freccia = pronto soccorso. Sta al pronto soccorso; la freccia mostra l'ingresso.",
+  "trap": "«in corrispondenza» è giusto: sta sul posto, non molto prima.",
+  "caption": "Sta al pronto soccorso"
+ },
+ "q21562": {
+  "short": "La bandiera svizzera è croce bianca su rosso. Qui è croce rossa su bianco: pronto soccorso.",
+  "rule": "Cartello bianco, croce rossa, freccia = pronto soccorso. Sta al pronto soccorso; la freccia mostra l'ingresso.",
+  "trap": "«Svizzera»: i colori sono invertiti, è la croce del pronto soccorso.",
+  "caption": "Croce rossa su bianco = pronto soccorso"
+ },
+ "q21563": {
+  "short": "La croce rossa qui vuol dire pronto soccorso, non farmacia.",
+  "rule": "Cartello bianco, croce rossa, freccia = pronto soccorso. Sta al pronto soccorso; la freccia mostra l'ingresso.",
+  "trap": "«farmacia» è sbagliato: il cartello indica il pronto soccorso.",
+  "caption": "Pronto soccorso, non farmacia"
+ },
+ "q21564": {
+  "short": "La croce è rossa, segno del pronto soccorso. Non c'entra il cimitero.",
+  "rule": "Cartello bianco, croce rossa, freccia = pronto soccorso. Sta al pronto soccorso; la freccia mostra l'ingresso.",
+  "trap": "«cimitero»: qui la croce non vuol dire cimitero.",
+  "caption": "Pronto soccorso, non cimitero"
+ },
+ "q21565": {
+  "short": "La croce non è un disegno di strade: è la croce rossa del pronto soccorso.",
+  "rule": "Cartello bianco, croce rossa, freccia = pronto soccorso. Sta al pronto soccorso; la freccia mostra l'ingresso.",
+  "trap": "«incrocio a quattro strade»: la forma a croce non sono strade.",
+  "caption": "Croce rossa, non incrocio"
+ },
+ "q21566": {
+  "short": "Sul cartello non c'è la «P» del parcheggio. La croce rossa indica il pronto soccorso.",
+  "rule": "Cartello bianco, croce rossa, freccia = pronto soccorso. Sta al pronto soccorso; la freccia mostra l'ingresso.",
+  "trap": "«parcheggio»: i cartelli di parcheggio hanno la «P» bianca su blu.",
+  "caption": "Pronto soccorso, non parcheggio"
+ },
+ "q21567": {
+  "short": "Il cartello dà il nome del fiume e sta vicino al ponte che lo attraversa.",
+  "rule": "Onde e «fiume Arno» = nome del fiume che attraversi sul ponte. È un segnale di indicazione, non di pericolo.",
+  "trap": "«in vicinanza di un ponte»: lì si mettono i cartelli con il nome del fiume.",
+  "caption": "Vicino al ponte sull'Arno"
+ },
+ "q21568": {
+  "short": "Le parole «fiume Arno» dicono il nome del fiume che stai per attraversare.",
+  "rule": "Onde e «fiume Arno» = nome del fiume che attraversi sul ponte. È un segnale di indicazione, non di pericolo.",
+  "trap": "«nome del fiume» è proprio quello che dice il testo.",
+  "caption": "Nome del fiume: Arno"
+ },
+ "q21569": {
+  "short": "Dà solo un'informazione (il nome del fiume). Non indica pericoli né obblighi.",
+  "rule": "Onde e «fiume Arno» = nome del fiume che attraversi sul ponte. È un segnale di indicazione, non di pericolo.",
+  "trap": "«segnali di indicazione» è la famiglia giusta.",
+  "caption": "Segnale di indicazione"
+ },
+ "q21570": {
+  "short": "Le onde indicano il nome di un fiume, non un pericolo di allagamento.",
+  "rule": "Onde e «fiume Arno» = nome del fiume che attraversi sul ponte. È un segnale di indicazione, non di pericolo.",
+  "trap": "«allagare»: le onde indicano un fiume, non acqua sulla strada.",
+  "caption": "Nome del fiume, non allagamento"
+ },
+ "q21571": {
+  "short": "Il cartello parla di un fiume, non del mare, e non indica pericoli.",
+  "rule": "Onde e «fiume Arno» = nome del fiume che attraversi sul ponte. È un segnale di indicazione, non di pericolo.",
+  "trap": "«mareggiate»: il testo dice «fiume».",
+  "caption": "Nome del fiume, non mareggiate"
+ },
+ "q21572": {
+  "short": "Le onde indicano solo un fiume. Il cartello dà il nome, non sport d'acqua.",
+  "rule": "Onde e «fiume Arno» = nome del fiume che attraversi sul ponte. È un segnale di indicazione, non di pericolo.",
+  "trap": "«sci nautico» è inventato: nel cartello non c'è.",
+  "caption": "Nome del fiume, non sci nautico"
+ },
+ "q21573": {
+  "short": "Le linee ondulate sono acqua, non una strada. Le curve hanno triangoli rossi.",
+  "rule": "Onde e «fiume Arno» = nome del fiume che attraversi sul ponte. È un segnale di indicazione, non di pericolo.",
+  "trap": "«curve in successione»: le onde non sono curve.",
+  "caption": "Onde = fiume, non curve"
+ },
+ "q21574": {
+  "short": "La «i» vuol dire informazioni e il letto vuol dire alberghi; «150 m» dice che è più avanti.",
+  "rule": "Cartello marrone, «i» e letto, 150 m = ufficio informazioni turistico-alberghiere a 150 m.",
+  "trap": "«preavvisa» va bene con il pannello «150 m».",
+  "caption": "Ufficio informazioni a 150 m"
+ },
+ "q21575": {
+  "short": "Il letto con la «i» vuol dire informazioni su dove dormire: alberghi e motel.",
+  "rule": "Cartello marrone, «i» e letto, 150 m = ufficio informazioni turistico-alberghiere a 150 m.",
+  "trap": "«informazioni su alberghi e motel» corrisponde ai simboli.",
+  "caption": "Informazioni su alberghi e motel"
+ },
+ "q21576": {
+  "short": "Nell'ufficio annunciato puoi chiedere informazioni sugli alberghi.",
+  "rule": "Cartello marrone, «i» e letto, 150 m = ufficio informazioni turistico-alberghiere a 150 m.",
+  "trap": "«richiedere informazioni» è lo scopo della «i».",
+  "caption": "Qui chiedi informazioni sugli alberghi"
+ },
+ "q21577": {
+  "short": "L'unico numero è «150 m», una distanza. Il cartello non conta gli alberghi.",
+  "rule": "Cartello marrone, «i» e letto, 150 m = ufficio informazioni turistico-alberghiere a 150 m.",
+  "trap": "«numero di alberghi»: 150 m è una distanza.",
+  "caption": "150 m è una distanza, non un numero"
+ },
+ "q21578": {
+  "short": "Il letto con la «i» su marrone vuol dire informazioni sugli alberghi, non ospedale.",
+  "rule": "Cartello marrone, «i» e letto, 150 m = ufficio informazioni turistico-alberghiere a 150 m.",
+  "trap": "«ospedale»: qui il letto vuol dire albergo e il marrone turismo.",
+  "caption": "Informazioni alberghi, non ospedale"
+ },
+ "q21579": {
+  "short": "Il cartello riguarda informazioni turistiche e alberghi, non un ufficio dell'ospedale.",
+  "rule": "Cartello marrone, «i» e letto, 150 m = ufficio informazioni turistico-alberghiere a 150 m.",
+  "trap": "«accettazione dell'ospedale» confonde il simbolo del letto.",
+  "caption": "Informazioni alberghi, non ospedale"
+ },
+ "q21580": {
+  "short": "La «i» vuol dire informazioni, non interpreti. Il cartello annuncia un ufficio, non un albergo speciale.",
+  "rule": "Cartello marrone, «i» e letto, 150 m = ufficio informazioni turistico-alberghiere a 150 m.",
+  "trap": "«personale interprete»: la «i» sta per informazioni.",
+  "caption": "«i» = informazioni, non interpreti"
+ },
+ "q21581": {
+  "short": "Indica un attraversamento pedonale senza semaforo né vigile.",
+  "rule": "Quadrato blu con pedone sulle strisce = attraversamento pedonale qui, sulle strisce. Fermati per i pedoni; non sorpassare chi si è fermato.",
+  "trap": "«non regolato» vuol dire senza semaforo.",
+  "caption": "Attraversamento senza semaforo"
+ },
+ "q21582": {
+  "short": "Fuori città prima c'è il triangolo rosso di pericolo; poi questo cartello blu sulle strisce.",
+  "rule": "Quadrato blu con pedone sulle strisce = attraversamento pedonale qui, sulle strisce. Fermati per i pedoni; non sorpassare chi si è fermato.",
+  "trap": "«dopo» è giusto: il triangolo di pericolo viene prima.",
+  "caption": "Fuori città: prima il triangolo, poi questo"
+ },
+ "q21583": {
+  "short": "Questo cartello sta proprio dove c'è l'attraversamento, vicino alle strisce.",
+  "rule": "Quadrato blu con pedone sulle strisce = attraversamento pedonale qui, sulle strisce. Fermati per i pedoni; non sorpassare chi si è fermato.",
+  "trap": "«direttamente in corrispondenza» è il posto giusto.",
+  "caption": "Sta proprio sulle strisce"
+ },
+ "q21584": {
+  "short": "All'attraversamento i conducenti devono fermarsi per far passare i pedoni.",
+  "rule": "Quadrato blu con pedone sulle strisce = attraversamento pedonale qui, sulle strisce. Fermati per i pedoni; non sorpassare chi si è fermato.",
+  "trap": "«obbliga ... a fermarsi» vale quando i pedoni stanno attraversando.",
+  "caption": "Fermati per i pedoni"
+ },
+ "q21585": {
+  "short": "Il pedone cammina sulle strisce della strada: è un attraversamento a raso, non un sottopassaggio.",
+  "rule": "Quadrato blu con pedone sulle strisce = attraversamento pedonale qui, sulle strisce. Fermati per i pedoni; non sorpassare chi si è fermato.",
+  "trap": "«sottopassaggio»: le strisce indicano che si attraversa sulla strada.",
+  "caption": "Strisce sulla strada, non sottopassaggio"
+ },
+ "q21586": {
+  "short": "Questo cartello blu sta SULL'attraversamento. Il triangolo rosso sta circa 150 m prima.",
+  "rule": "Quadrato blu con pedone sulle strisce = attraversamento pedonale qui, sulle strisce. Fermati per i pedoni; non sorpassare chi si è fermato.",
+  "trap": "«150 metri prima» vale per il triangolo di pericolo.",
+  "caption": "Sulle strisce, non 150 m prima"
+ },
+ "q21587": {
+  "short": "In autostrada i pedoni non possono circolare: non ci sono attraversamenti né cartelli verdi così.",
+  "rule": "Quadrato blu con pedone sulle strisce = attraversamento pedonale qui, sulle strisce. Fermati per i pedoni; non sorpassare chi si è fermato.",
+  "trap": "«se di colore verde»: verde vuol dire autostrada, dove i pedoni sono vietati.",
+  "caption": "In autostrada niente attraversamenti"
+ },
+ "q21588": {
+  "short": "Mostra un adulto sulle strisce, non bambini. Le scuole hanno il triangolo con i bambini.",
+  "rule": "Quadrato blu con pedone sulle strisce = attraversamento pedonale qui, sulle strisce. Fermati per i pedoni; non sorpassare chi si è fermato.",
+  "trap": "«scuola elementare»: questo è un cartello di attraversamento.",
+  "caption": "Attraversamento, non scuola"
+ },
+ "q21589": {
+  "short": "È vietato sorpassare un veicolo fermo per i pedoni: può nascondere una persona.",
+  "rule": "Quadrato blu con pedone sulle strisce = attraversamento pedonale qui, sulle strisce. Fermati per i pedoni; non sorpassare chi si è fermato.",
+  "trap": "«consente di sorpassare» è il trucco: è vietato.",
+  "caption": "Vietato sorpassare chi si ferma"
+ },
+ "q21590": {
+  "short": "Sul bordo del marciapiede il cartello arancione indica la fermata dello scuolabus.",
+  "rule": "Quadrato arancione con due scolari = scuolabus (fermata sul marciapiede o sul mezzo). Attenzione: i bambini possono attraversare.",
+  "trap": "«sul bordo del marciapiede»: diventa il segnale di fermata.",
+  "caption": "Sul marciapiede: fermata scuolabus"
+ },
+ "q21591": {
+  "short": "Gli scuolabus hanno questo cartello all'esterno: a bordo ci sono bambini.",
+  "rule": "Quadrato arancione con due scolari = scuolabus (fermata sul marciapiede o sul mezzo). Attenzione: i bambini possono attraversare.",
+  "trap": "«all'esterno di un autobus»: l'autobus trasporta scolari.",
+  "caption": "Sull'autobus: trasporta scolari"
+ },
+ "q21592": {
+  "short": "Un uso di questo cartello è segnare la fermata dello scuolabus.",
+  "rule": "Quadrato arancione con due scolari = scuolabus (fermata sul marciapiede o sul mezzo). Attenzione: i bambini possono attraversare.",
+  "trap": "«può indicare» è giusto: la fermata è uno dei suoi usi.",
+  "caption": "Può indicare la fermata scuolabus"
+ },
+ "q21593": {
+  "short": "Dove si ferma lo scuolabus i bambini possono attraversare di corsa: guida con prudenza.",
+  "rule": "Quadrato arancione con due scolari = scuolabus (fermata sul marciapiede o sul mezzo). Attenzione: i bambini possono attraversare.",
+  "trap": "«invita a fare attenzione» è lo scopo del cartello.",
+  "caption": "Attenzione: bambini possono attraversare"
+ },
+ "q21594": {
+  "short": "I bambini scesi dallo scuolabus possono attraversare all'improvviso, davanti o dietro al mezzo.",
+  "rule": "Quadrato arancione con due scolari = scuolabus (fermata sul marciapiede o sul mezzo). Attenzione: i bambini possono attraversare.",
+  "trap": "«discesi dallo scuolabus» spiega perché fare attenzione.",
+  "caption": "Bambini scesi possono attraversare"
+ },
+ "q21595": {
+  "short": "Il cartello non è un divieto. Chiede ai conducenti di fare attenzione ai bambini.",
+  "rule": "Quadrato arancione con due scolari = scuolabus (fermata sul marciapiede o sul mezzo). Attenzione: i bambini possono attraversare.",
+  "trap": "«vieta»: il cartello arancione non vieta niente.",
+  "caption": "Non è un divieto: attenzione ai bambini"
+ },
+ "q21596": {
+  "short": "I bambini hanno la cartella: il cartello riguarda lo scuolabus, non un parco.",
+  "rule": "Quadrato arancione con due scolari = scuolabus (fermata sul marciapiede o sul mezzo). Attenzione: i bambini possono attraversare.",
+  "trap": "«giardini pubblici»: le cartelle mostrano che si parla di scuola.",
+  "caption": "Scuolabus, non giardini"
+ },
+ "q21597": {
+  "short": "Il cartello chiede più attenzione; non crea un obbligo speciale di precedenza.",
+  "rule": "Quadrato arancione con due scolari = scuolabus (fermata sul marciapiede o sul mezzo). Attenzione: i bambini possono attraversare.",
+  "trap": "«obbligatoriamente» è il trucco: il cartello invita alla prudenza.",
+  "caption": "Attenzione, non obbligo speciale"
+ }
+}

@@ -1,0 +1,2180 @@
+{
+ "q20629": {
+  "en": "The sign shown warns that a less important road crosses on the left.",
+  "explain": {
+   "short": "The thin line joining from the left is a smaller road; the thick line is your road, which is more important.",
+   "rule": "This sign warns of a junction where a less important road joins from the left. You have priority over vehicles coming from that road, but you must still be careful.",
+   "trap": "'di minore importanza' (less important) matches the thin line on the left.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A smaller road joins from the left",
+    "it": "intersezione con precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si incrocia sulla sinistra",
+    "en": "crosses on the left"
+   },
+   {
+    "it": "di minore importanza",
+    "en": "less important"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20630": {
+  "en": "The sign shown warns of a junction where you have priority.",
+  "explain": {
+   "short": "This triangle announces a junction where you, on the main road, go first.",
+   "rule": "This sign warns of a junction where a less important road joins from the left. You have priority over vehicles coming from that road, but you must still be careful.",
+   "trap": "'si ha la precedenza' (you have priority) is the real meaning, even if the triangle looks like a danger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Junction ahead: you go first",
+    "it": "intersezione con precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "incrocio",
+    "en": "junction"
+   },
+   {
+    "it": "si ha la precedenza",
+    "en": "you have priority"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20631": {
+  "en": "The sign shown tells you to be careful because you are getting close to a junction.",
+  "explain": {
+   "short": "It is a triangle, so it warns of a place to approach with care: here, a junction.",
+   "rule": "This sign warns of a junction where a less important road joins from the left. You have priority over vehicles coming from that road, but you must still be careful.",
+   "trap": "'prescrive di usare prudenza' (requires care) is right: even with priority you must be careful.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Junction ahead: be careful even with priority",
+    "it": "intersezione con precedenza",
+    "action": "slow",
+    "hazard": "🔀",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "usare prudenza",
+    "en": "be careful"
+   },
+   {
+    "it": "ci si sta avvicinando",
+    "en": "you are getting close"
+   },
+   {
+    "it": "incrocio",
+    "en": "junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20632": {
+  "en": "The sign shown is a priority sign.",
+  "explain": {
+   "short": "Although it is a triangle, the law puts it among the priority signs, because it tells you who goes first.",
+   "rule": "This sign warns of a junction where a less important road joins from the left. You have priority over vehicles coming from that road, but you must still be careful.",
+   "trap": "'segnale di precedenza' (priority sign) is its official group, not only a danger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A priority sign: it says who goes first",
+    "it": "intersezione con precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di precedenza",
+    "en": "priority sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20633": {
+  "en": "The sign shown warns of a junction with a road that has no right of way.",
+  "explain": {
+   "short": "The road on the left has no priority; its drivers must let you pass.",
+   "rule": "This sign warns of a junction where a less important road joins from the left. You have priority over vehicles coming from that road, but you must still be careful.",
+   "trap": "'senza diritto di precedenza' (without right of way) describes the side road, not your road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The side road has no priority: you go first",
+    "it": "intersezione con precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "senza diritto di precedenza",
+    "en": "without right of way"
+   },
+   {
+    "it": "incrocio",
+    "en": "junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20634": {
+  "en": "The sign shown warns of a junction where you have priority over vehicles coming from the left.",
+  "explain": {
+   "short": "The side road joins from the left, so your priority is over the vehicles coming from the left.",
+   "rule": "This sign warns of a junction where a less important road joins from the left. You have priority over vehicles coming from that road, but you must still be careful.",
+   "trap": "'provenienti da sinistra' (coming from the left) matches the side road drawn on the left.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "You go first; cars from the left wait",
+    "it": "intersezione con precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si ha la precedenza",
+    "en": "you have priority"
+   },
+   {
+    "it": "provenienti da sinistra",
+    "en": "coming from the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20635": {
+  "en": "The sign shown warns of a dead-end road on the left.",
+  "explain": {
+   "short": "The road on the left is a normal side road where you have priority, not a dead end.",
+   "rule": "This sign warns of a junction where a less important road joins from the left. You have priority over vehicles coming from that road, but you must still be careful.",
+   "trap": "'strada senza uscita' (dead end) is a different, blue square sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it is a junction with priority, not a dead end",
+    "it": "intersezione con precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada senza uscita",
+    "en": "dead-end road"
+   },
+   {
+    "it": "sulla sinistra",
+    "en": "on the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20636": {
+  "en": "The sign shown forbids turning left.",
+  "explain": {
+   "short": "The sign only warns of a junction with priority; turning left is allowed.",
+   "rule": "This sign warns of a junction where a less important road joins from the left. You have priority over vehicles coming from that road, but you must still be careful.",
+   "trap": "'vieta' (forbids) is wrong: a ban would be a red circle, not a triangle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it does not ban the left turn",
+    "it": "intersezione con precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "forbids"
+   },
+   {
+    "it": "svolta a sinistra",
+    "en": "left turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20637": {
+  "en": "The sign shown warns of a merge on a motorway.",
+  "explain": {
+   "short": "The side road meets at a right angle, so it is a junction, not a merge.",
+   "rule": "This sign warns of a junction where a less important road joins from the left. You have priority over vehicles coming from that road, but you must still be careful.",
+   "trap": "'confluenza' (merge) has a slanted lane in the drawing; here the line is straight.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: a junction, not a merge",
+    "it": "intersezione con precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "confluenza",
+    "en": "merge"
+   },
+   {
+    "it": "autostrada",
+    "en": "motorway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20638": {
+  "en": "The sign shown warns of a merge on the right.",
+  "explain": {
+   "short": "The side road is on the left and meets at a right angle: it is a junction, not a merge on the right.",
+   "rule": "This sign warns of a junction where a less important road joins from the left. You have priority over vehicles coming from that road, but you must still be careful.",
+   "trap": "'a destra' (on the right) and 'confluenza' (merge) are both wrong here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: side road on the LEFT, not a merge",
+    "it": "intersezione con precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "confluenza",
+    "en": "merge"
+   },
+   {
+    "it": "a destra",
+    "en": "on the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20639": {
+  "en": "The sign shown is placed on motorway access ramps.",
+  "explain": {
+   "short": "It is placed on the main road before a junction, not on motorway ramps.",
+   "rule": "This sign warns of a junction where a less important road joins from the left. You have priority over vehicles coming from that road, but you must still be careful.",
+   "trap": "'rampe di accesso alle autostrade' (motorway ramps) is not where this sign goes.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it stands on the main road, not on ramps",
+    "it": "intersezione con precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "rampe di accesso",
+    "en": "access ramps"
+   },
+   {
+    "it": "autostrade",
+    "en": "motorways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20640": {
+  "en": "The sign shown warns of a junction with a dead-end track.",
+  "explain": {
+   "short": "The sign is about a road junction where you have priority; it has nothing to do with railway tracks.",
+   "rule": "This sign warns of a junction where a less important road joins from the left. You have priority over vehicles coming from that road, but you must still be careful.",
+   "trap": "'binario morto' (dead-end track) is a railway word: this sign is about roads.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: a road junction, not a railway track",
+    "it": "intersezione con precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "binario morto",
+    "en": "dead-end track"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20641": {
+  "en": "The sign shown warns of vehicles joining from the right with an acceleration lane.",
+  "explain": {
+   "short": "The slanted lane on the right shows vehicles entering your road, usually from an acceleration lane.",
+   "rule": "This sign warns that a road joins from the right, often with an acceleration lane. It stands on the main road, which keeps priority; the joining road has a give way sign.",
+   "trap": "'immissione da destra' (joining from the right) is exactly the drawing.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cars join from the right; you keep priority",
+    "it": "confluenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "immissione da destra",
+    "en": "joining from the right"
+   },
+   {
+    "it": "corsia di accelerazione",
+    "en": "acceleration lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20642": {
+  "en": "The sign shown warns of a merge on the right side.",
+  "explain": {
+   "short": "The slanted lane joins your road from the right: this is a merge (confluenza).",
+   "rule": "This sign warns that a road joins from the right, often with an acceleration lane. It stands on the main road, which keeps priority; the joining road has a give way sign.",
+   "trap": "'confluenza sul lato destro' (merge on the right side) is the name of this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Merge from the right ahead",
+    "it": "confluenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "confluenza",
+    "en": "merge"
+   },
+   {
+    "it": "lato destro",
+    "en": "right side"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20643": {
+  "en": "The sign shown can be found on motorways.",
+  "explain": {
+   "short": "Motorways have many entry ramps from the right, so this sign is often used there.",
+   "rule": "This sign warns that a road joins from the right, often with an acceleration lane. It stands on the main road, which keeps priority; the joining road has a give way sign.",
+   "trap": "'può trovarsi' (can be found) is right: motorways are a typical place.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Common on motorways near entry ramps",
+    "it": "confluenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "può trovarsi",
+    "en": "can be found"
+   },
+   {
+    "it": "autostrade",
+    "en": "motorways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20644": {
+  "en": "The sign shown asks you to be very careful to avoid accidents.",
+  "explain": {
+   "short": "Vehicles are about to join your lane, so you must be very careful.",
+   "rule": "This sign warns that a road joins from the right, often with an acceleration lane. It stands on the main road, which keeps priority; the joining road has a give way sign.",
+   "trap": "'massima prudenza' (maximum care) is right for any warning triangle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cars joining: be very careful",
+    "it": "confluenza",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "massima prudenza",
+    "en": "maximum care"
+   },
+   {
+    "it": "evitare incidenti",
+    "en": "avoid accidents"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20645": {
+  "en": "The sign shown tells you that you have priority over vehicles joining from the right.",
+  "explain": {
+   "short": "You are on the main road; the vehicles joining from the right must give way to you.",
+   "rule": "This sign warns that a road joins from the right, often with an acceleration lane. It stands on the main road, which keeps priority; the joining road has a give way sign.",
+   "trap": "'abbiamo la precedenza' (we have priority) is right: the joining vehicles wait.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "You keep priority; joining cars give way",
+    "it": "confluenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "abbiamo la precedenza",
+    "en": "we have priority"
+   },
+   {
+    "it": "si immettono da destra",
+    "en": "join from the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20646": {
+  "en": "With the sign shown, the joining ramp has a GIVE WAY sign.",
+  "explain": {
+   "short": "The vehicles on the ramp do not have priority, so they have a give way sign.",
+   "rule": "This sign warns that a road joins from the right, often with an acceleration lane. It stands on the main road, which keeps priority; the joining road has a give way sign.",
+   "trap": "'rampa di raccordo' (joining ramp) is the other road, not yours: there you find DARE PRECEDENZA.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The ramp has a give way sign",
+    "it": "confluenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "rampa di raccordo",
+    "en": "joining ramp"
+   },
+   {
+    "it": "DARE PRECEDENZA",
+    "en": "GIVE WAY"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20647": {
+  "en": "The sign shown is placed no more than 25 metres from the junction.",
+  "explain": {
+   "short": "Like danger signs, it is placed well before the merge, about 150 m outside towns.",
+   "rule": "This sign warns that a road joins from the right, often with an acceleration lane. It stands on the main road, which keeps priority; the joining road has a give way sign.",
+   "trap": "'25 metri' is the distance for a give way sign, not for this triangle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: about 150 m before, not 25 m",
+    "it": "confluenza",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non più di 25 metri",
+    "en": "no more than 25 metres"
+   },
+   {
+    "it": "incrocio",
+    "en": "junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20648": {
+  "en": "The sign shown tells you to give way to vehicles coming from the right.",
+  "explain": {
+   "short": "It is the opposite: you keep priority; the joining vehicles give way to you.",
+   "rule": "This sign warns that a road joins from the right, often with an acceleration lane. It stands on the main road, which keeps priority; the joining road has a give way sign.",
+   "trap": "'dare precedenza' (give way) is wrong: that is the job of the vehicles on the ramp.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: you keep priority, they give way",
+    "it": "confluenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "dare precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "provenienti da destra",
+    "en": "coming from the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20649": {
+  "en": "The sign shown is placed on a secondary road that does not have priority.",
+  "explain": {
+   "short": "It is placed on the main road, which has priority; the secondary road has a give way sign.",
+   "rule": "This sign warns that a road joins from the right, often with an acceleration lane. It stands on the main road, which keeps priority; the joining road has a give way sign.",
+   "trap": "'strada secondaria' (secondary road) is the wrong road: this sign is on the main one.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it stands on the main road",
+    "it": "confluenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada secondaria",
+    "en": "secondary road"
+   },
+   {
+    "it": "non gode del diritto di precedenza",
+    "en": "does not have priority"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20650": {
+  "en": "The sign shown can come before the GIVE WAY sign.",
+  "explain": {
+   "short": "It is on the main road, while the give way sign is on the joining ramp, so it does not announce it.",
+   "rule": "This sign warns that a road joins from the right, often with an acceleration lane. It stands on the main road, which keeps priority; the joining road has a give way sign.",
+   "trap": "'precedere' (come before) is wrong: the two signs are on different roads.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it does not announce a give way sign",
+    "it": "confluenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "può precedere",
+    "en": "can come before"
+   },
+   {
+    "it": "DARE PRECEDENZA",
+    "en": "GIVE WAY"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20651": {
+  "en": "On a motorway, the sign shown does not require slowing down.",
+  "explain": {
+   "short": "Vehicles are about to join, so you may need to slow down, also on a motorway.",
+   "rule": "This sign warns that a road joins from the right, often with an acceleration lane. It stands on the main road, which keeps priority; the joining road has a give way sign.",
+   "trap": "'non comporta una riduzione della velocità' (no slowing down) is wrong: care often means slowing down.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: be ready to slow down, also on motorways",
+    "it": "confluenza",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "su autostrada",
+    "en": "on a motorway"
+   },
+   {
+    "it": "riduzione della velocità",
+    "en": "slowing down"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20652": {
+  "en": "The sign shown allows turning right at the next junction.",
+  "explain": {
+   "short": "The sign warns that others join from the right; it says nothing about you turning right.",
+   "rule": "This sign warns that a road joins from the right, often with an acceleration lane. It stands on the main road, which keeps priority; the joining road has a give way sign.",
+   "trap": "'consente la svolta a destra' (allows turning right) is invented: the drawing shows traffic coming in.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: cars join from the right, no turn",
+    "it": "confluenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente",
+    "en": "allows"
+   },
+   {
+    "it": "svolta a destra",
+    "en": "right turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20653": {
+  "en": "The sign shown warns of a road joining with an acceleration lane on the left.",
+  "explain": {
+   "short": "The slanted lane on the left shows vehicles entering from the left, often from an acceleration lane.",
+   "rule": "This sign warns that a road joins from the left, often with an acceleration lane. It stands on one-way carriageways with priority; the joining road has a give way sign.",
+   "trap": "'posta sulla sinistra' (on the left) matches the drawing.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cars join from the left; you keep priority",
+    "it": "confluenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "immissione stradale",
+    "en": "road joining"
+   },
+   {
+    "it": "corsia di accelerazione",
+    "en": "acceleration lane"
+   },
+   {
+    "it": "sulla sinistra",
+    "en": "on the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20654": {
+  "en": "The sign shown warns of a merge on the left side of the carriageway.",
+  "explain": {
+   "short": "The slanted lane joins from the left: this is a merge on the left.",
+   "rule": "This sign warns that a road joins from the left, often with an acceleration lane. It stands on one-way carriageways with priority; the joining road has a give way sign.",
+   "trap": "'lato sinistro' (left side) is right for this drawing.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Merge from the left ahead",
+    "it": "confluenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "confluenza",
+    "en": "merge"
+   },
+   {
+    "it": "lato sinistro",
+    "en": "left side"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20655": {
+  "en": "The sign shown is found on one-way carriageways.",
+  "explain": {
+   "short": "Traffic can only join from the left safely when everyone goes the same way, so it is used on one-way carriageways.",
+   "rule": "This sign warns that a road joins from the left, often with an acceleration lane. It stands on one-way carriageways with priority; the joining road has a give way sign.",
+   "trap": "'senso unico' (one-way) is right: on a two-way road the left side is for oncoming traffic.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Used on one-way carriageways, like motorways",
+    "it": "confluenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "carreggiate a senso unico",
+    "en": "one-way carriageways"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20656": {
+  "en": "The sign shown asks you to be careful because other vehicles may join the traffic.",
+  "explain": {
+   "short": "Vehicles are coming in from the left, so you must be careful.",
+   "rule": "This sign warns that a road joins from the left, often with an acceleration lane. It stands on one-way carriageways with priority; the joining road has a give way sign.",
+   "trap": "'prudenza' (care) is right: other vehicles enter your traffic.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cars may join from the left: be careful",
+    "it": "confluenza",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "usare prudenza",
+    "en": "be careful"
+   },
+   {
+    "it": "immettersi",
+    "en": "join"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20657": {
+  "en": "The sign shown is used on roads with priority.",
+  "explain": {
+   "short": "It stands on the main road, whose drivers keep priority over the joining vehicles.",
+   "rule": "This sign warns that a road joins from the left, often with an acceleration lane. It stands on one-way carriageways with priority; the joining road has a give way sign.",
+   "trap": "'strade con diritto di precedenza' (roads with priority) is right: the joining road has give way.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "On the main road: you keep priority",
+    "it": "confluenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade con diritto di precedenza",
+    "en": "roads with priority"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20658": {
+  "en": "The sign shown means there is a GIVE WAY sign on the side road that joins.",
+  "explain": {
+   "short": "The joining road has no priority, so it has a give way sign.",
+   "rule": "This sign warns that a road joins from the left, often with an acceleration lane. It stands on one-way carriageways with priority; the joining road has a give way sign.",
+   "trap": "'strada di immissione laterale' (joining side road) is the other road: there you find DARE PRECEDENZA.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The joining road has a give way sign",
+    "it": "confluenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "DARE PRECEDENZA",
+    "en": "GIVE WAY"
+   },
+   {
+    "it": "strada di immissione laterale",
+    "en": "joining side road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20659": {
+  "en": "The sign shown is placed no more than 25 metres from the junction.",
+  "explain": {
+   "short": "Like danger signs, it stands well before the merge, about 150 m outside towns.",
+   "rule": "This sign warns that a road joins from the left, often with an acceleration lane. It stands on one-way carriageways with priority; the joining road has a give way sign.",
+   "trap": "'25 metri' is the distance for a give way sign, not for this triangle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: about 150 m before, not 25 m",
+    "it": "confluenza",
+    "action": "slow",
+    "hazard": "⚠️",
+    "distance": "150 m"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non più di 25 metri",
+    "en": "no more than 25 metres"
+   },
+   {
+    "it": "incrocio",
+    "en": "junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20660": {
+  "en": "The sign shown requires you to give way to vehicles coming from the left.",
+  "explain": {
+   "short": "It is the opposite: you keep priority, and the vehicles joining from the left give way.",
+   "rule": "This sign warns that a road joins from the left, often with an acceleration lane. It stands on one-way carriageways with priority; the joining road has a give way sign.",
+   "trap": "'prescrive di dare la precedenza' (requires giving way) is wrong for the main road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: you keep priority, they give way",
+    "it": "confluenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "provenienti da sinistra",
+    "en": "coming from the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20661": {
+  "en": "The sign shown warns that you do not have priority at the merge.",
+  "explain": {
+   "short": "You do have priority: the sign is on the main road, and joining vehicles give way.",
+   "rule": "This sign warns that a road joins from the left, often with an acceleration lane. It stands on one-way carriageways with priority; the joining road has a give way sign.",
+   "trap": "'non si ha diritto di precedenza' (you have no priority) is the opposite of the truth.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: at this merge you HAVE priority",
+    "it": "confluenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non si ha diritto di precedenza",
+    "en": "you do not have priority"
+   },
+   {
+    "it": "confluenza",
+    "en": "merge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20662": {
+  "en": "The sign shown comes before the GIVE WAY sign.",
+  "explain": {
+   "short": "It is on the main road with priority; the give way sign is on the joining road.",
+   "rule": "This sign warns that a road joins from the left, often with an acceleration lane. It stands on one-way carriageways with priority; the joining road has a give way sign.",
+   "trap": "'precede' (comes before) is wrong: drivers who see it do not meet a give way sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it does not announce a give way sign",
+    "it": "confluenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "precede",
+    "en": "comes before"
+   },
+   {
+    "it": "DARE PRECEDENZA",
+    "en": "GIVE WAY"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20663": {
+  "en": "On motorways, the sign shown comes before the compulsory left turn sign.",
+  "explain": {
+   "short": "It warns that vehicles join from the left; it does not announce any compulsory turn.",
+   "rule": "This sign warns that a road joins from the left, often with an acceleration lane. It stands on one-way carriageways with priority; the joining road has a give way sign.",
+   "trap": "'obbligo di svolta a sinistra' (compulsory left turn) has nothing to do with a merge.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: cars join from the left, no turn",
+    "it": "confluenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "autostrade",
+    "en": "motorways"
+   },
+   {
+    "it": "obbligo di svolta a sinistra",
+    "en": "compulsory left turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20664": {
+  "en": "The sign shown allows turning left at the next junction.",
+  "explain": {
+   "short": "The sign warns that others join from the left; it says nothing about you turning left.",
+   "rule": "This sign warns that a road joins from the left, often with an acceleration lane. It stands on one-way carriageways with priority; the joining road has a give way sign.",
+   "trap": "'consente la svolta a sinistra' (allows turning left) is invented.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: cars join from the left, no turn",
+    "it": "confluenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente",
+    "en": "allows"
+   },
+   {
+    "it": "svolta a sinistra",
+    "en": "left turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20665": {
+  "en": "The sign shown marks the start of a road where vehicles have priority.",
+  "explain": {
+   "short": "The yellow diamond means: from here this road has priority at junctions.",
+   "rule": "This is the priority road sign: on this road you have priority at junctions. Side roads have give way or STOP, but you still give way to emergency vehicles and stay careful.",
+   "trap": "'inizio' (start) is right: the end has a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Priority road starts: you go first",
+    "it": "diritto di precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "inizio",
+    "en": "start"
+   },
+   {
+    "it": "diritto di precedenza",
+    "en": "priority"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20666": {
+  "en": "The sign shown can be placed on a state road.",
+  "explain": {
+   "short": "Any road can be a priority road, and state roads often are.",
+   "rule": "This is the priority road sign: on this road you have priority at junctions. Side roads have give way or STOP, but you still give way to emergency vehicles and stay careful.",
+   "trap": "'può' (can) is right: a strada statale (state road) can have this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Can be on a state road",
+    "it": "diritto di precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "può essere posto",
+    "en": "can be placed"
+   },
+   {
+    "it": "strada statale",
+    "en": "state road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20667": {
+  "en": "With the sign shown you must still give way to vehicles using a blue flashing light and siren.",
+  "explain": {
+   "short": "Emergency vehicles with blue light and siren always go first, even on a priority road.",
+   "rule": "This is the priority road sign: on this road you have priority at junctions. Side roads have give way or STOP, but you still give way to emergency vehicles and stay careful.",
+   "trap": "'comunque' (anyway) is the key: your priority does not beat an emergency vehicle.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Emergency vehicles go first anyway",
+    "it": "diritto di precedenza",
+    "action": "giveWay"
+   }
+  },
+  "keywords": [
+   {
+    "it": "comunque",
+    "en": "anyway"
+   },
+   {
+    "it": "lampeggiante blu",
+    "en": "blue flashing light"
+   },
+   {
+    "it": "sirena",
+    "en": "siren"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20668": {
+  "en": "The sign shown is a priority sign.",
+  "explain": {
+   "short": "It tells you that you have priority at the next junctions, so it is a priority sign.",
+   "rule": "This is the priority road sign: on this road you have priority at junctions. Side roads have give way or STOP, but you still give way to emergency vehicles and stay careful.",
+   "trap": "'segnale di precedenza' (priority sign) is its official group.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A priority sign: you go first",
+    "it": "diritto di precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di precedenza",
+    "en": "priority sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20669": {
+  "en": "With the sign shown you must still make sure that vehicles from side roads give way.",
+  "explain": {
+   "short": "You have priority, but someone may not stop: check the side roads before crossing.",
+   "rule": "This is the priority road sign: on this road you have priority at junctions. Side roads have give way or STOP, but you still give way to emergency vehicles and stay careful.",
+   "trap": "'comunque assicurarsi' (still make sure) is the key: priority is not a guarantee.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Priority, but check the side roads",
+    "it": "diritto di precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "comunque",
+    "en": "anyway"
+   },
+   {
+    "it": "assicurarsi",
+    "en": "make sure"
+   },
+   {
+    "it": "strade laterali",
+    "en": "side roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20670": {
+  "en": "The sign shown is a prescription sign.",
+  "explain": {
+   "short": "In Italian law, priority signs belong to the prescription signs (segnali di prescrizione), together with bans and obligations.",
+   "rule": "This is the priority road sign: on this road you have priority at junctions. Side roads have give way or STOP, but you still give way to emergency vehicles and stay careful.",
+   "trap": "'segnale di prescrizione' (prescription sign) is right: the big group includes priority signs.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Priority signs are prescription signs",
+    "it": "diritto di precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di prescrizione",
+    "en": "prescription sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20671": {
+  "en": "The sign shown makes you stop at the junction.",
+  "explain": {
+   "short": "It is the opposite: you have priority. The STOP sign is for the side roads.",
+   "rule": "This is the priority road sign: on this road you have priority at junctions. Side roads have give way or STOP, but you still give way to emergency vehicles and stay careful.",
+   "trap": "'obbliga ad arrestarsi' (makes you stop) describes STOP, an octagon, not this diamond.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: you do not stop, you have priority",
+    "it": "diritto di precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga ad arrestarsi",
+    "en": "makes you stop"
+   },
+   {
+    "it": "incrocio",
+    "en": "junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20672": {
+  "en": "The sign shown can be placed to protect dangerous pedestrian crossings.",
+  "explain": {
+   "short": "The sign is about junctions between roads, not pedestrian crossings.",
+   "rule": "This is the priority road sign: on this road you have priority at junctions. Side roads have give way or STOP, but you still give way to emergency vehicles and stay careful.",
+   "trap": "'attraversamenti pedonali' (pedestrian crossings) have their own signs.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: about junctions, not pedestrian crossings",
+    "it": "diritto di precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "attraversamenti pedonali",
+    "en": "pedestrian crossings"
+   },
+   {
+    "it": "a protezione",
+    "en": "to protect"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20673": {
+  "en": "The sign shown is placed only on busy rural roads.",
+  "explain": {
+   "short": "It can be on any priority road, in town or out of town.",
+   "rule": "This is the priority road sign: on this road you have priority at junctions. Side roads have give way or STOP, but you still give way to emergency vehicles and stay careful.",
+   "trap": "'esclusivamente' (only) is the trap: the sign is not limited to rural roads.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: in town or out of town",
+    "it": "diritto di precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "esclusivamente",
+    "en": "only"
+   },
+   {
+    "it": "strade extraurbane",
+    "en": "rural roads"
+   },
+   {
+    "it": "intenso traffico",
+    "en": "heavy traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20674": {
+  "en": "The sign shown warns of a junction where you have priority only over vehicles from the right.",
+  "explain": {
+   "short": "On a priority road you have priority over vehicles from both sides, right and left.",
+   "rule": "This is the priority road sign: on this road you have priority at junctions. Side roads have give way or STOP, but you still give way to emergency vehicles and stay careful.",
+   "trap": "'soli' (only) is the trap: priority is over everyone from side roads.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: priority over both sides",
+    "it": "diritto di precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "soli",
+    "en": "only"
+   },
+   {
+    "it": "provenienti da destra",
+    "en": "coming from the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20675": {
+  "en": "The sign shown warns of lanes reserved for public buses.",
+  "explain": {
+   "short": "The yellow diamond means priority road; bus lanes have a different sign.",
+   "rule": "This is the priority road sign: on this road you have priority at junctions. Side roads have give way or STOP, but you still give way to emergency vehicles and stay careful.",
+   "trap": "'corsie riservate agli autobus' (bus lanes) is a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: priority road, not bus lanes",
+    "it": "diritto di precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsie riservate",
+    "en": "reserved lanes"
+   },
+   {
+    "it": "autobus",
+    "en": "buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20676": {
+  "en": "The sign shown warns of the start of roadworks.",
+  "explain": {
+   "short": "The yellow diamond means priority road; roadworks have a red triangle with a worker.",
+   "rule": "This is the priority road sign: on this road you have priority at junctions. Side roads have give way or STOP, but you still give way to emergency vehicles and stay careful.",
+   "trap": "'cantiere stradale' (roadworks) has its own danger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: priority road, not roadworks",
+    "it": "diritto di precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "inizio",
+    "en": "start"
+   },
+   {
+    "it": "cantiere stradale",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20677": {
+  "en": "The sign shown can be found at the start of an urban or rural road that has priority.",
+  "explain": {
+   "short": "The priority road sign can be used in towns and outside towns, at the start of the road.",
+   "rule": "The priority road sign stands at the start of a priority road, urban or not, and can be repeated small before and after junctions. Side roads have give way or STOP; still slow down near junctions.",
+   "trap": "'urbana o extraurbana' (urban or rural) is right: both are possible.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Start of a priority road, in or out of town",
+    "it": "diritto di precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'inizio",
+    "en": "at the start"
+   },
+   {
+    "it": "urbana o extraurbana",
+    "en": "urban or rural"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20678": {
+  "en": "The sign shown can be repeated in small size before and after each junction.",
+  "explain": {
+   "short": "Small copies remind you along the road that you still have priority.",
+   "rule": "The priority road sign stands at the start of a priority road, urban or not, and can be repeated small before and after junctions. Side roads have give way or STOP; still slow down near junctions.",
+   "trap": "'formato piccolo' (small size) is right: repeats are smaller.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Small repeats remind you of priority",
+    "it": "diritto di precedenza",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ripetuto",
+    "en": "repeated"
+   },
+   {
+    "it": "formato piccolo",
+    "en": "small size"
+   },
+   {
+    "it": "ogni incrocio",
+    "en": "each junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20679": {
+  "en": "The sign in figure (A) can be repeated in small size and combined with the panel in figure (B).",
+  "explain": {
+   "short": "Panel B shows the shape of the junction, with the main road drawn thick; it can go under the small repeat of sign A.",
+   "rule": "The priority road sign stands at the start of a priority road, urban or not, and can be repeated small before and after junctions. Side roads have give way or STOP; still slow down near junctions.",
+   "trap": "'integrato con il pannello' (combined with the panel) is right: the panel shows the junction layout.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Small repeat + panel showing the junction",
+    "it": "diritto di precedenza",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "formato piccolo",
+    "en": "small size"
+   },
+   {
+    "it": "pannello",
+    "en": "panel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20680": {
+  "en": "The sign shown means the roads that cross it have a GIVE WAY or STOP sign.",
+  "explain": {
+   "short": "If your road has priority, the crossing roads must have give way or STOP.",
+   "rule": "The priority road sign stands at the start of a priority road, urban or not, and can be repeated small before and after junctions. Side roads have give way or STOP; still slow down near junctions.",
+   "trap": "'DARE PRECEDENZA o STOP' is right: one of the two is on each side road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Side roads have give way or STOP",
+    "it": "diritto di precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade che si incrociano",
+    "en": "roads that cross"
+   },
+   {
+    "it": "DARE PRECEDENZA o STOP",
+    "en": "GIVE WAY or STOP"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20681": {
+  "en": "With the sign shown you must still moderate your speed near junctions.",
+  "explain": {
+   "short": "Having priority does not mean speeding: near junctions you slow down in case someone does not stop.",
+   "rule": "The priority road sign stands at the start of a priority road, urban or not, and can be repeated small before and after junctions. Side roads have give way or STOP; still slow down near junctions.",
+   "trap": "'comunque' (anyway) is the key: priority does not remove care.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Priority, but slow down near junctions",
+    "it": "diritto di precedenza",
+    "action": "slow",
+    "hazard": "🔀"
+   }
+  },
+  "keywords": [
+   {
+    "it": "comunque",
+    "en": "anyway"
+   },
+   {
+    "it": "moderare la velocità",
+    "en": "moderate your speed"
+   },
+   {
+    "it": "incroci",
+    "en": "junctions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20682": {
+  "en": "The sign shown is found at the start of a road without priority.",
+  "explain": {
+   "short": "It is the opposite: it is at the start of a road WITH priority.",
+   "rule": "The priority road sign stands at the start of a priority road, urban or not, and can be repeated small before and after junctions. Side roads have give way or STOP; still slow down near junctions.",
+   "trap": "'senza' (without) turns the meaning upside down.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it starts a road WITH priority",
+    "it": "diritto di precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "senza diritto di precedenza",
+    "en": "without priority"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20683": {
+  "en": "The sign shown is found at the start of a motorway.",
+  "explain": {
+   "short": "Motorways have their own green start sign; this diamond is for ordinary priority roads.",
+   "rule": "The priority road sign stands at the start of a priority road, urban or not, and can be repeated small before and after junctions. Side roads have give way or STOP; still slow down near junctions.",
+   "trap": "'autostrada' (motorway) is wrong: its start has a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: not the motorway start sign",
+    "it": "diritto di precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'inizio",
+    "en": "at the start"
+   },
+   {
+    "it": "autostrada",
+    "en": "motorway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20684": {
+  "en": "The sign shown is found only at the start of a state road.",
+  "explain": {
+   "short": "It can be on any road with priority, not only state roads.",
+   "rule": "The priority road sign stands at the start of a priority road, urban or not, and can be repeated small before and after junctions. Side roads have give way or STOP; still slow down near junctions.",
+   "trap": "'esclusivamente' (only) is the trap.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: on any priority road, not only state roads",
+    "it": "diritto di precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "esclusivamente",
+    "en": "only"
+   },
+   {
+    "it": "strada statale",
+    "en": "state road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20685": {
+  "en": "With the sign shown no special care is needed because you have priority.",
+  "explain": {
+   "short": "Priority never removes care: other drivers can make mistakes at junctions.",
+   "rule": "The priority road sign stands at the start of a priority road, urban or not, and can be repeated small before and after junctions. Side roads have give way or STOP; still slow down near junctions.",
+   "trap": "'non occorrono particolari cautele' (no special care needed) is always a false idea.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: priority still needs care",
+    "it": "diritto di precedenza",
+    "action": "slow",
+    "hazard": "🔀"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non occorrono particolari cautele",
+    "en": "no special care is needed"
+   },
+   {
+    "it": "si ha la precedenza",
+    "en": "you have priority"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20686": {
+  "en": "The sign shown is found at the end of a road with priority.",
+  "explain": {
+   "short": "It is at the START; the end has a different sign, the same diamond crossed by a black bar.",
+   "rule": "The priority road sign stands at the start of a priority road, urban or not, and can be repeated small before and after junctions. Side roads have give way or STOP; still slow down near junctions.",
+   "trap": "'alla fine' (at the end) is wrong: this is the start sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it is the START sign",
+    "it": "diritto di precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "alla fine",
+    "en": "at the end"
+   },
+   {
+    "it": "diritto di precedenza",
+    "en": "priority"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20687": {
+  "en": "The sign shown is found at the end of a state road.",
+  "explain": {
+   "short": "It marks the start of a priority road; it says nothing about where a state road ends.",
+   "rule": "The priority road sign stands at the start of a priority road, urban or not, and can be repeated small before and after junctions. Side roads have give way or STOP; still slow down near junctions.",
+   "trap": "'fine di una strada statale' (end of a state road) is unrelated.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: start of a priority road",
+    "it": "diritto di precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "alla fine",
+    "en": "at the end"
+   },
+   {
+    "it": "strada statale",
+    "en": "state road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20688": {
+  "en": "The sign shown means you have priority until the exit of the built-up area.",
+  "explain": {
+   "short": "Priority lasts until the end-of-priority sign, not until you leave the town.",
+   "rule": "The priority road sign stands at the start of a priority road, urban or not, and can be repeated small before and after junctions. Side roads have give way or STOP; still slow down near junctions.",
+   "trap": "'fino all'uscita del centro abitato' (until the town exit) is invented.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: priority lasts until the end sign",
+    "it": "diritto di precedenza",
+    "action": "priority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fino all'uscita",
+    "en": "until the exit"
+   },
+   {
+    "it": "centro abitato",
+    "en": "built-up area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20689": {
+  "en": "With the sign shown we must make sure that vehicles from the opposite direction give way to us.",
+  "explain": {
+   "short": "You have priority, but before entering the narrow passage you check that oncoming drivers really stop.",
+   "rule": "This sign means you have priority over oncoming traffic in a narrow passage where only one direction passes at a time. Before entering, make sure oncoming drivers really let you pass, and go carefully.",
+   "trap": "'accertarci' (make sure) is the key: priority must be checked.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "You go first, after checking they wait",
+    "it": "senso unico alternato",
+    "action": "narrowPriority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "accertarci",
+    "en": "make sure"
+   },
+   {
+    "it": "senso contrario",
+    "en": "opposite direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20690": {
+  "en": "With the sign shown we can go through the narrow passage after making sure we have been given priority.",
+  "explain": {
+   "short": "The white arrow (your direction) is bigger: you may pass first, once oncoming drivers let you.",
+   "rule": "This sign means you have priority over oncoming traffic in a narrow passage where only one direction passes at a time. Before entering, make sure oncoming drivers really let you pass, and go carefully.",
+   "trap": "'dopo esserci assicurati' (after making sure) is the correct order.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Go through after they let you pass",
+    "it": "senso unico alternato",
+    "action": "narrowPriority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strettoia",
+    "en": "narrow passage"
+   },
+   {
+    "it": "dopo esserci assicurati",
+    "en": "after making sure"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20691": {
+  "en": "With the sign shown we must go carefully, even if we have priority.",
+  "explain": {
+   "short": "In a narrow passage, care is needed even with priority.",
+   "rule": "This sign means you have priority over oncoming traffic in a narrow passage where only one direction passes at a time. Before entering, make sure oncoming drivers really let you pass, and go carefully.",
+   "trap": "'anche se abbiamo la precedenza' (even if we have priority) is right: care stays.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Priority, but go carefully",
+    "it": "senso unico alternato",
+    "action": "narrowPriority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cautela",
+    "en": "care"
+   },
+   {
+    "it": "anche se",
+    "en": "even if"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20692": {
+  "en": "With the sign shown you can go through the narrow passage after making sure that vehicles coming from the front have given you priority.",
+  "explain": {
+   "short": "You have priority over oncoming traffic, but you pass only after seeing that they wait.",
+   "rule": "This sign means you have priority over oncoming traffic in a narrow passage where only one direction passes at a time. Before entering, make sure oncoming drivers really let you pass, and go carefully.",
+   "trap": "'accertandosi' (making sure) is the key.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Pass after oncoming cars give way",
+    "it": "senso unico alternato",
+    "action": "narrowPriority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strettoia",
+    "en": "narrow passage"
+   },
+   {
+    "it": "accertandosi",
+    "en": "making sure"
+   },
+   {
+    "it": "provenienti di fronte",
+    "en": "coming from the front"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20693": {
+  "en": "With the sign shown you must give way to vehicles coming from the opposite direction.",
+  "explain": {
+   "short": "It is the opposite: the big white arrow is yours, so YOU have priority.",
+   "rule": "This sign means you have priority over oncoming traffic in a narrow passage where only one direction passes at a time. Before entering, make sure oncoming drivers really let you pass, and go carefully.",
+   "trap": "'si deve dare la precedenza' (you must give way) belongs to the other sign, the red circle with arrows.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: YOU have priority here",
+    "it": "senso unico alternato",
+    "action": "narrowPriority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "senso opposto",
+    "en": "opposite direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20694": {
+  "en": "With the sign shown we can go without care, since we have priority.",
+  "explain": {
+   "short": "Priority never removes care; you must check that oncoming drivers really wait.",
+   "rule": "This sign means you have priority over oncoming traffic in a narrow passage where only one direction passes at a time. Before entering, make sure oncoming drivers really let you pass, and go carefully.",
+   "trap": "'senza cautela' (without care) is always wrong.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: priority still needs care",
+    "it": "senso unico alternato",
+    "action": "narrowPriority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "senza cautela",
+    "en": "without care"
+   },
+   {
+    "it": "diritto di precedenza",
+    "en": "priority"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20695": {
+  "en": "With the sign shown there are no special duties because we are on a one-way road.",
+  "explain": {
+   "short": "Traffic comes from the front too (red arrow), one direction at a time; you must check and be careful.",
+   "rule": "This sign means you have priority over oncoming traffic in a narrow passage where only one direction passes at a time. Before entering, make sure oncoming drivers really let you pass, and go carefully.",
+   "trap": "'senso unico' (one-way) is wrong: the red arrow shows oncoming traffic.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: oncoming traffic exists, one at a time",
+    "it": "senso unico alternato",
+    "action": "narrowPriority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non vi sono particolari obblighi",
+    "en": "there are no special duties"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20696": {
+  "en": "With the sign shown two-way traffic begins.",
+  "explain": {
+   "short": "The sign is about who goes first in a narrow passage, not about the start of two-way traffic.",
+   "rule": "This sign means you have priority over oncoming traffic in a narrow passage where only one direction passes at a time. Before entering, make sure oncoming drivers really let you pass, and go carefully.",
+   "trap": "'inizia il doppio senso' (two-way starts) is a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: it gives priority in a narrow passage",
+    "it": "senso unico alternato",
+    "action": "narrowPriority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "inizia",
+    "en": "begins"
+   },
+   {
+    "it": "doppio senso di circolazione",
+    "en": "two-way traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20697": {
+  "en": "With the sign shown you must be careful in the narrow passage because traffic runs in both directions.",
+  "explain": {
+   "short": "In the narrow passage traffic is alternating one-way (senso unico alternato): one direction at a time, not both together. Care is needed because of the priority rule.",
+   "rule": "This sign means you have priority over oncoming traffic in a narrow passage where only one direction passes at a time. Before entering, make sure oncoming drivers really let you pass, and go carefully.",
+   "trap": "'a doppio senso' (two-way) is the wrong reason: the passage is used one way at a time.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: one direction at a time, not two-way",
+    "it": "senso unico alternato",
+    "action": "narrowPriority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strettoia",
+    "en": "narrow passage"
+   },
+   {
+    "it": "a doppio senso",
+    "en": "two-way"
+   }
+  ],
+  "review": true,
+  "reviewNote": "Statement is partly true (care is needed, both directions use the passage); official answer FALSE hinges on 'doppio senso' vs 'senso unico alternato'."
+ },
+ "q20698": {
+  "en": "The sign shown warns of a ban on U-turns.",
+  "explain": {
+   "short": "The arrows show priority over oncoming traffic; a U-turn ban is a red circle.",
+   "rule": "This sign means you have priority over oncoming traffic in a narrow passage where only one direction passes at a time. Before entering, make sure oncoming drivers really let you pass, and go carefully.",
+   "trap": "'divieto d'inversione di marcia' (no U-turn) is a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: priority, not a U-turn ban",
+    "it": "senso unico alternato",
+    "action": "narrowPriority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto d'inversione di marcia",
+    "en": "ban on U-turns"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20699": {
+  "en": "The sign shown warns of a ban on turning.",
+  "explain": {
+   "short": "The arrows show priority over oncoming traffic; turning bans are red circles.",
+   "rule": "This sign means you have priority over oncoming traffic in a narrow passage where only one direction passes at a time. Before entering, make sure oncoming drivers really let you pass, and go carefully.",
+   "trap": "'divieto di svolta' (no turning) is a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: priority, not a turning ban",
+    "it": "senso unico alternato",
+    "action": "narrowPriority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto di svolta",
+    "en": "ban on turning"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20700": {
+  "en": "With the sign shown and a three-light traffic light, we have priority if the light is green.",
+  "explain": {
+   "short": "Green lets you go, and the sign gives you priority over oncoming traffic.",
+   "rule": "A traffic officer beats a traffic light, and a traffic light beats a sign. Green, light off or flashing yellow: this sign applies and you have priority. Red, or an officer telling you to stop: you stop.",
+   "trap": "'luce verde' (green light) agrees with the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green light: you go first",
+    "it": "semaforo",
+    "action": "narrowPriority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "semaforo a tre luci",
+    "en": "three-light traffic light"
+   },
+   {
+    "it": "luce verde",
+    "en": "green light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20701": {
+  "en": "With the sign shown and a three-light traffic light, we have priority if the light is off.",
+  "explain": {
+   "short": "When the light is off, the sign applies, and it gives you priority.",
+   "rule": "A traffic officer beats a traffic light, and a traffic light beats a sign. Green, light off or flashing yellow: this sign applies and you have priority. Red, or an officer telling you to stop: you stop.",
+   "trap": "'spento' (off) means the sign takes over.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Light off: the sign applies",
+    "it": "semaforo",
+    "action": "narrowPriority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "semaforo",
+    "en": "traffic light"
+   },
+   {
+    "it": "spento",
+    "en": "off"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20702": {
+  "en": "With the sign shown and a three-light traffic light, we have priority if the light is red but the traffic officer tells us to go.",
+  "explain": {
+   "short": "The officer's order beats both the light and the sign, so you may go.",
+   "rule": "A traffic officer beats a traffic light, and a traffic light beats a sign. Green, light off or flashing yellow: this sign applies and you have priority. Red, or an officer telling you to stop: you stop.",
+   "trap": "'l'agente ... ci ordina di passare' (the officer tells us to go) wins over 'rossa' (red).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The officer beats the red light",
+    "it": "semaforo",
+    "action": "narrowPriority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce rossa",
+    "en": "red light"
+   },
+   {
+    "it": "agente del traffico",
+    "en": "traffic officer"
+   },
+   {
+    "it": "ordina di passare",
+    "en": "tells to go"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20703": {
+  "en": "With the sign shown and a three-light traffic light, we must give way if the light is off and the traffic officer tells us to stop.",
+  "explain": {
+   "short": "The officer's order beats the sign: if told to stop, you stop and let others go.",
+   "rule": "A traffic officer beats a traffic light, and a traffic light beats a sign. Green, light off or flashing yellow: this sign applies and you have priority. Red, or an officer telling you to stop: you stop.",
+   "trap": "'l'agente ... ci ordina di fermarci' (the officer tells us to stop) wins over the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Officer says stop: you stop",
+    "it": "semaforo",
+    "action": "narrowPriority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "dobbiamo dare la precedenza",
+    "en": "we must give way"
+   },
+   {
+    "it": "spento",
+    "en": "off"
+   },
+   {
+    "it": "ordina di fermarci",
+    "en": "tells us to stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20704": {
+  "en": "With the sign shown and a three-light traffic light, we have priority if the light is flashing yellow.",
+  "explain": {
+   "short": "Flashing yellow does not regulate traffic, so the sign applies and gives you priority.",
+   "rule": "A traffic officer beats a traffic light, and a traffic light beats a sign. Green, light off or flashing yellow: this sign applies and you have priority. Red, or an officer telling you to stop: you stop.",
+   "trap": "'gialla lampeggiante' (flashing yellow) means care, and the sign decides.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Flashing yellow: the sign applies",
+    "it": "semaforo",
+    "action": "narrowPriority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce gialla lampeggiante",
+    "en": "flashing yellow light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20705": {
+  "en": "With the sign shown and a three-light traffic light, we have priority even if the light is red.",
+  "explain": {
+   "short": "The traffic light beats the sign: on red you must stop.",
+   "rule": "A traffic officer beats a traffic light, and a traffic light beats a sign. Green, light off or flashing yellow: this sign applies and you have priority. Red, or an officer telling you to stop: you stop.",
+   "trap": "'anche se ... rossa' (even if red) is wrong: red always means stop.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: on red you stop, the light beats the sign",
+    "it": "semaforo",
+    "action": "narrowPriority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "anche se",
+    "en": "even if"
+   },
+   {
+    "it": "luce rossa",
+    "en": "red light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20706": {
+  "en": "With the sign shown and a three-light traffic light, we must give way if the light is flashing yellow.",
+  "explain": {
+   "short": "With flashing yellow the sign applies, and it gives YOU priority.",
+   "rule": "A traffic officer beats a traffic light, and a traffic light beats a sign. Green, light off or flashing yellow: this sign applies and you have priority. Red, or an officer telling you to stop: you stop.",
+   "trap": "'dobbiamo dare la precedenza' (we must give way) is the opposite of the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: flashing yellow, the sign gives you priority",
+    "it": "semaforo",
+    "action": "narrowPriority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "dobbiamo dare la precedenza",
+    "en": "we must give way"
+   },
+   {
+    "it": "lampeggiante gialla",
+    "en": "flashing yellow"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20707": {
+  "en": "With the sign shown and a three-light traffic light, we have priority if the light is green and the traffic officer tells us to stop.",
+  "explain": {
+   "short": "The officer's order beats the green light: if told to stop, you stop.",
+   "rule": "A traffic officer beats a traffic light, and a traffic light beats a sign. Green, light off or flashing yellow: this sign applies and you have priority. Red, or an officer telling you to stop: you stop.",
+   "trap": "'l'agente ... ci ordina di fermarci' (the officer tells us to stop) wins over green.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: the officer beats the green light",
+    "it": "semaforo",
+    "action": "narrowPriority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce verde",
+    "en": "green light"
+   },
+   {
+    "it": "ordina di fermarci",
+    "en": "tells us to stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20708": {
+  "en": "With the sign shown and a three-light traffic light, we have priority if the light is off and the traffic officer tells us to stop.",
+  "explain": {
+   "short": "The officer's order beats the sign: if told to stop, you stop.",
+   "rule": "A traffic officer beats a traffic light, and a traffic light beats a sign. Green, light off or flashing yellow: this sign applies and you have priority. Red, or an officer telling you to stop: you stop.",
+   "trap": "'l'agente ... ci ordina di fermarci' (the officer tells us to stop) wins over the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wrong: the officer beats the sign",
+    "it": "semaforo",
+    "action": "narrowPriority"
+   }
+  },
+  "keywords": [
+   {
+    "it": "spento",
+    "en": "off"
+   },
+   {
+    "it": "ordina di fermarci",
+    "en": "tells us to stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

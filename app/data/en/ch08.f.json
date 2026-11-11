@@ -1,0 +1,2048 @@
+{
+ "q21598": {
+  "en": "The sign shown indicates a device to use when you need to ask for road assistance.",
+  "explain": {
+   "short": "SOS marks a call box: you use it to ask for road help.",
+   "rule": "Red square with 'SOS' = a call box to ask for road assistance (soccorso stradale). It is placed on the call box itself.",
+   "trap": "'richiesta di soccorso stradale' (asking for road help) is exactly what SOS is for.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "SOS: call box for road assistance",
+    "it": "soccorso stradale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "dispositivo",
+    "en": "device"
+   },
+   {
+    "it": "richiesta di soccorso stradale",
+    "en": "request for road assistance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21599": {
+  "en": "The sign shown is placed on a call device for road assistance.",
+  "explain": {
+   "short": "The SOS sign is fixed on the call box itself, so you can find it quickly.",
+   "rule": "Red square with 'SOS' = a call box to ask for road assistance (soccorso stradale). It is placed on the call box itself.",
+   "trap": "'è posto su' (is placed on) is right: the sign sits on the call device.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "SOS sign sits on the call box",
+    "it": "soccorso stradale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "dispositivo di chiamata",
+    "en": "call device"
+   },
+   {
+    "it": "assistenza stradale",
+    "en": "road assistance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21600": {
+  "en": "The sign shown indicates an apparatus to call road assistance.",
+  "explain": {
+   "short": "SOS = a box you use to call road assistance in an emergency.",
+   "rule": "Red square with 'SOS' = a call box to ask for road assistance (soccorso stradale). It is placed on the call box itself.",
+   "trap": "'apparecchio' (apparatus) is just another word for the call device.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "SOS: apparatus to call road help",
+    "it": "soccorso stradale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "apparecchio",
+    "en": "apparatus, device"
+   },
+   {
+    "it": "chiamare il soccorso stradale",
+    "en": "call road assistance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21601": {
+  "en": "The sign shown indicates a hospital zone.",
+  "explain": {
+   "short": "SOS marks a call box for road help, not a hospital. The hospital sign is a blue square with a white H.",
+   "rule": "Red square with 'SOS' = a call box to ask for road assistance (soccorso stradale). It is placed on the call box itself.",
+   "trap": "'zona ospedaliera' (hospital zone) is a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "SOS = call box, not a hospital zone",
+    "it": "soccorso stradale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "zona ospedaliera",
+    "en": "hospital zone"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21602": {
+  "en": "The sign shown indicates a public telephone.",
+  "explain": {
+   "short": "SOS is only for calling road assistance, not an ordinary public phone.",
+   "rule": "Red square with 'SOS' = a call box to ask for road assistance (soccorso stradale). It is placed on the call box itself.",
+   "trap": "'telefono pubblico' (public phone) has its own sign; SOS is only for road help.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "SOS = road help, not a public phone",
+    "it": "soccorso stradale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "telefono pubblico",
+    "en": "public telephone"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21603": {
+  "en": "The sign shown indicates a parking area for ambulances.",
+  "explain": {
+   "short": "SOS marks a call box for road help, not a place where ambulances stop.",
+   "rule": "Red square with 'SOS' = a call box to ask for road assistance (soccorso stradale). It is placed on the call box itself.",
+   "trap": "'area di sosta per ambulanze' (ambulance parking) - nothing on the sign shows that.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "SOS = call box, not ambulance parking",
+    "it": "soccorso stradale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area di sosta",
+    "en": "parking area"
+   },
+   {
+    "it": "ambulanze",
+    "en": "ambulances"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21604": {
+  "en": "The sign shown gives advance warning of a state secondary school.",
+  "explain": {
+   "short": "SOS has nothing to do with schools: it marks a call box for road help.",
+   "rule": "Red square with 'SOS' = a call box to ask for road assistance (soccorso stradale). It is placed on the call box itself.",
+   "trap": "'scuola secondaria statale' (state secondary school) is pure invention.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "SOS = call box, not a school",
+    "it": "soccorso stradale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "gives advance warning of"
+   },
+   {
+    "it": "scuola secondaria statale",
+    "en": "state secondary school"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21605": {
+  "en": "The sign shown is placed at the start of a road with no way out for vehicles.",
+  "explain": {
+   "short": "The dead-end sign stands where the road begins, so you know before entering that you must come back.",
+   "rule": "Blue square, white T with a red top = dead-end road (strada senza uscita) for vehicles. It only informs; it bans nothing.",
+   "trap": "'all'inizio' (at the start) is right: you see it before you enter.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dead end: placed at the start of the road",
+    "it": "senza uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'inizio",
+    "en": "at the start"
+   },
+   {
+    "it": "strada senza uscita",
+    "en": "dead-end road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21606": {
+  "en": "The sign shown also applies to motorcycles.",
+  "explain": {
+   "short": "A dead end has no way out for any vehicle, motorcycles included.",
+   "rule": "Blue square, white T with a red top = dead-end road (strada senza uscita) for vehicles. It only informs; it bans nothing.",
+   "trap": "'anche' (also) is right: motorcycles are vehicles too.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dead end for motorcycles too",
+    "it": "senza uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vale anche",
+    "en": "also applies"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21607": {
+  "en": "The sign shown indicates a road with no outlet for vehicles.",
+  "explain": {
+   "short": "The red bar on top of the T shows the road is closed at the end: vehicles cannot get out.",
+   "rule": "Blue square, white T with a red top = dead-end road (strada senza uscita) for vehicles. It only informs; it bans nothing.",
+   "trap": "'senza sbocco' (no outlet) means the same as 'senza uscita' (no way out).",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dead-end road: no outlet for vehicles",
+    "it": "senza uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "senza sbocco",
+    "en": "with no outlet"
+   },
+   {
+    "it": "veicoli",
+    "en": "vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21608": {
+  "en": "The sign shown bans parking.",
+  "explain": {
+   "short": "It is an information sign: it only says the road has no way out. It bans nothing.",
+   "rule": "Blue square, white T with a red top = dead-end road (strada senza uscita) for vehicles. It only informs; it bans nothing.",
+   "trap": "'vieta la sosta' (bans parking) - a blue square never bans; no parking is a round red-and-blue sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dead end only informs: no parking ban",
+    "it": "senza uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta la sosta",
+    "en": "bans parking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21609": {
+  "en": "The sign shown gives advance warning of a T-shaped junction.",
+  "explain": {
+   "short": "The T shows a dead end. A T-junction warning is a red triangle danger sign.",
+   "rule": "Blue square, white T with a red top = dead-end road (strada senza uscita) for vehicles. It only informs; it bans nothing.",
+   "trap": "'incrocio a forma di T' (T-junction): the shape is a T, but the red top means a closed end.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a T-junction: it is a dead end",
+    "it": "senza uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "incrocio",
+    "en": "junction"
+   },
+   {
+    "it": "a forma di",
+    "en": "shaped like"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21610": {
+  "en": "The sign shown is placed near a tobacco shop.",
+  "explain": {
+   "short": "The white T is about the road, not about a tobacconist. It means dead end.",
+   "rule": "Blue square, white T with a red top = dead-end road (strada senza uscita) for vehicles. It only informs; it bans nothing.",
+   "trap": "'tabaccheria' (tobacco shop) - the T of a tobacconist is not a road sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "T = dead end, not a tobacco shop",
+    "it": "senza uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tabaccheria",
+    "en": "tobacco shop"
+   },
+   {
+    "it": "in vicinanza",
+    "en": "near"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21611": {
+  "en": "The sign shown indicates roadworks.",
+  "explain": {
+   "short": "The sign means dead end. Roadworks have a red triangle with a worker.",
+   "rule": "Blue square, white T with a red top = dead-end road (strada senza uscita) for vehicles. It only informs; it bans nothing.",
+   "trap": "'lavori in corso' (roadworks) is a danger sign, not this blue one.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dead end, not roadworks",
+    "it": "senza uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "lavori in corso",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21612": {
+  "en": "The sign shown bans U-turns.",
+  "explain": {
+   "short": "It bans nothing. In a dead end you actually have to turn around to come back.",
+   "rule": "Blue square, white T with a red top = dead-end road (strada senza uscita) for vehicles. It only informs; it bans nothing.",
+   "trap": "'vieta l'inversione di marcia' (bans U-turns) - the opposite is true: you must turn back.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dead end: no U-turn ban, you turn back",
+    "it": "senza uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "bans"
+   },
+   {
+    "it": "inversione di marcia",
+    "en": "U-turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21613": {
+  "en": "The sign shown also bans pedestrians from entering.",
+  "explain": {
+   "short": "It is not a ban, and the dead end is only for vehicles: pedestrians may often get through on foot.",
+   "rule": "Blue square, white T with a red top = dead-end road (strada senza uscita) for vehicles. It only informs; it bans nothing.",
+   "trap": "'vieta di entrare anche ai pedoni' (bans pedestrians too) - it bans nobody.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dead end for vehicles; pedestrians not banned",
+    "it": "senza uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta di entrare",
+    "en": "bans entry"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21614": {
+  "en": "The sign shown gives advance warning that the road on the right is a dead end for vehicles.",
+  "explain": {
+   "short": "The side branch on the right ends in red: that road has no way out for vehicles.",
+   "rule": "The red end on the right branch = the road on the right is a dead end for vehicles. Turning right and going straight are still allowed.",
+   "trap": "'la strada di destra' (the road on the right) is right: the red end is on the right branch.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road on the right is a dead end",
+    "it": "senza uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "gives advance warning"
+   },
+   {
+    "it": "strada di destra",
+    "en": "road on the right"
+   },
+   {
+    "it": "senza uscita",
+    "en": "dead end"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21615": {
+  "en": "The sign shown allows turning right.",
+  "explain": {
+   "short": "It is only information: you may turn right, you just know the road there has no way out.",
+   "rule": "The red end on the right branch = the road on the right is a dead end for vehicles. Turning right and going straight are still allowed.",
+   "trap": "'consente' (allows) is right: an information sign bans nothing.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right turn allowed: road is a dead end",
+    "it": "senza uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente",
+    "en": "allows"
+   },
+   {
+    "it": "svolta a destra",
+    "en": "right turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21616": {
+  "en": "The sign shown allows you to go straight on.",
+  "explain": {
+   "short": "The main road continues straight; only the side road on the right is closed.",
+   "rule": "The red end on the right branch = the road on the right is a dead end for vehicles. Turning right and going straight are still allowed.",
+   "trap": "'proseguire diritto' (go straight on) is allowed: the straight road is open.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Straight on is allowed",
+    "it": "senza uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente",
+    "en": "allows"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "go straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21617": {
+  "en": "The sign shown also applies to motorcycles.",
+  "explain": {
+   "short": "The road on the right is a dead end for every vehicle, motorcycles included.",
+   "rule": "The red end on the right branch = the road on the right is a dead end for vehicles. Turning right and going straight are still allowed.",
+   "trap": "'anche' (also) is right: motorcycles are vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dead end on the right: motorcycles too",
+    "it": "senza uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vale anche",
+    "en": "also applies"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21618": {
+  "en": "The sign shown belongs to the information signs.",
+  "explain": {
+   "short": "A blue square that only tells you about the road is an information sign (segnale di indicazione).",
+   "rule": "The red end on the right branch = the road on the right is a dead end for vehicles. Turning right and going straight are still allowed.",
+   "trap": "'segnali di indicazione' (information signs) is the right family: it informs, it does not order.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "An information sign",
+    "it": "senza uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fa parte",
+    "en": "belongs to"
+   },
+   {
+    "it": "segnali di indicazione",
+    "en": "information signs"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21619": {
+  "en": "The sign shown bans U-turns.",
+  "explain": {
+   "short": "It is an information sign: it bans nothing, U-turns included.",
+   "rule": "The red end on the right branch = the road on the right is a dead end for vehicles. Turning right and going straight are still allowed.",
+   "trap": "'vieta' (bans) - information signs do not ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No ban: it only warns of a dead end",
+    "it": "senza uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "bans"
+   },
+   {
+    "it": "inversione di marcia",
+    "en": "U-turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21620": {
+  "en": "The sign shown bans turning right.",
+  "explain": {
+   "short": "You may turn right: the sign only tells you that road has no way out.",
+   "rule": "The red end on the right branch = the road on the right is a dead end for vehicles. Turning right and going straight are still allowed.",
+   "trap": "'vieta la svolta a destra' (bans right turn) is a round red sign, not this one.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right turn allowed: only a dead end",
+    "it": "senza uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "bans"
+   },
+   {
+    "it": "svolta a destra",
+    "en": "right turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21621": {
+  "en": "The sign shown indicates a lay-by on the right.",
+  "explain": {
+   "short": "The red end shows a closed road, not a lay-by for stopping.",
+   "rule": "The red end on the right branch = the road on the right is a dead end for vehicles. Turning right and going straight are still allowed.",
+   "trap": "'piazzola di sosta' (lay-by) has its own sign with a P.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dead end on the right, not a lay-by",
+    "it": "senza uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "piazzola di sosta",
+    "en": "lay-by"
+   },
+   {
+    "it": "sulla destra",
+    "en": "on the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21622": {
+  "en": "The sign shown gives advance warning of a car park on the right.",
+  "explain": {
+   "short": "A car park sign has a white P on blue. This one shows a dead-end road on the right.",
+   "rule": "The red end on the right branch = the road on the right is a dead end for vehicles. Turning right and going straight are still allowed.",
+   "trap": "'area di parcheggio' (car park) - there is no P on this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dead end on the right, not a car park",
+    "it": "senza uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area di parcheggio",
+    "en": "car park"
+   },
+   {
+    "it": "sulla destra",
+    "en": "on the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21623": {
+  "en": "The sign shown also applies to pedestrians.",
+  "explain": {
+   "short": "The road on the right is a dead end for vehicles; pedestrians may often get through on foot.",
+   "rule": "The red end on the right branch = the road on the right is a dead end for vehicles. Turning right and going straight are still allowed.",
+   "trap": "'anche per i pedoni' (pedestrians too) - the sign is about vehicles only.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dead end for vehicles, not pedestrians",
+    "it": "senza uscita",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vale anche",
+    "en": "also applies"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21624": {
+  "en": "The sign shown indicates the speed you are advised not to exceed in ideal traffic conditions.",
+  "explain": {
+   "short": "A blue square with a number is an advised speed: good advice, not a legal limit.",
+   "rule": "Blue square with a number = advised speed (velocità consigliata). It is advice only; the legal limit of the road still applies.",
+   "trap": "'si consiglia' (it is advised) is the key: advice, not an order.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Advised speed: better not go over 60",
+    "it": "velocità consigliata",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "velocità",
+    "en": "speed"
+   },
+   {
+    "it": "si consiglia",
+    "en": "it is advised"
+   },
+   {
+    "it": "condizioni ottimali",
+    "en": "ideal conditions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21625": {
+  "en": "The sign shown allows you to travel at 50 km/h.",
+  "explain": {
+   "short": "50 is below the advised 60, so it is fine. Nothing forces you to go faster.",
+   "rule": "Blue square with a number = advised speed (velocità consigliata). It is advice only; the legal limit of the road still applies.",
+   "trap": "'consente' (allows) - going slower than the advised speed is always allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "50 km/h is fine: below the advised 60",
+    "it": "velocità consigliata",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente",
+    "en": "allows"
+   },
+   {
+    "it": "50 km/h",
+    "en": "50 km/h"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21626": {
+  "en": "The sign shown can be combined with a panel showing the length of the stretch of road where you are advised not to exceed the speed shown.",
+  "explain": {
+   "short": "A panel under the sign can tell you how long the stretch with the advised speed is.",
+   "rule": "Blue square with a number = advised speed (velocità consigliata). It is advice only; the legal limit of the road still applies.",
+   "trap": "'può essere abbinato' (can be combined) is right: a length panel is allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Panel can show length of the stretch",
+    "it": "velocità consigliata",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "abbinato",
+    "en": "combined"
+   },
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "lunghezza del tratto",
+    "en": "length of the stretch"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21627": {
+  "en": "The sign shown, if crossed by a red stripe, indicates the end of its validity.",
+  "explain": {
+   "short": "With a red diagonal bar, the same sign tells you the advised speed is over.",
+   "rule": "Blue square with a number = advised speed (velocità consigliata). It is advice only; the legal limit of the road still applies.",
+   "trap": "'barrato da una striscia rossa' (crossed by a red stripe) = end of the advice.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red bar = end of advised speed",
+    "it": "velocità consigliata",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "barrato",
+    "en": "crossed out"
+   },
+   {
+    "it": "striscia rossa",
+    "en": "red stripe"
+   },
+   {
+    "it": "fine della sua validità",
+    "en": "end of its validity"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21628": {
+  "en": "The sign shown allows you, on roads outside towns, to travel at 70 km/h.",
+  "explain": {
+   "short": "It is only advice. Outside towns the legal limit is 90 km/h, so 70 is allowed (keep it safe).",
+   "rule": "Blue square with a number = advised speed (velocità consigliata). It is advice only; the legal limit of the road still applies.",
+   "trap": "'consente' (allows) - an advised speed is not a limit, so going a bit faster is not illegal.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Advice only: 70 km/h legal outside towns",
+    "it": "velocità consigliata",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strade extraurbane",
+    "en": "roads outside towns"
+   },
+   {
+    "it": "70 km/h",
+    "en": "70 km/h"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21629": {
+  "en": "The sign shown bans vehicles weighing more than 60 tonnes fully loaded.",
+  "explain": {
+   "short": "The number is an advised speed in km/h, not a weight. Weight bans are round red signs with 't'.",
+   "rule": "Blue square with a number = advised speed (velocità consigliata). It is advice only; the legal limit of the road still applies.",
+   "trap": "'60 tonnellate' (60 tonnes) - there is no 't' and the sign is blue, not red.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "60 = advised km/h, not tonnes",
+    "it": "velocità consigliata",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans transit"
+   },
+   {
+    "it": "tonnellate",
+    "en": "tonnes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21630": {
+  "en": "The sign shown indicates a minimum speed limit.",
+  "explain": {
+   "short": "A minimum speed is a ROUND blue sign. This SQUARE blue sign is only an advised speed.",
+   "rule": "Blue square with a number = advised speed (velocità consigliata). It is advice only; the legal limit of the road still applies.",
+   "trap": "'limite minimo' (minimum limit) - square = advice, round = order.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Advised speed, not a minimum speed",
+    "it": "velocità consigliata",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "limite minimo",
+    "en": "minimum limit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21631": {
+  "en": "The sign shown bans exceeding the speed shown.",
+  "explain": {
+   "short": "It does not ban anything: it only advises. A speed ban is a round sign with a red border.",
+   "rule": "Blue square with a number = advised speed (velocità consigliata). It is advice only; the legal limit of the road still applies.",
+   "trap": "'vieta' (bans) - an advised speed never bans.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Advice only: no ban on going faster",
+    "it": "velocità consigliata",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "bans"
+   },
+   {
+    "it": "superare",
+    "en": "exceed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21632": {
+  "en": "The sign shown indicates the safety distance to keep from the vehicle in front.",
+  "explain": {
+   "short": "The number is a speed in km/h, not a distance in metres.",
+   "rule": "Blue square with a number = advised speed (velocità consigliata). It is advice only; the legal limit of the road still applies.",
+   "trap": "'distanza di sicurezza' (safety distance) - the sign shows an advised speed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Advised speed, not safety distance",
+    "it": "velocità consigliata",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "distanza di sicurezza",
+    "en": "safety distance"
+   },
+   {
+    "it": "veicolo che sta davanti",
+    "en": "vehicle in front"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21633": {
+  "en": "The sign shown indicates that you may not travel at a speed lower than the one shown.",
+  "explain": {
+   "short": "You may always go slower than an advised speed. A minimum speed is a round blue sign.",
+   "rule": "Blue square with a number = advised speed (velocità consigliata). It is advice only; the legal limit of the road still applies.",
+   "trap": "'non è possibile viaggiare ad una velocità più bassa' (cannot go slower) describes a minimum speed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Going slower is allowed",
+    "it": "velocità consigliata",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è possibile",
+    "en": "it is not possible"
+   },
+   {
+    "it": "velocità più bassa",
+    "en": "lower speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21634": {
+  "en": "The sign shown indicates the kilometres already travelled from the starting point of the road.",
+  "explain": {
+   "short": "Kilometre markers (cippi chilometrici) look different. This blue square is an advised speed.",
+   "rule": "Blue square with a number = advised speed (velocità consigliata). It is advice only; the legal limit of the road still applies.",
+   "trap": "'chilometri già fatti' (kilometres travelled) - the number is km/h, not km.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Advised speed, not a kilometre marker",
+    "it": "velocità consigliata",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "chilometri",
+    "en": "kilometres"
+   },
+   {
+    "it": "punto di origine",
+    "en": "starting point"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21635": {
+  "en": "The sign shown indicates a road reserved for motor vehicles only.",
+  "explain": {
+   "short": "The white car on blue marks a road where only vehicles with an engine may drive.",
+   "rule": "Blue square with a white car = road for motor vehicles only. No bicycles or other vehicles without an engine.",
+   "trap": "'soli veicoli a motore' (motor vehicles only) is exactly the meaning.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road for motor vehicles only",
+    "it": "veicoli a motore",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "riservata",
+    "en": "reserved"
+   },
+   {
+    "it": "veicoli a motore",
+    "en": "motor vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21636": {
+  "en": "The sign shown bans bicycles.",
+  "explain": {
+   "short": "A bicycle has no engine, so it may not use a road for motor vehicles only.",
+   "rule": "Blue square with a white car = road for motor vehicles only. No bicycles or other vehicles without an engine.",
+   "trap": "'vieta' (bans) - here it is right: bikes are not motor vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No bicycles: motor vehicles only",
+    "it": "veicoli a motore",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans transit"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21637": {
+  "en": "The sign shown is placed at the start of a road reserved for motor vehicles.",
+  "explain": {
+   "short": "You see it where the road for motor vehicles begins.",
+   "rule": "Blue square with a white car = road for motor vehicles only. No bicycles or other vehicles without an engine.",
+   "trap": "'all'inizio' (at the start) is right; with a red bar it marks the end.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Placed at the start of the road",
+    "it": "veicoli a motore",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'inizio",
+    "en": "at the start"
+   },
+   {
+    "it": "veicoli a motore",
+    "en": "motor vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21638": {
+  "en": "The sign shown bans vehicles without an engine.",
+  "explain": {
+   "short": "Only motor vehicles may use this road, so all vehicles without an engine are banned.",
+   "rule": "Blue square with a white car = road for motor vehicles only. No bicycles or other vehicles without an engine.",
+   "trap": "'senza motore' (without an engine) - bikes, carts and similar may not enter.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No vehicles without an engine",
+    "it": "veicoli a motore",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans transit"
+   },
+   {
+    "it": "senza motore",
+    "en": "without an engine"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21639": {
+  "en": "The sign shown allows buses through.",
+  "explain": {
+   "short": "A bus has an engine, so it may use the road.",
+   "rule": "Blue square with a white car = road for motor vehicles only. No bicycles or other vehicles without an engine.",
+   "trap": "'consente' (allows) is right: buses are motor vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Buses allowed: they are motor vehicles",
+    "it": "veicoli a motore",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente il transito",
+    "en": "allows transit"
+   },
+   {
+    "it": "autobus",
+    "en": "buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21640": {
+  "en": "The sign shown, if crossed by a red stripe, indicates the end of its validity.",
+  "explain": {
+   "short": "With a red diagonal bar it marks the end of the road for motor vehicles only.",
+   "rule": "Blue square with a white car = road for motor vehicles only. No bicycles or other vehicles without an engine.",
+   "trap": "'barrato da una striscia rossa' (crossed by a red stripe) = end.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red bar = end of the motor-vehicle road",
+    "it": "veicoli a motore",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "barrato",
+    "en": "crossed out"
+   },
+   {
+    "it": "striscia rossa",
+    "en": "red stripe"
+   },
+   {
+    "it": "fine della sua validità",
+    "en": "end of its validity"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21641": {
+  "en": "The sign shown indicates a road reserved for taxis only.",
+  "explain": {
+   "short": "It is for all motor vehicles, not only taxis.",
+   "rule": "Blue square with a white car = road for motor vehicles only. No bicycles or other vehicles without an engine.",
+   "trap": "'solo ai taxi' (only taxis) is too narrow: every motor vehicle may use it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "All motor vehicles, not only taxis",
+    "it": "veicoli a motore",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "riservata",
+    "en": "reserved"
+   },
+   {
+    "it": "solo ai taxi",
+    "en": "only for taxis"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21642": {
+  "en": "The sign shown indicates a car park for cars only.",
+  "explain": {
+   "short": "There is no P: it marks a road for motor vehicles, not a car park.",
+   "rule": "Blue square with a white car = road for motor vehicles only. No bicycles or other vehicles without an engine.",
+   "trap": "'parcheggio' (car park) - a car park sign has a white P.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A road, not a car park",
+    "it": "veicoli a motore",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "parcheggio",
+    "en": "car park"
+   },
+   {
+    "it": "autovetture",
+    "en": "cars"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21643": {
+  "en": "The sign shown allows a bicycle to use that road.",
+  "explain": {
+   "short": "Bicycles have no engine, so they are banned from this road.",
+   "rule": "Blue square with a white car = road for motor vehicles only. No bicycles or other vehicles without an engine.",
+   "trap": "'consente ad una bicicletta' (allows a bicycle) - the opposite is true.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bicycles are banned here",
+    "it": "veicoli a motore",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente",
+    "en": "allows"
+   },
+   {
+    "it": "bicicletta",
+    "en": "bicycle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21644": {
+  "en": "The sign shown bans lorries.",
+  "explain": {
+   "short": "A lorry (autocarro) has an engine, so it may use the road.",
+   "rule": "Blue square with a white car = road for motor vehicles only. No bicycles or other vehicles without an engine.",
+   "trap": "'autocarro' (lorry) is a motor vehicle, so it is allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lorries allowed: they are motor vehicles",
+    "it": "veicoli a motore",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans transit"
+   },
+   {
+    "it": "autocarro",
+    "en": "lorry"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21645": {
+  "en": "The sign shown is placed at the start of a tunnel.",
+  "explain": {
+   "short": "The tunnel sign stands at the tunnel entrance.",
+   "rule": "Green square with a tunnel = motorway tunnel (galleria). No stopping inside; engine off in long stops; hold the wheel at the exit.",
+   "trap": "'all'inizio di una galleria' (at the start of a tunnel) is right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tunnel sign at the entrance",
+    "it": "galleria",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'inizio",
+    "en": "at the start"
+   },
+   {
+    "it": "galleria",
+    "en": "tunnel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21646": {
+  "en": "The sign shown gives advance warning of a motorway tunnel.",
+  "explain": {
+   "short": "Green background = motorway, and the picture shows a tunnel opening.",
+   "rule": "Green square with a tunnel = motorway tunnel (galleria). No stopping inside; engine off in long stops; hold the wheel at the exit.",
+   "trap": "'autostradale' (motorway) comes from the green colour.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green = motorway tunnel",
+    "it": "galleria",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavvisa",
+    "en": "gives advance warning"
+   },
+   {
+    "it": "galleria autostradale",
+    "en": "motorway tunnel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21647": {
+  "en": "The sign shown reminds you to switch off the engine in case of a long stop in the tunnel.",
+  "explain": {
+   "short": "In a tunnel exhaust fumes build up, so if you are stuck for long you switch the engine off.",
+   "rule": "Green square with a tunnel = motorway tunnel (galleria). No stopping inside; engine off in long stops; hold the wheel at the exit.",
+   "trap": "'arresto prolungato' (long stop) is the case: engine off.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Long stop in a tunnel: engine off",
+    "it": "galleria",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "spegnere il motore",
+    "en": "switch off the engine"
+   },
+   {
+    "it": "arresto prolungato",
+    "en": "long stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21648": {
+  "en": "The sign shown reminds you not to park or stop in the tunnel, unless signs say otherwise.",
+  "explain": {
+   "short": "Stopping in a tunnel is dangerous, so it is not allowed unless signs say so.",
+   "rule": "Green square with a tunnel = motorway tunnel (galleria). No stopping inside; engine off in long stops; hold the wheel at the exit.",
+   "trap": "'salvo diversa segnalazione' (unless signs say otherwise) keeps the statement correct.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No parking or stopping in a tunnel",
+    "it": "galleria",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non sostare",
+    "en": "do not park"
+   },
+   {
+    "it": "non fermarsi",
+    "en": "do not stop"
+   },
+   {
+    "it": "salvo diversa segnalazione",
+    "en": "unless signs say otherwise"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21649": {
+  "en": "The sign shown invites you to hold the steering wheel firmly to deal with possible gusts of wind at the tunnel exit.",
+  "explain": {
+   "short": "When you leave a tunnel a sudden side wind can push the car, so hold the wheel firmly.",
+   "rule": "Green square with a tunnel = motorway tunnel (galleria). No stopping inside; engine off in long stops; hold the wheel at the exit.",
+   "trap": "'all'uscita della galleria' (at the tunnel exit) is where the wind hits you.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tunnel exit: hold the wheel against wind",
+    "it": "galleria",
+    "action": "slow",
+    "hazard": "💨"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sterzo",
+    "en": "steering wheel"
+   },
+   {
+    "it": "colpi di vento",
+    "en": "gusts of wind"
+   },
+   {
+    "it": "uscita della galleria",
+    "en": "tunnel exit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21650": {
+  "en": "The sign shown indicates a closed road.",
+  "explain": {
+   "short": "It shows a tunnel you can drive through, not a closed road.",
+   "rule": "Green square with a tunnel = motorway tunnel (galleria). No stopping inside; engine off in long stops; hold the wheel at the exit.",
+   "trap": "'strada chiusa' (closed road) - the tunnel opening is open.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A tunnel, not a closed road",
+    "it": "galleria",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada chiusa",
+    "en": "closed road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21651": {
+  "en": "The sign shown indicates roadworks.",
+  "explain": {
+   "short": "It shows a tunnel. Roadworks have a red triangle with a worker.",
+   "rule": "Green square with a tunnel = motorway tunnel (galleria). No stopping inside; engine off in long stops; hold the wheel at the exit.",
+   "trap": "'lavori in corso' (roadworks) is a danger sign, not this green one.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A tunnel, not roadworks",
+    "it": "galleria",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "lavori in corso",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21652": {
+  "en": "The sign shown indicates an unlit tunnel.",
+  "explain": {
+   "short": "The sign just says 'tunnel'; it says nothing about the lights inside.",
+   "rule": "Green square with a tunnel = motorway tunnel (galleria). No stopping inside; engine off in long stops; hold the wheel at the exit.",
+   "trap": "'non illuminata' (unlit) - the black inside is only the drawing of the opening.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tunnel sign says nothing about lights",
+    "it": "galleria",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "galleria",
+    "en": "tunnel"
+   },
+   {
+    "it": "non illuminata",
+    "en": "unlit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21653": {
+  "en": "The sign shown bans vehicles taller than 3.5 metres.",
+  "explain": {
+   "short": "There is no number on it: it is a tunnel information sign. Height limits are round red signs.",
+   "rule": "Green square with a tunnel = motorway tunnel (galleria). No stopping inside; engine off in long stops; hold the wheel at the exit.",
+   "trap": "'3,5 metri di altezza' (3.5 m height) - no height is shown.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tunnel info, not a height limit",
+    "it": "galleria",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans transit"
+   },
+   {
+    "it": "altezza",
+    "en": "height"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21654": {
+  "en": "The sign shown indicates the start of a bridge.",
+  "explain": {
+   "short": "The picture is a tunnel opening. The bridge sign shows a road on top of an arch.",
+   "rule": "Green square with a tunnel = motorway tunnel (galleria). No stopping inside; engine off in long stops; hold the wheel at the exit.",
+   "trap": "'ponte' (bridge) is a different green sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A tunnel, not a bridge",
+    "it": "galleria",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "inizio",
+    "en": "start"
+   },
+   {
+    "it": "ponte",
+    "en": "bridge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21655": {
+  "en": "The sign shown bans overtaking.",
+  "explain": {
+   "short": "It is an information sign about a tunnel; it bans nothing.",
+   "rule": "Green square with a tunnel = motorway tunnel (galleria). No stopping inside; engine off in long stops; hold the wheel at the exit.",
+   "trap": "'vieta il sorpasso' (bans overtaking) is a round red sign with two cars.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tunnel info: no overtaking ban",
+    "it": "galleria",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "bans"
+   },
+   {
+    "it": "sorpasso",
+    "en": "overtaking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21656": {
+  "en": "The sign shown can be found at the start of a bridge, a viaduct or an overpass.",
+  "explain": {
+   "short": "The picture is a road on an arch: a bridge, viaduct or overpass starts here.",
+   "rule": "Green square with a bridge = start of a bridge, viaduct or overpass. Watch out for side wind.",
+   "trap": "'ponte, viadotto, cavalcavia' (bridge, viaduct, overpass) are all roads over something.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Start of a bridge, viaduct or overpass",
+    "it": "ponte",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ponte",
+    "en": "bridge"
+   },
+   {
+    "it": "viadotto",
+    "en": "viaduct"
+   },
+   {
+    "it": "cavalcavia",
+    "en": "overpass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21657": {
+  "en": "The sign shown can be combined with a panel showing the length of the overpass.",
+  "explain": {
+   "short": "A panel under the sign can tell you how long the overpass is.",
+   "rule": "Green square with a bridge = start of a bridge, viaduct or overpass. Watch out for side wind.",
+   "trap": "'può essere abbinato' (can be combined) is right: a length panel is allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Panel can show the length",
+    "it": "ponte",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "abbinato",
+    "en": "combined"
+   },
+   {
+    "it": "pannello",
+    "en": "panel"
+   },
+   {
+    "it": "lunghezza del cavalcavia",
+    "en": "length of the overpass"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21658": {
+  "en": "The sign shown invites you to take special care in strong wind.",
+  "explain": {
+   "short": "On a bridge there is no shelter, so strong wind hits the car hard.",
+   "rule": "Green square with a bridge = start of a bridge, viaduct or overpass. Watch out for side wind.",
+   "trap": "'forte vento' (strong wind) is a real danger on bridges.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "On a bridge, watch out for strong wind",
+    "it": "ponte",
+    "action": "slow",
+    "hazard": "💨"
+   }
+  },
+  "keywords": [
+   {
+    "it": "particolare attenzione",
+    "en": "special care"
+   },
+   {
+    "it": "forte vento",
+    "en": "strong wind"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21659": {
+  "en": "The sign shown invites you to hold the steering wheel firmly to deal with possible gusts of side wind.",
+  "explain": {
+   "short": "Side wind on a bridge can push you sideways, so hold the wheel firmly.",
+   "rule": "Green square with a bridge = start of a bridge, viaduct or overpass. Watch out for side wind.",
+   "trap": "'vento laterale' (side wind) is the danger on an open bridge.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Hold the wheel against side wind",
+    "it": "ponte",
+    "action": "slow",
+    "hazard": "💨"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sterzo",
+    "en": "steering wheel"
+   },
+   {
+    "it": "vento laterale",
+    "en": "side wind"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21660": {
+  "en": "The sign shown orders a ban on overtaking between motor vehicles.",
+  "explain": {
+   "short": "It is an information sign about a bridge; it orders nothing.",
+   "rule": "Green square with a bridge = start of a bridge, viaduct or overpass. Watch out for side wind.",
+   "trap": "'prescrive il divieto di sorpasso' (orders no overtaking) is a round red sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bridge info: no overtaking ban",
+    "it": "ponte",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "prescrive",
+    "en": "orders"
+   },
+   {
+    "it": "divieto di sorpasso",
+    "en": "no overtaking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21661": {
+  "en": "The sign shown indicates the start of a tunnel.",
+  "explain": {
+   "short": "The picture is a road on an arch (bridge). The tunnel sign shows a dark opening.",
+   "rule": "Green square with a bridge = start of a bridge, viaduct or overpass. Watch out for side wind.",
+   "trap": "'galleria' (tunnel) is a different green sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A bridge, not a tunnel",
+    "it": "ponte",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "inizio",
+    "en": "start"
+   },
+   {
+    "it": "galleria",
+    "en": "tunnel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21662": {
+  "en": "The sign shown indicates that you are about to pass under a bridge.",
+  "explain": {
+   "short": "You drive ON the bridge (the white road on top), not under it.",
+   "rule": "Green square with a bridge = start of a bridge, viaduct or overpass. Watch out for side wind.",
+   "trap": "'sotto un ponte' (under a bridge) - the road is drawn on top of the arch.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "You go ON the bridge, not under it",
+    "it": "ponte",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "transitare",
+    "en": "pass"
+   },
+   {
+    "it": "sotto un ponte",
+    "en": "under a bridge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21663": {
+  "en": "The sign shown indicates a cycle crossing.",
+  "explain": {
+   "short": "The white cyclist on a blue square marks a place where bikes cross the road.",
+   "rule": "Blue square with a cyclist = cycle crossing (attraversamento ciclabile). Give way to cyclists crossing on the stripes.",
+   "trap": "'attraversamento ciclabile' (cycle crossing) is exactly the meaning.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cycle crossing: bikes cross here",
+    "it": "attraversamento ciclabile",
+    "action": "slow",
+    "hazard": "🚲"
+   }
+  },
+  "keywords": [
+   {
+    "it": "attraversamento ciclabile",
+    "en": "cycle crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21664": {
+  "en": "The sign shown is placed right at the stripes of the cycle crossing.",
+  "explain": {
+   "short": "The sign stands exactly where the crossing stripes are painted.",
+   "rule": "Blue square with a cyclist = cycle crossing (attraversamento ciclabile). Give way to cyclists crossing on the stripes.",
+   "trap": "'in corrispondenza' (right at) is right: at the stripes.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Placed right at the crossing stripes",
+    "it": "attraversamento ciclabile",
+    "action": "slow",
+    "hazard": "🚲"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in corrispondenza",
+    "en": "right at"
+   },
+   {
+    "it": "strisce",
+    "en": "stripes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21665": {
+  "en": "The sign shown indicates that you must give way to cyclists crossing on the stripes.",
+  "explain": {
+   "short": "Cyclists on the crossing stripes go first: you slow down and let them cross.",
+   "rule": "Blue square with a cyclist = cycle crossing (attraversamento ciclabile). Give way to cyclists crossing on the stripes.",
+   "trap": "'dare la precedenza ai ciclisti' (give way to cyclists) is right, when they are on the stripes.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Give way to cyclists on the stripes",
+    "it": "attraversamento ciclabile",
+    "action": "slow",
+    "hazard": "🚲"
+   }
+  },
+  "keywords": [
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "ciclisti",
+    "en": "cyclists"
+   },
+   {
+    "it": "strisce",
+    "en": "stripes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21666": {
+  "en": "The sign shown goes together with the cycle crossing stripes.",
+  "explain": {
+   "short": "The sign and the painted stripes work together to mark the cycle crossing.",
+   "rule": "Blue square with a cyclist = cycle crossing (attraversamento ciclabile). Give way to cyclists crossing on the stripes.",
+   "trap": "'abbinato' (combined with) is right: sign plus stripes.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Sign + stripes = cycle crossing",
+    "it": "attraversamento ciclabile",
+    "action": "slow",
+    "hazard": "🚲"
+   }
+  },
+  "keywords": [
+   {
+    "it": "abbinato",
+    "en": "combined with"
+   },
+   {
+    "it": "strisce",
+    "en": "stripes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21667": {
+  "en": "The sign shown invites caution because we may find cyclists crossing the carriageway.",
+  "explain": {
+   "short": "Cyclists may cross here, so slow down and look out for them.",
+   "rule": "Blue square with a cyclist = cycle crossing (attraversamento ciclabile). Give way to cyclists crossing on the stripes.",
+   "trap": "'usare prudenza' (be careful) is right: bikes may appear.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Be careful: cyclists may cross",
+    "it": "attraversamento ciclabile",
+    "action": "slow",
+    "hazard": "🚲"
+   }
+  },
+  "keywords": [
+   {
+    "it": "usare prudenza",
+    "en": "be careful"
+   },
+   {
+    "it": "ciclisti",
+    "en": "cyclists"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21668": {
+  "en": "The sign shown bans vehicles without an engine.",
+  "explain": {
+   "short": "It does not ban anyone: it shows where bikes cross. The car on blue is the 'motor vehicles only' sign.",
+   "rule": "Blue square with a cyclist = cycle crossing (attraversamento ciclabile). Give way to cyclists crossing on the stripes.",
+   "trap": "'vieta il transito' (bans transit) - this sign bans nothing.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cycle crossing: no ban",
+    "it": "attraversamento ciclabile",
+    "action": "slow",
+    "hazard": "🚲"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans transit"
+   },
+   {
+    "it": "senza motore",
+    "en": "without an engine"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21669": {
+  "en": "The sign shown bans cyclists.",
+  "explain": {
+   "short": "The opposite: it shows a place where cyclists cross. A ban on bikes is a round red sign.",
+   "rule": "Blue square with a cyclist = cycle crossing (attraversamento ciclabile). Give way to cyclists crossing on the stripes.",
+   "trap": "'vieta il transito ai ciclisti' (bans cyclists) - square blue never bans.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cyclists are not banned: they cross here",
+    "it": "attraversamento ciclabile",
+    "action": "slow",
+    "hazard": "🚲"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "bans transit"
+   },
+   {
+    "it": "ciclisti",
+    "en": "cyclists"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21670": {
+  "en": "The sign shown indicates a cycle path.",
+  "explain": {
+   "short": "A cycle path (pista ciclabile) is a ROUND blue sign. This square one is a cycle crossing.",
+   "rule": "Blue square with a cyclist = cycle crossing (attraversamento ciclabile). Give way to cyclists crossing on the stripes.",
+   "trap": "'pista ciclabile' (cycle path) - round = path, square = crossing.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cycle crossing, not a cycle path",
+    "it": "attraversamento ciclabile",
+    "action": "slow",
+    "hazard": "🚲"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pista ciclabile",
+    "en": "cycle path"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21671": {
+  "en": "The sign shown tells cyclists to turn left.",
+  "explain": {
+   "short": "It gives no direction to cyclists: it only marks a cycle crossing.",
+   "rule": "Blue square with a cyclist = cycle crossing (attraversamento ciclabile). Give way to cyclists crossing on the stripes.",
+   "trap": "'svoltare a sinistra' (turn left) - there is no arrow on the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No direction: only a cycle crossing",
+    "it": "attraversamento ciclabile",
+    "action": "slow",
+    "hazard": "🚲"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ciclisti",
+    "en": "cyclists"
+   },
+   {
+    "it": "svoltare a sinistra",
+    "en": "turn left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21672": {
+  "en": "The sign shown obliges cyclists to give way to vehicles.",
+  "explain": {
+   "short": "It is the other way round: drivers give way to cyclists on the crossing stripes.",
+   "rule": "Blue square with a cyclist = cycle crossing (attraversamento ciclabile). Give way to cyclists crossing on the stripes.",
+   "trap": "'obbliga i ciclisti a dare la precedenza' (cyclists must give way) - the opposite is true.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Drivers give way to cyclists, not reverse",
+    "it": "attraversamento ciclabile",
+    "action": "slow",
+    "hazard": "🚲"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga",
+    "en": "obliges"
+   },
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

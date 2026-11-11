@@ -1,0 +1,2147 @@
+{
+ "q20349": {
+  "en": "The sign shown is placed at the end of the pedestrian path.",
+  "explain": {
+   "short": "The red bar across the walking person means the pedestrian path ends here.",
+   "rule": "Blue sign + red bar = end of an obligation. Here the path reserved for pedestrians ends.",
+   "trap": "'fine del percorso pedonale' (end of the pedestrian path) is exactly what the red bar means.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of the path reserved for pedestrians",
+    "it": "fine percorso pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine del percorso pedonale",
+    "en": "end of the pedestrian path"
+   },
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20350": {
+  "en": "The sign shown is placed at the end of the pedestrian avenue.",
+  "explain": {
+   "short": "A 'viale pedonale' (pedestrian avenue) is a path reserved for pedestrians; the red bar says it ends here.",
+   "rule": "Blue sign + red bar = end of an obligation. Here the path reserved for pedestrians ends.",
+   "trap": "'viale pedonale' is just another name for the pedestrian path: the answer does not change.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of the pedestrian path (viale pedonale)",
+    "it": "viale pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine del viale pedonale",
+    "en": "end of the pedestrian avenue"
+   },
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20351": {
+  "en": "The sign shown indicates that from there on pedestrians no longer walk on a reserved path.",
+  "explain": {
+   "short": "After the end sign the reserved pedestrian path is over, so pedestrians walk on the normal pavement or road.",
+   "rule": "Blue sign + red bar = end of an obligation. Here the path reserved for pedestrians ends.",
+   "trap": "'non circolano più su un percorso riservato' (no longer on a reserved path) is the meaning of 'end of path'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "From here pedestrians have no reserved path",
+    "it": "fine",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "da lì in poi",
+    "en": "from there on"
+   },
+   {
+    "it": "non circolano più",
+    "en": "no longer walk"
+   },
+   {
+    "it": "percorso riservato",
+    "en": "reserved path"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20352": {
+  "en": "The sign shown warns of a pedestrian crossing.",
+  "explain": {
+   "short": "This is the end of a pedestrian path, not a warning. A pedestrian crossing warning is a red triangle.",
+   "rule": "Blue sign + red bar = end of an obligation. Here the path reserved for pedestrians ends.",
+   "trap": "'preannuncia un attraversamento pedonale' (warns of a crossing) is wrong: blue round signs do not warn of danger.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a crossing: the pedestrian path ends here",
+    "it": "fine percorso pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "warns of"
+   },
+   {
+    "it": "attraversamento pedonale",
+    "en": "pedestrian crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20353": {
+  "en": "The sign shown warns of a no-entry for pedestrians.",
+  "explain": {
+   "short": "The sign does not ban pedestrians: it only says their reserved path ends. A ban would be a red-bordered sign.",
+   "rule": "Blue sign + red bar = end of an obligation. Here the path reserved for pedestrians ends.",
+   "trap": "'divieto di transito per i pedoni' (no entry for pedestrians) is wrong: blue + red bar means END, not ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a ban: only the pedestrian path ends",
+    "it": "fine percorso pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto di transito",
+    "en": "no entry"
+   },
+   {
+    "it": "per i pedoni",
+    "en": "for pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20354": {
+  "en": "The sign shown forbids pedestrians to cross the road.",
+  "explain": {
+   "short": "The sign forbids nothing. It only says the path reserved for pedestrians ends here.",
+   "rule": "Blue sign + red bar = end of an obligation. Here the path reserved for pedestrians ends.",
+   "trap": "'vieta ai pedoni di attraversare' (forbids pedestrians to cross) is wrong: an end sign bans nothing.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No ban: the pedestrian path just ends",
+    "it": "fine percorso pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "forbids"
+   },
+   {
+    "it": "attraversare la strada",
+    "en": "to cross the road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20355": {
+  "en": "The sign shown warns of the end of an area closed to pedestrians.",
+  "explain": {
+   "short": "It is the opposite: it is the end of a path reserved FOR pedestrians, not of an area closed to them.",
+   "rule": "Blue sign + red bar = end of an obligation. Here the path reserved for pedestrians ends.",
+   "trap": "'area vietata ai pedoni' (area closed to pedestrians) is wrong: the path was reserved to pedestrians.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of a path FOR pedestrians, not against them",
+    "it": "fine percorso pedonale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "area vietata ai pedoni",
+    "en": "area closed to pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20356": {
+  "en": "The sign shown is placed at a path closed to cars and motorcycles.",
+  "explain": {
+   "short": "The cycle path is reserved for bicycles only, so cars and motorcycles may not use it.",
+   "rule": "A blue round sign with a bicycle = a path ONLY for bicycles. No cars, motorcycles or mopeds.",
+   "trap": "'vietato alle autovetture e ai motocicli' (closed to cars and motorcycles) is right: only bicycles may use it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bicycles only: no cars, no motorcycles",
+    "it": "pista ciclabile",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "percorso vietato",
+    "en": "path closed"
+   },
+   {
+    "it": "autovetture",
+    "en": "cars"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20357": {
+  "en": "The sign shown is placed at a lane reserved for bicycles.",
+  "explain": {
+   "short": "The white bicycle on blue marks a cycle path or cycle lane: reserved for bicycles.",
+   "rule": "A blue round sign with a bicycle = a path ONLY for bicycles. No cars, motorcycles or mopeds.",
+   "trap": "'corsia riservata alle biciclette' (lane reserved for bicycles) is right: corsia or pista, it is for bikes only.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lane reserved for bicycles",
+    "it": "pista ciclabile",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia",
+    "en": "lane"
+   },
+   {
+    "it": "riservata alle biciclette",
+    "en": "reserved for bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20358": {
+  "en": "The sign shown is placed at a path reserved for bicycles.",
+  "explain": {
+   "short": "This is the cycle path sign: the path is reserved for bicycles.",
+   "rule": "A blue round sign with a bicycle = a path ONLY for bicycles. No cars, motorcycles or mopeds.",
+   "trap": "'percorso riservato alle biciclette' (path reserved for bicycles) is the exact meaning.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Path reserved for bicycles",
+    "it": "pista ciclabile",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "percorso",
+    "en": "path"
+   },
+   {
+    "it": "riservato alle biciclette",
+    "en": "reserved for bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20360": {
+  "en": "The sign shown is placed at a cycle crossing controlled by traffic lights.",
+  "explain": {
+   "short": "The sign marks a cycle path. It says nothing about a crossing or traffic lights.",
+   "rule": "A blue round sign with a bicycle = a path ONLY for bicycles. No cars, motorcycles or mopeds.",
+   "trap": "'attraversamento ciclabile regolato da semaforo' (bike crossing with lights) is wrong: no lights on this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A cycle path, not a crossing with lights",
+    "it": "pista ciclabile",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "attraversamento ciclabile",
+    "en": "cycle crossing"
+   },
+   {
+    "it": "semaforo",
+    "en": "traffic lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20361": {
+  "en": "The sign shown forbids bicycles to pass.",
+  "explain": {
+   "short": "It is the opposite: the blue sign reserves the path FOR bicycles. A ban on bicycles is a red-bordered sign.",
+   "rule": "A blue round sign with a bicycle = a path ONLY for bicycles. No cars, motorcycles or mopeds.",
+   "trap": "'vieta il transito alle biciclette' (forbids bicycles) is wrong: blue = obligation, red border = ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Blue = path FOR bicycles, not a ban",
+    "it": "pista ciclabile",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "forbids passage"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20362": {
+  "en": "The sign shown is placed at a path for pedestrians and bicycles.",
+  "explain": {
+   "short": "The sign shows only a bicycle: the path is for bicycles only, not for pedestrians.",
+   "rule": "A blue round sign with a bicycle = a path ONLY for bicycles. No cars, motorcycles or mopeds.",
+   "trap": "'per pedoni e biciclette' (for pedestrians and bicycles) is wrong: there is no pedestrian on the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only a bicycle: no pedestrians on this path",
+    "it": "pista ciclabile",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20363": {
+  "en": "The sign shown is placed at a path reserved for bicycles and mopeds.",
+  "explain": {
+   "short": "Mopeds (ciclomotori) have an engine: they may not use a cycle path. It is for bicycles only.",
+   "rule": "A blue round sign with a bicycle = a path ONLY for bicycles. No cars, motorcycles or mopeds.",
+   "trap": "'e ai ciclomotori' (and mopeds) is the trap: mopeds are motor vehicles, not bicycles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bicycles only: mopeds may not enter",
+    "it": "pista ciclabile",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pista riservata",
+    "en": "reserved path"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20364": {
+  "en": "The sign shown is placed at a path open to pedestrians and bicycles.",
+  "explain": {
+   "short": "Only a bicycle is drawn: the path is for bicycles, not for pedestrians.",
+   "rule": "A blue round sign with a bicycle = a path ONLY for bicycles. No cars, motorcycles or mopeds.",
+   "trap": "'transito di pedoni e di biciclette' is wrong: the shared path sign also shows a pedestrian.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only bicycles: pedestrians are not included",
+    "it": "pista ciclabile",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20365": {
+  "en": "The sign shown is placed at an area closed to bicycles.",
+  "explain": {
+   "short": "It is the opposite: the path is reserved FOR bicycles. A ban on bicycles has a red border.",
+   "rule": "A blue round sign with a bicycle = a path ONLY for bicycles. No cars, motorcycles or mopeds.",
+   "trap": "'area vietata al transito delle biciclette' (closed to bicycles) is wrong: blue = reserved for them.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Reserved FOR bicycles, not closed to them",
+    "it": "pista ciclabile",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area vietata",
+    "en": "closed area"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20366": {
+  "en": "The sign shown is placed at the end of the cycle path.",
+  "explain": {
+   "short": "The red bar across the bicycle means the cycle path ends here.",
+   "rule": "Red bar on a blue sign = the obligation ends. The path only for bicycles ends here.",
+   "trap": "'fine della pista ciclabile' (end of the cycle path) is exactly what the red bar means.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of the cycle path",
+    "it": "fine pista ciclabile",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine della pista ciclabile",
+    "en": "end of the cycle path"
+   },
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20367": {
+  "en": "The sign shown is placed at the end of a route that can be used only by bicycles.",
+  "explain": {
+   "short": "A cycle path is a route only for bicycles; the red bar says it ends here.",
+   "rule": "Red bar on a blue sign = the obligation ends. The path only for bicycles ends here.",
+   "trap": "'percorribile solo con biciclette' (only by bicycles) describes the cycle path, and 'fine' says it ends.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of the route only for bicycles",
+    "it": "fine pista ciclabile",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "itinerario",
+    "en": "route"
+   },
+   {
+    "it": "solo con biciclette",
+    "en": "only by bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20368": {
+  "en": "The sign shown is placed at the end of a lane reserved for cyclists.",
+  "explain": {
+   "short": "The cycle lane is reserved for cyclists; the red bar says it ends here.",
+   "rule": "Red bar on a blue sign = the obligation ends. The path only for bicycles ends here.",
+   "trap": "'corsia riservata ai ciclisti' (lane for cyclists) is another way to say cycle path.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of the lane reserved for cyclists",
+    "it": "fine pista ciclabile",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "corsia riservata ai ciclisti",
+    "en": "lane reserved for cyclists"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20369": {
+  "en": "The sign shown is placed at the end of a path reserved for bicycles.",
+  "explain": {
+   "short": "The red bar across the bicycle means the path reserved for bicycles ends.",
+   "rule": "Red bar on a blue sign = the obligation ends. The path only for bicycles ends here.",
+   "trap": "'fine di una pista riservata alle biciclette' is the exact meaning of this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of the path reserved for bicycles",
+    "it": "fine pista ciclabile",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "pista riservata alle biciclette",
+    "en": "path reserved for bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20370": {
+  "en": "The sign shown indicates no parking for bicycles.",
+  "explain": {
+   "short": "The sign is about the end of a cycle path, not about parking.",
+   "rule": "Red bar on a blue sign = the obligation ends. The path only for bicycles ends here.",
+   "trap": "'divieto di sosta' (no parking) is wrong: the red bar on a blue sign means END, not a ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a parking ban: the cycle path ends",
+    "it": "fine pista ciclabile",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto di sosta",
+    "en": "no parking"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20371": {
+  "en": "The sign shown forbids bicycles and mopeds to pass.",
+  "explain": {
+   "short": "An end sign bans nothing: the cycle path ends and cyclists continue on the normal road.",
+   "rule": "Red bar on a blue sign = the obligation ends. The path only for bicycles ends here.",
+   "trap": "'vieta il transito' (forbids passage) is wrong: blue + red bar = end of an obligation, not a ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No ban: only the cycle path ends",
+    "it": "fine pista ciclabile",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "forbids passage"
+   },
+   {
+    "it": "ciclomotori",
+    "en": "mopeds"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20372": {
+  "en": "The sign shown is placed at the end of the pedestrian and cycle path.",
+  "explain": {
+   "short": "Only a bicycle is drawn: it is the end of the cycle path only, not of a shared path with pedestrians.",
+   "rule": "Red bar on a blue sign = the obligation ends. The path only for bicycles ends here.",
+   "trap": "'percorso pedonale e ciclabile' is wrong: that end sign also shows a pedestrian.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only the cycle path ends: no pedestrian drawn",
+    "it": "fine pista ciclabile",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "percorso pedonale e ciclabile",
+    "en": "pedestrian and cycle path"
+   },
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20373": {
+  "en": "The sign shown warns that cyclists and pedestrians may no longer pass.",
+  "explain": {
+   "short": "Nothing is forbidden: only the cycle path ends. Cyclists go on along the normal road.",
+   "rule": "Red bar on a blue sign = the obligation ends. The path only for bicycles ends here.",
+   "trap": "'non è più consentito il transito' (no longer allowed) is wrong: the end sign forbids nothing.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Nothing forbidden: the cycle path just ends",
+    "it": "fine pista ciclabile",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è più consentito",
+    "en": "is no longer allowed"
+   },
+   {
+    "it": "ciclisti",
+    "en": "cyclists"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20374": {
+  "en": "The sign shown is placed at the start of an area closed to bicycles.",
+  "explain": {
+   "short": "It is the END of a path reserved for bicycles, not the start of an area closed to them.",
+   "rule": "Red bar on a blue sign = the obligation ends. The path only for bicycles ends here.",
+   "trap": "'all'inizio di un'area vietata' (start of a closed area) is wrong twice: it is an end, and nothing is banned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of a path FOR bicycles, not a ban",
+    "it": "fine pista ciclabile",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'inizio",
+    "en": "at the start"
+   },
+   {
+    "it": "area vietata alle biciclette",
+    "en": "area closed to bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20375": {
+  "en": "The sign shown is placed at the start of a cycle path next to the pavement.",
+  "explain": {
+   "short": "The vertical line splits the sign: a cycle path runs next to a path for pedestrians, like the pavement.",
+   "rule": "Vertical line = two SEPARATE paths side by side: pedestrians on one, bicycles on the other.",
+   "trap": "'pista ciclabile accanto al marciapiede' (cycle path next to the pavement) is right: two separate parts.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cycle path next to the pedestrian part",
+    "it": "percorsi affiancati",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "inizio",
+    "en": "start"
+   },
+   {
+    "it": "pista ciclabile",
+    "en": "cycle path"
+   },
+   {
+    "it": "accanto al marciapiede",
+    "en": "next to the pavement"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20376": {
+  "en": "The sign shown is placed at the start of a lane reserved for bicycles next to a pedestrian path.",
+  "explain": {
+   "short": "One side is for bicycles, the other side for pedestrians: two paths side by side, separated.",
+   "rule": "Vertical line = two SEPARATE paths side by side: pedestrians on one, bicycles on the other.",
+   "trap": "'accanto ad un percorso pedonale' (next to a pedestrian path) is right: the line shows they are separate.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bike lane beside a pedestrian path",
+    "it": "percorsi affiancati",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "inizio",
+    "en": "start"
+   },
+   {
+    "it": "corsia riservata alle biciclette",
+    "en": "lane reserved for bicycles"
+   },
+   {
+    "it": "accanto",
+    "en": "next to"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20377": {
+  "en": "The sign shown is placed at the start of a path reserved for bicycles, alongside a pedestrian avenue.",
+  "explain": {
+   "short": "The bicycle side is the cycle path; the pedestrian side is the pedestrian avenue next to it.",
+   "rule": "Vertical line = two SEPARATE paths side by side: pedestrians on one, bicycles on the other.",
+   "trap": "'affiancata da un viale pedonale' (alongside a pedestrian avenue) is right: separate paths side by side.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cycle path alongside a pedestrian path",
+    "it": "percorsi affiancati",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pista riservata alle biciclette",
+    "en": "path reserved for bicycles"
+   },
+   {
+    "it": "affiancata",
+    "en": "alongside"
+   },
+   {
+    "it": "viale pedonale",
+    "en": "pedestrian avenue"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20378": {
+  "en": "The sign shown is placed at the start of a cycle path next to a pedestrian path.",
+  "explain": {
+   "short": "The vertical line means two separate paths: a cycle path and a pedestrian path next to each other.",
+   "rule": "Vertical line = two SEPARATE paths side by side: pedestrians on one, bicycles on the other.",
+   "trap": "'percorso ciclabile accanto ad un percorso pedonale' is the exact meaning of this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cycle path beside a pedestrian path",
+    "it": "percorsi affiancati",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "inizio",
+    "en": "start"
+   },
+   {
+    "it": "percorso ciclabile",
+    "en": "cycle path"
+   },
+   {
+    "it": "percorso pedonale",
+    "en": "pedestrian path"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20379": {
+  "en": "The sign shown does not allow motor vehicles to circulate.",
+  "explain": {
+   "short": "The paths are reserved for pedestrians and bicycles, so motor vehicles may not use them.",
+   "rule": "Vertical line = two SEPARATE paths side by side: pedestrians on one, bicycles on the other.",
+   "trap": "'non consente ... veicoli a motore' (no motor vehicles) is right: only pedestrians and bicycles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only pedestrians and bikes: no motor vehicles",
+    "it": "percorsi riservati",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non consente",
+    "en": "does not allow"
+   },
+   {
+    "it": "veicoli a motore",
+    "en": "motor vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20380": {
+  "en": "The sign shown is placed at a single path for pedestrians and cyclists.",
+  "explain": {
+   "short": "The vertical line means two SEPARATE paths, not one shared path.",
+   "rule": "Vertical line = two SEPARATE paths side by side: pedestrians on one, bicycles on the other.",
+   "trap": "'percorso unico' (single path) is wrong: the shared-path sign has the symbols one above the other.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Two separate paths, not one shared path",
+    "it": "percorsi affiancati",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "percorso unico",
+    "en": "single path"
+   },
+   {
+    "it": "pedoni e ciclisti",
+    "en": "pedestrians and cyclists"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20381": {
+  "en": "The sign shown is placed at a mixed avenue, reserved both for pedestrians and for cyclists.",
+  "explain": {
+   "short": "The vertical line separates pedestrians from bicycles: the paths are separate, not mixed.",
+   "rule": "Vertical line = two SEPARATE paths side by side: pedestrians on one, bicycles on the other.",
+   "trap": "'viale misto' (mixed avenue) is wrong: here each group has its own side.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Separate sides, not a mixed path",
+    "it": "percorsi affiancati",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "viale misto",
+    "en": "mixed avenue"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   },
+   {
+    "it": "ciclisti",
+    "en": "cyclists"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20382": {
+  "en": "The sign shown is placed at the end of the lanes reserved for pedestrians and bicycles.",
+  "explain": {
+   "short": "There is no red bar: this sign marks the START of the paths, not their end.",
+   "rule": "Vertical line = two SEPARATE paths side by side: pedestrians on one, bicycles on the other.",
+   "trap": "'della fine' (of the end) is wrong: an end sign would have a red diagonal bar.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No red bar: the paths START here",
+    "it": "inizio",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "corsie riservate",
+    "en": "reserved lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20383": {
+  "en": "The sign shown warns of the obligation to push the bicycle by hand.",
+  "explain": {
+   "short": "Bicycles may ride on their own side. Nothing tells cyclists to get off and push.",
+   "rule": "Vertical line = two SEPARATE paths side by side: pedestrians on one, bicycles on the other.",
+   "trap": "'condurre a mano la bicicletta' (push the bicycle by hand) is wrong: cyclists ride on the cycle side.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Cyclists ride on their side: no pushing",
+    "it": "percorsi affiancati",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo",
+    "en": "obligation"
+   },
+   {
+    "it": "condurre a mano",
+    "en": "to push by hand"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20384": {
+  "en": "The sign shown warns of the obligation to park the bicycle and continue on foot.",
+  "explain": {
+   "short": "There is a path for bicycles: cyclists continue riding, they do not have to park.",
+   "rule": "Vertical line = two SEPARATE paths side by side: pedestrians on one, bicycles on the other.",
+   "trap": "'parcheggiare la bicicletta e proseguire a piedi' is wrong: the cycle side is open to bikes.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bicycles continue on their own path",
+    "it": "percorsi affiancati",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "parcheggiare la bicicletta",
+    "en": "park the bicycle"
+   },
+   {
+    "it": "proseguire a piedi",
+    "en": "continue on foot"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20385": {
+  "en": "The sign shown is placed at a single path for pedestrians and cyclists.",
+  "explain": {
+   "short": "Pedestrian above bicycle with no dividing line = one path shared by pedestrians and cyclists.",
+   "rule": "Symbols one above the other, no line = ONE path shared by pedestrians and cyclists.",
+   "trap": "'percorso unico' (single path) is right: no line means they share the same path.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One shared path for pedestrians and cyclists",
+    "it": "percorso misto",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "percorso unico",
+    "en": "single path"
+   },
+   {
+    "it": "pedoni e ciclisti",
+    "en": "pedestrians and cyclists"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20386": {
+  "en": "The sign shown is placed at a mixed avenue, reserved both for pedestrians and for cyclists.",
+  "explain": {
+   "short": "The symbols are one above the other: pedestrians and cyclists use the same (mixed) path.",
+   "rule": "Symbols one above the other, no line = ONE path shared by pedestrians and cyclists.",
+   "trap": "'viale misto' (mixed avenue) is right: it is shared, not split.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A mixed path for pedestrians and cyclists",
+    "it": "percorso misto",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "viale misto",
+    "en": "mixed avenue"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   },
+   {
+    "it": "ciclisti",
+    "en": "cyclists"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20387": {
+  "en": "The sign shown is placed at a route reserved only for pedestrians and cyclists.",
+  "explain": {
+   "short": "Only pedestrians and cyclists may use this path; all motor vehicles are excluded.",
+   "rule": "Symbols one above the other, no line = ONE path shared by pedestrians and cyclists.",
+   "trap": "'riservato solo' (reserved only) is right: only the two users drawn on the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only pedestrians and cyclists may use it",
+    "it": "percorso misto",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "itinerario",
+    "en": "route"
+   },
+   {
+    "it": "riservato solo",
+    "en": "reserved only"
+   },
+   {
+    "it": "pedoni e ciclisti",
+    "en": "pedestrians and cyclists"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20388": {
+  "en": "The sign shown does not allow motor vehicles to circulate.",
+  "explain": {
+   "short": "The path is only for pedestrians and cyclists, so motor vehicles may not use it.",
+   "rule": "Symbols one above the other, no line = ONE path shared by pedestrians and cyclists.",
+   "trap": "'non consente ... veicoli a motore' (no motor vehicles) is right: only people on foot and bikes.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No motor vehicles on this path",
+    "it": "percorso misto",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non consente",
+    "en": "does not allow"
+   },
+   {
+    "it": "veicoli a motore",
+    "en": "motor vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20389": {
+  "en": "The sign shown is placed at a cycle path beside the pavement.",
+  "explain": {
+   "short": "There is no dividing line: it is one shared path, not a cycle path next to a pavement.",
+   "rule": "Symbols one above the other, no line = ONE path shared by pedestrians and cyclists.",
+   "trap": "'pista ciclabile a fianco del marciapiede' is wrong: that is the sign with a vertical line.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One shared path, not two side by side",
+    "it": "percorso misto",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pista ciclabile",
+    "en": "cycle path"
+   },
+   {
+    "it": "a fianco del marciapiede",
+    "en": "beside the pavement"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20390": {
+  "en": "The sign shown is placed at a cycle path beside a path reserved for pedestrians.",
+  "explain": {
+   "short": "The symbols are not separated by a line: it is one shared path, not two paths side by side.",
+   "rule": "Symbols one above the other, no line = ONE path shared by pedestrians and cyclists.",
+   "trap": "'a fianco di un percorso riservato ai pedoni' is wrong: separate paths have a vertical line.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Shared path: no separate pedestrian path",
+    "it": "percorso misto",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pista ciclabile",
+    "en": "cycle path"
+   },
+   {
+    "it": "a fianco",
+    "en": "beside"
+   },
+   {
+    "it": "riservato ai pedoni",
+    "en": "reserved for pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20391": {
+  "en": "The sign shown is placed at a pedestrian area next to a path for cyclists.",
+  "explain": {
+   "short": "It is one shared path for both, not a pedestrian area plus a separate cycle path.",
+   "rule": "Symbols one above the other, no line = ONE path shared by pedestrians and cyclists.",
+   "trap": "'area pedonale accanto ad un percorso per ciclisti' is wrong: nothing is separated on this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One path for both, not two areas",
+    "it": "percorso misto",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area pedonale",
+    "en": "pedestrian area"
+   },
+   {
+    "it": "accanto",
+    "en": "next to"
+   },
+   {
+    "it": "ciclisti",
+    "en": "cyclists"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20392": {
+  "en": "The sign shown is placed at a pedestrian path next to a bicycle path, separated by a traffic island.",
+  "explain": {
+   "short": "Nothing is separated: pedestrians and cyclists share one path.",
+   "rule": "Symbols one above the other, no line = ONE path shared by pedestrians and cyclists.",
+   "trap": "'separati da spartitraffico' (separated by a traffic island) is wrong: the paths are not separate.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Shared path: nothing separates them",
+    "it": "percorso misto",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "percorso pedonale",
+    "en": "pedestrian path"
+   },
+   {
+    "it": "separati",
+    "en": "separated"
+   },
+   {
+    "it": "spartitraffico",
+    "en": "traffic island"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20393": {
+  "en": "The sign shown is placed at an area where bicycles may go only if pushed by hand.",
+  "explain": {
+   "short": "Cyclists may ride on this shared path; they do not have to get off and push.",
+   "rule": "Symbols one above the other, no line = ONE path shared by pedestrians and cyclists.",
+   "trap": "'soltanto se condotte a mano' (only if pushed by hand) is wrong: bikes may be ridden here.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bicycles may be ridden on this path",
+    "it": "percorso misto",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "transitabile",
+    "en": "open to traffic"
+   },
+   {
+    "it": "soltanto",
+    "en": "only"
+   },
+   {
+    "it": "condotte a mano",
+    "en": "pushed by hand"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20394": {
+  "en": "The sign shown is placed at the end of the cycle path next to the pavement.",
+  "explain": {
+   "short": "Split sign with a red bar: the cycle path and the pedestrian part next to it end here.",
+   "rule": "Red bar = END of the two side-by-side paths (pedestrian path and cycle path).",
+   "trap": "'fine della pista ciclabile accanto al marciapiede' is right: the red bar means end.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of the cycle path beside the pavement",
+    "it": "fine percorsi affiancati",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "pista ciclabile",
+    "en": "cycle path"
+   },
+   {
+    "it": "accanto al marciapiede",
+    "en": "next to the pavement"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20395": {
+  "en": "The sign shown is placed at the end of the cycle path next to a path reserved for pedestrians.",
+  "explain": {
+   "short": "The red bar ends both paths: the cycle path and the pedestrian path beside it.",
+   "rule": "Red bar = END of the two side-by-side paths (pedestrian path and cycle path).",
+   "trap": "'fine della pista ciclabile accanto ad un percorso riservato ai pedoni' matches the split sign with a bar.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of cycle path beside the pedestrian path",
+    "it": "fine percorsi affiancati",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "pista ciclabile",
+    "en": "cycle path"
+   },
+   {
+    "it": "riservato ai pedoni",
+    "en": "reserved for pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20396": {
+  "en": "The sign shown is placed at the end of the pedestrian path beside the cycle path.",
+  "explain": {
+   "short": "The bar ends both sides: the pedestrian path and the cycle path next to it.",
+   "rule": "Red bar = END of the two side-by-side paths (pedestrian path and cycle path).",
+   "trap": "'fine del percorso pedonale a fianco della pista ciclabile' is right: same sign, seen from the pedestrian side.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of pedestrian path beside the cycle path",
+    "it": "fine percorsi affiancati",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "percorso pedonale",
+    "en": "pedestrian path"
+   },
+   {
+    "it": "a fianco",
+    "en": "beside"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20397": {
+  "en": "The sign shown is placed at the end of the pedestrian path next to a cycle path.",
+  "explain": {
+   "short": "The red bar across the split sign ends the pedestrian path and the cycle path next to it.",
+   "rule": "Red bar = END of the two side-by-side paths (pedestrian path and cycle path).",
+   "trap": "'fine del percorso pedonale accanto ad un percorso ciclabile' is right: the bar means end.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of pedestrian and cycle paths side by side",
+    "it": "fine percorsi affiancati",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "percorso pedonale",
+    "en": "pedestrian path"
+   },
+   {
+    "it": "percorso ciclabile",
+    "en": "cycle path"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20398": {
+  "en": "The sign shown forbids all two-wheeled vehicles to pass.",
+  "explain": {
+   "short": "An end sign bans nothing: it only says the pedestrian and cycle paths end.",
+   "rule": "Red bar = END of the two side-by-side paths (pedestrian path and cycle path).",
+   "trap": "'vieta il transito' (forbids passage) is wrong: a blue sign with a red bar is an END, not a ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No ban: the two paths just end",
+    "it": "fine percorsi affiancati",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "forbids passage"
+   },
+   {
+    "it": "veicoli a due ruote",
+    "en": "two-wheeled vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20399": {
+  "en": "The sign shown forbids bicycles pushed by hand to pass.",
+  "explain": {
+   "short": "Nothing is forbidden: the sign only marks the end of the pedestrian and cycle paths.",
+   "rule": "Red bar = END of the two side-by-side paths (pedestrian path and cycle path).",
+   "trap": "'vieta il transito di biciclette condotte a mano' is wrong: an end sign does not ban anyone.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No ban: only the end of the paths",
+    "it": "fine percorsi affiancati",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "forbids passage"
+   },
+   {
+    "it": "condotte a mano",
+    "en": "pushed by hand"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20400": {
+  "en": "The sign shown is placed at a path reserved on some days for pedestrians and on others for bicycles.",
+  "explain": {
+   "short": "The two symbols are side by side because the paths are side by side, not because of different days.",
+   "rule": "Red bar = END of the two side-by-side paths (pedestrian path and cycle path).",
+   "trap": "'in alcuni giorni ... in altri' (some days ... other days) is wrong: no days are shown, and it is an end sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Side by side paths end, nothing about days",
+    "it": "fine percorsi affiancati",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pista riservata",
+    "en": "reserved path"
+   },
+   {
+    "it": "in alcuni giorni",
+    "en": "on some days"
+   },
+   {
+    "it": "in altri",
+    "en": "on others"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20401": {
+  "en": "The sign shown forbids pedestrians to enter at night.",
+  "explain": {
+   "short": "There is no time and no ban: it is just the end of the pedestrian and cycle paths.",
+   "rule": "Red bar = END of the two side-by-side paths (pedestrian path and cycle path).",
+   "trap": "'nelle ore notturne' (at night) is wrong: nothing on the sign speaks of hours or bans.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No night ban: the paths just end",
+    "it": "fine percorsi affiancati",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta",
+    "en": "forbids"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   },
+   {
+    "it": "ore notturne",
+    "en": "night hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20402": {
+  "en": "The sign shown is placed at the end of the single pedestrian and cycle path.",
+  "explain": {
+   "short": "Pedestrian above bicycle with a red bar: the shared path for pedestrians and cyclists ends.",
+   "rule": "Red bar = END of the shared path for pedestrians AND cyclists (both together).",
+   "trap": "'fine del percorso unico pedonale e ciclabile' is right: the whole shared path ends.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of the shared path for pedestrians and bikes",
+    "it": "fine percorso misto",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "percorso unico",
+    "en": "single path"
+   },
+   {
+    "it": "pedonale e ciclabile",
+    "en": "pedestrian and cycle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20404": {
+  "en": "The sign shown is placed at the end of the path reserved for mixed traffic of pedestrians and cyclists.",
+  "explain": {
+   "short": "The path shared by pedestrians and cyclists (mixed) ends here, as the red bar shows.",
+   "rule": "Red bar = END of the shared path for pedestrians AND cyclists (both together).",
+   "trap": "'circolazione mista' (mixed traffic) is right: it is the shared path, and 'fine' says it ends.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of the mixed pedestrian and cycle path",
+    "it": "fine percorso misto",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "circolazione mista",
+    "en": "mixed traffic"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   },
+   {
+    "it": "ciclisti",
+    "en": "cyclists"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20405": {
+  "en": "The sign shown is placed at a path reserved for pedestrians and bicycles.",
+  "explain": {
+   "short": "The red bar means the path ENDS. The start of the path is the same sign without the bar.",
+   "rule": "Red bar = END of the shared path for pedestrians AND cyclists (both together).",
+   "trap": "The statement forgets the red bar: it is the END of the path, not the path itself.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red bar: the shared path ENDS here",
+    "it": "fine percorso misto",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "percorso riservato",
+    "en": "reserved path"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20406": {
+  "en": "The sign shown is placed at the end of the cycle path only.",
+  "explain": {
+   "short": "The sign shows a pedestrian too: the whole shared path ends, not only the cycle path.",
+   "rule": "Red bar = END of the shared path for pedestrians AND cyclists (both together).",
+   "trap": "'della sola pista ciclabile' (of the cycle path only) is wrong: the pedestrian is also crossed out.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Both end: pedestrians AND cyclists",
+    "it": "fine percorso misto",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "sola",
+    "en": "only"
+   },
+   {
+    "it": "pista ciclabile",
+    "en": "cycle path"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20407": {
+  "en": "The sign shown forbids bicycles pushed by hand to pass.",
+  "explain": {
+   "short": "An end sign forbids nothing: the shared pedestrian and cycle path simply ends.",
+   "rule": "Red bar = END of the shared path for pedestrians AND cyclists (both together).",
+   "trap": "'vieta il transito' (forbids passage) is wrong: blue + red bar = end, not ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No ban: the shared path ends",
+    "it": "fine percorso misto",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "forbids passage"
+   },
+   {
+    "it": "condotte a mano",
+    "en": "pushed by hand"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20408": {
+  "en": "The sign shown is placed at the end of the pedestrian path only.",
+  "explain": {
+   "short": "The bicycle is also crossed out: the whole shared path ends, not only the pedestrian part.",
+   "rule": "Red bar = END of the shared path for pedestrians AND cyclists (both together).",
+   "trap": "'del solo percorso pedonale' (of the pedestrian path only) is wrong: the bicycle is on the sign too.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Both end: pedestrians AND cyclists",
+    "it": "fine percorso misto",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "percorso pedonale",
+    "en": "pedestrian path"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20409": {
+  "en": "The sign shown does not allow vehicles to pass.",
+  "explain": {
+   "short": "The path is reserved for riding and pack animals, so no vehicle of any kind may use it.",
+   "rule": "Blue round sign with horse and rider = path ONLY for riding and pack animals. No vehicles at all.",
+   "trap": "'non consente il transito ai veicoli' (no vehicles) is right: the path is only for animals.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only riding and pack animals: no vehicles",
+    "it": "animali da sella",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non consente il transito",
+    "en": "does not allow passage"
+   },
+   {
+    "it": "veicoli",
+    "en": "vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20410": {
+  "en": "The sign shown does not allow bicycles to pass.",
+  "explain": {
+   "short": "Bicycles are vehicles too: they may not use a path reserved for animals.",
+   "rule": "Blue round sign with horse and rider = path ONLY for riding and pack animals. No vehicles at all.",
+   "trap": "'biciclette' (bicycles) is right: even bicycles are vehicles and are excluded.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bicycles not allowed: animals only",
+    "it": "animali da sella",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non consente il transito",
+    "en": "does not allow passage"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20411": {
+  "en": "The sign shown does not allow vehicles with an electric motor to pass.",
+  "explain": {
+   "short": "No vehicle may use the path, electric ones included. It is only for riding and pack animals.",
+   "rule": "Blue round sign with horse and rider = path ONLY for riding and pack animals. No vehicles at all.",
+   "trap": "'motore elettrico' (electric motor) is right: electric or not, vehicles are excluded.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No electric vehicles either: animals only",
+    "it": "animali da sella",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non consente il transito",
+    "en": "does not allow passage"
+   },
+   {
+    "it": "motore elettrico",
+    "en": "electric motor"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20412": {
+  "en": "The sign shown is placed at the start of a path reserved for riding animals.",
+  "explain": {
+   "short": "The horse and rider mark the start of a path reserved for riding animals (animali da sella).",
+   "rule": "Blue round sign with horse and rider = path ONLY for riding and pack animals. No vehicles at all.",
+   "trap": "'animali da sella' (riding animals, like horses with a rider) is right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Start of a path for riding animals",
+    "it": "animali da sella",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'inizio",
+    "en": "at the start"
+   },
+   {
+    "it": "animali da sella",
+    "en": "riding animals"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20413": {
+  "en": "The sign shown is placed at the start of a path reserved for pack animals.",
+  "explain": {
+   "short": "The path is reserved for riding animals and also for pack animals (animali da soma, which carry loads).",
+   "rule": "Blue round sign with horse and rider = path ONLY for riding and pack animals. No vehicles at all.",
+   "trap": "'animali da soma' (pack animals) is right: the path is for both riding and pack animals.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Start of a path for pack animals too",
+    "it": "animali da soma",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'inizio",
+    "en": "at the start"
+   },
+   {
+    "it": "animali da soma",
+    "en": "pack animals"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20414": {
+  "en": "The sign shown is placed near a riding school.",
+  "explain": {
+   "short": "It does not mark a place like a riding school: it marks a path reserved for riding and pack animals.",
+   "rule": "Blue round sign with horse and rider = path ONLY for riding and pack animals. No vehicles at all.",
+   "trap": "'scuola di equitazione' (riding school) is wrong: the sign is an obligation for a path, not a place name.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A path for animals, not a riding school",
+    "it": "animali da sella",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "nelle vicinanze",
+    "en": "near"
+   },
+   {
+    "it": "scuola di equitazione",
+    "en": "riding school"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20415": {
+  "en": "The sign shown is a danger sign.",
+  "explain": {
+   "short": "It is round and blue: an obligation sign. Danger signs are red triangles.",
+   "rule": "Blue round sign with horse and rider = path ONLY for riding and pack animals. No vehicles at all.",
+   "trap": "'segnale di pericolo' (danger sign) is wrong: blue round = obligation, red triangle = danger.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Blue round = obligation, not danger",
+    "it": "segnale d'obbligo",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di pericolo",
+    "en": "danger sign"
+   },
+   {
+    "it": "Il segnale raffigurato",
+    "en": "the sign shown"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20416": {
+  "en": "The sign shown forbids pack and riding animals to pass.",
+  "explain": {
+   "short": "It is the opposite: the path is reserved FOR pack and riding animals.",
+   "rule": "Blue round sign with horse and rider = path ONLY for riding and pack animals. No vehicles at all.",
+   "trap": "'vieta il passaggio' (forbids passage) is wrong: blue = reserved for them, not a ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Reserved FOR animals, not against them",
+    "it": "animali da sella",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il passaggio",
+    "en": "forbids passage"
+   },
+   {
+    "it": "animali da soma e da sella",
+    "en": "pack and riding animals"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20417": {
+  "en": "The sign shown warns of loose animals.",
+  "explain": {
+   "short": "Loose animals are warned by a red triangle. This blue sign marks a path for riding animals.",
+   "rule": "Blue round sign with horse and rider = path ONLY for riding and pack animals. No vehicles at all.",
+   "trap": "'animali vaganti' (loose animals) is wrong: that is a danger sign, not this obligation sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not loose animals: a path for riders",
+    "it": "animali da sella",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "warns of"
+   },
+   {
+    "it": "animali vaganti",
+    "en": "loose animals"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20418": {
+  "en": "The sign shown warns of the obligation to give way to animals crossing.",
+  "explain": {
+   "short": "The sign reserves a path for riding and pack animals. It says nothing about giving way.",
+   "rule": "Blue round sign with horse and rider = path ONLY for riding and pack animals. No vehicles at all.",
+   "trap": "'dare precedenza' (give way) is wrong: the sign marks a reserved path, not a crossing.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A reserved path, not a give-way rule",
+    "it": "animali da sella",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo",
+    "en": "obligation"
+   },
+   {
+    "it": "dare precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "attraversano",
+    "en": "crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20419": {
+  "en": "The sign shown is placed at the end of a path for pack animals.",
+  "explain": {
+   "short": "The red bar across the horse means the path for pack and riding animals ends here.",
+   "rule": "Red bar = END of the path reserved for riding and pack animals.",
+   "trap": "'fine di un percorso per gli animali da soma' is right: the path was also for pack animals.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of the path for pack animals",
+    "it": "fine percorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "animali da soma",
+    "en": "pack animals"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20420": {
+  "en": "The sign shown is placed at the end of a path for riding animals.",
+  "explain": {
+   "short": "The red bar means the path reserved for riding animals ends here.",
+   "rule": "Red bar = END of the path reserved for riding and pack animals.",
+   "trap": "'fine di un percorso per gli animali da sella' is right: the horse and rider are crossed out.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of the path for riding animals",
+    "it": "fine percorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "animali da sella",
+    "en": "riding animals"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20421": {
+  "en": "The sign shown is placed at the end of the path reserved for pack and riding animals.",
+  "explain": {
+   "short": "This is exactly the meaning: the path for pack and riding animals ends.",
+   "rule": "Red bar = END of the path reserved for riding and pack animals.",
+   "trap": "'fine del percorso riservato agli animali da soma e da sella' is the full, exact meaning.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of path for pack and riding animals",
+    "it": "fine percorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "percorso riservato",
+    "en": "reserved path"
+   },
+   {
+    "it": "animali da soma e da sella",
+    "en": "pack and riding animals"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20422": {
+  "en": "The sign shown is placed near a racecourse.",
+  "explain": {
+   "short": "It marks the end of a path for riding and pack animals, not a racecourse (ippodromo).",
+   "rule": "Red bar = END of the path reserved for riding and pack animals.",
+   "trap": "'ippodromo' (racecourse) is wrong: the sign is about a reserved path, not a place for races.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of an animal path, not a racecourse",
+    "it": "fine percorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in vicinanza",
+    "en": "near"
+   },
+   {
+    "it": "ippodromo",
+    "en": "racecourse"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20423": {
+  "en": "The sign shown forbids animal-drawn vehicles to pass.",
+  "explain": {
+   "short": "An end sign forbids nothing: the path for riding and pack animals simply ends.",
+   "rule": "Red bar = END of the path reserved for riding and pack animals.",
+   "trap": "'vieta il transito' (forbids passage) is wrong: blue + red bar = end, not ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No ban: the animal path ends",
+    "it": "fine percorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vieta il transito",
+    "en": "forbids passage"
+   },
+   {
+    "it": "veicoli a trazione animale",
+    "en": "animal-drawn vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20424": {
+  "en": "The sign shown is placed at the end of a stretch of road closed to horses.",
+  "explain": {
+   "short": "The road was not closed to horses: it was a path reserved FOR them, and now it ends.",
+   "rule": "Red bar = END of the path reserved for riding and pack animals.",
+   "trap": "'vietato ai cavalli' (closed to horses) is wrong: the path was reserved for horses, not closed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "End of a path FOR horses, not against them",
+    "it": "fine percorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "tratto di strada",
+    "en": "stretch of road"
+   },
+   {
+    "it": "vietato ai cavalli",
+    "en": "closed to horses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20425": {
+  "en": "The sign shown is placed at the end of a path reserved only for racehorses.",
+  "explain": {
+   "short": "The path was for all riding and pack animals, not only for racehorses.",
+   "rule": "Red bar = END of the path reserved for riding and pack animals.",
+   "trap": "'solo ai cavalli da corsa' (only racehorses) is wrong: it is for riding and pack animals in general.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "For all riding and pack animals, not racehorses",
+    "it": "fine percorso",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "riservato solo",
+    "en": "reserved only"
+   },
+   {
+    "it": "cavalli da corsa",
+    "en": "racehorses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

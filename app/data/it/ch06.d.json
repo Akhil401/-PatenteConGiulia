@@ -1,0 +1,632 @@
+{
+ "q20905": {
+  "short": "Su una strada a senso unico la striscia discontinua mostra dove finisce una corsia e inizia l'altra.",
+  "rule": "Su una strada a senso unico, la striscia bianca discontinua separa solo le corsie. Tutte vanno nello stesso senso e puoi superarla per cambiare corsia.",
+  "trap": "«delimitare le corsie» è proprio il compito di questa striscia.",
+  "caption": "Senso unico: la striscia discontinua delimita le corsie",
+  "lines": [
+   "Strada a senso unico",
+   "Discontinua = confine di corsia"
+  ]
+ },
+ "q20906": {
+  "short": "La striscia discontinua divide la strada a senso unico in due corsie nello stesso senso.",
+  "rule": "Su una strada a senso unico, la striscia bianca discontinua separa solo le corsie. Tutte vanno nello stesso senso e puoi superarla per cambiare corsia.",
+  "trap": "«divide le corsie»: corsie, non sensi di marcia, perché la strada è a senso unico.",
+  "caption": "Discontinua: corsie affiancate, stesso senso",
+  "lines": [
+   "Stesso senso nelle due corsie",
+   "La discontinua divide le corsie"
+  ]
+ },
+ "q20907": {
+  "short": "Su una strada a senso unico non puoi mai tornare indietro: andresti contro il traffico. La striscia permette solo di cambiare corsia.",
+  "rule": "Su una strada a senso unico, la striscia bianca discontinua separa solo le corsie. Tutte vanno nello stesso senso e puoi superarla per cambiare corsia.",
+  "trap": "«inversione di marcia» non è mai permessa in un senso unico, qualunque sia la striscia.",
+  "caption": "Senso unico: inversione mai permessa",
+  "lines": [
+   "Discontinua: puoi cambiare corsia",
+   "Inversione nel senso unico: no"
+  ]
+ },
+ "q20908": {
+  "short": "Una striscia dipinta non crea due carreggiate: serve uno spartitraffico. Qui la striscia separa solo le corsie.",
+  "rule": "Su una strada a senso unico, la striscia bianca discontinua separa solo le corsie. Tutte vanno nello stesso senso e puoi superarla per cambiare corsia.",
+  "trap": "«due carreggiate, ognuna a doppio senso» è inventato: è una carreggiata con corsie.",
+  "caption": "Una carreggiata, due corsie: non due carreggiate",
+  "lines": [
+   "Una sola carreggiata",
+   "Discontinua = due corsie"
+  ]
+ },
+ "q20909": {
+  "short": "La striscia bianca discontinua si usa anche sulle strade a doppio senso, per separare i due sensi.",
+  "rule": "Su una strada a senso unico, la striscia bianca discontinua separa solo le corsie. Tutte vanno nello stesso senso e puoi superarla per cambiare corsia.",
+  "trap": "«solo» è la trappola: le discontinue ci sono anche sulle strade a doppio senso.",
+  "caption": "Discontinua: senso unico E doppio senso",
+  "lines": [
+   "Strade a senso unico: sì",
+   "Strade a doppio senso: anche"
+  ]
+ },
+ "q20910": {
+  "short": "Una strada a senso unico ha un solo senso: non ci sono due sensi da dividere. E sui dossi delle strade a doppio senso la striscia è continua.",
+  "rule": "Su una strada a senso unico, la striscia bianca discontinua separa solo le corsie. Tutte vanno nello stesso senso e puoi superarla per cambiare corsia.",
+  "trap": "«dividere i due sensi di marcia» è impossibile su una strada a «senso unico».",
+  "caption": "Senso unico: non ci sono due sensi",
+  "lines": [
+   "Senso unico: un solo senso",
+   "Sui dossi la striscia è continua"
+  ]
+ },
+ "q20911": {
+  "short": "La striscia continua di mezzo divide la carreggiata in due corsie, una per lato.",
+  "rule": "La striscia bianca continua di mezzo separa le corsie e, sulle strade a doppio senso, i due sensi. Non puoi mai superarla né passarci sopra.",
+  "trap": "«due corsie»: una carreggiata, due corsie.",
+  "caption": "Striscia continua di mezzo: due corsie",
+  "lines": [
+   "Una carreggiata",
+   "Striscia continua: due corsie"
+  ]
+ },
+ "q20912": {
+  "short": "La striscia continua è un limite da rispettare: non puoi passarci sopra.",
+  "rule": "La striscia bianca continua di mezzo separa le corsie e, sulle strade a doppio senso, i due sensi. Non puoi mai superarla né passarci sopra.",
+  "trap": "«non può essere superata» è il significato base della striscia continua.",
+  "caption": "Striscia continua: non superarla",
+  "lines": [
+   "Striscia continua di mezzo",
+   "Mai superarla, mai passarci sopra"
+  ]
+ },
+ "q20913": {
+  "short": "Su una strada a doppio senso la striscia continua di mezzo separa i due sensi.",
+  "rule": "La striscia bianca continua di mezzo separa le corsie e, sulle strade a doppio senso, i due sensi. Non puoi mai superarla né passarci sopra.",
+  "trap": "«divide i sensi di marcia»: sulle strade a doppio senso, sì.",
+  "caption": "Doppio senso: la striscia separa i sensi",
+  "lines": [
+   "Il tuo senso a destra",
+   "Striscia continua tra i due sensi"
+  ]
+ },
+ "q20914": {
+  "short": "Vicino alla cima di un dosso non vedi chi arriva. La striscia continua ti impedisce di andare nella sua corsia.",
+  "rule": "La striscia bianca continua di mezzo separa le corsie e, sulle strade a doppio senso, i due sensi. Non puoi mai superarla né passarci sopra.",
+  "trap": "«tratto in salita di un dosso» è un posto tipico per la striscia continua.",
+  "caption": "Prima del dosso: striscia continua, niente sorpasso",
+  "lines": [
+   "Dosso: non vedi avanti",
+   "Striscia continua: resta nella corsia"
+  ]
+ },
+ "q20915": {
+  "short": "Prima di un attraversamento pedonale la striscia continua impedisce il sorpasso: i pedoni sono più sicuri.",
+  "rule": "La striscia bianca continua di mezzo separa le corsie e, sulle strade a doppio senso, i due sensi. Non puoi mai superarla né passarci sopra.",
+  "trap": "«attraversamenti pedonali» sono un posto tipico per la striscia continua.",
+  "caption": "Vicino alle strisce pedonali: striscia continua",
+  "lines": [
+   "Attraversamento pedonale",
+   "Continua: niente sorpasso"
+  ]
+ },
+ "q20916": {
+  "short": "La striscia è il limite. Se puoi superare un veicolo lento (per esempio una bici) restando nella tua corsia, puoi farlo.",
+  "rule": "La striscia bianca continua di mezzo separa le corsie e, sulle strade a doppio senso, i due sensi. Non puoi mai superarla né passarci sopra.",
+  "trap": "«senza superarla» è la chiave: è vietato superare la striscia, non ogni sorpasso.",
+  "caption": "Sorpasso solo se resti nella tua corsia",
+  "lines": [
+   "Bici nella tua corsia",
+   "Superala senza toccare la striscia"
+  ]
+ },
+ "q20917": {
+  "short": "Una striscia dipinta divide corsie, non carreggiate. Due carreggiate hanno uno spartitraffico.",
+  "rule": "La striscia bianca continua di mezzo separa le corsie e, sulle strade a doppio senso, i due sensi. Non puoi mai superarla né passarci sopra.",
+  "trap": "«due carreggiate, ognuna a doppio senso» è inventato.",
+  "caption": "Una carreggiata con due corsie, non due carreggiate",
+  "lines": [
+   "Una sola carreggiata",
+   "Continua = due corsie"
+  ]
+ },
+ "q20918": {
+  "short": "Guidare con la striscia tra le ruote vuol dire guidarci sopra. La continua non si supera e non si percorre.",
+  "rule": "La striscia bianca continua di mezzo separa le corsie e, sulle strade a doppio senso, i due sensi. Non puoi mai superarla né passarci sopra.",
+  "trap": "«marciarvi a cavallo» è vietato: significa stare sopra la striscia.",
+  "caption": "A cavallo della continua: vietato",
+  "lines": [
+   "Striscia continua di mezzo",
+   "Mai superarla, mai passarci sopra"
+  ]
+ },
+ "q20919": {
+  "short": "La striscia continua non si supera mai, neanche con due ruote sole.",
+  "rule": "La striscia bianca continua di mezzo separa le corsie e, sulle strade a doppio senso, i due sensi. Non puoi mai superarla né passarci sopra.",
+  "trap": "«purché con le sole ruote di sinistra» sembra una piccola eccezione, ma non esiste.",
+  "caption": "Neanche le ruote di sinistra possono passare",
+  "lines": [
+   "Ruote sinistre oltre la linea: no",
+   "Continua: nessuna eccezione"
+  ]
+ },
+ "q20920": {
+  "short": "Per fare inversione dovresti superare la striscia continua. È vietato.",
+  "rule": "La striscia bianca continua di mezzo separa le corsie e, sulle strade a doppio senso, i due sensi. Non puoi mai superarla né passarci sopra.",
+  "trap": "«inversione di marcia» vuol dire superare la striscia, e la continua lo vieta.",
+  "caption": "Inversione sulla continua: vietata",
+  "lines": [
+   "Inversione = superare la striscia",
+   "Striscia continua: vietato"
+  ]
+ },
+ "q20921": {
+  "short": "Il numero 50 dipinto sulla strada indica la velocità consigliata in quel tratto.",
+  "rule": "Un numero dipinto sulla strada («iscrizione») indica la velocità consigliata. Non è un limite di peso.",
+  "trap": "«velocità consigliata»: un numero dipinto consiglia la velocità.",
+  "caption": "50 dipinto: velocità consigliata",
+  "lines": [
+   "50 dipinto sulla strada",
+   "Velocità consigliata nel tratto"
+  ]
+ },
+ "q20927": {
+  "short": "Il 50 dipinto riguarda la velocità, non il peso. I limiti di peso sono indicati da segnali verticali.",
+  "rule": "Un numero dipinto sulla strada («iscrizione») indica la velocità consigliata. Non è un limite di peso.",
+  "trap": "«50 quintali» confonde il numero 50 con un peso.",
+  "caption": "50 sulla strada = velocità, non peso",
+  "lines": [
+   "50 dipinto = velocità",
+   "Non è un limite di peso"
+  ]
+ },
+ "q20922": {
+  "short": "Strisce gialle e nere sulla strada indicano un rialzo che ti fa rallentare.",
+  "rule": "Strisce gialle e nere sulla strada indicano un dosso artificiale. Serve a farti rallentare; non è un attraversamento e non riguarda la sosta.",
+  "trap": "«dosso artificiale» è il nome giusto di questo dispositivo.",
+  "caption": "Strisce giallo-nere: dosso, rallenta",
+  "lines": [
+   "Strisce gialle e nere",
+   "Dosso: rallenta"
+  ]
+ },
+ "q20923": {
+  "short": "Il dosso è un tipo di rallentatore di velocità: obbliga a rallentare.",
+  "rule": "Strisce gialle e nere sulla strada indicano un dosso artificiale. Serve a farti rallentare; non è un attraversamento e non riguarda la sosta.",
+  "trap": "«rallentatore di velocità» è un altro nome di questo dosso.",
+  "caption": "Rallentatore di velocità sulla strada",
+  "lines": [
+   "Dosso sulla strada",
+   "Fa rallentare le auto"
+  ]
+ },
+ "q20924": {
+  "short": "Il dosso a strisce gialle e nere è un rallentatore di velocità: rallenta prima.",
+  "rule": "Strisce gialle e nere sulla strada indicano un dosso artificiale. Serve a farti rallentare; non è un attraversamento e non riguarda la sosta.",
+  "trap": "«rallentatore di velocità»: sì, è ciò che mostra la figura.",
+  "caption": "Dosso a strisce = rallentatore",
+  "lines": [
+   "Dosso giallo e nero",
+   "Rallenta prima"
+  ]
+ },
+ "q20928": {
+  "short": "Il dosso serve solo a far rallentare. Non dice nulla sulla sosta.",
+  "rule": "Strisce gialle e nere sulla strada indicano un dosso artificiale. Serve a farti rallentare; non è un attraversamento e non riguarda la sosta.",
+  "trap": "«vietata la sosta» non c'entra con il dosso.",
+  "caption": "Dosso: riguarda la velocità, non la sosta",
+  "lines": [
+   "Dosso: rallenta",
+   "Non riguarda la sosta"
+  ]
+ },
+ "q20929": {
+  "short": "L'attraversamento ciclabile ha segni bianchi, non strisce gialle e nere. Questo è un dosso.",
+  "rule": "Strisce gialle e nere sulla strada indicano un dosso artificiale. Serve a farti rallentare; non è un attraversamento e non riguarda la sosta.",
+  "trap": "«attraversamento ciclabile» è un'altra segnaletica.",
+  "caption": "Non è un attraversamento ciclabile: è un dosso",
+  "lines": [
+   "Strisce giallo-nere: dosso",
+   "Ciclabile: segni bianchi"
+  ]
+ },
+ "q20930": {
+  "short": "Le strisce pedonali sono bianche e larghe. Le strisce gialle e nere indicano un dosso.",
+  "rule": "Strisce gialle e nere sulla strada indicano un dosso artificiale. Serve a farti rallentare; non è un attraversamento e non riguarda la sosta.",
+  "trap": "«attraversamento pedonale» ha strisce bianche, non gialle e nere.",
+  "caption": "Non sono strisce pedonali: è un dosso",
+  "lines": [
+   "Strisce giallo-nere: dosso",
+   "Strisce pedonali: bianche"
+  ]
+ },
+ "q20925": {
+  "short": "Le strisce gialle indicano posti riservati. Con le strisce diagonali accanto, è un posto per persone invalide.",
+  "rule": "Le strisce gialle delimitano posti riservati alle persone invalide. Le strisce gialle diagonali accanto devono restare libere, per salire e scendere dal veicolo.",
+  "trap": "«riservata a persone invalide» è corretto per questo posto giallo.",
+  "caption": "Posto giallo con strisce: per invalidi",
+  "lines": [
+   "Strisce gialle = posto riservato",
+   "Per persone invalide"
+  ]
+ },
+ "q20926": {
+  "short": "L'area a strisce accanto al posto serve per aprire la porta e usare la sedia a rotelle. Non parcheggiare lì.",
+  "rule": "Le strisce gialle delimitano posti riservati alle persone invalide. Le strisce gialle diagonali accanto devono restare libere, per salire e scendere dal veicolo.",
+  "trap": "«devono essere lasciate libere»: non puoi sostare né fermarti su queste strisce.",
+  "caption": "Strisce diagonali: libere per salire e scendere",
+  "lines": [
+   "Area a strisce accanto al posto",
+   "Lasciala libera: spazio per la carrozzina"
+  ]
+ },
+ "q20931": {
+  "short": "Le strisce diagonali accanto al posto indicano che è per persone invalide, non per i taxi.",
+  "rule": "Le strisce gialle delimitano posti riservati alle persone invalide. Le strisce gialle diagonali accanto devono restare libere, per salire e scendere dal veicolo.",
+  "trap": "«taxi» è sbagliato: lo spazio a strisce è tipico del posto per invalidi.",
+  "caption": "Non per i taxi: per persone invalide",
+  "lines": [
+   "Posto giallo con strisce",
+   "Per invalidi, non taxi"
+  ]
+ },
+ "q20932": {
+  "short": "Lo spazio a strisce per scendere dall'auto indica un posto per invalidi, non per carico e scarico.",
+  "rule": "Le strisce gialle delimitano posti riservati alle persone invalide. Le strisce gialle diagonali accanto devono restare libere, per salire e scendere dal veicolo.",
+  "trap": "«carico e scarico di merci» è un'altra area riservata.",
+  "caption": "Non è carico e scarico: posto per invalidi",
+  "lines": [
+   "Posto giallo con strisce",
+   "Per invalidi, non merci"
+  ]
+ },
+ "q20933": {
+  "short": "La strada si allarga da un lato in una piazzola di sosta. La discontinua laterale ti permette di entrarci.",
+  "rule": "Una striscia bianca discontinua laterale indica un punto dove puoi superarla: piazzola di sosta, passo carrabile, corsia di accelerazione o strada laterale. Le strisce di guida nell'incrocio mostrano il percorso.",
+  "trap": "«piazzola di sosta» è proprio ciò che mostra la figura.",
+  "caption": "Discontinua laterale: ingresso in piazzola",
+  "lines": [
+   "Piazzola accanto alla strada",
+   "Discontinua: puoi entrare"
+  ]
+ },
+ "q20934": {
+  "short": "L'apertura sul lato è un passo carrabile. La discontinua indica che lì i veicoli possono entrare e uscire.",
+  "rule": "Una striscia bianca discontinua laterale indica un punto dove puoi superarla: piazzola di sosta, passo carrabile, corsia di accelerazione o strada laterale. Le strisce di guida nell'incrocio mostrano il percorso.",
+  "trap": "«passo carrabile» è l'apertura mostrata in figura.",
+  "caption": "Discontinua laterale davanti a un passo carrabile",
+  "lines": [
+   "Passo carrabile sul lato",
+   "Discontinua: qui si entra e si esce"
+  ]
+ },
+ "q20935": {
+  "short": "Dentro l'incrocio le strisce discontinue continuano le corsie e guidano il tuo percorso.",
+  "rule": "Una striscia bianca discontinua laterale indica un punto dove puoi superarla: piazzola di sosta, passo carrabile, corsia di accelerazione o strada laterale. Le strisce di guida nell'incrocio mostrano il percorso.",
+  "trap": "«strisce di guida» è il nome giusto delle discontinue dentro l'incrocio.",
+  "caption": "Discontinue nell'incrocio: strisce di guida",
+  "lines": [
+   "Le corsie continuano nell'incrocio",
+   "Le strisce guidano il percorso"
+  ]
+ },
+ "q20942": {
+  "short": "Le strisce di guida mostrano solo il percorso. Sono discontinue, quindi non vietano la svolta.",
+  "rule": "Una striscia bianca discontinua laterale indica un punto dove puoi superarla: piazzola di sosta, passo carrabile, corsia di accelerazione o strada laterale. Le strisce di guida nell'incrocio mostrano il percorso.",
+  "trap": "«non consentono la svolta» è sbagliato: le discontinue si possono superare.",
+  "caption": "Strisce di guida discontinue: puoi svoltare",
+  "lines": [
+   "Strisce di guida: discontinue",
+   "Non vietano la svolta"
+  ]
+ },
+ "q20936": {
+  "short": "La rampa entra nella strada con una corsia di accelerazione. La discontinua ti fa passare nella corsia principale.",
+  "rule": "Una striscia bianca discontinua laterale indica un punto dove puoi superarla: piazzola di sosta, passo carrabile, corsia di accelerazione o strada laterale. Le strisce di guida nell'incrocio mostrano il percorso.",
+  "trap": "«corsia di accelerazione» è la corsia dove chi entra prende velocità.",
+  "caption": "Discontinua laterale: corsia di accelerazione",
+  "lines": [
+   "Qui entra la rampa",
+   "Accelera, poi supera la discontinua"
+  ]
+ },
+ "q20944": {
+  "short": "Qui la corsia accanto alla discontinua è una corsia di accelerazione, dalla rampa. Non è un posto per fermarsi.",
+  "rule": "Una striscia bianca discontinua laterale indica un punto dove puoi superarla: piazzola di sosta, passo carrabile, corsia di accelerazione o strada laterale. Le strisce di guida nell'incrocio mostrano il percorso.",
+  "trap": "«piazzola di sosta» è sbagliato per questa figura: è una corsia di accelerazione.",
+  "caption": "Non è una piazzola: è una corsia di accelerazione",
+  "lines": [
+   "Qui entra la rampa",
+   "Accelerazione, non piazzola"
+  ]
+ },
+ "q20937": {
+  "short": "Dove arriva una strada laterale, il bordo della strada principale diventa discontinuo. Puoi superarlo per svoltare.",
+  "rule": "Una striscia bianca discontinua laterale indica un punto dove puoi superarla: piazzola di sosta, passo carrabile, corsia di accelerazione o strada laterale. Le strisce di guida nell'incrocio mostrano il percorso.",
+  "trap": "«strada principale»: la discontinua segue il bordo della strada principale.",
+  "caption": "Bordo discontinuo: strada principale e secondaria",
+  "lines": [
+   "Bordo principale: discontinuo",
+   "Qui entra la strada secondaria"
+  ]
+ },
+ "q20938": {
+  "short": "Una discontinua si può superare normalmente. La superi quando vuoi usare la piazzola.",
+  "rule": "Una striscia bianca discontinua laterale indica un punto dove puoi superarla: piazzola di sosta, passo carrabile, corsia di accelerazione o strada laterale. Le strisce di guida nell'incrocio mostrano il percorso.",
+  "trap": "«solo in caso di emergenza» è sbagliato: discontinua vuol dire che puoi superarla.",
+  "caption": "Discontinua: la superi per usare la piazzola",
+  "lines": [
+   "Discontinua: si può superare",
+   "Non solo in emergenza"
+  ]
+ },
+ "q20939": {
+  "short": "Il contrario: oltre la striscia c'è una piazzola, fatta proprio per la sosta.",
+  "rule": "Una striscia bianca discontinua laterale indica un punto dove puoi superarla: piazzola di sosta, passo carrabile, corsia di accelerazione o strada laterale. Le strisce di guida nell'incrocio mostrano il percorso.",
+  "trap": "«la sosta non è possibile» è il contrario dello scopo della piazzola.",
+  "caption": "Piazzola: fatta per la sosta",
+  "lines": [
+   "Piazzola oltre la striscia",
+   "Sosta: permessa lì"
+  ]
+ },
+ "q20943": {
+  "short": "L'apertura oltre la discontinua è un passo carrabile per veicoli, non una pista ciclabile.",
+  "rule": "Una striscia bianca discontinua laterale indica un punto dove puoi superarla: piazzola di sosta, passo carrabile, corsia di accelerazione o strada laterale. Le strisce di guida nell'incrocio mostrano il percorso.",
+  "trap": "«pista ciclabile» è sbagliato: la figura mostra un passo carrabile.",
+  "caption": "Non è una pista ciclabile: è un passo carrabile",
+  "lines": [
+   "Apertura sul lato",
+   "Passo carrabile, non ciclabile"
+  ]
+ },
+ "q20940": {
+  "short": "La corsia di emergenza è separata da una striscia CONTINUA: non ci entri se non in emergenza.",
+  "rule": "Una striscia bianca discontinua laterale indica un punto dove puoi superarla: piazzola di sosta, passo carrabile, corsia di accelerazione o strada laterale. Le strisce di guida nell'incrocio mostrano il percorso.",
+  "trap": "«corsia di emergenza» ha una striscia continua, non discontinua.",
+  "caption": "Corsia di emergenza: continua, non discontinua",
+  "lines": [
+   "Corsia di emergenza: continua",
+   "Discontinua laterale: piazzola, passo carrabile"
+  ]
+ },
+ "q20941": {
+  "short": "La banchina è la fascia oltre la striscia continua di margine. La discontinua laterale indica un punto in cui entrare, come una piazzola.",
+  "rule": "Una striscia bianca discontinua laterale indica un punto dove puoi superarla: piazzola di sosta, passo carrabile, corsia di accelerazione o strada laterale. Le strisce di guida nell'incrocio mostrano il percorso.",
+  "trap": "«banchina» (fascia accanto alla carreggiata) non si indica con una discontinua.",
+  "caption": "Discontinua laterale: non è l'inizio della banchina",
+  "lines": [
+   "Margine della strada: continua",
+   "Discontinua laterale: piazzola, passo carrabile"
+  ]
+ },
+ "q20945": {
+  "short": "La grande croce (X) dipinta sulla strada avverte che è vicino un passaggio a livello (incrocio con la ferrovia).",
+  "rule": "Vicino a un passaggio a livello sulla strada c'è una croce dipinta e una striscia continua. Fai attenzione ai treni, con o senza barriere, e non spostarti a sinistra.",
+  "trap": "«passaggio a livello» è ciò che annuncia la X dipinta.",
+  "caption": "X dipinta: passaggio a livello vicino",
+  "lines": [
+   "X dipinta: passaggio a livello",
+   "Striscia continua: resta a destra"
+  ]
+ },
+ "q20946": {
+  "short": "Queste strisce si usano prima dei passaggi a livello con e senza barriere. Quindi possono avvisare di uno senza barriere.",
+  "rule": "Vicino a un passaggio a livello sulla strada c'è una croce dipinta e una striscia continua. Fai attenzione ai treni, con o senza barriere, e non spostarti a sinistra.",
+  "trap": "«senza barriere» va bene: la segnaletica serve per i due tipi.",
+  "caption": "Passaggio a livello senza barriere: sì",
+  "lines": [
+   "X dipinta: passaggio a livello",
+   "Con o senza barriere"
+  ]
+ },
+ "q20947": {
+  "short": "Queste strisce si usano prima dei passaggi a livello con e senza barriere. Quindi possono avvisare di uno con barriere.",
+  "rule": "Vicino a un passaggio a livello sulla strada c'è una croce dipinta e una striscia continua. Fai attenzione ai treni, con o senza barriere, e non spostarti a sinistra.",
+  "trap": "«con barriere» va bene anche: i due tipi usano questa segnaletica.",
+  "caption": "Passaggio a livello con barriere: sì",
+  "lines": [
+   "X dipinta: passaggio a livello",
+   "Con o senza barriere"
+  ]
+ },
+ "q20948": {
+  "short": "La striscia continua prima del passaggio a livello vieta di spostarsi a sinistra: niente sorpasso, resta nella corsia.",
+  "rule": "Vicino a un passaggio a livello sulla strada c'è una croce dipinta e una striscia continua. Fai attenzione ai treni, con o senza barriere, e non spostarti a sinistra.",
+  "trap": "«non è consentito spostarsi nella parte sinistra»: la striscia continua lo vieta.",
+  "caption": "Striscia continua: non andare a sinistra",
+  "lines": [
+   "Striscia continua di mezzo",
+   "Niente spostamenti a sinistra, niente sorpasso"
+  ]
+ },
+ "q20949": {
+  "short": "Vicino a un passaggio a livello può arrivare un treno. Rallenta, guarda e ascolta.",
+  "rule": "Vicino a un passaggio a livello sulla strada c'è una croce dipinta e una striscia continua. Fai attenzione ai treni, con o senza barriere, e non spostarti a sinistra.",
+  "trap": "«eventuale sopraggiungere di treni» è il pericolo del passaggio a livello.",
+  "caption": "Passaggio a livello: attenzione ai treni",
+  "lines": [
+   "Passaggio a livello vicino",
+   "Guarda e ascolta: treni"
+  ]
+ },
+ "q20950": {
+  "short": "La X dipinta avvisa di un passaggio a livello con la ferrovia, non di un attraversamento del tram. E non indica 150 m.",
+  "rule": "Vicino a un passaggio a livello sulla strada c'è una croce dipinta e una striscia continua. Fai attenzione ai treni, con o senza barriere, e non spostarti a sinistra.",
+  "trap": "«attraversamento tranviario» e «150 metri» sono inventati.",
+  "caption": "Passaggio a livello, non attraversamento tram",
+  "lines": [
+   "X dipinta: ferrovia",
+   "Non è un attraversamento tram"
+  ]
+ },
+ "q20951": {
+  "short": "Si usano prima dei passaggi a livello con e senza barriere.",
+  "rule": "Vicino a un passaggio a livello sulla strada c'è una croce dipinta e una striscia continua. Fai attenzione ai treni, con o senza barriere, e non spostarti a sinistra.",
+  "trap": "«solo» è la trappola: anche senza barriere.",
+  "caption": "Con E senza barriere",
+  "lines": [
+   "X dipinta: passaggio a livello",
+   "Con o senza barriere"
+  ]
+ },
+ "q20952": {
+  "short": "La X dipinta avvisa di un passaggio a livello, non di un incrocio con il vigile.",
+  "rule": "Vicino a un passaggio a livello sulla strada c'è una croce dipinta e una striscia continua. Fai attenzione ai treni, con o senza barriere, e non spostarti a sinistra.",
+  "trap": "«incrocio regolato da Polizia locale» è inventato.",
+  "caption": "Non un incrocio col vigile: passaggio a livello",
+  "lines": [
+   "X dipinta: passaggio a livello",
+   "Non è un incrocio col vigile"
+  ]
+ },
+ "q20953": {
+  "short": "La X dipinta avvisa di un passaggio a livello. Le aree per gli autobus hanno segni gialli diversi.",
+  "rule": "Vicino a un passaggio a livello sulla strada c'è una croce dipinta e una striscia continua. Fai attenzione ai treni, con o senza barriere, e non spostarti a sinistra.",
+  "trap": "«parcheggio di autobus» è inventato.",
+  "caption": "Non è un'area bus: passaggio a livello",
+  "lines": [
+   "X dipinta: passaggio a livello",
+   "Non è un parcheggio bus"
+  ]
+ },
+ "q20955": {
+  "short": "Se l'auto si guasta puoi fermarti nella corsia di emergenza, ma non più di tre ore.",
+  "rule": "La corsia di emergenza è oltre una striscia bianca continua. Puoi fermarti solo per guasto o emergenza, al massimo tre ore. Non puoi viaggiare né sorpassare lì.",
+  "trap": "«per un massimo di tre ore» è il limite di tempo per la sosta per guasto.",
+  "caption": "Guasto: sosta in corsia A, max 3 ore",
+  "lines": [
+   "Guasto: fermati in corsia A",
+   "Massimo tre ore"
+  ]
+ },
+ "q20956": {
+  "short": "La corsia A è oltre una striscia continua ed è solo per le emergenze. Il sorpasso lì è vietato.",
+  "rule": "La corsia di emergenza è oltre una striscia bianca continua. Puoi fermarti solo per guasto o emergenza, al massimo tre ore. Non puoi viaggiare né sorpassare lì.",
+  "trap": "«non si può occupare per le manovre di sorpasso»: è corretto.",
+  "caption": "Niente sorpasso nella corsia di emergenza",
+  "lines": [
+   "Corsia A: solo emergenze",
+   "Sorpasso lì: vietato"
+  ]
+ },
+ "q20958": {
+  "short": "La striscia continua delimita la corsia di emergenza, solo per le emergenze. Non è un parcheggio.",
+  "rule": "La corsia di emergenza è oltre una striscia bianca continua. Puoi fermarti solo per guasto o emergenza, al massimo tre ore. Non puoi viaggiare né sorpassare lì.",
+  "trap": "«zona di parcheggio a tempo» è inventato; la sosta a pagamento o a tempo ha strisce blu.",
+  "caption": "Corsia di emergenza, non parcheggio a tempo",
+  "lines": [
+   "Corsia A: corsia di emergenza",
+   "Solo per guasto o emergenza"
+  ]
+ },
+ "q20959": {
+  "short": "Il traffico intenso non è un'emergenza. Non puoi superare la striscia continua per viaggiare nella corsia di emergenza.",
+  "rule": "La corsia di emergenza è oltre una striscia bianca continua. Puoi fermarti solo per guasto o emergenza, al massimo tre ore. Non puoi viaggiare né sorpassare lì.",
+  "trap": "«sempre» e «intenso traffico»: la coda non è un motivo per usare la corsia A.",
+  "caption": "Traffico intenso: resta fuori dalla corsia A",
+  "lines": [
+   "Coda nelle corsie B e C",
+   "La corsia A resta libera"
+  ]
+ },
+ "q20960": {
+  "short": "La corsia A è per emergenze e guasti, non per svoltare.",
+  "rule": "La corsia di emergenza è oltre una striscia bianca continua. Puoi fermarti solo per guasto o emergenza, al massimo tre ore. Non puoi viaggiare né sorpassare lì.",
+  "trap": "«svolta a destra» è inventato per questa corsia.",
+  "caption": "Corsia A: emergenze, non svolta a destra",
+  "lines": [
+   "Corsia A: corsia di emergenza",
+   "Solo per guasto o emergenza"
+  ]
+ },
+ "q20961": {
+  "short": "Per rallentare e uscire c'è la corsia di decelerazione, con striscia discontinua. La corsia A è solo per le emergenze.",
+  "rule": "La corsia di emergenza è oltre una striscia bianca continua. Puoi fermarti solo per guasto o emergenza, al massimo tre ore. Non puoi viaggiare né sorpassare lì.",
+  "trap": "«decelerazione» appartiene alla corsia di decelerazione, non a quella di emergenza.",
+  "caption": "La corsia A non è di decelerazione",
+  "lines": [
+   "Corsia A: corsia di emergenza",
+   "Solo per guasto o emergenza"
+  ]
+ },
+ "q20962": {
+  "short": "Viaggiare nella corsia di emergenza è vietato a tutti i veicoli, anche alle moto.",
+  "rule": "La corsia di emergenza è oltre una striscia bianca continua. Puoi fermarti solo per guasto o emergenza, al massimo tre ore. Non puoi viaggiare né sorpassare lì.",
+  "trap": "«ma non al transito dei motocicli» è un'eccezione inventata.",
+  "caption": "Corsia A: vietata ad auto E moto",
+  "lines": [
+   "Corsia A: non si viaggia",
+   "Anche le moto"
+  ]
+ },
+ "q20963": {
+  "short": "Con il semaforo rosso ti fermi prima della striscia continua trasversale.",
+  "rule": "La striscia bianca continua trasversale (linea di arresto) indica dove fermarsi quando devi: semaforo rosso, ordine del vigile o segnale di STOP.",
+  "trap": "«semaforo a luce rossa»: è un caso in cui devi fermarti alla striscia.",
+  "caption": "Semaforo rosso: fermati prima della striscia",
+  "lines": [
+   "Semaforo rosso",
+   "Fermati prima della striscia"
+  ]
+ },
+ "q20964": {
+  "short": "Quando il vigile ti ordina di fermarti, ti fermi alla linea di arresto.",
+  "rule": "La striscia bianca continua trasversale (linea di arresto) indica dove fermarsi quando devi: semaforo rosso, ordine del vigile o segnale di STOP.",
+  "trap": "«sempre ... se il vigile lo impone»: «sempre» è giusto grazie alla condizione.",
+  "caption": "Il vigile dice stop: fermati alla striscia",
+  "lines": [
+   "Il vigile ordina l'arresto",
+   "Fermati alla striscia continua"
+  ]
+ },
+ "q20965": {
+  "short": "Con la scritta STOP prima, questa striscia è il punto dove devi fermarti prima dell'incrocio.",
+  "rule": "La striscia bianca continua trasversale (linea di arresto) indica dove fermarsi quando devi: semaforo rosso, ordine del vigile o segnale di STOP.",
+  "trap": "«arrestarsi»: con lo STOP devi sempre fermarti alla striscia.",
+  "caption": "STOP + striscia continua: fermati qui",
+  "lines": [
+   "STOP dipinto sulla strada",
+   "Fermati alla striscia continua"
+  ]
+ },
+ "q20966": {
+  "short": "A questo incrocio la striscia serve per fermarsi con il rosso o se lo ordina il vigile. «Non regolato» è il contrario.",
+  "rule": "La striscia bianca continua trasversale (linea di arresto) indica dove fermarsi quando devi: semaforo rosso, ordine del vigile o segnale di STOP.",
+  "trap": "«se non è regolato» è sbagliato: ti fermi qui quando l'incrocio È regolato.",
+  "caption": "Linea di arresto: per incroci regolati",
+  "lines": [
+   "Linea di arresto: rosso o vigile",
+   "Non «quando non è regolato»"
+  ]
+ },
+ "q20967": {
+  "short": "Ti fermi a questa striscia solo quando devi: rosso o vigile. Con il verde prosegui.",
+  "rule": "La striscia bianca continua trasversale (linea di arresto) indica dove fermarsi quando devi: semaforo rosso, ordine del vigile o segnale di STOP.",
+  "trap": "«sempre» è la trappola: non sempre, solo quando è richiesto.",
+  "caption": "Non sempre: solo con il rosso o su ordine",
+  "lines": [
+   "Verde: prosegui",
+   "Rosso: fermati alla striscia"
+  ]
+ },
+ "q20968": {
+  "short": "La striscia indica solo DOVE fermarsi. Da sola non crea un obbligo di precedenza; qui l'incrocio è regolato.",
+  "rule": "La striscia bianca continua trasversale (linea di arresto) indica dove fermarsi quando devi: semaforo rosso, ordine del vigile o segnale di STOP.",
+  "trap": "«obbligatorio dare la precedenza»: la striscia indica un punto di arresto, non un dare precedenza.",
+  "caption": "Linea di arresto: dove fermarsi, non precedenza",
+  "lines": [
+   "La striscia indica dove fermarsi",
+   "Non è un dare precedenza"
+  ]
+ },
+ "q20969": {
+  "short": "La figura mostra un incrocio tra strade pubbliche. È una linea di arresto all'incrocio, non l'uscita di una proprietà privata.",
+  "rule": "La striscia bianca continua trasversale (linea di arresto) indica dove fermarsi quando devi: semaforo rosso, ordine del vigile o segnale di STOP.",
+  "trap": "«proprietà privata» non è ciò che mostra la figura.",
+  "caption": "Linea di arresto all'incrocio, non uscita privata",
+  "lines": [
+   "Striscia continua trasversale",
+   "Fermati qui quando devi"
+  ]
+ }
+}

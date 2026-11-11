@@ -1,0 +1,410 @@
+{
+ "q21452": {
+  "short": "La freccia sotto MILANO va diritto: per Milano si prosegue diritto.",
+  "rule": "Cartello bianco con frecce: annuncia un incrocio in città. Milano diritto, centro a destra.",
+  "trap": "«proseguire diritto» corrisponde alla freccia diritta.",
+  "caption": "Milano: diritto"
+ },
+ "q21453": {
+  "short": "Indica due luoghi: Milano (diritto) e il centro (a destra).",
+  "rule": "Cartello bianco con frecce: annuncia un incrocio in città. Milano diritto, centro a destra.",
+  "trap": "«due determinate destinazioni»: contale, Milano e centro.",
+  "caption": "Due destinazioni: Milano e centro"
+ },
+ "q21454": {
+  "short": "La freccia per «centro» gira a destra: all'incrocio si va a destra per il centro.",
+  "rule": "Cartello bianco con frecce: annuncia un incrocio in città. Milano diritto, centro a destra.",
+  "trap": "«centro cittadino» è la parola «centro» con il simbolo a bersaglio.",
+  "caption": "Centro: a destra all'incrocio"
+ },
+ "q21455": {
+  "short": "Lo sfondo bianco si usa per i cartelli di direzione sulle strade urbane.",
+  "rule": "Cartello bianco con frecce: annuncia un incrocio in città. Milano diritto, centro a destra.",
+  "trap": "«si può trovare» dice solo che è possibile; e bianco vuol dire urbano.",
+  "caption": "Sfondo bianco = strada urbana"
+ },
+ "q21456": {
+  "short": "Sta prima di un incrocio; la freccia diritta indica la strada per Milano.",
+  "rule": "Cartello bianco con frecce: annuncia un incrocio in città. Milano diritto, centro a destra.",
+  "trap": "«preavvisa»: l'incrocio è un po' più avanti.",
+  "caption": "Incrocio avanti: Milano diritto"
+ },
+ "q21457": {
+  "short": "Questo cartello può stare su ogni strada urbana, a senso unico o a doppio senso.",
+  "rule": "Cartello bianco con frecce: annuncia un incrocio in città. Milano diritto, centro a destra.",
+  "trap": "La trappola è «solo»: il cartello non parla di senso unico.",
+  "caption": "Non solo sensi unici: ogni strada urbana"
+ },
+ "q21458": {
+  "short": "Il simbolo a bersaglio vicino a «centro» vuol dire centro città, non poligono di tiro.",
+  "rule": "Cartello bianco con frecce: annuncia un incrocio in città. Milano diritto, centro a destra.",
+  "trap": "Il simbolo rotondo è il centro città, non il «poligono di tiro a segno».",
+  "caption": "Bersaglio = centro città, non poligono"
+ },
+ "q21459": {
+  "short": "A destra si va al centro città; il cartello non parla di strada secondaria.",
+  "rule": "Cartello bianco con frecce: annuncia un incrocio in città. Milano diritto, centro a destra.",
+  "trap": "«strada secondaria» è inventata: la freccia a destra porta al «centro».",
+  "caption": "Destra = centro, non strada secondaria"
+ },
+ "q21460": {
+  "short": "È un cartello di direzione con nomi di luoghi; non parla di senso unico o doppio senso.",
+  "rule": "Cartello bianco con frecce: annuncia un incrocio in città. Milano diritto, centro a destra.",
+  "trap": "«fine del doppio senso» non c'entra con frecce verso luoghi.",
+  "caption": "Direzioni verso luoghi, non senso unico"
+ },
+ "q21461": {
+  "short": "«centro» con il simbolo a bersaglio è il centro città, non un centro commerciale.",
+  "rule": "Cartello bianco con frecce: annuncia un incrocio in città. Milano diritto, centro a destra.",
+  "trap": "«centro commerciale» è una trappola sulla parola «centro».",
+  "caption": "Centro = centro città, non commerciale"
+ },
+ "q21462": {
+  "short": "I cartelli di uscita a sfondo blu si usano sulle strade extraurbane principali.",
+  "rule": "Cartello blu «uscita»: l'uscita per Frosinone è a 500 m; elenca le località raggiungibili, marrone = località turistiche.",
+  "trap": "«extraurbane principali» = blu; l'autostrada sarebbe verde.",
+  "caption": "Uscita blu = strada extraurbana principale"
+ },
+ "q21463": {
+  "short": "In alto «uscita FROSINONE», in basso «500 m»: l'uscita è a 500 metri.",
+  "rule": "Cartello blu «uscita»: l'uscita per Frosinone è a 500 m; elenca le località raggiungibili, marrone = località turistiche.",
+  "trap": "A 500 m c'è lo «svincolo di uscita», non la città.",
+  "caption": "Uscita Frosinone a 500 m"
+ },
+ "q21464": {
+  "short": "La parte centrale elenca le località (Ceccano, Priverno, Terracina...) raggiungibili da questa uscita.",
+  "rule": "Cartello blu «uscita»: l'uscita per Frosinone è a 500 m; elenca le località raggiungibili, marrone = località turistiche.",
+  "trap": "«uscendo»: queste località si raggiungono dopo l'uscita.",
+  "caption": "Località raggiungibili da questa uscita"
+ },
+ "q21465": {
+  "short": "Circeo e Campocatino sono su riquadri marroni: il marrone indica località turistiche.",
+  "rule": "Cartello blu «uscita»: l'uscita per Frosinone è a 500 m; elenca le località raggiungibili, marrone = località turistiche.",
+  "trap": "«fondo marrone» è il colore del turismo.",
+  "caption": "Riquadri marroni = località turistiche"
+ },
+ "q21466": {
+  "short": "I «500 m» in basso sono la distanza dal cartello all'uscita.",
+  "rule": "Cartello blu «uscita»: l'uscita per Frosinone è a 500 m; elenca le località raggiungibili, marrone = località turistiche.",
+  "trap": "«distanza ... prossimo svincolo» = i 500 m.",
+  "caption": "500 m dal cartello all'uscita"
+ },
+ "q21467": {
+  "short": "Sta sulla strada principale prima dell'uscita per Frosinone, non dove si esce dal paese.",
+  "rule": "Cartello blu «uscita»: l'uscita per Frosinone è a 500 m; elenca le località raggiungibili, marrone = località turistiche.",
+  "trap": "«uscendo dal comune» confonde «uscita» della strada con l'uscita da un paese.",
+  "caption": "Prima dell'uscita, non fuori dal paese"
+ },
+ "q21468": {
+  "short": "A 500 m c'è l'USCITA Frosinone, non la città.",
+  "rule": "Cartello blu «uscita»: l'uscita per Frosinone è a 500 m; elenca le località raggiungibili, marrone = località turistiche.",
+  "trap": "«si arriva al comune» è sbagliato: i 500 m sono fino all'uscita.",
+  "caption": "500 m all'uscita, non alla città"
+ },
+ "q21469": {
+  "short": "Solo l'uscita è a 500 m; le località sono più lontane, dopo l'uscita.",
+  "rule": "Cartello blu «uscita»: l'uscita per Frosinone è a 500 m; elenca le località raggiungibili, marrone = località turistiche.",
+  "trap": "La trappola è «tutte le località»: 500 m è solo l'uscita.",
+  "caption": "Solo l'uscita è a 500 m"
+ },
+ "q21470": {
+  "short": "Annuncia solo la prossima uscita; la strada continua dopo.",
+  "rule": "Cartello blu «uscita»: l'uscita per Frosinone è a 500 m; elenca le località raggiungibili, marrone = località turistiche.",
+  "trap": "«non è più percorribile» e «ultima uscita» sono inventati.",
+  "caption": "Prossima uscita, la strada continua"
+ },
+ "q21471": {
+  "short": "L'inizio di un paese è un cartello bianco con il nome; questo è un preavviso di uscita blu.",
+  "rule": "Cartello blu «uscita»: l'uscita per Frosinone è a 500 m; elenca le località raggiungibili, marrone = località turistiche.",
+  "trap": "«inizio di un centro abitato» ha un altro cartello, bianco.",
+  "caption": "Uscita, non inizio di paese"
+ },
+ "q21472": {
+  "short": "Il nome del paese con la barra rossa vuol dire che si esce dal paese.",
+  "rule": "Barra rossa sul nome = fine del paese; il pannello blu elenca le località successive con i km.",
+  "trap": "«fine»: la barra rossa sul nome vuol dire sempre fine.",
+  "caption": "Barra rossa sul nome = fine del paese"
+ },
+ "q21473": {
+  "short": "Le località vanno dalla più vicina alla più lontana: S. Cesareo (7 km) in alto è il prossimo paese.",
+  "rule": "Barra rossa sul nome = fine del paese; il pannello blu elenca le località successive con i km.",
+  "trap": "«prima riga in alto» = la località più vicina.",
+  "caption": "Prima riga = prossimo paese (S. Cesareo)"
+ },
+ "q21474": {
+  "short": "La parte alta dice che il paese finisce; il pannello blu mostra le località dopo.",
+  "rule": "Barra rossa sul nome = fine del paese; il pannello blu elenca le località successive con i km.",
+  "trap": "«e le località successive» è il pannello blu.",
+  "caption": "Fine paese + località successive"
+ },
+ "q21475": {
+  "short": "Il numero vicino a ogni nome (7, 63, 190) è la distanza in km.",
+  "rule": "Barra rossa sul nome = fine del paese; il pannello blu elenca le località successive con i km.",
+  "trap": "«distanza chilometrica»: i numeri sono km, non numeri di strada.",
+  "caption": "Numeri = distanza in km"
+ },
+ "q21476": {
+  "short": "Vicino a NAPOLI c'è 190: Napoli è a 190 km.",
+  "rule": "Barra rossa sul nome = fine del paese; il pannello blu elenca le località successive con i km.",
+  "trap": "«mancano»: 190 sono i km ancora da fare.",
+  "caption": "Napoli: mancano 190 km"
+ },
+ "q21477": {
+  "short": "Vicino a S. CESAREO c'è 7: è a 7 km.",
+  "rule": "Barra rossa sul nome = fine del paese; il pannello blu elenca le località successive con i km.",
+  "trap": "«mancano 7 chilometri» corrisponde al numero.",
+  "caption": "S. Cesareo: mancano 7 km"
+ },
+ "q21478": {
+  "short": "La barra rossa vuol dire fine del paese Montecompatri; non parla di salita.",
+  "rule": "Barra rossa sul nome = fine del paese; il pannello blu elenca le località successive con i km.",
+  "trap": "«in salita» è inventato: la salita ha un triangolo di pericolo.",
+  "caption": "Fine paese, non salita"
+ },
+ "q21479": {
+  "short": "Stai uscendo da Montecompatri; la barra rossa non è un divieto.",
+  "rule": "Barra rossa sul nome = fine del paese; il pannello blu elenca le località successive con i km.",
+  "trap": "«non è possibile raggiungere»: la barra rossa è fine paese, non chiuso.",
+  "caption": "Si esce da Montecompatri, non è divieto"
+ },
+ "q21480": {
+  "short": "190 è la distanza in km per Napoli, non il numero di una strada.",
+  "rule": "Barra rossa sul nome = fine del paese; il pannello blu elenca le località successive con i km.",
+  "trap": "La trappola è «strada statale n. 190»: qui non ci sono numeri di strada.",
+  "caption": "190 = km per Napoli, non numero di strada"
+ },
+ "q21481": {
+  "short": "Mostra la fine di un paese e le località dopo; la strada è aperta.",
+  "rule": "Barra rossa sul nome = fine del paese; il pannello blu elenca le località successive con i km.",
+  "trap": "«chiusa al traffico»: la barra rossa non è un divieto di accesso.",
+  "caption": "Fine paese, strada aperta"
+ },
+ "q21482": {
+  "short": "Sta dove una strada normale esce da un paese; le strade extraurbane principali non attraversano i paesi.",
+  "rule": "Barra rossa sul nome = fine del paese; il pannello blu elenca le località successive con i km.",
+  "trap": "Sulle «extraurbane principali» non ci sono cartelli di fine paese.",
+  "caption": "Su strada che esce dal paese, non principale"
+ },
+ "q21483": {
+  "short": "La barra rossa sul nome vuol dire FINE del paese, non inizio.",
+  "rule": "Barra rossa sul nome = fine del paese; il pannello blu elenca le località successive con i km.",
+  "trap": "«inizio» o «fine»: la barra rossa vuol dire sempre fine.",
+  "caption": "Barra rossa = fine, non inizio"
+ },
+ "q21484": {
+  "short": "C'è scritto «area pedonale» con il simbolo del pedone: qui comincia l'area pedonale.",
+  "rule": "«area pedonale» = inizio di un'area pedonale; il pannello «eccetto» elenca i veicoli che possono entrare.",
+  "trap": "«area pedonale» è scritto sul cartello.",
+  "caption": "Inizio di un'area pedonale"
+ },
+ "q21485": {
+  "short": "Il pannello sotto comincia con «eccetto» ed elenca i veicoli che possono entrare.",
+  "rule": "«area pedonale» = inizio di un'area pedonale; il pannello «eccetto» elenca i veicoli che possono entrare.",
+  "trap": "Il «pannello aggiuntivo» è la parte bassa con l'elenco.",
+  "caption": "Pannello «eccetto» = veicoli ammessi"
+ },
+ "q21486": {
+  "short": "Il pannello fa entrare i veicoli merci autorizzati, negli orari indicati, per caricare e scaricare.",
+  "rule": "«area pedonale» = inizio di un'area pedonale; il pannello «eccetto» elenca i veicoli che possono entrare.",
+  "trap": "«carico e scarico merci» è una delle eccezioni del pannello.",
+  "caption": "Veicoli merci ammessi in certi orari"
+ },
+ "q21487": {
+  "short": "Il pannello ha il simbolo della carrozzina: i veicoli al servizio dei disabili possono entrare.",
+  "rule": "«area pedonale» = inizio di un'area pedonale; il pannello «eccetto» elenca i veicoli che possono entrare.",
+  "trap": "«persone diversamente abili» = il simbolo della carrozzina.",
+  "caption": "Veicoli per disabili ammessi"
+ },
+ "q21488": {
+  "short": "Indica un'area pedonale; la polizia è solo una delle eccezioni.",
+  "rule": "«area pedonale» = inizio di un'area pedonale; il pannello «eccetto» elenca i veicoli che possono entrare.",
+  "trap": "«stazione di polizia»: il simbolo della polizia è solo nell'elenco delle eccezioni.",
+  "caption": "Area pedonale, non polizia"
+ },
+ "q21489": {
+  "short": "È un'area per pedoni; i veicoli per disabili sono una delle eccezioni.",
+  "rule": "«area pedonale» = inizio di un'area pedonale; il pannello «eccetto» elenca i veicoli che possono entrare.",
+  "trap": "La trappola è «solo»: il pannello elenca anche altri veicoli.",
+  "caption": "Per pedoni, non solo per disabili"
+ },
+ "q21490": {
+  "short": "La persona che cammina è un pedone: è un'area pedonale.",
+  "rule": "«area pedonale» = inizio di un'area pedonale; il pannello «eccetto» elenca i veicoli che possono entrare.",
+  "trap": "«polizia a piedi»: la figura è un pedone qualsiasi, non un vigile.",
+  "caption": "Pedone, non polizia a piedi"
+ },
+ "q21491": {
+  "short": "Indica un'area pedonale; non parla di venditori ambulanti.",
+  "rule": "«area pedonale» = inizio di un'area pedonale; il pannello «eccetto» elenca i veicoli che possono entrare.",
+  "trap": "«venditori ambulanti» è inventato.",
+  "caption": "Area pedonale, non venditori"
+ },
+ "q21492": {
+  "short": "C'è scritto «zona traffico limitato»: qui comincia la ZTL.",
+  "rule": "«zona traffico limitato» = inizio di una ZTL: entrano solo le categorie di veicoli del pannello.",
+  "trap": "«zona a traffico limitato» è scritto sul cartello.",
+  "caption": "Inizio di una ZTL"
+ },
+ "q21493": {
+  "short": "Nella ZTL entrano solo i veicoli elencati nel pannello.",
+  "rule": "«zona traffico limitato» = inizio di una ZTL: entrano solo le categorie di veicoli del pannello.",
+  "trap": "«solo ad alcune categorie» è proprio il senso di «limitato».",
+  "caption": "Entrano solo alcune categorie"
+ },
+ "q21494": {
+  "short": "Dopo «eccetto» il pannello elenca i veicoli che possono entrare.",
+  "rule": "«zona traffico limitato» = inizio di una ZTL: entrano solo le categorie di veicoli del pannello.",
+  "trap": "«possono entrare» = l'elenco dopo «eccetto».",
+  "caption": "Pannello «eccetto» = veicoli ammessi"
+ },
+ "q21495": {
+  "short": "Il pannello nomina le categorie ammesse: veicoli per disabili, di soccorso, merci.",
+  "rule": "«zona traffico limitato» = inizio di una ZTL: entrano solo le categorie di veicoli del pannello.",
+  "trap": "«ammessi al transito» = le eccezioni del pannello.",
+  "caption": "Il pannello elenca le categorie ammesse"
+ },
+ "q21496": {
+  "short": "Indica una zona a traffico limitato; il senso unico ha un cartello blu con freccia.",
+  "rule": "«zona traffico limitato» = inizio di una ZTL: entrano solo le categorie di veicoli del pannello.",
+  "trap": "«senso unico» non c'entra con il disco a bordo rosso.",
+  "caption": "ZTL, non senso unico"
+ },
+ "q21497": {
+  "short": "Il divieto ha eccezioni: i veicoli dopo «eccetto» possono entrare.",
+  "rule": "«zona traffico limitato» = inizio di una ZTL: entrano solo le categorie di veicoli del pannello.",
+  "trap": "La trappola è «tutti»: alcune categorie sono ammesse.",
+  "caption": "Non tutti vietati: ci sono eccezioni"
+ },
+ "q21498": {
+  "short": "Indica una zona a traffico limitato in città, non una zona militare.",
+  "rule": "«zona traffico limitato» = inizio di una ZTL: entrano solo le categorie di veicoli del pannello.",
+  "trap": "«zona militare»: qui «zona» è «zona traffico limitato».",
+  "caption": "ZTL, non zona militare"
+ },
+ "q21499": {
+  "short": "L'accesso è limitato ad alcuni veicoli per regola, non per il traffico intenso.",
+  "rule": "«zona traffico limitato» = inizio di una ZTL: entrano solo le categorie di veicoli del pannello.",
+  "trap": "«intenso traffico» è una trappola sulla parola «traffico».",
+  "caption": "Accesso limitato, non chiusa per traffico"
+ },
+ "q21500": {
+  "short": "Il pannello ammette veicoli per disabili, di soccorso e merci, non «solo residenti».",
+  "rule": "«zona traffico limitato» = inizio di una ZTL: entrano solo le categorie di veicoli del pannello.",
+  "trap": "La trappola è «solo ai residenti»: il pannello non lo dice.",
+  "caption": "Non solo residenti: le categorie elencate"
+ },
+ "q21501": {
+  "short": "C'è scritto «zona traffico limitato» con disco a bordo rosso; l'area pedonale ha il pedone.",
+  "rule": "«zona traffico limitato» = inizio di una ZTL: entrano solo le categorie di veicoli del pannello.",
+  "trap": "«area pedonale» è un altro cartello, con la persona che cammina.",
+  "caption": "ZTL, non area pedonale"
+ },
+ "q21502": {
+  "short": "Dice se il passo dello Stelvio è aperto o chiuso e cosa serve.",
+  "rule": "Cartello di montagna: il passo dello Stelvio è aperto, ma solo con catene o pneumatici invernali.",
+  "trap": "«condizioni di transitabilità» è il nome di questo cartello.",
+  "caption": "Passo dello Stelvio: transitabilità"
+ },
+ "q21503": {
+  "short": "Il simbolo della ruota con catene sotto «aperto» vuol dire: servono catene o gomme invernali.",
+  "rule": "Cartello di montagna: il passo dello Stelvio è aperto, ma solo con catene o pneumatici invernali.",
+  "trap": "«necessario» e «solo»: qui è un obbligo, non un consiglio.",
+  "caption": "Solo con catene o gomme invernali"
+ },
+ "q21504": {
+  "short": "«aperto» dice che la strada è aperta; il simbolo la limita ai veicoli con catene o gomme invernali.",
+  "rule": "Cartello di montagna: il passo dello Stelvio è aperto, ma solo con catene o pneumatici invernali.",
+  "trap": "«aperta, ma solo»: le due parti sono sul cartello.",
+  "caption": "Aperta, ma solo con catene o gomme invernali"
+ },
+ "q21505": {
+  "short": "Dà le condizioni di un passo di montagna, quindi sta sulle strade di montagna.",
+  "rule": "Cartello di montagna: il passo dello Stelvio è aperto, ma solo con catene o pneumatici invernali.",
+  "trap": "«strade di montagna»: lo Stelvio è un passo di alta montagna.",
+  "caption": "Si trova su strade di montagna"
+ },
+ "q21506": {
+  "short": "Il passo è «aperto», quindi si può raggiungere (con catene o gomme invernali).",
+  "rule": "Cartello di montagna: il passo dello Stelvio è aperto, ma solo con catene o pneumatici invernali.",
+  "trap": "«aperto» = è possibile raggiungere il passo.",
+  "caption": "Passo aperto: si può raggiungere"
+ },
+ "q21507": {
+  "short": "Chiede catene o gomme invernali, non gomme nuove.",
+  "rule": "Cartello di montagna: il passo dello Stelvio è aperto, ma solo con catene o pneumatici invernali.",
+  "trap": "La trappola è «pneumatici nuovi»: il simbolo vuol dire catene o gomme invernali.",
+  "caption": "Catene o gomme invernali, non nuove"
+ },
+ "q21508": {
+  "short": "Qui catene o gomme invernali sono necessarie, non solo consigliate.",
+  "rule": "Cartello di montagna: il passo dello Stelvio è aperto, ma solo con catene o pneumatici invernali.",
+  "trap": "«consiglia» è troppo debole: è un obbligo.",
+  "caption": "Obbligo, non consiglio"
+ },
+ "q21509": {
+  "short": "Chiede catene OPPURE gomme invernali, e non parla di quattro ruote.",
+  "rule": "Cartello di montagna: il passo dello Stelvio è aperto, ma solo con catene o pneumatici invernali.",
+  "trap": "«su tutte le quattro ruote» è inventato.",
+  "caption": "Catene o gomme invernali, non 4 ruote"
+ },
+ "q21510": {
+  "short": "È il contrario: servono catene o gomme invernali per proseguire.",
+  "rule": "Cartello di montagna: il passo dello Stelvio è aperto, ma solo con catene o pneumatici invernali.",
+  "trap": "«togliere le catene» è il contrario del cartello.",
+  "caption": "Al contrario: servono catene o gomme"
+ },
+ "q21511": {
+  "short": "«aperto» è riferito alla strada del passo dello Stelvio, non agli impianti da sci.",
+  "rule": "Cartello di montagna: il passo dello Stelvio è aperto, ma solo con catene o pneumatici invernali.",
+  "trap": "«impianto sciistico»: «aperto» parla della strada.",
+  "caption": "Strada aperta, non impianto sciistico"
+ },
+ "q21512": {
+  "short": "Il passo è chiuso e verso Trafoi può esserci neve: si guida con prudenza.",
+  "rule": "Cartello di montagna: Stelvio chiuso; si arriva fino a Trafoi, con catene o gomme invernali raccomandate.",
+  "trap": "«consiglia ... prudenza» va bene per un cartello di neve e passo chiuso.",
+  "caption": "Neve: guidare con prudenza"
+ },
+ "q21513": {
+  "short": "Il pannello rosso dice «chiuso»: il passo non si raggiunge.",
+  "rule": "Cartello di montagna: Stelvio chiuso; si arriva fino a Trafoi, con catene o gomme invernali raccomandate.",
+  "trap": "«non è raggiungibile» = «chiuso» in rosso.",
+  "caption": "Stelvio chiuso: non si raggiunge"
+ },
+ "q21514": {
+  "short": "I simboli delle catene con «fino a TRAFOI»: fino a Trafoi si raccomandano catene o gomme invernali.",
+  "rule": "Cartello di montagna: Stelvio chiuso; si arriva fino a Trafoi, con catene o gomme invernali raccomandate.",
+  "trap": "«raccomanda» e «fino a» vengono dal pannello in basso.",
+  "caption": "Catene o gomme invernali fino a Trafoi"
+ },
+ "q21515": {
+  "short": "«fino a TRAFOI»: la strada è aperta fino a Trafoi.",
+  "rule": "Cartello di montagna: Stelvio chiuso; si arriva fino a Trafoi, con catene o gomme invernali raccomandate.",
+  "trap": "«fino a» dice fin dove si può andare.",
+  "caption": "Aperto fino a Trafoi"
+ },
+ "q21516": {
+  "short": "«chiuso» è riferito al passo dello Stelvio, non ai distributori.",
+  "rule": "Cartello di montagna: Stelvio chiuso; si arriva fino a Trafoi, con catene o gomme invernali raccomandate.",
+  "trap": "Le «stazioni di servizio» non sono su questo cartello.",
+  "caption": "Passo chiuso, non distributori"
+ },
+ "q21517": {
+  "short": "Per il quiz catene o gomme invernali sono solo raccomandate fino a Trafoi, non obbligatorie.",
+  "rule": "Cartello di montagna: Stelvio chiuso; si arriva fino a Trafoi, con catene o gomme invernali raccomandate.",
+  "trap": "La trappola è «obbligatorio»: il quiz legge il cartello come raccomandazione.",
+  "caption": "Raccomandato, non obbligatorio (quiz)"
+ },
+ "q21518": {
+  "short": "Non vieta niente a nessuno: chiude il passo e raccomanda le catene fino a Trafoi.",
+  "rule": "Cartello di montagna: Stelvio chiuso; si arriva fino a Trafoi, con catene o gomme invernali raccomandate.",
+  "trap": "«vieta» è troppo forte: qui non c'è un divieto.",
+  "caption": "Nessun divieto: catene raccomandate"
+ },
+ "q21519": {
+  "short": "Per il quiz il cartello raccomanda catene o gomme invernali; non obbliga ad averle a bordo.",
+  "rule": "Cartello di montagna: Stelvio chiuso; si arriva fino a Trafoi, con catene o gomme invernali raccomandate.",
+  "trap": "«debbono avere a bordo» trasforma un consiglio in un obbligo.",
+  "caption": "Nessun obbligo di catene a bordo (quiz)"
+ }
+}

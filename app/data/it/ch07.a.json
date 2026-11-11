@@ -1,0 +1,655 @@
+{
+ "q20970": {
+  "short": "Il rosso vuol dire stop: tutti i veicoli aspettano il verde.",
+  "rule": "Rosso = fermati prima della striscia di arresto e aspetta il verde. Non puoi svoltare né partire, anche se l'incrocio è libero.",
+  "trap": "«devono arrestarsi» è proprio il significato del rosso.",
+  "caption": "Rosso: tutti i veicoli si fermano",
+  "lines": [
+   "Rosso = stop",
+   "Aspetta il verde"
+  ]
+ },
+ "q20971": {
+  "short": "Il rosso ha un posto fisso: in alto nel semaforo verticale, a sinistra in quello orizzontale.",
+  "rule": "Rosso = fermati prima della striscia di arresto e aspetta il verde. Non puoi svoltare né partire, anche se l'incrocio è libero.",
+  "trap": "Tutte e due le parti sono giuste: «in alto» e «a sinistra».",
+  "caption": "Rosso: in alto (verticale), a sinistra (orizzontale)",
+  "lines": [
+   "Semaforo verticale: rosso in alto",
+   "Semaforo orizzontale: rosso a sinistra"
+  ]
+ },
+ "q20972": {
+  "short": "Il rosso può essere più grande per vederlo meglio. È permesso.",
+  "rule": "Rosso = fermati prima della striscia di arresto e aspetta il verde. Non puoi svoltare né partire, anche se l'incrocio è libero.",
+  "trap": "«può» dice solo che è possibile, non che è sempre così.",
+  "caption": "Il rosso può essere più grande",
+  "lines": [
+   "Il rosso può essere più grande",
+   "Così lo vedi meglio"
+  ]
+ },
+ "q20973": {
+  "short": "Col rosso ti fermi prima della striscia bianca di arresto, non nell'incrocio.",
+  "rule": "Rosso = fermati prima della striscia di arresto e aspetta il verde. Non puoi svoltare né partire, anche se l'incrocio è libero.",
+  "trap": "«prima della striscia»: non fermarti sopra o dopo la striscia.",
+  "caption": "Fermati PRIMA della striscia di arresto",
+  "lines": [
+   "Rosso = stop",
+   "Resta prima della striscia"
+  ]
+ },
+ "q20974": {
+  "short": "Per tutto il tempo del rosso la striscia è il limite: aspetti dietro.",
+  "rule": "Rosso = fermati prima della striscia di arresto e aspetta il verde. Non puoi svoltare né partire, anche se l'incrocio è libero.",
+  "trap": "«Durante il periodo» vuol dire per tutto il tempo, fino al verde.",
+  "caption": "Rosso: non superare la striscia",
+  "lines": [
+   "Rosso = aspetta dietro la striscia",
+   "Parti solo col verde"
+  ]
+ },
+ "q20975": {
+  "short": "In Italia il rosso vuol dire stop per tutte le direzioni. Non si svolta a destra col rosso.",
+  "rule": "Rosso = fermati prima della striscia di arresto e aspetta il verde. Non puoi svoltare né partire, anche se l'incrocio è libero.",
+  "trap": "«consente di svoltare a destra» è la trappola: è una regola di altri paesi.",
+  "caption": "In Italia col rosso non si svolta a destra",
+  "lines": [
+   "Rosso = stop in ogni direzione",
+   "Niente svolta a destra"
+  ]
+ },
+ "q20976": {
+  "short": "La tua luce è ancora rossa: aspetti il TUO verde. Le luci degli altri non contano.",
+  "rule": "Rosso = fermati prima della striscia di arresto e aspetta il verde. Non puoi svoltare né partire, anche se l'incrocio è libero.",
+  "trap": "«quando appare il giallo per gli altri»: conta solo la tua luce.",
+  "caption": "Aspetta il tuo verde",
+  "lines": [
+   "Tua luce rossa = resta fermo",
+   "Il giallo degli altri non conta"
+  ]
+ },
+ "q20977": {
+  "short": "Il rosso è stop anche se l'incrocio è vuoto. La prudenza non basta.",
+  "rule": "Rosso = fermati prima della striscia di arresto e aspetta il verde. Non puoi svoltare né partire, anche se l'incrocio è libero.",
+  "trap": "«a condizione che non ci siano altri veicoli» non cambia il rosso.",
+  "caption": "Rosso = stop anche a incrocio vuoto",
+  "lines": [
+   "Rosso = stop",
+   "Incrocio vuoto: stop lo stesso"
+  ]
+ },
+ "q20978": {
+  "short": "Il rosso vuol dire stop, anche se l'incrocio è libero. Aspetta il verde.",
+  "rule": "Rosso = fermati prima della striscia di arresto e aspetta il verde. Non puoi svoltare né partire, anche se l'incrocio è libero.",
+  "trap": "«purché sia libero» è la trappola: il rosso non dipende dal traffico.",
+  "caption": "Rosso = stop anche se è libero",
+  "lines": [
+   "Rosso = stop",
+   "Incrocio libero: aspetta lo stesso"
+  ]
+ },
+ "q20979": {
+  "short": "Il rosso vuol dire fermarsi e aspettare, non affrettarsi.",
+  "rule": "Rosso = fermati prima della striscia di arresto e aspetta il verde. Non puoi svoltare né partire, anche se l'incrocio è libero.",
+  "trap": "«obbliga ad affrettarsi»: il rosso chiede di fermarsi, non di correre.",
+  "caption": "Rosso = fermati, non correre",
+  "lines": [
+   "Rosso = fermati e aspetta",
+   "Mai correre col rosso"
+  ]
+ },
+ "q20980": {
+  "short": "Col verde puoi svoltare a sinistra. Chi arriva di fronte passa prima.",
+  "rule": "Verde = puoi andare diritto, a destra o a sinistra, con prudenza. A sinistra dai precedenza a chi arriva di fronte. Entra solo se puoi liberare l'incrocio.",
+  "trap": "«dando la precedenza» è giusto: a sinistra lasci passare chi arriva di fronte.",
+  "caption": "Verde: a sinistra, precedenza a chi arriva",
+  "lines": [
+   "Verde = puoi svoltare a sinistra",
+   "Precedenza a chi arriva di fronte"
+  ]
+ },
+ "q20981": {
+  "short": "Il verde normale vale per tutte le direzioni: puoi svoltare a destra.",
+  "rule": "Verde = puoi andare diritto, a destra o a sinistra, con prudenza. A sinistra dai precedenza a chi arriva di fronte. Entra solo se puoi liberare l'incrocio.",
+  "trap": "«si può»: è permesso, non obbligatorio.",
+  "caption": "Verde: puoi svoltare a destra",
+  "lines": [
+   "Verde = tutte le direzioni",
+   "Puoi svoltare a destra"
+  ]
+ },
+ "q20982": {
+  "short": "Il verde ti fa andare in ogni direzione, anche diritto.",
+  "rule": "Verde = puoi andare diritto, a destra o a sinistra, con prudenza. A sinistra dai precedenza a chi arriva di fronte. Entra solo se puoi liberare l'incrocio.",
+  "trap": "«si può» è giusto: andare diritto è permesso.",
+  "caption": "Verde: puoi andare diritto",
+  "lines": [
+   "Verde = tutte le direzioni",
+   "Puoi andare diritto"
+  ]
+ },
+ "q20983": {
+  "short": "Non bloccare l'incrocio: entra col verde solo se c'è posto per uscire prima del rosso.",
+  "rule": "Verde = puoi andare diritto, a destra o a sinistra, con prudenza. A sinistra dai precedenza a chi arriva di fronte. Entra solo se puoi liberare l'incrocio.",
+  "trap": "«soltanto» qui è giusto: non entrare se poi resti bloccato.",
+  "caption": "Entra solo se esci prima del rosso",
+  "lines": [
+   "Verde = puoi passare",
+   "Solo se liberi l'incrocio"
+  ]
+ },
+ "q20984": {
+  "short": "Il verde ti fa passare, ma guidi sempre con prudenza.",
+  "rule": "Verde = puoi andare diritto, a destra o a sinistra, con prudenza. A sinistra dai precedenza a chi arriva di fronte. Entra solo se puoi liberare l'incrocio.",
+  "trap": "«usando prudenza» è giusto: il verde non toglie la prudenza.",
+  "caption": "Verde: passa, ma con prudenza",
+  "lines": [
+   "Verde = puoi passare",
+   "Sempre con prudenza"
+  ]
+ },
+ "q20985": {
+  "short": "Un verde acceso da tanto diventa presto giallo. Sii pronto a fermarti.",
+  "rule": "Verde = puoi andare diritto, a destra o a sinistra, con prudenza. A sinistra dai precedenza a chi arriva di fronte. Entra solo se puoi liberare l'incrocio.",
+  "trap": "«pronti eventualmente a fermarsi» è il comportamento giusto.",
+  "caption": "Verde da tanto: pronto a fermarti",
+  "lines": [
+   "Verde da tanto = giallo presto",
+   "Sii pronto a fermarti"
+  ]
+ },
+ "q20986": {
+  "short": "Un verde lungo può diventare giallo: guarda il semaforo, non accelerare.",
+  "rule": "Verde = puoi andare diritto, a destra o a sinistra, con prudenza. A sinistra dai precedenza a chi arriva di fronte. Entra solo se puoi liberare l'incrocio.",
+  "trap": "«occorre accelerare» e «senza... guardare» sono tutte e due sbagliate.",
+  "caption": "Verde da tanto: guarda, non accelerare",
+  "lines": [
+   "Verde da tanto = giallo presto",
+   "Guarda la luce, non correre"
+  ]
+ },
+ "q20987": {
+  "short": "Il verde da solo permette già di svoltare a sinistra. Verde e giallo non sono mai accesi insieme.",
+  "rule": "Verde = puoi andare diritto, a destra o a sinistra, con prudenza. A sinistra dai precedenza a chi arriva di fronte. Entra solo se puoi liberare l'incrocio.",
+  "trap": "«ma solo quando si accende anche la luce gialla» è inventato.",
+  "caption": "Col solo verde puoi svoltare a sinistra",
+  "lines": [
+   "Verde = puoi svoltare a sinistra",
+   "Verde e giallo mai insieme"
+  ]
+ },
+ "q20988": {
+  "short": "È il contrario: se svolti a sinistra col verde, dai precedenza a chi arriva di fronte.",
+  "rule": "Verde = puoi andare diritto, a destra o a sinistra, con prudenza. A sinistra dai precedenza a chi arriva di fronte. Entra solo se puoi liberare l'incrocio.",
+  "trap": "«ha la precedenza» è sbagliato: chi svolta a sinistra dà precedenza.",
+  "caption": "A sinistra: prima passa chi arriva di fronte",
+  "lines": [
+   "Verde = puoi svoltare a sinistra",
+   "Prima passa chi arriva di fronte"
+  ]
+ },
+ "q20989": {
+  "short": "Il verde ti fa svoltare su ogni strada, con o senza corsie.",
+  "rule": "Verde = puoi andare diritto, a destra o a sinistra, con prudenza. A sinistra dai precedenza a chi arriva di fronte. Entra solo se puoi liberare l'incrocio.",
+  "trap": "«solo se» aggiunge una condizione che non esiste.",
+  "caption": "Verde: svolti su ogni strada",
+  "lines": [
+   "Verde = tutte le direzioni",
+   "Le corsie non contano"
+  ]
+ },
+ "q20990": {
+  "short": "Il verde normale permette ogni direzione. Non obbliga ad andare diritto.",
+  "rule": "Verde = puoi andare diritto, a destra o a sinistra, con prudenza. A sinistra dai precedenza a chi arriva di fronte. Entra solo se puoi liberare l'incrocio.",
+  "trap": "«si deve» è la trappola: il verde permette, non obbliga.",
+  "caption": "Verde: puoi anche svoltare",
+  "lines": [
+   "Verde = tutte le direzioni",
+   "Diritto non è obbligatorio"
+  ]
+ },
+ "q20991": {
+  "short": "Se vai diritto col verde, i pedoni davanti a te hanno il rosso: non devi dare loro precedenza.",
+  "rule": "Verde = puoi andare diritto, a destra o a sinistra, con prudenza. A sinistra dai precedenza a chi arriva di fronte. Entra solo se puoi liberare l'incrocio.",
+  "trap": "«dando però la precedenza ai pedoni» è sbagliato quando vai diritto.",
+  "caption": "Diritto col verde: i pedoni hanno rosso",
+  "lines": [
+   "Verde = puoi andare diritto",
+   "I pedoni davanti hanno rosso"
+  ]
+ },
+ "q20992": {
+  "short": "Ogni freccia verde apre solo la sua direzione: puoi andare dove indica.",
+  "rule": "Le frecce valgono solo per la loro direzione: verde = vai, rossa = non andare, gialla fissa = libera o fermati, gialla lampeggiante = prudenza.",
+  "trap": "«verso le quali si può proseguire» è il significato giusto.",
+  "caption": "Freccia verde: puoi andare lì",
+  "lines": [
+   "Freccia verde = vai da quella parte",
+   "Solo la direzione della freccia"
+  ]
+ },
+ "q20993": {
+  "short": "Una freccia rossa è un rosso solo per quella direzione.",
+  "rule": "Le frecce valgono solo per la loro direzione: verde = vai, rossa = non andare, gialla fissa = libera o fermati, gialla lampeggiante = prudenza.",
+  "trap": "«non si può proseguire» è giusto: freccia rossa = stop da quella parte.",
+  "caption": "Freccia rossa: non andare lì",
+  "lines": [
+   "Freccia rossa = stop da quella parte",
+   "Aspetta la freccia verde"
+  ]
+ },
+ "q20994": {
+  "short": "Una freccia gialla fissa funziona come la luce gialla fissa, solo per quella direzione.",
+  "rule": "Le frecce valgono solo per la loro direzione: verde = vai, rossa = non andare, gialla fissa = libera o fermati, gialla lampeggiante = prudenza.",
+  "trap": "Tutte e due le parti sono giuste: «liberare l'incrocio» o «arrestarsi» in sicurezza.",
+  "caption": "Freccia gialla: libera o fermati",
+  "lines": [
+   "Sei nell'incrocio: liberalo",
+   "Non ci sei: fermati se sicuro"
+  ]
+ },
+ "q20995": {
+  "short": "Una freccia gialla lampeggiante avvisa: puoi andare, ma con prudenza.",
+  "rule": "Le frecce valgono solo per la loro direzione: verde = vai, rossa = non andare, gialla fissa = libera o fermati, gialla lampeggiante = prudenza.",
+  "trap": "«lampeggianti» è diverso da fisse: lampeggiante = prudenza.",
+  "caption": "Freccia gialla lampeggiante: molta prudenza",
+  "lines": [
+   "Gialla lampeggiante = attenzione",
+   "Passa con molta prudenza"
+  ]
+ },
+ "q20996": {
+  "short": "Una freccia verso l'alto vuol dire solo diritto. Per svoltare serve un'altra freccia.",
+  "rule": "Le frecce valgono solo per la loro direzione: verde = vai, rossa = non andare, gialla fissa = libera o fermati, gialla lampeggiante = prudenza.",
+  "trap": "«in tutte le direzioni» è sbagliato: verso l'alto = solo diritto.",
+  "caption": "Freccia in alto = solo diritto",
+  "lines": [
+   "Freccia in alto = diritto",
+   "Non destra o sinistra"
+  ]
+ },
+ "q20997": {
+  "short": "Una freccia rossa vuol dire stop per quella direzione, non prudenza.",
+  "rule": "Le frecce valgono solo per la loro direzione: verde = vai, rossa = non andare, gialla fissa = libera o fermati, gialla lampeggiante = prudenza.",
+  "trap": "«proseguire con prudenza» è il giallo lampeggiante, non il rosso.",
+  "caption": "Freccia rossa = stop da quella parte",
+  "lines": [
+   "Freccia rossa = stop",
+   "Aspetta la freccia verde"
+  ]
+ },
+ "q20998": {
+  "short": "L'ordine è verde, poi giallo, poi rosso. Il giallo viene subito dopo il verde.",
+  "rule": "La gialla fissa è da sola, tra verde e rosso: fermati se puoi farlo in sicurezza; se sei già nell'incrocio, liberalo.",
+  "trap": "«appena si spegne il verde» è l'ordine giusto.",
+  "caption": "Si spegne il verde, si accende il giallo",
+  "lines": [
+   "Verde",
+   "poi giallo",
+   "poi rosso"
+  ]
+ },
+ "q20999": {
+  "short": "Giallo e rosso non sono mai accesi insieme: finisce il giallo, poi il rosso.",
+  "rule": "La gialla fissa è da sola, tra verde e rosso: fermati se puoi farlo in sicurezza; se sei già nell'incrocio, liberalo.",
+  "trap": "«prima che si accenda il rosso» è giusto.",
+  "caption": "Si spegne il giallo, poi il rosso",
+  "lines": [
+   "Giallo da solo",
+   "Poi rosso"
+  ]
+ },
+ "q21000": {
+  "short": "Se il giallo arriva quando sei già nell'incrocio, esci presto per lasciarlo libero.",
+  "rule": "La gialla fissa è da sola, tra verde e rosso: fermati se puoi farlo in sicurezza; se sei già nell'incrocio, liberalo.",
+  "trap": "«chi ha già impegnato l'incrocio» è il caso importante.",
+  "caption": "Già nell'incrocio: liberalo",
+  "lines": [
+   "Giallo + già dentro = libera",
+   "Non fermarti in mezzo"
+  ]
+ },
+ "q21001": {
+  "short": "Col giallo ti fermi se è sicuro. Se sei troppo vicino e frenare è pericoloso, passi.",
+  "rule": "La gialla fissa è da sola, tra verde e rosso: fermati se puoi farlo in sicurezza; se sei già nell'incrocio, liberalo.",
+  "trap": "«purché lo si possa fare senza creare pericolo» è la condizione importante.",
+  "caption": "Giallo: fermati se è sicuro",
+  "lines": [
+   "Giallo = fermati se sicuro",
+   "Troppo vicino: passa con prudenza"
+  ]
+ },
+ "q21002": {
+  "short": "Il giallo è sempre acceso da solo: il verde è spento e il rosso non ancora.",
+  "rule": "La gialla fissa è da sola, tra verde e rosso: fermati se puoi farlo in sicurezza; se sei già nell'incrocio, liberalo.",
+  "trap": "«sono spenti»: con il giallo fisso non c'è altra luce accesa.",
+  "caption": "Il giallo fisso è sempre da solo",
+  "lines": [
+   "Verde spento",
+   "Giallo da solo",
+   "Rosso non ancora"
+  ]
+ },
+ "q21003": {
+  "short": "Il giallo vuol dire fermati se puoi farlo in sicurezza. Passi solo se sei troppo vicino.",
+  "rule": "La gialla fissa è da sola, tra verde e rosso: fermati se puoi farlo in sicurezza; se sei già nell'incrocio, liberalo.",
+  "trap": "«in ogni caso» è la trappola: passi solo se fermarti è pericoloso.",
+  "caption": "Giallo: non è un via libera",
+  "lines": [
+   "Giallo = fermati se sicuro",
+   "Passi solo se troppo vicino"
+  ]
+ },
+ "q21004": {
+  "short": "Se hai già superato la striscia, liberi l'incrocio. Tornare indietro è pericoloso.",
+  "rule": "La gialla fissa è da sola, tra verde e rosso: fermati se puoi farlo in sicurezza; se sei già nell'incrocio, liberalo.",
+  "trap": "«tornare indietro» non è mai quello che chiede il giallo.",
+  "caption": "Oltre la striscia: libera l'incrocio",
+  "lines": [
+   "Oltre la striscia = libera",
+   "Mai tornare indietro"
+  ]
+ },
+ "q21005": {
+  "short": "Col giallo ti fermi solo se puoi farlo in sicurezza. Se sei troppo vicino, passi.",
+  "rule": "La gialla fissa è da sola, tra verde e rosso: fermati se puoi farlo in sicurezza; se sei già nell'incrocio, liberalo.",
+  "trap": "«in ogni caso» è sbagliato: fermarsi deve essere sicuro.",
+  "caption": "Giallo: fermati solo se è sicuro",
+  "lines": [
+   "Giallo = fermati se sicuro",
+   "Troppo vicino: passa con prudenza"
+  ]
+ },
+ "q21006": {
+  "short": "In Italia il giallo viene dopo il verde, mai insieme al rosso.",
+  "rule": "La gialla fissa è da sola, tra verde e rosso: fermati se puoi farlo in sicurezza; se sei già nell'incrocio, liberalo.",
+  "trap": "«quando è ancora accesa quella rossa» è sbagliato.",
+  "caption": "Il giallo viene dopo il verde, non col rosso",
+  "lines": [
+   "Verde",
+   "poi giallo da solo",
+   "poi rosso"
+  ]
+ },
+ "q21007": {
+  "short": "Il giallo si accende quando il verde si spegne, e si spegne quando arriva il rosso.",
+  "rule": "La gialla fissa è da sola, tra verde e rosso: fermati se puoi farlo in sicurezza; se sei già nell'incrocio, liberalo.",
+  "trap": "«insieme con il verde» è sbagliato: non sono mai accesi insieme.",
+  "caption": "Il giallo viene dopo il verde",
+  "lines": [
+   "Verde spento, giallo acceso",
+   "Giallo spento, rosso acceso"
+  ]
+ },
+ "q21008": {
+  "short": "Il giallo è acceso da solo, tra verde e rosso. Mai insieme al rosso.",
+  "rule": "La gialla fissa è da sola, tra verde e rosso: fermati se puoi farlo in sicurezza; se sei già nell'incrocio, liberalo.",
+  "trap": "«insieme con il rosso» è sbagliato.",
+  "caption": "Il giallo non è mai col rosso",
+  "lines": [
+   "Giallo da solo",
+   "Poi rosso"
+  ]
+ },
+ "q21009": {
+  "short": "Alcuni semafori di notte lampeggiano solo giallo, con rosso e verde spenti.",
+  "rule": "Gialla lampeggiante = pericolo generico: rallenta e vai con molta prudenza. Non devi fermarti.",
+  "trap": "«quando le altre sono spente» è giusto: lampeggia da solo.",
+  "caption": "Giallo lampeggiante: altre luci spente",
+  "lines": [
+   "Rosso e verde spenti",
+   "Giallo lampeggia = prudenza"
+  ]
+ },
+ "q21010": {
+  "short": "La luce A lampeggia gialla per avvisare di un pericolo generico: rallenta e fai attenzione.",
+  "rule": "Gialla lampeggiante = pericolo generico: rallenta e vai con molta prudenza. Non devi fermarti.",
+  "trap": "«pericolo generico» è proprio il suo significato.",
+  "caption": "Giallo lampeggiante = pericolo generico",
+  "lines": [
+   "A: giallo lampeggiante",
+   "= pericolo generico"
+  ]
+ },
+ "q21011": {
+  "short": "Avvisa di un pericolo, quindi rallenti.",
+  "rule": "Gialla lampeggiante = pericolo generico: rallenta e vai con molta prudenza. Non devi fermarti.",
+  "trap": "«invita a moderare la velocità» è giusto.",
+  "caption": "Giallo lampeggiante: rallenta",
+  "lines": [
+   "A: giallo lampeggiante",
+   "Rallenta"
+  ]
+ },
+ "q21012": {
+  "short": "Il giallo lampeggiante non ti ferma: vai avanti, ma con molta prudenza.",
+  "rule": "Gialla lampeggiante = pericolo generico: rallenta e vai con molta prudenza. Non devi fermarti.",
+  "trap": "«procedere» è giusto: vai avanti, non devi fermarti.",
+  "caption": "Giallo lampeggiante: molta prudenza",
+  "lines": [
+   "A: giallo lampeggiante",
+   "Vai con molta prudenza"
+  ]
+ },
+ "q21013": {
+  "short": "Il giallo lampeggiante vuol dire prudenza, non stop. Ti fermi solo se lo chiedono le regole di precedenza.",
+  "rule": "Gialla lampeggiante = pericolo generico: rallenta e vai con molta prudenza. Non devi fermarti.",
+  "trap": "«impone l'arresto sempre» è sbagliato.",
+  "caption": "Giallo lampeggiante: nessun obbligo di stop",
+  "lines": [
+   "Giallo lampeggiante = prudenza",
+   "Nessun obbligo di fermarsi"
+  ]
+ },
+ "q21014": {
+  "short": "Prima di un ponte mobile ci sono due luci ROSSE lampeggianti, non una gialla.",
+  "rule": "Gialla lampeggiante = pericolo generico: rallenta e vai con molta prudenza. Non devi fermarti.",
+  "trap": "«ponte mobile» va con le luci rosse lampeggianti.",
+  "caption": "Ponte mobile: luci ROSSE lampeggianti",
+  "lines": [
+   "A = pericolo generico",
+   "Ponte mobile = rosse lampeggianti"
+  ]
+ },
+ "q21015": {
+  "short": "All'accesso di un pontile per traghetti ci sono luci ROSSE lampeggianti, non una gialla.",
+  "rule": "Gialla lampeggiante = pericolo generico: rallenta e vai con molta prudenza. Non devi fermarti.",
+  "trap": "«pontile d'imbarco» va con le luci rosse lampeggianti.",
+  "caption": "Pontile traghetti: luci ROSSE lampeggianti",
+  "lines": [
+   "A = pericolo generico",
+   "Pontile = rosse lampeggianti"
+  ]
+ },
+ "q21016": {
+  "short": "Il giallo lampeggiante non è mai acceso insieme al rosso. Quando lampeggia, le altre sono spente.",
+  "rule": "Gialla lampeggiante = pericolo generico: rallenta e vai con molta prudenza. Non devi fermarti.",
+  "trap": "«insieme a quella rossa» è la trappola.",
+  "caption": "Giallo lampeggiante: mai col rosso",
+  "lines": [
+   "Giallo lampeggiante: altre spente",
+   "Mai insieme al rosso"
+  ]
+ },
+ "q21017": {
+  "short": "Al passaggio a livello senza barriere queste luci lampeggiano quando arriva il treno: devi fermarti.",
+  "rule": "Luci rosse lampeggianti = fermati prima della striscia di arresto. Si usano a passaggi a livello senza barriere intere, ponti mobili e pontili per traghetti.",
+  "trap": "«senza barriere» è uno dei posti dove ci sono queste luci.",
+  "caption": "Passaggio a livello senza barriere: stop",
+  "lines": [
+   "Rosse lampeggianti = stop",
+   "Arriva il treno"
+  ]
+ },
+ "q21018": {
+  "short": "Anche i passaggi a livello con semibarriere hanno queste luci rosse: devi fermarti.",
+  "rule": "Luci rosse lampeggianti = fermati prima della striscia di arresto. Si usano a passaggi a livello senza barriere intere, ponti mobili e pontili per traghetti.",
+  "trap": "«semibarriere» è giusto: chiudono solo metà strada.",
+  "caption": "Passaggio a livello con semibarriere: stop",
+  "lines": [
+   "Rosse lampeggianti = stop",
+   "Le semibarriere scendono"
+  ]
+ },
+ "q21019": {
+  "short": "I pontili per traghetti usano queste luci rosse per fermare il traffico.",
+  "rule": "Luci rosse lampeggianti = fermati prima della striscia di arresto. Si usano a passaggi a livello senza barriere intere, ponti mobili e pontili per traghetti.",
+  "trap": "«pontile d'imbarco» è un posto giusto per queste luci.",
+  "caption": "Pontile traghetti: stop col rosso lampeggiante",
+  "lines": [
+   "Rosse lampeggianti = stop",
+   "Accesso al pontile"
+  ]
+ },
+ "q21020": {
+  "short": "Quando un ponte mobile si apre, queste luci rosse lampeggiano e devi fermarti.",
+  "rule": "Luci rosse lampeggianti = fermati prima della striscia di arresto. Si usano a passaggi a livello senza barriere intere, ponti mobili e pontili per traghetti.",
+  "trap": "«ponte mobile» è un posto giusto per queste luci.",
+  "caption": "Ponte mobile: stop col rosso lampeggiante",
+  "lines": [
+   "Rosse lampeggianti = stop",
+   "Il ponte si apre"
+  ]
+ },
+ "q21021": {
+  "short": "Come il rosso normale, queste luci vogliono dire: resta prima della striscia.",
+  "rule": "Luci rosse lampeggianti = fermati prima della striscia di arresto. Si usano a passaggi a livello senza barriere intere, ponti mobili e pontili per traghetti.",
+  "trap": "«non superare» è giusto: fermati prima della striscia.",
+  "caption": "Rosso lampeggiante: resta prima della striscia",
+  "lines": [
+   "Rosse lampeggianti = stop",
+   "Resta prima della striscia"
+  ]
+ },
+ "q21022": {
+  "short": "Queste luci si usano a passaggi a livello, ponti mobili e pontili, non ai posti di blocco.",
+  "rule": "Luci rosse lampeggianti = fermati prima della striscia di arresto. Si usano a passaggi a livello senza barriere intere, ponti mobili e pontili per traghetti.",
+  "trap": "«posto di blocco della polizia» non è uno dei loro posti.",
+  "caption": "Non per i posti di blocco",
+  "lines": [
+   "Passaggi a livello, ponti, traghetti",
+   "Non posti di blocco"
+  ]
+ },
+ "q21023": {
+  "short": "Un ponte stretto ha segnali di pericolo o di precedenza, non queste luci. Sono per i ponti mobili.",
+  "rule": "Luci rosse lampeggianti = fermati prima della striscia di arresto. Si usano a passaggi a livello senza barriere intere, ponti mobili e pontili per traghetti.",
+  "trap": "«ponte stretto» è la trappola: la parola giusta è «ponte mobile».",
+  "caption": "Ponte mobile sì, ponte stretto no",
+  "lines": [
+   "Ponte mobile = rosse lampeggianti",
+   "Ponte stretto = altri segnali"
+  ]
+ },
+ "q21024": {
+  "short": "Queste luci vogliono dire stop. Un'uscita obbligatoria si indica con i segnali.",
+  "rule": "Luci rosse lampeggianti = fermati prima della striscia di arresto. Si usano a passaggi a livello senza barriere intere, ponti mobili e pontili per traghetti.",
+  "trap": "«uscita obbligatoria dall'autostrada» non c'entra con queste luci.",
+  "caption": "Rosse lampeggianti = stop, non uscita",
+  "lines": [
+   "Rosse lampeggianti = stop",
+   "Non uscita dall'autostrada"
+  ]
+ },
+ "q21025": {
+  "short": "Queste luci non si usano ai confini. Stanno ai passaggi a livello, ponti mobili e pontili.",
+  "rule": "Luci rosse lampeggianti = fermati prima della striscia di arresto. Si usano a passaggi a livello senza barriere intere, ponti mobili e pontili per traghetti.",
+  "trap": "«confine di Stato» e «150 metri» sono inventati.",
+  "caption": "Non si usano ai confini di Stato",
+  "lines": [
+   "Passaggi a livello, ponti, traghetti",
+   "Non confini di Stato"
+  ]
+ },
+ "q21026": {
+  "short": "Il rosso lampeggiante vuol dire stop. Non annuncia il verde.",
+  "rule": "Luci rosse lampeggianti = fermati prima della striscia di arresto. Si usano a passaggi a livello senza barriere intere, ponti mobili e pontili per traghetti.",
+  "trap": "«sta per accendersi la luce verde» è inventato.",
+  "caption": "Rosso lampeggiante = stop, non verde",
+  "lines": [
+   "Rosse lampeggianti = stop",
+   "Non annunciano il verde"
+  ]
+ },
+ "q21027": {
+  "short": "Nel semaforo per mezzi pubblici, la barra bianca orizzontale vuol dire stop.",
+  "rule": "Barre bianche e triangolo giallo = semaforo solo per mezzi pubblici: barra orizzontale stop, verticale via, triangolo come il giallo.",
+  "trap": "Barra «orizzontale» = stop per autobus e tram.",
+  "caption": "Barra bianca orizzontale = stop",
+  "lines": [
+   "Semaforo per bus e tram",
+   "Barra orizzontale = stop"
+  ]
+ },
+ "q21028": {
+  "short": "Nel semaforo per mezzi pubblici, la barra bianca verticale vuol dire via libera.",
+  "rule": "Barre bianche e triangolo giallo = semaforo solo per mezzi pubblici: barra orizzontale stop, verticale via, triangolo come il giallo.",
+  "trap": "Barra «verticale» = via per autobus e tram.",
+  "caption": "Barra bianca verticale = via",
+  "lines": [
+   "Semaforo per bus e tram",
+   "Barra verticale = via"
+  ]
+ },
+ "q21029": {
+  "short": "Barre bianche e triangolo giallo sono solo per autobus e tram.",
+  "rule": "Barre bianche e triangolo giallo = semaforo solo per mezzi pubblici: barra orizzontale stop, verticale via, triangolo come il giallo.",
+  "trap": "«trasporto pubblico» è giusto: gli altri veicoli non lo seguono.",
+  "caption": "Semaforo solo per autobus e tram",
+  "lines": [
+   "Solo per mezzi pubblici",
+   "Le auto non lo seguono"
+  ]
+ },
+ "q21030": {
+  "short": "Il semaforo pedonale mostra un pedone. Questo, con barre bianche, è per autobus e tram.",
+  "rule": "Barre bianche e triangolo giallo = semaforo solo per mezzi pubblici: barra orizzontale stop, verticale via, triangolo come il giallo.",
+  "trap": "«pedonale» è sbagliato.",
+  "caption": "Non è un semaforo pedonale",
+  "lines": [
+   "Barre bianche = autobus e tram",
+   "Non per pedoni"
+  ]
+ },
+ "q21031": {
+  "short": "Questo semaforo dà stop o via ad autobus e tram. Non c'entra con i lavori.",
+  "rule": "Barre bianche e triangolo giallo = semaforo solo per mezzi pubblici: barra orizzontale stop, verticale via, triangolo come il giallo.",
+  "trap": "«lavori in corso» è inventato.",
+  "caption": "Non annuncia lavori",
+  "lines": [
+   "Bus e tram: stop o via",
+   "Non lavori in corso"
+  ]
+ },
+ "q21032": {
+  "short": "Dice ad autobus e tram di fermarsi o passare. Non mostra gli scambi dei binari.",
+  "rule": "Barre bianche e triangolo giallo = semaforo solo per mezzi pubblici: barra orizzontale stop, verticale via, triangolo come il giallo.",
+  "trap": "«scambi dei binari» è inventato.",
+  "caption": "Non indica scambi dei binari",
+  "lines": [
+   "Bus e tram: stop o via",
+   "Non scambi dei binari"
+  ]
+ },
+ "q21033": {
+  "short": "Questo semaforo è solo per i mezzi pubblici. Le moto seguono i semafori normali.",
+  "rule": "Barre bianche e triangolo giallo = semaforo solo per mezzi pubblici: barra orizzontale stop, verticale via, triangolo come il giallo.",
+  "trap": "«ai motocicli» è sbagliato: non vale per loro.",
+  "caption": "Non vale per le moto",
+  "lines": [
+   "Solo autobus e tram",
+   "Triangolo = come il giallo, per loro"
+  ]
+ },
+ "q21034": {
+  "short": "Questo semaforo è per i mezzi pubblici, non per i veicoli militari.",
+  "rule": "Barre bianche e triangolo giallo = semaforo solo per mezzi pubblici: barra orizzontale stop, verticale via, triangolo come il giallo.",
+  "trap": "«targa militare» è la trappola.",
+  "caption": "Non vale per i veicoli militari",
+  "lines": [
+   "Solo autobus e tram",
+   "Non veicoli militari"
+  ]
+ }
+}

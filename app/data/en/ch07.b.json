@@ -1,0 +1,1847 @@
+{
+ "q21035": {
+  "en": "When you meet the traffic light shown, you may pass when the green light is on.",
+  "explain": {
+   "short": "Green means you may go through, if the road ahead is free.",
+   "rule": "Vehicle lights: green = go. Steady yellow = stop, unless you are too close to stop safely. Red = stop before the line. Flashing yellow, or a light that is off or broken = go slowly, with great care, and give way as the priority rules say.",
+   "trap": "No trick: 'luce verde' (green light) is the normal 'go' light.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green light: you may pass",
+    "it": "luce verde",
+    "lines": [
+     "Green: you may pass"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce verde",
+    "en": "green light"
+   },
+   {
+    "it": "è consentito il passaggio",
+    "en": "passing is allowed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21036": {
+  "en": "When you meet the traffic light shown, you may pass when the steady yellow light comes on, only if you cannot stop safely before the junction.",
+  "explain": {
+   "short": "Steady yellow means stop. You may go on only when you are so close that braking would be dangerous.",
+   "rule": "Vehicle lights: green = go. Steady yellow = stop, unless you are too close to stop safely. Red = stop before the line. Flashing yellow, or a light that is off or broken = go slowly, with great care, and give way as the priority rules say.",
+   "trap": "'solo se non ci si può arrestare' (only if you cannot stop) is the correct exception.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Steady yellow: go on only if too close to stop",
+    "it": "gialla fissa",
+    "lines": [
+     "Steady yellow: stop",
+     "Too close to stop safely? Go on"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce gialla fissa",
+    "en": "steady yellow light"
+   },
+   {
+    "it": "solo se non ci si può arrestare",
+    "en": "only if you cannot stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21037": {
+  "en": "When you meet the traffic light shown, you may pass when the flashing yellow light is on, but with the greatest care and at a moderate speed.",
+  "explain": {
+   "short": "Flashing yellow does not stop you: it warns you. Slow down, look, and follow the priority rules.",
+   "rule": "Vehicle lights: green = go. Steady yellow = stop, unless you are too close to stop safely. Red = stop before the line. Flashing yellow, or a light that is off or broken = go slowly, with great care, and give way as the priority rules say.",
+   "trap": "'lampeggiante' (flashing) is not 'fissa' (steady): flashing yellow lets you pass with care.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Flashing yellow: pass slowly, with care",
+    "it": "gialla lampeggiante",
+    "lines": [
+     "Flashing yellow: pass with great care",
+     "Slow down, give way as needed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce gialla lampeggiante",
+    "en": "flashing yellow light"
+   },
+   {
+    "it": "massima prudenza",
+    "en": "greatest care"
+   },
+   {
+    "it": "moderando la velocità",
+    "en": "reducing speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21038": {
+  "en": "When you meet the traffic light shown, you may pass when it is switched off, but with the greatest care.",
+  "explain": {
+   "short": "A light that is off gives no order. You may pass, but slowly, following the normal priority rules and signs.",
+   "rule": "Vehicle lights: green = go. Steady yellow = stop, unless you are too close to stop safely. Red = stop before the line. Flashing yellow, or a light that is off or broken = go slowly, with great care, and give way as the priority rules say.",
+   "trap": "'spento' (off) does not mean stop: you go on with the greatest care.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Light off: pass with the greatest care",
+    "it": "spento",
+    "lines": [
+     "Light off: no order from the light",
+     "Pass with care, normal priority rules"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "spento",
+    "en": "switched off"
+   },
+   {
+    "it": "massima prudenza",
+    "en": "greatest care"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21039": {
+  "en": "When you meet the light signal shown, you may pass if the traffic light is broken, but with the greatest care.",
+  "explain": {
+   "short": "A broken light cannot control traffic. You may pass, slowly, following the priority rules.",
+   "rule": "Vehicle lights: green = go. Steady yellow = stop, unless you are too close to stop safely. Red = stop before the line. Flashing yellow, or a light that is off or broken = go slowly, with great care, and give way as the priority rules say.",
+   "trap": "'guasto' (broken) is treated like a light that is off: pass with care.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Broken light: pass with the greatest care",
+    "it": "semaforo guasto",
+    "lines": [
+     "Broken light: pass with great care"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "semaforo guasto",
+    "en": "broken traffic light"
+   },
+   {
+    "it": "massima prudenza",
+    "en": "greatest care"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21040": {
+  "en": "When you meet the traffic light shown, you may pass shortly before the green light comes on, as long as the red light is already on for the other vehicles.",
+  "explain": {
+   "short": "While your light is red you must wait. You start only when your own light is green.",
+   "rule": "Vehicle lights: green = go. Steady yellow = stop, unless you are too close to stop safely. Red = stop before the line. Flashing yellow, or a light that is off or broken = go slowly, with great care, and give way as the priority rules say.",
+   "trap": "'poco prima che si accenda la luce verde' (just before green) is still red for you: you wait.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Not before your green: red still means stop",
+    "it": "luce verde",
+    "lines": [
+     "Your light is still red: wait",
+     "Go only when YOUR light is green"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "poco prima",
+    "en": "shortly before"
+   },
+   {
+    "it": "quella rossa per gli altri veicoli",
+    "en": "the red one for the other vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21041": {
+  "en": "When you meet the traffic light shown, you may pass when the red light comes on, using the greatest care.",
+  "explain": {
+   "short": "Red always means stop before the stop line. Being careful does not make it allowed.",
+   "rule": "Vehicle lights: green = go. Steady yellow = stop, unless you are too close to stop safely. Red = stop before the line. Flashing yellow, or a light that is off or broken = go slowly, with great care, and give way as the priority rules say.",
+   "trap": "'usando la massima prudenza' (with great care) cannot cancel a red light.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Red: stop. Care does not make it allowed",
+    "it": "luce rossa",
+    "lines": [
+     "Red: stop before the line",
+     "Being careful does not change it"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce rossa",
+    "en": "red light"
+   },
+   {
+    "it": "massima prudenza",
+    "en": "greatest care"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21042": {
+  "en": "When you meet the traffic light shown, you may pass when, even though the red light is on, no vehicles are coming from the other directions.",
+  "explain": {
+   "short": "Red means stop even if the junction looks empty. You wait for green.",
+   "rule": "Vehicle lights: green = go. Steady yellow = stop, unless you are too close to stop safely. Red = stop before the line. Flashing yellow, or a light that is off or broken = go slowly, with great care, and give way as the priority rules say.",
+   "trap": "'pur essendo accesa la luce rossa' (even though it is red): an empty road does not change the rule.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Red: stop even if nobody is coming",
+    "it": "luce rossa",
+    "lines": [
+     "Red: stop",
+     "Even if the junction is empty"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pur essendo accesa la luce rossa",
+    "en": "even though the red light is on"
+   },
+   {
+    "it": "non vengono veicoli",
+    "en": "no vehicles are coming"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21043": {
+  "en": "The lights shown can be found near level crossings with half-barriers.",
+  "explain": {
+   "short": "Flashing red lights stand at level crossings with half-barriers (semibarriere): they warn that the barriers are about to come down.",
+   "rule": "Two red lights that flash alternately stand at level crossings (passaggi a livello) with half-barriers (semibarriere) or without barriers, normally on the right of the road. They switch on just before the train comes and before the half-barriers go down, with a sound signal, and stay on until the train has passed. When they flash, vehicles and pedestrians must stop.",
+   "trap": "'semibarriere' (half-barriers) is right: these lights go with them.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Found at level crossings with half-barriers",
+    "it": "semibarriere",
+    "lines": [
+     "Level crossing with half-barriers",
+     "Flashing red: stop"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passaggi a livello",
+    "en": "level crossings"
+   },
+   {
+    "it": "semibarriere",
+    "en": "half-barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21044": {
+  "en": "The lights shown light up alternately to signal that trains are coming at level crossings without barriers.",
+  "explain": {
+   "short": "Where there are no barriers, these alternately flashing red lights are the warning that a train is coming.",
+   "rule": "Two red lights that flash alternately stand at level crossings (passaggi a livello) with half-barriers (semibarriere) or without barriers, normally on the right of the road. They switch on just before the train comes and before the half-barriers go down, with a sound signal, and stay on until the train has passed. When they flash, vehicles and pedestrians must stop.",
+   "trap": "'alternativamente' (alternately) is right: left and right flash in turn.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No barriers: flashing lights warn of the train",
+    "it": "senza barriere",
+    "lines": [
+     "No barriers: lights warn of the train",
+     "They flash left, right, left..."
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "alternativamente",
+    "en": "alternately"
+   },
+   {
+    "it": "l'arrivo dei treni",
+    "en": "the arrival of trains"
+   },
+   {
+    "it": "senza barriere",
+    "en": "without barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21045": {
+  "en": "The lights shown, when they are on, forbid vehicles and pedestrians to pass.",
+  "explain": {
+   "short": "When these red lights flash, nobody may cross the railway: not cars, not pedestrians.",
+   "rule": "Two red lights that flash alternately stand at level crossings (passaggi a livello) with half-barriers (semibarriere) or without barriers, normally on the right of the road. They switch on just before the train comes and before the half-barriers go down, with a sound signal, and stay on until the train has passed. When they flash, vehicles and pedestrians must stop.",
+   "trap": "'veicoli e pedoni' (vehicles and pedestrians): the stop is for everyone.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lights on: vehicles and pedestrians stop",
+    "it": "vietano",
+    "lines": [
+     "Lights on: nobody crosses",
+     "Vehicles AND pedestrians"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietano il passaggio",
+    "en": "forbid passing"
+   },
+   {
+    "it": "veicoli e pedoni",
+    "en": "vehicles and pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21046": {
+  "en": "The lights shown are, as a rule, placed on the right side of the road.",
+  "explain": {
+   "short": "Like most signals, these lights normally stand on the right side of the road, where drivers see them.",
+   "rule": "Two red lights that flash alternately stand at level crossings (passaggi a livello) with half-barriers (semibarriere) or without barriers, normally on the right of the road. They switch on just before the train comes and before the half-barriers go down, with a sound signal, and stay on until the train has passed. When they flash, vehicles and pedestrians must stop.",
+   "trap": "'di norma' (as a rule): normally on the right, sometimes repeated elsewhere.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "As a rule: on the right side of the road",
+    "it": "lato destro",
+    "lines": [
+     "Normally on the right of the road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "lato destro",
+    "en": "right side"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21047": {
+  "en": "The lights shown start working shortly before the train arrives and stay on until it has finished passing.",
+  "explain": {
+   "short": "The lights come on a little before the train and go off only when the train has gone by.",
+   "rule": "Two red lights that flash alternately stand at level crossings (passaggi a livello) with half-barriers (semibarriere) or without barriers, normally on the right of the road. They switch on just before the train comes and before the half-barriers go down, with a sound signal, and stay on until the train has passed. When they flash, vehicles and pedestrians must stop.",
+   "trap": "'fino alla fine del suo passaggio' (until it has passed): not off earlier.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "On before the train, off after it has passed",
+    "it": "arrivo del treno",
+    "lines": [
+     "On: shortly before the train",
+     "Off: only after the train has passed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "poco prima dell'arrivo del treno",
+    "en": "shortly before the train arrives"
+   },
+   {
+    "it": "fino alla fine del suo passaggio",
+    "en": "until it has finished passing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21048": {
+  "en": "The lights shown come on just before the half-barriers start to go down.",
+  "explain": {
+   "short": "First the red lights start flashing, then the half-barriers come down. The lights warn you in time.",
+   "rule": "Two red lights that flash alternately stand at level crossings (passaggi a livello) with half-barriers (semibarriere) or without barriers, normally on the right of the road. They switch on just before the train comes and before the half-barriers go down, with a sound signal, and stay on until the train has passed. When they flash, vehicles and pedestrians must stop.",
+   "trap": "'subito prima' (just before) is right: lights first, barriers second.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lights first, then barriers come down",
+    "it": "abbassamento",
+    "lines": [
+     "1. Red lights start flashing",
+     "2. Half-barriers come down"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "subito prima",
+    "en": "just before"
+   },
+   {
+    "it": "abbassamento delle semibarriere",
+    "en": "lowering of the half-barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21049": {
+  "en": "The lights shown work together with a sound signal device.",
+  "explain": {
+   "short": "With the flashing lights there is also a sound (a bell or buzzer), so you notice the danger even without looking.",
+   "rule": "Two red lights that flash alternately stand at level crossings (passaggi a livello) with half-barriers (semibarriere) or without barriers, normally on the right of the road. They switch on just before the train comes and before the half-barriers go down, with a sound signal, and stay on until the train has passed. When they flash, vehicles and pedestrians must stop.",
+   "trap": "'segnalazione acustica' (sound signal) is right: you see AND hear the warning.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lights plus a sound signal",
+    "it": "acustica",
+    "lines": [
+     "Flashing lights + a sound signal"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "integrate",
+    "en": "completed / supported"
+   },
+   {
+    "it": "segnalazione acustica",
+    "en": "sound signal"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21050": {
+  "en": "When approaching a level crossing with red lights flashing alternately and the half-barrier still up, you must get ready to stop.",
+  "explain": {
+   "short": "The flashing lights mean a train is coming and the barrier is about to go down. Slow down and prepare to stop.",
+   "rule": "Two red lights that flash alternately stand at level crossings (passaggi a livello) with half-barriers (semibarriere) or without barriers, normally on the right of the road. They switch on just before the train comes and before the half-barriers go down, with a sound signal, and stay on until the train has passed. When they flash, vehicles and pedestrians must stop.",
+   "trap": "'ancora alzata' (still up): the open barrier does not mean you can go.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Barrier still up but lights flash: get ready to stop",
+    "it": "predisporsi all'arresto",
+    "lines": [
+     "Lights flash, barrier still up",
+     "Slow down, get ready to stop"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "semibarriera ancora alzata",
+    "en": "half-barrier still up"
+   },
+   {
+    "it": "predisporsi all'arresto",
+    "en": "get ready to stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21051": {
+  "en": "When approaching a level crossing with red lights flashing alternately and the half-barrier still up, you may pass quickly if you do not see any train coming.",
+  "explain": {
+   "short": "Flashing red lights mean stop, even if the barrier is still up and you cannot see the train yet. Trains are fast and need a long way to brake.",
+   "rule": "Two red lights that flash alternately stand at level crossings (passaggi a livello) with half-barriers (semibarriere) or without barriers, normally on the right of the road. They switch on just before the train comes and before the half-barriers go down, with a sound signal, and stay on until the train has passed. When they flash, vehicles and pedestrians must stop.",
+   "trap": "'se non si vede sopraggiungere alcun treno' (if you see no train): the lights count, not your eyes.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Never rush across: flashing red means stop",
+    "it": "passare velocemente",
+    "lines": [
+     "Flashing red: stop",
+     "Even if you cannot see a train"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "passare velocemente",
+    "en": "pass quickly"
+   },
+   {
+    "it": "se non si vede",
+    "en": "if you do not see"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21052": {
+  "en": "The lights shown are found along railway lines, as a traffic light for train drivers.",
+  "explain": {
+   "short": "These lights face the road: they are for drivers and pedestrians crossing the railway, not for train drivers.",
+   "rule": "Two red lights that flash alternately stand at level crossings (passaggi a livello) with half-barriers (semibarriere) or without barriers, normally on the right of the road. They switch on just before the train comes and before the half-barriers go down, with a sound signal, and stay on until the train has passed. When they flash, vehicles and pedestrians must stop.",
+   "trap": "'per i conducenti dei treni' (for train drivers) is wrong: they are for road users.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "For road users at the crossing, not for trains",
+    "it": "conducenti dei treni",
+    "lines": [
+     "For cars and pedestrians at the crossing",
+     "Not a signal for train drivers"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "linee ferroviarie",
+    "en": "railway lines"
+   },
+   {
+    "it": "conducenti dei treni",
+    "en": "train drivers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21053": {
+  "en": "The lights shown, when they flash alternately, invite you to occupy the level crossing quickly.",
+  "explain": {
+   "short": "Flashing red lights mean the opposite: stop, do not go onto the crossing.",
+   "rule": "Two red lights that flash alternately stand at level crossings (passaggi a livello) with half-barriers (semibarriere) or without barriers, normally on the right of the road. They switch on just before the train comes and before the half-barriers go down, with a sound signal, and stay on until the train has passed. When they flash, vehicles and pedestrians must stop.",
+   "trap": "'invitano a occupare rapidamente' (invite you to hurry onto it) is the opposite of the real meaning.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Flashing red: stop, do not hurry across",
+    "it": "occupare rapidamente",
+    "lines": [
+     "Flashing red: stop before the crossing",
+     "Never hurry onto the tracks"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "lampeggiano alternativamente",
+    "en": "flash alternately"
+   },
+   {
+    "it": "occupare rapidamente",
+    "en": "occupy quickly"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21054": {
+  "en": "The lights shown can be found 150 metres before a level crossing with barriers.",
+  "explain": {
+   "short": "These lights stand at the crossing itself, not 150 m before. 150 m before there is a danger sign instead.",
+   "rule": "Two red lights that flash alternately stand at level crossings (passaggi a livello) with half-barriers (semibarriere) or without barriers, normally on the right of the road. They switch on just before the train comes and before the half-barriers go down, with a sound signal, and stay on until the train has passed. When they flash, vehicles and pedestrians must stop.",
+   "trap": "'150 metri prima' (150 m before) is wrong: the lights are right at the crossing.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At the crossing itself, not 150 m before",
+    "it": "150 metri prima",
+    "lines": [
+     "The lights are AT the crossing",
+     "150 m before: a warning sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "150 metri prima",
+    "en": "150 metres before"
+   },
+   {
+    "it": "con barriere",
+    "en": "with barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21055": {
+  "en": "The lights shown are placed on the first of the distance panels of a level crossing.",
+  "explain": {
+   "short": "The distance panels (pannelli distanziometrici) have red stripes, no lights. The flashing lights are at the crossing.",
+   "rule": "Two red lights that flash alternately stand at level crossings (passaggi a livello) with half-barriers (semibarriere) or without barriers, normally on the right of the road. They switch on just before the train comes and before the half-barriers go down, with a sound signal, and stay on until the train has passed. When they flash, vehicles and pedestrians must stop.",
+   "trap": "'pannelli distanziometrici' (distance panels) are striped boards before the crossing, not where the lights go.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lights at the crossing, not on the distance panels",
+    "it": "pannelli distanziometrici",
+    "lines": [
+     "Distance panels: red stripes, no lights",
+     "The lights stand at the crossing"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pannelli distanziometrici",
+    "en": "distance panels"
+   },
+   {
+    "it": "sul primo",
+    "en": "on the first"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21056": {
+  "en": "The light device shown is made of alternately flashing lights that come on while the half-barriers are opening (going up).",
+  "explain": {
+   "short": "The lights come on before the half-barriers go DOWN, not when they go up. When the barriers go up, the train has passed.",
+   "rule": "Two red lights that flash alternately stand at level crossings (passaggi a livello) with half-barriers (semibarriere) or without barriers, normally on the right of the road. They switch on just before the train comes and before the half-barriers go down, with a sound signal, and stay on until the train has passed. When they flash, vehicles and pedestrians must stop.",
+   "trap": "'fase di apertura (sollevamento)' (opening, going up) is wrong: they come on before the lowering.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "They come on before the barriers go DOWN",
+    "it": "sollevamento",
+    "lines": [
+     "Lights on: barriers about to go down",
+     "Barriers go up: train has passed"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "fase di apertura",
+    "en": "opening phase"
+   },
+   {
+    "it": "sollevamento",
+    "en": "raising"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21057": {
+  "en": "The light signals shown are traffic lights for reversible lanes.",
+  "explain": {
+   "short": "Lights hung above each lane, with a red X and arrows, control reversible lanes (corsie reversibili).",
+   "rule": "Lights over the lanes for reversible lanes (corsie reversibili: lanes whose direction can change). Red X = you must not use that lane. Green arrow pointing down = you may use that lane. Flashing yellow arrow = move into the lane the arrow points to. They apply to all vehicles, bicycles too, not to pedestrians.",
+   "trap": "'corsie reversibili' (reversible lanes) is right: lanes whose direction can change.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lights for reversible lanes",
+    "it": "corsie reversibili",
+    "lines": [
+     "One light over each lane",
+     "The lane's direction can change"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnali luminosi",
+    "en": "light signals"
+   },
+   {
+    "it": "corsie reversibili",
+    "en": "reversible lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21058": {
+  "en": "The traffic light shown does not let you occupy the lane marked with a red X-shaped light.",
+  "explain": {
+   "short": "A red X over a lane means that lane is closed to you: do not drive in it.",
+   "rule": "Lights over the lanes for reversible lanes (corsie reversibili: lanes whose direction can change). Red X = you must not use that lane. Green arrow pointing down = you may use that lane. Flashing yellow arrow = move into the lane the arrow points to. They apply to all vehicles, bicycles too, not to pedestrians.",
+   "trap": "'non consente' (does not allow) is right for the red X.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red X: do not use that lane",
+    "it": "X",
+    "lines": [
+     "Red X: lane closed to you"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non consente di occupare",
+    "en": "does not allow you to occupy"
+   },
+   {
+    "it": "a forma di X",
+    "en": "X-shaped"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21059": {
+  "en": "The traffic light shown lets you enter the lane shown by the green arrow.",
+  "explain": {
+   "short": "A green arrow pointing down over a lane means that lane is open to you.",
+   "rule": "Lights over the lanes for reversible lanes (corsie reversibili: lanes whose direction can change). Red X = you must not use that lane. Green arrow pointing down = you may use that lane. Flashing yellow arrow = move into the lane the arrow points to. They apply to all vehicles, bicycles too, not to pedestrians.",
+   "trap": "'impegnare' (enter / use) is right with the green arrow.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green arrow: you may use that lane",
+    "it": "freccia verde",
+    "lines": [
+     "Green arrow: lane open to you"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "impegnare la corsia",
+    "en": "enter the lane"
+   },
+   {
+    "it": "freccia verde",
+    "en": "green arrow"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21060": {
+  "en": "In the traffic lights shown, the flashing yellow light obliges the driver to move into the lane shown by the arrow.",
+  "explain": {
+   "short": "The flashing yellow slanted arrow tells you to leave your lane and move to the one it points to.",
+   "rule": "Lights over the lanes for reversible lanes (corsie reversibili: lanes whose direction can change). Red X = you must not use that lane. Green arrow pointing down = you may use that lane. Flashing yellow arrow = move into the lane the arrow points to. They apply to all vehicles, bicycles too, not to pedestrians.",
+   "trap": "'obbliga' (obliges) is right: it is an order to change lane.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Flashing yellow arrow: move to that lane",
+    "it": "gialla lampeggiante",
+    "lines": [
+     "Flashing yellow arrow",
+     "Move into the lane it points to"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce gialla lampeggiante",
+    "en": "flashing yellow light"
+   },
+   {
+    "it": "spostarsi nella corsia",
+    "en": "move into the lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21061": {
+  "en": "The traffic light shown does not let you occupy the lanes shown by the green arrows.",
+  "explain": {
+   "short": "Green arrows mean the opposite: those lanes are open to you.",
+   "rule": "Lights over the lanes for reversible lanes (corsie reversibili: lanes whose direction can change). Red X = you must not use that lane. Green arrow pointing down = you may use that lane. Flashing yellow arrow = move into the lane the arrow points to. They apply to all vehicles, bicycles too, not to pedestrians.",
+   "trap": "'non consente' (does not allow) is wrong for green: only the red X closes a lane.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green arrow lanes are OPEN to you",
+    "it": "frecce verdi",
+    "lines": [
+     "Green arrow: you may use the lane",
+     "Only the red X closes it"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non consente di occupare",
+    "en": "does not allow you to occupy"
+   },
+   {
+    "it": "frecce verdi",
+    "en": "green arrows"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21062": {
+  "en": "The traffic light shown also applies to pedestrians.",
+  "explain": {
+   "short": "These lights are over the lanes of the carriageway: they are for vehicles. Pedestrians have their own lights.",
+   "rule": "Lights over the lanes for reversible lanes (corsie reversibili: lanes whose direction can change). Red X = you must not use that lane. Green arrow pointing down = you may use that lane. Flashing yellow arrow = move into the lane the arrow points to. They apply to all vehicles, bicycles too, not to pedestrians.",
+   "trap": "'anche per i pedoni' (also for pedestrians) is wrong: vehicles only.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "For vehicles in the lanes, not pedestrians",
+    "it": "pedoni",
+    "lines": [
+     "Lane lights: for vehicles",
+     "Pedestrians have their own lights"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "vale anche",
+    "en": "also applies"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21063": {
+  "en": "In the traffic lights shown, the red X-shaped light orders you to stop and wait for the yellow light.",
+  "explain": {
+   "short": "The red X does not mean 'stop and wait': it means you must not drive in that lane. Use an open lane.",
+   "rule": "Lights over the lanes for reversible lanes (corsie reversibili: lanes whose direction can change). Red X = you must not use that lane. Green arrow pointing down = you may use that lane. Flashing yellow arrow = move into the lane the arrow points to. They apply to all vehicles, bicycles too, not to pedestrians.",
+   "trap": "'arrestarsi ed attendere la luce gialla' (stop and wait for yellow) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red X: lane closed, not 'wait for yellow'",
+    "it": "X",
+    "lines": [
+     "Red X: do not use this lane",
+     "Use a lane with a green arrow"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "a forma di X",
+    "en": "X-shaped"
+   },
+   {
+    "it": "attendere la luce gialla",
+    "en": "wait for the yellow light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21064": {
+  "en": "The traffic light shown does not apply to bicycles.",
+  "explain": {
+   "short": "Bicycles are vehicles: lane lights apply to them too.",
+   "rule": "Lights over the lanes for reversible lanes (corsie reversibili: lanes whose direction can change). Red X = you must not use that lane. Green arrow pointing down = you may use that lane. Flashing yellow arrow = move into the lane the arrow points to. They apply to all vehicles, bicycles too, not to pedestrians.",
+   "trap": "'non vale per le biciclette' (not for bicycles) is wrong: bikes must obey too.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bicycles must obey these lights too",
+    "it": "biciclette",
+    "lines": [
+     "Bicycles are vehicles",
+     "They obey these lights too"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non vale",
+    "en": "does not apply"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21065": {
+  "en": "The green light on in the traffic light shown lets pedestrians cross.",
+  "explain": {
+   "short": "This is a pedestrian traffic light: the green little person means pedestrians may cross.",
+   "rule": "A light with a little person is a pedestrian traffic light. Green: pedestrians may step onto the road and cross. Yellow: do not start crossing. Red: do not cross. Turning vehicles must give way to pedestrians crossing on green. It has nothing to do with lifts, escalators or schools.",
+   "trap": "'pedoni' (pedestrians) is right: the figure is a person on foot.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green pedestrian light: you may cross",
+    "it": "pedoni",
+    "lines": [
+     "Green person: pedestrians may cross"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce verde",
+    "en": "green light"
+   },
+   {
+    "it": "pedoni",
+    "en": "pedestrians"
+   },
+   {
+    "it": "attraversamento",
+    "en": "crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21066": {
+  "en": "The green light on in the traffic light shown allows pedestrians to cross the road.",
+  "explain": {
+   "short": "Green on the pedestrian light: people on foot may cross the road.",
+   "rule": "A light with a little person is a pedestrian traffic light. Green: pedestrians may step onto the road and cross. Yellow: do not start crossing. Red: do not cross. Turning vehicles must give way to pedestrians crossing on green. It has nothing to do with lifts, escalators or schools.",
+   "trap": "'attraversare la strada' (cross the road) is right with the green person.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green person: cross the road",
+    "it": "attraversare",
+    "lines": [
+     "Green person: cross the road"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente ai pedoni",
+    "en": "allows pedestrians"
+   },
+   {
+    "it": "attraversare la strada",
+    "en": "cross the road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21067": {
+  "en": "The green light on in the traffic light shown allows pedestrians to step onto the carriageway to cross it.",
+  "explain": {
+   "short": "With the green person, pedestrians may step onto the carriageway (carreggiata: the part of the road for vehicles) and cross it.",
+   "rule": "A light with a little person is a pedestrian traffic light. Green: pedestrians may step onto the road and cross. Yellow: do not start crossing. Red: do not cross. Turning vehicles must give way to pedestrians crossing on green. It has nothing to do with lifts, escalators or schools.",
+   "trap": "'impegnare la carreggiata' (step onto the carriageway) is right: that is how you cross.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green person: step onto the road and cross",
+    "it": "carreggiata",
+    "lines": [
+     "Green person: step onto the road",
+     "Cross to the other side"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "impegnare la carreggiata",
+    "en": "step onto the carriageway"
+   },
+   {
+    "it": "attraversarla",
+    "en": "cross it"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21068": {
+  "en": "The traffic light shown indicates an escalator in operation.",
+  "explain": {
+   "short": "The little person shows a pedestrian traffic light, not an escalator.",
+   "rule": "A light with a little person is a pedestrian traffic light. Green: pedestrians may step onto the road and cross. Yellow: do not start crossing. Red: do not cross. Turning vehicles must give way to pedestrians crossing on green. It has nothing to do with lifts, escalators or schools.",
+   "trap": "'scala mobile' (escalator) is an invented meaning.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A pedestrian light, not an escalator",
+    "it": "scala mobile",
+    "lines": [
+     "Pedestrian light, not an escalator"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "scala mobile",
+    "en": "escalator"
+   },
+   {
+    "it": "in funzione",
+    "en": "working"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21069": {
+  "en": "The green light on in the traffic light shown lets only vehicles pass.",
+  "explain": {
+   "short": "The little person shows it is for pedestrians, not for vehicles.",
+   "rule": "A light with a little person is a pedestrian traffic light. Green: pedestrians may step onto the road and cross. Yellow: do not start crossing. Red: do not cross. Turning vehicles must give way to pedestrians crossing on green. It has nothing to do with lifts, escalators or schools.",
+   "trap": "'solo dei veicoli' (only vehicles) is wrong: it is for people on foot.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "For pedestrians, not only vehicles",
+    "it": "solo dei veicoli",
+    "lines": [
+     "Green person: for pedestrians"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo dei veicoli",
+    "en": "only of vehicles"
+   },
+   {
+    "it": "consente il passaggio",
+    "en": "allows passing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21070": {
+  "en": "The green light on in the traffic light shown obliges pedestrians to give way to vehicles that are turning.",
+  "explain": {
+   "short": "It is the other way round: turning vehicles must give way to pedestrians crossing on green.",
+   "rule": "A light with a little person is a pedestrian traffic light. Green: pedestrians may step onto the road and cross. Yellow: do not start crossing. Red: do not cross. Turning vehicles must give way to pedestrians crossing on green. It has nothing to do with lifts, escalators or schools.",
+   "trap": "'obbliga i pedoni a dare la precedenza' (pedestrians must give way) swaps the roles.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Turning cars give way to pedestrians",
+    "it": "precedenza",
+    "lines": [
+     "Pedestrians cross on green",
+     "Turning vehicles give way to them"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "veicoli che svoltano",
+    "en": "vehicles that turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21071": {
+  "en": "The traffic light shown indicates a public lift.",
+  "explain": {
+   "short": "The little person shows a pedestrian traffic light, not a lift.",
+   "rule": "A light with a little person is a pedestrian traffic light. Green: pedestrians may step onto the road and cross. Yellow: do not start crossing. Red: do not cross. Turning vehicles must give way to pedestrians crossing on green. It has nothing to do with lifts, escalators or schools.",
+   "trap": "'ascensore pubblico' (public lift) is an invented meaning.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A pedestrian light, not a lift",
+    "it": "ascensore",
+    "lines": [
+     "Pedestrian light, not a lift"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ascensore pubblico",
+    "en": "public lift"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21072": {
+  "en": "The traffic light shown signals a primary school, so you must slow down.",
+  "explain": {
+   "short": "A school is shown by a danger sign (triangle with children), not by this pedestrian light.",
+   "rule": "A light with a little person is a pedestrian traffic light. Green: pedestrians may step onto the road and cross. Yellow: do not start crossing. Red: do not cross. Turning vehicles must give way to pedestrians crossing on green. It has nothing to do with lifts, escalators or schools.",
+   "trap": "'scuola elementare' (primary school) is wrong: this is a pedestrian light.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A pedestrian light, not a school sign",
+    "it": "scuola",
+    "lines": [
+     "Pedestrian light, not a school sign"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "scuola elementare",
+    "en": "primary school"
+   },
+   {
+    "it": "bisogna rallentare",
+    "en": "you must slow down"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21073": {
+  "en": "The green light of the traffic light shown is always on while students are leaving school.",
+  "explain": {
+   "short": "A pedestrian light works in normal cycles. There is no rule that it stays green when pupils leave school.",
+   "rule": "A light with a little person is a pedestrian traffic light. Green: pedestrians may step onto the road and cross. Yellow: do not start crossing. Red: do not cross. Turning vehicles must give way to pedestrians crossing on green. It has nothing to do with lifts, escalators or schools.",
+   "trap": "'sempre accesa' (always on) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Normal cycle, not always green at school time",
+    "it": "sempre accesa",
+    "lines": [
+     "Pedestrian light: normal cycle",
+     "No special 'school' green"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sempre accesa",
+    "en": "always on"
+   },
+   {
+    "it": "uscita degli studenti",
+    "en": "students leaving"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21074": {
+  "en": "The light signal shown is a traffic light for vehicles.",
+  "explain": {
+   "short": "Three round lights, red, yellow and green, with no symbols: this is the normal light for vehicles.",
+   "rule": "The three-light traffic light (red, yellow, green) is for vehicles, bicycles and buses included. It normally stands at a junction (incrocio) to control who passes. Steady yellow: stop, but if you are already in the junction, clear it. Flashing yellow: you may pass with care.",
+   "trap": "'per i veicoli' (for vehicles) is right: plain round lights.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Normal traffic light for vehicles",
+    "it": "semaforo",
+    "lines": [
+     "Red, yellow, green: for vehicles"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale luminoso",
+    "en": "light signal"
+   },
+   {
+    "it": "semaforo per i veicoli",
+    "en": "traffic light for vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21075": {
+  "en": "The traffic light shown is, as a rule, placed at a junction.",
+  "explain": {
+   "short": "Traffic lights are normally at junctions (incroci), where traffic from different roads meets.",
+   "rule": "The three-light traffic light (red, yellow, green) is for vehicles, bicycles and buses included. It normally stands at a junction (incrocio) to control who passes. Steady yellow: stop, but if you are already in the junction, clear it. Flashing yellow: you may pass with care.",
+   "trap": "'di norma' (as a rule): mostly at junctions, sometimes also at pedestrian crossings.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "As a rule: at a junction",
+    "it": "incrocio",
+    "lines": [
+     "Normally at a junction"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   },
+   {
+    "it": "incrocio",
+    "en": "junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21076": {
+  "en": "The traffic light shown is used, as a rule, to control the passage of vehicles at a junction.",
+  "explain": {
+   "short": "Its job is to decide who passes at a junction, by turns.",
+   "rule": "The three-light traffic light (red, yellow, green) is for vehicles, bicycles and buses included. It normally stands at a junction (incrocio) to control who passes. Steady yellow: stop, but if you are already in the junction, clear it. Flashing yellow: you may pass with care.",
+   "trap": "'regolare il passaggio' (control the passage) is right.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "It controls who passes at the junction",
+    "it": "regolare",
+    "lines": [
+     "Controls who passes, by turns"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "regolare il passaggio",
+    "en": "control the passage"
+   },
+   {
+    "it": "di norma",
+    "en": "as a rule"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21077": {
+  "en": "The traffic light shown, with the steady yellow light on, lets you cross the junction if you have already entered it.",
+  "explain": {
+   "short": "If yellow comes on when you are already inside the junction, you must clear it: go on and leave it free.",
+   "rule": "The three-light traffic light (red, yellow, green) is for vehicles, bicycles and buses included. It normally stands at a junction (incrocio) to control who passes. Steady yellow: stop, but if you are already in the junction, clear it. Flashing yellow: you may pass with care.",
+   "trap": "'se lo si è già impegnato' (if you are already in it) is the key condition.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow but already inside: clear the junction",
+    "it": "già impegnato",
+    "lines": [
+     "Steady yellow: stop if you can",
+     "Already in the junction? Clear it"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce gialla fissa",
+    "en": "steady yellow light"
+   },
+   {
+    "it": "già impegnato",
+    "en": "already entered"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21078": {
+  "en": "The traffic light shown does not apply to public passenger transport vehicles.",
+  "explain": {
+   "short": "Buses obey normal traffic lights too. Only on some reserved lanes do they have special lights.",
+   "rule": "The three-light traffic light (red, yellow, green) is for vehicles, bicycles and buses included. It normally stands at a junction (incrocio) to control who passes. Steady yellow: stop, but if you are already in the junction, clear it. Flashing yellow: you may pass with care.",
+   "trap": "'non vale' (does not apply) is wrong: the normal light is for all vehicles.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Buses obey this light too",
+    "it": "servizio di linea",
+    "lines": [
+     "Normal light: for all vehicles",
+     "Buses included"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non vale",
+    "en": "does not apply"
+   },
+   {
+    "it": "servizio di linea",
+    "en": "public line service"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21079": {
+  "en": "The light signal shown is a traffic light that does not apply to bicycles.",
+  "explain": {
+   "short": "Bicycles are vehicles: they must obey the normal traffic light.",
+   "rule": "The three-light traffic light (red, yellow, green) is for vehicles, bicycles and buses included. It normally stands at a junction (incrocio) to control who passes. Steady yellow: stop, but if you are already in the junction, clear it. Flashing yellow: you may pass with care.",
+   "trap": "'non vale per le biciclette' (not for bicycles) is wrong.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bicycles obey this light too",
+    "it": "biciclette",
+    "lines": [
+     "Bicycles are vehicles",
+     "They stop at red too"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non vale",
+    "en": "does not apply"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21080": {
+  "en": "The traffic light shown is found at all motorway toll booths.",
+  "explain": {
+   "short": "This light is normally at junctions. Toll booths (caselli) do not all have it.",
+   "rule": "The three-light traffic light (red, yellow, green) is for vehicles, bicycles and buses included. It normally stands at a junction (incrocio) to control who passes. Steady yellow: stop, but if you are already in the junction, clear it. Flashing yellow: you may pass with care.",
+   "trap": "'tutti' (all) is the trap word: there is no such rule.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Normally at junctions, not at every toll booth",
+    "it": "caselli",
+    "lines": [
+     "Normally at junctions",
+     "Not at every toll booth"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tutti",
+    "en": "all"
+   },
+   {
+    "it": "caselli autostradali",
+    "en": "motorway toll booths"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21081": {
+  "en": "The traffic light shown is found near railway tracks.",
+  "explain": {
+   "short": "Near railway tracks you find the two red flashing lights of level crossings, not this three-light signal.",
+   "rule": "The three-light traffic light (red, yellow, green) is for vehicles, bicycles and buses included. It normally stands at a junction (incrocio) to control who passes. Steady yellow: stop, but if you are already in the junction, clear it. Flashing yellow: you may pass with care.",
+   "trap": "'binari ferroviari' (railway tracks) is wrong: this light is for junctions.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "For junctions, not railway tracks",
+    "it": "binari",
+    "lines": [
+     "Junction light, not a railway light",
+     "Railways: two flashing red lights"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in vicinanza",
+    "en": "near"
+   },
+   {
+    "it": "binari ferroviari",
+    "en": "railway tracks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21082": {
+  "en": "The traffic light shown, with the flashing yellow light on, does not allow vehicles to pass.",
+  "explain": {
+   "short": "Flashing yellow allows you to pass, slowly and carefully, giving way as the rules say.",
+   "rule": "The three-light traffic light (red, yellow, green) is for vehicles, bicycles and buses included. It normally stands at a junction (incrocio) to control who passes. Steady yellow: stop, but if you are already in the junction, clear it. Flashing yellow: you may pass with care.",
+   "trap": "'non consente il transito' (does not allow passing) is wrong: flashing yellow is not red.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Flashing yellow: you may pass with care",
+    "it": "gialla lampeggiante",
+    "lines": [
+     "Flashing yellow: pass with care"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce gialla lampeggiante",
+    "en": "flashing yellow light"
+   },
+   {
+    "it": "non consente il transito",
+    "en": "does not allow passing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21083": {
+  "en": "The light signals shown are lane traffic lights.",
+  "explain": {
+   "short": "Lights with arrows are lane traffic lights (semafori di corsia): each one is for one direction.",
+   "rule": "Lights with arrows are lane traffic lights (semafori di corsia). Each one is for vehicles going in the direction of its arrow. Green arrow = go, only that way. Steady yellow arrow = stop, or clear the junction at once if you are already in it. Red arrow = stop. Off = go with special care. They apply to all vehicles, bicycles too.",
+   "trap": "'semafori di corsia' (lane traffic lights) is right: arrows instead of round lights.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrow lights = lane traffic lights",
+    "it": "semafori di corsia",
+    "lines": [
+     "Arrows: one light per direction"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnali luminosi",
+    "en": "light signals"
+   },
+   {
+    "it": "semafori di corsia",
+    "en": "lane traffic lights"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21084": {
+  "en": "The traffic light shown concerns vehicles that must go on in the direction of the arrow.",
+  "explain": {
+   "short": "Each arrow light is only for the vehicles going the way it points.",
+   "rule": "Lights with arrows are lane traffic lights (semafori di corsia). Each one is for vehicles going in the direction of its arrow. Green arrow = go, only that way. Steady yellow arrow = stop, or clear the junction at once if you are already in it. Red arrow = stop. Off = go with special care. They apply to all vehicles, bicycles too.",
+   "trap": "'nella direzione della freccia' (in the arrow's direction) is right.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Each light is for its arrow's direction",
+    "it": "direzione della freccia",
+    "lines": [
+     "Arrow light: only for that direction"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "riguarda i veicoli",
+    "en": "concerns vehicles"
+   },
+   {
+    "it": "direzione della freccia",
+    "en": "direction of the arrow"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21085": {
+  "en": "The traffic light shown lets you go on only in the direction of the green arrow.",
+  "explain": {
+   "short": "The green arrow lets you go only the way it points, not in other directions.",
+   "rule": "Lights with arrows are lane traffic lights (semafori di corsia). Each one is for vehicles going in the direction of its arrow. Green arrow = go, only that way. Steady yellow arrow = stop, or clear the junction at once if you are already in it. Red arrow = stop. Off = go with special care. They apply to all vehicles, bicycles too.",
+   "trap": "'sola' (only) is right: other directions follow their own light.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green arrow: go only that way",
+    "it": "freccia verde",
+    "lines": [
+     "Green arrow: go only that way"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sola direzione",
+    "en": "only direction"
+   },
+   {
+    "it": "freccia verde",
+    "en": "green arrow"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21086": {
+  "en": "The traffic lights shown, if switched off, let you pass with particular care.",
+  "explain": {
+   "short": "Lights that are off give no order: you may pass, carefully, following the priority rules.",
+   "rule": "Lights with arrows are lane traffic lights (semafori di corsia). Each one is for vehicles going in the direction of its arrow. Green arrow = go, only that way. Steady yellow arrow = stop, or clear the junction at once if you are already in it. Red arrow = stop. Off = go with special care. They apply to all vehicles, bicycles too.",
+   "trap": "'se spenti' (if off) does not mean stop: pass with care.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lights off: pass with particular care",
+    "it": "spenti",
+    "lines": [
+     "Lights off: pass with care",
+     "Follow the priority rules"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "spenti",
+    "en": "switched off"
+   },
+   {
+    "it": "particolare prudenza",
+    "en": "particular care"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21087": {
+  "en": "The lane traffic lights shown, with the red arrow on, order vehicles going in the arrow's direction to stop.",
+  "explain": {
+   "short": "A red arrow stops only the vehicles going that way.",
+   "rule": "Lights with arrows are lane traffic lights (semafori di corsia). Each one is for vehicles going in the direction of its arrow. Green arrow = go, only that way. Steady yellow arrow = stop, or clear the junction at once if you are already in it. Red arrow = stop. Off = go with special care. They apply to all vehicles, bicycles too.",
+   "trap": "'diretti nel senso della freccia' (going the arrow's way): only they must stop.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red arrow: stop if you go that way",
+    "it": "freccia rossa",
+    "lines": [
+     "Red arrow: stop",
+     "Only if you go that way"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "freccia rossa",
+    "en": "red arrow"
+   },
+   {
+    "it": "impongono l'arresto",
+    "en": "order a stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21088": {
+  "en": "The traffic lights shown, with the steady yellow arrow on, order you to clear the junction at once if you have already entered it.",
+  "explain": {
+   "short": "Steady yellow arrow: if you are already in the junction, leave it quickly so it is free for others.",
+   "rule": "Lights with arrows are lane traffic lights (semafori di corsia). Each one is for vehicles going in the direction of its arrow. Green arrow = go, only that way. Steady yellow arrow = stop, or clear the junction at once if you are already in it. Red arrow = stop. Off = go with special care. They apply to all vehicles, bicycles too.",
+   "trap": "'liberare immediatamente' (clear at once) is right when you are already inside.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow arrow, already inside: clear it at once",
+    "it": "liberare",
+    "lines": [
+     "Steady yellow arrow",
+     "Already inside? Clear the junction"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "freccia gialla fissa",
+    "en": "steady yellow arrow"
+   },
+   {
+    "it": "liberare immediatamente",
+    "en": "clear immediately"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21089": {
+  "en": "The light signals shown also apply to bicycles.",
+  "explain": {
+   "short": "Bicycles are vehicles, so they obey lane traffic lights too.",
+   "rule": "Lights with arrows are lane traffic lights (semafori di corsia). Each one is for vehicles going in the direction of its arrow. Green arrow = go, only that way. Steady yellow arrow = stop, or clear the junction at once if you are already in it. Red arrow = stop. Off = go with special care. They apply to all vehicles, bicycles too.",
+   "trap": "'anche' (also) is right: bikes are included.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Bicycles obey lane lights too",
+    "it": "biciclette",
+    "lines": [
+     "Bicycles are vehicles: they obey too"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "valgono anche",
+    "en": "also apply"
+   },
+   {
+    "it": "biciclette",
+    "en": "bicycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21090": {
+  "en": "The light signals shown are traffic lights for public passenger transport vehicles.",
+  "explain": {
+   "short": "Arrow lights are for all vehicles going that way, not only for buses.",
+   "rule": "Lights with arrows are lane traffic lights (semafori di corsia). Each one is for vehicles going in the direction of its arrow. Green arrow = go, only that way. Steady yellow arrow = stop, or clear the junction at once if you are already in it. Red arrow = stop. Off = go with special care. They apply to all vehicles, bicycles too.",
+   "trap": "'in servizio di linea' (public line service) is wrong: they are for everybody.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "For all vehicles, not only buses",
+    "it": "servizio di linea",
+    "lines": [
+     "Arrow lights: for all vehicles",
+     "Not a special bus light"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "servizio di linea",
+    "en": "public line service"
+   },
+   {
+    "it": "trasporto di persone",
+    "en": "passenger transport"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21091": {
+  "en": "The light signals shown are traffic lights for rail vehicles (trams, trains).",
+  "explain": {
+   "short": "Trams and trains have their own special lights. These coloured arrows are lane lights for road vehicles.",
+   "rule": "Lights with arrows are lane traffic lights (semafori di corsia). Each one is for vehicles going in the direction of its arrow. Green arrow = go, only that way. Steady yellow arrow = stop, or clear the junction at once if you are already in it. Red arrow = stop. Off = go with special care. They apply to all vehicles, bicycles too.",
+   "trap": "'veicoli su rotaie' (rail vehicles) is wrong.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "For road vehicles, not trams or trains",
+    "it": "rotaie",
+    "lines": [
+     "Coloured arrows: road vehicles",
+     "Trams and trains have other lights"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "veicoli su rotaie",
+    "en": "rail vehicles"
+   },
+   {
+    "it": "tram, treni",
+    "en": "trams, trains"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21092": {
+  "en": "The light signals shown are placed at the start of a tunnel.",
+  "explain": {
+   "short": "Lane lights are used at junctions to control each direction, not at tunnel entrances.",
+   "rule": "Lights with arrows are lane traffic lights (semafori di corsia). Each one is for vehicles going in the direction of its arrow. Green arrow = go, only that way. Steady yellow arrow = stop, or clear the junction at once if you are already in it. Red arrow = stop. Off = go with special care. They apply to all vehicles, bicycles too.",
+   "trap": "'galleria' (tunnel) is a wrong place.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At junctions, not at tunnel entrances",
+    "it": "galleria",
+    "lines": [
+     "Lane lights: at junctions"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'inizio",
+    "en": "at the start"
+   },
+   {
+    "it": "galleria",
+    "en": "tunnel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21093": {
+  "en": "The traffic lights shown are used at the entrances to lifting bridges.",
+  "explain": {
+   "short": "Lane lights with arrows control directions at junctions, not access to lifting bridges.",
+   "rule": "Lights with arrows are lane traffic lights (semafori di corsia). Each one is for vehicles going in the direction of its arrow. Green arrow = go, only that way. Steady yellow arrow = stop, or clear the junction at once if you are already in it. Red arrow = stop. Off = go with special care. They apply to all vehicles, bicycles too.",
+   "trap": "'ponti mobili' (lifting bridges) is a wrong place.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At junctions, not at lifting bridges",
+    "it": "ponti mobili",
+    "lines": [
+     "Lane lights: at junctions"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ponti mobili",
+    "en": "lifting bridges"
+   },
+   {
+    "it": "accessi",
+    "en": "entrances"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21094": {
+  "en": "The traffic lights shown control the entrance to the boarding pier of ferry boats.",
+  "explain": {
+   "short": "Lane lights control directions at junctions, not boarding onto ferries.",
+   "rule": "Lights with arrows are lane traffic lights (semafori di corsia). Each one is for vehicles going in the direction of its arrow. Green arrow = go, only that way. Steady yellow arrow = stop, or clear the junction at once if you are already in it. Red arrow = stop. Off = go with special care. They apply to all vehicles, bicycles too.",
+   "trap": "'navi traghetto' (ferry boats) is a wrong place.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At junctions, not at ferry piers",
+    "it": "traghetto",
+    "lines": [
+     "Lane lights: at junctions"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "pontile d'imbarco",
+    "en": "boarding pier"
+   },
+   {
+    "it": "navi traghetto",
+    "en": "ferry boats"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21095": {
+  "en": "The traffic lights shown control crossing a level crossing.",
+  "explain": {
+   "short": "Level crossings use two red lights flashing alternately, not arrow lights.",
+   "rule": "Lights with arrows are lane traffic lights (semafori di corsia). Each one is for vehicles going in the direction of its arrow. Green arrow = go, only that way. Steady yellow arrow = stop, or clear the junction at once if you are already in it. Red arrow = stop. Off = go with special care. They apply to all vehicles, bicycles too.",
+   "trap": "'passaggio a livello' (level crossing) is wrong for arrow lights.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Level crossings use flashing red lights",
+    "it": "passaggio a livello",
+    "lines": [
+     "Lane lights: at junctions",
+     "Level crossing: two flashing red lights"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "attraversamento",
+    "en": "crossing"
+   },
+   {
+    "it": "passaggio a livello",
+    "en": "level crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21096": {
+  "en": "The light signals shown are traffic lights for reversible lanes.",
+  "explain": {
+   "short": "Reversible-lane lights hang over the lanes and use a red X and a green downward arrow. These are lane lights for directions at a junction.",
+   "rule": "Lights with arrows are lane traffic lights (semafori di corsia). Each one is for vehicles going in the direction of its arrow. Green arrow = go, only that way. Steady yellow arrow = stop, or clear the junction at once if you are already in it. Red arrow = stop. Off = go with special care. They apply to all vehicles, bicycles too.",
+   "trap": "'corsie reversibili' (reversible lanes) is wrong: those lights have a red X.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lane lights, not reversible-lane lights",
+    "it": "corsie reversibili",
+    "lines": [
+     "Arrows red/yellow/green: lane lights",
+     "Reversible lanes: red X, green arrow"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnali luminosi",
+    "en": "light signals"
+   },
+   {
+    "it": "corsie reversibili",
+    "en": "reversible lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

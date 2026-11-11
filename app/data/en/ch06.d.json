@@ -1,0 +1,1972 @@
+{
+ "q20905": {
+  "en": "On a one-way carriageway, the white dashed line shown marks the edges of the lanes.",
+  "explain": {
+   "short": "On a one-way road the dashed line in the middle shows where one lane ends and the next begins.",
+   "rule": "On a one-way road, the white dashed line only separates the lanes. All lanes go the same way and you may cross the line to change lane.",
+   "trap": "'delimitare le corsie' (to mark the lanes) is exactly what this line does.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One-way road: the dashed line marks the lanes",
+    "it": "corsie",
+    "lines": [
+     "One-way road",
+     "Dashed line = lane border"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "carreggiata a senso unico",
+    "en": "one-way carriageway"
+   },
+   {
+    "it": "striscia bianca discontinua",
+    "en": "white dashed line"
+   },
+   {
+    "it": "delimitare le corsie",
+    "en": "to mark the lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20906": {
+  "en": "The white dashed line shown, on one-way roads, divides the lanes.",
+  "explain": {
+   "short": "The dashed line splits the one-way road into two lanes going the same way.",
+   "rule": "On a one-way road, the white dashed line only separates the lanes. All lanes go the same way and you may cross the line to change lane.",
+   "trap": "'divide le corsie' (divides the lanes): lanes, not directions, because the road is one-way.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dashed line: lanes side by side, same direction",
+    "it": "corsie",
+    "lines": [
+     "Same direction in both lanes",
+     "Dashed line divides the lanes"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "striscia bianca discontinua",
+    "en": "white dashed line"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   },
+   {
+    "it": "divide le corsie",
+    "en": "divides the lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20907": {
+  "en": "The white dashed line shown allows you to make a U-turn on one-way roads.",
+  "explain": {
+   "short": "On a one-way road you can never turn around and drive back: you would be going against the traffic. The line only lets you change lane.",
+   "rule": "On a one-way road, the white dashed line only separates the lanes. All lanes go the same way and you may cross the line to change lane.",
+   "trap": "'inversione di marcia' (U-turn) is never allowed on a one-way road, whatever the line.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "One-way road: U-turn never allowed",
+    "it": "inversione di marcia",
+    "lines": [
+     "Dashed line: you may change lane",
+     "U-turn on one-way road: no"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "inversione di marcia",
+    "en": "U-turn"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20908": {
+  "en": "The white dashed line shown divides the road into two carriageways, each one two-way.",
+  "explain": {
+   "short": "A painted line does not make two carriageways; only a physical divider (spartitraffico) does. Here the line only separates lanes.",
+   "rule": "On a one-way road, the white dashed line only separates the lanes. All lanes go the same way and you may cross the line to change lane.",
+   "trap": "'due carreggiate, ognuna a doppio senso' (two carriageways, each two-way) is invented: it is one carriageway with lanes.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One carriageway, two lanes: not two carriageways",
+    "it": "carreggiate",
+    "lines": [
+     "One carriageway",
+     "Dashed line = two lanes"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "due carreggiate",
+    "en": "two carriageways"
+   },
+   {
+    "it": "doppio senso",
+    "en": "two-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20909": {
+  "en": "The white dashed line shown is found only on one-way roads.",
+  "explain": {
+   "short": "The white dashed line is used on two-way roads too, to separate the two directions. So it is not found only on one-way roads.",
+   "rule": "On a one-way road, the white dashed line only separates the lanes. All lanes go the same way and you may cross the line to change lane.",
+   "trap": "'solo' (only) is the trap: dashed lines are on two-way roads too.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dashed lines: one-way AND two-way roads",
+    "it": "solo",
+    "lines": [
+     "One-way roads: yes",
+     "Two-way roads: also yes"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "strade a senso unico",
+    "en": "one-way roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20910": {
+  "en": "On one-way roads, the white dashed line shown is placed on hill crests, to divide the two directions of travel.",
+  "explain": {
+   "short": "A one-way road has only one direction, so there are no two directions to divide. And on hill crests of two-way roads the line is solid, not dashed.",
+   "rule": "On a one-way road, the white dashed line only separates the lanes. All lanes go the same way and you may cross the line to change lane.",
+   "trap": "'dividere i due sensi di marcia' (divide the two directions) is impossible on a 'senso unico' (one-way) road.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One-way road: there are no two directions",
+    "it": "dossi",
+    "lines": [
+     "One-way: one direction only",
+     "On crests the centre line is solid"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dossi",
+    "en": "hill crests"
+   },
+   {
+    "it": "due sensi di marcia",
+    "en": "two directions of travel"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20911": {
+  "en": "The solid white centre line shown divides the carriageway into two lanes.",
+  "explain": {
+   "short": "The solid line in the middle splits the carriageway into two lanes, one on each side.",
+   "rule": "A white solid line in the middle separates the lanes, and on two-way roads it separates the two directions. You must never cross it or drive on it.",
+   "trap": "'due corsie' (two lanes): one carriageway, two lanes.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Solid centre line: two lanes",
+    "it": "corsie",
+    "lines": [
+     "One carriageway",
+     "Solid line: two lanes"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "striscia bianca continua",
+    "en": "solid white line"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   },
+   {
+    "it": "due corsie",
+    "en": "two lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20912": {
+  "en": "The solid white centre line shown must not be crossed.",
+  "explain": {
+   "short": "A solid line is a barrier you must respect: you may not go over it.",
+   "rule": "A white solid line in the middle separates the lanes, and on two-way roads it separates the two directions. You must never cross it or drive on it.",
+   "trap": "'non può essere superata' (must not be crossed) is the basic meaning of a solid line.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Solid line: do not cross",
+    "it": "non può essere superata",
+    "lines": [
+     "Solid centre line",
+     "Never cross it, never drive on it"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "continua",
+    "en": "solid"
+   },
+   {
+    "it": "non può essere superata",
+    "en": "must not be crossed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20913": {
+  "en": "The solid white centre line shown divides the directions of travel on two-way roads.",
+  "explain": {
+   "short": "On a two-way road the solid line in the middle keeps the two directions apart.",
+   "rule": "A white solid line in the middle separates the lanes, and on two-way roads it separates the two directions. You must never cross it or drive on it.",
+   "trap": "'divide i sensi di marcia' (divides the directions): on two-way roads, yes.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Two-way road: the line separates the directions",
+    "it": "sensi di marcia",
+    "lines": [
+     "Your direction on the right",
+     "Solid line between the directions"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sensi di marcia",
+    "en": "directions of travel"
+   },
+   {
+    "it": "strade a doppio senso",
+    "en": "two-way roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20914": {
+  "en": "The solid white centre line shown, on two-way roads, can be found on the uphill part of a hill crest.",
+  "explain": {
+   "short": "Near the top of a hill you cannot see oncoming cars. A solid line stops you moving into their lane.",
+   "rule": "A white solid line in the middle separates the lanes, and on two-way roads it separates the two directions. You must never cross it or drive on it.",
+   "trap": "'tratto in salita di un dosso' (uphill part of a crest) is a typical place for a solid line.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Before a hill crest: solid line, no overtaking",
+    "it": "dosso",
+    "lines": [
+     "Hill crest: no view ahead",
+     "Solid line: stay in your lane"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dosso",
+    "en": "hill crest"
+   },
+   {
+    "it": "tratto in salita",
+    "en": "uphill part"
+   },
+   {
+    "it": "doppio senso",
+    "en": "two-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20915": {
+  "en": "The solid white centre line shown, on two-way roads, can be near pedestrian crossings.",
+  "explain": {
+   "short": "Before a pedestrian crossing a solid line stops cars from overtaking, so people crossing are safe.",
+   "rule": "A white solid line in the middle separates the lanes, and on two-way roads it separates the two directions. You must never cross it or drive on it.",
+   "trap": "'attraversamenti pedonali' (pedestrian crossings) are a typical place for a solid line.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Near pedestrian crossings: solid line",
+    "it": "attraversamenti pedonali",
+    "lines": [
+     "Pedestrian crossing ahead",
+     "Solid line: no overtaking"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "attraversamenti pedonali",
+    "en": "pedestrian crossings"
+   },
+   {
+    "it": "in vicinanza",
+    "en": "near"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20916": {
+  "en": "The solid white centre line shown allows overtaking as long as you do not cross it.",
+  "explain": {
+   "short": "The line itself is the limit. If you can pass a slow vehicle (for example a bicycle) while staying fully in your lane, you may do it.",
+   "rule": "A white solid line in the middle separates the lanes, and on two-way roads it separates the two directions. You must never cross it or drive on it.",
+   "trap": "'senza superarla' (without crossing it) is the key: the ban is on crossing the line, not on every overtake.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Overtake only if you stay in your lane",
+    "it": "senza superarla",
+    "lines": [
+     "Bicycle in your lane",
+     "Pass it without touching the line"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sorpasso",
+    "en": "overtaking"
+   },
+   {
+    "it": "senza superarla",
+    "en": "without crossing it"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20917": {
+  "en": "The solid white centre line shown divides the road into two carriageways, each one two-way.",
+  "explain": {
+   "short": "A painted line divides lanes, not carriageways. Two carriageways need a physical divider (spartitraffico).",
+   "rule": "A white solid line in the middle separates the lanes, and on two-way roads it separates the two directions. You must never cross it or drive on it.",
+   "trap": "'due carreggiate, ognuna a doppio senso' (two carriageways, each two-way) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One carriageway with two lanes, not two carriageways",
+    "it": "carreggiate",
+    "lines": [
+     "One carriageway",
+     "Solid line = two lanes"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "due carreggiate",
+    "en": "two carriageways"
+   },
+   {
+    "it": "doppio senso",
+    "en": "two-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20918": {
+  "en": "The solid white centre line shown allows you to drive astride it.",
+  "explain": {
+   "short": "Driving with the line between your wheels means driving on it. A solid line must never be crossed or driven on.",
+   "rule": "A white solid line in the middle separates the lanes, and on two-way roads it separates the two directions. You must never cross it or drive on it.",
+   "trap": "'marciarvi a cavallo' (drive astride it) is forbidden: it means you are on the line.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Driving on the solid line: forbidden",
+    "it": "a cavallo",
+    "lines": [
+     "Solid centre line",
+     "Never cross it, never drive on it"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "marciarvi a cavallo",
+    "en": "drive astride it"
+   },
+   {
+    "it": "consente",
+    "en": "allows"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20919": {
+  "en": "The solid white centre line shown allows overtaking even when crossing it, as long as only the left wheels go over.",
+  "explain": {
+   "short": "A solid line may not be crossed at all, not even with only two wheels.",
+   "rule": "A white solid line in the middle separates the lanes, and on two-way roads it separates the two directions. You must never cross it or drive on it.",
+   "trap": "'purché con le sole ruote di sinistra' (as long as only the left wheels) sounds like a small exception, but there is none.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Not even the left wheels may cross",
+    "it": "ruote di sinistra",
+    "lines": [
+     "Left wheels over the line: no",
+     "Solid line: no exceptions"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "anche superandola",
+    "en": "even crossing it"
+   },
+   {
+    "it": "ruote di sinistra",
+    "en": "left wheels"
+   },
+   {
+    "it": "sorpasso",
+    "en": "overtaking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20920": {
+  "en": "The solid white centre line shown allows a U-turn on two-way roads.",
+  "explain": {
+   "short": "A U-turn would take you across the solid line. That is forbidden.",
+   "rule": "A white solid line in the middle separates the lanes, and on two-way roads it separates the two directions. You must never cross it or drive on it.",
+   "trap": "'inversione di marcia' (U-turn) means crossing the line, which a solid line forbids.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "U-turn across a solid line: forbidden",
+    "it": "inversione di marcia",
+    "lines": [
+     "U-turn = crossing the line",
+     "Solid line: forbidden"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "inversione di marcia",
+    "en": "U-turn"
+   },
+   {
+    "it": "doppio senso",
+    "en": "two-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20921": {
+  "en": "The marking shown indicates the recommended speed.",
+  "explain": {
+   "short": "The number 50 painted on the road tells you the speed advised on that stretch.",
+   "rule": "A number painted on the road (iscrizione) shows the recommended speed. It is not a weight limit.",
+   "trap": "'velocità consigliata' (recommended speed): a painted number is advice for your speed.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Painted 50: recommended speed",
+    "it": "velocità consigliata",
+    "lines": [
+     "50 painted on the road",
+     "Speed advice for this stretch"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "iscrizione",
+    "en": "painted marking"
+   },
+   {
+    "it": "velocità consigliata",
+    "en": "recommended speed"
+   }
+  ],
+  "review": true,
+  "reviewNote": "Painted numbers on the road may also repeat a speed LIMIT; check that 'recommended speed' is the intended official reading."
+ },
+ "q20927": {
+  "en": "Where the marking shown is present, vehicles with a laden mass over 50 quintals may not pass.",
+  "explain": {
+   "short": "The painted 50 is about speed, not weight. Weight limits are shown by vertical signs, not by numbers on the road.",
+   "rule": "A number painted on the road (iscrizione) shows the recommended speed. It is not a weight limit.",
+   "trap": "'50 quintali' (50 quintals, 5 tonnes) mixes up the number 50 with a weight.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "50 on the road = speed, not weight",
+    "it": "quintali",
+    "lines": [
+     "50 painted = speed",
+     "Not a weight limit"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "massa a pieno carico",
+    "en": "laden mass"
+   },
+   {
+    "it": "50 quintali",
+    "en": "50 quintals (5 t)"
+   },
+   {
+    "it": "transito",
+    "en": "passage"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20922": {
+  "en": "The device shown is an artificial speed hump.",
+  "explain": {
+   "short": "Yellow and black stripes across the road mark a raised hump that makes you slow down.",
+   "rule": "Yellow and black stripes across the road mark a speed hump (dosso artificiale). It makes you slow down; it is not a crossing and has nothing to do with parking.",
+   "trap": "'dosso artificiale' (artificial hump) is the correct name of this device.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow-black stripes: speed hump, slow down",
+    "it": "dosso artificiale",
+    "lines": [
+     "Yellow and black stripes",
+     "Speed hump: slow down"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "dispositivo",
+    "en": "device"
+   },
+   {
+    "it": "dosso artificiale",
+    "en": "artificial speed hump"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20923": {
+  "en": "The element shown is a speed reducer installed on the road.",
+  "explain": {
+   "short": "A speed hump is one kind of speed reducer: it forces drivers to slow down.",
+   "rule": "Yellow and black stripes across the road mark a speed hump (dosso artificiale). It makes you slow down; it is not a crossing and has nothing to do with parking.",
+   "trap": "'rallentatore di velocità' (speed reducer) is another name for this hump.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Speed reducer on the road",
+    "it": "rallentatore di velocità",
+    "lines": [
+     "Hump on the road",
+     "Makes cars slow down"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rallentatore di velocità",
+    "en": "speed reducer"
+   },
+   {
+    "it": "installato sulla strada",
+    "en": "installed on the road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20924": {
+  "en": "The element shown represents a speed reducer.",
+  "explain": {
+   "short": "The yellow and black striped hump is a speed reducer: you must slow down before it.",
+   "rule": "Yellow and black stripes across the road mark a speed hump (dosso artificiale). It makes you slow down; it is not a crossing and has nothing to do with parking.",
+   "trap": "'rallentatore di velocità' (speed reducer): yes, this is what the picture shows.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Striped hump = speed reducer",
+    "it": "rallentatore di velocità",
+    "lines": [
+     "Yellow and black hump",
+     "Slow down before it"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rappresenta",
+    "en": "represents"
+   },
+   {
+    "it": "rallentatore di velocità",
+    "en": "speed reducer"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20928": {
+  "en": "The element shown is placed on a stretch of road where parking is forbidden.",
+  "explain": {
+   "short": "A speed hump only makes you slow down. It says nothing about parking.",
+   "rule": "Yellow and black stripes across the road mark a speed hump (dosso artificiale). It makes you slow down; it is not a crossing and has nothing to do with parking.",
+   "trap": "'vietata la sosta' (parking forbidden) has nothing to do with a speed hump.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Speed hump: about speed, not parking",
+    "it": "sosta",
+    "lines": [
+     "Speed hump: slow down",
+     "Says nothing about parking"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietata la sosta",
+    "en": "parking forbidden"
+   },
+   {
+    "it": "tratto di strada",
+    "en": "stretch of road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20929": {
+  "en": "The element shown marks a cycle crossing.",
+  "explain": {
+   "short": "A cycle crossing is marked with white squares or dashes, not with yellow and black stripes. This is a speed hump.",
+   "rule": "Yellow and black stripes across the road mark a speed hump (dosso artificiale). It makes you slow down; it is not a crossing and has nothing to do with parking.",
+   "trap": "'attraversamento ciclabile' (cycle crossing) is a different marking.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a cycle crossing: a speed hump",
+    "it": "attraversamento ciclabile",
+    "lines": [
+     "Yellow-black stripes: hump",
+     "Cycle crossing: white marks"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "individua",
+    "en": "marks"
+   },
+   {
+    "it": "attraversamento ciclabile",
+    "en": "cycle crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20930": {
+  "en": "The element shown marks a pedestrian crossing.",
+  "explain": {
+   "short": "A pedestrian crossing has wide white stripes (zebra crossing). Yellow and black stripes mark a speed hump.",
+   "rule": "Yellow and black stripes across the road mark a speed hump (dosso artificiale). It makes you slow down; it is not a crossing and has nothing to do with parking.",
+   "trap": "'attraversamento pedonale' (pedestrian crossing) uses white stripes, not yellow and black.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a zebra crossing: a speed hump",
+    "it": "attraversamento pedonale",
+    "lines": [
+     "Yellow-black stripes: hump",
+     "Zebra crossing: white stripes"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "individua",
+    "en": "marks"
+   },
+   {
+    "it": "attraversamento pedonale",
+    "en": "pedestrian crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20925": {
+  "en": "The yellow boundary lines shown mark out a parking area reserved for disabled people.",
+  "explain": {
+   "short": "Yellow lines mark special, reserved parking places. With the yellow diagonal stripes beside the space, this is a disabled parking bay.",
+   "rule": "Yellow lines mark parking spaces reserved for disabled people. The yellow diagonal stripes next to the space must stay free, so the person can get in and out.",
+   "trap": "'riservata a persone invalide' (reserved for disabled people) is right for this yellow bay.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow bay with stripes: disabled parking",
+    "it": "invalide",
+    "lines": [
+     "Yellow lines = reserved space",
+     "For disabled people"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strisce di delimitazione gialle",
+    "en": "yellow boundary lines"
+   },
+   {
+    "it": "area di parcheggio",
+    "en": "parking area"
+   },
+   {
+    "it": "persone invalide",
+    "en": "disabled people"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20926": {
+  "en": "The yellow diagonal stripes shown must be left free so that disabled people can get in and out of the vehicle.",
+  "explain": {
+   "short": "The striped area next to the bay gives space to open the door wide and use a wheelchair. Never park on it.",
+   "rule": "Yellow lines mark parking spaces reserved for disabled people. The yellow diagonal stripes next to the space must stay free, so the person can get in and out.",
+   "trap": "'devono essere lasciate libere' (must be left free): you may not park or stop on these stripes.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Diagonal stripes: keep free for getting in and out",
+    "it": "lasciate libere",
+    "lines": [
+     "Striped area beside the bay",
+     "Keep it free: wheelchair space"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strisce gialle diagonali",
+    "en": "yellow diagonal stripes"
+   },
+   {
+    "it": "lasciate libere",
+    "en": "left free"
+   },
+   {
+    "it": "persone invalide",
+    "en": "disabled people"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20931": {
+  "en": "The yellow lines shown mark out a parking area reserved for taxis.",
+  "explain": {
+   "short": "The diagonal stripes beside the bay show it is for disabled people, not for taxis.",
+   "rule": "Yellow lines mark parking spaces reserved for disabled people. The yellow diagonal stripes next to the space must stay free, so the person can get in and out.",
+   "trap": "'taxi' is wrong: the striped space for getting out is the sign of a disabled bay.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not for taxis: for disabled people",
+    "it": "taxi",
+    "lines": [
+     "Yellow bay with stripes",
+     "For disabled people, not taxis"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strisce gialle",
+    "en": "yellow lines"
+   },
+   {
+    "it": "taxi",
+    "en": "taxis"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20932": {
+  "en": "The yellow lines shown mark out an area reserved for loading and unloading goods.",
+  "explain": {
+   "short": "The striped space for getting out of the car shows a disabled bay, not a loading area.",
+   "rule": "Yellow lines mark parking spaces reserved for disabled people. The yellow diagonal stripes next to the space must stay free, so the person can get in and out.",
+   "trap": "'carico e scarico di merci' (loading and unloading goods) is a different reserved area.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a loading bay: disabled parking",
+    "it": "carico e scarico",
+    "lines": [
+     "Yellow bay with stripes",
+     "For disabled people, not goods"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strisce gialle",
+    "en": "yellow lines"
+   },
+   {
+    "it": "carico e allo scarico di merci",
+    "en": "loading and unloading goods"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20933": {
+  "en": "The white dashed side line shown separates the carriageway from a lay-by.",
+  "explain": {
+   "short": "The road widens on one side into a lay-by (piazzola di sosta). The dashed side line lets you cross into it to stop.",
+   "rule": "A white dashed line at the side of the carriageway marks a place where you may cross it: a lay-by, a driveway, an acceleration lane or a side road. Guide lines in a junction show your path and do not ban turns.",
+   "trap": "'piazzola di sosta' (lay-by) is exactly what the picture shows.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dashed side line: entrance to a lay-by",
+    "it": "piazzola di sosta",
+    "lines": [
+     "Lay-by beside the road",
+     "Dashed line: you may go in"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "striscia bianca laterale discontinua",
+    "en": "white dashed side line"
+   },
+   {
+    "it": "piazzola di sosta",
+    "en": "lay-by"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20934": {
+  "en": "The white dashed side line shown separates the carriageway from a driveway.",
+  "explain": {
+   "short": "The short opening on the side is a driveway (passo carrabile). The dashed line shows that vehicles may cross there to go in and out.",
+   "rule": "A white dashed line at the side of the carriageway marks a place where you may cross it: a lay-by, a driveway, an acceleration lane or a side road. Guide lines in a junction show your path and do not ban turns.",
+   "trap": "'passo carrabile' (driveway) is the opening shown in the picture.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dashed side line at a driveway",
+    "it": "passo carrabile",
+    "lines": [
+     "Driveway on the side",
+     "Dashed line: vehicles cross here"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "striscia bianca laterale discontinua",
+    "en": "white dashed side line"
+   },
+   {
+    "it": "passo carrabile",
+    "en": "driveway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20935": {
+  "en": "The white dashed lines in the junction shown are guide lines.",
+  "explain": {
+   "short": "Inside the junction, dashed lines continue the lanes to guide your path across it.",
+   "rule": "A white dashed line at the side of the carriageway marks a place where you may cross it: a lay-by, a driveway, an acceleration lane or a side road. Guide lines in a junction show your path and do not ban turns.",
+   "trap": "'strisce di guida' (guide lines) is the correct name for dashed lines inside a junction.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dashed lines in the junction: guide lines",
+    "it": "strisce di guida",
+    "lines": [
+     "Lanes continue in the junction",
+     "Guide lines show your path"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "intersezione",
+    "en": "junction"
+   },
+   {
+    "it": "strisce di guida",
+    "en": "guide lines"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20942": {
+  "en": "The white guide lines shown do not allow turning.",
+  "explain": {
+   "short": "Guide lines only show the path across the junction. They are dashed, so they do not stop you turning.",
+   "rule": "A white dashed line at the side of the carriageway marks a place where you may cross it: a lay-by, a driveway, an acceleration lane or a side road. Guide lines in a junction show your path and do not ban turns.",
+   "trap": "'non consentono la svolta' (do not allow turning) is wrong: dashed lines can be crossed.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Guide lines are dashed: turning is allowed",
+    "it": "svolta",
+    "lines": [
+     "Guide lines: dashed",
+     "They do not ban turning"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "strisce bianche di guida",
+    "en": "white guide lines"
+   },
+   {
+    "it": "svolta",
+    "en": "turning"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20936": {
+  "en": "The white dashed side line shown divides the carriageway from an acceleration lane.",
+  "explain": {
+   "short": "The slip road joins the main road through an acceleration lane. The dashed line lets you move from it into the main lane.",
+   "rule": "A white dashed line at the side of the carriageway marks a place where you may cross it: a lay-by, a driveway, an acceleration lane or a side road. Guide lines in a junction show your path and do not ban turns.",
+   "trap": "'corsia di accelerazione' (acceleration lane) is the lane where joining traffic speeds up.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dashed side line: acceleration lane",
+    "it": "corsia di accelerazione",
+    "lines": [
+     "Slip road joins here",
+     "Speed up, then cross the dashed line"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "striscia bianca laterale discontinua",
+    "en": "white dashed side line"
+   },
+   {
+    "it": "corsia di accelerazione",
+    "en": "acceleration lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20944": {
+  "en": "The white dashed side line shown marks out a lay-by.",
+  "explain": {
+   "short": "Here the lane next to the dashed line is an acceleration lane, joining from the slip road. It is not a place to stop.",
+   "rule": "A white dashed line at the side of the carriageway marks a place where you may cross it: a lay-by, a driveway, an acceleration lane or a side road. Guide lines in a junction show your path and do not ban turns.",
+   "trap": "'piazzola di sosta' (lay-by) is wrong for this picture: it is an acceleration lane.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a lay-by: an acceleration lane",
+    "it": "piazzola di sosta",
+    "lines": [
+     "Slip road joins here",
+     "Acceleration lane, not a lay-by"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "striscia bianca laterale discontinua",
+    "en": "white dashed side line"
+   },
+   {
+    "it": "piazzola di sosta",
+    "en": "lay-by"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20937": {
+  "en": "The white dashed side line shown marks the edge of the main road, separating it from the edge of the minor road.",
+  "explain": {
+   "short": "Where a side road joins, the edge line of the main road becomes dashed. It shows the main road's edge and that you may cross it to turn.",
+   "rule": "A white dashed line at the side of the carriageway marks a place where you may cross it: a lay-by, a driveway, an acceleration lane or a side road. Guide lines in a junction show your path and do not ban turns.",
+   "trap": "'strada principale' (main road): the dashed line follows the main road's edge.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dashed edge: main road meets side road",
+    "it": "strada principale",
+    "lines": [
+     "Main road edge: dashed",
+     "Side road joins here"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "bordo della strada principale",
+    "en": "edge of the main road"
+   },
+   {
+    "it": "strada secondaria",
+    "en": "minor road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20938": {
+  "en": "The white dashed side line shown may be crossed only in an emergency.",
+  "explain": {
+   "short": "A dashed line may be crossed normally. You cross it whenever you want to use the lay-by.",
+   "rule": "A white dashed line at the side of the carriageway marks a place where you may cross it: a lay-by, a driveway, an acceleration lane or a side road. Guide lines in a junction show your path and do not ban turns.",
+   "trap": "'solo in caso di emergenza' (only in an emergency) is wrong: dashed means you may cross.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dashed line: cross it to use the lay-by",
+    "it": "solo in caso di emergenza",
+    "lines": [
+     "Dashed line: may be crossed",
+     "Not only in emergencies"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "può essere superata",
+    "en": "may be crossed"
+   },
+   {
+    "it": "solo in caso di emergenza",
+    "en": "only in an emergency"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20939": {
+  "en": "The white dashed side line shown means that stopping is not possible.",
+  "explain": {
+   "short": "The opposite: behind the line there is a lay-by, a place made for stopping.",
+   "rule": "A white dashed line at the side of the carriageway marks a place where you may cross it: a lay-by, a driveway, an acceleration lane or a side road. Guide lines in a junction show your path and do not ban turns.",
+   "trap": "'la sosta non è possibile' (stopping not possible) is the opposite of what a lay-by is for.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lay-by: made for stopping",
+    "it": "sosta",
+    "lines": [
+     "Lay-by behind the line",
+     "Stopping: allowed there"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "significa",
+    "en": "means"
+   },
+   {
+    "it": "la sosta non è possibile",
+    "en": "stopping is not possible"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20943": {
+  "en": "The white dashed side line shown marks the access to a cycle lane.",
+  "explain": {
+   "short": "The opening behind the dashed line is a driveway for vehicles, not a cycle lane.",
+   "rule": "A white dashed line at the side of the carriageway marks a place where you may cross it: a lay-by, a driveway, an acceleration lane or a side road. Guide lines in a junction show your path and do not ban turns.",
+   "trap": "'pista ciclabile' (cycle lane) is wrong: the picture shows a driveway.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a cycle lane: a driveway",
+    "it": "pista ciclabile",
+    "lines": [
+     "Opening on the side",
+     "Driveway, not a cycle lane"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "delimita l'accesso",
+    "en": "marks the access"
+   },
+   {
+    "it": "pista ciclabile",
+    "en": "cycle lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20940": {
+  "en": "The white dashed side line separates the carriageway from the emergency lane.",
+  "explain": {
+   "short": "The emergency lane is separated by a SOLID white line, because you may not enter it except in an emergency.",
+   "rule": "A white dashed line at the side of the carriageway marks a place where you may cross it: a lay-by, a driveway, an acceleration lane or a side road. Guide lines in a junction show your path and do not ban turns.",
+   "trap": "'corsia di emergenza' (emergency lane) goes with a solid line, not a dashed one.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Emergency lane: solid line, not dashed",
+    "it": "corsia di emergenza",
+    "lines": [
+     "Emergency lane: solid line",
+     "Dashed side line: lay-by, driveway"
+    ],
+    "icons": [
+     "warning",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "striscia bianca laterale discontinua",
+    "en": "white dashed side line"
+   },
+   {
+    "it": "corsia di emergenza",
+    "en": "emergency lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20941": {
+  "en": "The white dashed side line signals the start of a hard shoulder.",
+  "explain": {
+   "short": "The hard shoulder (banchina) is the strip beyond the solid edge line. A dashed side line marks a place you may cross into, like a lay-by or driveway.",
+   "rule": "A white dashed line at the side of the carriageway marks a place where you may cross it: a lay-by, a driveway, an acceleration lane or a side road. Guide lines in a junction show your path and do not ban turns.",
+   "trap": "'banchina' (hard shoulder, the strip next to the carriageway) is not marked by a dashed line.",
+   "scene": "rulecard",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Dashed side line: not the start of a shoulder",
+    "it": "banchina",
+    "lines": [
+     "Edge of road: solid line",
+     "Dashed side line: lay-by, driveway"
+    ],
+    "icons": [
+     "road",
+     "check"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnala l'inizio",
+    "en": "signals the start"
+   },
+   {
+    "it": "banchina",
+    "en": "hard shoulder"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20945": {
+  "en": "The markings shown are found near a level crossing.",
+  "explain": {
+   "short": "The large painted cross (X) on the road warns that a level crossing (passaggio a livello, where road and railway meet) is close.",
+   "rule": "Near a level crossing (passaggio a livello) the road has a painted cross and a solid centre line. Watch for trains, with or without barriers, and do not move to the left side of the road.",
+   "trap": "'passaggio a livello' (level crossing) is what the painted X announces.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Painted X: level crossing nearby",
+    "it": "passaggio a livello",
+    "lines": [
+     "Painted X: level crossing ahead",
+     "Solid line: stay on the right"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnaletica",
+    "en": "markings"
+   },
+   {
+    "it": "passaggio a livello",
+    "en": "level crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20946": {
+  "en": "The markings shown warn drivers that they are near a level crossing without barriers.",
+  "explain": {
+   "short": "These markings are used before level crossings both with and without barriers. So they can warn of one without barriers.",
+   "rule": "Near a level crossing (passaggio a livello) the road has a painted cross and a solid centre line. Watch for trains, with or without barriers, and do not move to the left side of the road.",
+   "trap": "'senza barriere' (without barriers) is fine: the markings are used for both types.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Level crossing without barriers: yes",
+    "it": "senza barriere",
+    "lines": [
+     "Painted X: level crossing",
+     "With or without barriers"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "avvertire i conducenti",
+    "en": "warn drivers"
+   },
+   {
+    "it": "passaggio a livello",
+    "en": "level crossing"
+   },
+   {
+    "it": "senza barriere",
+    "en": "without barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20947": {
+  "en": "The markings shown warn drivers that they are near a level crossing with barriers.",
+  "explain": {
+   "short": "These markings are used before level crossings both with and without barriers. So they can warn of one with barriers.",
+   "rule": "Near a level crossing (passaggio a livello) the road has a painted cross and a solid centre line. Watch for trains, with or without barriers, and do not move to the left side of the road.",
+   "trap": "'con barriere' (with barriers) is also fine: both types use these markings.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Level crossing with barriers: yes",
+    "it": "con barriere",
+    "lines": [
+     "Painted X: level crossing",
+     "With or without barriers"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "avvertire i conducenti",
+    "en": "warn drivers"
+   },
+   {
+    "it": "passaggio a livello",
+    "en": "level crossing"
+   },
+   {
+    "it": "con barriere",
+    "en": "with barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20948": {
+  "en": "Where the markings shown are present, you may not move into the left part of the carriageway.",
+  "explain": {
+   "short": "The solid centre line before the crossing forbids moving left: no overtaking, stay in your lane.",
+   "rule": "Near a level crossing (passaggio a livello) the road has a painted cross and a solid centre line. Watch for trains, with or without barriers, and do not move to the left side of the road.",
+   "trap": "'non è consentito spostarsi nella parte sinistra' (you may not move left): the solid line forbids it.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Solid line: do not move to the left",
+    "it": "parte sinistra",
+    "lines": [
+     "Solid centre line",
+     "No moving left, no overtaking"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "spostarsi",
+    "en": "to move"
+   },
+   {
+    "it": "parte sinistra della carreggiata",
+    "en": "left part of the carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20949": {
+  "en": "Where the markings shown are present, drivers must watch out for trains that may be coming.",
+  "explain": {
+   "short": "Near a level crossing a train may arrive. Slow down, look and listen.",
+   "rule": "Near a level crossing (passaggio a livello) the road has a painted cross and a solid centre line. Watch for trains, with or without barriers, and do not move to the left side of the road.",
+   "trap": "'eventuale sopraggiungere di treni' (trains that may be coming) is the danger of a level crossing.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Level crossing: watch for trains",
+    "it": "treni",
+    "lines": [
+     "Level crossing ahead",
+     "Look and listen for trains"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "prestare attenzione",
+    "en": "pay attention"
+   },
+   {
+    "it": "sopraggiungere di treni",
+    "en": "trains coming"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20950": {
+  "en": "The markings shown indicate that there is a very dangerous tram crossing 150 metres ahead.",
+  "explain": {
+   "short": "The painted X warns of a level crossing with a railway, not a tram crossing. And the markings give no distance like 150 m.",
+   "rule": "Near a level crossing (passaggio a livello) the road has a painted cross and a solid centre line. Watch for trains, with or without barriers, and do not move to the left side of the road.",
+   "trap": "'attraversamento tranviario' (tram crossing) and '150 metri' are both invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Railway level crossing, not a tram crossing",
+    "it": "tranviario",
+    "lines": [
+     "Painted X: railway crossing",
+     "Not a tram crossing"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "150 metri",
+    "en": "150 metres"
+   },
+   {
+    "it": "attraversamento tranviario",
+    "en": "tram crossing"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20951": {
+  "en": "The markings shown are found only near level crossings with barriers.",
+  "explain": {
+   "short": "They are used before level crossings both with and without barriers.",
+   "rule": "Near a level crossing (passaggio a livello) the road has a painted cross and a solid centre line. Watch for trains, with or without barriers, and do not move to the left side of the road.",
+   "trap": "'solo' (only) is the trap: also without barriers.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "With AND without barriers",
+    "it": "solo",
+    "lines": [
+     "Painted X: level crossing",
+     "With or without barriers"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "solo",
+    "en": "only"
+   },
+   {
+    "it": "con barriere",
+    "en": "with barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20952": {
+  "en": "The markings shown signal that a junction controlled by the local police is near.",
+  "explain": {
+   "short": "The painted X warns of a level crossing, not of a junction with a police officer.",
+   "rule": "Near a level crossing (passaggio a livello) the road has a painted cross and a solid centre line. Watch for trains, with or without barriers, and do not move to the left side of the road.",
+   "trap": "'incrocio regolato da Polizia locale' (junction controlled by police) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a police junction: a level crossing",
+    "it": "incrocio",
+    "lines": [
+     "Painted X: level crossing",
+     "Not a police junction"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "incrocio",
+    "en": "junction"
+   },
+   {
+    "it": "Polizia locale",
+    "en": "local police"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20953": {
+  "en": "The markings shown mark out a parking area for public service buses.",
+  "explain": {
+   "short": "The painted X warns of a level crossing. A bus stop or bus area is marked differently, with yellow markings.",
+   "rule": "Near a level crossing (passaggio a livello) the road has a painted cross and a solid centre line. Watch for trains, with or without barriers, and do not move to the left side of the road.",
+   "trap": "'parcheggio di autobus' (bus parking) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a bus area: a level crossing",
+    "it": "autobus",
+    "lines": [
+     "Painted X: level crossing",
+     "Not a bus parking area"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "delimita un parcheggio",
+    "en": "marks out a parking area"
+   },
+   {
+    "it": "autobus",
+    "en": "buses"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20955": {
+  "en": "The emergency lane (lane A) may be used if the vehicle breaks down, for a maximum of three hours.",
+  "explain": {
+   "short": "If your car breaks down you may stop in the emergency lane, but not for more than three hours.",
+   "rule": "The emergency lane (corsia di emergenza) is beyond a solid white line. You may stop there only for a breakdown or an emergency, for max three hours. You may not drive or overtake in it.",
+   "trap": "'per un massimo di tre ore' (for max three hours) is the time limit for a breakdown stop.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Breakdown: stop in lane A, max 3 hours",
+    "it": "tre ore",
+    "lines": [
+     "Breakdown: stop in lane A",
+     "Maximum three hours"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di emergenza",
+    "en": "emergency lane"
+   },
+   {
+    "it": "guasto",
+    "en": "breakdown"
+   },
+   {
+    "it": "tre ore",
+    "en": "three hours"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20956": {
+  "en": "The emergency lane (lane A) may not be used for overtaking.",
+  "explain": {
+   "short": "Lane A is beyond a solid line and only for emergencies. Overtaking in it is forbidden.",
+   "rule": "The emergency lane (corsia di emergenza) is beyond a solid white line. You may stop there only for a breakdown or an emergency, for max three hours. You may not drive or overtake in it.",
+   "trap": "'non si può occupare per le manovre di sorpasso' (may not be used to overtake): correct.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "No overtaking in the emergency lane",
+    "it": "sorpasso",
+    "lines": [
+     "Lane A: emergencies only",
+     "Overtaking there: forbidden"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "corsia di emergenza",
+    "en": "emergency lane"
+   },
+   {
+    "it": "manovre di sorpasso",
+    "en": "overtaking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20958": {
+  "en": "In the markings shown, the solid white line that marks the emergency lane (lane A) indicates a time-limited parking zone.",
+  "explain": {
+   "short": "The solid line marks the emergency lane, which is for emergencies only. It is not a parking area of any kind.",
+   "rule": "The emergency lane (corsia di emergenza) is beyond a solid white line. You may stop there only for a breakdown or an emergency, for max three hours. You may not drive or overtake in it.",
+   "trap": "'zona di parcheggio a tempo' (time-limited parking) is invented; time-limited parking has blue lines.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Emergency lane, not timed parking",
+    "it": "parcheggio a tempo",
+    "lines": [
+     "Lane A: emergency lane",
+     "Only for breakdown or emergency"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "striscia bianca continua",
+    "en": "solid white line"
+   },
+   {
+    "it": "parcheggio a tempo",
+    "en": "time-limited parking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20959": {
+  "en": "In the markings shown, the solid white line that marks the emergency lane (lane A) may always be crossed when traffic is heavy.",
+  "explain": {
+   "short": "Heavy traffic is not an emergency. You may not cross the solid line to drive in the emergency lane.",
+   "rule": "The emergency lane (corsia di emergenza) is beyond a solid white line. You may stop there only for a breakdown or an emergency, for max three hours. You may not drive or overtake in it.",
+   "trap": "'sempre' (always) and 'intenso traffico' (heavy traffic): a queue is no reason to use lane A.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Heavy traffic: stay out of lane A",
+    "it": "intenso traffico",
+    "lines": [
+     "Queue in lanes B and C",
+     "Lane A stays free"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sempre",
+    "en": "always"
+   },
+   {
+    "it": "intenso traffico",
+    "en": "heavy traffic"
+   },
+   {
+    "it": "superata",
+    "en": "crossed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20960": {
+  "en": "The emergency lane (lane A) is reserved for turning right.",
+  "explain": {
+   "short": "Lane A is for emergencies and breakdowns, not for turning.",
+   "rule": "The emergency lane (corsia di emergenza) is beyond a solid white line. You may stop there only for a breakdown or an emergency, for max three hours. You may not drive or overtake in it.",
+   "trap": "'svolta a destra' (right turn) is invented for this lane.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lane A: emergencies, not right turns",
+    "it": "svolta a destra",
+    "lines": [
+     "Lane A: emergency lane",
+     "Only for breakdown or emergency"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "riservata",
+    "en": "reserved"
+   },
+   {
+    "it": "svolta a destra",
+    "en": "right turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20961": {
+  "en": "The emergency lane (lane A) is reserved for slowing down.",
+  "explain": {
+   "short": "Slowing down to exit is done in a deceleration lane, which has a dashed line. Lane A is for emergencies only.",
+   "rule": "The emergency lane (corsia di emergenza) is beyond a solid white line. You may stop there only for a breakdown or an emergency, for max three hours. You may not drive or overtake in it.",
+   "trap": "'decelerazione' (slowing down) belongs to the deceleration lane, not the emergency lane.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Lane A is not a deceleration lane",
+    "it": "decelerazione",
+    "lines": [
+     "Lane A: emergency lane",
+     "Only for breakdown or emergency"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "riservata",
+    "en": "reserved"
+   },
+   {
+    "it": "decelerazione",
+    "en": "slowing down"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20962": {
+  "en": "The emergency lane (lane A) is closed to cars but not to motorcycles.",
+  "explain": {
+   "short": "Driving in the emergency lane is forbidden for all vehicles, motorcycles included.",
+   "rule": "The emergency lane (corsia di emergenza) is beyond a solid white line. You may stop there only for a breakdown or an emergency, for max three hours. You may not drive or overtake in it.",
+   "trap": "'ma non al transito dei motocicli' (but not to motorcycles) is an invented exception.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "Lane A: forbidden for cars AND motorcycles",
+    "it": "motocicli",
+    "lines": [
+     "Lane A: no driving",
+     "Motorcycles too"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "vietata al transito",
+    "en": "closed to traffic"
+   },
+   {
+    "it": "autoveicoli",
+    "en": "motor vehicles (cars)"
+   },
+   {
+    "it": "motocicli",
+    "en": "motorcycles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20963": {
+  "en": "The solid transverse line shown indicates the point where you must stop at a junction, if it is controlled by a red traffic light.",
+  "explain": {
+   "short": "At a red light you stop before the solid line across the lane.",
+   "rule": "The solid white line across the lane (stop line) shows where you must stop when you have to: red light, a police officer's order, or a STOP sign.",
+   "trap": "'semaforo a luce rossa' (red traffic light): this is a case when you must stop at the line.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red light: stop before the line",
+    "it": "semaforo",
+    "lines": [
+     "Red light",
+     "Stop before the solid line"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "striscia trasversale continua",
+    "en": "solid transverse line"
+   },
+   {
+    "it": "arrestarsi",
+    "en": "to stop"
+   },
+   {
+    "it": "semaforo a luce rossa",
+    "en": "red traffic light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20964": {
+  "en": "The solid transverse line shown indicates the point where we must always stop at a junction, if the traffic officer orders it.",
+  "explain": {
+   "short": "When a traffic officer tells you to stop, you stop at the stop line.",
+   "rule": "The solid white line across the lane (stop line) shows where you must stop when you have to: red light, a police officer's order, or a STOP sign.",
+   "trap": "'sempre ... se il vigile lo impone' (always, if the officer orders it): 'always' is right because of the condition.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Officer says stop: stop at the line",
+    "it": "vigile",
+    "lines": [
+     "Officer orders a stop",
+     "Stop at the solid line"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sempre",
+    "en": "always"
+   },
+   {
+    "it": "vigile",
+    "en": "traffic officer"
+   },
+   {
+    "it": "impone",
+    "en": "orders"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20965": {
+  "en": "The solid transverse line shown indicates the point where you have to stop.",
+  "explain": {
+   "short": "With the word STOP painted before it, this line is where you must stop before entering the junction.",
+   "rule": "The solid white line across the lane (stop line) shows where you must stop when you have to: red light, a police officer's order, or a STOP sign.",
+   "trap": "'arrestarsi' (to stop): with a STOP, you must always stop at the line.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "no",
+    "caption": "STOP + solid line: always stop here",
+    "it": "arrestarsi",
+    "lines": [
+     "STOP painted on the road",
+     "Stop at the solid line"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "striscia trasversale continua",
+    "en": "solid transverse line"
+   },
+   {
+    "it": "arrestarsi",
+    "en": "to stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20966": {
+  "en": "The solid transverse line shown indicates the point where we must stop at a junction, if it is not controlled.",
+  "explain": {
+   "short": "At this junction the line is for stopping at a red light or on an officer's order. 'Not controlled' is the opposite of the case shown.",
+   "rule": "The solid white line across the lane (stop line) shows where you must stop when you have to: red light, a police officer's order, or a STOP sign.",
+   "trap": "'se non è regolato' (if not controlled) is wrong: you stop here when the junction IS controlled.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stop line: for controlled junctions",
+    "it": "non è regolato",
+    "lines": [
+     "Stop line: red light or officer",
+     "Not 'when not controlled'"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "arrestarci",
+    "en": "stop"
+   },
+   {
+    "it": "non è regolato",
+    "en": "is not controlled"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20967": {
+  "en": "The solid transverse line shown indicates the point where you must always stop near a road junction.",
+  "explain": {
+   "short": "You stop at this line only when you must: red light or officer. With a green light you go on.",
+   "rule": "The solid white line across the lane (stop line) shows where you must stop when you have to: red light, a police officer's order, or a STOP sign.",
+   "trap": "'sempre' (always) is the trap: not always, only when required.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not always: only on red or on order",
+    "it": "sempre",
+    "lines": [
+     "Green light: go on",
+     "Red light: stop at the line"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "sempre",
+    "en": "always"
+   },
+   {
+    "it": "arrestarsi",
+    "en": "to stop"
+   },
+   {
+    "it": "incrocio stradale",
+    "en": "road junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20968": {
+  "en": "The solid transverse line shown indicates that you must give way to vehicles coming from both the right and the left.",
+  "explain": {
+   "short": "The line only shows WHERE to stop. It does not by itself create a give-way rule; here the junction is controlled.",
+   "rule": "The solid white line across the lane (stop line) shows where you must stop when you have to: red light, a police officer's order, or a STOP sign.",
+   "trap": "'obbligatorio dare la precedenza' (must give way): the line marks a stopping point, not a give-way order.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stop line: where to stop, not a give-way rule",
+    "it": "precedenza",
+    "lines": [
+     "Line shows where to stop",
+     "It is not a give-way order"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligatorio",
+    "en": "compulsory"
+   },
+   {
+    "it": "dare la precedenza",
+    "en": "give way"
+   },
+   {
+    "it": "da destra sia da sinistra",
+    "en": "from right and from left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20969": {
+  "en": "The solid transverse line shown is found at the exit of a private property.",
+  "explain": {
+   "short": "The picture shows a junction between public roads. This line is a stop line at a junction, not the exit of a private property.",
+   "rule": "The solid white line across the lane (stop line) shows where you must stop when you have to: red light, a police officer's order, or a STOP sign.",
+   "trap": "'proprietà privata' (private property) is not what the picture shows.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stop line at a junction, not a private exit",
+    "it": "proprietà privata",
+    "lines": [
+     "Solid line across the lane",
+     "Stop here when you must stop"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "uscita",
+    "en": "exit"
+   },
+   {
+    "it": "proprietà privata",
+    "en": "private property"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

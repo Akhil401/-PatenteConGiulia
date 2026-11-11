@@ -1,0 +1,2104 @@
+{
+ "q20033": {
+  "en": "The sign shown gives advance warning that you may not continue straight on.",
+  "explain": {
+   "short": "It announces that at the next junction you must turn left, so going straight on is not allowed.",
+   "rule": "The blue disc with a CURVED arrow is 'preavviso di direzione obbligatoria' (advance warning of a compulsory direction). It stands before the junction: there you may only turn left.",
+   "trap": "'preannuncia' means 'announces in advance': the obligation starts at the junction ahead.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Ahead: left only, no straight on",
+    "it": "preavviso di direzione obbligatoria",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "announces in advance"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "continue straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20034": {
+  "en": "The sign shown gives advance warning that you may not turn right.",
+  "explain": {
+   "short": "At the junction ahead you may only turn left, so a right turn is not allowed.",
+   "rule": "The blue disc with a CURVED arrow is 'preavviso di direzione obbligatoria' (advance warning of a compulsory direction). It stands before the junction: there you may only turn left.",
+   "trap": "'svoltare a destra' (turn right) is excluded because only left is allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Ahead: left only, no right turn",
+    "it": "preavviso di direzione obbligatoria",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "announces in advance"
+   },
+   {
+    "it": "svoltare a destra",
+    "en": "turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20035": {
+  "en": "The sign shown is placed before a junction.",
+  "explain": {
+   "short": "It is an advance warning, so it stands some way before the junction where you must turn left.",
+   "rule": "The blue disc with a CURVED arrow is 'preavviso di direzione obbligatoria' (advance warning of a compulsory direction). It stands before the junction: there you may only turn left.",
+   "trap": "'prima di' means 'before': this sign comes before the junction, not at it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Placed before the junction",
+    "it": "preavviso di direzione obbligatoria",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è posto",
+    "en": "is placed"
+   },
+   {
+    "it": "prima di un incrocio",
+    "en": "before a junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20036": {
+  "en": "The sign shown comes before a COMPULSORY DIRECTION LEFT sign.",
+  "explain": {
+   "short": "First you see this curved-arrow warning, then at the junction the sign 'direzione obbligatoria a sinistra'.",
+   "rule": "The blue disc with a CURVED arrow is 'preavviso di direzione obbligatoria' (advance warning of a compulsory direction). It stands before the junction: there you may only turn left.",
+   "trap": "'precede' means 'comes before': the warning sign comes first, the real obligation sign follows.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Warning first, left-only sign at the junction",
+    "it": "preavviso di direzione obbligatoria",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "precede",
+    "en": "comes before"
+   },
+   {
+    "it": "DIREZIONE OBBLIGATORIA A SINISTRA",
+    "en": "compulsory direction left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20037": {
+  "en": "The sign shown is a mandatory sign.",
+  "explain": {
+   "short": "It is a blue round sign: in Italy blue discs give an obligation (obbligo).",
+   "rule": "The blue disc with a CURVED arrow is 'preavviso di direzione obbligatoria' (advance warning of a compulsory direction). It stands before the junction: there you may only turn left.",
+   "trap": "'d'obbligo' (mandatory): blue disc = something you MUST do.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Blue disc = an obligation",
+    "it": "preavviso di direzione obbligatoria",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale d'obbligo",
+    "en": "mandatory sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20038": {
+  "en": "The sign shown is a regulatory sign.",
+  "explain": {
+   "short": "Regulatory signs (prescrizione) include both prohibition and mandatory signs, so this blue sign belongs there.",
+   "rule": "The blue disc with a CURVED arrow is 'preavviso di direzione obbligatoria' (advance warning of a compulsory direction). It stands before the junction: there you may only turn left.",
+   "trap": "'prescrizione' (regulatory) is the big family: prohibitions AND obligations.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Obligation signs are regulatory signs",
+    "it": "preavviso di direzione obbligatoria",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di prescrizione",
+    "en": "regulatory sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20039": {
+  "en": "The sign shown gives advance warning of a one-way street.",
+  "explain": {
+   "short": "It announces a compulsory turn to the left, not a one-way street.",
+   "rule": "The blue disc with a CURVED arrow is 'preavviso di direzione obbligatoria' (advance warning of a compulsory direction). It stands before the junction: there you may only turn left.",
+   "trap": "'senso unico' (one-way) is a different, rectangular information sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not one-way: only left at the junction",
+    "it": "preavviso di direzione obbligatoria",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "announces in advance"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way street"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20040": {
+  "en": "The sign shown is an information sign.",
+  "explain": {
+   "short": "It is a blue disc, so it gives an obligation; information signs are usually rectangular.",
+   "rule": "The blue disc with a CURVED arrow is 'preavviso di direzione obbligatoria' (advance warning of a compulsory direction). It stands before the junction: there you may only turn left.",
+   "trap": "'indicazione' (information) signs only inform; this one orders you.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "An obligation, not just information",
+    "it": "preavviso di direzione obbligatoria",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di indicazione",
+    "en": "information sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20041": {
+  "en": "The sign shown means you must pass to the left of the obstacle.",
+  "explain": {
+   "short": "The curved arrow announces a left turn at a junction; the obstacle sign has a straight arrow pointing down-left.",
+   "rule": "The blue disc with a CURVED arrow is 'preavviso di direzione obbligatoria' (advance warning of a compulsory direction). It stands before the junction: there you may only turn left.",
+   "trap": "'passare a sinistra dell'ostacolo' is a different sign with a diagonal arrow.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not an obstacle: a left turn ahead",
+    "it": "preavviso di direzione obbligatoria",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligatorio",
+    "en": "compulsory"
+   },
+   {
+    "it": "passare a sinistra dell'ostacolo",
+    "en": "pass to the left of the obstacle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20042": {
+  "en": "The sign shown is placed at the start of a sloping road.",
+  "explain": {
+   "short": "It is placed before a junction to announce a compulsory left turn; slopes have their own danger signs.",
+   "rule": "The blue disc with a CURVED arrow is 'preavviso di direzione obbligatoria' (advance warning of a compulsory direction). It stands before the junction: there you may only turn left.",
+   "trap": "'strada in pendenza' (sloping road) has nothing to do with a curved blue arrow.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Before a junction, not before a slope",
+    "it": "preavviso di direzione obbligatoria",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è posto",
+    "en": "is placed"
+   },
+   {
+    "it": "strada in pendenza",
+    "en": "sloping road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20043": {
+  "en": "The sign shown means you must change lane.",
+  "explain": {
+   "short": "It means you must turn left at the junction ahead, not change lane.",
+   "rule": "The blue disc with a CURVED arrow is 'preavviso di direzione obbligatoria' (advance warning of a compulsory direction). It stands before the junction: there you may only turn left.",
+   "trap": "'cambiare corsia' (change lane) is not what this sign orders.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Turn left ahead, not change lane",
+    "it": "preavviso di direzione obbligatoria",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo",
+    "en": "obligation"
+   },
+   {
+    "it": "cambiare corsia",
+    "en": "change lane"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20044": {
+  "en": "The sign shown warns of a dangerous bend to the left.",
+  "explain": {
+   "short": "A dangerous bend is shown by a red triangle; this blue disc announces a compulsory left turn.",
+   "rule": "The blue disc with a CURVED arrow is 'preavviso di direzione obbligatoria' (advance warning of a compulsory direction). It stands before the junction: there you may only turn left.",
+   "trap": "'curva pericolosa' (dangerous bend) is a red-triangle danger sign, not a blue disc.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a bend: a compulsory left turn",
+    "it": "preavviso di direzione obbligatoria",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "presegnala",
+    "en": "warns in advance"
+   },
+   {
+    "it": "curva pericolosa",
+    "en": "dangerous bend"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20045": {
+  "en": "The sign shown means you must continue straight on.",
+  "explain": {
+   "short": "The white arrow points up: straight on is the only way you may go.",
+   "rule": "'Direzione obbligatoria diritto' (compulsory straight ahead) is a blue disc with a white arrow up. At the junction you may only go straight on: no left, no right.",
+   "trap": "'obbligo' means you MUST: here, go straight on.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only straight on at the junction",
+    "it": "direzione obbligatoria diritto",
+    "action": "straight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo",
+    "en": "obligation"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "continue straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20046": {
+  "en": "The sign shown does not allow a left turn.",
+  "explain": {
+   "short": "You must go straight on, so turning left is not allowed.",
+   "rule": "'Direzione obbligatoria diritto' (compulsory straight ahead) is a blue disc with a white arrow up. At the junction you may only go straight on: no left, no right.",
+   "trap": "'non consente' (does not allow): every direction except straight is excluded.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Straight only: no left turn",
+    "it": "direzione obbligatoria diritto",
+    "action": "straight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non consente",
+    "en": "does not allow"
+   },
+   {
+    "it": "svolta a sinistra",
+    "en": "left turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20047": {
+  "en": "The sign shown, placed before a junction, obliges you to continue straight on.",
+  "explain": {
+   "short": "Before a junction, this sign tells you that straight on is the only allowed direction.",
+   "rule": "'Direzione obbligatoria diritto' (compulsory straight ahead) is a blue disc with a white arrow up. At the junction you may only go straight on: no left, no right.",
+   "trap": "'posto prima di un incrocio' is the normal position; 'obbliga' means you must.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only straight on at the junction",
+    "it": "direzione obbligatoria diritto",
+    "action": "straight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "posto prima di un incrocio",
+    "en": "placed before a junction"
+   },
+   {
+    "it": "obbliga",
+    "en": "obliges"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20048": {
+  "en": "The sign shown, at a junction, does not allow you to turn right or left.",
+  "explain": {
+   "short": "Straight on is the only direction, so both right and left turns are excluded.",
+   "rule": "'Direzione obbligatoria diritto' (compulsory straight ahead) is a blue disc with a white arrow up. At the junction you may only go straight on: no left, no right.",
+   "trap": "'a destra o a sinistra': both turns are forbidden, not just one.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No right, no left: straight only",
+    "it": "direzione obbligatoria diritto",
+    "action": "straight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in corrispondenza di un incrocio",
+    "en": "at a junction"
+   },
+   {
+    "it": "non consente",
+    "en": "does not allow"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20049": {
+  "en": "The sign shown indicates the only direction allowed.",
+  "explain": {
+   "short": "A compulsory direction sign shows the one and only way you may go: here, straight on.",
+   "rule": "'Direzione obbligatoria diritto' (compulsory straight ahead) is a blue disc with a white arrow up. At the junction you may only go straight on: no left, no right.",
+   "trap": "'unica' (only one): that is exactly what 'direzione obbligatoria' means.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The arrow = the only way allowed",
+    "it": "direzione obbligatoria diritto",
+    "action": "straight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "l'unica direzione consentita",
+    "en": "the only direction allowed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20050": {
+  "en": "The sign shown is a regulatory sign.",
+  "explain": {
+   "short": "Mandatory signs belong to the regulatory signs (prescrizione), together with prohibition signs.",
+   "rule": "'Direzione obbligatoria diritto' (compulsory straight ahead) is a blue disc with a white arrow up. At the junction you may only go straight on: no left, no right.",
+   "trap": "'prescrizione' (regulatory) covers both prohibitions and obligations.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Obligation signs are regulatory signs",
+    "it": "direzione obbligatoria diritto",
+    "action": "straight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di prescrizione",
+    "en": "regulatory sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20051": {
+  "en": "The sign shown is a compulsory direction sign.",
+  "explain": {
+   "short": "Its name is 'direzione obbligatoria diritto': compulsory direction straight on.",
+   "rule": "'Direzione obbligatoria diritto' (compulsory straight ahead) is a blue disc with a white arrow up. At the junction you may only go straight on: no left, no right.",
+   "trap": "'direzione obbligatoria' (compulsory direction): the arrow is an order.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Compulsory direction: straight on",
+    "it": "direzione obbligatoria diritto",
+    "action": "straight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "direzione obbligatoria",
+    "en": "compulsory direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20052": {
+  "en": "The sign shown is a mandatory sign.",
+  "explain": {
+   "short": "It is a blue disc with a white arrow: blue discs give obligations.",
+   "rule": "'Direzione obbligatoria diritto' (compulsory straight ahead) is a blue disc with a white arrow up. At the junction you may only go straight on: no left, no right.",
+   "trap": "'obbligo' (obligation): blue round sign = you MUST do it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Blue disc = an obligation",
+    "it": "direzione obbligatoria diritto",
+    "action": "straight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di obbligo",
+    "en": "mandatory sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20053": {
+  "en": "The sign shown does not allow a right turn.",
+  "explain": {
+   "short": "You may only go straight on, so turning right is not allowed.",
+   "rule": "'Direzione obbligatoria diritto' (compulsory straight ahead) is a blue disc with a white arrow up. At the junction you may only go straight on: no left, no right.",
+   "trap": "'non consente' (does not allow): right is excluded like left.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Straight only: no right turn",
+    "it": "direzione obbligatoria diritto",
+    "action": "straight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non consente",
+    "en": "does not allow"
+   },
+   {
+    "it": "svolta a destra",
+    "en": "right turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20054": {
+  "en": "The sign shown allows you to turn right or left.",
+  "explain": {
+   "short": "The arrow points straight up: you must go straight on, so no turns at all.",
+   "rule": "'Direzione obbligatoria diritto' (compulsory straight ahead) is a blue disc with a white arrow up. At the junction you may only go straight on: no left, no right.",
+   "trap": "'consente' (allows) is wrong: the sign takes away both turns.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No turns: straight on only",
+    "it": "direzione obbligatoria diritto",
+    "action": "straight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente",
+    "en": "allows"
+   },
+   {
+    "it": "svoltare a destra o a sinistra",
+    "en": "turn right or left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20055": {
+  "en": "The sign shown allows you to turn at the junction.",
+  "explain": {
+   "short": "At the junction you must go straight on; turning is not allowed.",
+   "rule": "'Direzione obbligatoria diritto' (compulsory straight ahead) is a blue disc with a white arrow up. At the junction you may only go straight on: no left, no right.",
+   "trap": "'consente di svoltare' (allows turning) is the opposite of the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No turning at the junction",
+    "it": "direzione obbligatoria diritto",
+    "action": "straight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente",
+    "en": "allows"
+   },
+   {
+    "it": "svoltare all'incrocio",
+    "en": "turn at the junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20056": {
+  "en": "The sign shown indicates the start of one-way traffic.",
+  "explain": {
+   "short": "It only orders you to go straight on; one-way streets have their own rectangular sign.",
+   "rule": "'Direzione obbligatoria diritto' (compulsory straight ahead) is a blue disc with a white arrow up. At the junction you may only go straight on: no left, no right.",
+   "trap": "'senso unico' (one-way) is an information sign, not a blue disc.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not one-way: just straight on",
+    "it": "direzione obbligatoria diritto",
+    "action": "straight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "inizio",
+    "en": "start"
+   },
+   {
+    "it": "senso unico di circolazione",
+    "en": "one-way traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20057": {
+  "en": "The sign shown indicates the end of two-way traffic.",
+  "explain": {
+   "short": "It does not talk about two-way traffic; it only orders you to go straight on.",
+   "rule": "'Direzione obbligatoria diritto' (compulsory straight ahead) is a blue disc with a white arrow up. At the junction you may only go straight on: no left, no right.",
+   "trap": "'fine del doppio senso' (end of two-way traffic) is not shown by a blue arrow disc.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not about two-way traffic",
+    "it": "direzione obbligatoria diritto",
+    "action": "straight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "doppio senso di circolazione",
+    "en": "two-way traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20058": {
+  "en": "The sign shown requires driving in single file.",
+  "explain": {
+   "short": "It orders straight on at the junction, not driving in single file.",
+   "rule": "'Direzione obbligatoria diritto' (compulsory straight ahead) is a blue disc with a white arrow up. At the junction you may only go straight on: no left, no right.",
+   "trap": "'unica fila' (single file) is a different rule with a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Straight on, not single file",
+    "it": "direzione obbligatoria diritto",
+    "action": "straight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "impone",
+    "en": "requires"
+   },
+   {
+    "it": "marcia in unica fila",
+    "en": "driving in single file"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20059": {
+  "en": "The sign shown is an information sign.",
+  "explain": {
+   "short": "A blue disc gives an obligation; it does not just inform.",
+   "rule": "'Direzione obbligatoria diritto' (compulsory straight ahead) is a blue disc with a white arrow up. At the junction you may only go straight on: no left, no right.",
+   "trap": "'indicazione' (information) is wrong: this is an obligation sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "An obligation, not just information",
+    "it": "direzione obbligatoria diritto",
+    "action": "straight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di indicazione",
+    "en": "information sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20060": {
+  "en": "The sign shown is a prohibition sign.",
+  "explain": {
+   "short": "Prohibition signs have a red ring; this blue disc tells you what you must do.",
+   "rule": "'Direzione obbligatoria diritto' (compulsory straight ahead) is a blue disc with a white arrow up. At the junction you may only go straight on: no left, no right.",
+   "trap": "'divieto' (prohibition) = red ring; blue disc = 'obbligo'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Blue = must do, red ring = must not",
+    "it": "direzione obbligatoria diritto",
+    "action": "straight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di divieto",
+    "en": "prohibition sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20061": {
+  "en": "The sign shown is a lane sign.",
+  "explain": {
+   "short": "Lane signs are rectangular panels above or beside the lanes; this is a round compulsory direction sign.",
+   "rule": "'Direzione obbligatoria diritto' (compulsory straight ahead) is a blue disc with a white arrow up. At the junction you may only go straight on: no left, no right.",
+   "trap": "'segnale di corsia' (lane sign) is an information panel, not a blue disc.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a lane sign: compulsory direction",
+    "it": "direzione obbligatoria diritto",
+    "action": "straight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di corsia",
+    "en": "lane sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20062": {
+  "en": "The sign shown gives advance warning of a recommended direction.",
+  "explain": {
+   "short": "The direction is compulsory, not recommended: you must go straight on.",
+   "rule": "'Direzione obbligatoria diritto' (compulsory straight ahead) is a blue disc with a white arrow up. At the junction you may only go straight on: no left, no right.",
+   "trap": "'consigliata' (recommended) is wrong: blue discs give orders, not advice.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Compulsory, not recommended",
+    "it": "direzione obbligatoria diritto",
+    "action": "straight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "announces in advance"
+   },
+   {
+    "it": "direzione consigliata",
+    "en": "recommended direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20063": {
+  "en": "The sign shown obliges you to turn right or left.",
+  "explain": {
+   "short": "The arrow points up: you must go straight on, and turning is not allowed.",
+   "rule": "'Direzione obbligatoria diritto' (compulsory straight ahead) is a blue disc with a white arrow up. At the junction you may only go straight on: no left, no right.",
+   "trap": "'svoltare a destra o a sinistra' is exactly what this sign forbids.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Straight on, no turns",
+    "it": "direzione obbligatoria diritto",
+    "action": "straight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga",
+    "en": "obliges"
+   },
+   {
+    "it": "svoltare a destra o a sinistra",
+    "en": "turn right or left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20064": {
+  "en": "The sign shown rules out vehicles coming from the opposite direction.",
+  "explain": {
+   "short": "It only tells you which way to go; the road ahead can still be two-way, with oncoming traffic.",
+   "rule": "'Direzione obbligatoria diritto' (compulsory straight ahead) is a blue disc with a white arrow up. At the junction you may only go straight on: no left, no right.",
+   "trap": "'esclude' (rules out) is too strong: the sign says nothing about oncoming vehicles.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Oncoming traffic is still possible",
+    "it": "direzione obbligatoria diritto",
+    "action": "straight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "esclude",
+    "en": "rules out"
+   },
+   {
+    "it": "veicoli di fronte",
+    "en": "vehicles from the front"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20065": {
+  "en": "The sign shown indicates a one-way street straight ahead.",
+  "explain": {
+   "short": "A 'senso unico frontale' is a square information sign; this round blue sign is an obligation to go straight.",
+   "rule": "'Direzione obbligatoria diritto' (compulsory straight ahead) is a blue disc with a white arrow up. At the junction you may only go straight on: no left, no right.",
+   "trap": "'senso unico frontale' (one-way ahead) looks similar but is a square sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Round = obligation, square = one-way",
+    "it": "direzione obbligatoria diritto",
+    "action": "straight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "senso unico frontale",
+    "en": "one-way street ahead"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20066": {
+  "en": "The sign shown means you must turn left.",
+  "explain": {
+   "short": "The white arrow points left on a blue disc: you must turn left.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'obbligo' means you MUST: here, turn left.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only left at the junction",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo",
+    "en": "obligation"
+   },
+   {
+    "it": "svoltare a sinistra",
+    "en": "turn left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20067": {
+  "en": "The sign shown does not allow you to turn right.",
+  "explain": {
+   "short": "You may only turn left, so a right turn is not allowed.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'non consente' (does not allow): every direction except left is excluded.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left only: no right turn",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non consente",
+    "en": "does not allow"
+   },
+   {
+    "it": "svoltare a destra",
+    "en": "turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20068": {
+  "en": "The sign shown, placed before a junction, obliges you to turn left.",
+  "explain": {
+   "short": "At the junction it stands at, the only allowed direction is left.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'obbliga' means you must; 'prima di un incrocio' is where it stands.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only left at the junction",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "posto prima di un incrocio",
+    "en": "placed before a junction"
+   },
+   {
+    "it": "obbliga",
+    "en": "obliges"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20069": {
+  "en": "The sign shown, at a junction, does not allow you to continue straight on.",
+  "explain": {
+   "short": "Left is the only allowed direction, so going straight on is not allowed.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'proseguire diritto' (go straight on) is excluded like the right turn.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left only: no straight on",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in corrispondenza di un incrocio",
+    "en": "at a junction"
+   },
+   {
+    "it": "non consente",
+    "en": "does not allow"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20070": {
+  "en": "The sign shown indicates the only direction allowed.",
+  "explain": {
+   "short": "A compulsory direction sign shows the one and only way you may go: here, left.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'unica' (only one): that is what 'direzione obbligatoria' means.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The arrow = the only way allowed",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "l'unica direzione consentita",
+    "en": "the only direction allowed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20071": {
+  "en": "The sign shown is a regulatory sign.",
+  "explain": {
+   "short": "Mandatory signs belong to the regulatory signs (prescrizione), together with prohibition signs.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'prescrizione' (regulatory) covers both prohibitions and obligations.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Obligation signs are regulatory signs",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di prescrizione",
+    "en": "regulatory sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20072": {
+  "en": "The sign shown is a compulsory direction sign.",
+  "explain": {
+   "short": "Its name is 'direzione obbligatoria a sinistra': compulsory direction left.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'direzione obbligatoria' (compulsory direction): the arrow is an order.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Compulsory direction: left",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "direzione obbligatoria",
+    "en": "compulsory direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20073": {
+  "en": "The sign shown is a mandatory sign.",
+  "explain": {
+   "short": "It is a blue disc with a white arrow: blue discs give obligations.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'obbligo' (obligation): blue round sign = you MUST do it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Blue disc = an obligation",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di obbligo",
+    "en": "mandatory sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20074": {
+  "en": "The sign shown allows you to go straight on at the junction.",
+  "explain": {
+   "short": "You may only turn left, so going straight on is not allowed.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'consente di andare diritto' (allows straight on) is the opposite of the sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No straight on: left only",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente",
+    "en": "allows"
+   },
+   {
+    "it": "andare diritto",
+    "en": "go straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20075": {
+  "en": "The sign shown allows you to turn right at the junction.",
+  "explain": {
+   "short": "You may only turn left, so turning right is not allowed.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'consente di svoltare a destra' (allows a right turn) is wrong: only left.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No right turn: left only",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente",
+    "en": "allows"
+   },
+   {
+    "it": "svoltare a destra",
+    "en": "turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20076": {
+  "en": "The sign shown indicates the start of one-way traffic after a left turn.",
+  "explain": {
+   "short": "It only orders a left turn; it says nothing about the road after the turn being one-way.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'senso unico' (one-way) has its own information sign; this is an obligation.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left only: says nothing about one-way",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "inizio",
+    "en": "start"
+   },
+   {
+    "it": "senso unico di circolazione",
+    "en": "one-way traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20077": {
+  "en": "The sign shown indicates the end of two-way traffic after a right turn.",
+  "explain": {
+   "short": "It orders a LEFT turn and says nothing about two-way traffic.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'svolta a destra' is wrong twice: the arrow points left, and two-way traffic is not mentioned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left turn, nothing about two-way",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "doppio senso di circolazione",
+    "en": "two-way traffic"
+   },
+   {
+    "it": "svolta a destra",
+    "en": "right turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20078": {
+  "en": "The sign shown means you must pass to the left of an obstacle on the carriageway.",
+  "explain": {
+   "short": "The arrow points straight to the left: turn left. The obstacle sign has a diagonal arrow pointing down-left.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'passare a sinistra di un ostacolo' is a different sign with a slanted arrow.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Horizontal arrow = turn, not obstacle",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligatorio",
+    "en": "compulsory"
+   },
+   {
+    "it": "passare a sinistra di un ostacolo",
+    "en": "pass to the left of an obstacle"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20079": {
+  "en": "The sign shown is an information sign.",
+  "explain": {
+   "short": "A blue disc gives an obligation; it does not just inform.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'indicazione' (information) is wrong: this is an obligation sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "An obligation, not just information",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di indicazione",
+    "en": "information sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20080": {
+  "en": "The sign shown is a prohibition sign.",
+  "explain": {
+   "short": "Prohibition signs have a red ring; this blue disc tells you what you must do.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'divieto' (prohibition) = red ring; blue disc = 'obbligo'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Blue = must do, red ring = must not",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di divieto",
+    "en": "prohibition sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20081": {
+  "en": "The sign shown indicates that the road you cross is one-way to the left.",
+  "explain": {
+   "short": "It only orders you to turn left; it does not say the crossing road is one-way.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'senso unico' (one-way) is told by a different, rectangular sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left only: nothing about one-way",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada che si incrocia",
+    "en": "road you cross"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20082": {
+  "en": "The sign shown indicates a parallel one-way street.",
+  "explain": {
+   "short": "A 'senso unico parallelo' is a rectangular information sign; this round blue sign orders a left turn.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'senso unico parallelo' (one-way, side view) is a long rectangle, not a disc.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Round = obligation, rectangle = one-way",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "senso unico parallelo",
+    "en": "parallel one-way street"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20083": {
+  "en": "The sign shown indicates that you may only turn left.",
+  "explain": {
+   "short": "The arrow points left on a blue disc: left is the only allowed way.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'soltanto' (only): no other direction is allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only left at the junction",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "soltanto a sinistra",
+    "en": "only left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20084": {
+  "en": "The sign shown indicates that you may not continue straight on.",
+  "explain": {
+   "short": "You must turn left, so going straight on is not allowed.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'non è consentito' (is not allowed): straight on is excluded.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left only: no straight on",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è consentito",
+    "en": "is not allowed"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "continue straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20085": {
+  "en": "The sign shown indicates that turning left is forbidden.",
+  "explain": {
+   "short": "It is the opposite: a blue disc ORDERS the left turn. A ban would have a red ring and a crossed arrow.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'divieto' (ban) is the opposite of 'obbligo': here left is compulsory.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Left is compulsory, not forbidden",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto",
+    "en": "ban"
+   },
+   {
+    "it": "svoltare a sinistra",
+    "en": "turn left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20086": {
+  "en": "The sign shown indicates that you may stop on the left side of the road.",
+  "explain": {
+   "short": "It is about the direction to take at the junction, not about stopping.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'fermare' (stop) has nothing to do with a compulsory direction arrow.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Turn left, nothing about stopping",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "ci si può fermare",
+    "en": "you may stop"
+   },
+   {
+    "it": "sinistra della strada",
+    "en": "left side of the road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20087": {
+  "en": "The sign shown means you must continue straight on.",
+  "explain": {
+   "short": "The arrow points left, not up: you must turn left.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'proseguire diritto' would need an arrow pointing up.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrow left = turn left, not straight",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo",
+    "en": "obligation"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "continue straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20088": {
+  "en": "The sign shown means you must go around the obstacle on the left.",
+  "explain": {
+   "short": "The arrow is horizontal: turn left at the junction. The obstacle sign has a diagonal arrow.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'aggirare l'ostacolo' (go around the obstacle) is a different sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Horizontal arrow = turn, not obstacle",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "aggirare l'ostacolo",
+    "en": "go around the obstacle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20089": {
+  "en": "The sign shown means advance warning of a bend to the left.",
+  "explain": {
+   "short": "Bends are warned by red triangles; this blue disc orders a left turn.",
+   "rule": "'Direzione obbligatoria a sinistra' (compulsory left) is a blue disc with a white arrow to the left. At the junction you may only turn left: no straight on, no right.",
+   "trap": "'curva' (bend) is a danger sign, not an obligation sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a bend: a compulsory left turn",
+    "it": "direzione obbligatoria a sinistra",
+    "action": "turnLeft"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavviso",
+    "en": "advance warning"
+   },
+   {
+    "it": "curva a sinistra",
+    "en": "bend to the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20090": {
+  "en": "The sign shown means you must turn right.",
+  "explain": {
+   "short": "The white arrow points right on a blue disc: you must turn right.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'obbligo' means you MUST: here, turn right.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only right at the junction",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo",
+    "en": "obligation"
+   },
+   {
+    "it": "svoltare a destra",
+    "en": "turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20091": {
+  "en": "The sign shown does not allow you to turn left.",
+  "explain": {
+   "short": "You may only turn right, so a left turn is not allowed.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'non consente' (does not allow): every direction except right is excluded.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right only: no left turn",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non consente",
+    "en": "does not allow"
+   },
+   {
+    "it": "svoltare a sinistra",
+    "en": "turn left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20092": {
+  "en": "The sign shown, at a junction, obliges you to turn right.",
+  "explain": {
+   "short": "At the junction the only allowed direction is right.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'obbliga' means you must; 'in corrispondenza di un incrocio' means at the junction.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only right at the junction",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in corrispondenza di un incrocio",
+    "en": "at a junction"
+   },
+   {
+    "it": "obbliga",
+    "en": "obliges"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20093": {
+  "en": "The sign shown, placed before a junction, does not allow you to continue straight on.",
+  "explain": {
+   "short": "Right is the only allowed direction, so going straight on is not allowed.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'proseguire diritto' (go straight on) is excluded like the left turn.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right only: no straight on",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "posto prima di un incrocio",
+    "en": "placed before a junction"
+   },
+   {
+    "it": "non consente",
+    "en": "does not allow"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20094": {
+  "en": "The sign shown is a regulatory sign.",
+  "explain": {
+   "short": "Mandatory signs belong to the regulatory signs (prescrizione), together with prohibition signs.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'prescrizione' (regulatory) covers both prohibitions and obligations.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Obligation signs are regulatory signs",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di prescrizione",
+    "en": "regulatory sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20095": {
+  "en": "The sign shown is a mandatory sign.",
+  "explain": {
+   "short": "It is a blue disc with a white arrow: blue discs give obligations.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'obbligo' (obligation): blue round sign = you MUST do it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Blue disc = an obligation",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di obbligo",
+    "en": "mandatory sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20096": {
+  "en": "The sign shown is a compulsory direction sign.",
+  "explain": {
+   "short": "Its name is 'direzione obbligatoria a destra': compulsory direction right.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'direzione obbligatoria' (compulsory direction): the arrow is an order.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Compulsory direction: right",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "direzione obbligatoria",
+    "en": "compulsory direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20097": {
+  "en": "The sign shown indicates the only direction allowed.",
+  "explain": {
+   "short": "A compulsory direction sign shows the one and only way you may go: here, right.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'unica' (only one): that is what 'direzione obbligatoria' means.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "The arrow = the only way allowed",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "l'unica direzione consentita",
+    "en": "the only direction allowed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20098": {
+  "en": "The sign shown indicates that turning right is dangerous.",
+  "explain": {
+   "short": "It is not a danger warning: it orders you to turn right. Danger signs are red triangles.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'pericoloso' (dangerous) belongs to triangle signs; a blue disc is an order.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "An order to turn right, not a danger",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pericoloso",
+    "en": "dangerous"
+   },
+   {
+    "it": "svoltare a destra",
+    "en": "turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20099": {
+  "en": "The sign shown requires you to continue straight on.",
+  "explain": {
+   "short": "The arrow points right, not up: you must turn right.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'prescrive di proseguire diritto' would need an arrow pointing up.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrow right = turn right, not straight",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "prescrive",
+    "en": "requires"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "continue straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20100": {
+  "en": "The sign shown indicates the start of one-way traffic in the right turn.",
+  "explain": {
+   "short": "It only orders a right turn; it says nothing about a one-way street.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'senso unico' (one-way) has its own information sign; this is an obligation.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right only: says nothing about one-way",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "inizio",
+    "en": "start"
+   },
+   {
+    "it": "senso unico di circolazione",
+    "en": "one-way traffic"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20101": {
+  "en": "The sign shown indicates the end of two-way traffic in the left turn.",
+  "explain": {
+   "short": "It orders a RIGHT turn and says nothing about two-way traffic.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'svolta a sinistra' is wrong twice: the arrow points right, and two-way traffic is not mentioned.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right turn, nothing about two-way",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "fine",
+    "en": "end"
+   },
+   {
+    "it": "doppio senso di circolazione",
+    "en": "two-way traffic"
+   },
+   {
+    "it": "svolta a sinistra",
+    "en": "left turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20102": {
+  "en": "The sign shown is an information sign.",
+  "explain": {
+   "short": "A blue disc gives an obligation; it does not just inform.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'indicazione' (information) is wrong: this is an obligation sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "An obligation, not just information",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di indicazione",
+    "en": "information sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20103": {
+  "en": "The sign shown is a prohibition sign.",
+  "explain": {
+   "short": "Prohibition signs have a red ring; this blue disc tells you what you must do.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'divieto' (prohibition) = red ring; blue disc = 'obbligo'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Blue = must do, red ring = must not",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale di divieto",
+    "en": "prohibition sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20104": {
+  "en": "The sign shown indicates that the road you cross is one-way to the right.",
+  "explain": {
+   "short": "It only orders you to turn right; it does not say the crossing road is one-way.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'senso unico' (one-way) is told by a different, rectangular sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right only: nothing about one-way",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada che si incrocia",
+    "en": "road you cross"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20105": {
+  "en": "The sign shown indicates a parallel one-way street.",
+  "explain": {
+   "short": "A 'senso unico parallelo' is a rectangular information sign; this round blue sign orders a right turn.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'senso unico parallelo' (one-way, side view) is a long rectangle, not a disc.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Round = obligation, rectangle = one-way",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "senso unico parallelo",
+    "en": "parallel one-way street"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20106": {
+  "en": "The sign shown indicates compulsory direction right.",
+  "explain": {
+   "short": "It is exactly the sign 'direzione obbligatoria a destra': white arrow to the right on a blue disc.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'direzione obbligatoria' (compulsory direction): you must go that way.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only right at the junction",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "direzione obbligatoria a destra",
+    "en": "compulsory direction right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20107": {
+  "en": "The sign shown indicates that you may only turn right.",
+  "explain": {
+   "short": "The arrow points right on a blue disc: right is the only allowed way.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'soltanto' (only): no other direction is allowed.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only right at the junction",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "soltanto a destra",
+    "en": "only right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20108": {
+  "en": "The sign shown indicates that you may not continue straight on.",
+  "explain": {
+   "short": "You must turn right, so going straight on is not allowed.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'non è consentito' (is not allowed): straight on is excluded.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right only: no straight on",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "non è consentito",
+    "en": "is not allowed"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "continue straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20109": {
+  "en": "The sign shown indicates that you must turn right.",
+  "explain": {
+   "short": "A blue disc with an arrow to the right orders a right turn.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'si deve' (you must): it is an obligation, not a choice.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only right at the junction",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si deve",
+    "en": "you must"
+   },
+   {
+    "it": "svoltare a destra",
+    "en": "turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20110": {
+  "en": "The sign shown indicates that turning right is forbidden.",
+  "explain": {
+   "short": "It is the opposite: a blue disc ORDERS the right turn. A ban would have a red ring and a crossed arrow.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'divieto' (ban) is the opposite of 'obbligo': here right is compulsory.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Right is compulsory, not forbidden",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto",
+    "en": "ban"
+   },
+   {
+    "it": "svoltare a destra",
+    "en": "turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20111": {
+  "en": "The sign shown indicates a parking area on the right.",
+  "explain": {
+   "short": "Parking is shown by a 'P' sign; this blue disc orders a right turn.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'parcheggio' (parking) has its own sign with a white P.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Turn right, not a parking area",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area di parcheggio",
+    "en": "parking area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20112": {
+  "en": "The sign shown means you must continue straight on.",
+  "explain": {
+   "short": "The arrow points right, not up: you must turn right.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'proseguire diritto' would need an arrow pointing up.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrow right = turn right, not straight",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo",
+    "en": "obligation"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "continue straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20113": {
+  "en": "The sign shown means you must pass to the right of the obstacle.",
+  "explain": {
+   "short": "The arrow is horizontal: turn right at the junction. The obstacle sign has a diagonal arrow pointing down-right.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'passare a destra dell'ostacolo' is a different sign with a slanted arrow.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Horizontal arrow = turn, not obstacle",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "passare a destra dell'ostacolo",
+    "en": "pass to the right of the obstacle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20114": {
+  "en": "The sign shown means advance warning of a bend to the right.",
+  "explain": {
+   "short": "Bends are warned by red triangles; this blue disc orders a right turn.",
+   "rule": "'Direzione obbligatoria a destra' (compulsory right) is a blue disc with a white arrow to the right. At the junction you may only turn right: no straight on, no left.",
+   "trap": "'curva' (bend) is a danger sign, not an obligation sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a bend: a compulsory right turn",
+    "it": "direzione obbligatoria a destra",
+    "action": "turnRight"
+   }
+  },
+  "keywords": [
+   {
+    "it": "preavviso",
+    "en": "advance warning"
+   },
+   {
+    "it": "curva a destra",
+    "en": "bend to the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

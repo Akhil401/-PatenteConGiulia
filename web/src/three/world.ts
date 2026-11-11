@@ -4,7 +4,7 @@ import * as THREE from 'three'
 export type RoadKind = 'twoWay' | 'oneWay' | 'dual' | 'twoLanesEach' | 'motorway' | 'motorway3' | 'space' | 'threeLanesEach' | 'threeCarriageways'
 export interface Prop { type: string; [k: string]: any }
 export interface World3D {
-  road?: RoadKind; line?: 'dashed' | 'solid' | 'double' | 'mixed'; feature?: 'hill' | 'hillDown' | 'curve' | 'fog' | null
+  road?: RoadKind; line?: 'dashed' | 'solid' | 'double' | 'mixed' | 'mixedSolidMine'; feature?: 'hill' | 'hillDown' | 'curve' | 'fog' | null
   props?: Prop[]
   /** studio scenes without a road: figure / rulecard / roadparts */
   studio?: 'figure' | 'rulecard' | 'roadparts'
@@ -17,7 +17,8 @@ export function layout(road: RoadKind = 'twoWay', line: World3D['line'] = 'dashe
   const centre = (x: number) => {
     if (line === 'solid') L.solids.push(x)
     else if (line === 'double') L.solids.push(x - 3.5, x + 3.5)
-    else if (line === 'mixed') { L.solids.push(x - 3.5); L.dashes.push(x + 3.5) }
+    else if (line === 'mixed') { L.solids.push(x - 3.5); L.dashes.push(x + 3.5) }   // dashed on YOUR side: you may cross
+    else if (line === 'mixedSolidMine') { L.solids.push(x + 3.5); L.dashes.push(x - 3.5) }   // solid on YOUR side: you may not
     else L.dashes.push(x)
   }
   switch (road) {

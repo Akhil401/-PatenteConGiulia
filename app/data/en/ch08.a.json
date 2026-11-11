@@ -1,0 +1,2111 @@
+{
+ "q21223": {
+  "en": "The sign shown is a motorway confirmation sign.",
+  "explain": {
+   "short": "It is green and lists towns with their distances: this is the confirmation sign used on motorways.",
+   "rule": "A GREEN 'segnale di conferma' (confirmation sign) stands on the motorway: it lists towns ahead and the km still to go to each. On extraurban roads the same sign is blue.",
+   "trap": "'di conferma' (confirmation): it confirms the direction you are already following.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green confirmation sign: motorway",
+    "it": "segnale di conferma",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "di conferma",
+    "en": "confirmation"
+   },
+   {
+    "it": "autostradale",
+    "en": "of the motorway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21224": {
+  "en": "The sign shown lists places with their distances in kilometres.",
+  "explain": {
+   "short": "Each line has a town and a number; the number is the distance in km to that town.",
+   "rule": "A GREEN 'segnale di conferma' (confirmation sign) stands on the motorway: it lists towns ahead and the km still to go to each. On extraurban roads the same sign is blue.",
+   "trap": "'relative distanze' (their distances): each number belongs to the town on its line.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Each town with its km to go",
+    "it": "segnale di conferma",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "località",
+    "en": "places / towns"
+   },
+   {
+    "it": "distanze in chilometri",
+    "en": "distances in kilometres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21225": {
+  "en": "The sign shown, if blue, is found on extraurban roads.",
+  "explain": {
+   "short": "The same confirmation sign also exists in blue, and blue is the colour of extraurban roads (main roads outside towns).",
+   "rule": "A GREEN 'segnale di conferma' (confirmation sign) stands on the motorway: it lists towns ahead and the km still to go to each. On extraurban roads the same sign is blue.",
+   "trap": "'se di colore blu' (if blue): the colour tells the road type, green = motorway, blue = outside towns.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Blue version = extraurban road",
+    "it": "segnale di conferma",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "se di colore blu",
+    "en": "if blue"
+   },
+   {
+    "it": "strade extraurbane",
+    "en": "extraurban roads (outside towns)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21226": {
+  "en": "The sign shown is placed on a motorway.",
+  "explain": {
+   "short": "A green background means motorway: this confirmation sign stands on the motorway.",
+   "rule": "A GREEN 'segnale di conferma' (confirmation sign) stands on the motorway: it lists towns ahead and the km still to go to each. On extraurban roads the same sign is blue.",
+   "trap": "'autostrada' (motorway): the green colour tells you so.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green = on the motorway",
+    "it": "segnale di conferma",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è posto",
+    "en": "is placed"
+   },
+   {
+    "it": "autostrada",
+    "en": "motorway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21227": {
+  "en": "The sign shown indicates that there are 180 kilometres to go to Florence.",
+  "explain": {
+   "short": "The number next to Firenze is 180: that is the distance you still have to drive to Florence.",
+   "rule": "A GREEN 'segnale di conferma' (confirmation sign) stands on the motorway: it lists towns ahead and the km still to go to each. On extraurban roads the same sign is blue.",
+   "trap": "'mancano' (are left / to go): the km are still ahead of you, not already done.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "180 km still to go to Firenze",
+    "it": "segnale di conferma",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "mancano",
+    "en": "are left / to go"
+   },
+   {
+    "it": "180 chilometri",
+    "en": "180 kilometres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21228": {
+  "en": "The sign shown indicates, on the motorway, the distance of the places you can reach.",
+  "explain": {
+   "short": "On the motorway it shows towns you can reach along this road and how far away they are.",
+   "rule": "A GREEN 'segnale di conferma' (confirmation sign) stands on the motorway: it lists towns ahead and the km still to go to each. On extraurban roads the same sign is blue.",
+   "trap": "'raggiungibili' (that can be reached): the towns are ahead on this route.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Towns ahead and their distance",
+    "it": "segnale di conferma",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "in autostrada",
+    "en": "on the motorway"
+   },
+   {
+    "it": "località raggiungibili",
+    "en": "places you can reach"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21229": {
+  "en": "The sign shown indicates that by leaving at the first motorway toll gate you can reach all the places shown.",
+  "explain": {
+   "short": "The sign only gives distances along the motorway; it does not say that one exit leads to all these towns.",
+   "rule": "A GREEN 'segnale di conferma' (confirmation sign) stands on the motorway: it lists towns ahead and the km still to go to each. On extraurban roads the same sign is blue.",
+   "trap": "'primo casello' (first toll gate): the sign says nothing about exits.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Only km along the motorway, no exit info",
+    "it": "segnale di conferma",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "casello autostradale",
+    "en": "motorway toll gate"
+   },
+   {
+    "it": "uscendo",
+    "en": "leaving / exiting"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21230": {
+  "en": "The sign shown indicates that to reach Milan you must take motorway number 472.",
+  "explain": {
+   "short": "472 is the distance in km to Milan, not the number of a motorway.",
+   "rule": "A GREEN 'segnale di conferma' (confirmation sign) stands on the motorway: it lists towns ahead and the km still to go to each. On extraurban roads the same sign is blue.",
+   "trap": "'autostrada n. 472' (motorway no. 472): the number is km, not a road number.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "472 = km to Milano, not a road number",
+    "it": "segnale di conferma",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "bisogna percorrere",
+    "en": "you must take"
+   },
+   {
+    "it": "autostrada n. 472",
+    "en": "motorway no. 472"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21231": {
+  "en": "The sign shown indicates that there are 180 kilometres to go to the Florence service area.",
+  "explain": {
+   "short": "180 km is the distance to the town of Florence, not to a service area (a motorway stop with fuel and café).",
+   "rule": "A GREEN 'segnale di conferma' (confirmation sign) stands on the motorway: it lists towns ahead and the km still to go to each. On extraurban roads the same sign is blue.",
+   "trap": "'area di servizio' (service area): the sign names towns, not service areas.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "180 km to the town, not to a service area",
+    "it": "segnale di conferma",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "area di servizio",
+    "en": "service area"
+   },
+   {
+    "it": "mancano",
+    "en": "are left / to go"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21232": {
+  "en": "The sign shown indicates, for each place, the number of the road to take.",
+  "explain": {
+   "short": "The numbers next to the towns are distances in km, not road numbers.",
+   "rule": "A GREEN 'segnale di conferma' (confirmation sign) stands on the motorway: it lists towns ahead and the km still to go to each. On extraurban roads the same sign is blue.",
+   "trap": "'numero della strada' (road number): road numbers have their own small panels, like 'E 55' or 'SS 2'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Numbers are km, not road numbers",
+    "it": "segnale di conferma",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "per ogni località",
+    "en": "for each place"
+   },
+   {
+    "it": "numero della strada",
+    "en": "road number"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21233": {
+  "en": "The sign shown indicates the kilometres already travelled from the places shown.",
+  "explain": {
+   "short": "The numbers show the km still to go to those towns, not the km already driven.",
+   "rule": "A GREEN 'segnale di conferma' (confirmation sign) stands on the motorway: it lists towns ahead and the km still to go to each. On extraurban roads the same sign is blue.",
+   "trap": "'già fatti' (already done): the km are ahead of you.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Km still ahead, not already driven",
+    "it": "segnale di conferma",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "già fatti",
+    "en": "already done / travelled"
+   },
+   {
+    "it": "chilometri",
+    "en": "kilometres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21234": {
+  "en": "The sign shown is placed on extraurban roads.",
+  "explain": {
+   "short": "This sign is green, so it stands on a motorway. On extraurban roads the same sign would be blue.",
+   "rule": "A GREEN 'segnale di conferma' (confirmation sign) stands on the motorway: it lists towns ahead and the km still to go to each. On extraurban roads the same sign is blue.",
+   "trap": "'strade extraurbane' (extraurban roads): only the BLUE version is used there.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green = motorway; blue would be extraurban",
+    "it": "segnale di conferma",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è posto",
+    "en": "is placed"
+   },
+   {
+    "it": "strade extraurbane",
+    "en": "extraurban roads (outside towns)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21235": {
+  "en": "The sign shown indicates an international road route.",
+  "explain": {
+   "short": "The letter E with a number marks a European route, a road that crosses several countries.",
+   "rule": "A green panel with 'E' and a number marks a European international route: E 55 is international route number 55.",
+   "trap": "'itinerario internazionale' (international route): E stands for Europe.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "E 55 = international route",
+    "it": "itinerario internazionale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "itinerario",
+    "en": "route"
+   },
+   {
+    "it": "strada internazionale",
+    "en": "international road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21236": {
+  "en": "The sign shown indicates the international classification number of the road.",
+  "explain": {
+   "short": "55 is the number this road has in the international (European) list of roads.",
+   "rule": "A green panel with 'E' and a number marks a European international route: E 55 is international route number 55.",
+   "trap": "'classificazione internazionale' (international classification): 55 is a road number, not km.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "55 = the road's international number",
+    "it": "itinerario internazionale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "classificazione internazionale",
+    "en": "international classification"
+   },
+   {
+    "it": "numero",
+    "en": "number"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21237": {
+  "en": "The sign shown is placed on roads of international importance.",
+  "explain": {
+   "short": "E routes link different countries, so this sign stands on roads of international importance.",
+   "rule": "A green panel with 'E' and a number marks a European international route: E 55 is international route number 55.",
+   "trap": "'importanza internazionale' (international importance): the E shows it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "On roads that link countries",
+    "it": "itinerario internazionale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è posto",
+    "en": "is placed"
+   },
+   {
+    "it": "importanza internazionale",
+    "en": "international importance"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21238": {
+  "en": "The sign shown indicates international route no. 55.",
+  "explain": {
+   "short": "The panel reads E 55: European international route number 55.",
+   "rule": "A green panel with 'E' and a number marks a European international route: E 55 is international route number 55.",
+   "trap": "'n. 55' (no. 55): the number is the route's name.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "International route number 55",
+    "it": "itinerario internazionale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "itinerario internazionale",
+    "en": "international route"
+   },
+   {
+    "it": "n. 55",
+    "en": "number 55"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21239": {
+  "en": "The sign shown can be found inside an advance road-junction sign.",
+  "explain": {
+   "short": "Route-number panels are often put inside bigger direction signs, such as the sign that announces a fork ahead.",
+   "rule": "A green panel with 'E' and a number marks a European international route: E 55 is international route number 55.",
+   "trap": "'all'interno' (inside): the small panel can be part of a bigger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Can be part of a bigger junction sign",
+    "it": "itinerario internazionale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'interno",
+    "en": "inside"
+   },
+   {
+    "it": "preavviso di bivio",
+    "en": "advance warning of a fork / junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21240": {
+  "en": "The sign shown identifies extraurban roads.",
+  "explain": {
+   "short": "It does not mark extraurban roads in general: it marks one European international route, E 55.",
+   "rule": "A green panel with 'E' and a number marks a European international route: E 55 is international route number 55.",
+   "trap": "'strade extraurbane' (roads outside towns): this panel names an international route, not a road type.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Marks an E route, not extraurban roads",
+    "it": "itinerario internazionale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "identifica",
+    "en": "identifies"
+   },
+   {
+    "it": "strade extraurbane",
+    "en": "extraurban roads"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21241": {
+  "en": "The sign shown indicates motorway exit no. 55.",
+  "explain": {
+   "short": "55 is the number of the international route, not of a motorway exit.",
+   "rule": "A green panel with 'E' and a number marks a European international route: E 55 is international route number 55.",
+   "trap": "'uscita autostradale' (motorway exit): the E means a European route, not an exit.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "E 55 is a route, not exit 55",
+    "it": "itinerario internazionale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "uscita autostradale",
+    "en": "motorway exit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21242": {
+  "en": "The sign shown indicates that there are 55 kilometres to go to the national border.",
+  "explain": {
+   "short": "The number is the route's name, not a distance to the border.",
+   "rule": "A green panel with 'E' and a number marks a European international route: E 55 is international route number 55.",
+   "trap": "'confine di Stato' (national border): the sign gives no distance at all.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "55 is a route number, not km to a border",
+    "it": "itinerario internazionale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "confine di Stato",
+    "en": "national border"
+   },
+   {
+    "it": "mancano",
+    "en": "are left / to go"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21243": {
+  "en": "The sign shown indicates the maximum speed to keep on that road.",
+  "explain": {
+   "short": "Speed limits are shown in a red circle. This green panel is only the route's number.",
+   "rule": "A green panel with 'E' and a number marks a European international route: E 55 is international route number 55.",
+   "trap": "'velocità massima' (maximum speed): no red ring, so no speed limit.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a speed limit: just a route number",
+    "it": "itinerario internazionale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "velocità massima",
+    "en": "maximum speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21244": {
+  "en": "The sign shown indicates the number of the overpass.",
+  "explain": {
+   "short": "It numbers a European road route, not a bridge or overpass.",
+   "rule": "A green panel with 'E' and a number marks a European international route: E 55 is international route number 55.",
+   "trap": "'cavalcavia' (overpass, a bridge over the road): not shown on this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A route number, not an overpass number",
+    "it": "itinerario internazionale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cavalcavia",
+    "en": "overpass (bridge over the road)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21245": {
+  "en": "The sign shown indicates that 55 kilometres have been travelled from the starting point of the motorway.",
+  "explain": {
+   "short": "55 is not a distance: it is the number of the international route.",
+   "rule": "A green panel with 'E' and a number marks a European international route: E 55 is international route number 55.",
+   "trap": "'sono stati percorsi' (have been travelled): this is a route name, not a km count.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "55 = route number, not km travelled",
+    "it": "itinerario internazionale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sono stati percorsi",
+    "en": "have been travelled"
+   },
+   {
+    "it": "punto di origine",
+    "en": "starting point"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21246": {
+  "en": "The sign shown indicates the type and number of the road you are travelling on.",
+  "explain": {
+   "short": "SS is the type of road (state road) and 2 is its number.",
+   "rule": "A blue panel with 'SS' and a number gives the road type and number: SS 2 = 'strada statale' (state road) number 2.",
+   "trap": "'tipo ed il numero' (type and number): the letters are the type, the figure is the number.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "SS = type, 2 = number",
+    "it": "strada statale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tipo",
+    "en": "type"
+   },
+   {
+    "it": "strada percorsa",
+    "en": "road travelled"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21247": {
+  "en": "The sign shown can be found inside a direction sign or a road-junction sign.",
+  "explain": {
+   "short": "Road-number panels are often put inside bigger direction or junction signs.",
+   "rule": "A blue panel with 'SS' and a number gives the road type and number: SS 2 = 'strada statale' (state road) number 2.",
+   "trap": "'all'interno' (inside): the small panel can be part of a larger sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Can be part of a direction sign",
+    "it": "strada statale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'interno",
+    "en": "inside"
+   },
+   {
+    "it": "segnale di direzione",
+    "en": "direction sign"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21248": {
+  "en": "The sign shown indicates that the road we are travelling on is a state road.",
+  "explain": {
+   "short": "SS stands for 'strada statale' (state road).",
+   "rule": "A blue panel with 'SS' and a number gives the road type and number: SS 2 = 'strada statale' (state road) number 2.",
+   "trap": "'strada statale' (state road): SS is its short form.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "SS = strada statale",
+    "it": "strada statale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada statale",
+    "en": "state road"
+   },
+   {
+    "it": "su cui viaggiamo",
+    "en": "on which we travel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21249": {
+  "en": "The sign shown indicates that we are travelling on state road no. 2.",
+  "explain": {
+   "short": "The panel reads SS 2: state road number 2.",
+   "rule": "A blue panel with 'SS' and a number gives the road type and number: SS 2 = 'strada statale' (state road) number 2.",
+   "trap": "'n. 2' (no. 2): the number is the road's name, not km.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "State road number 2",
+    "it": "strada statale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "stiamo percorrendo",
+    "en": "we are travelling on"
+   },
+   {
+    "it": "strada statale",
+    "en": "state road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21250": {
+  "en": "The sign shown indicates the number of lay-bys.",
+  "explain": {
+   "short": "2 is the road number, not a count of lay-bys (small stopping places at the roadside).",
+   "rule": "A blue panel with 'SS' and a number gives the road type and number: SS 2 = 'strada statale' (state road) number 2.",
+   "trap": "'piazzole di sosta' (lay-bys): they are not on this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "2 is the road number, not lay-bys",
+    "it": "strada statale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "piazzole di sosta",
+    "en": "lay-bys"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21251": {
+  "en": "The sign shown indicates a slippery road for 2 kilometres.",
+  "explain": {
+   "short": "A slippery road is shown by a red triangle danger sign. Here 2 is just the road number.",
+   "rule": "A blue panel with 'SS' and a number gives the road type and number: SS 2 = 'strada statale' (state road) number 2.",
+   "trap": "'sdrucciolevole' (slippery): danger signs are red triangles, not blue panels.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a danger sign: SS 2 is a road",
+    "it": "strada statale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sdrucciolevole",
+    "en": "slippery"
+   },
+   {
+    "it": "per 2 chilometri",
+    "en": "for 2 kilometres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21252": {
+  "en": "The sign shown indicates a narrow road for 2 kilometres.",
+  "explain": {
+   "short": "A narrowing is shown by a red triangle danger sign. Here 2 is just the road number.",
+   "rule": "A blue panel with 'SS' and a number gives the road type and number: SS 2 = 'strada statale' (state road) number 2.",
+   "trap": "'strada stretta' (narrow road): danger signs are red triangles, not blue panels.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a narrowing: SS 2 is a road",
+    "it": "strada statale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada stretta",
+    "en": "narrow road"
+   },
+   {
+    "it": "per 2 chilometri",
+    "en": "for 2 kilometres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21253": {
+  "en": "The sign shown indicates a dead-end road in 2 kilometres.",
+  "explain": {
+   "short": "A dead end has its own sign. Here 2 is the number of the state road.",
+   "rule": "A blue panel with 'SS' and a number gives the road type and number: SS 2 = 'strada statale' (state road) number 2.",
+   "trap": "'senza uscita' (dead end, no way out): SS 2 says nothing about that.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a dead end: SS 2 is a road",
+    "it": "strada statale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada senza uscita",
+    "en": "dead-end road"
+   },
+   {
+    "it": "a 2 chilometri",
+    "en": "in 2 kilometres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21254": {
+  "en": "The sign shown indicates a road without signs or markings for 2 kilometres.",
+  "explain": {
+   "short": "The panel only gives the road's type and number; 2 is not a distance.",
+   "rule": "A blue panel with 'SS' and a number gives the road type and number: SS 2 = 'strada statale' (state road) number 2.",
+   "trap": "'senza segnaletica' (without signs or markings): not what SS 2 means.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "SS 2 = state road 2, nothing else",
+    "it": "strada statale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "senza segnaletica",
+    "en": "without signs or markings"
+   },
+   {
+    "it": "per 2 chilometri",
+    "en": "for 2 kilometres"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21255": {
+  "en": "The sign shown indicates a dirt (unpaved) road.",
+  "explain": {
+   "short": "SS means 'strada statale' (state road), an important road, not an unpaved track.",
+   "rule": "A blue panel with 'SS' and a number gives the road type and number: SS 2 = 'strada statale' (state road) number 2.",
+   "trap": "'sterrata' (unpaved, dirt road): SS does not mean that.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "SS = state road, not a dirt road",
+    "it": "strada statale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada sterrata",
+    "en": "dirt (unpaved) road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21256": {
+  "en": "The sign shown can be found at the start of a municipal road.",
+  "explain": {
+   "short": "It names municipal road no. 19, so it can stand where that road begins.",
+   "rule": "A white panel with 'SC' and a number marks a 'strada comunale' (municipal road): SC 19 = municipal road number 19.",
+   "trap": "'si può trovare' (can be found): a possible place for it, and a correct one.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "At the start of municipal road 19",
+    "it": "strada comunale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "all'inizio",
+    "en": "at the start"
+   },
+   {
+    "it": "strada comunale",
+    "en": "municipal road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21257": {
+  "en": "The sign shown can be found completing direction signs.",
+  "explain": {
+   "short": "Road-number panels are added to direction signs to show which road leads to a place.",
+   "rule": "A white panel with 'SC' and a number marks a 'strada comunale' (municipal road): SC 19 = municipal road number 19.",
+   "trap": "'a completamento' (as an addition): it adds information to direction signs.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Added to direction signs",
+    "it": "strada comunale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "a completamento",
+    "en": "as an addition / completing"
+   },
+   {
+    "it": "segnali di direzione",
+    "en": "direction signs"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21258": {
+  "en": "The sign shown identifies a municipal road.",
+  "explain": {
+   "short": "SC stands for 'strada comunale' (municipal road).",
+   "rule": "A white panel with 'SC' and a number marks a 'strada comunale' (municipal road): SC 19 = municipal road number 19.",
+   "trap": "'strada comunale' (municipal road): SC is its short form.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "SC = strada comunale",
+    "it": "strada comunale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "identifica",
+    "en": "identifies"
+   },
+   {
+    "it": "strada comunale",
+    "en": "municipal road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21259": {
+  "en": "The sign shown can be found along municipal road no. 19.",
+  "explain": {
+   "short": "SC 19 names municipal road number 19, so it can stand along that road.",
+   "rule": "A white panel with 'SC' and a number marks a 'strada comunale' (municipal road): SC 19 = municipal road number 19.",
+   "trap": "'lungo' (along): the panel can be repeated on the road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Along municipal road 19",
+    "it": "strada comunale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "lungo",
+    "en": "along"
+   },
+   {
+    "it": "strada comunale",
+    "en": "municipal road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21260": {
+  "en": "The sign shown is located nineteen kilometres from the nearest Carabinieri station.",
+  "explain": {
+   "short": "19 is the road number, not a distance to the Carabinieri (a police force).",
+   "rule": "A white panel with 'SC' and a number marks a 'strada comunale' (municipal road): SC 19 = municipal road number 19.",
+   "trap": "'diciannove chilometri' (nineteen kilometres): the number is not km.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "19 is a road number, not km",
+    "it": "strada comunale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "diciannove chilometri",
+    "en": "nineteen kilometres"
+   },
+   {
+    "it": "Stazione dei Carabinieri",
+    "en": "Carabinieri (police) station"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21261": {
+  "en": "The sign shown is located at the start of a country road.",
+  "explain": {
+   "short": "SC means 'strada comunale' (municipal road), not 'strada di campagna' (country road).",
+   "rule": "A white panel with 'SC' and a number marks a 'strada comunale' (municipal road): SC 19 = municipal road number 19.",
+   "trap": "'strada di campagna' (country road): the C stands for 'comunale'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "SC = municipal, not country road",
+    "it": "strada comunale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada di campagna",
+    "en": "country road"
+   },
+   {
+    "it": "all'inizio",
+    "en": "at the start"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21262": {
+  "en": "The sign shown is located where the road can be used only with snow chains.",
+  "explain": {
+   "short": "Compulsory snow chains have their own round blue sign. This panel only names municipal road 19.",
+   "rule": "A white panel with 'SC' and a number marks a 'strada comunale' (municipal road): SC 19 = municipal road number 19.",
+   "trap": "'catene da neve' (snow chains): nothing on this sign is about snow.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Names a road; nothing about snow chains",
+    "it": "strada comunale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "catene da neve",
+    "en": "snow chains"
+   },
+   {
+    "it": "percorribile",
+    "en": "usable / drivable"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21263": {
+  "en": "The sign shown is located on roads where parking is allowed after 7 pm (19:00).",
+  "explain": {
+   "short": "19 is the road number, not a time of day.",
+   "rule": "A white panel with 'SC' and a number marks a 'strada comunale' (municipal road): SC 19 = municipal road number 19.",
+   "trap": "'dopo le ore 19.00' (after 7 pm): the number is not a time.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "19 is a road number, not a time",
+    "it": "strada comunale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta",
+    "en": "parking"
+   },
+   {
+    "it": "dopo le ore 19.00",
+    "en": "after 7 pm"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21264": {
+  "en": "The sign shown indicates, on an urban road, the number of the overpass.",
+  "explain": {
+   "short": "It numbers a municipal road, not an overpass (a bridge over the road).",
+   "rule": "A white panel with 'SC' and a number marks a 'strada comunale' (municipal road): SC 19 = municipal road number 19.",
+   "trap": "'cavalcavia' (overpass): this panel names a road, not a bridge.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "A road number, not an overpass number",
+    "it": "strada comunale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "cavalcavia",
+    "en": "overpass (bridge over the road)"
+   },
+   {
+    "it": "strada urbana",
+    "en": "urban road (in a town)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21265": {
+  "en": "The sign shown indicates that a camping area is nearby.",
+  "explain": {
+   "short": "The tent and caravan pictures announce a campsite close by.",
+   "rule": "A tent and a caravan on the sign announce a nearby camping area, where you may camp and park caravans and motorhomes.",
+   "trap": "'vicinanza' (nearness): the camping area is close.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Campsite nearby",
+    "it": "campeggio",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "vicinanza",
+    "en": "nearness"
+   },
+   {
+    "it": "area per campeggio",
+    "en": "camping area"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21266": {
+  "en": "The sign shown indicates a camping area with tents and parking for caravans and motorhomes.",
+  "explain": {
+   "short": "The tent means camping and the caravan means parking for caravans and motorhomes.",
+   "rule": "A tent and a caravan on the sign announce a nearby camping area, where you may camp and park caravans and motorhomes.",
+   "trap": "'autocaravan' (motorhome, camper van): it is included in the area.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Tents plus caravan and motorhome parking",
+    "it": "campeggio",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tende",
+    "en": "tents"
+   },
+   {
+    "it": "autocaravan",
+    "en": "motorhome (camper van)"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21267": {
+  "en": "The sign shown indicates a zone meant for parking caravans and motorhomes and for camping.",
+  "explain": {
+   "short": "It shows an area set aside for caravans, motorhomes and camping.",
+   "rule": "A tent and a caravan on the sign announce a nearby camping area, where you may camp and park caravans and motorhomes.",
+   "trap": "'zona destinata' (zone meant for): the area has this purpose.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Area for caravans, motorhomes and camping",
+    "it": "campeggio",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "zona destinata",
+    "en": "zone meant for"
+   },
+   {
+    "it": "sosta",
+    "en": "parking / stopping"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21268": {
+  "en": "The sign shown indicates that camping and parking of caravans and motorhomes are allowed.",
+  "explain": {
+   "short": "In the area shown, you may camp and park caravans and motorhomes.",
+   "rule": "A tent and a caravan on the sign announce a nearby camping area, where you may camp and park caravans and motorhomes.",
+   "trap": "'è consentito' (is allowed): it is a permission, not a ban.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Camping and caravan parking allowed",
+    "it": "campeggio",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è consentito",
+    "en": "is allowed"
+   },
+   {
+    "it": "campeggio",
+    "en": "camping"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21269": {
+  "en": "The sign shown indicates a parking ban for caravans and camping vehicles.",
+  "explain": {
+   "short": "It is the opposite: it shows a place where caravans may park and people may camp.",
+   "rule": "A tent and a caravan on the sign announce a nearby camping area, where you may camp and park caravans and motorhomes.",
+   "trap": "'divieto' (ban): bans are red circles; this is an information sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a ban: caravans may park here",
+    "it": "campeggio",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto di sosta",
+    "en": "no parking"
+   },
+   {
+    "it": "veicoli da campeggio",
+    "en": "camping vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21270": {
+  "en": "The sign shown indicates a scenic area.",
+  "explain": {
+   "short": "The tent and caravan mean camping, not a viewpoint.",
+   "rule": "A tent and a caravan on the sign announce a nearby camping area, where you may camp and park caravans and motorhomes.",
+   "trap": "'zona panoramica' (scenic area, a place with a nice view): the symbols show camping.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Camping area, not a viewpoint",
+    "it": "campeggio",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "zona panoramica",
+    "en": "scenic area / viewpoint"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21271": {
+  "en": "The sign shown indicates a repair workshop for camping vehicles nearby.",
+  "explain": {
+   "short": "The sign shows camping, not a place that repairs vehicles.",
+   "rule": "A tent and a caravan on the sign announce a nearby camping area, where you may camp and park caravans and motorhomes.",
+   "trap": "'officina di riparazione' (repair workshop): there are no tools on this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Camping area, not a workshop",
+    "it": "campeggio",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "officina di riparazione",
+    "en": "repair workshop"
+   },
+   {
+    "it": "nelle vicinanze",
+    "en": "nearby"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21272": {
+  "en": "The sign shown indicates a mobile police post nearby.",
+  "explain": {
+   "short": "A tent and a caravan mean camping, not police.",
+   "rule": "A tent and a caravan on the sign announce a nearby camping area, where you may camp and park caravans and motorhomes.",
+   "trap": "'postazione mobile di Polizia' (mobile police post): nothing about police on this sign.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Camping area, not police",
+    "it": "campeggio",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "postazione mobile",
+    "en": "mobile post"
+   },
+   {
+    "it": "nelle vicinanze",
+    "en": "nearby"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21273": {
+  "en": "The sign shown indicates a mobile first-aid post nearby.",
+  "explain": {
+   "short": "A tent and a caravan mean camping, not first aid.",
+   "rule": "A tent and a caravan on the sign announce a nearby camping area, where you may camp and park caravans and motorhomes.",
+   "trap": "'pronto soccorso' (first aid): first aid has a different symbol.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Camping area, not first aid",
+    "it": "campeggio",
+    "action": "park"
+   }
+  },
+  "keywords": [
+   {
+    "it": "pronto soccorso",
+    "en": "first aid"
+   },
+   {
+    "it": "posto mobile",
+    "en": "mobile post"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21274": {
+  "en": "The sign shown indicates the address and phone numbers of the nearest traffic police command.",
+  "explain": {
+   "short": "The panel has lines for town, address and phones of the nearest traffic police office.",
+   "rule": "The 'POLIZIA STRADALE' panel gives the town, address and phone numbers of the nearest traffic police office.",
+   "trap": "'più vicino' (nearest): it is the closest traffic police office.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Address and phones of the traffic police",
+    "it": "polizia stradale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "indirizzo",
+    "en": "address"
+   },
+   {
+    "it": "numeri telefonici",
+    "en": "phone numbers"
+   },
+   {
+    "it": "più vicino",
+    "en": "nearest"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21275": {
+  "en": "The sign shown indicates the town and phone numbers of the nearest traffic police command.",
+  "explain": {
+   "short": "The panel has a 'località' (town) line and a 'telefoni' (phones) line for the nearest traffic police office.",
+   "rule": "The 'POLIZIA STRADALE' panel gives the town, address and phone numbers of the nearest traffic police office.",
+   "trap": "'località' (place, town): it is written on the panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Town and phones of the traffic police",
+    "it": "polizia stradale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "località",
+    "en": "place / town"
+   },
+   {
+    "it": "numeri di telefono",
+    "en": "phone numbers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21276": {
+  "en": "The sign shown indicates the location and phone number of the nearest traffic police command.",
+  "explain": {
+   "short": "It tells you where the nearest traffic police office is and how to phone it.",
+   "rule": "The 'POLIZIA STRADALE' panel gives the town, address and phone numbers of the nearest traffic police office.",
+   "trap": "'sede' (office, where it is based): town and address on the panel give it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Where the police office is, and its phone",
+    "it": "polizia stradale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sede",
+    "en": "office / where it is based"
+   },
+   {
+    "it": "numero telefonico",
+    "en": "phone number"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21277": {
+  "en": "The sign shown gives some details (town, street, phones) of the nearest traffic police command.",
+  "explain": {
+   "short": "Town, address (street) and phone numbers are exactly the three lines on the panel.",
+   "rule": "The 'POLIZIA STRADALE' panel gives the town, address and phone numbers of the nearest traffic police office.",
+   "trap": "'alcuni dati' (some details): only these few details, nothing else.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Town, street, phones of the traffic police",
+    "it": "polizia stradale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "alcuni dati",
+    "en": "some details"
+   },
+   {
+    "it": "via",
+    "en": "street"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21278": {
+  "en": "The sign shown indicates a police roadblock.",
+  "explain": {
+   "short": "It only gives the address and phones of a police office; it does not announce a checkpoint.",
+   "rule": "The 'POLIZIA STRADALE' panel gives the town, address and phone numbers of the nearest traffic police office.",
+   "trap": "'posto di blocco' (roadblock, checkpoint): nothing on the panel says so.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Info panel, not a roadblock",
+    "it": "polizia stradale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "posto di blocco",
+    "en": "roadblock / checkpoint"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21279": {
+  "en": "The sign shown indicates a road closed because of a road accident.",
+  "explain": {
+   "short": "The panel gives police contact details; it says nothing about accidents or closed roads.",
+   "rule": "The 'POLIZIA STRADALE' panel gives the town, address and phone numbers of the nearest traffic police office.",
+   "trap": "'strada interrotta' (closed road): not written anywhere on the panel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Info panel, not a closed road",
+    "it": "polizia stradale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "strada interrotta",
+    "en": "closed road"
+   },
+   {
+    "it": "incidente stradale",
+    "en": "road accident"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21280": {
+  "en": "The sign shown indicates a zone reserved for parking police vehicles.",
+  "explain": {
+   "short": "The panel gives the address and phones of a police office, not a parking area.",
+   "rule": "The 'POLIZIA STRADALE' panel gives the town, address and phone numbers of the nearest traffic police office.",
+   "trap": "'riservata al parcheggio' (reserved for parking): there is no parking symbol.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Info panel, not police parking",
+    "it": "polizia stradale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "riservata",
+    "en": "reserved"
+   },
+   {
+    "it": "parcheggio",
+    "en": "parking"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21281": {
+  "en": "The sign shown indicates that you may meet a convoy of police vehicles.",
+  "explain": {
+   "short": "The panel only gives police contact details; it warns of nothing on the road.",
+   "rule": "The 'POLIZIA STRADALE' panel gives the town, address and phone numbers of the nearest traffic police office.",
+   "trap": "'colonna' (convoy, line of vehicles): the panel says nothing about it.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Info panel, not a police convoy",
+    "it": "polizia stradale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "incrociare",
+    "en": "to meet (coming the other way)"
+   },
+   {
+    "it": "colonna",
+    "en": "convoy / column"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21282": {
+  "en": "The sign shown indicates a stretch of road reserved for the police.",
+  "explain": {
+   "short": "The panel gives police contact details; it does not reserve the road for anyone.",
+   "rule": "The 'POLIZIA STRADALE' panel gives the town, address and phone numbers of the nearest traffic police office.",
+   "trap": "'riservato' (reserved): no reserved road is shown.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Info panel, not a police-only road",
+    "it": "polizia stradale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "tratto di strada",
+    "en": "stretch of road"
+   },
+   {
+    "it": "riservato",
+    "en": "reserved"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21283": {
+  "en": "The sign shown indicates a one-way road straight ahead ('frontal' one-way).",
+  "explain": {
+   "short": "The blue square with an arrow up tells you the road in front of you is one-way, in your direction.",
+   "rule": "The blue square with an up arrow ('senso unico frontale') says the road ahead is one-way in your direction. Because it is one-way, U-turns are forbidden.",
+   "trap": "'frontale' (in front): the one-way road is the one straight ahead.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Road ahead is one-way",
+    "it": "senso unico frontale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   },
+   {
+    "it": "frontale",
+    "en": "in front / ahead"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21284": {
+  "en": "The sign shown indicates that traffic on that stretch of road is one-way.",
+  "explain": {
+   "short": "On that stretch all vehicles travel in the same direction, the direction of the arrow.",
+   "rule": "The blue square with an up arrow ('senso unico frontale') says the road ahead is one-way in your direction. Because it is one-way, U-turns are forbidden.",
+   "trap": "'senso unico' (one-way): only one direction of travel.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "All traffic goes one way",
+    "it": "senso unico frontale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "circolazione",
+    "en": "traffic"
+   },
+   {
+    "it": "tratto di strada",
+    "en": "stretch of road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21285": {
+  "en": "The sign shown indicates that after it a U-turn is forbidden.",
+  "explain": {
+   "short": "On a one-way road, turning around would put you against the traffic, so U-turns are forbidden.",
+   "rule": "The blue square with an up arrow ('senso unico frontale') says the road ahead is one-way in your direction. Because it is one-way, U-turns are forbidden.",
+   "trap": "'inversione di marcia' (U-turn): not drawn on the sign, but it follows from one-way.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One-way: no U-turn after the sign",
+    "it": "senso unico frontale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "inversione di marcia",
+    "en": "U-turn"
+   },
+   {
+    "it": "è vietata",
+    "en": "is forbidden"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21286": {
+  "en": "The sign shown indicates the start of a one-way road.",
+  "explain": {
+   "short": "It is placed where the one-way road begins.",
+   "rule": "The blue square with an up arrow ('senso unico frontale') says the road ahead is one-way in your direction. Because it is one-way, U-turns are forbidden.",
+   "trap": "'inizio' (start): the sign stands at the beginning of the one-way road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Start of a one-way road",
+    "it": "senso unico frontale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "l'inizio",
+    "en": "the start"
+   },
+   {
+    "it": "strada a senso unico",
+    "en": "one-way road"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21287": {
+  "en": "The sign shown indicates the obligation to go straight on.",
+  "explain": {
+   "short": "It only informs you that the road is one-way. Compulsory straight ahead is a ROUND blue sign.",
+   "rule": "The blue square with an up arrow ('senso unico frontale') says the road ahead is one-way in your direction. Because it is one-way, U-turns are forbidden.",
+   "trap": "'obbligo' (obligation): a square sign informs, a round blue sign gives orders.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Square = information, not an order",
+    "it": "senso unico frontale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligo",
+    "en": "obligation"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "go straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21288": {
+  "en": "The sign shown indicates a ban on turning right or left.",
+  "explain": {
+   "short": "It only says the road ahead is one-way; it does not forbid turning where turns are allowed.",
+   "rule": "The blue square with an up arrow ('senso unico frontale') says the road ahead is one-way in your direction. Because it is one-way, U-turns are forbidden.",
+   "trap": "'divieto' (ban): this blue square bans no turn.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One-way ahead; turns are not banned",
+    "it": "senso unico frontale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "divieto",
+    "en": "ban"
+   },
+   {
+    "it": "svoltare",
+    "en": "to turn"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21289": {
+  "en": "The sign shown indicates that you must drive in only one lane.",
+  "explain": {
+   "short": "One-way does not mean one lane: a one-way road can have several lanes.",
+   "rule": "The blue square with an up arrow ('senso unico frontale') says the road ahead is one-way in your direction. Because it is one-way, U-turns are forbidden.",
+   "trap": "'una sola corsia' (only one lane): one-way is about direction, not lanes.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One direction, not one lane",
+    "it": "senso unico frontale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "una sola corsia",
+    "en": "only one lane"
+   },
+   {
+    "it": "circolare",
+    "en": "to drive / travel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21290": {
+  "en": "The sign shown indicates a narrowing of the carriageway.",
+  "explain": {
+   "short": "A narrowing is shown by a red triangle danger sign. This blue square means one-way.",
+   "rule": "The blue square with an up arrow ('senso unico frontale') says the road ahead is one-way in your direction. Because it is one-way, U-turns are forbidden.",
+   "trap": "'restringimento' (narrowing): danger signs are triangles, not blue squares.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One-way sign, not a narrowing",
+    "it": "senso unico frontale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "restringimento",
+    "en": "narrowing"
+   },
+   {
+    "it": "carreggiata",
+    "en": "carriageway"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21291": {
+  "en": "The sign shown indicates that traffic moves in parallel rows.",
+  "explain": {
+   "short": "Parallel rows happen in heavy traffic on roads with several lanes; this sign only says the road is one-way.",
+   "rule": "The blue square with an up arrow ('senso unico frontale') says the road ahead is one-way in your direction. Because it is one-way, U-turns are forbidden.",
+   "trap": "'file parallele' (parallel rows of vehicles): not what the arrow means.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One-way, not parallel rows",
+    "it": "senso unico frontale",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "file parallele",
+    "en": "parallel rows (of vehicles)"
+   },
+   {
+    "it": "si viaggia",
+    "en": "you travel"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21292": {
+  "en": "The sign shown indicates that the road it is placed on is one-way.",
+  "explain": {
+   "short": "The sign stands on the road it describes: that road runs one way only, in the arrow's direction.",
+   "rule": "The blue rectangle with an arrow ('senso unico parallelo') says the road it is on is one-way in the arrow's direction: no oncoming traffic, no U-turns.",
+   "trap": "'su cui è posto' (on which it is placed): the sign belongs to that road.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "This road is one-way, arrow's direction",
+    "it": "senso unico parallelo",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "su cui è posto",
+    "en": "on which it is placed"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21293": {
+  "en": "Sign A in the picture indicates that, turning left, the road is one-way.",
+  "explain": {
+   "short": "Sign A points left: the road to the left is one-way in that direction.",
+   "rule": "The blue rectangle with an arrow ('senso unico parallelo') says the road it is on is one-way in the arrow's direction: no oncoming traffic, no U-turns.",
+   "trap": "'svoltando a sinistra' (turning left): A's arrow points left.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Turn left: one-way road",
+    "it": "senso unico parallelo",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "svoltando a sinistra",
+    "en": "turning left"
+   },
+   {
+    "it": "senso unico",
+    "en": "one-way"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21294": {
+  "en": "The sign shown indicates that, turning in the arrow's direction, you do not meet vehicles coming from the opposite direction.",
+  "explain": {
+   "short": "The road is one-way in the arrow's direction, so nobody comes towards you.",
+   "rule": "The blue rectangle with an arrow ('senso unico parallelo') says the road it is on is one-way in the arrow's direction: no oncoming traffic, no U-turns.",
+   "trap": "'senso opposto' (opposite direction): on a one-way road there is none.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No oncoming traffic after the turn",
+    "it": "senso unico parallelo",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "nel senso della freccia",
+    "en": "in the arrow's direction"
+   },
+   {
+    "it": "senso opposto",
+    "en": "opposite direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21295": {
+  "en": "The sign shown indicates that, once you have turned in the arrow's direction, a U-turn is forbidden.",
+  "explain": {
+   "short": "On a one-way road, turning around would put you against the traffic, so U-turns are forbidden.",
+   "rule": "The blue rectangle with an arrow ('senso unico parallelo') says the road it is on is one-way in the arrow's direction: no oncoming traffic, no U-turns.",
+   "trap": "'inversione di marcia' (U-turn): not drawn, but it follows from one-way.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One-way: no U-turn after turning",
+    "it": "senso unico parallelo",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "inversione di marcia",
+    "en": "U-turn"
+   },
+   {
+    "it": "una volta svoltato",
+    "en": "once you have turned"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21296": {
+  "en": "The sign shown indicates that on the stretch of road where it is placed you must overtake on the right.",
+  "explain": {
+   "short": "The sign only gives the one-way direction; it never orders you to overtake on the right.",
+   "rule": "The blue rectangle with an arrow ('senso unico parallelo') says the road it is on is one-way in the arrow's direction: no oncoming traffic, no U-turns.",
+   "trap": "'si deve' (you must): no sign makes overtaking on the right compulsory.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Shows one-way, says nothing on overtaking",
+    "it": "senso unico parallelo",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "si deve",
+    "en": "you must"
+   },
+   {
+    "it": "sorpassare a destra",
+    "en": "overtake on the right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21297": {
+  "en": "Sign A in the picture indicates that it is compulsory to turn left.",
+  "explain": {
+   "short": "Sign A only tells you the road to the left is one-way; you are not forced to turn there.",
+   "rule": "The blue rectangle with an arrow ('senso unico parallelo') says the road it is on is one-way in the arrow's direction: no oncoming traffic, no U-turns.",
+   "trap": "'obbligatorio' (compulsory): compulsory turns use ROUND blue signs.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Info only: you may turn left, not must",
+    "it": "senso unico parallelo",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è obbligatorio",
+    "en": "it is compulsory"
+   },
+   {
+    "it": "svoltare a sinistra",
+    "en": "turn left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21298": {
+  "en": "The sign shown indicates that going straight on is forbidden.",
+  "explain": {
+   "short": "It only tells you the side road is one-way; it does not forbid going straight on.",
+   "rule": "The blue rectangle with an arrow ('senso unico parallelo') says the road it is on is one-way in the arrow's direction: no oncoming traffic, no U-turns.",
+   "trap": "'è vietato' (is forbidden): this blue sign forbids nothing.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Info only: straight on is not banned",
+    "it": "senso unico parallelo",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "è vietato",
+    "en": "is forbidden"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "go straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21299": {
+  "en": "The sign shown indicates that you must drive in parallel rows.",
+  "explain": {
+   "short": "The sign only shows a one-way direction; it says nothing about rows of traffic.",
+   "rule": "The blue rectangle with an arrow ('senso unico parallelo') says the road it is on is one-way in the arrow's direction: no oncoming traffic, no U-turns.",
+   "trap": "'file parallele' (parallel rows of vehicles): not what the arrow means.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One-way, not parallel rows",
+    "it": "senso unico parallelo",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "file parallele",
+    "en": "parallel rows (of vehicles)"
+   },
+   {
+    "it": "si deve marciare",
+    "en": "you must drive"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21300": {
+  "en": "The sign shown indicates that, turning in the arrow's direction, parking is allowed only on the left.",
+  "explain": {
+   "short": "The sign says nothing about parking. On one-way roads you may usually stop on both sides, unless a sign forbids it.",
+   "rule": "The blue rectangle with an arrow ('senso unico parallelo') says the road it is on is one-way in the arrow's direction: no oncoming traffic, no U-turns.",
+   "trap": "'solo a sinistra' (only on the left): 'solo' is the trap word.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Says nothing about parking sides",
+    "it": "senso unico parallelo",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "sosta",
+    "en": "parking"
+   },
+   {
+    "it": "solo a sinistra",
+    "en": "only on the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21301": {
+  "en": "The sign shown indicates a free car park in the arrow's direction.",
+  "explain": {
+   "short": "The arrow shows a one-way direction, not the way to a car park.",
+   "rule": "The blue rectangle with an arrow ('senso unico parallelo') says the road it is on is one-way in the arrow's direction: no oncoming traffic, no U-turns.",
+   "trap": "'parcheggio libero' (free car park): parking signs show a 'P'.",
+   "scene": "sign",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "One-way arrow, not a car park",
+    "it": "senso unico parallelo",
+    "action": "info"
+   }
+  },
+  "keywords": [
+   {
+    "it": "parcheggio libero",
+    "en": "free car park"
+   },
+   {
+    "it": "nel senso della freccia",
+    "en": "in the arrow's direction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}

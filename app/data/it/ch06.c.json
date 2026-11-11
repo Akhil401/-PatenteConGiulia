@@ -1,0 +1,702 @@
+{
+ "q20835": {
+  "short": "Le strisce gialle e nere sul bordo vogliono dire: nessun veicolo può sostare. Anche i taxi.",
+  "rule": "Bordo a strisce gialle e nere = nessun veicolo può sostare.",
+  "trap": "«anche ai taxi»: il divieto vale per tutti.",
+  "caption": "Divieto di sosta per tutti, anche taxi",
+  "lines": [
+   "Bordo giallo-nero: divieto di sosta",
+   "Anche per i taxi"
+  ]
+ },
+ "q20836": {
+  "short": "Questo bordo indica il divieto di sosta. Vale per tutti i veicoli.",
+  "rule": "Bordo a strisce gialle e nere = nessun veicolo può sostare.",
+  "trap": "«nessun veicolo» è giusto: qui nessuno può sostare.",
+  "caption": "Nessun veicolo può sostare qui",
+  "lines": [
+   "Bordo giallo-nero",
+   "Nessun veicolo può sostare"
+  ]
+ },
+ "q20837": {
+  "short": "Dove il bordo ha strisce gialle e nere, la sosta è vietata in quel tratto.",
+  "rule": "Bordo a strisce gialle e nere = nessun veicolo può sostare.",
+  "trap": "«lungo quel tratto»: il divieto vale dove il bordo è dipinto.",
+  "caption": "Divieto di sosta dove il bordo è dipinto",
+  "lines": [
+   "Bordo giallo-nero",
+   "Niente sosta lungo il tratto"
+  ]
+ },
+ "q20838": {
+  "short": "Questo bordo vuol dire divieto di sosta. La sosta a pagamento ha strisce blu.",
+  "rule": "Bordo a strisce gialle e nere = nessun veicolo può sostare.",
+  "trap": "«solo a pagamento» è sbagliato: qui non si sosta neanche pagando.",
+  "caption": "Non sosta a pagamento: divieto di sosta",
+  "lines": [
+   "Bordo giallo-nero: divieto di sosta",
+   "Non è sosta a pagamento"
+  ]
+ },
+ "q20839": {
+  "short": "Questo bordo vuol dire divieto di sosta. Non c'è un tempo massimo.",
+  "rule": "Bordo a strisce gialle e nere = nessun veicolo può sostare.",
+  "trap": "«solo per un'ora» è sbagliato: qui non si sosta per niente.",
+  "caption": "Nessun limite di tempo: sosta vietata",
+  "lines": [
+   "Bordo giallo-nero: divieto di sosta",
+   "Nessuna sosta di un'ora"
+  ]
+ },
+ "q20840": {
+  "short": "Questo bordo vuol dire solo divieto di sosta. I lavori hanno segnali di pericolo.",
+  "rule": "Bordo a strisce gialle e nere = nessun veicolo può sostare.",
+  "trap": "«lavori in corso» non c'entra con questo bordo.",
+  "caption": "Non lavori: divieto di sosta",
+  "lines": [
+   "Bordo giallo-nero: divieto di sosta",
+   "Non indica lavori"
+  ]
+ },
+ "q20841": {
+  "short": "Questo bordo vuol dire solo divieto di sosta. La precedenza si indica con un segnale verticale.",
+  "rule": "Bordo a strisce gialle e nere = nessun veicolo può sostare.",
+  "trap": "«diritto di precedenza» è sbagliato: il bordo non parla di precedenza.",
+  "caption": "Non strada con precedenza: divieto di sosta",
+  "lines": [
+   "Bordo giallo-nero: divieto di sosta",
+   "Niente sulla precedenza"
+  ]
+ },
+ "q20842": {
+  "short": "Il giallo si usa per le zone riservate. La scritta gialla BUS indica dove si fermano gli autobus.",
+  "rule": "Le scritte sulla strada completano solo i segnali: BUS, TAXI (gialli), STOP, P L, località.",
+  "trap": "«di colore giallo» è giusto: le zone riservate hanno segni gialli.",
+  "caption": "BUS giallo: zona della fermata",
+  "lines": [
+   "BUS giallo sulla strada",
+   "Fermata bus: lasciare libera"
+  ]
+ },
+ "q20843": {
+  "short": "Le zone per i taxi sono riservate, quindi hanno la scritta TAXI gialla.",
+  "rule": "Le scritte sulla strada completano solo i segnali: BUS, TAXI (gialli), STOP, P L, località.",
+  "trap": "«di colore giallo» è la chiave: le zone riservate sono gialle.",
+  "caption": "TAXI giallo: sosta solo per taxi",
+  "lines": [
+   "TAXI giallo sulla strada",
+   "Riservato ai taxi"
+  ]
+ },
+ "q20844": {
+  "short": "La scritta STOP sulla strada aiuta il segnale di STOP. Sta prima della striscia di arresto.",
+  "rule": "Le scritte sulla strada completano solo i segnali: BUS, TAXI (gialli), STOP, P L, località.",
+  "trap": "«a completamento»: la scritta aiuta il segnale, non lo sostituisce.",
+  "caption": "STOP sulla strada completa il segnale",
+  "lines": [
+   "Segnale STOP sul palo",
+   "Scritta STOP sulla strada"
+  ]
+ },
+ "q20845": {
+  "short": "Prima di un passaggio a livello sulla strada può esserci P L con la croce di S. Andrea (una X).",
+  "rule": "Le scritte sulla strada completano solo i segnali: BUS, TAXI (gialli), STOP, P L, località.",
+  "trap": "«P L» vuol dire «passaggio a livello».",
+  "caption": "P L e croce: passaggio a livello vicino",
+  "lines": [
+   "P L con una X sulla strada",
+   "Passaggio a livello vicino"
+  ]
+ },
+ "q20846": {
+  "short": "Queste strisce bianche di traverso sono sempre più vicine. Ti fanno sentire veloce e rallenti.",
+  "rule": "Le scritte sulla strada completano solo i segnali: BUS, TAXI (gialli), STOP, P L, località.",
+  "trap": "«moderare la velocità» è proprio quello che chiedono.",
+  "caption": "Strisce di traverso: rallenta",
+  "lines": [
+   "Strisce bianche di traverso",
+   "Sempre più vicine: rallenta"
+  ]
+ },
+ "q20847": {
+  "short": "Il nome di una località può stare vicino a una freccia. Indica la corsia per quella località.",
+  "rule": "Le scritte sulla strada completano solo i segnali: BUS, TAXI (gialli), STOP, P L, località.",
+  "trap": "«a completamento della freccia»: il nome aiuta a scegliere la corsia.",
+  "caption": "Località e freccia: scegli la corsia",
+  "lines": [
+   "Freccia nella corsia",
+   "Nome della località: corsia giusta"
+  ]
+ },
+ "q20848": {
+  "short": "La scritta STOP va solo con il segnale di STOP. Con DARE PRECEDENZA ci sono linea tratteggiata e triangoli.",
+  "rule": "Le scritte sulla strada completano solo i segnali: BUS, TAXI (gialli), STOP, P L, località.",
+  "trap": "«DARE PRECEDENZA» è il segnale sbagliato: è diverso dallo STOP.",
+  "caption": "STOP va con STOP, non con dare precedenza",
+  "lines": [
+   "Scritta STOP: solo con lo STOP",
+   "Dare precedenza: tratteggio e triangoli"
+  ]
+ },
+ "q20849": {
+  "short": "Le scritte sulla strada completano solo i segnali ufficiali. Non indicano le stazioni di servizio.",
+  "rule": "Le scritte sulla strada completano solo i segnali: BUS, TAXI (gialli), STOP, P L, località.",
+  "trap": "«stazione di servizio» non è una scritta permessa.",
+  "caption": "Niente scritte per le stazioni di servizio",
+  "lines": [
+   "Scritte: aiutano i segnali",
+   "Stazione di servizio: no"
+  ]
+ },
+ "q20850": {
+  "short": "La pubblicità sulla strada non è mai permessa. Distrae chi guida.",
+  "rule": "Le scritte sulla strada completano solo i segnali: BUS, TAXI (gialli), STOP, P L, località.",
+  "trap": "«pubblicitaria» rende falsa la frase: niente pubblicità sulla strada.",
+  "caption": "Niente pubblicità sulla strada",
+  "lines": [
+   "Niente pubblicità sulla strada",
+   "Distrae chi guida"
+  ]
+ },
+ "q20851": {
+  "short": "Le scritte sulla strada servono solo per il traffico. I messaggi per i ciclisti non sono segnali.",
+  "rule": "Le scritte sulla strada completano solo i segnali: BUS, TAXI (gialli), STOP, P L, località.",
+  "trap": "«incoraggiamento» non è un messaggio per il traffico.",
+  "caption": "Niente messaggi di incoraggiamento",
+  "lines": [
+   "Scritte: solo per il traffico",
+   "Incoraggiare ciclisti: no"
+  ]
+ },
+ "q20852": {
+  "short": "Le zone per i taxi sono riservate e le zone riservate sono gialle. TAXI bianco è sbagliato.",
+  "rule": "Le scritte sulla strada completano solo i segnali: BUS, TAXI (gialli), STOP, P L, località.",
+  "trap": "«di colore bianco» è il trucco: TAXI deve essere giallo.",
+  "caption": "TAXI deve essere giallo, non bianco",
+  "lines": [
+   "Zone riservate: giallo",
+   "TAXI bianco: sbagliato"
+  ]
+ },
+ "q20853": {
+  "short": "GIOCHI non è una scritta permessa. Per i bambini c'è il segnale verticale di pericolo.",
+  "rule": "Le scritte sulla strada completano solo i segnali: BUS, TAXI (gialli), STOP, P L, località.",
+  "trap": "«GIOCHI» non è tra le scritte permesse.",
+  "caption": "GIOCHI non è una scritta permessa",
+  "lines": [
+   "GIOCHI sulla strada: no",
+   "Si usa il segnale BAMBINI"
+  ]
+ },
+ "q20854": {
+  "short": "La striscia tratteggiata divide due corsie nello stesso senso. Si può superare per sorpassare.",
+  "rule": "Senso unico, striscia tratteggiata: due corsie nello stesso senso; si supera per sorpassare, anche in curva.",
+  "trap": "«superando la striscia di mezzo» va bene: è tratteggiata.",
+  "caption": "Striscia tratteggiata: la superi per sorpassare",
+  "lines": [
+   "Senso unico: 2 corsie, stesso senso",
+   "Tratteggiata: si può superare"
+  ]
+ },
+ "q20855": {
+  "short": "Su un senso unico a due corsie nessuno arriva di fronte. Quindi puoi sorpassare in curva.",
+  "rule": "Senso unico, striscia tratteggiata: due corsie nello stesso senso; si supera per sorpassare, anche in curva.",
+  "trap": "«anche in curva» sembra sbagliato, ma sul senso unico è permesso.",
+  "caption": "Senso unico, 2 corsie: sorpasso anche in curva",
+  "lines": [
+   "Nessuno di fronte",
+   "Sorpasso in curva: permesso"
+  ]
+ },
+ "q20856": {
+  "short": "La striscia tratteggiata al centro divide la carreggiata in due corsie nello stesso senso.",
+  "rule": "Senso unico, striscia tratteggiata: due corsie nello stesso senso; si supera per sorpassare, anche in curva.",
+  "trap": "«due corsie»: una striscia al centro fa due corsie.",
+  "caption": "Una striscia tratteggiata = due corsie",
+  "lines": [
+   "Carreggiata con tratteggio",
+   "= 2 corsie"
+  ]
+ },
+ "q20857": {
+  "short": "Di solito guidi nella corsia di destra. La corsia di sinistra, di norma, serve per sorpassare.",
+  "rule": "Senso unico, striscia tratteggiata: due corsie nello stesso senso; si supera per sorpassare, anche in curva.",
+  "trap": "«di norma» la rende vera: è l'uso normale, con eccezioni come la svolta a sinistra.",
+  "caption": "Guida a destra, sorpassa a sinistra",
+  "lines": [
+   "Marcia normale: corsia destra",
+   "Sorpasso: corsia sinistra"
+  ]
+ },
+ "q20858": {
+  "short": "Vicino a un dosso non vedi avanti, ma sul senso unico nessuno arriva di fronte. Il sorpasso è permesso.",
+  "rule": "Senso unico, striscia tratteggiata: due corsie nello stesso senso; si supera per sorpassare, anche in curva.",
+  "trap": "«dossi» di solito vietano il sorpasso, ma non sul senso unico a due corsie.",
+  "caption": "Senso unico, 2 corsie: sorpasso anche ai dossi",
+  "lines": [
+   "Nessuno di fronte",
+   "Sorpasso al dosso: permesso"
+  ]
+ },
+ "q20859": {
+  "short": "Le file parallele sono permesse solo con traffico intenso. Di solito stai nella corsia di destra.",
+  "rule": "Senso unico, striscia tratteggiata: due corsie nello stesso senso; si supera per sorpassare, anche in curva.",
+  "trap": "«sempre» è il trucco: le file parallele non sono sempre permesse.",
+  "caption": "File parallele solo con traffico intenso",
+  "lines": [
+   "Di solito: corsia destra",
+   "File parallele: solo traffico intenso"
+  ]
+ },
+ "q20860": {
+  "short": "Con l'inversione su un senso unico andresti contro il traffico. È vietata.",
+  "rule": "Senso unico, striscia tratteggiata: due corsie nello stesso senso; si supera per sorpassare, anche in curva.",
+  "trap": "«inversione del senso di marcia» non è mai permessa sul senso unico.",
+  "caption": "Niente inversione sul senso unico",
+  "lines": [
+   "Strada a senso unico",
+   "Inversione: vietata"
+  ]
+ },
+ "q20861": {
+  "short": "Devi guidare dentro una corsia. Stare a cavallo della striscia non è mai permesso.",
+  "rule": "Senso unico, striscia tratteggiata: due corsie nello stesso senso; si supera per sorpassare, anche in curva.",
+  "trap": "«a cavallo» è vietato su ogni striscia, tratteggiata o continua.",
+  "caption": "Mai a cavallo della striscia",
+  "lines": [
+   "Stai nella tua corsia",
+   "A cavallo della striscia: no"
+  ]
+ },
+ "q20862": {
+  "short": "Sul senso unico per svoltare a sinistra usi la corsia di sinistra.",
+  "rule": "Senso unico, striscia tratteggiata: due corsie nello stesso senso; si supera per sorpassare, anche in curva.",
+  "trap": "«rimanere nella corsia di destra» è sbagliato per svoltare a sinistra.",
+  "caption": "Svolta a sinistra: vai nella corsia sinistra",
+  "lines": [
+   "Svolta a sinistra: corsia sinistra",
+   "Non la corsia destra"
+  ]
+ },
+ "q20863": {
+  "short": "Le zebre sono un attraversamento pedonale dappertutto: in città e fuori.",
+  "rule": "Zebre bianche = attraversamento pedonale, i pedoni hanno la precedenza.",
+  "trap": "«sia dentro che fuori» è giusto: le zebre si usano ovunque.",
+  "caption": "Zebre: in città e fuori",
+  "lines": [
+   "Strisce bianche (zebre)",
+   "Dentro e fuori i centri abitati"
+  ]
+ },
+ "q20864": {
+  "short": "Un attraversamento pedonale può stare dove i pedoni attraversano, anche nei piccoli centri.",
+  "rule": "Zebre bianche = attraversamento pedonale, i pedoni hanno la precedenza.",
+  "trap": "«anche nei piccoli centri» è giusto: non c'è un limite.",
+  "caption": "Zebre anche nei piccoli centri",
+  "lines": [
+   "Strisce bianche (zebre)",
+   "Centri grandi e piccoli"
+  ]
+ },
+ "q20865": {
+  "short": "Le strisce bianche larghe (zebre) indicano un attraversamento pedonale.",
+  "rule": "Zebre bianche = attraversamento pedonale, i pedoni hanno la precedenza.",
+  "trap": "«attraversamento pedonale» è il nome giusto.",
+  "caption": "Zebre = attraversamento pedonale",
+  "lines": [
+   "Strisce bianche (zebre)",
+   "= attraversamento pedonale"
+  ]
+ },
+ "q20866": {
+  "short": "Sulle zebre attraversano le persone a piedi.",
+  "rule": "Zebre bianche = attraversamento pedonale, i pedoni hanno la precedenza.",
+  "trap": "«per pedoni» vuol dire la stessa cosa di «pedonale».",
+  "caption": "Zebre: attraversamento per pedoni",
+  "lines": [
+   "Strisce bianche (zebre)",
+   "Qui attraversano i pedoni"
+  ]
+ },
+ "q20867": {
+  "short": "Sulle zebre i pedoni passano prima. Chi guida deve dare la precedenza.",
+  "rule": "Zebre bianche = attraversamento pedonale, i pedoni hanno la precedenza.",
+  "trap": "«hanno la precedenza» è giusto: prima i pedoni.",
+  "caption": "Sulle zebre passano prima i pedoni",
+  "lines": [
+   "Attraversamento pedonale",
+   "Prima i pedoni"
+  ]
+ },
+ "q20868": {
+  "short": "L'isola di traffico è una zona dove non si passa. Le zebre sono un attraversamento.",
+  "rule": "Zebre bianche = attraversamento pedonale, i pedoni hanno la precedenza.",
+  "trap": "«isola di traffico» è un altro segno (strisce oblique con bordo).",
+  "caption": "Non è un'isola: è un attraversamento",
+  "lines": [
+   "Zebre: attraversamento",
+   "Non isola di traffico"
+  ]
+ },
+ "q20869": {
+  "short": "L'attraversamento ciclabile ha due linee a quadretti, non le zebre.",
+  "rule": "Zebre bianche = attraversamento pedonale, i pedoni hanno la precedenza.",
+  "trap": "«per ciclisti» è sbagliato: le zebre sono per i pedoni.",
+  "caption": "Zebre per i pedoni, non per i ciclisti",
+  "lines": [
+   "Zebre: pedoni",
+   "Ciclisti: linee a quadretti"
+  ]
+ },
+ "q20870": {
+  "short": "L'attraversamento ciclabile ha due linee di quadretti bianchi. Le zebre sono per i pedoni.",
+  "rule": "Zebre bianche = attraversamento pedonale, i pedoni hanno la precedenza.",
+  "trap": "«ciclabile» è sbagliato per le zebre.",
+  "caption": "Non ciclabile: attraversamento pedonale",
+  "lines": [
+   "Zebre: pedoni",
+   "Ciclabile: linee a quadretti"
+  ]
+ },
+ "q20871": {
+  "short": "Il passo carrabile (ingresso per veicoli) ha un segnale verticale, non le zebre.",
+  "rule": "Zebre bianche = attraversamento pedonale, i pedoni hanno la precedenza.",
+  "trap": "«passo carrabile» non c'entra con le zebre.",
+  "caption": "Non passo carrabile: attraversamento pedonale",
+  "lines": [
+   "Zebre: attraversamento pedonale",
+   "Non passo carrabile"
+  ]
+ },
+ "q20872": {
+  "short": "Al semaforo la striscia continua di traverso indica dove ti fermi con il rosso.",
+  "rule": "Striscia trasversale continua = arresto per lo STOP o il semaforo rosso.",
+  "trap": "«semaforo»: la striscia di arresto si usa anche lì, non solo con lo STOP.",
+  "caption": "Striscia di arresto: anche al semaforo",
+  "lines": [
+   "Striscia continua di traverso",
+   "Si usa anche al semaforo"
+  ]
+ },
+ "q20873": {
+  "short": "Prima della striscia di arresto può esserci la scritta STOP sulla strada.",
+  "rule": "Striscia trasversale continua = arresto per lo STOP o il semaforo rosso.",
+  "trap": "«scritta STOP» va bene con la striscia di arresto, non con quella di dare precedenza.",
+  "caption": "Striscia di arresto e scritta STOP",
+  "lines": [
+   "Striscia di arresto continua",
+   "Prima, la scritta STOP"
+  ]
+ },
+ "q20874": {
+  "short": "Con il segnale STOP ti fermi del tutto a questa striscia continua, poi dai la precedenza.",
+  "rule": "Striscia trasversale continua = arresto per lo STOP o il semaforo rosso.",
+  "trap": "«FERMARSI E DARE PRECEDENZA» è il nome dello STOP, che ha la striscia continua.",
+  "caption": "STOP: fermati alla striscia continua",
+  "lines": [
+   "Segnale STOP",
+   "Fermati alla striscia continua"
+  ]
+ },
+ "q20875": {
+  "short": "Con il rosso ti fermi prima di questa striscia continua.",
+  "rule": "Striscia trasversale continua = arresto per lo STOP o il semaforo rosso.",
+  "trap": "«luce rossa»: la striscia ti dice dove fermarti.",
+  "caption": "Rosso: fermati prima della striscia",
+  "lines": [
+   "Semaforo rosso",
+   "Fermati prima della striscia"
+  ]
+ },
+ "q20876": {
+  "short": "Una striscia bianca continua di traverso sulla corsia si chiama striscia di arresto.",
+  "rule": "Striscia trasversale continua = arresto per lo STOP o il semaforo rosso.",
+  "trap": "«striscia trasversale di arresto» è il nome giusto.",
+  "caption": "Striscia continua di traverso = arresto",
+  "lines": [
+   "Striscia continua di traverso",
+   "= striscia di arresto"
+  ]
+ },
+ "q20877": {
+  "short": "Con DARE PRECEDENZA la striscia di traverso è tratteggiata. Quella continua va con STOP o semaforo.",
+  "rule": "Striscia trasversale continua = arresto per lo STOP o il semaforo rosso.",
+  "trap": "«DARE PRECEDENZA» ha la striscia tratteggiata, quindi è sbagliato.",
+  "caption": "Dare precedenza: tratteggiata; continua: STOP",
+  "lines": [
+   "Dare precedenza: tratteggiata",
+   "Continua: STOP o semaforo rosso"
+  ]
+ },
+ "q20878": {
+  "short": "L'attraversamento pedonale ha le zebre. Una sola striscia continua è la striscia di arresto.",
+  "rule": "Striscia trasversale continua = arresto per lo STOP o il semaforo rosso.",
+  "trap": "«attraversamento pedonale» ha le zebre, non una sola striscia.",
+  "caption": "Una striscia è arresto, non zebre",
+  "lines": [
+   "Una striscia continua: arresto",
+   "Zebre: attraversamento pedonale"
+  ]
+ },
+ "q20879": {
+  "short": "L'attraversamento ciclabile ha due linee di quadretti. Questa striscia continua è di arresto.",
+  "rule": "Striscia trasversale continua = arresto per lo STOP o il semaforo rosso.",
+  "trap": "«attraversamento ciclabile» è un segno diverso.",
+  "caption": "Non ciclabile: striscia di arresto",
+  "lines": [
+   "Continua: striscia di arresto",
+   "Ciclabile: linee a quadretti"
+  ]
+ },
+ "q20880": {
+  "short": "Ti fermi alla striscia, poi la superi quando puoi: dopo la precedenza o con il verde.",
+  "rule": "Striscia trasversale continua = arresto per lo STOP o il semaforo rosso.",
+  "trap": "«non può mai» è il trucco: ti fermi, ma poi riparti.",
+  "caption": "Fermati alla striscia, poi riparti",
+  "lines": [
+   "Fermati alla striscia",
+   "Poi superala quando è libero"
+  ]
+ },
+ "q20881": {
+  "short": "La striscia di traverso dice dove fermarti all'incrocio. Non parla di sosta.",
+  "rule": "Striscia trasversale continua = arresto per lo STOP o il semaforo rosso.",
+  "trap": "«divieto di sosta» non c'entra con la striscia di arresto.",
+  "caption": "La striscia di arresto non è divieto di sosta",
+  "lines": [
+   "Striscia di traverso: fermati qui",
+   "Niente sulla sosta"
+  ]
+ },
+ "q20882": {
+  "short": "La striscia di mezzo è tratteggiata: la puoi superare per sorpassare se l'altra corsia è libera.",
+  "rule": "Doppio senso, striscia tratteggiata: la superi per sorpassare se è sicuro; mai a cavallo.",
+  "trap": "«superando la striscia di mezzo» va bene: è tratteggiata.",
+  "caption": "Tratteggiata: la superi per sorpassare",
+  "lines": [
+   "Doppio senso, tratteggiata",
+   "Superala per sorpassare se libero"
+  ]
+ },
+ "q20883": {
+  "short": "Devi guidare dentro la tua corsia. Stare a cavallo della striscia di mezzo è vietato.",
+  "rule": "Doppio senso, striscia tratteggiata: la superi per sorpassare se è sicuro; mai a cavallo.",
+  "trap": "«non si può» la rende vera: a cavallo non si sta mai.",
+  "caption": "Mai a cavallo della striscia di mezzo",
+  "lines": [
+   "Stai nella tua corsia",
+   "A cavallo: vietato"
+  ]
+ },
+ "q20884": {
+  "short": "Prima di svoltare a sinistra ti avvicini alla striscia di mezzo, restando nella tua corsia.",
+  "rule": "Doppio senso, striscia tratteggiata: la superi per sorpassare se è sicuro; mai a cavallo.",
+  "trap": "«verso il centro» è giusto per svoltare a sinistra sul doppio senso.",
+  "caption": "Svolta a sinistra: vicino al centro",
+  "lines": [
+   "Svolta a sinistra, doppio senso",
+   "Spostati verso il centro"
+  ]
+ },
+ "q20885": {
+  "short": "Con la striscia tratteggiata sorpassi solo se vedi bene e la strada è libera.",
+  "rule": "Doppio senso, striscia tratteggiata: la superi per sorpassare se è sicuro; mai a cavallo.",
+  "trap": "«qualsiasi condizione» è il trucco: la sicurezza conta sempre.",
+  "caption": "Sorpasso solo con buona vista e strada libera",
+  "lines": [
+   "Tratteggiata: sorpasso possibile",
+   "Solo se vedi bene ed è libero"
+  ]
+ },
+ "q20886": {
+  "short": "Su un doppio senso con una corsia per senso non si sorpassa in curva, in città e fuori.",
+  "rule": "Doppio senso, striscia tratteggiata: la superi per sorpassare se è sicuro; mai a cavallo.",
+  "trap": "«ma solo in città» è inventato: il divieto vale dappertutto.",
+  "caption": "Niente sorpasso in curva, anche in città",
+  "lines": [
+   "Una corsia per senso",
+   "Curva: niente sorpasso"
+  ]
+ },
+ "q20887": {
+  "short": "Con una corsia per senso, l'inversione usa sempre l'altra corsia. La fai solo se è libera.",
+  "rule": "Doppio senso, striscia tratteggiata: la superi per sorpassare se è sicuro; mai a cavallo.",
+  "trap": "«senza occupare l'altra corsia» qui è impossibile.",
+  "caption": "L'inversione usa sempre l'altra corsia",
+  "lines": [
+   "Una corsia per senso",
+   "L'inversione usa l'altra corsia"
+  ]
+ },
+ "q20888": {
+  "short": "Sul doppio senso la corsia di sinistra è per chi arriva di fronte. Per un'emergenza ti fermi a destra.",
+  "rule": "Doppio senso, striscia tratteggiata: la superi per sorpassare se è sicuro; mai a cavallo.",
+  "trap": "«sosta d'emergenza» nella corsia di sinistra è sbagliato e pericoloso.",
+  "caption": "Sinistra = traffico di fronte, non emergenze",
+  "lines": [
+   "Corsia sinistra: chi arriva di fronte",
+   "Emergenza: fermati a destra"
+  ]
+ },
+ "q20889": {
+  "short": "La striscia di mezzo è tratteggiata dove si può sorpassare, continua dove è pericoloso.",
+  "rule": "Striscia di mezzo tratteggiata: si supera. Continua (singola o doppia): mai.",
+  "trap": "«può essere»: esistono tutti e due i tipi.",
+  "caption": "Striscia di mezzo: continua o tratteggiata",
+  "lines": [
+   "Tratteggiata: si supera",
+   "Continua: mai"
+  ]
+ },
+ "q20890": {
+  "short": "La striscia di mezzo tratteggiata si può superare per sorpassare, se la strada è libera.",
+  "rule": "Striscia di mezzo tratteggiata: si supera. Continua (singola o doppia): mai.",
+  "trap": "«se discontinua» è la chiave: solo la tratteggiata si supera.",
+  "caption": "Tratteggiata: la superi per sorpassare",
+  "lines": [
+   "Striscia di mezzo tratteggiata",
+   "Si supera per sorpassare"
+  ]
+ },
+ "q20891": {
+  "short": "La doppia striscia continua al centro esiste. Separa meglio i due sensi di marcia.",
+  "rule": "Striscia di mezzo tratteggiata: si supera. Continua (singola o doppia): mai.",
+  "trap": "«due strisce continue affiancate» è un segno vero.",
+  "caption": "La doppia striscia continua esiste",
+  "lines": [
+   "Due strisce continue al centro",
+   "Non si superano mai"
+  ]
+ },
+ "q20892": {
+  "short": "Le strisce continue non si superano. Ma puoi sorpassare restando nella tua corsia, per esempio una bici.",
+  "rule": "Striscia di mezzo tratteggiata: si supera. Continua (singola o doppia): mai.",
+  "trap": "«senza superare le linee» è la chiave: sorpassi solo dentro la tua corsia.",
+  "caption": "Sorpassa solo restando nella tua corsia",
+  "lines": [
+   "Doppia continua: mai superarla",
+   "Sorpasso nella tua corsia: sì"
+  ]
+ },
+ "q20893": {
+  "short": "Le strisce al centro separano chi va in un senso da chi va nell'altro.",
+  "rule": "Striscia di mezzo tratteggiata: si supera. Continua (singola o doppia): mai.",
+  "trap": "«dividono i sensi di marcia» è proprio il loro compito.",
+  "caption": "Le strisce di mezzo dividono i sensi",
+  "lines": [
+   "Strisce al centro",
+   "Un senso per lato"
+  ]
+ },
+ "q20894": {
+  "short": "La striscia di mezzo in figura è continua. Non si supera, neanche con le ruote di sinistra.",
+  "rule": "Striscia di mezzo tratteggiata: si supera. Continua (singola o doppia): mai.",
+  "trap": "«con le sole ruote di sinistra» vuol dire comunque superarla.",
+  "caption": "Continua: neanche con le ruote di sinistra",
+  "lines": [
+   "Striscia di mezzo continua",
+   "Neanche le ruote di sinistra"
+  ]
+ },
+ "q20895": {
+  "short": "La figura è una carreggiata con una corsia per senso. La striscia divide corsie, non carreggiate.",
+  "rule": "Striscia di mezzo tratteggiata: si supera. Continua (singola o doppia): mai.",
+  "trap": "«due carreggiate, ognuna a due corsie» è sbagliato: è una carreggiata con due corsie.",
+  "caption": "Una carreggiata, una corsia per senso",
+  "lines": [
+   "Una sola carreggiata",
+   "Tratteggiata: 2 corsie in tutto"
+  ]
+ },
+ "q20896": {
+  "short": "Le zebre possono avere vicino il segnale quadrato blu ATTRAVERSAMENTO PEDONALE.",
+  "rule": "Alle zebre ti fermi e dai precedenza ai pedoni che attraversano o stanno per farlo.",
+  "trap": "«può essere completata»: il segnale verticale si aggiunge alle zebre.",
+  "caption": "Zebre e segnale blu ATTRAVERSAMENTO PEDONALE",
+  "lines": [
+   "Zebre sulla strada",
+   "Segnale blu vicino"
+  ]
+ },
+ "q20897": {
+  "short": "Se ci sono pedoni sulle zebre, devi fermarti e lasciarli passare.",
+  "rule": "Alle zebre ti fermi e dai precedenza ai pedoni che attraversano o stanno per farlo.",
+  "trap": "«obbliga ad arrestarsi» è giusto quando i pedoni attraversano.",
+  "caption": "Pedoni che attraversano: fermati",
+  "lines": [
+   "Pedoni sulle zebre",
+   "Fermati e lasciali passare"
+  ]
+ },
+ "q20898": {
+  "short": "La figura mostra uno zig zag giallo a destra prima delle zebre. È permesso e indica lo spazio da lasciare libero.",
+  "rule": "Alle zebre ti fermi e dai precedenza ai pedoni che attraversano o stanno per farlo.",
+  "trap": "«striscia gialla a zig zag» può davvero esserci prima di un attraversamento.",
+  "caption": "Zig zag giallo a destra prima delle zebre",
+  "lines": [
+   "Zig zag giallo a destra",
+   "Poi le zebre"
+  ]
+ },
+ "q20899": {
+  "short": "Fuori città si va più veloci. Sulle extraurbane secondarie un segnale di pericolo deve avvisare prima.",
+  "rule": "Alle zebre ti fermi e dai precedenza ai pedoni che attraversano o stanno per farlo.",
+  "trap": "«deve essere preceduta»: fuori città il segnale di pericolo è obbligatorio.",
+  "caption": "Fuori città: segnale di pericolo prima delle zebre",
+  "lines": [
+   "Extraurbana: velocità alta",
+   "Segnale di pericolo prima"
+  ]
+ },
+ "q20900": {
+  "short": "Devi dare la precedenza anche ai pedoni che stanno per salire sulle zebre, non solo a chi attraversa.",
+  "rule": "Alle zebre ti fermi e dai precedenza ai pedoni che attraversano o stanno per farlo.",
+  "trap": "«si accingono ad attraversare» conta anche: non solo chi è già sulle zebre.",
+  "caption": "Precedenza anche a chi sta per attraversare",
+  "lines": [
+   "Pedone che aspetta sul bordo",
+   "Fermati e fallo passare"
+  ]
+ },
+ "q20901": {
+  "short": "L'isola di rifugio è una zona sicura in mezzo alla strada. Le zebre sono un attraversamento.",
+  "rule": "Alle zebre ti fermi e dai precedenza ai pedoni che attraversano o stanno per farlo.",
+  "trap": "«isola di rifugio» è una cosa diversa dall'attraversamento.",
+  "caption": "Zebre: attraversamento, non isola",
+  "lines": [
+   "Zebre: attraversamento pedonale",
+   "Non isola di rifugio"
+  ]
+ },
+ "q20902": {
+  "short": "I veicoli passano sulle zebre. Devono solo dare la precedenza ai pedoni.",
+  "rule": "Alle zebre ti fermi e dai precedenza ai pedoni che attraversano o stanno per farlo.",
+  "trap": "«non consente ai veicoli» è sbagliato: i veicoli passano se è libero.",
+  "caption": "I veicoli passano sulle zebre se libere",
+  "lines": [
+   "Zebre libere: i veicoli passano",
+   "Pedoni: dai la precedenza"
+  ]
+ },
+ "q20903": {
+  "short": "Le zebre sono per tutti i pedoni, non solo per le persone disabili.",
+  "rule": "Alle zebre ti fermi e dai precedenza ai pedoni che attraversano o stanno per farlo.",
+  "trap": "«ai soli pedoni disabili» è il trucco: sono per tutti i pedoni.",
+  "caption": "Zebre per tutti i pedoni",
+  "lines": [
+   "Attraversamento pedonale",
+   "Per tutti i pedoni"
+  ]
+ },
+ "q20904": {
+  "short": "Le zebre servono proprio ai pedoni per attraversare.",
+  "rule": "Alle zebre ti fermi e dai precedenza ai pedoni che attraversano o stanno per farlo.",
+  "trap": "«non consente il transito ai pedoni» è il contrario della verità.",
+  "caption": "Le zebre servono ai pedoni",
+  "lines": [
+   "Attraversamento pedonale",
+   "Qui passano i pedoni"
+  ]
+ }
+}

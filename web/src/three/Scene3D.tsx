@@ -167,7 +167,7 @@ function CameraRig({ scene, actors, world, clock }: { scene: Scene; actors: Acto
       // rule scenes: a slow crane around the place the rule is about
       const f = world.to3(180, (scene.world3d.focusY as number) ?? 180)
       const a = -.75 + (t / d) * 1.1
-      const r = world.wide ? 27 : 22, h = world.wide ? 15 : 11
+      const r = (scene.world3d.orbitR as number) ?? (world.wide ? 27 : 22), h = (scene.world3d.orbitH as number) ?? (world.wide ? 15 : 11)
       pos = f.clone().add(new THREE.Vector3(Math.sin(a) * r, h - (t / d) * 2.5, Math.cos(a) * r)); look = f.clone().add(new THREE.Vector3(0, -3.2, 0))
     } else if (cam === 'fly') {
       // starts as a top view, turned like the official drawing (road left-right), then flies down to a 3/4 view

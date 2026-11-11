@@ -1,0 +1,1991 @@
+{
+ "q20970": {
+  "en": "When the traffic light is red, vehicles must stop.",
+  "explain": {
+   "short": "Red means stop: every vehicle waits until green.",
+   "rule": "Red (rosso) = stop before the stop line and wait for green. No turning, no moving off, even if the junction looks empty.",
+   "trap": "'devono arrestarsi' (must stop) is exactly what red means.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red light: every vehicle stops",
+    "it": "luce rossa",
+    "lines": [
+     "Red = stop",
+     "Wait for green"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce semaforica rossa",
+    "en": "red traffic light"
+   },
+   {
+    "it": "devono arrestarsi",
+    "en": "must stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20971": {
+  "en": "In vertical traffic lights the red light is at the top; in horizontal ones it is on the left.",
+  "explain": {
+   "short": "Red has a fixed place: top in a vertical light, left in a horizontal one. This helps you recognise it.",
+   "rule": "Red (rosso) = stop before the stop line and wait for green. No turning, no moving off, even if the junction looks empty.",
+   "trap": "Both parts are right: 'in alto' (top) for vertical, 'a sinistra' (left) for horizontal.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red: top (vertical), left (horizontal)",
+    "it": "luce rossa",
+    "lines": [
+     "Vertical light: red at the top",
+     "Horizontal light: red on the left"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in verticale",
+    "en": "vertically"
+   },
+   {
+    "it": "in alto",
+    "en": "at the top"
+   },
+   {
+    "it": "in orizzontale",
+    "en": "horizontally"
+   },
+   {
+    "it": "a sinistra",
+    "en": "on the left"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20972": {
+  "en": "In a traffic light the red light can be bigger than the others.",
+  "explain": {
+   "short": "Red can be made bigger so drivers see it better. It is allowed.",
+   "rule": "Red (rosso) = stop before the stop line and wait for green. No turning, no moving off, even if the junction looks empty.",
+   "trap": "'può' (can) only says it is possible, not that it is always bigger.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red may be bigger than the other lights",
+    "it": "luce rossa",
+    "lines": [
+     "Red can be bigger",
+     "So you see it better"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "può essere",
+    "en": "can be"
+   },
+   {
+    "it": "dimensioni più grandi",
+    "en": "bigger size"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20973": {
+  "en": "When the red light is on, you must stop before the stop line.",
+  "explain": {
+   "short": "With red you stop before the white stop line across your lane, not in the junction.",
+   "rule": "Red (rosso) = stop before the stop line and wait for green. No turning, no moving off, even if the junction looks empty.",
+   "trap": "'prima della striscia' (before the line): do not stop on it or after it.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Stop BEFORE the stop line",
+    "it": "striscia di arresto",
+    "lines": [
+     "Red = stop",
+     "Stay before the stop line"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "bisogna arrestarsi",
+    "en": "you must stop"
+   },
+   {
+    "it": "striscia trasversale d'arresto",
+    "en": "stop line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20974": {
+  "en": "While the red light is on, vehicles must not cross the stop line.",
+  "explain": {
+   "short": "For all the time red is on, the stop line is the limit: you wait behind it.",
+   "rule": "Red (rosso) = stop before the stop line and wait for green. No turning, no moving off, even if the junction looks empty.",
+   "trap": "'Durante il periodo' (during the whole time): until green comes.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red: do not cross the stop line",
+    "it": "luce rossa",
+    "lines": [
+     "Red = wait behind the line",
+     "Go only with green"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non devono superare",
+    "en": "must not cross"
+   },
+   {
+    "it": "striscia di arresto",
+    "en": "stop line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20975": {
+  "en": "A red traffic light lets you turn right with care, giving way to pedestrians crossing the road.",
+  "explain": {
+   "short": "In Italy red means stop for every direction. There is no right turn on red.",
+   "rule": "Red (rosso) = stop before the stop line and wait for green. No turning, no moving off, even if the junction looks empty.",
+   "trap": "'consente di svoltare a destra' (lets you turn right) is the trap: that is a rule from other countries, not Italy.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "No right turn on red in Italy",
+    "it": "luce rossa",
+    "lines": [
+     "Red = stop for all directions",
+     "No right turn on red"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente di svoltare a destra",
+    "en": "lets you turn right"
+   },
+   {
+    "it": "con prudenza",
+    "en": "with care"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20976": {
+  "en": "A red traffic light lets you move off slowly when the others get yellow.",
+  "explain": {
+   "short": "Your light is still red: you wait for YOUR green. The other lights do not concern you.",
+   "rule": "Red (rosso) = stop before the stop line and wait for green. No turning, no moving off, even if the junction looks empty.",
+   "trap": "'quando appare il giallo per gli altri' (when others get yellow): only your own light counts.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Wait for your own green",
+    "it": "luce rossa",
+    "lines": [
+     "Your light red = stay stopped",
+     "Ignore other drivers' yellow"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ripartire lentamente",
+    "en": "move off slowly"
+   },
+   {
+    "it": "per gli altri veicoli",
+    "en": "for the other vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20977": {
+  "en": "A red traffic light lets you enter the junction very carefully, as long as there are no other vehicles or pedestrians.",
+  "explain": {
+   "short": "Red is a stop even when the junction is empty. Care does not make it legal.",
+   "rule": "Red (rosso) = stop before the stop line and wait for green. No turning, no moving off, even if the junction looks empty.",
+   "trap": "'a condizione che non ci siano altri veicoli' (provided nobody is there) does not change red.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red = stop, even if the junction is empty",
+    "it": "luce rossa",
+    "lines": [
+     "Red = stop",
+     "Empty junction: still stop"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "impegnare l'incrocio",
+    "en": "enter the junction"
+   },
+   {
+    "it": "con molta prudenza",
+    "en": "very carefully"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20978": {
+  "en": "A red traffic light lets you cross the junction, as long as it is clear.",
+  "explain": {
+   "short": "Red means stop, even if the junction is free. Wait for green.",
+   "rule": "Red (rosso) = stop before the stop line and wait for green. No turning, no moving off, even if the junction looks empty.",
+   "trap": "'purché sia libero' (as long as it is clear) is the trap: red does not depend on traffic.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red = stop, even if the road is clear",
+    "it": "luce rossa",
+    "lines": [
+     "Red = stop",
+     "Clear junction: still wait"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "consente l'attraversamento dell'incrocio",
+    "en": "lets you cross the junction"
+   },
+   {
+    "it": "purché sia libero",
+    "en": "as long as it is clear"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20979": {
+  "en": "A red traffic light obliges you to hurry to clear the junction quickly.",
+  "explain": {
+   "short": "Red means stop and wait, not hurry. The steady yellow is the light that asks you to clear the junction.",
+   "rule": "Red (rosso) = stop before the stop line and wait for green. No turning, no moving off, even if the junction looks empty.",
+   "trap": "'obbliga ad affrettarsi' (obliges you to hurry): red asks you to stop, not to rush.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red = stop and wait, not hurry",
+    "it": "luce rossa",
+    "lines": [
+     "Red = stop and wait",
+     "Never rush on red"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga ad affrettarsi",
+    "en": "obliges you to hurry"
+   },
+   {
+    "it": "liberare velocemente l'incrocio",
+    "en": "clear the junction quickly"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20980": {
+  "en": "When the green light shown is on, you may turn left, giving way to vehicles coming from the front.",
+  "explain": {
+   "short": "Green lets you turn left. Oncoming vehicles going straight or right pass first.",
+   "rule": "Green (verde) = you may go straight, right or left, with care. Turning left, give way to oncoming traffic; enter only if you can clear the junction.",
+   "trap": "'dando la precedenza' (giving way) is right: turning left you let oncoming traffic go first.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green: turn left, give way to oncoming cars",
+    "it": "luce verde",
+    "lines": [
+     "Green = you may turn left",
+     "Give way to oncoming cars"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "svoltare a sinistra",
+    "en": "turn left"
+   },
+   {
+    "it": "dando la precedenza",
+    "en": "giving way"
+   },
+   {
+    "it": "arrivano di fronte",
+    "en": "come from the front"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20981": {
+  "en": "When the green light shown is on, you may turn right.",
+  "explain": {
+   "short": "A normal green light is valid for every direction, so you may turn right.",
+   "rule": "Green (verde) = you may go straight, right or left, with care. Turning left, give way to oncoming traffic; enter only if you can clear the junction.",
+   "trap": "'si può' (you may): it is allowed, not compulsory.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green: you may turn right",
+    "it": "luce verde",
+    "lines": [
+     "Green = all directions",
+     "You may turn right"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce verde",
+    "en": "green light"
+   },
+   {
+    "it": "svoltare a destra",
+    "en": "turn right"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20982": {
+  "en": "When the green light shown is on, you may go straight on.",
+  "explain": {
+   "short": "Green lets you go in every direction, straight on included.",
+   "rule": "Green (verde) = you may go straight, right or left, with care. Turning left, give way to oncoming traffic; enter only if you can clear the junction.",
+   "trap": "'si può' (you may) is correct: going straight is allowed.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green: you may go straight on",
+    "it": "luce verde",
+    "lines": [
+     "Green = all directions",
+     "You may go straight on"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce verde",
+    "en": "green light"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "go straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20983": {
+  "en": "When the green light shown is on, you may enter the junction only if you are sure you can clear it before the red light comes on.",
+  "explain": {
+   "short": "Do not block the junction: enter on green only if there is room to leave it before red.",
+   "rule": "Green (verde) = you may go straight, right or left, with care. Turning left, give way to oncoming traffic; enter only if you can clear the junction.",
+   "trap": "'soltanto' (only) is right here: entering a junction you cannot leave is not allowed.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Enter only if you can get out before red",
+    "it": "luce verde",
+    "lines": [
+     "Green = you may go",
+     "Only if you can clear the junction"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "impegnare l'incrocio",
+    "en": "enter the junction"
+   },
+   {
+    "it": "certezza di poterlo sgomberare",
+    "en": "being sure you can clear it"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20984": {
+  "en": "When the green light shown is on, you may cross the junction, using care.",
+  "explain": {
+   "short": "Green allows you to go, but you still drive with care: others may make mistakes.",
+   "rule": "Green (verde) = you may go straight, right or left, with care. Turning left, give way to oncoming traffic; enter only if you can clear the junction.",
+   "trap": "'usando prudenza' (using care) is correct: green is not a free pass.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green: go, but with care",
+    "it": "luce verde",
+    "lines": [
+     "Green = you may go",
+     "Always with care"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "attraversare l'incrocio",
+    "en": "cross the junction"
+   },
+   {
+    "it": "usando prudenza",
+    "en": "using care"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20985": {
+  "en": "Approaching a traffic light that has been green for a long time, you must go on with care, ready to stop if the yellow comes on before you have entered the junction.",
+  "explain": {
+   "short": "A green that has been on a long time will soon turn yellow. Be ready to stop at yellow.",
+   "rule": "Green (verde) = you may go straight, right or left, with care. Turning left, give way to oncoming traffic; enter only if you can clear the junction.",
+   "trap": "'pronti eventualmente a fermarsi' (ready to stop if needed) is the correct attitude.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Old green: be ready to stop",
+    "it": "luce verde",
+    "lines": [
+     "Long green = yellow soon",
+     "Be ready to stop"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "già da molto tempo",
+    "en": "for a long time already"
+   },
+   {
+    "it": "pronti eventualmente a fermarsi",
+    "en": "ready to stop if needed"
+   },
+   {
+    "it": "luce gialla",
+    "en": "yellow light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20986": {
+  "en": "Approaching a traffic light that has been green for a long time, you must speed up, with no need to look at the light.",
+  "explain": {
+   "short": "A long green may soon turn yellow: slow down a little and watch the light, never speed up blindly.",
+   "rule": "Green (verde) = you may go straight, right or left, with care. Turning left, give way to oncoming traffic; enter only if you can clear the junction.",
+   "trap": "'occorre accelerare' (you must speed up) and 'senza... guardare' (without looking) are both wrong.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Old green: watch the light, do not speed up",
+    "it": "luce verde",
+    "lines": [
+     "Long green = yellow soon",
+     "Watch the light, do not rush"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "occorre accelerare",
+    "en": "you must speed up"
+   },
+   {
+    "it": "senza che vi sia necessità di guardare",
+    "en": "with no need to look"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20987": {
+  "en": "When the green light shown is on, you may turn left, but only when the yellow comes on as well.",
+  "explain": {
+   "short": "Green alone already lets you turn left. Green and yellow are never on together.",
+   "rule": "Green (verde) = you may go straight, right or left, with care. Turning left, give way to oncoming traffic; enter only if you can clear the junction.",
+   "trap": "'ma solo quando si accende anche la luce gialla' (only when yellow is also on) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green alone: you may turn left",
+    "it": "luce verde",
+    "lines": [
+     "Green = left turn allowed",
+     "Green and yellow never together"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "svoltare a sinistra",
+    "en": "turn left"
+   },
+   {
+    "it": "ma solo quando",
+    "en": "but only when"
+   },
+   {
+    "it": "luce gialla",
+    "en": "yellow light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20988": {
+  "en": "When the green light shown is on, the driver turning left has priority over vehicles coming from the front.",
+  "explain": {
+   "short": "It is the opposite: turning left on green, you give way to oncoming vehicles.",
+   "rule": "Green (verde) = you may go straight, right or left, with care. Turning left, give way to oncoming traffic; enter only if you can clear the junction.",
+   "trap": "'ha la precedenza' (has priority) is wrong: the left-turner gives way.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Turning left: oncoming cars go first",
+    "it": "precedenza",
+    "lines": [
+     "Green = you may turn left",
+     "Oncoming cars go first"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "svolta a sinistra",
+    "en": "turns left"
+   },
+   {
+    "it": "ha la precedenza",
+    "en": "has priority"
+   },
+   {
+    "it": "provengono di fronte",
+    "en": "come from the front"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20989": {
+  "en": "When the green light shown is on, you may turn only if the carriageway is divided into lanes.",
+  "explain": {
+   "short": "Green lets you turn on any road, with or without lanes.",
+   "rule": "Green (verde) = you may go straight, right or left, with care. Turning left, give way to oncoming traffic; enter only if you can clear the junction.",
+   "trap": "'solo se' (only if) adds a condition that does not exist.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green: turning allowed on any road",
+    "it": "luce verde",
+    "lines": [
+     "Green = all directions",
+     "Lanes do not matter"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "si può svoltare",
+    "en": "you may turn"
+   },
+   {
+    "it": "solo se",
+    "en": "only if"
+   },
+   {
+    "it": "divisa in corsie",
+    "en": "divided into lanes"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20990": {
+  "en": "When the green light shown is on, you must go straight on.",
+  "explain": {
+   "short": "A normal green allows every direction. It does not force you to go straight.",
+   "rule": "Green (verde) = you may go straight, right or left, with care. Turning left, give way to oncoming traffic; enter only if you can clear the junction.",
+   "trap": "'si deve' (you must) is the trap: green allows, it does not oblige.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green: you may also turn",
+    "it": "luce verde",
+    "lines": [
+     "Green = all directions",
+     "Straight on is not compulsory"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "si deve",
+    "en": "you must"
+   },
+   {
+    "it": "proseguire diritto",
+    "en": "go straight on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20991": {
+  "en": "When the green light shown is on, you may go straight on, but you must give way to pedestrians.",
+  "explain": {
+   "short": "Going straight on green, the pedestrians crossing in front of you have red, so you do not give way to them.",
+   "rule": "Green (verde) = you may go straight, right or left, with care. Turning left, give way to oncoming traffic; enter only if you can clear the junction.",
+   "trap": "'dando però la precedenza ai pedoni' (but giving way to pedestrians) is wrong when you go straight.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Straight on green: pedestrians in front have red",
+    "it": "luce verde",
+    "lines": [
+     "Green = you may go straight",
+     "Pedestrians ahead have red"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "proseguire diritto",
+    "en": "go straight on"
+   },
+   {
+    "it": "dando però la precedenza ai pedoni",
+    "en": "but giving way to pedestrians"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20992": {
+  "en": "In the traffic lights shown, lit green arrows show the directions in which you may go.",
+  "explain": {
+   "short": "Each green arrow opens only its own direction: you may go where it points.",
+   "rule": "Arrow lights work only for the arrow's direction: green = go, red = do not go, steady yellow = clear or stop safely, flashing yellow = extra care.",
+   "trap": "'verso le quali si può proseguire' (in which you may go) is the right meaning.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green arrow: you may go that way",
+    "it": "frecce",
+    "lines": [
+     "Green arrow = go that way",
+     "Only the arrow's direction"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "frecce verdi",
+    "en": "green arrows"
+   },
+   {
+    "it": "si può proseguire",
+    "en": "you may go on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20993": {
+  "en": "In the traffic lights shown, lit red arrows mean you may not go in the directions shown.",
+  "explain": {
+   "short": "A red arrow is a red light for that direction only.",
+   "rule": "Arrow lights work only for the arrow's direction: green = go, red = do not go, steady yellow = clear or stop safely, flashing yellow = extra care.",
+   "trap": "'non si può proseguire' (you may not go) is right: red arrow = stop for that way.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red arrow: do not go that way",
+    "it": "frecce",
+    "lines": [
+     "Red arrow = stop for that way",
+     "Wait for the green arrow"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "frecce rosse",
+    "en": "red arrows"
+   },
+   {
+    "it": "non si può proseguire",
+    "en": "you may not go on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20994": {
+  "en": "In the traffic lights shown, steady yellow arrows mean: clear the junction if you are already in it, or stop safely.",
+  "explain": {
+   "short": "A steady yellow arrow works like a steady yellow light, for that direction only.",
+   "rule": "Arrow lights work only for the arrow's direction: green = go, red = do not go, steady yellow = clear or stop safely, flashing yellow = extra care.",
+   "trap": "Both parts are correct: 'liberare l'incrocio' (clear the junction) or 'arrestarsi' (stop) safely.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow arrow: clear or stop safely",
+    "it": "frecce gialle",
+    "lines": [
+     "In the junction: clear it",
+     "Not yet in: stop if safe"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "frecce gialle fisse",
+    "en": "steady yellow arrows"
+   },
+   {
+    "it": "liberare l'incrocio",
+    "en": "clear the junction"
+   },
+   {
+    "it": "arrestarsi in condizioni di sicurezza",
+    "en": "stop safely"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20995": {
+  "en": "In the traffic light shown, flashing yellow arrows mean you cross the junction with special care.",
+  "explain": {
+   "short": "A flashing yellow arrow is a warning: you may go that way, but carefully.",
+   "rule": "Arrow lights work only for the arrow's direction: green = go, red = do not go, steady yellow = clear or stop safely, flashing yellow = extra care.",
+   "trap": "'lampeggianti' (flashing) is different from steady: flashing = go with care.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Flashing yellow arrow: go with extra care",
+    "it": "lampeggiante",
+    "lines": [
+     "Flashing yellow = warning",
+     "Cross with extra care"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "frecce gialle lampeggianti",
+    "en": "flashing yellow arrows"
+   },
+   {
+    "it": "particolare prudenza",
+    "en": "special care"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20996": {
+  "en": "In the traffic light shown, lit green arrows pointing up mean you may go in all directions.",
+  "explain": {
+   "short": "An arrow pointing up means straight on only. Turning needs its own arrow.",
+   "rule": "Arrow lights work only for the arrow's direction: green = go, red = do not go, steady yellow = clear or stop safely, flashing yellow = extra care.",
+   "trap": "'in tutte le direzioni' (in all directions) is wrong: up = straight only.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Arrow up = straight on only",
+    "it": "frecce verdi",
+    "lines": [
+     "Arrow up = straight on",
+     "Not right or left"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "rivolte verso l'alto",
+    "en": "pointing up"
+   },
+   {
+    "it": "in tutte le direzioni",
+    "en": "in all directions"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20997": {
+  "en": "In the traffic light shown, lit red arrows mean you go on with care.",
+  "explain": {
+   "short": "A red arrow means stop for that direction, not go with care.",
+   "rule": "Arrow lights work only for the arrow's direction: green = go, red = do not go, steady yellow = clear or stop safely, flashing yellow = extra care.",
+   "trap": "'proseguire con prudenza' (go on with care) is the meaning of flashing yellow, not red.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Red arrow = stop for that way",
+    "it": "frecce rosse",
+    "lines": [
+     "Red arrow = stop",
+     "Wait for the green arrow"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "frecce rosse",
+    "en": "red arrows"
+   },
+   {
+    "it": "proseguire con prudenza",
+    "en": "go on with care"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20998": {
+  "en": "The steady yellow light comes on as soon as the green goes off.",
+  "explain": {
+   "short": "The order is green, then yellow, then red. Yellow follows green straight away.",
+   "rule": "Steady yellow (gialla fissa) comes alone, between green and red: stop if you can do it safely; if you are already in the junction, clear it.",
+   "trap": "'appena si spegne il verde' (as soon as green goes off) is the correct order.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Green off, then yellow on",
+    "it": "gialla fissa",
+    "lines": [
+     "Green",
+     "then yellow",
+     "then red"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce gialla fissa",
+    "en": "steady yellow light"
+   },
+   {
+    "it": "appena si spegne il verde",
+    "en": "as soon as green goes off"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q20999": {
+  "en": "The steady yellow light goes off before the red comes on.",
+  "explain": {
+   "short": "Yellow and red are never on together: yellow ends, then red starts.",
+   "rule": "Steady yellow (gialla fissa) comes alone, between green and red: stop if you can do it safely; if you are already in the junction, clear it.",
+   "trap": "'prima che si accenda il rosso' (before red comes on) is right.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow off, then red on",
+    "it": "gialla fissa",
+    "lines": [
+     "Yellow alone",
+     "Then red"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "si spegne",
+    "en": "goes off"
+   },
+   {
+    "it": "prima che si accenda il rosso",
+    "en": "before red comes on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21000": {
+  "en": "The steady yellow light obliges anyone already in the junction to clear it as soon as possible.",
+  "explain": {
+   "short": "If yellow comes when you are already in the junction, leave it quickly so it is free for the others.",
+   "rule": "Steady yellow (gialla fissa) comes alone, between green and red: stop if you can do it safely; if you are already in the junction, clear it.",
+   "trap": "'chi ha già impegnato l'incrocio' (who is already in the junction) is the key case.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Already in the junction: clear it",
+    "it": "gialla fissa",
+    "lines": [
+     "Yellow + already in = clear it",
+     "Do not stop in the middle"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "già impegnato l'incrocio",
+    "en": "already entered the junction"
+   },
+   {
+    "it": "liberarlo al più presto",
+    "en": "clear it as soon as possible"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21001": {
+  "en": "The steady yellow light obliges you to stop before the stop point, as long as you can do it without creating danger.",
+  "explain": {
+   "short": "At yellow you must stop if it is safe. If you are too close and braking is dangerous, you go on.",
+   "rule": "Steady yellow (gialla fissa) comes alone, between green and red: stop if you can do it safely; if you are already in the junction, clear it.",
+   "trap": "'purché lo si possa fare senza creare pericolo' (if safe) is the important condition.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow: stop if you can do it safely",
+    "it": "gialla fissa",
+    "lines": [
+     "Yellow = stop if safe",
+     "Too close: go on carefully"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbliga a fermarsi",
+    "en": "obliges you to stop"
+   },
+   {
+    "it": "senza creare pericolo",
+    "en": "without creating danger"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21002": {
+  "en": "The steady yellow light comes on when green and red are off.",
+  "explain": {
+   "short": "Yellow is always on alone: green has just gone off and red is not on yet.",
+   "rule": "Steady yellow (gialla fissa) comes alone, between green and red: stop if you can do it safely; if you are already in the junction, clear it.",
+   "trap": "'sono spenti' (are off): no other light is on with steady yellow.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Steady yellow is always alone",
+    "it": "gialla fissa",
+    "lines": [
+     "Green off",
+     "Yellow alone",
+     "Red not yet on"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "si accende",
+    "en": "comes on"
+   },
+   {
+    "it": "il verde e il rosso sono spenti",
+    "en": "green and red are off"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21003": {
+  "en": "The steady yellow light always lets you go on into the junction.",
+  "explain": {
+   "short": "Yellow means stop if you can do it safely. You go on only if you are too close to stop.",
+   "rule": "Steady yellow (gialla fissa) comes alone, between green and red: stop if you can do it safely; if you are already in the junction, clear it.",
+   "trap": "'in ogni caso' (in every case) is the trap: going on is only for when stopping is unsafe.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow: not a free pass",
+    "it": "gialla fissa",
+    "lines": [
+     "Yellow = stop if safe",
+     "Go on only if too close"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in ogni caso",
+    "en": "in every case"
+   },
+   {
+    "it": "impegnando l'incrocio",
+    "en": "entering the junction"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21004": {
+  "en": "The steady yellow light obliges the driver to go back if he has already passed the stop line.",
+  "explain": {
+   "short": "If you are past the line, you clear the junction. Going back would be dangerous.",
+   "rule": "Steady yellow (gialla fissa) comes alone, between green and red: stop if you can do it safely; if you are already in the junction, clear it.",
+   "trap": "'tornare indietro' (go back) is never what yellow asks.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Past the line: clear the junction",
+    "it": "gialla fissa",
+    "lines": [
+     "Past the line = go on and clear",
+     "Never reverse"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "tornare indietro",
+    "en": "go back"
+   },
+   {
+    "it": "già superato",
+    "en": "already passed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21005": {
+  "en": "The steady yellow light obliges us to stop in every case, without entering the junction.",
+  "explain": {
+   "short": "You stop at yellow only if you can do it safely. If you are too close, you go on.",
+   "rule": "Steady yellow (gialla fissa) comes alone, between green and red: stop if you can do it safely; if you are already in the junction, clear it.",
+   "trap": "'in ogni caso' (in every case) is wrong: stopping must be safe.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow: stop only if it is safe",
+    "it": "gialla fissa",
+    "lines": [
+     "Yellow = stop if safe",
+     "Too close: go on carefully"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "ad arrestarci",
+    "en": "to stop"
+   },
+   {
+    "it": "in ogni caso",
+    "en": "in every case"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21006": {
+  "en": "The steady yellow light comes on while the red is still on.",
+  "explain": {
+   "short": "In Italy yellow comes after green, never together with red.",
+   "rule": "Steady yellow (gialla fissa) comes alone, between green and red: stop if you can do it safely; if you are already in the junction, clear it.",
+   "trap": "'quando è ancora accesa quella rossa' (while red is still on) is wrong.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow comes after green, not with red",
+    "it": "gialla fissa",
+    "lines": [
+     "Green",
+     "then yellow alone",
+     "then red"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "si accende",
+    "en": "comes on"
+   },
+   {
+    "it": "ancora accesa quella rossa",
+    "en": "red still on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21007": {
+  "en": "The steady yellow light goes off together with the green.",
+  "explain": {
+   "short": "Yellow comes on when green goes off, and goes off when red comes on.",
+   "rule": "Steady yellow (gialla fissa) comes alone, between green and red: stop if you can do it safely; if you are already in the junction, clear it.",
+   "trap": "'insieme con il verde' (together with green) is wrong: they are never on together.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow follows green",
+    "it": "gialla fissa",
+    "lines": [
+     "Green off, yellow on",
+     "Yellow off, red on"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "si spegne",
+    "en": "goes off"
+   },
+   {
+    "it": "insieme con il verde",
+    "en": "together with green"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21008": {
+  "en": "The steady yellow light comes on together with the red.",
+  "explain": {
+   "short": "Yellow is on alone, between green and red. It is never lit together with red.",
+   "rule": "Steady yellow (gialla fissa) comes alone, between green and red: stop if you can do it safely; if you are already in the junction, clear it.",
+   "trap": "'insieme con il rosso' (together with red) is wrong.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Yellow is never on with red",
+    "it": "gialla fissa",
+    "lines": [
+     "Yellow alone",
+     "Then red"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "si accende",
+    "en": "comes on"
+   },
+   {
+    "it": "insieme con il rosso",
+    "en": "together with red"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21009": {
+  "en": "You can find the flashing yellow light when the other lights are off.",
+  "explain": {
+   "short": "Some traffic lights only flash yellow, for example at night, while red and green stay off.",
+   "rule": "Flashing yellow (gialla lampeggiante) = general danger: slow down and go with extra care. You do not have to stop.",
+   "trap": "'quando le altre sono spente' (when the others are off) is right: it flashes alone.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Flashing yellow: others off",
+    "it": "lampeggiante",
+    "lines": [
+     "Red and green off",
+     "Yellow flashes = go with care"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce gialla lampeggiante",
+    "en": "flashing yellow light"
+   },
+   {
+    "it": "le altre sono spente",
+    "en": "the others are off"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21010": {
+  "en": "The round flashing yellow light (type A in the picture) is a general danger signal.",
+  "explain": {
+   "short": "Light A flashes yellow to warn of a danger in general: slow down and take care.",
+   "rule": "Flashing yellow (gialla lampeggiante) = general danger: slow down and go with extra care. You do not have to stop.",
+   "trap": "'pericolo generico' (general danger) is exactly its meaning.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Flashing yellow = general danger",
+    "it": "pericolo",
+    "lines": [
+     "A: flashing yellow",
+     "= general danger"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "gialla lampeggiante",
+    "en": "flashing yellow"
+   },
+   {
+    "it": "segnale di pericolo generico",
+    "en": "general danger signal"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21011": {
+  "en": "The round flashing yellow light (type A in the picture) asks you to reduce speed.",
+  "explain": {
+   "short": "It warns of danger, so you slow down.",
+   "rule": "Flashing yellow (gialla lampeggiante) = general danger: slow down and go with extra care. You do not have to stop.",
+   "trap": "'invita a moderare la velocità' (asks you to slow down) is right.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Flashing yellow: slow down",
+    "it": "rallentare",
+    "lines": [
+     "A: flashing yellow",
+     "Slow down"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "gialla lampeggiante",
+    "en": "flashing yellow"
+   },
+   {
+    "it": "moderare la velocità",
+    "en": "reduce speed"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21012": {
+  "en": "The round flashing yellow light (type A in the picture) asks you to go on with special care.",
+  "explain": {
+   "short": "Flashing yellow does not stop you: you go on, but very carefully.",
+   "rule": "Flashing yellow (gialla lampeggiante) = general danger: slow down and go with extra care. You do not have to stop.",
+   "trap": "'procedere' (go on) is right: you go, you do not have to stop.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Flashing yellow: go with extra care",
+    "it": "prudenza",
+    "lines": [
+     "A: flashing yellow",
+     "Go on with extra care"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "gialla lampeggiante",
+    "en": "flashing yellow"
+   },
+   {
+    "it": "particolare prudenza",
+    "en": "special care"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21013": {
+  "en": "In a traffic light, the flashing yellow light always makes you stop before the junction.",
+  "explain": {
+   "short": "Flashing yellow means care, not stop. You stop only if the priority rules require it.",
+   "rule": "Flashing yellow (gialla lampeggiante) = general danger: slow down and go with extra care. You do not have to stop.",
+   "trap": "'impone l'arresto sempre' (always makes you stop) is wrong.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Flashing yellow: no compulsory stop",
+    "it": "lampeggiante",
+    "lines": [
+     "Flashing yellow = care",
+     "No compulsory stop"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "gialla lampeggiante",
+    "en": "flashing yellow"
+   },
+   {
+    "it": "impone l'arresto sempre",
+    "en": "always makes you stop"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21014": {
+  "en": "The round flashing yellow light (type A in the picture) can be placed before a movable bridge.",
+  "explain": {
+   "short": "Before a movable bridge you find two flashing RED lights, not a flashing yellow.",
+   "rule": "Flashing yellow (gialla lampeggiante) = general danger: slow down and go with extra care. You do not have to stop.",
+   "trap": "'ponte mobile' (movable bridge) belongs to the flashing red lights.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Movable bridge: flashing RED lights",
+    "it": "ponte mobile",
+    "lines": [
+     "A = general danger",
+     "Movable bridge = flashing red"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "può essere posta",
+    "en": "can be placed"
+   },
+   {
+    "it": "ponte mobile",
+    "en": "movable bridge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21015": {
+  "en": "The round flashing yellow light (type A in the picture) can be placed before a ferry boarding pier.",
+  "explain": {
+   "short": "At the entrance of a ferry pier you find flashing RED lights, not a flashing yellow.",
+   "rule": "Flashing yellow (gialla lampeggiante) = general danger: slow down and go with extra care. You do not have to stop.",
+   "trap": "'pontile d'imbarco' (ferry pier) belongs to the flashing red lights.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Ferry pier: flashing RED lights",
+    "it": "pontile",
+    "lines": [
+     "A = general danger",
+     "Ferry pier = flashing red"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "può essere posta",
+    "en": "can be placed"
+   },
+   {
+    "it": "pontile d'imbarco",
+    "en": "boarding pier"
+   },
+   {
+    "it": "navi traghetto",
+    "en": "ferries"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21016": {
+  "en": "The flashing yellow light together with the red light shown indicates danger.",
+  "explain": {
+   "short": "Flashing yellow is never on together with red. When yellow flashes, the other lights are off.",
+   "rule": "Flashing yellow (gialla lampeggiante) = general danger: slow down and go with extra care. You do not have to stop.",
+   "trap": "'insieme a quella rossa' (together with red) is the trap.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Flashing yellow is never on with red",
+    "it": "lampeggiante",
+    "lines": [
+     "Flashing yellow: others off",
+     "Never together with red"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "gialla lampeggiante",
+    "en": "flashing yellow"
+   },
+   {
+    "it": "insieme a quella rossa",
+    "en": "together with the red one"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21017": {
+  "en": "The flashing red lights shown oblige you to stop at a railway level crossing without barriers.",
+  "explain": {
+   "short": "At a level crossing without barriers, these red lights flash when a train is coming: you must stop.",
+   "rule": "Flashing red lights = stop before the stop line. Used at level crossings without full barriers, movable bridges and ferry piers.",
+   "trap": "'senza barriere' (without barriers) is one of the places where these lights are used.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Level crossing, no barriers: stop",
+    "it": "passaggio a livello",
+    "lines": [
+     "Flashing red = stop",
+     "Train is coming"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligano ad arrestarsi",
+    "en": "oblige you to stop"
+   },
+   {
+    "it": "passaggio a livello",
+    "en": "level crossing"
+   },
+   {
+    "it": "senza barriere",
+    "en": "without barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21018": {
+  "en": "The flashing red lights shown oblige you to stop at a railway level crossing with half-barriers.",
+  "explain": {
+   "short": "Level crossings with half-barriers also have these flashing red lights: you must stop.",
+   "rule": "Flashing red lights = stop before the stop line. Used at level crossings without full barriers, movable bridges and ferry piers.",
+   "trap": "'semibarriere' (half-barriers) is also correct: they close only half the road.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Level crossing, half-barriers: stop",
+    "it": "semibarriere",
+    "lines": [
+     "Flashing red = stop",
+     "Half-barriers coming down"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligano ad arrestarsi",
+    "en": "oblige you to stop"
+   },
+   {
+    "it": "con semibarriere",
+    "en": "with half-barriers"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21019": {
+  "en": "The flashing red lights shown oblige you to stop at the entrance of a ferry boarding pier.",
+  "explain": {
+   "short": "Ferry piers use these flashing red lights to stop traffic when boarding is closed.",
+   "rule": "Flashing red lights = stop before the stop line. Used at level crossings without full barriers, movable bridges and ferry piers.",
+   "trap": "'pontile d'imbarco' (boarding pier) is a correct place for these lights.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Ferry pier: stop at flashing red",
+    "it": "pontile",
+    "lines": [
+     "Flashing red = stop",
+     "Ferry pier entrance"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligano ad arrestarsi",
+    "en": "oblige you to stop"
+   },
+   {
+    "it": "pontile d'imbarco",
+    "en": "boarding pier"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21020": {
+  "en": "The flashing red lights shown oblige you to stop at the entrance of a movable bridge.",
+  "explain": {
+   "short": "When a movable bridge opens, these red lights flash and you must stop.",
+   "rule": "Flashing red lights = stop before the stop line. Used at level crossings without full barriers, movable bridges and ferry piers.",
+   "trap": "'ponte mobile' (movable bridge) is a correct place for these lights.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Movable bridge: stop at flashing red",
+    "it": "ponte mobile",
+    "lines": [
+     "Flashing red = stop",
+     "The bridge is opening"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligano ad arrestarsi",
+    "en": "oblige you to stop"
+   },
+   {
+    "it": "ponte mobile",
+    "en": "movable bridge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21021": {
+  "en": "The flashing red lights shown oblige you not to cross the stop line.",
+  "explain": {
+   "short": "Like a normal red, these lights mean you stay before the stop line.",
+   "rule": "Flashing red lights = stop before the stop line. Used at level crossings without full barriers, movable bridges and ferry piers.",
+   "trap": "'non superare' (not cross) is right: stop before the line.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Flashing red: stay before the line",
+    "it": "striscia di arresto",
+    "lines": [
+     "Flashing red = stop",
+     "Stay before the stop line"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "non superare",
+    "en": "not cross"
+   },
+   {
+    "it": "striscia trasversale d'arresto",
+    "en": "stop line"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21022": {
+  "en": "The flashing red lights shown are found near a police checkpoint.",
+  "explain": {
+   "short": "These lights are used at level crossings, movable bridges and ferry piers, not at police checkpoints.",
+   "rule": "Flashing red lights = stop before the stop line. Used at level crossings without full barriers, movable bridges and ferry piers.",
+   "trap": "'posto di blocco della polizia' (police checkpoint) is not one of their places.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not for police checkpoints",
+    "it": "luci rosse",
+    "lines": [
+     "Level crossings, bridges, ferries",
+     "Not police checkpoints"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "in vicinanza di",
+    "en": "near"
+   },
+   {
+    "it": "posto di blocco della polizia",
+    "en": "police checkpoint"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21023": {
+  "en": "The flashing red lights shown oblige you to stop at the entrance of a narrow bridge.",
+  "explain": {
+   "short": "A narrow bridge has warning or priority signs, not these red lights. They are for movable bridges.",
+   "rule": "Flashing red lights = stop before the stop line. Used at level crossings without full barriers, movable bridges and ferry piers.",
+   "trap": "'ponte stretto' (narrow bridge) is the trap: the right word is 'ponte mobile' (movable bridge).",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Movable bridge yes, narrow bridge no",
+    "it": "ponte stretto",
+    "lines": [
+     "Movable bridge = flashing red",
+     "Narrow bridge = other signs"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "obbligano ad arrestarsi",
+    "en": "oblige you to stop"
+   },
+   {
+    "it": "ponte stretto",
+    "en": "narrow bridge"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21024": {
+  "en": "The flashing red lights shown indicate a compulsory exit from the motorway.",
+  "explain": {
+   "short": "These lights mean stop. A compulsory exit is shown with signs, not with these lights.",
+   "rule": "Flashing red lights = stop before the stop line. Used at level crossings without full barriers, movable bridges and ferry piers.",
+   "trap": "'uscita obbligatoria dall'autostrada' (compulsory motorway exit) has nothing to do with them.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Flashing red = stop, not motorway exit",
+    "it": "luci rosse",
+    "lines": [
+     "Flashing red = stop",
+     "Not a motorway exit"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "indicano",
+    "en": "indicate"
+   },
+   {
+    "it": "uscita obbligatoria",
+    "en": "compulsory exit"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21025": {
+  "en": "The flashing red lights shown are found 150 metres before a state border.",
+  "explain": {
+   "short": "These lights are not used at borders. They stand right at level crossings, movable bridges and ferry piers.",
+   "rule": "Flashing red lights = stop before the stop line. Used at level crossings without full barriers, movable bridges and ferry piers.",
+   "trap": "'confine di Stato' (state border) and '150 metri' are both invented here.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not used at state borders",
+    "it": "luci rosse",
+    "lines": [
+     "Level crossings, bridges, ferries",
+     "Not state borders"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "150 metri prima",
+    "en": "150 metres before"
+   },
+   {
+    "it": "confine di Stato",
+    "en": "state border"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21026": {
+  "en": "The flashing red lights shown indicate that the green light is about to come on.",
+  "explain": {
+   "short": "Flashing red means stop. It does not announce green.",
+   "rule": "Flashing red lights = stop before the stop line. Used at level crossings without full barriers, movable bridges and ferry piers.",
+   "trap": "'sta per accendersi la luce verde' (green is about to come on) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Flashing red = stop, not 'green soon'",
+    "it": "luci rosse",
+    "lines": [
+     "Flashing red = stop",
+     "Not a 'green soon' signal"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "indicano che",
+    "en": "indicate that"
+   },
+   {
+    "it": "sta per accendersi la luce verde",
+    "en": "green is about to come on"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21027": {
+  "en": "The traffic light shown can have the white horizontal light on.",
+  "explain": {
+   "short": "In the public transport light, the white horizontal bar means stop.",
+   "rule": "White bars and yellow triangle = light for public transport only: horizontal bar stop, vertical bar go, triangle like yellow.",
+   "trap": "'orizzontale' (horizontal) bar = stop for buses and trams.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Horizontal white bar = stop",
+    "it": "luce bianca",
+    "lines": [
+     "Bus and tram light",
+     "Horizontal bar = stop"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce bianca orizzontale",
+    "en": "white horizontal light"
+   },
+   {
+    "it": "può avere",
+    "en": "can have"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21028": {
+  "en": "The traffic light shown can have the white vertical light on.",
+  "explain": {
+   "short": "In the public transport light, the white vertical bar means go.",
+   "rule": "White bars and yellow triangle = light for public transport only: horizontal bar stop, vertical bar go, triangle like yellow.",
+   "trap": "'verticale' (vertical) bar = go for buses and trams.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Vertical white bar = go",
+    "it": "luce bianca",
+    "lines": [
+     "Bus and tram light",
+     "Vertical bar = go"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "luce bianca verticale",
+    "en": "white vertical light"
+   },
+   {
+    "it": "può avere",
+    "en": "can have"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21029": {
+  "en": "The light signal shown is a traffic light for public transport vehicles.",
+  "explain": {
+   "short": "White bars and a yellow triangle are used only for buses and trams.",
+   "rule": "White bars and yellow triangle = light for public transport only: horizontal bar stop, vertical bar go, triangle like yellow.",
+   "trap": "'trasporto pubblico' (public transport) is right: other vehicles ignore it.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Light for buses and trams only",
+    "it": "trasporto pubblico",
+    "lines": [
+     "Only for public transport",
+     "Cars ignore it"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "segnale luminoso",
+    "en": "light signal"
+   },
+   {
+    "it": "veicoli di trasporto pubblico",
+    "en": "public transport vehicles"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21030": {
+  "en": "The traffic light shown is a pedestrian light.",
+  "explain": {
+   "short": "Pedestrian lights show a walking person. This one, with white bars, is for buses and trams.",
+   "rule": "White bars and yellow triangle = light for public transport only: horizontal bar stop, vertical bar go, triangle like yellow.",
+   "trap": "'pedonale' (for pedestrians) is wrong.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a pedestrian light",
+    "it": "semaforo",
+    "lines": [
+     "White bars = buses and trams",
+     "Not for pedestrians"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "semaforo pedonale",
+    "en": "pedestrian light"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21031": {
+  "en": "The traffic light shown warns of roadworks.",
+  "explain": {
+   "short": "This light gives stop and go orders to buses and trams. It has nothing to do with roadworks.",
+   "rule": "White bars and yellow triangle = light for public transport only: horizontal bar stop, vertical bar go, triangle like yellow.",
+   "trap": "'lavori in corso' (roadworks) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not a roadworks warning",
+    "it": "semaforo",
+    "lines": [
+     "Buses and trams: stop or go",
+     "Not roadworks"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "preannuncia",
+    "en": "warns of"
+   },
+   {
+    "it": "lavori in corso",
+    "en": "roadworks"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21032": {
+  "en": "The traffic light shown indicates possible tram track switches.",
+  "explain": {
+   "short": "It tells buses and trams to stop or go. It does not show track switches.",
+   "rule": "White bars and yellow triangle = light for public transport only: horizontal bar stop, vertical bar go, triangle like yellow.",
+   "trap": "'scambi dei binari' (track switches) is invented.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not for tram track switches",
+    "it": "binari",
+    "lines": [
+     "Buses and trams: stop or go",
+     "Not track switches"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "scambi dei binari",
+    "en": "track switches"
+   },
+   {
+    "it": "tranviari",
+    "en": "tram"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21033": {
+  "en": "The traffic light shown makes motorcycles slow down when the yellow triangle is on.",
+  "explain": {
+   "short": "This light is only for public transport. Motorcycles follow the normal traffic lights.",
+   "rule": "White bars and yellow triangle = light for public transport only: horizontal bar stop, vertical bar go, triangle like yellow.",
+   "trap": "'ai motocicli' (to motorcycles) is wrong: it does not apply to them.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not for motorcycles",
+    "it": "triangolo giallo",
+    "lines": [
+     "Only buses and trams",
+     "Triangle = like yellow, for them"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "impone ai motocicli",
+    "en": "makes motorcycles"
+   },
+   {
+    "it": "triangolo giallo",
+    "en": "yellow triangle"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ },
+ "q21034": {
+  "en": "The traffic light shown applies to vehicles with military number plates.",
+  "explain": {
+   "short": "This light is for public transport vehicles, not for military vehicles.",
+   "rule": "White bars and yellow triangle = light for public transport only: horizontal bar stop, vertical bar go, triangle like yellow.",
+   "trap": "'targa militare' (military plates) is the trap.",
+   "scene": "figure",
+   "sceneParams": {
+    "verdict": "ok",
+    "caption": "Not for military vehicles",
+    "it": "semaforo",
+    "lines": [
+     "Only buses and trams",
+     "Not military vehicles"
+    ]
+   }
+  },
+  "keywords": [
+   {
+    "it": "vale per",
+    "en": "applies to"
+   },
+   {
+    "it": "targa militare",
+    "en": "military number plates"
+   }
+  ],
+  "review": false,
+  "reviewNote": ""
+ }
+}
