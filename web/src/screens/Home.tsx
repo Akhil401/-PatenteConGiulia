@@ -8,13 +8,14 @@ import { Ring } from '../components/Ring'
 
 
 interface IndexCh { id: string; n: number; titleIt: string; titleEn: string; count: number }
-type Stats = { total: number; seen: number; known: number; mistakes: number }
+type Stats = { total: number; seen: number; known: number; mistakes: number; at: number }
 
 export default function Home() {
   const [index, setIndex] = useState<{ chapters: IndexCh[]; totalQuestions: number; source: string } | null>(null)
   const [ready, setReady] = useState<Set<string>>(new Set())
   const [stats, setStats] = useState<Record<string, Stats>>({})
   const [noVoice, setNoVoice] = useState(false)
+  const [ids, setIds] = useState<Record<string, string[]>>({})
 
   useEffect(() => {
     let live = true
@@ -24,9 +25,9 @@ export default function Home() {
       const ids: Record<string, string[]> = {}
       for (const [id, ch] of (qb as { q: [string, string][] }).q) (ids[ch] = ids[ch] || []).push(id)
       const st: Record<string, Stats> = {}
-      for (const id of rd.chapters) st[id] = store.chapterStats(ids[id] || []) as Stats
+      for (const id of rd.chapters) st[id] = { ...store.chapterStats(ids[id] || []), at: store.chapterAt(id, ids[id] || []) } as Stats
       if (!live) return
-      setIndex(idx); setReady(new Set(rd.chapters)); setStats(st)
+      setIndex(idx); setReady(new Set(rd.chapters)); setStats(st); setIds(ids)
       const vi = await voiceInfo()
       if (live) setNoVoice(!vi.supported || !vi.it)
     })()
@@ -38,7 +39,12 @@ export default function Home() {
   const hour = new Date().getHours()
   const hello = hour < 12 ? 'Buongiorno!' : hour < 18 ? 'Ciao!' : 'Buonasera!'
   const readyCh = index ? index.chapters.filter(c => ready.has(c.id)) : []
-  const next = readyCh.find(c => stats[c.id] && stats[c.id].known < stats[c.id].total) || readyCh[0]
+  const next = readyCh.find(c => stats[c.id] && stats[c.id].at < stats[c.id].total) || readyCh[0]
+  const restart = (c: IndexCh) => {
+    if (!confirm(`Start chapter ${c.n} again from question 1?\n\nYour answers in this chapter will be cleared. Other chapters and your exam results stay.`)) return
+    store.restartChapter(c.id, ids[c.id] || [])
+    location.hash = `#/learn/${c.id}/go`
+  }
 
   return (
     <div>
@@ -54,8 +60,8 @@ export default function Home() {
           </div>
         </div>
         <Giulia state="idle" />
-        {next && <a className="btn yellow hero-cta" href={`#/learn/${next.id}`}>
-          <span>{stats[next.id]?.seen ? 'Continue' : 'Start'} · {next.titleEn.split(/[,(;]/)[0]}</span><span className="arr">→</span></a>}
+        {next && <a className="btn yellow hero-cta" href={`#/learn/${next.id}${stats[next.id]?.at ? '/go' : ''}`}>
+          <span>{stats[next.id]?.at ? `Resume · question ${Math.min(stats[next.id].at + 1, stats[next.id].total)}` : 'Start'} · {next.titleEn.split(/[,(;]/)[0]}</span><span className="arr">→</span></a>}
       </section>
 
       {readyCh.length > 0 && (() => {
@@ -90,20 +96,23 @@ export default function Home() {
       <div className="chapters">
         {readyCh.map((c, i) => {
           const s = stats[c.id]; const pct = s ? s.known / s.total : 0
+          const at = s?.at || 0, total = s?.total || c.count, finished = at >= total
           return (
             <motion.div key={c.id} className="chapter ready"
               initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .05 * i, type: 'spring', stiffness: 300, damping: 24 }}>
               <a className="ch-main" href={`#/learn/${c.id}`}>
                 <span className="ico">{c.n}</span>
                 <span><span className="t">{c.titleEn}</span><span className="it">{c.titleIt}</span>
-                  <span className="meta">{c.count} questions{s?.mistakes ? <> · <b>{s.mistakes} to fix</b></> : null}</span></span>
+                  <span className="meta">{finished ? <>Finished ✓</> : at > 0 ? <>At question <em className="at">{at + 1}</em> of {total}</> : <>{total} questions</>}
+                    {s?.mistakes ? <> · <b>{s.mistakes} to fix</b></> : null}</span></span>
                 <span className="pct">{Math.round(pct * 100)}%<small>known</small></span>
               </a>
-              <div className="ch-actions">
-                <a className="ch-btn" href={`#/learn/${c.id}`}>{s?.seen ? 'Continue' : 'Learn'}</a>
+              <span className="line"><i style={{ width: `${Math.max(pct * 100, pct > 0 ? 2 : 0)}%` }} /><i className="reach" style={{ width: `${Math.min(100, (100 * at) / total)}%` }} /></span>
+              <div className={`ch-actions ${at > 0 ? 'three' : ''}`}>
+                <a className="ch-btn go" href={`#/learn/${c.id}${at > 0 && !finished ? '/go' : ''}`}>{finished ? 'Review' : at > 0 ? <>Resume<span aria-hidden="true">▸</span></> : 'Learn'}</a>
+                {at > 0 && <button className="ch-btn again" onClick={() => restart(c)} aria-label={`Start ${c.titleEn} over from question 1`}>↺ Start over</button>}
                 <a className="ch-btn quiz" href={`#/exam/${c.id}`} aria-label={`Quiz: 30 random questions from ${c.titleEn}`}>Quiz 30<span aria-hidden="true">⏱</span></a>
               </div>
-              <span className="line"><i style={{ width: `${Math.max(pct * 100, pct > 0 ? 2 : 0)}%` }} /></span>
             </motion.div>
           )
         })}

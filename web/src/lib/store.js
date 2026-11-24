@@ -69,10 +69,11 @@ export const store = {
   q(id) { return state.q[id]; },
 
   /** Record an answer. dunno = "I don't understand" (counts as not known). */
-  record(id, correct) {
+  record(id, correct, pick) {
     const t = today();
     const r = state.q[id] || { n: 0, ok: 0, ko: 0, box: 0 };
     r.n++; r.last = t;
+    if (pick !== undefined) r.p = pick;   // the learner's last answer: true / false / null (= "I don't understand")
     if (correct) { r.ok++; r.box = Math.min(5, (r.box || 0) + 1); r.lastOk = true; }
     else { r.ko++; r.box = 1; r.lastOk = false; }
     r.due = addDays(t, INTERVAL_DAYS[r.box]);
@@ -111,6 +112,26 @@ export const store = {
   /** Mark a question as seen for the first time in this chapter; returns how many are seen. */
   markSeen(ch, id) { const c = store.ck(ch); if (!c.seen.includes(id)) { c.seen.push(id); save(); } return c.seen.length; },
   setQuizzed(ch, n) { store.ck(ch).quizzedAt = n; save(); },
+
+  // ---- where the learner is in a chapter (index in the official question order) ----
+  /** Index of the question to resume at. ids = the chapter's questions in official order. */
+  chapterAt(ch, ids) {
+    const at = state.at && state.at[ch];
+    if (typeof at === "number") return Math.min(at, ids.length);
+    // older progress (before positions were saved): just after the last question learned in this chapter
+    const seen = new Set((state.ck && state.ck[ch] && state.ck[ch].seen) || []);
+    let last = -1; ids.forEach((id, i) => { if (seen.has(id)) last = i; });
+    return last + 1;
+  },
+  /** Move the resume point forward (never back: looking at earlier questions keeps your place). */
+  reachChapter(ch, n) { state.at = state.at || {}; if (!(state.at[ch] >= n)) { state.at[ch] = n; save(); } },
+  /** Start a chapter again from question 1: clears this chapter's answers, checkpoints and place. */
+  restartChapter(ch, ids) {
+    for (const id of ids) delete state.q[id];
+    if (state.ck) delete state.ck[ch];
+    state.at = state.at || {}; state.at[ch] = 0;
+    save();
+  },
   /** Exam-style quiz result. scope = chapter id or "mock" (all ready chapters). */
   addExam(scope, size, right, secs) { state.exams = state.exams || []; state.exams.push({ scope, size, right, secs, date: today() }); save(); },
   exams(scope) { return (state.exams || []).filter(e => e.scope === scope); },

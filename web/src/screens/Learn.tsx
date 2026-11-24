@@ -25,24 +25,40 @@ type Result = { pick: boolean | null; correct: boolean }
 type Overlay = null | { kind: 'sheet'; q: Question; ok: boolean; reviewing: boolean } | { kind: 'explain'; q: Question; wasRight: boolean; dunno: boolean; after: () => void }
 type Mode = 'loading' | 'intro' | 'question' | 'checkpoint' | 'quiz' | 'quizDone' | 'done'
 
-export default function Learn({ chId }: { chId: string }) {
+/** Earlier answers from the saved progress, so going back shows them (index = position in the official order). */
+function savedResults(all: Question[]): Result[] {
+  return all.map(q => {
+    const r = store.q(q.id) as any
+    if (!r) return undefined as unknown as Result
+    const pick = r.p !== undefined ? r.p : (r.lastOk ? q.answer : !q.answer)
+    return { pick, correct: !!r.lastOk }
+  })
+}
+
+export default function Learn({ chId, go }: { chId: string; go?: boolean }) {
   const settings = useSettings()
   const [ch, setCh] = useState<Chapter | null>(null)
   const [aux, setAux] = useState<{ glossary: any; dict: any; intro: any }>({ glossary: { terms: [] }, dict: { words: {} }, intro: {} })
   const [mode, setMode] = useState<Mode>('loading')
   const [, force] = useReducer((x: number) => x + 1, 0)
-  const S = useRef({ queue: [] as string[], pos: 0, right: 0, wrong: 0, wrongIds: new Set<string>(), requeued: new Set<string>(), results: [] as Result[], combo: 0, checkpoint: 0, dir: 0 }).current
+  // main = the whole chapter in the official order (your place is saved); otherwise a round of your mistakes
+  const S = useRef({ queue: [] as string[], pos: 0, main: true, right: 0, wrong: 0, wrongIds: new Set<string>(), requeued: new Set<string>(), results: [] as Result[], combo: 0, checkpoint: 0, dir: 0 }).current
   const [overlay, setOverlay] = useState<Overlay>(null)
+
+  const startMain = (all: Question[]) => {
+    S.main = true; S.queue = all.map(q => q.id); S.results = savedResults(all)
+    const at = store.chapterAt(chId, S.queue) as number
+    S.pos = at >= S.queue.length ? 0 : at   // finished chapter: look through it again from the start
+    S.right = 0; S.wrong = 0; S.wrongIds = new Set(); S.requeued = new Set(); S.combo = 0; S.checkpoint = 0; S.dir = 0
+  }
 
   useEffect(() => {
     let live = true
     Promise.all([data.chapter(chId), data.glossary(), data.dict(chId), data.intros().catch(() => ({}))]).then(([c, gl, di, intros]) => {
       if (!live) return
       const chapter = c as Chapter
-      const all = chapter.questions.filter(q => !q.hidden)
-      const todo = all.filter(q => !store.isKnown(q.id))
-      S.queue = (todo.length ? todo : all).map(q => q.id)
-      setCh(chapter); setAux({ glossary: gl, dict: di, intro: (intros as any)[chId] || {} }); setMode('intro')
+      startMain(chapter.questions.filter(q => !q.hidden))
+      setCh(chapter); setAux({ glossary: gl, dict: di, intro: (intros as any)[chId] || {} }); setMode(go ? 'question' : 'intro')
     })
     return () => { live = false; stopSpeech() }
   }, [chId])
@@ -51,21 +67,24 @@ export default function Learn({ chId }: { chId: string }) {
   if (!ch || mode === 'loading') return <div className="card">Loading…</div>
   const all = ch.questions.filter(q => !q.hidden)
 
+  const restart = () => {
+    if (!confirm(`Start chapter ${ch.n} again from question 1?\n\nYour answers in this chapter will be cleared. Other chapters and your exam results stay.`)) return
+    store.restartChapter(chId, all.map(q => q.id))
+    startMain(all); setOverlay(null); setMode('question'); force()
+  }
   const nextQuestion = () => {
     setOverlay(null)
-    if (S.checkpoint) { setMode('checkpoint'); return }
+    if (S.checkpoint) { S.checkpoint = 0; setMode('checkpoint'); return }
     goNext()
   }
   const goNext = () => {
     const answered = !!S.results[S.pos]
-    if (!answered && S.pos < S.queue.length - 1) {
-      const [id] = S.queue.splice(S.pos, 1); S.queue.push(id)
-      toast('Skipped. It will come back later.')
-      S.dir = 1; setMode('question'); force(); return
+    if (S.pos >= S.queue.length - 1) {
+      if (!answered) { toast('Answer this one to finish 🙂'); return }
+      setMode('done'); return
     }
-    if (!answered) { toast('Answer this one to finish 🙂'); return }
     S.pos++; S.dir = 1
-    if (S.pos >= S.queue.length) { setMode('done'); return }
+    if (S.main) store.reachChapter(chId, S.pos)
     setMode('question'); force()
   }
   const goPrev = () => {
@@ -75,9 +94,10 @@ export default function Learn({ chId }: { chId: string }) {
 
   const content = (() => {
     switch (mode) {
-      case 'intro': return <Intro ch={ch} intro={aux.intro} all={all} onStart={() => { S.dir = 0; setMode('question') }} />
+      case 'intro': return <Intro ch={ch} intro={aux.intro} all={all} pos={S.pos} onStart={() => { S.dir = 0; setMode('question') }} onRestart={restart} />
       case 'question': return <QuestionView key={S.queue[S.pos] + ':' + S.pos} q={byId.get(S.queue[S.pos])!} S={S} ch={ch} aux={aux} settings={settings}
         onAnswered={(q, r) => {
+          if (S.main) store.reachChapter(chId, Math.min(S.pos + 1, S.queue.length))
           if (r.correct) setOverlay({ kind: 'sheet', q, ok: true, reviewing: false })
           else setTimeout(() => setOverlay({ kind: 'explain', q, wasRight: false, dunno: r.pick === null, after: nextQuestion }), r.pick === null ? 200 : 900)
         }}
@@ -87,9 +107,9 @@ export default function Learn({ chId }: { chId: string }) {
         onLater={() => { store.setQuizzed(chId, store.ck(chId).seen.length); goNext() }} />
       case 'quiz': return <Quiz ids={quizSet(chId, byId)} byId={byId} ch={ch} chId={chId} onExplain={(q, after) => setOverlay({ kind: 'explain', q, wasRight: false, dunno: false, after })}
         onFinish={() => goNext()} />
-      case 'done': return <Done S={S} all={all} chId={chId} onAgain={() => {
-        S.queue = [...S.wrongIds]; S.pos = 0; S.right = 0; S.wrong = 0; S.wrongIds = new Set(); S.requeued = new Set(S.queue); S.results = []; S.dir = 1; setMode('question')
-      }} />
+      case 'done': return <Done S={S} all={all} onAgain={ids => {
+        S.main = false; S.queue = ids; S.pos = 0; S.right = 0; S.wrong = 0; S.wrongIds = new Set(); S.requeued = new Set(S.queue); S.results = []; S.dir = 1; setMode('question')
+      }} onRestart={restart} />
       default: return null
     }
   })()
@@ -120,8 +140,9 @@ export default function Learn({ chId }: { chId: string }) {
 }
 
 // ---------- intro ----------
-function Intro({ ch, intro, all, onStart }: { ch: Chapter; intro: any; all: Question[]; onStart: () => void }) {
+function Intro({ ch, intro, all, pos, onStart, onRestart }: { ch: Chapter; intro: any; all: Question[]; pos: number; onStart: () => void; onRestart: () => void }) {
   const st = store.chapterStats(all.map(q => q.id)) as { total: number; seen: number; known: number; mistakes: number }
+  const finished = (store.chapterAt(ch.id, all.map(q => q.id)) as number) >= all.length
   return (
     <div>
       <section className="hero" style={{ gridTemplateColumns: '1fr 130px' }}>
@@ -137,7 +158,9 @@ function Intro({ ch, intro, all, onStart }: { ch: Chapter; intro: any; all: Ques
         </ul>
         <div className="bar"><i style={{ width: `${Math.round(100 * st.known / st.total)}%` }} /></div>
         <p className="muted small" style={{ margin: 0 }}>{all.length} questions · you know {st.known} · {st.mistakes} to fix.</p>
-        <motion.button className="btn primary block" style={{ minHeight: 56, fontSize: '1.05rem' }} whileTap={{ scale: .96 }} onClick={onStart}>{st.seen ? 'Continue' : "Let's start"} →</motion.button>
+        <motion.button className="btn primary block" style={{ minHeight: 56, fontSize: '1.05rem' }} whileTap={{ scale: .96 }} onClick={onStart}>
+          {finished ? 'Look through it again' : pos > 0 ? `Continue from question ${pos + 1}` : "Let's start"} →</motion.button>
+        {(pos > 0 || st.seen > 0) && <button className="btn block" onClick={onRestart}>↺ Start over from question 1</button>}
         <a className="btn ghost block" href="#/">Back to chapters</a>
       </div>
     </div>
@@ -209,7 +232,7 @@ function QuestionView({ q, S, ch, aux, settings, chId, onAnswered, onReview, onN
     S.answeredOnce = true
     const correct = choice === q.answer
     const firstTime = !store.q(q.id)
-    store.record(q.id, correct)
+    store.record(q.id, correct, choice)
     if (firstTime) {
       const n = store.markSeen(chId, q.id)
       if (n % 10 === 0 && n > store.ck(chId).quizzedAt) S.checkpoint = n
@@ -226,7 +249,8 @@ function QuestionView({ q, S, ch, aux, settings, chId, onAnswered, onReview, onN
       confetti(document.querySelector(choice ? '#aV' : '#aF'), combo ? 60 : 22)
     } else {
       S.wrong++; S.combo = 0; S.wrongIds.add(q.id)
-      if (!S.requeued.has(q.id)) { S.requeued.add(q.id); S.queue.splice(Math.min(S.queue.length, S.pos + 6), 0, q.id) }
+      // in a mistakes round a wrong answer comes back a few questions later (the main chapter keeps the official order)
+      if (!S.main && !S.requeued.has(q.id)) { S.requeued.add(q.id); S.queue.splice(Math.min(S.queue.length, S.pos + 6), 0, q.id) }
       setG(choice === null ? 'explain' : 'sad')
       talk(choice === null ? "Of course! Let's look at it together 👇" : pick(LINES.wrong))
       if (choice !== null) { setShake(true); if (settings.sound) sound.wrong(); try { navigator.vibrate?.([30, 40, 30]) } catch { /* ignore */ } }
@@ -386,7 +410,7 @@ function Quiz({ ids: initialIds, byId, chId, onExplain, onFinish }: { ids: strin
       <div className="answers"><div className="two">
         {[true, false].map(v => (
           <motion.button key={String(v)} className={`ans ${v ? 'vero' : 'falso'}`} whileTap={{ y: 4 }} onClick={() => {
-            stopSpeech(); const correct = v === q.answer; store.record(q.id, correct)
+            stopSpeech(); const correct = v === q.answer; store.record(q.id, correct, v)
             setRes(r => [...r, { id: q.id, pick: v, correct }]); if (settings.sound) sound.tick(); setI(x => x + 1)
           }}><span className="ic">{v ? '✓' : '✕'}</span><span>{v ? 'VERO' : 'FALSO'}<small>{v ? 'true' : 'false'}</small></span></motion.button>))}
       </div></div>
@@ -395,21 +419,23 @@ function Quiz({ ids: initialIds, byId, chId, onExplain, onFinish }: { ids: strin
 }
 
 // ---------- end of round ----------
-function Done({ S, all, chId, onAgain }: { S: any; all: Question[]; chId: string; onAgain: () => void }) {
-  const total = S.right + S.wrong, pct = total ? S.right / total : 0
+function Done({ S, all, onAgain, onRestart }: { S: any; all: Question[]; onAgain: (ids: string[]) => void; onRestart: () => void }) {
   const st = store.chapterStats(all.map(q => q.id)) as { total: number; known: number; mistakes: number }
+  // this session's score; if nothing was answered this time, the chapter as a whole
+  const total = S.right + S.wrong ? S.right + S.wrong : st.total, right = S.right + S.wrong ? S.right : st.known, pct = total ? right / total : 0
+  const mistakes = all.filter(q => store.isMistake(q.id)).map(q => q.id)
   const ring = useRef<HTMLDivElement>(null)
   useEffect(() => { if (store.settings.sound) sound.done(); if (pct >= .7) setTimeout(() => confetti(ring.current, 60), 300) }, [])
   return (
     <div className="card done stack">
       <Giulia state={pct >= .7 ? 'celebrate' : 'happy'} />
-      <div ref={ring}><Ring pct={pct} size={140} stroke={12} color={pct >= .7 ? 'var(--ok)' : 'var(--primary)'} label={`${S.right}/${total}`} /></div>
+      <div ref={ring}><Ring pct={pct} size={140} stroke={12} color={pct >= .7 ? 'var(--ok)' : 'var(--primary)'} label={`${right}/${total}`} /></div>
       <h2>{pct >= .9 ? 'Bravissimo! 🎉' : pct >= .7 ? 'Very good! 💪' : 'Good effort! 🌱'}</h2>
       <p className="muted">{pct >= .9 ? 'You really know this chapter.' : pct >= .7 ? "A few more rounds and you've got it." : "Every mistake you see now is one you won't make in the exam."}</p>
       <p className="small muted">Chapter: you know {st.known} of {st.total}{st.mistakes ? ` · ${st.mistakes} to fix` : ''}.</p>
-      {S.wrongIds.size > 0 && <button className="btn primary block" onClick={onAgain}>Practise my {S.wrongIds.size} mistake{S.wrongIds.size > 1 ? 's' : ''} again</button>}
-      {st.known < st.total && <a className={`btn ${S.wrongIds.size ? '' : 'primary'} block`} href={`#/learn/${chId}?r=${Date.now()}`} onClick={() => setTimeout(() => (location.hash = `#/learn/${chId}`), 0)}>Continue the chapter</a>}
-      <a className="btn ghost block" href="#/">Back to chapters</a>
+      {mistakes.length > 0 && <button className="btn primary block" onClick={() => onAgain(mistakes)}>Practise my {mistakes.length} mistake{mistakes.length > 1 ? 's' : ''} again</button>}
+      {S.main && <button className="btn block" onClick={onRestart}>↺ Start over from question 1</button>}
+      <a className={`btn ${mistakes.length ? 'ghost' : 'primary'} block`} href="#/">Back to chapters</a>
     </div>
   )
 }

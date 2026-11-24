@@ -30,10 +30,10 @@ export default function App() {
   const hash = useHash()
   useEffect(applyTheme, [])
   let screen: React.ReactNode
-  const m = hash.match(/^#\/learn\/(ch\d\d)$/)
+  const m = hash.match(/^#\/learn\/(ch\d\d)(\/go)?$/)   // /go = straight to your question (skip the chapter intro)
   const ex = hash.match(/^#\/exam\/(ch\d\d|mock)$/)
   const dev = hash.match(/^#\/dev3d\/(q\d+)(?:\/(it|en))?$/)
-  if (m) screen = <Learn chId={m[1]} key={m[1]} />
+  if (m) screen = <Learn chId={m[1]} go={!!m[2]} key={m[1]} />
   else if (ex) screen = <Exam scope={ex[1]} key={ex[1]} />
   else if (dev) screen = <Dev3D qid={dev[1]} lang={dev[2] || 'en'} key={hash} />
   else if (hash === '#/settings') screen = <Settings />
